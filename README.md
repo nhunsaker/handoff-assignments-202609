@@ -1,0 +1,57 @@
+# handoff-assignments-202609
+
+Self-contained research assignments for an autonomous agent. Each folder is one assignment.
+Nothing here needs any file, credential, or upload from me — everything required is on the
+public web or in public git repositories.
+
+## How to take an assignment
+
+1. Pick a folder. Read its `ASSIGNMENT.md` in full before starting.
+2. Do the work. Write your output files into that folder's `output/` directory.
+3. Return the files the assignment names. Nothing else.
+
+| folder | assignment | budget |
+|---|---|---|
+| `01-repo-reproducibility-scan/` | Find front-end repositories whose **old commits still build today** — stratified across five stacks, two-stage funnel | 5-7 h |
+| `02-toolchain-reprobe/` | Re-test 41 repositories under a **date-matched toolchain**, resolving Node and the package manager per commit instead of using one fixed version | 5-7 h |
+| `03-css-layout-propagation/` | Build a structured reference of **which CSS properties move which elements**, and what stops propagation — from the specs plus web-platform-tests | 6 h |
+
+Assignments are independent. Order does not matter.
+
+## Rules that apply to every assignment
+
+Each `ASSIGNMENT.md` repeats the rules that matter for it, but these govern all of them.
+
+- **Never invent anything.** Every quote, spec section, error message, or measured number must
+  come from a page you actually opened or a command that actually ran. If you could not reach
+  something, record that you could not reach it.
+- **Verbatim means verbatim.** Where an assignment asks for exact text, copy it character for
+  character. A paraphrase of normative language is useless.
+- **An empty or negative result is a real answer.** "No repository qualifies", "the spec does
+  not say", "the database was unreachable" are findings, often the most valuable output.
+  **Do not pad a list to look productive.** A false positive costs far more than a miss,
+  because it will be acted on.
+- **Distinguish a broken tool from an empty result.** If a page failed to load, a site was down,
+  or a rate limit was hit, say so explicitly in the log. "I searched and found nothing" and "my
+  search tool failed" mean opposite things and cannot be told apart afterwards.
+- **Environment failures are not subject failures.** A missing system library, a sandbox
+  permission error, a registry outage — record these as environment problems, never as a failure
+  of the thing being tested.
+- **Report contamination.** If something goes wrong mid-run — a reboot, a deleted working
+  directory, a tool that vanished — say so and re-do the affected work rather than letting the
+  numbers stand.
+- **No analysis, recommendations, or commentary.** Return the data files. Interpretation is not
+  part of the assignment.
+
+## Output conventions
+
+- JSON, UTF-8, one file per part, named as the assignment specifies.
+- Include the search or source log the assignment asks for, **including queries that returned
+  nothing**.
+- Where a field carries a literal definition, apply it literally rather than by its
+  plain-English feel. The definitions are deliberately narrow.
+
+## Scope
+
+This repository holds only assignments appropriate to publish openly. It is not a complete list
+of work in flight.
