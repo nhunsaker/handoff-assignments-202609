@@ -1,0 +1,343 @@
+{
+  "repos": [
+    "midudev/jsconf.es",
+    "11ty/eleventy-base-blog",
+    "mrsibe/KnowNote"
+  ],
+  "pairs_total": 144,
+  "pairs_per_repo": {
+    "midudev/jsconf.es": 100,
+    "11ty/eleventy-base-blog": 4,
+    "mrsibe/KnowNote": 40
+  },
+  "elements_scored_total": 140774,
+  "pooled_by_pair": {
+    "positional": {
+      "stable": 0.9867454229081347,
+      "aliased": 0.003916997260136663,
+      "ambiguous": 0.00015864301733600885,
+      "vanished": 0.009178936814392606
+    },
+    "id-anchored": {
+      "stable": 0.97168090123059,
+      "aliased": 0.003130453995292347,
+      "ambiguous": 0.009523197429014122,
+      "vanished": 0.015665447345103625
+    },
+    "class-anchored": {
+      "stable": 0.9715783317050943,
+      "aliased": 0.0038364444883434872,
+      "ambiguous": 0.005510063688739068,
+      "vanished": 0.019075160117823106
+    },
+    "attribute-anchored": {
+      "stable": 0.7885480888047991,
+      "aliased": 0.0016004338565553354,
+      "ambiguous": 0.20587977545588299,
+      "vanished": 0.0039717018827625065
+    },
+    "text-anchored": {
+      "stable": 0.9926397970133576,
+      "aliased": 0.0008338161348895579,
+      "ambiguous": 7.5459182227034e-05,
+      "vanished": 0.0064509276695258
+    }
+  },
+  "note_pooled_by_pair": "each pair contributes equally regardless of element count (weighted by pair, not by element)",
+  "per_strategy_summary": {
+    "positional": {
+      "median_stable_rate_across_pairs": 0.9984962406015038,
+      "pairs_scored": 144,
+      "list_gained_child_stable_rate": null
+    },
+    "id-anchored": {
+      "median_stable_rate_across_pairs": 0.9854685406812161,
+      "pairs_scored": 144,
+      "list_gained_child_stable_rate": null
+    },
+    "class-anchored": {
+      "median_stable_rate_across_pairs": 0.9977443609022556,
+      "pairs_scored": 144,
+      "list_gained_child_stable_rate": null
+    },
+    "attribute-anchored": {
+      "median_stable_rate_across_pairs": 0.7233082706766917,
+      "pairs_scored": 144,
+      "list_gained_child_stable_rate": null
+    },
+    "text-anchored": {
+      "median_stable_rate_across_pairs": 0.997229916897507,
+      "pairs_scored": 104,
+      "list_gained_child_stable_rate": null
+    }
+  },
+  "list_gained_child_pairs_observed": 0,
+  "list_lost_child_pairs_observed": 0,
+  "note_list_change": "no pair in any repo had a before-side ul/ol gain or lose children, so the list-change-specific rate could not be measured; the expected positional-aliasing failure mode on list insertion was not exercised by these commits",
+  "text_anchored_discard_rate_overall": 0.7108414906161649,
+  "text_anchored_discarded_total": 100068,
+  "per_repo": {
+    "midudev/jsconf.es": {
+      "pairs": 100,
+      "elements_scored": 138309,
+      "by_strategy": {
+        "positional": {
+          "stable": 0.9819896029904055,
+          "aliased": 0.004721312423631145,
+          "ambiguous": 0.00024582637427788504,
+          "vanished": 0.013043258211685428
+        },
+        "id-anchored": {
+          "stable": 0.9701754766501095,
+          "aliased": 0.004244120050032898,
+          "ambiguous": 0.013730126022167754,
+          "vanished": 0.01185027727768981
+        },
+        "class-anchored": {
+          "stable": 0.969676593714075,
+          "aliased": 0.00430919173734175,
+          "ambiguous": 0.00021690562436283973,
+          "vanished": 0.025797308924220407
+        },
+        "attribute-anchored": {
+          "stable": 0.6999833705687989,
+          "aliased": 0.0019087694943929897,
+          "ambiguous": 0.2932564041385593,
+          "vanished": 0.004851455798248848
+        },
+        "text-anchored": {
+          "stable": 0.9937584874125144,
+          "aliased": 0.00010446046171524079,
+          "ambiguous": 7.834534628643058e-05,
+          "vanished": 0.006058706779483966
+        }
+      },
+      "text_anchored_discard_rate": 0.7231416610632714,
+      "worst_pairs": [
+        {
+          "before": "073960ce156af4e39ee6da6e2b89730cd0d0b809",
+          "after": "8ff8d47be626ea371caa16e58c000d764edd9941",
+          "positional_aliased_rate": 0.06890012642225031,
+          "what_changed": "/codigo-de-conducta: 129->129 els; /: 1035->1012 els; /legal: 195->195 els; /privacidad: 223->223 els"
+        },
+        {
+          "before": "c9ef5c22c72e08394d989bc6e2ba79a79cbe66cc",
+          "after": "d0d0af619c07e9d1032f425f8127f349aa0ad1bb",
+          "positional_aliased_rate": 0.06536438767843726,
+          "what_changed": "/: 895->912 els; /legal: 204->204 els; /privacidad: 232->232 els"
+        },
+        {
+          "before": "4c10892e98b9af12b86ecff4517be65468272c16",
+          "after": "4d2039b37f74ee044bef58494787234276c77dcd",
+          "positional_aliased_rate": 0.0399746192893401,
+          "what_changed": "/codigo-de-conducta: 129->114 els; /: 1029->970 els; /legal: 195->180 els; /privacidad: 223->208 els"
+        },
+        {
+          "before": "5c652183e5288279886ab80983aac4f6e9419e94",
+          "after": "22ac872f1696ca08e4734e88c17c7cb2103f7ad4",
+          "positional_aliased_rate": 0.024374599101988453,
+          "what_changed": "/codigo-de-conducta: 129->129 els; /: 1012->1029 els; /legal: 195->195 els; /privacidad: 223->223 els"
+        },
+        {
+          "before": "3dde86d26b810678e23d693e4ce5a6f824a222aa",
+          "after": "55b8469e92a2561958aa51a29bc91528f90014ff",
+          "positional_aliased_rate": 0.019372077488309953,
+          "what_changed": "/codigo-de-conducta: 129->129 els; /: 950->950 els; /legal: 195->195 els; /privacidad: 223->223 els"
+        },
+        {
+          "before": "e4e4f52821267ee8ee78366fb579f32908c31d50",
+          "after": "99505adc4daf9f527770245fd8182848f471255a",
+          "positional_aliased_rate": 0.018036072144288578,
+          "what_changed": "/codigo-de-conducta: 129->129 els; /: 950->1035 els; /legal: 195->195 els; /privacidad: 223->223 els"
+        },
+        {
+          "before": "8df897a9ac33a62e429d27dda9848aaf1eb6b7c1",
+          "after": "a29e49d9f8c1edfd603a794dbc4a7b36872f3c0e",
+          "positional_aliased_rate": 0.009767092411720512,
+          "what_changed": "/: 895->895 els; /legal: 204->204 els; /privacidad: 232->232 els"
+        },
+        {
+          "before": "0fd235f8dcfb449fedf751f55fd5e4e71e1be5fa",
+          "after": "e6357747ce8d0217a64a53fbd3c362bf94ff3bd7",
+          "positional_aliased_rate": 0.00944767441860465,
+          "what_changed": "/: 938->935 els; /legal: 205->203 els; /privacidad: 233->231 els"
+        },
+        {
+          "before": "809774a01e5e49cdc611355dda105bb676b3ed56",
+          "after": "15c49f7f7fb97673f741252547b0ff4a7c163efe",
+          "positional_aliased_rate": 0.009296148738379814,
+          "what_changed": "/codigo-de-conducta: 134->140 els; /: 936->938 els; /legal: 204->206 els; /privacidad: 232->234 els"
+        },
+        {
+          "before": "30074c5ef965e644179c12a98dccbcb3e00da4b7",
+          "after": "cdd4b40d2e97b29cd291ada70cc120786974213d",
+          "positional_aliased_rate": 0.007518796992481203,
+          "what_changed": "/: 894->878 els; /legal: 204->204 els; /privacidad: 232->232 els"
+        }
+      ]
+    },
+    "11ty/eleventy-base-blog": {
+      "pairs": 4,
+      "elements_scored": 2385,
+      "by_strategy": {
+        "positional": {
+          "stable": 0.9563941299790356,
+          "aliased": 0.028092243186582808,
+          "ambiguous": 0,
+          "vanished": 0.01551362683438155
+        },
+        "id-anchored": {
+          "stable": 0.7115303983228511,
+          "aliased": 0.01090146750524109,
+          "ambiguous": 0,
+          "vanished": 0.27756813417190773
+        },
+        "class-anchored": {
+          "stable": 0.7366876310272537,
+          "aliased": 0.03480083857442348,
+          "ambiguous": 0.1928721174004193,
+          "vanished": 0.03563941299790356
+        },
+        "attribute-anchored": {
+          "stable": 0.8746331236897275,
+          "aliased": 0.013417190775681341,
+          "ambiguous": 0.08553459119496855,
+          "vanished": 0.026415094339622643
+        },
+        "text-anchored": {
+          "stable": 0.9586466165413534,
+          "aliased": 0.019548872180451128,
+          "ambiguous": 0,
+          "vanished": 0.02180451127819549
+        }
+      },
+      "text_anchored_discard_rate": 0.021383647798742137,
+      "worst_pairs": [
+        {
+          "before": "3b870d5914b39d906df17ca43930cd57685d0b5b",
+          "after": "8f9ffe41dd9f05d9413c63d43a551e29aa2d576f",
+          "positional_aliased_rate": 0.0641025641025641,
+          "what_changed": "Upgrade deps, use HTML autobundler for <style> and <script> tags -> Add note about an obscure error; change_kind=no_list_change"
+        },
+        {
+          "before": "57fdcca03fe7de215cadfdff952ffbe1fadfab69",
+          "after": "3b870d5914b39d906df17ca43930cd57685d0b5b",
+          "positional_aliased_rate": 0.04599659284497445,
+          "what_changed": "Make skip link visible on focus -> Upgrade deps, use HTML autobundler for <style> and <script> tags; change_kind=no_list_change"
+        },
+        {
+          "before": "8f9ffe41dd9f05d9413c63d43a551e29aa2d576f",
+          "after": "0765e0df69bc65bb2c09db0105807ef5807c97e9",
+          "positional_aliased_rate": 0,
+          "what_changed": "Add note about an obscure error -> Merge pull request #205 from RyKilleen/auto-append-draft-text; change_kind=no_list_change"
+        },
+        {
+          "before": "0765e0df69bc65bb2c09db0105807ef5807c97e9",
+          "after": "2e07e7c297dfba837f970ab1767f8e46e709c570",
+          "positional_aliased_rate": 0,
+          "what_changed": "Merge pull request #205 from RyKilleen/auto-append-draft-text -> Merge pull request #204 from murfasa/patch-1; change_kind=no_list_change"
+        }
+      ]
+    },
+    "mrsibe/KnowNote": {
+      "pairs": 40,
+      "elements_scored": 80,
+      "by_strategy": {
+        "positional": {
+          "stable": 1.0,
+          "aliased": 0.0,
+          "ambiguous": 0.0,
+          "vanished": 0.0
+        },
+        "id-anchored": {
+          "stable": 1.0,
+          "aliased": 0.0,
+          "ambiguous": 0.0,
+          "vanished": 0.0
+        },
+        "class-anchored": {
+          "stable": 1.0,
+          "aliased": 0.0,
+          "ambiguous": 0.0,
+          "vanished": 0.0
+        },
+        "attribute-anchored": {
+          "stable": 1.0,
+          "aliased": 0.0,
+          "ambiguous": 0.0,
+          "vanished": 0.0
+        },
+        "text-anchored": {
+          "stable": 0.0,
+          "aliased": 0.0,
+          "ambiguous": 0.0,
+          "vanished": 0.0
+        }
+      },
+      "text_anchored_discard_rate": 0.0,
+      "worst_pairs": [
+        {
+          "before": "1bce75c62e0e1104768647a9396d14d8e6416ffd",
+          "after": "6fee6d7421020418f7a481fcebadae0b951de2b8",
+          "positional_aliased_rate": 0.0,
+          "what_changed": "feat: update main window dimensions and styles, refactor App component to use ChatLayout, and implem | elements 2->2 (+0/-0), kind=no_list_change"
+        },
+        {
+          "before": "6fee6d7421020418f7a481fcebadae0b951de2b8",
+          "after": "67ad2f5e09a52064182b3a1e66b870fc6a2a8b35",
+          "positional_aliased_rate": 0.0,
+          "what_changed": "feat: implement resizable sidebar layout in ChatLayout component | elements 2->2 (+0/-0), kind=no_list_change"
+        },
+        {
+          "before": "67ad2f5e09a52064182b3a1e66b870fc6a2a8b35",
+          "after": "67bdbc7eddca35edd011d8a93a67eff2c1174591",
+          "positional_aliased_rate": 0.0,
+          "what_changed": "feat: Add navigation button to the top area of ChatLayout component | elements 2->2 (+0/-0), kind=no_list_change"
+        },
+        {
+          "before": "67bdbc7eddca35edd011d8a93a67eff2c1174591",
+          "after": "0ac1e875f78571e5856e761b6dc7009e07dbf84a",
+          "positional_aliased_rate": 0.0,
+          "what_changed": "feat: add notebook management features including create, delete, and rename functionality | elements 2->2 (+0/-0), kind=no_list_change"
+        },
+        {
+          "before": "0ac1e875f78571e5856e761b6dc7009e07dbf84a",
+          "after": "741480232ff10aa2289f49615492aaef3e7ab2d1",
+          "positional_aliased_rate": 0.0,
+          "what_changed": "feat: implement settings management with a dedicated SettingsWindow component and integrate it into  | elements 2->2 (+0/-0), kind=no_list_change"
+        },
+        {
+          "before": "741480232ff10aa2289f49615492aaef3e7ab2d1",
+          "after": "f29f1098a8118e758f02d06596e32f626f6ab5e1",
+          "positional_aliased_rate": 0.0,
+          "what_changed": "feat: Optimize styles of ChatLayout and NotebookCard components, simplify menu items in SettingsWind | elements 2->2 (+0/-0), kind=no_list_change"
+        },
+        {
+          "before": "f29f1098a8118e758f02d06596e32f626f6ab5e1",
+          "after": "769e3cf525f738a3760cecfd3f8c0cee261622e0",
+          "positional_aliased_rate": 0.0,
+          "what_changed": "feat: implement golden ratio dynamic layout and fix all lint errors | elements 2->2 (+0/-0), kind=no_list_change"
+        },
+        {
+          "before": "769e3cf525f738a3760cecfd3f8c0cee261622e0",
+          "after": "2c31c157b1d77d3ff2b847f9c0ee4508038a8147",
+          "positional_aliased_rate": 0.0,
+          "what_changed": "feat: implement concurrent messaging, streaming cache, and project refactoring | elements 2->2 (+0/-0), kind=no_list_change"
+        },
+        {
+          "before": "2c31c157b1d77d3ff2b847f9c0ee4508038a8147",
+          "after": "161ff0e77055ca3b653e5830b3fea92bff0a49b3",
+          "positional_aliased_rate": 0.0,
+          "what_changed": "feat: update settings window layout and improve styling for better user experience | elements 2->2 (+0/-0), kind=no_list_change"
+        },
+        {
+          "before": "161ff0e77055ca3b653e5830b3fea92bff0a49b3",
+          "after": "67e906344815aa1f0dafe6b58b70fdccdab17b8e",
+          "positional_aliased_rate": 0.0,
+          "what_changed": "feat: implement unified settings management and Atom theme | elements 2->2 (+0/-0), kind=no_list_change"
+        }
+      ]
+    }
+  },
+  "note_text_discard": "discard counts verified from per-pair data: jsconf.es 100017/138309, eleventy-base-blog 51/2385, KnowNote 0/80"
+}

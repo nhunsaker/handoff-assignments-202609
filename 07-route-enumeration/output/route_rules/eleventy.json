@@ -1,0 +1,23 @@
+{
+  "framework": "eleventy",
+  "version_tested": "@11ty/eleventy 3.1.6 (eleventy-base-blog 9.0.0)",
+  "output_dir": "_site/",
+  "page_file_patterns": ["**/index.html", "*.html"],
+  "excluded_patterns": ["404.html", "sitemap.xml", "feed/feed.xml", "feed/pretty-atom-feed.xsl", "dist/*.js", "img/*", "*.{avif,png,webp,jpg,jpeg,gif,svg}"],
+  "file_to_url": "strip output_dir prefix; strip trailing 'index.html' (root index.html -> '/'); strip trailing '.html' for foo.html files; ensure leading slash",
+  "second_source_of_truth": "build log 'Writing ... index.html' lines on a clean build",
+  "starter_count_by_rule": 12,
+  "starter_count_by_truth": 12,
+  "matched": true,
+  "plus_three_pages_count": 15,
+  "delta_was_exactly_three": true,
+  "discrepancy_fixed": null,
+  "gotchas": [
+    "Counting *.html overcounts by exactly 1: 404.html is emitted as a flat file and is an error page, not a routable page — exclude it.",
+    "The build log's 'Wrote N files' is not the page count: N includes feed.xml, pretty-atom-feed.xsl, sitemap.xml and copied assets; only count 'Writing ...index.html' lines.",
+    "The emitted sitemap.xml lists only 9 URLs and deliberately omits all tag-archive pages, so the sitemap undercounts routes and cannot be the second source of truth.",
+    "A 'foo.html' file is a page at /foo, distinct from 'foo/index.html' at /foo/ — this starter emits only index.html pages except 404.html, so a pattern of '**/index.html' alone would miss foo.html permalinks in other configs.",
+    "Asset passthrough (eleventy-img outputs, dist/*.js bundles) lands inside _site next to pages and must be excluded by extension, not by directory.",
+    "When grepping the build log, the root _site/index.html has no path segment before it, so a pattern like '.*/_site/.*/index.html' silently drops the homepage."
+  ]
+}

@@ -1,0 +1,126 @@
+{
+ "repo": "midudev/jsconf.es",
+ "pairs": 100,
+ "elements_scored": 138309,
+ "text_anchored_discard_rate": 0.7231416610632714,
+ "by_strategy": {
+  "positional": {
+   "stable": 0.9819896029904055,
+   "aliased": 0.004721312423631145,
+   "ambiguous": 0.00024582637427788504,
+   "vanished": 0.013043258211685428
+  },
+  "id-anchored": {
+   "stable": 0.9701754766501095,
+   "aliased": 0.004244120050032898,
+   "ambiguous": 0.013730126022167754,
+   "vanished": 0.01185027727768981
+  },
+  "class-anchored": {
+   "stable": 0.969676593714075,
+   "aliased": 0.00430919173734175,
+   "ambiguous": 0.00021690562436283973,
+   "vanished": 0.025797308924220407
+  },
+  "attribute-anchored": {
+   "stable": 0.6999833705687989,
+   "aliased": 0.0019087694943929897,
+   "ambiguous": 0.2932564041385593,
+   "vanished": 0.004851455798248848
+  },
+  "text-anchored": {
+   "stable": 0.9937584874125144,
+   "aliased": 0.00010446046171524079,
+   "ambiguous": 0.00007834534628643058,
+   "vanished": 0.006058706779483966
+  }
+ },
+ "aliased_by_change_kind": {
+  "list_gained_child": {
+   "positional": 0,
+   "id-anchored": 0,
+   "class-anchored": 0,
+   "attribute-anchored": 0,
+   "text-anchored": 0
+  },
+  "list_lost_child": {
+   "positional": 0,
+   "id-anchored": 0,
+   "class-anchored": 0,
+   "attribute-anchored": 0,
+   "text-anchored": 0
+  },
+  "no_list_change": {
+   "positional": 0.004721312423631145,
+   "id-anchored": 0.004244120050032898,
+   "class-anchored": 0.00430919173734175,
+   "attribute-anchored": 0.0019087694943929897,
+   "text-anchored": 0.00010446046171524079
+  }
+ },
+ "worst_pairs": [
+  {
+   "before": "073960ce156af4e39ee6da6e2b89730cd0d0b809",
+   "after": "8ff8d47be626ea371caa16e58c000d764edd9941",
+   "positional_aliased_rate": 0.06890012642225031,
+   "what_changed": "/codigo-de-conducta: 129->129 els; /: 1035->1012 els; /legal: 195->195 els; /privacidad: 223->223 els"
+  },
+  {
+   "before": "c9ef5c22c72e08394d989bc6e2ba79a79cbe66cc",
+   "after": "d0d0af619c07e9d1032f425f8127f349aa0ad1bb",
+   "positional_aliased_rate": 0.06536438767843726,
+   "what_changed": "/: 895->912 els; /legal: 204->204 els; /privacidad: 232->232 els"
+  },
+  {
+   "before": "4c10892e98b9af12b86ecff4517be65468272c16",
+   "after": "4d2039b37f74ee044bef58494787234276c77dcd",
+   "positional_aliased_rate": 0.0399746192893401,
+   "what_changed": "/codigo-de-conducta: 129->114 els; /: 1029->970 els; /legal: 195->180 els; /privacidad: 223->208 els"
+  },
+  {
+   "before": "5c652183e5288279886ab80983aac4f6e9419e94",
+   "after": "22ac872f1696ca08e4734e88c17c7cb2103f7ad4",
+   "positional_aliased_rate": 0.024374599101988453,
+   "what_changed": "/codigo-de-conducta: 129->129 els; /: 1012->1029 els; /legal: 195->195 els; /privacidad: 223->223 els"
+  },
+  {
+   "before": "3dde86d26b810678e23d693e4ce5a6f824a222aa",
+   "after": "55b8469e92a2561958aa51a29bc91528f90014ff",
+   "positional_aliased_rate": 0.019372077488309953,
+   "what_changed": "/codigo-de-conducta: 129->129 els; /: 950->950 els; /legal: 195->195 els; /privacidad: 223->223 els"
+  },
+  {
+   "before": "e4e4f52821267ee8ee78366fb579f32908c31d50",
+   "after": "99505adc4daf9f527770245fd8182848f471255a",
+   "positional_aliased_rate": 0.018036072144288578,
+   "what_changed": "/codigo-de-conducta: 129->129 els; /: 950->1035 els; /legal: 195->195 els; /privacidad: 223->223 els"
+  },
+  {
+   "before": "8df897a9ac33a62e429d27dda9848aaf1eb6b7c1",
+   "after": "a29e49d9f8c1edfd603a794dbc4a7b36872f3c0e",
+   "positional_aliased_rate": 0.009767092411720512,
+   "what_changed": "/: 895->895 els; /legal: 204->204 els; /privacidad: 232->232 els"
+  },
+  {
+   "before": "0fd235f8dcfb449fedf751f55fd5e4e71e1be5fa",
+   "after": "e6357747ce8d0217a64a53fbd3c362bf94ff3bd7",
+   "positional_aliased_rate": 0.00944767441860465,
+   "what_changed": "/: 938->935 els; /legal: 205->203 els; /privacidad: 233->231 els"
+  },
+  {
+   "before": "809774a01e5e49cdc611355dda105bb676b3ed56",
+   "after": "15c49f7f7fb97673f741252547b0ff4a7c163efe",
+   "positional_aliased_rate": 0.009296148738379814,
+   "what_changed": "/codigo-de-conducta: 134->140 els; /: 936->938 els; /legal: 204->206 els; /privacidad: 232->234 els"
+  },
+  {
+   "before": "30074c5ef965e644179c12a98dccbcb3e00da4b7",
+   "after": "cdd4b40d2e97b29cd291ada70cc120786974213d",
+   "positional_aliased_rate": 0.007518796992481203,
+   "what_changed": "/: 894->878 els; /legal: 204->204 els; /privacidad: 232->232 els"
+  }
+ ],
+ "skipped_pairs": [],
+ "capped_at_100_most_recent": true,
+ "html_source_method": "Built each commit with its manifest toolchain (Astro output:'server' + Vercel adapter; dist/ has no static HTML), served the built server bundle (.vercel/output/functions/_render.func/dist/server/entry.mjs) on localhost, and fetched rendered HTML per route; route list derived from src/pages at each commit; only routes present on both sides scored."
+}

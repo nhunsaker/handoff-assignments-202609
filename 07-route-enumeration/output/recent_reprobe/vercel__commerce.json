@@ -1,0 +1,170 @@
+{
+ "repo": "vercel/commerce",
+ "stack": "Next.js + Tailwind",
+ "window": "2023-04 to 2023-10",
+ "window_selection": "most recent 6-month span with >=20 page-touching commits",
+ "gate": {
+  "probed": 6,
+  "built": 0,
+  "passed": false
+ },
+ "commits_in_window": 55,
+ "commits_probed": 6,
+ "capped": false,
+ "commits": [
+  {
+   "sha": "a5e799b16e24cd56f9f98e65d6887600349c1837",
+   "date": "2023-05-09",
+   "subject": "Use parallel fetches for sitemap requests and remove duplicate /search url (#1004)",
+   "files_changed": 1,
+   "page_files_changed": [
+    "app/sitemap.ts"
+   ],
+   "node_used": "v16.20.0",
+   "node_rung": "declared",
+   "pm_used": "pnpm@7.32.4",
+   "pm_rung": "lockfile_version",
+   "install_seconds": 156,
+   "install_ok": true,
+   "build_seconds": 300,
+   "build_ok": false,
+   "route_count": 0,
+   "route_count_method": "",
+   "listing_path": null,
+   "failure_stage": "timeout",
+   "error_excerpt": "> @ build /home/hatch/workspace/a07-scratch/commerce-recent/commerce\n> next build\n- info Creating an optimized production build..."
+  },
+  {
+   "sha": "1918c25f4a27e36ee6380fc57654ccbf754edbad",
+   "date": "2023-07-05",
+   "subject": "Fixes bundle size for Hobby plan users (#1054)",
+   "files_changed": 3,
+   "page_files_changed": [
+    "components/opengraph-image.tsx"
+   ],
+   "node_used": "v16.20.1",
+   "node_rung": "declared",
+   "pm_used": "pnpm@8.6.6",
+   "pm_rung": "lockfile_version",
+   "install_seconds": 102,
+   "install_ok": true,
+   "build_seconds": 300,
+   "build_ok": false,
+   "route_count": 0,
+   "route_count_method": "",
+   "listing_path": null,
+   "failure_stage": "timeout",
+   "error_excerpt": "> @ build /home/hatch/workspace/a07-scratch/commerce-recent/commerce\n> next build\n- warn You have enabled experimental feature (serverActions) in next.config.js.\n- warn Experimental features are not covered by semver, and may cause unexpected or broken application behavior. Use at your own risk.\n- info Creating an optimized production build..."
+  },
+  {
+   "sha": "1449489c3c8eb66104f7bb699cbb2f4339708589",
+   "date": "2023-07-28",
+   "subject": "Fixes copyright spacing on medium screens (#1122)",
+   "files_changed": 1,
+   "page_files_changed": [
+    "components/layout/footer.tsx"
+   ],
+   "node_used": "v16.20.1",
+   "node_rung": "declared",
+   "pm_used": "pnpm@8.2.0",
+   "pm_rung": "declared",
+   "install_seconds": 48,
+   "install_ok": true,
+   "build_seconds": 300,
+   "build_ok": false,
+   "route_count": 0,
+   "route_count_method": "",
+   "listing_path": null,
+   "failure_stage": "timeout",
+   "error_excerpt": "> @ build /home/hatch/workspace/a07-scratch/commerce-recent/commerce\n> next build\n- warn You have enabled experimental feature (serverActions) in next.config.js.\n- warn Experimental features are not covered by semver, and may cause unexpected or broken application behavior. Use at your own risk.\n- info Creating an optimized production build..."
+  },
+  {
+   "sha": "9e1388f97409ec7a5bba9da1f0a0b3bdb1e7c13b",
+   "date": "2023-08-02",
+   "subject": "Updates favicon (#1141)",
+   "files_changed": 1,
+   "page_files_changed": [
+    "app/favicon.ico"
+   ],
+   "node_used": "v16.20.1",
+   "node_rung": "declared",
+   "pm_used": "pnpm@8.2.0",
+   "pm_rung": "declared",
+   "install_seconds": 30,
+   "install_ok": true,
+   "build_seconds": 300,
+   "build_ok": false,
+   "route_count": 0,
+   "route_count_method": "",
+   "listing_path": null,
+   "failure_stage": "timeout",
+   "error_excerpt": "> @ build /home/hatch/workspace/a07-scratch/commerce-recent/commerce\n> next build\n- warn You have enabled experimental feature (serverActions) in next.config.js.\n- warn Experimental features are not covered by semver, and may cause unexpected or broken application behavior. Use at your own risk.\n- info Creating an optimized production build..."
+  },
+  {
+   "sha": "ec838fd4e62d5d52240b04f3040f3967ba992554",
+   "date": "2023-08-08",
+   "subject": "Adds group hover on grid tile image + labels (#1163)",
+   "files_changed": 1,
+   "page_files_changed": [
+    "components/grid/tile.tsx"
+   ],
+   "node_used": "v18.17.1",
+   "node_rung": "declared",
+   "pm_used": "pnpm@8.2.0",
+   "pm_rung": "declared",
+   "install_seconds": 64,
+   "install_ok": true,
+   "build_seconds": 300,
+   "build_ok": false,
+   "route_count": 0,
+   "route_count_method": "",
+   "listing_path": null,
+   "failure_stage": "timeout",
+   "error_excerpt": "> @ build /home/hatch/workspace/a07-scratch/commerce-recent/commerce\n> next build\n- warn You have enabled experimental feature (serverActions) in next.config.js.\n- warn Experimental features are not covered by semver, and may cause unexpected or broken application behavior. Use at your own risk.\n- info Creating an optimized production build..."
+  },
+  {
+   "sha": "2448f5201c06b629787544dc2c181d8def01a23c",
+   "date": "2023-10-27",
+   "subject": "Upgrade to Next.js 14 (#1224)",
+   "files_changed": 10,
+   "page_files_changed": [
+    "app/layout.tsx",
+    "components/cart/add-to-cart.tsx",
+    "components/cart/delete-item-button.tsx",
+    "components/cart/edit-item-quantity-button.tsx",
+    "components/opengraph-image.tsx",
+    "tailwind.config.js"
+   ],
+   "node_used": "v18.18.2",
+   "node_rung": "declared",
+   "pm_used": "pnpm@8.2.0",
+   "pm_rung": "declared",
+   "install_seconds": 63,
+   "install_ok": true,
+   "build_seconds": 300,
+   "build_ok": false,
+   "route_count": 0,
+   "route_count_method": "",
+   "listing_path": null,
+   "failure_stage": "timeout",
+   "error_excerpt": "   \u25b2 Next.js 14.0.0\n   Creating an optimized production build ...\nBrowserslist: caniuse-lite is outdated. Please run:\n  npx update-browserslist-db@latest\n  Why you should do it regularly: https://github.com/browserslist/update-db#readme"
+  }
+ ],
+ "summary": {
+  "install_ok": 6,
+  "build_ok": 0,
+  "environment": 0,
+  "build_ok_rate": 0.0,
+  "median_build_seconds": 0,
+  "p90_build_seconds": 0,
+  "all_rungs_declared_count": 4,
+  "route_count_min": 0,
+  "route_count_median": 0,
+  "route_count_max": 0,
+  "buildable_commits_per_month": [],
+  "longest_run_of_consecutive_buildable_commits": 0,
+  "expected_page_commit_pairs": 0,
+  "verdict": "broken",
+  "comparison_to_2020_window": "Assignment 04's 2020-09 to 2021-02 window: 150 probed, 0 built (build_ok rate 0.0). This window (2023-04 to 2023-10): 0/6 built (build_ok rate 0.0)."
+ }
+}

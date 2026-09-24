@@ -1,0 +1,21 @@
+{
+  "framework": "Hugo",
+  "version_tested": "v0.152.2 extended (linux/amd64)",
+  "output_dir": "public/",
+  "page_file_patterns": ["**/index.html"],
+  "excluded_patterns": ["404.html", "**/index.xml", "sitemap.xml", "robots.txt"],
+  "file_to_url": "strip output_dir prefix, strip trailing index.html, prepend leading slash; root index.html -> /",
+  "second_source_of_truth": "sitemap.xml emitted by Hugo's default sitemap template (counts URLs, verified 1:1 against HTML page files)",
+  "starter_count_by_rule": 11,
+  "starter_count_by_truth": 11,
+  "matched": true,
+  "plus_three_pages_count": 14,
+  "delta_was_exactly_three": true,
+  "discrepancy_fixed": "Build log reported 'Pages | 19' vs rule count 11: the log counts the 7 RSS index.xml files and sitemap.xml as pages, so it overcounts routes by 8. Switched the second source of truth to sitemap.xml, which matched the rule exactly (11 = 11).",
+  "gotchas": [
+    "Taxonomy list and term pages (tags/, categories/, tags/hugo/, categories/news/) are real rendered pages present in both output and sitemap; a hand count of content .md files (7: home, about, posts section, 2 posts, docs section, guide) undercounts the true 11 routes.",
+    "The build log 'Pages' statistic counts RSS index.xml feeds and sitemap.xml as pages (19 vs 11 actual routes) and must not be used as a route count.",
+    "404.html is emitted as a top-level 404.html (not 404/index.html) and is excluded from Hugo's default sitemap, so it needs an explicit exclusion even under the **/index.html rule.",
+    "With pretty URLs (default) every page is <path>/index.html; if uglyURLs were enabled pages would be **/*.html and the pattern would change."
+  ]
+}

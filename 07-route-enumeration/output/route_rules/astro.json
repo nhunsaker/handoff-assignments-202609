@@ -1,0 +1,25 @@
+{
+  "framework": "astro",
+  "version_tested": "astro 7.3.5 (npm create astro minimal template; @astrojs/node tested separately for server output)",
+  "output_dir": "dist/",
+  "page_file_patterns": ["dist/**/*.html"],
+  "excluded_patterns": ["dist/_astro/**", "dist/404.html", "dist/client/_astro/**", "dist/server/**"],
+  "file_to_url": "strip output_dir prefix (or dist/client/ prefix in server output); strip trailing 'index.html' (root index.html -> '/'); strip trailing '.html' for foo.html files; ensure leading slash",
+  "second_source_of_truth": "build log: 'N page(s) built' line plus the 'generating static routes' per-route list (static output)",
+  "starter_count_by_rule": 1,
+  "starter_count_by_truth": 1,
+  "matched": true,
+  "plus_three_pages_count": 4,
+  "delta_was_exactly_three": true,
+  "discrepancy_fixed": null,
+  "gotchas": [
+    "Assignment 04's naive '*.html under dist/' fails on server-output builds: with output:'server', dist/ contains only client/ (assets + prerendered pages) and server/ (compiled .mjs chunks, zero html), so the naive count is 0 even for a multi-page site.",
+    "In server output, prerendered pages land under dist/client/, NOT dist/ directly — a dist/**/*.html glob misses them if the rule assumes html at dist root level.",
+    "Server-rendered (non-prerendered) routes produce NO files at all; the only build-output record is the route manifest embedded as JSON in dist/server/entry.mjs: count routeData blocks with type=page and prerender=false, excluding routes starting with '/_' (/_server-islands/[name] is internal, /_image is an endpoint).",
+    "The server-output build log has no 'N page(s) built' line and lists only prerendered routes under 'prerendering static routes' — server routes are never listed, so the log alone undercounts.",
+    "output:'server' requires a server adapter (@astrojs/node, @astrojs/vercel); without one the build errors with NoAdapterInstalled instead of producing output.",
+    "A dynamic route without prerender (e.g. blog/[...slug].astro, output:server) counts as one route template in the manifest — its true URL count is unknowable from build output; in static output it must export getStaticPaths and each returned path becomes one html file.",
+    "In static output the build log's per-route list prints paths like /about/index.html — strip trailing index.html to get the URL; the 'N page(s) built' total already excludes 404 handling, but a dist/404.html file must still be excluded from a naive glob.",
+    "_astro/** holds hashed client JS/CSS chunks for hydrated islands and must be excluded; it sits at dist/_astro/ in static output and dist/client/_astro/ in server output."
+  ]
+}

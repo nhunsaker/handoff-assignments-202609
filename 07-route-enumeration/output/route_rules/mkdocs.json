@@ -1,0 +1,21 @@
+{
+  "framework": "mkdocs",
+  "version_tested": "mkdocs 1.6.1, mkdocs-material (global install, python3.12)",
+  "output_dir": "site/",
+  "page_file_patterns": ["**/index.html"],
+  "excluded_patterns": ["404.html", "search/search_index.json", "sitemap.xml", "sitemap.xml.gz", "assets/**"],
+  "file_to_url": "strip output_dir prefix, strip trailing 'index.html', ensure leading slash (e.g. site/about/index.html -> /about/, site/index.html -> /)",
+  "second_source_of_truth": "sitemap.xml (requires site_url to be set in mkdocs.yml, otherwise it emits an empty urlset)",
+  "starter_count_by_rule": 1,
+  "starter_count_by_truth": 1,
+  "matched": true,
+  "plus_three_pages_count": 4,
+  "delta_was_exactly_three": true,
+  "discrepancy_fixed": null,
+  "gotchas": [
+    "sitemap.xml is emitted but contains an empty <urlset> unless site_url is set in mkdocs.yml — it cannot be used as verification until then",
+    "search/search_index.json 'docs' entries are per-heading anchors (a 1-page starter has 3 docs: the page plus #commands and #project-layout sections), so its doc count is always >= page count and must not be used as a page count",
+    "every page is emitted as <path>/index.html (never foo.html), and 404.html is the only top-level non-index page — so pattern '**/index.html' alone is a complete page selector",
+    "with an explicit 'nav:' in mkdocs.yml the page list is purely config-driven: .md files present in docs/ but absent from nav produce no output file and no sitemap entry"
+  ]
+}

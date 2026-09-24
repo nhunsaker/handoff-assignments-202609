@@ -1,0 +1,24 @@
+{
+  "framework": "nuxt",
+  "version_tested": "Nuxt 4.5.2 (Nitro 2.13.4, Vite 8.3.1, Vue 3.5.43) via nuxi 3.37.0 init, node v24.20.0",
+  "output_dir": ".output/public/ (from `nuxt generate`; plain `nuxt build` emits no page HTML here)",
+  "page_file_patterns": ["**/index.html"],
+  "excluded_patterns": ["200.html", "404.html", "_nuxt/**", "**/_payload.json", "favicon.ico", "robots.txt"],
+  "file_to_url": "strip .output/public/ prefix, strip trailing 'index.html', ensure leading slash (e.g. .output/public/blog/hello-world/index.html -> /blog/hello-world/, .output/public/index.html -> /)",
+  "second_source_of_truth": "build log prerendered-route list ('[nitro] Prerendered N routes'), minus /200.html and /404.html fallbacks and _payload.json entries",
+  "starter_count_by_rule": 1,
+  "starter_count_by_truth": 1,
+  "matched": true,
+  "plus_three_pages_count": 4,
+  "delta_was_exactly_three": true,
+  "discrepancy_fixed": "naive '**/*.html' count gave 3 (index.html + 200.html + 404.html) against a build-log truth of 1 real page; fixed by excluding the 200.html/404.html SPA fallbacks",
+  "gotchas": [
+    "nuxt build (default SSR) emits zero HTML pages in .output/public — only _nuxt/ assets, favicon.ico, robots.txt; file-based route enumeration requires `nuxt generate` (nitro static preset), and the pages live in the public/ tree, not server/",
+    "200.html and 404.html are SPA fallbacks, not pages — a naive **/*.html count overcounts the starter 3-to-1",
+    "the prerender crawler only discovers linked routes: unlinked static pages (e.g. /about with no inbound links) get no HTML file at all unless listed in nitro.prerender.routes — the static page set is config+crawl-driven, not purely file-driven",
+    "dynamic routes like pages/blog/[slug].vue never map 1:1 to an output file; only concrete parametrized paths listed in nitro.prerender.routes (or reached by the crawler) are emitted",
+    "one _payload.json is emitted per prerendered route (plus ?_b= cache-busted variants that are skipped on write), so any json-based page rule would wildly overcount",
+    "prerendered pages use directory style (about/index.html), never about.html",
+    "with no pages/ directory, app.vue alone still yields exactly one prerendered route '/'"
+  ]
+}

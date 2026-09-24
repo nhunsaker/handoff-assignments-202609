@@ -1,0 +1,2662 @@
+{
+ "repo": "mrsibe/KnowNote",
+ "pairs": 40,
+ "pairs_total": 40,
+ "elements_scored": 80,
+ "text_anchored_discard_rate": 0.0,
+ "text_anchored_discarded": 0,
+ "by_strategy": {
+  "positional": {
+   "stable": 1.0,
+   "aliased": 0.0,
+   "ambiguous": 0.0,
+   "vanished": 0.0
+  },
+  "id-anchored": {
+   "stable": 1.0,
+   "aliased": 0.0,
+   "ambiguous": 0.0,
+   "vanished": 0.0
+  },
+  "class-anchored": {
+   "stable": 1.0,
+   "aliased": 0.0,
+   "ambiguous": 0.0,
+   "vanished": 0.0
+  },
+  "attribute-anchored": {
+   "stable": 1.0,
+   "aliased": 0.0,
+   "ambiguous": 0.0,
+   "vanished": 0.0
+  },
+  "text-anchored": {
+   "stable": 0.0,
+   "aliased": 0.0,
+   "ambiguous": 0.0,
+   "vanished": 0.0
+  }
+ },
+ "aliased_by_change_kind": {
+  "list_gained_child": {
+   "positional": 0.0,
+   "id-anchored": 0.0,
+   "class-anchored": 0.0,
+   "attribute-anchored": 0.0,
+   "text-anchored": 0.0
+  },
+  "list_lost_child": {
+   "positional": 0.0,
+   "id-anchored": 0.0,
+   "class-anchored": 0.0,
+   "attribute-anchored": 0.0,
+   "text-anchored": 0.0
+  },
+  "no_list_change": {
+   "positional": 0.0,
+   "id-anchored": 0.0,
+   "class-anchored": 0.0,
+   "attribute-anchored": 0.0,
+   "text-anchored": 0.0
+  }
+ },
+ "worst_pairs": [
+  {
+   "before": "1bce75c62e0e1104768647a9396d14d8e6416ffd",
+   "after": "6fee6d7421020418f7a481fcebadae0b951de2b8",
+   "positional_aliased_rate": 0.0,
+   "what_changed": "feat: update main window dimensions and styles, refactor App component to use ChatLayout, and implem | elements 2->2 (+0/-0), kind=no_list_change"
+  },
+  {
+   "before": "6fee6d7421020418f7a481fcebadae0b951de2b8",
+   "after": "67ad2f5e09a52064182b3a1e66b870fc6a2a8b35",
+   "positional_aliased_rate": 0.0,
+   "what_changed": "feat: implement resizable sidebar layout in ChatLayout component | elements 2->2 (+0/-0), kind=no_list_change"
+  },
+  {
+   "before": "67ad2f5e09a52064182b3a1e66b870fc6a2a8b35",
+   "after": "67bdbc7eddca35edd011d8a93a67eff2c1174591",
+   "positional_aliased_rate": 0.0,
+   "what_changed": "feat: Add navigation button to the top area of ChatLayout component | elements 2->2 (+0/-0), kind=no_list_change"
+  },
+  {
+   "before": "67bdbc7eddca35edd011d8a93a67eff2c1174591",
+   "after": "0ac1e875f78571e5856e761b6dc7009e07dbf84a",
+   "positional_aliased_rate": 0.0,
+   "what_changed": "feat: add notebook management features including create, delete, and rename functionality | elements 2->2 (+0/-0), kind=no_list_change"
+  },
+  {
+   "before": "0ac1e875f78571e5856e761b6dc7009e07dbf84a",
+   "after": "741480232ff10aa2289f49615492aaef3e7ab2d1",
+   "positional_aliased_rate": 0.0,
+   "what_changed": "feat: implement settings management with a dedicated SettingsWindow component and integrate it into  | elements 2->2 (+0/-0), kind=no_list_change"
+  },
+  {
+   "before": "741480232ff10aa2289f49615492aaef3e7ab2d1",
+   "after": "f29f1098a8118e758f02d06596e32f626f6ab5e1",
+   "positional_aliased_rate": 0.0,
+   "what_changed": "feat: Optimize styles of ChatLayout and NotebookCard components, simplify menu items in SettingsWind | elements 2->2 (+0/-0), kind=no_list_change"
+  },
+  {
+   "before": "f29f1098a8118e758f02d06596e32f626f6ab5e1",
+   "after": "769e3cf525f738a3760cecfd3f8c0cee261622e0",
+   "positional_aliased_rate": 0.0,
+   "what_changed": "feat: implement golden ratio dynamic layout and fix all lint errors | elements 2->2 (+0/-0), kind=no_list_change"
+  },
+  {
+   "before": "769e3cf525f738a3760cecfd3f8c0cee261622e0",
+   "after": "2c31c157b1d77d3ff2b847f9c0ee4508038a8147",
+   "positional_aliased_rate": 0.0,
+   "what_changed": "feat: implement concurrent messaging, streaming cache, and project refactoring | elements 2->2 (+0/-0), kind=no_list_change"
+  },
+  {
+   "before": "2c31c157b1d77d3ff2b847f9c0ee4508038a8147",
+   "after": "161ff0e77055ca3b653e5830b3fea92bff0a49b3",
+   "positional_aliased_rate": 0.0,
+   "what_changed": "feat: update settings window layout and improve styling for better user experience | elements 2->2 (+0/-0), kind=no_list_change"
+  },
+  {
+   "before": "161ff0e77055ca3b653e5830b3fea92bff0a49b3",
+   "after": "67e906344815aa1f0dafe6b58b70fdccdab17b8e",
+   "positional_aliased_rate": 0.0,
+   "what_changed": "feat: implement unified settings management and Atom theme | elements 2->2 (+0/-0), kind=no_list_change"
+  }
+ ],
+ "skipped_pairs": [],
+ "capped_at_100_most_recent": false,
+ "html_source_method": "single out/renderer/index.html from electron-vite build (Vite+React SPA shell; selectors scored on body subtree only)",
+ "strategy_raw_counts": {
+  "positional": {
+   "stable": 80,
+   "aliased": 0,
+   "ambiguous": 0,
+   "vanished": 0,
+   "scored": 80,
+   "errors": 0
+  },
+  "id-anchored": {
+   "stable": 80,
+   "aliased": 0,
+   "ambiguous": 0,
+   "vanished": 0,
+   "scored": 80,
+   "errors": 0
+  },
+  "class-anchored": {
+   "stable": 80,
+   "aliased": 0,
+   "ambiguous": 0,
+   "vanished": 0,
+   "scored": 80,
+   "errors": 0
+  },
+  "attribute-anchored": {
+   "stable": 80,
+   "aliased": 0,
+   "ambiguous": 0,
+   "vanished": 0,
+   "scored": 80,
+   "errors": 0
+  },
+  "text-anchored": {
+   "stable": 0,
+   "aliased": 0,
+   "ambiguous": 0,
+   "vanished": 0,
+   "scored": 0,
+   "errors": 0
+  }
+ },
+ "change_kind_raw_counts": {
+  "list_gained_child": {
+   "positional": {
+    "aliased": 0,
+    "scored": 0
+   },
+   "id-anchored": {
+    "aliased": 0,
+    "scored": 0
+   },
+   "class-anchored": {
+    "aliased": 0,
+    "scored": 0
+   },
+   "attribute-anchored": {
+    "aliased": 0,
+    "scored": 0
+   },
+   "text-anchored": {
+    "aliased": 0,
+    "scored": 0
+   }
+  },
+  "list_lost_child": {
+   "positional": {
+    "aliased": 0,
+    "scored": 0
+   },
+   "id-anchored": {
+    "aliased": 0,
+    "scored": 0
+   },
+   "class-anchored": {
+    "aliased": 0,
+    "scored": 0
+   },
+   "attribute-anchored": {
+    "aliased": 0,
+    "scored": 0
+   },
+   "text-anchored": {
+    "aliased": 0,
+    "scored": 0
+   }
+  },
+  "no_list_change": {
+   "positional": {
+    "aliased": 0,
+    "scored": 80
+   },
+   "id-anchored": {
+    "aliased": 0,
+    "scored": 80
+   },
+   "class-anchored": {
+    "aliased": 0,
+    "scored": 80
+   },
+   "attribute-anchored": {
+    "aliased": 0,
+    "scored": 80
+   },
+   "text-anchored": {
+    "aliased": 0,
+    "scored": 0
+   }
+  }
+ },
+ "pair_details": [
+  {
+   "before": "1bce75c62e0e1104768647a9396d14d8e6416ffd",
+   "after": "6fee6d7421020418f7a481fcebadae0b951de2b8",
+   "skipped_broken_shas_between": [],
+   "subject_after": "feat: update main window dimensions and styles, refactor App component to use ChatLayout, and implement chat layout with message input",
+   "pages": [
+    "renderer/index.html"
+   ],
+   "status": "run",
+   "before_elements": 2,
+   "after_elements": 2,
+   "elements_added": 0,
+   "elements_removed": 0,
+   "change_kind": "no_list_change",
+   "text_anchored_discard_count": 0,
+   "strategy_counts": {
+    "positional": {
+     "stable": 2,
+     "aliased": 0,
+     "ambiguous": 0,
+     "vanished": 0,
+     "scored": 2,
+     "errors": 0
+    },
+    "id-anchored": {
+     "stable": 2,
+     "aliased": 0,
+     "ambiguous": 0,
+     "vanished": 0,
+     "scored": 2,
+     "errors": 0
+    },
+    "class-anchored": {
+     "stable": 2,
+     "aliased": 0,
+     "ambiguous": 0,
+     "vanished": 0,
+     "scored": 2,
+     "errors": 0
+    },
+    "attribute-anchored": {
+     "stable": 2,
+     "aliased": 0,
+     "ambiguous": 0,
+     "vanished": 0,
+     "scored": 2,
+     "errors": 0
+    },
+    "text-anchored": {
+     "stable": 0,
+     "aliased": 0,
+     "ambiguous": 0,
+     "vanished": 0,
+     "scored": 0,
+     "errors": 0
+    }
+   },
+   "positional_aliased_rate": 0.0
+  },
+  {
+   "before": "6fee6d7421020418f7a481fcebadae0b951de2b8",
+   "after": "67ad2f5e09a52064182b3a1e66b870fc6a2a8b35",
+   "skipped_broken_shas_between": [],
+   "subject_after": "feat: implement resizable sidebar layout in ChatLayout component",
+   "pages": [
+    "renderer/index.html"
+   ],
+   "status": "run",
+   "before_elements": 2,
+   "after_elements": 2,
+   "elements_added": 0,
+   "elements_removed": 0,
+   "change_kind": "no_list_change",
+   "text_anchored_discard_count": 0,
+   "strategy_counts": {
+    "positional": {
+     "stable": 2,
+     "aliased": 0,
+     "ambiguous": 0,
+     "vanished": 0,
+     "scored": 2,
+     "errors": 0
+    },
+    "id-anchored": {
+     "stable": 2,
+     "aliased": 0,
+     "ambiguous": 0,
+     "vanished": 0,
+     "scored": 2,
+     "errors": 0
+    },
+    "class-anchored": {
+     "stable": 2,
+     "aliased": 0,
+     "ambiguous": 0,
+     "vanished": 0,
+     "scored": 2,
+     "errors": 0
+    },
+    "attribute-anchored": {
+     "stable": 2,
+     "aliased": 0,
+     "ambiguous": 0,
+     "vanished": 0,
+     "scored": 2,
+     "errors": 0
+    },
+    "text-anchored": {
+     "stable": 0,
+     "aliased": 0,
+     "ambiguous": 0,
+     "vanished": 0,
+     "scored": 0,
+     "errors": 0
+    }
+   },
+   "positional_aliased_rate": 0.0
+  },
+  {
+   "before": "67ad2f5e09a52064182b3a1e66b870fc6a2a8b35",
+   "after": "67bdbc7eddca35edd011d8a93a67eff2c1174591",
+   "skipped_broken_shas_between": [],
+   "subject_after": "feat: Add navigation button to the top area of ChatLayout component",
+   "pages": [
+    "renderer/index.html"
+   ],
+   "status": "run",
+   "before_elements": 2,
+   "after_elements": 2,
+   "elements_added": 0,
+   "elements_removed": 0,
+   "change_kind": "no_list_change",
+   "text_anchored_discard_count": 0,
+   "strategy_counts": {
+    "positional": {
+     "stable": 2,
+     "aliased": 0,
+     "ambiguous": 0,
+     "vanished": 0,
+     "scored": 2,
+     "errors": 0
+    },
+    "id-anchored": {
+     "stable": 2,
+     "aliased": 0,
+     "ambiguous": 0,
+     "vanished": 0,
+     "scored": 2,
+     "errors": 0
+    },
+    "class-anchored": {
+     "stable": 2,
+     "aliased": 0,
+     "ambiguous": 0,
+     "vanished": 0,
+     "scored": 2,
+     "errors": 0
+    },
+    "attribute-anchored": {
+     "stable": 2,
+     "aliased": 0,
+     "ambiguous": 0,
+     "vanished": 0,
+     "scored": 2,
+     "errors": 0
+    },
+    "text-anchored": {
+     "stable": 0,
+     "aliased": 0,
+     "ambiguous": 0,
+     "vanished": 0,
+     "scored": 0,
+     "errors": 0
+    }
+   },
+   "positional_aliased_rate": 0.0
+  },
+  {
+   "before": "67bdbc7eddca35edd011d8a93a67eff2c1174591",
+   "after": "0ac1e875f78571e5856e761b6dc7009e07dbf84a",
+   "skipped_broken_shas_between": [],
+   "subject_after": "feat: add notebook management features including create, delete, and rename functionality",
+   "pages": [
+    "renderer/index.html"
+   ],
+   "status": "run",
+   "before_elements": 2,
+   "after_elements": 2,
+   "elements_added": 0,
+   "elements_removed": 0,
+   "change_kind": "no_list_change",
+   "text_anchored_discard_count": 0,
+   "strategy_counts": {
+    "positional": {
+     "stable": 2,
+     "aliased": 0,
+     "ambiguous": 0,
+     "vanished": 0,
+     "scored": 2,
+     "errors": 0
+    },
+    "id-anchored": {
+     "stable": 2,
+     "aliased": 0,
+     "ambiguous": 0,
+     "vanished": 0,
+     "scored": 2,
+     "errors": 0
+    },
+    "class-anchored": {
+     "stable": 2,
+     "aliased": 0,
+     "ambiguous": 0,
+     "vanished": 0,
+     "scored": 2,
+     "errors": 0
+    },
+    "attribute-anchored": {
+     "stable": 2,
+     "aliased": 0,
+     "ambiguous": 0,
+     "vanished": 0,
+     "scored": 2,
+     "errors": 0
+    },
+    "text-anchored": {
+     "stable": 0,
+     "aliased": 0,
+     "ambiguous": 0,
+     "vanished": 0,
+     "scored": 0,
+     "errors": 0
+    }
+   },
+   "positional_aliased_rate": 0.0
+  },
+  {
+   "before": "0ac1e875f78571e5856e761b6dc7009e07dbf84a",
+   "after": "741480232ff10aa2289f49615492aaef3e7ab2d1",
+   "skipped_broken_shas_between": [],
+   "subject_after": "feat: implement settings management with a dedicated SettingsWindow component and integrate it into the navigation",
+   "pages": [
+    "renderer/index.html"
+   ],
+   "status": "run",
+   "before_elements": 2,
+   "after_elements": 2,
+   "elements_added": 0,
+   "elements_removed": 0,
+   "change_kind": "no_list_change",
+   "text_anchored_discard_count": 0,
+   "strategy_counts": {
+    "positional": {
+     "stable": 2,
+     "aliased": 0,
+     "ambiguous": 0,
+     "vanished": 0,
+     "scored": 2,
+     "errors": 0
+    },
+    "id-anchored": {
+     "stable": 2,
+     "aliased": 0,
+     "ambiguous": 0,
+     "vanished": 0,
+     "scored": 2,
+     "errors": 0
+    },
+    "class-anchored": {
+     "stable": 2,
+     "aliased": 0,
+     "ambiguous": 0,
+     "vanished": 0,
+     "scored": 2,
+     "errors": 0
+    },
+    "attribute-anchored": {
+     "stable": 2,
+     "aliased": 0,
+     "ambiguous": 0,
+     "vanished": 0,
+     "scored": 2,
+     "errors": 0
+    },
+    "text-anchored": {
+     "stable": 0,
+     "aliased": 0,
+     "ambiguous": 0,
+     "vanished": 0,
+     "scored": 0,
+     "errors": 0
+    }
+   },
+   "positional_aliased_rate": 0.0
+  },
+  {
+   "before": "741480232ff10aa2289f49615492aaef3e7ab2d1",
+   "after": "f29f1098a8118e758f02d06596e32f626f6ab5e1",
+   "skipped_broken_shas_between": [],
+   "subject_after": "feat: Optimize styles of ChatLayout and NotebookCard components, simplify menu items in SettingsWindow component",
+   "pages": [
+    "renderer/index.html"
+   ],
+   "status": "run",
+   "before_elements": 2,
+   "after_elements": 2,
+   "elements_added": 0,
+   "elements_removed": 0,
+   "change_kind": "no_list_change",
+   "text_anchored_discard_count": 0,
+   "strategy_counts": {
+    "positional": {
+     "stable": 2,
+     "aliased": 0,
+     "ambiguous": 0,
+     "vanished": 0,
+     "scored": 2,
+     "errors": 0
+    },
+    "id-anchored": {
+     "stable": 2,
+     "aliased": 0,
+     "ambiguous": 0,
+     "vanished": 0,
+     "scored": 2,
+     "errors": 0
+    },
+    "class-anchored": {
+     "stable": 2,
+     "aliased": 0,
+     "ambiguous": 0,
+     "vanished": 0,
+     "scored": 2,
+     "errors": 0
+    },
+    "attribute-anchored": {
+     "stable": 2,
+     "aliased": 0,
+     "ambiguous": 0,
+     "vanished": 0,
+     "scored": 2,
+     "errors": 0
+    },
+    "text-anchored": {
+     "stable": 0,
+     "aliased": 0,
+     "ambiguous": 0,
+     "vanished": 0,
+     "scored": 0,
+     "errors": 0
+    }
+   },
+   "positional_aliased_rate": 0.0
+  },
+  {
+   "before": "f29f1098a8118e758f02d06596e32f626f6ab5e1",
+   "after": "769e3cf525f738a3760cecfd3f8c0cee261622e0",
+   "skipped_broken_shas_between": [
+    "72d7ab1dfe0f9ecf6ae02efe798a0f70614ca024"
+   ],
+   "subject_after": "feat: implement golden ratio dynamic layout and fix all lint errors",
+   "pages": [
+    "renderer/index.html"
+   ],
+   "status": "run",
+   "before_elements": 2,
+   "after_elements": 2,
+   "elements_added": 0,
+   "elements_removed": 0,
+   "change_kind": "no_list_change",
+   "text_anchored_discard_count": 0,
+   "strategy_counts": {
+    "positional": {
+     "stable": 2,
+     "aliased": 0,
+     "ambiguous": 0,
+     "vanished": 0,
+     "scored": 2,
+     "errors": 0
+    },
+    "id-anchored": {
+     "stable": 2,
+     "aliased": 0,
+     "ambiguous": 0,
+     "vanished": 0,
+     "scored": 2,
+     "errors": 0
+    },
+    "class-anchored": {
+     "stable": 2,
+     "aliased": 0,
+     "ambiguous": 0,
+     "vanished": 0,
+     "scored": 2,
+     "errors": 0
+    },
+    "attribute-anchored": {
+     "stable": 2,
+     "aliased": 0,
+     "ambiguous": 0,
+     "vanished": 0,
+     "scored": 2,
+     "errors": 0
+    },
+    "text-anchored": {
+     "stable": 0,
+     "aliased": 0,
+     "ambiguous": 0,
+     "vanished": 0,
+     "scored": 0,
+     "errors": 0
+    }
+   },
+   "positional_aliased_rate": 0.0
+  },
+  {
+   "before": "769e3cf525f738a3760cecfd3f8c0cee261622e0",
+   "after": "2c31c157b1d77d3ff2b847f9c0ee4508038a8147",
+   "skipped_broken_shas_between": [],
+   "subject_after": "feat: implement concurrent messaging, streaming cache, and project refactoring",
+   "pages": [
+    "renderer/index.html"
+   ],
+   "status": "run",
+   "before_elements": 2,
+   "after_elements": 2,
+   "elements_added": 0,
+   "elements_removed": 0,
+   "change_kind": "no_list_change",
+   "text_anchored_discard_count": 0,
+   "strategy_counts": {
+    "positional": {
+     "stable": 2,
+     "aliased": 0,
+     "ambiguous": 0,
+     "vanished": 0,
+     "scored": 2,
+     "errors": 0
+    },
+    "id-anchored": {
+     "stable": 2,
+     "aliased": 0,
+     "ambiguous": 0,
+     "vanished": 0,
+     "scored": 2,
+     "errors": 0
+    },
+    "class-anchored": {
+     "stable": 2,
+     "aliased": 0,
+     "ambiguous": 0,
+     "vanished": 0,
+     "scored": 2,
+     "errors": 0
+    },
+    "attribute-anchored": {
+     "stable": 2,
+     "aliased": 0,
+     "ambiguous": 0,
+     "vanished": 0,
+     "scored": 2,
+     "errors": 0
+    },
+    "text-anchored": {
+     "stable": 0,
+     "aliased": 0,
+     "ambiguous": 0,
+     "vanished": 0,
+     "scored": 0,
+     "errors": 0
+    }
+   },
+   "positional_aliased_rate": 0.0
+  },
+  {
+   "before": "2c31c157b1d77d3ff2b847f9c0ee4508038a8147",
+   "after": "161ff0e77055ca3b653e5830b3fea92bff0a49b3",
+   "skipped_broken_shas_between": [],
+   "subject_after": "feat: update settings window layout and improve styling for better user experience",
+   "pages": [
+    "renderer/index.html"
+   ],
+   "status": "run",
+   "before_elements": 2,
+   "after_elements": 2,
+   "elements_added": 0,
+   "elements_removed": 0,
+   "change_kind": "no_list_change",
+   "text_anchored_discard_count": 0,
+   "strategy_counts": {
+    "positional": {
+     "stable": 2,
+     "aliased": 0,
+     "ambiguous": 0,
+     "vanished": 0,
+     "scored": 2,
+     "errors": 0
+    },
+    "id-anchored": {
+     "stable": 2,
+     "aliased": 0,
+     "ambiguous": 0,
+     "vanished": 0,
+     "scored": 2,
+     "errors": 0
+    },
+    "class-anchored": {
+     "stable": 2,
+     "aliased": 0,
+     "ambiguous": 0,
+     "vanished": 0,
+     "scored": 2,
+     "errors": 0
+    },
+    "attribute-anchored": {
+     "stable": 2,
+     "aliased": 0,
+     "ambiguous": 0,
+     "vanished": 0,
+     "scored": 2,
+     "errors": 0
+    },
+    "text-anchored": {
+     "stable": 0,
+     "aliased": 0,
+     "ambiguous": 0,
+     "vanished": 0,
+     "scored": 0,
+     "errors": 0
+    }
+   },
+   "positional_aliased_rate": 0.0
+  },
+  {
+   "before": "161ff0e77055ca3b653e5830b3fea92bff0a49b3",
+   "after": "67e906344815aa1f0dafe6b58b70fdccdab17b8e",
+   "skipped_broken_shas_between": [],
+   "subject_after": "feat: implement unified settings management and Atom theme",
+   "pages": [
+    "renderer/index.html"
+   ],
+   "status": "run",
+   "before_elements": 2,
+   "after_elements": 2,
+   "elements_added": 0,
+   "elements_removed": 0,
+   "change_kind": "no_list_change",
+   "text_anchored_discard_count": 0,
+   "strategy_counts": {
+    "positional": {
+     "stable": 2,
+     "aliased": 0,
+     "ambiguous": 0,
+     "vanished": 0,
+     "scored": 2,
+     "errors": 0
+    },
+    "id-anchored": {
+     "stable": 2,
+     "aliased": 0,
+     "ambiguous": 0,
+     "vanished": 0,
+     "scored": 2,
+     "errors": 0
+    },
+    "class-anchored": {
+     "stable": 2,
+     "aliased": 0,
+     "ambiguous": 0,
+     "vanished": 0,
+     "scored": 2,
+     "errors": 0
+    },
+    "attribute-anchored": {
+     "stable": 2,
+     "aliased": 0,
+     "ambiguous": 0,
+     "vanished": 0,
+     "scored": 2,
+     "errors": 0
+    },
+    "text-anchored": {
+     "stable": 0,
+     "aliased": 0,
+     "ambiguous": 0,
+     "vanished": 0,
+     "scored": 0,
+     "errors": 0
+    }
+   },
+   "positional_aliased_rate": 0.0
+  },
+  {
+   "before": "67e906344815aa1f0dafe6b58b70fdccdab17b8e",
+   "after": "584eb54f6413ba24125ec5a6fc6e548e1516f579",
+   "skipped_broken_shas_between": [],
+   "subject_after": "feat: update component styles and improve UI consistency across the application",
+   "pages": [
+    "renderer/index.html"
+   ],
+   "status": "run",
+   "before_elements": 2,
+   "after_elements": 2,
+   "elements_added": 0,
+   "elements_removed": 0,
+   "change_kind": "no_list_change",
+   "text_anchored_discard_count": 0,
+   "strategy_counts": {
+    "positional": {
+     "stable": 2,
+     "aliased": 0,
+     "ambiguous": 0,
+     "vanished": 0,
+     "scored": 2,
+     "errors": 0
+    },
+    "id-anchored": {
+     "stable": 2,
+     "aliased": 0,
+     "ambiguous": 0,
+     "vanished": 0,
+     "scored": 2,
+     "errors": 0
+    },
+    "class-anchored": {
+     "stable": 2,
+     "aliased": 0,
+     "ambiguous": 0,
+     "vanished": 0,
+     "scored": 2,
+     "errors": 0
+    },
+    "attribute-anchored": {
+     "stable": 2,
+     "aliased": 0,
+     "ambiguous": 0,
+     "vanished": 0,
+     "scored": 2,
+     "errors": 0
+    },
+    "text-anchored": {
+     "stable": 0,
+     "aliased": 0,
+     "ambiguous": 0,
+     "vanished": 0,
+     "scored": 0,
+     "errors": 0
+    }
+   },
+   "positional_aliased_rate": 0.0
+  },
+  {
+   "before": "584eb54f6413ba24125ec5a6fc6e548e1516f579",
+   "after": "64c5f6ad59a7411c14e1bdf6857057738ae064f5",
+   "skipped_broken_shas_between": [],
+   "subject_after": "feat: improve layout and styling for ProvidersSettings and SettingsWindow components",
+   "pages": [
+    "renderer/index.html"
+   ],
+   "status": "run",
+   "before_elements": 2,
+   "after_elements": 2,
+   "elements_added": 0,
+   "elements_removed": 0,
+   "change_kind": "no_list_change",
+   "text_anchored_discard_count": 0,
+   "strategy_counts": {
+    "positional": {
+     "stable": 2,
+     "aliased": 0,
+     "ambiguous": 0,
+     "vanished": 0,
+     "scored": 2,
+     "errors": 0
+    },
+    "id-anchored": {
+     "stable": 2,
+     "aliased": 0,
+     "ambiguous": 0,
+     "vanished": 0,
+     "scored": 2,
+     "errors": 0
+    },
+    "class-anchored": {
+     "stable": 2,
+     "aliased": 0,
+     "ambiguous": 0,
+     "vanished": 0,
+     "scored": 2,
+     "errors": 0
+    },
+    "attribute-anchored": {
+     "stable": 2,
+     "aliased": 0,
+     "ambiguous": 0,
+     "vanished": 0,
+     "scored": 2,
+     "errors": 0
+    },
+    "text-anchored": {
+     "stable": 0,
+     "aliased": 0,
+     "ambiguous": 0,
+     "vanished": 0,
+     "scored": 0,
+     "errors": 0
+    }
+   },
+   "positional_aliased_rate": 0.0
+  },
+  {
+   "before": "64c5f6ad59a7411c14e1bdf6857057738ae064f5",
+   "after": "79bceefcd0ad5ff7afbdaf0d05f3a63025135ce3",
+   "skipped_broken_shas_between": [],
+   "subject_after": "fix: storage",
+   "pages": [
+    "renderer/index.html"
+   ],
+   "status": "run",
+   "before_elements": 2,
+   "after_elements": 2,
+   "elements_added": 0,
+   "elements_removed": 0,
+   "change_kind": "no_list_change",
+   "text_anchored_discard_count": 0,
+   "strategy_counts": {
+    "positional": {
+     "stable": 2,
+     "aliased": 0,
+     "ambiguous": 0,
+     "vanished": 0,
+     "scored": 2,
+     "errors": 0
+    },
+    "id-anchored": {
+     "stable": 2,
+     "aliased": 0,
+     "ambiguous": 0,
+     "vanished": 0,
+     "scored": 2,
+     "errors": 0
+    },
+    "class-anchored": {
+     "stable": 2,
+     "aliased": 0,
+     "ambiguous": 0,
+     "vanished": 0,
+     "scored": 2,
+     "errors": 0
+    },
+    "attribute-anchored": {
+     "stable": 2,
+     "aliased": 0,
+     "ambiguous": 0,
+     "vanished": 0,
+     "scored": 2,
+     "errors": 0
+    },
+    "text-anchored": {
+     "stable": 0,
+     "aliased": 0,
+     "ambiguous": 0,
+     "vanished": 0,
+     "scored": 0,
+     "errors": 0
+    }
+   },
+   "positional_aliased_rate": 0.0
+  },
+  {
+   "before": "79bceefcd0ad5ff7afbdaf0d05f3a63025135ce3",
+   "after": "1a7452aed5ade625129bc43253cdc3e0eb8de9d8",
+   "skipped_broken_shas_between": [],
+   "subject_after": "refactor: reorganize configuration management and improve provider architecture",
+   "pages": [
+    "renderer/index.html"
+   ],
+   "status": "run",
+   "before_elements": 2,
+   "after_elements": 2,
+   "elements_added": 0,
+   "elements_removed": 0,
+   "change_kind": "no_list_change",
+   "text_anchored_discard_count": 0,
+   "strategy_counts": {
+    "positional": {
+     "stable": 2,
+     "aliased": 0,
+     "ambiguous": 0,
+     "vanished": 0,
+     "scored": 2,
+     "errors": 0
+    },
+    "id-anchored": {
+     "stable": 2,
+     "aliased": 0,
+     "ambiguous": 0,
+     "vanished": 0,
+     "scored": 2,
+     "errors": 0
+    },
+    "class-anchored": {
+     "stable": 2,
+     "aliased": 0,
+     "ambiguous": 0,
+     "vanished": 0,
+     "scored": 2,
+     "errors": 0
+    },
+    "attribute-anchored": {
+     "stable": 2,
+     "aliased": 0,
+     "ambiguous": 0,
+     "vanished": 0,
+     "scored": 2,
+     "errors": 0
+    },
+    "text-anchored": {
+     "stable": 0,
+     "aliased": 0,
+     "ambiguous": 0,
+     "vanished": 0,
+     "scored": 0,
+     "errors": 0
+    }
+   },
+   "positional_aliased_rate": 0.0
+  },
+  {
+   "before": "1a7452aed5ade625129bc43253cdc3e0eb8de9d8",
+   "after": "da63a00736903729a3cb0fcfe3ca77d0fc5bca5a",
+   "skipped_broken_shas_between": [],
+   "subject_after": "refactor: comprehensive settings UI refactor with reusable components and theme integration",
+   "pages": [
+    "renderer/index.html"
+   ],
+   "status": "run",
+   "before_elements": 2,
+   "after_elements": 2,
+   "elements_added": 0,
+   "elements_removed": 0,
+   "change_kind": "no_list_change",
+   "text_anchored_discard_count": 0,
+   "strategy_counts": {
+    "positional": {
+     "stable": 2,
+     "aliased": 0,
+     "ambiguous": 0,
+     "vanished": 0,
+     "scored": 2,
+     "errors": 0
+    },
+    "id-anchored": {
+     "stable": 2,
+     "aliased": 0,
+     "ambiguous": 0,
+     "vanished": 0,
+     "scored": 2,
+     "errors": 0
+    },
+    "class-anchored": {
+     "stable": 2,
+     "aliased": 0,
+     "ambiguous": 0,
+     "vanished": 0,
+     "scored": 2,
+     "errors": 0
+    },
+    "attribute-anchored": {
+     "stable": 2,
+     "aliased": 0,
+     "ambiguous": 0,
+     "vanished": 0,
+     "scored": 2,
+     "errors": 0
+    },
+    "text-anchored": {
+     "stable": 0,
+     "aliased": 0,
+     "ambiguous": 0,
+     "vanished": 0,
+     "scored": 0,
+     "errors": 0
+    }
+   },
+   "positional_aliased_rate": 0.0
+  },
+  {
+   "before": "da63a00736903729a3cb0fcfe3ca77d0fc5bca5a",
+   "after": "c01e358046367dab0cd6ddba95bf264721ff40fc",
+   "skipped_broken_shas_between": [],
+   "subject_after": "style: apply prettier formatting across multiple files",
+   "pages": [
+    "renderer/index.html"
+   ],
+   "status": "run",
+   "before_elements": 2,
+   "after_elements": 2,
+   "elements_added": 0,
+   "elements_removed": 0,
+   "change_kind": "no_list_change",
+   "text_anchored_discard_count": 0,
+   "strategy_counts": {
+    "positional": {
+     "stable": 2,
+     "aliased": 0,
+     "ambiguous": 0,
+     "vanished": 0,
+     "scored": 2,
+     "errors": 0
+    },
+    "id-anchored": {
+     "stable": 2,
+     "aliased": 0,
+     "ambiguous": 0,
+     "vanished": 0,
+     "scored": 2,
+     "errors": 0
+    },
+    "class-anchored": {
+     "stable": 2,
+     "aliased": 0,
+     "ambiguous": 0,
+     "vanished": 0,
+     "scored": 2,
+     "errors": 0
+    },
+    "attribute-anchored": {
+     "stable": 2,
+     "aliased": 0,
+     "ambiguous": 0,
+     "vanished": 0,
+     "scored": 2,
+     "errors": 0
+    },
+    "text-anchored": {
+     "stable": 0,
+     "aliased": 0,
+     "ambiguous": 0,
+     "vanished": 0,
+     "scored": 0,
+     "errors": 0
+    }
+   },
+   "positional_aliased_rate": 0.0
+  },
+  {
+   "before": "c01e358046367dab0cd6ddba95bf264721ff40fc",
+   "after": "d48f0231f7ac1e5ca1018ae54cb0327af9a5583d",
+   "skipped_broken_shas_between": [],
+   "subject_after": "feat: improve chat UI and provider check mechanism",
+   "pages": [
+    "renderer/index.html"
+   ],
+   "status": "run",
+   "before_elements": 2,
+   "after_elements": 2,
+   "elements_added": 0,
+   "elements_removed": 0,
+   "change_kind": "no_list_change",
+   "text_anchored_discard_count": 0,
+   "strategy_counts": {
+    "positional": {
+     "stable": 2,
+     "aliased": 0,
+     "ambiguous": 0,
+     "vanished": 0,
+     "scored": 2,
+     "errors": 0
+    },
+    "id-anchored": {
+     "stable": 2,
+     "aliased": 0,
+     "ambiguous": 0,
+     "vanished": 0,
+     "scored": 2,
+     "errors": 0
+    },
+    "class-anchored": {
+     "stable": 2,
+     "aliased": 0,
+     "ambiguous": 0,
+     "vanished": 0,
+     "scored": 2,
+     "errors": 0
+    },
+    "attribute-anchored": {
+     "stable": 2,
+     "aliased": 0,
+     "ambiguous": 0,
+     "vanished": 0,
+     "scored": 2,
+     "errors": 0
+    },
+    "text-anchored": {
+     "stable": 0,
+     "aliased": 0,
+     "ambiguous": 0,
+     "vanished": 0,
+     "scored": 0,
+     "errors": 0
+    }
+   },
+   "positional_aliased_rate": 0.0
+  },
+  {
+   "before": "d48f0231f7ac1e5ca1018ae54cb0327af9a5583d",
+   "after": "be5da6a521f7ec10024f332e23611443b94d33ba",
+   "skipped_broken_shas_between": [],
+   "subject_after": "fix: resolve reasoning display issues and optimize UI",
+   "pages": [
+    "renderer/index.html"
+   ],
+   "status": "run",
+   "before_elements": 2,
+   "after_elements": 2,
+   "elements_added": 0,
+   "elements_removed": 0,
+   "change_kind": "no_list_change",
+   "text_anchored_discard_count": 0,
+   "strategy_counts": {
+    "positional": {
+     "stable": 2,
+     "aliased": 0,
+     "ambiguous": 0,
+     "vanished": 0,
+     "scored": 2,
+     "errors": 0
+    },
+    "id-anchored": {
+     "stable": 2,
+     "aliased": 0,
+     "ambiguous": 0,
+     "vanished": 0,
+     "scored": 2,
+     "errors": 0
+    },
+    "class-anchored": {
+     "stable": 2,
+     "aliased": 0,
+     "ambiguous": 0,
+     "vanished": 0,
+     "scored": 2,
+     "errors": 0
+    },
+    "attribute-anchored": {
+     "stable": 2,
+     "aliased": 0,
+     "ambiguous": 0,
+     "vanished": 0,
+     "scored": 2,
+     "errors": 0
+    },
+    "text-anchored": {
+     "stable": 0,
+     "aliased": 0,
+     "ambiguous": 0,
+     "vanished": 0,
+     "scored": 0,
+     "errors": 0
+    }
+   },
+   "positional_aliased_rate": 0.0
+  },
+  {
+   "before": "be5da6a521f7ec10024f332e23611443b94d33ba",
+   "after": "a78507559db38d595a212ec8a9c14b1aa50c4ce9",
+   "skipped_broken_shas_between": [
+    "15ee43ff4d38065300c46fdb30858f5d6ea55945",
+    "1bf1f9d0d882c42cc9f0621761c6b0273cbfb493",
+    "5031b9c090b0830fa6fd37118ad4b67522a7a6a2",
+    "2fbddd44549a394b42cdb422eb78bda016ef4467",
+    "2d38fb6f6a84d6008676b2753ba6794147b51a13",
+    "c9a56bca9ecf8ba8d151ab2e8ed770e5e93be9f0",
+    "3e75be539e36510eb74e2e9aa3a0c06b53c01171",
+    "77adae11e570b39298c5f2a6e7eba886c7af5ceb",
+    "ddf73cf4626b98c52f5a6b16d228facdcf4f0915",
+    "b0f725d13bcc8e892c927b701f10c2f83b22a80d",
+    "304be16de6de58a7d31b29a31e87a02c1c7f6662",
+    "f115d4c7ab47ee720b3fc80d652e32847d7b869b",
+    "fb9f941306728d66ecaa87f07a907ad4ed7818e0",
+    "8592e77989885b56bfac681cc40d95b903a4f6dd",
+    "f718e3cd7a2bf9685eb540ed15f95eaa823f3ff7",
+    "4a0decd331419361102b4f52c17458c157a32d82"
+   ],
+   "subject_after": "feat: Implement document loaders for PDF, PPT, and web content",
+   "pages": [
+    "renderer/index.html"
+   ],
+   "status": "run",
+   "before_elements": 2,
+   "after_elements": 2,
+   "elements_added": 0,
+   "elements_removed": 0,
+   "change_kind": "no_list_change",
+   "text_anchored_discard_count": 0,
+   "strategy_counts": {
+    "positional": {
+     "stable": 2,
+     "aliased": 0,
+     "ambiguous": 0,
+     "vanished": 0,
+     "scored": 2,
+     "errors": 0
+    },
+    "id-anchored": {
+     "stable": 2,
+     "aliased": 0,
+     "ambiguous": 0,
+     "vanished": 0,
+     "scored": 2,
+     "errors": 0
+    },
+    "class-anchored": {
+     "stable": 2,
+     "aliased": 0,
+     "ambiguous": 0,
+     "vanished": 0,
+     "scored": 2,
+     "errors": 0
+    },
+    "attribute-anchored": {
+     "stable": 2,
+     "aliased": 0,
+     "ambiguous": 0,
+     "vanished": 0,
+     "scored": 2,
+     "errors": 0
+    },
+    "text-anchored": {
+     "stable": 0,
+     "aliased": 0,
+     "ambiguous": 0,
+     "vanished": 0,
+     "scored": 0,
+     "errors": 0
+    }
+   },
+   "positional_aliased_rate": 0.0
+  },
+  {
+   "before": "a78507559db38d595a212ec8a9c14b1aa50c4ce9",
+   "after": "ea54ad6f8ee1d25c02580e37f48a40b7b140d8de",
+   "skipped_broken_shas_between": [],
+   "subject_after": "feat: add DocumentList",
+   "pages": [
+    "renderer/index.html"
+   ],
+   "status": "run",
+   "before_elements": 2,
+   "after_elements": 2,
+   "elements_added": 0,
+   "elements_removed": 0,
+   "change_kind": "no_list_change",
+   "text_anchored_discard_count": 0,
+   "strategy_counts": {
+    "positional": {
+     "stable": 2,
+     "aliased": 0,
+     "ambiguous": 0,
+     "vanished": 0,
+     "scored": 2,
+     "errors": 0
+    },
+    "id-anchored": {
+     "stable": 2,
+     "aliased": 0,
+     "ambiguous": 0,
+     "vanished": 0,
+     "scored": 2,
+     "errors": 0
+    },
+    "class-anchored": {
+     "stable": 2,
+     "aliased": 0,
+     "ambiguous": 0,
+     "vanished": 0,
+     "scored": 2,
+     "errors": 0
+    },
+    "attribute-anchored": {
+     "stable": 2,
+     "aliased": 0,
+     "ambiguous": 0,
+     "vanished": 0,
+     "scored": 2,
+     "errors": 0
+    },
+    "text-anchored": {
+     "stable": 0,
+     "aliased": 0,
+     "ambiguous": 0,
+     "vanished": 0,
+     "scored": 0,
+     "errors": 0
+    }
+   },
+   "positional_aliased_rate": 0.0
+  },
+  {
+   "before": "ea54ad6f8ee1d25c02580e37f48a40b7b140d8de",
+   "after": "108498843947f9bcb501d939541b4442735157b2",
+   "skipped_broken_shas_between": [],
+   "subject_after": "feat: implement dialog component and enhance UI with z-index system",
+   "pages": [
+    "renderer/index.html"
+   ],
+   "status": "run",
+   "before_elements": 2,
+   "after_elements": 2,
+   "elements_added": 0,
+   "elements_removed": 0,
+   "change_kind": "no_list_change",
+   "text_anchored_discard_count": 0,
+   "strategy_counts": {
+    "positional": {
+     "stable": 2,
+     "aliased": 0,
+     "ambiguous": 0,
+     "vanished": 0,
+     "scored": 2,
+     "errors": 0
+    },
+    "id-anchored": {
+     "stable": 2,
+     "aliased": 0,
+     "ambiguous": 0,
+     "vanished": 0,
+     "scored": 2,
+     "errors": 0
+    },
+    "class-anchored": {
+     "stable": 2,
+     "aliased": 0,
+     "ambiguous": 0,
+     "vanished": 0,
+     "scored": 2,
+     "errors": 0
+    },
+    "attribute-anchored": {
+     "stable": 2,
+     "aliased": 0,
+     "ambiguous": 0,
+     "vanished": 0,
+     "scored": 2,
+     "errors": 0
+    },
+    "text-anchored": {
+     "stable": 0,
+     "aliased": 0,
+     "ambiguous": 0,
+     "vanished": 0,
+     "scored": 0,
+     "errors": 0
+    }
+   },
+   "positional_aliased_rate": 0.0
+  },
+  {
+   "before": "108498843947f9bcb501d939541b4442735157b2",
+   "after": "71eac6b706fc849b207d44f4441cab3d70744166",
+   "skipped_broken_shas_between": [],
+   "subject_after": "feat: implement document click preview and open functionality",
+   "pages": [
+    "renderer/index.html"
+   ],
+   "status": "run",
+   "before_elements": 2,
+   "after_elements": 2,
+   "elements_added": 0,
+   "elements_removed": 0,
+   "change_kind": "no_list_change",
+   "text_anchored_discard_count": 0,
+   "strategy_counts": {
+    "positional": {
+     "stable": 2,
+     "aliased": 0,
+     "ambiguous": 0,
+     "vanished": 0,
+     "scored": 2,
+     "errors": 0
+    },
+    "id-anchored": {
+     "stable": 2,
+     "aliased": 0,
+     "ambiguous": 0,
+     "vanished": 0,
+     "scored": 2,
+     "errors": 0
+    },
+    "class-anchored": {
+     "stable": 2,
+     "aliased": 0,
+     "ambiguous": 0,
+     "vanished": 0,
+     "scored": 2,
+     "errors": 0
+    },
+    "attribute-anchored": {
+     "stable": 2,
+     "aliased": 0,
+     "ambiguous": 0,
+     "vanished": 0,
+     "scored": 2,
+     "errors": 0
+    },
+    "text-anchored": {
+     "stable": 0,
+     "aliased": 0,
+     "ambiguous": 0,
+     "vanished": 0,
+     "scored": 0,
+     "errors": 0
+    }
+   },
+   "positional_aliased_rate": 0.0
+  },
+  {
+   "before": "71eac6b706fc849b207d44f4441cab3d70744166",
+   "after": "4d6ba5f8e723dde8640f12ac46407e35b566a72a",
+   "skipped_broken_shas_between": [],
+   "subject_after": "feat: implement intelligent model classification and filtering",
+   "pages": [
+    "renderer/index.html"
+   ],
+   "status": "run",
+   "before_elements": 2,
+   "after_elements": 2,
+   "elements_added": 0,
+   "elements_removed": 0,
+   "change_kind": "no_list_change",
+   "text_anchored_discard_count": 0,
+   "strategy_counts": {
+    "positional": {
+     "stable": 2,
+     "aliased": 0,
+     "ambiguous": 0,
+     "vanished": 0,
+     "scored": 2,
+     "errors": 0
+    },
+    "id-anchored": {
+     "stable": 2,
+     "aliased": 0,
+     "ambiguous": 0,
+     "vanished": 0,
+     "scored": 2,
+     "errors": 0
+    },
+    "class-anchored": {
+     "stable": 2,
+     "aliased": 0,
+     "ambiguous": 0,
+     "vanished": 0,
+     "scored": 2,
+     "errors": 0
+    },
+    "attribute-anchored": {
+     "stable": 2,
+     "aliased": 0,
+     "ambiguous": 0,
+     "vanished": 0,
+     "scored": 2,
+     "errors": 0
+    },
+    "text-anchored": {
+     "stable": 0,
+     "aliased": 0,
+     "ambiguous": 0,
+     "vanished": 0,
+     "scored": 0,
+     "errors": 0
+    }
+   },
+   "positional_aliased_rate": 0.0
+  },
+  {
+   "before": "4d6ba5f8e723dde8640f12ac46407e35b566a72a",
+   "after": "11f6e13f14e7732b97086414ec6d7e73bcc3ba60",
+   "skipped_broken_shas_between": [],
+   "subject_after": "feat: enhance UI with shadow effects for various components",
+   "pages": [
+    "renderer/index.html"
+   ],
+   "status": "run",
+   "before_elements": 2,
+   "after_elements": 2,
+   "elements_added": 0,
+   "elements_removed": 0,
+   "change_kind": "no_list_change",
+   "text_anchored_discard_count": 0,
+   "strategy_counts": {
+    "positional": {
+     "stable": 2,
+     "aliased": 0,
+     "ambiguous": 0,
+     "vanished": 0,
+     "scored": 2,
+     "errors": 0
+    },
+    "id-anchored": {
+     "stable": 2,
+     "aliased": 0,
+     "ambiguous": 0,
+     "vanished": 0,
+     "scored": 2,
+     "errors": 0
+    },
+    "class-anchored": {
+     "stable": 2,
+     "aliased": 0,
+     "ambiguous": 0,
+     "vanished": 0,
+     "scored": 2,
+     "errors": 0
+    },
+    "attribute-anchored": {
+     "stable": 2,
+     "aliased": 0,
+     "ambiguous": 0,
+     "vanished": 0,
+     "scored": 2,
+     "errors": 0
+    },
+    "text-anchored": {
+     "stable": 0,
+     "aliased": 0,
+     "ambiguous": 0,
+     "vanished": 0,
+     "scored": 0,
+     "errors": 0
+    }
+   },
+   "positional_aliased_rate": 0.0
+  },
+  {
+   "before": "11f6e13f14e7732b97086414ec6d7e73bcc3ba60",
+   "after": "01b80e52758d7758f8a39fa25f9f89064d62467d",
+   "skipped_broken_shas_between": [],
+   "subject_after": "feat: improve chat UX with smart scrolling and reasoning display",
+   "pages": [
+    "renderer/index.html"
+   ],
+   "status": "run",
+   "before_elements": 2,
+   "after_elements": 2,
+   "elements_added": 0,
+   "elements_removed": 0,
+   "change_kind": "no_list_change",
+   "text_anchored_discard_count": 0,
+   "strategy_counts": {
+    "positional": {
+     "stable": 2,
+     "aliased": 0,
+     "ambiguous": 0,
+     "vanished": 0,
+     "scored": 2,
+     "errors": 0
+    },
+    "id-anchored": {
+     "stable": 2,
+     "aliased": 0,
+     "ambiguous": 0,
+     "vanished": 0,
+     "scored": 2,
+     "errors": 0
+    },
+    "class-anchored": {
+     "stable": 2,
+     "aliased": 0,
+     "ambiguous": 0,
+     "vanished": 0,
+     "scored": 2,
+     "errors": 0
+    },
+    "attribute-anchored": {
+     "stable": 2,
+     "aliased": 0,
+     "ambiguous": 0,
+     "vanished": 0,
+     "scored": 2,
+     "errors": 0
+    },
+    "text-anchored": {
+     "stable": 0,
+     "aliased": 0,
+     "ambiguous": 0,
+     "vanished": 0,
+     "scored": 0,
+     "errors": 0
+    }
+   },
+   "positional_aliased_rate": 0.0
+  },
+  {
+   "before": "01b80e52758d7758f8a39fa25f9f89064d62467d",
+   "after": "0504257cc4a3ad66cddec6998c51ed92e4af67e7",
+   "skipped_broken_shas_between": [],
+   "subject_after": "feat: implement stream response interruption feature",
+   "pages": [
+    "renderer/index.html"
+   ],
+   "status": "run",
+   "before_elements": 2,
+   "after_elements": 2,
+   "elements_added": 0,
+   "elements_removed": 0,
+   "change_kind": "no_list_change",
+   "text_anchored_discard_count": 0,
+   "strategy_counts": {
+    "positional": {
+     "stable": 2,
+     "aliased": 0,
+     "ambiguous": 0,
+     "vanished": 0,
+     "scored": 2,
+     "errors": 0
+    },
+    "id-anchored": {
+     "stable": 2,
+     "aliased": 0,
+     "ambiguous": 0,
+     "vanished": 0,
+     "scored": 2,
+     "errors": 0
+    },
+    "class-anchored": {
+     "stable": 2,
+     "aliased": 0,
+     "ambiguous": 0,
+     "vanished": 0,
+     "scored": 2,
+     "errors": 0
+    },
+    "attribute-anchored": {
+     "stable": 2,
+     "aliased": 0,
+     "ambiguous": 0,
+     "vanished": 0,
+     "scored": 2,
+     "errors": 0
+    },
+    "text-anchored": {
+     "stable": 0,
+     "aliased": 0,
+     "ambiguous": 0,
+     "vanished": 0,
+     "scored": 0,
+     "errors": 0
+    }
+   },
+   "positional_aliased_rate": 0.0
+  },
+  {
+   "before": "0504257cc4a3ad66cddec6998c51ed92e4af67e7",
+   "after": "7b93fc73ad628c3724de87cd7144101d63ce9075",
+   "skipped_broken_shas_between": [],
+   "subject_after": "fix: clean up local files when deleting notebook",
+   "pages": [
+    "renderer/index.html"
+   ],
+   "status": "run",
+   "before_elements": 2,
+   "after_elements": 2,
+   "elements_added": 0,
+   "elements_removed": 0,
+   "change_kind": "no_list_change",
+   "text_anchored_discard_count": 0,
+   "strategy_counts": {
+    "positional": {
+     "stable": 2,
+     "aliased": 0,
+     "ambiguous": 0,
+     "vanished": 0,
+     "scored": 2,
+     "errors": 0
+    },
+    "id-anchored": {
+     "stable": 2,
+     "aliased": 0,
+     "ambiguous": 0,
+     "vanished": 0,
+     "scored": 2,
+     "errors": 0
+    },
+    "class-anchored": {
+     "stable": 2,
+     "aliased": 0,
+     "ambiguous": 0,
+     "vanished": 0,
+     "scored": 2,
+     "errors": 0
+    },
+    "attribute-anchored": {
+     "stable": 2,
+     "aliased": 0,
+     "ambiguous": 0,
+     "vanished": 0,
+     "scored": 2,
+     "errors": 0
+    },
+    "text-anchored": {
+     "stable": 0,
+     "aliased": 0,
+     "ambiguous": 0,
+     "vanished": 0,
+     "scored": 0,
+     "errors": 0
+    }
+   },
+   "positional_aliased_rate": 0.0
+  },
+  {
+   "before": "7b93fc73ad628c3724de87cd7144101d63ce9075",
+   "after": "d9c263f09a4bf08825dae6e2560ae1579aaf1a39",
+   "skipped_broken_shas_between": [],
+   "subject_after": "fix: consistent styling for document items in knowledge base",
+   "pages": [
+    "renderer/index.html"
+   ],
+   "status": "run",
+   "before_elements": 2,
+   "after_elements": 2,
+   "elements_added": 0,
+   "elements_removed": 0,
+   "change_kind": "no_list_change",
+   "text_anchored_discard_count": 0,
+   "strategy_counts": {
+    "positional": {
+     "stable": 2,
+     "aliased": 0,
+     "ambiguous": 0,
+     "vanished": 0,
+     "scored": 2,
+     "errors": 0
+    },
+    "id-anchored": {
+     "stable": 2,
+     "aliased": 0,
+     "ambiguous": 0,
+     "vanished": 0,
+     "scored": 2,
+     "errors": 0
+    },
+    "class-anchored": {
+     "stable": 2,
+     "aliased": 0,
+     "ambiguous": 0,
+     "vanished": 0,
+     "scored": 2,
+     "errors": 0
+    },
+    "attribute-anchored": {
+     "stable": 2,
+     "aliased": 0,
+     "ambiguous": 0,
+     "vanished": 0,
+     "scored": 2,
+     "errors": 0
+    },
+    "text-anchored": {
+     "stable": 0,
+     "aliased": 0,
+     "ambiguous": 0,
+     "vanished": 0,
+     "scored": 0,
+     "errors": 0
+    }
+   },
+   "positional_aliased_rate": 0.0
+  },
+  {
+   "before": "d9c263f09a4bf08825dae6e2560ae1579aaf1a39",
+   "after": "49cd8e9bcddc8e0f29fab2e4545f4268c8294efc",
+   "skipped_broken_shas_between": [],
+   "subject_after": "feat: add None option for default models and disable related features",
+   "pages": [
+    "renderer/index.html"
+   ],
+   "status": "run",
+   "before_elements": 2,
+   "after_elements": 2,
+   "elements_added": 0,
+   "elements_removed": 0,
+   "change_kind": "no_list_change",
+   "text_anchored_discard_count": 0,
+   "strategy_counts": {
+    "positional": {
+     "stable": 2,
+     "aliased": 0,
+     "ambiguous": 0,
+     "vanished": 0,
+     "scored": 2,
+     "errors": 0
+    },
+    "id-anchored": {
+     "stable": 2,
+     "aliased": 0,
+     "ambiguous": 0,
+     "vanished": 0,
+     "scored": 2,
+     "errors": 0
+    },
+    "class-anchored": {
+     "stable": 2,
+     "aliased": 0,
+     "ambiguous": 0,
+     "vanished": 0,
+     "scored": 2,
+     "errors": 0
+    },
+    "attribute-anchored": {
+     "stable": 2,
+     "aliased": 0,
+     "ambiguous": 0,
+     "vanished": 0,
+     "scored": 2,
+     "errors": 0
+    },
+    "text-anchored": {
+     "stable": 0,
+     "aliased": 0,
+     "ambiguous": 0,
+     "vanished": 0,
+     "scored": 0,
+     "errors": 0
+    }
+   },
+   "positional_aliased_rate": 0.0
+  },
+  {
+   "before": "49cd8e9bcddc8e0f29fab2e4545f4268c8294efc",
+   "after": "00c5562dd823e34cc9771be9246806f99910643a",
+   "skipped_broken_shas_between": [],
+   "subject_after": "fix: improve code readability by formatting and restructuring conditions",
+   "pages": [
+    "renderer/index.html"
+   ],
+   "status": "run",
+   "before_elements": 2,
+   "after_elements": 2,
+   "elements_added": 0,
+   "elements_removed": 0,
+   "change_kind": "no_list_change",
+   "text_anchored_discard_count": 0,
+   "strategy_counts": {
+    "positional": {
+     "stable": 2,
+     "aliased": 0,
+     "ambiguous": 0,
+     "vanished": 0,
+     "scored": 2,
+     "errors": 0
+    },
+    "id-anchored": {
+     "stable": 2,
+     "aliased": 0,
+     "ambiguous": 0,
+     "vanished": 0,
+     "scored": 2,
+     "errors": 0
+    },
+    "class-anchored": {
+     "stable": 2,
+     "aliased": 0,
+     "ambiguous": 0,
+     "vanished": 0,
+     "scored": 2,
+     "errors": 0
+    },
+    "attribute-anchored": {
+     "stable": 2,
+     "aliased": 0,
+     "ambiguous": 0,
+     "vanished": 0,
+     "scored": 2,
+     "errors": 0
+    },
+    "text-anchored": {
+     "stable": 0,
+     "aliased": 0,
+     "ambiguous": 0,
+     "vanished": 0,
+     "scored": 0,
+     "errors": 0
+    }
+   },
+   "positional_aliased_rate": 0.0
+  },
+  {
+   "before": "00c5562dd823e34cc9771be9246806f99910643a",
+   "after": "3de7d76ca4f9b1849113b6d7df2cfaef7c6f1309",
+   "skipped_broken_shas_between": [],
+   "subject_after": "feat: rename project from litebook to KnowNote and update related configurations",
+   "pages": [
+    "renderer/index.html"
+   ],
+   "status": "run",
+   "before_elements": 2,
+   "after_elements": 2,
+   "elements_added": 0,
+   "elements_removed": 0,
+   "change_kind": "no_list_change",
+   "text_anchored_discard_count": 0,
+   "strategy_counts": {
+    "positional": {
+     "stable": 2,
+     "aliased": 0,
+     "ambiguous": 0,
+     "vanished": 0,
+     "scored": 2,
+     "errors": 0
+    },
+    "id-anchored": {
+     "stable": 2,
+     "aliased": 0,
+     "ambiguous": 0,
+     "vanished": 0,
+     "scored": 2,
+     "errors": 0
+    },
+    "class-anchored": {
+     "stable": 2,
+     "aliased": 0,
+     "ambiguous": 0,
+     "vanished": 0,
+     "scored": 2,
+     "errors": 0
+    },
+    "attribute-anchored": {
+     "stable": 2,
+     "aliased": 0,
+     "ambiguous": 0,
+     "vanished": 0,
+     "scored": 2,
+     "errors": 0
+    },
+    "text-anchored": {
+     "stable": 0,
+     "aliased": 0,
+     "ambiguous": 0,
+     "vanished": 0,
+     "scored": 0,
+     "errors": 0
+    }
+   },
+   "positional_aliased_rate": 0.0
+  },
+  {
+   "before": "3de7d76ca4f9b1849113b6d7df2cfaef7c6f1309",
+   "after": "49639cc4ec533b78a52499c71e6bdcdc417760f4",
+   "skipped_broken_shas_between": [],
+   "subject_after": "fix: update CSS class for message text wrapping in MessageItem component",
+   "pages": [
+    "renderer/index.html"
+   ],
+   "status": "run",
+   "before_elements": 2,
+   "after_elements": 2,
+   "elements_added": 0,
+   "elements_removed": 0,
+   "change_kind": "no_list_change",
+   "text_anchored_discard_count": 0,
+   "strategy_counts": {
+    "positional": {
+     "stable": 2,
+     "aliased": 0,
+     "ambiguous": 0,
+     "vanished": 0,
+     "scored": 2,
+     "errors": 0
+    },
+    "id-anchored": {
+     "stable": 2,
+     "aliased": 0,
+     "ambiguous": 0,
+     "vanished": 0,
+     "scored": 2,
+     "errors": 0
+    },
+    "class-anchored": {
+     "stable": 2,
+     "aliased": 0,
+     "ambiguous": 0,
+     "vanished": 0,
+     "scored": 2,
+     "errors": 0
+    },
+    "attribute-anchored": {
+     "stable": 2,
+     "aliased": 0,
+     "ambiguous": 0,
+     "vanished": 0,
+     "scored": 2,
+     "errors": 0
+    },
+    "text-anchored": {
+     "stable": 0,
+     "aliased": 0,
+     "ambiguous": 0,
+     "vanished": 0,
+     "scored": 0,
+     "errors": 0
+    }
+   },
+   "positional_aliased_rate": 0.0
+  },
+  {
+   "before": "49639cc4ec533b78a52499c71e6bdcdc417760f4",
+   "after": "68dd9f5ea7fa74e07d8c8651867fcfd744d6bcb5",
+   "skipped_broken_shas_between": [
+    "f237496381ae6fa7dc50daf8f7a1f3f8929fca7d",
+    "64a706f80685d3d95ae575f77f629a5173e50d98",
+    "4e72928d13f6a625f8510516d43d4840f7d67f33",
+    "3bf84014afef8d7c88252f6c280d3cf84e2561d8",
+    "d0a57597e852ac4bd83a835f5533578fdfc66faf",
+    "bad740ee406753dfdf7b4c3ece65e7dcf61e23f2",
+    "78c089a8517fdebd353c88b18dc52a078abd4bca"
+   ],
+   "subject_after": "feat(settings): update About page with custom logo and simplified links",
+   "pages": [
+    "renderer/index.html"
+   ],
+   "status": "run",
+   "before_elements": 2,
+   "after_elements": 2,
+   "elements_added": 0,
+   "elements_removed": 0,
+   "change_kind": "no_list_change",
+   "text_anchored_discard_count": 0,
+   "strategy_counts": {
+    "positional": {
+     "stable": 2,
+     "aliased": 0,
+     "ambiguous": 0,
+     "vanished": 0,
+     "scored": 2,
+     "errors": 0
+    },
+    "id-anchored": {
+     "stable": 2,
+     "aliased": 0,
+     "ambiguous": 0,
+     "vanished": 0,
+     "scored": 2,
+     "errors": 0
+    },
+    "class-anchored": {
+     "stable": 2,
+     "aliased": 0,
+     "ambiguous": 0,
+     "vanished": 0,
+     "scored": 2,
+     "errors": 0
+    },
+    "attribute-anchored": {
+     "stable": 2,
+     "aliased": 0,
+     "ambiguous": 0,
+     "vanished": 0,
+     "scored": 2,
+     "errors": 0
+    },
+    "text-anchored": {
+     "stable": 0,
+     "aliased": 0,
+     "ambiguous": 0,
+     "vanished": 0,
+     "scored": 0,
+     "errors": 0
+    }
+   },
+   "positional_aliased_rate": 0.0
+  },
+  {
+   "before": "68dd9f5ea7fa74e07d8c8651867fcfd744d6bcb5",
+   "after": "b1a94d9c91d0dbd81b5a105c122838fbefe2daf6",
+   "skipped_broken_shas_between": [
+    "d70c9328db48afe48f75f4572a3b803fd16b6cf5",
+    "6d354cb86301dab172177464af367349fe42436d",
+    "0d2e613dffbbc61d52667f8a13d329848906dbcf",
+    "f9354013dcdc0a31d008dbc807b9f5c4b1448f44",
+    "2a86536cc7003d167c206cdfda3cb0401ee32ad4",
+    "d946592cc00041e063d24f49cbc300ba21af6735",
+    "496cc186bf17aeffa513118b1e2568217608f7ca",
+    "24958ae82f24a8c668675b02ec22a4958036d32b",
+    "769675450ca09c3d4178fe3d5cb6e422b0f63f60",
+    "3ace6765a309545c21d5b8836758df2148e22d0e",
+    "e1946377f7b0b37fb8e152db422e3df726d3cde8",
+    "a79d4218373a38a1ad432fe86342740bf996e952",
+    "28dff092f56b173c76d3cc30e31b70dccc846ed3",
+    "4bb2b72f667bdc20bae1049092f2e0af532f0bf8",
+    "b019692a000cd9a5d9f0322d9f9e43e7d593e7c9",
+    "e061d154f05a9c50639719b5ad7001d1f282cd10",
+    "9e48198871fe925d3cf3511f09c985d2eb06ea50",
+    "9f2618337ce7078f80e8b55e321b26184bfed5da",
+    "fdf90626a2a71e9f725f9b294f44db0167fdbdd9",
+    "afb48f1a61c0b150d5a77493d25d9efda5f7eefc",
+    "7ea1dc0ce729fb2ebacdcbcd4eb01152b0745b0f",
+    "b379e42501c860a0a99feb36693bdcbb05abe96a",
+    "21553f80a1dbbca6e88cb58fd2fdfa78a4842119",
+    "33218de244d2ee19839435c1e5cf7db4676a85a1",
+    "e2baad109a8884ad2685b6966fa33dd5c0e7310f",
+    "f7894dc35da00441fc47a13bb19964a63753f474",
+    "f13a3c741e881f085237d5fbbc4955de5d6321ae"
+   ],
+   "subject_after": "fix: resolve TypeScript errors in mindmap components",
+   "pages": [
+    "renderer/index.html"
+   ],
+   "status": "run",
+   "before_elements": 2,
+   "after_elements": 2,
+   "elements_added": 0,
+   "elements_removed": 0,
+   "change_kind": "no_list_change",
+   "text_anchored_discard_count": 0,
+   "strategy_counts": {
+    "positional": {
+     "stable": 2,
+     "aliased": 0,
+     "ambiguous": 0,
+     "vanished": 0,
+     "scored": 2,
+     "errors": 0
+    },
+    "id-anchored": {
+     "stable": 2,
+     "aliased": 0,
+     "ambiguous": 0,
+     "vanished": 0,
+     "scored": 2,
+     "errors": 0
+    },
+    "class-anchored": {
+     "stable": 2,
+     "aliased": 0,
+     "ambiguous": 0,
+     "vanished": 0,
+     "scored": 2,
+     "errors": 0
+    },
+    "attribute-anchored": {
+     "stable": 2,
+     "aliased": 0,
+     "ambiguous": 0,
+     "vanished": 0,
+     "scored": 2,
+     "errors": 0
+    },
+    "text-anchored": {
+     "stable": 0,
+     "aliased": 0,
+     "ambiguous": 0,
+     "vanished": 0,
+     "scored": 0,
+     "errors": 0
+    }
+   },
+   "positional_aliased_rate": 0.0
+  },
+  {
+   "before": "b1a94d9c91d0dbd81b5a105c122838fbefe2daf6",
+   "after": "f506c5b39c676a6cc7b58dec08ddeea20f89b440",
+   "skipped_broken_shas_between": [],
+   "subject_after": "fix: add to note editor not opening (#15)",
+   "pages": [
+    "renderer/index.html"
+   ],
+   "status": "run",
+   "before_elements": 2,
+   "after_elements": 2,
+   "elements_added": 0,
+   "elements_removed": 0,
+   "change_kind": "no_list_change",
+   "text_anchored_discard_count": 0,
+   "strategy_counts": {
+    "positional": {
+     "stable": 2,
+     "aliased": 0,
+     "ambiguous": 0,
+     "vanished": 0,
+     "scored": 2,
+     "errors": 0
+    },
+    "id-anchored": {
+     "stable": 2,
+     "aliased": 0,
+     "ambiguous": 0,
+     "vanished": 0,
+     "scored": 2,
+     "errors": 0
+    },
+    "class-anchored": {
+     "stable": 2,
+     "aliased": 0,
+     "ambiguous": 0,
+     "vanished": 0,
+     "scored": 2,
+     "errors": 0
+    },
+    "attribute-anchored": {
+     "stable": 2,
+     "aliased": 0,
+     "ambiguous": 0,
+     "vanished": 0,
+     "scored": 2,
+     "errors": 0
+    },
+    "text-anchored": {
+     "stable": 0,
+     "aliased": 0,
+     "ambiguous": 0,
+     "vanished": 0,
+     "scored": 0,
+     "errors": 0
+    }
+   },
+   "positional_aliased_rate": 0.0
+  },
+  {
+   "before": "f506c5b39c676a6cc7b58dec08ddeea20f89b440",
+   "after": "2dbdebe42e23489b214406a0409c04d4241a50b6",
+   "skipped_broken_shas_between": [],
+   "subject_after": "style: Atom style enhanced (#22)",
+   "pages": [
+    "renderer/index.html"
+   ],
+   "status": "run",
+   "before_elements": 2,
+   "after_elements": 2,
+   "elements_added": 0,
+   "elements_removed": 0,
+   "change_kind": "no_list_change",
+   "text_anchored_discard_count": 0,
+   "strategy_counts": {
+    "positional": {
+     "stable": 2,
+     "aliased": 0,
+     "ambiguous": 0,
+     "vanished": 0,
+     "scored": 2,
+     "errors": 0
+    },
+    "id-anchored": {
+     "stable": 2,
+     "aliased": 0,
+     "ambiguous": 0,
+     "vanished": 0,
+     "scored": 2,
+     "errors": 0
+    },
+    "class-anchored": {
+     "stable": 2,
+     "aliased": 0,
+     "ambiguous": 0,
+     "vanished": 0,
+     "scored": 2,
+     "errors": 0
+    },
+    "attribute-anchored": {
+     "stable": 2,
+     "aliased": 0,
+     "ambiguous": 0,
+     "vanished": 0,
+     "scored": 2,
+     "errors": 0
+    },
+    "text-anchored": {
+     "stable": 0,
+     "aliased": 0,
+     "ambiguous": 0,
+     "vanished": 0,
+     "scored": 0,
+     "errors": 0
+    }
+   },
+   "positional_aliased_rate": 0.0
+  },
+  {
+   "before": "2dbdebe42e23489b214406a0409c04d4241a50b6",
+   "after": "28f3394256fde3f3f03fed9530c8772acc408c4a",
+   "skipped_broken_shas_between": [],
+   "subject_after": "feat: local model list (#23)",
+   "pages": [
+    "renderer/index.html"
+   ],
+   "status": "run",
+   "before_elements": 2,
+   "after_elements": 2,
+   "elements_added": 0,
+   "elements_removed": 0,
+   "change_kind": "no_list_change",
+   "text_anchored_discard_count": 0,
+   "strategy_counts": {
+    "positional": {
+     "stable": 2,
+     "aliased": 0,
+     "ambiguous": 0,
+     "vanished": 0,
+     "scored": 2,
+     "errors": 0
+    },
+    "id-anchored": {
+     "stable": 2,
+     "aliased": 0,
+     "ambiguous": 0,
+     "vanished": 0,
+     "scored": 2,
+     "errors": 0
+    },
+    "class-anchored": {
+     "stable": 2,
+     "aliased": 0,
+     "ambiguous": 0,
+     "vanished": 0,
+     "scored": 2,
+     "errors": 0
+    },
+    "attribute-anchored": {
+     "stable": 2,
+     "aliased": 0,
+     "ambiguous": 0,
+     "vanished": 0,
+     "scored": 2,
+     "errors": 0
+    },
+    "text-anchored": {
+     "stable": 0,
+     "aliased": 0,
+     "ambiguous": 0,
+     "vanished": 0,
+     "scored": 0,
+     "errors": 0
+    }
+   },
+   "positional_aliased_rate": 0.0
+  },
+  {
+   "before": "28f3394256fde3f3f03fed9530c8772acc408c4a",
+   "after": "99ea975db2c5b6a8eae120623aaf01a573564051",
+   "skipped_broken_shas_between": [],
+   "subject_after": "feat: UI improvements(#24)",
+   "pages": [
+    "renderer/index.html"
+   ],
+   "status": "run",
+   "before_elements": 2,
+   "after_elements": 2,
+   "elements_added": 0,
+   "elements_removed": 0,
+   "change_kind": "no_list_change",
+   "text_anchored_discard_count": 0,
+   "strategy_counts": {
+    "positional": {
+     "stable": 2,
+     "aliased": 0,
+     "ambiguous": 0,
+     "vanished": 0,
+     "scored": 2,
+     "errors": 0
+    },
+    "id-anchored": {
+     "stable": 2,
+     "aliased": 0,
+     "ambiguous": 0,
+     "vanished": 0,
+     "scored": 2,
+     "errors": 0
+    },
+    "class-anchored": {
+     "stable": 2,
+     "aliased": 0,
+     "ambiguous": 0,
+     "vanished": 0,
+     "scored": 2,
+     "errors": 0
+    },
+    "attribute-anchored": {
+     "stable": 2,
+     "aliased": 0,
+     "ambiguous": 0,
+     "vanished": 0,
+     "scored": 2,
+     "errors": 0
+    },
+    "text-anchored": {
+     "stable": 0,
+     "aliased": 0,
+     "ambiguous": 0,
+     "vanished": 0,
+     "scored": 0,
+     "errors": 0
+    }
+   },
+   "positional_aliased_rate": 0.0
+  },
+  {
+   "before": "99ea975db2c5b6a8eae120623aaf01a573564051",
+   "after": "a1d42a3d15c0b242eecf2fa37c4eabd8d3599c48",
+   "skipped_broken_shas_between": [
+    "3e9c3f47c8ce7ad83195213413874c68b9ca1b07",
+    "bd98a5694dddf554a2f832bf26bf129c06889841",
+    "b5b842cfc7b545d16df43a6f39aa2a1b10f4817b"
+   ],
+   "subject_after": "fix: resolve TypeScript compilation errors and ESLint errors",
+   "pages": [
+    "renderer/index.html"
+   ],
+   "status": "run",
+   "before_elements": 2,
+   "after_elements": 2,
+   "elements_added": 0,
+   "elements_removed": 0,
+   "change_kind": "no_list_change",
+   "text_anchored_discard_count": 0,
+   "strategy_counts": {
+    "positional": {
+     "stable": 2,
+     "aliased": 0,
+     "ambiguous": 0,
+     "vanished": 0,
+     "scored": 2,
+     "errors": 0
+    },
+    "id-anchored": {
+     "stable": 2,
+     "aliased": 0,
+     "ambiguous": 0,
+     "vanished": 0,
+     "scored": 2,
+     "errors": 0
+    },
+    "class-anchored": {
+     "stable": 2,
+     "aliased": 0,
+     "ambiguous": 0,
+     "vanished": 0,
+     "scored": 2,
+     "errors": 0
+    },
+    "attribute-anchored": {
+     "stable": 2,
+     "aliased": 0,
+     "ambiguous": 0,
+     "vanished": 0,
+     "scored": 2,
+     "errors": 0
+    },
+    "text-anchored": {
+     "stable": 0,
+     "aliased": 0,
+     "ambiguous": 0,
+     "vanished": 0,
+     "scored": 0,
+     "errors": 0
+    }
+   },
+   "positional_aliased_rate": 0.0
+  },
+  {
+   "before": "a1d42a3d15c0b242eecf2fa37c4eabd8d3599c48",
+   "after": "578ba97f78457d8fd486916f4c454bf644f701db",
+   "skipped_broken_shas_between": [
+    "22d4a96c830507d48ff935b52ed7b94f9991eb4e",
+    "a915425d816aba6f5b0b3446e7e4dadaf4f4d527"
+   ],
+   "subject_after": "feat: add dompurify for sanitizing HTML in Anki card rendering",
+   "pages": [
+    "renderer/index.html"
+   ],
+   "status": "run",
+   "before_elements": 2,
+   "after_elements": 2,
+   "elements_added": 0,
+   "elements_removed": 0,
+   "change_kind": "no_list_change",
+   "text_anchored_discard_count": 0,
+   "strategy_counts": {
+    "positional": {
+     "stable": 2,
+     "aliased": 0,
+     "ambiguous": 0,
+     "vanished": 0,
+     "scored": 2,
+     "errors": 0
+    },
+    "id-anchored": {
+     "stable": 2,
+     "aliased": 0,
+     "ambiguous": 0,
+     "vanished": 0,
+     "scored": 2,
+     "errors": 0
+    },
+    "class-anchored": {
+     "stable": 2,
+     "aliased": 0,
+     "ambiguous": 0,
+     "vanished": 0,
+     "scored": 2,
+     "errors": 0
+    },
+    "attribute-anchored": {
+     "stable": 2,
+     "aliased": 0,
+     "ambiguous": 0,
+     "vanished": 0,
+     "scored": 2,
+     "errors": 0
+    },
+    "text-anchored": {
+     "stable": 0,
+     "aliased": 0,
+     "ambiguous": 0,
+     "vanished": 0,
+     "scored": 0,
+     "errors": 0
+    }
+   },
+   "positional_aliased_rate": 0.0
+  }
+ ]
+}

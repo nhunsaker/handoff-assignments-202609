@@ -1,0 +1,4160 @@
+[
+ {
+  "strategy": "positional",
+  "selector": "body>section:nth-of-type(1)>div>div>div>div:nth-of-type(3)>p>link",
+  "before_fingerprint": {
+   "tag": "link",
+   "text": "",
+   "href": "/_server-islands/TicketsAvailable?e=default&p=E9746268F820690C823DD234k6JC4SxIYoLnKVFkaM%2Byg%2F2q&s=%7B%7D",
+   "id": null
+  },
+  "after_fingerprint": {
+   "tag": "link",
+   "text": "",
+   "href": "/_server-islands/TicketsAvailable?e=default&p=6857ECAF6328111D14168556qHYWG%2BRCOGQvSefwwjHZ3jjl&s=%7B%7D",
+   "id": null
+  },
+  "repo": "midudev/jsconf.es",
+  "pair": {
+   "before": "a64bc3e1176d305db4ce0c0697edac8d4306c5bb",
+   "after": "959ff12389d9fff356a01f9908e0f46ee3ebed73"
+  },
+  "page": "/"
+ },
+ {
+  "strategy": "positional",
+  "selector": "body>a",
+  "before_fingerprint": {
+   "tag": "a",
+   "text": "Skip to main content",
+   "href": "#main",
+   "id": "skip-link"
+  },
+  "after_fingerprint": {
+   "tag": "a",
+   "text": "Skip to main content",
+   "href": "#skip",
+   "id": null
+  },
+  "repo": "11ty/eleventy-base-blog",
+  "pair": {
+   "before": "57fdcca03fe7de215cadfdff952ffbe1fadfab69",
+   "after": "3b870d5914b39d906df17ca43930cd57685d0b5b"
+  },
+  "page": "404.html"
+ },
+ {
+  "strategy": "positional",
+  "selector": "body>section:nth-of-type(1)>div>div>div>div:nth-of-type(3)>p>script",
+  "before_fingerprint": {
+   "tag": "script",
+   "text": "let script = document.querySelector('script[data-island-id=\"e0d7f4a8-f983-4a89-a993-ff82210c8e31\"]'); let response = await fetch('/_server-islands/TicketsAvailable?e=default&p=E9746268F820690C823DD234k6JC4SxIYoLnKVFkaM%2Byg%2F2q&s=%7B%7D'); if (script) { if(response.status === 200 && response.headers.get('content-type') === 'text/html') { let html = await response.text(); // Swap! while(script.previousSibling && script.previousSibling.nodeType !== 8 && script.previousSibling.data !== '[if astro]>server-island-start<![endif]') { script.previousSibling.remove(); } script.previousSibling?.remove(); let frag = document.createRange().createContextualFragment(html); script.before(frag); } script.remove(); }",
+   "href": null,
+   "id": null
+  },
+  "after_fingerprint": {
+   "tag": "script",
+   "text": "let script = document.querySelector('script[data-island-id=\"f28c188c-2ee2-416b-983e-5c983d4b7961\"]'); let response = await fetch('/_server-islands/TicketsAvailable?e=default&p=6857ECAF6328111D14168556qHYWG%2BRCOGQvSefwwjHZ3jjl&s=%7B%7D'); if (script) { if(response.status === 200 && response.headers.get('content-type') === 'text/html') { let html = await response.text(); // Swap! while(script.previousSibling && script.previousSibling.nodeType !== 8 && script.previousSibling.data !== '[if astro]>server-island-start<![endif]') { script.previousSibling.remove(); } script.previousSibling?.remove(); let frag = document.createRange().createContextualFragment(html); script.before(frag); } script.remove(); }",
+   "href": null,
+   "id": null
+  },
+  "repo": "midudev/jsconf.es",
+  "pair": {
+   "before": "a64bc3e1176d305db4ce0c0697edac8d4306c5bb",
+   "after": "959ff12389d9fff356a01f9908e0f46ee3ebed73"
+  },
+  "page": "/"
+ },
+ {
+  "strategy": "positional",
+  "selector": "body>main",
+  "before_fingerprint": {
+   "tag": "main",
+   "text": "",
+   "href": null,
+   "id": "main"
+  },
+  "after_fingerprint": {
+   "tag": "main",
+   "text": "",
+   "href": null,
+   "id": "skip"
+  },
+  "repo": "11ty/eleventy-base-blog",
+  "pair": {
+   "before": "57fdcca03fe7de215cadfdff952ffbe1fadfab69",
+   "after": "3b870d5914b39d906df17ca43930cd57685d0b5b"
+  },
+  "page": "404.html"
+ },
+ {
+  "strategy": "positional",
+  "selector": "body>section:nth-of-type(1)>div>div>div>div:nth-of-type(3)>p>link",
+  "before_fingerprint": {
+   "tag": "link",
+   "text": "",
+   "href": "/_server-islands/TicketsAvailable?e=default&p=6857ECAF6328111D14168556qHYWG%2BRCOGQvSefwwjHZ3jjl&s=%7B%7D",
+   "id": null
+  },
+  "after_fingerprint": {
+   "tag": "link",
+   "text": "",
+   "href": "/_server-islands/TicketsAvailable?e=default&p=97584B508AC7636C5A475D7DokFazDOU9%2FQZhIl0dntMjXU6&s=%7B%7D",
+   "id": null
+  },
+  "repo": "midudev/jsconf.es",
+  "pair": {
+   "before": "959ff12389d9fff356a01f9908e0f46ee3ebed73",
+   "after": "05a596225130836128a8f092e86f1a2e06509b37"
+  },
+  "page": "/"
+ },
+ {
+  "strategy": "positional",
+  "selector": "body>a",
+  "before_fingerprint": {
+   "tag": "a",
+   "text": "Skip to main content",
+   "href": "#main",
+   "id": "skip-link"
+  },
+  "after_fingerprint": {
+   "tag": "a",
+   "text": "Skip to main content",
+   "href": "#skip",
+   "id": null
+  },
+  "repo": "11ty/eleventy-base-blog",
+  "pair": {
+   "before": "57fdcca03fe7de215cadfdff952ffbe1fadfab69",
+   "after": "3b870d5914b39d906df17ca43930cd57685d0b5b"
+  },
+  "page": "about/index.html"
+ },
+ {
+  "strategy": "positional",
+  "selector": "body>section:nth-of-type(1)>div>div>div>div:nth-of-type(3)>p>script",
+  "before_fingerprint": {
+   "tag": "script",
+   "text": "let script = document.querySelector('script[data-island-id=\"f28c188c-2ee2-416b-983e-5c983d4b7961\"]'); let response = await fetch('/_server-islands/TicketsAvailable?e=default&p=6857ECAF6328111D14168556qHYWG%2BRCOGQvSefwwjHZ3jjl&s=%7B%7D'); if (script) { if(response.status === 200 && response.headers.get('content-type') === 'text/html') { let html = await response.text(); // Swap! while(script.previousSibling && script.previousSibling.nodeType !== 8 && script.previousSibling.data !== '[if astro]>server-island-start<![endif]') { script.previousSibling.remove(); } script.previousSibling?.remove(); let frag = document.createRange().createContextualFragment(html); script.before(frag); } script.remove(); }",
+   "href": null,
+   "id": null
+  },
+  "after_fingerprint": {
+   "tag": "script",
+   "text": "let script = document.querySelector('script[data-island-id=\"6462d70b-873a-42e4-a95f-73ee0b43522e\"]'); let response = await fetch('/_server-islands/TicketsAvailable?e=default&p=97584B508AC7636C5A475D7DokFazDOU9%2FQZhIl0dntMjXU6&s=%7B%7D'); if (script) { if(response.status === 200 && response.headers.get('content-type') === 'text/html') { let html = await response.text(); // Swap! while(script.previousSibling && script.previousSibling.nodeType !== 8 && script.previousSibling.data !== '[if astro]>server-island-start<![endif]') { script.previousSibling.remove(); } script.previousSibling?.remove(); let frag = document.createRange().createContextualFragment(html); script.before(frag); } script.remove(); }",
+   "href": null,
+   "id": null
+  },
+  "repo": "midudev/jsconf.es",
+  "pair": {
+   "before": "959ff12389d9fff356a01f9908e0f46ee3ebed73",
+   "after": "05a596225130836128a8f092e86f1a2e06509b37"
+  },
+  "page": "/"
+ },
+ {
+  "strategy": "positional",
+  "selector": "body>main",
+  "before_fingerprint": {
+   "tag": "main",
+   "text": "",
+   "href": null,
+   "id": "main"
+  },
+  "after_fingerprint": {
+   "tag": "main",
+   "text": "",
+   "href": null,
+   "id": "skip"
+  },
+  "repo": "11ty/eleventy-base-blog",
+  "pair": {
+   "before": "57fdcca03fe7de215cadfdff952ffbe1fadfab69",
+   "after": "3b870d5914b39d906df17ca43930cd57685d0b5b"
+  },
+  "page": "about/index.html"
+ },
+ {
+  "strategy": "positional",
+  "selector": "body>section:nth-of-type(1)>div>div>div>div:nth-of-type(3)>p>link",
+  "before_fingerprint": {
+   "tag": "link",
+   "text": "",
+   "href": "/_server-islands/TicketsAvailable?e=default&p=97584B508AC7636C5A475D7DokFazDOU9%2FQZhIl0dntMjXU6&s=%7B%7D",
+   "id": null
+  },
+  "after_fingerprint": {
+   "tag": "link",
+   "text": "",
+   "href": "/_server-islands/TicketsAvailable?e=default&p=16D6317E88230F7DA674A4F4cLMdO0sg%2BLQm33FYXs7nJYDi&s=%7B%7D",
+   "id": null
+  },
+  "repo": "midudev/jsconf.es",
+  "pair": {
+   "before": "05a596225130836128a8f092e86f1a2e06509b37",
+   "after": "3b6f44bd10be113853c0de47be18088cd4f9b8f4"
+  },
+  "page": "/"
+ },
+ {
+  "strategy": "positional",
+  "selector": "body>a",
+  "before_fingerprint": {
+   "tag": "a",
+   "text": "Skip to main content",
+   "href": "#main",
+   "id": "skip-link"
+  },
+  "after_fingerprint": {
+   "tag": "a",
+   "text": "Skip to main content",
+   "href": "#skip",
+   "id": null
+  },
+  "repo": "11ty/eleventy-base-blog",
+  "pair": {
+   "before": "57fdcca03fe7de215cadfdff952ffbe1fadfab69",
+   "after": "3b870d5914b39d906df17ca43930cd57685d0b5b"
+  },
+  "page": "blog/firstpost/index.html"
+ },
+ {
+  "strategy": "positional",
+  "selector": "body>section:nth-of-type(1)>div>div>div>div:nth-of-type(3)>p>script",
+  "before_fingerprint": {
+   "tag": "script",
+   "text": "let script = document.querySelector('script[data-island-id=\"6462d70b-873a-42e4-a95f-73ee0b43522e\"]'); let response = await fetch('/_server-islands/TicketsAvailable?e=default&p=97584B508AC7636C5A475D7DokFazDOU9%2FQZhIl0dntMjXU6&s=%7B%7D'); if (script) { if(response.status === 200 && response.headers.get('content-type') === 'text/html') { let html = await response.text(); // Swap! while(script.previousSibling && script.previousSibling.nodeType !== 8 && script.previousSibling.data !== '[if astro]>server-island-start<![endif]') { script.previousSibling.remove(); } script.previousSibling?.remove(); let frag = document.createRange().createContextualFragment(html); script.before(frag); } script.remove(); }",
+   "href": null,
+   "id": null
+  },
+  "after_fingerprint": {
+   "tag": "script",
+   "text": "let script = document.querySelector('script[data-island-id=\"749ffc28-d6dc-4bb6-ac23-2ed54ec24cbb\"]'); let response = await fetch('/_server-islands/TicketsAvailable?e=default&p=16D6317E88230F7DA674A4F4cLMdO0sg%2BLQm33FYXs7nJYDi&s=%7B%7D'); if (script) { if(response.status === 200 && response.headers.get('content-type') === 'text/html') { let html = await response.text(); // Swap! while(script.previousSibling && script.previousSibling.nodeType !== 8 && script.previousSibling.data !== '[if astro]>server-island-start<![endif]') { script.previousSibling.remove(); } script.previousSibling?.remove(); let frag = document.createRange().createContextualFragment(html); script.before(frag); } script.remove(); }",
+   "href": null,
+   "id": null
+  },
+  "repo": "midudev/jsconf.es",
+  "pair": {
+   "before": "05a596225130836128a8f092e86f1a2e06509b37",
+   "after": "3b6f44bd10be113853c0de47be18088cd4f9b8f4"
+  },
+  "page": "/"
+ },
+ {
+  "strategy": "positional",
+  "selector": "body>main",
+  "before_fingerprint": {
+   "tag": "main",
+   "text": "",
+   "href": null,
+   "id": "main"
+  },
+  "after_fingerprint": {
+   "tag": "main",
+   "text": "",
+   "href": null,
+   "id": "skip"
+  },
+  "repo": "11ty/eleventy-base-blog",
+  "pair": {
+   "before": "57fdcca03fe7de215cadfdff952ffbe1fadfab69",
+   "after": "3b870d5914b39d906df17ca43930cd57685d0b5b"
+  },
+  "page": "blog/firstpost/index.html"
+ },
+ {
+  "strategy": "positional",
+  "selector": "body>section:nth-of-type(1)>div>div>div>div:nth-of-type(3)>p>span:nth-of-type(1)",
+  "before_fingerprint": {
+   "tag": "span",
+   "text": "\u00a1S\u00f3lo quedan 169 entradas!",
+   "href": null,
+   "id": null
+  },
+  "after_fingerprint": {
+   "tag": "span",
+   "text": "\u00a1S\u00f3lo quedan 164 entradas!",
+   "href": null,
+   "id": null
+  },
+  "repo": "midudev/jsconf.es",
+  "pair": {
+   "before": "3b6f44bd10be113853c0de47be18088cd4f9b8f4",
+   "after": "a3503ac59041820062c0a326e7fc39a3bb0980d8"
+  },
+  "page": "/"
+ },
+ {
+  "strategy": "positional",
+  "selector": "body>main>heading-anchors>pre>code",
+  "before_fingerprint": {
+   "tag": "code",
+   "text": "// this is a command function myCommand() { + let counter = 0; - let counter = 1; counter++; } // Test with a line break above this line. console.log('Test');",
+   "href": null,
+   "id": null
+  },
+  "after_fingerprint": {
+   "tag": "code",
+   "text": "",
+   "href": null,
+   "id": null
+  },
+  "repo": "11ty/eleventy-base-blog",
+  "pair": {
+   "before": "57fdcca03fe7de215cadfdff952ffbe1fadfab69",
+   "after": "3b870d5914b39d906df17ca43930cd57685d0b5b"
+  },
+  "page": "blog/firstpost/index.html"
+ },
+ {
+  "strategy": "positional",
+  "selector": "body>section:nth-of-type(1)>div>div>div>div:nth-of-type(3)>p>link",
+  "before_fingerprint": {
+   "tag": "link",
+   "text": "",
+   "href": "/_server-islands/TicketsAvailable?e=default&p=16D6317E88230F7DA674A4F4cLMdO0sg%2BLQm33FYXs7nJYDi&s=%7B%7D",
+   "id": null
+  },
+  "after_fingerprint": {
+   "tag": "link",
+   "text": "",
+   "href": "/_server-islands/TicketsAvailable?e=default&p=6048924B0982039CDF35906DZokGyLFeVaquPtz9mGdEWP36&s=%7B%7D",
+   "id": null
+  },
+  "repo": "midudev/jsconf.es",
+  "pair": {
+   "before": "3b6f44bd10be113853c0de47be18088cd4f9b8f4",
+   "after": "a3503ac59041820062c0a326e7fc39a3bb0980d8"
+  },
+  "page": "/"
+ },
+ {
+  "strategy": "positional",
+  "selector": "body>a",
+  "before_fingerprint": {
+   "tag": "a",
+   "text": "Skip to main content",
+   "href": "#main",
+   "id": "skip-link"
+  },
+  "after_fingerprint": {
+   "tag": "a",
+   "text": "Skip to main content",
+   "href": "#skip",
+   "id": null
+  },
+  "repo": "11ty/eleventy-base-blog",
+  "pair": {
+   "before": "57fdcca03fe7de215cadfdff952ffbe1fadfab69",
+   "after": "3b870d5914b39d906df17ca43930cd57685d0b5b"
+  },
+  "page": "blog/fourthpost/index.html"
+ },
+ {
+  "strategy": "positional",
+  "selector": "body>section:nth-of-type(1)>div>div>div>div:nth-of-type(3)>p>script",
+  "before_fingerprint": {
+   "tag": "script",
+   "text": "let script = document.querySelector('script[data-island-id=\"749ffc28-d6dc-4bb6-ac23-2ed54ec24cbb\"]'); let response = await fetch('/_server-islands/TicketsAvailable?e=default&p=16D6317E88230F7DA674A4F4cLMdO0sg%2BLQm33FYXs7nJYDi&s=%7B%7D'); if (script) { if(response.status === 200 && response.headers.get('content-type') === 'text/html') { let html = await response.text(); // Swap! while(script.previousSibling && script.previousSibling.nodeType !== 8 && script.previousSibling.data !== '[if astro]>server-island-start<![endif]') { script.previousSibling.remove(); } script.previousSibling?.remove(); let frag = document.createRange().createContextualFragment(html); script.before(frag); } script.remove(); }",
+   "href": null,
+   "id": null
+  },
+  "after_fingerprint": {
+   "tag": "script",
+   "text": "let script = document.querySelector('script[data-island-id=\"0c500aff-651e-4831-a789-116e974f7d81\"]'); let response = await fetch('/_server-islands/TicketsAvailable?e=default&p=6048924B0982039CDF35906DZokGyLFeVaquPtz9mGdEWP36&s=%7B%7D'); if (script) { if(response.status === 200 && response.headers.get('content-type') === 'text/html') { let html = await response.text(); // Swap! while(script.previousSibling && script.previousSibling.nodeType !== 8 && script.previousSibling.data !== '[if astro]>server-island-start<![endif]') { script.previousSibling.remove(); } script.previousSibling?.remove(); let frag = document.createRange().createContextualFragment(html); script.before(frag); } script.remove(); }",
+   "href": null,
+   "id": null
+  },
+  "repo": "midudev/jsconf.es",
+  "pair": {
+   "before": "3b6f44bd10be113853c0de47be18088cd4f9b8f4",
+   "after": "a3503ac59041820062c0a326e7fc39a3bb0980d8"
+  },
+  "page": "/"
+ },
+ {
+  "strategy": "positional",
+  "selector": "body>main",
+  "before_fingerprint": {
+   "tag": "main",
+   "text": "",
+   "href": null,
+   "id": "main"
+  },
+  "after_fingerprint": {
+   "tag": "main",
+   "text": "",
+   "href": null,
+   "id": "skip"
+  },
+  "repo": "11ty/eleventy-base-blog",
+  "pair": {
+   "before": "57fdcca03fe7de215cadfdff952ffbe1fadfab69",
+   "after": "3b870d5914b39d906df17ca43930cd57685d0b5b"
+  },
+  "page": "blog/fourthpost/index.html"
+ },
+ {
+  "strategy": "positional",
+  "selector": "body>section:nth-of-type(1)>div>div>div>div:nth-of-type(3)>p>link",
+  "before_fingerprint": {
+   "tag": "link",
+   "text": "",
+   "href": "/_server-islands/TicketsAvailable?e=default&p=6048924B0982039CDF35906DZokGyLFeVaquPtz9mGdEWP36&s=%7B%7D",
+   "id": null
+  },
+  "after_fingerprint": {
+   "tag": "link",
+   "text": "",
+   "href": "/_server-islands/TicketsAvailable?e=default&p=BB331A66B5E0E2A255C1607CRnyhdpRjKbzb3zv1IDibJE%2Bg&s=%7B%7D",
+   "id": null
+  },
+  "repo": "midudev/jsconf.es",
+  "pair": {
+   "before": "a3503ac59041820062c0a326e7fc39a3bb0980d8",
+   "after": "fbeedf0a6bb94ae786b0278f06736d304a40a235"
+  },
+  "page": "/"
+ },
+ {
+  "strategy": "positional",
+  "selector": "body>a",
+  "before_fingerprint": {
+   "tag": "a",
+   "text": "Skip to main content",
+   "href": "#main",
+   "id": "skip-link"
+  },
+  "after_fingerprint": {
+   "tag": "a",
+   "text": "Skip to main content",
+   "href": "#skip",
+   "id": null
+  },
+  "repo": "11ty/eleventy-base-blog",
+  "pair": {
+   "before": "57fdcca03fe7de215cadfdff952ffbe1fadfab69",
+   "after": "3b870d5914b39d906df17ca43930cd57685d0b5b"
+  },
+  "page": "blog/index.html"
+ },
+ {
+  "strategy": "positional",
+  "selector": "body>section:nth-of-type(1)>div>div>div>div:nth-of-type(3)>p>script",
+  "before_fingerprint": {
+   "tag": "script",
+   "text": "let script = document.querySelector('script[data-island-id=\"0c500aff-651e-4831-a789-116e974f7d81\"]'); let response = await fetch('/_server-islands/TicketsAvailable?e=default&p=6048924B0982039CDF35906DZokGyLFeVaquPtz9mGdEWP36&s=%7B%7D'); if (script) { if(response.status === 200 && response.headers.get('content-type') === 'text/html') { let html = await response.text(); // Swap! while(script.previousSibling && script.previousSibling.nodeType !== 8 && script.previousSibling.data !== '[if astro]>server-island-start<![endif]') { script.previousSibling.remove(); } script.previousSibling?.remove(); let frag = document.createRange().createContextualFragment(html); script.before(frag); } script.remove(); }",
+   "href": null,
+   "id": null
+  },
+  "after_fingerprint": {
+   "tag": "script",
+   "text": "let script = document.querySelector('script[data-island-id=\"dc0f34c0-9f22-4e54-b942-e29b29960aef\"]'); let response = await fetch('/_server-islands/TicketsAvailable?e=default&p=BB331A66B5E0E2A255C1607CRnyhdpRjKbzb3zv1IDibJE%2Bg&s=%7B%7D'); if (script) { if(response.status === 200 && response.headers.get('content-type') === 'text/html') { let html = await response.text(); // Swap! while(script.previousSibling && script.previousSibling.nodeType !== 8 && script.previousSibling.data !== '[if astro]>server-island-start<![endif]') { script.previousSibling.remove(); } script.previousSibling?.remove(); let frag = document.createRange().createContextualFragment(html); script.before(frag); } script.remove(); }",
+   "href": null,
+   "id": null
+  },
+  "repo": "midudev/jsconf.es",
+  "pair": {
+   "before": "a3503ac59041820062c0a326e7fc39a3bb0980d8",
+   "after": "fbeedf0a6bb94ae786b0278f06736d304a40a235"
+  },
+  "page": "/"
+ },
+ {
+  "strategy": "positional",
+  "selector": "body>main",
+  "before_fingerprint": {
+   "tag": "main",
+   "text": "",
+   "href": null,
+   "id": "main"
+  },
+  "after_fingerprint": {
+   "tag": "main",
+   "text": "",
+   "href": null,
+   "id": "skip"
+  },
+  "repo": "11ty/eleventy-base-blog",
+  "pair": {
+   "before": "57fdcca03fe7de215cadfdff952ffbe1fadfab69",
+   "after": "3b870d5914b39d906df17ca43930cd57685d0b5b"
+  },
+  "page": "blog/index.html"
+ },
+ {
+  "strategy": "positional",
+  "selector": "body>section:nth-of-type(1)>div>div>div>div:nth-of-type(3)>p>link",
+  "before_fingerprint": {
+   "tag": "link",
+   "text": "",
+   "href": "/_server-islands/TicketsAvailable?e=default&p=BB331A66B5E0E2A255C1607CRnyhdpRjKbzb3zv1IDibJE%2Bg&s=%7B%7D",
+   "id": null
+  },
+  "after_fingerprint": {
+   "tag": "link",
+   "text": "",
+   "href": "/_server-islands/TicketsAvailable?e=default&p=539D45F42656E0FF4944CD5CHM5MJyXWfypVH0BbLThSV8kD&s=%7B%7D",
+   "id": null
+  },
+  "repo": "midudev/jsconf.es",
+  "pair": {
+   "before": "fbeedf0a6bb94ae786b0278f06736d304a40a235",
+   "after": "fc1bbd9fa01c6d6fe0b68cf9c4f1d5d8a41f272f"
+  },
+  "page": "/"
+ },
+ {
+  "strategy": "positional",
+  "selector": "body>a",
+  "before_fingerprint": {
+   "tag": "a",
+   "text": "Skip to main content",
+   "href": "#main",
+   "id": "skip-link"
+  },
+  "after_fingerprint": {
+   "tag": "a",
+   "text": "Skip to main content",
+   "href": "#skip",
+   "id": null
+  },
+  "repo": "11ty/eleventy-base-blog",
+  "pair": {
+   "before": "57fdcca03fe7de215cadfdff952ffbe1fadfab69",
+   "after": "3b870d5914b39d906df17ca43930cd57685d0b5b"
+  },
+  "page": "blog/secondpost/index.html"
+ },
+ {
+  "strategy": "positional",
+  "selector": "body>section:nth-of-type(1)>div>div>div>div:nth-of-type(3)>p>script",
+  "before_fingerprint": {
+   "tag": "script",
+   "text": "let script = document.querySelector('script[data-island-id=\"dc0f34c0-9f22-4e54-b942-e29b29960aef\"]'); let response = await fetch('/_server-islands/TicketsAvailable?e=default&p=BB331A66B5E0E2A255C1607CRnyhdpRjKbzb3zv1IDibJE%2Bg&s=%7B%7D'); if (script) { if(response.status === 200 && response.headers.get('content-type') === 'text/html') { let html = await response.text(); // Swap! while(script.previousSibling && script.previousSibling.nodeType !== 8 && script.previousSibling.data !== '[if astro]>server-island-start<![endif]') { script.previousSibling.remove(); } script.previousSibling?.remove(); let frag = document.createRange().createContextualFragment(html); script.before(frag); } script.remove(); }",
+   "href": null,
+   "id": null
+  },
+  "after_fingerprint": {
+   "tag": "script",
+   "text": "let script = document.querySelector('script[data-island-id=\"c34d4bc4-f055-4ada-8215-ae23c5d7d361\"]'); let response = await fetch('/_server-islands/TicketsAvailable?e=default&p=539D45F42656E0FF4944CD5CHM5MJyXWfypVH0BbLThSV8kD&s=%7B%7D'); if (script) { if(response.status === 200 && response.headers.get('content-type') === 'text/html') { let html = await response.text(); // Swap! while(script.previousSibling && script.previousSibling.nodeType !== 8 && script.previousSibling.data !== '[if astro]>server-island-start<![endif]') { script.previousSibling.remove(); } script.previousSibling?.remove(); let frag = document.createRange().createContextualFragment(html); script.before(frag); } script.remove(); }",
+   "href": null,
+   "id": null
+  },
+  "repo": "midudev/jsconf.es",
+  "pair": {
+   "before": "fbeedf0a6bb94ae786b0278f06736d304a40a235",
+   "after": "fc1bbd9fa01c6d6fe0b68cf9c4f1d5d8a41f272f"
+  },
+  "page": "/"
+ },
+ {
+  "strategy": "positional",
+  "selector": "body>main",
+  "before_fingerprint": {
+   "tag": "main",
+   "text": "",
+   "href": null,
+   "id": "main"
+  },
+  "after_fingerprint": {
+   "tag": "main",
+   "text": "",
+   "href": null,
+   "id": "skip"
+  },
+  "repo": "11ty/eleventy-base-blog",
+  "pair": {
+   "before": "57fdcca03fe7de215cadfdff952ffbe1fadfab69",
+   "after": "3b870d5914b39d906df17ca43930cd57685d0b5b"
+  },
+  "page": "blog/secondpost/index.html"
+ },
+ {
+  "strategy": "positional",
+  "selector": "body>section:nth-of-type(3)>div:nth-of-type(2)>div:nth-of-type(1)",
+  "before_fingerprint": {
+   "tag": "div",
+   "text": "",
+   "href": null,
+   "id": null
+  },
+  "after_fingerprint": {
+   "tag": "div",
+   "text": "",
+   "href": null,
+   "id": "cards"
+  },
+  "repo": "midudev/jsconf.es",
+  "pair": {
+   "before": "fbeedf0a6bb94ae786b0278f06736d304a40a235",
+   "after": "fc1bbd9fa01c6d6fe0b68cf9c4f1d5d8a41f272f"
+  },
+  "page": "/"
+ },
+ {
+  "strategy": "positional",
+  "selector": "body>a",
+  "before_fingerprint": {
+   "tag": "a",
+   "text": "Skip to main content",
+   "href": "#main",
+   "id": "skip-link"
+  },
+  "after_fingerprint": {
+   "tag": "a",
+   "text": "Skip to main content",
+   "href": "#skip",
+   "id": null
+  },
+  "repo": "11ty/eleventy-base-blog",
+  "pair": {
+   "before": "57fdcca03fe7de215cadfdff952ffbe1fadfab69",
+   "after": "3b870d5914b39d906df17ca43930cd57685d0b5b"
+  },
+  "page": "blog/thirdpost/index.html"
+ },
+ {
+  "strategy": "positional",
+  "selector": "body>section:nth-of-type(1)>div>div>div>div:nth-of-type(3)>p>span:nth-of-type(1)",
+  "before_fingerprint": {
+   "tag": "span",
+   "text": "\u00a1S\u00f3lo quedan 164 entradas!",
+   "href": null,
+   "id": null
+  },
+  "after_fingerprint": {
+   "tag": "span",
+   "text": "\u00a1S\u00f3lo quedan 159 entradas!",
+   "href": null,
+   "id": null
+  },
+  "repo": "midudev/jsconf.es",
+  "pair": {
+   "before": "fc1bbd9fa01c6d6fe0b68cf9c4f1d5d8a41f272f",
+   "after": "792534a9683612d751cd54a06b789cecfba09cb8"
+  },
+  "page": "/"
+ },
+ {
+  "strategy": "positional",
+  "selector": "body>main",
+  "before_fingerprint": {
+   "tag": "main",
+   "text": "",
+   "href": null,
+   "id": "main"
+  },
+  "after_fingerprint": {
+   "tag": "main",
+   "text": "",
+   "href": null,
+   "id": "skip"
+  },
+  "repo": "11ty/eleventy-base-blog",
+  "pair": {
+   "before": "57fdcca03fe7de215cadfdff952ffbe1fadfab69",
+   "after": "3b870d5914b39d906df17ca43930cd57685d0b5b"
+  },
+  "page": "blog/thirdpost/index.html"
+ },
+ {
+  "strategy": "positional",
+  "selector": "body>section:nth-of-type(1)>div>div>div>div:nth-of-type(3)>p>link",
+  "before_fingerprint": {
+   "tag": "link",
+   "text": "",
+   "href": "/_server-islands/TicketsAvailable?e=default&p=539D45F42656E0FF4944CD5CHM5MJyXWfypVH0BbLThSV8kD&s=%7B%7D",
+   "id": null
+  },
+  "after_fingerprint": {
+   "tag": "link",
+   "text": "",
+   "href": "/_server-islands/TicketsAvailable?e=default&p=CECCB3C27278F3231F66959BOUIzd9OKYJbsRhkb0lafQvK0&s=%7B%7D",
+   "id": null
+  },
+  "repo": "midudev/jsconf.es",
+  "pair": {
+   "before": "fc1bbd9fa01c6d6fe0b68cf9c4f1d5d8a41f272f",
+   "after": "792534a9683612d751cd54a06b789cecfba09cb8"
+  },
+  "page": "/"
+ },
+ {
+  "strategy": "positional",
+  "selector": "body>a",
+  "before_fingerprint": {
+   "tag": "a",
+   "text": "Skip to main content",
+   "href": "#main",
+   "id": "skip-link"
+  },
+  "after_fingerprint": {
+   "tag": "a",
+   "text": "Skip to main content",
+   "href": "#skip",
+   "id": null
+  },
+  "repo": "11ty/eleventy-base-blog",
+  "pair": {
+   "before": "57fdcca03fe7de215cadfdff952ffbe1fadfab69",
+   "after": "3b870d5914b39d906df17ca43930cd57685d0b5b"
+  },
+  "page": "index.html"
+ },
+ {
+  "strategy": "positional",
+  "selector": "body>section:nth-of-type(1)>div>div>div>div:nth-of-type(3)>p>script",
+  "before_fingerprint": {
+   "tag": "script",
+   "text": "let script = document.querySelector('script[data-island-id=\"c34d4bc4-f055-4ada-8215-ae23c5d7d361\"]'); let response = await fetch('/_server-islands/TicketsAvailable?e=default&p=539D45F42656E0FF4944CD5CHM5MJyXWfypVH0BbLThSV8kD&s=%7B%7D'); if (script) { if(response.status === 200 && response.headers.get('content-type') === 'text/html') { let html = await response.text(); // Swap! while(script.previousSibling && script.previousSibling.nodeType !== 8 && script.previousSibling.data !== '[if astro]>server-island-start<![endif]') { script.previousSibling.remove(); } script.previousSibling?.remove(); let frag = document.createRange().createContextualFragment(html); script.before(frag); } script.remove(); }",
+   "href": null,
+   "id": null
+  },
+  "after_fingerprint": {
+   "tag": "script",
+   "text": "let script = document.querySelector('script[data-island-id=\"957370b2-ac87-478f-a400-582e238a4ad3\"]'); let response = await fetch('/_server-islands/TicketsAvailable?e=default&p=CECCB3C27278F3231F66959BOUIzd9OKYJbsRhkb0lafQvK0&s=%7B%7D'); if (script) { if(response.status === 200 && response.headers.get('content-type') === 'text/html') { let html = await response.text(); // Swap! while(script.previousSibling && script.previousSibling.nodeType !== 8 && script.previousSibling.data !== '[if astro]>server-island-start<![endif]') { script.previousSibling.remove(); } script.previousSibling?.remove(); let frag = document.createRange().createContextualFragment(html); script.before(frag); } script.remove(); }",
+   "href": null,
+   "id": null
+  },
+  "repo": "midudev/jsconf.es",
+  "pair": {
+   "before": "fc1bbd9fa01c6d6fe0b68cf9c4f1d5d8a41f272f",
+   "after": "792534a9683612d751cd54a06b789cecfba09cb8"
+  },
+  "page": "/"
+ },
+ {
+  "strategy": "positional",
+  "selector": "body>main",
+  "before_fingerprint": {
+   "tag": "main",
+   "text": "",
+   "href": null,
+   "id": "main"
+  },
+  "after_fingerprint": {
+   "tag": "main",
+   "text": "",
+   "href": null,
+   "id": "skip"
+  },
+  "repo": "11ty/eleventy-base-blog",
+  "pair": {
+   "before": "57fdcca03fe7de215cadfdff952ffbe1fadfab69",
+   "after": "3b870d5914b39d906df17ca43930cd57685d0b5b"
+  },
+  "page": "index.html"
+ },
+ {
+  "strategy": "positional",
+  "selector": "body>section:nth-of-type(3)>div:nth-of-type(2)>div:nth-of-type(1)",
+  "before_fingerprint": {
+   "tag": "div",
+   "text": "",
+   "href": null,
+   "id": "cards"
+  },
+  "after_fingerprint": {
+   "tag": "div",
+   "text": "",
+   "href": null,
+   "id": null
+  },
+  "repo": "midudev/jsconf.es",
+  "pair": {
+   "before": "fc1bbd9fa01c6d6fe0b68cf9c4f1d5d8a41f272f",
+   "after": "792534a9683612d751cd54a06b789cecfba09cb8"
+  },
+  "page": "/"
+ },
+ {
+  "strategy": "positional",
+  "selector": "body>a",
+  "before_fingerprint": {
+   "tag": "a",
+   "text": "Skip to main content",
+   "href": "#main",
+   "id": "skip-link"
+  },
+  "after_fingerprint": {
+   "tag": "a",
+   "text": "Skip to main content",
+   "href": "#skip",
+   "id": null
+  },
+  "repo": "11ty/eleventy-base-blog",
+  "pair": {
+   "before": "57fdcca03fe7de215cadfdff952ffbe1fadfab69",
+   "after": "3b870d5914b39d906df17ca43930cd57685d0b5b"
+  },
+  "page": "tags/another-tag/index.html"
+ },
+ {
+  "strategy": "positional",
+  "selector": "body>section:nth-of-type(1)>div>div>div>div:nth-of-type(3)>p>link",
+  "before_fingerprint": {
+   "tag": "link",
+   "text": "",
+   "href": "/_server-islands/TicketsAvailable?e=default&p=CECCB3C27278F3231F66959BOUIzd9OKYJbsRhkb0lafQvK0&s=%7B%7D",
+   "id": null
+  },
+  "after_fingerprint": {
+   "tag": "link",
+   "text": "",
+   "href": "/_server-islands/TicketsAvailable?e=default&p=59709AFBFF59F7548902194FeJ6pplUkkJglsys3%2F1p3Z6bx&s=%7B%7D",
+   "id": null
+  },
+  "repo": "midudev/jsconf.es",
+  "pair": {
+   "before": "792534a9683612d751cd54a06b789cecfba09cb8",
+   "after": "57c02a7f6ab2486b95826d5401b6fb4d61655a8c"
+  },
+  "page": "/"
+ },
+ {
+  "strategy": "positional",
+  "selector": "body>main",
+  "before_fingerprint": {
+   "tag": "main",
+   "text": "",
+   "href": null,
+   "id": "main"
+  },
+  "after_fingerprint": {
+   "tag": "main",
+   "text": "",
+   "href": null,
+   "id": "skip"
+  },
+  "repo": "11ty/eleventy-base-blog",
+  "pair": {
+   "before": "57fdcca03fe7de215cadfdff952ffbe1fadfab69",
+   "after": "3b870d5914b39d906df17ca43930cd57685d0b5b"
+  },
+  "page": "tags/another-tag/index.html"
+ },
+ {
+  "strategy": "positional",
+  "selector": "body>section:nth-of-type(1)>div>div>div>div:nth-of-type(3)>p>script",
+  "before_fingerprint": {
+   "tag": "script",
+   "text": "let script = document.querySelector('script[data-island-id=\"957370b2-ac87-478f-a400-582e238a4ad3\"]'); let response = await fetch('/_server-islands/TicketsAvailable?e=default&p=CECCB3C27278F3231F66959BOUIzd9OKYJbsRhkb0lafQvK0&s=%7B%7D'); if (script) { if(response.status === 200 && response.headers.get('content-type') === 'text/html') { let html = await response.text(); // Swap! while(script.previousSibling && script.previousSibling.nodeType !== 8 && script.previousSibling.data !== '[if astro]>server-island-start<![endif]') { script.previousSibling.remove(); } script.previousSibling?.remove(); let frag = document.createRange().createContextualFragment(html); script.before(frag); } script.remove(); }",
+   "href": null,
+   "id": null
+  },
+  "after_fingerprint": {
+   "tag": "script",
+   "text": "let script = document.querySelector('script[data-island-id=\"115ff065-2722-4997-bcd5-5ca5f625b559\"]'); let response = await fetch('/_server-islands/TicketsAvailable?e=default&p=59709AFBFF59F7548902194FeJ6pplUkkJglsys3%2F1p3Z6bx&s=%7B%7D'); if (script) { if(response.status === 200 && response.headers.get('content-type') === 'text/html') { let html = await response.text(); // Swap! while(script.previousSibling && script.previousSibling.nodeType !== 8 && script.previousSibling.data !== '[if astro]>server-island-start<![endif]') { script.previousSibling.remove(); } script.previousSibling?.remove(); let frag = document.createRange().createContextualFragment(html); script.before(frag); } script.remove(); }",
+   "href": null,
+   "id": null
+  },
+  "repo": "midudev/jsconf.es",
+  "pair": {
+   "before": "792534a9683612d751cd54a06b789cecfba09cb8",
+   "after": "57c02a7f6ab2486b95826d5401b6fb4d61655a8c"
+  },
+  "page": "/"
+ },
+ {
+  "strategy": "positional",
+  "selector": "body>a",
+  "before_fingerprint": {
+   "tag": "a",
+   "text": "Skip to main content",
+   "href": "#main",
+   "id": "skip-link"
+  },
+  "after_fingerprint": {
+   "tag": "a",
+   "text": "Skip to main content",
+   "href": "#skip",
+   "id": null
+  },
+  "repo": "11ty/eleventy-base-blog",
+  "pair": {
+   "before": "57fdcca03fe7de215cadfdff952ffbe1fadfab69",
+   "after": "3b870d5914b39d906df17ca43930cd57685d0b5b"
+  },
+  "page": "tags/index.html"
+ },
+ {
+  "strategy": "id-anchored",
+  "selector": "#home>div>div>div>div:nth-of-type(3)>p>link",
+  "before_fingerprint": {
+   "tag": "link",
+   "text": "",
+   "href": "/_server-islands/TicketsAvailable?e=default&p=E9746268F820690C823DD234k6JC4SxIYoLnKVFkaM%2Byg%2F2q&s=%7B%7D",
+   "id": null
+  },
+  "after_fingerprint": {
+   "tag": "link",
+   "text": "",
+   "href": "/_server-islands/TicketsAvailable?e=default&p=6857ECAF6328111D14168556qHYWG%2BRCOGQvSefwwjHZ3jjl&s=%7B%7D",
+   "id": null
+  },
+  "repo": "midudev/jsconf.es",
+  "pair": {
+   "before": "a64bc3e1176d305db4ce0c0697edac8d4306c5bb",
+   "after": "959ff12389d9fff356a01f9908e0f46ee3ebed73"
+  },
+  "page": "/"
+ },
+ {
+  "strategy": "id-anchored",
+  "selector": "body>a",
+  "before_fingerprint": {
+   "tag": "a",
+   "text": "Skip to main content",
+   "href": "#skip",
+   "id": null
+  },
+  "after_fingerprint": {
+   "tag": "a",
+   "text": "Skip to main content",
+   "href": "#main",
+   "id": "skip-link"
+  },
+  "repo": "11ty/eleventy-base-blog",
+  "pair": {
+   "before": "3b870d5914b39d906df17ca43930cd57685d0b5b",
+   "after": "8f9ffe41dd9f05d9413c63d43a551e29aa2d576f"
+  },
+  "page": "404.html"
+ },
+ {
+  "strategy": "id-anchored",
+  "selector": "#home>div>div>div>div:nth-of-type(3)>p>script",
+  "before_fingerprint": {
+   "tag": "script",
+   "text": "let script = document.querySelector('script[data-island-id=\"e0d7f4a8-f983-4a89-a993-ff82210c8e31\"]'); let response = await fetch('/_server-islands/TicketsAvailable?e=default&p=E9746268F820690C823DD234k6JC4SxIYoLnKVFkaM%2Byg%2F2q&s=%7B%7D'); if (script) { if(response.status === 200 && response.headers.get('content-type') === 'text/html') { let html = await response.text(); // Swap! while(script.previousSibling && script.previousSibling.nodeType !== 8 && script.previousSibling.data !== '[if astro]>server-island-start<![endif]') { script.previousSibling.remove(); } script.previousSibling?.remove(); let frag = document.createRange().createContextualFragment(html); script.before(frag); } script.remove(); }",
+   "href": null,
+   "id": null
+  },
+  "after_fingerprint": {
+   "tag": "script",
+   "text": "let script = document.querySelector('script[data-island-id=\"f28c188c-2ee2-416b-983e-5c983d4b7961\"]'); let response = await fetch('/_server-islands/TicketsAvailable?e=default&p=6857ECAF6328111D14168556qHYWG%2BRCOGQvSefwwjHZ3jjl&s=%7B%7D'); if (script) { if(response.status === 200 && response.headers.get('content-type') === 'text/html') { let html = await response.text(); // Swap! while(script.previousSibling && script.previousSibling.nodeType !== 8 && script.previousSibling.data !== '[if astro]>server-island-start<![endif]') { script.previousSibling.remove(); } script.previousSibling?.remove(); let frag = document.createRange().createContextualFragment(html); script.before(frag); } script.remove(); }",
+   "href": null,
+   "id": null
+  },
+  "repo": "midudev/jsconf.es",
+  "pair": {
+   "before": "a64bc3e1176d305db4ce0c0697edac8d4306c5bb",
+   "after": "959ff12389d9fff356a01f9908e0f46ee3ebed73"
+  },
+  "page": "/"
+ },
+ {
+  "strategy": "id-anchored",
+  "selector": "body>footer>p>em>a",
+  "before_fingerprint": {
+   "tag": "a",
+   "text": "Eleventy v3.1.0",
+   "href": "https://www.11ty.dev/",
+   "id": null
+  },
+  "after_fingerprint": {
+   "tag": "a",
+   "text": "Eleventy v3.1.2",
+   "href": "https://www.11ty.dev/",
+   "id": null
+  },
+  "repo": "11ty/eleventy-base-blog",
+  "pair": {
+   "before": "3b870d5914b39d906df17ca43930cd57685d0b5b",
+   "after": "8f9ffe41dd9f05d9413c63d43a551e29aa2d576f"
+  },
+  "page": "404.html"
+ },
+ {
+  "strategy": "id-anchored",
+  "selector": "#home>div>div>div>div:nth-of-type(3)>p>link",
+  "before_fingerprint": {
+   "tag": "link",
+   "text": "",
+   "href": "/_server-islands/TicketsAvailable?e=default&p=6857ECAF6328111D14168556qHYWG%2BRCOGQvSefwwjHZ3jjl&s=%7B%7D",
+   "id": null
+  },
+  "after_fingerprint": {
+   "tag": "link",
+   "text": "",
+   "href": "/_server-islands/TicketsAvailable?e=default&p=97584B508AC7636C5A475D7DokFazDOU9%2FQZhIl0dntMjXU6&s=%7B%7D",
+   "id": null
+  },
+  "repo": "midudev/jsconf.es",
+  "pair": {
+   "before": "959ff12389d9fff356a01f9908e0f46ee3ebed73",
+   "after": "05a596225130836128a8f092e86f1a2e06509b37"
+  },
+  "page": "/"
+ },
+ {
+  "strategy": "id-anchored",
+  "selector": "body>a",
+  "before_fingerprint": {
+   "tag": "a",
+   "text": "Skip to main content",
+   "href": "#skip",
+   "id": null
+  },
+  "after_fingerprint": {
+   "tag": "a",
+   "text": "Skip to main content",
+   "href": "#main",
+   "id": "skip-link"
+  },
+  "repo": "11ty/eleventy-base-blog",
+  "pair": {
+   "before": "3b870d5914b39d906df17ca43930cd57685d0b5b",
+   "after": "8f9ffe41dd9f05d9413c63d43a551e29aa2d576f"
+  },
+  "page": "about/index.html"
+ },
+ {
+  "strategy": "id-anchored",
+  "selector": "#home>div>div>div>div:nth-of-type(3)>p>script",
+  "before_fingerprint": {
+   "tag": "script",
+   "text": "let script = document.querySelector('script[data-island-id=\"f28c188c-2ee2-416b-983e-5c983d4b7961\"]'); let response = await fetch('/_server-islands/TicketsAvailable?e=default&p=6857ECAF6328111D14168556qHYWG%2BRCOGQvSefwwjHZ3jjl&s=%7B%7D'); if (script) { if(response.status === 200 && response.headers.get('content-type') === 'text/html') { let html = await response.text(); // Swap! while(script.previousSibling && script.previousSibling.nodeType !== 8 && script.previousSibling.data !== '[if astro]>server-island-start<![endif]') { script.previousSibling.remove(); } script.previousSibling?.remove(); let frag = document.createRange().createContextualFragment(html); script.before(frag); } script.remove(); }",
+   "href": null,
+   "id": null
+  },
+  "after_fingerprint": {
+   "tag": "script",
+   "text": "let script = document.querySelector('script[data-island-id=\"6462d70b-873a-42e4-a95f-73ee0b43522e\"]'); let response = await fetch('/_server-islands/TicketsAvailable?e=default&p=97584B508AC7636C5A475D7DokFazDOU9%2FQZhIl0dntMjXU6&s=%7B%7D'); if (script) { if(response.status === 200 && response.headers.get('content-type') === 'text/html') { let html = await response.text(); // Swap! while(script.previousSibling && script.previousSibling.nodeType !== 8 && script.previousSibling.data !== '[if astro]>server-island-start<![endif]') { script.previousSibling.remove(); } script.previousSibling?.remove(); let frag = document.createRange().createContextualFragment(html); script.before(frag); } script.remove(); }",
+   "href": null,
+   "id": null
+  },
+  "repo": "midudev/jsconf.es",
+  "pair": {
+   "before": "959ff12389d9fff356a01f9908e0f46ee3ebed73",
+   "after": "05a596225130836128a8f092e86f1a2e06509b37"
+  },
+  "page": "/"
+ },
+ {
+  "strategy": "id-anchored",
+  "selector": "body>footer>p>em>a",
+  "before_fingerprint": {
+   "tag": "a",
+   "text": "Eleventy v3.1.0",
+   "href": "https://www.11ty.dev/",
+   "id": null
+  },
+  "after_fingerprint": {
+   "tag": "a",
+   "text": "Eleventy v3.1.2",
+   "href": "https://www.11ty.dev/",
+   "id": null
+  },
+  "repo": "11ty/eleventy-base-blog",
+  "pair": {
+   "before": "3b870d5914b39d906df17ca43930cd57685d0b5b",
+   "after": "8f9ffe41dd9f05d9413c63d43a551e29aa2d576f"
+  },
+  "page": "about/index.html"
+ },
+ {
+  "strategy": "id-anchored",
+  "selector": "#home>div>div>div>div:nth-of-type(3)>p>link",
+  "before_fingerprint": {
+   "tag": "link",
+   "text": "",
+   "href": "/_server-islands/TicketsAvailable?e=default&p=97584B508AC7636C5A475D7DokFazDOU9%2FQZhIl0dntMjXU6&s=%7B%7D",
+   "id": null
+  },
+  "after_fingerprint": {
+   "tag": "link",
+   "text": "",
+   "href": "/_server-islands/TicketsAvailable?e=default&p=16D6317E88230F7DA674A4F4cLMdO0sg%2BLQm33FYXs7nJYDi&s=%7B%7D",
+   "id": null
+  },
+  "repo": "midudev/jsconf.es",
+  "pair": {
+   "before": "05a596225130836128a8f092e86f1a2e06509b37",
+   "after": "3b6f44bd10be113853c0de47be18088cd4f9b8f4"
+  },
+  "page": "/"
+ },
+ {
+  "strategy": "id-anchored",
+  "selector": "body>a",
+  "before_fingerprint": {
+   "tag": "a",
+   "text": "Skip to main content",
+   "href": "#skip",
+   "id": null
+  },
+  "after_fingerprint": {
+   "tag": "a",
+   "text": "Skip to main content",
+   "href": "#main",
+   "id": "skip-link"
+  },
+  "repo": "11ty/eleventy-base-blog",
+  "pair": {
+   "before": "3b870d5914b39d906df17ca43930cd57685d0b5b",
+   "after": "8f9ffe41dd9f05d9413c63d43a551e29aa2d576f"
+  },
+  "page": "blog/firstpost/index.html"
+ },
+ {
+  "strategy": "id-anchored",
+  "selector": "#home>div>div>div>div:nth-of-type(3)>p>script",
+  "before_fingerprint": {
+   "tag": "script",
+   "text": "let script = document.querySelector('script[data-island-id=\"6462d70b-873a-42e4-a95f-73ee0b43522e\"]'); let response = await fetch('/_server-islands/TicketsAvailable?e=default&p=97584B508AC7636C5A475D7DokFazDOU9%2FQZhIl0dntMjXU6&s=%7B%7D'); if (script) { if(response.status === 200 && response.headers.get('content-type') === 'text/html') { let html = await response.text(); // Swap! while(script.previousSibling && script.previousSibling.nodeType !== 8 && script.previousSibling.data !== '[if astro]>server-island-start<![endif]') { script.previousSibling.remove(); } script.previousSibling?.remove(); let frag = document.createRange().createContextualFragment(html); script.before(frag); } script.remove(); }",
+   "href": null,
+   "id": null
+  },
+  "after_fingerprint": {
+   "tag": "script",
+   "text": "let script = document.querySelector('script[data-island-id=\"749ffc28-d6dc-4bb6-ac23-2ed54ec24cbb\"]'); let response = await fetch('/_server-islands/TicketsAvailable?e=default&p=16D6317E88230F7DA674A4F4cLMdO0sg%2BLQm33FYXs7nJYDi&s=%7B%7D'); if (script) { if(response.status === 200 && response.headers.get('content-type') === 'text/html') { let html = await response.text(); // Swap! while(script.previousSibling && script.previousSibling.nodeType !== 8 && script.previousSibling.data !== '[if astro]>server-island-start<![endif]') { script.previousSibling.remove(); } script.previousSibling?.remove(); let frag = document.createRange().createContextualFragment(html); script.before(frag); } script.remove(); }",
+   "href": null,
+   "id": null
+  },
+  "repo": "midudev/jsconf.es",
+  "pair": {
+   "before": "05a596225130836128a8f092e86f1a2e06509b37",
+   "after": "3b6f44bd10be113853c0de47be18088cd4f9b8f4"
+  },
+  "page": "/"
+ },
+ {
+  "strategy": "id-anchored",
+  "selector": "body>footer>p>em>a",
+  "before_fingerprint": {
+   "tag": "a",
+   "text": "Eleventy v3.1.0",
+   "href": "https://www.11ty.dev/",
+   "id": null
+  },
+  "after_fingerprint": {
+   "tag": "a",
+   "text": "Eleventy v3.1.2",
+   "href": "https://www.11ty.dev/",
+   "id": null
+  },
+  "repo": "11ty/eleventy-base-blog",
+  "pair": {
+   "before": "3b870d5914b39d906df17ca43930cd57685d0b5b",
+   "after": "8f9ffe41dd9f05d9413c63d43a551e29aa2d576f"
+  },
+  "page": "blog/firstpost/index.html"
+ },
+ {
+  "strategy": "id-anchored",
+  "selector": "#home>div>div>div>div:nth-of-type(3)>p>span:nth-of-type(1)",
+  "before_fingerprint": {
+   "tag": "span",
+   "text": "\u00a1S\u00f3lo quedan 169 entradas!",
+   "href": null,
+   "id": null
+  },
+  "after_fingerprint": {
+   "tag": "span",
+   "text": "\u00a1S\u00f3lo quedan 164 entradas!",
+   "href": null,
+   "id": null
+  },
+  "repo": "midudev/jsconf.es",
+  "pair": {
+   "before": "3b6f44bd10be113853c0de47be18088cd4f9b8f4",
+   "after": "a3503ac59041820062c0a326e7fc39a3bb0980d8"
+  },
+  "page": "/"
+ },
+ {
+  "strategy": "id-anchored",
+  "selector": "body>a",
+  "before_fingerprint": {
+   "tag": "a",
+   "text": "Skip to main content",
+   "href": "#skip",
+   "id": null
+  },
+  "after_fingerprint": {
+   "tag": "a",
+   "text": "Skip to main content",
+   "href": "#main",
+   "id": "skip-link"
+  },
+  "repo": "11ty/eleventy-base-blog",
+  "pair": {
+   "before": "3b870d5914b39d906df17ca43930cd57685d0b5b",
+   "after": "8f9ffe41dd9f05d9413c63d43a551e29aa2d576f"
+  },
+  "page": "blog/fourthpost/index.html"
+ },
+ {
+  "strategy": "id-anchored",
+  "selector": "#home>div>div>div>div:nth-of-type(3)>p>link",
+  "before_fingerprint": {
+   "tag": "link",
+   "text": "",
+   "href": "/_server-islands/TicketsAvailable?e=default&p=16D6317E88230F7DA674A4F4cLMdO0sg%2BLQm33FYXs7nJYDi&s=%7B%7D",
+   "id": null
+  },
+  "after_fingerprint": {
+   "tag": "link",
+   "text": "",
+   "href": "/_server-islands/TicketsAvailable?e=default&p=6048924B0982039CDF35906DZokGyLFeVaquPtz9mGdEWP36&s=%7B%7D",
+   "id": null
+  },
+  "repo": "midudev/jsconf.es",
+  "pair": {
+   "before": "3b6f44bd10be113853c0de47be18088cd4f9b8f4",
+   "after": "a3503ac59041820062c0a326e7fc39a3bb0980d8"
+  },
+  "page": "/"
+ },
+ {
+  "strategy": "id-anchored",
+  "selector": "body>footer>p>em>a",
+  "before_fingerprint": {
+   "tag": "a",
+   "text": "Eleventy v3.1.0",
+   "href": "https://www.11ty.dev/",
+   "id": null
+  },
+  "after_fingerprint": {
+   "tag": "a",
+   "text": "Eleventy v3.1.2",
+   "href": "https://www.11ty.dev/",
+   "id": null
+  },
+  "repo": "11ty/eleventy-base-blog",
+  "pair": {
+   "before": "3b870d5914b39d906df17ca43930cd57685d0b5b",
+   "after": "8f9ffe41dd9f05d9413c63d43a551e29aa2d576f"
+  },
+  "page": "blog/fourthpost/index.html"
+ },
+ {
+  "strategy": "id-anchored",
+  "selector": "#home>div>div>div>div:nth-of-type(3)>p>script",
+  "before_fingerprint": {
+   "tag": "script",
+   "text": "let script = document.querySelector('script[data-island-id=\"749ffc28-d6dc-4bb6-ac23-2ed54ec24cbb\"]'); let response = await fetch('/_server-islands/TicketsAvailable?e=default&p=16D6317E88230F7DA674A4F4cLMdO0sg%2BLQm33FYXs7nJYDi&s=%7B%7D'); if (script) { if(response.status === 200 && response.headers.get('content-type') === 'text/html') { let html = await response.text(); // Swap! while(script.previousSibling && script.previousSibling.nodeType !== 8 && script.previousSibling.data !== '[if astro]>server-island-start<![endif]') { script.previousSibling.remove(); } script.previousSibling?.remove(); let frag = document.createRange().createContextualFragment(html); script.before(frag); } script.remove(); }",
+   "href": null,
+   "id": null
+  },
+  "after_fingerprint": {
+   "tag": "script",
+   "text": "let script = document.querySelector('script[data-island-id=\"0c500aff-651e-4831-a789-116e974f7d81\"]'); let response = await fetch('/_server-islands/TicketsAvailable?e=default&p=6048924B0982039CDF35906DZokGyLFeVaquPtz9mGdEWP36&s=%7B%7D'); if (script) { if(response.status === 200 && response.headers.get('content-type') === 'text/html') { let html = await response.text(); // Swap! while(script.previousSibling && script.previousSibling.nodeType !== 8 && script.previousSibling.data !== '[if astro]>server-island-start<![endif]') { script.previousSibling.remove(); } script.previousSibling?.remove(); let frag = document.createRange().createContextualFragment(html); script.before(frag); } script.remove(); }",
+   "href": null,
+   "id": null
+  },
+  "repo": "midudev/jsconf.es",
+  "pair": {
+   "before": "3b6f44bd10be113853c0de47be18088cd4f9b8f4",
+   "after": "a3503ac59041820062c0a326e7fc39a3bb0980d8"
+  },
+  "page": "/"
+ },
+ {
+  "strategy": "id-anchored",
+  "selector": "body>a",
+  "before_fingerprint": {
+   "tag": "a",
+   "text": "Skip to main content",
+   "href": "#skip",
+   "id": null
+  },
+  "after_fingerprint": {
+   "tag": "a",
+   "text": "Skip to main content",
+   "href": "#main",
+   "id": "skip-link"
+  },
+  "repo": "11ty/eleventy-base-blog",
+  "pair": {
+   "before": "3b870d5914b39d906df17ca43930cd57685d0b5b",
+   "after": "8f9ffe41dd9f05d9413c63d43a551e29aa2d576f"
+  },
+  "page": "blog/index.html"
+ },
+ {
+  "strategy": "id-anchored",
+  "selector": "#home>div>div>div>div:nth-of-type(3)>p>link",
+  "before_fingerprint": {
+   "tag": "link",
+   "text": "",
+   "href": "/_server-islands/TicketsAvailable?e=default&p=6048924B0982039CDF35906DZokGyLFeVaquPtz9mGdEWP36&s=%7B%7D",
+   "id": null
+  },
+  "after_fingerprint": {
+   "tag": "link",
+   "text": "",
+   "href": "/_server-islands/TicketsAvailable?e=default&p=BB331A66B5E0E2A255C1607CRnyhdpRjKbzb3zv1IDibJE%2Bg&s=%7B%7D",
+   "id": null
+  },
+  "repo": "midudev/jsconf.es",
+  "pair": {
+   "before": "a3503ac59041820062c0a326e7fc39a3bb0980d8",
+   "after": "fbeedf0a6bb94ae786b0278f06736d304a40a235"
+  },
+  "page": "/"
+ },
+ {
+  "strategy": "id-anchored",
+  "selector": "body>footer>p>em>a",
+  "before_fingerprint": {
+   "tag": "a",
+   "text": "Eleventy v3.1.0",
+   "href": "https://www.11ty.dev/",
+   "id": null
+  },
+  "after_fingerprint": {
+   "tag": "a",
+   "text": "Eleventy v3.1.2",
+   "href": "https://www.11ty.dev/",
+   "id": null
+  },
+  "repo": "11ty/eleventy-base-blog",
+  "pair": {
+   "before": "3b870d5914b39d906df17ca43930cd57685d0b5b",
+   "after": "8f9ffe41dd9f05d9413c63d43a551e29aa2d576f"
+  },
+  "page": "blog/index.html"
+ },
+ {
+  "strategy": "id-anchored",
+  "selector": "#home>div>div>div>div:nth-of-type(3)>p>script",
+  "before_fingerprint": {
+   "tag": "script",
+   "text": "let script = document.querySelector('script[data-island-id=\"0c500aff-651e-4831-a789-116e974f7d81\"]'); let response = await fetch('/_server-islands/TicketsAvailable?e=default&p=6048924B0982039CDF35906DZokGyLFeVaquPtz9mGdEWP36&s=%7B%7D'); if (script) { if(response.status === 200 && response.headers.get('content-type') === 'text/html') { let html = await response.text(); // Swap! while(script.previousSibling && script.previousSibling.nodeType !== 8 && script.previousSibling.data !== '[if astro]>server-island-start<![endif]') { script.previousSibling.remove(); } script.previousSibling?.remove(); let frag = document.createRange().createContextualFragment(html); script.before(frag); } script.remove(); }",
+   "href": null,
+   "id": null
+  },
+  "after_fingerprint": {
+   "tag": "script",
+   "text": "let script = document.querySelector('script[data-island-id=\"dc0f34c0-9f22-4e54-b942-e29b29960aef\"]'); let response = await fetch('/_server-islands/TicketsAvailable?e=default&p=BB331A66B5E0E2A255C1607CRnyhdpRjKbzb3zv1IDibJE%2Bg&s=%7B%7D'); if (script) { if(response.status === 200 && response.headers.get('content-type') === 'text/html') { let html = await response.text(); // Swap! while(script.previousSibling && script.previousSibling.nodeType !== 8 && script.previousSibling.data !== '[if astro]>server-island-start<![endif]') { script.previousSibling.remove(); } script.previousSibling?.remove(); let frag = document.createRange().createContextualFragment(html); script.before(frag); } script.remove(); }",
+   "href": null,
+   "id": null
+  },
+  "repo": "midudev/jsconf.es",
+  "pair": {
+   "before": "a3503ac59041820062c0a326e7fc39a3bb0980d8",
+   "after": "fbeedf0a6bb94ae786b0278f06736d304a40a235"
+  },
+  "page": "/"
+ },
+ {
+  "strategy": "id-anchored",
+  "selector": "body>a",
+  "before_fingerprint": {
+   "tag": "a",
+   "text": "Skip to main content",
+   "href": "#skip",
+   "id": null
+  },
+  "after_fingerprint": {
+   "tag": "a",
+   "text": "Skip to main content",
+   "href": "#main",
+   "id": "skip-link"
+  },
+  "repo": "11ty/eleventy-base-blog",
+  "pair": {
+   "before": "3b870d5914b39d906df17ca43930cd57685d0b5b",
+   "after": "8f9ffe41dd9f05d9413c63d43a551e29aa2d576f"
+  },
+  "page": "blog/secondpost/index.html"
+ },
+ {
+  "strategy": "id-anchored",
+  "selector": "#home>div>div>div>div:nth-of-type(3)>p>link",
+  "before_fingerprint": {
+   "tag": "link",
+   "text": "",
+   "href": "/_server-islands/TicketsAvailable?e=default&p=BB331A66B5E0E2A255C1607CRnyhdpRjKbzb3zv1IDibJE%2Bg&s=%7B%7D",
+   "id": null
+  },
+  "after_fingerprint": {
+   "tag": "link",
+   "text": "",
+   "href": "/_server-islands/TicketsAvailable?e=default&p=539D45F42656E0FF4944CD5CHM5MJyXWfypVH0BbLThSV8kD&s=%7B%7D",
+   "id": null
+  },
+  "repo": "midudev/jsconf.es",
+  "pair": {
+   "before": "fbeedf0a6bb94ae786b0278f06736d304a40a235",
+   "after": "fc1bbd9fa01c6d6fe0b68cf9c4f1d5d8a41f272f"
+  },
+  "page": "/"
+ },
+ {
+  "strategy": "id-anchored",
+  "selector": "body>footer>p>em>a",
+  "before_fingerprint": {
+   "tag": "a",
+   "text": "Eleventy v3.1.0",
+   "href": "https://www.11ty.dev/",
+   "id": null
+  },
+  "after_fingerprint": {
+   "tag": "a",
+   "text": "Eleventy v3.1.2",
+   "href": "https://www.11ty.dev/",
+   "id": null
+  },
+  "repo": "11ty/eleventy-base-blog",
+  "pair": {
+   "before": "3b870d5914b39d906df17ca43930cd57685d0b5b",
+   "after": "8f9ffe41dd9f05d9413c63d43a551e29aa2d576f"
+  },
+  "page": "blog/secondpost/index.html"
+ },
+ {
+  "strategy": "id-anchored",
+  "selector": "#home>div>div>div>div:nth-of-type(3)>p>script",
+  "before_fingerprint": {
+   "tag": "script",
+   "text": "let script = document.querySelector('script[data-island-id=\"dc0f34c0-9f22-4e54-b942-e29b29960aef\"]'); let response = await fetch('/_server-islands/TicketsAvailable?e=default&p=BB331A66B5E0E2A255C1607CRnyhdpRjKbzb3zv1IDibJE%2Bg&s=%7B%7D'); if (script) { if(response.status === 200 && response.headers.get('content-type') === 'text/html') { let html = await response.text(); // Swap! while(script.previousSibling && script.previousSibling.nodeType !== 8 && script.previousSibling.data !== '[if astro]>server-island-start<![endif]') { script.previousSibling.remove(); } script.previousSibling?.remove(); let frag = document.createRange().createContextualFragment(html); script.before(frag); } script.remove(); }",
+   "href": null,
+   "id": null
+  },
+  "after_fingerprint": {
+   "tag": "script",
+   "text": "let script = document.querySelector('script[data-island-id=\"c34d4bc4-f055-4ada-8215-ae23c5d7d361\"]'); let response = await fetch('/_server-islands/TicketsAvailable?e=default&p=539D45F42656E0FF4944CD5CHM5MJyXWfypVH0BbLThSV8kD&s=%7B%7D'); if (script) { if(response.status === 200 && response.headers.get('content-type') === 'text/html') { let html = await response.text(); // Swap! while(script.previousSibling && script.previousSibling.nodeType !== 8 && script.previousSibling.data !== '[if astro]>server-island-start<![endif]') { script.previousSibling.remove(); } script.previousSibling?.remove(); let frag = document.createRange().createContextualFragment(html); script.before(frag); } script.remove(); }",
+   "href": null,
+   "id": null
+  },
+  "repo": "midudev/jsconf.es",
+  "pair": {
+   "before": "fbeedf0a6bb94ae786b0278f06736d304a40a235",
+   "after": "fc1bbd9fa01c6d6fe0b68cf9c4f1d5d8a41f272f"
+  },
+  "page": "/"
+ },
+ {
+  "strategy": "id-anchored",
+  "selector": "body>a",
+  "before_fingerprint": {
+   "tag": "a",
+   "text": "Skip to main content",
+   "href": "#skip",
+   "id": null
+  },
+  "after_fingerprint": {
+   "tag": "a",
+   "text": "Skip to main content",
+   "href": "#main",
+   "id": "skip-link"
+  },
+  "repo": "11ty/eleventy-base-blog",
+  "pair": {
+   "before": "3b870d5914b39d906df17ca43930cd57685d0b5b",
+   "after": "8f9ffe41dd9f05d9413c63d43a551e29aa2d576f"
+  },
+  "page": "blog/thirdpost/index.html"
+ },
+ {
+  "strategy": "id-anchored",
+  "selector": "body>section:nth-of-type(3)>div:nth-of-type(2)>div:nth-of-type(1)",
+  "before_fingerprint": {
+   "tag": "div",
+   "text": "",
+   "href": null,
+   "id": null
+  },
+  "after_fingerprint": {
+   "tag": "div",
+   "text": "",
+   "href": null,
+   "id": "cards"
+  },
+  "repo": "midudev/jsconf.es",
+  "pair": {
+   "before": "fbeedf0a6bb94ae786b0278f06736d304a40a235",
+   "after": "fc1bbd9fa01c6d6fe0b68cf9c4f1d5d8a41f272f"
+  },
+  "page": "/"
+ },
+ {
+  "strategy": "id-anchored",
+  "selector": "body>footer>p>em>a",
+  "before_fingerprint": {
+   "tag": "a",
+   "text": "Eleventy v3.1.0",
+   "href": "https://www.11ty.dev/",
+   "id": null
+  },
+  "after_fingerprint": {
+   "tag": "a",
+   "text": "Eleventy v3.1.2",
+   "href": "https://www.11ty.dev/",
+   "id": null
+  },
+  "repo": "11ty/eleventy-base-blog",
+  "pair": {
+   "before": "3b870d5914b39d906df17ca43930cd57685d0b5b",
+   "after": "8f9ffe41dd9f05d9413c63d43a551e29aa2d576f"
+  },
+  "page": "blog/thirdpost/index.html"
+ },
+ {
+  "strategy": "id-anchored",
+  "selector": "#home>div>div>div>div:nth-of-type(3)>p>span:nth-of-type(1)",
+  "before_fingerprint": {
+   "tag": "span",
+   "text": "\u00a1S\u00f3lo quedan 164 entradas!",
+   "href": null,
+   "id": null
+  },
+  "after_fingerprint": {
+   "tag": "span",
+   "text": "\u00a1S\u00f3lo quedan 159 entradas!",
+   "href": null,
+   "id": null
+  },
+  "repo": "midudev/jsconf.es",
+  "pair": {
+   "before": "fc1bbd9fa01c6d6fe0b68cf9c4f1d5d8a41f272f",
+   "after": "792534a9683612d751cd54a06b789cecfba09cb8"
+  },
+  "page": "/"
+ },
+ {
+  "strategy": "id-anchored",
+  "selector": "body>a",
+  "before_fingerprint": {
+   "tag": "a",
+   "text": "Skip to main content",
+   "href": "#skip",
+   "id": null
+  },
+  "after_fingerprint": {
+   "tag": "a",
+   "text": "Skip to main content",
+   "href": "#main",
+   "id": "skip-link"
+  },
+  "repo": "11ty/eleventy-base-blog",
+  "pair": {
+   "before": "3b870d5914b39d906df17ca43930cd57685d0b5b",
+   "after": "8f9ffe41dd9f05d9413c63d43a551e29aa2d576f"
+  },
+  "page": "index.html"
+ },
+ {
+  "strategy": "id-anchored",
+  "selector": "#home>div>div>div>div:nth-of-type(3)>p>link",
+  "before_fingerprint": {
+   "tag": "link",
+   "text": "",
+   "href": "/_server-islands/TicketsAvailable?e=default&p=539D45F42656E0FF4944CD5CHM5MJyXWfypVH0BbLThSV8kD&s=%7B%7D",
+   "id": null
+  },
+  "after_fingerprint": {
+   "tag": "link",
+   "text": "",
+   "href": "/_server-islands/TicketsAvailable?e=default&p=CECCB3C27278F3231F66959BOUIzd9OKYJbsRhkb0lafQvK0&s=%7B%7D",
+   "id": null
+  },
+  "repo": "midudev/jsconf.es",
+  "pair": {
+   "before": "fc1bbd9fa01c6d6fe0b68cf9c4f1d5d8a41f272f",
+   "after": "792534a9683612d751cd54a06b789cecfba09cb8"
+  },
+  "page": "/"
+ },
+ {
+  "strategy": "id-anchored",
+  "selector": "body>footer>p>em>a",
+  "before_fingerprint": {
+   "tag": "a",
+   "text": "Eleventy v3.1.0",
+   "href": "https://www.11ty.dev/",
+   "id": null
+  },
+  "after_fingerprint": {
+   "tag": "a",
+   "text": "Eleventy v3.1.2",
+   "href": "https://www.11ty.dev/",
+   "id": null
+  },
+  "repo": "11ty/eleventy-base-blog",
+  "pair": {
+   "before": "3b870d5914b39d906df17ca43930cd57685d0b5b",
+   "after": "8f9ffe41dd9f05d9413c63d43a551e29aa2d576f"
+  },
+  "page": "index.html"
+ },
+ {
+  "strategy": "id-anchored",
+  "selector": "#home>div>div>div>div:nth-of-type(3)>p>script",
+  "before_fingerprint": {
+   "tag": "script",
+   "text": "let script = document.querySelector('script[data-island-id=\"c34d4bc4-f055-4ada-8215-ae23c5d7d361\"]'); let response = await fetch('/_server-islands/TicketsAvailable?e=default&p=539D45F42656E0FF4944CD5CHM5MJyXWfypVH0BbLThSV8kD&s=%7B%7D'); if (script) { if(response.status === 200 && response.headers.get('content-type') === 'text/html') { let html = await response.text(); // Swap! while(script.previousSibling && script.previousSibling.nodeType !== 8 && script.previousSibling.data !== '[if astro]>server-island-start<![endif]') { script.previousSibling.remove(); } script.previousSibling?.remove(); let frag = document.createRange().createContextualFragment(html); script.before(frag); } script.remove(); }",
+   "href": null,
+   "id": null
+  },
+  "after_fingerprint": {
+   "tag": "script",
+   "text": "let script = document.querySelector('script[data-island-id=\"957370b2-ac87-478f-a400-582e238a4ad3\"]'); let response = await fetch('/_server-islands/TicketsAvailable?e=default&p=CECCB3C27278F3231F66959BOUIzd9OKYJbsRhkb0lafQvK0&s=%7B%7D'); if (script) { if(response.status === 200 && response.headers.get('content-type') === 'text/html') { let html = await response.text(); // Swap! while(script.previousSibling && script.previousSibling.nodeType !== 8 && script.previousSibling.data !== '[if astro]>server-island-start<![endif]') { script.previousSibling.remove(); } script.previousSibling?.remove(); let frag = document.createRange().createContextualFragment(html); script.before(frag); } script.remove(); }",
+   "href": null,
+   "id": null
+  },
+  "repo": "midudev/jsconf.es",
+  "pair": {
+   "before": "fc1bbd9fa01c6d6fe0b68cf9c4f1d5d8a41f272f",
+   "after": "792534a9683612d751cd54a06b789cecfba09cb8"
+  },
+  "page": "/"
+ },
+ {
+  "strategy": "id-anchored",
+  "selector": "body>a",
+  "before_fingerprint": {
+   "tag": "a",
+   "text": "Skip to main content",
+   "href": "#skip",
+   "id": null
+  },
+  "after_fingerprint": {
+   "tag": "a",
+   "text": "Skip to main content",
+   "href": "#main",
+   "id": "skip-link"
+  },
+  "repo": "11ty/eleventy-base-blog",
+  "pair": {
+   "before": "3b870d5914b39d906df17ca43930cd57685d0b5b",
+   "after": "8f9ffe41dd9f05d9413c63d43a551e29aa2d576f"
+  },
+  "page": "tags/another-tag/index.html"
+ },
+ {
+  "strategy": "id-anchored",
+  "selector": "#home>div>div>div>div:nth-of-type(3)>p>link",
+  "before_fingerprint": {
+   "tag": "link",
+   "text": "",
+   "href": "/_server-islands/TicketsAvailable?e=default&p=CECCB3C27278F3231F66959BOUIzd9OKYJbsRhkb0lafQvK0&s=%7B%7D",
+   "id": null
+  },
+  "after_fingerprint": {
+   "tag": "link",
+   "text": "",
+   "href": "/_server-islands/TicketsAvailable?e=default&p=59709AFBFF59F7548902194FeJ6pplUkkJglsys3%2F1p3Z6bx&s=%7B%7D",
+   "id": null
+  },
+  "repo": "midudev/jsconf.es",
+  "pair": {
+   "before": "792534a9683612d751cd54a06b789cecfba09cb8",
+   "after": "57c02a7f6ab2486b95826d5401b6fb4d61655a8c"
+  },
+  "page": "/"
+ },
+ {
+  "strategy": "id-anchored",
+  "selector": "body>footer>p>em>a",
+  "before_fingerprint": {
+   "tag": "a",
+   "text": "Eleventy v3.1.0",
+   "href": "https://www.11ty.dev/",
+   "id": null
+  },
+  "after_fingerprint": {
+   "tag": "a",
+   "text": "Eleventy v3.1.2",
+   "href": "https://www.11ty.dev/",
+   "id": null
+  },
+  "repo": "11ty/eleventy-base-blog",
+  "pair": {
+   "before": "3b870d5914b39d906df17ca43930cd57685d0b5b",
+   "after": "8f9ffe41dd9f05d9413c63d43a551e29aa2d576f"
+  },
+  "page": "tags/another-tag/index.html"
+ },
+ {
+  "strategy": "id-anchored",
+  "selector": "#home>div>div>div>div:nth-of-type(3)>p>script",
+  "before_fingerprint": {
+   "tag": "script",
+   "text": "let script = document.querySelector('script[data-island-id=\"957370b2-ac87-478f-a400-582e238a4ad3\"]'); let response = await fetch('/_server-islands/TicketsAvailable?e=default&p=CECCB3C27278F3231F66959BOUIzd9OKYJbsRhkb0lafQvK0&s=%7B%7D'); if (script) { if(response.status === 200 && response.headers.get('content-type') === 'text/html') { let html = await response.text(); // Swap! while(script.previousSibling && script.previousSibling.nodeType !== 8 && script.previousSibling.data !== '[if astro]>server-island-start<![endif]') { script.previousSibling.remove(); } script.previousSibling?.remove(); let frag = document.createRange().createContextualFragment(html); script.before(frag); } script.remove(); }",
+   "href": null,
+   "id": null
+  },
+  "after_fingerprint": {
+   "tag": "script",
+   "text": "let script = document.querySelector('script[data-island-id=\"115ff065-2722-4997-bcd5-5ca5f625b559\"]'); let response = await fetch('/_server-islands/TicketsAvailable?e=default&p=59709AFBFF59F7548902194FeJ6pplUkkJglsys3%2F1p3Z6bx&s=%7B%7D'); if (script) { if(response.status === 200 && response.headers.get('content-type') === 'text/html') { let html = await response.text(); // Swap! while(script.previousSibling && script.previousSibling.nodeType !== 8 && script.previousSibling.data !== '[if astro]>server-island-start<![endif]') { script.previousSibling.remove(); } script.previousSibling?.remove(); let frag = document.createRange().createContextualFragment(html); script.before(frag); } script.remove(); }",
+   "href": null,
+   "id": null
+  },
+  "repo": "midudev/jsconf.es",
+  "pair": {
+   "before": "792534a9683612d751cd54a06b789cecfba09cb8",
+   "after": "57c02a7f6ab2486b95826d5401b6fb4d61655a8c"
+  },
+  "page": "/"
+ },
+ {
+  "strategy": "id-anchored",
+  "selector": "body>a",
+  "before_fingerprint": {
+   "tag": "a",
+   "text": "Skip to main content",
+   "href": "#skip",
+   "id": null
+  },
+  "after_fingerprint": {
+   "tag": "a",
+   "text": "Skip to main content",
+   "href": "#main",
+   "id": "skip-link"
+  },
+  "repo": "11ty/eleventy-base-blog",
+  "pair": {
+   "before": "3b870d5914b39d906df17ca43930cd57685d0b5b",
+   "after": "8f9ffe41dd9f05d9413c63d43a551e29aa2d576f"
+  },
+  "page": "tags/index.html"
+ },
+ {
+  "strategy": "id-anchored",
+  "selector": "#home>div>div>div>div:nth-of-type(3)>p>link",
+  "before_fingerprint": {
+   "tag": "link",
+   "text": "",
+   "href": "/_server-islands/TicketsAvailable?e=default&p=59709AFBFF59F7548902194FeJ6pplUkkJglsys3%2F1p3Z6bx&s=%7B%7D",
+   "id": null
+  },
+  "after_fingerprint": {
+   "tag": "link",
+   "text": "",
+   "href": "/_server-islands/TicketsAvailable?e=default&p=EEE998A68F5010ECCF9C0D68R0%2BwqqaGa4CR4tsbc7lWDnhd&s=%7B%7D",
+   "id": null
+  },
+  "repo": "midudev/jsconf.es",
+  "pair": {
+   "before": "57c02a7f6ab2486b95826d5401b6fb4d61655a8c",
+   "after": "fe3b96e1395740f0a34b90dfe1a04e617fab190b"
+  },
+  "page": "/"
+ },
+ {
+  "strategy": "id-anchored",
+  "selector": "body>footer>p>em>a",
+  "before_fingerprint": {
+   "tag": "a",
+   "text": "Eleventy v3.1.0",
+   "href": "https://www.11ty.dev/",
+   "id": null
+  },
+  "after_fingerprint": {
+   "tag": "a",
+   "text": "Eleventy v3.1.2",
+   "href": "https://www.11ty.dev/",
+   "id": null
+  },
+  "repo": "11ty/eleventy-base-blog",
+  "pair": {
+   "before": "3b870d5914b39d906df17ca43930cd57685d0b5b",
+   "after": "8f9ffe41dd9f05d9413c63d43a551e29aa2d576f"
+  },
+  "page": "tags/index.html"
+ },
+ {
+  "strategy": "class-anchored",
+  "selector": "body.relative>section.pt-24>div.min-h-screen.bg-gradient-to-b.from-black.to-\\[\\#0B0B0B\\].text-white>div.relative.min-h-screen.flex.flex-col.items-center.justify-center.px-4.text-center>div.space-y-8.pt-24>div.inline-flex.items-center.justify-center.gap-2\\.5.bg-white\\/5.px-4.py-2\\.5.rounded-full.font-clash>p.bg-gradient-to-bl.from-\\[\\#F7DF1F\\].to-\\[\\#FF5011\\].text-transparent.bg-clip-text.leading-normal.flex.flex-row.gap-x-2>link",
+  "before_fingerprint": {
+   "tag": "link",
+   "text": "",
+   "href": "/_server-islands/TicketsAvailable?e=default&p=E9746268F820690C823DD234k6JC4SxIYoLnKVFkaM%2Byg%2F2q&s=%7B%7D",
+   "id": null
+  },
+  "after_fingerprint": {
+   "tag": "link",
+   "text": "",
+   "href": "/_server-islands/TicketsAvailable?e=default&p=6857ECAF6328111D14168556qHYWG%2BRCOGQvSefwwjHZ3jjl&s=%7B%7D",
+   "id": null
+  },
+  "repo": "midudev/jsconf.es",
+  "pair": {
+   "before": "a64bc3e1176d305db4ce0c0697edac8d4306c5bb",
+   "after": "959ff12389d9fff356a01f9908e0f46ee3ebed73"
+  },
+  "page": "/"
+ },
+ {
+  "strategy": "class-anchored",
+  "selector": "body>a.visually-hidden",
+  "before_fingerprint": {
+   "tag": "a",
+   "text": "Skip to main content",
+   "href": "#main",
+   "id": "skip-link"
+  },
+  "after_fingerprint": {
+   "tag": "a",
+   "text": "Skip to main content",
+   "href": "#skip",
+   "id": null
+  },
+  "repo": "11ty/eleventy-base-blog",
+  "pair": {
+   "before": "57fdcca03fe7de215cadfdff952ffbe1fadfab69",
+   "after": "3b870d5914b39d906df17ca43930cd57685d0b5b"
+  },
+  "page": "404.html"
+ },
+ {
+  "strategy": "class-anchored",
+  "selector": "body.relative>section.pt-24>div.min-h-screen.bg-gradient-to-b.from-black.to-\\[\\#0B0B0B\\].text-white>div.relative.min-h-screen.flex.flex-col.items-center.justify-center.px-4.text-center>div.space-y-8.pt-24>div.inline-flex.items-center.justify-center.gap-2\\.5.bg-white\\/5.px-4.py-2\\.5.rounded-full.font-clash>p.bg-gradient-to-bl.from-\\[\\#F7DF1F\\].to-\\[\\#FF5011\\].text-transparent.bg-clip-text.leading-normal.flex.flex-row.gap-x-2>script",
+  "before_fingerprint": {
+   "tag": "script",
+   "text": "let script = document.querySelector('script[data-island-id=\"e0d7f4a8-f983-4a89-a993-ff82210c8e31\"]'); let response = await fetch('/_server-islands/TicketsAvailable?e=default&p=E9746268F820690C823DD234k6JC4SxIYoLnKVFkaM%2Byg%2F2q&s=%7B%7D'); if (script) { if(response.status === 200 && response.headers.get('content-type') === 'text/html') { let html = await response.text(); // Swap! while(script.previousSibling && script.previousSibling.nodeType !== 8 && script.previousSibling.data !== '[if astro]>server-island-start<![endif]') { script.previousSibling.remove(); } script.previousSibling?.remove(); let frag = document.createRange().createContextualFragment(html); script.before(frag); } script.remove(); }",
+   "href": null,
+   "id": null
+  },
+  "after_fingerprint": {
+   "tag": "script",
+   "text": "let script = document.querySelector('script[data-island-id=\"f28c188c-2ee2-416b-983e-5c983d4b7961\"]'); let response = await fetch('/_server-islands/TicketsAvailable?e=default&p=6857ECAF6328111D14168556qHYWG%2BRCOGQvSefwwjHZ3jjl&s=%7B%7D'); if (script) { if(response.status === 200 && response.headers.get('content-type') === 'text/html') { let html = await response.text(); // Swap! while(script.previousSibling && script.previousSibling.nodeType !== 8 && script.previousSibling.data !== '[if astro]>server-island-start<![endif]') { script.previousSibling.remove(); } script.previousSibling?.remove(); let frag = document.createRange().createContextualFragment(html); script.before(frag); } script.remove(); }",
+   "href": null,
+   "id": null
+  },
+  "repo": "midudev/jsconf.es",
+  "pair": {
+   "before": "a64bc3e1176d305db4ce0c0697edac8d4306c5bb",
+   "after": "959ff12389d9fff356a01f9908e0f46ee3ebed73"
+  },
+  "page": "/"
+ },
+ {
+  "strategy": "class-anchored",
+  "selector": "body>main",
+  "before_fingerprint": {
+   "tag": "main",
+   "text": "",
+   "href": null,
+   "id": "main"
+  },
+  "after_fingerprint": {
+   "tag": "main",
+   "text": "",
+   "href": null,
+   "id": "skip"
+  },
+  "repo": "11ty/eleventy-base-blog",
+  "pair": {
+   "before": "57fdcca03fe7de215cadfdff952ffbe1fadfab69",
+   "after": "3b870d5914b39d906df17ca43930cd57685d0b5b"
+  },
+  "page": "404.html"
+ },
+ {
+  "strategy": "class-anchored",
+  "selector": "body.relative>section.pt-24>div.min-h-screen.bg-gradient-to-b.from-black.to-\\[\\#0B0B0B\\].text-white>div.relative.min-h-screen.flex.flex-col.items-center.justify-center.px-4.text-center>div.space-y-8.pt-24>div.inline-flex.items-center.justify-center.gap-2\\.5.bg-white\\/5.px-4.py-2\\.5.rounded-full.font-clash>p.bg-gradient-to-bl.from-\\[\\#F7DF1F\\].to-\\[\\#FF5011\\].text-transparent.bg-clip-text.leading-normal.flex.flex-row.gap-x-2>link",
+  "before_fingerprint": {
+   "tag": "link",
+   "text": "",
+   "href": "/_server-islands/TicketsAvailable?e=default&p=6857ECAF6328111D14168556qHYWG%2BRCOGQvSefwwjHZ3jjl&s=%7B%7D",
+   "id": null
+  },
+  "after_fingerprint": {
+   "tag": "link",
+   "text": "",
+   "href": "/_server-islands/TicketsAvailable?e=default&p=97584B508AC7636C5A475D7DokFazDOU9%2FQZhIl0dntMjXU6&s=%7B%7D",
+   "id": null
+  },
+  "repo": "midudev/jsconf.es",
+  "pair": {
+   "before": "959ff12389d9fff356a01f9908e0f46ee3ebed73",
+   "after": "05a596225130836128a8f092e86f1a2e06509b37"
+  },
+  "page": "/"
+ },
+ {
+  "strategy": "class-anchored",
+  "selector": "body>a.visually-hidden",
+  "before_fingerprint": {
+   "tag": "a",
+   "text": "Skip to main content",
+   "href": "#main",
+   "id": "skip-link"
+  },
+  "after_fingerprint": {
+   "tag": "a",
+   "text": "Skip to main content",
+   "href": "#skip",
+   "id": null
+  },
+  "repo": "11ty/eleventy-base-blog",
+  "pair": {
+   "before": "57fdcca03fe7de215cadfdff952ffbe1fadfab69",
+   "after": "3b870d5914b39d906df17ca43930cd57685d0b5b"
+  },
+  "page": "about/index.html"
+ },
+ {
+  "strategy": "class-anchored",
+  "selector": "body.relative>section.pt-24>div.min-h-screen.bg-gradient-to-b.from-black.to-\\[\\#0B0B0B\\].text-white>div.relative.min-h-screen.flex.flex-col.items-center.justify-center.px-4.text-center>div.space-y-8.pt-24>div.inline-flex.items-center.justify-center.gap-2\\.5.bg-white\\/5.px-4.py-2\\.5.rounded-full.font-clash>p.bg-gradient-to-bl.from-\\[\\#F7DF1F\\].to-\\[\\#FF5011\\].text-transparent.bg-clip-text.leading-normal.flex.flex-row.gap-x-2>script",
+  "before_fingerprint": {
+   "tag": "script",
+   "text": "let script = document.querySelector('script[data-island-id=\"f28c188c-2ee2-416b-983e-5c983d4b7961\"]'); let response = await fetch('/_server-islands/TicketsAvailable?e=default&p=6857ECAF6328111D14168556qHYWG%2BRCOGQvSefwwjHZ3jjl&s=%7B%7D'); if (script) { if(response.status === 200 && response.headers.get('content-type') === 'text/html') { let html = await response.text(); // Swap! while(script.previousSibling && script.previousSibling.nodeType !== 8 && script.previousSibling.data !== '[if astro]>server-island-start<![endif]') { script.previousSibling.remove(); } script.previousSibling?.remove(); let frag = document.createRange().createContextualFragment(html); script.before(frag); } script.remove(); }",
+   "href": null,
+   "id": null
+  },
+  "after_fingerprint": {
+   "tag": "script",
+   "text": "let script = document.querySelector('script[data-island-id=\"6462d70b-873a-42e4-a95f-73ee0b43522e\"]'); let response = await fetch('/_server-islands/TicketsAvailable?e=default&p=97584B508AC7636C5A475D7DokFazDOU9%2FQZhIl0dntMjXU6&s=%7B%7D'); if (script) { if(response.status === 200 && response.headers.get('content-type') === 'text/html') { let html = await response.text(); // Swap! while(script.previousSibling && script.previousSibling.nodeType !== 8 && script.previousSibling.data !== '[if astro]>server-island-start<![endif]') { script.previousSibling.remove(); } script.previousSibling?.remove(); let frag = document.createRange().createContextualFragment(html); script.before(frag); } script.remove(); }",
+   "href": null,
+   "id": null
+  },
+  "repo": "midudev/jsconf.es",
+  "pair": {
+   "before": "959ff12389d9fff356a01f9908e0f46ee3ebed73",
+   "after": "05a596225130836128a8f092e86f1a2e06509b37"
+  },
+  "page": "/"
+ },
+ {
+  "strategy": "class-anchored",
+  "selector": "body>main",
+  "before_fingerprint": {
+   "tag": "main",
+   "text": "",
+   "href": null,
+   "id": "main"
+  },
+  "after_fingerprint": {
+   "tag": "main",
+   "text": "",
+   "href": null,
+   "id": "skip"
+  },
+  "repo": "11ty/eleventy-base-blog",
+  "pair": {
+   "before": "57fdcca03fe7de215cadfdff952ffbe1fadfab69",
+   "after": "3b870d5914b39d906df17ca43930cd57685d0b5b"
+  },
+  "page": "about/index.html"
+ },
+ {
+  "strategy": "class-anchored",
+  "selector": "body.relative>section.pt-24>div.min-h-screen.bg-gradient-to-b.from-black.to-\\[\\#0B0B0B\\].text-white>div.relative.min-h-screen.flex.flex-col.items-center.justify-center.px-4.text-center>div.space-y-8.pt-24>div.inline-flex.items-center.justify-center.gap-2\\.5.bg-white\\/5.px-4.py-2\\.5.rounded-full.font-clash>p.bg-gradient-to-bl.from-\\[\\#F7DF1F\\].to-\\[\\#FF5011\\].text-transparent.bg-clip-text.leading-normal.flex.flex-row.gap-x-2>link",
+  "before_fingerprint": {
+   "tag": "link",
+   "text": "",
+   "href": "/_server-islands/TicketsAvailable?e=default&p=97584B508AC7636C5A475D7DokFazDOU9%2FQZhIl0dntMjXU6&s=%7B%7D",
+   "id": null
+  },
+  "after_fingerprint": {
+   "tag": "link",
+   "text": "",
+   "href": "/_server-islands/TicketsAvailable?e=default&p=16D6317E88230F7DA674A4F4cLMdO0sg%2BLQm33FYXs7nJYDi&s=%7B%7D",
+   "id": null
+  },
+  "repo": "midudev/jsconf.es",
+  "pair": {
+   "before": "05a596225130836128a8f092e86f1a2e06509b37",
+   "after": "3b6f44bd10be113853c0de47be18088cd4f9b8f4"
+  },
+  "page": "/"
+ },
+ {
+  "strategy": "class-anchored",
+  "selector": "body>a.visually-hidden",
+  "before_fingerprint": {
+   "tag": "a",
+   "text": "Skip to main content",
+   "href": "#main",
+   "id": "skip-link"
+  },
+  "after_fingerprint": {
+   "tag": "a",
+   "text": "Skip to main content",
+   "href": "#skip",
+   "id": null
+  },
+  "repo": "11ty/eleventy-base-blog",
+  "pair": {
+   "before": "57fdcca03fe7de215cadfdff952ffbe1fadfab69",
+   "after": "3b870d5914b39d906df17ca43930cd57685d0b5b"
+  },
+  "page": "blog/firstpost/index.html"
+ },
+ {
+  "strategy": "class-anchored",
+  "selector": "body.relative>section.pt-24>div.min-h-screen.bg-gradient-to-b.from-black.to-\\[\\#0B0B0B\\].text-white>div.relative.min-h-screen.flex.flex-col.items-center.justify-center.px-4.text-center>div.space-y-8.pt-24>div.inline-flex.items-center.justify-center.gap-2\\.5.bg-white\\/5.px-4.py-2\\.5.rounded-full.font-clash>p.bg-gradient-to-bl.from-\\[\\#F7DF1F\\].to-\\[\\#FF5011\\].text-transparent.bg-clip-text.leading-normal.flex.flex-row.gap-x-2>script",
+  "before_fingerprint": {
+   "tag": "script",
+   "text": "let script = document.querySelector('script[data-island-id=\"6462d70b-873a-42e4-a95f-73ee0b43522e\"]'); let response = await fetch('/_server-islands/TicketsAvailable?e=default&p=97584B508AC7636C5A475D7DokFazDOU9%2FQZhIl0dntMjXU6&s=%7B%7D'); if (script) { if(response.status === 200 && response.headers.get('content-type') === 'text/html') { let html = await response.text(); // Swap! while(script.previousSibling && script.previousSibling.nodeType !== 8 && script.previousSibling.data !== '[if astro]>server-island-start<![endif]') { script.previousSibling.remove(); } script.previousSibling?.remove(); let frag = document.createRange().createContextualFragment(html); script.before(frag); } script.remove(); }",
+   "href": null,
+   "id": null
+  },
+  "after_fingerprint": {
+   "tag": "script",
+   "text": "let script = document.querySelector('script[data-island-id=\"749ffc28-d6dc-4bb6-ac23-2ed54ec24cbb\"]'); let response = await fetch('/_server-islands/TicketsAvailable?e=default&p=16D6317E88230F7DA674A4F4cLMdO0sg%2BLQm33FYXs7nJYDi&s=%7B%7D'); if (script) { if(response.status === 200 && response.headers.get('content-type') === 'text/html') { let html = await response.text(); // Swap! while(script.previousSibling && script.previousSibling.nodeType !== 8 && script.previousSibling.data !== '[if astro]>server-island-start<![endif]') { script.previousSibling.remove(); } script.previousSibling?.remove(); let frag = document.createRange().createContextualFragment(html); script.before(frag); } script.remove(); }",
+   "href": null,
+   "id": null
+  },
+  "repo": "midudev/jsconf.es",
+  "pair": {
+   "before": "05a596225130836128a8f092e86f1a2e06509b37",
+   "after": "3b6f44bd10be113853c0de47be18088cd4f9b8f4"
+  },
+  "page": "/"
+ },
+ {
+  "strategy": "class-anchored",
+  "selector": "body>main",
+  "before_fingerprint": {
+   "tag": "main",
+   "text": "",
+   "href": null,
+   "id": "main"
+  },
+  "after_fingerprint": {
+   "tag": "main",
+   "text": "",
+   "href": null,
+   "id": "skip"
+  },
+  "repo": "11ty/eleventy-base-blog",
+  "pair": {
+   "before": "57fdcca03fe7de215cadfdff952ffbe1fadfab69",
+   "after": "3b870d5914b39d906df17ca43930cd57685d0b5b"
+  },
+  "page": "blog/firstpost/index.html"
+ },
+ {
+  "strategy": "class-anchored",
+  "selector": "body.relative>section.pt-24>div.min-h-screen.bg-gradient-to-b.from-black.to-\\[\\#0B0B0B\\].text-white>div.relative.min-h-screen.flex.flex-col.items-center.justify-center.px-4.text-center>div.space-y-8.pt-24>div.inline-flex.items-center.justify-center.gap-2\\.5.bg-white\\/5.px-4.py-2\\.5.rounded-full.font-clash>p.bg-gradient-to-bl.from-\\[\\#F7DF1F\\].to-\\[\\#FF5011\\].text-transparent.bg-clip-text.leading-normal.flex.flex-row.gap-x-2>span",
+  "before_fingerprint": {
+   "tag": "span",
+   "text": "\u00a1S\u00f3lo quedan 169 entradas!",
+   "href": null,
+   "id": null
+  },
+  "after_fingerprint": {
+   "tag": "span",
+   "text": "\u00a1S\u00f3lo quedan 164 entradas!",
+   "href": null,
+   "id": null
+  },
+  "repo": "midudev/jsconf.es",
+  "pair": {
+   "before": "3b6f44bd10be113853c0de47be18088cd4f9b8f4",
+   "after": "a3503ac59041820062c0a326e7fc39a3bb0980d8"
+  },
+  "page": "/"
+ },
+ {
+  "strategy": "class-anchored",
+  "selector": "body>main>heading-anchors>pre.language-diff-js>code.language-diff-js",
+  "before_fingerprint": {
+   "tag": "code",
+   "text": "// this is a command function myCommand() { + let counter = 0; - let counter = 1; counter++; } // Test with a line break above this line. console.log('Test');",
+   "href": null,
+   "id": null
+  },
+  "after_fingerprint": {
+   "tag": "code",
+   "text": "",
+   "href": null,
+   "id": null
+  },
+  "repo": "11ty/eleventy-base-blog",
+  "pair": {
+   "before": "57fdcca03fe7de215cadfdff952ffbe1fadfab69",
+   "after": "3b870d5914b39d906df17ca43930cd57685d0b5b"
+  },
+  "page": "blog/firstpost/index.html"
+ },
+ {
+  "strategy": "class-anchored",
+  "selector": "body.relative>section.pt-24>div.min-h-screen.bg-gradient-to-b.from-black.to-\\[\\#0B0B0B\\].text-white>div.relative.min-h-screen.flex.flex-col.items-center.justify-center.px-4.text-center>div.space-y-8.pt-24>div.inline-flex.items-center.justify-center.gap-2\\.5.bg-white\\/5.px-4.py-2\\.5.rounded-full.font-clash>p.bg-gradient-to-bl.from-\\[\\#F7DF1F\\].to-\\[\\#FF5011\\].text-transparent.bg-clip-text.leading-normal.flex.flex-row.gap-x-2>link",
+  "before_fingerprint": {
+   "tag": "link",
+   "text": "",
+   "href": "/_server-islands/TicketsAvailable?e=default&p=16D6317E88230F7DA674A4F4cLMdO0sg%2BLQm33FYXs7nJYDi&s=%7B%7D",
+   "id": null
+  },
+  "after_fingerprint": {
+   "tag": "link",
+   "text": "",
+   "href": "/_server-islands/TicketsAvailable?e=default&p=6048924B0982039CDF35906DZokGyLFeVaquPtz9mGdEWP36&s=%7B%7D",
+   "id": null
+  },
+  "repo": "midudev/jsconf.es",
+  "pair": {
+   "before": "3b6f44bd10be113853c0de47be18088cd4f9b8f4",
+   "after": "a3503ac59041820062c0a326e7fc39a3bb0980d8"
+  },
+  "page": "/"
+ },
+ {
+  "strategy": "class-anchored",
+  "selector": "body>a.visually-hidden",
+  "before_fingerprint": {
+   "tag": "a",
+   "text": "Skip to main content",
+   "href": "#main",
+   "id": "skip-link"
+  },
+  "after_fingerprint": {
+   "tag": "a",
+   "text": "Skip to main content",
+   "href": "#skip",
+   "id": null
+  },
+  "repo": "11ty/eleventy-base-blog",
+  "pair": {
+   "before": "57fdcca03fe7de215cadfdff952ffbe1fadfab69",
+   "after": "3b870d5914b39d906df17ca43930cd57685d0b5b"
+  },
+  "page": "blog/fourthpost/index.html"
+ },
+ {
+  "strategy": "class-anchored",
+  "selector": "body.relative>section.pt-24>div.min-h-screen.bg-gradient-to-b.from-black.to-\\[\\#0B0B0B\\].text-white>div.relative.min-h-screen.flex.flex-col.items-center.justify-center.px-4.text-center>div.space-y-8.pt-24>div.inline-flex.items-center.justify-center.gap-2\\.5.bg-white\\/5.px-4.py-2\\.5.rounded-full.font-clash>p.bg-gradient-to-bl.from-\\[\\#F7DF1F\\].to-\\[\\#FF5011\\].text-transparent.bg-clip-text.leading-normal.flex.flex-row.gap-x-2>script",
+  "before_fingerprint": {
+   "tag": "script",
+   "text": "let script = document.querySelector('script[data-island-id=\"749ffc28-d6dc-4bb6-ac23-2ed54ec24cbb\"]'); let response = await fetch('/_server-islands/TicketsAvailable?e=default&p=16D6317E88230F7DA674A4F4cLMdO0sg%2BLQm33FYXs7nJYDi&s=%7B%7D'); if (script) { if(response.status === 200 && response.headers.get('content-type') === 'text/html') { let html = await response.text(); // Swap! while(script.previousSibling && script.previousSibling.nodeType !== 8 && script.previousSibling.data !== '[if astro]>server-island-start<![endif]') { script.previousSibling.remove(); } script.previousSibling?.remove(); let frag = document.createRange().createContextualFragment(html); script.before(frag); } script.remove(); }",
+   "href": null,
+   "id": null
+  },
+  "after_fingerprint": {
+   "tag": "script",
+   "text": "let script = document.querySelector('script[data-island-id=\"0c500aff-651e-4831-a789-116e974f7d81\"]'); let response = await fetch('/_server-islands/TicketsAvailable?e=default&p=6048924B0982039CDF35906DZokGyLFeVaquPtz9mGdEWP36&s=%7B%7D'); if (script) { if(response.status === 200 && response.headers.get('content-type') === 'text/html') { let html = await response.text(); // Swap! while(script.previousSibling && script.previousSibling.nodeType !== 8 && script.previousSibling.data !== '[if astro]>server-island-start<![endif]') { script.previousSibling.remove(); } script.previousSibling?.remove(); let frag = document.createRange().createContextualFragment(html); script.before(frag); } script.remove(); }",
+   "href": null,
+   "id": null
+  },
+  "repo": "midudev/jsconf.es",
+  "pair": {
+   "before": "3b6f44bd10be113853c0de47be18088cd4f9b8f4",
+   "after": "a3503ac59041820062c0a326e7fc39a3bb0980d8"
+  },
+  "page": "/"
+ },
+ {
+  "strategy": "class-anchored",
+  "selector": "body>main",
+  "before_fingerprint": {
+   "tag": "main",
+   "text": "",
+   "href": null,
+   "id": "main"
+  },
+  "after_fingerprint": {
+   "tag": "main",
+   "text": "",
+   "href": null,
+   "id": "skip"
+  },
+  "repo": "11ty/eleventy-base-blog",
+  "pair": {
+   "before": "57fdcca03fe7de215cadfdff952ffbe1fadfab69",
+   "after": "3b870d5914b39d906df17ca43930cd57685d0b5b"
+  },
+  "page": "blog/fourthpost/index.html"
+ },
+ {
+  "strategy": "class-anchored",
+  "selector": "body.relative>section.pt-24>div.min-h-screen.bg-gradient-to-b.from-black.to-\\[\\#0B0B0B\\].text-white>div.relative.min-h-screen.flex.flex-col.items-center.justify-center.px-4.text-center>div.space-y-8.pt-24>div.inline-flex.items-center.justify-center.gap-2\\.5.bg-white\\/5.px-4.py-2\\.5.rounded-full.font-clash>p.bg-gradient-to-bl.from-\\[\\#F7DF1F\\].to-\\[\\#FF5011\\].text-transparent.bg-clip-text.leading-normal.flex.flex-row.gap-x-2>link",
+  "before_fingerprint": {
+   "tag": "link",
+   "text": "",
+   "href": "/_server-islands/TicketsAvailable?e=default&p=6048924B0982039CDF35906DZokGyLFeVaquPtz9mGdEWP36&s=%7B%7D",
+   "id": null
+  },
+  "after_fingerprint": {
+   "tag": "link",
+   "text": "",
+   "href": "/_server-islands/TicketsAvailable?e=default&p=BB331A66B5E0E2A255C1607CRnyhdpRjKbzb3zv1IDibJE%2Bg&s=%7B%7D",
+   "id": null
+  },
+  "repo": "midudev/jsconf.es",
+  "pair": {
+   "before": "a3503ac59041820062c0a326e7fc39a3bb0980d8",
+   "after": "fbeedf0a6bb94ae786b0278f06736d304a40a235"
+  },
+  "page": "/"
+ },
+ {
+  "strategy": "class-anchored",
+  "selector": "body>a.visually-hidden",
+  "before_fingerprint": {
+   "tag": "a",
+   "text": "Skip to main content",
+   "href": "#main",
+   "id": "skip-link"
+  },
+  "after_fingerprint": {
+   "tag": "a",
+   "text": "Skip to main content",
+   "href": "#skip",
+   "id": null
+  },
+  "repo": "11ty/eleventy-base-blog",
+  "pair": {
+   "before": "57fdcca03fe7de215cadfdff952ffbe1fadfab69",
+   "after": "3b870d5914b39d906df17ca43930cd57685d0b5b"
+  },
+  "page": "blog/index.html"
+ },
+ {
+  "strategy": "class-anchored",
+  "selector": "body.relative>section.pt-24>div.min-h-screen.bg-gradient-to-b.from-black.to-\\[\\#0B0B0B\\].text-white>div.relative.min-h-screen.flex.flex-col.items-center.justify-center.px-4.text-center>div.space-y-8.pt-24>div.inline-flex.items-center.justify-center.gap-2\\.5.bg-white\\/5.px-4.py-2\\.5.rounded-full.font-clash>p.bg-gradient-to-bl.from-\\[\\#F7DF1F\\].to-\\[\\#FF5011\\].text-transparent.bg-clip-text.leading-normal.flex.flex-row.gap-x-2>script",
+  "before_fingerprint": {
+   "tag": "script",
+   "text": "let script = document.querySelector('script[data-island-id=\"0c500aff-651e-4831-a789-116e974f7d81\"]'); let response = await fetch('/_server-islands/TicketsAvailable?e=default&p=6048924B0982039CDF35906DZokGyLFeVaquPtz9mGdEWP36&s=%7B%7D'); if (script) { if(response.status === 200 && response.headers.get('content-type') === 'text/html') { let html = await response.text(); // Swap! while(script.previousSibling && script.previousSibling.nodeType !== 8 && script.previousSibling.data !== '[if astro]>server-island-start<![endif]') { script.previousSibling.remove(); } script.previousSibling?.remove(); let frag = document.createRange().createContextualFragment(html); script.before(frag); } script.remove(); }",
+   "href": null,
+   "id": null
+  },
+  "after_fingerprint": {
+   "tag": "script",
+   "text": "let script = document.querySelector('script[data-island-id=\"dc0f34c0-9f22-4e54-b942-e29b29960aef\"]'); let response = await fetch('/_server-islands/TicketsAvailable?e=default&p=BB331A66B5E0E2A255C1607CRnyhdpRjKbzb3zv1IDibJE%2Bg&s=%7B%7D'); if (script) { if(response.status === 200 && response.headers.get('content-type') === 'text/html') { let html = await response.text(); // Swap! while(script.previousSibling && script.previousSibling.nodeType !== 8 && script.previousSibling.data !== '[if astro]>server-island-start<![endif]') { script.previousSibling.remove(); } script.previousSibling?.remove(); let frag = document.createRange().createContextualFragment(html); script.before(frag); } script.remove(); }",
+   "href": null,
+   "id": null
+  },
+  "repo": "midudev/jsconf.es",
+  "pair": {
+   "before": "a3503ac59041820062c0a326e7fc39a3bb0980d8",
+   "after": "fbeedf0a6bb94ae786b0278f06736d304a40a235"
+  },
+  "page": "/"
+ },
+ {
+  "strategy": "class-anchored",
+  "selector": "body>main",
+  "before_fingerprint": {
+   "tag": "main",
+   "text": "",
+   "href": null,
+   "id": "main"
+  },
+  "after_fingerprint": {
+   "tag": "main",
+   "text": "",
+   "href": null,
+   "id": "skip"
+  },
+  "repo": "11ty/eleventy-base-blog",
+  "pair": {
+   "before": "57fdcca03fe7de215cadfdff952ffbe1fadfab69",
+   "after": "3b870d5914b39d906df17ca43930cd57685d0b5b"
+  },
+  "page": "blog/index.html"
+ },
+ {
+  "strategy": "class-anchored",
+  "selector": "body.relative>section.pt-24>div.min-h-screen.bg-gradient-to-b.from-black.to-\\[\\#0B0B0B\\].text-white>div.relative.min-h-screen.flex.flex-col.items-center.justify-center.px-4.text-center>div.space-y-8.pt-24>div.inline-flex.items-center.justify-center.gap-2\\.5.bg-white\\/5.px-4.py-2\\.5.rounded-full.font-clash>p.bg-gradient-to-bl.from-\\[\\#F7DF1F\\].to-\\[\\#FF5011\\].text-transparent.bg-clip-text.leading-normal.flex.flex-row.gap-x-2>link",
+  "before_fingerprint": {
+   "tag": "link",
+   "text": "",
+   "href": "/_server-islands/TicketsAvailable?e=default&p=BB331A66B5E0E2A255C1607CRnyhdpRjKbzb3zv1IDibJE%2Bg&s=%7B%7D",
+   "id": null
+  },
+  "after_fingerprint": {
+   "tag": "link",
+   "text": "",
+   "href": "/_server-islands/TicketsAvailable?e=default&p=539D45F42656E0FF4944CD5CHM5MJyXWfypVH0BbLThSV8kD&s=%7B%7D",
+   "id": null
+  },
+  "repo": "midudev/jsconf.es",
+  "pair": {
+   "before": "fbeedf0a6bb94ae786b0278f06736d304a40a235",
+   "after": "fc1bbd9fa01c6d6fe0b68cf9c4f1d5d8a41f272f"
+  },
+  "page": "/"
+ },
+ {
+  "strategy": "class-anchored",
+  "selector": "body>a.visually-hidden",
+  "before_fingerprint": {
+   "tag": "a",
+   "text": "Skip to main content",
+   "href": "#main",
+   "id": "skip-link"
+  },
+  "after_fingerprint": {
+   "tag": "a",
+   "text": "Skip to main content",
+   "href": "#skip",
+   "id": null
+  },
+  "repo": "11ty/eleventy-base-blog",
+  "pair": {
+   "before": "57fdcca03fe7de215cadfdff952ffbe1fadfab69",
+   "after": "3b870d5914b39d906df17ca43930cd57685d0b5b"
+  },
+  "page": "blog/secondpost/index.html"
+ },
+ {
+  "strategy": "class-anchored",
+  "selector": "body.relative>section.pt-24>div.min-h-screen.bg-gradient-to-b.from-black.to-\\[\\#0B0B0B\\].text-white>div.relative.min-h-screen.flex.flex-col.items-center.justify-center.px-4.text-center>div.space-y-8.pt-24>div.inline-flex.items-center.justify-center.gap-2\\.5.bg-white\\/5.px-4.py-2\\.5.rounded-full.font-clash>p.bg-gradient-to-bl.from-\\[\\#F7DF1F\\].to-\\[\\#FF5011\\].text-transparent.bg-clip-text.leading-normal.flex.flex-row.gap-x-2>script",
+  "before_fingerprint": {
+   "tag": "script",
+   "text": "let script = document.querySelector('script[data-island-id=\"dc0f34c0-9f22-4e54-b942-e29b29960aef\"]'); let response = await fetch('/_server-islands/TicketsAvailable?e=default&p=BB331A66B5E0E2A255C1607CRnyhdpRjKbzb3zv1IDibJE%2Bg&s=%7B%7D'); if (script) { if(response.status === 200 && response.headers.get('content-type') === 'text/html') { let html = await response.text(); // Swap! while(script.previousSibling && script.previousSibling.nodeType !== 8 && script.previousSibling.data !== '[if astro]>server-island-start<![endif]') { script.previousSibling.remove(); } script.previousSibling?.remove(); let frag = document.createRange().createContextualFragment(html); script.before(frag); } script.remove(); }",
+   "href": null,
+   "id": null
+  },
+  "after_fingerprint": {
+   "tag": "script",
+   "text": "let script = document.querySelector('script[data-island-id=\"c34d4bc4-f055-4ada-8215-ae23c5d7d361\"]'); let response = await fetch('/_server-islands/TicketsAvailable?e=default&p=539D45F42656E0FF4944CD5CHM5MJyXWfypVH0BbLThSV8kD&s=%7B%7D'); if (script) { if(response.status === 200 && response.headers.get('content-type') === 'text/html') { let html = await response.text(); // Swap! while(script.previousSibling && script.previousSibling.nodeType !== 8 && script.previousSibling.data !== '[if astro]>server-island-start<![endif]') { script.previousSibling.remove(); } script.previousSibling?.remove(); let frag = document.createRange().createContextualFragment(html); script.before(frag); } script.remove(); }",
+   "href": null,
+   "id": null
+  },
+  "repo": "midudev/jsconf.es",
+  "pair": {
+   "before": "fbeedf0a6bb94ae786b0278f06736d304a40a235",
+   "after": "fc1bbd9fa01c6d6fe0b68cf9c4f1d5d8a41f272f"
+  },
+  "page": "/"
+ },
+ {
+  "strategy": "class-anchored",
+  "selector": "body>main",
+  "before_fingerprint": {
+   "tag": "main",
+   "text": "",
+   "href": null,
+   "id": "main"
+  },
+  "after_fingerprint": {
+   "tag": "main",
+   "text": "",
+   "href": null,
+   "id": "skip"
+  },
+  "repo": "11ty/eleventy-base-blog",
+  "pair": {
+   "before": "57fdcca03fe7de215cadfdff952ffbe1fadfab69",
+   "after": "3b870d5914b39d906df17ca43930cd57685d0b5b"
+  },
+  "page": "blog/secondpost/index.html"
+ },
+ {
+  "strategy": "class-anchored",
+  "selector": "body.relative>section.bg-black.text-white.md\\:max-w-5\\/6.mx-auto.px-section.py-12>div.flex.flex-col.px-4.lg\\:md-0.mx-auto.container.py-12.relative.z-20>div.flex.pt-6.pb-12.gap-x-6.justify-around.flex-col.xl\\:flex-row.gap-y-8",
+  "before_fingerprint": {
+   "tag": "div",
+   "text": "",
+   "href": null,
+   "id": null
+  },
+  "after_fingerprint": {
+   "tag": "div",
+   "text": "",
+   "href": null,
+   "id": "cards"
+  },
+  "repo": "midudev/jsconf.es",
+  "pair": {
+   "before": "fbeedf0a6bb94ae786b0278f06736d304a40a235",
+   "after": "fc1bbd9fa01c6d6fe0b68cf9c4f1d5d8a41f272f"
+  },
+  "page": "/"
+ },
+ {
+  "strategy": "class-anchored",
+  "selector": "body>a.visually-hidden",
+  "before_fingerprint": {
+   "tag": "a",
+   "text": "Skip to main content",
+   "href": "#main",
+   "id": "skip-link"
+  },
+  "after_fingerprint": {
+   "tag": "a",
+   "text": "Skip to main content",
+   "href": "#skip",
+   "id": null
+  },
+  "repo": "11ty/eleventy-base-blog",
+  "pair": {
+   "before": "57fdcca03fe7de215cadfdff952ffbe1fadfab69",
+   "after": "3b870d5914b39d906df17ca43930cd57685d0b5b"
+  },
+  "page": "blog/thirdpost/index.html"
+ },
+ {
+  "strategy": "class-anchored",
+  "selector": "body.relative>section.pt-24>div.min-h-screen.bg-gradient-to-b.from-black.to-\\[\\#0B0B0B\\].text-white>div.relative.min-h-screen.flex.flex-col.items-center.justify-center.px-4.text-center>div.space-y-8.pt-24>div.inline-flex.items-center.justify-center.gap-2\\.5.bg-white\\/5.px-4.py-2\\.5.rounded-full.font-clash>p.bg-gradient-to-bl.from-\\[\\#F7DF1F\\].to-\\[\\#FF5011\\].text-transparent.bg-clip-text.leading-normal.flex.flex-row.gap-x-2>span",
+  "before_fingerprint": {
+   "tag": "span",
+   "text": "\u00a1S\u00f3lo quedan 164 entradas!",
+   "href": null,
+   "id": null
+  },
+  "after_fingerprint": {
+   "tag": "span",
+   "text": "\u00a1S\u00f3lo quedan 159 entradas!",
+   "href": null,
+   "id": null
+  },
+  "repo": "midudev/jsconf.es",
+  "pair": {
+   "before": "fc1bbd9fa01c6d6fe0b68cf9c4f1d5d8a41f272f",
+   "after": "792534a9683612d751cd54a06b789cecfba09cb8"
+  },
+  "page": "/"
+ },
+ {
+  "strategy": "class-anchored",
+  "selector": "body>main",
+  "before_fingerprint": {
+   "tag": "main",
+   "text": "",
+   "href": null,
+   "id": "main"
+  },
+  "after_fingerprint": {
+   "tag": "main",
+   "text": "",
+   "href": null,
+   "id": "skip"
+  },
+  "repo": "11ty/eleventy-base-blog",
+  "pair": {
+   "before": "57fdcca03fe7de215cadfdff952ffbe1fadfab69",
+   "after": "3b870d5914b39d906df17ca43930cd57685d0b5b"
+  },
+  "page": "blog/thirdpost/index.html"
+ },
+ {
+  "strategy": "class-anchored",
+  "selector": "body.relative>section.pt-24>div.min-h-screen.bg-gradient-to-b.from-black.to-\\[\\#0B0B0B\\].text-white>div.relative.min-h-screen.flex.flex-col.items-center.justify-center.px-4.text-center>div.space-y-8.pt-24>div.inline-flex.items-center.justify-center.gap-2\\.5.bg-white\\/5.px-4.py-2\\.5.rounded-full.font-clash>p.bg-gradient-to-bl.from-\\[\\#F7DF1F\\].to-\\[\\#FF5011\\].text-transparent.bg-clip-text.leading-normal.flex.flex-row.gap-x-2>link",
+  "before_fingerprint": {
+   "tag": "link",
+   "text": "",
+   "href": "/_server-islands/TicketsAvailable?e=default&p=539D45F42656E0FF4944CD5CHM5MJyXWfypVH0BbLThSV8kD&s=%7B%7D",
+   "id": null
+  },
+  "after_fingerprint": {
+   "tag": "link",
+   "text": "",
+   "href": "/_server-islands/TicketsAvailable?e=default&p=CECCB3C27278F3231F66959BOUIzd9OKYJbsRhkb0lafQvK0&s=%7B%7D",
+   "id": null
+  },
+  "repo": "midudev/jsconf.es",
+  "pair": {
+   "before": "fc1bbd9fa01c6d6fe0b68cf9c4f1d5d8a41f272f",
+   "after": "792534a9683612d751cd54a06b789cecfba09cb8"
+  },
+  "page": "/"
+ },
+ {
+  "strategy": "class-anchored",
+  "selector": "body>main>heading-anchors>pre.language-js>code.language-js>span.token.keyword:nth-of-type(2)",
+  "before_fingerprint": {
+   "tag": "span",
+   "text": "let",
+   "href": null,
+   "id": null
+  },
+  "after_fingerprint": {
+   "tag": "span",
+   "text": "function",
+   "href": null,
+   "id": null
+  },
+  "repo": "11ty/eleventy-base-blog",
+  "pair": {
+   "before": "57fdcca03fe7de215cadfdff952ffbe1fadfab69",
+   "after": "3b870d5914b39d906df17ca43930cd57685d0b5b"
+  },
+  "page": "blog/thirdpost/index.html"
+ },
+ {
+  "strategy": "class-anchored",
+  "selector": "body.relative>section.pt-24>div.min-h-screen.bg-gradient-to-b.from-black.to-\\[\\#0B0B0B\\].text-white>div.relative.min-h-screen.flex.flex-col.items-center.justify-center.px-4.text-center>div.space-y-8.pt-24>div.inline-flex.items-center.justify-center.gap-2\\.5.bg-white\\/5.px-4.py-2\\.5.rounded-full.font-clash>p.bg-gradient-to-bl.from-\\[\\#F7DF1F\\].to-\\[\\#FF5011\\].text-transparent.bg-clip-text.leading-normal.flex.flex-row.gap-x-2>script",
+  "before_fingerprint": {
+   "tag": "script",
+   "text": "let script = document.querySelector('script[data-island-id=\"c34d4bc4-f055-4ada-8215-ae23c5d7d361\"]'); let response = await fetch('/_server-islands/TicketsAvailable?e=default&p=539D45F42656E0FF4944CD5CHM5MJyXWfypVH0BbLThSV8kD&s=%7B%7D'); if (script) { if(response.status === 200 && response.headers.get('content-type') === 'text/html') { let html = await response.text(); // Swap! while(script.previousSibling && script.previousSibling.nodeType !== 8 && script.previousSibling.data !== '[if astro]>server-island-start<![endif]') { script.previousSibling.remove(); } script.previousSibling?.remove(); let frag = document.createRange().createContextualFragment(html); script.before(frag); } script.remove(); }",
+   "href": null,
+   "id": null
+  },
+  "after_fingerprint": {
+   "tag": "script",
+   "text": "let script = document.querySelector('script[data-island-id=\"957370b2-ac87-478f-a400-582e238a4ad3\"]'); let response = await fetch('/_server-islands/TicketsAvailable?e=default&p=CECCB3C27278F3231F66959BOUIzd9OKYJbsRhkb0lafQvK0&s=%7B%7D'); if (script) { if(response.status === 200 && response.headers.get('content-type') === 'text/html') { let html = await response.text(); // Swap! while(script.previousSibling && script.previousSibling.nodeType !== 8 && script.previousSibling.data !== '[if astro]>server-island-start<![endif]') { script.previousSibling.remove(); } script.previousSibling?.remove(); let frag = document.createRange().createContextualFragment(html); script.before(frag); } script.remove(); }",
+   "href": null,
+   "id": null
+  },
+  "repo": "midudev/jsconf.es",
+  "pair": {
+   "before": "fc1bbd9fa01c6d6fe0b68cf9c4f1d5d8a41f272f",
+   "after": "792534a9683612d751cd54a06b789cecfba09cb8"
+  },
+  "page": "/"
+ },
+ {
+  "strategy": "class-anchored",
+  "selector": "body>main>heading-anchors>pre.language-js>code.language-js>span.token.punctuation:nth-of-type(4)",
+  "before_fingerprint": {
+   "tag": "span",
+   "text": ";",
+   "href": null,
+   "id": null
+  },
+  "after_fingerprint": {
+   "tag": "span",
+   "text": "(",
+   "href": null,
+   "id": null
+  },
+  "repo": "11ty/eleventy-base-blog",
+  "pair": {
+   "before": "57fdcca03fe7de215cadfdff952ffbe1fadfab69",
+   "after": "3b870d5914b39d906df17ca43930cd57685d0b5b"
+  },
+  "page": "blog/thirdpost/index.html"
+ },
+ {
+  "strategy": "class-anchored",
+  "selector": "body.relative>section.bg-black.text-white.md\\:max-w-5\\/6.mx-auto.px-section.py-12>div.flex.flex-col.px-4.lg\\:md-0.mx-auto.container.py-12.relative.z-20>div.flex.pt-6.pb-12.gap-x-6.justify-around.flex-col.xl\\:flex-row.gap-y-8",
+  "before_fingerprint": {
+   "tag": "div",
+   "text": "",
+   "href": null,
+   "id": "cards"
+  },
+  "after_fingerprint": {
+   "tag": "div",
+   "text": "",
+   "href": null,
+   "id": null
+  },
+  "repo": "midudev/jsconf.es",
+  "pair": {
+   "before": "fc1bbd9fa01c6d6fe0b68cf9c4f1d5d8a41f272f",
+   "after": "792534a9683612d751cd54a06b789cecfba09cb8"
+  },
+  "page": "/"
+ },
+ {
+  "strategy": "class-anchored",
+  "selector": "body>main>heading-anchors>pre.language-js>code.language-js>span.token.punctuation:nth-of-type(5)",
+  "before_fingerprint": {
+   "tag": "span",
+   "text": ";",
+   "href": null,
+   "id": null
+  },
+  "after_fingerprint": {
+   "tag": "span",
+   "text": ")",
+   "href": null,
+   "id": null
+  },
+  "repo": "11ty/eleventy-base-blog",
+  "pair": {
+   "before": "57fdcca03fe7de215cadfdff952ffbe1fadfab69",
+   "after": "3b870d5914b39d906df17ca43930cd57685d0b5b"
+  },
+  "page": "blog/thirdpost/index.html"
+ },
+ {
+  "strategy": "class-anchored",
+  "selector": "body.relative>section.pt-24>div.min-h-screen.bg-gradient-to-b.from-black.to-\\[\\#0B0B0B\\].text-white>div.relative.min-h-screen.flex.flex-col.items-center.justify-center.px-4.text-center>div.space-y-8.pt-24>div.inline-flex.items-center.justify-center.gap-2\\.5.bg-white\\/5.px-4.py-2\\.5.rounded-full.font-clash>p.bg-gradient-to-bl.from-\\[\\#F7DF1F\\].to-\\[\\#FF5011\\].text-transparent.bg-clip-text.leading-normal.flex.flex-row.gap-x-2>link",
+  "before_fingerprint": {
+   "tag": "link",
+   "text": "",
+   "href": "/_server-islands/TicketsAvailable?e=default&p=CECCB3C27278F3231F66959BOUIzd9OKYJbsRhkb0lafQvK0&s=%7B%7D",
+   "id": null
+  },
+  "after_fingerprint": {
+   "tag": "link",
+   "text": "",
+   "href": "/_server-islands/TicketsAvailable?e=default&p=59709AFBFF59F7548902194FeJ6pplUkkJglsys3%2F1p3Z6bx&s=%7B%7D",
+   "id": null
+  },
+  "repo": "midudev/jsconf.es",
+  "pair": {
+   "before": "792534a9683612d751cd54a06b789cecfba09cb8",
+   "after": "57c02a7f6ab2486b95826d5401b6fb4d61655a8c"
+  },
+  "page": "/"
+ },
+ {
+  "strategy": "class-anchored",
+  "selector": "body>main>heading-anchors>pre.language-js>code.language-js>span.token.punctuation:nth-of-type(6)",
+  "before_fingerprint": {
+   "tag": "span",
+   "text": "}",
+   "href": null,
+   "id": null
+  },
+  "after_fingerprint": {
+   "tag": "span",
+   "text": "{",
+   "href": null,
+   "id": null
+  },
+  "repo": "11ty/eleventy-base-blog",
+  "pair": {
+   "before": "57fdcca03fe7de215cadfdff952ffbe1fadfab69",
+   "after": "3b870d5914b39d906df17ca43930cd57685d0b5b"
+  },
+  "page": "blog/thirdpost/index.html"
+ },
+ {
+  "strategy": "class-anchored",
+  "selector": "body.relative>section.pt-24>div.min-h-screen.bg-gradient-to-b.from-black.to-\\[\\#0B0B0B\\].text-white>div.relative.min-h-screen.flex.flex-col.items-center.justify-center.px-4.text-center>div.space-y-8.pt-24>div.inline-flex.items-center.justify-center.gap-2\\.5.bg-white\\/5.px-4.py-2\\.5.rounded-full.font-clash>p.bg-gradient-to-bl.from-\\[\\#F7DF1F\\].to-\\[\\#FF5011\\].text-transparent.bg-clip-text.leading-normal.flex.flex-row.gap-x-2>script",
+  "before_fingerprint": {
+   "tag": "script",
+   "text": "let script = document.querySelector('script[data-island-id=\"957370b2-ac87-478f-a400-582e238a4ad3\"]'); let response = await fetch('/_server-islands/TicketsAvailable?e=default&p=CECCB3C27278F3231F66959BOUIzd9OKYJbsRhkb0lafQvK0&s=%7B%7D'); if (script) { if(response.status === 200 && response.headers.get('content-type') === 'text/html') { let html = await response.text(); // Swap! while(script.previousSibling && script.previousSibling.nodeType !== 8 && script.previousSibling.data !== '[if astro]>server-island-start<![endif]') { script.previousSibling.remove(); } script.previousSibling?.remove(); let frag = document.createRange().createContextualFragment(html); script.before(frag); } script.remove(); }",
+   "href": null,
+   "id": null
+  },
+  "after_fingerprint": {
+   "tag": "script",
+   "text": "let script = document.querySelector('script[data-island-id=\"115ff065-2722-4997-bcd5-5ca5f625b559\"]'); let response = await fetch('/_server-islands/TicketsAvailable?e=default&p=59709AFBFF59F7548902194FeJ6pplUkkJglsys3%2F1p3Z6bx&s=%7B%7D'); if (script) { if(response.status === 200 && response.headers.get('content-type') === 'text/html') { let html = await response.text(); // Swap! while(script.previousSibling && script.previousSibling.nodeType !== 8 && script.previousSibling.data !== '[if astro]>server-island-start<![endif]') { script.previousSibling.remove(); } script.previousSibling?.remove(); let frag = document.createRange().createContextualFragment(html); script.before(frag); } script.remove(); }",
+   "href": null,
+   "id": null
+  },
+  "repo": "midudev/jsconf.es",
+  "pair": {
+   "before": "792534a9683612d751cd54a06b789cecfba09cb8",
+   "after": "57c02a7f6ab2486b95826d5401b6fb4d61655a8c"
+  },
+  "page": "/"
+ },
+ {
+  "strategy": "class-anchored",
+  "selector": "body>a.visually-hidden",
+  "before_fingerprint": {
+   "tag": "a",
+   "text": "Skip to main content",
+   "href": "#main",
+   "id": "skip-link"
+  },
+  "after_fingerprint": {
+   "tag": "a",
+   "text": "Skip to main content",
+   "href": "#skip",
+   "id": null
+  },
+  "repo": "11ty/eleventy-base-blog",
+  "pair": {
+   "before": "57fdcca03fe7de215cadfdff952ffbe1fadfab69",
+   "after": "3b870d5914b39d906df17ca43930cd57685d0b5b"
+  },
+  "page": "index.html"
+ },
+ {
+  "strategy": "attribute-anchored",
+  "selector": "body[data-astro-cid-sckkx6r4=\"\"]>section:nth-of-type(1)>div>div>div>div:nth-of-type(3)>p>span:nth-of-type(1)",
+  "before_fingerprint": {
+   "tag": "span",
+   "text": "\u00a1S\u00f3lo quedan 169 entradas!",
+   "href": null,
+   "id": null
+  },
+  "after_fingerprint": {
+   "tag": "span",
+   "text": "\u00a1S\u00f3lo quedan 164 entradas!",
+   "href": null,
+   "id": null
+  },
+  "repo": "midudev/jsconf.es",
+  "pair": {
+   "before": "3b6f44bd10be113853c0de47be18088cd4f9b8f4",
+   "after": "a3503ac59041820062c0a326e7fc39a3bb0980d8"
+  },
+  "page": "/"
+ },
+ {
+  "strategy": "attribute-anchored",
+  "selector": "body>main",
+  "before_fingerprint": {
+   "tag": "main",
+   "text": "",
+   "href": null,
+   "id": "main"
+  },
+  "after_fingerprint": {
+   "tag": "main",
+   "text": "",
+   "href": null,
+   "id": "skip"
+  },
+  "repo": "11ty/eleventy-base-blog",
+  "pair": {
+   "before": "57fdcca03fe7de215cadfdff952ffbe1fadfab69",
+   "after": "3b870d5914b39d906df17ca43930cd57685d0b5b"
+  },
+  "page": "404.html"
+ },
+ {
+  "strategy": "attribute-anchored",
+  "selector": "body[data-astro-cid-sckkx6r4=\"\"]>section:nth-of-type(3)>div:nth-of-type(2)>div:nth-of-type(1)",
+  "before_fingerprint": {
+   "tag": "div",
+   "text": "",
+   "href": null,
+   "id": null
+  },
+  "after_fingerprint": {
+   "tag": "div",
+   "text": "",
+   "href": null,
+   "id": "cards"
+  },
+  "repo": "midudev/jsconf.es",
+  "pair": {
+   "before": "fbeedf0a6bb94ae786b0278f06736d304a40a235",
+   "after": "fc1bbd9fa01c6d6fe0b68cf9c4f1d5d8a41f272f"
+  },
+  "page": "/"
+ },
+ {
+  "strategy": "attribute-anchored",
+  "selector": "body>main",
+  "before_fingerprint": {
+   "tag": "main",
+   "text": "",
+   "href": null,
+   "id": "main"
+  },
+  "after_fingerprint": {
+   "tag": "main",
+   "text": "",
+   "href": null,
+   "id": "skip"
+  },
+  "repo": "11ty/eleventy-base-blog",
+  "pair": {
+   "before": "57fdcca03fe7de215cadfdff952ffbe1fadfab69",
+   "after": "3b870d5914b39d906df17ca43930cd57685d0b5b"
+  },
+  "page": "about/index.html"
+ },
+ {
+  "strategy": "attribute-anchored",
+  "selector": "body[data-astro-cid-sckkx6r4=\"\"]>section:nth-of-type(1)>div>div>div>div:nth-of-type(3)>p>span:nth-of-type(1)",
+  "before_fingerprint": {
+   "tag": "span",
+   "text": "\u00a1S\u00f3lo quedan 164 entradas!",
+   "href": null,
+   "id": null
+  },
+  "after_fingerprint": {
+   "tag": "span",
+   "text": "\u00a1S\u00f3lo quedan 159 entradas!",
+   "href": null,
+   "id": null
+  },
+  "repo": "midudev/jsconf.es",
+  "pair": {
+   "before": "fc1bbd9fa01c6d6fe0b68cf9c4f1d5d8a41f272f",
+   "after": "792534a9683612d751cd54a06b789cecfba09cb8"
+  },
+  "page": "/"
+ },
+ {
+  "strategy": "attribute-anchored",
+  "selector": "body>main",
+  "before_fingerprint": {
+   "tag": "main",
+   "text": "",
+   "href": null,
+   "id": "main"
+  },
+  "after_fingerprint": {
+   "tag": "main",
+   "text": "",
+   "href": null,
+   "id": "skip"
+  },
+  "repo": "11ty/eleventy-base-blog",
+  "pair": {
+   "before": "57fdcca03fe7de215cadfdff952ffbe1fadfab69",
+   "after": "3b870d5914b39d906df17ca43930cd57685d0b5b"
+  },
+  "page": "blog/firstpost/index.html"
+ },
+ {
+  "strategy": "attribute-anchored",
+  "selector": "body[data-astro-cid-sckkx6r4=\"\"]>section:nth-of-type(3)>div:nth-of-type(2)>div:nth-of-type(1)",
+  "before_fingerprint": {
+   "tag": "div",
+   "text": "",
+   "href": null,
+   "id": "cards"
+  },
+  "after_fingerprint": {
+   "tag": "div",
+   "text": "",
+   "href": null,
+   "id": null
+  },
+  "repo": "midudev/jsconf.es",
+  "pair": {
+   "before": "fc1bbd9fa01c6d6fe0b68cf9c4f1d5d8a41f272f",
+   "after": "792534a9683612d751cd54a06b789cecfba09cb8"
+  },
+  "page": "/"
+ },
+ {
+  "strategy": "attribute-anchored",
+  "selector": "body>main>heading-anchors>pre>code",
+  "before_fingerprint": {
+   "tag": "code",
+   "text": "// this is a command function myCommand() { + let counter = 0; - let counter = 1; counter++; } // Test with a line break above this line. console.log('Test');",
+   "href": null,
+   "id": null
+  },
+  "after_fingerprint": {
+   "tag": "code",
+   "text": "",
+   "href": null,
+   "id": null
+  },
+  "repo": "11ty/eleventy-base-blog",
+  "pair": {
+   "before": "57fdcca03fe7de215cadfdff952ffbe1fadfab69",
+   "after": "3b870d5914b39d906df17ca43930cd57685d0b5b"
+  },
+  "page": "blog/firstpost/index.html"
+ },
+ {
+  "strategy": "attribute-anchored",
+  "selector": "body[data-astro-cid-sckkx6r4=\"\"]>section:nth-of-type(1)>div>div>div>div:nth-of-type(3)>p>span:nth-of-type(1)",
+  "before_fingerprint": {
+   "tag": "span",
+   "text": "\u00a1S\u00f3lo quedan 159 entradas!",
+   "href": null,
+   "id": null
+  },
+  "after_fingerprint": {
+   "tag": "span",
+   "text": "\u00a1S\u00f3lo quedan 164 entradas!",
+   "href": null,
+   "id": null
+  },
+  "repo": "midudev/jsconf.es",
+  "pair": {
+   "before": "fe3b96e1395740f0a34b90dfe1a04e617fab190b",
+   "after": "0c52d8b015a1e0811bef9e30bbf1bf8a34e69333"
+  },
+  "page": "/"
+ },
+ {
+  "strategy": "attribute-anchored",
+  "selector": "body>main",
+  "before_fingerprint": {
+   "tag": "main",
+   "text": "",
+   "href": null,
+   "id": "main"
+  },
+  "after_fingerprint": {
+   "tag": "main",
+   "text": "",
+   "href": null,
+   "id": "skip"
+  },
+  "repo": "11ty/eleventy-base-blog",
+  "pair": {
+   "before": "57fdcca03fe7de215cadfdff952ffbe1fadfab69",
+   "after": "3b870d5914b39d906df17ca43930cd57685d0b5b"
+  },
+  "page": "blog/fourthpost/index.html"
+ },
+ {
+  "strategy": "attribute-anchored",
+  "selector": "a[href=\"/jsrace.ics\"]>span",
+  "before_fingerprint": {
+   "tag": "span",
+   "text": "2 de marzo de 2025",
+   "href": null,
+   "id": null
+  },
+  "after_fingerprint": {
+   "tag": "span",
+   "text": "2 de marzo de 2025 a las 10:00 H",
+   "href": null,
+   "id": null
+  },
+  "repo": "midudev/jsconf.es",
+  "pair": {
+   "before": "fe3b96e1395740f0a34b90dfe1a04e617fab190b",
+   "after": "0c52d8b015a1e0811bef9e30bbf1bf8a34e69333"
+  },
+  "page": "/"
+ },
+ {
+  "strategy": "attribute-anchored",
+  "selector": "body>main",
+  "before_fingerprint": {
+   "tag": "main",
+   "text": "",
+   "href": null,
+   "id": "main"
+  },
+  "after_fingerprint": {
+   "tag": "main",
+   "text": "",
+   "href": null,
+   "id": "skip"
+  },
+  "repo": "11ty/eleventy-base-blog",
+  "pair": {
+   "before": "57fdcca03fe7de215cadfdff952ffbe1fadfab69",
+   "after": "3b870d5914b39d906df17ca43930cd57685d0b5b"
+  },
+  "page": "blog/index.html"
+ },
+ {
+  "strategy": "attribute-anchored",
+  "selector": "body[data-astro-cid-sckkx6r4=\"\"]>section:nth-of-type(1)>div>div>div>div:nth-of-type(3)>p>span:nth-of-type(1)",
+  "before_fingerprint": {
+   "tag": "span",
+   "text": "\u00a1S\u00f3lo quedan 164 entradas!",
+   "href": null,
+   "id": null
+  },
+  "after_fingerprint": {
+   "tag": "span",
+   "text": "\u00a1S\u00f3lo quedan 159 entradas!",
+   "href": null,
+   "id": null
+  },
+  "repo": "midudev/jsconf.es",
+  "pair": {
+   "before": "0c52d8b015a1e0811bef9e30bbf1bf8a34e69333",
+   "after": "030d955e601a2a787e9e1290115cc1fb6126aaf0"
+  },
+  "page": "/"
+ },
+ {
+  "strategy": "attribute-anchored",
+  "selector": "body>main",
+  "before_fingerprint": {
+   "tag": "main",
+   "text": "",
+   "href": null,
+   "id": "main"
+  },
+  "after_fingerprint": {
+   "tag": "main",
+   "text": "",
+   "href": null,
+   "id": "skip"
+  },
+  "repo": "11ty/eleventy-base-blog",
+  "pair": {
+   "before": "57fdcca03fe7de215cadfdff952ffbe1fadfab69",
+   "after": "3b870d5914b39d906df17ca43930cd57685d0b5b"
+  },
+  "page": "blog/secondpost/index.html"
+ },
+ {
+  "strategy": "attribute-anchored",
+  "selector": "body[data-astro-cid-sckkx6r4=\"\"]>section:nth-of-type(3)>div:nth-of-type(2)>div:nth-of-type(1)",
+  "before_fingerprint": {
+   "tag": "div",
+   "text": "",
+   "href": null,
+   "id": null
+  },
+  "after_fingerprint": {
+   "tag": "div",
+   "text": "",
+   "href": null,
+   "id": "cards"
+  },
+  "repo": "midudev/jsconf.es",
+  "pair": {
+   "before": "afec5429a0ddcd56dbea32cd60f414bfe033641e",
+   "after": "30190cb48f994ce3f364a26d6616e9cdab81a85c"
+  },
+  "page": "/"
+ },
+ {
+  "strategy": "attribute-anchored",
+  "selector": "body>main",
+  "before_fingerprint": {
+   "tag": "main",
+   "text": "",
+   "href": null,
+   "id": "main"
+  },
+  "after_fingerprint": {
+   "tag": "main",
+   "text": "",
+   "href": null,
+   "id": "skip"
+  },
+  "repo": "11ty/eleventy-base-blog",
+  "pair": {
+   "before": "57fdcca03fe7de215cadfdff952ffbe1fadfab69",
+   "after": "3b870d5914b39d906df17ca43930cd57685d0b5b"
+  },
+  "page": "blog/thirdpost/index.html"
+ },
+ {
+  "strategy": "attribute-anchored",
+  "selector": "body[data-astro-cid-sckkx6r4=\"\"]>section:nth-of-type(1)>div>div>div>div:nth-of-type(3)>p>span:nth-of-type(1)",
+  "before_fingerprint": {
+   "tag": "span",
+   "text": "\u00a1S\u00f3lo quedan 159 entradas!",
+   "href": null,
+   "id": null
+  },
+  "after_fingerprint": {
+   "tag": "span",
+   "text": "\u00a1S\u00f3lo quedan 154 entradas!",
+   "href": null,
+   "id": null
+  },
+  "repo": "midudev/jsconf.es",
+  "pair": {
+   "before": "30190cb48f994ce3f364a26d6616e9cdab81a85c",
+   "after": "9715593b041e199ba70f563fb636210ce9133798"
+  },
+  "page": "/"
+ },
+ {
+  "strategy": "attribute-anchored",
+  "selector": "body>main",
+  "before_fingerprint": {
+   "tag": "main",
+   "text": "",
+   "href": null,
+   "id": "main"
+  },
+  "after_fingerprint": {
+   "tag": "main",
+   "text": "",
+   "href": null,
+   "id": "skip"
+  },
+  "repo": "11ty/eleventy-base-blog",
+  "pair": {
+   "before": "57fdcca03fe7de215cadfdff952ffbe1fadfab69",
+   "after": "3b870d5914b39d906df17ca43930cd57685d0b5b"
+  },
+  "page": "index.html"
+ },
+ {
+  "strategy": "attribute-anchored",
+  "selector": "body[data-astro-cid-sckkx6r4=\"\"]>section:nth-of-type(1)>div>div>div>div:nth-of-type(3)>p>span:nth-of-type(1)",
+  "before_fingerprint": {
+   "tag": "span",
+   "text": "\u00a1S\u00f3lo quedan 154 entradas!",
+   "href": null,
+   "id": null
+  },
+  "after_fingerprint": {
+   "tag": "span",
+   "text": "\u00a1S\u00f3lo quedan 149 entradas!",
+   "href": null,
+   "id": null
+  },
+  "repo": "midudev/jsconf.es",
+  "pair": {
+   "before": "9715593b041e199ba70f563fb636210ce9133798",
+   "after": "4be6834b96e9bec703bdcf6265175d5eeed6c055"
+  },
+  "page": "/"
+ },
+ {
+  "strategy": "attribute-anchored",
+  "selector": "body>main",
+  "before_fingerprint": {
+   "tag": "main",
+   "text": "",
+   "href": null,
+   "id": "main"
+  },
+  "after_fingerprint": {
+   "tag": "main",
+   "text": "",
+   "href": null,
+   "id": "skip"
+  },
+  "repo": "11ty/eleventy-base-blog",
+  "pair": {
+   "before": "57fdcca03fe7de215cadfdff952ffbe1fadfab69",
+   "after": "3b870d5914b39d906df17ca43930cd57685d0b5b"
+  },
+  "page": "tags/another-tag/index.html"
+ },
+ {
+  "strategy": "attribute-anchored",
+  "selector": "body[data-astro-cid-sckkx6r4=\"\"]>section:nth-of-type(1)>div>div>div>div:nth-of-type(3)>p>span:nth-of-type(1)",
+  "before_fingerprint": {
+   "tag": "span",
+   "text": "\u00a1S\u00f3lo quedan 149 entradas!",
+   "href": null,
+   "id": null
+  },
+  "after_fingerprint": {
+   "tag": "span",
+   "text": "\u00a1S\u00f3lo quedan 146 entradas!",
+   "href": null,
+   "id": null
+  },
+  "repo": "midudev/jsconf.es",
+  "pair": {
+   "before": "1f752c1d368468ec7e446eae4eb90242e01cdc83",
+   "after": "774c2bf060d3dd465764d93c02ea6450721091eb"
+  },
+  "page": "/"
+ },
+ {
+  "strategy": "attribute-anchored",
+  "selector": "body>main",
+  "before_fingerprint": {
+   "tag": "main",
+   "text": "",
+   "href": null,
+   "id": "main"
+  },
+  "after_fingerprint": {
+   "tag": "main",
+   "text": "",
+   "href": null,
+   "id": "skip"
+  },
+  "repo": "11ty/eleventy-base-blog",
+  "pair": {
+   "before": "57fdcca03fe7de215cadfdff952ffbe1fadfab69",
+   "after": "3b870d5914b39d906df17ca43930cd57685d0b5b"
+  },
+  "page": "tags/index.html"
+ },
+ {
+  "strategy": "attribute-anchored",
+  "selector": "body[data-astro-cid-sckkx6r4=\"\"]>section:nth-of-type(1)>div>div>div>div:nth-of-type(3)>p>span:nth-of-type(1)",
+  "before_fingerprint": {
+   "tag": "span",
+   "text": "\u00a1S\u00f3lo quedan 146 entradas!",
+   "href": null,
+   "id": null
+  },
+  "after_fingerprint": {
+   "tag": "span",
+   "text": "\u00a1S\u00f3lo quedan 145 entradas!",
+   "href": null,
+   "id": null
+  },
+  "repo": "midudev/jsconf.es",
+  "pair": {
+   "before": "774c2bf060d3dd465764d93c02ea6450721091eb",
+   "after": "c3fe4f8deaed428f5430e693071118e9912ccf08"
+  },
+  "page": "/"
+ },
+ {
+  "strategy": "attribute-anchored",
+  "selector": "body>main",
+  "before_fingerprint": {
+   "tag": "main",
+   "text": "",
+   "href": null,
+   "id": "main"
+  },
+  "after_fingerprint": {
+   "tag": "main",
+   "text": "",
+   "href": null,
+   "id": "skip"
+  },
+  "repo": "11ty/eleventy-base-blog",
+  "pair": {
+   "before": "57fdcca03fe7de215cadfdff952ffbe1fadfab69",
+   "after": "3b870d5914b39d906df17ca43930cd57685d0b5b"
+  },
+  "page": "tags/number-2/index.html"
+ },
+ {
+  "strategy": "attribute-anchored",
+  "selector": "body[data-astro-cid-sckkx6r4=\"\"]>section:nth-of-type(1)>div>div>div>div:nth-of-type(3)>p>span:nth-of-type(1)",
+  "before_fingerprint": {
+   "tag": "span",
+   "text": "\u00a1S\u00f3lo quedan 145 entradas!",
+   "href": null,
+   "id": null
+  },
+  "after_fingerprint": {
+   "tag": "span",
+   "text": "\u00a1S\u00f3lo quedan 140 entradas!",
+   "href": null,
+   "id": null
+  },
+  "repo": "midudev/jsconf.es",
+  "pair": {
+   "before": "a9a0d11d6f9a7d92f0a544d4c921678340edd2c6",
+   "after": "bc078b6543f53a323fc9406b0a7ebff27fd32876"
+  },
+  "page": "/"
+ },
+ {
+  "strategy": "attribute-anchored",
+  "selector": "body>main",
+  "before_fingerprint": {
+   "tag": "main",
+   "text": "",
+   "href": null,
+   "id": "main"
+  },
+  "after_fingerprint": {
+   "tag": "main",
+   "text": "",
+   "href": null,
+   "id": "skip"
+  },
+  "repo": "11ty/eleventy-base-blog",
+  "pair": {
+   "before": "57fdcca03fe7de215cadfdff952ffbe1fadfab69",
+   "after": "3b870d5914b39d906df17ca43930cd57685d0b5b"
+  },
+  "page": "tags/posts-with-two-tags/index.html"
+ },
+ {
+  "strategy": "attribute-anchored",
+  "selector": "body[data-astro-cid-sckkx6r4=\"\"]>section:nth-of-type(1)>div>div>div>div:nth-of-type(3)>p>span:nth-of-type(1)",
+  "before_fingerprint": {
+   "tag": "span",
+   "text": "\u00a1S\u00f3lo quedan 140 entradas!",
+   "href": null,
+   "id": null
+  },
+  "after_fingerprint": {
+   "tag": "span",
+   "text": "\u00a1S\u00f3lo quedan 131 entradas!",
+   "href": null,
+   "id": null
+  },
+  "repo": "midudev/jsconf.es",
+  "pair": {
+   "before": "b5c033a5106735323aa274ad2d6b30471bc0ea45",
+   "after": "0466e20b104b4a6126e9abd07f89524f550745ee"
+  },
+  "page": "/"
+ },
+ {
+  "strategy": "attribute-anchored",
+  "selector": "body>main",
+  "before_fingerprint": {
+   "tag": "main",
+   "text": "",
+   "href": null,
+   "id": "main"
+  },
+  "after_fingerprint": {
+   "tag": "main",
+   "text": "",
+   "href": null,
+   "id": "skip"
+  },
+  "repo": "11ty/eleventy-base-blog",
+  "pair": {
+   "before": "57fdcca03fe7de215cadfdff952ffbe1fadfab69",
+   "after": "3b870d5914b39d906df17ca43930cd57685d0b5b"
+  },
+  "page": "tags/second-tag/index.html"
+ },
+ {
+  "strategy": "attribute-anchored",
+  "selector": "body[data-astro-cid-sckkx6r4=\"\"]>section:nth-of-type(1)>div>div>div>div:nth-of-type(3)>p>span:nth-of-type(1)",
+  "before_fingerprint": {
+   "tag": "span",
+   "text": "\u00a1S\u00f3lo quedan 131 entradas!",
+   "href": null,
+   "id": null
+  },
+  "after_fingerprint": {
+   "tag": "span",
+   "text": "\u00a1S\u00f3lo quedan 126 entradas!",
+   "href": null,
+   "id": null
+  },
+  "repo": "midudev/jsconf.es",
+  "pair": {
+   "before": "cde5a5c8d249fe9cf6334f650d891ab2080580a1",
+   "after": "ca4e87cc7a6246022f40e592a2470c8a11961024"
+  },
+  "page": "/"
+ },
+ {
+  "strategy": "attribute-anchored",
+  "selector": "body>main",
+  "before_fingerprint": {
+   "tag": "main",
+   "text": "",
+   "href": null,
+   "id": "skip"
+  },
+  "after_fingerprint": {
+   "tag": "main",
+   "text": "",
+   "href": null,
+   "id": "main"
+  },
+  "repo": "11ty/eleventy-base-blog",
+  "pair": {
+   "before": "3b870d5914b39d906df17ca43930cd57685d0b5b",
+   "after": "8f9ffe41dd9f05d9413c63d43a551e29aa2d576f"
+  },
+  "page": "404.html"
+ },
+ {
+  "strategy": "attribute-anchored",
+  "selector": "body[data-astro-cid-sckkx6r4=\"\"]>section:nth-of-type(1)>div>div>div>div:nth-of-type(3)>p>span:nth-of-type(1)",
+  "before_fingerprint": {
+   "tag": "span",
+   "text": "\u00a1S\u00f3lo quedan 126 entradas!",
+   "href": null,
+   "id": null
+  },
+  "after_fingerprint": {
+   "tag": "span",
+   "text": "\u00a1S\u00f3lo quedan 119 entradas!",
+   "href": null,
+   "id": null
+  },
+  "repo": "midudev/jsconf.es",
+  "pair": {
+   "before": "ca4e87cc7a6246022f40e592a2470c8a11961024",
+   "after": "71c1e79cafd627693d0b92b4c4bb7f968a140714"
+  },
+  "page": "/"
+ },
+ {
+  "strategy": "attribute-anchored",
+  "selector": "body>main",
+  "before_fingerprint": {
+   "tag": "main",
+   "text": "",
+   "href": null,
+   "id": "skip"
+  },
+  "after_fingerprint": {
+   "tag": "main",
+   "text": "",
+   "href": null,
+   "id": "main"
+  },
+  "repo": "11ty/eleventy-base-blog",
+  "pair": {
+   "before": "3b870d5914b39d906df17ca43930cd57685d0b5b",
+   "after": "8f9ffe41dd9f05d9413c63d43a551e29aa2d576f"
+  },
+  "page": "about/index.html"
+ },
+ {
+  "strategy": "attribute-anchored",
+  "selector": "body[data-astro-cid-sckkx6r4=\"\"]>section:nth-of-type(6)>div>div:nth-of-type(4)>article:nth-of-type(1)>p:nth-of-type(1)>span",
+  "before_fingerprint": {
+   "tag": "span",
+   "text": "Software Engineer en Google",
+   "href": null,
+   "id": null
+  },
+  "after_fingerprint": {
+   "tag": "span",
+   "text": "Software Engineer en Voice Flow",
+   "href": null,
+   "id": null
+  },
+  "repo": "midudev/jsconf.es",
+  "pair": {
+   "before": "30074c5ef965e644179c12a98dccbcb3e00da4b7",
+   "after": "cdd4b40d2e97b29cd291ada70cc120786974213d"
+  },
+  "page": "/"
+ },
+ {
+  "strategy": "attribute-anchored",
+  "selector": "body>main",
+  "before_fingerprint": {
+   "tag": "main",
+   "text": "",
+   "href": null,
+   "id": "skip"
+  },
+  "after_fingerprint": {
+   "tag": "main",
+   "text": "",
+   "href": null,
+   "id": "main"
+  },
+  "repo": "11ty/eleventy-base-blog",
+  "pair": {
+   "before": "3b870d5914b39d906df17ca43930cd57685d0b5b",
+   "after": "8f9ffe41dd9f05d9413c63d43a551e29aa2d576f"
+  },
+  "page": "blog/firstpost/index.html"
+ },
+ {
+  "strategy": "attribute-anchored",
+  "selector": "body[data-astro-cid-sckkx6r4=\"\"]>section:nth-of-type(6)>div>div:nth-of-type(4)>article:nth-of-type(2)>h4",
+  "before_fingerprint": {
+   "tag": "h4",
+   "text": "C\u00f3mo mantener un desarrollo con TDD r\u00e1pido y eficaz",
+   "href": null,
+   "id": null
+  },
+  "after_fingerprint": {
+   "tag": "h4",
+   "text": "Introducci\u00f3n a Test-Driven Development con JS y TS",
+   "href": null,
+   "id": null
+  },
+  "repo": "midudev/jsconf.es",
+  "pair": {
+   "before": "30074c5ef965e644179c12a98dccbcb3e00da4b7",
+   "after": "cdd4b40d2e97b29cd291ada70cc120786974213d"
+  },
+  "page": "/"
+ },
+ {
+  "strategy": "attribute-anchored",
+  "selector": "body>main>heading-anchors>pre>code",
+  "before_fingerprint": {
+   "tag": "code",
+   "text": "",
+   "href": null,
+   "id": null
+  },
+  "after_fingerprint": {
+   "tag": "code",
+   "text": "// this is a command function myCommand() { + let counter = 0; - let counter = 1; counter++; } // Test with a line break above this line. console.log('Test');",
+   "href": null,
+   "id": null
+  },
+  "repo": "11ty/eleventy-base-blog",
+  "pair": {
+   "before": "3b870d5914b39d906df17ca43930cd57685d0b5b",
+   "after": "8f9ffe41dd9f05d9413c63d43a551e29aa2d576f"
+  },
+  "page": "blog/firstpost/index.html"
+ },
+ {
+  "strategy": "attribute-anchored",
+  "selector": "body[data-astro-cid-sckkx6r4=\"\"]>section:nth-of-type(6)>div>div:nth-of-type(4)>article:nth-of-type(2)>p:nth-of-type(1)",
+  "before_fingerprint": {
+   "tag": "p",
+   "text": "Mario Sebasti\u00e1n",
+   "href": null,
+   "id": null
+  },
+  "after_fingerprint": {
+   "tag": "p",
+   "text": "Carlos Bl\u00e9",
+   "href": null,
+   "id": null
+  },
+  "repo": "midudev/jsconf.es",
+  "pair": {
+   "before": "30074c5ef965e644179c12a98dccbcb3e00da4b7",
+   "after": "cdd4b40d2e97b29cd291ada70cc120786974213d"
+  },
+  "page": "/"
+ },
+ {
+  "strategy": "attribute-anchored",
+  "selector": "a[href=\"https://www.11ty.dev/\"]",
+  "before_fingerprint": {
+   "tag": "a",
+   "text": "Eleventy v3.1.0",
+   "href": "https://www.11ty.dev/",
+   "id": null
+  },
+  "after_fingerprint": {
+   "tag": "a",
+   "text": "Eleventy v3.1.2",
+   "href": "https://www.11ty.dev/",
+   "id": null
+  },
+  "repo": "11ty/eleventy-base-blog",
+  "pair": {
+   "before": "3b870d5914b39d906df17ca43930cd57685d0b5b",
+   "after": "8f9ffe41dd9f05d9413c63d43a551e29aa2d576f"
+  },
+  "page": "blog/firstpost/index.html"
+ },
+ {
+  "strategy": "attribute-anchored",
+  "selector": "body[data-astro-cid-sckkx6r4=\"\"]>section:nth-of-type(6)>div>div:nth-of-type(4)>article:nth-of-type(2)>p:nth-of-type(2)",
+  "before_fingerprint": {
+   "tag": "p",
+   "text": "Descubre Firebase Genkit en este taller introductorio en el DevFest Madrid. Exploraremos c\u00f3mo este vers\u00e1til framework permite a los desarrolladores crear aplicaciones impulsadas por inteligencia artificial con facilidad. Aprende a implementar las bibliotecas de c\u00f3digo abierto de Genkit para Node.js y Go, integrarte con modelos de IA generativa y ejecutarlo de manera independiente de los servicios de Google. Perfecto para quienes buscan optimizar su proceso de desarrollo de IA.",
+   "href": null,
+   "id": null
+  },
+  "after_fingerprint": {
+   "tag": "p",
+   "text": "TDD es una pr\u00e1ctica que ha demostrado funcionar en el mundo real para quienes han adquirido el suficiente criterio y dominio de la t\u00e9cnica. Permite escribir c\u00f3digo m\u00e1s simple, con muchos menos fallos, y dejando excelentes baterias de test para cubrir de forma segura la evoluci\u00f3n funcional del producto. Es cierto que tiene una curva de aprendizaje importante y que a menudo se abandona la t\u00e9cnica antes de subir esa cuesta, por falta de acompa\u00f1amiento o por malentendidos. Carlos Bl\u00e9 lleva 15 a\u00f1os practicando TDD, ha escrito varios libros sobre ello y acompa\u00f1ado a multitud de equipos en la adopci\u00f3n de TDD, as\u00ed como en otras practicas del m\u00e9todo eXtreme Programming. Se divierte ense\u00f1ando TDD y har\u00e1 que este taller sea entretenido, interesante y educativo.",
+   "href": null,
+   "id": null
+  },
+  "repo": "midudev/jsconf.es",
+  "pair": {
+   "before": "30074c5ef965e644179c12a98dccbcb3e00da4b7",
+   "after": "cdd4b40d2e97b29cd291ada70cc120786974213d"
+  },
+  "page": "/"
+ },
+ {
+  "strategy": "attribute-anchored",
+  "selector": "body>main",
+  "before_fingerprint": {
+   "tag": "main",
+   "text": "",
+   "href": null,
+   "id": "skip"
+  },
+  "after_fingerprint": {
+   "tag": "main",
+   "text": "",
+   "href": null,
+   "id": "main"
+  },
+  "repo": "11ty/eleventy-base-blog",
+  "pair": {
+   "before": "3b870d5914b39d906df17ca43930cd57685d0b5b",
+   "after": "8f9ffe41dd9f05d9413c63d43a551e29aa2d576f"
+  },
+  "page": "blog/fourthpost/index.html"
+ },
+ {
+  "strategy": "text-anchored",
+  "selector": "a{\"TALLERES\"}",
+  "before_fingerprint": {
+   "tag": "a",
+   "text": "TALLERES",
+   "href": "/#talleres",
+   "id": "navdesk-link-3"
+  },
+  "after_fingerprint": {
+   "tag": "a",
+   "text": "TALLERES",
+   "href": "/#workshops",
+   "id": "navdesk-link-3"
+  },
+  "repo": "midudev/jsconf.es",
+  "pair": {
+   "before": "714e9d91318e6c29265b3a5bb009110fa61b6808",
+   "after": "8fcb4f8adeb31dfcc461ca6008dcc9128c2a8854"
+  },
+  "page": "/codigo-de-conducta"
+ },
+ {
+  "strategy": "text-anchored",
+  "selector": "a{\"Skip to main content\"}",
+  "before_fingerprint": {
+   "tag": "a",
+   "text": "Skip to main content",
+   "href": "#main",
+   "id": "skip-link"
+  },
+  "after_fingerprint": {
+   "tag": "a",
+   "text": "Skip to main content",
+   "href": "#skip",
+   "id": null
+  },
+  "repo": "11ty/eleventy-base-blog",
+  "pair": {
+   "before": "57fdcca03fe7de215cadfdff952ffbe1fadfab69",
+   "after": "3b870d5914b39d906df17ca43930cd57685d0b5b"
+  },
+  "page": "404.html"
+ },
+ {
+  "strategy": "text-anchored",
+  "selector": "a{\"TALLERES\"}",
+  "before_fingerprint": {
+   "tag": "a",
+   "text": "TALLERES",
+   "href": "/#talleres",
+   "id": "navdesk-link-3"
+  },
+  "after_fingerprint": {
+   "tag": "a",
+   "text": "TALLERES",
+   "href": "/#workshops",
+   "id": "navdesk-link-3"
+  },
+  "repo": "midudev/jsconf.es",
+  "pair": {
+   "before": "714e9d91318e6c29265b3a5bb009110fa61b6808",
+   "after": "8fcb4f8adeb31dfcc461ca6008dcc9128c2a8854"
+  },
+  "page": "/"
+ },
+ {
+  "strategy": "text-anchored",
+  "selector": "a{\"Skip to main content\"}",
+  "before_fingerprint": {
+   "tag": "a",
+   "text": "Skip to main content",
+   "href": "#main",
+   "id": "skip-link"
+  },
+  "after_fingerprint": {
+   "tag": "a",
+   "text": "Skip to main content",
+   "href": "#skip",
+   "id": null
+  },
+  "repo": "11ty/eleventy-base-blog",
+  "pair": {
+   "before": "57fdcca03fe7de215cadfdff952ffbe1fadfab69",
+   "after": "3b870d5914b39d906df17ca43930cd57685d0b5b"
+  },
+  "page": "about/index.html"
+ },
+ {
+  "strategy": "text-anchored",
+  "selector": "a{\"TALLERES\"}",
+  "before_fingerprint": {
+   "tag": "a",
+   "text": "TALLERES",
+   "href": "/#talleres",
+   "id": "navdesk-link-3"
+  },
+  "after_fingerprint": {
+   "tag": "a",
+   "text": "TALLERES",
+   "href": "/#workshops",
+   "id": "navdesk-link-3"
+  },
+  "repo": "midudev/jsconf.es",
+  "pair": {
+   "before": "714e9d91318e6c29265b3a5bb009110fa61b6808",
+   "after": "8fcb4f8adeb31dfcc461ca6008dcc9128c2a8854"
+  },
+  "page": "/legal"
+ },
+ {
+  "strategy": "text-anchored",
+  "selector": "a{\"Skip to main content\"}",
+  "before_fingerprint": {
+   "tag": "a",
+   "text": "Skip to main content",
+   "href": "#main",
+   "id": "skip-link"
+  },
+  "after_fingerprint": {
+   "tag": "a",
+   "text": "Skip to main content",
+   "href": "#skip",
+   "id": null
+  },
+  "repo": "11ty/eleventy-base-blog",
+  "pair": {
+   "before": "57fdcca03fe7de215cadfdff952ffbe1fadfab69",
+   "after": "3b870d5914b39d906df17ca43930cd57685d0b5b"
+  },
+  "page": "blog/firstpost/index.html"
+ },
+ {
+  "strategy": "text-anchored",
+  "selector": "a{\"TALLERES\"}",
+  "before_fingerprint": {
+   "tag": "a",
+   "text": "TALLERES",
+   "href": "/#talleres",
+   "id": "navdesk-link-3"
+  },
+  "after_fingerprint": {
+   "tag": "a",
+   "text": "TALLERES",
+   "href": "/#workshops",
+   "id": "navdesk-link-3"
+  },
+  "repo": "midudev/jsconf.es",
+  "pair": {
+   "before": "714e9d91318e6c29265b3a5bb009110fa61b6808",
+   "after": "8fcb4f8adeb31dfcc461ca6008dcc9128c2a8854"
+  },
+  "page": "/privacidad"
+ },
+ {
+  "strategy": "text-anchored",
+  "selector": "a{\"Skip to main content\"}",
+  "before_fingerprint": {
+   "tag": "a",
+   "text": "Skip to main content",
+   "href": "#main",
+   "id": "skip-link"
+  },
+  "after_fingerprint": {
+   "tag": "a",
+   "text": "Skip to main content",
+   "href": "#skip",
+   "id": null
+  },
+  "repo": "11ty/eleventy-base-blog",
+  "pair": {
+   "before": "57fdcca03fe7de215cadfdff952ffbe1fadfab69",
+   "after": "3b870d5914b39d906df17ca43930cd57685d0b5b"
+  },
+  "page": "blog/fourthpost/index.html"
+ },
+ {
+  "strategy": "text-anchored",
+  "selector": "a{\"Skip to main content\"}",
+  "before_fingerprint": {
+   "tag": "a",
+   "text": "Skip to main content",
+   "href": "#main",
+   "id": "skip-link"
+  },
+  "after_fingerprint": {
+   "tag": "a",
+   "text": "Skip to main content",
+   "href": "#skip",
+   "id": null
+  },
+  "repo": "11ty/eleventy-base-blog",
+  "pair": {
+   "before": "57fdcca03fe7de215cadfdff952ffbe1fadfab69",
+   "after": "3b870d5914b39d906df17ca43930cd57685d0b5b"
+  },
+  "page": "blog/index.html"
+ },
+ {
+  "strategy": "text-anchored",
+  "selector": "a{\"Skip to main content\"}",
+  "before_fingerprint": {
+   "tag": "a",
+   "text": "Skip to main content",
+   "href": "#main",
+   "id": "skip-link"
+  },
+  "after_fingerprint": {
+   "tag": "a",
+   "text": "Skip to main content",
+   "href": "#skip",
+   "id": null
+  },
+  "repo": "11ty/eleventy-base-blog",
+  "pair": {
+   "before": "57fdcca03fe7de215cadfdff952ffbe1fadfab69",
+   "after": "3b870d5914b39d906df17ca43930cd57685d0b5b"
+  },
+  "page": "blog/secondpost/index.html"
+ },
+ {
+  "strategy": "text-anchored",
+  "selector": "a{\"Skip to main content\"}",
+  "before_fingerprint": {
+   "tag": "a",
+   "text": "Skip to main content",
+   "href": "#main",
+   "id": "skip-link"
+  },
+  "after_fingerprint": {
+   "tag": "a",
+   "text": "Skip to main content",
+   "href": "#skip",
+   "id": null
+  },
+  "repo": "11ty/eleventy-base-blog",
+  "pair": {
+   "before": "57fdcca03fe7de215cadfdff952ffbe1fadfab69",
+   "after": "3b870d5914b39d906df17ca43930cd57685d0b5b"
+  },
+  "page": "blog/thirdpost/index.html"
+ },
+ {
+  "strategy": "text-anchored",
+  "selector": "a{\"Skip to main content\"}",
+  "before_fingerprint": {
+   "tag": "a",
+   "text": "Skip to main content",
+   "href": "#main",
+   "id": "skip-link"
+  },
+  "after_fingerprint": {
+   "tag": "a",
+   "text": "Skip to main content",
+   "href": "#skip",
+   "id": null
+  },
+  "repo": "11ty/eleventy-base-blog",
+  "pair": {
+   "before": "57fdcca03fe7de215cadfdff952ffbe1fadfab69",
+   "after": "3b870d5914b39d906df17ca43930cd57685d0b5b"
+  },
+  "page": "index.html"
+ },
+ {
+  "strategy": "text-anchored",
+  "selector": "a{\"Skip to main content\"}",
+  "before_fingerprint": {
+   "tag": "a",
+   "text": "Skip to main content",
+   "href": "#main",
+   "id": "skip-link"
+  },
+  "after_fingerprint": {
+   "tag": "a",
+   "text": "Skip to main content",
+   "href": "#skip",
+   "id": null
+  },
+  "repo": "11ty/eleventy-base-blog",
+  "pair": {
+   "before": "57fdcca03fe7de215cadfdff952ffbe1fadfab69",
+   "after": "3b870d5914b39d906df17ca43930cd57685d0b5b"
+  },
+  "page": "tags/another-tag/index.html"
+ },
+ {
+  "strategy": "text-anchored",
+  "selector": "a{\"Skip to main content\"}",
+  "before_fingerprint": {
+   "tag": "a",
+   "text": "Skip to main content",
+   "href": "#main",
+   "id": "skip-link"
+  },
+  "after_fingerprint": {
+   "tag": "a",
+   "text": "Skip to main content",
+   "href": "#skip",
+   "id": null
+  },
+  "repo": "11ty/eleventy-base-blog",
+  "pair": {
+   "before": "57fdcca03fe7de215cadfdff952ffbe1fadfab69",
+   "after": "3b870d5914b39d906df17ca43930cd57685d0b5b"
+  },
+  "page": "tags/index.html"
+ },
+ {
+  "strategy": "text-anchored",
+  "selector": "a{\"Skip to main content\"}",
+  "before_fingerprint": {
+   "tag": "a",
+   "text": "Skip to main content",
+   "href": "#main",
+   "id": "skip-link"
+  },
+  "after_fingerprint": {
+   "tag": "a",
+   "text": "Skip to main content",
+   "href": "#skip",
+   "id": null
+  },
+  "repo": "11ty/eleventy-base-blog",
+  "pair": {
+   "before": "57fdcca03fe7de215cadfdff952ffbe1fadfab69",
+   "after": "3b870d5914b39d906df17ca43930cd57685d0b5b"
+  },
+  "page": "tags/number-2/index.html"
+ },
+ {
+  "strategy": "text-anchored",
+  "selector": "a{\"Skip to main content\"}",
+  "before_fingerprint": {
+   "tag": "a",
+   "text": "Skip to main content",
+   "href": "#main",
+   "id": "skip-link"
+  },
+  "after_fingerprint": {
+   "tag": "a",
+   "text": "Skip to main content",
+   "href": "#skip",
+   "id": null
+  },
+  "repo": "11ty/eleventy-base-blog",
+  "pair": {
+   "before": "57fdcca03fe7de215cadfdff952ffbe1fadfab69",
+   "after": "3b870d5914b39d906df17ca43930cd57685d0b5b"
+  },
+  "page": "tags/posts-with-two-tags/index.html"
+ },
+ {
+  "strategy": "text-anchored",
+  "selector": "a{\"Skip to main content\"}",
+  "before_fingerprint": {
+   "tag": "a",
+   "text": "Skip to main content",
+   "href": "#main",
+   "id": "skip-link"
+  },
+  "after_fingerprint": {
+   "tag": "a",
+   "text": "Skip to main content",
+   "href": "#skip",
+   "id": null
+  },
+  "repo": "11ty/eleventy-base-blog",
+  "pair": {
+   "before": "57fdcca03fe7de215cadfdff952ffbe1fadfab69",
+   "after": "3b870d5914b39d906df17ca43930cd57685d0b5b"
+  },
+  "page": "tags/second-tag/index.html"
+ },
+ {
+  "strategy": "text-anchored",
+  "selector": "a{\"Skip to main content\"}",
+  "before_fingerprint": {
+   "tag": "a",
+   "text": "Skip to main content",
+   "href": "#skip",
+   "id": null
+  },
+  "after_fingerprint": {
+   "tag": "a",
+   "text": "Skip to main content",
+   "href": "#main",
+   "id": "skip-link"
+  },
+  "repo": "11ty/eleventy-base-blog",
+  "pair": {
+   "before": "3b870d5914b39d906df17ca43930cd57685d0b5b",
+   "after": "8f9ffe41dd9f05d9413c63d43a551e29aa2d576f"
+  },
+  "page": "404.html"
+ },
+ {
+  "strategy": "text-anchored",
+  "selector": "a{\"Skip to main content\"}",
+  "before_fingerprint": {
+   "tag": "a",
+   "text": "Skip to main content",
+   "href": "#skip",
+   "id": null
+  },
+  "after_fingerprint": {
+   "tag": "a",
+   "text": "Skip to main content",
+   "href": "#main",
+   "id": "skip-link"
+  },
+  "repo": "11ty/eleventy-base-blog",
+  "pair": {
+   "before": "3b870d5914b39d906df17ca43930cd57685d0b5b",
+   "after": "8f9ffe41dd9f05d9413c63d43a551e29aa2d576f"
+  },
+  "page": "about/index.html"
+ },
+ {
+  "strategy": "text-anchored",
+  "selector": "a{\"Skip to main content\"}",
+  "before_fingerprint": {
+   "tag": "a",
+   "text": "Skip to main content",
+   "href": "#skip",
+   "id": null
+  },
+  "after_fingerprint": {
+   "tag": "a",
+   "text": "Skip to main content",
+   "href": "#main",
+   "id": "skip-link"
+  },
+  "repo": "11ty/eleventy-base-blog",
+  "pair": {
+   "before": "3b870d5914b39d906df17ca43930cd57685d0b5b",
+   "after": "8f9ffe41dd9f05d9413c63d43a551e29aa2d576f"
+  },
+  "page": "blog/firstpost/index.html"
+ },
+ {
+  "strategy": "text-anchored",
+  "selector": "a{\"Skip to main content\"}",
+  "before_fingerprint": {
+   "tag": "a",
+   "text": "Skip to main content",
+   "href": "#skip",
+   "id": null
+  },
+  "after_fingerprint": {
+   "tag": "a",
+   "text": "Skip to main content",
+   "href": "#main",
+   "id": "skip-link"
+  },
+  "repo": "11ty/eleventy-base-blog",
+  "pair": {
+   "before": "3b870d5914b39d906df17ca43930cd57685d0b5b",
+   "after": "8f9ffe41dd9f05d9413c63d43a551e29aa2d576f"
+  },
+  "page": "blog/fourthpost/index.html"
+ },
+ {
+  "strategy": "text-anchored",
+  "selector": "a{\"Skip to main content\"}",
+  "before_fingerprint": {
+   "tag": "a",
+   "text": "Skip to main content",
+   "href": "#skip",
+   "id": null
+  },
+  "after_fingerprint": {
+   "tag": "a",
+   "text": "Skip to main content",
+   "href": "#main",
+   "id": "skip-link"
+  },
+  "repo": "11ty/eleventy-base-blog",
+  "pair": {
+   "before": "3b870d5914b39d906df17ca43930cd57685d0b5b",
+   "after": "8f9ffe41dd9f05d9413c63d43a551e29aa2d576f"
+  },
+  "page": "blog/index.html"
+ },
+ {
+  "strategy": "text-anchored",
+  "selector": "a{\"Skip to main content\"}",
+  "before_fingerprint": {
+   "tag": "a",
+   "text": "Skip to main content",
+   "href": "#skip",
+   "id": null
+  },
+  "after_fingerprint": {
+   "tag": "a",
+   "text": "Skip to main content",
+   "href": "#main",
+   "id": "skip-link"
+  },
+  "repo": "11ty/eleventy-base-blog",
+  "pair": {
+   "before": "3b870d5914b39d906df17ca43930cd57685d0b5b",
+   "after": "8f9ffe41dd9f05d9413c63d43a551e29aa2d576f"
+  },
+  "page": "blog/secondpost/index.html"
+ },
+ {
+  "strategy": "text-anchored",
+  "selector": "a{\"Skip to main content\"}",
+  "before_fingerprint": {
+   "tag": "a",
+   "text": "Skip to main content",
+   "href": "#skip",
+   "id": null
+  },
+  "after_fingerprint": {
+   "tag": "a",
+   "text": "Skip to main content",
+   "href": "#main",
+   "id": "skip-link"
+  },
+  "repo": "11ty/eleventy-base-blog",
+  "pair": {
+   "before": "3b870d5914b39d906df17ca43930cd57685d0b5b",
+   "after": "8f9ffe41dd9f05d9413c63d43a551e29aa2d576f"
+  },
+  "page": "blog/thirdpost/index.html"
+ },
+ {
+  "strategy": "text-anchored",
+  "selector": "a{\"Skip to main content\"}",
+  "before_fingerprint": {
+   "tag": "a",
+   "text": "Skip to main content",
+   "href": "#skip",
+   "id": null
+  },
+  "after_fingerprint": {
+   "tag": "a",
+   "text": "Skip to main content",
+   "href": "#main",
+   "id": "skip-link"
+  },
+  "repo": "11ty/eleventy-base-blog",
+  "pair": {
+   "before": "3b870d5914b39d906df17ca43930cd57685d0b5b",
+   "after": "8f9ffe41dd9f05d9413c63d43a551e29aa2d576f"
+  },
+  "page": "index.html"
+ },
+ {
+  "strategy": "text-anchored",
+  "selector": "a{\"Skip to main content\"}",
+  "before_fingerprint": {
+   "tag": "a",
+   "text": "Skip to main content",
+   "href": "#skip",
+   "id": null
+  },
+  "after_fingerprint": {
+   "tag": "a",
+   "text": "Skip to main content",
+   "href": "#main",
+   "id": "skip-link"
+  },
+  "repo": "11ty/eleventy-base-blog",
+  "pair": {
+   "before": "3b870d5914b39d906df17ca43930cd57685d0b5b",
+   "after": "8f9ffe41dd9f05d9413c63d43a551e29aa2d576f"
+  },
+  "page": "tags/another-tag/index.html"
+ },
+ {
+  "strategy": "text-anchored",
+  "selector": "a{\"Skip to main content\"}",
+  "before_fingerprint": {
+   "tag": "a",
+   "text": "Skip to main content",
+   "href": "#skip",
+   "id": null
+  },
+  "after_fingerprint": {
+   "tag": "a",
+   "text": "Skip to main content",
+   "href": "#main",
+   "id": "skip-link"
+  },
+  "repo": "11ty/eleventy-base-blog",
+  "pair": {
+   "before": "3b870d5914b39d906df17ca43930cd57685d0b5b",
+   "after": "8f9ffe41dd9f05d9413c63d43a551e29aa2d576f"
+  },
+  "page": "tags/index.html"
+ },
+ {
+  "strategy": "text-anchored",
+  "selector": "a{\"Skip to main content\"}",
+  "before_fingerprint": {
+   "tag": "a",
+   "text": "Skip to main content",
+   "href": "#skip",
+   "id": null
+  },
+  "after_fingerprint": {
+   "tag": "a",
+   "text": "Skip to main content",
+   "href": "#main",
+   "id": "skip-link"
+  },
+  "repo": "11ty/eleventy-base-blog",
+  "pair": {
+   "before": "3b870d5914b39d906df17ca43930cd57685d0b5b",
+   "after": "8f9ffe41dd9f05d9413c63d43a551e29aa2d576f"
+  },
+  "page": "tags/number-2/index.html"
+ },
+ {
+  "strategy": "text-anchored",
+  "selector": "a{\"Skip to main content\"}",
+  "before_fingerprint": {
+   "tag": "a",
+   "text": "Skip to main content",
+   "href": "#skip",
+   "id": null
+  },
+  "after_fingerprint": {
+   "tag": "a",
+   "text": "Skip to main content",
+   "href": "#main",
+   "id": "skip-link"
+  },
+  "repo": "11ty/eleventy-base-blog",
+  "pair": {
+   "before": "3b870d5914b39d906df17ca43930cd57685d0b5b",
+   "after": "8f9ffe41dd9f05d9413c63d43a551e29aa2d576f"
+  },
+  "page": "tags/posts-with-two-tags/index.html"
+ }
+]

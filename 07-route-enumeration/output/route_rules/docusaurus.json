@@ -1,0 +1,24 @@
+{
+  "framework": "docusaurus",
+  "version_tested": "@docusaurus/core 3.10.2 (create-docusaurus classic, javascript)",
+  "output_dir": "build/",
+  "page_file_patterns": ["build/**/*.html"],
+  "excluded_patterns": ["build/404.html", "build/assets/**", "build/sitemap.xml", "build/*.xml", "build/*.txt", "build/*.ico", "build/*.png", "build/*.svg"],
+  "file_to_url": "strip output_dir prefix; strip trailing 'index.html' (root index.html -> '/'); 404.html has no route; ensure leading slash",
+  "second_source_of_truth": "sitemap.xml <loc> count (emitted by default via the classic preset)",
+  "starter_count_by_rule": 27,
+  "starter_count_by_truth": 27,
+  "matched": true,
+  "plus_three_pages_count": 30,
+  "delta_was_exactly_three": true,
+  "discrepancy_fixed": null,
+  "gotchas": [
+    "Naive '*.html under build/' counts 28, overcounting by 1: 404.html is a flat file and an error page, not a route — the emitted sitemap correctly excludes it.",
+    "The build log reports no page count at all ('Generated static files in build' only), so the sitemap is the only built-in second source of truth.",
+    "Hand-counting source files undercounts badly: 4 blog source posts produce 15 blog URLs (blog index, /blog/archive, /blog/authors/*, /blog/tags/* per tag); category index pages (/docs/category/tutorial---basics/) are also generated, not sourced.",
+    "Category directory names are slug-encoded: docs/tutorial-basics/_category_.json with label 'tutorial/basics' becomes /docs/category/tutorial---basics/ (slash -> triple dash) — the file_to_url rule stays mechanical but the URL is not guessable from the source dir name.",
+    "Every route is emitted as <route>/index.html; the only flat html file in build/ is 404.html, so the foo.html vs foo/index.html distinction collapses to 'exclude 404.html'.",
+    "A new blog post tagged with a new tag would create an extra /blog/tags/<tag> page, making the +3 test overshoot — the test post/doc must reuse existing tags (or none).",
+    "create-docusaurus@latest now prompts interactively for language (JavaScript/TypeScript); non-interactive scaffolding requires passing --javascript or --typescript explicitly."
+  ]
+}

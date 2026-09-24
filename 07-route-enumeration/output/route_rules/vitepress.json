@@ -1,0 +1,22 @@
+{
+  "framework": "VitePress",
+  "version_tested": "1.6.4",
+  "output_dir": "docs/.vitepress/dist/ (default outDir .vitepress/dist relative to srcDir; here srcDir is docs/)",
+  "page_file_patterns": ["**/*.html"],
+  "excluded_patterns": ["404.html", "assets/**", "hashmap.json", "*.css"],
+  "file_to_url": "strip output_dir prefix; index.html -> /; any other <p>.html -> /<p>.html (or /<p> with cleanUrls: true; default cleanUrls is false so .html is kept)",
+  "second_source_of_truth": "hand count of starter source pages (3 .md files: index.md, markdown-examples.md, api-examples.md); the build log prints no page count",
+  "starter_count_by_rule": 3,
+  "starter_count_by_truth": 3,
+  "matched": true,
+  "plus_three_pages_count": 6,
+  "delta_was_exactly_three": true,
+  "discrepancy_fixed": null,
+  "gotchas": [
+    "VitePress emits <name>.html (file style), not <name>/index.html: nested page guide/intro.md becomes guide/intro.html. A **/index.html-only rule counts the 3-page starter as 1 route instead of 3.",
+    "404.html sits at the dist root alongside real pages and must be explicitly excluded.",
+    "Each page ships a hashed per-page JS chunk in assets/ (e.g. assets/api-examples.md.<hash>.js) plus a .lean.js twin; assets/** must be excluded or any naive file-based count explodes.",
+    "hashmap.json (page data manifest) and vp-icons.css are metadata, not pages.",
+    "The build log prints no page count ('rendering pages...' only), so verification required a hand count of source pages; no sitemap is emitted by default."
+  ]
+}

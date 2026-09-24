@@ -1,0 +1,41 @@
+{
+ "rows": [
+  {
+   "repo": "midudev/jsconf.es",
+   "framework": "astro",
+   "commits_rebuilt": 146,
+   "rebuild_ok": 146,
+   "route_count_min": 3,
+   "route_count_median": 3,
+   "route_count_max": 4,
+   "expected_page_commit_pairs": 438
+  },
+  {
+   "repo": "mrsibe/KnowNote",
+   "framework": "vite-react",
+   "commits_rebuilt": 41,
+   "rebuild_ok": 41,
+   "route_count_min": 1,
+   "route_count_median": 3,
+   "route_count_max": 9,
+   "expected_page_commit_pairs": 123
+  },
+  {
+   "repo": "11ty/eleventy-base-blog",
+   "framework": "eleventy",
+   "commits_rebuilt": 5,
+   "rebuild_ok": 5,
+   "route_count_min": 12,
+   "route_count_median": 12,
+   "route_count_max": 12,
+   "expected_page_commit_pairs": 60
+  }
+ ],
+ "ranking_by_expected_page_commit_pairs": [
+  "midudev/jsconf.es",
+  "mrsibe/KnowNote",
+  "11ty/eleventy-base-blog"
+ ],
+ "strongest": "midudev/jsconf.es",
+ "note": "eleventy-base-blog recount gives 12 routes/commit vs 13 in Assignment 04: the verified Eleventy rule excludes feed.xml/sitemap from the page count. KnowNote route counts come from the client router config (HashRouter), not build output \u2014 04 reported 1 for every commit. jsconf.es counts use the Astro rule gotcha #3 route-manifest method for server-rendered routes plus prerendered html files."
+}

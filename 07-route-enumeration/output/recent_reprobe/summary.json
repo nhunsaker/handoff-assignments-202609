@@ -1,0 +1,51 @@
+{
+ "repos": [
+  {
+   "repo": "vercel/commerce",
+   "window": "2023-04 to 2023-10",
+   "window_selection": "most recent 6-month span with >=20 page-touching commits",
+   "gate": {
+    "probed": 6,
+    "built": 0,
+    "passed": false
+   },
+   "commits_in_window": 55,
+   "commits_probed": 6,
+   "build_ok": 0,
+   "build_ok_rate": 0.0,
+   "environment": 0,
+   "verdict": "broken",
+   "route_count_min": 0,
+   "route_count_median": 0,
+   "route_count_max": 0,
+   "expected_page_commit_pairs": 0,
+   "comparison_to_2020_window": "Assignment 04's 2020-09 to 2021-02 window: 150 probed, 0 built (build_ok rate 0.0). This window (2023-04 to 2023-10): 0/6 built (build_ok rate 0.0)."
+  },
+  {
+   "repo": "leerob/leerob.io",
+   "window": "2023-06 to 2023-12",
+   "window_selection": "most recent 6-month span with >=20 page-touching commits",
+   "gate": {
+    "probed": 6,
+    "built": 0,
+    "passed": false
+   },
+   "commits_in_window": 63,
+   "commits_probed": 6,
+   "build_ok": 0,
+   "build_ok_rate": 0.0,
+   "environment": 0,
+   "verdict": "broken",
+   "route_count_min": 0,
+   "route_count_median": 0,
+   "route_count_max": 0,
+   "expected_page_commit_pairs": 0,
+   "comparison_to_2020_window": "Assignment 04 window 2020-02 to 2020-07: 23/61 built, 35 install timeouts (yarn.lock grpc prebuilts). Recent window 2023-06 to 2023-12 gate: 0/6 built \u2014 5/6 installed OK (78-221s; one needed the real pnpm dist after a corepack-shim/Node-18.16.0 URL.canParse incompatibility), then 5 hit the 300s cap (1 install timeout, 4 build timeouts) and 1 build failed in 27s with code 'missing_connection_string' from @vercel/postgres redirects() in next.config.mjs (no POSTGRES_URL). Gate failed; full window not probed."
+  }
+ ],
+ "answers": {
+  "vercel/commerce": "Does not build in recent history: 0/6 gate commits built in window 2023-04 to 2023-10 (all 300s build timeouts); gate failed so the full 55-commit window was not probed. 2020 window: 0/150 built (missing BigCommerce API keys). Both windows broken; failure shape changed from missing API keys to timeouts, and a 1500s diagnostic build fails at 580s on /sitemap.xml prerender needing Shopify credentials.",
+  "leerob/leerob.io": "Does not build in recent history: 0/6 gate commits built in window 2023-06 to 2023-12 (5/6 installed OK, then all hit the 300s build cap); gate failed so the full 63-commit window was not probed. 2020 window: 23/61 built with 35 install timeouts (yarn.lock grpc prebuilts). Recent window is worse: nothing builds."
+ },
+ "note": "Neither repo passed the 4-of-6 gate, so no full-window re-probe and no route counts exist for either. The verified Next.js rule targets static-export out/ output; both repos build in server mode (.next/, no output:'export'), so the rule has no countable output for this build mode even where builds succeed."
+}
