@@ -1,0 +1,27 @@
+{
+  "probe": "P6",
+  "actual_rule_observed": "Deleting a page and its nav: entry removes the nav item and closes the gap: every item below it moves up one position; the page is no longer emitted.",
+  "applicability": "applicable",
+  "build_output_path": "mkdocs-starter/site/index.html (nav element also present in every other built page)",
+  "filename": "docs/about.md (deleted; nav: entry deleted)",
+  "frontmatter_used": {},
+  "landed_at_index": null,
+  "matched_documented_rule": false,
+  "nav_items_after": [
+    "Home",
+    "Guide",
+    "Guide>Intro",
+    "Guide>Install",
+    "Reference"
+  ],
+  "nav_items_before": [
+    "Home",
+    "Guide",
+    "Guide>Intro",
+    "Guide>Install",
+    "About",
+    "Reference"
+  ],
+  "nav_selector": "nav.md-nav.md-nav--primary",
+  "notes": "Removed docs/about.md and its '  - About: about.md' nav: entry. 'About' vanished from the nav; 'Reference' moved from flattened index 5 to 4 (everything below moved up one); site/about/ is no longer emitted. matched_documented_rule=false because official docs were unreachable in this session (see searches.json); observed behaviour is measured."
+}

@@ -1,0 +1,324 @@
+{
+ "activated_pairs": [
+  {
+   "node": "v12.0.0",
+   "pm": "yarn@1.22.10",
+   "commit_count": 25,
+   "repos": [
+    "vercel/commerce"
+   ],
+   "rungs_seen": [
+    "node=declared,pm=lockfile_version"
+   ]
+  },
+  {
+   "node": "v12.13.1",
+   "pm": "yarn@1.21.1",
+   "commit_count": 5,
+   "repos": [
+    "leerob/leerob.io"
+   ],
+   "rungs_seen": [
+    "node=declared,pm=lockfile_version"
+   ]
+  },
+  {
+   "node": "v12.13.1",
+   "pm": "yarn@1.22.0",
+   "commit_count": 8,
+   "repos": [
+    "leerob/leerob.io"
+   ],
+   "rungs_seen": [
+    "node=declared,pm=lockfile_version"
+   ]
+  },
+  {
+   "node": "v12.16.1",
+   "pm": "yarn@1.22.4",
+   "commit_count": 6,
+   "repos": [
+    "leerob/leerob.io"
+   ],
+   "rungs_seen": [
+    "node=inferred_by_date,pm=lockfile_version"
+   ]
+  },
+  {
+   "node": "v12.16.2",
+   "pm": "yarn@1.22.4",
+   "commit_count": 6,
+   "repos": [
+    "leerob/leerob.io"
+   ],
+   "rungs_seen": [
+    "node=inferred_by_date,pm=lockfile_version"
+   ]
+  },
+  {
+   "node": "v12.16.3",
+   "pm": "yarn@1.22.4",
+   "commit_count": 16,
+   "repos": [
+    "leerob/leerob.io"
+   ],
+   "rungs_seen": [
+    "node=inferred_by_date,pm=lockfile_version"
+   ]
+  },
+  {
+   "node": "v12.18.0",
+   "pm": "yarn@1.22.4",
+   "commit_count": 2,
+   "repos": [
+    "leerob/leerob.io"
+   ],
+   "rungs_seen": [
+    "node=inferred_by_date,pm=lockfile_version"
+   ]
+  },
+  {
+   "node": "v12.18.1",
+   "pm": "yarn@1.22.4",
+   "commit_count": 2,
+   "repos": [
+    "leerob/leerob.io"
+   ],
+   "rungs_seen": [
+    "node=inferred_by_date,pm=lockfile_version"
+   ]
+  },
+  {
+   "node": "v12.18.2",
+   "pm": "yarn@1.22.4",
+   "commit_count": 12,
+   "repos": [
+    "leerob/leerob.io"
+   ],
+   "rungs_seen": [
+    "node=inferred_by_date,pm=lockfile_version"
+   ]
+  },
+  {
+   "node": "v12.18.3",
+   "pm": "yarn@1.22.4",
+   "commit_count": 4,
+   "repos": [
+    "leerob/leerob.io"
+   ],
+   "rungs_seen": [
+    "node=inferred_by_date,pm=lockfile_version"
+   ]
+  },
+  {
+   "node": "v14.15.0",
+   "pm": "npm@6.14.8",
+   "commit_count": 2,
+   "repos": [
+    "vercel/commerce"
+   ],
+   "rungs_seen": [
+    "node=inferred_by_date,pm=lockfile_version"
+   ]
+  },
+  {
+   "node": "v14.15.0",
+   "pm": "yarn@1.22.10",
+   "commit_count": 53,
+   "repos": [
+    "vercel/commerce"
+   ],
+   "rungs_seen": [
+    "node=inferred_by_date,pm=lockfile_version"
+   ]
+  },
+  {
+   "node": "v14.15.1",
+   "pm": "yarn@1.22.10",
+   "commit_count": 25,
+   "repos": [
+    "vercel/commerce"
+   ],
+   "rungs_seen": [
+    "node=inferred_by_date,pm=lockfile_version"
+   ]
+  },
+  {
+   "node": "v14.15.3",
+   "pm": "yarn@1.22.10",
+   "commit_count": 11,
+   "repos": [
+    "vercel/commerce"
+   ],
+   "rungs_seen": [
+    "node=inferred_by_date,pm=lockfile_version"
+   ]
+  },
+  {
+   "node": "v14.15.4",
+   "pm": "yarn@1.22.10",
+   "commit_count": 34,
+   "repos": [
+    "vercel/commerce"
+   ],
+   "rungs_seen": [
+    "node=inferred_by_date,pm=lockfile_version"
+   ]
+  },
+  {
+   "node": "v20.19.0",
+   "pm": "npm@9.9.4",
+   "commit_count": 2,
+   "repos": [
+    "11ty/eleventy-base-blog"
+   ],
+   "rungs_seen": [
+    "node=declared,pm=lockfile_version"
+   ]
+  },
+  {
+   "node": "v20.19.4",
+   "pm": "npm@9.9.4",
+   "commit_count": 3,
+   "repos": [
+    "11ty/eleventy-base-blog"
+   ],
+   "rungs_seen": [
+    "node=declared,pm=lockfile_version"
+   ]
+  },
+  {
+   "node": "v22.12.0",
+   "pm": "pnpm@9.15.0",
+   "commit_count": 40,
+   "repos": [
+    "midudev/jsconf.es"
+   ],
+   "rungs_seen": [
+    "node=inferred_by_date,pm=lockfile_version"
+   ]
+  },
+  {
+   "node": "v22.12.0",
+   "pm": "pnpm@9.15.1",
+   "commit_count": 22,
+   "repos": [
+    "midudev/jsconf.es"
+   ],
+   "rungs_seen": [
+    "node=inferred_by_date,pm=lockfile_version"
+   ]
+  },
+  {
+   "node": "v22.12.0",
+   "pm": "pnpm@9.15.2",
+   "commit_count": 18,
+   "repos": [
+    "midudev/jsconf.es"
+   ],
+   "rungs_seen": [
+    "node=inferred_by_date,pm=lockfile_version"
+   ]
+  },
+  {
+   "node": "v22.12.0",
+   "pm": "pnpm@9.15.3",
+   "commit_count": 2,
+   "repos": [
+    "midudev/jsconf.es"
+   ],
+   "rungs_seen": [
+    "node=inferred_by_date,pm=lockfile_version"
+   ]
+  },
+  {
+   "node": "v22.13.0",
+   "pm": "pnpm@9.15.3",
+   "commit_count": 15,
+   "repos": [
+    "midudev/jsconf.es"
+   ],
+   "rungs_seen": [
+    "node=inferred_by_date,pm=lockfile_version"
+   ]
+  },
+  {
+   "node": "v22.13.0",
+   "pm": "pnpm@9.15.4",
+   "commit_count": 32,
+   "repos": [
+    "midudev/jsconf.es"
+   ],
+   "rungs_seen": [
+    "node=inferred_by_date,pm=lockfile_version"
+   ]
+  },
+  {
+   "node": "v22.13.1",
+   "pm": "pnpm@9.15.4",
+   "commit_count": 1,
+   "repos": [
+    "midudev/jsconf.es"
+   ],
+   "rungs_seen": [
+    "node=inferred_by_date,pm=lockfile_version"
+   ]
+  },
+  {
+   "node": "v22.13.1",
+   "pm": "pnpm@9.15.5",
+   "commit_count": 16,
+   "repos": [
+    "midudev/jsconf.es"
+   ],
+   "rungs_seen": [
+    "node=inferred_by_date,pm=lockfile_version"
+   ]
+  },
+  {
+   "node": "v22.14.0",
+   "pm": "pnpm@8.15.9",
+   "commit_count": 2,
+   "repos": [
+    "midudev/jsconf.es"
+   ],
+   "rungs_seen": [
+    "node=inferred_by_date,pm=lockfile_version"
+   ]
+  },
+  {
+   "node": "v22.14.0",
+   "pm": "pnpm@9.15.6",
+   "commit_count": 2,
+   "repos": [
+    "midudev/jsconf.es"
+   ],
+   "rungs_seen": [
+    "node=inferred_by_date,pm=lockfile_version"
+   ]
+  },
+  {
+   "node": "v24.12.0",
+   "pm": "pnpm@9.15.9",
+   "commit_count": 60,
+   "repos": [
+    "mrsibe/KnowNote"
+   ],
+   "rungs_seen": [
+    "node=inferred_by_date,pm=lockfile_version"
+   ]
+  },
+  {
+   "node": "v24.13.0",
+   "pm": "pnpm@9.15.9",
+   "commit_count": 10,
+   "repos": [
+    "mrsibe/KnowNote"
+   ],
+   "rungs_seen": [
+    "node=inferred_by_date,pm=lockfile_version"
+   ]
+  }
+ ],
+ "could_not_obtain": []
+}

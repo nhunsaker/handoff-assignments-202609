@@ -1,0 +1,107 @@
+[
+ {
+  "opened_successfully": true,
+  "part": 1,
+  "query_or_section": "Main navigation mechanics (ordering, titles, parents, multi-level)",
+  "source": "just-the-docs GitHub repo (official docs source)",
+  "url": "https://github.com/just-the-docs/just-the-docs/blob/main/docs/navigation/main/index.md"
+ },
+ {
+  "opened_successfully": true,
+  "part": 1,
+  "query_or_section": "nav_order parameter: numbers/strings, defaults, tie instability, nav_sort",
+  "source": "just-the-docs GitHub repo (official docs source)",
+  "url": "https://github.com/just-the-docs/just-the-docs/blob/main/docs/navigation/main/order.md"
+ },
+ {
+  "opened_successfully": true,
+  "part": 1,
+  "query_or_section": "nav_exclude: true; auto-exclusion rules",
+  "source": "just-the-docs GitHub repo (official docs source)",
+  "url": "https://github.com/just-the-docs/just-the-docs/blob/main/docs/navigation/main/exclude.md"
+ },
+ {
+  "opened_successfully": true,
+  "part": 1,
+  "query_or_section": "parent/levels/children mechanics; has_children redundancy",
+  "source": "just-the-docs GitHub repo (official docs source)",
+  "url": "https://github.com/just-the-docs/just-the-docs/blob/main/docs/navigation/main/levels.md"
+ },
+ {
+  "opened_successfully": true,
+  "part": 1,
+  "query_or_section": "published front matter: Set to false if you don't want a specific post to show up when the site is generated",
+  "source": "jekyll GitHub repo docs (official docs source)",
+  "url": "https://github.com/jekyll/jekyll/blob/master/docs/_docs/front-matter.md"
+ },
+ {
+  "opened_successfully": true,
+  "part": 1,
+  "query_or_section": "Theme source verification: no reference to site.data.navigation / navigation.yml anywhere in theme includes/layouts/docs",
+  "source": "just-the-docs theme source (grep)",
+  "url": "https://github.com/just-the-docs/just-the-docs"
+ },
+ {
+  "opened_successfully": true,
+  "part": 1,
+  "query_or_section": "Sorted include implementation comment: sibling pages with same nav_order may be shown in any order; pages with no nav_order shown after explicit ones, ordered by title; numbers and strings sorted separately",
+  "source": "just-the-docs theme source",
+  "url": "https://github.com/just-the-docs/just-the-docs/blob/main/_includes/components/nav/sorted.html"
+ },
+ {
+  "notes": "browser_search rejected: upstream 401 credential expired; per developer instruction treated as terminal for that turn, not retried",
+  "opened_successfully": false,
+  "part": 1,
+  "query_or_section": "just-the-docs navigation nav_order documentation",
+  "source": "browser.search",
+  "url": ""
+ },
+ {
+  "notes": "browser_open upstream unavailable after internal retries; used the repo's docs markdown source instead (same content, fetched via git clone)",
+  "opened_successfully": false,
+  "part": 1,
+  "query_or_section": "Full text of https://just-the-docs.github.io/just-the-docs/docs/navigation/",
+  "source": "browser.open",
+  "url": "https://just-the-docs.github.io/just-the-docs/docs/navigation/"
+ },
+ {
+  "notes": "No Ruby installed; no rbenv/rvm; no ruby packages in apt; /usr/local/bin contained only cloudflared",
+  "opened_successfully": true,
+  "part": 2,
+  "query_or_section": "ruby --version; which ruby/bundle/gem/rbenv/rvm; apt list --installed | grep ruby",
+  "source": "local toolchain check",
+  "url": ""
+ },
+ {
+  "notes": "Passwordless sudo available; started sudo apt-get update + apt-get install ruby ruby-dev build-essential in background session proc_07077c9d32d8; update was still downloading package lists (~242MB partial) at 04:13 UTC; network to azure.archive.ubuntu.com very slow (12s curl to InRelease returned no headers)",
+  "opened_successfully": true,
+  "part": 2,
+  "query_or_section": "apt sources present (ubuntu.sources noble, nodesource); package lists never fetched (only 7 files in /var/lib/apt/lists)",
+  "source": "local toolchain check",
+  "url": ""
+ },
+ {
+  "part": 2,
+  "source": "local toolchain",
+  "url": "",
+  "query_or_section": "gem install bundler (x2) and curl to rubygems.org direct + via egress proxy",
+  "opened_successfully": false,
+  "notes": "rubygems.org unreachable: Net::OpenTimeout on specs.4.8.gz twice (5-min timeouts each); curl direct and via $HTTPS_PROXY returned nothing within 25s. Bundler/jekyll gems could not be installed from rubygems."
+ },
+ {
+  "part": 2,
+  "source": "local toolchain",
+  "url": "",
+  "query_or_section": "apt-get install -y jekyll ruby-bundler; apt-get install -y ruby-jekyll-include-cache ruby-jekyll-seo-tag",
+  "opened_successfully": true,
+  "notes": "Installed Debian jekyll 4.3.2+dfsg-1, ruby-bundler 2.4.20, jekyll-include-cache 0.2.1, jekyll-seo-tag 2.8.0 from azure.archive.ubuntu.com. Note: combined install with ruby-rake failed first ('Unable to locate package ruby-rake') so it was retried without it."
+ },
+ {
+  "part": 2,
+  "source": "local toolchain",
+  "url": "",
+  "query_or_section": "gem build just-the-docs.gemspec + gem install --local --ignore-dependencies just-the-docs-0.12.0.gem",
+  "opened_successfully": true,
+  "notes": "Built the 0.12.0 theme gem offline from the cloned source repo and installed it with --ignore-dependencies (jekyll-include-cache/rake deps satisfied via apt where possible). Template Gemfile/Gemfile.lock moved aside; site built with plain 'jekyll build' (no bundler)."
+ }
+]

@@ -1,0 +1,31 @@
+{
+  "probe": "P3",
+  "frontmatter_used": {
+    "title": "Apricot Tie",
+    "nav_order": 2
+  },
+  "filename": "zzz-nav05-p3-tie.md",
+  "nav_selector": "nav#site-nav > ul.nav-list (just-the-docs main navigation; outer HTML of <nav id=\"site-nav\"> saved)",
+  "nav_items_before": [
+    "Apples",
+    "Bananas",
+    "Delete Me",
+    "Cherries",
+    "Home",
+    "Zebra"
+  ],
+  "nav_items_after": [
+    "Apples",
+    "Bananas",
+    "Apricot Tie",
+    "Delete Me",
+    "Cherries",
+    "Home",
+    "Zebra"
+  ],
+  "landed_at_index": 2,
+  "matched_documented_rule": true,
+  "actual_rule_observed": "With nav_order tied at 2, the pre-existing page (Bananas, file base-bananas.md) kept its position and the new page (Apricot Tie) came after it; title-alphabetical order (Apricot < Bananas) did NOT decide it, matching the docs' 'unstable / any order' statement.",
+  "build_output_path": "just-the-docs-template/_site/index.html (nav#site-nav rendered on every page; build dir _site/)",
+  "notes": "Filename sorts last (zzz-...) while title sorts first (Apricot < Bananas); Bananas still came first, so neither title nor filename was the documented tie-break \u2014 docs only say the order is unstable. Single build cannot confirm instability across builds."
+}

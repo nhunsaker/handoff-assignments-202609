@@ -1,0 +1,30 @@
+{
+  "probe": "P1",
+  "frontmatter_used": {
+    "title": "Mango Plain"
+  },
+  "filename": "nav05-p1.md",
+  "nav_selector": "nav#site-nav > ul.nav-list (just-the-docs main navigation; outer HTML of <nav id=\"site-nav\"> saved)",
+  "nav_items_before": [
+    "Apples",
+    "Bananas",
+    "Delete Me",
+    "Cherries",
+    "Home",
+    "Zebra"
+  ],
+  "nav_items_after": [
+    "Apples",
+    "Bananas",
+    "Delete Me",
+    "Cherries",
+    "Home",
+    "Mango Plain",
+    "Zebra"
+  ],
+  "landed_at_index": 5,
+  "matched_documented_rule": true,
+  "actual_rule_observed": "Pages without nav_order are placed after all pages with numeric nav_order and ordered alphabetically by title (Home, Mango Plain, Zebra).",
+  "build_output_path": "just-the-docs-template/_site/index.html (nav#site-nav rendered on every page; build dir _site/)",
+  "notes": "Mango Plain appeared at 0-based index 5. Docs: omitted nav_order defaults to page titles ordered alphabetically; numeric nav_order pages come first."
+}

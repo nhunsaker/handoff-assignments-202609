@@ -1,0 +1,18 @@
+[
+  {
+    "part": 1,
+    "source": "vitepress.dev",
+    "url": "https://vitepress.dev/reference/default-theme-sidebar",
+    "query_or_section": "Default theme sidebar reference (main docs page for rule.json)",
+    "opened_successfully": false,
+    "detail": "browser_open failed: upstream_unavailable after internal retries, retry exhausted. Developer instruction: failure terminal for the turn; do not retry or reproduce via exec/curl."
+  },
+  {
+    "part": 1,
+    "source": "web search",
+    "url": "",
+    "query_or_section": "query: 'vitepress.dev reference default theme sidebar themeConfig.sidebar' (fallback to gather verbatim docs snippets after browser_open failed)",
+    "opened_successfully": false,
+    "detail": "browser_search failed: upstream_access_rejected, upstream_status 401, 'user credential is expired'. Developer instruction: failure terminal for the turn; do not retry or reproduce via exec/curl."
+  }
+]

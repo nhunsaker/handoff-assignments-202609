@@ -1,0 +1,45 @@
+{
+  "docs_quotes": [
+    "To specify a page order, you can use the `nav_order` parameter in the front matter of the pages.",
+    "The parameter values determine the order of the top-level pages, and of child pages with the same parent. You can reuse the same parameter values (e.g., integers starting from 1) for the child pages of different parents.",
+    "The parameter values can be numbers (integers, floats[^floats]) and/or strings. When you omit `nav_order` parameters, they default to the titles of the pages, which are ordered alphabetically. Pages with numerical `nav_order` parameters always come before those with strings or default `nav_order` parameters. If you want to make the page order independent of the page titles, you can set explicit `nav_order` parameters on all pages.",
+    "The order of pages with equal `nav_order` parameters is unstable: it may change with each build.",
+    "By default, all Capital letters come before all lowercase letters; you can add `nav_sort: case_insensitive` in the configuration file to ignore the case.[^case-insensitive]",
+    "You need to specify the `title` of each page in its front matter. Page titles are independent of file names and directory structure. The navigation uses the title of the page as an anchor for links to the page.",
+    "By default, links to all pages appear in the main navigation at the top level, ordered alphabetically by their titles. By adding further fields to the front matter of individual pages, you can [change their order]({% link docs/navigation/main/order.md %}), [exclude pages]({% link docs/navigation/main/exclude.md %}), and change their [parent pages]({% link docs/navigation/main/levels.md %}).",
+    "For specific pages that you do not wish to include in the main navigation (e.g., a 404 page or a landing page) set `nav_exclude: true` in their front matter.",
+    "Pages with no `title` are automatically excluded from the main navigation, except when they are in collections (where Jekyll provides default titles based on file names).",
+    "Child pages are automatically excluded from the main navigation when their parent page is excluded.",
+    "The `nav_exclude` parameter does not affect the [breadcrumbs]({% link docs/navigation/parents.md %}), nor the [lists of child pages]({% link docs/navigation/children.md %}), which you can use to access pages excluded from the main navigation.",
+    "On child pages, simply set the `parent` front matter to the parent page's `title`, and set a navigation order (relative to pages having the same parent).",
+    "The `has_children` field is now redundant (and ignored, except when significant for backwards compatibility).",
+    "Set to false if you don’t want a specific post to show up when the site is generated."
+  ],
+  "docs_url": "https://just-the-docs.github.io/just-the-docs/docs/navigation/",
+  "framework": "jekyll",
+  "grouping": {
+    "how_sections_are_formed": "On child pages, simply set the `parent` front matter to the parent page's `title`, and set a navigation order (relative to pages having the same parent).",
+    "section_order_rule": "The parameter values determine the order of the top-level pages, and of child pages with the same parent."
+  },
+  "inclusion": {
+    "what_hides_it": "Pages are hidden from the main nav by `nav_exclude: true` in front matter; pages with no `title` are automatically excluded; child pages are automatically excluded when their parent page is excluded; Jekyll-level `published: false` prevents the page from being generated at all.",
+    "what_makes_a_page_appear_in_nav": "By default, links to all pages appear in the main navigation at the top level. The docs require a `title` in front matter: You need to specify the `title` of each page in its front matter; pages with no title are automatically excluded."
+  },
+  "ordering": {
+    "default_when_key_absent": "When you omit `nav_order` parameters, they default to the titles of the pages, which are ordered alphabetically. By default, all Capital letters come before all lowercase letters (unless `nav_sort: case_insensitive` is set in the configuration file).",
+    "direction": "ascending",
+    "primary_key": "nav_order",
+    "tie_break": "The order of pages with equal `nav_order` parameters is unstable: it may change with each build."
+  },
+  "undocumented": [
+    "The docs do not say whether `published: false` pages are excluded from the main nav specifically — Jekyll docs only say the post will not show up when the site is generated.",
+    "The docs do not say what decides order when two pages share the same nav_order, other than calling it unstable; no title/filename/URL tie-break is documented.",
+    "The docs do not say what happens if a page's `parent` refers to a title that does not exist on the site.",
+    "The docs do not say how pages in collections are ordered in the main nav (only that pages without titles in collections get default titles from file names).",
+    "The docs do not say whether auxiliary/child-page lists (breadcrumbs, tables of contents) follow the same ordering rules as the main nav.",
+    "The docs do not say how external links (nav_external_links) are ordered relative to pages in the main nav.",
+    "The docs do not say whether negative or float nav_order values sort before 1 in the displayed nav (only that floats are supported and Jekyll treats integer N as equal to float N.0).",
+    "The docs do not say whether `_data/navigation.yml` plays any role in the theme's nav (verified: the theme source never references `site.data.navigation`)."
+  ],
+  "version_tested": "just-the-docs 0.12.0 (gem built locally from source), Jekyll 4.3.2 (Debian apt package; template pins 4.4.1 but rubygems.org was unreachable), Ruby 3.2.3. Docs fields describe just-the-docs 0.12.0 documentation."
+}

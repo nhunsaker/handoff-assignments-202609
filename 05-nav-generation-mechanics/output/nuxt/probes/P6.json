@@ -1,0 +1,36 @@
+{
+  "probe": "P6",
+  "frontmatter_used": {},
+  "filename": "content/about.md (DELETED for this probe; restored byte-identical afterwards — verified with diff)",
+  "nav_selector": "#content-nav (probe harness element serializing queryCollectionNavigation(\"content\") into the generated /navtree page; the official content starter template renders NO navigation element of its own)",
+  "nav_items_before": [
+    {
+      "index_path": "0",
+      "depth": 0,
+      "title": "About Content Version 3",
+      "path": "/about",
+      "stem": "about"
+    },
+    {
+      "index_path": "1",
+      "depth": 0,
+      "title": "Welcome to Nuxt Content Starter",
+      "path": "/",
+      "stem": "index"
+    }
+  ],
+  "nav_items_after": [
+    {
+      "index_path": "0",
+      "depth": 0,
+      "title": "Welcome to Nuxt Content Starter",
+      "path": "/",
+      "stem": "index"
+    }
+  ],
+  "landed_at_index": null,
+  "matched_documented_rule": false,
+  "actual_rule_observed": "Deleting content/about.md removed its navigation item entirely; the remaining item (/) moved up from index 1 to index 0 — the tree is regenerated from the current content set on each build, with no stale entries.",
+  "build_output_path": ".output/public/navtree/index.html",
+  "notes": "No tombstone/placeholder was left behind; nav length went 2 -> 1. matched_documented_rule is false because the official docs page could not be loaded in this environment (see rule.json/searches.json)."
+}

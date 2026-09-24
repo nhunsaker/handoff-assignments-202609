@@ -1,0 +1,46 @@
+{
+  "probe": "P4",
+  "frontmatter_used": {
+    "title": "Hidden Probe Page",
+    "navigation": false
+  },
+  "filename": "content/hidden-probe.md",
+  "nav_selector": "#content-nav (probe harness element serializing queryCollectionNavigation(\"content\") into the generated /navtree page; the official content starter template renders NO navigation element of its own)",
+  "nav_items_before": [
+    {
+      "index_path": "0",
+      "depth": 0,
+      "title": "About Content Version 3",
+      "path": "/about",
+      "stem": "about"
+    },
+    {
+      "index_path": "1",
+      "depth": 0,
+      "title": "Welcome to Nuxt Content Starter",
+      "path": "/",
+      "stem": "index"
+    }
+  ],
+  "nav_items_after": [
+    {
+      "index_path": "0",
+      "depth": 0,
+      "title": "About Content Version 3",
+      "path": "/about",
+      "stem": "about"
+    },
+    {
+      "index_path": "1",
+      "depth": 0,
+      "title": "Welcome to Nuxt Content Starter",
+      "path": "/",
+      "stem": "index"
+    }
+  ],
+  "landed_at_index": null,
+  "matched_documented_rule": false,
+  "actual_rule_observed": "A page with frontmatter navigation: false (boolean) is excluded from the navigation tree; the remaining items kept their baseline positions (about at 0, index at 1).",
+  "build_output_path": ".output/public/navtree/index.html",
+  "notes": "The measured effect of the flag is on the navigation tree only. A control generate with an unlinked VISIBLE page (content/control-visible.md, no navigation key) showed it was likewise not prerendered to .output/public/, proving that unlinked [...slug] catch-all routes are simply not auto-prerendered by nitro link-crawling — this is unrelated to navigation:false. matched_documented_rule is false because the official docs page could not be loaded in this environment to verify the documented hide flag (see rule.json/searches.json); the observed exclusion matches the widely documented `navigation: false` convention."
+}

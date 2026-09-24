@@ -1,0 +1,40 @@
+{
+  "framework": "vitepress",
+  "version_tested": "1.6.4",
+  "docs_url": "https://vitepress.dev/reference/default-theme-sidebar",
+  "inclusion": {
+    "what_makes_a_page_appear_in_nav": "Verbatim: \"The sidebar items.\" The official package docs describe the sidebar as this themeConfig property (\"Get the `Sidebar` from sidebar option.\"); they state no inclusion rule based on page files, frontmatter, or directory scanning.",
+    "what_hides_it": "The docs name no hide flag. The documented SidebarItem fields are text (\"The text label of the item.\"), link (\"The link of the item.\"), items (\"The children of the item.\"), collapsed, base, docFooterText, rel, target — none is a hide/visibility flag."
+  },
+  "ordering": {
+    "primary_key": "themeConfig.sidebar array order",
+    "tie_break": "N/A — the docs define no order key and no tie concept for sidebar entries",
+    "default_when_key_absent": "Verbatim (multi-sidebar path): \"If no matching config was found, it will return empty array.\"",
+    "direction": "unspecified"
+  },
+  "grouping": {
+    "how_sections_are_formed": "sidebar groups/items arrays. Verbatim: \"Get or generate sidebar group from the given sidebar items.\" Nested items via the items field (\"The children of the item.\").",
+    "section_order_rule": "The docs state no separate section-order rule; groups render in sidebar array order."
+  },
+  "docs_quotes": [
+    "The sidebar items.",
+    "The text label of the item.",
+    "The link of the item.",
+    "The children of the item.",
+    "Get the `Sidebar` from sidebar option. This method will ensure to get correct sidebar config from `MultiSideBarConfig` with various path combinations such as matching `guide/` and `/guide/`. If no matching config was found, it will return empty array.",
+    "Get or generate sidebar group from the given sidebar items."
+  ],
+  "undocumented": [
+    "ENVIRONMENT CAVEAT: vitepress.dev could not be loaded in this environment — browser_open failed (upstream unavailable) and browser_search failed (401, credential expired); see searches.json. Web-docs verification was therefore impossible. All verbatim quotes above are character-for-character from the official vitepress@1.6.4 published npm package's own documentation comments (types/default-theme.d.ts JSDoc and dist/client/theme-default/support/sidebar.js doc comments), i.e. the same team's documentation of the same API, not the website prose.",
+    "The docs do not say what makes a page appear in the nav beyond the explicit themeConfig.sidebar property; no page-discovery, frontmatter-based, or directory-scanning inclusion rule is documented in the available materials.",
+    "The docs do not say what happens to a .md page that exists on disk but has no sidebar entry (probe P1 measured it: the page is built and reachable but absent from the nav).",
+    "The docs do not say whether frontmatter can suppress the sidebar for a page (e.g. a per-page opt-out); no frontmatter hide flag is documented.",
+    "The docs do not define any tie-break: SidebarItem has no order/priority/weight key, so the question of ties does not arise in the documented model.",
+    "The docs do not state a sort direction (ascending/descending); ordering is the config array's order.",
+    "The docs do not state a separate section/group ordering rule distinct from the sidebar array order.",
+    "The docs do not say where a group's or item's label comes from if text is omitted (text is optional: text?: string).",
+    "The docs do not say how duplicate links, or the same page linked twice, are handled.",
+    "The docs do not say what renders when the sidebar config is absent entirely (empty array is returned internally per the quoted comment, but no rendering consequence is documented).",
+    "The docs do not document whether sidebar entries must correspond to existing pages, or what happens for links to non-existent pages."
+  ]
+}

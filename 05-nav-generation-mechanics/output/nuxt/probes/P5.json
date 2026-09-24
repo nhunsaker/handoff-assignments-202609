@@ -1,0 +1,74 @@
+{
+  "probe": "P5",
+  "frontmatter_used": {
+    "content/guides/nested-probe.md": {
+      "title": "Nested Probe Page"
+    },
+    "content/guides/.navigation.yml": {
+      "title": "Guides Section"
+    },
+    "content/guides/_dir.yml": {
+      "title": "Dir Yml Title"
+    }
+  },
+  "filename": "content/guides/nested-probe.md (setup: new subdirectory content/guides/ with v3 .navigation.yml and v2 _dir.yml side by side)",
+  "nav_selector": "#content-nav (probe harness element serializing queryCollectionNavigation(\"content\") into the generated /navtree page; the official content starter template renders NO navigation element of its own)",
+  "nav_items_before": [
+    {
+      "index_path": "0",
+      "depth": 0,
+      "title": "About Content Version 3",
+      "path": "/about",
+      "stem": "about"
+    },
+    {
+      "index_path": "1",
+      "depth": 0,
+      "title": "Welcome to Nuxt Content Starter",
+      "path": "/",
+      "stem": "index"
+    }
+  ],
+  "nav_items_after": [
+    {
+      "index_path": "0",
+      "depth": 0,
+      "title": "About Content Version 3",
+      "path": "/about",
+      "stem": "about"
+    },
+    {
+      "index_path": "1",
+      "depth": 0,
+      "title": "Guides Section",
+      "path": "/guides",
+      "stem": "guides"
+    },
+    {
+      "index_path": "1.0",
+      "depth": 1,
+      "title": "Dir Yml Title",
+      "path": "/guides/_dir",
+      "stem": "guides/_dir"
+    },
+    {
+      "index_path": "1.1",
+      "depth": 1,
+      "title": "Nested Probe Page",
+      "path": "/guides/nested-probe",
+      "stem": "guides/nested-probe"
+    },
+    {
+      "index_path": "2",
+      "depth": 0,
+      "title": "Welcome to Nuxt Content Starter",
+      "path": "/",
+      "stem": "index"
+    }
+  ],
+  "landed_at_index": 1,
+  "matched_documented_rule": false,
+  "actual_rule_observed": "The page landed in a new synthetic section /guides at top-level index 1, at child index 1 within it (child 0 is the _dir.yml file itself, which v3 treats as an ordinary page, not as directory config).",
+  "build_output_path": ".output/public/navtree/index.html",
+  "notes": "landed_at_index=1 is the index within its section (full index path 1.1). Section mechanics measured in v3.16.1: (1) a directory with pages becomes a section node titled from content/guides/.navigation.yml (\"Guides Section\"), i.e. the v3 per-directory config file is `.navigation.yml`; (2) the v2 `_dir.yml` receives NO special handling in v3 — it was ingested as a regular page at /guides/_dir titled \"Dir Yml Title\"; (3) the `.navigation.yml` file itself is consumed as config and does not appear in the tree; (4) section position among top-level items follows the same stem-ASC order (about < guides < index). matched_documented_rule is false because the official docs page could not be loaded in this environment (see rule.json/searches.json)."
+}

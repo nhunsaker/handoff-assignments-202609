@@ -1,0 +1,135 @@
+{
+  "repo": "11ty/eleventy-base-blog",
+  "stack": "no framework",
+  "window": "2025-04 to 2025-09",
+  "commits_in_window": 5,
+  "commits_probed": 5,
+  "capped": false,
+  "commits": [
+    {
+      "sha": "57fdcca03fe7de215cadfdff952ffbe1fadfab69",
+      "date": "2025-04-11",
+      "subject": "Make skip link visible on focus",
+      "files_changed": 2,
+      "page_files_changed": [
+        "css/index.css"
+      ],
+      "node_used": "v20.19.0",
+      "node_rung": "declared",
+      "pm_used": "npm@9.9.4",
+      "pm_rung": "lockfile_version",
+      "install_ok": true,
+      "install_seconds": 2,
+      "build_ok": true,
+      "build_seconds": 3,
+      "route_count": 13,
+      "route_count_method": "counted .html under _site/",
+      "failure_stage": null,
+      "error_excerpt": null
+    },
+    {
+      "sha": "3b870d5914b39d906df17ca43930cd57685d0b5b",
+      "date": "2025-04-21",
+      "subject": "Upgrade deps, use HTML autobundler for <style> and <script> tags",
+      "files_changed": 9,
+      "page_files_changed": [
+        "css/index.css"
+      ],
+      "node_used": "v20.19.0",
+      "node_rung": "declared",
+      "pm_used": "npm@9.9.4",
+      "pm_rung": "lockfile_version",
+      "install_ok": true,
+      "install_seconds": 3,
+      "build_ok": true,
+      "build_seconds": 3,
+      "route_count": 13,
+      "route_count_method": "counted .html under _site/",
+      "failure_stage": null,
+      "error_excerpt": null
+    },
+    {
+      "sha": "8f9ffe41dd9f05d9413c63d43a551e29aa2d576f",
+      "date": "2025-08-01",
+      "subject": "Add note about an obscure error",
+      "files_changed": 1,
+      "page_files_changed": [
+        "content/tag-pages.njk"
+      ],
+      "node_used": "v20.19.4",
+      "node_rung": "declared",
+      "pm_used": "npm@9.9.4",
+      "pm_rung": "lockfile_version",
+      "install_ok": true,
+      "install_seconds": 3,
+      "build_ok": true,
+      "build_seconds": 3,
+      "route_count": 13,
+      "route_count_method": "counted .html under _site/",
+      "failure_stage": null,
+      "error_excerpt": null
+    },
+    {
+      "sha": "0765e0df69bc65bb2c09db0105807ef5807c97e9",
+      "date": "2025-08-01",
+      "subject": "Merge pull request #205 from RyKilleen/auto-append-draft-text",
+      "files_changed": 1,
+      "page_files_changed": [],
+      "node_used": "v20.19.4",
+      "node_rung": "declared",
+      "pm_used": "npm@9.9.4",
+      "pm_rung": "lockfile_version",
+      "install_ok": true,
+      "install_seconds": 2,
+      "build_ok": true,
+      "build_seconds": 3,
+      "route_count": 13,
+      "route_count_method": "counted .html under _site/",
+      "failure_stage": null,
+      "error_excerpt": null
+    },
+    {
+      "sha": "2e07e7c297dfba837f970ab1767f8e46e709c570",
+      "date": "2025-08-01",
+      "subject": "Merge pull request #204 from murfasa/patch-1",
+      "files_changed": 0,
+      "page_files_changed": [],
+      "node_used": "v20.19.4",
+      "node_rung": "declared",
+      "pm_used": "npm@9.9.4",
+      "pm_rung": "lockfile_version",
+      "install_ok": true,
+      "install_seconds": 2,
+      "build_ok": true,
+      "build_seconds": 3,
+      "route_count": 13,
+      "route_count_method": "counted .html under _site/",
+      "failure_stage": null,
+      "error_excerpt": null
+    }
+  ],
+  "summary": {
+    "install_ok": 5,
+    "build_ok": 5,
+    "environment": 0,
+    "build_ok_rate": 1.0,
+    "median_build_seconds": 3.0,
+    "p90_build_seconds": 3.0,
+    "all_rungs_declared_count": 0,
+    "route_count_min": 13,
+    "route_count_median": 13.0,
+    "route_count_max": 13,
+    "buildable_commits_per_month": [
+      {
+        "month": "2025-04",
+        "count": 2
+      },
+      {
+        "month": "2025-08",
+        "count": 3
+      }
+    ],
+    "longest_run_of_consecutive_buildable_commits": 5,
+    "verdict": "usable_inferred"
+  }
+}

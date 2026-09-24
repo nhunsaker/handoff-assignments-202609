@@ -1,0 +1,28 @@
+{
+  "probe": "P1",
+  "actual_rule_observed": "With an explicit nav: list, a new .md file in docs/ is built as a page but is not added to the navigation; nav contains only nav:-listed entries.",
+  "applicability": "applicable",
+  "build_output_path": "mkdocs-starter/site/index.html (nav element also present in every other built page)",
+  "filename": "docs/notes.md",
+  "frontmatter_used": {},
+  "landed_at_index": null,
+  "matched_documented_rule": false,
+  "nav_items_after": [
+    "Home",
+    "Guide",
+    "Guide>Intro",
+    "Guide>Install",
+    "About",
+    "Reference"
+  ],
+  "nav_items_before": [
+    "Home",
+    "Guide",
+    "Guide>Intro",
+    "Guide>Install",
+    "About",
+    "Reference"
+  ],
+  "nav_selector": "nav.md-nav.md-nav--primary",
+  "notes": "Starter uses an explicit nav: section, so probes ran against explicit-nav behaviour. docs/notes.md contained '# Notes' plus one line, no frontmatter, and no nav: entry was added. After rebuild the page was emitted at site/notes/index.html but the nav list was byte-identical before/after. matched_documented_rule=false because official docs were unreachable in this session (see searches.json) so no documented rule could be confirmed; the observed rule is measured, not doc-verified."
+}

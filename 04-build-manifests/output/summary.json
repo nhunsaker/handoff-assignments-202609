@@ -1,0 +1,174 @@
+{
+ "repos": [
+  {
+   "repo": "mrsibe/KnowNote",
+   "stack": "Vite + React + Tailwind",
+   "window": "2025-12 to 2026-05",
+   "commits_in_window": 97,
+   "commits_probed": 97,
+   "capped": false,
+   "summary": {
+    "install_ok": 59,
+    "build_ok": 41,
+    "environment": 30,
+    "build_ok_rate": 0.4227,
+    "median_build_seconds": 21.0,
+    "p90_build_seconds": 30.0,
+    "all_rungs_declared_count": 0,
+    "route_count_min": 1,
+    "route_count_median": 1.0,
+    "route_count_max": 1,
+    "buildable_commits_per_month": [
+     {
+      "month": "2025-12",
+      "count": 36
+     },
+     {
+      "month": "2026-01",
+      "count": 5
+     }
+    ],
+    "longest_run_of_consecutive_buildable_commits": 14,
+    "verdict": "broken"
+   },
+   "expected_page_commit_pairs": 41.0
+  },
+  {
+   "repo": "vercel/commerce",
+   "stack": "Next.js + Tailwind",
+   "window": "2020-09 to 2021-02",
+   "commits_in_window": 150,
+   "commits_probed": 150,
+   "capped": true,
+   "summary": {
+    "install_ok": 147,
+    "build_ok": 0,
+    "environment": 0,
+    "build_ok_rate": 0.0,
+    "median_build_seconds": 0,
+    "p90_build_seconds": 0,
+    "all_rungs_declared_count": 0,
+    "route_count_min": 0,
+    "route_count_median": 0,
+    "route_count_max": 0,
+    "buildable_commits_per_month": [],
+    "longest_run_of_consecutive_buildable_commits": 0,
+    "verdict": "broken"
+   },
+   "expected_page_commit_pairs": 0
+  },
+  {
+   "repo": "leerob/leerob.io",
+   "stack": "Next.js + Tailwind",
+   "window": "2020-02 to 2020-07",
+   "commits_in_window": 61,
+   "commits_probed": 61,
+   "capped": false,
+   "summary": {
+    "install_ok": 23,
+    "build_ok": 23,
+    "environment": 0,
+    "build_ok_rate": 0.377,
+    "median_build_seconds": 95.0,
+    "p90_build_seconds": 97.0,
+    "all_rungs_declared_count": 0,
+    "route_count_min": 0,
+    "route_count_median": 0.0,
+    "route_count_max": 0,
+    "buildable_commits_per_month": [
+     {
+      "month": "2020-05",
+      "count": 3
+     },
+     {
+      "month": "2020-06",
+      "count": 6
+     },
+     {
+      "month": "2020-07",
+      "count": 14
+     }
+    ],
+    "longest_run_of_consecutive_buildable_commits": 21,
+    "verdict": "broken"
+   },
+   "expected_page_commit_pairs": 0.0
+  },
+  {
+   "repo": "midudev/jsconf.es",
+   "stack": "Astro + Tailwind",
+   "window": "2024-12 to 2025-05",
+   "commits_in_window": 150,
+   "commits_probed": 150,
+   "capped": true,
+   "summary": {
+    "install_ok": 150,
+    "build_ok": 146,
+    "environment": 0,
+    "build_ok_rate": 0.9733,
+    "median_build_seconds": 8.0,
+    "p90_build_seconds": 8.0,
+    "all_rungs_declared_count": 0,
+    "route_count_min": 0,
+    "route_count_median": 0.0,
+    "route_count_max": 1,
+    "buildable_commits_per_month": [
+     {
+      "month": "2024-12",
+      "count": 69
+     },
+     {
+      "month": "2025-01",
+      "count": 57
+     },
+     {
+      "month": "2025-02",
+      "count": 18
+     },
+     {
+      "month": "2025-03",
+      "count": 2
+     }
+    ],
+    "longest_run_of_consecutive_buildable_commits": 84,
+    "verdict": "usable_inferred"
+   },
+   "expected_page_commit_pairs": 0.0
+  },
+  {
+   "repo": "11ty/eleventy-base-blog",
+   "stack": "no framework",
+   "window": "2025-04 to 2025-09",
+   "commits_in_window": 5,
+   "commits_probed": 5,
+   "capped": false,
+   "summary": {
+    "install_ok": 5,
+    "build_ok": 5,
+    "environment": 0,
+    "build_ok_rate": 1.0,
+    "median_build_seconds": 3.0,
+    "p90_build_seconds": 3.0,
+    "all_rungs_declared_count": 0,
+    "route_count_min": 13,
+    "route_count_median": 13.0,
+    "route_count_max": 13,
+    "buildable_commits_per_month": [
+     {
+      "month": "2025-04",
+      "count": 2
+     },
+     {
+      "month": "2025-08",
+      "count": 3
+     }
+    ],
+    "longest_run_of_consecutive_buildable_commits": 5,
+    "verdict": "usable_inferred"
+   },
+   "expected_page_commit_pairs": 65.0
+  }
+ ],
+ "strongest_by_expected_page_commit_pairs": "11ty/eleventy-base-blog",
+ "nextjs_comparison": "both broken"
+}

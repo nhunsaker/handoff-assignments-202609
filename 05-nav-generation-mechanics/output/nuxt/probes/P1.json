@@ -1,0 +1,52 @@
+{
+  "probe": "P1",
+  "frontmatter_used": {
+    "title": "Banana Probe Page"
+  },
+  "filename": "content/banana.md",
+  "nav_selector": "#content-nav (probe harness element serializing queryCollectionNavigation(\"content\") into the generated /navtree page; the official content starter template renders NO navigation element of its own)",
+  "nav_items_before": [
+    {
+      "index_path": "0",
+      "depth": 0,
+      "title": "About Content Version 3",
+      "path": "/about",
+      "stem": "about"
+    },
+    {
+      "index_path": "1",
+      "depth": 0,
+      "title": "Welcome to Nuxt Content Starter",
+      "path": "/",
+      "stem": "index"
+    }
+  ],
+  "nav_items_after": [
+    {
+      "index_path": "0",
+      "depth": 0,
+      "title": "About Content Version 3",
+      "path": "/about",
+      "stem": "about"
+    },
+    {
+      "index_path": "1",
+      "depth": 0,
+      "title": "Banana Probe Page",
+      "path": "/banana",
+      "stem": "banana"
+    },
+    {
+      "index_path": "2",
+      "depth": 0,
+      "title": "Welcome to Nuxt Content Starter",
+      "path": "/",
+      "stem": "index"
+    }
+  ],
+  "landed_at_index": 1,
+  "matched_documented_rule": false,
+  "actual_rule_observed": "A new page with no navigation key appears in the navigation tree, ordered by stem (filename-derived, extension stripped) ascending: about < banana < index.",
+  "build_output_path": ".output/public/navtree/index.html",
+  "notes": "Starter renders no navigation natively (app.vue only renders NuxtPage; [...slug].vue renders a single page via ContentRenderer), so the navigation TREE was probed via a temporary harness page app/pages/navtree.vue that server-renders queryCollectionNavigation(\"content\") into <nav id=\"content-nav\">. matched_documented_rule is false because the official docs page could not be loaded in this environment (see rule.json/searches.json); placement is consistent with the v3 runtime default of stem ASC."
+}

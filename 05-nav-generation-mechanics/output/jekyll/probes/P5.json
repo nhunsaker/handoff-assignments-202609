@@ -1,0 +1,31 @@
+{
+  "probe": "P5",
+  "frontmatter_used": {
+    "title": "Nested Probe",
+    "parent": "Apples",
+    "nav_order": 1
+  },
+  "filename": "nav05-p5.md",
+  "nav_selector": "nav#site-nav > ul.nav-list (just-the-docs main navigation; outer HTML of <nav id=\"site-nav\"> saved)",
+  "nav_items_before": [
+    "Apples",
+    "Bananas",
+    "Delete Me",
+    "Cherries",
+    "Home",
+    "Zebra"
+  ],
+  "nav_items_after": [
+    "Apples > Nested Probe",
+    "Bananas",
+    "Delete Me",
+    "Cherries",
+    "Home",
+    "Zebra"
+  ],
+  "landed_at_index": 0,
+  "matched_documented_rule": true,
+  "actual_rule_observed": "parent: Apples placed the page as a child item inside a nested ul.nav-list under Apples at index 0 of that section; Apples gained a submenu expander button; no has_children needed on the parent.",
+  "build_output_path": "just-the-docs-template/_site/index.html (nav#site-nav rendered on every page; build dir _site/)",
+  "notes": "landed_at_index is the index within the Apples section. Apples itself stayed at top-level index 0."
+}

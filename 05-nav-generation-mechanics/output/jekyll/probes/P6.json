@@ -1,0 +1,29 @@
+{
+  "probe": "P6",
+  "frontmatter_used": {
+    "title": "Delete Me",
+    "nav_order": 2.5
+  },
+  "filename": "base-delete-me.md (deleted)",
+  "nav_selector": "nav#site-nav > ul.nav-list (just-the-docs main navigation; outer HTML of <nav id=\"site-nav\"> saved)",
+  "nav_items_before": [
+    "Apples",
+    "Bananas",
+    "Delete Me",
+    "Cherries",
+    "Home",
+    "Zebra"
+  ],
+  "nav_items_after": [
+    "Apples",
+    "Bananas",
+    "Cherries",
+    "Home",
+    "Zebra"
+  ],
+  "landed_at_index": null,
+  "matched_documented_rule": true,
+  "actual_rule_observed": "Deleting the page removed its nav item; every item below it (Cherries, Home, Zebra) moved up exactly one position.",
+  "build_output_path": "just-the-docs-template/_site/index.html (nav#site-nav rendered on every page; build dir _site/)",
+  "notes": "Deleted pre-existing baseline page base-delete-me.md (title 'Delete Me', nav_order 2.5); its _site/base-delete-me.html was also removed. This was the last probe; the disposable page was not restored."
+}

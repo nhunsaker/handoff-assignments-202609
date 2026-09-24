@@ -1,0 +1,30 @@
+{
+  "probe": "P4",
+  "frontmatter_used": {
+    "title": "Hidden Probe",
+    "nav_exclude": true
+  },
+  "filename": "nav05-p4.md",
+  "nav_selector": "nav#site-nav > ul.nav-list (just-the-docs main navigation; outer HTML of <nav id=\"site-nav\"> saved)",
+  "nav_items_before": [
+    "Apples",
+    "Bananas",
+    "Delete Me",
+    "Cherries",
+    "Home",
+    "Zebra"
+  ],
+  "nav_items_after": [
+    "Apples",
+    "Bananas",
+    "Delete Me",
+    "Cherries",
+    "Home",
+    "Zebra"
+  ],
+  "landed_at_index": null,
+  "matched_documented_rule": true,
+  "actual_rule_observed": "nav_exclude: true removed the page from the main nav; all neighbours kept their positions.",
+  "build_output_path": "just-the-docs-template/_site/index.html (nav#site-nav rendered on every page; build dir _site/)",
+  "notes": "The page built to _site/nav05-p4.html (still a generated page) but has no nav entry. Neighbour items unmoved."
+}

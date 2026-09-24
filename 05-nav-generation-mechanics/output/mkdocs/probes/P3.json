@@ -1,0 +1,30 @@
+{
+  "probe": "P3",
+  "actual_rule_observed": "Two nav: entries with identical titles ('Same') and identical H1 headings render in nav: list order (dupe-b/ then dupe-a/); neither title nor filename nor heading influenced the order.",
+  "applicability": "applicable-as-analogue",
+  "build_output_path": "mkdocs-starter/site/index.html (nav element also present in every other built page)",
+  "filename": "docs/dupe-a.md + docs/dupe-b.md",
+  "frontmatter_used": {},
+  "landed_at_index": 5,
+  "matched_documented_rule": false,
+  "nav_items_after": [
+    "Home",
+    "Guide",
+    "Guide>Intro",
+    "Guide>Install",
+    "About",
+    "Same",
+    "Same",
+    "Reference"
+  ],
+  "nav_items_before": [
+    "Home",
+    "Guide",
+    "Guide>Intro",
+    "Guide>Install",
+    "About",
+    "Reference"
+  ],
+  "nav_selector": "nav.md-nav.md-nav--primary",
+  "notes": "Explicit nav: is an ordered list, so true ordering ties cannot occur; closest supported analogue was two entries with the same title 'Same' and same H1, listed in reverse-alphabetical file order (dupe-b.md before dupe-a.md) between About and Reference. First 'Same' at flattened index 5 -> href dupe-b/, second at index 6 -> href dupe-a/. Order decided solely by nav: list position. matched_documented_rule=false because official docs were unreachable in this session (see searches.json); the measured rule is nav: list order."
+}

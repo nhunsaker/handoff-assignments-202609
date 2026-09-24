@@ -1,0 +1,31 @@
+{
+  "probe": "P5",
+  "actual_rule_observed": "A page nested under a section in nav: renders as a child of that section, at the child position it occupies in the section's list.",
+  "applicability": "applicable",
+  "build_output_path": "mkdocs-starter/site/index.html (nav element also present in every other built page)",
+  "filename": "docs/guide/usage.md",
+  "frontmatter_used": {},
+  "landed_at_index": 4,
+  "matched_documented_rule": false,
+  "nav_items_after": [
+    "Home",
+    "Guide",
+    "Guide>Intro",
+    "Guide>Install",
+    "Guide>Usage",
+    "About",
+    "Reference"
+  ],
+  "nav_items_before": [
+    "Home",
+    "Guide",
+    "Guide>Intro",
+    "Guide>Install",
+    "About",
+    "Reference"
+  ],
+  "nav_section": "Guide",
+  "nav_selector": "nav.md-nav.md-nav--primary",
+  "nav_within_section_index": 2,
+  "notes": "Added '      - Usage: guide/usage.md' as the third child of the Guide section in nav:. Rendered inside Guide at within-section 0-based index 2 (after Intro 0, Install 1), flattened index 4. matched_documented_rule=false because official docs were unreachable in this session (see searches.json); observed behaviour is measured."
+}

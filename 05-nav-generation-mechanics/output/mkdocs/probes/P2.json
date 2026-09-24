@@ -1,0 +1,29 @@
+{
+  "probe": "P2",
+  "actual_rule_observed": "A new nav: entry renders at exactly the list position it occupies in mkdocs.yml, between its two neighbours, with no re-sorting.",
+  "applicability": "applicable",
+  "build_output_path": "mkdocs-starter/site/index.html (nav element also present in every other built page)",
+  "filename": "docs/changelog.md",
+  "frontmatter_used": {},
+  "landed_at_index": 5,
+  "matched_documented_rule": false,
+  "nav_items_after": [
+    "Home",
+    "Guide",
+    "Guide>Intro",
+    "Guide>Install",
+    "About",
+    "Changelog",
+    "Reference"
+  ],
+  "nav_items_before": [
+    "Home",
+    "Guide",
+    "Guide>Intro",
+    "Guide>Install",
+    "About",
+    "Reference"
+  ],
+  "nav_selector": "nav.md-nav.md-nav--primary",
+  "notes": "Added '  - Changelog: changelog.md' between the About and Reference entries in nav:. Flattened 0-based index 5, directly after About (4) and before Reference (6). matched_documented_rule=false because official docs were unreachable in this session (see searches.json); placement exactly followed nav: list order as measured."
+}

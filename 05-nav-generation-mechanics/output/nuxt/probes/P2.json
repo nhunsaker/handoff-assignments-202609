@@ -1,0 +1,52 @@
+{
+  "probe": "P2",
+  "frontmatter_used": {
+    "title": "Mango Probe Page"
+  },
+  "filename": "content/mango.md",
+  "nav_selector": "#content-nav (probe harness element; for P2 ONLY the harness was changed to queryCollectionNavigation(\"content\").order(\"title\",\"ASC\") — the public chainable order() on the navigation query; harness reverted afterwards)",
+  "nav_items_before": [
+    {
+      "index_path": "0",
+      "depth": 0,
+      "title": "About Content Version 3",
+      "path": "/about",
+      "stem": "about"
+    },
+    {
+      "index_path": "1",
+      "depth": 0,
+      "title": "Welcome to Nuxt Content Starter",
+      "path": "/",
+      "stem": "index"
+    }
+  ],
+  "nav_items_after": [
+    {
+      "index_path": "0",
+      "depth": 0,
+      "title": "About Content Version 3",
+      "path": "/about",
+      "stem": "about"
+    },
+    {
+      "index_path": "1",
+      "depth": 0,
+      "title": "Mango Probe Page",
+      "path": "/mango",
+      "stem": "mango"
+    },
+    {
+      "index_path": "2",
+      "depth": 0,
+      "title": "Welcome to Nuxt Content Starter",
+      "path": "/",
+      "stem": "index"
+    }
+  ],
+  "landed_at_index": 1,
+  "matched_documented_rule": false,
+  "actual_rule_observed": "An explicit .order(\"title\",\"ASC\") on the navigation query overrides the default stem ordering and placed the new page exactly between the two existing items (index 1 of 3).",
+  "build_output_path": ".output/public/navtree/index.html",
+  "notes": "No content-side order field (frontmatter navigation.order, _dir.yml position) is consumed by the v3.16.1 navigation tree builder — grep of the shipped runtime shows the only ordering input is the query orderBy, defaulting to stem ASC when the caller passes none. The explicit, supported ordering mechanism in this version is therefore the query-level .order(field, direction). nav_items_before is the baseline tree: with only two baseline items, title-ASC and stem-ASC produce the same before order (About < Welcome), so the baseline snapshot is valid as the before state. matched_documented_rule is false because the official docs page could not be loaded in this environment."
+}

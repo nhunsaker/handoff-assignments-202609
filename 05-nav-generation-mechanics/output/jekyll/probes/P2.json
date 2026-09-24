@@ -1,0 +1,31 @@
+{
+  "probe": "P2",
+  "frontmatter_used": {
+    "title": "Probe Between",
+    "nav_order": 2.25
+  },
+  "filename": "nav05-p2.md",
+  "nav_selector": "nav#site-nav > ul.nav-list (just-the-docs main navigation; outer HTML of <nav id=\"site-nav\"> saved)",
+  "nav_items_before": [
+    "Apples",
+    "Bananas",
+    "Delete Me",
+    "Cherries",
+    "Home",
+    "Zebra"
+  ],
+  "nav_items_after": [
+    "Apples",
+    "Bananas",
+    "Probe Between",
+    "Delete Me",
+    "Cherries",
+    "Home",
+    "Zebra"
+  ],
+  "landed_at_index": 2,
+  "matched_documented_rule": true,
+  "actual_rule_observed": "Float nav_order 2.25 sorted numerically between nav_order 2 (Bananas) and 2.5 (Delete Me), landing exactly at index 2.",
+  "build_output_path": "just-the-docs-template/_site/index.html (nav#site-nav rendered on every page; build dir _site/)",
+  "notes": "Existing items: Apples nav_order 1, Bananas 2, Delete Me 2.5, Cherries 3. Probe landed exactly between the intended neighbours."
+}

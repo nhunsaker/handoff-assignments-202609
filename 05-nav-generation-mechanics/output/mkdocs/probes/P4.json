@@ -1,0 +1,27 @@
+{
+  "probe": "P4",
+  "actual_rule_observed": "Omitting a page's entry from nav: removes it from the navigation while the .md file is still built to its URL; all remaining items keep their relative order.",
+  "applicability": "applicable",
+  "build_output_path": "mkdocs-starter/site/index.html (nav element also present in every other built page)",
+  "filename": "docs/about.md (nav: entry removed; file retained)",
+  "frontmatter_used": {},
+  "landed_at_index": null,
+  "matched_documented_rule": false,
+  "nav_items_after": [
+    "Home",
+    "Guide",
+    "Guide>Intro",
+    "Guide>Install",
+    "Reference"
+  ],
+  "nav_items_before": [
+    "Home",
+    "Guide",
+    "Guide>Intro",
+    "Guide>Install",
+    "About",
+    "Reference"
+  ],
+  "nav_selector": "nav.md-nav.md-nav--primary",
+  "notes": "Hide mechanism used: omission from the explicit nav: list (the core documented mechanism family 'exclude from nav:'). docs/about.md was kept; site/about/index.html was still emitted but 'About' no longer appears in the nav and neighbours are unmoved (Guide section identical, Reference shifted up one). The awesome-pages 'not_in_nav' variant was not tested: the plugin is not installed in this default starter and the probes run against the default setup. matched_documented_rule=false because official docs were unreachable in this session (see searches.json); observed behaviour is measured."
+}
