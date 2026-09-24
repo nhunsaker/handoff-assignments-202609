@@ -1,0 +1,2043 @@
+[
+ {
+  "repo": "hyperlink-academy/leaflet",
+  "window": "2026-04 to 2026-09",
+  "commits_probed": [
+   "eb2c43f1203a75d114f2442b78fbd45ed90cbbdf",
+   "82190946d5d9be722f5003d1bed3d5a79aa69aa2",
+   "efddbf9659ce103050c865022ac7bf8aa1519aa2",
+   "29d01129fad531c4516d215ea83f014ae862052f",
+   "d658986b4768ad01a44f875cad25a4404a2ee972",
+   "7a27696ba8833803e5c4573a47313b82227a523f"
+  ],
+  "install_ok_count": 0,
+  "build_ok_count": 0,
+  "median_install_seconds": 108.8,
+  "median_build_seconds": 0.0,
+  "slowest_build_seconds": 0.0,
+  "oldest_commit_builds": false,
+  "failures": [
+   {
+    "sha": "eb2c43f1203a75d114f2442b78fbd45ed90cbbdf",
+    "stage": "environment",
+    "error_excerpt": "npm error\nnpm error If you believe this might be a permissions issue, please double-check the\nnpm error permissions of the file and its containing directories, or try running\nnpm error the command again as root/Administrator.\nnpm error A complete log of this run can be found in: /home/hatch/.npm/_logs/2026-09-23T13_31_17_415Z-debug-0.log"
+   },
+   {
+    "sha": "82190946d5d9be722f5003d1bed3d5a79aa69aa2",
+    "stage": "install",
+    "error_excerpt": "npm error errno -2\nnpm error enoent Could not read package.json: Error: ENOENT: no such file or directory, open '/home/hatch/workspace/history-build-screen/worktrees/wt_13477_82190946d5/package.json'\nnpm error enoent This is related to npm not being able to find a file.\nnpm error enoent\nnpm error A complete log of this run can be found in: /home/hatch/.npm/_logs/2026-09-23T13_34_13_136Z-debug-0.log"
+   },
+   {
+    "sha": "efddbf9659ce103050c865022ac7bf8aa1519aa2",
+    "stage": "environment",
+    "error_excerpt": "npm error\nnpm error If you believe this might be a permissions issue, please double-check the\nnpm error permissions of the file and its containing directories, or try running\nnpm error the command again as root/Administrator.\nnpm error A complete log of this run can be found in: /home/hatch/.npm/_logs/2026-09-23T13_38_02_811Z-debug-0.log"
+   },
+   {
+    "sha": "29d01129fad531c4516d215ea83f014ae862052f",
+    "stage": "timeout",
+    "error_excerpt": "[timeout during install after 300s]\nnpm warn deprecated sourcemap-codec@1.4.8: Please use @jridgewell/sourcemap-codec instead\nnpm warn deprecated @react-email/button@0.2.1: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.\nnpm warn deprecated @react-email/markdown@0.0.18: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.\nnpm warn deprecated @react-email/tailwind@2.0.7: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.\nnpm warn deprecated @react-email/code-block@0.2.1: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info."
+   },
+   {
+    "sha": "d658986b4768ad01a44f875cad25a4404a2ee972",
+    "stage": "install",
+    "error_excerpt": "npm error\nnpm error aliases: clean-install, ic, install-clean, isntall-clean\nnpm error\nnpm error Run \"npm help ci\" for more info\nnpm error A complete log of this run can be found in: /home/hatch/.npm/_logs/2026-09-23T13_44_22_661Z-debug-0.log"
+   },
+   {
+    "sha": "7a27696ba8833803e5c4573a47313b82227a523f",
+    "stage": "install",
+    "error_excerpt": "npm error\nnpm error aliases: clean-install, ic, install-clean, isntall-clean\nnpm error\nnpm error Run \"npm help ci\" for more info\nnpm error A complete log of this run can be found in: /home/hatch/.npm/_logs/2026-09-23T13_44_31_533Z-debug-0.log"
+   }
+  ],
+  "verdict": "broken",
+  "verdict_reason": "node v24.20.0; npm 10.9.4; pnpm 10.34.5; yarn 1.22.22; build_cmd=none-found; n_commits_in_window=570; commit 3: install timeout"
+ },
+ {
+  "repo": "alanagoyal/alanagoyal",
+  "window": "2024-09 to 2025-02",
+  "commits_probed": [
+   "a478576f35802bd491226537289abd40799da65f",
+   "f1b9f0ba011ef480d9a10f668591a22bc928dc76",
+   "d89477bd832701b78a73b1334b385dd8fcb8179d",
+   "e852d0965cb2fc1ed41a402bde42ca8e356785cf",
+   "a4797cb3196385538d6079d2114c482a08422c4f",
+   "a4dbe34c5b5d1c6cd4b09a8da6317c2582dca107"
+  ],
+  "install_ok_count": 5,
+  "build_ok_count": 0,
+  "median_install_seconds": 36.7,
+  "median_build_seconds": 42.8,
+  "slowest_build_seconds": 89.4,
+  "oldest_commit_builds": false,
+  "failures": [
+   {
+    "sha": "a478576f35802bd491226537289abd40799da65f",
+    "stage": "install",
+    "error_excerpt": "npm error errno -2\nnpm error enoent Could not read package.json: Error: ENOENT: no such file or directory, open '/home/hatch/workspace/history-build-screen/worktrees/wt_13765_a478576f35/package.json'\nnpm error enoent This is related to npm not being able to find a file.\nnpm error enoent\nnpm error A complete log of this run can be found in: /home/hatch/.npm/_logs/2026-09-23T13_33_53_106Z-debug-0.log"
+   },
+   {
+    "sha": "f1b9f0ba011ef480d9a10f668591a22bc928dc76",
+    "stage": "build",
+    "error_excerpt": "\n./components/sidebar.tsx\n136:23  Warning: Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element\n\ninfo  - Need to disable some ESLint rules? Learn more here: https://nextjs.org/docs/app/building-your-application/configuring/eslint#disabling-rules"
+   },
+   {
+    "sha": "d89477bd832701b78a73b1334b385dd8fcb8179d",
+    "stage": "build",
+    "error_excerpt": "Error: Failed to collect page data for /[slug]\n    at /home/hatch/workspace/history-build-screen/worktrees/wt_13765_d89477bd83/node_modules/next/dist/build/utils.js:1258:15\n    at process.processTicksAndRejections (node:internal/process/task_queues:104:5) {\n  type: 'Error'\n}"
+   },
+   {
+    "sha": "e852d0965cb2fc1ed41a402bde42ca8e356785cf",
+    "stage": "build",
+    "error_excerpt": "> Build error occurred\nError: Failed to collect page data for /api/chat\n    at <unknown> (/home/hatch/workspace/history-build-screen/worktrees/wt_13765_e852d0965c/node_modules/next/dist/build/utils.js:1234:15) {\n  type: 'Error'\n}"
+   },
+   {
+    "sha": "a4797cb3196385538d6079d2114c482a08422c4f",
+    "stage": "build",
+    "error_excerpt": "    at /home/hatch/workspace/history-build-screen/worktrees/wt_13765_a4797cb319/node_modules/next/dist/build/webpack/plugins/next-trace-entrypoints-plugin.js:261:67\n    at Span.traceAsyncFn (/home/hatch/workspace/history-build-screen/worktrees/wt_13765_a4797cb319/node_modules/next/dist/trace/trace.js:153:26)\n\n\n> Build failed because of webpack errors"
+   },
+   {
+    "sha": "a4dbe34c5b5d1c6cd4b09a8da6317c2582dca107",
+    "stage": "build",
+    "error_excerpt": "\n`destination` does not start with `/`, `http://`, or `https://` for route {\"source\":\"/messages/:path*\",\"destination\":\"undefined/messages/:path*\"}\n\n\nError: Invalid rewrites found"
+   }
+  ],
+  "verdict": "broken",
+  "verdict_reason": "node v24.20.0; npm 10.9.4; pnpm 10.34.5; yarn 1.22.22; build_cmd=npm run build; n_commits_in_window=566"
+ },
+ {
+  "repo": "sledilnik/website",
+  "window": "2021-03 to 2021-08",
+  "commits_probed": [
+   "d86bdedb32121d479a7fecec9c504b426b123384",
+   "9f26b502223a96fd8b2817fba9632236fbfa7836",
+   "3fdf0fca7e262015aa1ecd26ef85e08b95a77cdf",
+   "ea593f35f845da3e245eb18c10abfb7099105410",
+   "f26de107a9c8f53eec1321a1af424a5ea8c38511",
+   "5a5e3a3aebeab20f9a2f149db34123a3ab6ba33b"
+  ],
+  "install_ok_count": 0,
+  "build_ok_count": 0,
+  "median_install_seconds": 268.9,
+  "median_build_seconds": 0.0,
+  "slowest_build_seconds": 0.0,
+  "oldest_commit_builds": false,
+  "failures": [
+   {
+    "sha": "d86bdedb32121d479a7fecec9c504b426b123384",
+    "stage": "timeout",
+    "error_excerpt": "[timeout during install after 300s]\n[2/4] Fetching packages...\ninfo There appears to be trouble with your network connection. Retrying...\ninfo There appears to be trouble with your network connection. Retrying...\ninfo There appears to be trouble with your network connection. Retrying...\ninfo There appears to be trouble with your network connection. Retrying..."
+   },
+   {
+    "sha": "9f26b502223a96fd8b2817fba9632236fbfa7836",
+    "stage": "timeout",
+    "error_excerpt": "[timeout during install after 300s]\n[2/4] Fetching packages...\ninfo There appears to be trouble with your network connection. Retrying...\ninfo There appears to be trouble with your network connection. Retrying...\ninfo There appears to be trouble with your network connection. Retrying...\ninfo There appears to be trouble with your network connection. Retrying..."
+   },
+   {
+    "sha": "3fdf0fca7e262015aa1ecd26ef85e08b95a77cdf",
+    "stage": "timeout",
+    "error_excerpt": "[timeout during install after 300s]\n[2/4] Fetching packages...\ninfo There appears to be trouble with your network connection. Retrying...\ninfo There appears to be trouble with your network connection. Retrying...\ninfo There appears to be trouble with your network connection. Retrying...\ninfo There appears to be trouble with your network connection. Retrying..."
+   },
+   {
+    "sha": "ea593f35f845da3e245eb18c10abfb7099105410",
+    "stage": "install",
+    "error_excerpt": "info Visit https://yarnpkg.com/en/docs/cli/install for documentation about this command.\ninfo There appears to be trouble with your network connection. Retrying...\ninfo There appears to be trouble with your network connection. Retrying...\ninfo There appears to be trouble with your network connection. Retrying...\ninfo There appears to be trouble with your network connection. Retrying..."
+   },
+   {
+    "sha": "f26de107a9c8f53eec1321a1af424a5ea8c38511",
+    "stage": "install",
+    "error_excerpt": "error Error: ENOENT: no such file or directory, open '/usr/local/share/.cache/yarn/v6/npm-axios-0.21.1-22563481962f4d6bde9a76d516ef0e5d3c09b2b8-integrity/node_modules/axios/.yarn-tarball.tgz'\ninfo Visit https://yarnpkg.com/en/docs/cli/install for documentation about this command.\ninfo There appears to be trouble with your network connection. Retrying...\ninfo There appears to be trouble with your network connection. Retrying...\ninfo There appears to be trouble with your network connection. Retrying..."
+   },
+   {
+    "sha": "5a5e3a3aebeab20f9a2f149db34123a3ab6ba33b",
+    "stage": "install",
+    "error_excerpt": "    at TCP.<anonymous> (node:net:362:12)\ninfo Visit https://yarnpkg.com/en/docs/cli/install for documentation about this command.\ninfo There appears to be trouble with your network connection. Retrying...\ninfo There appears to be trouble with your network connection. Retrying...\ninfo There appears to be trouble with your network connection. Retrying..."
+   }
+  ],
+  "verdict": "broken",
+  "verdict_reason": "node v24.20.0; npm 10.9.4; pnpm 10.34.5; yarn 1.22.22; build_cmd=none-found; n_commits_in_window=14; commit 0: install timeout; commit 1: install timeout; commit 2: install timeout"
+ },
+ {
+  "repo": "ifmeorg/ifme",
+  "window": "2016-05 to 2016-10",
+  "commits_probed": [
+   "dd561d725b5df56c2cf5cf9cd1378ca8623ebe77",
+   "824d80fb5ce8a89f9f30f01f1c534902fa247e17",
+   "828a54cbdd5d5a2defcd328b08cbcd4a3ee4c747",
+   "11609ea8e22f5ba6929626cd05d4ac64d71586f5",
+   "5d50c27bb002649c649a92e4fd7146cd4658cab0",
+   "284810b270bfb56649934b0c7e81c77053a802da"
+  ],
+  "install_ok_count": 0,
+  "build_ok_count": 0,
+  "median_install_seconds": 0.0,
+  "median_build_seconds": 0.0,
+  "slowest_build_seconds": 0.0,
+  "oldest_commit_builds": false,
+  "failures": [
+   {
+    "sha": "dd561d725b5df56c2cf5cf9cd1378ca8623ebe77",
+    "stage": "install",
+    "error_excerpt": "no lockfile (package-lock.json/pnpm-lock.yaml/yarn.lock) present at commit dd561d725b5df56c2cf5cf9cd1378ca8623ebe77"
+   },
+   {
+    "sha": "824d80fb5ce8a89f9f30f01f1c534902fa247e17",
+    "stage": "install",
+    "error_excerpt": "no lockfile (package-lock.json/pnpm-lock.yaml/yarn.lock) present at commit 824d80fb5ce8a89f9f30f01f1c534902fa247e17"
+   },
+   {
+    "sha": "828a54cbdd5d5a2defcd328b08cbcd4a3ee4c747",
+    "stage": "install",
+    "error_excerpt": "no lockfile (package-lock.json/pnpm-lock.yaml/yarn.lock) present at commit 828a54cbdd5d5a2defcd328b08cbcd4a3ee4c747"
+   },
+   {
+    "sha": "11609ea8e22f5ba6929626cd05d4ac64d71586f5",
+    "stage": "install",
+    "error_excerpt": "no lockfile (package-lock.json/pnpm-lock.yaml/yarn.lock) present at commit 11609ea8e22f5ba6929626cd05d4ac64d71586f5"
+   },
+   {
+    "sha": "5d50c27bb002649c649a92e4fd7146cd4658cab0",
+    "stage": "install",
+    "error_excerpt": "no lockfile (package-lock.json/pnpm-lock.yaml/yarn.lock) present at commit 5d50c27bb002649c649a92e4fd7146cd4658cab0"
+   },
+   {
+    "sha": "284810b270bfb56649934b0c7e81c77053a802da",
+    "stage": "install",
+    "error_excerpt": "no lockfile (package-lock.json/pnpm-lock.yaml/yarn.lock) present at commit 284810b270bfb56649934b0c7e81c77053a802da"
+   }
+  ],
+  "verdict": "broken",
+  "verdict_reason": "node v24.20.0; npm 10.9.4; pnpm 10.34.5; yarn 1.22.22; build_cmd=none-found; n_commits_in_window=474; pnpm_version_used=10.34.5"
+ },
+ {
+  "repo": "JustArchiNET/ASF-ui",
+  "window": "2018-09 to 2019-02",
+  "commits_probed": [
+   "fd05f39c3f9ab85b2794e09b31b22e8cfbd70985",
+   "2950615ff983a2e8541a3418173fbcb77635bd50",
+   "cddc9cd0afc56d209bffd47b06fb42c935ed857e",
+   "41e4ba96793914b2ac769a231fe1796ca3fb5594",
+   "ef7946944a5361c2ab9417c43a53841b3398cc0c",
+   "406bb0be97017815af319e0e50f3b40f3d572bb3"
+  ],
+  "install_ok_count": 0,
+  "build_ok_count": 0,
+  "median_install_seconds": 17.1,
+  "median_build_seconds": 0.0,
+  "slowest_build_seconds": 0.0,
+  "oldest_commit_builds": false,
+  "failures": [
+   {
+    "sha": "fd05f39c3f9ab85b2794e09b31b22e8cfbd70985",
+    "stage": "install",
+    "error_excerpt": "npm error gyp ERR! node -v v24.20.0\nnpm error gyp ERR! node-gyp -v v3.8.0\nnpm error gyp ERR! not ok \nnpm error Build failed with error code: 1\nnpm error A complete log of this run can be found in: /home/hatch/.npm/_logs/2026-09-23T13_46_42_739Z-debug-0.log"
+   },
+   {
+    "sha": "2950615ff983a2e8541a3418173fbcb77635bd50",
+    "stage": "install",
+    "error_excerpt": "npm error gyp ERR! node -v v24.20.0\nnpm error gyp ERR! node-gyp -v v3.8.0\nnpm error gyp ERR! not ok \nnpm error Build failed with error code: 1\nnpm error A complete log of this run can be found in: /home/hatch/.npm/_logs/2026-09-23T13_48_03_845Z-debug-0.log"
+   },
+   {
+    "sha": "cddc9cd0afc56d209bffd47b06fb42c935ed857e",
+    "stage": "install",
+    "error_excerpt": "npm error gyp ERR! node -v v24.20.0\nnpm error gyp ERR! node-gyp -v v3.8.0\nnpm error gyp ERR! not ok \nnpm error Build failed with error code: 1\nnpm error A complete log of this run can be found in: /home/hatch/.npm/_logs/2026-09-23T13_48_20_822Z-debug-0.log"
+   },
+   {
+    "sha": "41e4ba96793914b2ac769a231fe1796ca3fb5594",
+    "stage": "install",
+    "error_excerpt": "npm error gyp ERR! node -v v24.20.0\nnpm error gyp ERR! node-gyp -v v3.8.0\nnpm error gyp ERR! not ok \nnpm error Build failed with error code: 1\nnpm error A complete log of this run can be found in: /home/hatch/.npm/_logs/2026-09-23T13_48_36_271Z-debug-0.log"
+   },
+   {
+    "sha": "ef7946944a5361c2ab9417c43a53841b3398cc0c",
+    "stage": "install",
+    "error_excerpt": "npm error gyp ERR! node -v v24.20.0\nnpm error gyp ERR! node-gyp -v v3.8.0\nnpm error gyp ERR! not ok \nnpm error Build failed with error code: 1\nnpm error A complete log of this run can be found in: /home/hatch/.npm/_logs/2026-09-23T13_48_50_966Z-debug-0.log"
+   },
+   {
+    "sha": "406bb0be97017815af319e0e50f3b40f3d572bb3",
+    "stage": "install",
+    "error_excerpt": "npm error gyp ERR! node -v v24.20.0\nnpm error gyp ERR! node-gyp -v v3.8.0\nnpm error gyp ERR! not ok \nnpm error Build failed with error code: 1\nnpm error A complete log of this run can be found in: /home/hatch/.npm/_logs/2026-09-23T13_49_11_378Z-debug-0.log"
+   }
+  ],
+  "verdict": "broken",
+  "verdict_reason": "node v24.20.0; npm 10.9.4; pnpm 10.34.5; yarn 1.22.22; build_cmd=none-found; n_commits_in_window=413"
+ },
+ {
+  "repo": "jestsee_jestsee.com",
+  "window": "2024-09 to 2025-02",
+  "commits_probed": [
+   "8ac00cea6963081463c888d641e2e12fd83d0820",
+   "cc875711d29ccc0070bfabb62a5e73781f80237f",
+   "97754ba9f03ca3484c2cde0d15809300f25adbdf",
+   "a4893f67c1307adcf90969ce7cf2b5651a66ff33",
+   "fe249e5b34684ea434202053e42b04e983b60e94",
+   "1fc6531a450dc70fe614800b09f9afe4aed3a1c0"
+  ],
+  "install_ok_count": 0,
+  "build_ok_count": 0,
+  "median_install_seconds": 0.8,
+  "median_build_seconds": 0.0,
+  "slowest_build_seconds": 0.0,
+  "oldest_commit_builds": false,
+  "failures": [
+   {
+    "sha": "8ac00cea6963081463c888d641e2e12fd83d0820",
+    "stage": "install",
+    "error_excerpt": "\u2009ERR_PNPM_LOCKFILE_BREAKING_CHANGE\u2009 Lockfile /home/hatch/workspace/history-build-screen/worktrees/wt_17516_8ac00cea69/pnpm-lock.yaml not compatible with current pnpm\n\nRun with the --force parameter to recreate the lockfile."
+   },
+   {
+    "sha": "cc875711d29ccc0070bfabb62a5e73781f80237f",
+    "stage": "install",
+    "error_excerpt": "\u2009ERR_PNPM_LOCKFILE_BREAKING_CHANGE\u2009 Lockfile /home/hatch/workspace/history-build-screen/worktrees/wt_17516_cc875711d2/pnpm-lock.yaml not compatible with current pnpm\n\nRun with the --force parameter to recreate the lockfile."
+   },
+   {
+    "sha": "97754ba9f03ca3484c2cde0d15809300f25adbdf",
+    "stage": "install",
+    "error_excerpt": "\u2009ERR_PNPM_LOCKFILE_BREAKING_CHANGE\u2009 Lockfile /home/hatch/workspace/history-build-screen/worktrees/wt_17516_97754ba9f0/pnpm-lock.yaml not compatible with current pnpm\n\nRun with the --force parameter to recreate the lockfile."
+   },
+   {
+    "sha": "a4893f67c1307adcf90969ce7cf2b5651a66ff33",
+    "stage": "install",
+    "error_excerpt": "\u2009ERR_PNPM_LOCKFILE_BREAKING_CHANGE\u2009 Lockfile /home/hatch/workspace/history-build-screen/worktrees/wt_17516_a4893f67c1/pnpm-lock.yaml not compatible with current pnpm\n\nRun with the --force parameter to recreate the lockfile."
+   },
+   {
+    "sha": "fe249e5b34684ea434202053e42b04e983b60e94",
+    "stage": "install",
+    "error_excerpt": "\u2009ERR_PNPM_LOCKFILE_BREAKING_CHANGE\u2009 Lockfile /home/hatch/workspace/history-build-screen/worktrees/wt_17516_fe249e5b34/pnpm-lock.yaml not compatible with current pnpm\n\nRun with the --force parameter to recreate the lockfile."
+   },
+   {
+    "sha": "1fc6531a450dc70fe614800b09f9afe4aed3a1c0",
+    "stage": "install",
+    "error_excerpt": "\u2009ERR_PNPM_LOCKFILE_BREAKING_CHANGE\u2009 Lockfile /home/hatch/workspace/history-build-screen/worktrees/wt_17516_1fc6531a45/pnpm-lock.yaml not compatible with current pnpm\n\nRun with the --force parameter to recreate the lockfile."
+   }
+  ],
+  "verdict": "broken",
+  "verdict_reason": "node v24.20.0; npm 10.9.4; pnpm 10.34.5; yarn 1.22.22; build_cmd=none-found; n_commits_in_window=389; pnpm_version_used=10.34.5"
+ },
+ {
+  "repo": "alexcarpenter_alexcarpenter.me",
+  "window": "2023-07 to 2023-12",
+  "commits_probed": [
+   "ab0b109a6c91f8699807182e3adddd30dec023df",
+   "fc595b5041f83d972036e18f6990d5279d695e08",
+   "f1b73ecbbedb55b2b6ffd15d664b95a8be14c940",
+   "0389075d0b4984ffb655bd80e0f0c9bb1f78c51b",
+   "dabfda84026b826983fcdd540b66f5a50d8a5ca7",
+   "b6e737b361b92a0ff4bc271c80c45003daf18926"
+  ],
+  "install_ok_count": 5,
+  "build_ok_count": 1,
+  "median_install_seconds": 73.9,
+  "median_build_seconds": 3.2,
+  "slowest_build_seconds": 77.8,
+  "oldest_commit_builds": false,
+  "failures": [
+   {
+    "sha": "ab0b109a6c91f8699807182e3adddd30dec023df",
+    "stage": "environment",
+    "error_excerpt": "  errno: -1,\n  code: 'EPERM',\n  syscall: 'chown',\n  path: '/home/hatch/workspace/history-build-screen/worktrees/wt_14086_ab0b109a6c/.next/cache/config.json.1935934670'\n}"
+   },
+   {
+    "sha": "fc595b5041f83d972036e18f6990d5279d695e08",
+    "stage": "environment",
+    "error_excerpt": "  errno: -1,\n  code: 'EPERM',\n  syscall: 'chown',\n  path: '/home/hatch/workspace/history-build-screen/worktrees/wt_14086_fc595b5041/.next/cache/config.json.2390626166'\n}"
+   },
+   {
+    "sha": "f1b73ecbbedb55b2b6ffd15d664b95a8be14c940",
+    "stage": "environment",
+    "error_excerpt": "  errno: -1,\n  code: 'EPERM',\n  syscall: 'chown',\n  path: '/home/hatch/workspace/history-build-screen/worktrees/wt_14086_f1b73ecbbe/.next/cache/config.json.1699282059'\n}"
+   },
+   {
+    "sha": "0389075d0b4984ffb655bd80e0f0c9bb1f78c51b",
+    "stage": "environment",
+    "error_excerpt": "  errno: -1,\n  code: 'EPERM',\n  syscall: 'chown',\n  path: '/home/hatch/workspace/history-build-screen/worktrees/wt_14086_0389075d0b/.next/cache/config.json.994374979'\n}"
+   },
+   {
+    "sha": "b6e737b361b92a0ff4bc271c80c45003daf18926",
+    "stage": "install",
+    "error_excerpt": "no lockfile (package-lock.json/pnpm-lock.yaml/yarn.lock) present at commit b6e737b361b92a0ff4bc271c80c45003daf18926"
+   }
+  ],
+  "verdict": "broken",
+  "verdict_reason": "node v24.20.0; npm 10.9.4; pnpm 10.34.5; yarn 1.22.22; build_cmd=npm run build; n_commits_in_window=386; pnpm_version_used=10.34.5"
+ },
+ {
+  "repo": "w3bdesign/nextjs-woocommerce",
+  "window": "2020-05 to 2020-10",
+  "commits_probed": [
+   "daf4b0c997e2d17fa7fd124e666d1e9bc2d21b12",
+   "c152ed189957ccf8cd7d464059bd44c4e8df8acb",
+   "612048462151900164180657d805744239d0301a",
+   "05cac97231c13dae901af21b4f4712eb9fb98df0",
+   "3a7935780028f6fcba0191f5a9e375d793c3c6f0",
+   "1ea3c05c824c5c43549711f7cbecbc2b7f59d941"
+  ],
+  "install_ok_count": 5,
+  "build_ok_count": 0,
+  "median_install_seconds": 54.1,
+  "median_build_seconds": 2.2,
+  "slowest_build_seconds": 5.4,
+  "oldest_commit_builds": false,
+  "failures": [
+   {
+    "sha": "daf4b0c997e2d17fa7fd124e666d1e9bc2d21b12",
+    "stage": "build",
+    "error_excerpt": "  reason: 'unsupported',\n  code: 'ERR_OSSL_EVP_UNSUPPORTED'\n}\n\nNode.js v24.20.0"
+   },
+   {
+    "sha": "c152ed189957ccf8cd7d464059bd44c4e8df8acb",
+    "stage": "build",
+    "error_excerpt": "  reason: 'unsupported',\n  code: 'ERR_OSSL_EVP_UNSUPPORTED'\n}\n\nNode.js v24.20.0"
+   },
+   {
+    "sha": "612048462151900164180657d805744239d0301a",
+    "stage": "build",
+    "error_excerpt": "  reason: 'unsupported',\n  code: 'ERR_OSSL_EVP_UNSUPPORTED'\n}\n\nNode.js v24.20.0"
+   },
+   {
+    "sha": "05cac97231c13dae901af21b4f4712eb9fb98df0",
+    "stage": "build",
+    "error_excerpt": "  reason: 'unsupported',\n  code: 'ERR_OSSL_EVP_UNSUPPORTED'\n}\n\nNode.js v24.20.0"
+   },
+   {
+    "sha": "3a7935780028f6fcba0191f5a9e375d793c3c6f0",
+    "stage": "install",
+    "error_excerpt": "npm error errno -2\nnpm error enoent Could not read package.json: Error: ENOENT: no such file or directory, open '/home/hatch/workspace/history-build-screen/worktrees/wt_16736_3a79357800/package.json'\nnpm error enoent This is related to npm not being able to find a file.\nnpm error enoent\nnpm error A complete log of this run can be found in: /home/hatch/.npm/_logs/2026-09-23T13_54_49_796Z-debug-0.log"
+   },
+   {
+    "sha": "1ea3c05c824c5c43549711f7cbecbc2b7f59d941",
+    "stage": "build",
+    "error_excerpt": "  reason: 'unsupported',\n  code: 'ERR_OSSL_EVP_UNSUPPORTED'\n}\n\nNode.js v24.20.0"
+   }
+  ],
+  "verdict": "broken",
+  "verdict_reason": "node v24.20.0; npm 10.9.4; pnpm 10.34.5; yarn 1.22.22; build_cmd=npm run build; n_commits_in_window=399"
+ },
+ {
+  "repo": "justjavac/esowiki",
+  "window": "2022-11 to 2023-04",
+  "commits_probed": [
+   "ad594879059ca9e3b13f4c29978de2190438402d",
+   "5dbe4aa45b12a1c4e4055b293c2857fa9016441a",
+   "8394cd658bd12f718716f8d9272f688a2b94f258",
+   "776f074cabbfa01a644a204fbd46b42e67ec1242",
+   "cd4fc8f2f00931b815293773681d2417314fd642",
+   "6cc5c86262f015849048dc73fee0f9f8fabc4679"
+  ],
+  "install_ok_count": 1,
+  "build_ok_count": 0,
+  "median_install_seconds": 90.2,
+  "median_build_seconds": 0.0,
+  "slowest_build_seconds": 0.0,
+  "oldest_commit_builds": false,
+  "failures": [
+   {
+    "sha": "ad594879059ca9e3b13f4c29978de2190438402d",
+    "stage": "install",
+    "error_excerpt": "    at Socket.done (node:internal/tls/wrap:770:7)\n    at Socket.wrapper (node:events:639:12)\n    at Socket.emit (node:events:526:24)\n    at TCP.<anonymous> (node:net:362:12)\ninfo Visit https://yarnpkg.com/en/docs/cli/install for documentation about this command."
+   },
+   {
+    "sha": "5dbe4aa45b12a1c4e4055b293c2857fa9016441a",
+    "stage": "build",
+    "error_excerpt": "no build script in package.json (no 'build' and nothing matching /build|export|generate/i)"
+   },
+   {
+    "sha": "8394cd658bd12f718716f8d9272f688a2b94f258",
+    "stage": "install",
+    "error_excerpt": "info There appears to be trouble with your network connection. Retrying...\ninfo There appears to be trouble with your network connection. Retrying...\ninfo There appears to be trouble with your network connection. Retrying...\ninfo There appears to be trouble with your network connection. Retrying...\ninfo There appears to be trouble with your network connection. Retrying..."
+   },
+   {
+    "sha": "776f074cabbfa01a644a204fbd46b42e67ec1242",
+    "stage": "install",
+    "error_excerpt": "error https://registry.npmmirror.com/esbuild-windows-64/-/esbuild-windows-64-0.15.18.tgz: aborted\ninfo There appears to be trouble with your network connection. Retrying...\ninfo There appears to be trouble with your network connection. Retrying...\ninfo There appears to be trouble with your network connection. Retrying...\ninfo There appears to be trouble with your network connection. Retrying..."
+   },
+   {
+    "sha": "cd4fc8f2f00931b815293773681d2417314fd642",
+    "stage": "install",
+    "error_excerpt": "info Visit https://yarnpkg.com/en/docs/cli/install for documentation about this command.\nerror https://registry.npmmirror.com/esbuild-windows-arm64/-/esbuild-windows-arm64-0.15.18.tgz: aborted\ninfo There appears to be trouble with your network connection. Retrying...\ninfo There appears to be trouble with your network connection. Retrying...\ninfo There appears to be trouble with your network connection. Retrying..."
+   },
+   {
+    "sha": "6cc5c86262f015849048dc73fee0f9f8fabc4679",
+    "stage": "install",
+    "error_excerpt": "info There appears to be trouble with your network connection. Retrying...\ninfo There appears to be trouble with your network connection. Retrying...\ninfo There appears to be trouble with your network connection. Retrying...\ninfo There appears to be trouble with your network connection. Retrying...\ninfo There appears to be trouble with your network connection. Retrying..."
+   }
+  ],
+  "verdict": "broken",
+  "verdict_reason": "node v24.20.0; npm 10.9.4; pnpm 10.34.5; yarn 1.22.22; build_cmd=none-found; n_commits_in_window=373"
+ },
+ {
+  "repo": "burhan-syed/troddit",
+  "window": "2021-09 to 2022-02",
+  "commits_probed": [
+   "45be292f58b7f2e49bd67e56161e4554a32b0fd4",
+   "d4693b7c810c594a5af1c5e34bf9183db9f19062",
+   "5a1cdd96543e7bffe711e2bf30376e422615adc5",
+   "4f464c45315e0c9b3b25b665f5ac937544ab7736",
+   "6289e8bbeb7ffe2dc2f3dc7f60876fd408d9b44b",
+   "bca592f604de8f70841f5ad433f945f8b754c4ac"
+  ],
+  "install_ok_count": 0,
+  "build_ok_count": 0,
+  "median_install_seconds": 26.2,
+  "median_build_seconds": 0.0,
+  "slowest_build_seconds": 0.0,
+  "oldest_commit_builds": false,
+  "failures": [
+   {
+    "sha": "45be292f58b7f2e49bd67e56161e4554a32b0fd4",
+    "stage": "timeout",
+    "error_excerpt": "[timeout during install after 300s]\n[2/4] Fetching packages...\ninfo There appears to be trouble with your network connection. Retrying...\ninfo There appears to be trouble with your network connection. Retrying...\ninfo There appears to be trouble with your network connection. Retrying...\ninfo There appears to be trouble with your network connection. Retrying..."
+   },
+   {
+    "sha": "d4693b7c810c594a5af1c5e34bf9183db9f19062",
+    "stage": "install",
+    "error_excerpt": "    at Socket.done (node:internal/tls/wrap:770:7)\n    at Socket.wrapper (node:events:639:12)\n    at Socket.emit (node:events:526:24)\n    at TCP.<anonymous> (node:net:362:12)\ninfo Visit https://yarnpkg.com/en/docs/cli/install for documentation about this command."
+   },
+   {
+    "sha": "5a1cdd96543e7bffe711e2bf30376e422615adc5",
+    "stage": "install",
+    "error_excerpt": "    at Socket.done (node:internal/tls/wrap:770:7)\n    at Socket.wrapper (node:events:639:12)\n    at Socket.emit (node:events:526:24)\n    at TCP.<anonymous> (node:net:362:12)\ninfo Visit https://yarnpkg.com/en/docs/cli/install for documentation about this command."
+   },
+   {
+    "sha": "4f464c45315e0c9b3b25b665f5ac937544ab7736",
+    "stage": "install",
+    "error_excerpt": "    at Socket.done (node:internal/tls/wrap:770:7)\n    at Socket.wrapper (node:events:639:12)\n    at Socket.emit (node:events:526:24)\n    at TCP.<anonymous> (node:net:362:12)\ninfo Visit https://yarnpkg.com/en/docs/cli/install for documentation about this command."
+   },
+   {
+    "sha": "6289e8bbeb7ffe2dc2f3dc7f60876fd408d9b44b",
+    "stage": "install",
+    "error_excerpt": "info Visit https://yarnpkg.com/en/docs/cli/install for documentation about this command.\ninfo There appears to be trouble with your network connection. Retrying...\ninfo There appears to be trouble with your network connection. Retrying...\ninfo There appears to be trouble with your network connection. Retrying...\ninfo There appears to be trouble with your network connection. Retrying..."
+   },
+   {
+    "sha": "bca592f604de8f70841f5ad433f945f8b754c4ac",
+    "stage": "install",
+    "error_excerpt": "    at Socket.wrapper (node:events:639:12)\n    at Socket.emit (node:events:526:24)\n    at TCP.<anonymous> (node:net:362:12)\ninfo Visit https://yarnpkg.com/en/docs/cli/install for documentation about this command.\ninfo There appears to be trouble with your network connection. Retrying..."
+   }
+  ],
+  "verdict": "broken",
+  "verdict_reason": "node v24.20.0; npm 10.9.4; pnpm 10.34.5; yarn 1.22.22; build_cmd=none-found; n_commits_in_window=332; commit 0: install timeout"
+ },
+ {
+  "repo": "HelloGitHub-Team/geese",
+  "window": "2022-07 to 2022-12",
+  "commits_probed": [
+   "c7f6f33673ba877fbe75a6968ae2d1eefe75af15",
+   "18888aa9f1db55438336d5668b19539c3841d5ba",
+   "09fd4d6c8b7a14f5e2895992971540af564032df",
+   "451c29215a10d7d73e0196682a451e618ce2055d",
+   "57f0e9a80d6c768472b815bd4eccde784c1d2c06",
+   "ffb53099bd4167145c1ebe37af6e2f25ad589d81"
+  ],
+  "install_ok_count": 0,
+  "build_ok_count": 0,
+  "median_install_seconds": 39.4,
+  "median_build_seconds": 0.0,
+  "slowest_build_seconds": 0.0,
+  "oldest_commit_builds": false,
+  "failures": [
+   {
+    "sha": "c7f6f33673ba877fbe75a6968ae2d1eefe75af15",
+    "stage": "install",
+    "error_excerpt": "error https://registry.yarnpkg.com/@next/swc-win32-arm64-msvc/-/swc-win32-arm64-msvc-12.1.6.tgz: aborted\ninfo There appears to be trouble with your network connection. Retrying...\ninfo There appears to be trouble with your network connection. Retrying...\ninfo There appears to be trouble with your network connection. Retrying...\ninfo There appears to be trouble with your network connection. Retrying..."
+   },
+   {
+    "sha": "18888aa9f1db55438336d5668b19539c3841d5ba",
+    "stage": "install",
+    "error_excerpt": "    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\ninfo Visit https://yarnpkg.com/en/docs/cli/install for documentation about this command.\ninfo There appears to be trouble with your network connection. Retrying...\ninfo There appears to be trouble with your network connection. Retrying...\ninfo There appears to be trouble with your network connection. Retrying..."
+   },
+   {
+    "sha": "09fd4d6c8b7a14f5e2895992971540af564032df",
+    "stage": "install",
+    "error_excerpt": "    at TCP.<anonymous> (node:net:362:12)\ninfo Visit https://yarnpkg.com/en/docs/cli/install for documentation about this command.\ninfo There appears to be trouble with your network connection. Retrying...\ninfo There appears to be trouble with your network connection. Retrying...\ninfo There appears to be trouble with your network connection. Retrying..."
+   },
+   {
+    "sha": "451c29215a10d7d73e0196682a451e618ce2055d",
+    "stage": "install",
+    "error_excerpt": "    at Socket.wrapper (node:events:639:12)\n    at Socket.emit (node:events:526:24)\n    at TCP.<anonymous> (node:net:362:12)\ninfo Visit https://yarnpkg.com/en/docs/cli/install for documentation about this command.\ninfo There appears to be trouble with your network connection. Retrying..."
+   },
+   {
+    "sha": "57f0e9a80d6c768472b815bd4eccde784c1d2c06",
+    "stage": "install",
+    "error_excerpt": "info There appears to be trouble with your network connection. Retrying...\ninfo There appears to be trouble with your network connection. Retrying...\ninfo There appears to be trouble with your network connection. Retrying...\ninfo There appears to be trouble with your network connection. Retrying...\ninfo There appears to be trouble with your network connection. Retrying..."
+   },
+   {
+    "sha": "ffb53099bd4167145c1ebe37af6e2f25ad589d81",
+    "stage": "install",
+    "error_excerpt": "info There appears to be trouble with your network connection. Retrying...\ninfo There appears to be trouble with your network connection. Retrying...\ninfo There appears to be trouble with your network connection. Retrying...\ninfo There appears to be trouble with your network connection. Retrying...\ninfo There appears to be trouble with your network connection. Retrying..."
+   }
+  ],
+  "verdict": "broken",
+  "verdict_reason": "node v24.20.0; npm 10.9.4; pnpm 10.34.5; yarn 1.22.22; build_cmd=none-found; n_commits_in_window=355"
+ },
+ {
+  "repo": "satnaing/satnaing.dev",
+  "window": "2022-03 to 2022-08",
+  "commits_probed": [
+   "29f8f4c9151bab877a68516322f6a1b923426850",
+   "78497fbd9b9c13c4ec4d3ab1122fa9379b211590",
+   "92dde405aef21227f74d683bc7c8d67f3a5104d4",
+   "5d127fe62b38f62032f13397e3ed111acfccfe49",
+   "b3d6999166d7215966ee39c1f1ce3ffb07f8b61f",
+   "cdcd91e7bcc0957154d93d3c1df6b8644775d3bf"
+  ],
+  "install_ok_count": 6,
+  "build_ok_count": 4,
+  "median_install_seconds": 11.3,
+  "median_build_seconds": 32.5,
+  "slowest_build_seconds": 45.4,
+  "oldest_commit_builds": true,
+  "failures": [
+   {
+    "sha": "92dde405aef21227f74d683bc7c8d67f3a5104d4",
+    "stage": "build",
+    "error_excerpt": "\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 1 | \u001b[39m\u001b[36mimport\u001b[39m { \u001b[33mMDXProvider\u001b[39m } from \u001b[32m\"@mdx-js/react\"\u001b[39m\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m   | \u001b[39m                            \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 2 | \u001b[39m\u001b[36mimport\u001b[39m \u001b[33mBlogHeader\u001b[39m from \u001b[32m\"@/components/BlogHeader\"\u001b[39m\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 3 | \u001b[39m\u001b[36mimport\u001b[39m \u001b[33mFooter\u001b[39m from \u001b[32m\"@/components/Footer\"\u001b[39m\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 4 | \u001b[39m\u001b[36mimport\u001b[39m \u001b[33mSkipToMain\u001b[39m from \u001b[32m\"@/components/SkipToMain\"\u001b[39m\u001b[33m;\u001b[39m\u001b[0m"
+   },
+   {
+    "sha": "b3d6999166d7215966ee39c1f1ce3ffb07f8b61f",
+    "stage": "build",
+    "error_excerpt": "./sections/AboutSection.tsx\n./pages/index.tsx\n\n\n> Build failed because of webpack errors"
+   }
+  ],
+  "verdict": "broken",
+  "verdict_reason": "node v24.20.0; npm 10.9.4; pnpm 10.34.5; yarn 1.22.22; build_cmd=npm run build; n_commits_in_window=319"
+ },
+ {
+  "repo": "logotip4ik/portfolio",
+  "window": "2022-05 to 2022-10",
+  "commits_probed": [
+   "efa3bfde55c55b5bbe39b1742a300128e36432db",
+   "7634ef6310c95ff26c1504cdd8dd532fa1a531bc",
+   "43bcfb59b07a97be49295300c58459df8cc9dd61",
+   "2d929c998749f7a1d38836a9280fcafba37b083d",
+   "47bbf1e67dddd90e2b6f4ddbc833a465d6d4f235",
+   "94bd3cb9492d306d22fd94754cca4de5f02ae6aa"
+  ],
+  "install_ok_count": 0,
+  "build_ok_count": 0,
+  "median_install_seconds": 24.7,
+  "median_build_seconds": 0.0,
+  "slowest_build_seconds": 0.0,
+  "oldest_commit_builds": false,
+  "failures": [
+   {
+    "sha": "efa3bfde55c55b5bbe39b1742a300128e36432db",
+    "stage": "install",
+    "error_excerpt": "info There appears to be trouble with your network connection. Retrying...\ninfo There appears to be trouble with your network connection. Retrying...\ninfo There appears to be trouble with your network connection. Retrying...\ninfo There appears to be trouble with your network connection. Retrying...\ninfo There appears to be trouble with your network connection. Retrying..."
+   },
+   {
+    "sha": "7634ef6310c95ff26c1504cdd8dd532fa1a531bc",
+    "stage": "install",
+    "error_excerpt": "    at Socket.done (node:internal/tls/wrap:770:7)\n    at Socket.wrapper (node:events:639:12)\n    at Socket.emit (node:events:526:24)\n    at TCP.<anonymous> (node:net:362:12)\ninfo Visit https://yarnpkg.com/en/docs/cli/install for documentation about this command."
+   },
+   {
+    "sha": "43bcfb59b07a97be49295300c58459df8cc9dd61",
+    "stage": "install",
+    "error_excerpt": "    at Socket.emit (node:events:526:24)\n    at TCP.<anonymous> (node:net:362:12)\ninfo Visit https://yarnpkg.com/en/docs/cli/install for documentation about this command.\ninfo There appears to be trouble with your network connection. Retrying...\ninfo There appears to be trouble with your network connection. Retrying..."
+   },
+   {
+    "sha": "2d929c998749f7a1d38836a9280fcafba37b083d",
+    "stage": "install",
+    "error_excerpt": "    at TCP.<anonymous> (node:net:362:12)\ninfo Visit https://yarnpkg.com/en/docs/cli/install for documentation about this command.\ninfo There appears to be trouble with your network connection. Retrying...\ninfo There appears to be trouble with your network connection. Retrying...\ninfo There appears to be trouble with your network connection. Retrying..."
+   },
+   {
+    "sha": "47bbf1e67dddd90e2b6f4ddbc833a465d6d4f235",
+    "stage": "install",
+    "error_excerpt": "    at Socket.wrapper (node:events:639:12)\n    at Socket.emit (node:events:526:24)\n    at TCP.<anonymous> (node:net:362:12)\ninfo Visit https://yarnpkg.com/en/docs/cli/install for documentation about this command.\ninfo There appears to be trouble with your network connection. Retrying..."
+   },
+   {
+    "sha": "94bd3cb9492d306d22fd94754cca4de5f02ae6aa",
+    "stage": "install",
+    "error_excerpt": "    at Socket.emit (node:events:526:24)\n    at TCP.<anonymous> (node:net:362:12)\ninfo Visit https://yarnpkg.com/en/docs/cli/install for documentation about this command.\ninfo There appears to be trouble with your network connection. Retrying...\ninfo There appears to be trouble with your network connection. Retrying..."
+   }
+  ],
+  "verdict": "broken",
+  "verdict_reason": "node v24.20.0; npm 10.9.4; pnpm 10.34.5; yarn 1.22.22; build_cmd=none-found; n_commits_in_window=322"
+ },
+ {
+  "repo": "midudev/lolalolitaland.com",
+  "window": "2025-03 to 2025-06",
+  "commits_probed": [
+   "7c8eff628592643bd395d1dce194086ce581c6e0",
+   "8f591183c606817bbefe35a947ba90845f035d97",
+   "edf8cfd9c9379fbd37eb570ccd0fa8878f7b9a8d",
+   "7cc2c31bcdbbf2c3d152afe46f394b9eba7389bd",
+   "caf6c0c83d290110171a5dd46161e82478f1bf4e",
+   "ea0cc3c2c2aa288858e00a5fc7e2b1f33f5fb3a1"
+  ],
+  "install_ok_count": 4,
+  "build_ok_count": 4,
+  "median_install_seconds": 7.9,
+  "median_build_seconds": 15.8,
+  "slowest_build_seconds": 28.7,
+  "oldest_commit_builds": true,
+  "failures": [
+   {
+    "sha": "8f591183c606817bbefe35a947ba90845f035d97",
+    "stage": "install",
+    "error_excerpt": "no lockfile (package-lock.json/pnpm-lock.yaml/yarn.lock) present at commit 8f591183c606817bbefe35a947ba90845f035d97"
+   },
+   {
+    "sha": "edf8cfd9c9379fbd37eb570ccd0fa8878f7b9a8d",
+    "stage": "environment",
+    "error_excerpt": "worktree setup failed:\nerror: unable to create file .prettierignore: No such file or directory\nUpdating files:   2% (3/108)\nerror: unable to create file .prettierrc: No such file or directory\nUpdating files:   3% (4/108)\nfatal: cannot create directory at '.vscode': No such file or directory"
+   }
+  ],
+  "verdict": "broken",
+  "verdict_reason": "node v24.20.0; npm 10.9.4; pnpm 10.34.5; yarn 1.22.22; build_cmd=pnpm run build; n_commits_in_window=419; commit 2 (edf8cfd9): worktree setup failed; pnpm_version_used=10.34.5"
+ },
+ {
+  "repo": "midudev/jsconf.es",
+  "window": "2024-12 to 2025-05",
+  "commits_probed": [
+   "087299d1f525d8534fd6509863c3637781dc74bd",
+   "9c0cd1daffd9ef5860ea0236cad352e02a979c96",
+   "83f9f17212ed82beafb06c0e11ef566d304436e3",
+   "d0199382429d84ae51e2302794f354733f53c22f",
+   "cde5a5c8d249fe9cf6334f650d891ab2080580a1",
+   "a04516331d0eaddcc9a50a37087e5a8149a7bd38"
+  ],
+  "install_ok_count": 5,
+  "build_ok_count": 5,
+  "median_install_seconds": 12.6,
+  "median_build_seconds": 11.6,
+  "slowest_build_seconds": 22.1,
+  "oldest_commit_builds": true,
+  "failures": [
+   {
+    "sha": "a04516331d0eaddcc9a50a37087e5a8149a7bd38",
+    "stage": "install",
+    "error_excerpt": "\u2009ERR_PNPM_LOCKFILE_BREAKING_CHANGE\u2009 Lockfile /home/hatch/workspace/history-build-screen/worktrees/wt_21821_a04516331d/pnpm-lock.yaml not compatible with current pnpm\n\nRun with the --force parameter to recreate the lockfile."
+   }
+  ],
+  "verdict": "broken",
+  "verdict_reason": "node v24.20.0; npm 10.9.4; pnpm 10.34.5; yarn 1.22.22; build_cmd=npm run build; n_commits_in_window=334; pnpm_version_used=10.34.5"
+ },
+ {
+  "repo": "santifer/cv-santiago",
+  "window": "2026-01 to 2026-06",
+  "commits_probed": [
+   "6a4315e1a1458e57079d075e9ed3d7537ad9ef39",
+   "5d0a0fe01e10d3f162de81daa3b0a9c2d46a66bd",
+   "30a603d5accb0e6cd3cea5ffef699a53c31f284e",
+   "5783f16e02144c1b5b6db79203c7d7ca5e2452c4",
+   "ccf058800a6c11eed0053bffc95488da29e4e6a4",
+   "c199dcef29274faf72270d2c12d20f9a70a23ebc"
+  ],
+  "install_ok_count": 6,
+  "build_ok_count": 5,
+  "median_install_seconds": 18.6,
+  "median_build_seconds": 50.1,
+  "slowest_build_seconds": 300.0,
+  "oldest_commit_builds": true,
+  "failures": [
+   {
+    "sha": "c199dcef29274faf72270d2c12d20f9a70a23ebc",
+    "stage": "timeout",
+    "error_excerpt": "[timeout during build after 300s]\n  \u2713 sweep index.html: 72.5K+ stars\n\n\u2705 GitHub stats updated\n\ud83d\udcac Updating Discord stats...\n"
+   }
+  ],
+  "verdict": "broken",
+  "verdict_reason": "node v24.20.0; npm 10.9.4; pnpm 10.34.5; yarn 1.22.22; build_cmd=npm run build; n_commits_in_window=275; commit 5: build timeout; coordinator-note: full re-probe after first run hit a transient worktree fs glitch on c199dcef; re-probe: same commit times out during build (>300s, build was fetching live API data)"
+ },
+ {
+  "repo": "CaliCastle/cali.so",
+  "window": "2026-04 to 2026-09",
+  "commits_probed": [
+   "1b1867772f0fb98dc7700b63f3e01541902c5d8c",
+   "3aca317693bdf5f5d77cd53abd5296ebfe08a9da",
+   "eba2ffb5bbb5fdac29c08bfb9014c0d4198bdc9b",
+   "40d5199e4f072be59c67375918fb3ab7a49bf183",
+   "b6f24396a23ea5291065f9a3e86a4362f1ab717a",
+   "653615ff9266f3cbe93321c2d8a3da4058b08bb6"
+  ],
+  "install_ok_count": 3,
+  "build_ok_count": 1,
+  "median_install_seconds": 17.0,
+  "median_build_seconds": 20.9,
+  "slowest_build_seconds": 171.4,
+  "oldest_commit_builds": true,
+  "failures": [
+   {
+    "sha": "3aca317693bdf5f5d77cd53abd5296ebfe08a9da",
+    "stage": "install",
+    "error_excerpt": "Progress: resolved 702, reused 561, downloaded 140, added 701\nProgress: resolved 702, reused 561, downloaded 141, added 702, done\n\u2009ENOENT\u2009 ENOENT: no such file or directory, open '/home/hatch/workspace/history-build-screen/worktrees/wt_22843_3aca317693/node_modules/.pnpm/baseline-browser-mapping@2.10.42/node_modules/baseline-browser-mapping/package.json'\n\npnpm: ENOENT: no such file or directory, open '/home/hatch/workspace/history-build-screen/worktrees/wt_22843_3aca317693/node_modules/.pnpm/baseline-browser-mapping@2.10.42/node_modules/baseline-browser-mapping/package.json'"
+   },
+   {
+    "sha": "eba2ffb5bbb5fdac29c08bfb9014c0d4198bdc9b",
+    "stage": "build",
+    "error_excerpt": "  63 |\n  64 | const redisRestUrl = z.url().refine(isHttpsUrl)\nExport encountered an error on /api/admin/media/assets/route: /api/admin/media/assets, exiting the build.\n\u2a2f Next.js build worker exited with code: 1 and signal: null\n\u2009ELIFECYCLE\u2009 Command failed with exit code 1."
+   },
+   {
+    "sha": "40d5199e4f072be59c67375918fb3ab7a49bf183",
+    "stage": "build",
+    "error_excerpt": "Error occurred prerendering page \"/en/blog/do-buttons-need-pointer-cursors\". Read more: https://nextjs.org/docs/messages/prerender-error\nExport encountered an error on /(en)/en/blog/[slug]/page: /en/blog/do-buttons-need-pointer-cursors, exiting the build.\n\u2a2f Next.js build worker exited with code: 1 and signal: null\n\u2009ELIFECYCLE\u2009 Command failed with exit code 1.\n\u2009WARN\u2009  Local package.json exists, but node_modules missing, did you mean to install?"
+   },
+   {
+    "sha": "b6f24396a23ea5291065f9a3e86a4362f1ab717a",
+    "stage": "install",
+    "error_excerpt": "\u2009ERR_PNPM_LOCKFILE_CONFIG_MISMATCH\u2009 Cannot proceed with the frozen installation. The current \"patchedDependencies\" configuration doesn't match the value found in the lockfile\n\nUpdate your lockfile using \"pnpm install --no-frozen-lockfile\""
+   },
+   {
+    "sha": "653615ff9266f3cbe93321c2d8a3da4058b08bb6",
+    "stage": "install",
+    "error_excerpt": "\u2009ERR_PNPM_LOCKFILE_CONFIG_MISMATCH\u2009 Cannot proceed with the frozen installation. The current \"patchedDependencies\" configuration doesn't match the value found in the lockfile\n\nUpdate your lockfile using \"pnpm install --no-frozen-lockfile\""
+   }
+  ],
+  "verdict": "broken",
+  "verdict_reason": "node v24.20.0; npm 10.9.4; pnpm 10.34.5; yarn 1.22.22; build_cmd=pnpm run build; n_commits_in_window=353; pnpm_version_used=10.34.5"
+ },
+ {
+  "repo": "aulianza/aulianza.id",
+  "window": "2023-05 to 2023-10",
+  "commits_probed": [
+   "46a87b44f77867cb2b31c73b22ab4a94bdb11ee3",
+   "8a6fc19f98e626bb49dfd42170ac215ae2e8bdb0",
+   "6d39a01d4fa34c371adfd5dbd4c18c4af2f990d3",
+   "304128150a3d5893628004040d98462117969c4b",
+   "360c8f22544e27baabc144420652262849cf5928",
+   "4e691b4dd91a183b861c9fa053187fe73ebebb9f"
+  ],
+  "install_ok_count": 1,
+  "build_ok_count": 0,
+  "median_install_seconds": 29.9,
+  "median_build_seconds": 0.0,
+  "slowest_build_seconds": 4.3,
+  "oldest_commit_builds": false,
+  "failures": [
+   {
+    "sha": "46a87b44f77867cb2b31c73b22ab4a94bdb11ee3",
+    "stage": "environment",
+    "error_excerpt": "  errno: -1,\n  code: 'EPERM',\n  syscall: 'chown',\n  path: '/home/hatch/workspace/history-build-screen/worktrees/wt_23086_46a87b44f7/.next/cache/config.json.3055505101'\n}"
+   },
+   {
+    "sha": "8a6fc19f98e626bb49dfd42170ac215ae2e8bdb0",
+    "stage": "install",
+    "error_excerpt": "info There appears to be trouble with your network connection. Retrying...\ninfo There appears to be trouble with your network connection. Retrying...\ninfo There appears to be trouble with your network connection. Retrying...\ninfo There appears to be trouble with your network connection. Retrying...\ninfo There appears to be trouble with your network connection. Retrying..."
+   },
+   {
+    "sha": "6d39a01d4fa34c371adfd5dbd4c18c4af2f990d3",
+    "stage": "install",
+    "error_excerpt": "yarn install v1.22.22\n[1/4] Resolving packages...\nerror Received malformed response from registry for \"react-use-draggable-scroll\". The registry may be down.\ninfo Visit https://yarnpkg.com/en/docs/cli/install for documentation about this command."
+   },
+   {
+    "sha": "304128150a3d5893628004040d98462117969c4b",
+    "stage": "install",
+    "error_excerpt": "    at Socket.emit (node:events:526:24)\n    at TCP.<anonymous> (node:net:362:12)\ninfo Visit https://yarnpkg.com/en/docs/cli/install for documentation about this command.\ninfo There appears to be trouble with your network connection. Retrying...\ninfo There appears to be trouble with your network connection. Retrying..."
+   },
+   {
+    "sha": "360c8f22544e27baabc144420652262849cf5928",
+    "stage": "install",
+    "error_excerpt": "info Visit https://yarnpkg.com/en/docs/cli/install for documentation about this command.\ninfo There appears to be trouble with your network connection. Retrying...\ninfo There appears to be trouble with your network connection. Retrying...\ninfo There appears to be trouble with your network connection. Retrying...\ninfo There appears to be trouble with your network connection. Retrying..."
+   },
+   {
+    "sha": "4e691b4dd91a183b861c9fa053187fe73ebebb9f",
+    "stage": "install",
+    "error_excerpt": "    at Socket.done (node:internal/tls/wrap:770:7)\n    at Socket.wrapper (node:events:639:12)\n    at Socket.emit (node:events:526:24)\n    at TCP.<anonymous> (node:net:362:12)\ninfo Visit https://yarnpkg.com/en/docs/cli/install for documentation about this command."
+   }
+  ],
+  "verdict": "broken",
+  "verdict_reason": "node v24.20.0; npm 10.9.4; pnpm 10.34.5; yarn 1.22.22; build_cmd=npm run build; n_commits_in_window=241"
+ },
+ {
+  "repo": "spencerwooo/onedrive-vercel-index",
+  "window": "2021-09 to 2022-02",
+  "commits_probed": [
+   "1dca4cabf32f4289c0ba6c24fe1a178fd756680e",
+   "1339c989251ac1ee4e022a6bbffa940dff2bbebc",
+   "e82680f2a7e9ff11ddafa2bb961181de3e266372",
+   "f916cd74c22a2597f01e07287ae481599997a39a",
+   "142b737c0aa1ed6b3671262dd9bc236451a8b991",
+   "c4583424dfbb3584ea1c77de5b3ad209438d775a"
+  ],
+  "install_ok_count": 0,
+  "build_ok_count": 0,
+  "median_install_seconds": 2.5,
+  "median_build_seconds": 0.0,
+  "slowest_build_seconds": 0.0,
+  "oldest_commit_builds": false,
+  "failures": [
+   {
+    "sha": "1dca4cabf32f4289c0ba6c24fe1a178fd756680e",
+    "stage": "install",
+    "error_excerpt": "npm error\nnpm error\nnpm error For a full report see:\nnpm error /home/hatch/.npm/_logs/2026-09-23T14_06_36_169Z-eresolve-report.txt\nnpm error A complete log of this run can be found in: /home/hatch/.npm/_logs/2026-09-23T14_06_36_169Z-debug-0.log"
+   },
+   {
+    "sha": "1339c989251ac1ee4e022a6bbffa940dff2bbebc",
+    "stage": "install",
+    "error_excerpt": "npm error\nnpm error\nnpm error For a full report see:\nnpm error /home/hatch/.npm/_logs/2026-09-23T14_06_49_800Z-eresolve-report.txt\nnpm error A complete log of this run can be found in: /home/hatch/.npm/_logs/2026-09-23T14_06_49_800Z-debug-0.log"
+   },
+   {
+    "sha": "e82680f2a7e9ff11ddafa2bb961181de3e266372",
+    "stage": "install",
+    "error_excerpt": "npm error\nnpm error\nnpm error For a full report see:\nnpm error /home/hatch/.npm/_logs/2026-09-23T14_06_55_142Z-eresolve-report.txt\nnpm error A complete log of this run can be found in: /home/hatch/.npm/_logs/2026-09-23T14_06_55_142Z-debug-0.log"
+   },
+   {
+    "sha": "f916cd74c22a2597f01e07287ae481599997a39a",
+    "stage": "install",
+    "error_excerpt": "\u2009ERR_PNPM_LOCKFILE_BREAKING_CHANGE\u2009 Lockfile /home/hatch/workspace/history-build-screen/worktrees/wt_21245_f916cd74c2/pnpm-lock.yaml not compatible with current pnpm\n\nRun with the --force parameter to recreate the lockfile."
+   },
+   {
+    "sha": "142b737c0aa1ed6b3671262dd9bc236451a8b991",
+    "stage": "install",
+    "error_excerpt": "\u2009ERR_PNPM_LOCKFILE_BREAKING_CHANGE\u2009 Lockfile /home/hatch/workspace/history-build-screen/worktrees/wt_21245_142b737c0a/pnpm-lock.yaml not compatible with current pnpm\n\nRun with the --force parameter to recreate the lockfile."
+   },
+   {
+    "sha": "c4583424dfbb3584ea1c77de5b3ad209438d775a",
+    "stage": "install",
+    "error_excerpt": "\u2009ERR_PNPM_LOCKFILE_BREAKING_CHANGE\u2009 Lockfile /home/hatch/workspace/history-build-screen/worktrees/wt_21245_c4583424df/pnpm-lock.yaml not compatible with current pnpm\n\nRun with the --force parameter to recreate the lockfile."
+   }
+  ],
+  "verdict": "broken",
+  "verdict_reason": "node v24.20.0; npm 10.9.4; pnpm 10.34.5; yarn 1.22.22; build_cmd=none-found; n_commits_in_window=204; pnpm_version_used=10.34.5"
+ },
+ {
+  "repo": "jp-quintana/react-shopping-cart",
+  "window": "2022-09 to 2023-02",
+  "commits_probed": [
+   "209724c86e431419e6fa2020a31b71175e265464",
+   "69f9346593762bd37c7f24386e2e010bb1563b20",
+   "2d5ce1b0effcf70985216333a7daba232b598ec4",
+   "779bc4dbf7d888c1d77420de9db972275ab30be2",
+   "94037771200f7039e0ebab3b944ecf00d9ea6bc7",
+   "b52746cd9f37c21409ecaf503f4eab0b8afcc820"
+  ],
+  "install_ok_count": 0,
+  "build_ok_count": 0,
+  "median_install_seconds": 228.8,
+  "median_build_seconds": 0.0,
+  "slowest_build_seconds": 0.0,
+  "oldest_commit_builds": false,
+  "failures": [
+   {
+    "sha": "209724c86e431419e6fa2020a31b71175e265464",
+    "stage": "timeout",
+    "error_excerpt": "[timeout during install after 300s]\nnpm warn deprecated har-validator@5.1.5: this library is no longer supported\nnpm warn deprecated uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.\nnpm warn deprecated request@2.88.2: request has been deprecated, see https://github.com/request/request/issues/3142\nnpm warn deprecated svgo@1.3.2: This SVGO version is no longer supported. Upgrade to v2.x.x.\nnpm warn deprecated popper.js@1.16.1: You can find the new Popper v2 at @popperjs/core, this package is dedicated to the legacy v1"
+   },
+   {
+    "sha": "69f9346593762bd37c7f24386e2e010bb1563b20",
+    "stage": "install",
+    "error_excerpt": "npm error gyp ERR! node -v v24.20.0\nnpm error gyp ERR! node-gyp -v v8.4.1\nnpm error gyp ERR! not ok \nnpm error Build failed with error code: 1\nnpm error A complete log of this run can be found in: /home/hatch/.npm/_logs/2026-09-23T14_31_35_681Z-debug-0.log"
+   },
+   {
+    "sha": "2d5ce1b0effcf70985216333a7daba232b598ec4",
+    "stage": "install",
+    "error_excerpt": "npm error gyp ERR! node -v v24.20.0\nnpm error gyp ERR! node-gyp -v v8.4.1\nnpm error gyp ERR! not ok \nnpm error Build failed with error code: 1\nnpm error A complete log of this run can be found in: /home/hatch/.npm/_logs/2026-09-23T14_36_08_169Z-debug-0.log"
+   },
+   {
+    "sha": "779bc4dbf7d888c1d77420de9db972275ab30be2",
+    "stage": "install",
+    "error_excerpt": "npm error gyp ERR! node -v v24.20.0\nnpm error gyp ERR! node-gyp -v v8.4.1\nnpm error gyp ERR! not ok \nnpm error Build failed with error code: 1\nnpm error A complete log of this run can be found in: /home/hatch/.npm/_logs/2026-09-23T14_40_08_306Z-debug-0.log"
+   },
+   {
+    "sha": "94037771200f7039e0ebab3b944ecf00d9ea6bc7",
+    "stage": "install",
+    "error_excerpt": "npm error gyp ERR! node -v v24.20.0\nnpm error gyp ERR! node-gyp -v v8.4.1\nnpm error gyp ERR! not ok \nnpm error Build failed with error code: 1\nnpm error A complete log of this run can be found in: /home/hatch/.npm/_logs/2026-09-23T14_43_49_709Z-debug-0.log"
+   },
+   {
+    "sha": "b52746cd9f37c21409ecaf503f4eab0b8afcc820",
+    "stage": "install",
+    "error_excerpt": "npm error gyp ERR! node -v v24.20.0\nnpm error gyp ERR! node-gyp -v v8.4.1\nnpm error gyp ERR! not ok \nnpm error Build failed with error code: 1\nnpm error A complete log of this run can be found in: /home/hatch/.npm/_logs/2026-09-23T14_47_02_526Z-debug-0.log"
+   }
+  ],
+  "verdict": "broken",
+  "verdict_reason": "node v24.20.0; npm 10.9.4; pnpm unknown; yarn unknown; build_cmd=none-found; n_commits_in_window=181; commit 0: install timeout"
+ },
+ {
+  "repo": "jackblatch/OneStopShop",
+  "window": "2023-04 to 2023-09",
+  "commits_probed": [
+   "92f49d100be98a421bdd18843dc115896005dbb2",
+   "a122cb730c835009eadcde8ee2afe5593eab51ee",
+   "edd0c98d411560f0ee39b3ce23033054358f8ac7",
+   "7c5ca959610b547d3b8b0162b69fe573aa08ebd8",
+   "9557ecdb739ec8f837c785b01e2ce1636ab68b82",
+   "e807357366059b5eaaed0ad80f01d1b500361400"
+  ],
+  "install_ok_count": 1,
+  "build_ok_count": 0,
+  "median_install_seconds": 22.6,
+  "median_build_seconds": 0.0,
+  "slowest_build_seconds": 1.3,
+  "oldest_commit_builds": false,
+  "failures": [
+   {
+    "sha": "92f49d100be98a421bdd18843dc115896005dbb2",
+    "stage": "environment",
+    "error_excerpt": "  errno: -1,\n  code: 'EPERM',\n  syscall: 'chown',\n  path: '/home/hatch/workspace/history-build-screen/worktrees/wt_22105_92f49d100b/.next/cache/config.json.1420438905'\n}"
+   },
+   {
+    "sha": "a122cb730c835009eadcde8ee2afe5593eab51ee",
+    "stage": "environment",
+    "error_excerpt": "npm error\nnpm error If you believe this might be a permissions issue, please double-check the\nnpm error permissions of the file and its containing directories, or try running\nnpm error the command again as root/Administrator.\nnpm error A complete log of this run can be found in: /home/hatch/.npm/_logs/2026-09-23T15_22_37_675Z-debug-0.log"
+   },
+   {
+    "sha": "edd0c98d411560f0ee39b3ce23033054358f8ac7",
+    "stage": "environment",
+    "error_excerpt": "npm error\nnpm error If you believe this might be a permissions issue, please double-check the\nnpm error permissions of the file and its containing directories, or try running\nnpm error the command again as root/Administrator.\nnpm error A complete log of this run can be found in: /home/hatch/.npm/_logs/2026-09-23T15_23_01_027Z-debug-0.log"
+   },
+   {
+    "sha": "7c5ca959610b547d3b8b0162b69fe573aa08ebd8",
+    "stage": "environment",
+    "error_excerpt": "npm error\nnpm error If you believe this might be a permissions issue, please double-check the\nnpm error permissions of the file and its containing directories, or try running\nnpm error the command again as root/Administrator.\nnpm error A complete log of this run can be found in: /home/hatch/.npm/_logs/2026-09-23T15_23_22_976Z-debug-0.log"
+   },
+   {
+    "sha": "9557ecdb739ec8f837c785b01e2ce1636ab68b82",
+    "stage": "environment",
+    "error_excerpt": "npm error\nnpm error If you believe this might be a permissions issue, please double-check the\nnpm error permissions of the file and its containing directories, or try running\nnpm error the command again as root/Administrator.\nnpm error A complete log of this run can be found in: /home/hatch/.npm/_logs/2026-09-23T15_23_43_030Z-debug-0.log"
+   },
+   {
+    "sha": "e807357366059b5eaaed0ad80f01d1b500361400",
+    "stage": "environment",
+    "error_excerpt": "npm error\nnpm error If you believe this might be a permissions issue, please double-check the\nnpm error permissions of the file and its containing directories, or try running\nnpm error the command again as root/Administrator.\nnpm error A complete log of this run can be found in: /home/hatch/.npm/_logs/2026-09-23T15_24_09_636Z-debug-0.log"
+   }
+  ],
+  "verdict": "environment_incomplete",
+  "verdict_reason": "All 6 probes blocked by sandbox EPERM/chown environment flakes (stage: environment on every failure); 1/6 installs completed, 0/6 builds attempted. Not scored as broken per task rules. Verdict enum extended with environment_incomplete for this record; see summary.json coverage_note."
+ },
+ {
+  "repo": "asdfghj1237890/mini-macau",
+  "window": "2026-04 to 2026-09",
+  "commits_probed": [
+   "60ed149b0238fb9fd7cbed441be5e0640716c209",
+   "0c12bbe80d288805e51fe8a47648bfdc807b11f4",
+   "5dec204354932537b422fa5f541c96038c592ad7",
+   "31a9c0104bc8866af43d46600222e91f01019120",
+   "e9b76a8134fd111d630d91cd1e31f992fc1bd09a",
+   "3008e246dab424e8c48365cb052deb2f27a86eb5"
+  ],
+  "install_ok_count": 6,
+  "build_ok_count": 6,
+  "median_install_seconds": 14.8,
+  "median_build_seconds": 20.7,
+  "slowest_build_seconds": 35.5,
+  "oldest_commit_builds": true,
+  "failures": [],
+  "verdict": "usable",
+  "verdict_reason": "node v24.20.0; npm 10.9.4; pnpm 10.34.5; yarn 1.22.22; build_cmd=npm run build; n_commits_in_window=171"
+ },
+ {
+  "repo": "achamorro-dev/eventoswiki",
+  "window": "2023-12 to 2024-05",
+  "commits_probed": [
+   "7d8044eea9e64497aa9893bba80ac01c0aca4a6d",
+   "437c29489a9ebb55142ded599ce84ab2663170e9",
+   "e126133bab23fd0a5c2fae34f63bae96c99657c4",
+   "cc7684f8bc7f4f42b95947e11e5738d88eda2943",
+   "0a820fed8672a24aac06d596f06664d0c7a8a55f",
+   "0fffd768975a95f11b16efe2bf8061f97f0aba59"
+  ],
+  "install_ok_count": 0,
+  "build_ok_count": 0,
+  "median_install_seconds": 1.1,
+  "median_build_seconds": 0.0,
+  "slowest_build_seconds": 0.0,
+  "oldest_commit_builds": false,
+  "failures": [
+   {
+    "sha": "7d8044eea9e64497aa9893bba80ac01c0aca4a6d",
+    "stage": "install",
+    "error_excerpt": "npm error\nnpm error aliases: clean-install, ic, install-clean, isntall-clean\nnpm error\nnpm error Run \"npm help ci\" for more info\nnpm error A complete log of this run can be found in: /home/hatch/.npm/_logs/2026-09-23T15_22_34_106Z-debug-0.log"
+   },
+   {
+    "sha": "437c29489a9ebb55142ded599ce84ab2663170e9",
+    "stage": "install",
+    "error_excerpt": "\u2009ERR_PNPM_LOCKFILE_BREAKING_CHANGE\u2009 Lockfile /home/hatch/workspace/history-build-screen/worktrees/wt_22184_437c29489a/pnpm-lock.yaml not compatible with current pnpm\n\nRun with the --force parameter to recreate the lockfile."
+   },
+   {
+    "sha": "e126133bab23fd0a5c2fae34f63bae96c99657c4",
+    "stage": "install",
+    "error_excerpt": "\u2009ERR_PNPM_LOCKFILE_BREAKING_CHANGE\u2009 Lockfile /home/hatch/workspace/history-build-screen/worktrees/wt_22184_e126133bab/pnpm-lock.yaml not compatible with current pnpm\n\nRun with the --force parameter to recreate the lockfile."
+   },
+   {
+    "sha": "cc7684f8bc7f4f42b95947e11e5738d88eda2943",
+    "stage": "install",
+    "error_excerpt": "\u2009ERR_PNPM_LOCKFILE_BREAKING_CHANGE\u2009 Lockfile /home/hatch/workspace/history-build-screen/worktrees/wt_22184_cc7684f8bc/pnpm-lock.yaml not compatible with current pnpm\n\nRun with the --force parameter to recreate the lockfile."
+   },
+   {
+    "sha": "0a820fed8672a24aac06d596f06664d0c7a8a55f",
+    "stage": "install",
+    "error_excerpt": "\u2009ERR_PNPM_LOCKFILE_BREAKING_CHANGE\u2009 Lockfile /home/hatch/workspace/history-build-screen/worktrees/wt_22184_0a820fed86/pnpm-lock.yaml not compatible with current pnpm\n\nRun with the --force parameter to recreate the lockfile."
+   },
+   {
+    "sha": "0fffd768975a95f11b16efe2bf8061f97f0aba59",
+    "stage": "install",
+    "error_excerpt": "\u2009ERR_PNPM_LOCKFILE_BREAKING_CHANGE\u2009 Lockfile /home/hatch/workspace/history-build-screen/worktrees/wt_22184_0fffd76897/pnpm-lock.yaml not compatible with current pnpm\n\nRun with the --force parameter to recreate the lockfile."
+   }
+  ],
+  "verdict": "broken",
+  "verdict_reason": "node v24.20.0; npm 10.9.4; pnpm 10.34.5; yarn 1.22.22; build_cmd=none-found; n_commits_in_window=159; pnpm_version_used=10.34.5"
+ },
+ {
+  "repo": "CookSleep/gpt_image_playground",
+  "window": "2026-04 to 2026-09",
+  "commits_probed": [
+   "2c1e10e6769f4ac49566465b10a2be8398e36cdb",
+   "7666b8f395a6862131a7ecb131361fd3203da988",
+   "d624e025be4203b9d3c9005c10672627ecd57173",
+   "9ff0d857c02e38958b7e19bb680ac24b9ec69552",
+   "b78fe149986e94bc712427ff0fa220285005fae1",
+   "6decf3c1ee06d2149fa8a67724aeba8a5de37e32"
+  ],
+  "install_ok_count": 6,
+  "build_ok_count": 6,
+  "median_install_seconds": 24.0,
+  "median_build_seconds": 49.8,
+  "slowest_build_seconds": 54.1,
+  "oldest_commit_builds": true,
+  "failures": [],
+  "verdict": "usable",
+  "verdict_reason": "node v24.20.0; npm 10.9.4; pnpm unknown; yarn unknown; build_cmd=npm run build; n_commits_in_window=153"
+ },
+ {
+  "repo": "mehrabmp/kara-shop",
+  "window": "2022-07 to 2022-12",
+  "commits_probed": [
+   "92180c4c872fabd32920c1b256bddb323dee23a5",
+   "15243a11f824f96b9807d5b37c5c8fba68ed170b",
+   "a191ce3bfbd04e499d0d5af6ed391a27ab4baf49",
+   "8021695a095f2fc4cf2283edb49221698907ad7b",
+   "1ea2381c7c832b1aed7094933cecc368783277da",
+   "b7a939a4613cea892db52cfaf3a7746b7d89273d"
+  ],
+  "install_ok_count": 0,
+  "build_ok_count": 0,
+  "median_install_seconds": 1.1,
+  "median_build_seconds": 0.0,
+  "slowest_build_seconds": 0.0,
+  "oldest_commit_builds": false,
+  "failures": [
+   {
+    "sha": "92180c4c872fabd32920c1b256bddb323dee23a5",
+    "stage": "timeout",
+    "error_excerpt": "[timeout during install after 300s]\nerror https://registry.yarnpkg.com/@next/swc-linux-arm64-gnu/-/swc-linux-arm64-gnu-12.2.2.tgz: aborted\ninfo There appears to be trouble with your network connection. Retrying...\ninfo There appears to be trouble with your network connection. Retrying...\nerror https://registry.yarnpkg.com/@next/swc-linux-x64-gnu/-/swc-linux-x64-gnu-12.2.2.tgz: aborted\ninfo There appears to be trouble with your network connection. Retrying..."
+   },
+   {
+    "sha": "15243a11f824f96b9807d5b37c5c8fba68ed170b",
+    "stage": "install",
+    "error_excerpt": "yarn install v1.22.22\n[1/5] Validating package.json...\nerror kara-shop@0.1.0: The engine \"node\" is incompatible with this module. Expected version \"^16.15.0\". Got \"24.20.0\"\nerror Found incompatible module.\ninfo Visit https://yarnpkg.com/en/docs/cli/install for documentation about this command."
+   },
+   {
+    "sha": "a191ce3bfbd04e499d0d5af6ed391a27ab4baf49",
+    "stage": "install",
+    "error_excerpt": "yarn install v1.22.22\n[1/5] Validating package.json...\nerror kara-shop@0.1.0: The engine \"node\" is incompatible with this module. Expected version \"^16.15.0\". Got \"24.20.0\"\nerror Found incompatible module.\ninfo Visit https://yarnpkg.com/en/docs/cli/install for documentation about this command."
+   },
+   {
+    "sha": "8021695a095f2fc4cf2283edb49221698907ad7b",
+    "stage": "install",
+    "error_excerpt": "yarn install v1.22.22\n[1/5] Validating package.json...\nerror kara-shop@1.0.0: The engine \"node\" is incompatible with this module. Expected version \"^14 || ^16 || ^18 \". Got \"24.20.0\"\nerror Found incompatible module.\ninfo Visit https://yarnpkg.com/en/docs/cli/install for documentation about this command."
+   },
+   {
+    "sha": "1ea2381c7c832b1aed7094933cecc368783277da",
+    "stage": "install",
+    "error_excerpt": "\u2009ERR_PNPM_LOCKFILE_BREAKING_CHANGE\u2009 Lockfile /home/hatch/workspace/history-build-screen/worktrees/wt_23685_1ea2381c7c/pnpm-lock.yaml not compatible with current pnpm\n\nRun with the --force parameter to recreate the lockfile."
+   },
+   {
+    "sha": "b7a939a4613cea892db52cfaf3a7746b7d89273d",
+    "stage": "install",
+    "error_excerpt": "\u2009ERR_PNPM_LOCKFILE_BREAKING_CHANGE\u2009 Lockfile /home/hatch/workspace/history-build-screen/worktrees/wt_23685_b7a939a461/pnpm-lock.yaml not compatible with current pnpm\n\nRun with the --force parameter to recreate the lockfile."
+   }
+  ],
+  "verdict": "broken",
+  "verdict_reason": "node v24.20.0; npm 10.9.4; pnpm 10.34.5; yarn 1.22.22; build_cmd=none-found; n_commits_in_window=139; commit 0: install timeout; pnpm_version_used=10.34.5"
+ },
+ {
+  "repo": "devops329/jwt-pizza",
+  "window": "2024-04 to 2024-09",
+  "commits_probed": [
+   "71f2c17372fb5340777114a1d0e51e14e0a90265",
+   "751cc6a41206619653bb9289b51b605eb72dcf9a",
+   "7b1ba30456711de72644fb19b4f377e7aed0ff0b",
+   "53e0fbdc2032319feff745ebd4d31fe35534fb64",
+   "5c475cf66eab2801402ca9f8be58020d00820edf",
+   "912b0c35f79cbe0f1f1abfa2666ac3244dbd7b96"
+  ],
+  "install_ok_count": 6,
+  "build_ok_count": 5,
+  "median_install_seconds": 2.0,
+  "median_build_seconds": 3.5,
+  "slowest_build_seconds": 4.3,
+  "oldest_commit_builds": true,
+  "failures": [
+   {
+    "sha": "7b1ba30456711de72644fb19b4f377e7aed0ff0b",
+    "stage": "build",
+    "error_excerpt": "file: \u001b[36m/home/hatch/workspace/history-build-screen/worktrees/wt_12293_7b1ba30456/src/app/app.jsx\u001b[31m\n    at getRollupError (file:///home/hatch/workspace/history-build-screen/worktrees/wt_12293_7b1ba30456/node_modules/rollup/dist/es/shared/parseAst.js:392:41)\n    at error (file:///home/hatch/workspace/history-build-screen/worktrees/wt_12293_7b1ba30456/node_modules/rollup/dist/es/shared/parseAst.js:388:42)\n    at ModuleLoader.handleInvalidResolvedId (file:///home/hatch/workspace/history-build-screen/worktrees/wt_12293_7b1ba30456/node_modules/rollup/dist/es/shared/node-entry.js:18925:24)\n    at file:///home/hatch/workspace/history-build-screen/worktrees/wt_12293_7b1ba30456/node_modules/rollup/dist/es/shared/node-entry.js:18885:26\u001b[39m"
+   }
+  ],
+  "verdict": "broken",
+  "verdict_reason": "node v24.20.0; npm 10.9.4; pnpm unknown; yarn unknown; build_cmd=npm run build; n_commits_in_window=125"
+ },
+ {
+  "repo": "spliit-app/spliit",
+  "window": "2023-12 to 2024-05",
+  "commits_probed": [
+   "ed55c696cd083bfaa5429082a9c5edd4ebde0cd8",
+   "a21ba337f6070f451f3d3ad172d3b54e9f93261d",
+   "4566900f9cfcc837e56c590c9344d09a4bc50820",
+   "ff6b84ff8818ee96f1d6cf479f72b2127eddec43",
+   "e6467b41fccefe1ceb39dd1ed6343290e152be85",
+   "0c054991070e4e9c177de17d06dff7cb020ca226"
+  ],
+  "install_ok_count": 1,
+  "build_ok_count": 0,
+  "median_install_seconds": 300.0,
+  "median_build_seconds": 0.0,
+  "slowest_build_seconds": 84.6,
+  "oldest_commit_builds": false,
+  "failures": [
+   {
+    "sha": "ed55c696cd083bfaa5429082a9c5edd4ebde0cd8",
+    "stage": "install",
+    "error_excerpt": "npm error\nnpm error aliases: clean-install, ic, install-clean, isntall-clean\nnpm error\nnpm error Run \"npm help ci\" for more info\nnpm error A complete log of this run can be found in: /home/hatch/.npm/_logs/2026-09-23T14_37_10_645Z-debug-0.log"
+   },
+   {
+    "sha": "a21ba337f6070f451f3d3ad172d3b54e9f93261d",
+    "stage": "timeout",
+    "error_excerpt": "[timeout during install after 300s]\n(no output)"
+   },
+   {
+    "sha": "4566900f9cfcc837e56c590c9344d09a4bc50820",
+    "stage": "timeout",
+    "error_excerpt": "[timeout during install after 300s]\n(no output)"
+   },
+   {
+    "sha": "ff6b84ff8818ee96f1d6cf479f72b2127eddec43",
+    "stage": "timeout",
+    "error_excerpt": "[timeout during install after 300s]\nnpm notice This endpoint is being retired. Use the bulk advisory endpoint instead. See the following docs for more info: https://api-docs.npmjs.com/#tag/Audit"
+   },
+   {
+    "sha": "e6467b41fccefe1ceb39dd1ed6343290e152be85",
+    "stage": "timeout",
+    "error_excerpt": "[timeout during install after 300s]\n(no output)"
+   },
+   {
+    "sha": "0c054991070e4e9c177de17d06dff7cb020ca226",
+    "stage": "build",
+    "error_excerpt": "\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 5 |\u001b[39m \u001b[36mimport\u001b[39m { \u001b[33mActivity\u001b[39m\u001b[33m,\u001b[39m \u001b[33mActivityType\u001b[39m\u001b[33m,\u001b[39m \u001b[33mParticipant\u001b[39m } \u001b[36mfrom\u001b[39m \u001b[32m'@prisma/client'\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m   |\u001b[39m          \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 6 |\u001b[39m \u001b[36mimport\u001b[39m { \u001b[33mChevronRight\u001b[39m } \u001b[36mfrom\u001b[39m \u001b[32m'lucide-react'\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 7 |\u001b[39m \u001b[36mimport\u001b[39m \u001b[33mLink\u001b[39m \u001b[36mfrom\u001b[39m \u001b[32m'next/link'\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 8 |\u001b[39m \u001b[36mimport\u001b[39m { useRouter } \u001b[36mfrom\u001b[39m \u001b[32m'next/navigation'\u001b[39m\u001b[0m"
+   }
+  ],
+  "verdict": "broken",
+  "verdict_reason": "node v24.20.0; npm 10.9.4; pnpm unknown; yarn unknown; build_cmd=npm run build; n_commits_in_window=124; commit 1: install timeout; commit 2: install timeout; commit 3: install timeout; commit 4: install timeout"
+ },
+ {
+  "repo": "FleetAdmiralJakob/Portfolio",
+  "window": "2023-10 to 2024-03",
+  "commits_probed": [
+   "acd1601c83f082e3c536a2cf8096d68f8da36071",
+   "98edf1a713656c1e3850c1a5b9526a03c8d9e3a0",
+   "a3767845d42a5522a06e0484216772831cb1ba0e",
+   "c52657f612b32cd5e0c096e278e3d34a79fa85cc",
+   "d6bc57a35fdb9f8931ed31c32fd945d8bfc5d449",
+   "2b86b79377f35a1aa681691bd79db7095ec5679d"
+  ],
+  "install_ok_count": 0,
+  "build_ok_count": 0,
+  "median_install_seconds": 1.2,
+  "median_build_seconds": 0.0,
+  "slowest_build_seconds": 0.0,
+  "oldest_commit_builds": false,
+  "failures": [
+   {
+    "sha": "acd1601c83f082e3c536a2cf8096d68f8da36071",
+    "stage": "install",
+    "error_excerpt": "\u2009ERR_PNPM_LOCKFILE_BREAKING_CHANGE\u2009 Lockfile /home/hatch/workspace/history-build-screen/worktrees/wt_24649_acd1601c83/pnpm-lock.yaml not compatible with current pnpm\n\nRun with the --force parameter to recreate the lockfile."
+   },
+   {
+    "sha": "98edf1a713656c1e3850c1a5b9526a03c8d9e3a0",
+    "stage": "install",
+    "error_excerpt": "\u2009ERR_PNPM_LOCKFILE_BREAKING_CHANGE\u2009 Lockfile /home/hatch/workspace/history-build-screen/worktrees/wt_24649_98edf1a713/pnpm-lock.yaml not compatible with current pnpm\n\nRun with the --force parameter to recreate the lockfile."
+   },
+   {
+    "sha": "a3767845d42a5522a06e0484216772831cb1ba0e",
+    "stage": "install",
+    "error_excerpt": "\u2009ERR_PNPM_LOCKFILE_BREAKING_CHANGE\u2009 Lockfile /home/hatch/workspace/history-build-screen/worktrees/wt_24649_a3767845d4/pnpm-lock.yaml not compatible with current pnpm\n\nRun with the --force parameter to recreate the lockfile."
+   },
+   {
+    "sha": "c52657f612b32cd5e0c096e278e3d34a79fa85cc",
+    "stage": "install",
+    "error_excerpt": "\u2009ERR_PNPM_LOCKFILE_BREAKING_CHANGE\u2009 Lockfile /home/hatch/workspace/history-build-screen/worktrees/wt_24649_c52657f612/pnpm-lock.yaml not compatible with current pnpm\n\nRun with the --force parameter to recreate the lockfile."
+   },
+   {
+    "sha": "d6bc57a35fdb9f8931ed31c32fd945d8bfc5d449",
+    "stage": "install",
+    "error_excerpt": "\u2009ERR_PNPM_LOCKFILE_BREAKING_CHANGE\u2009 Lockfile /home/hatch/workspace/history-build-screen/worktrees/wt_24649_d6bc57a35f/pnpm-lock.yaml not compatible with current pnpm\n\nRun with the --force parameter to recreate the lockfile."
+   },
+   {
+    "sha": "2b86b79377f35a1aa681691bd79db7095ec5679d",
+    "stage": "install",
+    "error_excerpt": "\u2009ERR_PNPM_LOCKFILE_BREAKING_CHANGE\u2009 Lockfile /home/hatch/workspace/history-build-screen/worktrees/wt_24649_2b86b79377/pnpm-lock.yaml not compatible with current pnpm\n\nRun with the --force parameter to recreate the lockfile."
+   }
+  ],
+  "verdict": "broken",
+  "verdict_reason": "node v24.20.0; npm 10.9.4; pnpm 10.34.5; yarn 1.22.22; build_cmd=none-found; n_commits_in_window=20; pnpm_version_used=10.34.5"
+ },
+ {
+  "repo": "samuelkraft/samuelkraft-next",
+  "window": "2021-01 to 2021-06",
+  "commits_probed": [
+   "26085f345f076461cce5d645d6d973f33837ef10",
+   "c0531f6c71848b480a0c5a193529756760e41f8c",
+   "eb2a9197ed7b622055ec707283ce080dcf953b75",
+   "a6059ee4632f1653b944f9a133b4cdfe8b90065d",
+   "551b28b3b8bde198691932782b1f85f98887de1c",
+   "da789207a72adafd5e3c1f811a7e7f05048f39dd"
+  ],
+  "install_ok_count": 0,
+  "build_ok_count": 0,
+  "median_install_seconds": 30.1,
+  "median_build_seconds": 0.0,
+  "slowest_build_seconds": 0.0,
+  "oldest_commit_builds": false,
+  "failures": [
+   {
+    "sha": "26085f345f076461cce5d645d6d973f33837ef10",
+    "stage": "install",
+    "error_excerpt": "no lockfile (package-lock.json/pnpm-lock.yaml/yarn.lock) present at commit 26085f345f076461cce5d645d6d973f33837ef10"
+   },
+   {
+    "sha": "c0531f6c71848b480a0c5a193529756760e41f8c",
+    "stage": "install",
+    "error_excerpt": "error https://registry.yarnpkg.com/clipboard/-/clipboard-2.0.6.tgz: aborted\ninfo There appears to be trouble with your network connection. Retrying...\ninfo There appears to be trouble with your network connection. Retrying...\ninfo There appears to be trouble with your network connection. Retrying...\ninfo There appears to be trouble with your network connection. Retrying..."
+   },
+   {
+    "sha": "eb2a9197ed7b622055ec707283ce080dcf953b75",
+    "stage": "install",
+    "error_excerpt": "error https://registry.yarnpkg.com/tiny-emitter/-/tiny-emitter-2.1.0.tgz: aborted\ninfo There appears to be trouble with your network connection. Retrying...\ninfo There appears to be trouble with your network connection. Retrying...\ninfo There appears to be trouble with your network connection. Retrying...\ninfo There appears to be trouble with your network connection. Retrying..."
+   },
+   {
+    "sha": "a6059ee4632f1653b944f9a133b4cdfe8b90065d",
+    "stage": "install",
+    "error_excerpt": "error https://registry.yarnpkg.com/clipboard/-/clipboard-2.0.6.tgz: aborted\ninfo There appears to be trouble with your network connection. Retrying...\ninfo There appears to be trouble with your network connection. Retrying...\ninfo There appears to be trouble with your network connection. Retrying...\ninfo There appears to be trouble with your network connection. Retrying..."
+   },
+   {
+    "sha": "551b28b3b8bde198691932782b1f85f98887de1c",
+    "stage": "install",
+    "error_excerpt": "    at TLSSocket.socketOnEnd (node:_http_client:790:25)\n    at TLSSocket.emit (node:events:526:24)\n    at endReadableNT (node:internal/streams/readable:1757:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\ninfo Visit https://yarnpkg.com/en/docs/cli/install for documentation about this command."
+   },
+   {
+    "sha": "da789207a72adafd5e3c1f811a7e7f05048f39dd",
+    "stage": "install",
+    "error_excerpt": "info Visit https://yarnpkg.com/en/docs/cli/install for documentation about this command.\ninfo There appears to be trouble with your network connection. Retrying...\ninfo There appears to be trouble with your network connection. Retrying...\ninfo There appears to be trouble with your network connection. Retrying...\ninfo There appears to be trouble with your network connection. Retrying..."
+   }
+  ],
+  "verdict": "broken",
+  "verdict_reason": "node v24.20.0; npm 10.9.4; pnpm 10.34.5; yarn 1.22.22; build_cmd=none-found; n_commits_in_window=119; pnpm_version_used=10.34.5"
+ },
+ {
+  "repo": "dreyfus92/astro-portfolio",
+  "window": "2022-11 to 2023-04",
+  "commits_probed": [
+   "010f0e5cd3dfd009d94df68274d1086058200221",
+   "01c83091152182c6133ecbac42ce86ce338e9b1e",
+   "28135cefc28538e7348ae210c08ee1f65e6da161",
+   "0a90fb6eee3a9d26e5212c5f695f32bdced69287",
+   "9e811b80f7fe5696f5db3ca7d5a4bfda01851103",
+   "b8c52ee835469774faf65ed4e3be92c14f4da9e5"
+  ],
+  "install_ok_count": 0,
+  "build_ok_count": 0,
+  "median_install_seconds": 1.7,
+  "median_build_seconds": 0.0,
+  "slowest_build_seconds": 0.0,
+  "oldest_commit_builds": false,
+  "failures": [
+   {
+    "sha": "010f0e5cd3dfd009d94df68274d1086058200221",
+    "stage": "install",
+    "error_excerpt": "\u2009ERR_PNPM_LOCKFILE_BREAKING_CHANGE\u2009 Lockfile /home/hatch/workspace/history-build-screen/worktrees/wt_14894_010f0e5cd3/pnpm-lock.yaml not compatible with current pnpm\n\nRun with the --force parameter to recreate the lockfile."
+   },
+   {
+    "sha": "01c83091152182c6133ecbac42ce86ce338e9b1e",
+    "stage": "install",
+    "error_excerpt": "\u2009ERR_PNPM_LOCKFILE_BREAKING_CHANGE\u2009 Lockfile /home/hatch/workspace/history-build-screen/worktrees/wt_14894_01c8309115/pnpm-lock.yaml not compatible with current pnpm\n\nRun with the --force parameter to recreate the lockfile."
+   },
+   {
+    "sha": "28135cefc28538e7348ae210c08ee1f65e6da161",
+    "stage": "install",
+    "error_excerpt": "\u2009ERR_PNPM_LOCKFILE_BREAKING_CHANGE\u2009 Lockfile /home/hatch/workspace/history-build-screen/worktrees/wt_14894_28135cefc2/pnpm-lock.yaml not compatible with current pnpm\n\nRun with the --force parameter to recreate the lockfile."
+   },
+   {
+    "sha": "0a90fb6eee3a9d26e5212c5f695f32bdced69287",
+    "stage": "install",
+    "error_excerpt": "\u2009ERR_PNPM_LOCKFILE_BREAKING_CHANGE\u2009 Lockfile /home/hatch/workspace/history-build-screen/worktrees/wt_14894_0a90fb6eee/pnpm-lock.yaml not compatible with current pnpm\n\nRun with the --force parameter to recreate the lockfile."
+   },
+   {
+    "sha": "9e811b80f7fe5696f5db3ca7d5a4bfda01851103",
+    "stage": "install",
+    "error_excerpt": "\u2009ERR_PNPM_LOCKFILE_BREAKING_CHANGE\u2009 Lockfile /home/hatch/workspace/history-build-screen/worktrees/wt_14894_9e811b80f7/pnpm-lock.yaml not compatible with current pnpm\n\nRun with the --force parameter to recreate the lockfile."
+   },
+   {
+    "sha": "b8c52ee835469774faf65ed4e3be92c14f4da9e5",
+    "stage": "install",
+    "error_excerpt": "\u2009ERR_PNPM_LOCKFILE_BREAKING_CHANGE\u2009 Lockfile /home/hatch/workspace/history-build-screen/worktrees/wt_14894_b8c52ee835/pnpm-lock.yaml not compatible with current pnpm\n\nRun with the --force parameter to recreate the lockfile."
+   }
+  ],
+  "verdict": "broken",
+  "verdict_reason": "node v24.20.0; npm 10.9.4; pnpm 10.34.5; yarn 1.22.22; build_cmd=none-found; n_commits_in_window=114; pnpm_version_used=10.34.5"
+ },
+ {
+  "repo": "PasteBar/PasteBarApp",
+  "window": "2024-04 to 2024-09",
+  "commits_probed": [
+   "f124571b817ce22165a19d5da6803db5d290dd01",
+   "2426bf3c5f3d6f02f6187eaea15c6d8a4e75e0c4",
+   "d6683404e3c265b84fc858433e8198b94dc88572",
+   "d97e7050ca8b416e1215136a9d20f244b5f25aee",
+   "b16ebe2aac22d3e653ff5a4ce0945ef3bd612f20",
+   "2a8ffd77a16e12deb97b06b945d0dc7f8b119884"
+  ],
+  "install_ok_count": 4,
+  "build_ok_count": 0,
+  "median_install_seconds": 87.5,
+  "median_build_seconds": 1.9,
+  "slowest_build_seconds": 2.0,
+  "oldest_commit_builds": false,
+  "failures": [
+   {
+    "sha": "f124571b817ce22165a19d5da6803db5d290dd01",
+    "stage": "install",
+    "error_excerpt": "npm error\nnpm error aliases: clean-install, ic, install-clean, isntall-clean\nnpm error\nnpm error Run \"npm help ci\" for more info\nnpm error A complete log of this run can be found in: /home/hatch/.npm/_logs/2026-09-23T14_27_15_740Z-debug-0.log"
+   },
+   {
+    "sha": "2426bf3c5f3d6f02f6187eaea15c6d8a4e75e0c4",
+    "stage": "environment",
+    "error_excerpt": "\n> pastebar-app@0.0.8 build\n> tauri build --config src-tauri/tauri.release.conf.json\n\n       Error failed to get cargo metadata: No such file or directory (os error 2)"
+   },
+   {
+    "sha": "d6683404e3c265b84fc858433e8198b94dc88572",
+    "stage": "environment",
+    "error_excerpt": "\n> pastebar-app@0.0.18 build\n> tauri build\n\n       Error failed to get cargo metadata: No such file or directory (os error 2)"
+   },
+   {
+    "sha": "d97e7050ca8b416e1215136a9d20f244b5f25aee",
+    "stage": "environment",
+    "error_excerpt": "\n> pastebar-app@0.2.0 build\n> tauri build\n\n       Error failed to get cargo metadata: No such file or directory (os error 2)"
+   },
+   {
+    "sha": "b16ebe2aac22d3e653ff5a4ce0945ef3bd612f20",
+    "stage": "install",
+    "error_excerpt": "npm error\nnpm error aliases: clean-install, ic, install-clean, isntall-clean\nnpm error\nnpm error Run \"npm help ci\" for more info\nnpm error A complete log of this run can be found in: /home/hatch/.npm/_logs/2026-09-23T14_32_42_146Z-debug-0.log"
+   },
+   {
+    "sha": "2a8ffd77a16e12deb97b06b945d0dc7f8b119884",
+    "stage": "environment",
+    "error_excerpt": "\n> pastebar-app@0.6.0 app:build\n> tauri build --config src-tauri/tauri.release.conf.json\n\n       Error failed to get cargo metadata: No such file or directory (os error 2)"
+   }
+  ],
+  "verdict": "broken",
+  "verdict_reason": "node v24.20.0; npm 10.9.4; pnpm unknown; yarn unknown; build_cmd=npm run build; n_commits_in_window=111; coordinator-note: 4 build failures reclassified to environment (tauri build requires cargo/Rust, a missing system toolchain per task rules); verdict unchanged (2 genuine install failures)"
+ },
+ {
+  "repo": "zenorocha/zenorocha.com",
+  "window": "2013-01 to 2013-06",
+  "commits_probed": [
+   "75f2b4309a106f7546ee9be7f08f03ce52a1549d",
+   "1a5774d26dfb07494c94a808ffe3e7b3c1f49e24",
+   "35fd8b9e43eaaad41433ba00bcb8907967f48024",
+   "ec7d33b9f3e85f0bfb42c9e37c47df5f5e2ba69d",
+   "135c8f46901b73c64fca976296da78237bfc270a",
+   "efdb63e62727cea9c59ab2fac1740e2681c62e6f"
+  ],
+  "install_ok_count": 0,
+  "build_ok_count": 0,
+  "median_install_seconds": 0.0,
+  "median_build_seconds": 0.0,
+  "slowest_build_seconds": 0.0,
+  "oldest_commit_builds": false,
+  "failures": [
+   {
+    "sha": "75f2b4309a106f7546ee9be7f08f03ce52a1549d",
+    "stage": "install",
+    "error_excerpt": "no lockfile (package-lock.json/pnpm-lock.yaml/yarn.lock) present at commit 75f2b4309a106f7546ee9be7f08f03ce52a1549d"
+   },
+   {
+    "sha": "1a5774d26dfb07494c94a808ffe3e7b3c1f49e24",
+    "stage": "install",
+    "error_excerpt": "no lockfile (package-lock.json/pnpm-lock.yaml/yarn.lock) present at commit 1a5774d26dfb07494c94a808ffe3e7b3c1f49e24"
+   },
+   {
+    "sha": "35fd8b9e43eaaad41433ba00bcb8907967f48024",
+    "stage": "install",
+    "error_excerpt": "no lockfile (package-lock.json/pnpm-lock.yaml/yarn.lock) present at commit 35fd8b9e43eaaad41433ba00bcb8907967f48024"
+   },
+   {
+    "sha": "ec7d33b9f3e85f0bfb42c9e37c47df5f5e2ba69d",
+    "stage": "install",
+    "error_excerpt": "no lockfile (package-lock.json/pnpm-lock.yaml/yarn.lock) present at commit ec7d33b9f3e85f0bfb42c9e37c47df5f5e2ba69d"
+   },
+   {
+    "sha": "135c8f46901b73c64fca976296da78237bfc270a",
+    "stage": "install",
+    "error_excerpt": "no lockfile (package-lock.json/pnpm-lock.yaml/yarn.lock) present at commit 135c8f46901b73c64fca976296da78237bfc270a"
+   },
+   {
+    "sha": "efdb63e62727cea9c59ab2fac1740e2681c62e6f",
+    "stage": "install",
+    "error_excerpt": "no lockfile (package-lock.json/pnpm-lock.yaml/yarn.lock) present at commit efdb63e62727cea9c59ab2fac1740e2681c62e6f"
+   }
+  ],
+  "verdict": "broken",
+  "verdict_reason": "node v24.20.0; npm 10.9.4; pnpm unknown; yarn unknown; build_cmd=none-found; n_commits_in_window=110; pnpm_version_used=unknown"
+ },
+ {
+  "repo": "mldangelo/personal-site",
+  "window": "2016-01 to 2016-06",
+  "commits_probed": [
+   "c93eccd1519f8d026172296ee1ad58a8dc4bcc66",
+   "2fbc31b0fa6930bedf0c0ecbdcca4daf13fb89e7",
+   "1f100d4ba08d5a134b2697f48d6a422a85229c46",
+   "761f75dda7bffd719b26ceac776afd19ef213a1d",
+   "2a0f28a9d8952b90da85f6c4b7ba196e608a0630",
+   "f30b7dee37f8c016e0424c2b54f22c2e5862b36c"
+  ],
+  "install_ok_count": 0,
+  "build_ok_count": 0,
+  "median_install_seconds": 0.0,
+  "median_build_seconds": 0.0,
+  "slowest_build_seconds": 0.0,
+  "oldest_commit_builds": false,
+  "failures": [
+   {
+    "sha": "c93eccd1519f8d026172296ee1ad58a8dc4bcc66",
+    "stage": "install",
+    "error_excerpt": "no lockfile (package-lock.json/pnpm-lock.yaml/yarn.lock) present at commit c93eccd1519f8d026172296ee1ad58a8dc4bcc66"
+   },
+   {
+    "sha": "2fbc31b0fa6930bedf0c0ecbdcca4daf13fb89e7",
+    "stage": "install",
+    "error_excerpt": "no lockfile (package-lock.json/pnpm-lock.yaml/yarn.lock) present at commit 2fbc31b0fa6930bedf0c0ecbdcca4daf13fb89e7"
+   },
+   {
+    "sha": "1f100d4ba08d5a134b2697f48d6a422a85229c46",
+    "stage": "install",
+    "error_excerpt": "no lockfile (package-lock.json/pnpm-lock.yaml/yarn.lock) present at commit 1f100d4ba08d5a134b2697f48d6a422a85229c46"
+   },
+   {
+    "sha": "761f75dda7bffd719b26ceac776afd19ef213a1d",
+    "stage": "install",
+    "error_excerpt": "no lockfile (package-lock.json/pnpm-lock.yaml/yarn.lock) present at commit 761f75dda7bffd719b26ceac776afd19ef213a1d"
+   },
+   {
+    "sha": "2a0f28a9d8952b90da85f6c4b7ba196e608a0630",
+    "stage": "install",
+    "error_excerpt": "no lockfile (package-lock.json/pnpm-lock.yaml/yarn.lock) present at commit 2a0f28a9d8952b90da85f6c4b7ba196e608a0630"
+   },
+   {
+    "sha": "f30b7dee37f8c016e0424c2b54f22c2e5862b36c",
+    "stage": "install",
+    "error_excerpt": "no lockfile (package-lock.json/pnpm-lock.yaml/yarn.lock) present at commit f30b7dee37f8c016e0424c2b54f22c2e5862b36c"
+   }
+  ],
+  "verdict": "broken",
+  "verdict_reason": "node v24.20.0; npm 10.9.4; pnpm 10.34.5; yarn 1.22.22; build_cmd=none-found; n_commits_in_window=106; pnpm_version_used=10.34.5"
+ },
+ {
+  "repo": "pheralb/slug",
+  "window": "2023-11 to 2024-04",
+  "commits_probed": [
+   "0e87da18e2cde63bc7ab2700b580b29794050bf3",
+   "83d4a83a40d4223971b4631257806df3a24a4841",
+   "840acfb5bdb8f48044fa4bd1c532c335614dfbb4",
+   "648d030dc992431d1832499e2030029dc7e8bed9",
+   "25aeeb05f86243057c305eddde22d578dd04fb4d",
+   "99dad0d839789dbcf03d163d61e285879d32431d"
+  ],
+  "install_ok_count": 0,
+  "build_ok_count": 0,
+  "median_install_seconds": 0.9,
+  "median_build_seconds": 0.0,
+  "slowest_build_seconds": 0.0,
+  "oldest_commit_builds": false,
+  "failures": [
+   {
+    "sha": "0e87da18e2cde63bc7ab2700b580b29794050bf3",
+    "stage": "install",
+    "error_excerpt": "no lockfile (package-lock.json/pnpm-lock.yaml/yarn.lock) present at commit 0e87da18e2cde63bc7ab2700b580b29794050bf3"
+   },
+   {
+    "sha": "83d4a83a40d4223971b4631257806df3a24a4841",
+    "stage": "install",
+    "error_excerpt": "\u2009ERR_PNPM_LOCKFILE_BREAKING_CHANGE\u2009 Lockfile /home/hatch/workspace/history-build-screen/worktrees/wt_4807_83d4a83a40/pnpm-lock.yaml not compatible with current pnpm\n\nRun with the --force parameter to recreate the lockfile."
+   },
+   {
+    "sha": "840acfb5bdb8f48044fa4bd1c532c335614dfbb4",
+    "stage": "install",
+    "error_excerpt": "\u2009ERR_PNPM_LOCKFILE_BREAKING_CHANGE\u2009 Lockfile /home/hatch/workspace/history-build-screen/worktrees/wt_4807_840acfb5bd/pnpm-lock.yaml not compatible with current pnpm\n\nRun with the --force parameter to recreate the lockfile."
+   },
+   {
+    "sha": "648d030dc992431d1832499e2030029dc7e8bed9",
+    "stage": "install",
+    "error_excerpt": "\u2009ERR_PNPM_LOCKFILE_BREAKING_CHANGE\u2009 Lockfile /home/hatch/workspace/history-build-screen/worktrees/wt_4807_648d030dc9/pnpm-lock.yaml not compatible with current pnpm\n\nRun with the --force parameter to recreate the lockfile."
+   },
+   {
+    "sha": "25aeeb05f86243057c305eddde22d578dd04fb4d",
+    "stage": "install",
+    "error_excerpt": "\u2009ERR_PNPM_LOCKFILE_BREAKING_CHANGE\u2009 Lockfile /home/hatch/workspace/history-build-screen/worktrees/wt_4807_25aeeb05f8/pnpm-lock.yaml not compatible with current pnpm\n\nRun with the --force parameter to recreate the lockfile."
+   },
+   {
+    "sha": "99dad0d839789dbcf03d163d61e285879d32431d",
+    "stage": "install",
+    "error_excerpt": "\u2009ERR_PNPM_LOCKFILE_BREAKING_CHANGE\u2009 Lockfile /home/hatch/workspace/history-build-screen/worktrees/wt_4807_99dad0d839/pnpm-lock.yaml not compatible with current pnpm\n\nRun with the --force parameter to recreate the lockfile."
+   }
+  ],
+  "verdict": "broken",
+  "verdict_reason": "node v24.20.0; npm 10.9.4; pnpm 10.34.5; yarn 1.22.22; build_cmd=none-found; n_commits_in_window=106; pnpm_version_used=10.34.5"
+ },
+ {
+  "repo": "Ryczko/FormsLab",
+  "window": "2022-03 to 2022-08",
+  "commits_probed": [
+   "5ea4b18b97be3d80f36ede51773f9584b24341ae",
+   "3d970542f20e3aab1ec3889a3c73625bd6258894",
+   "157f0cf96b2451a7ffd27e694f92ef227f016f48",
+   "6c79c2c71627e0a2bae046fbbfe1bf35a074a3af",
+   "e7bfef75e296fcc5b9e599a9e512b651e25ccf72",
+   "ade44d9fdc06999e00086cc2696189076373dadf"
+  ],
+  "install_ok_count": 6,
+  "build_ok_count": 5,
+  "median_install_seconds": 20.0,
+  "median_build_seconds": 45.0,
+  "slowest_build_seconds": 59.6,
+  "oldest_commit_builds": true,
+  "failures": [
+   {
+    "sha": "157f0cf96b2451a7ffd27e694f92ef227f016f48",
+    "stage": "build",
+    "error_excerpt": "\nsrc/Pages/SurveyPage/index.tsx\n  Line 32:56:  Forbidden non-null assertion  @typescript-eslint/no-non-null-assertion\n\n"
+   }
+  ],
+  "verdict": "broken",
+  "verdict_reason": "node v24.20.0; npm 10.9.4; pnpm unknown; yarn unknown; build_cmd=npm run build; n_commits_in_window=112"
+ },
+ {
+  "repo": "priyankarpal/projectshut",
+  "window": "2023-07 to 2023-12",
+  "commits_probed": [
+   "7c50327047a0b5f8447ce539c66021500c9fe379",
+   "e17c8415c1b1f8817489e35825331feb55a609f0",
+   "b3e02f57d775eabcd754c56113766be39b8941e2",
+   "680fdd37939bf73bc236a754abd2adfc65bc92a6",
+   "6dd2ba8f06816d4ca8f94aa7359e08c84a9417da",
+   "2126488b063648f4e1cda681a3e92bbb2dabf3a5"
+  ],
+  "install_ok_count": 0,
+  "build_ok_count": 0,
+  "median_install_seconds": 2.0,
+  "median_build_seconds": 0.0,
+  "slowest_build_seconds": 0.0,
+  "oldest_commit_builds": false,
+  "failures": [
+   {
+    "sha": "7c50327047a0b5f8447ce539c66021500c9fe379",
+    "stage": "install",
+    "error_excerpt": "\u2009ERR_PNPM_LOCKFILE_BREAKING_CHANGE\u2009 Lockfile /home/hatch/workspace/history-build-screen/worktrees/wt_15484_7c50327047/pnpm-lock.yaml not compatible with current pnpm\n\nRun with the --force parameter to recreate the lockfile."
+   },
+   {
+    "sha": "e17c8415c1b1f8817489e35825331feb55a609f0",
+    "stage": "install",
+    "error_excerpt": "\u2009ERR_PNPM_LOCKFILE_BREAKING_CHANGE\u2009 Lockfile /home/hatch/workspace/history-build-screen/worktrees/wt_15484_e17c8415c1/pnpm-lock.yaml not compatible with current pnpm\n\nRun with the --force parameter to recreate the lockfile."
+   },
+   {
+    "sha": "b3e02f57d775eabcd754c56113766be39b8941e2",
+    "stage": "install",
+    "error_excerpt": "\u2009ERR_PNPM_LOCKFILE_BREAKING_CHANGE\u2009 Lockfile /home/hatch/workspace/history-build-screen/worktrees/wt_15484_b3e02f57d7/pnpm-lock.yaml not compatible with current pnpm\n\nRun with the --force parameter to recreate the lockfile."
+   },
+   {
+    "sha": "680fdd37939bf73bc236a754abd2adfc65bc92a6",
+    "stage": "install",
+    "error_excerpt": "\u2009ERR_PNPM_LOCKFILE_BREAKING_CHANGE\u2009 Lockfile /home/hatch/workspace/history-build-screen/worktrees/wt_15484_680fdd3793/pnpm-lock.yaml not compatible with current pnpm\n\nRun with the --force parameter to recreate the lockfile."
+   },
+   {
+    "sha": "6dd2ba8f06816d4ca8f94aa7359e08c84a9417da",
+    "stage": "install",
+    "error_excerpt": "\u2009ERR_PNPM_LOCKFILE_BREAKING_CHANGE\u2009 Lockfile /home/hatch/workspace/history-build-screen/worktrees/wt_15484_6dd2ba8f06/pnpm-lock.yaml not compatible with current pnpm\n\nRun with the --force parameter to recreate the lockfile."
+   },
+   {
+    "sha": "2126488b063648f4e1cda681a3e92bbb2dabf3a5",
+    "stage": "install",
+    "error_excerpt": "\u2009ERR_PNPM_LOCKFILE_BREAKING_CHANGE\u2009 Lockfile /home/hatch/workspace/history-build-screen/worktrees/wt_15484_2126488b06/pnpm-lock.yaml not compatible with current pnpm\n\nRun with the --force parameter to recreate the lockfile."
+   }
+  ],
+  "verdict": "broken",
+  "verdict_reason": "node v24.20.0; npm 10.9.4; pnpm 10.34.5; yarn 1.22.22; build_cmd=none-found; n_commits_in_window=101; pnpm_version_used=10.34.5"
+ },
+ {
+  "repo": "mrsibe/KnowNote",
+  "window": "2025-12 to 2026-05",
+  "commits_probed": [
+   "1bce75c62e0e1104768647a9396d14d8e6416ffd",
+   "be5da6a521f7ec10024f332e23611443b94d33ba",
+   "108498843947f9bcb501d939541b4442735157b2",
+   "d70c9328db48afe48f75f4572a3b803fd16b6cf5",
+   "afb48f1a61c0b150d5a77493d25d9efda5f7eefc",
+   "578ba97f78457d8fd486916f4c454bf644f701db"
+  ],
+  "install_ok_count": 6,
+  "build_ok_count": 6,
+  "median_install_seconds": 25.5,
+  "median_build_seconds": 38.3,
+  "slowest_build_seconds": 67.8,
+  "oldest_commit_builds": true,
+  "failures": [],
+  "verdict": "usable",
+  "verdict_reason": "node v24.20.0; npm 10.9.4; pnpm 10.34.5; yarn 1.22.22; build_cmd=pnpm run build; n_commits_in_window=97; pnpm_version_used=10.34.5"
+ },
+ {
+  "repo": "sanidhyy/duolingo-clone",
+  "window": "2024-03 to 2024-08",
+  "commits_probed": [
+   "8f730c3a5861ddc9849d99f2479dd9e9405aad67",
+   "000ff610010c8b50e49f60a4e2cf4af0e28a8196",
+   "dbf04552e0c2ba463cdd3ffeaad7436fe5ff3b30",
+   "20976a1f320eba7a931c345494cdcfa5b4e71274",
+   "f8153201b3f1cbf2c22da25c3ea3c78f9281d387",
+   "8f5feac54e0c34d81f04e5cd98a7218787c43b76"
+  ],
+  "install_ok_count": 6,
+  "build_ok_count": 2,
+  "median_install_seconds": 29.1,
+  "median_build_seconds": 79.5,
+  "slowest_build_seconds": 159.4,
+  "oldest_commit_builds": true,
+  "failures": [
+   {
+    "sha": "dbf04552e0c2ba463cdd3ffeaad7436fe5ff3b30",
+    "stage": "build",
+    "error_excerpt": "Error: Failed to collect page data for /courses\n    at /home/hatch/workspace/history-build-screen/worktrees/wt_14338_dbf04552e0/node_modules/next/dist/build/utils.js:1258:15\n    at process.processTicksAndRejections (node:internal/process/task_queues:104:5) {\n  type: 'Error'\n}"
+   },
+   {
+    "sha": "20976a1f320eba7a931c345494cdcfa5b4e71274",
+    "stage": "build",
+    "error_excerpt": "Error: Failed to collect page data for /courses\n    at /home/hatch/workspace/history-build-screen/worktrees/wt_14338_20976a1f32/node_modules/next/dist/build/utils.js:1258:15\n    at process.processTicksAndRejections (node:internal/process/task_queues:104:5) {\n  type: 'Error'\n}"
+   },
+   {
+    "sha": "f8153201b3f1cbf2c22da25c3ea3c78f9281d387",
+    "stage": "build",
+    "error_excerpt": "Error: Failed to collect page data for /api/webhooks/stripe\n    at /home/hatch/workspace/history-build-screen/worktrees/wt_14338_f8153201b3/node_modules/next/dist/build/utils.js:1258:15\n    at process.processTicksAndRejections (node:internal/process/task_queues:104:5) {\n  type: 'Error'\n}"
+   },
+   {
+    "sha": "8f5feac54e0c34d81f04e5cd98a7218787c43b76",
+    "stage": "build",
+    "error_excerpt": "Error: Failed to collect page data for /api/webhooks/stripe\n    at /home/hatch/workspace/history-build-screen/worktrees/wt_14338_8f5feac54e/node_modules/next/dist/build/utils.js:1258:15\n    at process.processTicksAndRejections (node:internal/process/task_queues:104:5) {\n  type: 'Error'\n}"
+   }
+  ],
+  "verdict": "broken",
+  "verdict_reason": "node v24.20.0; npm 10.9.4; pnpm 10.34.5; yarn 1.22.22; build_cmd=npm run build; n_commits_in_window=89"
+ },
+ {
+  "repo": "mydraft-cc/ui",
+  "window": "2018-02 to 2018-07",
+  "commits_probed": [
+   "2f717a686872b8ac019553aadacc9899145d5a7b",
+   "7a732cbdbb6d01c5e138e905ab351f27ea45628f",
+   "1fc8a83c54e01832843190fb7757253e1939bc97",
+   "f7d92986695d241e3a83192b4bbcb00caf50a038",
+   "420ac6f65edb674b87eef267b82cbe4ff64d6087",
+   "c5f184db47a2432b159f878a11396fb795c18a2d"
+  ],
+  "install_ok_count": 0,
+  "build_ok_count": 0,
+  "median_install_seconds": 72.5,
+  "median_build_seconds": 0.0,
+  "slowest_build_seconds": 0.0,
+  "oldest_commit_builds": false,
+  "failures": [
+   {
+    "sha": "2f717a686872b8ac019553aadacc9899145d5a7b",
+    "stage": "install",
+    "error_excerpt": "no lockfile (package-lock.json/pnpm-lock.yaml/yarn.lock) present at commit 2f717a686872b8ac019553aadacc9899145d5a7b"
+   },
+   {
+    "sha": "7a732cbdbb6d01c5e138e905ab351f27ea45628f",
+    "stage": "install",
+    "error_excerpt": "npm error gyp ERR! node -v v24.20.0\nnpm error gyp ERR! node-gyp -v v3.6.2\nnpm error gyp ERR! not ok \nnpm error Build failed with error code: 1\nnpm error A complete log of this run can be found in: /home/hatch/.npm/_logs/2026-09-23T15_02_28_026Z-debug-0.log"
+   },
+   {
+    "sha": "1fc8a83c54e01832843190fb7757253e1939bc97",
+    "stage": "install",
+    "error_excerpt": "npm error gyp ERR! node -v v24.20.0\nnpm error gyp ERR! node-gyp -v v3.6.2\nnpm error gyp ERR! not ok \nnpm error Build failed with error code: 1\nnpm error A complete log of this run can be found in: /home/hatch/.npm/_logs/2026-09-23T15_06_51_863Z-debug-0.log"
+   },
+   {
+    "sha": "f7d92986695d241e3a83192b4bbcb00caf50a038",
+    "stage": "install",
+    "error_excerpt": "npm error gyp ERR! node -v v24.20.0\nnpm error gyp ERR! node-gyp -v v3.6.2\nnpm error gyp ERR! not ok \nnpm error Build failed with error code: 1\nnpm error A complete log of this run can be found in: /home/hatch/.npm/_logs/2026-09-23T15_07_49_734Z-debug-0.log"
+   },
+   {
+    "sha": "420ac6f65edb674b87eef267b82cbe4ff64d6087",
+    "stage": "install",
+    "error_excerpt": "npm error gyp ERR! node -v v24.20.0\nnpm error gyp ERR! node-gyp -v v3.6.2\nnpm error gyp ERR! not ok \nnpm error Build failed with error code: 1\nnpm error A complete log of this run can be found in: /home/hatch/.npm/_logs/2026-09-23T15_10_25_327Z-debug-0.log"
+   },
+   {
+    "sha": "c5f184db47a2432b159f878a11396fb795c18a2d",
+    "stage": "install",
+    "error_excerpt": "npm error gyp ERR! node -v v24.20.0\nnpm error gyp ERR! node-gyp -v v3.7.0\nnpm error gyp ERR! not ok \nnpm error Build failed with error code: 1\nnpm error A complete log of this run can be found in: /home/hatch/.npm/_logs/2026-09-23T15_11_56_101Z-debug-0.log"
+   }
+  ],
+  "verdict": "broken",
+  "verdict_reason": "node v24.20.0; npm 10.9.4; pnpm 10.34.5; yarn 1.22.22; build_cmd=none-found; n_commits_in_window=87; pnpm_version_used=10.34.5"
+ },
+ {
+  "repo": "aermin/ghChat",
+  "window": "2018-11 to 2019-04",
+  "commits_probed": [
+   "1f91521e247f791f1284f41b1178788fd6679268",
+   "d9cee859fcff7366f80d4a6205045d99a1c46fe5",
+   "e07f71bf168391c6d76cea1168eb4cf1772f0d6a",
+   "c21b0d6df8cdac496a2d90faeed2b6af990df7df",
+   "be303e9bc1b672e3c2670496663c78be368a6a5c",
+   "b9270b3adff16157ddfef1306968b8aff9858795"
+  ],
+  "install_ok_count": 0,
+  "build_ok_count": 0,
+  "median_install_seconds": 31.9,
+  "median_build_seconds": 0.0,
+  "slowest_build_seconds": 0.0,
+  "oldest_commit_builds": false,
+  "failures": [
+   {
+    "sha": "1f91521e247f791f1284f41b1178788fd6679268",
+    "stage": "install",
+    "error_excerpt": "npm error gyp ERR! node -v v24.20.0\nnpm error gyp ERR! node-gyp -v v3.6.2\nnpm error gyp ERR! not ok \nnpm error Build failed with error code: 1\nnpm error A complete log of this run can be found in: /home/hatch/.npm/_logs/2026-09-23T14_43_08_814Z-debug-0.log"
+   },
+   {
+    "sha": "d9cee859fcff7366f80d4a6205045d99a1c46fe5",
+    "stage": "install",
+    "error_excerpt": "npm error gyp ERR! node -v v24.20.0\nnpm error gyp ERR! node-gyp -v v3.6.2\nnpm error gyp ERR! not ok \nnpm error Build failed with error code: 1\nnpm error A complete log of this run can be found in: /home/hatch/.npm/_logs/2026-09-23T14_45_04_553Z-debug-0.log"
+   },
+   {
+    "sha": "e07f71bf168391c6d76cea1168eb4cf1772f0d6a",
+    "stage": "install",
+    "error_excerpt": "npm error gyp ERR! node -v v24.20.0\nnpm error gyp ERR! node-gyp -v v3.6.2\nnpm error gyp ERR! not ok \nnpm error Build failed with error code: 1\nnpm error A complete log of this run can be found in: /home/hatch/.npm/_logs/2026-09-23T14_45_39_336Z-debug-0.log"
+   },
+   {
+    "sha": "c21b0d6df8cdac496a2d90faeed2b6af990df7df",
+    "stage": "install",
+    "error_excerpt": "npm error gyp ERR! node -v v24.20.0\nnpm error gyp ERR! node-gyp -v v3.6.2\nnpm error gyp ERR! not ok \nnpm error Build failed with error code: 1\nnpm error A complete log of this run can be found in: /home/hatch/.npm/_logs/2026-09-23T14_46_10_851Z-debug-0.log"
+   },
+   {
+    "sha": "be303e9bc1b672e3c2670496663c78be368a6a5c",
+    "stage": "install",
+    "error_excerpt": "npm error gyp ERR! node -v v24.20.0\nnpm error gyp ERR! node-gyp -v v3.6.2\nnpm error gyp ERR! not ok \nnpm error Build failed with error code: 1\nnpm error A complete log of this run can be found in: /home/hatch/.npm/_logs/2026-09-23T14_46_34_048Z-debug-0.log"
+   },
+   {
+    "sha": "b9270b3adff16157ddfef1306968b8aff9858795",
+    "stage": "install",
+    "error_excerpt": "npm error gyp ERR! node -v v24.20.0\nnpm error gyp ERR! node-gyp -v v3.8.0\nnpm error gyp ERR! not ok \nnpm error Build failed with error code: 1\nnpm error A complete log of this run can be found in: /home/hatch/.npm/_logs/2026-09-23T14_46_56_946Z-debug-0.log"
+   }
+  ],
+  "verdict": "broken",
+  "verdict_reason": "node v24.20.0; npm 10.9.4; pnpm 10.34.5; yarn 1.22.22; build_cmd=none-found; n_commits_in_window=84"
+ },
+ {
+  "repo": "aosasona/trulyao.dev",
+  "window": "2024-03 to 2024-08",
+  "commits_probed": [
+   "43e1e1d59a9e96a99ff94ec81966464982480b31",
+   "d15123ad8ff0a86981db71db2c092e7e90f0aeba",
+   "3f4f5727e640b1015fb42a378782fd27aeca1ca2",
+   "575f1d5f54014ff0c53ee70ba84d14b1f13dff92",
+   "4e5934f767ede5edcca891f929a91ba35ccfcd8c",
+   "dc30f469756083b835b8e1474c28f841d1503a16"
+  ],
+  "install_ok_count": 2,
+  "build_ok_count": 2,
+  "median_install_seconds": 0.9,
+  "median_build_seconds": 0.0,
+  "slowest_build_seconds": 17.3,
+  "oldest_commit_builds": false,
+  "failures": [
+   {
+    "sha": "43e1e1d59a9e96a99ff94ec81966464982480b31",
+    "stage": "install",
+    "error_excerpt": "\u2009ERR_PNPM_LOCKFILE_BREAKING_CHANGE\u2009 Lockfile /home/hatch/workspace/history-build-screen/worktrees/wt_19192_43e1e1d59a/pnpm-lock.yaml not compatible with current pnpm\n\nRun with the --force parameter to recreate the lockfile."
+   },
+   {
+    "sha": "d15123ad8ff0a86981db71db2c092e7e90f0aeba",
+    "stage": "install",
+    "error_excerpt": "\u2009ERR_PNPM_LOCKFILE_BREAKING_CHANGE\u2009 Lockfile /home/hatch/workspace/history-build-screen/worktrees/wt_19192_d15123ad8f/pnpm-lock.yaml not compatible with current pnpm\n\nRun with the --force parameter to recreate the lockfile."
+   },
+   {
+    "sha": "3f4f5727e640b1015fb42a378782fd27aeca1ca2",
+    "stage": "install",
+    "error_excerpt": "\u2009ERR_PNPM_LOCKFILE_BREAKING_CHANGE\u2009 Lockfile /home/hatch/workspace/history-build-screen/worktrees/wt_19192_3f4f5727e6/pnpm-lock.yaml not compatible with current pnpm\n\nRun with the --force parameter to recreate the lockfile."
+   },
+   {
+    "sha": "575f1d5f54014ff0c53ee70ba84d14b1f13dff92",
+    "stage": "install",
+    "error_excerpt": "\u2009ERR_PNPM_LOCKFILE_BREAKING_CHANGE\u2009 Lockfile /home/hatch/workspace/history-build-screen/worktrees/wt_19192_575f1d5f54/pnpm-lock.yaml not compatible with current pnpm\n\nRun with the --force parameter to recreate the lockfile."
+   }
+  ],
+  "verdict": "broken",
+  "verdict_reason": "node v24.20.0; npm 10.9.4; pnpm 10.34.5; yarn 1.22.22; build_cmd=pnpm run build; n_commits_in_window=86; pnpm_version_used=10.34.5"
+ },
+ {
+  "repo": "CanCLID/jyutping.org",
+  "window": "2020-02 to 2020-07",
+  "commits_probed": [
+   "084c7d0648ef258a46c12e3d67506fc1161f1337",
+   "45f09b167f5629747ad9abf33d771517846b45fb",
+   "6879e4a1401b4a143067d45002481ec556840931",
+   "0945bb5639049b59a5a1d03e3f71e1dc051048b6",
+   "6771feaa7f6c50af26cd29f0bc42fe4bf2532737",
+   "c96ae268bd6a98f026a9584e5b3d8fb7ded46c24"
+  ],
+  "install_ok_count": 6,
+  "build_ok_count": 0,
+  "median_install_seconds": 8.5,
+  "median_build_seconds": 0.0,
+  "slowest_build_seconds": 0.0,
+  "oldest_commit_builds": false,
+  "failures": [
+   {
+    "sha": "084c7d0648ef258a46c12e3d67506fc1161f1337",
+    "stage": "build",
+    "error_excerpt": "no build script in package.json (no 'build' and nothing matching /build|export|generate/i)"
+   },
+   {
+    "sha": "45f09b167f5629747ad9abf33d771517846b45fb",
+    "stage": "build",
+    "error_excerpt": "no build script in package.json (no 'build' and nothing matching /build|export|generate/i)"
+   },
+   {
+    "sha": "6879e4a1401b4a143067d45002481ec556840931",
+    "stage": "build",
+    "error_excerpt": "no build script in package.json (no 'build' and nothing matching /build|export|generate/i)"
+   },
+   {
+    "sha": "0945bb5639049b59a5a1d03e3f71e1dc051048b6",
+    "stage": "build",
+    "error_excerpt": "no build script in package.json (no 'build' and nothing matching /build|export|generate/i)"
+   },
+   {
+    "sha": "6771feaa7f6c50af26cd29f0bc42fe4bf2532737",
+    "stage": "build",
+    "error_excerpt": "no build script in package.json (no 'build' and nothing matching /build|export|generate/i)"
+   },
+   {
+    "sha": "c96ae268bd6a98f026a9584e5b3d8fb7ded46c24",
+    "stage": "build",
+    "error_excerpt": "no build script in package.json (no 'build' and nothing matching /build|export|generate/i)"
+   }
+  ],
+  "verdict": "broken",
+  "verdict_reason": "node v24.20.0; npm 10.9.4; pnpm 10.34.5; yarn 1.22.22; build_cmd=none-found; n_commits_in_window=80"
+ },
+ {
+  "repo": "surge-synthesizer/surge-synthesizer.github.io",
+  "window": "2022-03 to 2022-08",
+  "commits_probed": [
+   "4412158236cbecfa4e09b9653d6f24d4cdd22fd7",
+   "a5f38fcba53f6a31f3e34712e1d62469e051e386",
+   "1cb5009595cc81b1501c5274bfd3e3c0cafe5f21",
+   "a6a44902e4f89e46a23ab0bfd0839b2b4c2dd445",
+   "6234390ec5e7d3e67f401f9004c07769c9d4d17f",
+   "b6d1a310414faebd445f888bd706c511ba1909c6"
+  ],
+  "install_ok_count": 0,
+  "build_ok_count": 0,
+  "median_install_seconds": 0.0,
+  "median_build_seconds": 0.0,
+  "slowest_build_seconds": 0.0,
+  "oldest_commit_builds": false,
+  "failures": [
+   {
+    "sha": "4412158236cbecfa4e09b9653d6f24d4cdd22fd7",
+    "stage": "install",
+    "error_excerpt": "no lockfile (package-lock.json/pnpm-lock.yaml/yarn.lock) present at commit 4412158236cbecfa4e09b9653d6f24d4cdd22fd7"
+   },
+   {
+    "sha": "a5f38fcba53f6a31f3e34712e1d62469e051e386",
+    "stage": "install",
+    "error_excerpt": "no lockfile (package-lock.json/pnpm-lock.yaml/yarn.lock) present at commit a5f38fcba53f6a31f3e34712e1d62469e051e386"
+   },
+   {
+    "sha": "1cb5009595cc81b1501c5274bfd3e3c0cafe5f21",
+    "stage": "install",
+    "error_excerpt": "no lockfile (package-lock.json/pnpm-lock.yaml/yarn.lock) present at commit 1cb5009595cc81b1501c5274bfd3e3c0cafe5f21"
+   },
+   {
+    "sha": "a6a44902e4f89e46a23ab0bfd0839b2b4c2dd445",
+    "stage": "install",
+    "error_excerpt": "no lockfile (package-lock.json/pnpm-lock.yaml/yarn.lock) present at commit a6a44902e4f89e46a23ab0bfd0839b2b4c2dd445"
+   },
+   {
+    "sha": "6234390ec5e7d3e67f401f9004c07769c9d4d17f",
+    "stage": "install",
+    "error_excerpt": "no lockfile (package-lock.json/pnpm-lock.yaml/yarn.lock) present at commit 6234390ec5e7d3e67f401f9004c07769c9d4d17f"
+   },
+   {
+    "sha": "b6d1a310414faebd445f888bd706c511ba1909c6",
+    "stage": "install",
+    "error_excerpt": "no lockfile (package-lock.json/pnpm-lock.yaml/yarn.lock) present at commit b6d1a310414faebd445f888bd706c511ba1909c6"
+   }
+  ],
+  "verdict": "broken",
+  "verdict_reason": "node v24.20.0; npm 10.9.4; pnpm 10.34.5; yarn 1.22.22; build_cmd=none-found; n_commits_in_window=78; pnpm_version_used=10.34.5"
+ },
+ {
+  "repo": "exa-labs/company-researcher",
+  "window": "2024-11 to 2025-04",
+  "commits_probed": [
+   "0e67453610b91a8d083a5838e9d81b2b05ba5743",
+   "71754167f529758def3254d18f40d91a37517e6c",
+   "542d1964cdac79c3a60a524f19ae1eb7b24b1f52",
+   "f63b17626787c910f9eb970b21a6378df3609728",
+   "2e0bac25d4ed474af8244654108ba77075e543e9",
+   "12ff2056ce20eac361e6021f8b6ef20cba9a0e79"
+  ],
+  "install_ok_count": 6,
+  "build_ok_count": 1,
+  "median_install_seconds": 18.1,
+  "median_build_seconds": 50.3,
+  "slowest_build_seconds": 64.1,
+  "oldest_commit_builds": true,
+  "failures": [
+   {
+    "sha": "71754167f529758def3254d18f40d91a37517e6c",
+    "stage": "build",
+    "error_excerpt": "Error: Failed to collect page data for /api/findcompetitors\n    at /home/hatch/workspace/history-build-screen/worktrees/wt_19840_71754167f5/node_modules/next/dist/build/utils.js:1268:15\n    at process.processTicksAndRejections (node:internal/process/task_queues:104:5) {\n  type: 'Error'\n}"
+   },
+   {
+    "sha": "542d1964cdac79c3a60a524f19ae1eb7b24b1f52",
+    "stage": "build",
+    "error_excerpt": "Error: Failed to collect page data for /api/fetchyoutubevideos\n    at /home/hatch/workspace/history-build-screen/worktrees/wt_19840_542d1964cd/node_modules/next/dist/build/utils.js:1268:15\n    at process.processTicksAndRejections (node:internal/process/task_queues:104:5) {\n  type: 'Error'\n}"
+   },
+   {
+    "sha": "f63b17626787c910f9eb970b21a6378df3609728",
+    "stage": "build",
+    "error_excerpt": "Error: Failed to collect page data for /api/fetchcrunchbase\n    at /home/hatch/workspace/history-build-screen/worktrees/wt_19840_f63b176267/node_modules/next/dist/build/utils.js:1268:15\n    at process.processTicksAndRejections (node:internal/process/task_queues:104:5) {\n  type: 'Error'\n}"
+   },
+   {
+    "sha": "2e0bac25d4ed474af8244654108ba77075e543e9",
+    "stage": "build",
+    "error_excerpt": "Error: Failed to collect page data for /api/fetchcrunchbase\n    at /home/hatch/workspace/history-build-screen/worktrees/wt_19840_2e0bac25d4/node_modules/next/dist/build/utils.js:1268:15\n    at process.processTicksAndRejections (node:internal/process/task_queues:104:5) {\n  type: 'Error'\n}"
+   },
+   {
+    "sha": "12ff2056ce20eac361e6021f8b6ef20cba9a0e79",
+    "stage": "build",
+    "error_excerpt": "Error: Failed to collect page data for /api/fetchcrunchbase\n    at /home/hatch/workspace/history-build-screen/worktrees/wt_19840_12ff2056ce/node_modules/next/dist/build/utils.js:1268:15\n    at process.processTicksAndRejections (node:internal/process/task_queues:104:5) {\n  type: 'Error'\n}"
+   }
+  ],
+  "verdict": "broken",
+  "verdict_reason": "node v24.20.0; npm 10.9.4; pnpm 10.34.5; yarn 1.22.22; build_cmd=npm run build; n_commits_in_window=77"
+ },
+ {
+  "repo": "aod/zhithead",
+  "window": "2022-06 to 2022-11",
+  "commits_probed": [
+   "fee6463f0dac192b171e830e962821ce3533d0a5",
+   "55346efd1add0694412169912e2fcf418ddeb8b5",
+   "bd3c0285a36a69079279b9fcd1c1e6feab30f6c6",
+   "573ec52851d94e078ef6cebc02e3d189c5fc7e8b",
+   "4e4f772ecae66ced47ad9078797b9a14fcbd8822",
+   "e3f829eb712de86513559063e2353ed604997123"
+  ],
+  "install_ok_count": 6,
+  "build_ok_count": 6,
+  "median_install_seconds": 8.2,
+  "median_build_seconds": 16.4,
+  "slowest_build_seconds": 27.9,
+  "oldest_commit_builds": true,
+  "failures": [],
+  "verdict": "usable",
+  "verdict_reason": "node v24.20.0; npm 10.9.4; pnpm 10.34.5; yarn 1.22.22; build_cmd=npm run build; n_commits_in_window=77"
+ }
+]

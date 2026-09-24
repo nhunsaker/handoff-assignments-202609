@@ -1,0 +1,77 @@
+{
+ "generated_at": "2026-09-23T23:49:37.135592+00:00",
+ "total_repos": 41,
+ "commits_per_repo": 6,
+ "verdict_counts_before": {
+  "usable": 0,
+  "usable_inferred": 0,
+  "slow": 0,
+  "broken": 40,
+  "environment_incomplete": 1
+ },
+ "verdict_counts_after": {
+  "usable": 0,
+  "usable_inferred": 1,
+  "slow": 3,
+  "broken": 26,
+  "environment_incomplete": 11
+ },
+ "changed": 14,
+ "unchanged": 27,
+ "per_bucket_after": {
+  "A": {
+   "broken": 13,
+   "environment_incomplete": 6,
+   "slow": 1
+  },
+  "C": {
+   "broken": 6,
+   "environment_incomplete": 3,
+   "usable_inferred": 1
+  },
+  "D": {
+   "slow": 1,
+   "broken": 1
+  },
+  "E": {
+   "broken": 6
+  },
+  "B": {
+   "environment_incomplete": 2,
+   "slow": 1
+  }
+ },
+ "purely_toolchain_failures": 13,
+ "environment_incomplete_count": 11,
+ "partials_predating_freeze": [
+  "FleetAdmiralJakob/Portfolio",
+  "HelloGitHub-Team/geese",
+  "PasteBar/PasteBarApp",
+  "achamorro-dev/eventoswiki",
+  "aermin/ghChat",
+  "alanagoyal/alanagoyal",
+  "alexcarpenter/alexcarpenter.me",
+  "aosasona/trulyao.dev",
+  "aulianza/aulianza.id",
+  "devops329/jwt-pizza",
+  "dreyfus92/astro-portfolio",
+  "exa-labs/company-researcher",
+  "hyperlink-academy/leaflet",
+  "ifmeorg/ifme",
+  "jackblatch/OneStopShop",
+  "jestsee/jestsee.com",
+  "justjavac/esowiki",
+  "mehrabmp/kara-shop",
+  "midudev/jsconf.es",
+  "midudev/lolalolitaland.com",
+  "mldangelo/personal-site",
+  "pheralb/slug",
+  "santifer/cv-santiago",
+  "sledilnik/website",
+  "spencerwooo/onedrive-vercel-index",
+  "spliit-app/spliit",
+  "surge-synthesizer/surge-synthesizer.github.io",
+  "w3bdesign/nextjs-woocommerce"
+ ],
+ "coverage_note": "code_freeze.txt=2026-09-23T21:47:04Z; 28 of 41 partials were written before it. Forensic check (main agent, 2026-09-24): the only probe.py change after the freeze (21:52 UTC; verified by diffing __pycache__/probe.cpython-312.pyc compiled 21:49:59 UTC against current probe.py) was in the npm6-overlayfs-fallback branch: pm_argv=[node_bin(), fb_cli] became [pm_argv[0], fb_cli]. node_bin was undefined in the old code (would have raised NameError if the branch ran); pm_argv[0] is the resolved node binary, so the new code is behaviorally identical to the old intent. The fallback branch executed in only 6 commits, all POST-freeze (CanCLID/jyutping.org, under the fixed code). The 2 PRE-freeze commits with pm_used=npm@6.9.0 (aermin/ghChat) resolved via the lockfile_version ladder directly (rung lacks the +overlayfs_fallback suffix; 6.9.0 does not satisfy the 6.13+ branch condition), so the branch never executed there. No recorded result could have been affected by the change; the stale partials are therefore included. surge-synthesizer/surge-synthesizer.github.io: all 6 probed commits (window 2022-03 to 2022-08) predate the JS site entirely -- no package.json exists at any of them (the repo was plain HTML then; the Astro site came later). No Node/PM toolchain was resolved or activated, so node_version_used, node_rung, pm_used, pm_rung are null and error_excerpt carries the worker\u2019s explanatory note instead of command output (no command was run). Verdict environment_incomplete, not broken."
+}

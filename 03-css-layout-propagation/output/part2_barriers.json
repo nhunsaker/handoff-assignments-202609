@@ -1,0 +1,316 @@
+{
+ "barriers": [
+  {
+   "barrier": "block formatting context (BFC) creation",
+   "spec_url": "https://www.w3.org/TR/CSS22/visuren.html",
+   "spec_section": "9.4.1 Block formatting contexts",
+   "what_it_blocks": "Bidirectional layout isolation at the BFC boundary: internal layout changes (float placement, margin collapsing with in-flow children, line-box shortening by floats) do not propagate out to the surrounding formatting context, and outside floats do not intrude into the box. Size changes still propagate upward through the sizing of the BFC root box itself.",
+   "trigger_conditions": [
+    "floats (float: left or right)",
+    "absolutely positioned elements (position: absolute or fixed)",
+    "block containers that are not block boxes, such as inline-blocks, table-cells, and table-captions",
+    "block boxes with 'overflow' other than 'visible', except when that value has been propagated to the viewport",
+    "display: flow-root \u2014 the element always establishes a new block formatting context for its contents (css-display-3 \u00a72.2)",
+    "display: table \u2014 the principal table wrapper box establishes a block formatting context (css-display-3 \u00a72.2)",
+    "the initial containing block establishes a block formatting context (css-display-3 Appendix A glossary)"
+   ],
+   "detectable_from_stylesheet_alone": true,
+   "spec_quote": "Floats, absolutely positioned elements, block containers (such as inline-blocks, table-cells, and table-captions) that are not block boxes, and block boxes with 'overflow' other than 'visible' (except when that value has been propagated to the viewport) establish new block formatting contexts for their contents.",
+   "notes": "Verified 2026-09-23 from https://www.w3.org/TR/CSS22/visuren.html#block-formatting. Additional triggers from css-display-3: display: flow-root \u2014 'It always establishes a new block formatting context for its contents.' (\u00a72.2 Inner Display Layout Models); display: table \u2014 'The element generates a principal table wrapper box that establishes a block formatting context, and which contains an additionally-generated table grid box that establishes a table formatting context.' (\u00a72.2); initial containing block \u2014 'The initial containing block establishes a block formatting context' (Appendix A glossary). Removed from the earlier draft the unverified consolidated claims about other triggers not present in either of these two specs (e.g. column flex containers with non-initial align-content). Caveat: when an overflow value has been propagated to the viewport, the stylesheet's overflow declaration on root/body does not necessarily establish the BFC on the element itself."
+  },
+  {
+   "barrier": "overflow: hidden | scroll | auto (scroll container establishing an independent formatting context)",
+   "spec_url": "https://drafts.csswg.org/css-overflow/",
+   "spec_section": "3.1 Managing Overflow: the overflow-x, overflow-y, overflow-block, and overflow-inline properties",
+   "what_it_blocks": "Bidirectional layout isolation: a block box that computes to a scrollable overflow value establishes an independent formatting context (for a block box, a new block formatting context), so internal layout changes do not propagate out to, and are not disturbed by, the parent formatting context. Size changes still propagate upward through the box's own size.",
+   "trigger_conditions": [
+    "overflow computes to 'hidden' on either axis",
+    "overflow computes to 'scroll' on either axis",
+    "overflow computes to 'auto' on either axis (or the legacy 'overlay' alias)",
+    "the box is a block box (block container, flex container, grid container, or table grid box) that becomes a scroll container",
+    "exception: overflow: clip does NOT establish a new formatting context",
+    "exception: when the overflow value has been propagated to the viewport it does not establish one on the element"
+   ],
+   "detectable_from_stylesheet_alone": true,
+   "spec_quote": "The scroll, auto, and hidden values are known as the scrollable values of overflow. They cause the box to be a scroll container and the affected axis to be a scrollable axis. A block box that becomes a scroll container also establishes an independent formatting context.",
+   "notes": "Corrects the earlier draft entry, which wrongly included overflow: clip. css-overflow-3 \u00a73.1 states the contrast verbatim: 'Unlike hidden, this value does not cause the element to establish a new formatting context. Authors who also want the box to establish a formatting context can use display: flow-root together with overflow: clip.' Bridge from css-display-3 Appendix A glossary: 'A block box that establishes an independent formatting context establishes a new block formatting context for its contents.' The affected-axis wording matters: 'visible' can compute to 'auto' when the other axis is scrollable, and clip on one axis plus a scrollable value on the other can still yield a single-axis scroll container. Verified 2026-09-23 from https://drafts.csswg.org/css-overflow/."
+  },
+  {
+   "barrier": "contain: none",
+   "spec_url": "https://drafts.csswg.org/css-contain/",
+   "spec_section": "2 Strong Containment: the contain property (none)",
+   "what_it_blocks": "Nothing. It is the absence of a barrier; size and position changes propagate normally.",
+   "trigger_conditions": [
+    "contain: none (the initial value)"
+   ],
+   "detectable_from_stylesheet_alone": true,
+   "spec_quote": "This value indicates that the property has no effect. The element renders as normal, with no containment effects applied.",
+   "notes": "Included for completeness: 'none' is explicitly not a barrier."
+  },
+  {
+   "barrier": "contain: strict",
+   "spec_url": "https://drafts.csswg.org/css-contain/",
+   "spec_section": "2 Strong Containment: the contain property (strict)",
+   "what_it_blocks": "All forms: size changes of descendants cannot change the element's own size (size containment); internal layout cannot affect, and is not affected by, outside layout (layout containment); style effects such as counters/quotes cannot escape (style containment); descendants cannot paint outside the box's bounds (paint containment).",
+   "trigger_conditions": [
+    "contain: strict (computes to size layout paint style)"
+   ],
+   "detectable_from_stylesheet_alone": true,
+   "spec_quote": "This value computes to size layout paint style, and thus turns on all forms of containment for the element.",
+   "notes": "See the individual size/layout/style/paint entries for the precise normative effects of each component."
+  },
+  {
+   "barrier": "contain: content",
+   "spec_url": "https://drafts.csswg.org/css-contain/",
+   "spec_section": "2 Strong Containment: the contain property (content)",
+   "what_it_blocks": "Layout, style, and paint containment: internal layout cannot affect, and is not affected by, outside layout; style effects such as counters/quotes cannot escape; descendants cannot paint outside the box's bounds. Size containment is NOT applied, so descendant size changes can still change the element's own size and propagate upward.",
+   "trigger_conditions": [
+    "contain: content (computes to layout style paint)"
+   ],
+   "detectable_from_stylesheet_alone": true,
+   "spec_quote": "This value computes to layout style paint, and thus turns on all forms of containment for the element except size containment.",
+   "notes": "Because size containment is excluded, the element's size can still depend on its contents; only layout/style/paint propagation is stopped."
+  },
+  {
+   "barrier": "contain: size",
+   "spec_url": "https://drafts.csswg.org/css-contain/",
+   "spec_section": "3.1 Size Containment",
+   "what_it_blocks": "Upward size propagation in the contained axis: the element's size is computed without regard to its contents, so descendant size changes cannot change the element's own size and cannot propagate further up the layout tree through the element's box size.",
+   "trigger_conditions": [
+    "contain includes size: contain: size, contain: strict, or contain: inline-size"
+   ],
+   "detectable_from_stylesheet_alone": true,
+   "spec_quote": "Applying this value to an element means that its size can be computed without needing to consider the size of its contents: the intrinsic sizes of the element are thus determined as if the element had no contents.",
+   "notes": "Also: 'If the element does not have a size in a given axis, it is size contained in that axis as if it had a single empty line box.' Contents can still overflow visually (clipped only if paint containment or overflow clipping also applies)."
+  },
+  {
+   "barrier": "contain: layout",
+   "spec_url": "https://drafts.csswg.org/css-contain/",
+   "spec_section": "3.3 Layout Containment",
+   "what_it_blocks": "Bidirectional layout isolation (except sizing): internal layout cannot affect anything outside the element, and nothing outside the element can affect its internal layout. The element additionally establishes an independent formatting context, becomes a containing block for absolutely/relatively positioned descendants, establishes a stacking context, and creates a break-before/after context.",
+   "trigger_conditions": [
+    "contain includes layout: contain: layout, contain: content, or contain: strict"
+   ],
+   "detectable_from_stylesheet_alone": true,
+   "spec_quote": "This value indicates that the element's internal layout is independent of the rest of the page (outside of the element's sizing), and that nothing outside the element can affect its internal layout (other than through sizing).",
+   "notes": "Layout containment does not stop size propagation: the element's own size can still change with its contents unless size containment also applies."
+  },
+  {
+   "barrier": "contain: style",
+   "spec_url": "https://drafts.csswg.org/css-contain/",
+   "spec_section": "3.4 Style Containment",
+   "what_it_blocks": "Style (counter/quote) propagation: counter-increment/counter-set and the content property's open-quote, close-quote, no-open-quote, and no-close-quote values are scoped to the element's sub-tree and create new counters; uses outside the scoping element have no effect on uses on or in the scoping element and vice versa.",
+   "trigger_conditions": [
+    "contain includes style: contain: style, contain: content, or contain: strict",
+    "the element generates a principal box (style containment has no effect for display: contents or display: none)"
+   ],
+   "detectable_from_stylesheet_alone": true,
+   "spec_quote": "The counter-increment and counter-set properties must be scoped to the element's sub-tree and create a new counter. The effects of the content property's open-quote, close-quote, no-open-quote and no-close-quote must be scoped to the element's sub-tree.",
+   "notes": "Scoping rule (same section): 'any uses of the property outside the scoping element must have no effect on the uses of the property on or in the scoping element, and vice versa.' Style containment stops counter/quote propagation only; it does not stop layout or size propagation. Verified 2026-09-23."
+  },
+  {
+   "barrier": "contain: paint",
+   "spec_url": "https://drafts.csswg.org/css-contain/",
+   "spec_section": "3.5 Paint Containment",
+   "what_it_blocks": "Paint propagation: the element's contents, including ink and scrollable overflow, are clipped to the overflow clip edge of the paint containment box (with corner clipping), so descendant size/position changes cannot cause painting outside the element's bounds.",
+   "trigger_conditions": [
+    "contain includes paint: contain: paint, contain: content, or contain: strict"
+   ],
+   "detectable_from_stylesheet_alone": true,
+   "spec_quote": "The contents of the element including any ink or scrollable overflow must be clipped to the overflow clip edge of the paint containment box, taking corner clipping into account.",
+   "notes": "Additional documented effects (same section): 'The paint containment box establishes an absolute positioning containing block and a fixed positioning containing block.'; 'The paint containment box creates a stacking context.'; 'The paint containment box establishes an independent formatting context.' Clipping can still be slightly exceeded via overflow-clip-margin. Verified 2026-09-23."
+  },
+  {
+   "barrier": "position: absolute (out-of-flow positioned box)",
+   "spec_url": "https://drafts.csswg.org/css-position/",
+   "spec_section": "2 Choosing A Positioning Scheme: the position property",
+   "what_it_blocks": "Upward and lateral layout propagation: the box is taken out of flow so its own size or position changes have no impact on the size or position of its siblings and ancestors, and it does not participate in its parent's formatting context. The box is instead positioned and sized solely in reference to its absolute positioning containing block.",
+   "trigger_conditions": [
+    "position: absolute"
+   ],
+   "detectable_from_stylesheet_alone": true,
+   "spec_quote": "The box is taken out of flow such that it has no impact on the size or position of its siblings and ancestors, and does not participate in its parent's formatting context. Instead, the box is positioned and sized solely in reference to its absolute positioning containing block, as modified by the box's inset properties, see \u00a7 4 Absolute Positioning Layout Model and \u00a7 3.5 Absolute (and Fixed) Positioning.",
+   "notes": "Also: 'A position value of absolute or fixed blockifies the box, causes float to compute to none, and forces the box to establish an independent formatting context.' The box is included in the scrollable overflow area of the box that generates its containing block. Verified 2026-09-23."
+  },
+  {
+   "barrier": "position: fixed (fixed-positioned box)",
+   "spec_url": "https://drafts.csswg.org/css-position/",
+   "spec_section": "2 Choosing A Positioning Scheme: the position property",
+   "what_it_blocks": "Same out-of-flow isolation as absolute: no impact on the size or position of siblings and ancestors; the box is positioned and sized relative to a fixed positioning containing block. When attached to the viewport, the box's position does not move when the document is scrolled.",
+   "trigger_conditions": [
+    "position: fixed"
+   ],
+   "detectable_from_stylesheet_alone": true,
+   "spec_quote": "Same as absolute, except the box is positioned and sized relative to a fixed positioning containing block (usually the viewport in continuous media, or the page area in paged media). The box's position is fixed with respect to this reference rectangle: when attached to the viewport it does not move when the document is scrolled, and when attached to the page area is replicated on every page when the document is paginated. This positioning scheme is called fixed positioning and is considered a subset of absolute positioning.",
+   "notes": "Viewport attachment is the default only 'usually': css-position-3 \u00a72.1 notes 'Properties that can cause a box to establish a fixed positioning containing block include transform, will-change, contain\u2026' \u2014 an ancestor with such a property becomes the containing block instead of the viewport. Verified 2026-09-23."
+  },
+  {
+   "barrier": "display: none (no box generated)",
+   "spec_url": "https://drafts.csswg.org/css-display/",
+   "spec_section": "2.5 Box Generation",
+   "what_it_blocks": "All propagation: the element and its descendants generate no boxes or text sequences, so no size, position, or layout information from the sub-tree can propagate to, or participate in, any formatting context.",
+   "trigger_conditions": [
+    "display: none"
+   ],
+   "detectable_from_stylesheet_alone": true,
+   "spec_quote": "The element and its descendants generate no boxes or text sequences.",
+   "notes": "Note in the same section: 'anonymous box generation rules will ignore the elided elements entirely, as if they did not exist in the box tree.' Markup-based relationships are unaffected (rendering-time effect only). Verified 2026-09-23."
+  },
+  {
+   "barrier": "display: flow-root / display: table (explicit block formatting context root)",
+   "spec_url": "https://drafts.csswg.org/css-display/",
+   "spec_section": "2.2 Inner Display Layout Models",
+   "what_it_blocks": "Bidirectional layout isolation at the element's box: the element always establishes a new block formatting context for its contents, so internal layout changes do not propagate out to the parent formatting context and external floats do not intrude; only the box's own size propagates upward.",
+   "trigger_conditions": [
+    "display: flow-root",
+    "display: table (the principal table wrapper box establishes a block formatting context)"
+   ],
+   "detectable_from_stylesheet_alone": true,
+   "spec_quote": "The element generates a block container box, and lays out its contents using flow layout. It always establishes a new block formatting context for its contents. [CSS2]",
+   "notes": "Table variant (same section): 'The element generates a principal table wrapper box that establishes a block formatting context, and which contains an additionally-generated table grid box that establishes a table formatting context. [CSS2]' Also in the same section: 'table-cell boxes have a flow-root inner display type' and 'table-caption boxes have a flow-root inner display type.' Verified 2026-09-23."
+  },
+  {
+   "barrier": "definite inline size (width / inline-size)",
+   "spec_url": "https://drafts.csswg.org/css-sizing/",
+   "spec_section": "2 Terminology (definite size)",
+   "what_it_blocks": "Inline-axis upward size propagation: the box's used width is determined without performing layout of its contents, so content size changes inside cannot change the box's width. Excess content overflows or is handled per 'overflow' and min/max constraints rather than resizing the box.",
+   "trigger_conditions": [
+    "width (or inline-size) computes to a <length>",
+    "width (or inline-size) computes to a <percentage> that is resolved solely against definite sizes (e.g. a containing block whose width is itself definite)"
+   ],
+   "detectable_from_stylesheet_alone": true,
+   "spec_quote": "A size that can be determined without performing layout; that is, a <length>, a measure of text (without consideration of line-wrapping), a size of the initial containing block, or a <percentage> or other formula (such the \u201cstretch-fit\u201d sizing of non-replaced blocks [CSS2]) that is resolved solely against definite sizes.",
+   "notes": "Percentage caveat: confirming the containing block's size is definite may require reading the ancestor chain (stylesheet + markup, not runtime layout). Circular case (CSS22 \u00a710.2): 'If the containing block's width depends on this element's width, then the resulting layout is undefined in CSS 2.2.' \u2014 in that case the width is not definite and the barrier does not apply. Verified 2026-09-23."
+  },
+  {
+   "barrier": "definite block size (height / block-size)",
+   "spec_url": "https://www.w3.org/TR/CSS22/visudet.html",
+   "spec_section": "10.5 Content height: the 'height' property",
+   "what_it_blocks": "Block-axis upward size propagation: content size changes cannot change the box's used height; content exceeding the specified height overflows and is handled according to the 'overflow' property rather than growing the box.",
+   "trigger_conditions": [
+    "height (or block-size) computes to a <length>",
+    "height (or block-size) computes to a <percentage> resolved against a containing block whose height is specified explicitly"
+   ],
+   "detectable_from_stylesheet_alone": true,
+   "spec_quote": "Paragraphs of which the height of the contents exceeds 100 pixels will overflow according to the 'overflow' property.",
+   "notes": "Percentage caveat (CSS22 \u00a710.5): 'If the height of the containing block is not specified explicitly (i.e., it depends on content height), and this element is not absolutely positioned, the used height is calculated as if 'auto' was specified.' \u2014 in that case the barrier does not apply and height depends on content."
+  },
+  {
+   "barrier": "replaced element (natural-dimension sizing; independent formatting context)",
+   "spec_url": "https://drafts.csswg.org/css-display/",
+   "spec_section": "Appendix A: Glossary (replaced element)",
+   "what_it_blocks": "Content-driven size and layout propagation out of the sub-tree: the element's content is not considered in the CSS formatting model, so content changes cannot propagate as layout changes except through the element's own box size; the box's size is derived from its natural dimensions (or replaced-sizing rules) without regard for CSS context, and the element always establishes an independent formatting context.",
+   "trigger_conditions": [
+    "the element is a replaced element (its content is outside the scope of the CSS formatting model, e.g. img, video, canvas, iframe)"
+   ],
+   "detectable_from_stylesheet_alone": false,
+   "spec_quote": "The content of replaced elements is not considered in the CSS formatting model; however, their natural dimensions are used in various layout calculations. Replaced elements always establish an independent formatting context.",
+   "notes": "detectable_from_stylesheet_alone is false because replaced status depends on the element type (markup/document language), not on CSS declarations. Related (css-sizing-3 \u00a72): 'Replaced elements frequently derive their intrinsic size from their natural dimensions.' Related (css-sizing-3 \u00a75.1): 'Intrinsic sizing determines sizes based on the contents of an element, without regard for its context.'"
+  },
+  {
+   "barrier": "aspect-ratio (ratio-dependent axis size transfer)",
+   "spec_url": "https://drafts.csswg.org/css-sizing-4/",
+   "spec_section": "4.2 Effects of Preferred Aspect Ratio on Automatic Sizes; 4.4 Min/Max Size Transfers",
+   "what_it_blocks": "Content-driven size propagation in the ratio-dependent axis: when at least one size is automatic, the box's automatic size in the ratio-dependent axis is calculated by transferring the ratio-determining axis's size through the preferred ratio (as for a replaced element with a natural ratio and no natural size in that axis), not from the box's content; definite sizes are completely unaffected by transferred constraints. Content can still influence the axis through the automatic minimum (min-content capped by the maximum size).",
+   "trigger_conditions": [
+    "aspect-ratio computes to a <ratio> (not auto)",
+    "at least one of width/height is an automatic size (otherwise the ratio has no effect on preferred sizes)"
+   ],
+   "detectable_from_stylesheet_alone": true,
+   "spec_quote": "A preferred aspect ratio only ever has an effect if at least one of the box's sizes is automatic. If neither width nor height is an automatic size, it can have no effect on its preferred sizes.",
+   "notes": "\u00a74.2: 'When a box has a preferred aspect ratio, its automatic sizes are calculated the same as for a replaced element with a natural aspect ratio and no natural size in that axis'. \u00a74.3: 'the automatic minimum size in the ratio-dependent axis of a box with a preferred aspect ratio that is neither a replaced element, nor a scroll container in that axis, is its min-content size capped by its maximum size.' \u00a74.4: 'Thus, any definite sizes are completely unaffected by a transferred constraint; and a transferred minimum will never cause an element to exceed a definite preferred/maximum size, nor will a transferred maximum cause an element to violate its preferred/minimum size.'"
+  },
+  {
+   "barrier": "flex item main size controlled by the flex property",
+   "spec_url": "https://drafts.csswg.org/css-flexbox/",
+   "spec_section": "2 Flex Layout Box Model and Terminology",
+   "what_it_blocks": "Direct main-size propagation: the flex item's used main size is computed by the flex layout algorithm from the flex property, not taken directly from its main size property or from content; content and ancestor size changes reach the item's main size only through the flex base size, flexibility, and min/max clamps.",
+   "trigger_conditions": [
+    "the box is an in-flow child of a flex container (display: flex or inline-flex)"
+   ],
+   "detectable_from_stylesheet_alone": true,
+   "spec_quote": "In flex layout, the main size is controlled by the flex property rather than directly by the main size property.",
+   "notes": "Flex items do not unconditionally block upward sizing. css-flexbox-1 \u00a79.9.1.2 (Web-compatible Intrinsic Sizing Algorithm): 'For the max-content size of a flex container, take the sum of the max-content contributions of all the non-collapsed flex items in the flex container. For the min-content size of a single-line container, take the sum of the min-content contributions of all the non-collapsed flex items in the flex container.' Content changes propagate upward through each item's intrinsic contribution, subject to the cap/floor/clamp entry below."
+  },
+  {
+   "barrier": "flex item automatic minimum size (content-based floor; zero for scroll containers)",
+   "spec_url": "https://drafts.csswg.org/css-flexbox/",
+   "spec_section": "4.5 Automatic Minimum Size of Flex Items",
+   "what_it_blocks": "Downward shrinkage propagation into the item: a non-scrollable flex item's automatic minimum is its content-based minimum size, so the item cannot be shrunk below what its content requires \u2014 the content-based floor propagates upward as a minimum size. For a main-axis scroll container the automatic minimum is zero, so the content-based floor does not propagate and the item can shrink to zero.",
+   "trigger_conditions": [
+    "the box is a flex item with an automatic (auto) minimum size in the main axis",
+    "floor case: the item's computed overflow is non-scrollable",
+    "zeroing case: the item is a main-axis scroll container"
+   ],
+   "detectable_from_stylesheet_alone": true,
+   "spec_quote": "To provide a more reasonable default minimum size for flex items, the used value of a main axis automatic minimum size on a flex item whose computed overflow value is non-scrollable is its content-based minimum size; for main-axis scroll containers the automatic minimum size is zero, as usual.",
+   "notes": "One-sided: the floor stops downward shrinkage below the content-based minimum; it does not stop upward growth. The scroll-container case removes the floor entirely."
+  },
+  {
+   "barrier": "flex item intrinsic size contribution capped/floored/clamped (flex base size, min/max main size)",
+   "spec_url": "https://drafts.csswg.org/css-flexbox/",
+   "spec_section": "9.9.3 Flex Item Intrinsic Size Contributions",
+   "what_it_blocks": "Upward intrinsic-size propagation: a flex item's min/max-content contribution to its flex container is capped by its flex base size (when not growable), floored by its flex base size (when not shrinkable), and clamped by its min/max main size \u2014 content changes beyond those limits do not propagate into the container's intrinsic size.",
+   "trigger_conditions": [
+    "the box is a flex item contributing to its flex container's intrinsic main sizes",
+    "cap active when the item is not growable (e.g. flex-grow: 0 or an inflexible flex base size)",
+    "floor active when the item is not shrinkable",
+    "clamp active when min/max main size is specified"
+   ],
+   "detectable_from_stylesheet_alone": true,
+   "spec_quote": "The main-size min-content contribution of a flex item is the larger of its outer min-content size and outer preferred size if that is not an automatic size. The main-size max-content contribution of a flex item is the larger of its outer max-content size and outer preferred size if that is not an automatic size. For this purpose, each contribution is capped by the item's flex base size if the item is not growable, floored by the item's flex base size if the item is not shrinkable, and then further clamped by the item's min/max main size.",
+   "notes": "The contribution itself starts from content (outer min/max-content sizes), so without fixed bases, definite sizes, or min/max clamps, content changes do propagate upward through the container's summed intrinsic sizes. This entry documents exactly where propagation stops."
+  },
+  {
+   "barrier": "grid item automatic minimum size (content-based floor with zeroing conditions)",
+   "spec_url": "https://drafts.csswg.org/css-grid/",
+   "spec_section": "6.6 Automatic Minimum Size of Grid Items",
+   "what_it_blocks": "Downward shrinkage propagation into the item: the used automatic minimum is the content-based minimum size only when all listed conditions hold; otherwise it is zero, so content min-content does not propagate into the item's size and the item can shrink to zero.",
+   "trigger_conditions": [
+    "the box is a grid item with an automatic minimum size in the axis",
+    "floor case (all required): computed overflow is not a scrollable overflow value; the item spans at least one track in that axis whose min track sizing function is auto; if it spans more than one track in that axis, none of those tracks are flexible",
+    "zeroing cases: any of the floor conditions fails"
+   ],
+   "detectable_from_stylesheet_alone": true,
+   "spec_quote": "To provide a more reasonable default minimum size for grid items, the used value of its automatic minimum size in a given axis is the content-based minimum size if all of the following are true: its computed overflow is not a scrollable overflow value; it spans at least one track in that axis whose min track sizing function is auto; if it spans more than one track in that axis, none of those tracks are flexible. Otherwise, the automatic minimum size is zero, as usual.",
+   "notes": "All zeroing conditions are stylesheet-readable: the item's overflow, its track span, and the tracks' min sizing functions and flexibility."
+  },
+  {
+   "barrier": "grid item size-suggestion clamping to fixed tracks",
+   "spec_url": "https://drafts.csswg.org/css-grid/",
+   "spec_section": "6.6 Automatic Minimum Size of Grid Items",
+   "what_it_blocks": "Content-driven growth of the grid item beyond fixed track sizes: when the item spans only tracks with fixed max track sizing functions, its specified and content size suggestions are clamped to the stretch fit into the grid area's maximum size, so content changes cannot grow the item (or its track contributions) past the fixed tracks.",
+   "trigger_conditions": [
+    "the box is a grid item",
+    "in the axis, it spans only grid tracks that have a fixed max track sizing function"
+   ],
+   "detectable_from_stylesheet_alone": true,
+   "spec_quote": "However, if in a given dimension the grid item spans only grid tracks that have a fixed max track sizing function, then its specified size suggestion and content size suggestion in that dimension (and its input from this dimension to the transferred size suggestion in the opposite dimension) are further clamped to less than or equal to the stretch fit into the grid area's maximum size in that dimension, as represented by the sum of those grid tracks' max track sizing functions plus any intervening fixed gutters.",
+   "notes": "The size suggestion is additionally clamped by a definite maximum size in the axis. Related (css-grid-2 \u00a77.2.1): 'If the size of the grid container depends on the size of its tracks, then the <percentage> must be treated as auto, for the purpose of calculating the intrinsic sizes of the grid container and then resolve against that resulting grid container size for the purpose of laying out the grid and its items.'"
+  },
+  {
+   "barrier": "independent formatting context (general isolation principle)",
+   "spec_url": "https://drafts.csswg.org/css-display/",
+   "spec_section": "Appendix A: Glossary (independent formatting context)",
+   "what_it_blocks": "Non-sizing layout propagation in both directions: the layout of descendants is not affected by the rules and contents of the formatting context outside the box and vice versa. Sizing propagation is explicitly NOT blocked: effects can still cross the boundary through the sizing of the box itself.",
+   "trigger_conditions": [
+    "any box that establishes an independent formatting context \u2014 via its inner display type or forced by properties (out-of-flow positioning, scroll-container overflow, layout/paint containment, etc.)"
+   ],
+   "detectable_from_stylesheet_alone": false,
+   "spec_quote": "When a box establishes an independent formatting context (whether that formatting context is of the same type as its parent or not), it essentially creates a new, independent layout environment: except through the sizing of the box itself, the layout of its descendants is (generally) not affected by the rules and contents of the formatting context outside the box, and vice versa.",
+   "notes": "detectable_from_stylesheet_alone is false for the general principle because determining whether a given box establishes an independent formatting context requires evaluating per-box rules (see the concrete entries: BFC creation, flow-root/table, scroll container, contain, absolute/fixed positioning). Documented forcing triggers in the same glossary entry: 'making a box out-of-flow causes it to blockify as well as to establish an independent formatting context'; 'certain values of the contain property can cause a box to establish an independent formatting context'; 'Turning a block into a scroll container will cause it to establish an independent formatting context'. Documented exception: 'Exclusions are able to affect content across independent formatting context boundaries. (At time of writing, they are the only layout feature that can.)'"
+  },
+  {
+   "barrier": "position: relative (visual offset only)",
+   "spec_url": "https://drafts.csswg.org/css-position/",
+   "spec_section": "2 Choosing A Positioning Scheme: the position property",
+   "what_it_blocks": "Position-change propagation: the box's offset does not affect the size or position of any other non-descendant box; the offset is purely visual and siblings/ancestors lay out against the box's original in-flow position. Exception: the offset increases the scrollable overflow area of its ancestors.",
+   "trigger_conditions": [
+    "position: relative (or sticky in its relative phase) with non-auto inset properties"
+   ],
+   "detectable_from_stylesheet_alone": true,
+   "spec_quote": "The box is laid out as for static, then offset from the resulting position with the inset properties. This offsetting is a purely visual effect, and, unless otherwise specified, does not affect the size or position of any other non-descendant box except insofar as it increases the scrollable overflow area of its ancestors.",
+   "notes": "A change to a relatively-positioned box's own position does not propagate to siblings/ancestors, but a change in the box's size still does (it is laid out as for static first)."
+  }
+ ]
+}

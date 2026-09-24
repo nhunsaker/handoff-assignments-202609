@@ -1,0 +1,806 @@
+[
+ {
+  "stage": 0,
+  "query": "next.js tailwindcss in:readme language:TypeScript stars:50..5000",
+  "result_count": 484
+ },
+ {
+  "stage": 0,
+  "query": "next.js tailwind in:readme \"personal website\" stars:20..5000",
+  "result_count": 131
+ },
+ {
+  "stage": 0,
+  "query": "topic:nextjs tailwindcss stars:100..8000",
+  "result_count": 561
+ },
+ {
+  "stage": 0,
+  "query": "\"portfolio\" next.js tailwindcss in:readme stars:30..5000",
+  "result_count": 137
+ },
+ {
+  "stage": 0,
+  "query": "\"blog\" next.js tailwindcss in:readme stars:30..5000",
+  "result_count": 237
+ },
+ {
+  "stage": 0,
+  "query": "\"saas\" next.js tailwind in:readme stars:50..5000",
+  "result_count": 444
+ },
+ {
+  "stage": 0,
+  "query": "nextjs tailwind in:description stars:200..8000",
+  "result_count": 18
+ },
+ {
+  "stage": 0,
+  "query": "next.js tailwind \"personal site\" in:readme stars:20..3000",
+  "result_count": 51
+ },
+ {
+  "stage": 0,
+  "query": "nextjs tailwindcss pushed:>2024-06-01 stars:50..3000 language:TypeScript",
+  "result_count": 582
+ },
+ {
+  "stage": 0,
+  "query": "\"my website\" next.js tailwind in:readme stars:20..3000",
+  "result_count": 50
+ },
+ {
+  "stage": 0,
+  "query": "vite react tailwindcss in:readme stars:20..3000 pushed:>2024-01-01",
+  "result_count": 1014
+ },
+ {
+  "stage": 0,
+  "query": "topic:vite topic:tailwindcss stars:>50",
+  "result_count": 218
+ },
+ {
+  "stage": 0,
+  "query": "vite react tailwind portfolio in:description stars:20..3000",
+  "result_count": 9
+ },
+ {
+  "stage": 0,
+  "query": "vite react tailwind blog stars:20..3000 pushed:>2024-01-01",
+  "result_count": 3
+ },
+ {
+  "stage": 0,
+  "query": "create-react-app tailwindcss portfolio stars:20..3000",
+  "result_count": 0
+ },
+ {
+  "stage": 0,
+  "query": "vite react tailwind personal website stars:20..3000",
+  "result_count": 2
+ },
+ {
+  "stage": 0,
+  "query": "scss in:readme -tailwind -bootstrap personal site stars:20..3000",
+  "result_count": 66
+ },
+ {
+  "stage": 0,
+  "query": "topic:scss portfolio -tailwind -bootstrap stars:>30",
+  "result_count": 0
+ },
+ {
+  "stage": 0,
+  "query": "sass personal website blog stars:50..3000 -tailwind -bootstrap",
+  "result_count": 0
+ },
+ {
+  "stage": 0,
+  "query": "custom css personal site blog react stars:30..3000 -tailwind",
+  "result_count": 0
+ },
+ {
+  "stage": 0,
+  "query": "personal website in:description scss stars:30..3000 -tailwind -bootstrap",
+  "result_count": 0
+ },
+ {
+  "stage": 0,
+  "query": "blog in:description scss stars:30..3000 -tailwind -bootstrap",
+  "result_count": 0
+ },
+ {
+  "stage": 0,
+  "query": "portfolio website in:description css stars:30..3000 -tailwind -bootstrap -vue",
+  "result_count": 0
+ },
+ {
+  "stage": 0,
+  "query": "topic:scss stars:100..3000",
+  "result_count": 322
+ },
+ {
+  "stage": 0,
+  "query": "company website in:description scss stars:30..3000 -tailwind -bootstrap",
+  "result_count": 0
+ },
+ {
+  "stage": 0,
+  "query": "personal blog in:readme sass stars:20..3000 -tailwind",
+  "result_count": 94
+ },
+ {
+  "stage": 0,
+  "query": "topic:scss stars:100..3000 (page 2)",
+  "result_count": 322
+ },
+ {
+  "stage": 0,
+  "query": "topic:scss stars:100..3000 (page 3)",
+  "result_count": 322
+ },
+ {
+  "stage": 0,
+  "query": "personal website in:readme scss -tailwind stars:20..2000 (page 1)",
+  "result_count": 97
+ },
+ {
+  "stage": 0,
+  "query": "game in:description scss -tailwind -bootstrap stars:50..2000 (page 1)",
+  "result_count": 0
+ },
+ {
+  "query": "astro tailwindcss in:readme stars:>=20",
+  "result_count": 336,
+  "stage": 0
+ },
+ {
+  "query": "bootstrap in:readme stars:>=20",
+  "result_count": 41465,
+  "stage": 0
+ },
+ {
+  "query": "bootstrap \"personal website\" in:readme stars:>=20",
+  "result_count": 141,
+  "stage": 0
+ },
+ {
+  "query": "bootstrap \"portfolio\" in:description stars:>=20",
+  "result_count": 51,
+  "stage": 0
+ },
+ {
+  "notes": "no additional items on page 2",
+  "query": "bootstrap \"portfolio\" in:description stars:>=20 (page 2)",
+  "result_count": 51,
+  "stage": 0
+ },
+ {
+  "query": "bootstrap \"conference\" in:description stars:>=20",
+  "result_count": 2,
+  "stage": 0
+ },
+ {
+  "query": "bootstrap \"festival\" in:description stars:>=20",
+  "result_count": 0,
+  "stage": 0
+ },
+ {
+  "query": "bootstrap webpack in:readme stars:>=20",
+  "result_count": 2218,
+  "stage": 0
+ },
+ {
+  "notes": "page 2 contained libraries/templates only, no real sites",
+  "query": "bootstrap webpack in:readme stars:>=20 (page 2)",
+  "result_count": 2218,
+  "stage": 0
+ },
+ {
+  "query": "bootstrap gulp in:readme stars:>=20",
+  "result_count": 1170,
+  "stage": 0
+ },
+ {
+  "query": "bootstrap \"our website\" in:readme stars:>=20",
+  "result_count": 343,
+  "stage": 0
+ },
+ {
+  "query": "bootstrap \"our website\" in:readme stars:>=20 (page 2)",
+  "result_count": 343,
+  "stage": 0
+ },
+ {
+  "query": "bootstrap \"official website\" in:description stars:>=20",
+  "result_count": 1,
+  "stage": 0
+ },
+ {
+  "query": "bootstrap conf in:description stars:>=20",
+  "result_count": 1,
+  "stage": 0
+ },
+ {
+  "query": "bootstrap hackathon in:description stars:>=20",
+  "result_count": 2,
+  "stage": 0
+ },
+ {
+  "query": "react-bootstrap portfolio in:description stars:>=20",
+  "result_count": 1,
+  "stage": 0
+ },
+ {
+  "query": "react-bootstrap \"portfolio\" in:readme stars:>=20",
+  "result_count": 65,
+  "stage": 0
+ },
+ {
+  "notes": "no additional items on page 2 (65 total)",
+  "query": "react-bootstrap \"portfolio\" in:readme stars:>=20 (page 2)",
+  "result_count": 65,
+  "stage": 0
+ },
+ {
+  "query": "bootstrap 5 \"blog\" in:description stars:>=20 -not -theme",
+  "result_count": 2,
+  "stage": 0
+ },
+ {
+  "query": "\"built with bootstrap\" in:readme stars:>=20",
+  "result_count": 197,
+  "stage": 0
+ },
+ {
+  "query": "\"built with bootstrap\" in:readme stars:>=20 (page 2)",
+  "result_count": 197,
+  "stage": 0
+ },
+ {
+  "query": "bootstrap \"website redesign\" in:readme stars:>=20",
+  "result_count": 4,
+  "stage": 0
+ },
+ {
+  "query": "bootstrap newspaper in:description stars:>=20",
+  "result_count": 0,
+  "stage": 0
+ },
+ {
+  "query": "bootstrap university in:description stars:>=20",
+  "result_count": 4,
+  "stage": 0
+ },
+ {
+  "query": "react-bootstrap gatsby in:readme stars:>=20",
+  "result_count": 49,
+  "stage": 0
+ },
+ {
+  "query": "bootstrap eleventy in:readme stars:>=20",
+  "result_count": 63,
+  "stage": 0
+ },
+ {
+  "query": "bootstrap \"data visualization\" in:description stars:>=20",
+  "result_count": 2,
+  "stage": 0
+ },
+ {
+  "query": "bootstrap church website in:readme stars:>=10",
+  "result_count": 51,
+  "stage": 0
+ },
+ {
+  "notes": "page 2 returned no items",
+  "query": "bootstrap \"church website\" in:readme stars:>=10 (page 2)",
+  "result_count": 1,
+  "stage": 0
+ },
+ {
+  "query": "bootstrap band in:description stars:>=10",
+  "result_count": 1,
+  "stage": 0
+ },
+ {
+  "query": "bootstrap restaurant in:description stars:>=10",
+  "result_count": 19,
+  "stage": 0
+ },
+ {
+  "query": "bootstrap news in:description stars:>=30",
+  "result_count": 5,
+  "stage": 0
+ },
+ {
+  "query": "bootstrap agency in:description stars:>=30",
+  "result_count": 4,
+  "stage": 0
+ },
+ {
+  "query": "bootstrap podcast in:description stars:>=10",
+  "result_count": 0,
+  "stage": 0
+ },
+ {
+  "query": "bootstrap travel in:description stars:>=20",
+  "result_count": 6,
+  "stage": 0
+ },
+ {
+  "query": "bootstrap wedding in:description stars:>=10",
+  "result_count": 5,
+  "stage": 0
+ },
+ {
+  "query": "react-bootstrap blog in:readme stars:>=20",
+  "result_count": 278,
+  "stage": 0
+ },
+ {
+  "query": "bootstrap hugo in:readme stars:>=20",
+  "result_count": 426,
+  "stage": 0
+ },
+ {
+  "query": "bootstrap gatsby in:readme stars:>=20",
+  "result_count": 268,
+  "stage": 0
+ },
+ {
+  "query": "bootstrap nextjs in:readme stars:>=20",
+  "result_count": 414,
+  "stage": 0
+ },
+ {
+  "query": "bootstrap \"11ty\" in:readme stars:>=15",
+  "result_count": 59,
+  "stage": 0
+ },
+ {
+  "query": "bootstrap nuxt in:readme stars:>=20",
+  "result_count": 390,
+  "stage": 0
+ },
+ {
+  "query": "bootstrap sveltekit in:readme stars:>=20",
+  "result_count": 150,
+  "stage": 0
+ },
+ {
+  "query": "bootstrap \"nonprofit\" in:readme stars:>=15",
+  "result_count": 112,
+  "stage": 0
+ },
+ {
+  "query": "bootstrap \"agency\" in:readme stars:>=20",
+  "result_count": 444,
+  "stage": 0
+ },
+ {
+  "query": "bootstrap \"startup\" in:readme stars:>=20",
+  "result_count": 4166,
+  "stage": 0
+ },
+ {
+  "query": "bootstrap \"blog\" in:description stars:>=20 -not -theme",
+  "result_count": 3,
+  "stage": 0
+ },
+ {
+  "query": "bootstrap university in:readme stars:>=20",
+  "result_count": 1077,
+  "stage": 0
+ },
+ {
+  "query": "bootstrap \"wedding\" in:readme stars:>=10",
+  "result_count": 86,
+  "stage": 0
+ },
+ {
+  "query": "bootstrap \"hackathon\" in:readme stars:>=10",
+  "result_count": 444,
+  "stage": 0
+ },
+ {
+  "query": "bootstrap \"news\" in:readme stars:>=30",
+  "result_count": 1522,
+  "stage": 0
+ },
+ {
+  "query": "bootstrap \"clinic\" in:readme stars:>=10",
+  "result_count": 131,
+  "stage": 0
+ },
+ {
+  "query": "bootstrap \"podcast\" in:readme stars:>=15",
+  "result_count": 589,
+  "stage": 0
+ },
+ {
+  "query": "bootstrap \"coffee\" in:readme stars:>=15",
+  "result_count": 1063,
+  "stage": 0
+ },
+ {
+  "query": "bootstrap \"photography\" in:readme stars:>=20",
+  "result_count": 218,
+  "stage": 0
+ },
+ {
+  "query": "bootstrap \"gym\" in:readme stars:>=15",
+  "result_count": 211,
+  "stage": 0
+ },
+ {
+  "query": "bootstrap \"law firm\" in:readme stars:>=10",
+  "result_count": 24,
+  "stage": 0
+ },
+ {
+  "query": "bootstrap \"meetup\" in:readme stars:>=20",
+  "result_count": 270,
+  "stage": 0
+ },
+ {
+  "query": "bootstrap \"summit\" in:readme stars:>=20",
+  "result_count": 124,
+  "stage": 0
+ },
+ {
+  "query": "bootstrap \"band\" in:readme stars:>=10",
+  "result_count": 1058,
+  "stage": 0
+ },
+ {
+  "query": "bootstrap \"salon\" in:readme stars:>=10",
+  "result_count": 30,
+  "stage": 0
+ },
+ {
+  "query": "bootstrap \"pizzeria\" in:readme stars:>=10",
+  "result_count": 4,
+  "stage": 0
+ },
+ {
+  "query": "bootstrap \"museum\" in:readme stars:>=15",
+  "result_count": 123,
+  "stage": 0
+ },
+ {
+  "query": "bootstrap \"department\" in:readme stars:>=15",
+  "result_count": 556,
+  "stage": 0
+ },
+ {
+  "query": "bootstrap \"gdg\" in:description stars:>=10",
+  "result_count": 0,
+  "stage": 0
+ },
+ {
+  "query": "bootstrap \"toastmasters\" in:readme stars:>=5",
+  "result_count": 4,
+  "stage": 0
+ },
+ {
+  "query": "react-bootstrap \"resume\" in:readme stars:>=15",
+  "result_count": 58,
+  "stage": 0
+ },
+ {
+  "query": "react-bootstrap \"personal\" in:readme stars:>=15",
+  "result_count": 165,
+  "stage": 0
+ },
+ {
+  "query": "react-bootstrap \"personal\" in:readme stars:>=15 (page 2)",
+  "result_count": 165,
+  "stage": 0
+ },
+ {
+  "query": "react-bootstrap \"agency\" in:readme stars:>=15",
+  "result_count": 15,
+  "stage": 0
+ },
+ {
+  "query": "react-bootstrap \"blog\" in:readme stars:>=15",
+  "result_count": 360,
+  "stage": 0
+ },
+ {
+  "query": "react-bootstrap \"blog\" in:readme stars:>=15 (page 2)",
+  "result_count": 360,
+  "stage": 0
+ },
+ {
+  "query": "bootstrap \"travel agency\" in:readme stars:>=10",
+  "result_count": 16,
+  "stage": 0
+ },
+ {
+  "query": "react-bootstrap \"developer\" in:readme stars:>=15",
+  "result_count": 418,
+  "stage": 0
+ },
+ {
+  "query": "react-bootstrap \"developer\" in:readme stars:>=15 (page 2)",
+  "result_count": 418,
+  "stage": 0
+ },
+ {
+  "query": "react-bootstrap \"engineer\" in:readme stars:>=15",
+  "result_count": 55,
+  "stage": 0
+ },
+ {
+  "notes": "first attempt failed with transient non-JSON response; rerun succeeded",
+  "query": "bootstrap \"real estate\" in:readme stars:>=15",
+  "result_count": 167,
+  "stage": 0
+ },
+ {
+  "notes": "attempted; no result count obtained (transient failure), not rerun",
+  "query": "bootstrap \"ngo\" in:readme stars:>=15",
+  "result_count": null,
+  "stage": 0
+ },
+ {
+  "query": "bootstrap \"cv\" in:readme stars:>=15",
+  "result_count": 623,
+  "stage": 0
+ },
+ {
+  "query": "bootstrap \"freelance\" in:readme stars:>=15",
+  "result_count": 351,
+  "stage": 0
+ },
+ {
+  "query": "bootstrap \"studio\" in:readme stars:>=20",
+  "result_count": 3379,
+  "stage": 0
+ },
+ {
+  "query": "bootstrap \"florist\" in:readme stars:>=10",
+  "result_count": 2,
+  "stage": 0
+ },
+ {
+  "query": "bootstrap \"tattoo\" in:readme stars:>=10",
+  "result_count": 15,
+  "stage": 0
+ },
+ {
+  "query": "bootstrap \"plumber\" in:readme stars:>=10",
+  "result_count": 86,
+  "stage": 0
+ },
+ {
+  "notes": "matches were GraphQL Yoga, not yoga studios",
+  "query": "bootstrap \"yoga\" in:readme stars:>=10",
+  "result_count": 137,
+  "stage": 0
+ },
+ {
+  "query": "bootstrap \"bakery\" in:readme stars:>=10",
+  "result_count": 94,
+  "stage": 0
+ },
+ {
+  "query": "react-bootstrap \"shop\" in:readme stars:>=15",
+  "result_count": 68,
+  "stage": 0
+ },
+ {
+  "query": "react-bootstrap \"hotel\" in:readme stars:>=10",
+  "result_count": 15,
+  "stage": 0
+ },
+ {
+  "notes": "all results were Hugo themes/templates",
+  "query": "bootstrap \"hugo\" in:description stars:>=30",
+  "result_count": 23,
+  "stage": 0
+ },
+ {
+  "query": "bootstrap \"nextjs\" in:description stars:>=20",
+  "result_count": 4,
+  "stage": 0
+ },
+ {
+  "query": "react-bootstrap \"clinic\" in:readme stars:>=10",
+  "result_count": 7,
+  "stage": 0
+ },
+ {
+  "query": "bootstrap \"coffee shop\" in:readme stars:>=10",
+  "result_count": 60,
+  "stage": 0
+ },
+ {
+  "query": "bootstrap \"clinic\" in:description stars:>=15",
+  "result_count": 2,
+  "stage": 0
+ },
+ {
+  "query": "bootstrap \"photographer\" in:description stars:>=15",
+  "result_count": 0,
+  "stage": 0
+ },
+ {
+  "query": "bootstrap \"pycon\" in:readme stars:>=10",
+  "result_count": 58,
+  "stage": 0
+ },
+ {
+  "query": "bootstrap \"conference website\" in:readme stars:>=10",
+  "result_count": 20,
+  "stage": 0
+ },
+ {
+  "query": "react-bootstrap \"cv\" in:readme stars:>=15",
+  "result_count": 19,
+  "stage": 0
+ },
+ {
+  "query": "bootstrap \"law firm\" in:readme stars:>=5",
+  "result_count": 36,
+  "stage": 0
+ },
+ {
+  "query": "bootstrap \"news website\" in:readme stars:>=15",
+  "result_count": 27,
+  "stage": 0
+ },
+ {
+  "query": "bootstrap \"rotary\" in:readme stars:>=10",
+  "result_count": 86,
+  "stage": 0
+ },
+ {
+  "notes": "query too broad, matched unrelated content",
+  "query": "bootstrap \"code for\" in:readme stars:>=10",
+  "result_count": 3975,
+  "stage": 0
+ },
+ {
+  "notes": "matches were resource lists, not toastmasters club sites",
+  "query": "bootstrap \"toastmasters\" in:readme stars:>=5",
+  "result_count": 4,
+  "stage": 0
+ },
+ {
+  "query": "bootstrap \"gdg\" in:readme stars:>=10",
+  "result_count": 48,
+  "stage": 0
+ },
+ {
+  "notes": "matches were AI-agent/cowork tools, not coworking spaces",
+  "query": "bootstrap \"coworking\" in:readme stars:>=10",
+  "result_count": 171,
+  "stage": 0
+ },
+ {
+  "notes": "top match was an App Brewery course project",
+  "query": "bootstrap \"brewery\" in:readme stars:>=10",
+  "result_count": 50,
+  "stage": 0
+ },
+ {
+  "query": "bootstrap \"barbershop\" in:readme stars:>=10",
+  "result_count": 6,
+  "stage": 0
+ },
+ {
+  "query": "bootstrap \"our app\" in:readme stars:>=20",
+  "result_count": 228,
+  "stage": 0
+ },
+ {
+  "query": "bootstrap \"charity\" in:readme stars:>=20",
+  "result_count": 57,
+  "stage": 0
+ },
+ {
+  "query": "bootstrap \"animal shelter\" in:readme stars:>=5",
+  "result_count": 5,
+  "stage": 0
+ },
+ {
+  "query": "react-bootstrap \"wedding\" in:readme stars:>=10",
+  "result_count": 2,
+  "stage": 0
+ },
+ {
+  "query": "react-bootstrap \"nonprofit\" in:readme stars:>=10",
+  "result_count": 12,
+  "stage": 0
+ },
+ {
+  "query": "bootstrap-italia in:readme stars:>=5",
+  "result_count": 85,
+  "stage": 0
+ },
+ {
+  "query": "bootstrap \"hackerspace\" in:readme stars:>=10",
+  "result_count": 19,
+  "stage": 0
+ },
+ {
+  "notes": "rerun of earlier band query; matches were music libraries and awesome lists",
+  "query": "bootstrap \"band\" in:readme stars:>=10 (rerun)",
+  "result_count": 1058,
+  "stage": 0
+ },
+ {
+  "query": "bootstrap-vue \"website\" in:readme stars:>=15",
+  "result_count": 51,
+  "stage": 0
+ },
+ {
+  "query": "bootstrap \"mosque\" in:readme stars:>=10",
+  "result_count": 3,
+  "stage": 0
+ },
+ {
+  "query": "react-bootstrap \"church\" in:readme stars:>=10",
+  "result_count": 1,
+  "stage": 0
+ },
+ {
+  "query": "bootstrap \"football club\" in:readme stars:>=10",
+  "result_count": 4,
+  "stage": 0
+ },
+ {
+  "query": "bootstrap \"makerspace\" in:readme stars:>=10",
+  "result_count": 12,
+  "stage": 0
+ },
+ {
+  "query": "react-bootstrap \"school\" in:readme stars:>=15",
+  "result_count": 35,
+  "stage": 0
+ },
+ {
+  "query": "bootstrap \"dance\" in:readme stars:>=10",
+  "result_count": 335,
+  "stage": 0
+ },
+ {
+  "query": "bootstrap \"church\" in:readme stars:>=20",
+  "result_count": 56,
+  "stage": 0
+ },
+ {
+  "query": "bootstrap \"nonprofit\" in:readme stars:>=20",
+  "result_count": 96,
+  "stage": 0
+ },
+ {
+  "query": "bootstrap \"city of\" in:readme stars:>=15",
+  "result_count": 52,
+  "stage": 0
+ },
+ {
+  "query": "bootstrap \"open data\" in:readme stars:>=20",
+  "result_count": 227,
+  "stage": 0
+ },
+ {
+  "notes": "public web search; 5 results displayed",
+  "query": "public web: open source website built with Bootstrap 5 github -theme -template -dashboard",
+  "result_count": 5,
+  "stage": 0
+ },
+ {
+  "query": "astro tailwind portfolio",
+  "result_count": 1446,
+  "stage": 0
+ },
+ {
+  "query": "astro tailwindcss personal website stars:>20",
+  "result_count": 18,
+  "stage": 0
+ }
+]

@@ -1,0 +1,62 @@
+{
+ "broken": 40,
+ "candidates_found": 100,
+ "capped_to_45": true,
+ "coverage_note": "Toolchain for all probes: node v24.20.0, npm 10.9.4, pnpm 10.34.5, yarn 1.22.22 (single versions; packageManager pins not honored with version switching \u2014 e.g. pheralb/slug pins pnpm@8.15.6 and its old pnpm-lock.yaml files were rejected by pnpm 10 as lockfile-breaking-change; logotip4ik/portfolio pins yarn@3.6.0 but was probed with yarn 1.22.22, its failures were network errors not version errors). A VM reboot mid-task wiped /usr/bin/pnpm and /usr/bin/yarn (non-persistent); both reinstalled to /usr/bin and ~/.npm-global/bin, and every record probed while the toolchain was missing was fully re-probed (achamorro-dev/eventoswiki, samuelkraft/samuelkraft-next). One worker mistakenly deleted two of another worker's worktree dirs; affected record satnaing/satnaing.dev was fully re-probed (broken, 6/6 install 4/6 build, genuine webpack errors). Sporadic transient checkout glitches (worktree missing package.json immediately after a successful checkout) hit single commits in hyperlink-academy/leaflet, alanagoyal/alanagoyal, w3bdesign/nextjs-woocommerce, jackblatch/OneStopShop and one run of santifer/cv-santiago; only santifer's verdict hinged on one, and its full re-probe still failed that commit (build timeout >300s while fetching live API data) \u2014 verdict broken either way; other verdicts unaffected. Sandbox EPERM chown flakes during npm bin-linking and Next.js .next/cache writes were classified as environment (seen in prior scans of this machine). PasteBar/PasteBarApp: 4 build failures were missing cargo/Rust (tauri), reclassified from build to environment per the missing-system-toolchain rule; verdict unchanged (2 genuine install failures). samuelkraft/samuelkraft-next: 5 yarn registry fetch aborts, registries verified reachable via curl and probe run twice \u2014 recorded as install failures. jackblatch/OneStopShop is environment_incomplete: 5/6 installs and the 1 attempted build were blocked by sandbox EPERM flakes, so no clean verdict was possible; it is not counted in usable. Stage-0 exclusions (framework-owned, tool-docs, template) were applied before stage-1 records were written, so rejected_by_reason only breaks out stage-1 rejections. Two stage2_list keys lack the '/' separator (jestsee_jestsee.com, alexcarpenter_alexcarpenter.me), inherited from stage 1; probed as jestsee/jestsee.com and alexcarpenter/alexcarpenter.me via existing clones.",
+ "environment_incomplete": 1,
+ "passed_stage_1": 60,
+ "per_bucket": {
+  "A": {
+   "broken": 19,
+   "candidates": 35,
+   "passed_stage_1": 29,
+   "probed": 20,
+   "slow": 0,
+   "usable": 0
+  },
+  "B": {
+   "broken": 3,
+   "candidates": 20,
+   "passed_stage_1": 9,
+   "probed": 7,
+   "slow": 0,
+   "usable": 4
+  },
+  "C": {
+   "broken": 10,
+   "candidates": 15,
+   "passed_stage_1": 11,
+   "probed": 10,
+   "slow": 0,
+   "usable": 0
+  },
+  "D": {
+   "broken": 2,
+   "candidates": 20,
+   "passed_stage_1": 3,
+   "probed": 2,
+   "slow": 0,
+   "usable": 0
+  },
+  "E": {
+   "broken": 6,
+   "candidates": 10,
+   "passed_stage_1": 8,
+   "probed": 6,
+   "slow": 0,
+   "usable": 0
+  }
+ },
+ "probed": 45,
+ "rejected_by_reason": {
+  "framework-owned": 0,
+  "monorepo": 4,
+  "no-lockfile": 0,
+  "other": 9,
+  "template": 0,
+  "too-few-page-commits": 27,
+  "tool-docs": 0
+ },
+ "slow": 0,
+ "usable": 4
+}

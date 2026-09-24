@@ -1,0 +1,328 @@
+{
+ "tests": [
+  {
+   "path": "css/css-contain/contain-layout-breaks-002.html",
+   "title": "CSS-contain test: layout containment and forced breaks",
+   "assertion": "forced breaks within layout containment do not propagate to the parent.",
+   "spec_link": "http://www.gtalbot.org/BrowserBugsSection/css21testsuite/\">\n  <meta content=\"forced breaks within layout containment do not propagate to the parent.\" name=\"assert\">\n\n  <link href=\"reference/contain-layout-breaks-002-ref.html\" rel=\"match\">\n\n  <link href=",
+   "propagation_fact": "A forced break inside a layout-contained child does not propagate to its parent; the parent's column layout is unaffected.",
+   "direction": "ancestor",
+   "requires_runtime_facts": false
+  },
+  {
+   "path": "css/CSS2/margin-padding-clear/margin-collapse-160.xht",
+   "title": "CSS Test: Margins should not propagate into the next page",
+   "assertion": null,
+   "spec_link": "http://www.w3.org/TR/CSS21/box.html#collapsing-margins",
+   "propagation_fact": "A huge bottom margin before a page break does not propagate onto the next page; content on the following page stays at the top.",
+   "direction": "following-siblings",
+   "requires_runtime_facts": true
+  },
+  {
+   "path": "css/CSS2/ui/overflow-ancestors-001.xht",
+   "title": "CSS Test: Overflow affect on children",
+   "assertion": "Overflow clipping does not affect elements which are ancestors to the element being clipped.",
+   "spec_link": "http://www.w3.org/TR/CSS21/visufx.html#overflow",
+   "propagation_fact": "Clipping an element's overflow does not move or alter its ancestor elements.",
+   "direction": "ancestor",
+   "requires_runtime_facts": false
+  },
+  {
+   "path": "css/CSS2/ui/overflow-parent-001.xht",
+   "title": "CSS Test: Overflow hidden on root element",
+   "assertion": "Clipping does not affect elements where their parent is the viewport.",
+   "spec_link": "http://www.w3.org/TR/CSS21/visufx.html#overflow",
+   "propagation_fact": "Overflow clipping does not affect an element whose parent is the viewport.",
+   "direction": "own-box",
+   "requires_runtime_facts": false
+  },
+  {
+   "path": "css/css-position/sticky/position-sticky-inflow-position.html",
+   "title": "position:sticky elements should not affect the flow position of other elements",
+   "assertion": "This test checks that position:sticky elements do not affect the flow position of other elements",
+   "spec_link": "https://www.w3.org/TR/css-position-3/#sticky-pos",
+   "propagation_fact": "A sticky-positioned element's stickiness does not change the flow positions of the other elements around it.",
+   "direction": "nothing",
+   "requires_runtime_facts": false
+  },
+  {
+   "path": "css/css-overflow/line-clamp/line-clamp-with-abspos-018.html",
+   "title": "CSS Overflow: line-clamp doesn't propagate to abspos",
+   "assertion": "Absolute positioned boxes create a new BFC, and line-clamp does not propagate into independent BFCs",
+   "spec_link": "https://drafts.csswg.org/css-overflow-4/#line-clamp",
+   "propagation_fact": "line-clamp on a container does not propagate into absolutely positioned descendants, which form independent BFCs.",
+   "direction": "descendants",
+   "requires_runtime_facts": false
+  },
+  {
+   "path": "css/css-overflow/line-clamp/line-clamp-with-floats-007.html",
+   "title": "CSS Overflow: line-clamp doesn't propagate to floats",
+   "assertion": "Floats create a new BFC, and line-clamp does not propagate into independent BFCs",
+   "spec_link": "https://drafts.csswg.org/css-overflow-4/#line-clamp",
+   "propagation_fact": "line-clamp on a container does not propagate into floated boxes, which form independent BFCs.",
+   "direction": "descendants",
+   "requires_runtime_facts": false
+  },
+  {
+   "path": "css/css-overflow/line-clamp/block-ellipsis-041.html",
+   "title": "CSS Overflow: No clearance if block-ellipsis fits",
+   "assertion": "After displacing content to make room for the ellipsis, if the line would fit next to a float, keep and there and do not shift it down.",
+   "spec_link": "https://drafts.csswg.org/css-overflow-4/#block-ellipsis",
+   "propagation_fact": "Inserting the block-ellipsis does not shift the line down when the line fits beside a float.",
+   "direction": "own-box",
+   "requires_runtime_facts": false
+  },
+  {
+   "path": "css/css-overflow/line-clamp/line-clamp-024.tentative.html",
+   "title": "CSS Overflow: when clamping by lines, margins of hidden boxes are ignored",
+   "assertion": "When line-clamp is used with a number of lines, the margins of boxes after the clamp point should not affect the sizing of boxes.",
+   "spec_link": "https://drafts.csswg.org/css-overflow-4/#line-clamp",
+   "propagation_fact": "Margins of boxes hidden after the line-clamp point do not change the clamped container's size.",
+   "direction": "ancestor",
+   "requires_runtime_facts": false
+  },
+  {
+   "path": "css/css-position/position-absolute-large-negative-inset.html",
+   "title": "CSS Position: Large negative box inset properties",
+   "assertion": "This test verifies a box with very large negative insets within an element with will-change: transform does not affect the rendering of the element.",
+   "spec_link": "https://drafts.csswg.org/css-position-3/#insets",
+   "propagation_fact": "An absolutely positioned descendant with very large negative insets does not alter the rendering of its will-change: transform ancestor.",
+   "direction": "ancestor",
+   "requires_runtime_facts": false
+  },
+  {
+   "path": "css/CSS2/positioning/position-absolute-001.xht",
+   "title": "CSS Test: Absolute positions impact on later siblings",
+   "assertion": "Absolute positioned elements do not impact later siblings.",
+   "spec_link": "http://www.w3.org/TR/CSS21/visuren.html#positioning-scheme",
+   "propagation_fact": "Absolutely positioning an element does not impact its later in-flow siblings' positions.",
+   "direction": "following-siblings",
+   "requires_runtime_facts": false
+  },
+  {
+   "path": "css/css-multicol/multicol-span-all-restyle-001.html",
+   "title": "CSS Multi-column Layout Test: Restyle column-span's parent that is a block",
+   "assertion": "This test checks change the style of the spanner",
+   "spec_link": "https://drafts.csswg.org/css-multicol-1/#column-span",
+   "propagation_fact": "Changing the style of a spanner's parent does not affect the spanner's rendering.",
+   "direction": "descendants",
+   "requires_runtime_facts": false
+  },
+  {
+   "path": "css/css-multicol/multicol-margin-003.html",
+   "title": "CSS Multi-column Layout Test: multi-column and margin bottom of last child",
+   "assertion": "This test checks the margin-bottom of the last child of a multi-column should not affect its parent",
+   "spec_link": "https://drafts.csswg.org/css-multicol-1/#the-multi-column-model",
+   "propagation_fact": "The last child of a multi-column element's bottom margin does not affect its parent's bottom margin.",
+   "direction": "ancestor",
+   "requires_runtime_facts": false
+  },
+  {
+   "path": "css/css-grid/grid-model/grid-gutters-and-tracks-001.html",
+   "title": "CSS Grid: grid gutters and tracks.",
+   "assertion": "Check that gutters contribute to the size of the grid containers and spanning items, and do not alter grid items positioning, margin computation and track sizing.",
+   "spec_link": "https://drafts.csswg.org/css-grid-1/#gutters",
+   "propagation_fact": "Changing grid gutters grows the grid container and spanning items but does not alter grid item positioning, margin computation, or track sizing.",
+   "direction": "descendants",
+   "requires_runtime_facts": false
+  },
+  {
+   "path": "css/css-flexbox/flex-item-vertical-align.html",
+   "title": "CSS Flexbox: vertical-align on a flex item",
+   "assertion": "vertical-align should have no effect on a flex item, i.e. flex items",
+   "spec_link": "https://drafts.csswg.org/css-flexbox/#flex-containers",
+   "propagation_fact": "Setting vertical-align on a flex item does not shift the item's content.",
+   "direction": "own-box",
+   "requires_runtime_facts": false
+  },
+  {
+   "path": "css/css-flexbox/flex-container-margin.html",
+   "title": "CSS Test: flex-container-margin-not-collapse-with-content-margin",
+   "assertion": "The margins of adjacent flex items do not collapse.",
+   "spec_link": "https://drafts.csswg.org/css-flexbox-1/#item-margins",
+   "propagation_fact": "Adjacent flex items' margins do not collapse, so margins on one item do not reduce the gap before the next item.",
+   "direction": "following-siblings",
+   "requires_runtime_facts": false
+  },
+  {
+   "path": "css/css-grid/grid-model/grid-inline-margins-no-collapse-001.html",
+   "title": "CSS Grid Layout Test: inline grid's margins do not collapse",
+   "assertion": "This test checks that inline grid",
+   "spec_link": "http://www.w3.org/TR/css-grid-1/#grid-containers",
+   "propagation_fact": "An inline grid's margin does not collapse with its grid item's margins, so the item's margins do not move the grid's position.",
+   "direction": "ancestor",
+   "requires_runtime_facts": false
+  },
+  {
+   "path": "css/CSS2/normal-flow/blocks-018.xht",
+   "title": "CSS Test: CSS Blocks: Effect of Bottom Padding on Inline Layout",
+   "assertion": "Bottom padding on inline elements has no effect on layout.",
+   "spec_link": "http://www.w3.org/TR/CSS21/box.html#padding-properties",
+   "propagation_fact": "Adding bottom padding to an inline element has no effect on layout; it does not push following content down.",
+   "direction": "nothing",
+   "requires_runtime_facts": false
+  },
+  {
+   "path": "css/CSS2/normal-flow/blocks-019.xht",
+   "title": "CSS Test: CSS Blocks: Effect of Top Padding on Inline Layout",
+   "assertion": "Top padding on inline elements has no effect on layout.",
+   "spec_link": "http://www.w3.org/TR/CSS21/box.html#padding-properties",
+   "propagation_fact": "Adding top padding to an inline element has no effect on layout; it does not push preceding content up.",
+   "direction": "nothing",
+   "requires_runtime_facts": false
+  },
+  {
+   "path": "css/CSS2/normal-flow/margin-collapse-min-height-001.html",
+   "title": "CSS Test: min-height prevents child bottom margin from collapsing through parent",
+   "assertion": "When min-height raises a block",
+   "spec_link": "https://www.w3.org/TR/CSS22/box.html#collapsing-margins",
+   "propagation_fact": "When min-height raises a block's height above its auto height, the last child's bottom margin does not collapse through the parent.",
+   "direction": "ancestor",
+   "requires_runtime_facts": false
+  },
+  {
+   "path": "css/CSS2/normal-flow/block-formatting-context-height-003.xht",
+   "title": "CSS Test: Block formatting context auto height with floated descendants outside the normal flow and bottom margins",
+   "assertion": "The auto height of a block formatting context element does not account for bottom margins of floated content descendents of out of flow blocks.",
+   "spec_link": "http://www.w3.org/TR/CSS21/visudet.html#root-height",
+   "propagation_fact": "A BFC element's auto height does not account for bottom margins of floated descendants of out-of-flow blocks.",
+   "direction": "ancestor",
+   "requires_runtime_facts": false
+  },
+  {
+   "path": "css/CSS2/positioning/position-absolute-005.xht",
+   "title": "CSS Test: Absolutely positioned elements do not establish a new containing block for fixed position descendants",
+   "assertion": "An absolutely positioned box does not establish a new containing block for fixed positioned descendants.",
+   "spec_link": "http://www.w3.org/TR/CSS21/visuren.html#absolute-positioning",
+   "propagation_fact": "An absolutely positioned box does not establish a new containing block for fixed-positioned descendants, so adding absolute positioning to an ancestor does not relocate its fixed descendants.",
+   "direction": "descendants",
+   "requires_runtime_facts": false
+  },
+  {
+   "path": "css/CSS2/positioning/position-absolute-007.xht",
+   "title": "CSS Test: Absolutely positioned elements child behavior",
+   "assertion": "The contents of an absolutely positioned element do not flow around any other boxes and can obscure the contents of another box.",
+   "spec_link": "http://www.w3.org/TR/CSS21/visuren.html#absolute-positioning",
+   "propagation_fact": "The contents of an absolutely positioned element do not flow around any other boxes and can obscure another box's contents.",
+   "direction": "following-siblings",
+   "requires_runtime_facts": false
+  },
+  {
+   "path": "css/CSS2/positioning/position-fixed-001.xht",
+   "title": "CSS Test: Fixed position elements impact on later siblings",
+   "assertion": "Fixed positioned elements do not impact later siblings.",
+   "spec_link": "http://www.w3.org/TR/CSS21/visuren.html#propdef-position",
+   "propagation_fact": "Fixed-positioning an element does not impact its later in-flow siblings' positions.",
+   "direction": "following-siblings",
+   "requires_runtime_facts": false
+  },
+  {
+   "path": "css/CSS2/positioning/position-relative-004.xht",
+   "title": "CSS Test: Relative positioning dimensions",
+   "assertion": "Relative positioning with left or right does not change size of a box.",
+   "spec_link": "http://www.w3.org/TR/CSS21/visuren.html#relative-positioning",
+   "propagation_fact": "Offsetting a box with relative positioning (left/right) does not change the box's own size.",
+   "direction": "own-box",
+   "requires_runtime_facts": false
+  },
+  {
+   "path": "css/CSS2/positioning/position-relative-032.xht",
+   "title": "CSS Test: Relatively positioned box has no impact on boxes which follow",
+   "assertion": "Offsetting a box with relative positioning has no effect on the boxes which follow.",
+   "spec_link": "http://www.w3.org/TR/CSS21/visuren.html#comp-relpos",
+   "propagation_fact": "Offsetting a box with relative positioning has no effect on the boxes that follow it.",
+   "direction": "following-siblings",
+   "requires_runtime_facts": false
+  },
+  {
+   "path": "css/CSS2/positioning/position-relative-033.xht",
+   "title": "CSS Test: Relatively positioned box has no impact on boxes which follow and boxes may overlap",
+   "assertion": "Offsetting a box with relative positioning has no effect on the boxes which follow and boxes may overlap.",
+   "spec_link": "http://www.w3.org/TR/CSS21/visuren.html#comp-relpos",
+   "propagation_fact": "Offsetting a box with relative positioning has no effect on the boxes that follow it, and boxes may overlap.",
+   "direction": "following-siblings",
+   "requires_runtime_facts": false
+  },
+  {
+   "path": "css/CSS2/positioning/position-static-001.xht",
+   "title": "CSS Test: Content laid out in normal flow when 'position' is set to 'static'",
+   "assertion": "Static positioned elements are not affected by top, right, bottom, left property settings.",
+   "spec_link": "http://www.w3.org/TR/CSS21/visuren.html#propdef-position",
+   "propagation_fact": "A statically positioned element is not affected by top, right, bottom, left property settings; its position does not change.",
+   "direction": "own-box",
+   "requires_runtime_facts": false
+  },
+  {
+   "path": "css/css-flexbox/overflow-area-003.html",
+   "title": "CSS Flexible Box Layout Test: Test flex container's overflow rect",
+   "assertion": "This test verifies that a flex container",
+   "spec_link": "https://drafts.csswg.org/css-overflow-3/#scrollable",
+   "propagation_fact": "A flex container's padding rect does not affect its overflow rect at all.",
+   "direction": "own-box",
+   "requires_runtime_facts": false
+  },
+  {
+   "path": "css/css-box/margin-trim/block-container-block-end-collapsed-margins.html",
+   "title": "margin-trim: block-container-block-end-collapsed-margins",
+   "assertion": "collapsed block-end margins should be trimmed but not affect container margins",
+   "spec_link": "https://drafts.csswg.org/css-box-4/#margin-trim-block",
+   "propagation_fact": "margin-trim trims collapsed block-end margins without affecting the container's own margins.",
+   "direction": "ancestor",
+   "requires_runtime_facts": false
+  },
+  {
+   "path": "css/CSS2/margin-padding-clear/margin-applies-to-008.xht",
+   "title": "CSS Test: Margin applied to element with display inline",
+   "assertion": "The ",
+   "spec_link": "http://www.w3.org/TR/CSS21/box.html#propdef-margin",
+   "propagation_fact": "Vertical margins on inline non-replaced elements do not apply, so they do not move surrounding content.",
+   "direction": "nothing",
+   "requires_runtime_facts": false
+  },
+  {
+   "path": "css/CSS2/box-display/block-in-inline-margin-collapses-through-intervening-float.html",
+   "title": "CSS Test: block-in-inline margin collapses through an intervening float",
+   "assertion": "A floated box between two block-in-inlines does not consume the preceding block",
+   "spec_link": "https://www.w3.org/TR/CSS21/visuren.html#anonymous-block-level",
+   "propagation_fact": "A floated box between two block-in-inlines does not consume the preceding block's margin-bottom; it collapses with the following block-in-inline as if the float were not there.",
+   "direction": "preceding-siblings",
+   "requires_runtime_facts": false
+  },
+  {
+   "path": "css/CSS2/box-display/block-in-inline-at-start-with-margin-top-collapses-with-parent.html",
+   "title": "CSS Test: block-in-inline at parent start with margin-top collapses with parent",
+   "assertion": "A block-in-inline",
+   "spec_link": "https://www.w3.org/TR/CSS21/visuren.html#anonymous-block-level",
+   "propagation_fact": "A block-in-inline's margin-top at the start of its parent collapses with the parent's margin-top and out to its preceding sibling.",
+   "direction": "preceding-siblings",
+   "requires_runtime_facts": false
+  },
+  {
+   "path": "css/css-overflow/line-clamp/block-ellipsis-repaint-002.html",
+   "title": "CSS Overflow: line-clamp ellipsis repaint tests",
+   "assertion": "This test makes sure that, if the line with the ellipsis gets moved vertically because the height of previous lines grows, the ellipsis moves correspondingly; and that this happens even when the height of the line-clamp container does not change.",
+   "spec_link": "https://drafts.csswg.org/css-overflow-4/#block-ellipsis",
+   "propagation_fact": "If the line with the ellipsis is moved vertically because the height of previous lines grows, the ellipsis moves correspondingly.",
+   "direction": "following-siblings",
+   "requires_runtime_facts": false
+  },
+  {
+   "path": "css/css-gaps/flex/flex-gap-decorations-repaint-on-container-shift.html",
+   "title": "CSS Gap Decorations: repaint when flex container position shifts",
+   "assertion": "Flex column-rule gap decorations break at the row-gap intersections after a preceding sibling shifts the container",
+   "spec_link": "https://drafts.csswg.org/css-gaps-1/",
+   "propagation_fact": "Flex column-rule gap decorations break at the row-gap intersections after a preceding sibling shifts the container's block position, instead of painting through them.",
+   "direction": "preceding-siblings",
+   "requires_runtime_facts": false
+  },
+  {
+   "path": "css/css-contain/content-visibility/content-visibility-031.html",
+   "title": "Content Visibility: resize observer interactions",
+   "assertion": "content-visibility hidden subtrees do not trigger resize observer",
+   "spec_link": "https://drafts.csswg.org/css-contain/#content-visibility",
+   "propagation_fact": "Changes inside content-visibility:hidden subtrees do not trigger ResizeObserver callbacks.",
+   "direction": "ancestor",
+   "requires_runtime_facts": false
+  }
+ ]
+}

@@ -1,0 +1,1152 @@
+{
+ "generated_at": "2026-09-23T23:49:37.136190+00:00",
+ "activated_pairs": [
+  {
+   "node": "v12.22.12",
+   "pm": "npm@6.0.0",
+   "commit_count": 9,
+   "repos": [
+    "mldangelo/personal-site",
+    "mydraft-cc/ui"
+   ]
+  },
+  {
+   "node": "v12.22.12",
+   "pm": "npm@6.1.0",
+   "commit_count": 3,
+   "repos": [
+    "mydraft-cc/ui"
+   ]
+  },
+  {
+   "node": "v12.22.12",
+   "pm": "npm@6.14.5",
+   "commit_count": 4,
+   "repos": [
+    "w3bdesign/nextjs-woocommerce"
+   ]
+  },
+  {
+   "node": "v12.22.12",
+   "pm": "npm@6.4.1",
+   "commit_count": 5,
+   "repos": [
+    "JustArchiNET/ASF-ui",
+    "aermin/ghChat"
+   ]
+  },
+  {
+   "node": "v12.22.12",
+   "pm": "npm@6.5.0",
+   "commit_count": 1,
+   "repos": [
+    "aermin/ghChat"
+   ]
+  },
+  {
+   "node": "v12.22.12",
+   "pm": "npm@6.6.0",
+   "commit_count": 1,
+   "repos": [
+    "JustArchiNET/ASF-ui"
+   ]
+  },
+  {
+   "node": "v12.22.12",
+   "pm": "npm@6.8.0",
+   "commit_count": 3,
+   "repos": [
+    "JustArchiNET/ASF-ui",
+    "aermin/ghChat"
+   ]
+  },
+  {
+   "node": "v12.22.12",
+   "pm": "npm@6.9.0",
+   "commit_count": 8,
+   "repos": [
+    "CanCLID/jyutping.org",
+    "aermin/ghChat"
+   ]
+  },
+  {
+   "node": "v14.0.0",
+   "pm": "yarn@1.22.19",
+   "commit_count": 1,
+   "repos": [
+    "mehrabmp/kara-shop"
+   ]
+  },
+  {
+   "node": "v14.21.3",
+   "pm": "npm@7.22.0",
+   "commit_count": 1,
+   "repos": [
+    "spencerwooo/onedrive-vercel-index"
+   ]
+  },
+  {
+   "node": "v14.21.3",
+   "pm": "npm@7.3.0",
+   "commit_count": 1,
+   "repos": [
+    "samuelkraft/samuelkraft-next"
+   ]
+  },
+  {
+   "node": "v14.21.3",
+   "pm": "yarn@1.22.10",
+   "commit_count": 10,
+   "repos": [
+    "samuelkraft/samuelkraft-next",
+    "sledilnik/website"
+   ]
+  },
+  {
+   "node": "v14.21.3",
+   "pm": "yarn@1.22.11",
+   "commit_count": 3,
+   "repos": [
+    "burhan-syed/troddit",
+    "sledilnik/website"
+   ]
+  },
+  {
+   "node": "v16.17.0",
+   "pm": "npm@10.2.5",
+   "commit_count": 1,
+   "repos": [
+    "achamorro-dev/eventoswiki"
+   ]
+  },
+  {
+   "node": "v16.20.2",
+   "pm": "npm@8.10.0",
+   "commit_count": 1,
+   "repos": [
+    "satnaing/satnaing.dev"
+   ]
+  },
+  {
+   "node": "v16.20.2",
+   "pm": "npm@8.12.1",
+   "commit_count": 1,
+   "repos": [
+    "Ryczko/FormsLab"
+   ]
+  },
+  {
+   "node": "v16.20.2",
+   "pm": "npm@8.17.0",
+   "commit_count": 1,
+   "repos": [
+    "satnaing/satnaing.dev"
+   ]
+  },
+  {
+   "node": "v16.20.2",
+   "pm": "npm@8.19.1",
+   "commit_count": 1,
+   "repos": [
+    "jp-quintana/react-shopping-cart"
+   ]
+  },
+  {
+   "node": "v16.20.2",
+   "pm": "npm@8.3.0",
+   "commit_count": 2,
+   "repos": [
+    "spencerwooo/onedrive-vercel-index"
+   ]
+  },
+  {
+   "node": "v16.20.2",
+   "pm": "npm@8.5.2",
+   "commit_count": 1,
+   "repos": [
+    "Ryczko/FormsLab"
+   ]
+  },
+  {
+   "node": "v16.20.2",
+   "pm": "npm@8.5.4",
+   "commit_count": 1,
+   "repos": [
+    "satnaing/satnaing.dev"
+   ]
+  },
+  {
+   "node": "v16.20.2",
+   "pm": "npm@8.5.5",
+   "commit_count": 3,
+   "repos": [
+    "satnaing/satnaing.dev"
+   ]
+  },
+  {
+   "node": "v16.20.2",
+   "pm": "npm@8.6.0",
+   "commit_count": 1,
+   "repos": [
+    "Ryczko/FormsLab"
+   ]
+  },
+  {
+   "node": "v16.20.2",
+   "pm": "npm@8.8.0",
+   "commit_count": 1,
+   "repos": [
+    "Ryczko/FormsLab"
+   ]
+  },
+  {
+   "node": "v16.20.2",
+   "pm": "npm@8.9.0",
+   "commit_count": 2,
+   "repos": [
+    "Ryczko/FormsLab"
+   ]
+  },
+  {
+   "node": "v16.20.2",
+   "pm": "pnpm@6.29.1",
+   "commit_count": 1,
+   "repos": [
+    "spencerwooo/onedrive-vercel-index"
+   ]
+  },
+  {
+   "node": "v16.20.2",
+   "pm": "pnpm@6.30.0",
+   "commit_count": 1,
+   "repos": [
+    "spencerwooo/onedrive-vercel-index"
+   ]
+  },
+  {
+   "node": "v16.20.2",
+   "pm": "pnpm@6.32.1",
+   "commit_count": 1,
+   "repos": [
+    "spencerwooo/onedrive-vercel-index"
+   ]
+  },
+  {
+   "node": "v16.20.2",
+   "pm": "yarn@1.22.17",
+   "commit_count": 4,
+   "repos": [
+    "burhan-syed/troddit"
+   ]
+  },
+  {
+   "node": "v16.20.2",
+   "pm": "yarn@1.22.18",
+   "commit_count": 3,
+   "repos": [
+    "logotip4ik/portfolio"
+   ]
+  },
+  {
+   "node": "v16.20.2",
+   "pm": "yarn@1.22.19",
+   "commit_count": 3,
+   "repos": [
+    "logotip4ik/portfolio",
+    "mehrabmp/kara-shop"
+   ]
+  },
+  {
+   "node": "v18.17.1",
+   "pm": "pnpm@8.15.1",
+   "commit_count": 1,
+   "repos": [
+    "achamorro-dev/eventoswiki"
+   ]
+  },
+  {
+   "node": "v18.17.1",
+   "pm": "pnpm@8.15.5",
+   "commit_count": 1,
+   "repos": [
+    "achamorro-dev/eventoswiki"
+   ]
+  },
+  {
+   "node": "v18.17.1",
+   "pm": "pnpm@8.15.7",
+   "commit_count": 1,
+   "repos": [
+    "achamorro-dev/eventoswiki"
+   ]
+  },
+  {
+   "node": "v18.17.1",
+   "pm": "pnpm@8.15.8",
+   "commit_count": 2,
+   "repos": [
+    "achamorro-dev/eventoswiki"
+   ]
+  },
+  {
+   "node": "v18.20.8",
+   "pm": "npm@8.19.3",
+   "commit_count": 4,
+   "repos": [
+    "jp-quintana/react-shopping-cart"
+   ]
+  },
+  {
+   "node": "v18.20.8",
+   "pm": "npm@8.19.4",
+   "commit_count": 6,
+   "repos": [
+    "alexcarpenter/alexcarpenter.me",
+    "aulianza/aulianza.id",
+    "jp-quintana/react-shopping-cart"
+   ]
+  },
+  {
+   "node": "v18.20.8",
+   "pm": "npm@9.6.4",
+   "commit_count": 1,
+   "repos": [
+    "jackblatch/OneStopShop"
+   ]
+  },
+  {
+   "node": "v18.20.8",
+   "pm": "npm@9.6.5",
+   "commit_count": 1,
+   "repos": [
+    "jackblatch/OneStopShop"
+   ]
+  },
+  {
+   "node": "v18.20.8",
+   "pm": "npm@9.6.6",
+   "commit_count": 2,
+   "repos": [
+    "jackblatch/OneStopShop"
+   ]
+  },
+  {
+   "node": "v18.20.8",
+   "pm": "npm@9.7.0",
+   "commit_count": 1,
+   "repos": [
+    "jackblatch/OneStopShop"
+   ]
+  },
+  {
+   "node": "v18.20.8",
+   "pm": "npm@9.8.0",
+   "commit_count": 1,
+   "repos": [
+    "jackblatch/OneStopShop"
+   ]
+  },
+  {
+   "node": "v18.20.8",
+   "pm": "pnpm@7.15.0",
+   "commit_count": 1,
+   "repos": [
+    "mehrabmp/kara-shop"
+   ]
+  },
+  {
+   "node": "v18.20.8",
+   "pm": "pnpm@7.16.0",
+   "commit_count": 1,
+   "repos": [
+    "dreyfus92/astro-portfolio"
+   ]
+  },
+  {
+   "node": "v18.20.8",
+   "pm": "pnpm@7.16.1",
+   "commit_count": 1,
+   "repos": [
+    "dreyfus92/astro-portfolio"
+   ]
+  },
+  {
+   "node": "v18.20.8",
+   "pm": "pnpm@7.17.0",
+   "commit_count": 1,
+   "repos": [
+    "dreyfus92/astro-portfolio"
+   ]
+  },
+  {
+   "node": "v18.20.8",
+   "pm": "pnpm@7.18.2",
+   "commit_count": 1,
+   "repos": [
+    "dreyfus92/astro-portfolio"
+   ]
+  },
+  {
+   "node": "v18.20.8",
+   "pm": "pnpm@7.21.0",
+   "commit_count": 1,
+   "repos": [
+    "mehrabmp/kara-shop"
+   ]
+  },
+  {
+   "node": "v18.20.8",
+   "pm": "pnpm@7.28.0",
+   "commit_count": 1,
+   "repos": [
+    "dreyfus92/astro-portfolio"
+   ]
+  },
+  {
+   "node": "v18.20.8",
+   "pm": "pnpm@7.32.2",
+   "commit_count": 1,
+   "repos": [
+    "dreyfus92/astro-portfolio"
+   ]
+  },
+  {
+   "node": "v18.20.8",
+   "pm": "pnpm@8.6.11",
+   "commit_count": 2,
+   "repos": [
+    "priyankarpal/projectshut"
+   ]
+  },
+  {
+   "node": "v18.20.8",
+   "pm": "pnpm@8.6.6",
+   "commit_count": 1,
+   "repos": [
+    "priyankarpal/projectshut"
+   ]
+  },
+  {
+   "node": "v18.20.8",
+   "pm": "pnpm@8.6.7",
+   "commit_count": 1,
+   "repos": [
+    "priyankarpal/projectshut"
+   ]
+  },
+  {
+   "node": "v18.20.8",
+   "pm": "pnpm@8.6.8",
+   "commit_count": 1,
+   "repos": [
+    "priyankarpal/projectshut"
+   ]
+  },
+  {
+   "node": "v18.20.8",
+   "pm": "pnpm@8.7.5",
+   "commit_count": 1,
+   "repos": [
+    "priyankarpal/projectshut"
+   ]
+  },
+  {
+   "node": "v18.20.8",
+   "pm": "yarn@1.22.19",
+   "commit_count": 5,
+   "repos": [
+    "aulianza/aulianza.id",
+    "logotip4ik/portfolio"
+   ]
+  },
+  {
+   "node": "v20.19.5",
+   "pm": "npm@10.2.4",
+   "commit_count": 1,
+   "repos": [
+    "spliit-app/spliit"
+   ]
+  },
+  {
+   "node": "v20.19.5",
+   "pm": "npm@10.2.5",
+   "commit_count": 3,
+   "repos": [
+    "alexcarpenter/alexcarpenter.me",
+    "spliit-app/spliit"
+   ]
+  },
+  {
+   "node": "v20.19.5",
+   "pm": "npm@10.3.0",
+   "commit_count": 1,
+   "repos": [
+    "spliit-app/spliit"
+   ]
+  },
+  {
+   "node": "v20.19.5",
+   "pm": "npm@10.4.0",
+   "commit_count": 1,
+   "repos": [
+    "spliit-app/spliit"
+   ]
+  },
+  {
+   "node": "v20.19.5",
+   "pm": "npm@10.5.0",
+   "commit_count": 5,
+   "repos": [
+    "sanidhyy/duolingo-clone"
+   ]
+  },
+  {
+   "node": "v20.19.5",
+   "pm": "npm@10.5.2",
+   "commit_count": 5,
+   "repos": [
+    "devops329/jwt-pizza",
+    "sanidhyy/duolingo-clone"
+   ]
+  },
+  {
+   "node": "v20.19.5",
+   "pm": "npm@10.7.0",
+   "commit_count": 1,
+   "repos": [
+    "devops329/jwt-pizza"
+   ]
+  },
+  {
+   "node": "v20.19.5",
+   "pm": "npm@10.8.1",
+   "commit_count": 1,
+   "repos": [
+    "spliit-app/spliit"
+   ]
+  },
+  {
+   "node": "v20.19.5",
+   "pm": "npm@10.8.2",
+   "commit_count": 1,
+   "repos": [
+    "devops329/jwt-pizza"
+   ]
+  },
+  {
+   "node": "v20.19.5",
+   "pm": "npm@10.8.3",
+   "commit_count": 1,
+   "repos": [
+    "alanagoyal/alanagoyal"
+   ]
+  },
+  {
+   "node": "v20.19.5",
+   "pm": "npm@8.19.4",
+   "commit_count": 7,
+   "repos": [
+    "PasteBar/PasteBarApp",
+    "alexcarpenter/alexcarpenter.me"
+   ]
+  },
+  {
+   "node": "v20.19.5",
+   "pm": "pnpm@8.10.5",
+   "commit_count": 1,
+   "repos": [
+    "FleetAdmiralJakob/Portfolio"
+   ]
+  },
+  {
+   "node": "v20.19.5",
+   "pm": "pnpm@8.13.0",
+   "commit_count": 1,
+   "repos": [
+    "FleetAdmiralJakob/Portfolio"
+   ]
+  },
+  {
+   "node": "v20.19.5",
+   "pm": "pnpm@8.13.1",
+   "commit_count": 4,
+   "repos": [
+    "pheralb/slug"
+   ]
+  },
+  {
+   "node": "v20.19.5",
+   "pm": "pnpm@8.14.0",
+   "commit_count": 1,
+   "repos": [
+    "FleetAdmiralJakob/Portfolio"
+   ]
+  },
+  {
+   "node": "v20.19.5",
+   "pm": "pnpm@8.15.1",
+   "commit_count": 1,
+   "repos": [
+    "FleetAdmiralJakob/Portfolio"
+   ]
+  },
+  {
+   "node": "v20.19.5",
+   "pm": "pnpm@8.15.4",
+   "commit_count": 1,
+   "repos": [
+    "FleetAdmiralJakob/Portfolio"
+   ]
+  },
+  {
+   "node": "v20.19.5",
+   "pm": "pnpm@8.15.5",
+   "commit_count": 1,
+   "repos": [
+    "pheralb/slug"
+   ]
+  },
+  {
+   "node": "v20.19.5",
+   "pm": "pnpm@8.15.8",
+   "commit_count": 4,
+   "repos": [
+    "aosasona/trulyao.dev"
+   ]
+  },
+  {
+   "node": "v20.19.5",
+   "pm": "pnpm@8.15.9",
+   "commit_count": 1,
+   "repos": [
+    "jestsee/jestsee.com"
+   ]
+  },
+  {
+   "node": "v20.19.5",
+   "pm": "pnpm@8.9.0",
+   "commit_count": 1,
+   "repos": [
+    "FleetAdmiralJakob/Portfolio"
+   ]
+  },
+  {
+   "node": "v20.19.5",
+   "pm": "pnpm@9.6.0",
+   "commit_count": 1,
+   "repos": [
+    "aosasona/trulyao.dev"
+   ]
+  },
+  {
+   "node": "v20.19.5",
+   "pm": "pnpm@9.7.1",
+   "commit_count": 1,
+   "repos": [
+    "aosasona/trulyao.dev"
+   ]
+  },
+  {
+   "node": "v20.19.5",
+   "pm": "yarn@1.22.19",
+   "commit_count": 1,
+   "repos": [
+    "aulianza/aulianza.id"
+   ]
+  },
+  {
+   "node": "v22.0.0",
+   "pm": "pnpm@10.12.1",
+   "commit_count": 1,
+   "repos": [
+    "CaliCastle/cali.so"
+   ]
+  },
+  {
+   "node": "v22.19.0",
+   "pm": "npm@10.9.0",
+   "commit_count": 2,
+   "repos": [
+    "exa-labs/company-researcher"
+   ]
+  },
+  {
+   "node": "v22.19.0",
+   "pm": "npm@10.9.1",
+   "commit_count": 1,
+   "repos": [
+    "midudev/jsconf.es"
+   ]
+  },
+  {
+   "node": "v22.19.0",
+   "pm": "npm@10.9.2",
+   "commit_count": 1,
+   "repos": [
+    "alanagoyal/alanagoyal"
+   ]
+  },
+  {
+   "node": "v22.19.0",
+   "pm": "npm@11.0.0",
+   "commit_count": 7,
+   "repos": [
+    "alanagoyal/alanagoyal",
+    "exa-labs/company-researcher"
+   ]
+  },
+  {
+   "node": "v22.19.0",
+   "pm": "npm@11.1.0",
+   "commit_count": 1,
+   "repos": [
+    "alanagoyal/alanagoyal"
+   ]
+  },
+  {
+   "node": "v22.19.0",
+   "pm": "npm@11.2.0",
+   "commit_count": 2,
+   "repos": [
+    "midudev/lolalolitaland.com"
+   ]
+  },
+  {
+   "node": "v22.19.0",
+   "pm": "npm@11.20.0",
+   "commit_count": 1,
+   "repos": [
+    "hyperlink-academy/leaflet"
+   ]
+  },
+  {
+   "node": "v22.19.0",
+   "pm": "pnpm@10.12.1",
+   "commit_count": 1,
+   "repos": [
+    "midudev/lolalolitaland.com"
+   ]
+  },
+  {
+   "node": "v22.19.0",
+   "pm": "pnpm@10.5.2",
+   "commit_count": 1,
+   "repos": [
+    "midudev/lolalolitaland.com"
+   ]
+  },
+  {
+   "node": "v22.19.0",
+   "pm": "pnpm@10.6.5",
+   "commit_count": 1,
+   "repos": [
+    "midudev/lolalolitaland.com"
+   ]
+  },
+  {
+   "node": "v22.19.0",
+   "pm": "pnpm@10.7.0",
+   "commit_count": 1,
+   "repos": [
+    "midudev/lolalolitaland.com"
+   ]
+  },
+  {
+   "node": "v22.19.0",
+   "pm": "pnpm@8.15.9",
+   "commit_count": 6,
+   "repos": [
+    "jestsee/jestsee.com",
+    "midudev/jsconf.es"
+   ]
+  },
+  {
+   "node": "v22.19.0",
+   "pm": "pnpm@9.15.0",
+   "commit_count": 3,
+   "repos": [
+    "midudev/jsconf.es"
+   ]
+  },
+  {
+   "node": "v22.19.0",
+   "pm": "pnpm@9.15.3",
+   "commit_count": 1,
+   "repos": [
+    "midudev/jsconf.es"
+   ]
+  },
+  {
+   "node": "v22.22.2",
+   "pm": "pnpm@10.34.5",
+   "commit_count": 1,
+   "repos": [
+    "CaliCastle/cali.so"
+   ]
+  },
+  {
+   "node": "v24.16.0",
+   "pm": "npm@10.9.5",
+   "commit_count": 1,
+   "repos": [
+    "santifer/cv-santiago"
+   ]
+  },
+  {
+   "node": "v24.16.0",
+   "pm": "npm@10.9.8",
+   "commit_count": 2,
+   "repos": [
+    "hyperlink-academy/leaflet",
+    "santifer/cv-santiago"
+   ]
+  },
+  {
+   "node": "v24.16.0",
+   "pm": "npm@11.10.1",
+   "commit_count": 1,
+   "repos": [
+    "santifer/cv-santiago"
+   ]
+  },
+  {
+   "node": "v24.16.0",
+   "pm": "npm@11.11.1",
+   "commit_count": 1,
+   "repos": [
+    "santifer/cv-santiago"
+   ]
+  },
+  {
+   "node": "v24.16.0",
+   "pm": "npm@11.15.0",
+   "commit_count": 1,
+   "repos": [
+    "hyperlink-academy/leaflet"
+   ]
+  },
+  {
+   "node": "v24.16.0",
+   "pm": "npm@11.17.0",
+   "commit_count": 1,
+   "repos": [
+    "hyperlink-academy/leaflet"
+   ]
+  },
+  {
+   "node": "v24.16.0",
+   "pm": "npm@11.18.0",
+   "commit_count": 2,
+   "repos": [
+    "hyperlink-academy/leaflet",
+    "santifer/cv-santiago"
+   ]
+  },
+  {
+   "node": "v24.16.0",
+   "pm": "npm@11.19.0",
+   "commit_count": 1,
+   "repos": [
+    "hyperlink-academy/leaflet"
+   ]
+  },
+  {
+   "node": "v24.16.0",
+   "pm": "npm@11.8.0",
+   "commit_count": 1,
+   "repos": [
+    "santifer/cv-santiago"
+   ]
+  },
+  {
+   "node": "v24.16.0",
+   "pm": "pnpm@10.12.1",
+   "commit_count": 4,
+   "repos": [
+    "CaliCastle/cali.so"
+   ]
+  }
+ ],
+ "unobtainable": [
+  {
+   "repo": "HelloGitHub-Team/geese",
+   "sha": "c7f6f33673ba",
+   "date": "2022-07-02",
+   "node": null,
+   "pm": null,
+   "reason": "probe harness exception: expected binary bin/yarn.js missing in yarn@1.22.19"
+  },
+  {
+   "repo": "HelloGitHub-Team/geese",
+   "sha": "18888aa9f1db",
+   "date": "2022-07-14",
+   "node": null,
+   "pm": null,
+   "reason": "probe harness exception: expected binary bin/yarn.js missing in yarn@1.22.19"
+  },
+  {
+   "repo": "HelloGitHub-Team/geese",
+   "sha": "09fd4d6c8b7a",
+   "date": "2022-08-19",
+   "node": null,
+   "pm": null,
+   "reason": "probe harness exception: expected binary bin/yarn.js missing in yarn@1.22.19"
+  },
+  {
+   "repo": "HelloGitHub-Team/geese",
+   "sha": "451c29215a10",
+   "date": "2022-09-13",
+   "node": null,
+   "pm": null,
+   "reason": "probe harness exception: expected binary bin/yarn.js missing in yarn@1.22.19"
+  },
+  {
+   "repo": "HelloGitHub-Team/geese",
+   "sha": "57f0e9a80d6c",
+   "date": "2022-10-11",
+   "node": null,
+   "pm": null,
+   "reason": "probe harness exception: expected binary bin/yarn.js missing in yarn@1.22.19"
+  },
+  {
+   "repo": "HelloGitHub-Team/geese",
+   "sha": "ffb53099bd41",
+   "date": "2022-12-29",
+   "node": null,
+   "pm": null,
+   "reason": "probe harness exception: expected binary bin/yarn.js missing in yarn@1.22.19"
+  },
+  {
+   "repo": "ifmeorg/ifme",
+   "sha": "dd561d725b5d",
+   "date": "2016-05-01",
+   "node": null,
+   "pm": null,
+   "reason": "no package.json at this commit (pre-JS era of repo; JS toolchain not applicable)"
+  },
+  {
+   "repo": "ifmeorg/ifme",
+   "sha": "824d80fb5ce8",
+   "date": "2016-05-16",
+   "node": null,
+   "pm": null,
+   "reason": "no package.json at this commit (pre-JS era of repo; JS toolchain not applicable)"
+  },
+  {
+   "repo": "ifmeorg/ifme",
+   "sha": "828a54cbdd5d",
+   "date": "2016-05-29",
+   "node": null,
+   "pm": null,
+   "reason": "no package.json at this commit (pre-JS era of repo; JS toolchain not applicable)"
+  },
+  {
+   "repo": "ifmeorg/ifme",
+   "sha": "11609ea8e22f",
+   "date": "2016-07-08",
+   "node": null,
+   "pm": null,
+   "reason": "no package.json at this commit (pre-JS era of repo; JS toolchain not applicable)"
+  },
+  {
+   "repo": "ifmeorg/ifme",
+   "sha": "5d50c27bb002",
+   "date": "2016-09-26",
+   "node": null,
+   "pm": null,
+   "reason": "no package.json at this commit (pre-JS era of repo; JS toolchain not applicable)"
+  },
+  {
+   "repo": "ifmeorg/ifme",
+   "sha": "284810b270bf",
+   "date": "2016-10-31",
+   "node": null,
+   "pm": null,
+   "reason": "no package.json at this commit (pre-JS era of repo; JS toolchain not applicable)"
+  },
+  {
+   "repo": "justjavac/esowiki",
+   "sha": "ad594879059c",
+   "date": "2022-11-15",
+   "node": null,
+   "pm": null,
+   "reason": "probe harness exception: expected binary bin/yarn.js missing in yarn@1.22.19"
+  },
+  {
+   "repo": "justjavac/esowiki",
+   "sha": "5dbe4aa45b12",
+   "date": "2022-11-28",
+   "node": null,
+   "pm": null,
+   "reason": "probe harness exception: expected binary bin/yarn.js missing in yarn@1.22.19"
+  },
+  {
+   "repo": "justjavac/esowiki",
+   "sha": "8394cd658bd1",
+   "date": "2022-12-28",
+   "node": null,
+   "pm": null,
+   "reason": "probe harness exception: expected binary bin/yarn.js missing in yarn@1.22.19"
+  },
+  {
+   "repo": "justjavac/esowiki",
+   "sha": "776f074cabbf",
+   "date": "2023-01-09",
+   "node": null,
+   "pm": null,
+   "reason": "probe harness exception: expected binary bin/yarn.js missing in yarn@1.22.19"
+  },
+  {
+   "repo": "justjavac/esowiki",
+   "sha": "cd4fc8f2f009",
+   "date": "2023-01-28",
+   "node": null,
+   "pm": null,
+   "reason": "probe harness exception: expected binary bin/yarn.js missing in yarn@1.22.19"
+  },
+  {
+   "repo": "justjavac/esowiki",
+   "sha": "6cc5c86262f0",
+   "date": "2023-04-21",
+   "node": null,
+   "pm": null,
+   "reason": "probe harness exception: expected binary bin/yarn.js missing in yarn@1.22.19"
+  },
+  {
+   "repo": "mehrabmp/kara-shop",
+   "sha": "15243a11f824",
+   "date": "2022-08-03",
+   "node": null,
+   "pm": null,
+   "reason": "probe harness exception: 'utf-8' codec can't decode byte 0xff in position 0: invalid start byte"
+  },
+  {
+   "repo": "mehrabmp/kara-shop",
+   "sha": "a191ce3bfbd0",
+   "date": "2022-08-18",
+   "node": null,
+   "pm": null,
+   "reason": "probe harness exception: 'utf-8' codec can't decode byte 0xff in position 0: invalid start byte"
+  },
+  {
+   "repo": "pheralb/slug",
+   "sha": "0e87da18e2cd",
+   "date": "2023-12-30",
+   "node": null,
+   "pm": null,
+   "reason": "no package.json at this commit (pre-JS era of repo; JS toolchain not applicable)"
+  },
+  {
+   "repo": "surge-synthesizer/surge-synthesizer.github.io",
+   "sha": "4412158236cb",
+   "date": "2022-03-09",
+   "node": null,
+   "pm": null,
+   "reason": "no package.json at this commit (pre-JS era of repo; JS toolchain not applicable)"
+  },
+  {
+   "repo": "surge-synthesizer/surge-synthesizer.github.io",
+   "sha": "a5f38fcba53f",
+   "date": "2022-06-04",
+   "node": null,
+   "pm": null,
+   "reason": "no package.json at this commit (pre-JS era of repo; JS toolchain not applicable)"
+  },
+  {
+   "repo": "surge-synthesizer/surge-synthesizer.github.io",
+   "sha": "1cb5009595cc",
+   "date": "2022-06-08",
+   "node": null,
+   "pm": null,
+   "reason": "no package.json at this commit (pre-JS era of repo; JS toolchain not applicable)"
+  },
+  {
+   "repo": "surge-synthesizer/surge-synthesizer.github.io",
+   "sha": "a6a44902e4f8",
+   "date": "2022-06-15",
+   "node": null,
+   "pm": null,
+   "reason": "no package.json at this commit (pre-JS era of repo; JS toolchain not applicable)"
+  },
+  {
+   "repo": "surge-synthesizer/surge-synthesizer.github.io",
+   "sha": "6234390ec5e7",
+   "date": "2022-07-14",
+   "node": null,
+   "pm": null,
+   "reason": "no package.json at this commit (pre-JS era of repo; JS toolchain not applicable)"
+  },
+  {
+   "repo": "surge-synthesizer/surge-synthesizer.github.io",
+   "sha": "b6d1a310414f",
+   "date": "2022-08-27",
+   "node": null,
+   "pm": null,
+   "reason": "no package.json at this commit (pre-JS era of repo; JS toolchain not applicable)"
+  },
+  {
+   "repo": "w3bdesign/nextjs-woocommerce",
+   "sha": "3a7935780028",
+   "date": "2020-07-09",
+   "node": null,
+   "pm": null,
+   "reason": "probe harness exception: npm pack npm@6.14.6 failed: permissions to access this file as the current user\nnpm ERR! \nnpm ERR! If you believe this might be a permissions issue, please double-check the\nnp"
+  },
+  {
+   "repo": "w3bdesign/nextjs-woocommerce",
+   "sha": "1ea3c05c824c",
+   "date": "2020-10-29",
+   "node": null,
+   "pm": null,
+   "reason": "probe harness exception: npm pack npm@6.14.8 failed: permissions to access this file as the current user\nnpm ERR! \nnpm ERR! If you believe this might be a permissions issue, please double-check the\nnp"
+  },
+  {
+   "repo": "zenorocha/zenorocha.com",
+   "sha": "75f2b4309a10",
+   "date": "2013-01-03",
+   "node": null,
+   "pm": null,
+   "reason": "no package.json at this commit (pre-JS era of repo; JS toolchain not applicable)"
+  },
+  {
+   "repo": "zenorocha/zenorocha.com",
+   "sha": "1a5774d26dfb",
+   "date": "2013-01-05",
+   "node": null,
+   "pm": null,
+   "reason": "no package.json at this commit (pre-JS era of repo; JS toolchain not applicable)"
+  },
+  {
+   "repo": "zenorocha/zenorocha.com",
+   "sha": "35fd8b9e43ea",
+   "date": "2013-01-09",
+   "node": null,
+   "pm": null,
+   "reason": "no package.json at this commit (pre-JS era of repo; JS toolchain not applicable)"
+  },
+  {
+   "repo": "zenorocha/zenorocha.com",
+   "sha": "ec7d33b9f3e8",
+   "date": "2013-01-23",
+   "node": null,
+   "pm": null,
+   "reason": "no package.json at this commit (pre-JS era of repo; JS toolchain not applicable)"
+  },
+  {
+   "repo": "zenorocha/zenorocha.com",
+   "sha": "135c8f46901b",
+   "date": "2013-03-13",
+   "node": null,
+   "pm": null,
+   "reason": "no package.json at this commit (pre-JS era of repo; JS toolchain not applicable)"
+  },
+  {
+   "repo": "zenorocha/zenorocha.com",
+   "sha": "efdb63e62727",
+   "date": "2013-06-13",
+   "node": null,
+   "pm": null,
+   "reason": "no package.json at this commit (pre-JS era of repo; JS toolchain not applicable)"
+  }
+ ]
+}

@@ -1,0 +1,1737 @@
+{
+ "properties": [
+  {
+   "affects_ancestor_size": true,
+   "affects_descendant_positions": false,
+   "affects_following_siblings": true,
+   "affects_own_box_size": false,
+   "affects_own_position": true,
+   "affects_preceding_siblings": false,
+   "depends_on_formatting_context": true,
+   "depends_on_runtime_facts": [
+    "available-width"
+   ],
+   "notes": "Pushes the element's own box down in block flow; following in-flow siblings shift down with it. Vertical margins collapse per 8.3.1 and have no effect on non-replaced inline elements. Percentage values resolve against the containing block width. affects_descendant_positions is judged relative to the element's padding box.",
+   "property": "margin-top",
+   "removes_from_flow": false,
+   "spec_quote": "These properties set the top, right, bottom, and left margin of a box.",
+   "spec_section": "8.3",
+   "spec_url": "https://www.w3.org/TR/CSS22/box.html"
+  },
+  {
+   "affects_ancestor_size": true,
+   "affects_descendant_positions": false,
+   "affects_following_siblings": true,
+   "affects_own_box_size": false,
+   "affects_own_position": false,
+   "affects_preceding_siblings": false,
+   "depends_on_formatting_context": true,
+   "depends_on_runtime_facts": [
+    "available-width"
+   ],
+   "notes": "In inline flow pushes following inline-level boxes right and can force line breaks; in block flow it shrinks the content width of auto-width boxes rather than moving the box itself. Horizontal margins never collapse. Percentage values resolve against the containing block width.",
+   "property": "margin-right",
+   "removes_from_flow": false,
+   "spec_quote": "Horizontal margins never collapse.",
+   "spec_section": "8.3.1",
+   "spec_url": "https://www.w3.org/TR/CSS22/box.html"
+  },
+  {
+   "affects_ancestor_size": true,
+   "affects_descendant_positions": false,
+   "affects_following_siblings": true,
+   "affects_own_box_size": false,
+   "affects_own_position": false,
+   "affects_preceding_siblings": false,
+   "depends_on_formatting_context": true,
+   "depends_on_runtime_facts": [
+    "available-width"
+   ],
+   "notes": "Increases the gap below the box, pushing following in-flow block siblings down (subject to margin collapsing). Can enlarge a content-sized ancestor via collapsing with the parent's bottom margin. Percentage values resolve against the containing block width.",
+   "property": "margin-bottom",
+   "removes_from_flow": false,
+   "spec_quote": "The bottom margin of an in-flow block-level element always collapses with the top margin of its next in-flow block-level sibling, unless that sibling has clearance.",
+   "spec_section": "8.3.1",
+   "spec_url": "https://www.w3.org/TR/CSS22/box.html"
+  },
+  {
+   "affects_ancestor_size": true,
+   "affects_descendant_positions": false,
+   "affects_following_siblings": true,
+   "affects_own_box_size": false,
+   "affects_own_position": true,
+   "affects_preceding_siblings": false,
+   "depends_on_formatting_context": true,
+   "depends_on_runtime_facts": [
+    "available-width"
+   ],
+   "notes": "Pushes the element's own box right (LTR) in flow; following content shifts with it. Horizontal margins never collapse. Percentage values resolve against the containing block width.",
+   "property": "margin-left",
+   "removes_from_flow": false,
+   "spec_quote": "Horizontal margins never collapse.",
+   "spec_section": "8.3.1",
+   "spec_url": "https://www.w3.org/TR/CSS22/box.html"
+  },
+  {
+   "affects_ancestor_size": true,
+   "affects_descendant_positions": true,
+   "affects_following_siblings": true,
+   "affects_own_box_size": true,
+   "affects_own_position": false,
+   "affects_preceding_siblings": false,
+   "depends_on_formatting_context": true,
+   "depends_on_runtime_facts": [
+    "available-width"
+   ],
+   "notes": "Grows the border box downward (content-box sizing); the box's top-left position is unchanged. Shifts descendants down relative to the border box and pushes following block siblings down. Does not apply to table-row-group, table-header-group, table-footer-group, table-row, table-column-group, table-column. Percentage values resolve against the containing block width, even for padding-top.",
+   "property": "padding-top",
+   "removes_from_flow": false,
+   "spec_quote": "The padding properties specify the width of the padding area of a box.",
+   "spec_section": "8.4",
+   "spec_url": "https://www.w3.org/TR/CSS22/box.html"
+  },
+  {
+   "affects_ancestor_size": true,
+   "affects_descendant_positions": true,
+   "affects_following_siblings": true,
+   "affects_own_box_size": true,
+   "affects_own_position": false,
+   "affects_preceding_siblings": false,
+   "depends_on_formatting_context": true,
+   "depends_on_runtime_facts": [
+    "available-width"
+   ],
+   "notes": "Grows the border box rightward (content-box sizing); in inline flow pushes following inline-level boxes right. Shrinks the content area under box-sizing: border-box. Percentage values resolve against the containing block width.",
+   "property": "padding-right",
+   "removes_from_flow": false,
+   "spec_quote": "The padding properties specify the width of the padding area of a box.",
+   "spec_section": "8.4",
+   "spec_url": "https://www.w3.org/TR/CSS22/box.html"
+  },
+  {
+   "affects_ancestor_size": true,
+   "affects_descendant_positions": true,
+   "affects_following_siblings": true,
+   "affects_own_box_size": true,
+   "affects_own_position": false,
+   "affects_preceding_siblings": false,
+   "depends_on_formatting_context": true,
+   "depends_on_runtime_facts": [
+    "available-width"
+   ],
+   "notes": "Grows the border box downward (content-box sizing), pushing following block siblings down. Percentage values resolve against the containing block width, even for padding-bottom.",
+   "property": "padding-bottom",
+   "removes_from_flow": false,
+   "spec_quote": "The padding properties specify the width of the padding area of a box.",
+   "spec_section": "8.4",
+   "spec_url": "https://www.w3.org/TR/CSS22/box.html"
+  },
+  {
+   "affects_ancestor_size": true,
+   "affects_descendant_positions": true,
+   "affects_following_siblings": true,
+   "affects_own_box_size": true,
+   "affects_own_position": false,
+   "affects_preceding_siblings": false,
+   "depends_on_formatting_context": true,
+   "depends_on_runtime_facts": [
+    "available-width"
+   ],
+   "notes": "In inline flow pushes following inline-level boxes right; shifts descendants right relative to the border box. Percentage values resolve against the containing block width.",
+   "property": "padding-left",
+   "removes_from_flow": false,
+   "spec_quote": "The padding properties specify the width of the padding area of a box.",
+   "spec_section": "8.4",
+   "spec_url": "https://www.w3.org/TR/CSS22/box.html"
+  },
+  {
+   "affects_ancestor_size": true,
+   "affects_descendant_positions": false,
+   "affects_following_siblings": true,
+   "affects_own_box_size": true,
+   "affects_own_position": false,
+   "affects_preceding_siblings": false,
+   "depends_on_formatting_context": false,
+   "depends_on_runtime_facts": [
+    "user-agent-default"
+   ],
+   "notes": "Grows the border box downward (content-box sizing), pushing following block siblings down; descendants keep their positions relative to the padding box. The keywords thin, medium, thick are user-agent defined: the spec only requires thin <= medium <= thick, constant throughout a document.",
+   "property": "border-top-width",
+   "removes_from_flow": false,
+   "spec_quote": "The border width properties specify the width of the border area.",
+   "spec_section": "8.5.1",
+   "spec_url": "https://www.w3.org/TR/CSS22/box.html"
+  },
+  {
+   "affects_ancestor_size": true,
+   "affects_descendant_positions": false,
+   "affects_following_siblings": true,
+   "affects_own_box_size": true,
+   "affects_own_position": false,
+   "affects_preceding_siblings": false,
+   "depends_on_formatting_context": false,
+   "depends_on_runtime_facts": [
+    "user-agent-default"
+   ],
+   "notes": "Grows the border box rightward (content-box sizing); in inline flow pushes following inline-level boxes right. thin/medium/thick are user-agent defined.",
+   "property": "border-right-width",
+   "removes_from_flow": false,
+   "spec_quote": "The border width properties specify the width of the border area.",
+   "spec_section": "8.5.1",
+   "spec_url": "https://www.w3.org/TR/CSS22/box.html"
+  },
+  {
+   "affects_ancestor_size": true,
+   "affects_descendant_positions": false,
+   "affects_following_siblings": true,
+   "affects_own_box_size": true,
+   "affects_own_position": false,
+   "affects_preceding_siblings": false,
+   "depends_on_formatting_context": false,
+   "depends_on_runtime_facts": [
+    "user-agent-default"
+   ],
+   "notes": "Grows the border box downward (content-box sizing), pushing following block siblings down. thin/medium/thick are user-agent defined.",
+   "property": "border-bottom-width",
+   "removes_from_flow": false,
+   "spec_quote": "The border width properties specify the width of the border area.",
+   "spec_section": "8.5.1",
+   "spec_url": "https://www.w3.org/TR/CSS22/box.html"
+  },
+  {
+   "affects_ancestor_size": true,
+   "affects_descendant_positions": false,
+   "affects_following_siblings": true,
+   "affects_own_box_size": true,
+   "affects_own_position": false,
+   "affects_preceding_siblings": false,
+   "depends_on_formatting_context": false,
+   "depends_on_runtime_facts": [
+    "user-agent-default"
+   ],
+   "notes": "In inline flow pushes following inline-level boxes right. thin/medium/thick are user-agent defined: 'The interpretation of the first three values depends on the user agent.'",
+   "property": "border-left-width",
+   "removes_from_flow": false,
+   "spec_quote": "The border width properties specify the width of the border area.",
+   "spec_section": "8.5.1",
+   "spec_url": "https://www.w3.org/TR/CSS22/box.html"
+  },
+  {
+   "affects_ancestor_size": true,
+   "affects_descendant_positions": true,
+   "affects_following_siblings": false,
+   "affects_own_box_size": true,
+   "affects_own_position": false,
+   "affects_preceding_siblings": false,
+   "depends_on_formatting_context": true,
+   "depends_on_runtime_facts": [
+    "available-width",
+    "content-length",
+    "intrinsic-image-size"
+   ],
+   "notes": "In block flow width does not displace following block siblings vertically; for inline-level boxes (e.g. inline-block) a wider box pushes following inline content. Percentages resolve against the containing block; auto widths depend on content length and, for replaced elements, intrinsic dimensions. Does not apply to non-replaced inline elements.",
+   "property": "width",
+   "removes_from_flow": false,
+   "spec_quote": "Percentages are resolved against the width/height, as appropriate, of the box\u2019s containing block.",
+   "spec_section": "3.2",
+   "spec_url": "https://drafts.csswg.org/css-sizing-3/"
+  },
+  {
+   "affects_ancestor_size": true,
+   "affects_descendant_positions": false,
+   "affects_following_siblings": true,
+   "affects_own_box_size": true,
+   "affects_own_position": false,
+   "affects_preceding_siblings": false,
+   "depends_on_formatting_context": true,
+   "depends_on_runtime_facts": [
+    "available-width",
+    "content-length",
+    "intrinsic-image-size"
+   ],
+   "notes": "A taller block pushes following in-flow block siblings down. Auto height is content-derived; percentage heights need a definite containing-block height. Descendants keep their positions relative to the padding box.",
+   "property": "height",
+   "removes_from_flow": false,
+   "spec_quote": "For width/height, specifies an automatic size (automatic block size/automatic inline size).",
+   "spec_section": "3.2",
+   "spec_url": "https://drafts.csswg.org/css-sizing-3/"
+  },
+  {
+   "affects_ancestor_size": true,
+   "affects_descendant_positions": true,
+   "affects_following_siblings": false,
+   "affects_own_box_size": true,
+   "affects_own_position": false,
+   "affects_preceding_siblings": false,
+   "depends_on_formatting_context": true,
+   "depends_on_runtime_facts": [
+    "available-width",
+    "content-length"
+   ],
+   "notes": "Only moves geometry when it actually clamps the used width; the minimum constraint wins over max-width. Percentages resolve against the containing block; auto resolves to 0 for CSS2 display types unless the layout module says otherwise.",
+   "property": "min-width",
+   "removes_from_flow": false,
+   "spec_quote": "In CSS, while the minimum and maximum sizes both constrain the used size, the minimum size constraint is always the strongest constraint.",
+   "spec_section": "3.1",
+   "spec_url": "https://drafts.csswg.org/css-sizing-3/"
+  },
+  {
+   "affects_ancestor_size": true,
+   "affects_descendant_positions": true,
+   "affects_following_siblings": false,
+   "affects_own_box_size": true,
+   "affects_own_position": false,
+   "affects_preceding_siblings": false,
+   "depends_on_formatting_context": true,
+   "depends_on_runtime_facts": [
+    "available-width",
+    "content-length"
+   ],
+   "notes": "Only moves geometry when it actually clamps the used width; it loses to min-width. Percentages resolve against the containing block.",
+   "property": "max-width",
+   "removes_from_flow": false,
+   "spec_quote": "In CSS, while the minimum and maximum sizes both constrain the used size, the minimum size constraint is always the strongest constraint.",
+   "spec_section": "3.1",
+   "spec_url": "https://drafts.csswg.org/css-sizing-3/"
+  },
+  {
+   "affects_ancestor_size": true,
+   "affects_descendant_positions": false,
+   "affects_following_siblings": true,
+   "affects_own_box_size": true,
+   "affects_own_position": false,
+   "affects_preceding_siblings": false,
+   "depends_on_formatting_context": true,
+   "depends_on_runtime_facts": [
+    "available-width",
+    "content-length"
+   ],
+   "notes": "Only moves geometry when it clamps the used height; then following block siblings shift. Auto min-height resolves to a used value of 0 for CSS2 display types unless the layout module defines otherwise.",
+   "property": "min-height",
+   "removes_from_flow": false,
+   "spec_quote": "Unless otherwise defined by the relevant layout module, however, it resolves to a used value of 0.",
+   "spec_section": "3.2",
+   "spec_url": "https://drafts.csswg.org/css-sizing-3/"
+  },
+  {
+   "affects_ancestor_size": true,
+   "affects_descendant_positions": false,
+   "affects_following_siblings": true,
+   "affects_own_box_size": true,
+   "affects_own_position": false,
+   "affects_preceding_siblings": false,
+   "depends_on_formatting_context": true,
+   "depends_on_runtime_facts": [
+    "available-width",
+    "content-length"
+   ],
+   "notes": "Only moves geometry when it clamps the used height; then following block siblings shift. none means no limit on the box size.",
+   "property": "max-height",
+   "removes_from_flow": false,
+   "spec_quote": "No limit on the size of the box.",
+   "spec_section": "3.2",
+   "spec_url": "https://drafts.csswg.org/css-sizing-3/"
+  },
+  {
+   "affects_ancestor_size": true,
+   "affects_descendant_positions": true,
+   "affects_following_siblings": true,
+   "affects_own_box_size": true,
+   "affects_own_position": false,
+   "affects_preceding_siblings": false,
+   "depends_on_formatting_context": false,
+   "depends_on_runtime_facts": [],
+   "notes": "Switching content-box/border-box changes the used border-box size whenever padding/border are non-zero and a sizing property is a length/percentage; following siblings and ancestors move only in that case. Non-quantitative values (auto, min-content) are not influenced by box-sizing. Applies uniformly regardless of formatting context.",
+   "property": "box-sizing",
+   "removes_from_flow": false,
+   "spec_quote": "The box-sizing property indicates whether the content box or border box is measured.",
+   "spec_section": "3.3",
+   "spec_url": "https://drafts.csswg.org/css-sizing-3/"
+  },
+  {
+   "affects_ancestor_size": true,
+   "affects_descendant_positions": false,
+   "affects_following_siblings": true,
+   "affects_own_box_size": true,
+   "affects_own_position": false,
+   "affects_preceding_siblings": false,
+   "depends_on_formatting_context": true,
+   "depends_on_runtime_facts": [
+    "intrinsic-image-size",
+    "content-length"
+   ],
+   "notes": "Biases sizing algorithms to produce a size consistent with the ratio when one axis is auto; can therefore change the box's height/width and shift following siblings. Does not apply to inline boxes or internal ruby/table boxes. Replaced elements bring their natural aspect ratio.",
+   "property": "aspect-ratio",
+   "removes_from_flow": false,
+   "spec_quote": "The aspect-ratio property allows specifying this behavior for non-replaced elements, and for altering the effective aspect ratio of replaced elements.",
+   "spec_section": "4.1",
+   "spec_url": "https://drafts.csswg.org/css-sizing-4/"
+  },
+  {
+   "affects_ancestor_size": true,
+   "affects_descendant_positions": true,
+   "affects_following_siblings": true,
+   "affects_own_box_size": true,
+   "affects_own_position": true,
+   "affects_preceding_siblings": false,
+   "depends_on_formatting_context": true,
+   "depends_on_runtime_facts": [],
+   "notes": "The outer display type dictates how the principal box participates in flow layout; the inner display type dictates how descendants are laid out. Only some values remove the box from flow: none omits the element's entire subtree from the box tree, contents omits the element's own box while keeping descendants.",
+   "property": "display",
+   "removes_from_flow": true,
+   "spec_quote": "And some values (such as none or contents) cause the element and/or its descendants to not generate any boxes at all.",
+   "spec_section": "1",
+   "spec_url": "https://drafts.csswg.org/css-display-3/"
+  },
+  {
+   "affects_ancestor_size": true,
+   "affects_descendant_positions": true,
+   "affects_following_siblings": true,
+   "affects_own_box_size": true,
+   "affects_own_position": true,
+   "affects_preceding_siblings": false,
+   "depends_on_formatting_context": true,
+   "depends_on_runtime_facts": [],
+   "notes": "absolute and fixed take the box out of flow (following siblings close the gap; ancestors can shrink); relative and sticky keep the box's flow space. Absolute positioning also changes how the box's own size resolves and establishes an absolute positioning containing block for descendants. Only absolute/fixed remove from flow.",
+   "property": "position",
+   "removes_from_flow": true,
+   "spec_quote": "The position property determines which of the positioning schemes is used to calculate the position of a box.",
+   "spec_section": "2",
+   "spec_url": "https://drafts.csswg.org/css-position-3/"
+  },
+  {
+   "affects_ancestor_size": false,
+   "affects_descendant_positions": false,
+   "affects_following_siblings": false,
+   "affects_own_box_size": true,
+   "affects_own_position": true,
+   "affects_preceding_siblings": false,
+   "depends_on_formatting_context": true,
+   "depends_on_runtime_facts": [
+    "available-width"
+   ],
+   "notes": "Moves the box itself (relative offset is purely visual; absolute insets position against the containing block). Relative positioning never changes the box's size and affects no other box; for absolutely positioned boxes, opposing non-auto insets also determine the box's size via the inset-modified containing block. Applies only to positioned elements; percentage insets resolve against the containing block.",
+   "property": "top",
+   "removes_from_flow": false,
+   "spec_quote": "The precise location of a positioned box is controlled by the inset properties",
+   "spec_section": "3",
+   "spec_url": "https://drafts.csswg.org/css-position-3/"
+  },
+  {
+   "affects_ancestor_size": false,
+   "affects_descendant_positions": false,
+   "affects_following_siblings": false,
+   "affects_own_box_size": true,
+   "affects_own_position": true,
+   "affects_preceding_siblings": false,
+   "depends_on_formatting_context": true,
+   "depends_on_runtime_facts": [
+    "available-width"
+   ],
+   "notes": "As for top: moves the box itself without affecting siblings or ancestors; can affect own size only for absolutely positioned boxes with both horizontal insets non-auto. Percentage insets resolve against the containing block width.",
+   "property": "right",
+   "removes_from_flow": false,
+   "spec_quote": "The precise location of a positioned box is controlled by the inset properties",
+   "spec_section": "3",
+   "spec_url": "https://drafts.csswg.org/css-position-3/"
+  },
+  {
+   "affects_ancestor_size": false,
+   "affects_descendant_positions": false,
+   "affects_following_siblings": false,
+   "affects_own_box_size": true,
+   "affects_own_position": true,
+   "affects_preceding_siblings": false,
+   "depends_on_formatting_context": true,
+   "depends_on_runtime_facts": [
+    "available-width"
+   ],
+   "notes": "As for top: moves the box itself without affecting siblings or ancestors; can affect own size only for absolutely positioned boxes with both vertical insets non-auto. Percentage insets resolve against the containing block height.",
+   "property": "bottom",
+   "removes_from_flow": false,
+   "spec_quote": "The precise location of a positioned box is controlled by the inset properties",
+   "spec_section": "3",
+   "spec_url": "https://drafts.csswg.org/css-position-3/"
+  },
+  {
+   "affects_ancestor_size": false,
+   "affects_descendant_positions": false,
+   "affects_following_siblings": false,
+   "affects_own_box_size": true,
+   "affects_own_position": true,
+   "affects_preceding_siblings": false,
+   "depends_on_formatting_context": true,
+   "depends_on_runtime_facts": [
+    "available-width"
+   ],
+   "notes": "As for top: moves the box itself without affecting siblings or ancestors; can affect own size only for absolutely positioned boxes with both horizontal insets non-auto. Percentage insets resolve against the containing block width.",
+   "property": "left",
+   "removes_from_flow": false,
+   "spec_quote": "The precise location of a positioned box is controlled by the inset properties",
+   "spec_section": "3",
+   "spec_url": "https://drafts.csswg.org/css-position-3/"
+  },
+  {
+   "affects_ancestor_size": false,
+   "affects_descendant_positions": false,
+   "affects_following_siblings": false,
+   "affects_own_box_size": true,
+   "affects_own_position": true,
+   "affects_preceding_siblings": false,
+   "depends_on_formatting_context": true,
+   "depends_on_runtime_facts": [
+    "available-width"
+   ],
+   "notes": "Flow-relative inset for the block start side; maps to a physical side (top/bottom) per the box's writing mode. Otherwise identical in effect to the physical inset properties.",
+   "property": "inset-block-start",
+   "removes_from_flow": false,
+   "spec_quote": "The precise location of a positioned box is controlled by the inset properties",
+   "spec_section": "3.1",
+   "spec_url": "https://drafts.csswg.org/css-position-3/"
+  },
+  {
+   "affects_ancestor_size": false,
+   "affects_descendant_positions": false,
+   "affects_following_siblings": false,
+   "affects_own_box_size": true,
+   "affects_own_position": true,
+   "affects_preceding_siblings": false,
+   "depends_on_formatting_context": true,
+   "depends_on_runtime_facts": [
+    "available-width"
+   ],
+   "notes": "Flow-relative inset for the block end side; maps to a physical side per the box's writing mode. Otherwise identical in effect to the physical inset properties.",
+   "property": "inset-block-end",
+   "removes_from_flow": false,
+   "spec_quote": "The precise location of a positioned box is controlled by the inset properties",
+   "spec_section": "3.1",
+   "spec_url": "https://drafts.csswg.org/css-position-3/"
+  },
+  {
+   "affects_ancestor_size": false,
+   "affects_descendant_positions": false,
+   "affects_following_siblings": false,
+   "affects_own_box_size": true,
+   "affects_own_position": true,
+   "affects_preceding_siblings": false,
+   "depends_on_formatting_context": true,
+   "depends_on_runtime_facts": [
+    "available-width"
+   ],
+   "notes": "Flow-relative inset for the inline start side; maps to a physical side (left/right) per the box's writing mode and direction. Otherwise identical in effect to the physical inset properties.",
+   "property": "inset-inline-start",
+   "removes_from_flow": false,
+   "spec_quote": "The precise location of a positioned box is controlled by the inset properties",
+   "spec_section": "3.1",
+   "spec_url": "https://drafts.csswg.org/css-position-3/"
+  },
+  {
+   "affects_ancestor_size": false,
+   "affects_descendant_positions": false,
+   "affects_following_siblings": false,
+   "affects_own_box_size": true,
+   "affects_own_position": true,
+   "affects_preceding_siblings": false,
+   "depends_on_formatting_context": true,
+   "depends_on_runtime_facts": [
+    "available-width"
+   ],
+   "notes": "Flow-relative inset for the inline end side; maps to a physical side per the box's writing mode and direction. Otherwise identical in effect to the physical inset properties.",
+   "property": "inset-inline-end",
+   "removes_from_flow": false,
+   "spec_quote": "The precise location of a positioned box is controlled by the inset properties",
+   "spec_section": "3.1",
+   "spec_url": "https://drafts.csswg.org/css-position-3/"
+  },
+  {
+   "affects_ancestor_size": true,
+   "affects_descendant_positions": false,
+   "affects_following_siblings": true,
+   "affects_own_box_size": true,
+   "affects_own_position": true,
+   "affects_preceding_siblings": false,
+   "depends_on_formatting_context": true,
+   "depends_on_runtime_facts": [
+    "available-width",
+    "content-length"
+   ],
+   "notes": "Floating takes the box out of flow and shifts it to the side; following line boxes are shortened and content reflows around it. Float blockifies the box, so an auto width becomes shrink-to-fit. A floated child is excluded from a non-BFC parent's auto height. Has no effect on flex/grid items or absolutely positioned boxes (9.7).",
+   "property": "float",
+   "removes_from_flow": true,
+   "spec_quote": "Since a float is not in the flow, non-positioned block boxes created before and after the float box flow vertically as if the float did not exist.",
+   "spec_section": "9.5",
+   "spec_url": "https://www.w3.org/TR/CSS22/visuren.html"
+  },
+  {
+   "affects_ancestor_size": true,
+   "affects_descendant_positions": false,
+   "affects_following_siblings": true,
+   "affects_own_box_size": false,
+   "affects_own_position": true,
+   "affects_preceding_siblings": false,
+   "depends_on_formatting_context": true,
+   "depends_on_runtime_facts": [
+    "available-width",
+    "content-length"
+   ],
+   "notes": "Pushes the element's own box down past earlier floats via clearance; following siblings shift down with it and a content-sized ancestor grows. Does not move the floats themselves. Applies to block-level elements; clearance amount depends on float geometry.",
+   "property": "clear",
+   "removes_from_flow": false,
+   "spec_quote": "Clearance inhibits margin collapsing and acts as spacing above the margin-top of an element.",
+   "spec_section": "9.5.2",
+   "spec_url": "https://www.w3.org/TR/CSS22/visuren.html"
+  },
+  {
+   "affects_ancestor_size": true,
+   "affects_descendant_positions": true,
+   "affects_following_siblings": false,
+   "affects_own_box_size": false,
+   "affects_own_position": false,
+   "affects_preceding_siblings": false,
+   "depends_on_formatting_context": true,
+   "depends_on_runtime_facts": [
+    "content-length"
+   ],
+   "notes": "Any value other than visible makes the box clip or scroll its overflow; non-visible values also establish a new block formatting context (inhibiting margin collapsing and containing floats), which can change ancestor size and sibling positions. Introduced scrollbars consume space inside the box and can reflow descendants; clipping alone does not move descendants.",
+   "property": "overflow",
+   "removes_from_flow": false,
+   "spec_quote": "The overflow-x property specifies the handling of overflow in the horizontal axis (i.e., overflow from the left and right sides of the box), and the overflow-y property specifies the handling of overflow in the vertical axis (i.e., overflow from the top and bottom sides of the box).",
+   "spec_section": "3.1",
+   "spec_url": "https://drafts.csswg.org/css-overflow-3/"
+  },
+  {
+   "affects_ancestor_size": true,
+   "affects_descendant_positions": true,
+   "affects_following_siblings": false,
+   "affects_own_box_size": false,
+   "affects_own_position": false,
+   "affects_preceding_siblings": false,
+   "depends_on_formatting_context": true,
+   "depends_on_runtime_facts": [
+    "content-length"
+   ],
+   "notes": "As for overflow: non-visible handling clips/scrolls horizontal overflow and, in combination with overflow-y, can establish a new block formatting context. Scrollbar introduction can reflow descendants.",
+   "property": "overflow-x",
+   "removes_from_flow": false,
+   "spec_quote": "The overflow-x property specifies the handling of overflow in the horizontal axis (i.e., overflow from the left and right sides of the box), and the overflow-y property specifies the handling of overflow in the vertical axis (i.e., overflow from the top and bottom sides of the box).",
+   "spec_section": "3.1",
+   "spec_url": "https://drafts.csswg.org/css-overflow-3/"
+  },
+  {
+   "affects_ancestor_size": true,
+   "affects_descendant_positions": true,
+   "affects_following_siblings": false,
+   "affects_own_box_size": false,
+   "affects_own_position": false,
+   "affects_preceding_siblings": false,
+   "depends_on_formatting_context": true,
+   "depends_on_runtime_facts": [
+    "content-length"
+   ],
+   "notes": "As for overflow: non-visible handling clips/scrolls vertical overflow and, in combination with overflow-x, can establish a new block formatting context. Scrollbar introduction can reflow descendants.",
+   "property": "overflow-y",
+   "removes_from_flow": false,
+   "spec_quote": "The overflow-x property specifies the handling of overflow in the horizontal axis (i.e., overflow from the left and right sides of the box), and the overflow-y property specifies the handling of overflow in the vertical axis (i.e., overflow from the top and bottom sides of the box).",
+   "spec_section": "3.1",
+   "spec_url": "https://drafts.csswg.org/css-overflow-3/"
+  },
+  {
+   "affects_ancestor_size": false,
+   "affects_descendant_positions": false,
+   "affects_following_siblings": false,
+   "affects_own_box_size": false,
+   "affects_own_position": false,
+   "affects_preceding_siblings": false,
+   "depends_on_formatting_context": false,
+   "depends_on_runtime_facts": [
+    "user-interaction"
+   ],
+   "notes": "The declaration itself moves nothing; it only permits the user to resize the element along the given axes. Any subsequent geometry change comes from user interaction, not from the declaration. Applies to elements that are scroll containers and optionally replaced elements.",
+   "property": "resize",
+   "removes_from_flow": false,
+   "spec_quote": "The resize property allows the author to specify whether or not an element is resizable by the user, and if so, along which axis/axes.",
+   "spec_section": "4.1",
+   "spec_url": "https://drafts.csswg.org/css-ui-4/"
+  },
+  {
+   "affects_ancestor_size": true,
+   "affects_descendant_positions": false,
+   "affects_following_siblings": false,
+   "affects_own_box_size": false,
+   "affects_own_position": true,
+   "affects_preceding_siblings": false,
+   "depends_on_formatting_context": true,
+   "depends_on_runtime_facts": [
+    "font-metrics"
+   ],
+   "notes": "Shifts the inline-level box within its line box (baseline alignment, sub/super/top/center/bottom). Shifting can enlarge the line box, which changes the containing block's height. Has no direct effect on block-level boxes outside an inline formatting context (except table-cell mapping noted in css-inline-3).",
+   "property": "vertical-align",
+   "removes_from_flow": false,
+   "spec_quote": "This shorthand property specifies how an inline-level box is aligned within the line by specifying its alignment baseline type (alignment-baseline), baseline alignment preference (baseline-source), and post-alignment shift (baseline-shift) in a single declaration.",
+   "spec_section": "4.2",
+   "spec_url": "https://drafts.csswg.org/css-inline-3/"
+  },
+  {
+   "affects_ancestor_size": true,
+   "affects_descendant_positions": true,
+   "affects_following_siblings": true,
+   "affects_own_box_size": true,
+   "affects_own_position": false,
+   "affects_preceding_siblings": false,
+   "depends_on_formatting_context": true,
+   "depends_on_runtime_facts": [
+    "font-metrics"
+   ],
+   "notes": "Controls line box sizing; the line-height value is the box's contribution to its line box's logical height, so it sets line box heights, block height, and descendant positions. 'normal' is derived from used-font metrics.",
+   "property": "line-height",
+   "removes_from_flow": false,
+   "spec_quote": "Note: Because it applies to the root inline box when specified on a block container, line-height effectively establishes the minimum height of the block\u2019s line boxes.",
+   "spec_section": "5.1",
+   "spec_url": "https://drafts.csswg.org/css-inline-3/"
+  },
+  {
+   "affects_ancestor_size": true,
+   "affects_descendant_positions": true,
+   "affects_following_siblings": false,
+   "affects_own_box_size": true,
+   "affects_own_position": false,
+   "affects_preceding_siblings": false,
+   "depends_on_formatting_context": false,
+   "depends_on_runtime_facts": [
+    "user-preference"
+   ],
+   "notes": "Scales the em square, so glyph advances, line box heights, and any em-based lengths change; block height, descendant layout, and ancestor size can all change. The 'medium' initial value is the user's preferred font size.",
+   "property": "font-size",
+   "removes_from_flow": false,
+   "spec_quote": "The font size corresponds to the em square, a concept used in typography.",
+   "spec_section": "15.7",
+   "spec_url": "https://www.w3.org/TR/CSS22/fonts.html"
+  },
+  {
+   "affects_ancestor_size": true,
+   "affects_descendant_positions": true,
+   "affects_following_siblings": false,
+   "affects_own_box_size": true,
+   "affects_own_position": false,
+   "affects_preceding_siblings": false,
+   "depends_on_formatting_context": true,
+   "depends_on_runtime_facts": [
+    "font-metrics",
+    "font-fallback",
+    "user-preference"
+   ],
+   "notes": "Selecting a different font changes glyph advances and font metrics, which changes line lengths, line breaking, and line box heights. Which font is actually used depends on installed fonts, fallback order, and UA/user defaults for generic families.",
+   "property": "font-family",
+   "removes_from_flow": false,
+   "spec_quote": "The property value is a prioritized list of font family names and/or generic family names.",
+   "spec_section": "15.3",
+   "spec_url": "https://www.w3.org/TR/CSS22/fonts.html"
+  },
+  {
+   "affects_ancestor_size": true,
+   "affects_descendant_positions": true,
+   "affects_following_siblings": false,
+   "affects_own_box_size": true,
+   "affects_own_position": false,
+   "affects_preceding_siblings": false,
+   "depends_on_formatting_context": true,
+   "depends_on_runtime_facts": [
+    "font-metrics",
+    "font-fallback"
+   ],
+   "notes": "Selecting a darker/lighter face changes glyph advances and metrics, altering line lengths, wrapping, and line box heights. Face availability depends on the installed font family.",
+   "property": "font-weight",
+   "removes_from_flow": false,
+   "spec_quote": "The 'font-weight' property selects the weight of the font.",
+   "spec_section": "15.6",
+   "spec_url": "https://www.w3.org/TR/CSS22/fonts.html"
+  },
+  {
+   "affects_ancestor_size": true,
+   "affects_descendant_positions": true,
+   "affects_following_siblings": false,
+   "affects_own_box_size": true,
+   "affects_own_position": false,
+   "affects_preceding_siblings": false,
+   "depends_on_formatting_context": true,
+   "depends_on_runtime_facts": [
+    "font-metrics",
+    "font-fallback"
+   ],
+   "notes": "Selecting italic/oblique faces (or synthesized slanting) changes glyph metrics and advances, altering line lengths, wrapping, and line box heights.",
+   "property": "font-style",
+   "removes_from_flow": false,
+   "spec_quote": "The 'font-style' property selects between normal (sometimes referred to as \"roman\" or \"upright\"), italic and oblique faces within a font family.",
+   "spec_section": "15.4",
+   "spec_url": "https://www.w3.org/TR/CSS22/fonts.html"
+  },
+  {
+   "affects_ancestor_size": false,
+   "affects_descendant_positions": true,
+   "affects_following_siblings": false,
+   "affects_own_box_size": false,
+   "affects_own_position": false,
+   "affects_preceding_siblings": false,
+   "depends_on_formatting_context": true,
+   "depends_on_runtime_facts": [],
+   "notes": "Indents the first box flowing into the block's first line box, shifting inline content on that line. Does not change the block's own size; a large indent can push content to overflow. Percentages refer to the containing block width.",
+   "property": "text-indent",
+   "removes_from_flow": false,
+   "spec_quote": "This property specifies the indentation of the first line of text in a block container. More precisely, it specifies the indentation of the first box that flows into the block's first line box. The box is indented with respect to the left (or right, for right-to-left layout) edge of the line box. User agents must render this indentation as blank space.",
+   "spec_section": "16.1",
+   "spec_url": "https://www.w3.org/TR/CSS22/text.html"
+  },
+  {
+   "affects_ancestor_size": false,
+   "affects_descendant_positions": true,
+   "affects_following_siblings": false,
+   "affects_own_box_size": false,
+   "affects_own_position": false,
+   "affects_preceding_siblings": false,
+   "depends_on_formatting_context": true,
+   "depends_on_runtime_facts": [],
+   "notes": "Aligns inline-level boxes within each line box (left/right/center/justify); justify also expands or contracts inline contents, changing their positions.",
+   "property": "text-align",
+   "removes_from_flow": false,
+   "spec_quote": "This property describes how inline-level content of a block container is aligned.",
+   "spec_section": "16.2",
+   "spec_url": "https://www.w3.org/TR/CSS22/text.html"
+  },
+  {
+   "affects_ancestor_size": true,
+   "affects_descendant_positions": true,
+   "affects_following_siblings": true,
+   "affects_own_box_size": true,
+   "affects_own_position": false,
+   "affects_preceding_siblings": false,
+   "depends_on_formatting_context": true,
+   "depends_on_runtime_facts": [
+    "content-length"
+   ],
+   "notes": "Controls whitespace collapsing and line breaking, which determines the number and content of line boxes and hence block height, descendant positions, and the positions of following siblings. nowrap can also force horizontal overflow.",
+   "property": "white-space",
+   "removes_from_flow": false,
+   "spec_quote": "This property declares how white space inside the element is handled.",
+   "spec_section": "16.6",
+   "spec_url": "https://www.w3.org/TR/CSS22/text.html"
+  },
+  {
+   "affects_ancestor_size": true,
+   "affects_descendant_positions": true,
+   "affects_following_siblings": false,
+   "affects_own_box_size": true,
+   "affects_own_position": false,
+   "affects_preceding_siblings": false,
+   "depends_on_formatting_context": true,
+   "depends_on_runtime_facts": [
+    "font-metrics"
+   ],
+   "notes": "Adds space between characters on top of the font's default advances, changing line lengths, line breaking, and block height. Glyph positions and advance widths depend on the used font's metrics.",
+   "property": "letter-spacing",
+   "removes_from_flow": false,
+   "spec_quote": "This property specifies spacing behavior between text characters.",
+   "spec_section": "16.4",
+   "spec_url": "https://www.w3.org/TR/CSS22/text.html"
+  },
+  {
+   "affects_ancestor_size": true,
+   "affects_descendant_positions": true,
+   "affects_following_siblings": false,
+   "affects_own_box_size": true,
+   "affects_own_position": false,
+   "affects_preceding_siblings": false,
+   "depends_on_formatting_context": true,
+   "depends_on_runtime_facts": [
+    "font-metrics"
+   ],
+   "notes": "Adds space between words on top of the font's default inter-word space, changing line lengths, line breaking, and block height. The normal inter-word space is defined by the current font and/or the UA.",
+   "property": "word-spacing",
+   "removes_from_flow": false,
+   "spec_quote": "This property specifies spacing behavior between words.",
+   "spec_section": "16.4",
+   "spec_url": "https://www.w3.org/TR/CSS22/text.html"
+  },
+  {
+   "affects_ancestor_size": true,
+   "affects_descendant_positions": true,
+   "affects_following_siblings": true,
+   "affects_own_box_size": true,
+   "affects_own_position": false,
+   "affects_preceding_siblings": false,
+   "depends_on_formatting_context": true,
+   "depends_on_runtime_facts": [],
+   "notes": "Sets the main-axis direction, which determines the axis each item is laid out along; swapping axes changes item positions and can change an auto-sized container's size, pushing following siblings and resizing ancestors.",
+   "property": "flex-direction",
+   "removes_from_flow": false,
+   "spec_quote": "The flex-direction property specifies how flex items are placed in the flex container, by setting the direction of the flex container\u2019s main axis. This determines the direction in which flex items are laid out.",
+   "spec_section": "5.1",
+   "spec_url": "https://drafts.csswg.org/css-flexbox-1/"
+  },
+  {
+   "affects_ancestor_size": true,
+   "affects_descendant_positions": true,
+   "affects_following_siblings": true,
+   "affects_own_box_size": true,
+   "affects_own_position": false,
+   "affects_preceding_siblings": false,
+   "depends_on_formatting_context": true,
+   "depends_on_runtime_facts": [
+    "content-length"
+   ],
+   "notes": "Allows items to wrap into multiple flex lines, changing line assignment, item positions, and container cross size. Whether wrapping occurs depends on item content sizes.",
+   "property": "flex-wrap",
+   "removes_from_flow": false,
+   "spec_quote": "The flex-wrap property controls whether the flex container is single-line or multi-line, and the direction of the cross-axis, which determines the direction new lines are stacked in.",
+   "spec_section": "5.2",
+   "spec_url": "https://drafts.csswg.org/css-flexbox-1/"
+  },
+  {
+   "affects_ancestor_size": false,
+   "affects_descendant_positions": false,
+   "affects_following_siblings": true,
+   "affects_own_box_size": false,
+   "affects_own_position": true,
+   "affects_preceding_siblings": true,
+   "depends_on_formatting_context": true,
+   "depends_on_runtime_facts": [],
+   "notes": "Assigns the item to an ordinal group; containers lay out items in order-modified document order, so changing order moves the item itself and displaces its siblings. Box sizes are unaffected.",
+   "property": "order",
+   "removes_from_flow": false,
+   "spec_quote": "Specifically, the order property controls the order in which flex items or grid items appear within their container, by assigning them to ordinal groups.",
+   "spec_section": "3",
+   "spec_url": "https://drafts.csswg.org/css-display-3/"
+  },
+  {
+   "affects_ancestor_size": true,
+   "affects_descendant_positions": false,
+   "affects_following_siblings": true,
+   "affects_own_box_size": true,
+   "affects_own_position": false,
+   "affects_preceding_siblings": true,
+   "depends_on_formatting_context": true,
+   "depends_on_runtime_facts": [
+    "available-width",
+    "content-length"
+   ],
+   "notes": "Shorthand for flex-grow, flex-shrink, and flex-basis; consulted instead of the main size property to determine the flex item's main size. Free-space distribution also changes sibling sizes/positions and can change the container's auto size.",
+   "property": "flex",
+   "removes_from_flow": false,
+   "spec_quote": "The flex property specifies the components of a flexible size: the flex factors (grow and shrink) and the flex basis. When a box is a flex item, flex is consulted instead of the main size property to determine the main size of the box.",
+   "spec_section": "7.1",
+   "spec_url": "https://drafts.csswg.org/css-flexbox-1/"
+  },
+  {
+   "affects_ancestor_size": true,
+   "affects_descendant_positions": false,
+   "affects_following_siblings": true,
+   "affects_own_box_size": true,
+   "affects_own_position": false,
+   "affects_preceding_siblings": true,
+   "depends_on_formatting_context": true,
+   "depends_on_runtime_facts": [
+    "available-width",
+    "content-length"
+   ],
+   "notes": "Determines the item's share of positive free space; changes the item's main size and, through free-space distribution, sibling sizes/positions and the container's auto size.",
+   "property": "flex-grow",
+   "removes_from_flow": false,
+   "spec_quote": "The flex-grow property sets the flex grow factor to the provided <number>.",
+   "spec_section": "7.2.1",
+   "spec_url": "https://drafts.csswg.org/css-flexbox-1/"
+  },
+  {
+   "affects_ancestor_size": true,
+   "affects_descendant_positions": false,
+   "affects_following_siblings": true,
+   "affects_own_box_size": true,
+   "affects_own_position": false,
+   "affects_preceding_siblings": true,
+   "depends_on_formatting_context": true,
+   "depends_on_runtime_facts": [
+    "available-width",
+    "content-length"
+   ],
+   "notes": "Determines the item's share of negative free space (scaled by flex base size); changes the item's main size and, through free-space distribution, sibling sizes/positions and the container's auto size.",
+   "property": "flex-shrink",
+   "removes_from_flow": false,
+   "spec_quote": "The flex-shrink property sets the flex shrink factor to the provided <number>.",
+   "spec_section": "7.2.2",
+   "spec_url": "https://drafts.csswg.org/css-flexbox-1/"
+  },
+  {
+   "affects_ancestor_size": true,
+   "affects_descendant_positions": false,
+   "affects_following_siblings": true,
+   "affects_own_box_size": true,
+   "affects_own_position": false,
+   "affects_preceding_siblings": true,
+   "depends_on_formatting_context": true,
+   "depends_on_runtime_facts": [
+    "available-width",
+    "content-length"
+   ],
+   "notes": "Sets the initial main size of the flex item before free space is distributed; changes the item's size and, through free-space distribution, sibling sizes/positions and the container's auto size.",
+   "property": "flex-basis",
+   "removes_from_flow": false,
+   "spec_quote": "The flex-basis property sets the flex basis.",
+   "spec_section": "7.2.3",
+   "spec_url": "https://drafts.csswg.org/css-flexbox-1/"
+  },
+  {
+   "affects_ancestor_size": false,
+   "affects_descendant_positions": true,
+   "affects_following_siblings": false,
+   "affects_own_box_size": false,
+   "affects_own_position": false,
+   "affects_preceding_siblings": false,
+   "depends_on_formatting_context": true,
+   "depends_on_runtime_facts": [
+    "available-width",
+    "content-length"
+   ],
+   "notes": "Distributes leftover free space along the main axis, positioning items within each flex line. The amount of free space depends on the container's main size and the items' sizes.",
+   "property": "justify-content",
+   "removes_from_flow": false,
+   "spec_quote": "The justify-content property aligns flex items along the main axis of the current line of the flex container.",
+   "spec_section": "8.2",
+   "spec_url": "https://drafts.csswg.org/css-flexbox-1/"
+  },
+  {
+   "affects_ancestor_size": false,
+   "affects_descendant_positions": true,
+   "affects_following_siblings": false,
+   "affects_own_box_size": false,
+   "affects_own_position": false,
+   "affects_preceding_siblings": false,
+   "depends_on_formatting_context": true,
+   "depends_on_runtime_facts": [
+    "content-length",
+    "font-metrics"
+   ],
+   "notes": "Default cross-axis alignment for all of the container's items; stretch can also change item cross sizes. Baseline alignment depends on font metrics; free space depends on item content sizes.",
+   "property": "align-items",
+   "removes_from_flow": false,
+   "spec_quote": "Flex items can be aligned in the cross axis of the current line of the flex container, similar to justify-content but in the perpendicular direction. align-items sets the default alignment for all of the flex container\u2019s items, including anonymous flex items.",
+   "spec_section": "8.3",
+   "spec_url": "https://drafts.csswg.org/css-flexbox-1/"
+  },
+  {
+   "affects_ancestor_size": false,
+   "affects_descendant_positions": false,
+   "affects_following_siblings": false,
+   "affects_own_box_size": true,
+   "affects_own_position": true,
+   "affects_preceding_siblings": false,
+   "depends_on_formatting_context": true,
+   "depends_on_runtime_facts": [
+    "content-length"
+   ],
+   "notes": "Overrides the container's default cross-axis alignment for one item; stretch changes the item's cross size, other values change its cross-axis position. Has no effect when the item's cross-axis margins are auto.",
+   "property": "align-self",
+   "removes_from_flow": false,
+   "spec_quote": "Flex items can be aligned in the cross axis of the current line of the flex container, similar to justify-content but in the perpendicular direction. align-self allows this default alignment to be overridden for individual flex items.",
+   "spec_section": "8.3",
+   "spec_url": "https://drafts.csswg.org/css-flexbox-1/"
+  },
+  {
+   "affects_ancestor_size": false,
+   "affects_descendant_positions": true,
+   "affects_following_siblings": false,
+   "affects_own_box_size": false,
+   "affects_own_position": false,
+   "affects_preceding_siblings": false,
+   "depends_on_formatting_context": true,
+   "depends_on_runtime_facts": [
+    "available-width",
+    "content-length"
+   ],
+   "notes": "Aligns flex lines within the container when there is extra cross-axis space; stretch can increase line cross sizes. No effect on single-line flex containers. Free space depends on container and line sizes.",
+   "property": "align-content",
+   "removes_from_flow": false,
+   "spec_quote": "The align-content property aligns a flex container\u2019s lines within the flex container when there is extra space in the cross-axis, similar to how justify-content aligns individual items within the main-axis.",
+   "spec_section": "8.4",
+   "spec_url": "https://drafts.csswg.org/css-flexbox-1/"
+  },
+  {
+   "affects_ancestor_size": true,
+   "affects_descendant_positions": true,
+   "affects_following_siblings": true,
+   "affects_own_box_size": true,
+   "affects_own_position": false,
+   "affects_preceding_siblings": false,
+   "depends_on_formatting_context": true,
+   "depends_on_runtime_facts": [],
+   "notes": "Shorthand for row-gap and column-gap; inserts fixed gutters between items/lines, shifting item positions and increasing the container's auto size.",
+   "property": "gap",
+   "removes_from_flow": false,
+   "spec_quote": "This property is a shorthand that sets row-gap and column-gap in one declaration.",
+   "spec_section": "2.2",
+   "spec_url": "https://drafts.csswg.org/css-gaps-1/"
+  },
+  {
+   "affects_ancestor_size": true,
+   "affects_descendant_positions": true,
+   "affects_following_siblings": true,
+   "affects_own_box_size": true,
+   "affects_own_position": false,
+   "affects_preceding_siblings": false,
+   "depends_on_formatting_context": true,
+   "depends_on_runtime_facts": [],
+   "notes": "Fixed gutter between rows (flex lines, grid rows, multicol row groups), shifting items in the block/cross axis and increasing the container's auto size.",
+   "property": "row-gap",
+   "removes_from_flow": false,
+   "spec_quote": "These properties specify fixed-length gutters between items in the container, adding space between them\u2014in a manner similar to the space-between keyword of the content-distribution properties, but of a fixed size instead of as a fraction of remaining space.",
+   "spec_section": "2.1",
+   "spec_url": "https://drafts.csswg.org/css-gaps-1/"
+  },
+  {
+   "affects_ancestor_size": true,
+   "affects_descendant_positions": true,
+   "affects_following_siblings": true,
+   "affects_own_box_size": true,
+   "affects_own_position": false,
+   "affects_preceding_siblings": false,
+   "depends_on_formatting_context": true,
+   "depends_on_runtime_facts": [],
+   "notes": "Fixed gutter between columns (flex items on the main axis, grid columns, multicol column boxes), shifting items in the inline/main axis and increasing the container's auto size.",
+   "property": "column-gap",
+   "removes_from_flow": false,
+   "spec_quote": "These properties specify fixed-length gutters between items in the container, adding space between them\u2014in a manner similar to the space-between keyword of the content-distribution properties, but of a fixed size instead of as a fraction of remaining space.",
+   "spec_section": "2.1",
+   "spec_url": "https://drafts.csswg.org/css-gaps-1/"
+  },
+  {
+   "affects_ancestor_size": true,
+   "affects_descendant_positions": true,
+   "affects_following_siblings": true,
+   "affects_own_box_size": true,
+   "affects_own_position": false,
+   "affects_preceding_siblings": false,
+   "depends_on_formatting_context": true,
+   "depends_on_runtime_facts": [
+    "available-width",
+    "content-length"
+   ],
+   "notes": "Shorthand for the explicit grid (tracks, line names, areas) that also resets the implicit grid properties; defines track sizes and item placement coordinates, determining item sizes/positions and the container's auto size.",
+   "property": "grid",
+   "removes_from_flow": false,
+   "spec_quote": "The grid and grid-template properties are shorthands that can be used to set all three explicit grid properties (grid-template-rows, grid-template-columns, and grid-template-areas) at the same time. The grid shorthand also resets properties controlling the implicit grid, whereas the grid-template property leaves them unchanged.",
+   "spec_section": "7.1",
+   "spec_url": "https://drafts.csswg.org/css-grid-1/"
+  },
+  {
+   "affects_ancestor_size": true,
+   "affects_descendant_positions": true,
+   "affects_following_siblings": true,
+   "affects_own_box_size": true,
+   "affects_own_position": false,
+   "affects_preceding_siblings": false,
+   "depends_on_formatting_context": true,
+   "depends_on_runtime_facts": [
+    "available-width",
+    "content-length"
+   ],
+   "notes": "Defines column track sizing functions and line names; track sizes determine item sizes and positions, and the container's auto size. Flexible and intrinsic sizing depends on available width and item content.",
+   "property": "grid-template-columns",
+   "removes_from_flow": false,
+   "spec_quote": "These properties specify, as a space-separated track list, the line names and track sizing functions of the grid. The grid-template-columns property specifies the track list for the grid\u2019s columns, while grid-template-rows specifies the track list for the grid\u2019s rows.",
+   "spec_section": "7.2",
+   "spec_url": "https://drafts.csswg.org/css-grid-1/"
+  },
+  {
+   "affects_ancestor_size": true,
+   "affects_descendant_positions": true,
+   "affects_following_siblings": true,
+   "affects_own_box_size": true,
+   "affects_own_position": false,
+   "affects_preceding_siblings": false,
+   "depends_on_formatting_context": true,
+   "depends_on_runtime_facts": [
+    "content-length"
+   ],
+   "notes": "Defines row track sizing functions and line names; track sizes determine item sizes and positions, and the container's auto size. Flexible and intrinsic sizing depends on container size and item content.",
+   "property": "grid-template-rows",
+   "removes_from_flow": false,
+   "spec_quote": "These properties specify, as a space-separated track list, the line names and track sizing functions of the grid. The grid-template-columns property specifies the track list for the grid\u2019s columns, while grid-template-rows specifies the track list for the grid\u2019s rows.",
+   "spec_section": "7.2",
+   "spec_url": "https://drafts.csswg.org/css-grid-1/"
+  },
+  {
+   "affects_ancestor_size": true,
+   "affects_descendant_positions": true,
+   "affects_following_siblings": true,
+   "affects_own_box_size": true,
+   "affects_own_position": false,
+   "affects_preceding_siblings": false,
+   "depends_on_formatting_context": true,
+   "depends_on_runtime_facts": [],
+   "notes": "Declares named grid areas that placement properties reference; areas implicitly create rows/columns (sized by grid-auto-rows/columns), changing item positions and the container's auto size.",
+   "property": "grid-template-areas",
+   "removes_from_flow": false,
+   "spec_quote": "This property specifies named grid areas, which are not associated with any particular grid item, but can be referenced from the grid-placement properties.",
+   "spec_section": "7.3",
+   "spec_url": "https://drafts.csswg.org/css-grid-1/"
+  },
+  {
+   "affects_ancestor_size": true,
+   "affects_descendant_positions": true,
+   "affects_following_siblings": true,
+   "affects_own_box_size": true,
+   "affects_own_position": false,
+   "affects_preceding_siblings": false,
+   "depends_on_formatting_context": true,
+   "depends_on_runtime_facts": [
+    "available-width",
+    "content-length"
+   ],
+   "notes": "Shorthand for grid-template-columns, grid-template-rows, and grid-template-areas; defines the explicit grid, determining track sizes, item sizes/positions, and the container's auto size. Unlike grid, it leaves implicit grid properties unchanged.",
+   "property": "grid-template",
+   "removes_from_flow": false,
+   "spec_quote": "The grid-template property is a shorthand for setting grid-template-columns, grid-template-rows, and grid-template-areas in a single declaration.",
+   "spec_section": "7.4",
+   "spec_url": "https://drafts.csswg.org/css-grid-1/"
+  },
+  {
+   "affects_ancestor_size": true,
+   "affects_descendant_positions": true,
+   "affects_following_siblings": true,
+   "affects_own_box_size": true,
+   "affects_own_position": false,
+   "affects_preceding_siblings": false,
+   "depends_on_formatting_context": true,
+   "depends_on_runtime_facts": [
+    "content-length"
+   ],
+   "notes": "Sizes implicit column tracks created when items are placed outside the explicit grid; extends the container's auto size and determines positions/sizes of items in implicit tracks.",
+   "property": "grid-auto-columns",
+   "removes_from_flow": false,
+   "spec_quote": "The grid-auto-columns and grid-auto-rows properties specify the size of tracks not assigned a size by grid-template-rows or grid-template-columns.",
+   "spec_section": "7.6",
+   "spec_url": "https://drafts.csswg.org/css-grid-1/"
+  },
+  {
+   "affects_ancestor_size": true,
+   "affects_descendant_positions": true,
+   "affects_following_siblings": true,
+   "affects_own_box_size": true,
+   "affects_own_position": false,
+   "affects_preceding_siblings": false,
+   "depends_on_formatting_context": true,
+   "depends_on_runtime_facts": [
+    "content-length"
+   ],
+   "notes": "Sizes implicit row tracks created when items are placed outside the explicit grid; extends the container's auto size and determines positions/sizes of items in implicit tracks.",
+   "property": "grid-auto-rows",
+   "removes_from_flow": false,
+   "spec_quote": "The grid-auto-columns and grid-auto-rows properties specify the size of tracks not assigned a size by grid-template-rows or grid-template-columns.",
+   "spec_section": "7.6",
+   "spec_url": "https://drafts.csswg.org/css-grid-1/"
+  },
+  {
+   "affects_ancestor_size": true,
+   "affects_descendant_positions": true,
+   "affects_following_siblings": true,
+   "affects_own_box_size": true,
+   "affects_own_position": false,
+   "affects_preceding_siblings": false,
+   "depends_on_formatting_context": true,
+   "depends_on_runtime_facts": [
+    "content-length"
+   ],
+   "notes": "Controls row/column/dense auto-placement of unplaced items; changes which grid cells items occupy and can generate implicit tracks, changing item positions and the container's auto size. Placement outcome depends on item count and sizes.",
+   "property": "grid-auto-flow",
+   "removes_from_flow": false,
+   "spec_quote": "Grid items that aren\u2019t explicitly placed are automatically placed into an unoccupied space in the grid container by the auto-placement algorithm. grid-auto-flow controls how the auto-placement algorithm works, specifying exactly how auto-placed items get flowed into the grid.",
+   "spec_section": "7.7",
+   "spec_url": "https://drafts.csswg.org/css-grid-1/"
+  },
+  {
+   "affects_ancestor_size": true,
+   "affects_descendant_positions": false,
+   "affects_following_siblings": true,
+   "affects_own_box_size": true,
+   "affects_own_position": true,
+   "affects_preceding_siblings": true,
+   "depends_on_formatting_context": true,
+   "depends_on_runtime_facts": [],
+   "notes": "Line-based placement: contributes the block-start grid line, determining the item's size and position; auto-placed siblings avoid occupied cells, so siblings can be displaced and the container's auto size can change.",
+   "property": "grid-row-start",
+   "removes_from_flow": false,
+   "spec_quote": "The grid-row-start, grid-column-start, grid-row-end, and grid-column-end properties determine a grid item\u2019s size and location within the grid by contributing a line, a span, or nothing (automatic) to its grid placement, thereby specifying the inline-start, block-start, inline-end, and block-end edges of its grid area.",
+   "spec_section": "8.3",
+   "spec_url": "https://drafts.csswg.org/css-grid-1/"
+  },
+  {
+   "affects_ancestor_size": true,
+   "affects_descendant_positions": false,
+   "affects_following_siblings": true,
+   "affects_own_box_size": true,
+   "affects_own_position": true,
+   "affects_preceding_siblings": true,
+   "depends_on_formatting_context": true,
+   "depends_on_runtime_facts": [],
+   "notes": "Line-based placement: contributes the inline-start grid line, determining the item's size and position; auto-placed siblings avoid occupied cells, so siblings can be displaced and the container's auto size can change.",
+   "property": "grid-column-start",
+   "removes_from_flow": false,
+   "spec_quote": "The grid-row-start, grid-column-start, grid-row-end, and grid-column-end properties determine a grid item\u2019s size and location within the grid by contributing a line, a span, or nothing (automatic) to its grid placement, thereby specifying the inline-start, block-start, inline-end, and block-end edges of its grid area.",
+   "spec_section": "8.3",
+   "spec_url": "https://drafts.csswg.org/css-grid-1/"
+  },
+  {
+   "affects_ancestor_size": true,
+   "affects_descendant_positions": false,
+   "affects_following_siblings": true,
+   "affects_own_box_size": true,
+   "affects_own_position": true,
+   "affects_preceding_siblings": true,
+   "depends_on_formatting_context": true,
+   "depends_on_runtime_facts": [],
+   "notes": "Line-based placement: contributes the block-end grid line, determining the item's size and position; auto-placed siblings avoid occupied cells, so siblings can be displaced and the container's auto size can change.",
+   "property": "grid-row-end",
+   "removes_from_flow": false,
+   "spec_quote": "The grid-row-start, grid-column-start, grid-row-end, and grid-column-end properties determine a grid item\u2019s size and location within the grid by contributing a line, a span, or nothing (automatic) to its grid placement, thereby specifying the inline-start, block-start, inline-end, and block-end edges of its grid area.",
+   "spec_section": "8.3",
+   "spec_url": "https://drafts.csswg.org/css-grid-1/"
+  },
+  {
+   "affects_ancestor_size": true,
+   "affects_descendant_positions": false,
+   "affects_following_siblings": true,
+   "affects_own_box_size": true,
+   "affects_own_position": true,
+   "affects_preceding_siblings": true,
+   "depends_on_formatting_context": true,
+   "depends_on_runtime_facts": [],
+   "notes": "Line-based placement: contributes the inline-end grid line, determining the item's size and position; auto-placed siblings avoid occupied cells, so siblings can be displaced and the container's auto size can change.",
+   "property": "grid-column-end",
+   "removes_from_flow": false,
+   "spec_quote": "The grid-row-start, grid-column-start, grid-row-end, and grid-column-end properties determine a grid item\u2019s size and location within the grid by contributing a line, a span, or nothing (automatic) to its grid placement, thereby specifying the inline-start, block-start, inline-end, and block-end edges of its grid area.",
+   "spec_section": "8.3",
+   "spec_url": "https://drafts.csswg.org/css-grid-1/"
+  },
+  {
+   "affects_ancestor_size": true,
+   "affects_descendant_positions": false,
+   "affects_following_siblings": true,
+   "affects_own_box_size": true,
+   "affects_own_position": true,
+   "affects_preceding_siblings": true,
+   "depends_on_formatting_context": true,
+   "depends_on_runtime_facts": [],
+   "notes": "Shorthand for grid-row-start/grid-row-end; places the item between row lines, determining its size and position. Auto-placed siblings avoid occupied cells, so siblings can be displaced and the container's auto size can change.",
+   "property": "grid-row",
+   "removes_from_flow": false,
+   "spec_quote": "The grid-row and grid-column properties are shorthands for grid-row-start/grid-row-end and grid-column-start/grid-column-end, respectively.",
+   "spec_section": "8.4",
+   "spec_url": "https://drafts.csswg.org/css-grid-1/"
+  },
+  {
+   "affects_ancestor_size": true,
+   "affects_descendant_positions": false,
+   "affects_following_siblings": true,
+   "affects_own_box_size": true,
+   "affects_own_position": true,
+   "affects_preceding_siblings": true,
+   "depends_on_formatting_context": true,
+   "depends_on_runtime_facts": [],
+   "notes": "Shorthand for grid-column-start/grid-column-end; places the item between column lines, determining its size and position. Auto-placed siblings avoid occupied cells, so siblings can be displaced and the container's auto size can change.",
+   "property": "grid-column",
+   "removes_from_flow": false,
+   "spec_quote": "The grid-row and grid-column properties are shorthands for grid-row-start/grid-row-end and grid-column-start/grid-column-end, respectively.",
+   "spec_section": "8.4",
+   "spec_url": "https://drafts.csswg.org/css-grid-1/"
+  },
+  {
+   "affects_ancestor_size": true,
+   "affects_descendant_positions": false,
+   "affects_following_siblings": true,
+   "affects_own_box_size": true,
+   "affects_own_position": true,
+   "affects_preceding_siblings": true,
+   "depends_on_formatting_context": true,
+   "depends_on_runtime_facts": [],
+   "notes": "Shorthand for all four placement longhands; places the item into a grid area (or named area), determining its size and position. Auto-placed siblings avoid occupied cells, so siblings can be displaced and the container's auto size can change.",
+   "property": "grid-area",
+   "removes_from_flow": false,
+   "spec_quote": "The grid-area property is a shorthand for grid-row-start, grid-column-start, grid-row-end and grid-column-end.",
+   "spec_section": "8.4",
+   "spec_url": "https://drafts.csswg.org/css-grid-1/"
+  },
+  {
+   "affects_ancestor_size": false,
+   "affects_descendant_positions": true,
+   "affects_following_siblings": false,
+   "affects_own_box_size": false,
+   "affects_own_position": false,
+   "affects_preceding_siblings": false,
+   "depends_on_formatting_context": true,
+   "depends_on_runtime_facts": [
+    "available-width",
+    "content-length"
+   ],
+   "notes": "Default inline-axis self-alignment for child boxes in the container's formatting context (e.g. grid items within their grid areas); changes item positions and, via stretch, item sizes. Does not apply to flex items.",
+   "property": "justify-items",
+   "removes_from_flow": false,
+   "spec_quote": "This property specifies the default justify-self for all of the child boxes (including anonymous boxes) participating in this box\u2019s formatting context.",
+   "spec_section": "7.1",
+   "spec_url": "https://drafts.csswg.org/css-align-3/"
+  },
+  {
+   "affects_ancestor_size": true,
+   "affects_descendant_positions": false,
+   "affects_following_siblings": true,
+   "affects_own_box_size": true,
+   "affects_own_position": true,
+   "affects_preceding_siblings": false,
+   "depends_on_formatting_context": true,
+   "depends_on_runtime_facts": [
+    "available-width",
+    "content-length"
+   ],
+   "notes": "Aligns the box's outer edges within its alignment container along the inline/row/main axis; stretch and other values can change the box's used size as well as its position. Applies to block-level boxes, absolutely-positioned boxes, and grid items (not flex items).",
+   "property": "justify-self",
+   "removes_from_flow": false,
+   "spec_quote": "Justifies the box (as the alignment subject) within its containing block (as the alignment container) along the inline/row/main axis of the alignment container: the box\u2019s outer edges are aligned within its alignment container as described by its alignment value.",
+   "spec_section": "6.1",
+   "spec_url": "https://drafts.csswg.org/css-align-3/"
+  },
+  {
+   "affects_ancestor_size": false,
+   "affects_descendant_positions": true,
+   "affects_following_siblings": false,
+   "affects_own_box_size": false,
+   "affects_own_position": false,
+   "affects_preceding_siblings": false,
+   "depends_on_formatting_context": true,
+   "depends_on_runtime_facts": [
+    "available-width",
+    "content-length"
+   ],
+   "notes": "Shorthand for align-items and justify-items; sets default self-alignment in both axes for child boxes in the container's formatting context, changing item positions and, via stretch, item sizes.",
+   "property": "place-items",
+   "removes_from_flow": false,
+   "spec_quote": "This shorthand property sets both the align-items and justify-items properties in a single declaration.",
+   "spec_section": "7.3",
+   "spec_url": "https://drafts.csswg.org/css-align-3/"
+  },
+  {
+   "affects_ancestor_size": true,
+   "affects_descendant_positions": false,
+   "affects_following_siblings": true,
+   "affects_own_box_size": true,
+   "affects_own_position": true,
+   "affects_preceding_siblings": false,
+   "depends_on_formatting_context": true,
+   "depends_on_runtime_facts": [
+    "available-width",
+    "content-length"
+   ],
+   "notes": "Shorthand for align-self and justify-self; aligns the box within its alignment container in both axes, changing the box's position and, via stretch, its size. Applies where the longhands apply.",
+   "property": "place-self",
+   "removes_from_flow": false,
+   "spec_quote": "This shorthand property sets both the align-self and justify-self properties in a single declaration.",
+   "spec_section": "6.3",
+   "spec_url": "https://drafts.csswg.org/css-align-3/"
+  },
+  {
+   "affects_ancestor_size": false,
+   "affects_descendant_positions": false,
+   "affects_following_siblings": false,
+   "affects_own_box_size": false,
+   "affects_own_position": false,
+   "affects_preceding_siblings": false,
+   "depends_on_formatting_context": true,
+   "depends_on_runtime_facts": [],
+   "notes": "Value-dependent. hidden/visible: the box is not rendered but keeps its size and position, so following siblings and ancestors are unaffected. collapse: can make the box take up less space in a formatting-context-specific way (table rows/columns, flex items); in all other cases it behaves like hidden. Spec does not define any effect of hidden on the element's own box size or position.",
+   "property": "visibility",
+   "removes_from_flow": false,
+   "spec_quote": "The visibility property specifies whether the box is rendered. Invisible boxes still affect layout.",
+   "spec_section": "4",
+   "spec_url": "https://drafts.csswg.org/css-display-3/"
+  },
+  {
+   "affects_ancestor_size": true,
+   "affects_descendant_positions": true,
+   "affects_following_siblings": false,
+   "affects_own_box_size": true,
+   "affects_own_position": false,
+   "affects_preceding_siblings": false,
+   "depends_on_formatting_context": true,
+   "depends_on_runtime_facts": [],
+   "notes": "Value-dependent. size: the containment box is laid out without examining descendants; its intrinsic sizes are determined as if the element had no content (\u00a72, \u00a73.1), so descendants stop contributing to ancestor sizing. layout: the principal box becomes a layout containment box that establishes an independent formatting context and an absolute/fixed positioning containing block (\u00a73.2), changing where descendants are laid out. paint/style: spec defines no geometry effect. Layout containment has no effect for display:contents/none, internal table boxes other than table-cell, or non-atomic inline boxes.",
+   "property": "contain",
+   "removes_from_flow": false,
+   "spec_quote": "The contain property allows an author to indicate that an element and its contents are, as much as possible, independent of the rest of the document tree.",
+   "spec_section": "2",
+   "spec_url": "https://drafts.csswg.org/css-contain-1/"
+  },
+  {
+   "affects_ancestor_size": true,
+   "affects_descendant_positions": true,
+   "affects_following_siblings": true,
+   "affects_own_box_size": true,
+   "affects_own_position": false,
+   "affects_preceding_siblings": false,
+   "depends_on_formatting_context": false,
+   "depends_on_runtime_facts": [
+    "user-relevance"
+   ],
+   "notes": "visible: no effect. hidden: the element skips its contents and forces layout, style, and paint containment, so contents are not laid out and the box sizes as if contentless. auto: turns on layout, style, and paint containment and skips contents when the element is not relevant to the user; skipping contents can change the used size and shift following siblings. The user-relevance runtime fact applies only to the auto value.",
+   "property": "content-visibility",
+   "removes_from_flow": false,
+   "spec_quote": "The content-visibility property controls whether or not an element renders its contents at all, along with forcing a strong set of containments, allowing user agents to potentially omit large swathes of layout and rendering work until it becomes needed.",
+   "spec_section": "4",
+   "spec_url": "https://drafts.csswg.org/css-contain-2/"
+  },
+  {
+   "affects_ancestor_size": false,
+   "affects_descendant_positions": false,
+   "affects_following_siblings": false,
+   "affects_own_box_size": false,
+   "affects_own_position": false,
+   "affects_preceding_siblings": false,
+   "depends_on_formatting_context": false,
+   "depends_on_runtime_facts": [
+    "intrinsic-image-size"
+   ],
+   "notes": "Alters the geometry of the replaced content (its concrete object size) inside the box established by the used height and width; it does not change the element's own layout box, its position, or any other box. contain/cover/none/scale-down depend on the content's natural aspect ratio (intrinsic-image-size). Spec does not define any effect on the element's layout box.",
+   "property": "object-fit",
+   "removes_from_flow": false,
+   "spec_quote": "The object-fit property specifies how the contents of a replaced element should be fitted to the box established by its used height and width.",
+   "spec_section": "4.5",
+   "spec_url": "https://drafts.csswg.org/css-images-3/"
+  },
+  {
+   "affects_ancestor_size": false,
+   "affects_descendant_positions": false,
+   "affects_following_siblings": false,
+   "affects_own_box_size": false,
+   "affects_own_position": false,
+   "affects_preceding_siblings": false,
+   "depends_on_formatting_context": false,
+   "depends_on_runtime_facts": [
+    "intrinsic-image-size"
+   ],
+   "notes": "Aligns the replaced content within the element's box; the element's content box and layout box are unchanged. Position percentages resolve against the element's own size while the concrete object size depends on intrinsic-image-size. Spec does not define any effect on the element's layout box.",
+   "property": "object-position",
+   "removes_from_flow": false,
+   "spec_quote": "The object-position property determines the alignment of the replaced element inside its box.",
+   "spec_section": "4.6",
+   "spec_url": "https://drafts.csswg.org/css-images-3/"
+  },
+  {
+   "affects_ancestor_size": false,
+   "affects_descendant_positions": true,
+   "affects_following_siblings": false,
+   "affects_own_box_size": false,
+   "affects_own_position": false,
+   "affects_preceding_siblings": false,
+   "depends_on_formatting_context": false,
+   "depends_on_runtime_facts": [],
+   "notes": "Visual rendering only: transforms are applied after the element has been sized and positioned, and do not affect the flow of surrounding content (\u00a72). Transforms can extend (but not shrink) the scrollable overflow area. Any computed value other than none makes the element establish a containing block for all descendants (absolute, fixed, and fixed-background descendants are laid out against its padding box) and a stacking context, so positioned descendants change position.",
+   "property": "transform",
+   "removes_from_flow": false,
+   "spec_quote": "Transformations do affect the visual rendering, but have no effect on the CSS layout other than affecting overflow.",
+   "spec_section": "2",
+   "spec_url": "https://drafts.csswg.org/css-transforms-1/"
+  },
+  {
+   "affects_ancestor_size": false,
+   "affects_descendant_positions": false,
+   "affects_following_siblings": false,
+   "affects_own_box_size": false,
+   "affects_own_position": false,
+   "affects_preceding_siblings": false,
+   "depends_on_formatting_context": false,
+   "depends_on_runtime_facts": [],
+   "notes": "Sets the origin used to compute the transformation matrix; it has no layout effect on its own, creates no containing block, and its effect is realized only through the visual rendering of transform/translate/rotate/scale. Spec does not define any layout propagation for transform-origin alone.",
+   "property": "transform-origin",
+   "removes_from_flow": false,
+   "spec_quote": "The values of the transform and transform-origin properties are used to compute the transformation matrix, as described above.",
+   "spec_section": "4",
+   "spec_url": "https://drafts.csswg.org/css-transforms-1/"
+  },
+  {
+   "affects_ancestor_size": false,
+   "affects_descendant_positions": false,
+   "affects_following_siblings": false,
+   "affects_own_box_size": false,
+   "affects_own_position": false,
+   "affects_preceding_siblings": false,
+   "depends_on_formatting_context": false,
+   "depends_on_runtime_facts": [],
+   "notes": "Selects which box (content-box, border-box, fill-box, stroke-box, view-box) is the reference box for transforms; it changes only the coordinate system of the visual transform, not layout geometry. Spec does not define any layout propagation for transform-box.",
+   "property": "transform-box",
+   "removes_from_flow": false,
+   "spec_quote": "All transformations defined by the transform and transform-origin property are relative to the position and dimensions of the reference box of the element.",
+   "spec_section": "5",
+   "spec_url": "https://drafts.csswg.org/css-transforms-1/"
+  },
+  {
+   "affects_ancestor_size": false,
+   "affects_descendant_positions": true,
+   "affects_following_siblings": false,
+   "affects_own_box_size": false,
+   "affects_own_position": false,
+   "affects_preceding_siblings": false,
+   "depends_on_formatting_context": false,
+   "depends_on_runtime_facts": [],
+   "notes": "Visual translation applied after layout; does not affect the flow of surrounding content. The value none produces no transform and no containing block. Any other value, including identity values such as translate: 0px, creates a stacking context and a containing block for all descendants, per usual for transforms (\u00a75). Percentages resolve against the reference box.",
+   "property": "translate",
+   "removes_from_flow": false,
+   "spec_quote": "The translate property accepts 1-3 values, each specifying a translation against one axis, in the order X, Y, then Z.",
+   "spec_section": "5",
+   "spec_url": "https://drafts.csswg.org/css-transforms-2/"
+  },
+  {
+   "affects_ancestor_size": false,
+   "affects_descendant_positions": true,
+   "affects_following_siblings": false,
+   "affects_own_box_size": false,
+   "affects_own_position": false,
+   "affects_preceding_siblings": false,
+   "depends_on_formatting_context": false,
+   "depends_on_runtime_facts": [],
+   "notes": "Visual rotation applied after layout; does not affect the flow of surrounding content. The value none produces no transform and no containing block. Any other value, including identity rotations, creates a stacking context and a containing block for all descendants, per usual for transforms (\u00a75).",
+   "property": "rotate",
+   "removes_from_flow": false,
+   "spec_quote": "The rotate property accepts an angle to rotate an element, and optionally an axis to rotate it around.",
+   "spec_section": "5",
+   "spec_url": "https://drafts.csswg.org/css-transforms-2/"
+  },
+  {
+   "affects_ancestor_size": false,
+   "affects_descendant_positions": true,
+   "affects_following_siblings": false,
+   "affects_own_box_size": false,
+   "affects_own_position": false,
+   "affects_preceding_siblings": false,
+   "depends_on_formatting_context": false,
+   "depends_on_runtime_facts": [],
+   "notes": "Visual scaling applied after layout; does not affect the flow of surrounding content. The value none produces no transform and no containing block. Any other value, including identity values such as scale: 1, creates a stacking context and a containing block for all descendants, per usual for transforms (\u00a75).",
+   "property": "scale",
+   "removes_from_flow": false,
+   "spec_quote": "The scale property accepts 1-3 values, each specifying a scale along one axis, in order X, Y, then Z.",
+   "spec_section": "5",
+   "spec_url": "https://drafts.csswg.org/css-transforms-2/"
+  }
+ ],
+ "paint_only": [
+  {
+   "property": "z-index",
+   "notes": "CSS 2.2 \u00a79.9.1 (https://www.w3.org/TR/CSS22/visuren.html): defines paint order of positioned boxes via stack levels; spec prose states no effect on box size or position. Creates stacking contexts (paint ordering) but moves nothing."
+  },
+  {
+   "notes": "Spec: CSS Color Module Level 3 (https://www.w3.org/TR/css-color-3/). Sets the foreground color used for text and text decorations; it changes no box size, position, or flow.",
+   "property": "color"
+  },
+  {
+   "notes": "Spec: CSS Backgrounds and Borders Module Level 3 (https://www.w3.org/TR/css-backgrounds-3/). Paints the element's background color; background layers are paint-time only and do not alter box geometry or flow.",
+   "property": "background-color"
+  },
+  {
+   "notes": "Spec: CSS Backgrounds and Borders Module Level 3 (https://www.w3.org/TR/css-backgrounds-3/). Paints background images within the background positioning area; image rendering does not change box sizes or positions.",
+   "property": "background-image"
+  },
+  {
+   "notes": "Spec: CSS Backgrounds and Borders Module Level 3 (https://www.w3.org/TR/css-backgrounds-3/). Controls tiling of background images at paint time; no effect on layout geometry.",
+   "property": "background-repeat"
+  },
+  {
+   "notes": "Spec: CSS Backgrounds and Borders Module Level 3 (https://www.w3.org/TR/css-backgrounds-3/). Positions background images within the background positioning area at paint time; no effect on layout geometry.",
+   "property": "background-position"
+  },
+  {
+   "notes": "Spec: CSS Backgrounds and Borders Module Level 3 (https://www.w3.org/TR/css-backgrounds-3/). Sizes background images at paint time; no effect on the element's box or flow.",
+   "property": "background-size"
+  },
+  {
+   "notes": "Spec: CSS Backgrounds and Borders Module Level 3 (https://www.w3.org/TR/css-backgrounds-3/). Chooses the background positioning area's reference frame at paint time; no effect on layout geometry.",
+   "property": "background-attachment"
+  },
+  {
+   "notes": "Spec: CSS Backgrounds and Borders Module Level 3 (https://www.w3.org/TR/css-backgrounds-3/). Selects which box the background is clipped to at paint time; no effect on layout geometry.",
+   "property": "background-clip"
+  },
+  {
+   "notes": "Spec: CSS Backgrounds and Borders Module Level 3 (https://www.w3.org/TR/css-backgrounds-3/). Selects which box background positioning is relative to at paint time; no effect on layout geometry.",
+   "property": "background-origin"
+  },
+  {
+   "notes": "Spec: CSS Backgrounds and Borders Module Level 3 (https://www.w3.org/TR/css-backgrounds-3/). Shorthand for the background longhands; all paint-time, none affects box geometry or flow.",
+   "property": "background"
+  },
+  {
+   "notes": "Spec: CSS Backgrounds and Borders Module Level 3 (https://www.w3.org/TR/css-backgrounds-3/). Draws drop shadows outside the border box at paint time; shadows change neither the element's box size and position nor in-flow layout.",
+   "property": "box-shadow"
+  },
+  {
+   "notes": "Spec: CSS Text Decoration Module Level 3 (https://www.w3.org/TR/css-text-decor-3/). Paint-time shadow of the text; it does not alter line-box metrics or layout.",
+   "property": "text-shadow"
+  },
+  {
+   "notes": "Spec: CSS Basic User Interface Module Level 3 (https://www.w3.org/TR/css-ui-3/). Outlines are drawn outside the border edge at paint time and, per spec, do not take up space and do not affect layout.",
+   "property": "outline"
+  },
+  {
+   "notes": "Spec: CSS Basic User Interface Module Level 3 (https://www.w3.org/TR/css-ui-3/). Thickness of the paint-time outline; does not affect layout.",
+   "property": "outline-width"
+  },
+  {
+   "notes": "Spec: CSS Basic User Interface Module Level 3 (https://www.w3.org/TR/css-ui-3/). Rendering style of the paint-time outline; does not affect layout.",
+   "property": "outline-style"
+  },
+  {
+   "notes": "Spec: CSS Basic User Interface Module Level 3 (https://www.w3.org/TR/css-ui-3/). Color of the paint-time outline; does not affect layout.",
+   "property": "outline-color"
+  },
+  {
+   "notes": "Spec: CSS Basic User Interface Module Level 3 (https://www.w3.org/TR/css-ui-3/). Offsets the paint-time outline from the border edge; does not affect layout.",
+   "property": "outline-offset"
+  },
+  {
+   "notes": "Spec: CSS Color Module Level 3 (https://www.w3.org/TR/css-color-3/). Controls blending opacity of the element's rendering; it can create a stacking context but changes no box geometry or flow.",
+   "property": "opacity"
+  },
+  {
+   "notes": "Spec: CSS Basic User Interface Module Level 3 (https://www.w3.org/TR/css-ui-3/). Selects the pointer graphic shown over the element; no effect on layout.",
+   "property": "cursor"
+  },
+  {
+   "notes": "Spec: CSS Text Decoration Module Level 3 (https://www.w3.org/TR/css-text-decor-3/). Shorthand for text decoration longhands; decorations are drawn at paint time and do not alter line-box metrics or layout.",
+   "property": "text-decoration"
+  },
+  {
+   "notes": "Spec: CSS Text Decoration Module Level 3 (https://www.w3.org/TR/css-text-decor-3/). Selects which decoration lines are drawn at paint time; no effect on layout.",
+   "property": "text-decoration-line"
+  },
+  {
+   "notes": "Spec: CSS Text Decoration Module Level 3 (https://www.w3.org/TR/css-text-decor-3/). Rendering style of decoration lines at paint time; no effect on layout.",
+   "property": "text-decoration-style"
+  },
+  {
+   "notes": "Spec: CSS Text Decoration Module Level 3 (https://www.w3.org/TR/css-text-decor-3/). Color of decoration lines at paint time; no effect on layout.",
+   "property": "text-decoration-color"
+  },
+  {
+   "notes": "Spec: CSS Text Decoration Module Level 3 (https://www.w3.org/TR/css-text-decor-3/). Offsets the underline from its default position at paint time; no effect on layout.",
+   "property": "text-underline-offset"
+  },
+  {
+   "notes": "Spec: CSS Basic User Interface Module Level 3 (https://www.w3.org/TR/css-ui-3/). Colors the text insertion caret; paint only, no geometry effect.",
+   "property": "caret-color"
+  },
+  {
+   "notes": "Spec: CSS Basic User Interface Module Level 4 (https://drafts.csswg.org/css-ui-4/). Tints native form controls at paint time; no effect on box geometry or flow.",
+   "property": "accent-color"
+  },
+  {
+   "notes": "Spec: CSS Masking Module Level 1 (https://www.w3.org/TR/css-masking-1/). Clips the element's rendering at paint time; the layout box is unchanged.",
+   "property": "clip-path"
+  },
+  {
+   "notes": "Spec: Compositing and Blending Level 1 (https://www.w3.org/TR/compositing-1/). Changes how the element blends with its backdrop at paint time; it can create a stacking context but changes no box geometry or flow.",
+   "property": "mix-blend-mode"
+  }
+ ]
+}

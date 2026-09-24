@@ -1,0 +1,176 @@
+{
+ "contexts": [
+  {
+   "can_a_change_move_earlier_children": false,
+   "context": "normal flow (block)",
+   "does_child_order_determine_position": true,
+   "notes": "The cited WPT test is a static reftest: it verifies sequential top-down placement but performs no dynamic change, so no WPT test was found directly proving a change cannot move earlier block siblings. The can_a_change_move_earlier_children quote supports false because each box's position derives only from the top of the containing block and the boxes before it.",
+   "spec_quotes": {
+    "can_a_change_move_earlier_children": "In a block formatting context, boxes are laid out one after the other, vertically, beginning at the top of a containing block. The vertical distance between two sibling boxes is determined by the 'margin' properties.",
+    "when_a_child_grows": "In a block formatting context, boxes are laid out one after the other, vertically, beginning at the top of a containing block. The vertical distance between two sibling boxes is determined by the 'margin' properties. Vertical margins between adjacent block-level boxes in a block formatting context collapse.",
+    "when_the_container_grows": "In a block formatting context, each box's left outer edge touches the left edge of the containing block (for right-to-left formatting, right edges touch)."
+   },
+   "spec_section": "\u00a79.4.1 Block formatting contexts",
+   "spec_url": "https://www.w3.org/TR/CSS22/visuren.html",
+   "when_a_child_grows": "Subsequent in-flow sibling boxes move down: boxes are laid out one after the other, vertically, from the top of the containing block, and the vertical distance between two sibling boxes is determined by the 'margin' properties (adjacent vertical margins collapse). The growing box's own left outer edge stays touching the left edge of the containing block; earlier siblings do not move.",
+   "when_a_child_is_removed": "Subsequent in-flow siblings move up to occupy the freed space, re-stacking from the top of the containing block with margins recollapsing between the newly adjacent boxes; earlier siblings do not move.",
+   "when_the_container_grows": "Children do not move: each box's left outer edge touches the left edge of the containing block, so added width leaves children in place (their line boxes may widen), and added height leaves children in place (extra space accumulates below).",
+   "wpt_evidence": [
+    {
+     "assertion": "Boxes are vertically laid out one after the other beginning at the top of a containing block.",
+     "path": "css/CSS2/normal-flow/block-formatting-contexts-001.xht",
+     "title": "CSS Test: Vertical layout of boxes"
+    }
+   ]
+  },
+  {
+   "can_a_change_move_earlier_children": true,
+   "context": "inline / line boxes",
+   "does_child_order_determine_position": true,
+   "notes": "True only when the line's free space is distributed across the line (text-align: center/right/justify): any change to an inline box changes the total content width and therefore the distribution, moving earlier boxes on the same line. With the initial text-align: start, earlier boxes on the line do not move. No dynamic WPT test was found covering this; the cited test is a static centering reftest that confirms the free-space-distribution mechanism.",
+   "spec_quotes": {
+    "can_a_change_move_earlier_children": "When the total width of the inline-level boxes on a line is less than the width of the line box containing them, their horizontal distribution within the line box is determined by the 'text-align' property.",
+    "does_child_order_determine_position": "In an inline formatting context, boxes are laid out horizontally, one after the other, beginning at the top of a containing block.",
+    "when_a_child_grows": "A line box is always tall enough for all of the boxes it contains. When several inline-level boxes cannot fit horizontally within a single line box, they are distributed among two or more vertically-stacked line boxes.",
+    "when_the_container_grows": "In general, the left edge of a line box touches the left edge of its containing block and the right edge touches the right edge of its containing block."
+   },
+   "spec_section": "\u00a79.4.2 Inline formatting contexts",
+   "spec_url": "https://www.w3.org/TR/CSS22/visuren.html",
+   "when_a_child_grows": "Boxes after the growing box on the same line shift horizontally; the line box grows taller if needed, since a line box is always tall enough for all of the boxes it contains; if content no longer fits horizontally, inline boxes are distributed among additional vertically-stacked line boxes, pushing subsequent lines down.",
+   "when_a_child_is_removed": "Line boxes are created as needed and destroyed when no longer needed; the remaining inline boxes reflow within the line and across lines, and subsequent lines move up.",
+   "when_the_container_grows": "Line boxes stretch to the new width (each line box's edges touch the containing block's edges), and the inline boxes on each line redistribute within the widened line box per the 'text-align' property.",
+   "wpt_evidence": [
+    {
+     "assertion": "The 'text-align' property set to 'center' on a block element aligns the text in the center.",
+     "path": "css/CSS2/text/text-align-003.xht",
+     "title": "CSS Test: Text-align set to 'center'"
+    }
+   ]
+  },
+  {
+   "can_a_change_move_earlier_children": true,
+   "context": "flex",
+   "does_child_order_determine_position": true,
+   "notes": "True only with non-initial justify-content (center/flex-end/space-between/space-around): any item change alters the line's free space, which is then redistributed across the whole line, moving items that precede the changed item. With justify-content:flex-start, earlier items do not move. remove-wrapped-002.html has no <title> element and no assert metadata; it appends a later text-node sibling and then removes it in a justify-content:center container, requiring the earlier #swatch to end centered (i.e. the earlier child moves when the later sibling is added and again when it is removed). flexbox-dyn-resize-001.html's title contains newline/indentation in the source; recorded with single-space normalization.",
+   "spec_quotes": {
+    "can_a_change_move_earlier_children": "Flex items are packed toward the center of the line. The flex items on the line are placed flush with each other and aligned in the center of the line, with equal amounts of space between the main-start edge of the line and the first item on the line and between the main-end edge of the line and the last item on the line.",
+    "does_child_order_determine_position": "Flex items are, by default, displayed and laid out in the same order as they appear in the source document, which represents their logical ordering. The order property can be used to change flex items\u2019 ordering, laying them out in order-modified document order instead,",
+    "when_a_child_grows": "A flex container distributes free space to its items (proportional to their flex grow factor) to fill the container, or shrinks them (proportional to their flex shrink factor) to prevent overflow.",
+    "when_a_child_is_removed": "Once content is broken into lines, each line is laid out independently; flexible lengths and the justify-content and align-self properties only consider the items on a single line at a time."
+   },
+   "spec_section": "\u00a78.2 Axis Alignment: the justify-content property",
+   "spec_url": "https://drafts.csswg.org/css-flexbox/",
+   "when_a_child_grows": "Free space on the line shrinks; the container shrinks flexible siblings proportional to their flex shrink factor to prevent overflow; inflexible later items on the line shift along the main axis; with free-space distribution (e.g. justify-content:center) the entire line re-aligns.",
+   "when_a_child_is_removed": "Flex lines are re-collected and each line is laid out again; the remaining items shift to fill the freed space; in a multi-line container, items from later lines can move up into earlier lines, similar to text reflow when a line gets too wide to fit.",
+   "when_the_container_grows": "Added free space is distributed by the flex container proportional to the items' flex grow factor to fill the container, then any remaining free space is placed per justify-content.",
+   "wpt_evidence": [
+    {
+     "assertion": null,
+     "path": "css/css-flexbox/remove-wrapped-002.html",
+     "title": null
+    },
+    {
+     "assertion": null,
+     "path": "css/css-flexbox/flexbox-dyn-resize-001.html",
+     "title": "CSS Test: Testing how a sizing change to one flex item impacts its sibling"
+    }
+   ]
+  },
+  {
+   "can_a_change_move_earlier_children": true,
+   "context": "grid",
+   "does_child_order_determine_position": true,
+   "notes": "True only when free space is distributed across the tracks as a group (justify-content/align-content center/end/space-between/etc.): any track-size change alters the free space and the whole track grid is realigned, moving earlier tracks and the items in them. With default start alignment, earlier tracks do not move. No dynamic WPT test was found covering earlier-track movement; the cited test is a static align-content test confirming the group-alignment mechanism.",
+   "spec_quotes": {
+    "can_a_change_move_earlier_children": "If the grid's outer edges do not correspond to the grid container's content edges (for example, if no columns are flex-sized), the grid tracks are aligned within the content box according to the justify-content and align-content properties on the grid container.",
+    "does_child_order_determine_position": "Auto-placement takes grid items in order-modified document order.",
+    "when_a_child_grows": "The cells that a grid item occupies also influence the sizing of the grid's rows and columns, defined in \u00a7 12 Grid Layout Algorithm.",
+    "when_a_child_is_removed": "If specified, the auto-placement algorithm uses a \u201cdense\u201d packing algorithm, which attempts to fill in holes earlier in the grid if smaller items come up later. This may cause items to appear out-of-order, when doing so would fill in holes left by larger items."
+   },
+   "spec_section": "\u00a711.5 Aligning the Grid: the justify-content and align-content properties",
+   "spec_url": "https://drafts.csswg.org/css-grid/",
+   "when_a_child_grows": "The tracks the item occupies grow, since the cells a grid item occupies influence the sizing of the grid's rows and columns; tracks after the grown track shift outward. With default start alignment, earlier tracks do not move.",
+   "when_a_child_is_removed": "The auto-placement algorithm re-runs for the remaining items; later auto-placed items can move into the freed cells; with dense packing the algorithm attempts to fill in holes earlier in the grid, which may place items out of order.",
+   "when_the_container_grows": "Flexible (fr) tracks absorb the space; otherwise the grid tracks are aligned as a group within the content box according to the justify-content and align-content properties, so the whole track grid shifts as a unit.",
+   "wpt_evidence": [
+    {
+     "assertion": "This test checks that the align-content property is applied correctly in both directions RTL and LTR.",
+     "path": "css/css-grid/alignment/grid-align-content.html",
+     "title": "CSS Grid Layout test: align-content property"
+    }
+   ]
+  },
+  {
+   "can_a_change_move_earlier_children": false,
+   "context": "table",
+   "does_child_order_determine_position": true,
+   "notes": "Column widths are derived per-column and row heights per-row, so a change to a cell affects its own column/row and later ones, never earlier columns or earlier rows. The \u00a717.5.2.2 column-width algorithm text is explicitly non-normative ('The remainder of this section is non-normative'). visibility-collapse-row-001.html has no <title> and no assert metadata; its prose states 'Setting a row to visibility:collapse changes table height but not width.' No WPT test was found covering the earlier-children claim. Exception to source-order position: table-header-group/table-footer-group are displayed before/after other row groups regardless of source order.",
+   "spec_quotes": {
+    "can_a_change_move_earlier_children": "The height of a 'table-row' element's box is calculated once the user agent has all the cells in the row available: it is the maximum of the row's computed 'height', the computed 'height' of each cell in the row, and the minimum height (MIN) required by the cells.",
+    "does_child_order_determine_position": "Columns are derived once all the rows have been specified -- the first cell of each row belongs to the first column, the second to the second column, etc.",
+    "when_a_child_grows": "For each column, determine a maximum and minimum column width from the cells that span only that column.",
+    "when_a_child_is_removed": "The suppression of the row or column, however, does not otherwise affect the layout of the table.",
+    "when_the_container_grows": "If the table is wider than the columns, the extra space should be distributed over the columns."
+   },
+   "spec_section": "\u00a717.5 Visual layout of table contents",
+   "spec_url": "https://www.w3.org/TR/CSS22/tables.html",
+   "when_a_child_grows": "In automatic table layout, the cell's column is sized from that column's cells only, so the column widens and cells in later columns shift right, and the cell's row grows to the maximum of the row's computed height, the cells' computed heights, and the minimum height required by the cells, shifting later rows down. In fixed table layout, 'Cells in subsequent rows do not affect column widths', so a growing cell overflows rather than widening the column.",
+   "when_a_child_is_removed": "Column widths and row heights are recomputed from the remaining cells; later columns and rows shift to fill. With visibility:collapse, the row or column is removed from the display and its space made available for other content, but the suppression 'does not otherwise affect the layout of the table'.",
+   "when_the_container_grows": "Extra width is distributed over the columns: fixed layout \u2014 'If the table is wider than the columns, the extra space should be distributed over the columns'; automatic layout \u2014 'If the used width is greater than MIN, the extra width should be distributed over the columns'.",
+   "wpt_evidence": [
+    {
+     "assertion": null,
+     "path": "css/css-tables/visibility-collapse-row-001.html",
+     "title": null
+    }
+   ]
+  },
+  {
+   "can_a_change_move_earlier_children": false,
+   "context": "absolutely positioned",
+   "does_child_order_determine_position": false,
+   "notes": "Each absolutely positioned box is independently offset from its containing block, so sibling order carries no positional meaning (DOM order affects paint order only, not position). No WPT test was found covering the can_a_change_move_earlier_children claim (a change to one abspos child leaving earlier abspos siblings unmoved); the cited test covers only when_the_container_grows: a bottom-anchored child moving when its containing block's height changes.",
+   "spec_quotes": {
+    "can_a_change_move_earlier_children": "In the absolute positioning model, a box is explicitly offset with respect to its containing block. It is removed from the normal flow entirely (it has no impact on later siblings).",
+    "does_child_order_determine_position": "In the absolute positioning model, a box is explicitly offset with respect to its containing block. The position of the box will be determined by the 'top', 'right', 'bottom' and 'left' properties and the box's containing block.",
+    "when_a_child_grows": "In the absolute positioning model, a box is explicitly offset with respect to its containing block. It is removed from the normal flow entirely (it has no impact on later siblings)."
+   },
+   "spec_section": "\u00a79.6 Absolute positioning",
+   "spec_url": "https://www.w3.org/TR/CSS22/visuren.html",
+   "when_a_child_grows": "Nothing else moves: the box is explicitly offset with respect to its containing block and removed from the normal flow, so it has no impact on later siblings (or earlier ones). The containing block may grow if it is shrink-to-fit.",
+   "when_a_child_is_removed": "Nothing moves; an absolutely positioned box has no impact on siblings, so removing it changes nothing about other boxes' positions.",
+   "when_the_container_grows": "Start-anchored children (top/left offsets) do not move; end-anchored children (right/bottom offsets) move with the corresponding containing-block edge, since the position is determined by the offsets and the containing block.",
+   "wpt_evidence": [
+    {
+     "path": "css/css-position/absolute-pos-box-inside-fixed-pos-box-with-changing-height.html",
+     "title": null,
+     "assertion": "bottom anchored abs pos child moves when fixed pos containing block height changes."
+    }
+   ]
+  },
+  {
+   "can_a_change_move_earlier_children": true,
+   "context": "floats",
+   "does_child_order_determine_position": true,
+   "notes": "True only for content already placed earlier on the same line as the float: it is reflowed to the other side of the float when the float appears or grows. Earlier floats and earlier block boxes are never moved by a change to a later float \u2014 the float placement rules constrain later boxes by earlier ones, not the reverse. The cited WPT test is a static reftest matching the float/content positions; no dynamic WPT test was found for the reflow-on-change behavior.",
+   "spec_quotes": {
+    "can_a_change_move_earlier_children": "Any content in the current line before a floated box is reflowed in the same line on the other side of the float.",
+    "does_child_order_determine_position": "If the current box is left-floating, and there are any left-floating boxes generated by elements earlier in the source document, then for each such earlier box, either the left outer edge of the current box must be to the right of the right outer edge of the earlier box, or its top must be lower than the bottom of the earlier box. Analogous rules hold for right-floating boxes.",
+    "when_a_child_grows": "Since a float is not in the flow, non-positioned block boxes created before and after the float box flow vertically as if the float did not exist. However, the current and subsequent line boxes created next to the float are shortened as necessary to make room for the margin box of the float.",
+    "when_a_child_is_removed": "A floating box must be placed as high as possible."
+   },
+   "spec_section": "\u00a79.5 Floats",
+   "spec_url": "https://www.w3.org/TR/CSS22/visuren.html",
+   "when_a_child_grows": "If a float grows, the current and subsequent line boxes next to it are shortened as necessary to make room for the margin box of the float; later floats may be pushed down, since the outer top of a floating box may not be higher than the outer top of any block or floated box generated by an element earlier in the source document. Earlier floats and block boxes do not move.",
+   "when_a_child_is_removed": "Later floats may move up, since a floating box must be placed as high as possible; line boxes next to where the float was widen again to the full width; earlier floats are unaffected.",
+   "when_the_container_grows": "Left floats stay put (placed as far left as possible); right floats move right with the containing-block edge; line boxes widen to the new width; clearance amounts are recomputed against the new float positions.",
+   "wpt_evidence": [
+    {
+     "assertion": "Inline boxes are reflowed to the first available line on the other side of a float.",
+     "path": "css/CSS2/floats-clear/floats-006.xht",
+     "title": "CSS Test: Left floats interacting with inline content"
+    }
+   ]
+  }
+ ]
+}
