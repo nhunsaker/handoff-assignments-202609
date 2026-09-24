@@ -77,12 +77,12 @@
       "pm_rung": "declared",
       "install_ok": true,
       "install_seconds": 0,
-      "build_ok": false,
-      "build_seconds": 301,
-      "static_page_count": 0,
+      "build_ok": true,
+      "build_seconds": 173,
+      "static_page_count": 1273,
       "count_method": "find public -name *.html -type f",
-      "failure_stage": "timeout",
-      "error_excerpt": "timeout 300 killed hugo build (rc=124); log shows only Start building sites with no completion summary"
+      "failure_stage": null,
+      "error_excerpt": null
     },
     {
       "sha": "be716ee1c7b777bacbfac5823f57a3425f278606",
@@ -94,11 +94,11 @@
       "install_ok": true,
       "install_seconds": 0,
       "build_ok": false,
-      "build_seconds": 301,
+      "build_seconds": 300,
       "static_page_count": 0,
       "count_method": "find public -name *.html -type f",
       "failure_stage": "timeout",
-      "error_excerpt": "timeout 300 killed hugo build (rc=124); log shows only Start building sites with no completion summary"
+      "error_excerpt": "Start building sites \u2026 \nhugo v0.152.2-6abdacad3f3fe944ea42177844469139e81feda6+extended linux/amd64 BuildDate=2025-10-24T15:31:49Z VendorInfo=gohugoio"
     },
     {
       "sha": "cbb28ba6e5a0189155e780f8a879251529cd9023",
@@ -110,11 +110,11 @@
       "install_ok": true,
       "install_seconds": 0,
       "build_ok": false,
-      "build_seconds": 301,
+      "build_seconds": 300,
       "static_page_count": 0,
       "count_method": "find public -name *.html -type f",
       "failure_stage": "timeout",
-      "error_excerpt": "timeout 300 killed hugo build (rc=124); log shows only Start building sites with no completion summary"
+      "error_excerpt": "hugo v0.152.2-6abdacad3f3fe944ea42177844469139e81feda6+extended linux/amd64 BuildDate=2025-10-24T15:31:49Z VendorInfo=gohugoio\n\nWARN  deprecated: The \"_build\" front matter key was deprecated in Hugo 0.145.0 and will be removed in a future release. Use \"build\" instead. See https://gohugo.io/content-management/build-options.\nWARN  link-preview: internal link resolves to no page: /en/growth/posts/friction-is-growth/\nWARN  link-preview: internal link resolves to no page: /zh/projects/gpt-researcher/"
     },
     {
       "sha": "7090d6acbb7508f76c994fc67440245b74e2db6b",
@@ -125,18 +125,18 @@
       "pm_rung": "declared",
       "install_ok": true,
       "install_seconds": 0,
-      "build_ok": false,
-      "build_seconds": 301,
-      "static_page_count": 0,
+      "build_ok": true,
+      "build_seconds": 241,
+      "static_page_count": 623,
       "count_method": "find public -name *.html -type f",
-      "failure_stage": "timeout",
-      "error_excerpt": "timeout 300 killed hugo build (rc=124); log shows only Start building sites with no completion summary"
+      "failure_stage": null,
+      "error_excerpt": null
     }
   ],
   "summary": {
-    "build_ok": 4,
+    "build_ok": 6,
     "median_static_page_count": 998.0,
-    "median_build_seconds": 112.5,
+    "median_build_seconds": 133.5,
     "verdict": "broken"
   }
 }

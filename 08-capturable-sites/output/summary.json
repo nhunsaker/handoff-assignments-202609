@@ -1,0 +1,287 @@
+{
+  "funnel": {
+    "candidates_screened": 150,
+    "screen_passes": 56,
+    "windows_qualified": 20,
+    "repos_probed": 20,
+    "verdicts": {
+      "broken": 13,
+      "slow": 2,
+      "spa": 2,
+      "environment_incomplete": 2,
+      "capturable": 1
+    }
+  },
+  "verdicts_by_bucket": {
+    "A": {
+      "broken": 4,
+      "slow": 1,
+      "environment_incomplete": 1
+    },
+    "C": {
+      "broken": 5,
+      "slow": 1,
+      "environment_incomplete": 1,
+      "capturable": 1
+    },
+    "D": {
+      "spa": 1
+    },
+    "E": {
+      "broken": 4,
+      "spa": 1
+    }
+  },
+  "capturable_ranked": [
+    {
+      "repo": "tempertemper/www.tempertemper.net",
+      "framework": "eleventy",
+      "bucket": "C",
+      "median_static_page_count": 567.5,
+      "page_touching_commits_in_window": 131,
+      "ranking_score": 74342.5
+    }
+  ],
+  "repos": [
+    {
+      "repo": "ChrisTitusTech/website",
+      "framework": "astro",
+      "bucket": "A",
+      "window": "2026-08 to 2027-02",
+      "page_touching_commits_in_window": 79,
+      "build_ok": 0,
+      "median_static_page_count": 0,
+      "median_build_seconds": 0,
+      "verdict": "broken",
+      "ranking_score": 0
+    },
+    {
+      "repo": "EllyLoel/ellyloel.com",
+      "framework": "eleventy",
+      "bucket": "C",
+      "window": "2024-11 to 2025-05",
+      "page_touching_commits_in_window": 84,
+      "build_ok": 0,
+      "median_static_page_count": 0,
+      "median_build_seconds": 0,
+      "verdict": "broken",
+      "ranking_score": 0
+    },
+    {
+      "repo": "JanWilczek/wolf-sound-blog",
+      "framework": "eleventy",
+      "bucket": "C",
+      "window": "2025-09 to 2026-03",
+      "page_touching_commits_in_window": 250,
+      "build_ok": 0,
+      "median_static_page_count": 0,
+      "median_build_seconds": 0,
+      "verdict": "broken",
+      "ranking_score": 0
+    },
+    {
+      "repo": "alexcarpenter/alexcarpenter.me",
+      "framework": "astro",
+      "bucket": "A",
+      "window": "2025-04 to 2025-10",
+      "page_touching_commits_in_window": 159,
+      "build_ok": 8,
+      "median_static_page_count": 66.0,
+      "median_build_seconds": 138.5,
+      "verdict": "slow",
+      "ranking_score": 10494.0
+    },
+    {
+      "repo": "benbalter/benbalter.github.com",
+      "framework": "astro",
+      "bucket": "A",
+      "window": "2025-11 to 2026-05",
+      "page_touching_commits_in_window": 705,
+      "build_ok": 3,
+      "median_static_page_count": 0,
+      "median_build_seconds": 83,
+      "verdict": "broken",
+      "ranking_score": 0
+    },
+    {
+      "repo": "bobmonsour/11tybundle.dev",
+      "framework": "eleventy",
+      "bucket": "C",
+      "window": "2025-11 to 2026-05",
+      "page_touching_commits_in_window": 480,
+      "build_ok": 0,
+      "median_static_page_count": 0,
+      "median_build_seconds": 0,
+      "verdict": "broken",
+      "ranking_score": 0
+    },
+    {
+      "repo": "cubxxw/blog",
+      "framework": "hugo",
+      "bucket": "C",
+      "window": "2026-04 to 2026-10",
+      "page_touching_commits_in_window": 388,
+      "build_ok": 6,
+      "median_static_page_count": 998.0,
+      "median_build_seconds": 133.5,
+      "verdict": "broken",
+      "ranking_score": 387224.0
+    },
+    {
+      "repo": "eeg1412/wikimoeNodeJSBlog",
+      "framework": "nuxt",
+      "bucket": "E",
+      "window": "2025-01 to 2025-07",
+      "page_touching_commits_in_window": 342,
+      "build_ok": 0,
+      "median_static_page_count": 0,
+      "median_build_seconds": 0,
+      "verdict": "broken",
+      "ranking_score": 0
+    },
+    {
+      "repo": "efcl/efcl.github.io",
+      "framework": "jekyll",
+      "bucket": "C",
+      "window": "2025-04 to 2025-10",
+      "page_touching_commits_in_window": 75,
+      "build_ok": 8,
+      "median_static_page_count": 940.0,
+      "median_build_seconds": 230.60000000000002,
+      "verdict": "slow",
+      "ranking_score": 70500.0
+    },
+    {
+      "repo": "elsbrock/hetzner-radar",
+      "framework": "sveltekit",
+      "bucket": "E",
+      "window": "2025-01 to 2025-07",
+      "page_touching_commits_in_window": 142,
+      "build_ok": 8,
+      "median_static_page_count": 1.0,
+      "median_build_seconds": 41.45,
+      "verdict": "spa",
+      "ranking_score": 142.0
+    },
+    {
+      "repo": "godruoyi/gblog",
+      "framework": "astro",
+      "bucket": "A",
+      "window": "2024-04 to 2024-10",
+      "page_touching_commits_in_window": 47,
+      "build_ok": 2,
+      "median_static_page_count": 47.0,
+      "median_build_seconds": 175.0,
+      "verdict": "broken",
+      "ranking_score": 2209.0
+    },
+    {
+      "repo": "hnpf/stabbed.wtf",
+      "framework": "vite",
+      "bucket": "D",
+      "window": "2026-04 to 2026-10",
+      "page_touching_commits_in_window": 396,
+      "build_ok": 8,
+      "median_static_page_count": 1.0,
+      "median_build_seconds": 93.0,
+      "verdict": "spa",
+      "ranking_score": 396.0
+    },
+    {
+      "repo": "madrilene/lenesaile.com",
+      "framework": "eleventy",
+      "bucket": "C",
+      "window": "2025-03 to 2025-09",
+      "page_touching_commits_in_window": 54,
+      "build_ok": 1,
+      "median_static_page_count": 89,
+      "median_build_seconds": 253,
+      "verdict": "broken",
+      "ranking_score": 4806
+    },
+    {
+      "repo": "nemanjam/nemanjam.github.io",
+      "framework": "astro",
+      "bucket": "A",
+      "window": "2024-04 to 2024-10",
+      "page_touching_commits_in_window": 264,
+      "build_ok": 0,
+      "median_static_page_count": 0,
+      "median_build_seconds": 0,
+      "verdict": "environment_incomplete",
+      "ranking_score": 0
+    },
+    {
+      "repo": "querkmachine/beeps.website",
+      "framework": "eleventy",
+      "bucket": "C",
+      "window": "2024-09 to 2025-03",
+      "page_touching_commits_in_window": 85,
+      "build_ok": 0,
+      "median_static_page_count": 0,
+      "median_build_seconds": 0,
+      "verdict": "environment_incomplete",
+      "ranking_score": 0
+    },
+    {
+      "repo": "rimzzlabs/website",
+      "framework": "astro",
+      "bucket": "A",
+      "window": "2026-06 to 2026-12",
+      "page_touching_commits_in_window": 28,
+      "build_ok": 3,
+      "median_static_page_count": 18,
+      "median_build_seconds": 174,
+      "verdict": "broken",
+      "ranking_score": 504
+    },
+    {
+      "repo": "swyxio/swyxdotio",
+      "framework": "sveltekit",
+      "bucket": "E",
+      "window": "2026-06 to 2026-12",
+      "page_touching_commits_in_window": 122,
+      "build_ok": 0,
+      "median_static_page_count": 0,
+      "median_build_seconds": 0,
+      "verdict": "broken",
+      "ranking_score": 0
+    },
+    {
+      "repo": "tempertemper/www.tempertemper.net",
+      "framework": "eleventy",
+      "bucket": "C",
+      "window": "2025-07 to 2026-01",
+      "page_touching_commits_in_window": 131,
+      "build_ok": 8,
+      "median_static_page_count": 567.5,
+      "median_build_seconds": 9.75,
+      "verdict": "capturable",
+      "ranking_score": 74342.5
+    },
+    {
+      "repo": "whoisyurii/checkmygit",
+      "framework": "sveltekit",
+      "bucket": "E",
+      "window": "2026-01 to 2026-07",
+      "page_touching_commits_in_window": 59,
+      "build_ok": 6,
+      "median_static_page_count": 0.0,
+      "median_build_seconds": 227.0,
+      "verdict": "broken",
+      "ranking_score": 0.0
+    },
+    {
+      "repo": "yunyuyuan/nuxt3-blog",
+      "framework": "nuxt",
+      "bucket": "E",
+      "window": "2025-01 to 2025-07",
+      "page_touching_commits_in_window": 41,
+      "build_ok": 7,
+      "median_static_page_count": 159,
+      "median_build_seconds": 85,
+      "verdict": "broken",
+      "ranking_score": 6519
+    }
+  ]
+}
