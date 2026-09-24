@@ -1,0 +1,55 @@
+{
+ "repo": "EllyLoel/ellyloel.com",
+ "pass": "buildfix",
+ "note": "re-probe of installable commits with bare pnpm on PATH (pnpm shim -> corepack pnpm), so nested pnpm invocations in build scripts resolve as in the author environment",
+ "commits": [
+  {
+   "sha": "5f5da801a185a66aa8f1379a0cec6b4616912661",
+   "date": "2025-04-03",
+   "node_used": "v22.14.0",
+   "node_rung": "declared",
+   "pm_used": "pnpm@9.14.2",
+   "pm_rung": "declared",
+   "install_ok": true,
+   "install_seconds": 235.3,
+   "build_ok": false,
+   "build_seconds": 109.9,
+   "static_page_count": 0,
+   "count_method": "find _site -name '*.html' \u2014 eleventy default output dir _site confirmed in eleventy.config.js",
+   "failure_stage": "build",
+   "error_excerpt": "[11ty]     at async Promise.all (index 0)\n[11ty]     at async Object.get (file:///home/hatch/workspace/handoff-assignments-202609/08-capturable-sites/work/clones/w3/EllyLoel__ellyloel.com/src/_11ty/plugins/getWebmentions.js:122:17)\n[11ty] Wrote 0 files in 56.88 seconds (v3.0.0)\n\u2009ELIFECYCLE\u2009 Command failed with exit code 1.\n\u2009ELIFECYCLE\u2009 Command failed with exit code 1.\n"
+  },
+  {
+   "sha": "68e5852d22f7f7c081705f674ed4fc9db45eed14",
+   "date": "2025-05-05",
+   "node_used": "v22.15.0",
+   "node_rung": "declared",
+   "pm_used": "pnpm@10.8.1",
+   "pm_rung": "declared",
+   "install_ok": false,
+   "install_seconds": 300.4,
+   "build_ok": false,
+   "build_seconds": 0.0,
+   "static_page_count": 0,
+   "count_method": "find _site -name '*.html' \u2014 eleventy default output dir _site confirmed in eleventy.config.js",
+   "failure_stage": "timeout",
+   "error_excerpt": "Progress: resolved 817, reused 570, downloaded 247, added 773\nProgress: resolved 817, reused 570, downloaded 247, added 782\nProgress: resolved 817, reused 570, downloaded 247, added 793\nProgress: resolved 817, reused 570, downloaded 247, added 802\nProgress: resolved 817, reused 570, downloaded 247, added 817, done\n"
+  },
+  {
+   "sha": "5669aba5eebb66a893c23f76465ce66c1e598eba",
+   "date": "2025-05-19",
+   "node_used": "v22.15.0",
+   "node_rung": "declared",
+   "pm_used": "pnpm@10.9.0",
+   "pm_rung": "declared",
+   "install_ok": true,
+   "install_seconds": 155.0,
+   "build_ok": false,
+   "build_seconds": 95.5,
+   "static_page_count": 0,
+   "count_method": "find _site -name '*.html' \u2014 eleventy default output dir _site confirmed in eleventy.config.js",
+   "failure_stage": "build",
+   "error_excerpt": "[11ty]     at async #getInitialGlobalData (file:///home/hatch/workspace/handoff-assignments-202609/08-capturable-sites/work/clones/w3/EllyLoel__ellyloel.com/node_modules/.pnpm/@11ty+eleventy@3.0.0/node_modules/@11ty/eleventy/src/Data/TemplateData.js:316:20)\n[11ty]     at async #getGlobalData (file:///home/hatch/workspace/handoff-assignments-202609/08-capturable-sites/work/clones/w3/EllyLoel__ellyloel.com/node_modules/.pnpm/@11ty+eleventy@3.0.0/node_modules/@11ty/eleventy/src/Data/TemplateData.js:361:29)\n[11ty] Wrote 0 files in 44.23 seconds (v3.0.0)\n\u2009ELIFECYCLE\u2009 Command failed with exit code 1.\n\u2009ELIFECYCLE\u2009 Command failed with exit code 1.\n"
+  }
+ ]
+}

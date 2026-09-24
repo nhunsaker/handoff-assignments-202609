@@ -1,0 +1,506 @@
+[
+ {
+  "repo": "markhorn-dev/astro-sphere",
+  "framework": "astro",
+  "bucket": "A",
+  "window": "",
+  "commits_in_window": 0,
+  "qualifies": false,
+  "rejection_reason": "no qualifying window: best 6-month span ending >=2024-09-24 has 9 page-touching commits"
+ },
+ {
+  "repo": "godruoyi/gblog",
+  "framework": "astro",
+  "bucket": "A",
+  "window": "2024-04 to 2024-10",
+  "commits_in_window": 47,
+  "qualifies": true,
+  "rejection_reason": null
+ },
+ {
+  "repo": "craftzdog/craftzdog-uses",
+  "framework": "astro",
+  "bucket": "A",
+  "window": "",
+  "commits_in_window": 0,
+  "qualifies": false,
+  "rejection_reason": "no qualifying window: best 6-month span ending >=2024-09-24 has 6 page-touching commits"
+ },
+ {
+  "repo": "rimzzlabs/website",
+  "framework": "astro",
+  "bucket": "A",
+  "window": "2026-06 to 2026-12",
+  "commits_in_window": 28,
+  "qualifies": true,
+  "rejection_reason": null
+ },
+ {
+  "repo": "alexcarpenter/alexcarpenter.me",
+  "framework": "astro",
+  "bucket": "A",
+  "window": "2025-04 to 2025-10",
+  "commits_in_window": 159,
+  "qualifies": true,
+  "rejection_reason": null
+ },
+ {
+  "repo": "benbalter/benbalter.github.com",
+  "framework": "astro",
+  "bucket": "A",
+  "window": "2025-11 to 2026-05",
+  "commits_in_window": 705,
+  "qualifies": true,
+  "rejection_reason": null
+ },
+ {
+  "repo": "ArtemKutsan/astro-citrus",
+  "framework": "astro",
+  "bucket": "A",
+  "window": "",
+  "commits_in_window": 0,
+  "qualifies": false,
+  "rejection_reason": "no qualifying window: best 6-month span ending >=2024-09-24 has 6 page-touching commits"
+ },
+ {
+  "repo": "ChrisTitusTech/website",
+  "framework": "astro",
+  "bucket": "A",
+  "window": "2026-08 to 2027-02",
+  "commits_in_window": 79,
+  "qualifies": true,
+  "rejection_reason": null
+ },
+ {
+  "repo": "yoanbernabeu/LinkTreeFreeClone",
+  "framework": "astro",
+  "bucket": "A",
+  "window": "",
+  "commits_in_window": 0,
+  "qualifies": false,
+  "rejection_reason": "no qualifying window: best 6-month span ending >=2024-09-24 has 4 page-touching commits"
+ },
+ {
+  "repo": "izmttk/astro-mecure",
+  "framework": "astro",
+  "bucket": "A",
+  "window": "",
+  "commits_in_window": 0,
+  "qualifies": false,
+  "rejection_reason": "no qualifying window: best 6-month span ending >= 2024-09-24 has 12 page-touching commits"
+ },
+ {
+  "repo": "nemanjam/nemanjam.github.io",
+  "framework": "astro",
+  "bucket": "A",
+  "window": "2024-04 to 2024-10",
+  "commits_in_window": 264,
+  "qualifies": true,
+  "rejection_reason": null
+ },
+ {
+  "repo": "ogzhanolguncu/ogzhanolguncu.com",
+  "framework": "astro",
+  "bucket": "A",
+  "window": "",
+  "commits_in_window": 0,
+  "qualifies": false,
+  "rejection_reason": "no qualifying window: best 6-month span ending >= 2024-09-24 has 11 page-touching commits"
+ },
+ {
+  "repo": "bdsqqq/psykip",
+  "framework": "astro",
+  "bucket": "A",
+  "window": "",
+  "commits_in_window": 0,
+  "qualifies": false,
+  "rejection_reason": "no qualifying window: best 6-month span ending >= 2024-09-24 has 24 page-touching commits"
+ },
+ {
+  "repo": "artsy/artsy.github.io",
+  "framework": "jekyll",
+  "bucket": "C",
+  "window": "",
+  "commits_in_window": 0,
+  "qualifies": false,
+  "rejection_reason": "no qualifying window: package.json absent at every commit (1186 page-touching commits, all dropped by package.json filter)"
+ },
+ {
+  "repo": "rocky-linux/rockylinux.org-hugo",
+  "framework": "hugo",
+  "bucket": "C",
+  "window": null,
+  "commits_in_window": 0,
+  "qualifies": false,
+  "rejection_reason": "no qualifying window: latest page-touching commit with package.json predates 2024-03-24 (0 candidates with window end >= 2024-09-24)"
+ },
+ {
+  "repo": "yamadashy/tech-blog-rss-feed",
+  "framework": "eleventy",
+  "bucket": "C",
+  "window": null,
+  "commits_in_window": 0,
+  "qualifies": false,
+  "rejection_reason": "no qualifying window: best 6-month span ending >=2024-09-24 has 12 page-touching commits"
+ },
+ {
+  "repo": "ttntm/11ty-landing-page",
+  "framework": "eleventy",
+  "bucket": "C",
+  "window": null,
+  "commits_in_window": 0,
+  "qualifies": false,
+  "rejection_reason": "no qualifying window: best 6-month span ending >=2024-09-24 has 2 page-touching commits"
+ },
+ {
+  "repo": "haacked/haacked.com",
+  "framework": "jekyll",
+  "bucket": "C",
+  "window": null,
+  "commits_in_window": 0,
+  "qualifies": false,
+  "rejection_reason": "no qualifying window: no page-touching commit contains package.json"
+ },
+ {
+  "repo": "yegor256/blog",
+  "framework": "jekyll",
+  "bucket": "C",
+  "window": null,
+  "commits_in_window": 0,
+  "qualifies": false,
+  "rejection_reason": "no qualifying window: no page-touching commit contains package.json"
+ },
+ {
+  "repo": "philhawksworth/hawksworx.com",
+  "framework": "eleventy",
+  "bucket": "C",
+  "window": null,
+  "commits_in_window": 0,
+  "qualifies": false,
+  "rejection_reason": "no qualifying window: latest page-touching commit with package.json predates 2024-03-24 (0 candidates with window end >= 2024-09-24)"
+ },
+ {
+  "repo": "efcl/efcl.github.io",
+  "framework": "jekyll",
+  "bucket": "C",
+  "window": "2025-04 to 2025-10",
+  "commits_in_window": 75,
+  "qualifies": true,
+  "rejection_reason": null
+ },
+ {
+  "repo": "nhoizey/nicolas-hoizey.com",
+  "framework": "eleventy",
+  "bucket": "C",
+  "window": null,
+  "commits_in_window": 4,
+  "qualifies": false,
+  "rejection_reason": "no qualifying window: best 6-month span ending \u22652024-09-24 has 4 page-touching commits"
+ },
+ {
+  "repo": "tdg5/blog",
+  "framework": "jekyll",
+  "bucket": "C",
+  "window": null,
+  "commits_in_window": 0,
+  "qualifies": false,
+  "rejection_reason": "no qualifying window: best 6-month span ending \u22652024-09-24 has 0 page-touching commits"
+ },
+ {
+  "repo": "pepelsbey/pepelsbey.dev",
+  "framework": "eleventy",
+  "bucket": "C",
+  "window": null,
+  "commits_in_window": 12,
+  "qualifies": false,
+  "rejection_reason": "no qualifying window: best 6-month span ending \u22652024-09-24 has 12 page-touching commits"
+ },
+ {
+  "repo": "trongthanh/thanh.im",
+  "framework": "eleventy",
+  "bucket": "C",
+  "window": null,
+  "commits_in_window": 6,
+  "qualifies": false,
+  "rejection_reason": "no qualifying window: best 6-month span ending \u22652024-09-24 has 6 page-touching commits"
+ },
+ {
+  "repo": "Savjee/savjee.be",
+  "framework": "eleventy",
+  "bucket": "C",
+  "window": null,
+  "commits_in_window": 15,
+  "qualifies": false,
+  "rejection_reason": "no qualifying window: best 6-month span ending \u22652024-09-24 has 15 page-touching commits"
+ },
+ {
+  "repo": "madrilene/lenesaile.com",
+  "framework": "eleventy",
+  "bucket": "C",
+  "window": "2025-03 to 2025-09",
+  "commits_in_window": 54,
+  "qualifies": true,
+  "rejection_reason": null
+ },
+ {
+  "repo": "EllyLoel/ellyloel.com",
+  "framework": "eleventy",
+  "bucket": "C",
+  "window": "2024-11 to 2025-05",
+  "commits_in_window": 84,
+  "qualifies": true,
+  "rejection_reason": null
+ },
+ {
+  "repo": "JanWilczek/wolf-sound-blog",
+  "framework": "eleventy",
+  "bucket": "C",
+  "window": "2025-09 to 2026-03",
+  "commits_in_window": 250,
+  "qualifies": true,
+  "rejection_reason": null
+ },
+ {
+  "repo": "woliveiras/blog",
+  "framework": "astro",
+  "bucket": "C",
+  "window": null,
+  "commits_in_window": 0,
+  "qualifies": false,
+  "rejection_reason": "no qualifying window: best 6-month span ending >=2024-09-24 has 2 page-touching commits"
+ },
+ {
+  "repo": "TampaDevs/tampadevs-original-site",
+  "framework": "eleventy",
+  "bucket": "C",
+  "window": null,
+  "commits_in_window": 0,
+  "qualifies": false,
+  "rejection_reason": "no qualifying window: best 6-month span ending >=2024-09-24 has 4 page-touching commits"
+ },
+ {
+  "repo": "cubxxw/blog",
+  "framework": "hugo",
+  "bucket": "C",
+  "window": "2026-04 to 2026-10",
+  "commits_in_window": 388,
+  "qualifies": true,
+  "rejection_reason": null
+ },
+ {
+  "repo": "bobmonsour/11tybundle.dev",
+  "framework": "eleventy",
+  "bucket": "C",
+  "window": "2025-11 to 2026-05",
+  "commits_in_window": 480,
+  "qualifies": true,
+  "rejection_reason": null
+ },
+ {
+  "repo": "cfjedimaster/raymondcamden2020",
+  "framework": "eleventy",
+  "bucket": "C",
+  "window": null,
+  "commits_in_window": 0,
+  "qualifies": false,
+  "rejection_reason": "no qualifying window: best 6-month span ending >=2024-09-24 has 0 page-touching commits"
+ },
+ {
+  "repo": "asvny/eleventy-blog-monospaced",
+  "framework": "eleventy",
+  "bucket": "C",
+  "window": null,
+  "commits_in_window": 0,
+  "qualifies": false,
+  "rejection_reason": "no qualifying window: best 6-month span ending >=2024-09-24 has 0 page-touching commits"
+ },
+ {
+  "repo": "devinschulz/blog",
+  "framework": "hugo",
+  "bucket": "C",
+  "window": null,
+  "commits_in_window": 20,
+  "qualifies": false,
+  "rejection_reason": "no qualifying window: best 6-month span ending >=2024-09-24 has 20 page-touching commits"
+ },
+ {
+  "repo": "querkmachine/beeps.website",
+  "framework": "eleventy",
+  "bucket": "C",
+  "window": "2024-09 to 2025-03",
+  "commits_in_window": 85,
+  "qualifies": true,
+  "rejection_reason": null
+ },
+ {
+  "repo": "tempertemper/www.tempertemper.net",
+  "framework": "eleventy",
+  "bucket": "C",
+  "window": "2025-07 to 2026-01",
+  "commits_in_window": 131,
+  "qualifies": true,
+  "rejection_reason": null
+ },
+ {
+  "repo": "geshan/geshan.github.com",
+  "framework": "eleventy",
+  "bucket": "C",
+  "window": null,
+  "commits_in_window": 19,
+  "qualifies": false,
+  "rejection_reason": "no qualifying window: best 6-month span ending >=2024-09-24 has 19 page-touching commits"
+ },
+ {
+  "repo": "pioug/blog",
+  "framework": "eleventy",
+  "bucket": "C",
+  "window": null,
+  "commits_in_window": 0,
+  "qualifies": false,
+  "rejection_reason": "no qualifying window: best 6-month span ending >=2024-09-24 has 0 page-touching commits"
+ },
+ {
+  "repo": "mtsknn/mtsknn.fi",
+  "framework": "eleventy",
+  "bucket": "C",
+  "window": null,
+  "commits_in_window": 1,
+  "qualifies": false,
+  "rejection_reason": "no qualifying window: best 6-month span ending >=2024-09-24 has 1 page-touching commits"
+ },
+ {
+  "repo": "piraces/blog",
+  "framework": "eleventy",
+  "bucket": "C",
+  "window": null,
+  "commits_in_window": 0,
+  "qualifies": false,
+  "rejection_reason": "no qualifying window: best 6-month span ending >=2024-09-24 has 0 page-touching commits"
+ },
+ {
+  "repo": "hnpf/stabbed.wtf",
+  "framework": "vite",
+  "bucket": "D",
+  "window": "2026-04 to 2026-10",
+  "commits_in_window": 396,
+  "qualifies": true,
+  "rejection_reason": null
+ },
+ {
+  "repo": "LinMoQC/Memory-Blog",
+  "framework": "vite",
+  "bucket": "D",
+  "window": null,
+  "commits_in_window": 0,
+  "qualifies": false,
+  "rejection_reason": "no qualifying window: best 6-month span ending >=2024-09-24 has 16 page-touching commits"
+ },
+ {
+  "repo": "Fangx-AI/one-person-company-journal",
+  "framework": "vite",
+  "bucket": "D",
+  "window": null,
+  "commits_in_window": 0,
+  "qualifies": false,
+  "rejection_reason": "no qualifying window: best 6-month span ending >=2024-09-24 has 8 page-touching commits"
+ },
+ {
+  "repo": "albeniskerqeli10/react-pocketbase-blog",
+  "framework": "vite",
+  "bucket": "D",
+  "window": null,
+  "commits_in_window": 0,
+  "qualifies": false,
+  "rejection_reason": "no qualifying window: best 6-month span ending >=2024-09-24 has 1 page-touching commits"
+ },
+ {
+  "repo": "amdadislam01/let-s-go-travel-blog",
+  "framework": "vite",
+  "bucket": "D",
+  "window": null,
+  "commits_in_window": 0,
+  "qualifies": false,
+  "rejection_reason": "no qualifying window: best 6-month span ending >=2024-09-24 has 6 page-touching commits"
+ },
+ {
+  "repo": "eshengsky/iBlog",
+  "framework": "nuxt",
+  "bucket": "E",
+  "window": null,
+  "commits_in_window": 0,
+  "qualifies": false,
+  "rejection_reason": "no qualifying window: best 6-month span ending >=2024-09-24 has 0 page-touching commits"
+ },
+ {
+  "repo": "whoisyurii/checkmygit",
+  "framework": "sveltekit",
+  "bucket": "E",
+  "window": "2026-01 to 2026-07",
+  "commits_in_window": 59,
+  "qualifies": true,
+  "rejection_reason": null
+ },
+ {
+  "repo": "swyxio/swyxdotio",
+  "framework": "sveltekit",
+  "bucket": "E",
+  "window": "2026-06 to 2026-12",
+  "commits_in_window": 122,
+  "qualifies": true,
+  "rejection_reason": null
+ },
+ {
+  "repo": "elsbrock/hetzner-radar",
+  "framework": "sveltekit",
+  "bucket": "E",
+  "window": "2025-01 to 2025-07",
+  "commits_in_window": 142,
+  "qualifies": true,
+  "rejection_reason": null
+ },
+ {
+  "repo": "jkchao/blog-front",
+  "framework": "nuxt",
+  "bucket": "E",
+  "window": null,
+  "commits_in_window": 0,
+  "qualifies": false,
+  "rejection_reason": "no qualifying window: best 6-month span ending >=2024-09-24 has 0 page-touching commits"
+ },
+ {
+  "repo": "AndronixApp/andronix-website-base",
+  "framework": "nuxt",
+  "bucket": "E",
+  "window": null,
+  "commits_in_window": 4,
+  "qualifies": false,
+  "rejection_reason": "no qualifying window: best 6-month span ending >=2024-09-24 has 4 page-touching commits"
+ },
+ {
+  "repo": "yunyuyuan/nuxt3-blog",
+  "framework": "nuxt",
+  "bucket": "E",
+  "window": "2025-01 to 2025-07",
+  "commits_in_window": 41,
+  "qualifies": true,
+  "rejection_reason": null
+ },
+ {
+  "repo": "John-Weeks-Dev/aliexpress-clone",
+  "framework": "nuxt",
+  "bucket": "E",
+  "window": null,
+  "commits_in_window": 0,
+  "qualifies": false,
+  "rejection_reason": "no qualifying window: best 6-month span ending >=2024-09-24 has 0 page-touching commits"
+ },
+ {
+  "repo": "eeg1412/wikimoeNodeJSBlog",
+  "framework": "nuxt",
+  "bucket": "E",
+  "window": "2025-01 to 2025-07",
+  "commits_in_window": 342,
+  "qualifies": true,
+  "rejection_reason": null
+ }
+]

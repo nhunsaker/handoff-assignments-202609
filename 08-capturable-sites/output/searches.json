@@ -1,0 +1,148 @@
+[
+ {
+  "query": "astro tailwind",
+  "results": 6433,
+  "opened_successfully": true
+ },
+ {
+  "query": "astro tailwindcss blog",
+  "results": 627,
+  "opened_successfully": true
+ },
+ {
+  "query": "topic:astro tailwind",
+  "results": 1510,
+  "opened_successfully": true
+ },
+ {
+  "query": "astro blog stars:>50",
+  "results": 130,
+  "opened_successfully": true
+ },
+ {
+  "query": "astro tailwindcss stars:>20",
+  "results": 208,
+  "opened_successfully": true
+ },
+ {
+  "query": "next.js tailwind blog",
+  "results": 2442,
+  "opened_successfully": true
+ },
+ {
+  "query": "nextjs portfolio tailwind",
+  "results": 4635,
+  "opened_successfully": true
+ },
+ {
+  "query": "next.js docs tailwind",
+  "results": 195,
+  "opened_successfully": true
+ },
+ {
+  "query": "next.js static blog tailwind",
+  "results": 71,
+  "opened_successfully": true
+ },
+ {
+  "query": "nextjs website contentful",
+  "results": 129,
+  "opened_successfully": true
+ },
+ {
+  "query": "next.js blog stars:>50",
+  "results": 0,
+  "opened_successfully": false
+ },
+ {
+  "query": "eleventy blog",
+  "results": 2492,
+  "opened_successfully": true
+ },
+ {
+  "query": "hugo blog tailwind",
+  "results": 63,
+  "opened_successfully": true
+ },
+ {
+  "query": "jekyll blog stars:>50",
+  "results": 184,
+  "opened_successfully": true
+ },
+ {
+  "query": "topic:hugo",
+  "results": 10025,
+  "opened_successfully": true
+ },
+ {
+  "query": "11ty tailwind",
+  "results": 236,
+  "opened_successfully": true
+ },
+ {
+  "query": "hugo personal blog stars:>5",
+  "results": 120,
+  "opened_successfully": true
+ },
+ {
+  "query": "vike react",
+  "results": 124,
+  "opened_successfully": true
+ },
+ {
+  "query": "vite react blog",
+  "results": 1921,
+  "opened_successfully": true
+ },
+ {
+  "query": "vite react tailwind",
+  "results": 38058,
+  "opened_successfully": true
+ },
+ {
+  "query": "vite react stars:>100",
+  "results": 377,
+  "opened_successfully": true
+ },
+ {
+  "query": "vite react SSG prerender",
+  "results": 7,
+  "opened_successfully": true
+ },
+ {
+  "query": "vite react portfolio",
+  "results": 16840,
+  "opened_successfully": true
+ },
+ {
+  "query": "nuxt tailwind",
+  "results": 3436,
+  "opened_successfully": true
+ },
+ {
+  "query": "nuxt blog",
+  "results": 5448,
+  "opened_successfully": true
+ },
+ {
+  "query": "sveltekit tailwind",
+  "results": 1565,
+  "opened_successfully": true
+ },
+ {
+  "query": "sveltekit blog stars:>30",
+  "results": 34,
+  "opened_successfully": true
+ },
+ {
+  "query": "nuxt portfolio stars:>50",
+  "results": 13,
+  "opened_successfully": true
+ },
+ {
+  "query": "sveltekit portfolio stars:>30",
+  "results": 0,
+  "opened_successfully": false,
+  "note": "403 search rate limit (shared); not needed \u2014 20 candidates already filled"
+ }
+]
