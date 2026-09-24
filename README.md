@@ -16,8 +16,9 @@ public web or in public git repositories.
 | `02-toolchain-reprobe/` | Re-test 41 repositories under a **date-matched toolchain**, resolving Node and the package manager per commit instead of using one fixed version | 5-7 h |
 | `03-css-layout-propagation/` | Build a structured reference of **which CSS properties move which elements**, and what stops propagation — from the specs plus web-platform-tests | 6 h |
 | `04-build-manifests/` | For five surviving repositories, probe **every page-touching commit** in the densest window under a date-matched toolchain: a full manifest of what builds, in how long, producing how many pages — plus the probe harness itself | 12 h |
+| `05-nav-generation-mechanics/` | For nine static-site frameworks, document and then **verify by building** how page metadata decides where a new page lands in the navigation — inclusion, ordering, tie-breaks, absent-key defaults, grouping — as an executable decision table | 12 h |
 
-Assignments 01-03 are independent. **04 builds on 01 and 02** — it takes their survivors and probes every commit rather than a sample. Do 04 last.
+Assignments 01-03 are independent. **04 builds on 01 and 02** — it takes their survivors and probes every commit rather than a sample. **05 is independent** and can run before or after 04.
 
 ## Rules that apply to every assignment
 
