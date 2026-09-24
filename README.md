@@ -17,8 +17,10 @@ public web or in public git repositories.
 | `03-css-layout-propagation/` | Build a structured reference of **which CSS properties move which elements**, and what stops propagation — from the specs plus web-platform-tests | 6 h |
 | `04-build-manifests/` | For five surviving repositories, probe **every page-touching commit** in the densest window under a date-matched toolchain: a full manifest of what builds, in how long, producing how many pages — plus the probe harness itself | 12 h |
 | `05-nav-generation-mechanics/` | For nine static-site frameworks, document and then **verify by building** how page metadata decides where a new page lands in the navigation — inclusion, ordering, tie-breaks, absent-key defaults, grouping — as an executable decision table | 12 h |
+| `06-selector-stability/` | Over real consecutive commits in three repositories, measure how often five CSS-selector strategies stay on the same element, silently move to a different one, or stop resolving — with every silent-move case recorded | 8–12 h |
+| `07-route-enumeration/` | A verified per-framework rule for counting a site's pages in build output (ten frameworks, each checked against a second source of truth), applied to fix Assignment 04's counts, then a recent-window re-probe of the two repositories whose 04 windows were five years old | 8–12 h |
 
-Assignments 01-03 are independent. **04 builds on 01 and 02** — it takes their survivors and probes every commit rather than a sample. **05 is independent** and can run before or after 04.
+Assignments 01-03 are independent. **04 builds on 01 and 02** — it takes their survivors and probes every commit rather than a sample. **05 is independent.** **06 and 07 both build on 04** — they use its buildable-commit lists and its toolchain ladder. 07 also uses 05's starters. Do 04 before either.
 
 ## Rules that apply to every assignment
 
