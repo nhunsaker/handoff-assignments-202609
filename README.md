@@ -20,6 +20,7 @@ public web or in public git repositories.
 | `06-selector-stability/` | Over real consecutive commits in three repositories, measure how often five CSS-selector strategies stay on the same element, silently move to a different one, or stop resolving — with every silent-move case recorded | 8–12 h |
 | `08-capturable-sites/` | Find sites that can actually be **captured**: a config-level static-output screen before any build, a 24-month recency floor on window selection, and a verdict that counts static pages in build output — with `spa` as a distinct outcome | 10–14 h |
 | `07-route-enumeration/` | A verified per-framework rule for counting a site's pages in build output (ten frameworks, each checked against a second source of truth), applied to fix Assignment 04's counts, then a recent-window re-probe of the two repositories whose 04 windows were five years old | 8–12 h |
+| `09-capturable-retests/` | Re-test **three repositories from 08** at the same commits: one killed by a Node 20.0.0 toolchain choice, two by network failures. The 90-second build limit is dropped | 2-4 h |
 
 Assignments 01-03 are independent. **04 builds on 01 and 02** — it takes their survivors and probes every commit rather than a sample. **05 is independent.** **06 and 07 both build on 04** — they use its buildable-commit lists and its toolchain ladder. 07 also uses 05's starters. Do 04 before either.
 
