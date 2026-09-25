@@ -1,0 +1,29 @@
+{
+ "rule_change": "90-second build limit dropped; slow verdict removed",
+ "repos": [
+  {
+   "repo": "swyxio/swyxdotio",
+   "verdict": "spa",
+   "build_ok": "0/8",
+   "median_static_page_count": 0,
+   "median_build_seconds": 0,
+   "reason": "Screen rejection: svelte.config.js uses @sveltejs/adapter-cloudflare at all 8 commits, never @sveltejs/adapter-static; no builds attempted per assignment 09 rules."
+  },
+  {
+   "repo": "nemanjam/nemanjam.github.io",
+   "verdict": "broken",
+   "build_ok": "7/8",
+   "median_static_page_count": 53,
+   "median_build_seconds": 94,
+   "reason": "7/8 build; 2024-04-28 fails genuinely \u2014 @repo/react-components build references nonexistent src/styles.css, and app MDX imports Icon not exported by installed astro-icon"
+  },
+  {
+   "repo": "querkmachine/beeps.website",
+   "verdict": "capturable",
+   "build_ok": "8/8",
+   "median_static_page_count": 248.0,
+   "median_build_seconds": 385.0,
+   "reason": "all 8 commits install and build successfully with live Mastodon API data; 227-354 static pages per build"
+  }
+ ]
+}
