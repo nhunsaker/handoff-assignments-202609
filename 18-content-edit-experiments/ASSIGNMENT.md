@@ -1,13 +1,13 @@
-# Assignment 15: what a content edit does to the geometry of a real page
+# Assignment 18: what a content edit does to the geometry of a real page
 
-Budget **14–18 hours**. Assignment 14 measures single CSS changes on minimal pages. This one measures **content
+Budget **14–18 hours**. Assignment 21 measures single CSS changes on minimal pages. This one measures **content
 edits on real built pages**: insert a list item, remove one, lengthen a heading, add a paragraph, add an image — the
 edits a site's history is made of — and records exactly which elements moved, by how much, how far the effect
 travelled, and what stopped it.
 
 ## Phase 0 — Environment and pages
 
-Rendering settings exactly as assignment 14 Phase 0, **Chromium only**, at **three viewports**: 1280×800, 768×1024,
+The README's **Shared rendering settings**, **Chromium only**, at **three viewports**: 1280×800, 768×1024,
 390×844. Build the three sites from assignment 10 at their latest commit in the window (tempertemper, efcl,
 alexcarpenter). Choose **40 pages**: for each site, its post index, two tag/category pages, one year archive, five
 posts, and the home page (fewer if a site lacks a kind; say so). Serve each site's built output locally.

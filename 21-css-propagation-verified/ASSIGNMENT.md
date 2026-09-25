@@ -1,4 +1,4 @@
-# Assignment 14: verify the CSS layout-propagation reference by measurement, in three engines
+# Assignment 21: verify the CSS layout-propagation reference by measurement, in three engines
 
 Budget **14–18 hours**. Assignment 03 produced a structured reference of which CSS property changes move which
 elements, and what stops the movement, **derived from the specifications**. Nothing in it has been measured. This
@@ -8,16 +8,9 @@ measurement wins and the disagreement is the finding.
 
 ## Phase 0 — Rendering environment (30 min)
 
-Node 22, `npm i playwright@1.49`, `npx playwright install --with-deps chromium firefox webkit`. If WebKit or Firefox
-cannot be installed, say so in `environment.json` and run the rest in the engines you have. Record every browser
-version. Fixed settings for every render in this assignment:
-
-- viewport **1280×800**, `deviceScaleFactor: 1`, `page.emulateMedia({ reducedMotion: 'reduce' })`;
-- pages served over a local static HTTP server (never `file://`);
-- wait for `load`, then `document.fonts.ready`, then one `requestAnimationFrame`;
-- geometry = `getBoundingClientRect()` of every element under `<body>`, rounded to 0.01 px, keyed by the element's
-  nth-of-type CSS path (`html > body > div:nth-of-type(1) > p:nth-of-type(2)`), plus tag, `id`, `class`, and the
-  sha256 of its whitespace-collapsed text.
+The README's **Shared rendering settings** and **geometry schema** apply, in **all three engines**: Chromium,
+Firefox and WebKit. If WebKit or Firefox cannot be installed, say so in `environment.json` and run the rest in the
+engines you have.
 
 ## Phase 1 — Tests from the reference
 

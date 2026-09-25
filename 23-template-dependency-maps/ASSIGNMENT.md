@@ -1,4 +1,4 @@
-# Assignment 22: which pages each template, layout and partial reaches — mapped and checked against history
+# Assignment 23: which pages each template, layout and partial reaches — mapped and checked against history
 
 Budget **12–16 hours**. In a static site, one layout or partial (a header, a post card, a footer, a pagination
 control) is rendered into many pages. Editing it changes all of them. This assignment maps every template to the

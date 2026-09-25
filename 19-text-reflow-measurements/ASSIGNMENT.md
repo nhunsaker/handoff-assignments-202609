@@ -1,4 +1,4 @@
-# Assignment 16: how text length turns into height — measured tables for real fonts
+# Assignment 19: how text length turns into height — measured tables for real fonts
 
 Budget **12–16 hours**. When text gets longer, the element gets taller, in steps of one line. Exactly when it steps
 depends on the font, the size, the width, the line-height, hyphenation and wrapping rules. This assignment measures
@@ -7,7 +7,7 @@ tables.
 
 ## Phase 0 — Environment
 
-Rendering settings as assignment 14 Phase 0, Chromium and Firefox (WebKit too if you have it). Collect the fonts:
+The README's **Shared rendering settings**, Chromium and Firefox (WebKit too if you have it). Collect the fonts:
 
 1. From the built output of tempertemper, efcl and alexcarpenter at their latest window commit: every `@font-face`
    in the built CSS (quote the rule) and the font files, served locally. Also every `font-family` stack used on

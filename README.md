@@ -25,18 +25,20 @@ public web or in public git repositories.
 | `11-manifests-normalized/` | Re-run the missing **per-commit manifests** for tempertemper's 102 commits with a raw, a normalized and a `<body>` hash per page, targeted insertion snapshots, and a determinism control | 2-4 h |
 | `12-content-site-scan/` | **300-candidate scan for content sites with index pages** whose history builds reproducibly: static-output, index-page and build-time-network screens before any build, new-post commits in the window, and a rebuild comparison | 16-24 h |
 | `13-build-determinism/` | Build three commits of twelve sites **four times each** (baseline, repeat, other timezone/locale, fresh install), classify every output difference by cause, and **test normalization rules both ways**: noise removed and real changes kept | 12-18 h |
-| `14-css-propagation-verified/` | Turn every row of 03's spec-derived layout-propagation reference into an executable before/after test and **measure it in Chromium, Firefox and WebKit**; report agreement, over- and under-claims, and cross-engine disagreements | 14-18 h |
-| `15-content-edit-experiments/` | On 40 real built pages at three viewports, apply scripted content edits (insert/remove list items, lengthen/shorten text, add paragraphs and images) in the live DOM and **measure which elements move, how far, and what stops it** | 14-18 h |
-| `16-text-reflow-measurements/` | Measured tables of **text length → line count → height** for the corpus sites' real fonts and system fonts across sizes, widths, line-heights and wrapping modes, in two engines | 12-16 h |
-| `17-rendered-geometry-history/` | **Render every changed page of tempertemper's 102 commits** at two viewports and record every element's box, attributes and text hash; consecutive-pair deltas for the list pages | 16-24 h |
-| `18-element-key-stability/` | Over **300 real list insertions/removals**, measure which of nine element-naming schemes (position, id, class, text, attributes, ancestry) keep pointing at the same element, with a key-independent ground truth | 12-16 h |
-| `19-list-page-mechanics/` | For **30 real content sites**: how list pages are built (container markup, pagination, sort order — config lines quoted) and, from two real commits where a post was added, exactly which pages changed and whether items **crossed a pagination boundary** | 12-16 h |
-| `20-external-resource-layout/` | On 50 real pages, measure how geometry changes when **web fonts, images, scripts or third-party origins are blocked**, and how much two identical renders differ (run-to-run jitter, with causes quoted) | 12-16 h |
-| `21-css-change-history/` | Every CSS-touching commit in three sites' windows: **declaration-level diffs of the built CSS** (selector, property, before, after, classified by kind), paired with the pages whose bodies changed | 12-16 h |
-| `22-template-dependency-maps/` | Map every layout/partial/component to the pages it reaches **by marker builds**, then check the map against real history: when a template changed, did exactly the mapped pages change? | 12-16 h |
-| `23-toolchain-output-drift/` | Build three commits of six sites under **date-matched, latest and oldest-allowed** toolchains and measure how much the built pages differ (raw, normalized, body), classified by kind | 12-16 h |
+| `14-element-key-stability/` | Over **300 real list insertions/removals**, measure which of nine element-naming schemes (position, id, class, text, attributes, ancestry) keep pointing at the same element, with a key-independent ground truth | 12-16 h |
+| `15-external-resource-layout/` | On 50 real pages, measure how geometry changes when **web fonts, images, scripts or third-party origins are blocked**, and how much two identical renders differ (run-to-run jitter, with causes quoted) | 12-16 h |
+| `16-rendered-geometry-history/` | **Render every changed page of tempertemper's 102 commits** at two viewports and record every element's box, attributes and text hash; consecutive-pair deltas for the list pages | 16-24 h |
+| `17-toolchain-output-drift/` | Build three commits of six sites under **date-matched, latest and oldest-allowed** toolchains and measure how much the built pages differ (raw, normalized, body), classified by kind | 12-16 h |
+| `18-content-edit-experiments/` | On 40 real built pages at three viewports, apply scripted content edits (insert/remove list items, lengthen/shorten text, add paragraphs and images) in the live DOM and **measure which elements move, how far, and what stops it** | 14-18 h |
+| `19-text-reflow-measurements/` | Measured tables of **text length → line count → height** for the corpus sites' real fonts and system fonts across sizes, widths, line-heights and wrapping modes, in two engines | 12-16 h |
+| `20-list-page-mechanics/` | For **30 real content sites**: how list pages are built (container markup, pagination, sort order — config lines quoted) and, from two real commits where a post was added, exactly which pages changed and whether items **crossed a pagination boundary** | 12-16 h |
+| `21-css-propagation-verified/` | Turn every row of 03's spec-derived layout-propagation reference into an executable before/after test and **measure it in Chromium, Firefox and WebKit**; report agreement, over- and under-claims, and cross-engine disagreements | 14-18 h |
+| `22-css-change-history/` | Every CSS-touching commit in three sites' windows: **declaration-level diffs of the built CSS** (selector, property, before, after, classified by kind), paired with the pages whose bodies changed | 12-16 h |
+| `23-template-dependency-maps/` | Map every layout/partial/component to the pages it reaches **by marker builds**, then check the map against real history: when a template changed, did exactly the mapped pages change? | 12-16 h |
 
 Assignments 01-03 are independent. **04 builds on 01 and 02** — it takes their survivors and probes every commit rather than a sample. **05 is independent.** **06 and 07 both build on 04** — they use its buildable-commit lists and its toolchain ladder. 07 also uses 05's starters. Do 04 before either.
+
+**Priority (2026-09-25):** take 14 → 23 in number order; they are ordered by how much each unblocks.
 
 ## Check-ins, self-check and review (applies to every assignment from 11 on)
 
@@ -79,6 +81,20 @@ corrections:
 `status: corrections_requested`.** Address every numbered correction, update `PROGRESS.md`
 (`status: corrections_in_progress`, then `complete`), and commit `Assignment NN: corrections round R`. At most
 two rounds; after that the review records what remains open. Never rewrite history — corrections are new commits.
+
+## Shared rendering settings (every assignment that renders pages)
+
+Install: Node 22, `npm i playwright@1.49`, `npx playwright install --with-deps chromium` (plus `firefox` and `webkit`
+where the assignment asks for them; if an engine will not install, say so in `environment.json` and run the rest in
+the engines you have). Record every browser version. Unless the assignment says otherwise, every render uses:
+
+- viewport **1280×800**, `deviceScaleFactor: 1`, `page.emulateMedia({ reducedMotion: 'reduce' })`;
+- pages served over a local static HTTP server (never `file://`);
+- wait for `load`, then `document.fonts.ready`, then one `requestAnimationFrame`.
+
+**Geometry schema:** `getBoundingClientRect()` of every element under `<body>`, rounded to 0.01 px, keyed by the
+element's nth-of-type CSS path (`html > body > div:nth-of-type(1) > p:nth-of-type(2)`), plus tag, `id`, `class`, and
+the sha256 of its whitespace-collapsed text.
 
 ## Rules that apply to every assignment
 

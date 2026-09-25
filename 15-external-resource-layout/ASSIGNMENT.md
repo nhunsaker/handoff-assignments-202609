@@ -1,4 +1,4 @@
-# Assignment 20: how much of a page's geometry depends on fonts, images, scripts and third parties
+# Assignment 15: how much of a page's geometry depends on fonts, images, scripts and third parties
 
 Budget **12–16 hours**. The same HTML and CSS can render differently depending on whether a web font loaded, whether
 an image had known dimensions, whether a script ran, and whether a third-party embed answered. This assignment
@@ -7,8 +7,9 @@ each other, so that run-to-run noise can be told apart from real change.
 
 ## Phase 0 — Environment and pages
 
-Rendering settings as assignment 14 Phase 0, Chromium, 1280×800. Pages: the 40 pages of assignment 15 Phase 0
-(same selection rule, same three sites), plus 10 pages from other sites in assignment 08's probe list that embed
+The README's **Shared rendering settings**, Chromium, 1280×800. Pages: **40** from the three sites of assignment 10
+(tempertemper, efcl, alexcarpenter), built at the latest commit in their windows — for each site its post index, two
+tag/category pages, one year archive, five posts and the home page (fewer if a site lacks a kind; say so) — plus 10 pages from other sites in assignment 08's probe list that embed
 third-party content (a YouTube/Vimeo iframe, a tweet, a Mastodon embed, a map, a comments widget) — search the built
 output for `<iframe`, `<script src="https://` and record what you found.
 
@@ -26,7 +27,7 @@ Render each page under each condition, **from a fresh page load**, using Playwri
 | C5 | **all of C1–C4** |
 | R1–R5 | five more **baseline** renders, fresh load each, for run-to-run noise |
 
-Per render record the geometry of every body element (assignment 14 schema) and: number of requests, blocked
+Per render record the geometry of every body element (the README's geometry schema) and: number of requests, blocked
 requests, `document.fonts.check` result for the body font, images with and without `width`/`height` attributes,
 iframes and their sizes.
 

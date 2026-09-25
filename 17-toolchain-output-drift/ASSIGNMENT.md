@@ -1,4 +1,4 @@
-# Assignment 23: how much a site's built output depends on the toolchain version
+# Assignment 17: how much a site's built output depends on the toolchain version
 
 Budget **12–16 hours**. Assignments 02 and 10 built old commits under a **date-matched** toolchain (the framework
 and Node version current at the commit's date). That is slow to set up. If building under today's versions gives the
@@ -32,7 +32,7 @@ parsing both with `lxml.html` and diffing: `whitespace_only`, `attribute_order`,
 attributes), `element_added`/`element_removed` (which tags, how many), `text_changed`, `structure_changed` (describe).
 Quote one region (±80 chars) per distinct kind per page.
 
-Also diff the non-HTML assets: names (content hashes in filenames), CSS (parsed-rule diff as assignment 21), JS
+Also diff the non-HTML assets: names (content hashes in filenames), CSS (a parsed-rule diff: parse both with `postcss` or `tinycss2` and compare rules, not text), JS
 (size and hash only).
 
 ## Output

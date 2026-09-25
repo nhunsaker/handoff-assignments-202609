@@ -1,4 +1,4 @@
-# Assignment 17: the rendered geometry of every changed page across tempertemper's history
+# Assignment 16: the rendered geometry of every changed page across tempertemper's history
 
 Budget **16–24 hours**. Assignments 10 and 11 give, for each of tempertemper's 102 commits, which built pages
 changed. This assignment **renders** each changed page at each commit and records the geometry of every element,
@@ -6,7 +6,7 @@ so that the history can be read as "what moved, commit by commit" rather than "w
 
 ## Phase 0 — Environment
 
-Rendering settings as assignment 14 Phase 0, **Chromium only**, at **two viewports**: 1280×800 and 390×844.
+The README's **Shared rendering settings**, **Chromium only**, at **two viewports**: 1280×800 and 390×844.
 Toolchain per commit as recorded in `10-build-history-diffs/output/probes/tempertemper__www.tempertemper.net.json`.
 
 ## Phase 1 — Which pages to render
