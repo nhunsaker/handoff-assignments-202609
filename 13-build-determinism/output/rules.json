@@ -1,0 +1,380 @@
+[
+ {
+  "applies_to": "html",
+  "cause": "other",
+  "id": "shiki-unwrap",
+  "kind": "dom",
+  "merged_from": [
+   "alexcarpenter R2",
+   "rimzzlabs R1",
+   "nemanjam Shiki span-split (new, central)"
+  ],
+  "note": "Merged from alexcarpenter R2 and rimzzlabs R1 (identical operation); extended to nemanjam rehype-pretty-code pre[data-theme]. Normalizes Shiki dual-theme nondeterministic token-span splits and light-theme token colors; code text preserved.",
+  "operation": "unwrap span descendants of pre.astro-code (remove span tags, keep text content)",
+  "selector": "pre.astro-code span, pre[data-theme] span",
+  "sites_needing_it": [
+   "alexcarpenter/alexcarpenter.me",
+   "nemanjam/nemanjam.github.io",
+   "rimzzlabs/website"
+  ]
+ },
+ {
+  "applies_to": "html",
+  "cause": "cache_buster_query",
+  "id": "cache-buster-q",
+  "kind": "regex",
+  "merged_from": [
+   "tempertemper ?v rule",
+   "beeps normalize-build-timestamp (?v part)"
+  ],
+  "note": "Merged from tempertemper D-cache-buster rule and beeps normalize-build-timestamp (?v part). Normalizes Date.now() epoch-ms cache-buster query values.",
+  "pattern": "(\\?v=)\\d+",
+  "replacement": "\\g<1>0",
+  "sites_needing_it": [
+   "tempertemper/www.tempertemper.net",
+   "querkmachine/beeps.website"
+  ]
+ },
+ {
+  "applies_to": "html",
+  "cause": "ordering",
+  "id": "category-order-mask",
+  "kind": "regex",
+  "note": "Removes nondeterministic category pagination prev/next links entirely (TemplateMap async race affects both order and presence). Redacts rather than normalizes; no regex can recover a canonical order.",
+  "pattern": "<link rel=\"(prev|next)\" href=\"/category/[^\"]*\">",
+  "replacement": "",
+  "sites_needing_it": [
+   "tempertemper/www.tempertemper.net"
+  ]
+ },
+ {
+  "applies_to": "html",
+  "cause": "ordering",
+  "id": "category-page-num-mask",
+  "kind": "regex",
+  "note": "Masks nondeterministic category pagination page number in <title> (same TemplateMap async race as category-order-mask). Scoped to category archive titles.",
+  "pattern": "(<title>[^<]* \u2013 Page )\\d+( \u2013 tempertemper</title>)",
+  "replacement": "\\g<1>N\\g<2>",
+  "sites_needing_it": [
+   "tempertemper/www.tempertemper.net"
+  ]
+ },
+ {
+  "applies_to": "html",
+  "cause": "other",
+  "id": "chroma-text",
+  "kind": "dom",
+  "note": "Normalizes Chroma nondeterministic token-span markup; code text preserved so real code changes still hash differently.",
+  "operation": "for each div.highlight element, replace the element with a text node containing its textContent",
+  "selector": "div.highlight",
+  "sites_needing_it": [
+   "cubxxw/blog"
+  ]
+ },
+ {
+  "applies_to": "html",
+  "cause": "build_timestamp",
+  "id": "nuxt-prerenderedAt",
+  "kind": "regex",
+  "pattern": "(\"prerenderedAt\":\\d+(,\"[A-Za-z_$]+\":\\d+)*\\},)\\d{13}",
+  "replacement": "\\g<1>0",
+  "sites_needing_it": [
+   "yunyuyuan/nuxt3-blog"
+  ]
+ },
+ {
+  "applies_to": "html",
+  "cause": "build_timestamp",
+  "id": "nuxt-time-gmt",
+  "kind": "regex",
+  "pattern": "(<time>)(?:Mon|Tue|Wed|Thu|Fri|Sat|Sun), \\d{2} (?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec) \\d{4} \\d{2}:\\d{2}:\\d{2} GMT(</time>)",
+  "replacement": "\\g<1>0000-00-00 00:00:00\\g<2>",
+  "sites_needing_it": [
+   "yunyuyuan/nuxt3-blog"
+  ]
+ },
+ {
+  "applies_to": "html",
+  "cause": "content_hash_filename",
+  "id": "nuxt-asset-hash",
+  "kind": "regex",
+  "note": "Content-hashed asset filename references (js and css).",
+  "pattern": "/_nuxt/(?:[A-Za-z0-9_.-]+\\.)?[A-Za-z0-9_-]{8}(\\.(?:js|css))",
+  "replacement": "/_nuxt/00000000\\g<1>",
+  "sites_needing_it": [
+   "yunyuyuan/nuxt3-blog"
+  ]
+ },
+ {
+  "applies_to": "html",
+  "cause": "random_id",
+  "id": "nuxt-meta-uuid",
+  "kind": "regex",
+  "pattern": "(/_nuxt/builds/meta/)[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}(\\.json)",
+  "replacement": "\\g<1>UUID\\g<2>",
+  "sites_needing_it": [
+   "yunyuyuan/nuxt3-blog"
+  ]
+ },
+ {
+  "applies_to": "html",
+  "cause": "random_id",
+  "id": "nuxt-buildid",
+  "kind": "regex",
+  "pattern": "(buildId:\")[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}(\")",
+  "replacement": "\\g<1>UUID\\g<2>",
+  "sites_needing_it": [
+   "yunyuyuan/nuxt3-blog"
+  ]
+ },
+ {
+  "applies_to": "html",
+  "cause": "random_id",
+  "id": "nuxt-cssmod",
+  "kind": "regex",
+  "note": "CSS-module scoped class name hash suffix (5 chars, changes per build).",
+  "pattern": "(_[A-Za-z][_A-Za-z0-9]*)_[a-z0-9]{5}(?![_a-zA-Z0-9])",
+  "replacement": "\\g<1>_CSSMOD",
+  "sites_needing_it": [
+   "yunyuyuan/nuxt3-blog"
+  ]
+ },
+ {
+  "applies_to": "html",
+  "cause": "content_hash_filename",
+  "id": "nemanjam-image-suffix",
+  "kind": "regex",
+  "note": "Normalizes Astro transformed-image _<transformHash> suffix which depends on absolute worktree path via src.fsPath.",
+  "pattern": "/_astro/[A-Za-z0-9_.-]+?\\.[A-Za-z0-9_-]+_[A-Za-z0-9_-]+(\\.webp)",
+  "replacement": "/_astro/IMAGE_HASH\\g<1>",
+  "sites_needing_it": [
+   "nemanjam/nemanjam.github.io"
+  ]
+ },
+ {
+  "applies_to": "html",
+  "cause": "random_id",
+  "id": "nemanjam-excerpt-tail",
+  "kind": "regex",
+  "note": "Normalizes random post-card excerpt truncation (getRandomLengthSubstring).",
+  "pattern": "(<p>)([^<]{100,200}?\u2026)(</p>)",
+  "replacement": "\\g<1>EXCERPT\\g<3>",
+  "sites_needing_it": [
+   "nemanjam/nemanjam.github.io"
+  ]
+ },
+ {
+  "applies_to": "html",
+  "cause": "random_id",
+  "id": "nemanjam-island-uid",
+  "kind": "regex",
+  "pattern": "(<astro-island uid=\")[^\"]+(\")",
+  "replacement": "\\g<1>UID\\g<2>",
+  "sites_needing_it": [
+   "nemanjam/nemanjam.github.io"
+  ]
+ },
+ {
+  "applies_to": "html",
+  "cause": "random_id",
+  "id": "nemanjam-more-posts",
+  "kind": "regex",
+  "note": "Masks the randomized 'More posts' card grid (random post selection per build). Main article content unaffected.",
+  "pattern": "(More posts</h2> <ul[^>]*>).*?(</ul>)",
+  "replacement": "\\g<1>MORE_POSTS\\g<2>",
+  "sites_needing_it": [
+   "nemanjam/nemanjam.github.io"
+  ]
+ },
+ {
+  "applies_to": "html",
+  "cause": "build_timestamp",
+  "id": "alex-present-time",
+  "kind": "regex",
+  "note": "Scoped to 'Present' end-date markers (build-time 'now'); content dates unaffected.",
+  "pattern": "(<time datetime=\")\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}\\.\\d{3}Z(\"\\s*>\\s*Present\\s*</time>)",
+  "replacement": "\\g<1>1970-01-01T00:00:00.000Z\\g<2>",
+  "sites_needing_it": [
+   "alexcarpenter/alexcarpenter.me"
+  ]
+ },
+ {
+  "applies_to": "html",
+  "cause": "build_timestamp",
+  "id": "beeps-og-timestamp",
+  "kind": "regex",
+  "note": "Build timestamp in og:image URLs (_<10-digit-ts>/). Split from beeps normalize-build-timestamp; the ?v= part merged into cache-buster-q.",
+  "pattern": "(_)\\d{10}(/)",
+  "replacement": "\\g<1>TIMESTAMP\\g<2>",
+  "sites_needing_it": [
+   "querkmachine/beeps.website"
+  ]
+ },
+ {
+  "applies_to": "html",
+  "cause": "random_id",
+  "id": "beeps-redaction-mask",
+  "kind": "regex",
+  "note": "Masks random-length redaction \u2588 blocks ('redacted for legal reasons' placeholders).",
+  "pattern": "(<span aria-hidden=\"true\">)[\u2588 ]+(</span>)",
+  "replacement": "\\g<1>REDACTED\\g<2>",
+  "sites_needing_it": [
+   "querkmachine/beeps.website"
+  ]
+ },
+ {
+  "addresses_build": "b3",
+  "applies_to": "html",
+  "cause": "locale_timezone",
+  "id": "cubxxw-hp-date",
+  "kind": "regex",
+  "note": "Clears the build-timezone current-date stamp; never author content.",
+  "pattern": "(<span id=hp-entry-date>)\\d{4}/\\d{2}/\\d{2}(</span>)",
+  "replacement": "\\g<1>\\g<2>",
+  "sites_needing_it": [
+   "cubxxw/blog"
+  ]
+ },
+ {
+  "addresses_build": "b3",
+  "applies_to": "html",
+  "cause": "locale_timezone",
+  "id": "godruoyi-time-tz",
+  "kind": "regex",
+  "note": "Addresses b3-only TZ shift. Also matches content-derived dates; requires Phase-4 signal-retention testing.",
+  "pattern": "(<time datetime=\")\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}\\.\\d+Z(\"\\s*>)",
+  "replacement": "\\g<1>0000-00-00T00:00:00.000Z\\g<2>",
+  "sites_needing_it": [
+   "godruoyi/gblog"
+  ]
+ },
+ {
+  "addresses_build": "b3",
+  "applies_to": "html",
+  "cause": "locale_timezone",
+  "id": "madrilene-time-display",
+  "kind": "regex",
+  "note": "Normalizes human-readable date display inside <time>; datetime attribute preserved. Broad: matches content-derived display dates; requires Phase-4 signal-retention testing.",
+  "pattern": "(<time datetime=\"[^\"]+\">)[^<]*(</time>)",
+  "replacement": "\\g<1>DATE\\g<2>",
+  "sites_needing_it": [
+   "madrilene/lenesaile.com"
+  ]
+ },
+ {
+  "addresses_build": "b3",
+  "applies_to": "html",
+  "cause": "locale_timezone",
+  "id": "nuxt-tz-span",
+  "kind": "regex",
+  "note": "TZ-rendered dates in span title attributes (step 1 of worker R6).",
+  "pattern": "(<span[^>]* title=\"[^\"]*)\\d{4}-\\d{2}-\\d{2} \\d{2}:\\d{2}:\\d{2}([^\"]*\">)\\d{4}-\\d{2}-\\d{2}(</span>)",
+  "replacement": "\\g<1>0000-00-00 00:00:00\\g<2>0000-00-00\\g<3>",
+  "sites_needing_it": [
+   "yunyuyuan/nuxt3-blog"
+  ]
+ },
+ {
+  "addresses_build": "b3",
+  "applies_to": "html",
+  "cause": "locale_timezone",
+  "id": "nuxt-tz-jil",
+  "kind": "regex",
+  "pattern": "(\u8bb0\u5f55: )\\d{4}-\\d{2}-\\d{2}",
+  "replacement": "\\g<1>0000-00-00",
+  "sites_needing_it": [
+   "yunyuyuan/nuxt3-blog"
+  ]
+ },
+ {
+  "addresses_build": "b3",
+  "applies_to": "html",
+  "cause": "locale_timezone",
+  "id": "nuxt-tz-b",
+  "kind": "regex",
+  "pattern": "(<b title=\")\\d{4}-\\d{2}-\\d{2} \\d{2}:\\d{2}:\\d{2}(\">)\\d{1,2}\\.\\d{1,2}(</b>)",
+  "replacement": "\\g<1>0000-00-00 00:00:00\\g<2>0.0\\g<3>",
+  "sites_needing_it": [
+   "yunyuyuan/nuxt3-blog"
+  ]
+ },
+ {
+  "addresses_build": "b3",
+  "applies_to": "html",
+  "cause": "locale_timezone",
+  "id": "nuxt-tz-bare",
+  "kind": "regex",
+  "note": "Simplified from worker R10 (bare dates after calendar icon / in metadata span).",
+  "pattern": "(</svg>)\\d{4}-\\d{2}-\\d{2}(</span>)",
+  "replacement": "\\g<1>0000-00-00\\g<2>",
+  "sites_needing_it": [
+   "yunyuyuan/nuxt3-blog"
+  ]
+ },
+ {
+  "addresses_build": "b3",
+  "applies_to": "html",
+  "cause": "content_hash_filename",
+  "id": "nemanjam-hoisted-js",
+  "kind": "regex",
+  "pattern": "/_astro/hoisted\\.[A-Za-z0-9_-]+(\\.js)",
+  "replacement": "/_astro/hoisted.HASH\\g<1>",
+  "sites_needing_it": [
+   "nemanjam/nemanjam.github.io"
+  ]
+ },
+ {
+  "applies_to": "xml",
+  "cause": "build_timestamp",
+  "id": "feed-updated",
+  "kind": "regex",
+  "note": "Normalizes feed <updated> build timestamps (XML only; no HTML effect).",
+  "pattern": "(<updated>)\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}(:\\d{2})?Z(</updated>)",
+  "replacement": "\\g<1>0\\g<3>",
+  "sites_needing_it": [
+   "madrilene/lenesaile.com"
+  ]
+ },
+ {
+  "applies_to": "xml",
+  "cause": "build_timestamp",
+  "id": "sitemap-lastmod",
+  "kind": "regex",
+  "merged_from": [
+   "madrilene R2",
+   "rimzzlabs R2"
+  ],
+  "note": "Merged from madrilene R2 and rimzzlabs R2 (madrilene pattern is a superset). Normalizes sitemap build-time <lastmod> (XML only; no HTML effect).",
+  "pattern": "(<lastmod>)\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}(:\\d{2})?(\\.\\d+)?Z(</lastmod>)",
+  "replacement": "\\g<1>0\\g<4>",
+  "sites_needing_it": [
+   "madrilene/lenesaile.com",
+   "rimzzlabs/website"
+  ]
+ },
+ {
+  "applies_to": "xml",
+  "cause": "build_timestamp",
+  "id": "opml-datecreated",
+  "kind": "regex",
+  "note": "Clears now.Format build timestamp in subscriptions.opml (XML only; no HTML effect).",
+  "pattern": "(<dateCreated>)[^<]*(</dateCreated>)",
+  "replacement": "\\g<1>\\g<2>",
+  "sites_needing_it": [
+   "cubxxw/blog"
+  ]
+ },
+ {
+  "addresses_build": "b3",
+  "applies_to": "xml",
+  "cause": "locale_timezone",
+  "id": "godruoyi-pubdate",
+  "kind": "regex",
+  "note": "Addresses b3-only TZ shift in rss.xml pubDates (XML only; no HTML effect). Also matches content-derived dates; requires Phase-4 signal-retention testing.",
+  "pattern": "(<pubDate>)[A-Za-z]{3}, \\d{2} [A-Za-z]{3} \\d{4} \\d{2}:\\d{2}:\\d{2} GMT(</pubDate>)",
+  "replacement": "\\g<1>Thu, 01 Jan 1970 00:00:00 GMT\\g<2>",
+  "sites_needing_it": [
+   "godruoyi/gblog"
+  ]
+ }
+]

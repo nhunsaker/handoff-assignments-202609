@@ -1,0 +1,693 @@
+{
+ "slug": "yunyuyuan__nuxt3-blog",
+ "commits": [
+  "40b7bb516071",
+  "a28de421d25f",
+  "f50767bf05e4"
+ ],
+ "differences": [
+  {
+   "id": "D1",
+   "cause": "build_timestamp",
+   "description": "UTC build time rendered in the about page footer: <time> element from __NB_BUILD_TIME__ (utils/dayjs.ts getNowDayjsString).",
+   "files": {
+    "40b7bb516071": {
+     "count": 1,
+     "examples": [
+      "about/index.html"
+     ]
+    },
+    "a28de421d25f": {
+     "count": 1,
+     "examples": [
+      "about/index.html"
+     ]
+    },
+    "f50767bf05e4": {
+     "count": 1,
+     "examples": [
+      "about/index.html"
+     ]
+    }
+   },
+   "comparisons": [
+    "b2",
+    "b3",
+    "b4"
+   ],
+   "before": "ition hover:text-primary-500\">40b7bb51</a>&gt; succeeded at <time>Fri, 25 Sep 2026 17:43:31 GMT</time></p></div></footer><!--]--><!--]--></div></div><div id=\"tele",
+   "after": "ition hover:text-primary-500\">40b7bb51</a>&gt; succeeded at <time>Fri, 25 Sep 2026 18:02:47 GMT</time></p></div></footer><!--]--><!--]--></div></div><div id=\"tele"
+  },
+  {
+   "id": "D2",
+   "cause": "build_timestamp",
+   "description": "UTC build-time string literal (__NB_BUILD_TIME__) embedded in two generated JS chunks (github commit link builder and $fetch cache-buster query). The differing timestamp changes the chunks' content hashes, renaming them.",
+   "files": {
+    "40b7bb516071": {
+     "count": 2,
+     "examples": [
+      "_nuxt/BOBh8Xxs.js",
+      "_nuxt/CNYwqdmB.js"
+     ]
+    },
+    "a28de421d25f": {
+     "count": 2,
+     "examples": [
+      "_nuxt/BrdLVb6w.js",
+      "_nuxt/BwccH3hE.js"
+     ]
+    },
+    "f50767bf05e4": {
+     "count": 2,
+     "examples": [
+      "_nuxt/CzK0kZI9.js",
+      "_nuxt/Dyw0q7-7.js"
+     ]
+    }
+   },
+   "comparisons": [
+    "b2",
+    "b3",
+    "b4"
+   ],
+   "before": " window.NBCache[s];{const a=await $fetch(`/${s}`,{query:{s:\"Fri, 25 Sep 2026 17:43:31 GMT\"},parseResponse:t});return window.NBCache[s]=a,a}}},d=async",
+   "after": " window.NBCache[s];{const a=await $fetch(`/${s}`,{query:{s:\"Fri, 25 Sep 2026 18:02:47 GMT\"},parseResponse:t});return window.NBCache[s]=a,a}}},d=async"
+  },
+  {
+   "id": "D3",
+   "cause": "content_hash_filename",
+   "description": "Content-hashed asset filenames under _nuxt/ (JS chunks and CSS files) change per build because their contents embed per-build values (build timestamp in JS via D2; CSS-module class hashes in CSS via D15).",
+   "files": {
+    "40b7bb516071": {
+     "count": 504,
+     "examples": [
+      "_nuxt/-Fwtbf9t.js",
+      "_nuxt/-TW-Aa-A.js",
+      "_nuxt/-n6uxJSr.js",
+      "_nuxt/02Po6MS6.js",
+      "_nuxt/0BhjSc02.js"
+     ]
+    },
+    "a28de421d25f": {
+     "count": 488,
+     "examples": [
+      "_nuxt/-1AGvDUf.js",
+      "_nuxt/1AIu2k4z.js",
+      "_nuxt/20MPX2z2.js",
+      "_nuxt/2RwMKDmM.js",
+      "_nuxt/3Y3UtdLc.js"
+     ]
+    },
+    "f50767bf05e4": {
+     "count": 248,
+     "examples": [
+      "_nuxt/03c9auiF.js",
+      "_nuxt/0C2X2VeG.js",
+      "_nuxt/1TpauDRB.js",
+      "_nuxt/1aJzER2h.js",
+      "_nuxt/3NcbyBTw.js"
+     ]
+    }
+   },
+   "comparisons": [
+    "b2",
+    "b3",
+    "b4"
+   ],
+   "before": "removed, e.g. _nuxt/0BhjSc02.js, _nuxt/1nDzISNd.js, _nuxt/2n4moGXe.js",
+   "after": "added, e.g. _nuxt/-TW-Aa-A.js, _nuxt/Ab6HsHnc.js, _nuxt/B1xlDwYh.js"
+  },
+  {
+   "id": "D4",
+   "cause": "content_hash_filename",
+   "description": "HTML pages reference the renamed _nuxt/<hash>.js chunks (preload/modulepreload links and entry script).",
+   "files": {
+    "40b7bb516071": {
+     "count": 168,
+     "examples": [
+      "200.html",
+      "404.html",
+      "about/index.html",
+      "articles/index.html",
+      "index.html"
+     ]
+    },
+    "a28de421d25f": {
+     "count": 157,
+     "examples": [
+      "200.html",
+      "404.html",
+      "about/index.html",
+      "articles/index.html",
+      "index.html"
+     ]
+    },
+    "f50767bf05e4": {
+     "count": 119,
+     "examples": [
+      "200.html",
+      "404.html",
+      "about/index.html",
+      "articles/1010/index.html",
+      "articles/1086/index.html"
+     ]
+    }
+   },
+   "comparisons": [
+    "b2",
+    "b3",
+    "b4"
+   ],
+   "before": "in>\n<link rel=\"modulepreload\" as=\"script\" crossorigin href=\"/_nuxt/CeVT-QfP.js\">\n<link rel=\"modulepreload\" as=\"script\" crossorigin href=\"/",
+   "after": "in>\n<link rel=\"modulepreload\" as=\"script\" crossorigin href=\"/_nuxt/CajyTW_0.js\">\n<link rel=\"modulepreload\" as=\"script\" crossorigin href=\"/"
+  },
+  {
+   "id": "D5",
+   "cause": "random_id",
+   "description": "_nuxt/builds/meta/<uuid>.json build manifest uses a fresh random UUID filename per build.",
+   "files": {
+    "40b7bb516071": {
+     "count": 4,
+     "examples": [
+      "_nuxt/builds/meta/0e417a9a-da9c-4d7f-85b1-4ed647a59b56.json",
+      "_nuxt/builds/meta/1efbc5e1-e52d-4b91-a289-6ca0009aa5bd.json",
+      "_nuxt/builds/meta/4ac4a6f1-b2d2-4a5e-a933-f5764f98a41b.json",
+      "_nuxt/builds/meta/f760337d-0dfa-4042-87d1-e805d32cdf28.json"
+     ]
+    },
+    "a28de421d25f": {
+     "count": 4,
+     "examples": [
+      "_nuxt/builds/meta/5158b380-6c14-4e55-a163-8a290772c353.json",
+      "_nuxt/builds/meta/acc88b4e-9933-432d-8aa3-c66cc10d1939.json",
+      "_nuxt/builds/meta/c2d23e69-951c-4de4-b247-cde00f27902d.json",
+      "_nuxt/builds/meta/ff1b501f-7be1-4384-9dd9-b3aaa4c9f686.json"
+     ]
+    },
+    "f50767bf05e4": {
+     "count": 4,
+     "examples": [
+      "_nuxt/builds/meta/1455eae5-b92c-471a-8427-1065b6f18167.json",
+      "_nuxt/builds/meta/1b28368a-c758-42fa-89ec-4882b076da5f.json",
+      "_nuxt/builds/meta/9790b557-5238-4f11-a8a6-7d3bdc45c206.json",
+      "_nuxt/builds/meta/cbeffd1e-ddbf-4262-8b82-031e586cf339.json"
+     ]
+    }
+   },
+   "comparisons": [
+    "b2",
+    "b3",
+    "b4"
+   ],
+   "before": "removed: _nuxt/builds/meta/0e417a9a-da9c-4d7f-85b1-4ed647a59b56.json",
+   "after": "added: _nuxt/builds/meta/f760337d-0dfa-4042-87d1-e805d32cdf28.json"
+  },
+  {
+   "id": "D6",
+   "cause": "random_id",
+   "description": "\"id\" field in _nuxt/builds/latest.json (and in the meta/<uuid>.json content) is a fresh random UUID per build.",
+   "files": {
+    "40b7bb516071": {
+     "count": 1,
+     "examples": [
+      "_nuxt/builds/latest.json"
+     ]
+    },
+    "a28de421d25f": {
+     "count": 1,
+     "examples": [
+      "_nuxt/builds/latest.json"
+     ]
+    },
+    "f50767bf05e4": {
+     "count": 1,
+     "examples": [
+      "_nuxt/builds/latest.json"
+     ]
+    }
+   },
+   "comparisons": [
+    "b2",
+    "b3",
+    "b4"
+   ],
+   "before": "{\"id\": \"0e417a9a-da9c-4d7f-85b1-4ed647a59b56\", \"timestamp\": 1790358225830}",
+   "after": "{\"id\": \"f760337d-0dfa-4042-87d1-e805d32cdf28\", \"timestamp\": 1790359376134}"
+  },
+  {
+   "id": "D7",
+   "cause": "build_timestamp",
+   "description": "\"timestamp\" field (epoch ms) in _nuxt/builds/latest.json and _nuxt/builds/meta/<uuid>.json equals the build start time.",
+   "files": {
+    "40b7bb516071": {
+     "count": 2,
+     "examples": [
+      "_nuxt/builds/latest.json",
+      "_nuxt/builds/meta/<uuid>.json"
+     ]
+    },
+    "a28de421d25f": {
+     "count": 2,
+     "examples": [
+      "_nuxt/builds/latest.json",
+      "_nuxt/builds/meta/<uuid>.json"
+     ]
+    },
+    "f50767bf05e4": {
+     "count": 2,
+     "examples": [
+      "_nuxt/builds/latest.json",
+      "_nuxt/builds/meta/<uuid>.json"
+     ]
+    }
+   },
+   "comparisons": [
+    "b2",
+    "b3",
+    "b4"
+   ],
+   "before": "{\"id\": \"0e417a9a-da9c-4d7f-85b1-4ed647a59b56\", \"timestamp\": 1790358225830}",
+   "after": "{\"id\": \"f760337d-0dfa-4042-87d1-e805d32cdf28\", \"timestamp\": 1790359376134}"
+  },
+  {
+   "id": "D8",
+   "cause": "random_id",
+   "description": "HTML pages preload the per-build meta manifest: href=\"/_nuxt/builds/meta/<uuid>.json\".",
+   "files": {
+    "40b7bb516071": {
+     "count": 166,
+     "examples": [
+      "about/index.html",
+      "articles/index.html",
+      "index.html",
+      "knowledges/1014/index.html",
+      "knowledges/1153/index.html"
+     ]
+    },
+    "a28de421d25f": {
+     "count": 155,
+     "examples": [
+      "about/index.html",
+      "articles/index.html",
+      "index.html",
+      "knowledges/1014/index.html",
+      "knowledges/1153/index.html"
+     ]
+    },
+    "f50767bf05e4": {
+     "count": 117,
+     "examples": [
+      "about/index.html",
+      "articles/1010/index.html",
+      "articles/1086/index.html",
+      "articles/1147/index.html",
+      "articles/2064/index.html"
+     ]
+    }
+   },
+   "comparisons": [
+    "b2",
+    "b3",
+    "b4"
+   ],
+   "before": "s=\"fetch\" fetchpriority=\"low\" crossorigin=\"anonymous\" href=\"/_nuxt/builds/meta/0e417a9a-da9c-4d7f-85b1-4ed647a59b56.json\"></head><body><div id=\"__nuxt\"><div class=\"m-auto flex min-",
+   "after": "s=\"fetch\" fetchpriority=\"low\" crossorigin=\"anonymous\" href=\"/_nuxt/builds/meta/f760337d-0dfa-4042-87d1-e805d32cdf28.json\"></head><body><div id=\"__nuxt\"><div class=\"m-auto flex min-"
+  },
+  {
+   "id": "D9",
+   "cause": "random_id",
+   "description": "Nuxt buildId UUID embedded in page __NUXT__ config JSON: buildId:\"<uuid>\".",
+   "files": {
+    "40b7bb516071": {
+     "count": 168,
+     "examples": [
+      "200.html",
+      "404.html",
+      "about/index.html",
+      "articles/index.html",
+      "index.html"
+     ]
+    },
+    "a28de421d25f": {
+     "count": 157,
+     "examples": [
+      "200.html",
+      "404.html",
+      "about/index.html",
+      "articles/index.html",
+      "index.html"
+     ]
+    },
+    "f50767bf05e4": {
+     "count": 119,
+     "examples": [
+      "200.html",
+      "404.html",
+      "about/index.html",
+      "articles/1010/index.html",
+      "articles/1086/index.html"
+     ]
+    }
+   },
+   "comparisons": [
+    "b2",
+    "b3",
+    "b4"
+   ],
+   "before": "ickers:{aru:143,cube:72,\"yellow-face\":71}},app:{baseURL:\"/\",buildId:\"0e417a9a-da9c-4d7f-85b1-4ed647a59b56\",buildAssetsDir:\"/_nuxt/\",cdnURL:\"\",githubBranch:\"HEAD\"}}</s",
+   "after": "ickers:{aru:143,cube:72,\"yellow-face\":71}},app:{baseURL:\"/\",buildId:\"f760337d-0dfa-4042-87d1-e805d32cdf28\",buildAssetsDir:\"/_nuxt/\",cdnURL:\"\",githubBranch:\"HEAD\"}}</s"
+  },
+  {
+   "id": "D10",
+   "cause": "build_timestamp",
+   "description": "\"prerenderedAt\" epoch-ms value in __NUXT_DATA__ JSON equals the page prerender time.",
+   "files": {
+    "40b7bb516071": {
+     "count": 168,
+     "examples": [
+      "200.html",
+      "404.html",
+      "about/index.html",
+      "articles/index.html",
+      "index.html"
+     ]
+    },
+    "a28de421d25f": {
+     "count": 157,
+     "examples": [
+      "200.html",
+      "404.html",
+      "about/index.html",
+      "articles/index.html",
+      "index.html"
+     ]
+    },
+    "f50767bf05e4": {
+     "count": 119,
+     "examples": [
+      "200.html",
+      "404.html",
+      "about/index.html",
+      "articles/1010/index.html",
+      "articles/1086/index.html"
+     ]
+    }
+   },
+   "comparisons": [
+    "b2",
+    "b3",
+    "b4"
+   ],
+   "before": " data-ssr=\"true\" id=\"__NUXT_DATA__\">[[\"ShallowReactive\",1],{\"prerenderedAt\":2,\"data\":3,\"state\":5,\"once\":11,\"_errors\":12,\"serverRendered\":14,\"path\":15},1790359059891,[\"ShallowReactive\",4],{},[\"Reactive\",6],{\"$slang\":7,\"$sthem",
+   "after": " data-ssr=\"true\" id=\"__NUXT_DATA__\">[[\"ShallowReactive\",1],{\"prerenderedAt\":2,\"data\":3,\"state\":5,\"once\":11,\"_errors\":12,\"serverRendered\":14,\"path\":15},1790360017199,[\"ShallowReactive\",4],{},[\"Reactive\",6],{\"$slang\":7,\"$sthem"
+  },
+  {
+   "id": "D11",
+   "cause": "locale_timezone",
+   "description": "Article/knowledge list dates in <span title=\"YYYY-MM-DD HH:mm:ss\"> (and paired visible YYYY-MM-DD text at later commits) shift with the build machine timezone (b3 ran TZ=Pacific/Auckland).",
+   "files": {
+    "f50767bf05e4": {
+     "count": 2,
+     "examples": [
+      "articles/index.html",
+      "index.html"
+     ]
+    }
+   },
+   "comparisons": [
+    "b3"
+   ],
+   "before": "\"><b>openclash搭配cloudflare优选ip的方案</b><div class=\"foot flex\"><span title=\"2025-02-14 13:22:03\">1年前</span><b></b><span>3604 字</span><!----></div></a></li><",
+   "after": "\"><b>openclash搭配cloudflare优选ip的方案</b><div class=\"foot flex\"><span title=\"2025-02-15 02:22:03\">1年前</span><b></b><span>3604 字</span><!----></div></a></li><"
+  },
+  {
+   "id": "D12",
+   "cause": "locale_timezone",
+   "description": "Knowledge list dates in <time title=\"YYYY-MM-DD HH:mm:ss\"> shift with the build machine timezone.",
+   "files": {
+    "f50767bf05e4": {
+     "count": 1,
+     "examples": [
+      "knowledges/index.html"
+     ]
+    }
+   },
+   "comparisons": [
+    "b3"
+   ],
+   "before": "rue\"><use href=\"\"></use></svg><span>《<b>Pantheon</b>》</span><time title=\"2025-02-22 15:02:26\">1年前</time></a><a href=\"/knowledges/5588\" class=\"\" style=\"\"><",
+   "after": "rue\"><use href=\"\"></use></svg><span>《<b>Pantheon</b>》</span><time title=\"2025-02-23 04:02:26\">1年前</time></a><a href=\"/knowledges/5588\" class=\"\" style=\"\"><"
+  },
+  {
+   "id": "D13",
+   "cause": "locale_timezone",
+   "description": "Record page dates (记录: YYYY-MM-DD in <title>/meta, or records: YYYY-MM-DD) shift with the build machine timezone; some cross midnight into the next day.",
+   "files": {
+    "a28de421d25f": {
+     "count": 23,
+     "examples": [
+      "records/1207/index.html",
+      "records/1568/index.html",
+      "records/1792/index.html",
+      "records/2276/index.html",
+      "records/2718/index.html"
+     ]
+    },
+    "f50767bf05e4": {
+     "count": 18,
+     "examples": [
+      "records/2276/index.html",
+      "records/3068/index.html",
+      "records/3239/index.html",
+      "records/4798/index.html",
+      "records/5021/index.html"
+     ]
+    }
+   },
+   "comparisons": [
+    "b3"
+   ],
+   "before": "port\" content=\"width=device-width, initial-scale=1\">\n<title>记录: 2020-10-26 - yunyuyuan blog</title>\n<link rel=\"stylesheet\" href=\"/_nux",
+   "after": "port\" content=\"width=device-width, initial-scale=1\">\n<title>记录: 2020-10-27 - yunyuyuan blog</title>\n<link rel=\"stylesheet\" href=\"/_nux"
+  },
+  {
+   "id": "D14",
+   "cause": "locale_timezone",
+   "description": "Records archive entries <b title=\"YYYY-MM-DD HH:mm:ss\">M.DD</b>: both the title attribute and the visible month.day text shift with the build machine timezone.",
+   "files": {
+    "f50767bf05e4": {
+     "count": 1,
+     "examples": [
+      "records/index.html"
+     ]
+    }
+   },
+   "comparisons": [
+    "b3"
+   ],
+   "before": "ass=\"contain flex\"><!--[--><div style=\"\" class=\"item flexc\"><b title=\"2024-12-29 05:45:39\">12.29</b><a href=\"/records/6259\" class=\"multiple\"><!----></a",
+   "after": "ass=\"contain flex\"><!--[--><div style=\"\" class=\"item flexc\"><b title=\"2024-12-29 18:45:39\">12.29</b><a href=\"/records/6259\" class=\"multiple\"><!----></a"
+  },
+  {
+   "id": "D16",
+   "cause": "locale_timezone",
+   "description": "Additional TZ-rendered date displays (b3, TZ=Pacific/Auckland): bare YYYY-MM-DD after calendar icon, in metadata spans, 'records: YYYY-MM-DD' in titles/meta, datetimes in title attributes, and <span title=datetime>YYYY-MM-DD</span> pairs.",
+   "files": {
+    "40b7bb516071": {
+     "count": 164,
+     "examples": [
+      "articles/index.html",
+      "index.html",
+      "knowledges/1014/index.html",
+      "knowledges/1153/index.html",
+      "knowledges/1166/index.html"
+     ]
+    },
+    "a28de421d25f": {
+     "count": 153,
+     "examples": [
+      "articles/index.html",
+      "index.html",
+      "knowledges/1014/index.html",
+      "knowledges/1153/index.html",
+      "knowledges/1250/index.html"
+     ]
+    },
+    "f50767bf05e4": {
+     "count": 4,
+     "examples": [
+      "articles/index.html",
+      "index.html",
+      "knowledges/index.html",
+      "records/index.html"
+     ]
+    }
+   },
+   "comparisons": [
+    "b3"
+   ],
+   "before": "-400 max-md:absolute max-md:bottom-6 max-md:right-6\" title=\"2025-03-09 13:49:44\">2025-03-09</span></div><div class=\"mt-4 flex item",
+   "after": "-400 max-md:absolute max-md:bottom-6 max-md:right-6\" title=\"2025-03-10 02:49:44\">2025-03-10</span></div><div class=\"mt-4 flex item"
+  },
+  {
+   "id": "D15",
+   "cause": "random_id",
+   "description": "CSS-module scoped class name hash suffix (_classname_xxxxx, 5 chars) changes per build; appears in HTML class attributes and in the corresponding _nuxt/*.css and JS $style mappings (whose content change also renames those assets).",
+   "files": {
+    "40b7bb516071": {
+     "count": 165,
+     "examples": [
+      "articles/index.html",
+      "index.html",
+      "knowledges/1014/index.html",
+      "knowledges/1153/index.html",
+      "knowledges/1166/index.html"
+     ]
+    },
+    "a28de421d25f": {
+     "count": 154,
+     "examples": [
+      "articles/index.html",
+      "index.html",
+      "knowledges/1014/index.html",
+      "knowledges/1153/index.html",
+      "knowledges/1250/index.html"
+     ]
+    }
+   },
+   "comparisons": [
+    "b2",
+    "b3",
+    "b4"
+   ],
+   "before": "iv class=\"fixed z-modeBg size-0 rounded-full right-12 top-6 _themeAnimateBgLight_30cd9\"></div><nav class=\"_nav_30cd9\"><div class=\"container mx-aut",
+   "after": "iv class=\"fixed z-modeBg size-0 rounded-full right-12 top-6 _themeAnimateBgLight_e3c02\"></div><nav class=\"_nav_e3c02\"><div class=\"container mx-aut"
+  }
+ ],
+ "candidate_rules": [
+  {
+   "addresses_build": null,
+   "applies_to": "html",
+   "cause": "build_timestamp",
+   "id": "R1",
+   "kind": "regex",
+   "pattern": "(<time>)(?:Mon|Tue|Wed|Thu|Fri|Sat|Sun), \\d{2} (?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec) \\d{4} \\d{2}:\\d{2}:\\d{2} GMT(</time>)",
+   "replacement": "\\g<1>0000-00-00 00:00:00\\g<2>",
+   "sites_needing_it": [
+    "yunyuyuan/nuxt3-blog"
+   ]
+  },
+  {
+   "addresses_build": null,
+   "applies_to": "html",
+   "cause": "build_timestamp",
+   "id": "R2",
+   "kind": "regex",
+   "pattern": "(\"prerenderedAt\":\\d+(,\"[A-Za-z_$]+\":\\d+)*\\},)\\d{13}",
+   "replacement": "\\g<1>0",
+   "sites_needing_it": [
+    "yunyuyuan/nuxt3-blog"
+   ]
+  },
+  {
+   "addresses_build": null,
+   "applies_to": "html",
+   "cause": "content_hash_filename",
+   "id": "R3",
+   "kind": "regex",
+   "pattern": "(/_nuxt/(?:[A-Za-z0-9_.-]+\\.)?)[A-Za-z0-9_-]{8}(\\.(?:js|css))",
+   "replacement": "\\g<1>00000000\\g<2>",
+   "sites_needing_it": [
+    "yunyuyuan/nuxt3-blog"
+   ],
+   "description": "content-hashed asset filename references (js and css)"
+  },
+  {
+   "addresses_build": null,
+   "applies_to": "html",
+   "cause": "random_id",
+   "id": "R4",
+   "kind": "regex",
+   "pattern": "(/_nuxt/builds/meta/)[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}(\\.json)",
+   "replacement": "\\g<1>UUID\\g<2>",
+   "sites_needing_it": [
+    "yunyuyuan/nuxt3-blog"
+   ]
+  },
+  {
+   "addresses_build": null,
+   "applies_to": "html",
+   "cause": "random_id",
+   "id": "R5",
+   "kind": "regex",
+   "pattern": "(buildId:\")[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}(\")",
+   "replacement": "\\g<1>UUID\\g<2>",
+   "sites_needing_it": [
+    "yunyuyuan/nuxt3-blog"
+   ]
+  },
+  {
+   "addresses_build": "b3",
+   "applies_to": "html",
+   "cause": "locale_timezone",
+   "id": "R6",
+   "kind": "regex+function",
+   "pattern": "step1: (<span[^>]* title=\"[^\"]*)\\d{4}-\\d{2}-\\d{2} \\d{2}:\\d{2}:\\d{2}([^\"]*\">)\\d{4}-\\d{2}-\\d{2}(</span>); step2: within every title=\"...\", replace \\d{4}-\\d{2}-\\d{2} \\d{2}:\\d{2}:\\d{2}",
+   "replacement": "step1: \\g<1>0000-00-00 00:00:00\\g<2>0000-00-00\\g<3>; step2: 0000-00-00 00:00:00",
+   "sites_needing_it": [
+    "yunyuyuan/nuxt3-blog"
+   ],
+   "description": "TZ-rendered datetimes in title attributes and paired visible dates (see verify_rules.r6_tz_datetime_title)"
+  },
+  {
+   "addresses_build": "b3",
+   "applies_to": "html",
+   "cause": "locale_timezone",
+   "id": "R7",
+   "kind": "regex",
+   "pattern": "(记录: )\\d{4}-\\d{2}-\\d{2}",
+   "replacement": "\\g<1>0000-00-00",
+   "sites_needing_it": [
+    "yunyuyuan/nuxt3-blog"
+   ]
+  },
+  {
+   "addresses_build": "b3",
+   "applies_to": "html",
+   "cause": "locale_timezone",
+   "id": "R8",
+   "kind": "regex",
+   "pattern": "(<b title=\")\\d{4}-\\d{2}-\\d{2} \\d{2}:\\d{2}:\\d{2}(\">)\\d{1,2}\\.\\d{1,2}(</b>)",
+   "replacement": "\\g<1>0000-00-00 00:00:00\\g<2>0.0\\g<3>",
+   "sites_needing_it": [
+    "yunyuyuan/nuxt3-blog"
+   ]
+  },
+  {
+   "id": "R9",
+   "cause": "random_id",
+   "applies_to": "html",
+   "kind": "regex",
+   "pattern": "(_[A-Za-z][_A-Za-z0-9]*)_[a-z0-9]{5}(?![_a-zA-Z0-9])",
+   "replacement": "\\g<1>_CSSMOD",
+   "sites_needing_it": [
+    "yunyuyuan/nuxt3-blog"
+   ],
+   "addresses_build": null,
+   "description": "CSS-module scoped class name hash suffix (5 chars, changes per build)"
+  },
+  {
+   "id": "R10",
+   "cause": "locale_timezone",
+   "applies_to": "html",
+   "kind": "regex",
+   "pattern": "(</svg>)\\d{4}-\\d{2}-\\d{2}(</span>)|(<span class=\\\"ml-2 text-sm text-dark-500 dark:text-dark-400\\\">)\\d{4}-\\d{2}-\\d{2}(</span>)|(records: )\\d{4}-\\d{2}-\\d{2}",
+   "replacement": "0000-00-00 for the date portion",
+   "sites_needing_it": [
+    "yunyuyuan/nuxt3-blog"
+   ],
+   "addresses_build": "b3",
+   "description": "TZ-rendered bare dates: after calendar icon, in metadata span, or 'records: YYYY-MM-DD' in title/meta"
+  }
+ ]
+}

@@ -1,0 +1,14 @@
+{
+ "site": "rimzzlabs/website",
+ "slug": "rimzzlabs__website",
+ "for_b3_rules": false,
+ "common_pages": 18,
+ "only_before": 0,
+ "only_after": 0,
+ "diff_before": 18,
+ "diff_after": 18,
+ "became_identical": 0,
+ "flagged_pages": [],
+ "signal_lost": false,
+ "analysis": "18/18 pages differ before and after; 0 became identical."
+}

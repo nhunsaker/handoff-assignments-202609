@@ -1,0 +1,1086 @@
+{
+ "site": "querkmachine/beeps.website",
+ "slug": "querkmachine__beeps.website",
+ "for_b3_rules": false,
+ "common_pages": 234,
+ "only_before": 0,
+ "only_after": 14,
+ "diff_before": 227,
+ "diff_after": 120,
+ "became_identical": 107,
+ "flagged_pages": [
+  {
+   "page": "about/asexuality/opengraph/index.html",
+   "rules_applied": [
+    "cache-buster-q"
+   ],
+   "removed_region": {
+    "before_ctx": "<link rel=\"stylesheet\" href=\"/assets/stylesheet.css?v=1790365941\" media=\"all\">     <style>       .kimPage { overflow: hidde",
+    "after_ctx": "<link rel=\"stylesheet\" href=\"/assets/stylesheet.css?v=1790366681\" media=\"all\">     <style>       .kimPage { overflow: hidde"
+   }
+  },
+  {
+   "page": "about/furry/opengraph/index.html",
+   "rules_applied": [
+    "cache-buster-q"
+   ],
+   "removed_region": {
+    "before_ctx": "<link rel=\"stylesheet\" href=\"/assets/stylesheet.css?v=1790365941\" media=\"all\">     <style>       .kimPage { overflow: hidde",
+    "after_ctx": "<link rel=\"stylesheet\" href=\"/assets/stylesheet.css?v=1790366681\" media=\"all\">     <style>       .kimPage { overflow: hidde"
+   }
+  },
+  {
+   "page": "about/gender/opengraph/index.html",
+   "rules_applied": [
+    "cache-buster-q"
+   ],
+   "removed_region": {
+    "before_ctx": "<link rel=\"stylesheet\" href=\"/assets/stylesheet.css?v=1790365941\" media=\"all\">     <style>       .kimPage { overflow: hidde",
+    "after_ctx": "<link rel=\"stylesheet\" href=\"/assets/stylesheet.css?v=1790366681\" media=\"all\">     <style>       .kimPage { overflow: hidde"
+   }
+  },
+  {
+   "page": "about/name/opengraph/index.html",
+   "rules_applied": [
+    "cache-buster-q"
+   ],
+   "removed_region": {
+    "before_ctx": "<link rel=\"stylesheet\" href=\"/assets/stylesheet.css?v=1790365941\" media=\"all\">     <style>       .kimPage { overflow: hidde",
+    "after_ctx": "<link rel=\"stylesheet\" href=\"/assets/stylesheet.css?v=1790366681\" media=\"all\">     <style>       .kimPage { overflow: hidde"
+   }
+  },
+  {
+   "page": "about/neurodivergent/opengraph/index.html",
+   "rules_applied": [
+    "cache-buster-q"
+   ],
+   "removed_region": {
+    "before_ctx": "<link rel=\"stylesheet\" href=\"/assets/stylesheet.css?v=1790365941\" media=\"all\">     <style>       .kimPage { overflow: hidde",
+    "after_ctx": "<link rel=\"stylesheet\" href=\"/assets/stylesheet.css?v=1790366681\" media=\"all\">     <style>       .kimPage { overflow: hidde"
+   }
+  },
+  {
+   "page": "about/nonhuman/opengraph/index.html",
+   "rules_applied": [
+    "cache-buster-q"
+   ],
+   "removed_region": {
+    "before_ctx": "<link rel=\"stylesheet\" href=\"/assets/stylesheet.css?v=1790365941\" media=\"all\">     <style>       .kimPage { overflow: hidde",
+    "after_ctx": "<link rel=\"stylesheet\" href=\"/assets/stylesheet.css?v=1790366681\" media=\"all\">     <style>       .kimPage { overflow: hidde"
+   }
+  },
+  {
+   "page": "about/olive/opengraph/index.html",
+   "rules_applied": [
+    "cache-buster-q"
+   ],
+   "removed_region": {
+    "before_ctx": "<link rel=\"stylesheet\" href=\"/assets/stylesheet.css?v=1790365941\" media=\"all\">     <style>       .kimPage { overflow: hidde",
+    "after_ctx": "<link rel=\"stylesheet\" href=\"/assets/stylesheet.css?v=1790366681\" media=\"all\">     <style>       .kimPage { overflow: hidde"
+   }
+  },
+  {
+   "page": "about/opengraph/index.html",
+   "rules_applied": [
+    "cache-buster-q"
+   ],
+   "removed_region": {
+    "before_ctx": "<link rel=\"stylesheet\" href=\"/assets/stylesheet.css?v=1790365941\" media=\"all\">     <style>       .kimPage { overflow: hidde",
+    "after_ctx": "<link rel=\"stylesheet\" href=\"/assets/stylesheet.css?v=1790366681\" media=\"all\">     <style>       .kimPage { overflow: hidde"
+   }
+  },
+  {
+   "page": "about/work/opengraph/index.html",
+   "rules_applied": [
+    "cache-buster-q"
+   ],
+   "removed_region": {
+    "before_ctx": "<link rel=\"stylesheet\" href=\"/assets/stylesheet.css?v=1790365941\" media=\"all\">     <style>       .kimPage { overflow: hidde",
+    "after_ctx": "<link rel=\"stylesheet\" href=\"/assets/stylesheet.css?v=1790366681\" media=\"all\">     <style>       .kimPage { overflow: hidde"
+   }
+  },
+  {
+   "page": "ash/artist-checklist/opengraph/index.html",
+   "rules_applied": [
+    "cache-buster-q"
+   ],
+   "removed_region": {
+    "before_ctx": "<link rel=\"stylesheet\" href=\"/assets/stylesheet.css?v=1790365941\" media=\"all\">     <style>       .kimPage { overflow: hidde",
+    "after_ctx": "<link rel=\"stylesheet\" href=\"/assets/stylesheet.css?v=1790366681\" media=\"all\">     <style>       .kimPage { overflow: hidde"
+   }
+  },
+  {
+   "page": "ash/opengraph/index.html",
+   "rules_applied": [
+    "cache-buster-q"
+   ],
+   "removed_region": {
+    "before_ctx": "<link rel=\"stylesheet\" href=\"/assets/stylesheet.css?v=1790365941\" media=\"all\">     <style>       .kimPage { overflow: hidde",
+    "after_ctx": "<link rel=\"stylesheet\" href=\"/assets/stylesheet.css?v=1790366681\" media=\"all\">     <style>       .kimPage { overflow: hidde"
+   }
+  },
+  {
+   "page": "blog/2014-07-10-the-long-walk/opengraph/index.html",
+   "rules_applied": [
+    "cache-buster-q"
+   ],
+   "removed_region": {
+    "before_ctx": "<link rel=\"stylesheet\" href=\"/assets/stylesheet.css?v=1790365941\" media=\"all\">     <style>       .kimPage { overflow: hidde",
+    "after_ctx": "<link rel=\"stylesheet\" href=\"/assets/stylesheet.css?v=1790366681\" media=\"all\">     <style>       .kimPage { overflow: hidde"
+   }
+  },
+  {
+   "page": "blog/2014-07-12-whats-in-a-name/opengraph/index.html",
+   "rules_applied": [
+    "cache-buster-q"
+   ],
+   "removed_region": {
+    "before_ctx": "<link rel=\"stylesheet\" href=\"/assets/stylesheet.css?v=1790365941\" media=\"all\">     <style>       .kimPage { overflow: hidde",
+    "after_ctx": "<link rel=\"stylesheet\" href=\"/assets/stylesheet.css?v=1790366681\" media=\"all\">     <style>       .kimPage { overflow: hidde"
+   }
+  },
+  {
+   "page": "blog/2014-07-16-on-gender-and-sexuality/opengraph/index.html",
+   "rules_applied": [
+    "cache-buster-q"
+   ],
+   "removed_region": {
+    "before_ctx": "<link rel=\"stylesheet\" href=\"/assets/stylesheet.css?v=1790365941\" media=\"all\">     <style>       .kimPage { overflow: hidde",
+    "after_ctx": "<link rel=\"stylesheet\" href=\"/assets/stylesheet.css?v=1790366681\" media=\"all\">     <style>       .kimPage { overflow: hidde"
+   }
+  },
+  {
+   "page": "blog/2014-07-16-whats-in-a-name-part-two/opengraph/index.html",
+   "rules_applied": [
+    "cache-buster-q"
+   ],
+   "removed_region": {
+    "before_ctx": "<link rel=\"stylesheet\" href=\"/assets/stylesheet.css?v=1790365941\" media=\"all\">     <style>       .kimPage { overflow: hidde",
+    "after_ctx": "<link rel=\"stylesheet\" href=\"/assets/stylesheet.css?v=1790366681\" media=\"all\">     <style>       .kimPage { overflow: hidde"
+   }
+  },
+  {
+   "page": "blog/2014-07-24-the-good-the-bad-and-the-ugly/opengraph/index.html",
+   "rules_applied": [
+    "cache-buster-q"
+   ],
+   "removed_region": {
+    "before_ctx": "<link rel=\"stylesheet\" href=\"/assets/stylesheet.css?v=1790365941\" media=\"all\">     <style>       .kimPage { overflow: hidde",
+    "after_ctx": "<link rel=\"stylesheet\" href=\"/assets/stylesheet.css?v=1790366681\" media=\"all\">     <style>       .kimPage { overflow: hidde"
+   }
+  },
+  {
+   "page": "blog/2014-08-08-the-persistance-of-doubt/opengraph/index.html",
+   "rules_applied": [
+    "cache-buster-q"
+   ],
+   "removed_region": {
+    "before_ctx": "<link rel=\"stylesheet\" href=\"/assets/stylesheet.css?v=1790365941\" media=\"all\">     <style>       .kimPage { overflow: hidde",
+    "after_ctx": "<link rel=\"stylesheet\" href=\"/assets/stylesheet.css?v=1790366681\" media=\"all\">     <style>       .kimPage { overflow: hidde"
+   }
+  },
+  {
+   "page": "blog/2014-08-25-comin-out-cool/opengraph/index.html",
+   "rules_applied": [
+    "cache-buster-q"
+   ],
+   "removed_region": {
+    "before_ctx": "<link rel=\"stylesheet\" href=\"/assets/stylesheet.css?v=1790365941\" media=\"all\">     <style>       .kimPage { overflow: hidde",
+    "after_ctx": "<link rel=\"stylesheet\" href=\"/assets/stylesheet.css?v=1790366681\" media=\"all\">     <style>       .kimPage { overflow: hidde"
+   }
+  },
+  {
+   "page": "blog/2014-09-15-one-step-forwards-two-steps-back/opengraph/index.html",
+   "rules_applied": [
+    "cache-buster-q"
+   ],
+   "removed_region": {
+    "before_ctx": "<link rel=\"stylesheet\" href=\"/assets/stylesheet.css?v=1790365941\" media=\"all\">     <style>       .kimPage { overflow: hidde",
+    "after_ctx": "<link rel=\"stylesheet\" href=\"/assets/stylesheet.css?v=1790366681\" media=\"all\">     <style>       .kimPage { overflow: hidde"
+   }
+  },
+  {
+   "page": "blog/2014-11-09-all-quiet-on-the-western-front/opengraph/index.html",
+   "rules_applied": [
+    "cache-buster-q"
+   ],
+   "removed_region": {
+    "before_ctx": "<link rel=\"stylesheet\" href=\"/assets/stylesheet.css?v=1790365941\" media=\"all\">     <style>       .kimPage { overflow: hidde",
+    "after_ctx": "<link rel=\"stylesheet\" href=\"/assets/stylesheet.css?v=1790366681\" media=\"all\">     <style>       .kimPage { overflow: hidde"
+   }
+  },
+  {
+   "page": "blog/2014-11-21-the-ups-and-downs/opengraph/index.html",
+   "rules_applied": [
+    "cache-buster-q"
+   ],
+   "removed_region": {
+    "before_ctx": "<link rel=\"stylesheet\" href=\"/assets/stylesheet.css?v=1790365941\" media=\"all\">     <style>       .kimPage { overflow: hidde",
+    "after_ctx": "<link rel=\"stylesheet\" href=\"/assets/stylesheet.css?v=1790366681\" media=\"all\">     <style>       .kimPage { overflow: hidde"
+   }
+  },
+  {
+   "page": "blog/2015-03-10-2015-is-when-everything-changes/opengraph/index.html",
+   "rules_applied": [
+    "cache-buster-q"
+   ],
+   "removed_region": {
+    "before_ctx": "<link rel=\"stylesheet\" href=\"/assets/stylesheet.css?v=1790365941\" media=\"all\">     <style>       .kimPage { overflow: hidde",
+    "after_ctx": "<link rel=\"stylesheet\" href=\"/assets/stylesheet.css?v=1790366681\" media=\"all\">     <style>       .kimPage { overflow: hidde"
+   }
+  },
+  {
+   "page": "blog/2015-03-11-work/opengraph/index.html",
+   "rules_applied": [
+    "cache-buster-q"
+   ],
+   "removed_region": {
+    "before_ctx": "<link rel=\"stylesheet\" href=\"/assets/stylesheet.css?v=1790365941\" media=\"all\">     <style>       .kimPage { overflow: hidde",
+    "after_ctx": "<link rel=\"stylesheet\" href=\"/assets/stylesheet.css?v=1790366681\" media=\"all\">     <style>       .kimPage { overflow: hidde"
+   }
+  },
+  {
+   "page": "blog/2015-03-13-transition/opengraph/index.html",
+   "rules_applied": [
+    "cache-buster-q"
+   ],
+   "removed_region": {
+    "before_ctx": "<link rel=\"stylesheet\" href=\"/assets/stylesheet.css?v=1790365941\" media=\"all\">     <style>       .kimPage { overflow: hidde",
+    "after_ctx": "<link rel=\"stylesheet\" href=\"/assets/stylesheet.css?v=1790366681\" media=\"all\">     <style>       .kimPage { overflow: hidde"
+   }
+  },
+  {
+   "page": "blog/2015-07-15-updates/opengraph/index.html",
+   "rules_applied": [
+    "cache-buster-q"
+   ],
+   "removed_region": {
+    "before_ctx": "<link rel=\"stylesheet\" href=\"/assets/stylesheet.css?v=1790365941\" media=\"all\">     <style>       .kimPage { overflow: hidde",
+    "after_ctx": "<link rel=\"stylesheet\" href=\"/assets/stylesheet.css?v=1790366681\" media=\"all\">     <style>       .kimPage { overflow: hidde"
+   }
+  },
+  {
+   "page": "blog/2015-08-29-the-deed-is-done/opengraph/index.html",
+   "rules_applied": [
+    "cache-buster-q"
+   ],
+   "removed_region": {
+    "before_ctx": "<link rel=\"stylesheet\" href=\"/assets/stylesheet.css?v=1790365941\" media=\"all\">     <style>       .kimPage { overflow: hidde",
+    "after_ctx": "<link rel=\"stylesheet\" href=\"/assets/stylesheet.css?v=1790366681\" media=\"all\">     <style>       .kimPage { overflow: hidde"
+   }
+  },
+  {
+   "page": "blog/2016-09-01-the-referral-that-never-was/opengraph/index.html",
+   "rules_applied": [
+    "cache-buster-q"
+   ],
+   "removed_region": {
+    "before_ctx": "<link rel=\"stylesheet\" href=\"/assets/stylesheet.css?v=1790365941\" media=\"all\">     <style>       .kimPage { overflow: hidde",
+    "after_ctx": "<link rel=\"stylesheet\" href=\"/assets/stylesheet.css?v=1790366681\" media=\"all\">     <style>       .kimPage { overflow: hidde"
+   }
+  },
+  {
+   "page": "blog/2017-06-01-hello-food-world/opengraph/index.html",
+   "rules_applied": [
+    "cache-buster-q"
+   ],
+   "removed_region": {
+    "before_ctx": "<link rel=\"stylesheet\" href=\"/assets/stylesheet.css?v=1790365941\" media=\"all\">     <style>       .kimPage { overflow: hidde",
+    "after_ctx": "<link rel=\"stylesheet\" href=\"/assets/stylesheet.css?v=1790366681\" media=\"all\">     <style>       .kimPage { overflow: hidde"
+   }
+  },
+  {
+   "page": "blog/2017-06-01-sickness-and-scrambled-eggs/opengraph/index.html",
+   "rules_applied": [
+    "cache-buster-q"
+   ],
+   "removed_region": {
+    "before_ctx": "<link rel=\"stylesheet\" href=\"/assets/stylesheet.css?v=1790365941\" media=\"all\">     <style>       .kimPage { overflow: hidde",
+    "after_ctx": "<link rel=\"stylesheet\" href=\"/assets/stylesheet.css?v=1790366681\" media=\"all\">     <style>       .kimPage { overflow: hidde"
+   }
+  },
+  {
+   "page": "blog/2017-06-03-barbecue-pork-shoulder/opengraph/index.html",
+   "rules_applied": [
+    "cache-buster-q"
+   ],
+   "removed_region": {
+    "before_ctx": "<link rel=\"stylesheet\" href=\"/assets/stylesheet.css?v=1790365941\" media=\"all\">     <style>       .kimPage { overflow: hidde",
+    "after_ctx": "<link rel=\"stylesheet\" href=\"/assets/stylesheet.css?v=1790366681\" media=\"all\">     <style>       .kimPage { overflow: hidde"
+   }
+  },
+  {
+   "page": "blog/2017-06-06-skin-on-mashed-potatoes/opengraph/index.html",
+   "rules_applied": [
+    "cache-buster-q"
+   ],
+   "removed_region": {
+    "before_ctx": "<link rel=\"stylesheet\" href=\"/assets/stylesheet.css?v=1790365941\" media=\"all\">     <style>       .kimPage { overflow: hidde",
+    "after_ctx": "<link rel=\"stylesheet\" href=\"/assets/stylesheet.css?v=1790366681\" media=\"all\">     <style>       .kimPage { overflow: hidde"
+   }
+  },
+  {
+   "page": "blog/2017-06-07-rubbin-steak/opengraph/index.html",
+   "rules_applied": [
+    "cache-buster-q"
+   ],
+   "removed_region": {
+    "before_ctx": "<link rel=\"stylesheet\" href=\"/assets/stylesheet.css?v=1790365941\" media=\"all\">     <style>       .kimPage { overflow: hidde",
+    "after_ctx": "<link rel=\"stylesheet\" href=\"/assets/stylesheet.css?v=1790366681\" media=\"all\">     <style>       .kimPage { overflow: hidde"
+   }
+  },
+  {
+   "page": "blog/2017-06-09-of-emergencies-and-enchiladas/opengraph/index.html",
+   "rules_applied": [
+    "cache-buster-q"
+   ],
+   "removed_region": {
+    "before_ctx": "<link rel=\"stylesheet\" href=\"/assets/stylesheet.css?v=1790365941\" media=\"all\">     <style>       .kimPage { overflow: hidde",
+    "after_ctx": "<link rel=\"stylesheet\" href=\"/assets/stylesheet.css?v=1790366681\" media=\"all\">     <style>       .kimPage { overflow: hidde"
+   }
+  },
+  {
+   "page": "blog/2017-09-17-bake-off/opengraph/index.html",
+   "rules_applied": [
+    "cache-buster-q"
+   ],
+   "removed_region": {
+    "before_ctx": "<link rel=\"stylesheet\" href=\"/assets/stylesheet.css?v=1790365941\" media=\"all\">     <style>       .kimPage { overflow: hidde",
+    "after_ctx": "<link rel=\"stylesheet\" href=\"/assets/stylesheet.css?v=1790366681\" media=\"all\">     <style>       .kimPage { overflow: hidde"
+   }
+  },
+  {
+   "page": "blog/2019-03-16-immmprovised-fried-chicken/opengraph/index.html",
+   "rules_applied": [
+    "cache-buster-q"
+   ],
+   "removed_region": {
+    "before_ctx": "<link rel=\"stylesheet\" href=\"/assets/stylesheet.css?v=1790365941\" media=\"all\">     <style>       .kimPage { overflow: hidde",
+    "after_ctx": "<link rel=\"stylesheet\" href=\"/assets/stylesheet.css?v=1790366681\" media=\"all\">     <style>       .kimPage { overflow: hidde"
+   }
+  },
+  {
+   "page": "blog/2020-10-18-consolidating-all-of-my-existing-blogs-into-one-easy-to-manage-personal-place/opengraph/index.html",
+   "rules_applied": [
+    "cache-buster-q"
+   ],
+   "removed_region": {
+    "before_ctx": "<link rel=\"stylesheet\" href=\"/assets/stylesheet.css?v=1790365941\" media=\"all\">     <style>       .kimPage { overflow: hidde",
+    "after_ctx": "<link rel=\"stylesheet\" href=\"/assets/stylesheet.css?v=1790366681\" media=\"all\">     <style>       .kimPage { overflow: hidde"
+   }
+  },
+  {
+   "page": "blog/2020-10-19-initial-experiences-with-google-tv/opengraph/index.html",
+   "rules_applied": [
+    "cache-buster-q"
+   ],
+   "removed_region": {
+    "before_ctx": "<link rel=\"stylesheet\" href=\"/assets/stylesheet.css?v=1790365941\" media=\"all\">     <style>       .kimPage { overflow: hidde",
+    "after_ctx": "<link rel=\"stylesheet\" href=\"/assets/stylesheet.css?v=1790366681\" media=\"all\">     <style>       .kimPage { overflow: hidde"
+   }
+  },
+  {
+   "page": "blog/2020-12-05-im-giving-out-a-bunch-of-video-game-keys-because-why-not/opengraph/index.html",
+   "rules_applied": [
+    "cache-buster-q"
+   ],
+   "removed_region": {
+    "before_ctx": "<link rel=\"stylesheet\" href=\"/assets/stylesheet.css?v=1790365941\" media=\"all\">     <style>       .kimPage { overflow: hidde",
+    "after_ctx": "<link rel=\"stylesheet\" href=\"/assets/stylesheet.css?v=1790366681\" media=\"all\">     <style>       .kimPage { overflow: hidde"
+   }
+  },
+  {
+   "page": "blog/2020-12-13-going-underground/opengraph/index.html",
+   "rules_applied": [
+    "cache-buster-q"
+   ],
+   "removed_region": {
+    "before_ctx": "<link rel=\"stylesheet\" href=\"/assets/stylesheet.css?v=1790365941\" media=\"all\">     <style>       .kimPage { overflow: hidde",
+    "after_ctx": "<link rel=\"stylesheet\" href=\"/assets/stylesheet.css?v=1790366681\" media=\"all\">     <style>       .kimPage { overflow: hidde"
+   }
+  },
+  {
+   "page": "blog/2020-12-25-introduction-to-holiday-poetry/opengraph/index.html",
+   "rules_applied": [
+    "cache-buster-q"
+   ],
+   "removed_region": {
+    "before_ctx": "<link rel=\"stylesheet\" href=\"/assets/stylesheet.css?v=1790365941\" media=\"all\">     <style>       .kimPage { overflow: hidde",
+    "after_ctx": "<link rel=\"stylesheet\" href=\"/assets/stylesheet.css?v=1790366681\" media=\"all\">     <style>       .kimPage { overflow: hidde"
+   }
+  },
+  {
+   "page": "blog/2021-11-22-star-trek-ahoy/opengraph/index.html",
+   "rules_applied": [
+    "cache-buster-q"
+   ],
+   "removed_region": {
+    "before_ctx": "<link rel=\"stylesheet\" href=\"/assets/stylesheet.css?v=1790365941\" media=\"all\">     <style>       .kimPage { overflow: hidde",
+    "after_ctx": "<link rel=\"stylesheet\" href=\"/assets/stylesheet.css?v=1790366681\" media=\"all\">     <style>       .kimPage { overflow: hidde"
+   }
+  },
+  {
+   "page": "blog/2021-11-23-star-trek-ahoy-2/opengraph/index.html",
+   "rules_applied": [
+    "cache-buster-q"
+   ],
+   "removed_region": {
+    "before_ctx": "<link rel=\"stylesheet\" href=\"/assets/stylesheet.css?v=1790365941\" media=\"all\">     <style>       .kimPage { overflow: hidde",
+    "after_ctx": "<link rel=\"stylesheet\" href=\"/assets/stylesheet.css?v=1790366681\" media=\"all\">     <style>       .kimPage { overflow: hidde"
+   }
+  },
+  {
+   "page": "blog/2022-04-10-a-robot-bat-on-the-internet/opengraph/index.html",
+   "rules_applied": [
+    "cache-buster-q"
+   ],
+   "removed_region": {
+    "before_ctx": "<link rel=\"stylesheet\" href=\"/assets/stylesheet.css?v=1790365941\" media=\"all\">     <style>       .kimPage { overflow: hidde",
+    "after_ctx": "<link rel=\"stylesheet\" href=\"/assets/stylesheet.css?v=1790366681\" media=\"all\">     <style>       .kimPage { overflow: hidde"
+   }
+  },
+  {
+   "page": "blog/2022-05-14-pre-emptive-design-for-fun-and-productivity/opengraph/index.html",
+   "rules_applied": [
+    "cache-buster-q"
+   ],
+   "removed_region": {
+    "before_ctx": "<link rel=\"stylesheet\" href=\"/assets/stylesheet.css?v=1790365941\" media=\"all\">     <style>       .kimPage { overflow: hidde",
+    "after_ctx": "<link rel=\"stylesheet\" href=\"/assets/stylesheet.css?v=1790366681\" media=\"all\">     <style>       .kimPage { overflow: hidde"
+   }
+  },
+  {
+   "page": "blog/2022-06-28-furry-websites-have-trash-accessibility/opengraph/index.html",
+   "rules_applied": [
+    "cache-buster-q"
+   ],
+   "removed_region": {
+    "before_ctx": "<link rel=\"stylesheet\" href=\"/assets/stylesheet.css?v=1790365941\" media=\"all\">     <style>       .kimPage { overflow: hidde",
+    "after_ctx": "<link rel=\"stylesheet\" href=\"/assets/stylesheet.css?v=1790366681\" media=\"all\">     <style>       .kimPage { overflow: hidde"
+   }
+  },
+  {
+   "page": "blog/2022-07-27-discovery/opengraph/index.html",
+   "rules_applied": [
+    "cache-buster-q"
+   ],
+   "removed_region": {
+    "before_ctx": "<link rel=\"stylesheet\" href=\"/assets/stylesheet.css?v=1790365941\" media=\"all\">     <style>       .kimPage { overflow: hidde",
+    "after_ctx": "<link rel=\"stylesheet\" href=\"/assets/stylesheet.css?v=1790366681\" media=\"all\">     <style>       .kimPage { overflow: hidde"
+   }
+  },
+  {
+   "page": "blog/2022-07-28-discovery-faq/opengraph/index.html",
+   "rules_applied": [
+    "cache-buster-q"
+   ],
+   "removed_region": {
+    "before_ctx": "<link rel=\"stylesheet\" href=\"/assets/stylesheet.css?v=1790365941\" media=\"all\">     <style>       .kimPage { overflow: hidde",
+    "after_ctx": "<link rel=\"stylesheet\" href=\"/assets/stylesheet.css?v=1790366681\" media=\"all\">     <style>       .kimPage { overflow: hidde"
+   }
+  },
+  {
+   "page": "blog/2022-07-30-homework/opengraph/index.html",
+   "rules_applied": [
+    "cache-buster-q"
+   ],
+   "removed_region": {
+    "before_ctx": "<link rel=\"stylesheet\" href=\"/assets/stylesheet.css?v=1790365941\" media=\"all\">     <style>       .kimPage { overflow: hidde",
+    "after_ctx": "<link rel=\"stylesheet\" href=\"/assets/stylesheet.css?v=1790366681\" media=\"all\">     <style>       .kimPage { overflow: hidde"
+   }
+  },
+  {
+   "page": "blog/2022-08-11-not-human-after-all/opengraph/index.html",
+   "rules_applied": [
+    "cache-buster-q"
+   ],
+   "removed_region": {
+    "before_ctx": "<link rel=\"stylesheet\" href=\"/assets/stylesheet.css?v=1790365941\" media=\"all\">     <style>       .kimPage { overflow: hidde",
+    "after_ctx": "<link rel=\"stylesheet\" href=\"/assets/stylesheet.css?v=1790366681\" media=\"all\">     <style>       .kimPage { overflow: hidde"
+   }
+  },
+  {
+   "page": "blog/2022-09-06-how-i-use-twitter/opengraph/index.html",
+   "rules_applied": [
+    "cache-buster-q"
+   ],
+   "removed_region": {
+    "before_ctx": "<link rel=\"stylesheet\" href=\"/assets/stylesheet.css?v=1790365941\" media=\"all\">     <style>       .kimPage { overflow: hidde",
+    "after_ctx": "<link rel=\"stylesheet\" href=\"/assets/stylesheet.css?v=1790366681\" media=\"all\">     <style>       .kimPage { overflow: hidde"
+   }
+  },
+  {
+   "page": "blog/2022-09-19-rating-my-pride-flags/opengraph/index.html",
+   "rules_applied": [
+    "cache-buster-q"
+   ],
+   "removed_region": {
+    "before_ctx": "<link rel=\"stylesheet\" href=\"/assets/stylesheet.css?v=1790365941\" media=\"all\">     <style>       .kimPage { overflow: hidde",
+    "after_ctx": "<link rel=\"stylesheet\" href=\"/assets/stylesheet.css?v=1790366681\" media=\"all\">     <style>       .kimPage { overflow: hidde"
+   }
+  },
+  {
+   "page": "blog/2022-10-27-beeps-in-the-multiverse-of-multiplicity/opengraph/index.html",
+   "rules_applied": [
+    "cache-buster-q"
+   ],
+   "removed_region": {
+    "before_ctx": "<link rel=\"stylesheet\" href=\"/assets/stylesheet.css?v=1790365941\" media=\"all\">     <style>       .kimPage { overflow: hidde",
+    "after_ctx": "<link rel=\"stylesheet\" href=\"/assets/stylesheet.css?v=1790366681\" media=\"all\">     <style>       .kimPage { overflow: hidde"
+   }
+  },
+  {
+   "page": "blog/2023-01-01-2022-the-year-in-summary/opengraph/index.html",
+   "rules_applied": [
+    "cache-buster-q"
+   ],
+   "removed_region": {
+    "before_ctx": "<link rel=\"stylesheet\" href=\"/assets/stylesheet.css?v=1790365941\" media=\"all\">     <style>       .kimPage { overflow: hidde",
+    "after_ctx": "<link rel=\"stylesheet\" href=\"/assets/stylesheet.css?v=1790366681\" media=\"all\">     <style>       .kimPage { overflow: hidde"
+   }
+  },
+  {
+   "page": "blog/2023-01-09-logical-properties-are-cool-dont-use-them/opengraph/index.html",
+   "rules_applied": [
+    "cache-buster-q"
+   ],
+   "removed_region": {
+    "before_ctx": "<link rel=\"stylesheet\" href=\"/assets/stylesheet.css?v=1790365941\" media=\"all\">     <style>       .kimPage { overflow: hidde",
+    "after_ctx": "<link rel=\"stylesheet\" href=\"/assets/stylesheet.css?v=1790366681\" media=\"all\">     <style>       .kimPage { overflow: hidde"
+   }
+  },
+  {
+   "page": "blog/2023-02-01-writing-and-reconnection-january/opengraph/index.html",
+   "rules_applied": [
+    "cache-buster-q"
+   ],
+   "removed_region": {
+    "before_ctx": "<link rel=\"stylesheet\" href=\"/assets/stylesheet.css?v=1790365941\" media=\"all\">     <style>       .kimPage { overflow: hidde",
+    "after_ctx": "<link rel=\"stylesheet\" href=\"/assets/stylesheet.css?v=1790366681\" media=\"all\">     <style>       .kimPage { overflow: hidde"
+   }
+  },
+  {
+   "page": "blog/2023-02-07-building-a-bat-bot/opengraph/index.html",
+   "rules_applied": [
+    "cache-buster-q"
+   ],
+   "removed_region": {
+    "before_ctx": "<link rel=\"stylesheet\" href=\"/assets/stylesheet.css?v=1790365941\" media=\"all\">     <style>       .kimPage { overflow: hidde",
+    "after_ctx": "<link rel=\"stylesheet\" href=\"/assets/stylesheet.css?v=1790366681\" media=\"all\">     <style>       .kimPage { overflow: hidde"
+   }
+  },
+  {
+   "page": "blog/2023-02-28-writing-and-reconnection-february/opengraph/index.html",
+   "rules_applied": [
+    "cache-buster-q"
+   ],
+   "removed_region": {
+    "before_ctx": "<link rel=\"stylesheet\" href=\"/assets/stylesheet.css?v=1790365941\" media=\"all\">     <style>       .kimPage { overflow: hidde",
+    "after_ctx": "<link rel=\"stylesheet\" href=\"/assets/stylesheet.css?v=1790366681\" media=\"all\">     <style>       .kimPage { overflow: hidde"
+   }
+  },
+  {
+   "page": "blog/2023-03-31-writing-and-reconnection-march/opengraph/index.html",
+   "rules_applied": [
+    "cache-buster-q"
+   ],
+   "removed_region": {
+    "before_ctx": "<link rel=\"stylesheet\" href=\"/assets/stylesheet.css?v=1790365941\" media=\"all\">     <style>       .kimPage { overflow: hidde",
+    "after_ctx": "<link rel=\"stylesheet\" href=\"/assets/stylesheet.css?v=1790366681\" media=\"all\">     <style>       .kimPage { overflow: hidde"
+   }
+  },
+  {
+   "page": "blog/2023-04-26-using-userstyles-in-2023/opengraph/index.html",
+   "rules_applied": [
+    "cache-buster-q"
+   ],
+   "removed_region": {
+    "before_ctx": "<link rel=\"stylesheet\" href=\"/assets/stylesheet.css?v=1790365941\" media=\"all\">     <style>       .kimPage { overflow: hidde",
+    "after_ctx": "<link rel=\"stylesheet\" href=\"/assets/stylesheet.css?v=1790366681\" media=\"all\">     <style>       .kimPage { overflow: hidde"
+   }
+  },
+  {
+   "page": "blog/2023-04-27-otherkin-friendly-captchas-revisited/opengraph/index.html",
+   "rules_applied": [
+    "cache-buster-q"
+   ],
+   "removed_region": {
+    "before_ctx": "<link rel=\"stylesheet\" href=\"/assets/stylesheet.css?v=1790365941\" media=\"all\">     <style>       .kimPage { overflow: hidde",
+    "after_ctx": "<link rel=\"stylesheet\" href=\"/assets/stylesheet.css?v=1790366681\" media=\"all\">     <style>       .kimPage { overflow: hidde"
+   }
+  },
+  {
+   "page": "blog/2023-05-01-writing-and-reconnection-april/opengraph/index.html",
+   "rules_applied": [
+    "cache-buster-q"
+   ],
+   "removed_region": {
+    "before_ctx": "<link rel=\"stylesheet\" href=\"/assets/stylesheet.css?v=1790365941\" media=\"all\">     <style>       .kimPage { overflow: hidde",
+    "after_ctx": "<link rel=\"stylesheet\" href=\"/assets/stylesheet.css?v=1790366681\" media=\"all\">     <style>       .kimPage { overflow: hidde"
+   }
+  },
+  {
+   "page": "blog/2023-05-16-let-me-tell-you-a-secret/opengraph/index.html",
+   "rules_applied": [
+    "cache-buster-q"
+   ],
+   "removed_region": {
+    "before_ctx": "<link rel=\"stylesheet\" href=\"/assets/stylesheet.css?v=1790365941\" media=\"all\">     <style>       .kimPage { overflow: hidde",
+    "after_ctx": "<link rel=\"stylesheet\" href=\"/assets/stylesheet.css?v=1790366681\" media=\"all\">     <style>       .kimPage { overflow: hidde"
+   }
+  },
+  {
+   "page": "blog/2023-05-31-writing-and-reconnection-may/opengraph/index.html",
+   "rules_applied": [
+    "cache-buster-q"
+   ],
+   "removed_region": {
+    "before_ctx": "<link rel=\"stylesheet\" href=\"/assets/stylesheet.css?v=1790365941\" media=\"all\">     <style>       .kimPage { overflow: hidde",
+    "after_ctx": "<link rel=\"stylesheet\" href=\"/assets/stylesheet.css?v=1790366681\" media=\"all\">     <style>       .kimPage { overflow: hidde"
+   }
+  },
+  {
+   "page": "blog/2023-06-21-some-untamed-rambling-about-how-this-website-is-built/opengraph/index.html",
+   "rules_applied": [
+    "cache-buster-q"
+   ],
+   "removed_region": {
+    "before_ctx": "<link rel=\"stylesheet\" href=\"/assets/stylesheet.css?v=1790365941\" media=\"all\">     <style>       .kimPage { overflow: hidde",
+    "after_ctx": "<link rel=\"stylesheet\" href=\"/assets/stylesheet.css?v=1790366681\" media=\"all\">     <style>       .kimPage { overflow: hidde"
+   }
+  },
+  {
+   "page": "blog/2023-07-05-writing-and-reconnection-june/opengraph/index.html",
+   "rules_applied": [
+    "cache-buster-q"
+   ],
+   "removed_region": {
+    "before_ctx": "<link rel=\"stylesheet\" href=\"/assets/stylesheet.css?v=1790365941\" media=\"all\">     <style>       .kimPage { overflow: hidde",
+    "after_ctx": "<link rel=\"stylesheet\" href=\"/assets/stylesheet.css?v=1790366681\" media=\"all\">     <style>       .kimPage { overflow: hidde"
+   }
+  },
+  {
+   "page": "blog/2023-07-25-20-years/opengraph/index.html",
+   "rules_applied": [
+    "cache-buster-q"
+   ],
+   "removed_region": {
+    "before_ctx": "<link rel=\"stylesheet\" href=\"/assets/stylesheet.css?v=1790365941\" media=\"all\">     <style>       .kimPage { overflow: hidde",
+    "after_ctx": "<link rel=\"stylesheet\" href=\"/assets/stylesheet.css?v=1790366681\" media=\"all\">     <style>       .kimPage { overflow: hidde"
+   }
+  },
+  {
+   "page": "blog/2023-07-26-a-brief-comparison-of-not-twitter-services/opengraph/index.html",
+   "rules_applied": [
+    "cache-buster-q"
+   ],
+   "removed_region": {
+    "before_ctx": "<link rel=\"stylesheet\" href=\"/assets/stylesheet.css?v=1790365941\" media=\"all\">     <style>       .kimPage { overflow: hidde",
+    "after_ctx": "<link rel=\"stylesheet\" href=\"/assets/stylesheet.css?v=1790366681\" media=\"all\">     <style>       .kimPage { overflow: hidde"
+   }
+  },
+  {
+   "page": "blog/2023-07-31-writing-and-reconnection-july/opengraph/index.html",
+   "rules_applied": [
+    "cache-buster-q"
+   ],
+   "removed_region": {
+    "before_ctx": "<link rel=\"stylesheet\" href=\"/assets/stylesheet.css?v=1790365941\" media=\"all\">     <style>       .kimPage { overflow: hidde",
+    "after_ctx": "<link rel=\"stylesheet\" href=\"/assets/stylesheet.css?v=1790366681\" media=\"all\">     <style>       .kimPage { overflow: hidde"
+   }
+  },
+  {
+   "page": "blog/2023-08-27-the-next-generation/opengraph/index.html",
+   "rules_applied": [
+    "cache-buster-q"
+   ],
+   "removed_region": {
+    "before_ctx": "<link rel=\"stylesheet\" href=\"/assets/stylesheet.css?v=1790365941\" media=\"all\">     <style>       .kimPage { overflow: hidde",
+    "after_ctx": "<link rel=\"stylesheet\" href=\"/assets/stylesheet.css?v=1790366681\" media=\"all\">     <style>       .kimPage { overflow: hidde"
+   }
+  },
+  {
+   "page": "blog/2023-09-05-writing-and-reconnection-august/opengraph/index.html",
+   "rules_applied": [
+    "cache-buster-q"
+   ],
+   "removed_region": {
+    "before_ctx": "<link rel=\"stylesheet\" href=\"/assets/stylesheet.css?v=1790365941\" media=\"all\">     <style>       .kimPage { overflow: hidde",
+    "after_ctx": "<link rel=\"stylesheet\" href=\"/assets/stylesheet.css?v=1790366681\" media=\"all\">     <style>       .kimPage { overflow: hidde"
+   }
+  },
+  {
+   "page": "blog/2023-09-30-writing-and-reconnection-september/opengraph/index.html",
+   "rules_applied": [
+    "cache-buster-q"
+   ],
+   "removed_region": {
+    "before_ctx": "<link rel=\"stylesheet\" href=\"/assets/stylesheet.css?v=1790365941\" media=\"all\">     <style>       .kimPage { overflow: hidde",
+    "after_ctx": "<link rel=\"stylesheet\" href=\"/assets/stylesheet.css?v=1790366681\" media=\"all\">     <style>       .kimPage { overflow: hidde"
+   }
+  },
+  {
+   "page": "blog/2023-10-25-a-maker-not-a-manager/opengraph/index.html",
+   "rules_applied": [
+    "cache-buster-q"
+   ],
+   "removed_region": {
+    "before_ctx": "<link rel=\"stylesheet\" href=\"/assets/stylesheet.css?v=1790365941\" media=\"all\">     <style>       .kimPage { overflow: hidde",
+    "after_ctx": "<link rel=\"stylesheet\" href=\"/assets/stylesheet.css?v=1790366681\" media=\"all\">     <style>       .kimPage { overflow: hidde"
+   }
+  },
+  {
+   "page": "blog/2023-11-01-writing-and-reconnection-october-finale/opengraph/index.html",
+   "rules_applied": [
+    "cache-buster-q"
+   ],
+   "removed_region": {
+    "before_ctx": "<link rel=\"stylesheet\" href=\"/assets/stylesheet.css?v=1790365941\" media=\"all\">     <style>       .kimPage { overflow: hidde",
+    "after_ctx": "<link rel=\"stylesheet\" href=\"/assets/stylesheet.css?v=1790366681\" media=\"all\">     <style>       .kimPage { overflow: hidde"
+   }
+  },
+  {
+   "page": "blog/2023-11-17-some-thoughts-on-professionalism/opengraph/index.html",
+   "rules_applied": [
+    "cache-buster-q"
+   ],
+   "removed_region": {
+    "before_ctx": "<link rel=\"stylesheet\" href=\"/assets/stylesheet.css?v=1790365941\" media=\"all\">     <style>       .kimPage { overflow: hidde",
+    "after_ctx": "<link rel=\"stylesheet\" href=\"/assets/stylesheet.css?v=1790366681\" media=\"all\">     <style>       .kimPage { overflow: hidde"
+   }
+  },
+  {
+   "page": "blog/2023-11-27-buttons/opengraph/index.html",
+   "rules_applied": [
+    "cache-buster-q"
+   ],
+   "removed_region": {
+    "before_ctx": "<link rel=\"stylesheet\" href=\"/assets/stylesheet.css?v=1790365941\" media=\"all\">     <style>       .kimPage { overflow: hidde",
+    "after_ctx": "<link rel=\"stylesheet\" href=\"/assets/stylesheet.css?v=1790366681\" media=\"all\">     <style>       .kimPage { overflow: hidde"
+   }
+  },
+  {
+   "page": "blog/2023-12-10-initial-experiences-using-arc-browser/opengraph/index.html",
+   "rules_applied": [
+    "cache-buster-q"
+   ],
+   "removed_region": {
+    "before_ctx": "<link rel=\"stylesheet\" href=\"/assets/stylesheet.css?v=1790365941\" media=\"all\">     <style>       .kimPage { overflow: hidde",
+    "after_ctx": "<link rel=\"stylesheet\" href=\"/assets/stylesheet.css?v=1790366681\" media=\"all\">     <style>       .kimPage { overflow: hidde"
+   }
+  },
+  {
+   "page": "blog/2024-01-01-2023-the-year-in-review/opengraph/index.html",
+   "rules_applied": [
+    "cache-buster-q"
+   ],
+   "removed_region": {
+    "before_ctx": "<link rel=\"stylesheet\" href=\"/assets/stylesheet.css?v=1790365941\" media=\"all\">     <style>       .kimPage { overflow: hidde",
+    "after_ctx": "<link rel=\"stylesheet\" href=\"/assets/stylesheet.css?v=1790366681\" media=\"all\">     <style>       .kimPage { overflow: hidde"
+   }
+  },
+  {
+   "page": "blog/2024-01-23-the-changelog-mastodon-opengraph-third-party-code/opengraph/index.html",
+   "rules_applied": [
+    "cache-buster-q"
+   ],
+   "removed_region": {
+    "before_ctx": "<link rel=\"stylesheet\" href=\"/assets/stylesheet.css?v=1790365941\" media=\"all\">     <style>       .kimPage { overflow: hidde",
+    "after_ctx": "<link rel=\"stylesheet\" href=\"/assets/stylesheet.css?v=1790366681\" media=\"all\">     <style>       .kimPage { overflow: hidde"
+   }
+  },
+  {
+   "page": "blog/2024-01-27-the-year-of-order-january/opengraph/index.html",
+   "rules_applied": [
+    "cache-buster-q"
+   ],
+   "removed_region": {
+    "before_ctx": "<link rel=\"stylesheet\" href=\"/assets/stylesheet.css?v=1790365941\" media=\"all\">     <style>       .kimPage { overflow: hidde",
+    "after_ctx": "<link rel=\"stylesheet\" href=\"/assets/stylesheet.css?v=1790366681\" media=\"all\">     <style>       .kimPage { overflow: hidde"
+   }
+  },
+  {
+   "page": "blog/2024-02-07-making-a-character-count-component-more-accessible/opengraph/index.html",
+   "rules_applied": [
+    "cache-buster-q"
+   ],
+   "removed_region": {
+    "before_ctx": "<link rel=\"stylesheet\" href=\"/assets/stylesheet.css?v=1790365941\" media=\"all\">     <style>       .kimPage { overflow: hidde",
+    "after_ctx": "<link rel=\"stylesheet\" href=\"/assets/stylesheet.css?v=1790366681\" media=\"all\">     <style>       .kimPage { overflow: hidde"
+   }
+  },
+  {
+   "page": "blog/2024-03-06-the-changelog-dark-mode-redesign-building-utopia/opengraph/index.html",
+   "rules_applied": [
+    "cache-buster-q"
+   ],
+   "removed_region": {
+    "before_ctx": "<link rel=\"stylesheet\" href=\"/assets/stylesheet.css?v=1790365941\" media=\"all\">     <style>       .kimPage { overflow: hidde",
+    "after_ctx": "<link rel=\"stylesheet\" href=\"/assets/stylesheet.css?v=1790366681\" media=\"all\">     <style>       .kimPage { overflow: hidde"
+   }
+  },
+  {
+   "page": "blog/2024-03-20-products-and-programs-procured-promote-productivity/opengraph/index.html",
+   "rules_applied": [
+    "cache-buster-q"
+   ],
+   "removed_region": {
+    "before_ctx": "<link rel=\"stylesheet\" href=\"/assets/stylesheet.css?v=1790365941\" media=\"all\">     <style>       .kimPage { overflow: hidde",
+    "after_ctx": "<link rel=\"stylesheet\" href=\"/assets/stylesheet.css?v=1790366681\" media=\"all\">     <style>       .kimPage { overflow: hidde"
+   }
+  },
+  {
+   "page": "blog/2024-04-29-frontend-forum-1-the-basics/opengraph/index.html",
+   "rules_applied": [
+    "cache-buster-q"
+   ],
+   "removed_region": {
+    "before_ctx": "<link rel=\"stylesheet\" href=\"/assets/stylesheet.css?v=1790365941\" media=\"all\">     <style>       .kimPage { overflow: hidde",
+    "after_ctx": "<link rel=\"stylesheet\" href=\"/assets/stylesheet.css?v=1790366681\" media=\"all\">     <style>       .kimPage { overflow: hidde"
+   }
+  },
+  {
+   "page": "blog/2024-04-30-frontend-forum-2-getting-and-staying-motivated/opengraph/index.html",
+   "rules_applied": [
+    "cache-buster-q"
+   ],
+   "removed_region": {
+    "before_ctx": "<link rel=\"stylesheet\" href=\"/assets/stylesheet.css?v=1790365941\" media=\"all\">     <style>       .kimPage { overflow: hidde",
+    "after_ctx": "<link rel=\"stylesheet\" href=\"/assets/stylesheet.css?v=1790366681\" media=\"all\">     <style>       .kimPage { overflow: hidde"
+   }
+  },
+  {
+   "page": "blog/2024-06-26-covid-sucks/opengraph/index.html",
+   "rules_applied": [
+    "cache-buster-q"
+   ],
+   "removed_region": {
+    "before_ctx": "<link rel=\"stylesheet\" href=\"/assets/stylesheet.css?v=1790365941\" media=\"all\">     <style>       .kimPage { overflow: hidde",
+    "after_ctx": "<link rel=\"stylesheet\" href=\"/assets/stylesheet.css?v=1790366681\" media=\"all\">     <style>       .kimPage { overflow: hidde"
+   }
+  },
+  {
+   "page": "blog/2024-08-22-frontend-forum-tooling/opengraph/index.html",
+   "rules_applied": [
+    "cache-buster-q"
+   ],
+   "removed_region": {
+    "before_ctx": "<link rel=\"stylesheet\" href=\"/assets/stylesheet.css?v=1790365941\" media=\"all\">     <style>       .kimPage { overflow: hidde",
+    "after_ctx": "<link rel=\"stylesheet\" href=\"/assets/stylesheet.css?v=1790366681\" media=\"all\">     <style>       .kimPage { overflow: hidde"
+   }
+  },
+  {
+   "page": "blog/2024-09-12-in-memory-of-cohost/opengraph/index.html",
+   "rules_applied": [
+    "cache-buster-q"
+   ],
+   "removed_region": {
+    "before_ctx": "<link rel=\"stylesheet\" href=\"/assets/stylesheet.css?v=1790365941\" media=\"all\">     <style>       .kimPage { overflow: hidde",
+    "after_ctx": "<link rel=\"stylesheet\" href=\"/assets/stylesheet.css?v=1790366681\" media=\"all\">     <style>       .kimPage { overflow: hidde"
+   }
+  },
+  {
+   "page": "blog/2024-09-18-the-bluesky-haters-guide-to-using-bluesky/opengraph/index.html",
+   "rules_applied": [
+    "cache-buster-q"
+   ],
+   "removed_region": {
+    "before_ctx": "<link rel=\"stylesheet\" href=\"/assets/stylesheet.css?v=1790365941\" media=\"all\">     <style>       .kimPage { overflow: hidde",
+    "after_ctx": "<link rel=\"stylesheet\" href=\"/assets/stylesheet.css?v=1790366681\" media=\"all\">     <style>       .kimPage { overflow: hidde"
+   }
+  },
+  {
+   "page": "blog/2024-09-23-a-general-life-update/opengraph/index.html",
+   "rules_applied": [
+    "cache-buster-q"
+   ],
+   "removed_region": {
+    "before_ctx": "<link rel=\"stylesheet\" href=\"/assets/stylesheet.css?v=1790365941\" media=\"all\">     <style>       .kimPage { overflow: hidde",
+    "after_ctx": "<link rel=\"stylesheet\" href=\"/assets/stylesheet.css?v=1790366681\" media=\"all\">     <style>       .kimPage { overflow: hidde"
+   }
+  },
+  {
+   "page": "blog/2024-10-02-the-changelog-eleventy-3-forced-colours-new-art/opengraph/index.html",
+   "rules_applied": [
+    "cache-buster-q"
+   ],
+   "removed_region": {
+    "before_ctx": "<link rel=\"stylesheet\" href=\"/assets/stylesheet.css?v=1790365941\" media=\"all\">     <style>       .kimPage { overflow: hidde",
+    "after_ctx": "<link rel=\"stylesheet\" href=\"/assets/stylesheet.css?v=1790366681\" media=\"all\">     <style>       .kimPage { overflow: hidde"
+   }
+  },
+  {
+   "page": "blog/2024-10-09-why-govuk-exit-this-page-doesnt-use-escape/opengraph/index.html",
+   "rules_applied": [
+    "cache-buster-q"
+   ],
+   "removed_region": {
+    "before_ctx": "<link rel=\"stylesheet\" href=\"/assets/stylesheet.css?v=1790365941\" media=\"all\">     <style>       .kimPage { overflow: hidde",
+    "after_ctx": "<link rel=\"stylesheet\" href=\"/assets/stylesheet.css?v=1790366681\" media=\"all\">     <style>       .kimPage { overflow: hidde"
+   }
+  },
+  {
+   "page": "blog/design/opengraph/index.html",
+   "rules_applied": [
+    "cache-buster-q"
+   ],
+   "removed_region": {
+    "before_ctx": "<link rel=\"stylesheet\" href=\"/assets/stylesheet.css?v=1790365941\" media=\"all\">     <style>       .kimPage { overflow: hidde",
+    "after_ctx": "<link rel=\"stylesheet\" href=\"/assets/stylesheet.css?v=1790366681\" media=\"all\">     <style>       .kimPage { overflow: hidde"
+   }
+  },
+  {
+   "page": "blog/opengraph/index.html",
+   "rules_applied": [
+    "cache-buster-q"
+   ],
+   "removed_region": {
+    "before_ctx": "<link rel=\"stylesheet\" href=\"/assets/stylesheet.css?v=1790365941\" media=\"all\">     <style>       .kimPage { overflow: hidde",
+    "after_ctx": "<link rel=\"stylesheet\" href=\"/assets/stylesheet.css?v=1790366681\" media=\"all\">     <style>       .kimPage { overflow: hidde"
+   }
+  },
+  {
+   "page": "brand/opengraph/index.html",
+   "rules_applied": [
+    "cache-buster-q"
+   ],
+   "removed_region": {
+    "before_ctx": "<link rel=\"stylesheet\" href=\"/assets/stylesheet.css?v=1790365941\" media=\"all\">     <style>       .kimPage { overflow: hidde",
+    "after_ctx": "<link rel=\"stylesheet\" href=\"/assets/stylesheet.css?v=1790366681\" media=\"all\">     <style>       .kimPage { overflow: hidde"
+   }
+  },
+  {
+   "page": "colophon/opengraph/index.html",
+   "rules_applied": [
+    "cache-buster-q"
+   ],
+   "removed_region": {
+    "before_ctx": "<link rel=\"stylesheet\" href=\"/assets/stylesheet.css?v=1790365941\" media=\"all\">     <style>       .kimPage { overflow: hidde",
+    "after_ctx": "<link rel=\"stylesheet\" href=\"/assets/stylesheet.css?v=1790366681\" media=\"all\">     <style>       .kimPage { overflow: hidde"
+   }
+  },
+  {
+   "page": "contact/opengraph/index.html",
+   "rules_applied": [
+    "cache-buster-q"
+   ],
+   "removed_region": {
+    "before_ctx": "<link rel=\"stylesheet\" href=\"/assets/stylesheet.css?v=1790365941\" media=\"all\">     <style>       .kimPage { overflow: hidde",
+    "after_ctx": "<link rel=\"stylesheet\" href=\"/assets/stylesheet.css?v=1790366681\" media=\"all\">     <style>       .kimPage { overflow: hidde"
+   }
+  },
+  {
+   "page": "cv/index.html",
+   "rules_applied": [
+    "beeps-og-timestamp",
+    "cache-buster-q"
+   ],
+   "removed_region": {
+    "before_ctx": "%3A%2F%2Fbeeps.website%2Fcv%2Fopengraph%2F/opengraph/_1790365934/\"> <meta property=\"og:type\" content=\"website\">   <meta ",
+    "after_ctx": "%3A%2F%2Fbeeps.website%2Fcv%2Fopengraph%2F/opengraph/_1790366675/\"> <meta property=\"og:type\" content=\"website\">   <meta nam"
+   }
+  },
+  {
+   "page": "cv/opengraph/index.html",
+   "rules_applied": [
+    "cache-buster-q"
+   ],
+   "removed_region": {
+    "before_ctx": "<link rel=\"stylesheet\" href=\"/assets/stylesheet.css?v=1790365941\" media=\"all\">     <style>       .kimPage { overflow: hidde",
+    "after_ctx": "<link rel=\"stylesheet\" href=\"/assets/stylesheet.css?v=1790366681\" media=\"all\">     <style>       .kimPage { overflow: hidde"
+   }
+  },
+  {
+   "page": "feed.xmlopengraph/index.html",
+   "rules_applied": [
+    "cache-buster-q"
+   ],
+   "removed_region": {
+    "before_ctx": "<link rel=\"stylesheet\" href=\"/assets/stylesheet.css?v=1790365941\" media=\"all\">     <style>       .kimPage { overflow: hidde",
+    "after_ctx": "<link rel=\"stylesheet\" href=\"/assets/stylesheet.css?v=1790366681\" media=\"all\">     <style>       .kimPage { overflow: hidde"
+   }
+  },
+  {
+   "page": "furry-a11y/confuzzled-social-signifiers/opengraph/index.html",
+   "rules_applied": [
+    "cache-buster-q"
+   ],
+   "removed_region": {
+    "before_ctx": "<link rel=\"stylesheet\" href=\"/assets/stylesheet.css?v=1790365941\" media=\"all\">     <style>       .kimPage { overflow: hidde",
+    "after_ctx": "<link rel=\"stylesheet\" href=\"/assets/stylesheet.css?v=1790366681\" media=\"all\">     <style>       .kimPage { overflow: hidde"
+   }
+  },
+  {
+   "page": "furry-a11y/inkbunny/opengraph/index.html",
+   "rules_applied": [
+    "cache-buster-q"
+   ],
+   "removed_region": {
+    "before_ctx": "<link rel=\"stylesheet\" href=\"/assets/stylesheet.css?v=1790365941\" media=\"all\">     <style>       .kimPage { overflow: hidde",
+    "after_ctx": "<link rel=\"stylesheet\" href=\"/assets/stylesheet.css?v=1790366681\" media=\"all\">     <style>       .kimPage { overflow: hidde"
+   }
+  },
+  {
+   "page": "furry-a11y/windowslogic/opengraph/index.html",
+   "rules_applied": [
+    "cache-buster-q"
+   ],
+   "removed_region": {
+    "before_ctx": "<link rel=\"stylesheet\" href=\"/assets/stylesheet.css?v=1790365941\" media=\"all\">     <style>       .kimPage { overflow: hidde",
+    "after_ctx": "<link rel=\"stylesheet\" href=\"/assets/stylesheet.css?v=1790366681\" media=\"all\">     <style>       .kimPage { overflow: hidde"
+   }
+  },
+  {
+   "page": "govuk-browser-data/opengraph/index.html",
+   "rules_applied": [
+    "cache-buster-q"
+   ],
+   "removed_region": {
+    "before_ctx": "<link rel=\"stylesheet\" href=\"/assets/stylesheet.css?v=1790365941\" media=\"all\">     <style>       .kimPage { overflow: hidde",
+    "after_ctx": "<link rel=\"stylesheet\" href=\"/assets/stylesheet.css?v=1790366681\" media=\"all\">     <style>       .kimPage { overflow: hidde"
+   }
+  },
+  {
+   "page": "links/opengraph/index.html",
+   "rules_applied": [
+    "cache-buster-q"
+   ],
+   "removed_region": {
+    "before_ctx": "<link rel=\"stylesheet\" href=\"/assets/stylesheet.css?v=1790365941\" media=\"all\">     <style>       .kimPage { overflow: hidde",
+    "after_ctx": "<link rel=\"stylesheet\" href=\"/assets/stylesheet.css?v=1790366681\" media=\"all\">     <style>       .kimPage { overflow: hidde"
+   }
+  },
+  {
+   "page": "now/opengraph/index.html",
+   "rules_applied": [
+    "cache-buster-q"
+   ],
+   "removed_region": {
+    "before_ctx": "<link rel=\"stylesheet\" href=\"/assets/stylesheet.css?v=1790365941\" media=\"all\">     <style>       .kimPage { overflow: hidde",
+    "after_ctx": "<link rel=\"stylesheet\" href=\"/assets/stylesheet.css?v=1790366681\" media=\"all\">     <style>       .kimPage { overflow: hidde"
+   }
+  },
+  {
+   "page": "opengraph/index.html",
+   "rules_applied": [
+    "cache-buster-q"
+   ],
+   "removed_region": {
+    "before_ctx": "<link rel=\"stylesheet\" href=\"/assets/stylesheet.css?v=1790365941\" media=\"all\">     <style>       .kimPage { overflow: hidde",
+    "after_ctx": "<link rel=\"stylesheet\" href=\"/assets/stylesheet.css?v=1790366681\" media=\"all\">     <style>       .kimPage { overflow: hidde"
+   }
+  },
+  {
+   "page": "privacy/opengraph/index.html",
+   "rules_applied": [
+    "cache-buster-q"
+   ],
+   "removed_region": {
+    "before_ctx": "<link rel=\"stylesheet\" href=\"/assets/stylesheet.css?v=1790365941\" media=\"all\">     <style>       .kimPage { overflow: hidde",
+    "after_ctx": "<link rel=\"stylesheet\" href=\"/assets/stylesheet.css?v=1790366681\" media=\"all\">     <style>       .kimPage { overflow: hidde"
+   }
+  }
+ ],
+ "signal_lost": false,
+ "analysis": "107 pages became identical; verified all differ ONLY in rule-matched noise regions (cache-buster-q ?v= timestamps). 120 pages with real content changes still differ; 14 new pages in after build."
+}

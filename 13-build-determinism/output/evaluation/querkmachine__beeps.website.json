@@ -1,0 +1,92 @@
+{
+ "site": "querkmachine/beeps.website",
+ "slug": "querkmachine__beeps.website",
+ "commits": {
+  "23276fd86320": {
+   "b1_b2": {
+    "total_common": 248,
+    "only_in_A": 0,
+    "only_in_B": 0,
+    "identical_before": 7,
+    "identical_after": 248
+   },
+   "b1_b3": {
+    "total_common": 248,
+    "only_in_A": 0,
+    "only_in_B": 0,
+    "identical_before": 7,
+    "identical_after": 247
+   },
+   "b1_b4": {
+    "total_common": 248,
+    "only_in_A": 0,
+    "only_in_B": 0,
+    "identical_before": 7,
+    "identical_after": 248
+   }
+  },
+  "477a1f74a9db": {
+   "b1_b2": {
+    "total_common": 354,
+    "only_in_A": 0,
+    "only_in_B": 0,
+    "identical_before": 15,
+    "identical_after": 354
+   },
+   "b1_b3": {
+    "total_common": 354,
+    "only_in_A": 0,
+    "only_in_B": 0,
+    "identical_before": 15,
+    "identical_after": 354
+   },
+   "b1_b4": {
+    "total_common": 354,
+    "only_in_A": 0,
+    "only_in_B": 0,
+    "identical_before": 15,
+    "identical_after": 354
+   }
+  },
+  "6ed66e63aa98": {
+   "b1_b2": {
+    "status": "missing_keep",
+    "dirA": "/home/hatch/workspace/13-scratch/querkmachine__beeps.website/keep/6ed66e63aa98/b1-site",
+    "dirB": "/home/hatch/workspace/13-scratch/querkmachine__beeps.website/keep/6ed66e63aa98/b2-site"
+   },
+   "b1_b3": {
+    "status": "missing_keep",
+    "dirA": "/home/hatch/workspace/13-scratch/querkmachine__beeps.website/keep/6ed66e63aa98/b1-site",
+    "dirB": "/home/hatch/workspace/13-scratch/querkmachine__beeps.website/keep/6ed66e63aa98/b3-site"
+   },
+   "b1_b4": {
+    "status": "missing_keep",
+    "dirA": "/home/hatch/workspace/13-scratch/querkmachine__beeps.website/keep/6ed66e63aa98/b1-site",
+    "dirB": "/home/hatch/workspace/13-scratch/querkmachine__beeps.website/keep/6ed66e63aa98/b4-site"
+   }
+  },
+  "74dc73cd551a": {
+   "b1_b2": {
+    "total_common": 227,
+    "only_in_A": 0,
+    "only_in_B": 0,
+    "identical_before": 7,
+    "identical_after": 227
+   },
+   "b1_b3": {
+    "total_common": 227,
+    "only_in_A": 0,
+    "only_in_B": 0,
+    "identical_before": 7,
+    "identical_after": 226
+   },
+   "b1_b4": {
+    "total_common": 227,
+    "only_in_A": 0,
+    "only_in_B": 0,
+    "identical_before": 7,
+    "identical_after": 227
+   }
+  }
+ }
+}

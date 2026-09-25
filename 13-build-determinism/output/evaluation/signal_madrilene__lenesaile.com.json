@@ -1,0 +1,14 @@
+{
+ "site": "madrilene/lenesaile.com",
+ "slug": "madrilene__lenesaile.com",
+ "for_b3_rules": false,
+ "common_pages": 89,
+ "only_before": 0,
+ "only_after": 3,
+ "diff_before": 89,
+ "diff_after": 89,
+ "became_identical": 0,
+ "flagged_pages": [],
+ "signal_lost": false,
+ "analysis": "89/89 pages differ before and after; 0 became identical."
+}

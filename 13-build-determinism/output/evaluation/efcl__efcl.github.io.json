@@ -1,0 +1,92 @@
+{
+ "site": "efcl/efcl.github.io",
+ "slug": "efcl__efcl.github.io",
+ "commits": {
+  "0021db21a50e": {
+   "b1_b2": {
+    "total_common": 935,
+    "only_in_A": 0,
+    "only_in_B": 0,
+    "identical_before": 935,
+    "identical_after": 935
+   },
+   "b1_b3": {
+    "total_common": 935,
+    "only_in_A": 0,
+    "only_in_B": 0,
+    "identical_before": 935,
+    "identical_after": 935
+   },
+   "b1_b4": {
+    "total_common": 935,
+    "only_in_A": 0,
+    "only_in_B": 0,
+    "identical_before": 935,
+    "identical_after": 935
+   }
+  },
+  "6496d9a6b601": {
+   "b1_b2": {
+    "status": "missing_keep",
+    "dirA": "/home/hatch/workspace/13-scratch/efcl__efcl.github.io/out/6496d9a6b601/b1",
+    "dirB": "/home/hatch/workspace/13-scratch/efcl__efcl.github.io/out/6496d9a6b601/b2"
+   },
+   "b1_b3": {
+    "status": "missing_keep",
+    "dirA": "/home/hatch/workspace/13-scratch/efcl__efcl.github.io/out/6496d9a6b601/b1",
+    "dirB": "/home/hatch/workspace/13-scratch/efcl__efcl.github.io/out/6496d9a6b601/b3"
+   },
+   "b1_b4": {
+    "status": "missing_keep",
+    "dirA": "/home/hatch/workspace/13-scratch/efcl__efcl.github.io/out/6496d9a6b601/b1",
+    "dirB": "/home/hatch/workspace/13-scratch/efcl__efcl.github.io/out/6496d9a6b601/b4"
+   }
+  },
+  "889a2a8426af": {
+   "b1_b2": {
+    "total_common": 940,
+    "only_in_A": 0,
+    "only_in_B": 0,
+    "identical_before": 940,
+    "identical_after": 940
+   },
+   "b1_b3": {
+    "total_common": 940,
+    "only_in_A": 0,
+    "only_in_B": 0,
+    "identical_before": 940,
+    "identical_after": 940
+   },
+   "b1_b4": {
+    "total_common": 940,
+    "only_in_A": 0,
+    "only_in_B": 0,
+    "identical_before": 940,
+    "identical_after": 940
+   }
+  },
+  "ef5717299a89": {
+   "b1_b2": {
+    "total_common": 945,
+    "only_in_A": 0,
+    "only_in_B": 0,
+    "identical_before": 945,
+    "identical_after": 945
+   },
+   "b1_b3": {
+    "total_common": 945,
+    "only_in_A": 0,
+    "only_in_B": 0,
+    "identical_before": 945,
+    "identical_after": 945
+   },
+   "b1_b4": {
+    "total_common": 945,
+    "only_in_A": 0,
+    "only_in_B": 0,
+    "identical_before": 945,
+    "identical_after": 945
+   }
+  }
+ }
+}

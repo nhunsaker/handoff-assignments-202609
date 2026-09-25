@@ -1,0 +1,14 @@
+{
+ "site": "elsbrock/hetzner-radar",
+ "slug": "elsbrock__hetzner-radar",
+ "for_b3_rules": false,
+ "common_pages": 1,
+ "only_before": 0,
+ "only_after": 0,
+ "diff_before": 0,
+ "diff_after": 0,
+ "became_identical": 0,
+ "flagged_pages": [],
+ "signal_lost": false,
+ "analysis": "0 HTML pages changed in signal pair (changes were non-HTML). No rules for this site."
+}

@@ -1,0 +1,103 @@
+{
+ "slug": "querkmachine__beeps.website",
+ "commits": [
+  "74dc73cd551a",
+  "23276fd86320",
+  "477a1f74a9db"
+ ],
+ "differences": [
+  {
+   "id": "D1",
+   "cause": "build_timestamp",
+   "description": "Unix epoch build timestamp in asset cache-busting query params: ?v=<timestamp> in <link> and <script> href/src attributes.",
+   "files": {
+    "74dc73cd551a": {
+     "count": 221,
+     "examples": [
+      "404/index.html",
+      "about/index.html"
+     ]
+    },
+    "23276fd86320": {
+     "count": 241,
+     "examples": [
+      "404/index.html",
+      "about/index.html"
+     ]
+    },
+    "477a1f74a9db": {
+     "count": 341,
+     "examples": [
+      ".opengraph/_macros/88x31-button/index.html",
+      "404/index.html"
+     ]
+    }
+   },
+   "comparisons": [
+    "b2",
+    "b3",
+    "b4"
+   ],
+   "before": "<link rel=\"preload\" as=\"style\" href=\"/assets/fonts/fonts.css?v=1790348725\" />",
+   "after": "<link rel=\"preload\" as=\"style\" href=\"/assets/fonts/fonts.css?v=1790354660\" />"
+  },
+  {
+   "id": "D2",
+   "cause": "build_timestamp",
+   "description": "Unix epoch build timestamp in opengraph screenshot URL path: /opengraph/_<timestamp>/ in og:image meta tags.",
+   "files": {
+    "74dc73cd551a": {
+     "count": 221,
+     "examples": [
+      "404/index.html"
+     ]
+    },
+    "23276fd86320": {
+     "count": 241,
+     "examples": [
+      "404/index.html"
+     ]
+    },
+    "477a1f74a9db": {
+     "count": 341,
+     "examples": [
+      "404/index.html"
+     ]
+    }
+   },
+   "comparisons": [
+    "b2",
+    "b3",
+    "b4"
+   ],
+   "before": "content=\"https://v1.screenshot.11ty.dev/https%3A%2F%2Fbeeps.website%2F404%2Fopengraph%2F/opengraph/_1790348725/\"",
+   "after": "content=\"https://v1.screenshot.11ty.dev/https%3A%2F%2Fbeeps.website%2F404%2Fopengraph%2F/opengraph/_1790354660/\""
+  }
+ ],
+ "candidate_rules": [
+  {
+   "id": "R1",
+   "cause": "build_timestamp",
+   "kind": "regex",
+   "pattern": "(\\?v=)\\d+",
+   "replacement": "\\g<1>0",
+   "applies_to": "html",
+   "addresses_build": null,
+   "sites_needing_it": [
+    "querkmachine/beeps.website"
+   ]
+  },
+  {
+   "id": "R2",
+   "cause": "build_timestamp",
+   "kind": "regex",
+   "pattern": "(/opengraph/_)\\d+(/)",
+   "replacement": "\\g<1>0\\g<2>",
+   "applies_to": "html",
+   "addresses_build": null,
+   "sites_needing_it": [
+    "querkmachine/beeps.website"
+   ]
+  }
+ ]
+}

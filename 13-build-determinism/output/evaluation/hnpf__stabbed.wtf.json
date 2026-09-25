@@ -1,0 +1,92 @@
+{
+ "site": "hnpf/stabbed.wtf",
+ "slug": "hnpf__stabbed.wtf",
+ "commits": {
+  "0b799cabb602": {
+   "b1_b2": {
+    "total_common": 1,
+    "only_in_A": 0,
+    "only_in_B": 0,
+    "identical_before": 1,
+    "identical_after": 1
+   },
+   "b1_b3": {
+    "total_common": 1,
+    "only_in_A": 0,
+    "only_in_B": 0,
+    "identical_before": 1,
+    "identical_after": 1
+   },
+   "b1_b4": {
+    "total_common": 1,
+    "only_in_A": 0,
+    "only_in_B": 0,
+    "identical_before": 1,
+    "identical_after": 1
+   }
+  },
+  "3ce6dc31562d": {
+   "b1_b2": {
+    "status": "missing_keep",
+    "dirA": "/home/hatch/workspace/13-scratch/hnpf__stabbed.wtf/kept/3ce6dc31562d-b1/dist",
+    "dirB": "/home/hatch/workspace/13-scratch/hnpf__stabbed.wtf/kept/3ce6dc31562d-b2/dist"
+   },
+   "b1_b3": {
+    "status": "missing_keep",
+    "dirA": "/home/hatch/workspace/13-scratch/hnpf__stabbed.wtf/kept/3ce6dc31562d-b1/dist",
+    "dirB": "/home/hatch/workspace/13-scratch/hnpf__stabbed.wtf/kept/3ce6dc31562d-b3/dist"
+   },
+   "b1_b4": {
+    "status": "missing_keep",
+    "dirA": "/home/hatch/workspace/13-scratch/hnpf__stabbed.wtf/kept/3ce6dc31562d-b1/dist",
+    "dirB": "/home/hatch/workspace/13-scratch/hnpf__stabbed.wtf/kept/3ce6dc31562d-b4/dist"
+   }
+  },
+  "3df9004fd1b2": {
+   "b1_b2": {
+    "total_common": 10,
+    "only_in_A": 0,
+    "only_in_B": 0,
+    "identical_before": 10,
+    "identical_after": 10
+   },
+   "b1_b3": {
+    "total_common": 10,
+    "only_in_A": 0,
+    "only_in_B": 0,
+    "identical_before": 10,
+    "identical_after": 10
+   },
+   "b1_b4": {
+    "total_common": 10,
+    "only_in_A": 0,
+    "only_in_B": 0,
+    "identical_before": 10,
+    "identical_after": 10
+   }
+  },
+  "e537282471b1": {
+   "b1_b2": {
+    "total_common": 1,
+    "only_in_A": 0,
+    "only_in_B": 0,
+    "identical_before": 1,
+    "identical_after": 1
+   },
+   "b1_b3": {
+    "total_common": 1,
+    "only_in_A": 0,
+    "only_in_B": 0,
+    "identical_before": 1,
+    "identical_after": 1
+   },
+   "b1_b4": {
+    "total_common": 1,
+    "only_in_A": 0,
+    "only_in_B": 0,
+    "identical_before": 1,
+    "identical_after": 1
+   }
+  }
+ }
+}

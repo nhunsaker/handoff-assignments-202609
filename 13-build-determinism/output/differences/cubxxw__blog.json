@@ -1,0 +1,122 @@
+{
+  "repo": "cubxxw/blog",
+  "commits": [
+    "fed853722c17",
+    "e302344a57a8",
+    "7090d6acbb75"
+  ],
+  "differences": [
+    {
+      "id": "D1",
+      "cause": "other",
+      "files": {
+        "count": 5,
+        "examples": [
+          "ai-technology/posts/deep-dive-into-the-components-of-kubernetes-etcd/index.html",
+          "ai-technology/posts/deep-dive-into-the-components-of-kubernetes-kube-apiserver/index.html",
+          "ai-technology/posts/hugo-advanced-tutorial/index.html",
+          "projects/markitdown/index.html",
+          "zh/ai-technology/posts/kubernetes-for-kustomize-learning/index.html"
+        ]
+      },
+      "before": "pan></span><span class=line><span class=cl>     <span class=err>&lt;</span>/li&gt;\n",
+      "after": "pan></span><span class=line><span class=cl>     <span class=p>&lt;/</span><span class=nt>li</span><span class=p>&gt;</spa",
+      "comparisons": [
+        "b2",
+        "b3",
+        "b4"
+      ],
+      "commits": [
+        "e302344a57a8",
+        "fed853722c17"
+      ],
+      "notes": "Nondeterministic Chroma syntax-highlight tokenization: identical code blocks get different <span class=...> token markup on different builds (same binary, same worktree). Tag-stripped text of every affected page is byte-identical across builds; only the highlight span classes/boundaries vary. Other observed flips, verbatim: '<span class=o>{{</span>' vs '<span class=err>{</span><span class=o>{</span>'; '<span class=nt>name</span><span class=p>:</span>' vs '<span class=l>name: manager-config</span>'; '<span class=o>.</span>' vs '<span class=err>.</span>'. Source of highlighting: Hugo built-in Chroma (hugo v0.152.2+extended)."
+    },
+    {
+      "id": "D2",
+      "cause": "build_timestamp",
+      "files": {
+        "count": 2,
+        "examples": [
+          "subscriptions.opml",
+          "zh/subscriptions.opml"
+        ]
+      },
+      "before": "    <dateCreated>Fri, 25 Sep 2026 15:29:55 +0000</dateCreated>\n",
+      "after": "    <dateCreated>Fri, 25 Sep 2026 15:39:49 +0000</dateCreated>\n",
+      "comparisons": [
+        "b2",
+        "b3",
+        "b4"
+      ],
+      "commits": [
+        "7090d6acbb75",
+        "e302344a57a8"
+      ],
+      "notes": "Template layouts/index.opml.opml line 12: '<dateCreated>{{ now.Format \"Mon, 02 Jan 2006 15:04:05 -0700\" }}</dateCreated>'. Value equals the build start time (±10 min). Present in every build comparison."
+    },
+    {
+      "id": "D3",
+      "cause": "locale_timezone",
+      "files": {
+        "count": 22,
+        "examples": [
+          "index.html",
+          "page/10/index.html",
+          "page/11/index.html",
+          "page/2/index.html",
+          "page/3/index.html"
+        ]
+      },
+      "before": "lass=hp-entry-label>ENTRY · <span id=hp-entry-date>2026/09/25</span></span></div><h1><span class=hp-hero-name-row><span c",
+      "after": "lass=hp-entry-label>ENTRY · <span id=hp-entry-date>2026/09/26</span></span></div><h1><span class=hp-hero-name-row><span c",
+      "comparisons": [
+        "b3"
+      ],
+      "commits": [
+        "e302344a57a8"
+      ],
+      "notes": "Template layouts/partials/homepage-daypage.html line 25: '<span id=\"hp-entry-date\">{{ now.Format \"2006/01/02\" }}</span>'. Renders the build machine's current date in the build timezone; b3 ran with TZ=Pacific/Auckland where it was already the next day. Appears only in b1<->b3."
+    }
+  ],
+  "candidate_rules": [
+    {
+      "id": "R1",
+      "cause": "other",
+      "applies_to": "html",
+      "kind": "dom",
+      "operation": "for each div.highlight element, replace the element with a text node containing its textContent",
+      "pattern": null,
+      "replacement": null,
+      "sites_needing_it": [
+        "cubxxw/blog"
+      ],
+      "notes": "Normalizes nondeterministic Chroma token span markup; code text is preserved so real code changes still hash differently."
+    },
+    {
+      "id": "R2",
+      "cause": "locale_timezone",
+      "applies_to": "html",
+      "kind": "regex",
+      "pattern": "(<span id=hp-entry-date>)\\d{4}/\\d{2}/\\d{2}(</span>)",
+      "replacement": "\\g<1>\\g<2>",
+      "addresses_build": "b3",
+      "sites_needing_it": [
+        "cubxxw/blog"
+      ],
+      "notes": "Clears the build-timezone current-date stamp rendered by {{ now.Format }}; never author content."
+    },
+    {
+      "id": "R3",
+      "cause": "build_timestamp",
+      "applies_to": "xml",
+      "kind": "regex",
+      "pattern": "(<dateCreated>)[^<]*(</dateCreated>)",
+      "replacement": "\\g<1>\\g<2>",
+      "sites_needing_it": [
+        "cubxxw/blog"
+      ],
+      "notes": "Clears the now.Format build timestamp in subscriptions.opml; never author content."
+    }
+  ]
+}

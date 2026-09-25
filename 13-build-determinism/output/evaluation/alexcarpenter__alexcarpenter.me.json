@@ -1,0 +1,92 @@
+{
+ "site": "alexcarpenter/alexcarpenter.me",
+ "slug": "alexcarpenter__alexcarpenter.me",
+ "commits": {
+  "4c5da684256c": {
+   "b1_b2": {
+    "total_common": 80,
+    "only_in_A": 0,
+    "only_in_B": 0,
+    "identical_before": 71,
+    "identical_after": 80
+   },
+   "b1_b3": {
+    "total_common": 80,
+    "only_in_A": 0,
+    "only_in_B": 0,
+    "identical_before": 31,
+    "identical_after": 35
+   },
+   "b1_b4": {
+    "total_common": 80,
+    "only_in_A": 0,
+    "only_in_B": 0,
+    "identical_before": 72,
+    "identical_after": 80
+   }
+  },
+  "502724d6a5f3": {
+   "b1_b2": {
+    "total_common": 51,
+    "only_in_A": 0,
+    "only_in_B": 0,
+    "identical_before": 39,
+    "identical_after": 51
+   },
+   "b1_b3": {
+    "total_common": 51,
+    "only_in_A": 0,
+    "only_in_B": 0,
+    "identical_before": 16,
+    "identical_after": 19
+   },
+   "b1_b4": {
+    "total_common": 51,
+    "only_in_A": 0,
+    "only_in_B": 0,
+    "identical_before": 33,
+    "identical_after": 50
+   }
+  },
+  "e3641869d63e": {
+   "b1_b2": {
+    "total_common": 3,
+    "only_in_A": 0,
+    "only_in_B": 0,
+    "identical_before": 1,
+    "identical_after": 3
+   },
+   "b1_b3": {
+    "total_common": 3,
+    "only_in_A": 0,
+    "only_in_B": 0,
+    "identical_before": 1,
+    "identical_after": 2
+   },
+   "b1_b4": {
+    "total_common": 3,
+    "only_in_A": 0,
+    "only_in_B": 0,
+    "identical_before": 2,
+    "identical_after": 3
+   }
+  },
+  "e6c28647c497": {
+   "b1_b2": {
+    "status": "missing_keep",
+    "dirA": "/home/hatch/workspace/13-scratch/alexcarpenter__alexcarpenter.me/outputs/e6c28647c497/b1",
+    "dirB": "/home/hatch/workspace/13-scratch/alexcarpenter__alexcarpenter.me/outputs/e6c28647c497/b2"
+   },
+   "b1_b3": {
+    "status": "missing_keep",
+    "dirA": "/home/hatch/workspace/13-scratch/alexcarpenter__alexcarpenter.me/outputs/e6c28647c497/b1",
+    "dirB": "/home/hatch/workspace/13-scratch/alexcarpenter__alexcarpenter.me/outputs/e6c28647c497/b3"
+   },
+   "b1_b4": {
+    "status": "missing_keep",
+    "dirA": "/home/hatch/workspace/13-scratch/alexcarpenter__alexcarpenter.me/outputs/e6c28647c497/b1",
+    "dirB": "/home/hatch/workspace/13-scratch/alexcarpenter__alexcarpenter.me/outputs/e6c28647c497/b4"
+   }
+  }
+ }
+}

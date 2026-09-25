@@ -1,0 +1,51 @@
+{
+  "repo": "hnpf/stabbed.wtf",
+  "commits": [
+    "3df9004fd1b2",
+    "0b799cabb602",
+    "e537282471b1"
+  ],
+  "differences": [
+    {
+      "id": "D1",
+      "cause": "build_timestamp",
+      "files": {
+        "count": 1,
+        "examples": [
+          "rss.xml"
+        ]
+      },
+      "before": "/description>\n  <language>en-us</language>\n  <lastBuildDate>Fri, 25 Sep 2026 12:40:20 GMT</lastBuildDate>\n    <item>\n    <title>THE INTERNET IS MAKIN",
+      "after": "/description>\n  <language>en-us</language>\n  <lastBuildDate>Fri, 25 Sep 2026 12:46:44 GMT</lastBuildDate>\n    <item>\n    <title>THE INTERNET IS MAKIN",
+      "comparisons": [
+        "b2",
+        "b3",
+        "b4"
+      ],
+      "commits": [
+        "e537282471b1"
+      ],
+      "notes": "public/rss.xml is regenerated on every build (build script: 'pnpm run generate:rss && pnpm run generate:og-data && vite build'). scripts/generate-rss.ts line 82: <lastBuildDate>${formatRfc2822(new Date())}</lastBuildDate> \u2014 wall-clock build time, RFC-2822 GMT. b1=Fri, 25 Sep 2026 12:40:20 GMT; b2=Fri, 25 Sep 2026 12:46:44 GMT; b3=Fri, 25 Sep 2026 13:47:30 GMT; b4=Fri, 25 Sep 2026 13:56:57 GMT. All within build times. No other commit showed this (3df9004fd1b2 and 0b799cabb602 had zero differences of any kind across b1..b4)."
+    },
+    {
+      "id": "D2",
+      "cause": "locale_timezone",
+      "files": {
+        "count": 1,
+        "examples": [
+          "rss.xml"
+        ]
+      },
+      "before": "d topic imaginable...</p>]]></content:encoded>\n    <pubDate>Sun, 20 Sep 2026 00:00:00 GMT</pubDate>\n  </item>\n\n  <item>\n    <title>2slimey changed th",
+      "after": "d topic imaginable...</p>]]></content:encoded>\n    <pubDate>Sat, 19 Sep 2026 12:00:00 GMT</pubDate>\n  </item>\n\n  <item>\n    <title>2slimey changed th",
+      "comparisons": [
+        "b3"
+      ],
+      "commits": [
+        "e537282471b1"
+      ],
+      "notes": "b3-only (TZ=Pacific/Auckland, LANG=de_DE.UTF-8). scripts/generate-rss.ts: post.dateObject = new Date(post.date) where post.date is author-written local-format strings like \"Apr 26, 2026\" (src/constants.ts, 93 date: fields), parsed as LOCAL midnight; formatRfc2822() then formats with getUTC* methods + literal 'GMT'. Under Pacific/Auckland (UTC+12), local midnight = previous day 12:00 UTC, so every item pubDate shifts: e.g. Sun, 20 Sep 2026 00:00:00 GMT -> Sat, 19 Sep 2026 12:00:00 GMT. 37 items affected (74 changed diff lines). lastBuildDate is unaffected by TZ (new Date() instant formatted with getUTC*). LANG had no observable effect (no locale-formatted strings in output)."
+    }
+  ],
+  "candidate_rules": []
+}

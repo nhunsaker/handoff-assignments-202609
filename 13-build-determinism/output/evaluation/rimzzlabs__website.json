@@ -1,0 +1,75 @@
+{
+ "site": "rimzzlabs/website",
+ "slug": "rimzzlabs__website",
+ "commits": {
+  "328e90f173aa": {
+   "b1_b2": {
+    "total_common": 16,
+    "only_in_A": 0,
+    "only_in_B": 0,
+    "identical_before": 8,
+    "identical_after": 16
+   },
+   "b1_b3": {
+    "total_common": 16,
+    "only_in_A": 0,
+    "only_in_B": 0,
+    "identical_before": 4,
+    "identical_after": 4
+   },
+   "b1_b4": {
+    "total_common": 16,
+    "only_in_A": 0,
+    "only_in_B": 0,
+    "identical_before": 8,
+    "identical_after": 16
+   }
+  },
+  "59c612e49f31": {
+   "b1_b2": {
+    "total_common": 18,
+    "only_in_A": 0,
+    "only_in_B": 0,
+    "identical_before": 10,
+    "identical_after": 18
+   },
+   "b1_b3": {
+    "total_common": 18,
+    "only_in_A": 0,
+    "only_in_B": 0,
+    "identical_before": 6,
+    "identical_after": 6
+   },
+   "b1_b4": {
+    "total_common": 18,
+    "only_in_A": 0,
+    "only_in_B": 0,
+    "identical_before": 12,
+    "identical_after": 18
+   }
+  },
+  "5c5c0fbc4a40": {
+   "b1_b2": {
+    "total_common": 18,
+    "only_in_A": 0,
+    "only_in_B": 0,
+    "identical_before": 14,
+    "identical_after": 18
+   },
+   "b1_b3": {
+    "total_common": 18,
+    "only_in_A": 0,
+    "only_in_B": 0,
+    "identical_before": 6,
+    "identical_after": 6
+   },
+   "b1_b4": {
+    "total_common": 18,
+    "only_in_A": 0,
+    "only_in_B": 0,
+    "identical_before": 13,
+    "identical_after": 18
+   }
+  }
+ }
+}

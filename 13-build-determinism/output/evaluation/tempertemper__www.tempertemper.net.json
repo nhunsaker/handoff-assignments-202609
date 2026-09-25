@@ -1,0 +1,107 @@
+{
+ "site": "tempertemper/www.tempertemper.net",
+ "slug": "tempertemper__www.tempertemper.net",
+ "commits": {
+  "06f96f7861a6": {
+   "b1_b2": {
+    "total_common": 547,
+    "only_in_A": 0,
+    "only_in_B": 0,
+    "identical_before": 547,
+    "identical_after": 547
+   },
+   "b1_b3": {
+    "total_common": 547,
+    "only_in_A": 0,
+    "only_in_B": 0,
+    "identical_before": 547,
+    "identical_after": 547
+   },
+   "b1_b4": {
+    "total_common": 547,
+    "only_in_A": 0,
+    "only_in_B": 0,
+    "identical_before": 547,
+    "identical_after": 547
+   }
+  },
+  "2cda2bdda6b7": {
+   "b1_b2": {
+    "total_common": 592,
+    "only_in_A": 0,
+    "only_in_B": 0,
+    "identical_before": 0,
+    "identical_after": 592
+   },
+   "b1_b3": {
+    "total_common": 592,
+    "only_in_A": 0,
+    "only_in_B": 0,
+    "identical_before": 0,
+    "identical_after": 592
+   },
+   "b1_b4": {
+    "total_common": 592,
+    "only_in_A": 0,
+    "only_in_B": 0,
+    "identical_before": 0,
+    "identical_after": 592
+   }
+  },
+  "5e38769bf98b": {
+   "b1_b2": {
+    "status": "missing_keep",
+    "dirA": "/home/hatch/workspace/13-scratch/tempertemper__www.tempertemper.net/builds/5e38769bf98b/b1",
+    "dirB": "/home/hatch/workspace/13-scratch/tempertemper__www.tempertemper.net/builds/5e38769bf98b/b2"
+   },
+   "b1_b3": {
+    "status": "missing_keep",
+    "dirA": "/home/hatch/workspace/13-scratch/tempertemper__www.tempertemper.net/builds/5e38769bf98b/b1",
+    "dirB": "/home/hatch/workspace/13-scratch/tempertemper__www.tempertemper.net/builds/5e38769bf98b/b3"
+   },
+   "b1_b4": {
+    "status": "missing_keep",
+    "dirA": "/home/hatch/workspace/13-scratch/tempertemper__www.tempertemper.net/builds/5e38769bf98b/b1",
+    "dirB": "/home/hatch/workspace/13-scratch/tempertemper__www.tempertemper.net/builds/5e38769bf98b/b4"
+   }
+  },
+  "74056980ec5f": {
+   "b1_b2": {
+    "status": "missing_keep",
+    "dirA": "/home/hatch/workspace/13-scratch/tempertemper__www.tempertemper.net/builds/74056980ec5f/b1",
+    "dirB": "/home/hatch/workspace/13-scratch/tempertemper__www.tempertemper.net/builds/74056980ec5f/b2"
+   },
+   "b1_b3": {
+    "status": "missing_keep",
+    "dirA": "/home/hatch/workspace/13-scratch/tempertemper__www.tempertemper.net/builds/74056980ec5f/b1",
+    "dirB": "/home/hatch/workspace/13-scratch/tempertemper__www.tempertemper.net/builds/74056980ec5f/b3"
+   },
+   "b1_b4": {
+    "status": "missing_keep",
+    "dirA": "/home/hatch/workspace/13-scratch/tempertemper__www.tempertemper.net/builds/74056980ec5f/b1",
+    "dirB": "/home/hatch/workspace/13-scratch/tempertemper__www.tempertemper.net/builds/74056980ec5f/b4"
+   }
+  },
+  "c12d97cdbd8e": {
+   "b1_b2": {
+    "status": "missing_keep",
+    "dirA": "/home/hatch/workspace/13-scratch/tempertemper__www.tempertemper.net/builds/c12d97cdbd8e/b1",
+    "dirB": "/home/hatch/workspace/13-scratch/tempertemper__www.tempertemper.net/builds/c12d97cdbd8e/b2"
+   },
+   "b1_b3": {
+    "total_common": 522,
+    "only_in_A": 0,
+    "only_in_B": 0,
+    "identical_before": 522,
+    "identical_after": 522
+   },
+   "b1_b4": {
+    "total_common": 522,
+    "only_in_A": 0,
+    "only_in_B": 0,
+    "identical_before": 522,
+    "identical_after": 522
+   }
+  }
+ }
+}

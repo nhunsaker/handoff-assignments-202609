@@ -1,0 +1,75 @@
+{
+ "site": "nemanjam/nemanjam.github.io",
+ "slug": "nemanjam__nemanjam.github.io",
+ "commits": {
+  "0b7c59fd2a7f": {
+   "b1_b2": {
+    "total_common": 53,
+    "only_in_A": 0,
+    "only_in_B": 0,
+    "identical_before": 10,
+    "identical_after": 53
+   },
+   "b1_b3": {
+    "total_common": 53,
+    "only_in_A": 0,
+    "only_in_B": 0,
+    "identical_before": 10,
+    "identical_after": 53
+   },
+   "b1_b4": {
+    "total_common": 53,
+    "only_in_A": 0,
+    "only_in_B": 0,
+    "identical_before": 10,
+    "identical_after": 53
+   }
+  },
+  "6333be10bf83": {
+   "b1_b2": {
+    "total_common": 23,
+    "only_in_A": 0,
+    "only_in_B": 0,
+    "identical_before": 8,
+    "identical_after": 23
+   },
+   "b1_b3": {
+    "total_common": 23,
+    "only_in_A": 0,
+    "only_in_B": 0,
+    "identical_before": 8,
+    "identical_after": 23
+   },
+   "b1_b4": {
+    "total_common": 23,
+    "only_in_A": 0,
+    "only_in_B": 0,
+    "identical_before": 8,
+    "identical_after": 23
+   }
+  },
+  "7fed9b43b849": {
+   "b1_b2": {
+    "total_common": 61,
+    "only_in_A": 0,
+    "only_in_B": 0,
+    "identical_before": 17,
+    "identical_after": 61
+   },
+   "b1_b3": {
+    "total_common": 61,
+    "only_in_A": 0,
+    "only_in_B": 0,
+    "identical_before": 0,
+    "identical_after": 61
+   },
+   "b1_b4": {
+    "total_common": 61,
+    "only_in_A": 0,
+    "only_in_B": 0,
+    "identical_before": 17,
+    "identical_after": 61
+   }
+  }
+ }
+}

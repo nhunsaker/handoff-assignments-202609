@@ -1,0 +1,95 @@
+{
+ "site": "alexcarpenter/alexcarpenter.me",
+ "slug": "alexcarpenter__alexcarpenter.me",
+ "for_b3_rules": false,
+ "common_pages": 79,
+ "only_before": 0,
+ "only_after": 1,
+ "diff_before": 13,
+ "diff_after": 5,
+ "became_identical": 8,
+ "flagged_pages": [
+  {
+   "page": "index.html",
+   "rules_applied": [
+    "alex-present-time"
+   ],
+   "removed_region": {
+    "before_ctx": "0:00.000Z\"> Jan 2024 </time>  - <time datetime=\"2026-09-25T17:28:23.262Z\">Present</time> </p> </div> <div class=\"prose mt",
+    "after_ctx": "0:00.000Z\"> Jan 2024 </time>  - <time datetime=\"2026-09-25T16:36:14.811Z\">Present</time> </p> </div> <div class=\"prose mt"
+   }
+  },
+  {
+   "page": "notes/2025-02-19-2/index.html",
+   "rules_applied": [
+    "shiki-unwrap"
+   ],
+   "removed_region": {
+    "before_ctx": "shiki-dark:#E6EDF3\">      &#x3C;</span><span style=\"color:#116329;--shiki-dark:#7EE787\">MotionTooltip</span></span> <span ",
+    "after_ctx": "shiki-dark:#E6EDF3\">      &#x3C;</span><span style=\"color:#1F2328;--shiki-dark:#7EE787\">MotionTooltip</span></span> <span "
+   }
+  },
+  {
+   "page": "notes/2025-04-14-1/index.html",
+   "rules_applied": [
+    "shiki-unwrap"
+   ],
+   "removed_region": {
+    "before_ctx": "0550AE;--shiki-dark:#79C0FF\">grid</span><span style=\"color:#0550AE;--shiki-dark:#E6EDF3\">;</span></span> <span class=\"line\"><s",
+    "after_ctx": "0550AE;--shiki-dark:#79C0FF\">grid</span><span style=\"color:#1F2328;--shiki-dark:#E6EDF3\">;</span></span> <span class=\"line\"><s"
+   }
+  },
+  {
+   "page": "notes/2025-04-14-2/index.html",
+   "rules_applied": [
+    "shiki-unwrap"
+   ],
+   "removed_region": {
+    "before_ctx": "0A3069;--shiki-dark:#A5D6FF\">`/${</span><span style=\"color:#0A3069;--shiki-dark:#D2A8FF\">slugify</span><span style=\"colo",
+    "after_ctx": "0A3069;--shiki-dark:#A5D6FF\">`/${</span><span style=\"color:#8250DF;--shiki-dark:#D2A8FF\">slugify</span><span style=\"color:#"
+   }
+  },
+  {
+   "page": "notes/2025-04-16-1/index.html",
+   "rules_applied": [
+    "shiki-unwrap"
+   ],
+   "removed_region": {
+    "before_ctx": "0550AE;--shiki-dark:#79C0FF\">flex</span><span style=\"color:#1F2328;--shiki-dark:#E6EDF3\">;</span></span> <span class=\"line dif",
+    "after_ctx": "0550AE;--shiki-dark:#79C0FF\">flex</span><span style=\"color:#0550AE;--shiki-dark:#E6EDF3\">;</span></span> <span class=\"line dif"
+   }
+  },
+  {
+   "page": "notes/2025-06-18-2/index.html",
+   "rules_applied": [
+    "shiki-unwrap"
+   ],
+   "removed_region": {
+    "before_ctx": "0;--shiki-dark:#FFA657\"> Prettify</span><span style=\"color:#1F2328;--shiki-dark:#E6EDF3\">&#x3C;</span><span style=\"color:#9",
+    "after_ctx": "0;--shiki-dark:#FFA657\"> Prettify</span><span style=\"color:#953800;--shiki-dark:#E6EDF3\">&#x3C;</span><span style=\"color:#"
+   }
+  },
+  {
+   "page": "notes/2025-06-18-3/index.html",
+   "rules_applied": [
+    "shiki-unwrap"
+   ],
+   "removed_region": {
+    "before_ctx": "-language=\"js\"><code><span class=\"line\"><span style=\"color:#CF222E;--shiki-dark:#FF7B72\">let</span><span style=\"color:#1F",
+    "after_ctx": "-language=\"js\"><code><span class=\"line\"><span style=\"color:#1F2328;--shiki-dark:#FF7B72\">let</span><span style=\"color:#1F"
+   }
+  },
+  {
+   "page": "notes/2025-08-13-1/index.html",
+   "rules_applied": [
+    "shiki-unwrap"
+   ],
+   "removed_region": {
+    "before_ctx": ":#0550AE;--shiki-dark:#79C0FF\"> 1</span><span style=\"color:#0550AE;--shiki-dark:#FF7B72\">px</span><span style=\"color:#0550AE;",
+    "after_ctx": ":#0550AE;--shiki-dark:#79C0FF\"> 1</span><span style=\"color:#CF222E;--shiki-dark:#FF7B72\">px</span><span style=\"color:#1F2328;"
+   }
+  }
+ ],
+ "signal_lost": false,
+ "analysis": "8 pages became identical; verified as noise (build-timestamp 'Present', Shiki nondeterministic colors). Real changes retained: new notes page, gear/index.html, index pages."
+}

@@ -1,0 +1,14 @@
+{
+ "site": "cubxxw/blog",
+ "slug": "cubxxw__blog",
+ "for_b3_rules": false,
+ "common_pages": 1005,
+ "only_before": 0,
+ "only_after": 130,
+ "diff_before": 1004,
+ "diff_after": 1004,
+ "became_identical": 0,
+ "flagged_pages": [],
+ "signal_lost": false,
+ "analysis": "1004/1004 pages differ before and after; 0 became identical."
+}

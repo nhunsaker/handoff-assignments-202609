@@ -1,0 +1,336 @@
+{
+  "repo": "rimzzlabs/website",
+  "commits": {
+    "328e90f173aa": {
+      "differences": [
+        {
+          "id": "D1",
+          "cause": "build_timestamp",
+          "description": "sitemap <lastmod> stamps the build time (astro.config.mjs: sitemap({ ..., lastmod: new Date(), ... }))",
+          "files_count": 2,
+          "files_examples": [
+            "sitemap-0.xml",
+            "sitemap-index.xml"
+          ],
+          "region_count": 150,
+          "before": "><url><loc>https://rimzzlabs.com/</loc><lastmod>2026-09-25T13:49:26.635Z</lastmod><changefreq>daily</changefreq><priority>",
+          "after": "><url><loc>https://rimzzlabs.com/</loc><lastmod>2026-09-25T14:10:44.152Z</lastmod><changefreq>daily</changefreq><priorit",
+          "example_file": "sitemap-0.xml",
+          "comparisons": [
+            "b2",
+            "b3",
+            "b4"
+          ]
+        },
+        {
+          "id": "D2",
+          "cause": "locale_timezone",
+          "description": "<meta property=\"article:published_time\"> ISO datetime shifts with TZ (src/lib/date.ts dateToISO: new Date(date).toISOString())",
+          "files_count": 8,
+          "files_examples": [
+            "id/notes/how-to-setup-husky-nextjs/index.html",
+            "id/notes/improving-performance-in-react/index.html",
+            "id/notes/jotai-recipes/index.html",
+            "id/notes/jotai-state-manager/index.html",
+            "notes/how-to-setup-husky-nextjs/index.html"
+          ],
+          "region_count": 16,
+          "before": "\"><meta property=\"article:published_time\" content=\"2022-03-23T00:00:00.000Z\"><meta property=\"article:author\" content=\"Riz",
+          "after": "\"><meta property=\"article:published_time\" content=\"2022-03-22T11:00:00.000Z\"><meta property=\"article:author\" content=\"Riz",
+          "example_file": "id/notes/how-to-setup-husky-nextjs/index.html",
+          "comparisons": [
+            "b3"
+          ]
+        },
+        {
+          "id": "D3",
+          "cause": "locale_timezone",
+          "description": "<time datetime> ISO datetime shifts with TZ (src/lib/date.ts dateToISO: new Date(date).toISOString())",
+          "files_count": 12,
+          "files_examples": [
+            "id/index.html",
+            "id/notes/how-to-setup-husky-nextjs/index.html",
+            "id/notes/improving-performance-in-react/index.html",
+            "id/notes/index.html",
+            "id/notes/jotai-recipes/index.html"
+          ],
+          "region_count": 44,
+          "before": "s font-light text-muted-foreground\"><time datetime=\"2023-09-30T00:00:00.000Z\">Sab, 30 September 2023</time></p><h3 class=\"",
+          "after": "s font-light text-muted-foreground\"><time datetime=\"2023-09-29T11:00:00.000Z\">Sab, 30 September 2023</time></p><h3 class=\"",
+          "example_file": "id/index.html",
+          "comparisons": [
+            "b3"
+          ]
+        },
+        {
+          "id": "D4",
+          "cause": "other",
+          "description": "Shiki dual-theme (github-light/vitesse-dark) code highlighting non-deterministically assigns the light-theme color of some tokens: the same token (same text, same dark-theme color) receives different light-theme colors across builds (e.g. #D73A49 vs #24292E, #D73A49 vs #032F62); dark-theme colors are always stable",
+          "files_count": 8,
+          "files_examples": [
+            "id/notes/how-to-setup-husky-nextjs/index.html",
+            "id/notes/improving-performance-in-react/index.html",
+            "id/notes/jotai-recipes/index.html",
+            "id/notes/jotai-state-manager/index.html",
+            "notes/how-to-setup-husky-nextjs/index.html"
+          ],
+          "region_count": 804,
+          "before": "line\"><span style=\"color:#D73A49;--shiki-dark:#CB7676\">const</span><span style=\"color:#D73A49;--shiki-dark:#BD976A\"> config</span><span style=\"color:#D73A49;--shiki-dark:#666666\"> =</span><span style=\"color:#D73A49;--shiki-dark:#666666\"> {</span></span>\n<span class=\"line\"><span style=\"color:#6F42C1;--shiki-dark:#B8A965\">  semi</span><span style=\"color:#24292E;--shiki-dark:#666666\">:</span><span style=\"color:#24292E;--shiki-dark:#4D9375\"> false</span><span style=\"color:#24292E;--shiki-dark:#666666\">,</span></span>\n<span class=\"line\"><span style=\"color:#6F42C1;--shiki-dark:#B8A965\">  tabWidth</span><span style=\"color:#24292E;--shiki-dark:#666666\">:</span><span style=\"color:#005CC5;--shiki-dark:#4C9A91\"> 2</",
+          "after": "line\"><span style=\"color:#D73A49;--shiki-dark:#CB7676\">const</span><span style=\"color:#005CC5;--shiki-dark:#BD976A\"> con",
+          "example_file": "id/notes/how-to-setup-husky-nextjs/index.html",
+          "comparisons": [
+            "b2",
+            "b3",
+            "b4"
+          ]
+        }
+      ]
+    },
+    "59c612e49f31": {
+      "differences": [
+        {
+          "id": "D1",
+          "cause": "build_timestamp",
+          "description": "sitemap <lastmod> stamps the build time (astro.config.mjs: sitemap({ ..., lastmod: new Date(), ... }))",
+          "files_count": 2,
+          "files_examples": [
+            "sitemap-0.xml",
+            "sitemap-index.xml"
+          ],
+          "region_count": 140,
+          "before": "url><loc>https://rimzzlabs.com/</loc><lastmod>2026-09-25T16:44:12.711Z</lastmod><changefreq>daily</changefreq><priority>",
+          "after": "url><loc>https://rimzzlabs.com/</loc><lastmod>2026-09-25T16:55:54.975Z</lastmod><changefreq>daily</changefreq><priority>1.0<",
+          "example_file": "sitemap-0.xml",
+          "comparisons": [
+            "b2",
+            "b3",
+            "b4"
+          ]
+        },
+        {
+          "id": "D2",
+          "cause": "locale_timezone",
+          "description": "<meta property=\"article:published_time\"> ISO datetime shifts with TZ (src/lib/date.ts dateToISO: new Date(date).toISOString())",
+          "files_count": 8,
+          "files_examples": [
+            "id/notes/how-to-setup-husky-nextjs/index.html",
+            "id/notes/improving-performance-in-react/index.html",
+            "id/notes/jotai-recipes/index.html",
+            "id/notes/jotai-state-manager/index.html",
+            "notes/how-to-setup-husky-nextjs/index.html"
+          ],
+          "region_count": 16,
+          "before": "\"><meta property=\"article:published_time\" content=\"2022-03-23T00:00:00.000Z\"><meta property=\"article:author\" content=\"Riz",
+          "after": "\"><meta property=\"article:published_time\" content=\"2022-03-22T11:00:00.000Z\"><meta property=\"article:author\" content=\"Riz",
+          "example_file": "id/notes/how-to-setup-husky-nextjs/index.html",
+          "comparisons": [
+            "b3"
+          ]
+        },
+        {
+          "id": "D3",
+          "cause": "locale_timezone",
+          "description": "<time datetime> ISO datetime shifts with TZ (src/lib/date.ts dateToISO: new Date(date).toISOString())",
+          "files_count": 12,
+          "files_examples": [
+            "id/index.html",
+            "id/notes/how-to-setup-husky-nextjs/index.html",
+            "id/notes/improving-performance-in-react/index.html",
+            "id/notes/index.html",
+            "id/notes/jotai-recipes/index.html"
+          ],
+          "region_count": 44,
+          "before": "s font-light text-muted-foreground\"><time datetime=\"2023-09-30T00:00:00.000Z\">Sab, 30 September 2023</time></p><h3 class=\"",
+          "after": "s font-light text-muted-foreground\"><time datetime=\"2023-09-29T11:00:00.000Z\">Sab, 30 September 2023</time></p><h3 class=\"",
+          "example_file": "id/index.html",
+          "comparisons": [
+            "b3"
+          ]
+        },
+        {
+          "id": "D4",
+          "cause": "locale_timezone",
+          "description": "JSON-LD datePublished/dateModified ISO datetimes shift with TZ (src/lib/date.ts dateToISO: new Date(date).toISOString())",
+          "files_count": 8,
+          "files_examples": [
+            "id/notes/how-to-setup-husky-nextjs/index.html",
+            "id/notes/improving-performance-in-react/index.html",
+            "id/notes/jotai-recipes/index.html",
+            "id/notes/jotai-state-manager/index.html",
+            "notes/how-to-setup-husky-nextjs/index.html"
+          ],
+          "region_count": 32,
+          "before": ":\"https://rimzzlabs.com/#person\"},\"datePublished\":\"2022-03-23T00:00:00.000Z\",\"dateModified\":\"2022-03-23T00:00:00.000Z\"}]}",
+          "after": ":\"https://rimzzlabs.com/#person\"},\"datePublished\":\"2022-03-22T11:00:00.000Z\",\"dateModified\":\"2022-03-22T11:00:00.000Z\"}]}",
+          "example_file": "id/notes/how-to-setup-husky-nextjs/index.html",
+          "comparisons": [
+            "b3"
+          ]
+        },
+        {
+          "id": "D5",
+          "cause": "other",
+          "description": "Shiki dual-theme (github-light/vitesse-dark) code highlighting non-deterministically assigns the light-theme color of some tokens: the same token (same text, same dark-theme color) receives different light-theme colors across builds (e.g. #D73A49 vs #24292E, #D73A49 vs #032F62); dark-theme colors are always stable",
+          "files_count": 8,
+          "files_examples": [
+            "id/notes/how-to-setup-husky-nextjs/index.html",
+            "id/notes/improving-performance-in-react/index.html",
+            "id/notes/jotai-recipes/index.html",
+            "id/notes/jotai-state-manager/index.html",
+            "notes/how-to-setup-husky-nextjs/index.html"
+          ],
+          "region_count": 704,
+          "before": "line\"><span style=\"color:#D73A49;--shiki-dark:#CB7676\">const</span><span style=\"color:#D73A49;--shiki-dark:#BD976A\"> config</span><span style=\"color:#D73A49;--shiki-dark:#666666\"> =</span><span style=\"color:#D73A49;--shiki-dark:#666666\"> {</span></span>\n<span class=\"line\"><span style=\"color:#6F42C1;--shiki-dark:#B8A965\">  semi</span><span style=\"color:#24292E;--shiki-dark:#666666\">:</span><span style=\"color:#24292E;--shiki-dark:#4D9375\"> false</span><span style=\"color:#24292E;--shiki-dark:#666666\">,</span></span>\n<span class=\"line\"><span style=\"color:#6F42C1;--shiki-dark:#B8A965\">  tabWidth</span><span style=\"color:#24292E;--shiki-dark:#666666\">:</span><span style=\"color:#005CC5;--shiki-dark:#4C9A91\"> 2</",
+          "after": "line\"><span style=\"color:#D73A49;--shiki-dark:#CB7676\">const</span><span style=\"color:#005CC5;--shiki-dark:#BD976A\"> con",
+          "example_file": "id/notes/how-to-setup-husky-nextjs/index.html",
+          "comparisons": [
+            "b2",
+            "b3",
+            "b4"
+          ]
+        }
+      ]
+    },
+    "5c5c0fbc4a40": {
+      "differences": [
+        {
+          "id": "D1",
+          "cause": "build_timestamp",
+          "description": "sitemap <lastmod> stamps the build time (astro.config.mjs: sitemap({ ..., lastmod: new Date(), ... }))",
+          "files_count": 2,
+          "files_examples": [
+            "sitemap-0.xml",
+            "sitemap-index.xml"
+          ],
+          "region_count": 154,
+          "before": "rl><loc>https://rimzzlabs.com/</loc><lastmod>2026-09-25T17:31:24.753Z</lastmod><changefreq>daily</changefreq><priority>1.0</pri",
+          "after": "rl><loc>https://rimzzlabs.com/</loc><lastmod>2026-09-25T17:39:39.689Z</lastmod><changefreq>daily</changefreq><priority>1.0",
+          "example_file": "sitemap-0.xml",
+          "comparisons": [
+            "b2",
+            "b3",
+            "b4"
+          ]
+        },
+        {
+          "id": "D2",
+          "cause": "locale_timezone",
+          "description": "<meta property=\"article:published_time\"> ISO datetime shifts with TZ (src/lib/date.ts dateToISO: new Date(date).toISOString())",
+          "files_count": 8,
+          "files_examples": [
+            "id/notes/how-to-setup-husky-nextjs/index.html",
+            "id/notes/improving-performance-in-react/index.html",
+            "id/notes/jotai-recipes/index.html",
+            "id/notes/jotai-state-manager/index.html",
+            "notes/how-to-setup-husky-nextjs/index.html"
+          ],
+          "region_count": 16,
+          "before": "\"><meta property=\"article:published_time\" content=\"2022-03-23T00:00:00.000Z\"><meta property=\"article:author\" content=\"Riz",
+          "after": "\"><meta property=\"article:published_time\" content=\"2022-03-22T11:00:00.000Z\"><meta property=\"article:author\" content=\"Riz",
+          "example_file": "id/notes/how-to-setup-husky-nextjs/index.html",
+          "comparisons": [
+            "b3"
+          ]
+        },
+        {
+          "id": "D3",
+          "cause": "locale_timezone",
+          "description": "<time datetime> ISO datetime shifts with TZ (src/lib/date.ts dateToISO: new Date(date).toISOString())",
+          "files_count": 12,
+          "files_examples": [
+            "id/index.html",
+            "id/notes/how-to-setup-husky-nextjs/index.html",
+            "id/notes/improving-performance-in-react/index.html",
+            "id/notes/index.html",
+            "id/notes/jotai-recipes/index.html"
+          ],
+          "region_count": 44,
+          "before": "s font-light text-muted-foreground\"><time datetime=\"2023-09-30T00:00:00.000Z\">Sab, 30 September 2023</time></p><h3 class=\"",
+          "after": "s font-light text-muted-foreground\"><time datetime=\"2023-09-29T11:00:00.000Z\">Sab, 30 September 2023</time></p><h3 class=\"",
+          "example_file": "id/index.html",
+          "comparisons": [
+            "b3"
+          ]
+        },
+        {
+          "id": "D4",
+          "cause": "locale_timezone",
+          "description": "JSON-LD datePublished/dateModified ISO datetimes shift with TZ (src/lib/date.ts dateToISO: new Date(date).toISOString())",
+          "files_count": 8,
+          "files_examples": [
+            "id/notes/how-to-setup-husky-nextjs/index.html",
+            "id/notes/improving-performance-in-react/index.html",
+            "id/notes/jotai-recipes/index.html",
+            "id/notes/jotai-state-manager/index.html",
+            "notes/how-to-setup-husky-nextjs/index.html"
+          ],
+          "region_count": 32,
+          "before": ":\"https://rimzzlabs.com/#person\"},\"datePublished\":\"2022-03-23T00:00:00.000Z\",\"dateModified\":\"2022-03-23T00:00:00.000Z\"}]}",
+          "after": ":\"https://rimzzlabs.com/#person\"},\"datePublished\":\"2022-03-22T11:00:00.000Z\",\"dateModified\":\"2022-03-22T11:00:00.000Z\"}]}",
+          "example_file": "id/notes/how-to-setup-husky-nextjs/index.html",
+          "comparisons": [
+            "b3"
+          ]
+        },
+        {
+          "id": "D5",
+          "cause": "other",
+          "description": "Shiki dual-theme (github-light/vitesse-dark) code highlighting non-deterministically assigns the light-theme color of some tokens: the same token (same text, same dark-theme color) receives different light-theme colors across builds (e.g. #D73A49 vs #24292E, #D73A49 vs #032F62); dark-theme colors are always stable",
+          "files_count": 6,
+          "files_examples": [
+            "id/notes/improving-performance-in-react/index.html",
+            "id/notes/jotai-recipes/index.html",
+            "id/notes/jotai-state-manager/index.html",
+            "notes/how-to-setup-husky-nextjs/index.html",
+            "notes/improving-performance-in-react/index.html"
+          ],
+          "region_count": 280,
+          "before": "222E;--shiki-dark:#FF7B72\">import</span><span style=\"color:#CF222E;--shiki-dark:#E6EDF3\"> { Suspense, lazy } </span><span styl",
+          "after": "222E;--shiki-dark:#FF7B72\">import</span><span style=\"color:#1F2328;--shiki-dark:#E6EDF3\"> { Suspense, lazy } </span><span styl",
+          "example_file": "id/notes/improving-performance-in-react/index.html",
+          "comparisons": [
+            "b2",
+            "b3",
+            "b4"
+          ]
+        }
+      ]
+    }
+  },
+  "candidate_rules": [
+    {
+      "addresses_builds": [
+        "b2",
+        "b4"
+      ],
+      "applies_to": "html",
+      "cause": "other",
+      "description": "Unwrap Shiki syntax-highlight <span> elements inside <pre class=\"astro-code\"> blocks, preserving text. Normalizes Shiki's non-deterministic tokenization (span boundaries) and dual-theme token-color assignment.",
+      "id": "R1",
+      "kind": "dom",
+      "measured_effect": "b1<->b2 and b1<->b4: all HTML pages identical after normalization at all 3 commits (16/16, 18/18, 18/18)",
+      "operation": "unwrap",
+      "selector": "pre.astro-code span",
+      "sites_needing_it": [
+        "rimzzlabs/website"
+      ]
+    },
+    {
+      "addresses_builds": [
+        "b2",
+        "b3",
+        "b4"
+      ],
+      "applies_to": "xml",
+      "cause": "build_timestamp",
+      "description": "Normalize sitemap <lastmod> build timestamps (source: astro.config.mjs sitemap({ ..., lastmod: new Date(), ... }))",
+      "id": "R2",
+      "kind": "regex",
+      "pattern": "(<lastmod>)\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}\\.\\d{3}Z(</lastmod>)",
+      "replacement": "\\g<1>2000-01-01T00:00:00.000Z\\g<2>",
+      "sites_needing_it": [
+        "rimzzlabs/website"
+      ]
+    }
+  ]
+}

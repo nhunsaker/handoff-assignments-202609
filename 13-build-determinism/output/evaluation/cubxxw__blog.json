@@ -1,0 +1,92 @@
+{
+ "site": "cubxxw/blog",
+ "slug": "cubxxw__blog",
+ "commits": {
+  "52710aa61c60": {
+   "b1_b2": {
+    "status": "missing_keep",
+    "dirA": "/home/hatch/workspace/13-scratch/cubxxw__blog/kept/52710aa61c60/b1",
+    "dirB": "/home/hatch/workspace/13-scratch/cubxxw__blog/kept/52710aa61c60/b2"
+   },
+   "b1_b3": {
+    "status": "missing_keep",
+    "dirA": "/home/hatch/workspace/13-scratch/cubxxw__blog/kept/52710aa61c60/b1",
+    "dirB": "/home/hatch/workspace/13-scratch/cubxxw__blog/kept/52710aa61c60/b3"
+   },
+   "b1_b4": {
+    "status": "missing_keep",
+    "dirA": "/home/hatch/workspace/13-scratch/cubxxw__blog/kept/52710aa61c60/b1",
+    "dirB": "/home/hatch/workspace/13-scratch/cubxxw__blog/kept/52710aa61c60/b4"
+   }
+  },
+  "7090d6acbb75": {
+   "b1_b2": {
+    "total_common": 623,
+    "only_in_A": 0,
+    "only_in_B": 0,
+    "identical_before": 623,
+    "identical_after": 623
+   },
+   "b1_b3": {
+    "total_common": 623,
+    "only_in_A": 0,
+    "only_in_B": 0,
+    "identical_before": 623,
+    "identical_after": 623
+   },
+   "b1_b4": {
+    "total_common": 623,
+    "only_in_A": 0,
+    "only_in_B": 0,
+    "identical_before": 623,
+    "identical_after": 623
+   }
+  },
+  "e302344a57a8": {
+   "b1_b2": {
+    "total_common": 1135,
+    "only_in_A": 0,
+    "only_in_B": 0,
+    "identical_before": 1132,
+    "identical_after": 1135
+   },
+   "b1_b3": {
+    "total_common": 1135,
+    "only_in_A": 0,
+    "only_in_B": 0,
+    "identical_before": 1113,
+    "identical_after": 1135
+   },
+   "b1_b4": {
+    "total_common": 1135,
+    "only_in_A": 0,
+    "only_in_B": 0,
+    "identical_before": 1135,
+    "identical_after": 1135
+   }
+  },
+  "fed853722c17": {
+   "b1_b2": {
+    "total_common": 930,
+    "only_in_A": 0,
+    "only_in_B": 0,
+    "identical_before": 929,
+    "identical_after": 930
+   },
+   "b1_b3": {
+    "total_common": 930,
+    "only_in_A": 0,
+    "only_in_B": 0,
+    "identical_before": 928,
+    "identical_after": 930
+   },
+   "b1_b4": {
+    "total_common": 930,
+    "only_in_A": 0,
+    "only_in_B": 0,
+    "identical_before": 929,
+    "identical_after": 930
+   }
+  }
+ }
+}

@@ -1,0 +1,252 @@
+[
+  {
+    "commit": "9f656706a11f",
+    "cause": "build_timestamp",
+    "pattern": "epoch",
+    "file_count": 1,
+    "file_examples": [
+      "_app/version.json -> _app/version.json"
+    ],
+    "total_occurrences": 7,
+    "builds": [
+      "b2",
+      "b3",
+      "b4"
+    ],
+    "b1_region": "{\"version\":\"1790355586861\"}",
+    "other_region": "{\"version\":\"1790356188244\"}"
+  },
+  {
+    "commit": "9f656706a11f",
+    "cause": "content_hash_filename",
+    "pattern": "hash_ref",
+    "file_count": 48,
+    "file_examples": [
+      "_app/immutable/chunks/2FEHqU9m.js -> _app/immutable/chunks/8bS_nIkE.js",
+      "_app/immutable/chunks/2FEHqU9m.js -> _app/immutable/chunks/DgZlwIKO.js",
+      "_app/immutable/chunks/2FEHqU9m.js -> _app/immutable/chunks/DnnB57vd.js",
+      "_app/immutable/chunks/BoOKbpM6.js -> _app/immutable/chunks/CSMW7JIG.js",
+      "_app/immutable/chunks/BoOKbpM6.js -> _app/immutable/chunks/Cf_FYdRB.js"
+    ],
+    "total_occurrences": 233,
+    "builds": [
+      "b2",
+      "b3",
+      "b4"
+    ],
+    "b1_region": "ort{s as w}from\"./CftrbOsz.js\";import{V as L,I as N}from\"./DzXiYm3_.js\";import{B as S}from\"./DOnvbizI.js\";import{B as O}from\"./",
+    "other_region": "ort{s as w}from\"./CftrbOsz.js\";import{V as L,I as N}from\"./DZhfeFPk.js\";import{B as S}from\"./DOnvbizI.js\";import{B as O}from\"./"
+  },
+  {
+    "commit": "9f656706a11f",
+    "cause": "other",
+    "pattern": "minified_identifier",
+    "file_count": 3,
+    "file_examples": [
+      "_app/immutable/chunks/BoOKbpM6.js -> _app/immutable/chunks/CSMW7JIG.js",
+      "_app/immutable/chunks/BoOKbpM6.js -> _app/immutable/chunks/Cf_FYdRB.js",
+      "_app/immutable/chunks/BoOKbpM6.js -> _app/immutable/chunks/J4HxAcSr.js"
+    ],
+    "total_occurrences": 161,
+    "builds": [
+      "b2",
+      "b3",
+      "b4"
+    ],
+    "b1_region": ".method:(e==null?void 0:e.method)||\"GET\")!==\"GET\"&&J.delete(Mt(t)),Xe(t,e));const J=new Map;function Ze(t,e){const n=Mt(",
+    "other_region": ".method:(e==null?void 0:e.method)||\"GET\")!==\"GET\"&&J.delete(qt(t)),Xe(t,e));const J=new Map;function Ze(t,e){const n=qt(t,e),a=document.querySelecto"
+  },
+  {
+    "commit": "9f656706a11f",
+    "cause": "random_id",
+    "pattern": "sveltekit_build_id",
+    "file_count": 3,
+    "file_examples": [
+      "_app/immutable/chunks/BoOKbpM6.js -> _app/immutable/chunks/CSMW7JIG.js",
+      "_app/immutable/chunks/BoOKbpM6.js -> _app/immutable/chunks/Cf_FYdRB.js",
+      "_app/immutable/chunks/BoOKbpM6.js -> _app/immutable/chunks/J4HxAcSr.js"
+    ],
+    "total_occurrences": 16,
+    "builds": [
+      "b2",
+      "b3",
+      "b4"
+    ],
+    "b1_region": "ge[t]=a}catch{}}var ge;const x=((ge=globalThis.__sveltekit_1rd1qkd)==null?void 0:ge.base)??\"\";var me;const sn=((me=globalThi",
+    "other_region": "ge[t]=a}catch{}}var ge;const x=((ge=globalThis.__sveltekit_1xhtkop)==null?void 0:ge.base)??\"\";var me;const sn=((me=globalTh"
+  },
+  {
+    "commit": "d7cc3753ea5b",
+    "cause": "build_timestamp",
+    "pattern": "date_string",
+    "file_count": 3,
+    "file_examples": [
+      "_app/immutable/nodes/0.BDCWSxIS.js -> _app/immutable/nodes/0.5VFgPc0W.js",
+      "_app/immutable/nodes/0.BDCWSxIS.js -> _app/immutable/nodes/0.Bja3s9ub.js",
+      "_app/immutable/nodes/0.BDCWSxIS.js -> _app/immutable/nodes/0.CFONX-0x.js"
+    ],
+    "total_occurrences": 7,
+    "builds": [
+      "b2",
+      "b3",
+      "b4"
+    ],
+    "b1_region": "div></div>');function Gt(m,e){N(e,!1);const i=\"25.09.2026, 14:55\";q(),kt(m,{class:\"border-t\",children:(d,c)=>{var a=qt(),r",
+    "other_region": "div></div>');function Gt(m,e){N(e,!1);const i=\"25.09.2026, 15:16\";q(),kt(m,{class:\"border-t\",children:(d,c)=>{var a=qt()"
+  },
+  {
+    "commit": "d7cc3753ea5b",
+    "cause": "build_timestamp",
+    "pattern": "epoch",
+    "file_count": 4,
+    "file_examples": [
+      "_app/immutable/chunks/entry.BwAyU1FI.js -> _app/immutable/chunks/entry.BGti-sN7.js",
+      "_app/immutable/chunks/entry.BwAyU1FI.js -> _app/immutable/chunks/entry.BnIhaL6b.js",
+      "_app/immutable/chunks/entry.BwAyU1FI.js -> _app/immutable/chunks/entry.CfF65LLD.js",
+      "_app/version.json -> _app/version.json"
+    ],
+    "total_occurrences": 21,
+    "builds": [
+      "b2",
+      "b3",
+      "b4"
+    ],
+    "b1_region": " 0:le.base)??\"\";var fe;const on=((fe=globalThis.__sveltekit_j7kyc)==null?void 0:fe.assets)??x,sn=\"1790340639401\",me=\"svelteki",
+    "other_region": " 0:le.base)??\"\";var fe;const on=((fe=globalThis.__sveltekit_oldgd)==null?void 0:fe.assets)??x,sn=\"1790342030199\",me=\"svelteki"
+  },
+  {
+    "commit": "d7cc3753ea5b",
+    "cause": "content_hash_filename",
+    "pattern": "hash_ref",
+    "file_count": 34,
+    "file_examples": [
+      "_app/immutable/chunks/AlertModal.jWGgi0Ji.js -> _app/immutable/chunks/AlertModal.BJ-YcM0Y.js",
+      "_app/immutable/chunks/AlertModal.jWGgi0Ji.js -> _app/immutable/chunks/AlertModal.DE_p3fb_.js",
+      "_app/immutable/chunks/AlertModal.jWGgi0Ji.js -> _app/immutable/chunks/AlertModal.Dr19kV82.js",
+      "_app/immutable/chunks/entry.BwAyU1FI.js -> _app/immutable/chunks/entry.BGti-sN7.js",
+      "_app/immutable/chunks/stores.7lL5yvD8.js -> _app/immutable/chunks/stores.CZDO210r.js"
+    ],
+    "total_occurrences": 189,
+    "builds": [
+      "b2",
+      "b3",
+      "b4"
+    ],
+    "b1_region": "ps.DpdU_Mj8.js\";import{a as Le,e as it,s as dt}from\"./toast.axzij-1y.js\";import{c as ct}from\"./entry.BwAyU1FI.js\";import\"./dayj",
+    "other_region": "ps.DpdU_Mj8.js\";import{a as Le,e as it,s as dt}from\"./toast.ljfwyAUa.js\";import{c as ct}from\"./entry.BnIhaL6b.js\";import\"./d"
+  },
+  {
+    "commit": "d7cc3753ea5b",
+    "cause": "other",
+    "pattern": "minified_identifier",
+    "file_count": 3,
+    "file_examples": [
+      "_app/immutable/chunks/entry.BwAyU1FI.js -> _app/immutable/chunks/entry.BGti-sN7.js",
+      "_app/immutable/chunks/entry.BwAyU1FI.js -> _app/immutable/chunks/entry.BnIhaL6b.js",
+      "_app/immutable/chunks/entry.BwAyU1FI.js -> _app/immutable/chunks/entry.CfF65LLD.js"
+    ],
+    "total_occurrences": 229,
+    "builds": [
+      "b2",
+      "b3",
+      "b4"
+    ],
+    "b1_region": "TypeError(t)};var Be=(t,e,n)=>e.has(t)||Zt(\"Cannot \"+n);var k=(t,e,n)=>(Be(t,e,\"read from private field\"),n?n.call(t):e.g",
+    "other_region": "TypeError(t)};var Be=(t,e,n)=>e.has(t)||Zt(\"Cannot \"+n);var A=(t,e,n)=>(Be(t,e,\"read from private field\"),n?n.call(t):e.g"
+  },
+  {
+    "commit": "d7cc3753ea5b",
+    "cause": "random_id",
+    "pattern": "sveltekit_build_id",
+    "file_count": 3,
+    "file_examples": [
+      "_app/immutable/chunks/entry.BwAyU1FI.js -> _app/immutable/chunks/entry.BGti-sN7.js",
+      "_app/immutable/chunks/entry.BwAyU1FI.js -> _app/immutable/chunks/entry.BnIhaL6b.js",
+      "_app/immutable/chunks/entry.BwAyU1FI.js -> _app/immutable/chunks/entry.CfF65LLD.js"
+    ],
+    "total_occurrences": 3,
+    "builds": [
+      "b2",
+      "b3",
+      "b4"
+    ],
+    "b1_region": "age[t]=r}catch{}}var le;const x=((le=globalThis.__sveltekit_j7kyc)==null?void 0:le.base)??\"\";var fe;const on=((fe=globalThis.",
+    "other_region": "age[t]=r}catch{}}var le;const x=((le=globalThis.__sveltekit_oldgd)==null?void 0:le.base)??\"\";var fe;const on=((fe=globalThis."
+  },
+  {
+    "commit": "fb9db8dc9e75",
+    "cause": "build_timestamp",
+    "pattern": "epoch",
+    "file_count": 1,
+    "file_examples": [
+      "_app/version.json -> _app/version.json"
+    ],
+    "total_occurrences": 8,
+    "builds": [
+      "b2",
+      "b3",
+      "b4"
+    ],
+    "b1_region": "{\"version\":\"1790359193446\"}",
+    "other_region": "{\"version\":\"1790359664877\"}"
+  },
+  {
+    "commit": "fb9db8dc9e75",
+    "cause": "content_hash_filename",
+    "pattern": "hash_ref",
+    "file_count": 56,
+    "file_examples": [
+      "_app/immutable/chunks/B6CCC_0O.js -> _app/immutable/chunks/Be7-7bs8.js",
+      "_app/immutable/chunks/B6CCC_0O.js -> _app/immutable/chunks/CaJGya7h.js",
+      "_app/immutable/chunks/B6CCC_0O.js -> _app/immutable/chunks/Q64eU0jN.js",
+      "_app/immutable/chunks/BBuDhLFI.js -> _app/immutable/chunks/CD76JOMY.js",
+      "_app/immutable/chunks/BBuDhLFI.js -> _app/immutable/chunks/DajWxN47.js"
+    ],
+    "total_occurrences": 293,
+    "builds": [
+      "b2",
+      "b3",
+      "b4"
+    ],
+    "b1_region": "import{i as x,a as T,p as H,b as M}from\"./BBuDhLFI.js\";import{w as k}from\"./DDIOwHFr.js\";function D(a){co",
+    "other_region": "import{i as x,a as T,p as H,b as M}from\"./CD76JOMY.js\";import{w as k}from\"./DDIOwHFr.js\";function D(a){"
+  },
+  {
+    "commit": "fb9db8dc9e75",
+    "cause": "other",
+    "pattern": "minified_identifier",
+    "file_count": 3,
+    "file_examples": [
+      "_app/immutable/chunks/BBuDhLFI.js -> _app/immutable/chunks/BXiCHt-U.js",
+      "_app/immutable/chunks/BBuDhLFI.js -> _app/immutable/chunks/CD76JOMY.js",
+      "_app/immutable/chunks/BBuDhLFI.js -> _app/immutable/chunks/DajWxN47.js"
+    ],
+    "total_occurrences": 81,
+    "builds": [
+      "b2",
+      "b3",
+      "b4"
+    ],
+    "b1_region": "ice(0,-1):t:e===\"always\"&&!t.endsWith(\"/\")?t+\"/\":t}function ze(t){return t.split(\"%25\").map(decodeURI).join(\"%25\")}functi",
+    "other_region": "ice(0,-1):t:e===\"always\"&&!t.endsWith(\"/\")?t+\"/\":t}function Je(t){return t.split(\"%25\").map(decodeURI).join(\"%25\")}functi"
+  },
+  {
+    "commit": "fb9db8dc9e75",
+    "cause": "random_id",
+    "pattern": "sveltekit_build_id",
+    "file_count": 3,
+    "file_examples": [
+      "_app/immutable/chunks/BBuDhLFI.js -> _app/immutable/chunks/BXiCHt-U.js",
+      "_app/immutable/chunks/BBuDhLFI.js -> _app/immutable/chunks/CD76JOMY.js",
+      "_app/immutable/chunks/BBuDhLFI.js -> _app/immutable/chunks/DajWxN47.js"
+    ],
+    "total_occurrences": 13,
+    "builds": [
+      "b2",
+      "b3",
+      "b4"
+    ],
+    "b1_region": "ge[t]=a}catch{}}var me;const x=((me=globalThis.__sveltekit_1byudlk)==null?void 0:me.base)??\"\";var ye;const un=((ye=globalThis.",
+    "other_region": "ge[t]=a}catch{}}var me;const x=((me=globalThis.__sveltekit_1azvc1l)==null?void 0:me.base)??\"\";var ye;const un=((ye=globalThis."
+  }
+]

@@ -1,0 +1,311 @@
+{
+ "site": "nemanjam__nemanjam.github.io",
+ "commits": {
+  "6333be10bf83": {
+   "b1_b2": {
+    "same_path_differ": 17,
+    "only_in_b1": 52,
+    "only_in_b2": 52
+   },
+   "differences": [
+    {
+     "cause": "random_id",
+     "files_count": 11,
+     "files_examples": [
+      "blog/index.html",
+      "blog/tags/react/index.html",
+      "blog/categories/tutorials/index.html",
+      "blog/1/index.html",
+      "blog/tags/python/index.html"
+     ],
+     "region_before": "Dolor velit excepteur cupidatat aute in fugiat id reprehenderit ipsum qui tempor fugiat. Excepteur tempor culpa velit duis quis\u2026",
+     "region_after": "Dolor velit excepteur cupidatat aute in fugiat id reprehenderit ipsum qui tempor fugiat. Excepteur tempor culpa velit duis quis enim aliquip. Et\u2026",
+     "seen_in": [
+      "b2",
+      "b3",
+      "b4"
+     ],
+     "note": "From getRandomLengthSubstring(description, 100, 50) in PostItem.astro; only listing pages."
+    },
+    {
+     "cause": "content_hash_filename",
+     "files_count": 47,
+     "files_examples": [
+      "blog/index.html",
+      "blog/tags/react/index.html",
+      "_astro/river1.C67X_4bq_4gGG4.webp"
+     ],
+     "region_before": "/_astro/riverside1.D2xAI4x9_28gVTp.webp",
+     "region_after": "/_astro/riverside1.D2xAI4x9_2fD9B0.webp",
+     "seen_in": [
+      "b2",
+      "b3",
+      "b4"
+     ],
+     "note": "Transform hash suffix (_<tHash>) depends on absolute worktree path via Astro src.fsPath. Verified: wt-6333be10bf83-b1 -> 10NMxg, wt-6333be10bf83-b2 -> 2fD9B0, identical image sha256 5ec16b1fa89c3bf705822cd612feaa2992d2b0d996aba0f0c2c6ffdcc2bab150."
+    },
+    {
+     "cause": "other",
+     "files_count": 3,
+     "files_examples": [
+      "blog/2024-01-16-example-article-1/index.html",
+      "blog/2024-01-17-example-article-2/index.html",
+      "styleguide/index.html"
+     ],
+     "region_before": "<span style=\"color:#86E1FC\"> return Math.PI * Math.pow(radius, 2);</span>",
+     "region_after": "<span style=\"color:#86E1FC\"> return</span><span style=\"color:#FFC777\"> Math</span><span style=\"color:#86E1FC\">.PI</span>",
+     "seen_in": [
+      "b2",
+      "b3",
+      "b4"
+     ],
+     "note": "Nondeterministic Shiki/rehype-pretty-code span segmentation. Cannot be safely normalized."
+    },
+    {
+     "cause": "build_timestamp",
+     "files_count": 1,
+     "files_examples": [
+      "feed.xml"
+     ],
+     "region_before": "<lastBuildDate>Fri, 25 Sep 2026 15:53:15 GMT</lastBuildDate>",
+     "region_after": "<lastBuildDate>Fri, 25 Sep 2026 16:30:33 GMT</lastBuildDate>",
+     "seen_in": [
+      "b2",
+      "b3",
+      "b4"
+     ],
+     "note": "RSS feed build date."
+    },
+    {
+     "cause": "other",
+     "files_count": 1,
+     "files_examples": [
+      "_astro/hoisted.C3UjtfWe.js.map"
+     ],
+     "region_before": "Absolute worktree path embedded in nested inline sourcemap",
+     "region_after": "Different absolute worktree path",
+     "seen_in": [
+      "b2",
+      "b3",
+      "b4"
+     ],
+     "note": "Sourcemap contains build machine path."
+    },
+    {
+     "cause": "content_hash_filename",
+     "files_count": 2,
+     "files_examples": [
+      "_astro/hoisted.*.js.map"
+     ],
+     "region_before": "Hashed SSR chunk sourcemap filename differs",
+     "region_after": "Different hash",
+     "seen_in": [
+      "b2",
+      "b3",
+      "b4"
+     ],
+     "note": "Sourcemap filenames for hashed chunks."
+    }
+   ]
+  },
+  "0b7c59fd2a7f": {
+   "b1_b2": {
+    "same_path_differ": 45,
+    "only_in_b1": 42,
+    "only_in_b2": 42
+   },
+   "differences": [
+    {
+     "cause": "content_hash_filename",
+     "files_count": 39,
+     "files_examples": [
+      "blog/index.html",
+      "projects/index.html"
+     ],
+     "region_before": "/_astro/riverside1.D2xAI4x9_28gVTp.webp",
+     "region_after": "/_astro/riverside1.D2xAI4x9_2fD9B0.webp",
+     "seen_in": [
+      "b2",
+      "b3",
+      "b4"
+     ],
+     "note": "39 HTML files differ ONLY by transformed-image URLs; identical after normalizing _<tHash> suffix."
+    },
+    {
+     "cause": "other",
+     "files_count": 5,
+     "files_examples": [
+      "blog/2022-02-16-example-article-1/index.html",
+      "blog/2024-01-20-example-article-4/index.html",
+      "api/feed.json"
+     ],
+     "region_before": "<span style=\"color:#86E1FC\"> return Math.PI * Math.pow(radius, 2);</span>",
+     "region_after": "<span style=\"color:#86E1FC\"> return</span><span style=\"color:#FFC777\"> Math</span>",
+     "seen_in": [
+      "b2",
+      "b3",
+      "b4"
+     ],
+     "note": "Shiki span segmentation in 4 articles + api/feed.json. Cannot be safely normalized."
+    },
+    {
+     "cause": "build_timestamp",
+     "files_count": 1,
+     "files_examples": [
+      "api/feed.xml"
+     ],
+     "region_before": "<lastBuildDate>...</lastBuildDate> with b1 timestamp",
+     "region_after": "<lastBuildDate>...</lastBuildDate> with b2 timestamp",
+     "seen_in": [
+      "b2",
+      "b3",
+      "b4"
+     ],
+     "note": "RSS feed build date."
+    }
+   ]
+  },
+  "7fed9b43b849": {
+   "b1_b2": {
+    "same_path_differ": 74,
+    "only_in_b1": 33,
+    "only_in_b2": 33
+   },
+   "differences": [
+    {
+     "cause": "content_hash_filename",
+     "files_count": 39,
+     "files_examples": [
+      "blog/index.html",
+      "projects/index.html"
+     ],
+     "region_before": "/_astro/riverside1.D2xAI4x9_28gVTp.webp",
+     "region_after": "/_astro/riverside1.D2xAI4x9_2fD9B0.webp",
+     "seen_in": [
+      "b2",
+      "b3",
+      "b4"
+     ],
+     "note": "39 HTML files differ ONLY by transformed-image URLs."
+    },
+    {
+     "cause": "random_id",
+     "files_count": 28,
+     "files_examples": [
+      "og-image PNG files"
+     ],
+     "region_before": "Open-graph PNG with one random background image",
+     "region_after": "Open-graph PNG with different random background image",
+     "seen_in": [
+      "b2",
+      "b3",
+      "b4"
+     ],
+     "note": "From: const randomIndex = Math.floor(Math.random() * imageFiles.length); in og-image generation."
+    },
+    {
+     "cause": "random_id",
+     "files_count": 1,
+     "files_examples": [
+      "gallery/index.html"
+     ],
+     "region_before": "<astro-island uid=\"24vCCj\"",
+     "region_after": "<astro-island uid=\"Z1IdXql\"",
+     "seen_in": [
+      "b2",
+      "b3",
+      "b4"
+     ],
+     "note": "Astro island UID is random per build."
+    },
+    {
+     "cause": "ordering",
+     "files_count": 1,
+     "files_examples": [
+      "gallery/index.html"
+     ],
+     "region_before": "props=\"{\\\"images\\\":[[raft2,...],[nis1,...]]}\" (b1 order)",
+     "region_after": "props=\"{\\\"images\\\":[[nis1,...],[raft2,...]]}\" (b2 order)",
+     "seen_in": [
+      "b2",
+      "b3",
+      "b4"
+     ],
+     "note": "From randomizeArray(reactImages) in Gallery.astro; image order shuffled per build."
+    },
+    {
+     "cause": "other",
+     "files_count": 5,
+     "files_examples": [
+      "blog/2022-02-16-example-article-1/index.html",
+      "api/feed.json"
+     ],
+     "region_before": "<span style=\"color:#86E1FC\"> return Math.PI * Math.pow(radius, 2);</span>",
+     "region_after": "<span style=\"color:#86E1FC\"> return</span><span style=\"color:#FFC777\"> Math</span>",
+     "seen_in": [
+      "b2",
+      "b3",
+      "b4"
+     ],
+     "note": "Shiki span segmentation. Cannot be safely normalized."
+    },
+    {
+     "cause": "build_timestamp",
+     "files_count": 1,
+     "files_examples": [
+      "api/feed.xml"
+     ],
+     "region_before": "<lastBuildDate>...</lastBuildDate> with b1 timestamp",
+     "region_after": "<lastBuildDate>...</lastBuildDate> with b2 timestamp",
+     "seen_in": [
+      "b2",
+      "b3",
+      "b4"
+     ],
+     "note": "RSS feed build date."
+    },
+    {
+     "cause": "locale_timezone",
+     "files_count": 20,
+     "files_examples": [
+      "_astro/hoisted.DWQrsyY0.js",
+      "index.html",
+      "blog/index.html"
+     ],
+     "region_before": "<script type=\"module\" src=\"/_astro/hoisted.DWQrsyY0.js\"> (module order: lite-youtube, lite-vimeo, ...)",
+     "region_after": "<script type=\"module\" src=\"/_astro/hoisted.jq1NPnyC.js\"> (module order: lite-vimeo, lite-youtube, ...)",
+     "seen_in": [
+      "b3"
+     ],
+     "note": "b1==b2 but b3 differs. Module order in hoisted JS changes under de_DE.UTF-8 locale. 3 JS files + 17 HTML files referencing them. All 17 HTML identical after normalizing hoisted.*.js filename."
+    }
+   ]
+  }
+ },
+ "signal_pair": {
+  "before": "6333be10bf83",
+  "after": "5dc35d9eb87d",
+  "changed_files": [
+   "src/content/post/2024-01-16-example-article-1.mdx",
+   "src/content/post/2024-01-17-example-article-2.mdx",
+   "src/content/post/2024-01-19-example-article-3.mdx",
+   "src/content/post/2024-01-20-example-article-4 copy.mdx",
+   "src/content/post/2024-01-21-example-article-5.mdx",
+   "src/content/post/_images/2024-01-19-example-article-3/lure1.jpg",
+   "src/content/post/_images/2024-01-20-example-article-4/river1.jpg",
+   "src/content/post/_images/2024-01-21-example-article-5/morning1.jpg",
+   "src/content/project/2024-02-13-example-project-1.mdx",
+   "src/content/project/2024-02-15-example-project-2.mdx",
+   "src/content/project/2024-02-16-example-project-3.mdx",
+   "src/content/project/_images/2024-02-16-example-project-3/morning1.jpg",
+   "src/pages/blog/[...page].astro",
+   "src/pages/blog/[slug].astro",
+   "src/pages/blog/categories/[category]/[...page].astro",
+   "src/pages/blog/categories/index.astro",
+   "src/pages/blog/tags/[tag]/[...page].astro",
+   "src/pages/blog/tags/index.astro",
+   "src/pages/projects/[...page].astro",
+   "src/pages/projects/[slug].astro"
+  ]
+ }
+}

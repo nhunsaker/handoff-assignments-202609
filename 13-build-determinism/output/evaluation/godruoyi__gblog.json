@@ -1,0 +1,52 @@
+{
+ "site": "godruoyi/gblog",
+ "slug": "godruoyi__gblog",
+ "commits": {
+  "2a505c3d70af": {
+   "b1_b2": {
+    "total_common": 85,
+    "only_in_A": 0,
+    "only_in_B": 0,
+    "identical_before": 85,
+    "identical_after": 85
+   },
+   "b1_b3": {
+    "total_common": 85,
+    "only_in_A": 0,
+    "only_in_B": 0,
+    "identical_before": 85,
+    "identical_after": 85
+   },
+   "b1_b4": {
+    "total_common": 85,
+    "only_in_A": 0,
+    "only_in_B": 0,
+    "identical_before": 85,
+    "identical_after": 85
+   }
+  },
+  "b5bebb21bad5": {
+   "b1_b2": {
+    "total_common": 9,
+    "only_in_A": 0,
+    "only_in_B": 0,
+    "identical_before": 9,
+    "identical_after": 9
+   },
+   "b1_b3": {
+    "total_common": 9,
+    "only_in_A": 0,
+    "only_in_B": 0,
+    "identical_before": 1,
+    "identical_after": 9
+   },
+   "b1_b4": {
+    "total_common": 9,
+    "only_in_A": 0,
+    "only_in_B": 0,
+    "identical_before": 9,
+    "identical_after": 9
+   }
+  }
+ }
+}

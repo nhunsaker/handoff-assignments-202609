@@ -1,0 +1,14 @@
+{
+ "site": "nemanjam/nemanjam.github.io",
+ "slug": "nemanjam__nemanjam.github.io",
+ "for_b3_rules": false,
+ "common_pages": 21,
+ "only_before": 2,
+ "only_after": 11,
+ "diff_before": 21,
+ "diff_after": 21,
+ "became_identical": 0,
+ "flagged_pages": [],
+ "signal_lost": false,
+ "analysis": "21/21 pages differ before and after; 0 became identical."
+}

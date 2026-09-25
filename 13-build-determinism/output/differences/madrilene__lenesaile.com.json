@@ -1,0 +1,128 @@
+{
+  "repo": "madrilene/lenesaile.com",
+  "sha12": "5c24158e6c6a",
+  "b1_b2_html_byte_identical": true,
+  "b1_b2_note": "b1<->b2: 295 files, 0 only-in-either, 3 differing (blog.xml, feed.xml, sitemap.xml - all build_timestamp). All 122 HTML pages byte-identical. No b1/b2 normalization rule proposed.",
+  "differences": [
+    {
+      "id": "D1",
+      "cause": "build_timestamp",
+      "pattern": "<updated> feed timestamp equals build time",
+      "files": {
+        "count": 2,
+        "examples": [
+          "blog.xml",
+          "feed.xml"
+        ]
+      },
+      "region_before": "tp://blog.xml/\" rel=\"self\" type=\"application/atom+xml\" />\n  <updated>2026-09-25T13:15:50Z</updated>",
+      "region_after": "tp://blog.xml/\" rel=\"self\" type=\"application/atom+xml\" />\n  <updated>2026-09-25T13:42:29Z</updated>",
+      "region_before_verbatim": "<updated>2026-09-25T13:15:50Z</updated>",
+      "region_after_verbatim": "<updated>2026-09-25T13:42:29Z</updated>",
+      "comparisons": [
+        "b2",
+        "b3",
+        "b4"
+      ],
+      "notes": "b1 blog.xml <updated>2026-09-25T13:15:50Z</updated> within b1 build window 13:13:43-13:18:45Z; b2 <updated>2026-09-25T17:03:15Z</updated>; b3 <updated>2026-09-25T13:42:29Z</updated> within b3 build window. Feed generation time, not content. b1<->b4: same files differ (fresh reinstall, no dependency_resolution differences); all HTML byte-identical."
+    },
+    {
+      "id": "D2",
+      "cause": "build_timestamp",
+      "pattern": "<lastmod> sitemap entries stamped at build time (29 of 74; 45 content-date entries stable)",
+      "files": {
+        "count": 1,
+        "examples": [
+          "sitemap.xml"
+        ]
+      },
+      "region_before_verbatim": "<lastmod>2026-09-25T13:11:41.907Z</lastmod>",
+      "region_after_verbatim": "<lastmod>2026-09-25T13:36:33.208Z</lastmod>",
+      "comparisons": [
+        "b2",
+        "b3",
+        "b4"
+      ],
+      "notes": "b1<->b2: same 29 entries differ (b1 13:11:41Z vs b2 16:04:23Z); 45 content-date lastmod entries byte-identical. Build-time file generation stamps. b1<->b4: same files differ (fresh reinstall, no dependency_resolution differences); all HTML byte-identical.",
+      "region_before": "        <loc>http://localhost:8080/tags/blog/</loc>\n        <lastmod>2026-09-25T13:11:41.907Z</lastmod>\n        <changefreq>monthly</changefreq>\n    </url>\n    \n  ",
+      "region_after": "        <loc>http://localhost:8080/tags/blog/</loc>\n        <lastmod>2026-09-25T13:36:33.208Z</lastmod>\n        <changefreq>monthly</changefreq>\n    </url>\n    \n  ",
+      "region_note": "representative of 29 same-pattern <lastmod> regions in sitemap.xml; extracted from worker verifydiff-b3.json (b1 vs b3 on-disk comparison)"
+    },
+    {
+      "id": "D3",
+      "cause": "locale_timezone",
+      "pattern": "<time datetime=ISO>DISPLAY</time> rendered date shifts +1 day under TZ=Pacific/Auckland",
+      "files": {
+        "count": 14,
+        "examples": [
+          "de/blog/index.html",
+          "de/blog/organisierung-der-eleventy-config-datei/index.html",
+          "de/blog/uber-subgrid-und-farbige-rasterlinien/index.html",
+          "de/blog/ubernahme-von-grid-abmessungen-von-geschwistern-dank-subgrid/index.html",
+          "de/index.html"
+        ]
+      },
+      "all_files": [
+        "de/blog/index.html",
+        "de/blog/organisierung-der-eleventy-config-datei/index.html",
+        "de/blog/uber-subgrid-und-farbige-rasterlinien/index.html",
+        "de/blog/ubernahme-von-grid-abmessungen-von-geschwistern-dank-subgrid/index.html",
+        "de/index.html",
+        "en/blog/about-subgrid-and-colored-grid-lines/index.html",
+        "en/blog/index.html",
+        "en/blog/inheriting-grid-dimensions-from-siblings-with-subgrid/index.html",
+        "en/index.html",
+        "es/blog/adopcion-de-dimensiones-de-rejilla-de-hermanos-gracias-a-subgrid/index.html",
+        "es/blog/estructuracion-del-archivo-de-configuracion-de-eleventy/index.html",
+        "es/blog/index.html",
+        "es/blog/sobre-subgrid-y-lineas-coloreadas/index.html",
+        "es/index.html"
+      ],
+      "region_before_verbatim": "<time datetime=\"2024-01-02T11:30:00.000Z\">January 2, 2024</time>",
+      "region_after_verbatim": "<time datetime=\"2024-01-02T11:30:00.000Z\">January 3, 2024</time>",
+      "region_before_context": "s=\"meta | cluster flow-space-xs\"><span class=\"flow-space-s\"><time datetime=\"2024-01-02T11:30:00.000Z\">January 2, 2024</time></span></div>\n  <p>Was ich erreichen möchte, ist die vertika",
+      "region_after_context": "s=\"meta | cluster flow-space-xs\"><span class=\"flow-space-s\"><time datetime=\"2024-01-02T11:30:00.000Z\">January 3, 2024</time></span></div>\n  <p>Was ich erreichen möchte, ist die vertika",
+      "comparisons": [
+        "b3"
+      ],
+      "notes": "datetime attribute unchanged (machine-readable ISO); only human-readable display date shifts. E.g. 2024-01-02T11:30:00.000Z renders 'January 2, 2024' in b1 (UTC) vs 'January 3, 2024' in b3 (Pacific/Auckland, UTC+12/+13). 20 regions across 14 HTML files. b1<->b2 HTML byte-identical (0 such diffs).",
+      "region_before": "s=\"meta | cluster flow-space-xs\"><span class=\"flow-space-s\"><time datetime=\"2024-01-02T11:30:00.000Z\">January 2, 2024</time></span></div>\n  <p>Was ich erreichen möchte, ist die vertika",
+      "region_after": "s=\"meta | cluster flow-space-xs\"><span class=\"flow-space-s\"><time datetime=\"2024-01-02T11:30:00.000Z\">January 3, 2024</time></span></div>\n  <p>Was ich erreichen möchte, ist die vertika",
+      "region_note": "representative of 20 same-pattern <time> regions across 14 HTML files (de/blog/index.html); extracted from worker verifydiff-b3.json (b1 vs b3 on-disk comparison)"
+    }
+  ],
+  "candidate_rules": [
+    {
+      "id": "R1",
+      "cause": "build_timestamp",
+      "applies_to": "xml",
+      "kind": "regex",
+      "pattern": "(<updated>)\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}(:\\d{2})?Z(</updated>)",
+      "replacement": "\\g<1>0\\g<3>",
+      "addresses_build": "b3",
+      "note": "normalizes feed <updated> build timestamps; b2 also shows D1 but b1<->b2 HTML already identical so no b1/b2 rule proposed"
+    },
+    {
+      "id": "R2",
+      "cause": "build_timestamp",
+      "applies_to": "xml",
+      "kind": "regex",
+      "pattern": "(<lastmod>)\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}(:\\d{2})?(\\.\\d+)?Z(</lastmod>)",
+      "replacement": "\\g<1>0\\g<4>",
+      "addresses_build": "b3",
+      "note": "normalizes sitemap build-time <lastmod>; 45 content-date entries unaffected (pattern matches but replacement only changes build-day values; content dates would also be normalized - scoped by addresses_build to b3 comparison)"
+    },
+    {
+      "id": "R3",
+      "cause": "locale_timezone",
+      "applies_to": "html",
+      "kind": "regex",
+      "pattern": "(<time datetime=\"[^\"]+\">)[^<]*(</time>)",
+      "replacement": "\\g<1>DATE\\g<2>",
+      "addresses_build": "b3",
+      "note": "normalizes human-readable date display inside <time>; datetime attribute (machine data) preserved"
+    }
+  ],
+  "b1_b4_html_byte_identical": true,
+  "b1_b4_note": "b1<->b4: 295 files, 0 only-in-either, 3 differing (blog.xml, feed.xml, sitemap.xml - all build_timestamp). Fresh npm ci from scratch; no dependency_resolution differences. No b4-specific rule proposed."
+}

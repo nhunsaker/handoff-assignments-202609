@@ -1,0 +1,343 @@
+{
+ "assignment": "13-build-determinism",
+ "date": "2026-09-25",
+ "sites": {
+  "hnpf__stabbed.wtf": {
+   "repo": "hnpf/stabbed.wtf",
+   "manifests": 13,
+   "commits": 4,
+   "differences_count": 2,
+   "rules": [],
+   "rules_count": 0,
+   "b1_b2_evaluation": {
+    "0b799cab": {
+     "identical_before": 1,
+     "identical_after": 1,
+     "total": 1
+    },
+    "3df9004f": {
+     "identical_before": 10,
+     "identical_after": 10,
+     "total": 10
+    },
+    "e5372824": {
+     "identical_before": 1,
+     "identical_after": 1,
+     "total": 1
+    }
+   },
+   "signal_lost": false
+  },
+  "tempertemper__www.tempertemper.net": {
+   "repo": "tempertemper/www.tempertemper.net",
+   "manifests": 14,
+   "commits": 5,
+   "differences_count": 4,
+   "rules": [
+    "cache-buster-q",
+    "category-order-mask",
+    "category-page-num-mask"
+   ],
+   "rules_count": 3,
+   "b1_b2_evaluation": {
+    "06f96f78": {
+     "identical_before": 547,
+     "identical_after": 547,
+     "total": 547
+    },
+    "2cda2bdd": {
+     "identical_before": 0,
+     "identical_after": 592,
+     "total": 592
+    }
+   },
+   "signal_lost": false
+  },
+  "madrilene__lenesaile.com": {
+   "repo": "madrilene/lenesaile.com",
+   "manifests": 5,
+   "commits": 2,
+   "differences_count": 3,
+   "rules": [
+    "madrilene-time-display",
+    "feed-updated",
+    "sitemap-lastmod"
+   ],
+   "rules_count": 3,
+   "b1_b2_evaluation": {
+    "322bacec": {
+     "identical_before": 89,
+     "identical_after": 89,
+     "total": 89
+    },
+    "5c24158e": {
+     "identical_before": 89,
+     "identical_after": 89,
+     "total": 89
+    }
+   },
+   "signal_lost": false
+  },
+  "alexcarpenter__alexcarpenter.me": {
+   "repo": "alexcarpenter/alexcarpenter.me",
+   "manifests": 13,
+   "commits": 4,
+   "differences_count": 3,
+   "rules": [
+    "shiki-unwrap",
+    "alex-present-time"
+   ],
+   "rules_count": 2,
+   "b1_b2_evaluation": {
+    "4c5da684": {
+     "identical_before": 71,
+     "identical_after": 80,
+     "total": 80
+    },
+    "502724d6": {
+     "identical_before": 39,
+     "identical_after": 51,
+     "total": 51
+    },
+    "e3641869": {
+     "identical_before": 1,
+     "identical_after": 3,
+     "total": 3
+    }
+   },
+   "signal_lost": false
+  },
+  "efcl__efcl.github.io": {
+   "repo": "efcl/efcl.github.io",
+   "manifests": 13,
+   "commits": 4,
+   "differences_count": 2,
+   "rules": [],
+   "rules_count": 0,
+   "b1_b2_evaluation": {
+    "0021db21": {
+     "identical_before": 935,
+     "identical_after": 935,
+     "total": 935
+    },
+    "889a2a84": {
+     "identical_before": 940,
+     "identical_after": 940,
+     "total": 940
+    },
+    "ef571729": {
+     "identical_before": 945,
+     "identical_after": 945,
+     "total": 945
+    }
+   },
+   "signal_lost": false
+  },
+  "rimzzlabs__website": {
+   "repo": "rimzzlabs/website",
+   "manifests": 12,
+   "commits": 3,
+   "differences_count": 16,
+   "rules": [
+    "shiki-unwrap",
+    "sitemap-lastmod"
+   ],
+   "rules_count": 2,
+   "b1_b2_evaluation": {
+    "328e90f1": {
+     "identical_before": 8,
+     "identical_after": 16,
+     "total": 16
+    },
+    "59c612e4": {
+     "identical_before": 10,
+     "identical_after": 18,
+     "total": 18
+    },
+    "5c5c0fbc": {
+     "identical_before": 14,
+     "identical_after": 18,
+     "total": 18
+    }
+   },
+   "signal_lost": false
+  },
+  "godruoyi__gblog": {
+   "repo": "godruoyi/gblog",
+   "manifests": 8,
+   "commits": 2,
+   "differences_count": 2,
+   "rules": [
+    "godruoyi-time-tz",
+    "godruoyi-pubdate"
+   ],
+   "rules_count": 2,
+   "b1_b2_evaluation": {
+    "2a505c3d": {
+     "identical_before": 85,
+     "identical_after": 85,
+     "total": 85
+    },
+    "b5bebb21": {
+     "identical_before": 9,
+     "identical_after": 9,
+     "total": 9
+    }
+   },
+   "signal_lost": false
+  },
+  "cubxxw__blog": {
+   "repo": "cubxxw/blog",
+   "manifests": 13,
+   "commits": 4,
+   "differences_count": 3,
+   "rules": [
+    "chroma-text",
+    "cubxxw-hp-date",
+    "opml-datecreated"
+   ],
+   "rules_count": 3,
+   "b1_b2_evaluation": {
+    "7090d6ac": {
+     "identical_before": 623,
+     "identical_after": 623,
+     "total": 623
+    },
+    "e302344a": {
+     "identical_before": 1132,
+     "identical_after": 1135,
+     "total": 1135
+    },
+    "fed85372": {
+     "identical_before": 929,
+     "identical_after": 930,
+     "total": 930
+    }
+   },
+   "signal_lost": false
+  },
+  "yunyuyuan__nuxt3-blog": {
+   "repo": "yunyuyuan/nuxt3-blog",
+   "manifests": 13,
+   "commits": 4,
+   "differences_count": 16,
+   "rules": [
+    "nuxt-prerenderedAt",
+    "nuxt-time-gmt",
+    "nuxt-asset-hash",
+    "nuxt-meta-uuid",
+    "nuxt-buildid",
+    "nuxt-cssmod",
+    "nuxt-tz-span",
+    "nuxt-tz-jil",
+    "nuxt-tz-b",
+    "nuxt-tz-bare"
+   ],
+   "rules_count": 10,
+   "b1_b2_evaluation": {
+    "40b7bb51": {
+     "identical_before": 1,
+     "identical_after": 169,
+     "total": 169
+    },
+    "a28de421": {
+     "identical_before": 1,
+     "identical_after": 158,
+     "total": 158
+    },
+    "f50767bf": {
+     "identical_before": 1,
+     "identical_after": 120,
+     "total": 120
+    }
+   },
+   "signal_lost": false
+  },
+  "querkmachine__beeps.website": {
+   "repo": "querkmachine/beeps.website",
+   "manifests": 15,
+   "commits": 5,
+   "differences_count": 2,
+   "rules": [
+    "cache-buster-q",
+    "beeps-og-timestamp",
+    "beeps-redaction-mask"
+   ],
+   "rules_count": 3,
+   "b1_b2_evaluation": {
+    "23276fd8": {
+     "identical_before": 7,
+     "identical_after": 248,
+     "total": 248
+    },
+    "477a1f74": {
+     "identical_before": 15,
+     "identical_after": 354,
+     "total": 354
+    },
+    "74dc73cd": {
+     "identical_before": 7,
+     "identical_after": 227,
+     "total": 227
+    }
+   },
+   "signal_lost": false
+  },
+  "nemanjam__nemanjam.github.io": {
+   "repo": "nemanjam/nemanjam.github.io",
+   "manifests": 13,
+   "commits": 4,
+   "differences_count": 16,
+   "rules": [
+    "shiki-unwrap",
+    "nemanjam-image-suffix",
+    "nemanjam-excerpt-tail",
+    "nemanjam-island-uid",
+    "nemanjam-more-posts",
+    "nemanjam-hoisted-js"
+   ],
+   "rules_count": 6,
+   "b1_b2_evaluation": {
+    "0b7c59fd": {
+     "identical_before": 10,
+     "identical_after": 53,
+     "total": 53
+    },
+    "6333be10": {
+     "identical_before": 8,
+     "identical_after": 23,
+     "total": 23
+    },
+    "7fed9b43": {
+     "identical_before": 17,
+     "identical_after": 61,
+     "total": 61
+    }
+   },
+   "signal_lost": false
+  },
+  "elsbrock__hetzner-radar": {
+   "repo": "elsbrock/hetzner-radar",
+   "manifests": 13,
+   "commits": 4,
+   "differences_count": 5,
+   "rules": [],
+   "rules_count": 0,
+   "b1_b2_evaluation": {
+    "9f656706": {
+     "identical_before": 1,
+     "identical_after": 1,
+     "total": 1
+    },
+    "d7cc3753": {
+     "identical_before": 1,
+     "identical_after": 1,
+     "total": 1
+    }
+   },
+   "signal_lost": false
+  }
+ },
+ "total_rules": 30,
+ "total_manifests": 145
+}

@@ -1,0 +1,86 @@
+{
+ "site": "elsbrock/hetzner-radar",
+ "slug": "elsbrock__hetzner-radar",
+ "commits": {
+  "23a1d73826cd": {
+   "b1_b2": {
+    "status": "missing_keep",
+    "dirA": "/home/hatch/workspace/handoff-assignments-202609/13-build-determinism/output/html/elsbrock__hetzner-radar/23a1d73826cd/b1",
+    "dirB": "/home/hatch/workspace/handoff-assignments-202609/13-build-determinism/output/html/elsbrock__hetzner-radar/23a1d73826cd/b2"
+   },
+   "b1_b3": {
+    "status": "missing_keep",
+    "dirA": "/home/hatch/workspace/handoff-assignments-202609/13-build-determinism/output/html/elsbrock__hetzner-radar/23a1d73826cd/b1",
+    "dirB": "/home/hatch/workspace/handoff-assignments-202609/13-build-determinism/output/html/elsbrock__hetzner-radar/23a1d73826cd/b3"
+   },
+   "b1_b4": {
+    "status": "missing_keep",
+    "dirA": "/home/hatch/workspace/handoff-assignments-202609/13-build-determinism/output/html/elsbrock__hetzner-radar/23a1d73826cd/b1",
+    "dirB": "/home/hatch/workspace/handoff-assignments-202609/13-build-determinism/output/html/elsbrock__hetzner-radar/23a1d73826cd/b4"
+   }
+  },
+  "9f656706a11f": {
+   "b1_b2": {
+    "total_common": 1,
+    "only_in_A": 0,
+    "only_in_B": 0,
+    "identical_before": 1,
+    "identical_after": 1
+   },
+   "b1_b3": {
+    "total_common": 1,
+    "only_in_A": 0,
+    "only_in_B": 0,
+    "identical_before": 1,
+    "identical_after": 1
+   },
+   "b1_b4": {
+    "total_common": 1,
+    "only_in_A": 0,
+    "only_in_B": 0,
+    "identical_before": 1,
+    "identical_after": 1
+   }
+  },
+  "d7cc3753ea5b": {
+   "b1_b2": {
+    "total_common": 1,
+    "only_in_A": 0,
+    "only_in_B": 0,
+    "identical_before": 1,
+    "identical_after": 1
+   },
+   "b1_b3": {
+    "total_common": 1,
+    "only_in_A": 0,
+    "only_in_B": 0,
+    "identical_before": 1,
+    "identical_after": 1
+   },
+   "b1_b4": {
+    "total_common": 1,
+    "only_in_A": 0,
+    "only_in_B": 0,
+    "identical_before": 1,
+    "identical_after": 1
+   }
+  },
+  "fb9db8dc9e75": {
+   "b1_b2": {
+    "status": "missing_keep",
+    "dirA": "/home/hatch/workspace/handoff-assignments-202609/13-build-determinism/output/html/elsbrock__hetzner-radar/fb9db8dc9e75/b1",
+    "dirB": "/home/hatch/workspace/handoff-assignments-202609/13-build-determinism/output/html/elsbrock__hetzner-radar/fb9db8dc9e75/b2"
+   },
+   "b1_b3": {
+    "status": "missing_keep",
+    "dirA": "/home/hatch/workspace/handoff-assignments-202609/13-build-determinism/output/html/elsbrock__hetzner-radar/fb9db8dc9e75/b1",
+    "dirB": "/home/hatch/workspace/handoff-assignments-202609/13-build-determinism/output/html/elsbrock__hetzner-radar/fb9db8dc9e75/b3"
+   },
+   "b1_b4": {
+    "status": "missing_keep",
+    "dirA": "/home/hatch/workspace/handoff-assignments-202609/13-build-determinism/output/html/elsbrock__hetzner-radar/fb9db8dc9e75/b1",
+    "dirB": "/home/hatch/workspace/handoff-assignments-202609/13-build-determinism/output/html/elsbrock__hetzner-radar/fb9db8dc9e75/b4"
+   }
+  }
+ }
+}

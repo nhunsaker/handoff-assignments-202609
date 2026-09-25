@@ -1,0 +1,14 @@
+{
+ "site": "godruoyi/gblog",
+ "slug": "godruoyi__gblog",
+ "for_b3_rules": false,
+ "common_pages": 4,
+ "only_before": 5,
+ "only_after": 81,
+ "diff_before": 4,
+ "diff_after": 4,
+ "became_identical": 0,
+ "flagged_pages": [],
+ "signal_lost": false,
+ "analysis": "4/4 pages differ before and after; 0 became identical."
+}
