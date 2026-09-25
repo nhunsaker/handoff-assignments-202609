@@ -1,0 +1,25 @@
+{
+ "inserts": 1,
+ "removals": 1,
+ "budget_used_bytes": 214717,
+ "examples": [
+  {
+   "kind": "insert",
+   "pair": [
+    "0021db21a50eb72d2c216d93ff09ad2d832bd507",
+    "6496d9a6b6016a05b966ba1dc4201df84bf978d7"
+   ],
+   "page": "2025/04/19/DJControlMixUltra/index.html",
+   "dir": "snapshots/efcl__efcl.github.io/0021db21a50e__6496d9a6b601"
+  },
+  {
+   "kind": "removal",
+   "pair": [
+    "c380fc74d84055be767ad3ba5970abfc2f68b03c",
+    "0bcd3282b58ac9781ce19f675c5fd1fc25e67562"
+   ],
+   "page": "2025/06/10/textlint-mcp/index.html",
+   "dir": "snapshots/efcl__efcl.github.io/c380fc74d840__0bcd3282b58a"
+  }
+ ]
+}

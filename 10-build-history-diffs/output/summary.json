@@ -1,0 +1,532 @@
+{
+ "repos": {
+  "tempertemper__www.tempertemper.net": {
+   "commits_in_window": 102,
+   "built_ok": 102,
+   "build_failed": 0,
+   "failed_by_failure_stage": {},
+   "install_cache_hit_rate": 0.4804,
+   "install_cache_hits": 49,
+   "install_cache_total": 102,
+   "median_build_seconds": 14.65,
+   "median_static_page_count": 547.0,
+   "pairs_analysed": 101,
+   "median_pages_modified_per_pair": 526,
+   "pages_modified_distribution": {
+    "0": 10,
+    "1": 11,
+    "2-5": 6,
+    "6-20": 1,
+    "21+": 73
+   },
+   "pages_added_total": 84,
+   "pages_removed_total": 14,
+   "pages_renamed_total": 0,
+   "sibling_group_events_by_kind": {
+    "remove": 5411,
+    "insert": 8079,
+    "mixed": 542,
+    "reorder": 587
+   },
+   "sibling_group_events_total": 14619,
+   "text_only_changes_total": 151317,
+   "attribute_only_changes_total": 10944,
+   "attribute_names_changed_counts": {
+    "autocomplete": 71,
+    "class": 1379,
+    "d": 1736,
+    "height": 558,
+    "id": 1248,
+    "inputmode": 71,
+    "name": 71,
+    "required": 368,
+    "tabindex": 71,
+    "type": 76,
+    "viewbox": 561,
+    "width": 561,
+    "alt": 7,
+    "src": 6,
+    "href": 1072,
+    "media": 4,
+    "srcset": 6,
+    "data-pagefind-body": 494,
+    "aria-live": 2,
+    "role": 2,
+    "value": 64,
+    "aria-required": 423,
+    "autocapitalize": 423,
+    "autocorrect": 423,
+    "spellcheck": 423,
+    "content": 723,
+    "itemprop": 723,
+    "aria-label": 586,
+    "version": 4,
+    "xmlns:xlink": 4
+   },
+   "page_parse_errors": 0,
+   "top_20_containers": [
+    {
+     "container": "html > body:nth-of-type(1) > div:nth-of-type(1) > main:nth-of-type(1) > ol:nth-of-type(1)",
+     "page": "blog/year/2025.html",
+     "event_count": 11
+    },
+    {
+     "container": "html > body:nth-of-type(1) > div:nth-of-type(1) > main:nth-of-type(1) > ol:nth-of-type(1)",
+     "page": "blog/index.html",
+     "event_count": 9
+    },
+    {
+     "container": "html > body:nth-of-type(1) > div:nth-of-type(1) > main:nth-of-type(1) > ol:nth-of-type(1) > li:nth-of-type(1) > p:nth-of-type(1)",
+     "page": "blog/index.html",
+     "event_count": 9
+    },
+    {
+     "container": "html > body:nth-of-type(1) > div:nth-of-type(1) > main:nth-of-type(1) > ol:nth-of-type(1)",
+     "page": "category/accessibility.html",
+     "event_count": 8
+    },
+    {
+     "container": "html > body:nth-of-type(1) > div:nth-of-type(1) > main:nth-of-type(1) > ol:nth-of-type(1) > li:nth-of-type(2) > p:nth-of-type(1)",
+     "page": "blog/index.html",
+     "event_count": 8
+    },
+    {
+     "container": "html > body:nth-of-type(1) > div:nth-of-type(1) > main:nth-of-type(1) > ol:nth-of-type(1) > li:nth-of-type(80) > p:nth-of-type(1)",
+     "page": "blog/index.html",
+     "event_count": 7
+    },
+    {
+     "container": "html > body:nth-of-type(1) > div:nth-of-type(1) > main:nth-of-type(1) > ol:nth-of-type(1) > li:nth-of-type(82) > p:nth-of-type(1)",
+     "page": "blog/index.html",
+     "event_count": 7
+    },
+    {
+     "container": "html > body:nth-of-type(1) > div:nth-of-type(1) > main:nth-of-type(1) > ol:nth-of-type(1) > li:nth-of-type(83) > p:nth-of-type(1)",
+     "page": "blog/index.html",
+     "event_count": 7
+    },
+    {
+     "container": "html > body:nth-of-type(1) > div:nth-of-type(1) > main:nth-of-type(1) > ol:nth-of-type(1) > li:nth-of-type(84) > p:nth-of-type(1)",
+     "page": "blog/index.html",
+     "event_count": 7
+    },
+    {
+     "container": "html > body:nth-of-type(1) > div:nth-of-type(1) > main:nth-of-type(1) > ol:nth-of-type(1) > li:nth-of-type(96) > p:nth-of-type(1)",
+     "page": "blog/index.html",
+     "event_count": 7
+    },
+    {
+     "container": "html > body:nth-of-type(1) > div:nth-of-type(1) > main:nth-of-type(1) > ol:nth-of-type(1) > li:nth-of-type(97) > p:nth-of-type(1)",
+     "page": "blog/index.html",
+     "event_count": 7
+    },
+    {
+     "container": "html > body:nth-of-type(1) > div:nth-of-type(1) > main:nth-of-type(1) > ol:nth-of-type(1) > li:nth-of-type(99) > p:nth-of-type(1)",
+     "page": "blog/index.html",
+     "event_count": 7
+    },
+    {
+     "container": "html > body:nth-of-type(1) > div:nth-of-type(1) > main:nth-of-type(1) > ol:nth-of-type(1) > li:nth-of-type(100) > p:nth-of-type(1)",
+     "page": "blog/index.html",
+     "event_count": 7
+    },
+    {
+     "container": "html > body:nth-of-type(1) > div:nth-of-type(1) > main:nth-of-type(1) > ol:nth-of-type(1) > li:nth-of-type(101) > p:nth-of-type(1)",
+     "page": "blog/index.html",
+     "event_count": 7
+    },
+    {
+     "container": "html > body:nth-of-type(1) > div:nth-of-type(1) > main:nth-of-type(1) > ol:nth-of-type(1) > li:nth-of-type(102) > p:nth-of-type(1)",
+     "page": "blog/index.html",
+     "event_count": 7
+    },
+    {
+     "container": "html > body:nth-of-type(1) > div:nth-of-type(1) > main:nth-of-type(1) > ol:nth-of-type(1) > li:nth-of-type(170) > p:nth-of-type(1)",
+     "page": "blog/index.html",
+     "event_count": 7
+    },
+    {
+     "container": "html > body:nth-of-type(1) > div:nth-of-type(1) > main:nth-of-type(1) > ol:nth-of-type(1) > li:nth-of-type(1) > p:nth-of-type(1)",
+     "page": "blog/year/2025.html",
+     "event_count": 7
+    },
+    {
+     "container": "html > body:nth-of-type(1) > div:nth-of-type(1) > main:nth-of-type(1) > ol:nth-of-type(1) > li:nth-of-type(67) > p:nth-of-type(1)",
+     "page": "category/accessibility.html",
+     "event_count": 7
+    },
+    {
+     "container": "html > body:nth-of-type(1) > div:nth-of-type(1) > main:nth-of-type(1) > ol:nth-of-type(1) > li:nth-of-type(68) > p:nth-of-type(1)",
+     "page": "category/accessibility.html",
+     "event_count": 7
+    },
+    {
+     "container": "html > body:nth-of-type(1) > div:nth-of-type(1) > main:nth-of-type(1) > ol:nth-of-type(1) > li:nth-of-type(81) > p:nth-of-type(1)",
+     "page": "blog/index.html",
+     "event_count": 7
+    }
+   ],
+   "snapshot_files": 3322,
+   "snapshot_pages": 1661,
+   "snapshot_mb": 119.99,
+   "window_completion_fraction": 1.0
+  },
+  "efcl__efcl.github.io": {
+   "commits_in_window": 74,
+   "built_ok": 74,
+   "build_failed": 0,
+   "failed_by_failure_stage": {},
+   "install_cache_hit_rate": 1.0,
+   "install_cache_hits": 74,
+   "install_cache_total": 74,
+   "median_build_seconds": 24.35,
+   "median_static_page_count": 940.0,
+   "pairs_analysed": 73,
+   "median_pages_modified_per_pair": 1,
+   "pages_modified_distribution": {
+    "0": 1,
+    "1": 58,
+    "2-5": 0,
+    "6-20": 0,
+    "21+": 14
+   },
+   "pages_added_total": 10,
+   "pages_removed_total": 0,
+   "pages_renamed_total": 0,
+   "sibling_group_events_by_kind": {
+    "insert": 83,
+    "remove": 31,
+    "reorder": 1,
+    "mixed": 3
+   },
+   "sibling_group_events_total": 118,
+   "text_only_changes_total": 160679,
+   "attribute_only_changes_total": 41,
+   "attribute_names_changed_counts": {
+    "src": 14,
+    "href": 1,
+    "class": 9,
+    "data-lang": 1,
+    "aria-hidden": 1,
+    "id": 2,
+    "name": 1,
+    "style": 2,
+    "tabindex": 1,
+    "type": 1,
+    "value": 1,
+    "alt": 2
+   },
+   "page_parse_errors": 0,
+   "top_20_containers": [
+    {
+     "container": "html > body:nth-of-type(1) > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2)",
+     "page": "2025/09/07/npm-oidc/index.html",
+     "event_count": 16
+    },
+    {
+     "container": "html > body:nth-of-type(1) > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1)",
+     "page": "page/85/index.html",
+     "event_count": 8
+    },
+    {
+     "container": "html > body:nth-of-type(1) > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > ul:nth-of-type(1) > li:nth-of-type(34) > ul:nth-of-type(1)",
+     "page": "categories/index.html",
+     "event_count": 6
+    },
+    {
+     "container": "html > body:nth-of-type(1) > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2)",
+     "page": "2025/06/10/textlint-mcp/index.html",
+     "event_count": 6
+    },
+    {
+     "container": "html > body:nth-of-type(1) > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2)",
+     "page": "2025/05/24/tskaigi-2025-jsprimer/index.html",
+     "event_count": 5
+    },
+    {
+     "container": "html > body:nth-of-type(1) > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > ul:nth-of-type(1) > li:nth-of-type(48) > ul:nth-of-type(1)",
+     "page": "categories/index.html",
+     "event_count": 3
+    },
+    {
+     "container": "html > body:nth-of-type(1) > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2)",
+     "page": "2025/08/18/jsprimer-v7/index.html",
+     "event_count": 3
+    },
+    {
+     "container": "html > body:nth-of-type(1) > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > ul:nth-of-type(19) > li:nth-of-type(1)",
+     "page": "2025/09/07/npm-oidc/index.html",
+     "event_count": 3
+    },
+    {
+     "container": "html > body:nth-of-type(1) > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > p:nth-of-type(42)",
+     "page": "2025/09/07/npm-oidc/index.html",
+     "event_count": 3
+    },
+    {
+     "container": "html > body:nth-of-type(1) > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > ul:nth-of-type(23)",
+     "page": "2025/09/07/npm-oidc/index.html",
+     "event_count": 3
+    },
+    {
+     "container": "html > body:nth-of-type(1) > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > ul:nth-of-type(25)",
+     "page": "2025/09/07/npm-oidc/index.html",
+     "event_count": 3
+    },
+    {
+     "container": "html > body:nth-of-type(1) > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2)",
+     "page": "2025/04/19/DJControlMixUltra/index.html",
+     "event_count": 2
+    },
+    {
+     "container": "html > body:nth-of-type(1) > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > ul:nth-of-type(1) > li:nth-of-type(45) > ul:nth-of-type(1)",
+     "page": "categories/index.html",
+     "event_count": 2
+    },
+    {
+     "container": "html > body:nth-of-type(1) > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > ul:nth-of-type(6)",
+     "page": "2025/06/10/textlint-mcp/index.html",
+     "event_count": 2
+    },
+    {
+     "container": "html > body:nth-of-type(1) > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2)",
+     "page": "2025/07/05/confirm-pam/index.html",
+     "event_count": 2
+    },
+    {
+     "container": "html > body:nth-of-type(1) > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2)",
+     "page": "2021/07/21/update-github-actions-permissions/index.html",
+     "event_count": 2
+    },
+    {
+     "container": "html > body:nth-of-type(1) > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > p:nth-of-type(18)",
+     "page": "2021/07/21/update-github-actions-permissions/index.html",
+     "event_count": 2
+    },
+    {
+     "container": "html > body:nth-of-type(1) > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > p:nth-of-type(12)",
+     "page": "2025/09/07/npm-oidc/index.html",
+     "event_count": 2
+    },
+    {
+     "container": "html > body:nth-of-type(1) > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > p:nth-of-type(14)",
+     "page": "2025/09/07/npm-oidc/index.html",
+     "event_count": 2
+    },
+    {
+     "container": "html > body:nth-of-type(1) > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > p:nth-of-type(22)",
+     "page": "2025/09/07/npm-oidc/index.html",
+     "event_count": 2
+    }
+   ],
+   "snapshot_files": 0,
+   "snapshot_pages": 0,
+   "snapshot_mb": 0.0,
+   "window_completion_fraction": 1.0
+  },
+  "alexcarpenter__alexcarpenter.me": {
+   "commits_in_window": 280,
+   "built_ok": 243,
+   "build_failed": 37,
+   "failed_by_failure_stage": {
+    "build": 11,
+    "install": 26
+   },
+   "install_cache_hit_rate": 0.9055,
+   "install_cache_hits": 230,
+   "install_cache_total": 254,
+   "median_build_seconds": 22.1,
+   "median_static_page_count": 51,
+   "pairs_analysed": 242,
+   "median_pages_modified_per_pair": 4.0,
+   "pages_modified_distribution": {
+    "0": 0,
+    "1": 32,
+    "2-5": 104,
+    "6-20": 28,
+    "21+": 78
+   },
+   "pages_added_total": 102,
+   "pages_removed_total": 25,
+   "pages_renamed_total": 0,
+   "sibling_group_events_by_kind": {
+    "remove": 859,
+    "insert": 702,
+    "mixed": 38,
+    "reorder": 164
+   },
+   "sibling_group_events_total": 1763,
+   "text_only_changes_total": 15319,
+   "attribute_only_changes_total": 4890,
+   "attribute_names_changed_counts": {
+    "datetime": 262,
+    "d": 16,
+    "fill": 9,
+    "viewbox": 21,
+    "width": 2,
+    "style": 94,
+    "aria-hidden": 3,
+    "class": 641,
+    "data-icon": 23,
+    "href": 58,
+    "id": 16,
+    "src": 8,
+    "clip-path": 1,
+    "data-language": 4,
+    "contenteditable": 1,
+    "clip-rule": 1,
+    "fill-rule": 1,
+    "data-slot": 9,
+    "stroke": 1,
+    "stroke-linecap": 1,
+    "stroke-linejoin": 1,
+    "stroke-width": 1
+   },
+   "page_parse_errors": 0,
+   "top_20_containers": [
+    {
+     "container": "html > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(1) > ul:nth-of-type(1)",
+     "page": "notes/index.html",
+     "event_count": 48
+    },
+    {
+     "container": "html > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(4) > ul:nth-of-type(1)",
+     "page": "gear/index.html",
+     "event_count": 28
+    },
+    {
+     "container": "html > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(1) > ul:nth-of-type(1)",
+     "page": "gear/home/index.html",
+     "event_count": 26
+    },
+    {
+     "container": "html > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(1) > ul:nth-of-type(1)",
+     "page": "tags/index.html",
+     "event_count": 20
+    },
+    {
+     "container": "html > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(1) > ul:nth-of-type(1)",
+     "page": "gear/travel/index.html",
+     "event_count": 18
+    },
+    {
+     "container": "html > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(1) > ul:nth-of-type(1)",
+     "page": "gear/index.html",
+     "event_count": 13
+    },
+    {
+     "container": "html > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(7) > ul:nth-of-type(1)",
+     "page": "gear/index.html",
+     "event_count": 13
+    },
+    {
+     "container": "html > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(5) > ul:nth-of-type(1)",
+     "page": "gear/index.html",
+     "event_count": 11
+    },
+    {
+     "container": "html > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(2) > ul:nth-of-type(1)",
+     "page": "gear/index.html",
+     "event_count": 10
+    },
+    {
+     "container": "html > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(1) > ul:nth-of-type(1)",
+     "page": "gear/coffee/index.html",
+     "event_count": 8
+    },
+    {
+     "container": "html > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(2) > article:nth-of-type(1)",
+     "page": "notes/index.html",
+     "event_count": 8
+    },
+    {
+     "container": "html > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(3) > article:nth-of-type(1)",
+     "page": "notes/index.html",
+     "event_count": 8
+    },
+    {
+     "container": "html > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(5) > article:nth-of-type(1)",
+     "page": "notes/index.html",
+     "event_count": 8
+    },
+    {
+     "container": "html > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(6) > article:nth-of-type(1)",
+     "page": "notes/index.html",
+     "event_count": 8
+    },
+    {
+     "container": "html > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(2) > article:nth-of-type(1) > div:nth-of-type(1)",
+     "page": "notes/index.html",
+     "event_count": 7
+    },
+    {
+     "container": "html > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(1) > article:nth-of-type(1) > div:nth-of-type(2) > ul:nth-of-type(1)",
+     "page": "index.html",
+     "event_count": 7
+    },
+    {
+     "container": "html > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(6) > ul:nth-of-type(1)",
+     "page": "gear/index.html",
+     "event_count": 7
+    },
+    {
+     "container": "html > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(9) > article:nth-of-type(1) > div:nth-of-type(1)",
+     "page": "notes/index.html",
+     "event_count": 6
+    },
+    {
+     "container": "html > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(10) > article:nth-of-type(1) > div:nth-of-type(1)",
+     "page": "notes/index.html",
+     "event_count": 6
+    },
+    {
+     "container": "html > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(11) > article:nth-of-type(1) > div:nth-of-type(1)",
+     "page": "notes/index.html",
+     "event_count": 6
+    }
+   ],
+   "snapshot_files": 4,
+   "snapshot_pages": 2,
+   "snapshot_mb": 0.01,
+   "window_completion_fraction": 0.8679
+  }
+ },
+ "snapshot_budget": {
+  "cap_mb": 120,
+  "used_mb": 120.0,
+  "cutoff_note": "120 MB snapshot budget exhausted during tempertemper (first repo in mandated order); efcl and alexcarpenter pages with insert/remove events record hashes only (row snapshot field = skipped_budget_exhausted)."
+ },
+ "totals": {
+  "repos": 3,
+  "commits_in_window": 456,
+  "built_ok": 419,
+  "build_failed": 37,
+  "pairs_analysed": 416,
+  "sibling_group_events_total": 16500
+ },
+ "commit_count_notes": {
+  "method": "git log --first-parent --reverse --since=<start> --until=<end> --format=%H on the mirror HEAD (remote default branch), counted with wc -l",
+  "tempertemper__www.tempertemper.net": {
+   "head": "refs/heads/main",
+   "literal_count": 102,
+   "assignment_table_estimate": 100,
+   "note": "literal command output is 102; assignment table said 100"
+  },
+  "efcl__efcl.github.io": {
+   "head": "refs/heads/develop",
+   "literal_count": 74,
+   "assignment_table_estimate": 74,
+   "note": "matches"
+  },
+  "alexcarpenter__alexcarpenter.me": {
+   "head": "refs/heads/main",
+   "literal_count": 280,
+   "assignment_table_estimate": 281,
+   "note": "literal command output is 280; assignment table said 281"
+  }
+ },
+ "error_excerpt_notes": {
+  "five_line_excerpts": "all 11 build-stage failures have 5-line verbatim excerpts",
+  "install_stage": "the 26 install-stage failures (alexcarpenter, ERR_PNPM_LOCKFILE_BREAKING_CHANGE) genuinely emitted 2 lines; the full command output was verified by manual re-run and contains only those 2 lines (error_excerpt holds them verbatim)"
+ }
+}

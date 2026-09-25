@@ -1,0 +1,3218 @@
+[
+ {
+  "sha": "e3641869d63e817c5835e9c73a8042c7e5015315",
+  "author_date": "2025-04-11T19:15:27-04:00",
+  "subject": "checkpoint at 2025-04-11T19:15:27-0400",
+  "files_changed": [
+   "astro.config.mjs",
+   "package.json",
+   "pnpm-lock.yaml",
+   "src/components/Button.astro",
+   "src/components/Collection/Item.astro",
+   "src/components/Collection/Root.astro",
+   "src/components/FacePile.astro",
+   "src/components/FormattedDate.astro",
+   "src/components/Header.astro",
+   "src/components/SectionBreak.astro",
+   "src/components/SectionLabel.astro",
+   "src/components/SignInCard.astro",
+   "src/components/SignInCodeBlock.astro",
+   "src/content.config.ts",
+   "src/content/collections/coffee.md",
+   "src/content/collections/everyday-carry.md",
+   "src/content/collections/favorites.md",
+   "src/content/collections/health-and-wellness.md",
+   "src/content/collections/radio.md",
+   "src/content/collections/smart-home.md",
+   "src/content/collections/uses.md",
+   "src/content/items/apple-home-pod-mini.md",
+   "src/content/items/apple-iphone-15-pro.md",
+   "src/content/items/apple-watch-ultra-2.md",
+   "src/content/items/aqara-fp2-presence-sensor.md",
+   "src/content/items/aqara-u100-smart-lock.md",
+   "src/content/items/aqara-water-leak-sensor.md",
+   "src/content/items/aqara-wireless-mini-switch.md",
+   "src/content/items/baofeng-uv-5g-plus.md",
+   "src/content/items/baratza-encore-coffee-grinder.md",
+   "src/content/items/bellroy-mod-phone-case-wallet.md",
+   "src/content/items/bitwarden.md",
+   ".../breville-barista-touch-espresso-machine.md",
+   "src/content/items/caldigit-ts4-dock.md",
+   "src/content/items/chris-reeves-small-sebenza-31.md",
+   "src/content/items/comet-ch-32.md",
+   "src/content/items/cwf-micro-click-flashlight.md",
+   ".../items/doxa-sub-200t-sharkhunter-watch.md",
+   "src/content/items/ente-auth.md",
+   "src/content/items/eufy-s380-home-base-3.md",
+   "src/content/items/eufy-video-doorbell-c31.md",
+   ".../evergoods-civic-panel-loader-16l-backpack.md",
+   "src/content/items/first-aid-pouch.md",
+   ".../items/hds-systems-edc-tactical-flashlight.md",
+   "src/content/items/hooga-PRO300.md",
+   "src/content/items/hoto-handheld-vacuum-cleaner.md",
+   "src/content/items/icom-id-50a.md",
+   "src/content/items/iterm-2.md",
+   ".../items/kalita-stainless-steel-pour-dripper.md",
+   "src/content/items/kasa-smart-dimmer-switch.md",
+   "src/content/items/kinesis-advantage360-keyboard.md",
+   "src/content/items/knipex-cobra-pliers.md",
+   ".../lutron-aurora-smart-bulb-dimmer-switch.md",
+   "src/content/items/moccamaster-coffee-brewer.md",
+   "src/content/items/modtub.md",
+   "src/content/items/muzi-works-r1.md",
+   "src/content/items/new-balance-990-shoes.md",
+   "src/content/items/philips-hue-smart-plug.md",
+   "src/content/items/radioddity-gm-30-plus.md",
+   "src/content/items/raycast.md",
+   "src/content/items/rode-podmic.md",
+   "src/content/items/seed-probiotics.md",
+   "src/content/items/signalstuff-signal-stick.md",
+   "src/content/items/smiley-halfwave-2-meter.md",
+   "src/content/items/synology-ds224-nas.md",
+   "src/content/items/tactile-knife-co-rockwall.md",
+   ".../items/tactile-turn-apollo-flashlight.md",
+   ".../items/technivorm-moccamaster-coffee-maker.md",
+   "src/content/items/the-james-brand-midland.md",
+   "src/content/items/tom-bihn-synik-22-backpack.md",
+   "src/content/items/tom-bihn-truck.md",
+   "src/content/items/twayrdio-rh-660s.md",
+   "src/content/items/vgc-vr-n76.md",
+   "src/content/items/visual-studio-code.md",
+   "src/content/items/wera-7-in-1-screwdriver.md",
+   ".../items/work-sharp-guided-field-sharpener.md",
+   "src/content/jobs/clerk.md",
+   "src/content/links/a-unified-theory-of-fucks.md",
+   ".../links/adaptive-dotted-background-pattern.md",
+   "src/content/links/alexandersandberg-com.md",
+   "src/content/links/auto-grid.md",
+   "...ng-a-multi-brand-design-system-with-tailwind.md",
+   "src/content/links/card-stack.md",
+   "src/content/links/chasem-co.md",
+   "src/content/links/concise.md",
+   "src/content/links/css-triggers.md",
+   "src/content/links/csscade-com.md",
+   "src/content/links/departuremono.md",
+   "src/content/links/easing-gradients.md",
+   "src/content/links/easings-net.md",
+   "src/content/links/ejectionsite-com.md",
+   "src/content/links/elementseden.md",
+   "src/content/links/emotionally-durable-design.md",
+   "src/content/links/evilmartians-com.md",
+   "src/content/links/family-values.md",
+   "src/content/links/greppability-code-metric.md",
+   ".../links/how-to-animate-height-with-css-grid.md",
+   "...avicon-in-2021-six-files-that-fit-most-needs.md",
+   ".../links/how-to-review-code-effectively.md",
+   "src/content/links/iamrob-in.md",
+   "src/content/links/ishadeed-css-has-guide.md",
+   "src/content/links/johannesklingebiel-de.md",
+   "src/content/links/johnny-decimal.md",
+   "src/content/links/jollyui-dev.md",
+   "src/content/links/kayserifserif-place.md",
+   "src/content/links/kprkr-co.md",
+   ".../links/linear-interpolation-functions.md",
+   "src/content/links/linusrogge-com.md",
+   "src/content/links/love-your-tools.md",
+   "src/content/links/magicui-design.md",
+   "src/content/links/minutestomidnight-co.md",
+   "src/content/links/nature-of-font-size.md",
+   "src/content/links/nuqs.md",
+   "src/content/links/oklch-in-css-why-quit-rgb-hsl.md",
+   "src/content/links/open-closed-react-component.md",
+   "src/content/links/pixeljanitor-shadow-stack.md",
+   "src/content/links/promises-from-the-ground-up.md",
+   "src/content/links/push-and-pull.md",
+   "src/content/links/react-accessible-treeview.md",
+   "src/content/links/react-aria-migration.md",
+   "...ving-list-styles-without-affecting-semantics.md",
+   "src/content/links/rkrn-bookcase.md",
+   "src/content/links/ryan-coulter-edc.md",
+   "src/content/links/ryanmulligan-50-50-overflow.md",
+   "src/content/links/ryngonzalez-com.md",
+   "src/content/links/slrncl-com.md",
+   "src/content/links/sping-delay.md",
+   "src/content/links/strip-internal-type.md",
+   "src/content/links/svg-progress-circle.md",
+   ".../links/the-everything-bagel-of-components.md",
+   "src/content/links/thorstenball-the-basics.md",
+   "src/content/links/use-state-with-previous.md",
+   ".../links/write-code-that-is-easy-to-delete.md",
+   "src/content/links/zod-env-vars.md",
+   "src/content/notes/2024-01-04-1.md",
+   "src/content/notes/2024-01-12-1.md",
+   "src/content/notes/2024-01-18-1.md",
+   "src/content/notes/2024-01-25-1.md",
+   "src/content/notes/2024-01-31-1.md",
+   "src/content/notes/2024-01-31-2.md",
+   "src/content/notes/2024-02-04-1.md",
+   "src/content/notes/2024-02-08-1.md",
+   "src/content/notes/2024-02-13-1.md",
+   "src/content/notes/2024-03-16-1.md",
+   "src/content/notes/2024-03-20-1.md",
+   "src/content/notes/2024-03-20-2.md",
+   "src/content/notes/2024-04-02-1.md",
+   "src/content/notes/2024-04-03-1.md",
+   "src/content/notes/2024-04-03-2.md",
+   "src/content/notes/2024-04-03-3.md",
+   "src/content/notes/2024-04-04-1.md",
+   "src/content/notes/2024-04-17-1.md",
+   "src/content/notes/2024-04-20-1.md",
+   "src/content/notes/2024-04-20-2.md",
+   "src/content/notes/2024-04-21-1.md",
+   "src/content/notes/2024-04-28-1.md",
+   "src/content/notes/2024-04-28-2.md",
+   "src/content/notes/2024-04-28-3.md",
+   "src/content/notes/2024-04-29-1.md",
+   "src/content/notes/2024-04-29-2.md",
+   "src/content/notes/2024-05-02-1.md",
+   "src/content/notes/2024-05-03-1.md",
+   "src/content/notes/2024-05-03-2.md",
+   "src/content/notes/2024-05-03-3.md",
+   "src/content/notes/2024-05-10-1.md",
+   "src/content/notes/2024-05-10-2.md",
+   "src/content/notes/2024-05-10-3.md",
+   "src/content/notes/2024-05-15-1.md",
+   "src/content/notes/2024-05-29-1.md",
+   "src/content/notes/2024-06-03-1.md",
+   "src/content/notes/2024-06-15-1.md",
+   "src/content/notes/2024-06-19-1.md",
+   "src/content/notes/2024-08-10-1.md",
+   "src/content/notes/2024-08-10-2.md",
+   "src/content/notes/2024-08-14-1.md",
+   "src/content/notes/2024-09-20-1.md",
+   "src/content/notes/2024-10-21-1.md",
+   "src/content/notes/2024-11-27-1.md",
+   "src/content/notes/2024-12-30-1.md",
+   "src/content/notes/2025-01-07-1.md",
+   "src/content/notes/2025-01-17-1.md",
+   "src/content/notes/2025-02-04-1.md",
+   "src/content/notes/2025-02-19-1.md",
+   "src/content/notes/2025-03-15-1.md",
+   "src/content/posts/2024-favorites.md",
+   "src/content/posts/app-defaults.md",
+   ".../posts/what-pocket-knife-should-i-get.md",
+   "src/icons/figma.svg",
+   "src/layouts/BaseLayout.astro",
+   "src/pages/404.astro",
+   "src/pages/collections/[...slug].astro",
+   "src/pages/collections/index.astro",
+   "src/pages/feed/[...page].astro",
+   "src/pages/feed/rss.xml.js",
+   "src/pages/index.astro",
+   "src/pages/links/rss.xml.js",
+   "src/pages/notes/index.astro",
+   "src/pages/notes/rss.xml.js",
+   "src/pages/now.astro",
+   "src/pages/posts/[...slug].astro",
+   "src/pages/posts/rss.xml.js",
+   "src/pages/resume.astro",
+   "src/styles/global.css",
+   "src/utils/fetch-latest-pull-reqests.ts",
+   "src/utils/formatting.ts"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "8794351f5ae2a5dd4d72827849a17327871c1766",
+  "author_date": "2025-04-11T19:17:41-04:00",
+  "subject": "checkpoint at 2025-04-11T19:17:41-0400",
+  "files_changed": [
+   "pnpm-lock.yaml"
+  ],
+  "page_touching": false
+ },
+ {
+  "sha": "744e94b897c1762dff55fbbf2a8f9bd8d4c38cb3",
+  "author_date": "2025-04-11T19:48:39-04:00",
+  "subject": "checkpoint at 2025-04-11T19:48:39-0400",
+  "files_changed": [
+   "src/pages/index.astro"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "af0b7eb85dc5984c447373ffee4ae6099f2b671f",
+  "author_date": "2025-04-11T19:57:14-04:00",
+  "subject": "checkpoint at 2025-04-11T19:57:14-0400",
+  "files_changed": [
+   "src/icons/figma.svg"
+  ],
+  "page_touching": false
+ },
+ {
+  "sha": "717c243e633f0cebaf681929309046c1531664fb",
+  "author_date": "2025-04-12T11:04:29-04:00",
+  "subject": "checkpoint at 2025-04-12T11:04:29-0400",
+  "files_changed": [
+   "src/icons/star.svg",
+   "src/pages/index.astro",
+   "src/styles/global.css"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "465441e2eff6ef04b443ec2f418e4a8952a2d148",
+  "author_date": "2025-04-12T11:48:57-04:00",
+  "subject": "checkpoint at 2025-04-12T11:48:57-0400",
+  "files_changed": [
+   "astro.config.mjs",
+   "src/icons/star.svg",
+   "src/pages/404.astro",
+   "src/pages/index.astro",
+   "src/pages/notes/[...slug].astro",
+   "src/pages/notes/index.astro",
+   "src/styles/global.css"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "d5ada9212ab5b922fad6114d24bac3981b82132c",
+  "author_date": "2025-04-12T11:50:28-04:00",
+  "subject": "checkpoint at 2025-04-12T11:50:28-0400",
+  "files_changed": [
+   "package.json",
+   "pnpm-lock.yaml"
+  ],
+  "page_touching": false
+ },
+ {
+  "sha": "d97fdfd7b745f560dc553aa0d9a767d28afcd45f",
+  "author_date": "2025-04-12T12:38:28-04:00",
+  "subject": "checkpoint at 2025-04-12T12:38:28-0400",
+  "files_changed": [
+   "src/styles/global.css"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "5d5811b3f138409ae8ca9bf078fb4b34f7ec73d9",
+  "author_date": "2025-04-12T14:36:42-04:00",
+  "subject": "checkpoint at 2025-04-12T14:36:42-0400",
+  "files_changed": [
+   "public/img/clerk-combined-sign-in-or-up.webp",
+   "src/icons/square-right-arrow-up.svg",
+   "src/pages/index.astro",
+   "src/pages/notes/index.astro",
+   "src/styles/global.css"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "7b1627fc50760f97d2ef3c75c8f944a6d578ee3a",
+  "author_date": "2025-04-12T14:41:49-04:00",
+  "subject": "checkpoint at 2025-04-12T14:41:49-0400",
+  "files_changed": [
+   "src/pages/index.astro"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "fdaddd7c62cc1a3ab40c73e1cb312f61c92e036f",
+  "author_date": "2025-04-12T14:44:11-04:00",
+  "subject": "checkpoint at 2025-04-12T14:44:11-0400",
+  "files_changed": [
+   "src/styles/global.css"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "20823add667f70eed339fb977f564b3541c28b58",
+  "author_date": "2025-04-13T07:52:20-04:00",
+  "subject": "checkpoint at 2025-04-13T07:52:20-0400",
+  "files_changed": [
+   "src/content.config.ts",
+   "src/icons/arrow-left.svg",
+   "src/icons/square-arrow-out-up-right.svg",
+   "src/pages/notes/[...slug].astro",
+   "src/pages/notes/index.astro",
+   "src/styles/global.css"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "62e591d03a48d224428e34b9f7252f7fc9c14772",
+  "author_date": "2025-04-13T07:57:55-04:00",
+  "subject": "checkpoint at 2025-04-13T07:57:55-0400",
+  "files_changed": [
+   "src/pages/notes/index.astro"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "db370bc7265e7f67a24e6ab95aeec5e9177e5c11",
+  "author_date": "2025-04-13T19:29:48-04:00",
+  "subject": "checkpoint at 2025-04-13T19:29:48-0400",
+  "files_changed": [
+   "src/content.config.ts",
+   "src/content/notes/2024-12-05-1.md",
+   "src/content/notes/2025-02-17-1.md",
+   "src/content/notes/2025-02-25-1.md",
+   "src/content/notes/2025-03-22-1.md"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "871c61c0ed4076f6347c2c2270d6707ee2cf100f",
+  "author_date": "2025-04-13T19:31:04-04:00",
+  "subject": "checkpoint at 2025-04-13T19:31:04-0400",
+  "files_changed": [
+   "src/pages/notes/index.astro"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "4d97d1cf981ca4d05db4283871b6d53a88970970",
+  "author_date": "2025-04-13T20:17:18-04:00",
+  "subject": "checkpoint at 2025-04-13T20:17:18-0400",
+  "files_changed": [
+   "src/content/notes/2025-04-13-1.md",
+   "src/icons/arrow-up-right.svg",
+   "src/pages/notes/[...slug].astro",
+   "src/pages/notes/index.astro"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "402668e608ceb61b8def15f4ce903a49924d58c4",
+  "author_date": "2025-04-13T20:24:31-04:00",
+  "subject": "checkpoint at 2025-04-13T20:24:31-0400",
+  "files_changed": [
+   "src/icons/bluesky.svg",
+   "src/icons/checkmark.svg",
+   "src/icons/linkedin.svg",
+   "src/icons/pull-request.svg",
+   "src/icons/square-arrow-out-up-right.svg",
+   "src/icons/square-right-arrow-up.svg",
+   "src/icons/twitter.svg"
+  ],
+  "page_touching": false
+ },
+ {
+  "sha": "031780ea6c4c0c2209c046efe192f814845bcda7",
+  "author_date": "2025-04-13T20:30:10-04:00",
+  "subject": "checkpoint at 2025-04-13T20:30:10-0400",
+  "files_changed": [
+   "src/layouts/BaseLayout.astro"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "8df50bb02c726d927edb797467b48b6c657cb64d",
+  "author_date": "2025-04-14T08:42:43-04:00",
+  "subject": "checkpoint at 2025-04-14T08:42:43-0400",
+  "files_changed": [
+   "pnpm-lock.yaml",
+   "src/content.config.ts",
+   "src/content/notes/2024-12-05-1.md",
+   "src/content/notes/2025-02-17-1.md",
+   "src/content/notes/2025-02-25-1.md",
+   "src/content/notes/2025-03-22-1.md",
+   "src/content/notes/2025-04-13-1.md",
+   "src/pages/notes/[...slug].astro",
+   "src/pages/notes/index.astro"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "17ab500097c3db54508bf805169dc5e41e8c418e",
+  "author_date": "2025-04-14T09:01:34-04:00",
+  "subject": "checkpoint at 2025-04-14T09:01:34-0400",
+  "files_changed": [
+   "src/icons/chevron-right.svg",
+   "src/pages/index.astro",
+   "src/pages/notes/[...slug].astro",
+   "src/pages/notes/index.astro"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "1f013dfcf98ec662d44d83e8fc50feb12cc405af",
+  "author_date": "2025-04-14T09:08:43-04:00",
+  "subject": "checkpoint at 2025-04-14T09:08:43-0400",
+  "files_changed": [
+   "src/pages/index.astro"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "539afffe27dc1ef054d8f085a83d8041bae4f6d9",
+  "author_date": "2025-04-14T12:27:15-04:00",
+  "subject": "checkpoint at 2025-04-14T12:27:15-0400",
+  "files_changed": [
+   "src/styles/global.css"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "c8e770e3218db76e38405d73083b419347eb3f73",
+  "author_date": "2025-04-14T12:47:16-04:00",
+  "subject": "checkpoint at 2025-04-14T12:47:16-0400",
+  "files_changed": [
+   "src/content/notes/2025-04-14-1.md"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "8988d73df70b7c3e8044ae7d724e4cead3bcf93d",
+  "author_date": "2025-04-14T19:50:35-04:00",
+  "subject": "checkpoint at 2025-04-14T19:50:35-0400",
+  "files_changed": [
+   "src/pages/index.astro"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "643f76da6678b19a4d5ccc870da4b67828865c1a",
+  "author_date": "2025-04-14T20:57:50-04:00",
+  "subject": "checkpoint at 2025-04-14T20:57:50-0400",
+  "files_changed": [
+   "src/content/notes/2025-04-14-1.md",
+   "src/content/notes/2025-04-14-2.md",
+   "src/pages/notes/[...slug].astro",
+   "src/pages/notes/index.astro",
+   "src/styles/global.css"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "38ddeea1df2e8c051601d3efad87f3763f6d9bf1",
+  "author_date": "2025-04-14T20:59:01-04:00",
+  "subject": "checkpoint at 2025-04-14T20:59:01-0400",
+  "files_changed": [
+   "src/content/notes/2025-04-14-2.md"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "76ee33abdd056b0b9ad2b32ec66729d5d3890bcd",
+  "author_date": "2025-04-15T07:41:52-04:00",
+  "subject": "checkpoint at 2025-04-15T07:41:52-0400",
+  "files_changed": [
+   "src/pages/notes/index.astro"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "2b9e338a30cf2a062676ceeace4b0e560e244af3",
+  "author_date": "2025-04-15T08:52:16-04:00",
+  "subject": "checkpoint at 2025-04-15T08:52:16-0400",
+  "files_changed": [
+   "src/content/notes/2025-04-15-1.md",
+   "src/styles/global.css"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "37a1f35cc4c59724a90ed895fd832a8551db958d",
+  "author_date": "2025-04-16T07:33:47-04:00",
+  "subject": "checkpoint at 2025-04-16T07:33:47-0400",
+  "files_changed": [
+   "src/consts.ts",
+   "src/content.config.ts"
+  ],
+  "page_touching": false
+ },
+ {
+  "sha": "95f0abddb541b33eef15eb0394b2f8f27fef8787",
+  "author_date": "2025-04-16T07:36:17-04:00",
+  "subject": "checkpoint at 2025-04-16T07:36:17-0400",
+  "files_changed": [
+   "src/pages/notes/index.astro"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "3e68c38697d71e9da9f7a6e4f6c75a2bff6bc8f2",
+  "author_date": "2025-04-16T07:39:22-04:00",
+  "subject": "checkpoint at 2025-04-16T07:39:22-0400",
+  "files_changed": [
+   "package.json",
+   "pnpm-lock.yaml",
+   "src/content.config.ts"
+  ],
+  "page_touching": false
+ },
+ {
+  "sha": "ac7cc2a83ed1f97943d129f3abc5642029171c7e",
+  "author_date": "2025-04-16T09:23:12-04:00",
+  "subject": "checkpoint at 2025-04-16T09:23:12-0400",
+  "files_changed": [
+   "astro.config.mjs",
+   "pnpm-lock.yaml",
+   "src/content/notes/2025-04-16-1.md",
+   "src/styles/global.css"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "8f6295a1765ce516803175496ab2cc3df05d4b21",
+  "author_date": "2025-04-16T12:34:23-04:00",
+  "subject": "checkpoint at 2025-04-16T12:34:23-0400",
+  "files_changed": [
+   "astro.config.mjs",
+   "src/pages/notes/[...slug].astro",
+   "src/styles/global.css"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "b99b05dc24ea63363a64627dbdf884361754c015",
+  "author_date": "2025-04-16T12:39:29-04:00",
+  "subject": "checkpoint at 2025-04-16T12:39:29-0400",
+  "files_changed": [
+   "src/content/notes/2025-04-16-1.md"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "18b7a39d2ea70497b756e363cf61b0660c823ce5",
+  "author_date": "2025-04-16T12:39:47-04:00",
+  "subject": "checkpoint at 2025-04-16T12:39:47-0400",
+  "files_changed": [
+   "src/content/notes/2025-04-16-1.md"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "b6ab33097b89117554dff1008f128c59d1307563",
+  "author_date": "2025-04-16T12:42:19-04:00",
+  "subject": "checkpoint at 2025-04-16T12:42:19-0400",
+  "files_changed": [
+   "src/content/notes/2025-04-16-1.md"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "b73035d9cbcea350424db69335bf723d53cdffc8",
+  "author_date": "2025-04-16T19:49:32-04:00",
+  "subject": "checkpoint at 2025-04-16T19:49:32-0400",
+  "files_changed": [
+   "src/pages/notes/index.astro"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "e95fc24e96c8e26a748b4bc23a1051bda4d71595",
+  "author_date": "2025-04-17T07:44:11-04:00",
+  "subject": "checkpoint at 2025-04-17T07:44:11-0400",
+  "files_changed": [
+   "src/content/jobs/clerk.md"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "53fbdbcf6d86246eca618afc1344e059ee51a0b5",
+  "author_date": "2025-04-17T08:21:47-04:00",
+  "subject": "checkpoint at 2025-04-17T08:21:47-0400",
+  "files_changed": [
+   "src/content/notes/2024-12-05-1.md",
+   "src/content/notes/2025-02-17-1.md",
+   "src/content/notes/2025-02-25-1.md",
+   "src/content/notes/2025-03-22-1.md",
+   "src/content/notes/2025-04-13-1.md",
+   "src/content/notes/2025-04-14-2.md",
+   "src/content/notes/2025-04-16-1.md",
+   "src/content/notes/2025-04-17-1.md"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "5b4136c157097be63de380c0fa7cf4fb054f4039",
+  "author_date": "2025-04-17T08:21:59-04:00",
+  "subject": "checkpoint at 2025-04-17T08:21:59-0400",
+  "files_changed": [
+   "src/content/notes/2025-04-17-1.md"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "72f331d8d0e04dd2aedb7a17fd28b9114d9dfe3c",
+  "author_date": "2025-04-17T08:58:28-04:00",
+  "subject": "checkpoint at 2025-04-17T08:58:28-0400",
+  "files_changed": [
+   "src/pages/notes/index.astro"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "27b27004bf105ed9791d028e657198ded83b16de",
+  "author_date": "2025-04-18T08:01:39-04:00",
+  "subject": "checkpoint at 2025-04-18T08:01:39-0400",
+  "files_changed": [
+   "src/content/notes/2025-04-18-1.md",
+   "src/icons/components.svg",
+   "src/icons/figma-full-color.svg",
+   "src/icons/figma.svg",
+   "src/icons/tailwind-css.svg",
+   "src/pages/index.astro",
+   "src/utils/fetchLatestGithubPrs.ts"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "6f9730e5ce0b90214d3d8501e8e24199499dca07",
+  "author_date": "2025-04-18T08:04:38-04:00",
+  "subject": "checkpoint at 2025-04-18T08:04:38-0400",
+  "files_changed": [
+   "src/content/notes/2025-04-18-2.md"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "84e0b9b0f13d957dfdfda6ba369ee23f6fcd0f71",
+  "author_date": "2025-04-19T07:29:32-04:00",
+  "subject": "checkpoint at 2025-04-19T07:29:32-0400",
+  "files_changed": [
+   "src/content/notes/2025-04-19-1.md",
+   "src/content/notes/2025-04-19-2.md",
+   "src/pages/notes/index.astro"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "9b5a4fb74a83ef32d11cf7c89fe7bfc2a48c7c27",
+  "author_date": "2025-04-30T08:15:50-04:00",
+  "subject": "checkpoint at 2025-04-30T08:15:50-0400",
+  "files_changed": [
+   "src/content/notes/2025-04-30-1.md"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "f589bb00605d6f2cec6a0b3bc1bc334738bc0b0f",
+  "author_date": "2025-05-01T08:20:31-04:00",
+  "subject": "checkpoint at 2025-05-01T08:20:31-0400",
+  "files_changed": [
+   "src/content/notes/2025-05-01-1.md",
+   "src/pages/index.astro",
+   "src/styles/global.css",
+   "src/utils/fetchLatestGithubPrs.ts"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "9efe56f392525c7c108f1b9cfb887fac0264246b",
+  "author_date": "2025-05-01T08:38:36-04:00",
+  "subject": "checkpoint at 2025-05-01T08:38:36-0400",
+  "files_changed": [
+   "package.json",
+   "pnpm-lock.yaml",
+   "src/content/notes/2025-05-01-1.md"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "14802d863b33ebe05c918ce42b33ce255e775db8",
+  "author_date": "2025-05-02T07:34:15-04:00",
+  "subject": "checkpoint at 2025-05-02T07:34:15-0400",
+  "files_changed": [
+   "src/content/notes/2025-05-02-1.md",
+   "src/pages/index.astro"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "46fab6d0cbf43c3438722953c10532a869dc33f6",
+  "author_date": "2025-05-02T07:34:49-04:00",
+  "subject": "checkpoint at 2025-05-02T07:34:49-0400",
+  "files_changed": [
+   "src/content/notes/2025-05-02-1.md"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "6eeea9d9616430eebdc69522bc8407bc966c5bef",
+  "author_date": "2025-05-13T07:12:32-04:00",
+  "subject": "checkpoint at 2025-05-13T07:12:32-0400",
+  "files_changed": [
+   "package.json",
+   "pnpm-lock.yaml"
+  ],
+  "page_touching": false
+ },
+ {
+  "sha": "a2aef9b9d07a48c2ef21bc781af0671c12e2eb7e",
+  "author_date": "2025-05-13T07:37:27-04:00",
+  "subject": "checkpoint at 2025-05-13T07:37:27-0400",
+  "files_changed": [
+   "src/content/jobs/clerk.md"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "53aed31241458b3ab11aaa69f971df9c3df7dbb4",
+  "author_date": "2025-05-14T09:12:05-04:00",
+  "subject": "checkpoint at 2025-05-14T09:12:05-0400",
+  "files_changed": [
+   "src/content/notes/2025-05-14-1.md"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "ce40a8f2024312a14fd7afb168de2c6d602be98d",
+  "author_date": "2025-05-26T12:14:00-04:00",
+  "subject": "checkpoint at 2025-05-26T12:14:00-0400",
+  "files_changed": [
+   "package.json",
+   "pnpm-lock.yaml"
+  ],
+  "page_touching": false
+ },
+ {
+  "sha": "2ed0e29b8d8318094cf35519bb5ebbf073a146e0",
+  "author_date": "2025-05-26T12:26:37-04:00",
+  "subject": "checkpoint at 2025-05-26T12:26:37-0400",
+  "files_changed": [
+   "src/content/notes/2025-05-26-1.md"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "f4e8ad8be7a5acf532df40743efc51d11e3b228d",
+  "author_date": "2025-05-26T15:48:43-04:00",
+  "subject": "checkpoint at 2025-05-26T15:48:43-0400",
+  "files_changed": [
+   "src/styles/global.css"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "0b4c6352f6aef3b8b6e07044614add3f84a21ce0",
+  "author_date": "2025-05-30T08:00:44-04:00",
+  "subject": "checkpoint at 2025-05-30T08:00:44-0400",
+  "files_changed": [
+   "src/content/jobs/clerk.md"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "63f9a72541d0bf3059abf39bb68328e3abdbcd37",
+  "author_date": "2025-06-14T08:32:06-04:00",
+  "subject": "checkpoint at 2025-06-14T08:32:06-0400",
+  "files_changed": [
+   "package.json",
+   "pnpm-lock.yaml",
+   "src/styles/global.css"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "c8127630eb0f3fa4c6b3e175aceaf96e6e604689",
+  "author_date": "2025-06-14T15:09:46-04:00",
+  "subject": "checkpoint at 2025-06-14T15:09:46-0400",
+  "files_changed": [
+   "src/content/jobs/clerk.md"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "564394588bbe84bda5d6ce64f10a071d23a2fc02",
+  "author_date": "2025-06-14T15:13:15-04:00",
+  "subject": "checkpoint at 2025-06-14T15:13:15-0400",
+  "files_changed": [
+   "src/layouts/BaseLayout.astro"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "928ba3d7caab8737f79ea820484199a3961b26dd",
+  "author_date": "2025-06-17T07:40:58-04:00",
+  "subject": "checkpoint at 2025-06-17T07:40:58-0400",
+  "files_changed": [
+   "src/pages/index.astro"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "97956602181adbb4031515175e75c2d6407cebc7",
+  "author_date": "2025-06-17T08:23:58-04:00",
+  "subject": "checkpoint at 2025-06-17T08:23:58-0400",
+  "files_changed": [
+   "pnpm-lock.yaml",
+   "src/content.config.ts",
+   "src/content/pages/blogroll.md",
+   "src/content/pages/changelog.md",
+   "src/content/pages/colophon.md",
+   "src/content/pages/defaults.md",
+   "src/content/pages/now.md",
+   "src/content/pages/uses.md",
+   "src/pages/[slug].astro"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "4b6c888be68623813e9d8f2f05fb4d80032903df",
+  "author_date": "2025-06-17T08:51:23-04:00",
+  "subject": "checkpoint at 2025-06-17T08:51:23-0400",
+  "files_changed": [
+   "package.json",
+   "pnpm-lock.yaml",
+   "src/pages/[slug].astro"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "007bdf20dd10b43ff6aaebdfc09f5853a40cf72f",
+  "author_date": "2025-06-18T07:48:06-04:00",
+  "subject": "checkpoint at 2025-06-18T07:48:06-0400",
+  "files_changed": [
+   "src/content/notes/2025-06-18-1.md"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "649b6f8ca67eab5eef0488976ab3d58d9bb76f31",
+  "author_date": "2025-06-18T07:56:09-04:00",
+  "subject": "checkpoint at 2025-06-18T07:56:09-0400",
+  "files_changed": [
+   "src/content/notes/2025-06-18-2.md"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "09dfe1644b7c2a44e5ddcc1ee51e8d159cdee71d",
+  "author_date": "2025-06-18T08:05:16-04:00",
+  "subject": "checkpoint at 2025-06-18T08:05:16-0400",
+  "files_changed": [
+   "src/content/notes/2025-06-18-3.md"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "067132c18e1a38dcbd1f06705fd50939d9dbb362",
+  "author_date": "2025-06-18T08:14:19-04:00",
+  "subject": "checkpoint at 2025-06-18T08:14:19-0400",
+  "files_changed": [
+   "src/content/notes/2025-06-18-4.md"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "4ce428e186190a91782fb6719029a412ea48cf91",
+  "author_date": "2025-06-19T07:44:19-04:00",
+  "subject": "checkpoint at 2025-06-19T07:44:19-0400",
+  "files_changed": [
+   "src/content/jobs/clerk.md"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "b7fe9b85758596bf13529aad2c69c70bb6446ce4",
+  "author_date": "2025-06-21T08:04:10-04:00",
+  "subject": "checkpoint at 2025-06-21T08:04:10-0400",
+  "files_changed": [
+   "src/content/notes/2025-06-21-1.md"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "56e9c42e0554703b45d3faf24961533987b2e31f",
+  "author_date": "2025-06-23T07:34:49-04:00",
+  "subject": "checkpoint at 2025-06-23T07:34:49-0400",
+  "files_changed": [
+   ".zed/settings.json",
+   "src/content/pages/blogroll.md",
+   "src/pages/[slug].astro",
+   "src/pages/index.astro"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "a7a96e9714a75f6e1f65b34e0d103729ccf6f0cc",
+  "author_date": "2025-06-23T07:36:22-04:00",
+  "subject": "checkpoint at 2025-06-23T07:36:22-0400",
+  "files_changed": [
+   "src/pages/index.astro"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "e916bd755b6a1baea29e39a348a3a48bfb7b5871",
+  "author_date": "2025-06-24T08:49:42-04:00",
+  "subject": "checkpoint at 2025-06-24T08:49:42-0400",
+  "files_changed": [
+   "src/content/notes/2025-06-24-1.md"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "16599aecc770dcc267df29f34557ead77ada8366",
+  "author_date": "2025-06-25T07:34:12-04:00",
+  "subject": "checkpoint at 2025-06-25T07:34:12-0400",
+  "files_changed": [
+   "src/pages/index.astro"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "cd6b581486c5586d4554f98cce19f58ca8de1d38",
+  "author_date": "2025-06-25T07:39:02-04:00",
+  "subject": "checkpoint at 2025-06-25T07:39:02-0400",
+  "files_changed": [
+   "src/content/pages/blogroll.md"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "aefdaadd33ec54929b06b58b0eeb47c67a07629c",
+  "author_date": "2025-06-26T08:21:44-04:00",
+  "subject": "checkpoint at 2025-06-26T08:21:44-0400",
+  "files_changed": [
+   "package.json",
+   "src/layouts/BaseLayout.astro",
+   "src/pages/notes/[...slug].astro",
+   "src/pages/notes/rss.xml.js"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "d6afcfd53fa565ceb8ccc539842388bce8a774b4",
+  "author_date": "2025-06-26T08:22:48-04:00",
+  "subject": "checkpoint at 2025-06-26T08:22:48-0400",
+  "files_changed": [
+   "pnpm-lock.yaml"
+  ],
+  "page_touching": false
+ },
+ {
+  "sha": "53ecdd37ec4ef53172fc46c5da6ecd503fd55a84",
+  "author_date": "2025-06-27T07:41:13-04:00",
+  "subject": "checkpoint at 2025-06-27T07:41:13-0400",
+  "files_changed": [
+   "package.json",
+   "pnpm-lock.yaml",
+   "src/content/notes/2025-06-27-1.md"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "5c0a0165dade03f18629a25fbb93044da3aebb35",
+  "author_date": "2025-06-27T07:51:08-04:00",
+  "subject": "checkpoint at 2025-06-27T07:51:08-0400",
+  "files_changed": [
+   "package.json",
+   "pnpm-lock.yaml"
+  ],
+  "page_touching": false
+ },
+ {
+  "sha": "352ea6c3d336494b75c8c90343f071aac01da844",
+  "author_date": "2025-06-27T08:04:15-04:00",
+  "subject": "checkpoint at 2025-06-27T08:04:15-0400",
+  "files_changed": [
+   ".zed/settings.json"
+  ],
+  "page_touching": false
+ },
+ {
+  "sha": "2a6069f6d0214147c907a578916787153f35d5a7",
+  "author_date": "2025-06-27T08:26:25-04:00",
+  "subject": "checkpoint at 2025-06-27T08:26:25-0400",
+  "files_changed": [
+   "src/content/pages/changelog.md",
+   "src/content/pages/colophon.md",
+   "src/content/pages/now.md"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "2528750db88ba7c7772a6e3400c13e8a4626c2c5",
+  "author_date": "2025-06-27T08:29:19-04:00",
+  "subject": "checkpoint at 2025-06-27T08:29:19-0400",
+  "files_changed": [
+   "src/styles/global.css"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "87a77d3ead1e93d0d5dbb3e7d6c2f2afdf49ee97",
+  "author_date": "2025-06-28T07:22:18-04:00",
+  "subject": "checkpoint at 2025-06-28T07:22:18-0400",
+  "files_changed": [
+   "src/pages/notes/rss.xml.js"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "87731dd1ab3cae895823cead2084693b271e6195",
+  "author_date": "2025-07-01T07:31:22-04:00",
+  "subject": "checkpoint at 2025-07-01T07:31:22-0400",
+  "files_changed": [
+   "src/content/notes/2025-07-01-1.md",
+   "src/pages/notes/[...slug].astro",
+   "src/pages/notes/index.astro"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "dda409bbdecb0001a25f59f25f844ab77b4b293d",
+  "author_date": "2025-07-01T07:32:20-04:00",
+  "subject": "checkpoint at 2025-07-01T07:32:20-0400",
+  "files_changed": [
+   "src/pages/notes/index.astro"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "9c486259b4565cbef05a451dea919d4203fc7895",
+  "author_date": "2025-07-01T08:22:23-04:00",
+  "subject": "checkpoint at 2025-07-01T08:22:23-0400",
+  "files_changed": [
+   "src/content.config.ts",
+   "src/content/jobs/clerk.md",
+   "src/content/jobs/mighty-in-the-midwest.md",
+   "src/content/jobs/watershed.md",
+   "src/content/pages/uses.md",
+   "src/pages/index.astro"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "54252fb255f375f85226fd3827e3990c72c9c86c",
+  "author_date": "2025-07-02T08:11:10-04:00",
+  "subject": "checkpoint at 2025-07-02T08:11:10-0400",
+  "files_changed": [
+   "src/styles/global.css"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "aa154741334a243b3ad7e4216f8c2aa7e4a26df5",
+  "author_date": "2025-07-02T08:42:22-04:00",
+  "subject": "checkpoint at 2025-07-02T08:42:22-0400",
+  "files_changed": [
+   "src/content/notes/2025-07-02-1.md"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "257984650b1e581ca001756920faa63713f7de87",
+  "author_date": "2025-07-03T08:09:55-04:00",
+  "subject": "checkpoint at 2025-07-03T08:09:55-0400",
+  "files_changed": [
+   "src/pages/index.astro"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "d48ee743600cd1fbcc596b7256ffceb2d5ff61b8",
+  "author_date": "2025-07-04T07:36:41-04:00",
+  "subject": "checkpoint at 2025-07-04T07:36:41-0400",
+  "files_changed": [
+   "src/content/pages/blogroll.md"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "d658ed2639cd5f329717093bd534e3c36e8bb54d",
+  "author_date": "2025-07-04T08:06:42-04:00",
+  "subject": "checkpoint at 2025-07-04T08:06:42-0400",
+  "files_changed": [
+   "src/content/pages/blogroll.md"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "f89059d2546223500136c24329cbc981d70b48e3",
+  "author_date": "2025-07-04T08:25:07-04:00",
+  "subject": "checkpoint at 2025-07-04T08:25:07-0400",
+  "files_changed": [
+   "src/content/pages/now.md",
+   "src/pages/[slug].astro",
+   "src/pages/notes/[...slug].astro",
+   "src/styles/global.css"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "49b6542c3acb449ea5193958ab1562e629569115",
+  "author_date": "2025-07-04T08:27:37-04:00",
+  "subject": "checkpoint at 2025-07-04T08:27:37-0400",
+  "files_changed": [
+   "src/pages/notes/index.astro"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "fd64f587b135c9adb34a4c1c4630647307feb63e",
+  "author_date": "2025-07-04T08:30:52-04:00",
+  "subject": "checkpoint at 2025-07-04T08:30:52-0400",
+  "files_changed": [
+   "src/pages/[slug].astro",
+   "src/pages/notes/[...slug].astro",
+   "src/styles/global.css"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "a5607f2b413c96c012afaafbcf469892d2ade0fd",
+  "author_date": "2025-07-04T08:35:30-04:00",
+  "subject": "checkpoint at 2025-07-04T08:35:30-0400",
+  "files_changed": [
+   "src/content/pages/now.md"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "b504a80c9c087d2a20ffef21cfc6606cabbcfb10",
+  "author_date": "2025-07-04T08:37:24-04:00",
+  "subject": "checkpoint at 2025-07-04T08:37:24-0400",
+  "files_changed": [
+   "src/content/pages/now.md"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "ebf2b1b7854fdf5046bea96b54c4d60daf55f6b6",
+  "author_date": "2025-07-06T14:03:34-04:00",
+  "subject": "checkpoint at 2025-07-06T14:03:34-0400",
+  "files_changed": [
+   "src/content/notes/2024-12-05-1.md",
+   "src/content/notes/2025-02-17-1.md",
+   "src/content/notes/2025-02-19-2.md",
+   "src/content/notes/2025-02-25-1.md",
+   "src/content/notes/2025-03-22-1.md",
+   "src/content/notes/2025-04-13-1.md",
+   "src/content/notes/2025-04-14-1.md",
+   "src/content/notes/2025-04-14-2.md",
+   "src/content/notes/2025-04-15-1.md",
+   "src/content/notes/2025-04-16-1.md",
+   "src/content/notes/2025-04-17-1.md",
+   "src/content/notes/2025-04-18-1.md",
+   "src/content/notes/2025-04-18-2.md",
+   "src/content/notes/2025-04-19-1.md",
+   "src/content/notes/2025-04-19-2.md",
+   "src/content/notes/2025-04-30-1.md",
+   "src/content/notes/2025-05-01-1.md",
+   "src/content/notes/2025-05-02-1.md",
+   "src/content/notes/2025-05-14-1.md",
+   "src/content/notes/2025-05-26-1.md",
+   "src/content/notes/2025-06-18-1.md",
+   "src/content/notes/2025-06-18-2.md",
+   "src/content/notes/2025-06-18-3.md",
+   "src/content/notes/2025-06-18-4.md",
+   "src/content/notes/2025-06-24-1.md",
+   "src/content/notes/2025-06-27-1.md",
+   "src/content/notes/2025-07-01-1.md",
+   "src/content/notes/2025-07-02-1.md"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "c113cea9420f1589c0d8ff58733b3061d84745e5",
+  "author_date": "2025-07-06T14:33:15-04:00",
+  "subject": "checkpoint at 2025-07-06T14:33:15-0400",
+  "files_changed": [
+   "src/pages/tags/[tag].astro",
+   "src/pages/tags/index.astro"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "79f26a53202a6fdafc2edc2833dc746a98638b70",
+  "author_date": "2025-07-06T14:34:29-04:00",
+  "subject": "checkpoint at 2025-07-06T14:34:29-0400",
+  "files_changed": [
+   "src/content/pages/changelog.md"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "204fb149a46e0d05e7166db62fbc24ba9c61f789",
+  "author_date": "2025-07-06T15:25:31-04:00",
+  "subject": "checkpoint at 2025-07-06T15:25:31-0400",
+  "files_changed": [
+   "src/content/pages/changelog.md"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "caf385eb0c1369bbf8fdb2d609e521237f2089d7",
+  "author_date": "2025-07-07T08:57:20-04:00",
+  "subject": "checkpoint at 2025-07-07T08:57:20-0400",
+  "files_changed": [
+   "src/content/pages/micah.md",
+   "src/content/pages/now.md",
+   "src/styles/global.css"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "64b668bf183d27982482fec4a03070dc8279eadf",
+  "author_date": "2025-07-08T08:07:52-04:00",
+  "subject": "checkpoint at 2025-07-08T08:07:52-0400",
+  "files_changed": [
+   "src/content/pages/now.md"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "ead512a959422dfdef45f067a3b1f5b2ed5f59dc",
+  "author_date": "2025-07-08T08:36:51-04:00",
+  "subject": "checkpoint at 2025-07-08T08:36:51-0400",
+  "files_changed": [
+   "src/content/notes/2025-07-08-1.md"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "dfa30fc7fa9b33a36b91e34148bd30aaf6b639cb",
+  "author_date": "2025-07-08T15:48:04-04:00",
+  "subject": "checkpoint at 2025-07-08T15:48:04-0400",
+  "files_changed": [
+   "src/content/jobs/clerk.md",
+   "src/content/notes/2025-07-01-1.md",
+   "src/content/notes/2025-07-08-1.md",
+   "src/content/pages/defaults.md",
+   "src/pages/index.astro",
+   "src/styles/global.css"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "4f0f14a6ae4ca598b6a0444310d94d8e0ef5d94b",
+  "author_date": "2025-07-09T07:45:46-04:00",
+  "subject": "checkpoint at 2025-07-09T07:45:46-0400",
+  "files_changed": [
+   "astro.config.mjs",
+   "package.json",
+   "pnpm-lock.yaml",
+   "src/content/pages/colophon.md",
+   "src/content/pages/home-automation.md",
+   "src/styles/global.css"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "89199f997394fea0555acd2fa6922e2913fea06e",
+  "author_date": "2025-07-09T08:42:20-04:00",
+  "subject": "checkpoint at 2025-07-09T08:42:20-0400",
+  "files_changed": [
+   "src/components/ExternalLink.astro",
+   "src/pages/index.astro",
+   "src/pages/notes/[...slug].astro",
+   "src/pages/notes/index.astro"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "37c38ecb7519e1b3ca861f4123c04cb35d003201",
+  "author_date": "2025-07-09T08:55:45-04:00",
+  "subject": "checkpoint at 2025-07-09T08:55:45-0400",
+  "files_changed": [
+   "src/components/ExternalLink.astro"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "704d00d9818d331a17a3f346026206ccb5605106",
+  "author_date": "2025-07-10T08:19:38-04:00",
+  "subject": "checkpoint at 2025-07-10T08:19:38-0400",
+  "files_changed": [
+   "package.json",
+   "pnpm-lock.yaml"
+  ],
+  "page_touching": false
+ },
+ {
+  "sha": "82de3659b5ec216eb4e04637ce24892f95706674",
+  "author_date": "2025-07-10T08:21:18-04:00",
+  "subject": "checkpoint at 2025-07-10T08:21:18-0400",
+  "files_changed": [
+   "src/components/ExternalLink.astro"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "9a3de6dc3bd5d76ad8f7843191f622f1f0a49936",
+  "author_date": "2025-07-11T07:57:50-04:00",
+  "subject": "checkpoint at 2025-07-11T07:57:50-0400",
+  "files_changed": [
+   "src/content/notes/2025-07-01-1.md",
+   "src/content/notes/2025-07-08-1.md"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "0c4bbe50b0ee1a498576e4481f5acbe9b36cc210",
+  "author_date": "2025-07-11T08:04:19-04:00",
+  "subject": "checkpoint at 2025-07-11T08:04:19-0400",
+  "files_changed": [
+   "src/layouts/BaseLayout.astro"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "9df41a5a3a3eb8fd501652b0d7caf7b4311e0cbb",
+  "author_date": "2025-07-11T10:56:23-04:00",
+  "subject": "checkpoint at 2025-07-11T10:56:23-0400",
+  "files_changed": [
+   "src/content/notes/2025-07-11-1.md"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "7077f1b221f06e7e1e53aa0efe9739373ffe6a36",
+  "author_date": "2025-07-14T09:47:50-04:00",
+  "subject": "checkpoint at 2025-07-14T09:47:50-0400",
+  "files_changed": [
+   "src/content.config.ts",
+   "src/content/pages/home-automation.md",
+   "src/pages/[slug].astro"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "33419fe201c44f6153d38c4b8d1b835c640ab26e",
+  "author_date": "2025-07-14T12:55:00-04:00",
+  "subject": "checkpoint at 2025-07-14T12:55:00-0400",
+  "files_changed": [
+   "pnpm-lock.yaml",
+   "src/components/Changelog.astro",
+   "src/content.config.ts",
+   "src/content/pages/changelog.md",
+   "src/content/pages/home-automation.md",
+   "src/pages/[slug].astro",
+   "src/pages/changelog/index.astro"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "152345028d731d669db618d84128c36865c84629",
+  "author_date": "2025-07-15T07:46:11-04:00",
+  "subject": "checkpoint at 2025-07-15T07:46:11-0400",
+  "files_changed": [
+   "src/components/Changelog.astro",
+   "src/content/pages/home-automation.md",
+   "src/layouts/BaseLayout.astro",
+   "src/pages/404.astro"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "f9354eebc5e923cc8fe7cf6ba078ef74f8d0090b",
+  "author_date": "2025-07-15T07:49:20-04:00",
+  "subject": "checkpoint at 2025-07-15T07:49:20-0400",
+  "files_changed": [
+   "src/content/pages/home-automation.md",
+   "src/pages/[slug].astro",
+   "src/pages/notes/[...slug].astro",
+   "src/styles/global.css"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "70c75aa6c07e15bb27f7d4bbeaa5bfe1513aec8c",
+  "author_date": "2025-07-15T07:50:24-04:00",
+  "subject": "checkpoint at 2025-07-15T07:50:24-0400",
+  "files_changed": [
+   "src/content/pages/home-automation.md"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "4ad17876daa83ebf9cfed28f081be12c80a1443c",
+  "author_date": "2025-07-15T07:54:49-04:00",
+  "subject": "checkpoint at 2025-07-15T07:54:49-0400",
+  "files_changed": [
+   "src/styles/global.css"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "f7d3011d199ad1eff0114829fa1eebb8b125415c",
+  "author_date": "2025-07-15T08:08:48-04:00",
+  "subject": "checkpoint at 2025-07-15T08:08:48-0400",
+  "files_changed": [
+   "src/styles/global.css"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "20f88fdc8f207f753cc107711185aa6e0839fbb2",
+  "author_date": "2025-07-15T08:15:17-04:00",
+  "subject": "checkpoint at 2025-07-15T08:15:17-0400",
+  "files_changed": [
+   "src/content/pages/home-automation.md"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "fc182459dbe4c04b2c44e742e869284a82e47665",
+  "author_date": "2025-07-15T08:15:43-04:00",
+  "subject": "checkpoint at 2025-07-15T08:15:43-0400",
+  "files_changed": [
+   "src/content/pages/now.md"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "badf83ba5ecec9e46395d96bfe83d3172d2e0ebd",
+  "author_date": "2025-07-16T21:11:13-04:00",
+  "subject": "checkpoint at 2025-07-16T21:11:13-0400",
+  "files_changed": [
+   "src/content/pages/security.md",
+   "src/pages/notes/index.astro"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "0a40756797e595faf5c5ed113691dc14fc86def6",
+  "author_date": "2025-07-16T21:11:21-04:00",
+  "subject": "Merge branch 'main' of https://github.com/alexcarpenter/alexcarpenter.me",
+  "files_changed": [
+   "src/content/jobs/clerk.md",
+   "src/content/notes/2025-07-15-1.md",
+   "src/content/pages/changelog.md",
+   "src/content/pages/now.md"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "578cffe57ca2e5eac87bfc2774f740f4b858c552",
+  "author_date": "2025-07-16T21:15:48-04:00",
+  "subject": "checkpoint at 2025-07-16T21:15:48-0400",
+  "files_changed": [
+   "src/content/pages/security.md"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "7394e10e53ef01a0ea38ae3ae52374e0b979f001",
+  "author_date": "2025-07-16T21:26:21-04:00",
+  "subject": "checkpoint at 2025-07-16T21:26:21-0400",
+  "files_changed": [
+   "src/content/pages/security.md"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "dd0a7d3d58c9c899953bde0161ead50ebea9b30b",
+  "author_date": "2025-07-17T07:33:27-04:00",
+  "subject": "checkpoint at 2025-07-17T07:33:27-0400",
+  "files_changed": [
+   "src/content/pages/security.md"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "3e18d92b37fe50d1c3c73d782252531c9d615681",
+  "author_date": "2025-07-17T07:37:05-04:00",
+  "subject": "checkpoint at 2025-07-17T07:37:05-0400",
+  "files_changed": [
+   "src/content/pages/security.md"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "039c9367aece30c5fb3b706ad8c236688dc34c4b",
+  "author_date": "2025-07-17T07:38:34-04:00",
+  "subject": "checkpoint at 2025-07-17T07:38:34-0400",
+  "files_changed": [
+   "src/content/pages/security.md"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "502724d6a5f3597b8dacf90b5cd50de6417b55bf",
+  "author_date": "2025-07-17T07:47:30-04:00",
+  "subject": "checkpoint at 2025-07-17T07:47:30-0400",
+  "files_changed": [
+   "src/content/pages/security.md"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "81ce0cf36cc020498e60f5758f877d02f5482674",
+  "author_date": "2025-07-17T08:01:34-04:00",
+  "subject": "checkpoint at 2025-07-17T08:01:34-0400",
+  "files_changed": [
+   "src/content/jobs/clerk.md",
+   "src/pages/index.astro"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "696965e6c8ba5633e822fb56d386f487d1c07dfa",
+  "author_date": "2025-07-17T08:06:16-04:00",
+  "subject": "checkpoint at 2025-07-17T08:06:16-0400",
+  "files_changed": [
+   "src/content/pages/uses.md"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "01670f0fb1632ff7e620a4c9c9af13c823d5f9d1",
+  "author_date": "2025-07-17T08:11:03-04:00",
+  "subject": "checkpoint at 2025-07-17T08:11:03-0400",
+  "files_changed": [
+   "src/content/pages/security.md"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "247f3dc98a4a35b23db27088bbbeb00ebafdb7e6",
+  "author_date": "2025-07-17T20:52:15-04:00",
+  "subject": "checkpoint at 2025-07-17T20:52:15-0400",
+  "files_changed": [
+   "src/content/notes/2025-07-17-1.md",
+   "src/pages/tags/index.astro",
+   "src/styles/global.css"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "43ff8d57a68451bef812692c3e54d8bb627e8c9c",
+  "author_date": "2025-07-17T21:36:56-04:00",
+  "subject": "checkpoint at 2025-07-17T21:36:56-0400",
+  "files_changed": [
+   ".gitignore",
+   "src/content/notes/2025-07-17-2.md",
+   "src/pages/notes/index.astro"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "712445ace9e9974ea5c143e18c0552e6103f88f9",
+  "author_date": "2025-07-18T07:59:58-04:00",
+  "subject": "checkpoint at 2025-07-18T07:59:58-0400",
+  "files_changed": [
+   "public/{img => images}/amy-stuart.jpeg",
+   "public/{img => images}/andrew-possehl.jpeg",
+   "public/{img => images}/benjamin-kohl.jpeg",
+   "public/{img => images}/book-challenger.jpg",
+   "public/{img => images}/book-project-hail-mary.jpg",
+   "public/{img => images}/brunswickbowling-com.webp",
+   "public/{img => images}/bryce-kalow.jpeg",
+   ".../{img => images}/clerk-combined-sign-in-or-up.webp",
+   "public/{img => images}/clerk-elements.webp",
+   "public/{img => images}/clerk-user-auth.webp",
+   "public/{img => images}/conservationlegacy-org.webp",
+   "public/{img => images}/dakecorp-com.webp",
+   "public/{img => images}/danielle-dunn.jpeg",
+   "public/{img => images}/dylan-staley.jpeg",
+   "public/{img => images}/family.webp",
+   "public/{img => images}/frankie.webp",
+   "public/{img => images}/hashicorp.svg",
+   "public/{img => images}/hds-systems-edc-tactical.webp",
+   "public/{img => images}/ice-barrel-400.webp",
+   "public/{img => images}/jimmy-merritello.jpeg",
+   "public/{img => images}/joe-bell.jpeg",
+   "public/{img => images}/keyboard-explorations.webp",
+   "public/{img => images}/kyle-luck.jpeg",
+   "public/{img => images}/masuga-design.svg",
+   "public/{img => images}/melissa-taylor.jpeg",
+   "public/{img => images}/micah-lee-carpenter.webp",
+   "public/{img => images}/micahs-first-birthday.webp",
+   "public/{img => images}/mighty-in-the-midwest.svg",
+   "public/{img => images}/muziworks-r1.jpg",
+   "public/{img => images}/nationbuilder.svg",
+   "public/{img => images}/stacey-and-micah.webp",
+   "public/{img => images}/tactile-rockwall.webp",
+   "public/{img => images}/tom-milewski.jpeg",
+   "public/{img => images}/vs-code.png",
+   "public/{img => images}/watershed-com-change.webp",
+   "public/{img => images}/watershed-com-customers.webp",
+   "public/{img => images}/watershed-com-events.webp",
+   "public/{img => images}/watershed-com.webp",
+   "public/videos/test.mp4",
+   "src/content/pages/blogroll.md",
+   "src/content/pages/micah.md"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "1fe683ada5c8ae73f1d5e92446c07f03a01ceee5",
+  "author_date": "2025-07-18T08:20:53-04:00",
+  "subject": "checkpoint at 2025-07-18T08:20:53-0400",
+  "files_changed": [
+   "src/content/notes/2025-07-18-1.md",
+   "src/content/notes/2025-07-18-2.md"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "851e0bf4e10296e2e960fb2233f8d1e6dfbd5a56",
+  "author_date": "2025-07-20T08:24:33-04:00",
+  "subject": "checkpoint at 2025-07-20T08:24:33-0400",
+  "files_changed": [
+   "src/content/pages/everyday-carry.md",
+   "src/content/pages/home-automation.md",
+   "src/content/pages/uses.md",
+   "src/styles/global.css"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "2e1936603354133875371f01c0b74551c9057e40",
+  "author_date": "2025-07-20T14:33:08-04:00",
+  "subject": "checkpoint at 2025-07-20T14:33:08-0400",
+  "files_changed": [
+   "src/layouts/BaseLayout.astro",
+   "src/pages/tags/index.astro",
+   "src/styles/global.css"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "2a60cdf2fc38ae9036240772d68454f34d092446",
+  "author_date": "2025-07-20T14:34:35-04:00",
+  "subject": "checkpoint at 2025-07-20T14:34:35-0400",
+  "files_changed": [
+   "src/styles/global.css"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "d167f3ade3be5790f74010802ab9d9d83f4c4f88",
+  "author_date": "2025-07-20T14:48:32-04:00",
+  "subject": "checkpoint at 2025-07-20T14:48:32-0400",
+  "files_changed": [
+   "src/content/pages/everyday-carry.md",
+   "src/content/pages/favorites.md"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "b7501d4224319ddcddd0db4f3a3f6e823d552abf",
+  "author_date": "2025-07-20T20:12:35-04:00",
+  "subject": "checkpoint at 2025-07-20T20:12:35-0400",
+  "files_changed": [
+   "src/pages/index.astro",
+   "src/pages/notes/index.astro",
+   "src/pages/tags/[tag].astro"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "33508816a53aa6634f311f2f9c0bd00bee49cce0",
+  "author_date": "2025-07-21T08:09:53-04:00",
+  "subject": "checkpoint at 2025-07-21T08:09:53-0400",
+  "files_changed": [
+   "src/content/pages/favorites.md"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "fe15f36ae14f033ae47b27af8921542b1f5beb94",
+  "author_date": "2025-07-21T08:31:56-04:00",
+  "subject": "checkpoint at 2025-07-21T08:31:56-0400",
+  "files_changed": [
+   "src/pages/index.astro"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "fcb8033b445655fea656d563ea7980abbef4b55c",
+  "author_date": "2025-07-21T08:38:10-04:00",
+  "subject": "checkpoint at 2025-07-21T08:38:10-0400",
+  "files_changed": [
+   "src/content/notes/2025-07-21-1.md"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "fe026d8326624664e0d2a492d8e680b6de98bd71",
+  "author_date": "2025-07-21T08:39:09-04:00",
+  "subject": "checkpoint at 2025-07-21T08:39:09-0400",
+  "files_changed": [
+   "src/content/notes/2025-07-21-1.md"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "b8220f35f47f8c35b030880a2e4f74b85e5bf6c4",
+  "author_date": "2025-07-23T11:14:51-04:00",
+  "subject": "checkpoint at 2025-07-23T11:14:51-0400",
+  "files_changed": [
+   "src/content/jobs/clerk.md"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "8af02436a971eecda49df12c4eac13175076146f",
+  "author_date": "2025-07-23T11:46:01-04:00",
+  "subject": "checkpoint at 2025-07-23T11:46:01-0400",
+  "files_changed": [
+   "src/content/notes/2025-07-23-1.md"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "e5bba00bd5730bbc2aaa08ff986efd6e9d6c4db1",
+  "author_date": "2025-07-23T11:56:52-04:00",
+  "subject": "checkpoint at 2025-07-23T11:56:52-0400",
+  "files_changed": [
+   "src/content/notes/2025-07-23-1.md"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "fb680a0125aab67e568048e3f74775d731f5269c",
+  "author_date": "2025-07-24T09:01:38-04:00",
+  "subject": "Update 2025-07-15-1.md",
+  "files_changed": [
+   "src/content/notes/2025-07-15-1.md"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "099638ff9e07e43a8ec2d5364556d443d3e0bc0b",
+  "author_date": "2025-07-29T08:27:57-04:00",
+  "subject": "checkpoint at 2025-07-29T08:27:57-0400",
+  "files_changed": [
+   "src/content/notes/2025-07-29-1.md"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "dbb6e92d4cf4aa8b7741247a53fa9155440214c6",
+  "author_date": "2025-07-29T14:07:22-04:00",
+  "subject": "checkpoint at 2025-07-29T14:07:22-0400",
+  "files_changed": [
+   "src/content/jobs/clerk.md"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "90c4eaf8eedb768e90e04949eb82f9dcde5dbc07",
+  "author_date": "2025-07-31T07:59:09-04:00",
+  "subject": "checkpoint at 2025-07-31T07:59:09-0400",
+  "files_changed": [
+   "src/content/pages/favorites.md"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "9c8ec8bfefcc95dd62a020dc39f20b0f8bc4b02d",
+  "author_date": "2025-07-31T08:25:53-04:00",
+  "subject": "checkpoint at 2025-07-31T08:25:53-0400",
+  "files_changed": [
+   "src/components/Changelog.astro",
+   "src/components/Markdown.astro"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "b4578ce54d474a12ed790d372542e34624a42000",
+  "author_date": "2025-08-01T08:15:22-04:00",
+  "subject": "checkpoint at 2025-08-01T08:15:22-0400",
+  "files_changed": [
+   "package.json",
+   "pnpm-lock.yaml"
+  ],
+  "page_touching": false
+ },
+ {
+  "sha": "3d167163368dd17fa45e54d5e62d8b6646bbdd70",
+  "author_date": "2025-08-05T19:29:59-04:00",
+  "subject": "checkpoint at 2025-08-05T19:29:59-0400",
+  "files_changed": [
+   "src/content/notes/2025-08-05-1.md"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "36a9564f150cfad247e485dc76abcb0e6f0b25d5",
+  "author_date": "2025-08-11T07:52:36-04:00",
+  "subject": "gear",
+  "files_changed": [
+   "src/content.config.ts",
+   "src/content/gear/aqara-presence-sensor-fp2.md",
+   "src/content/gear/prometheus-beta-qrv2-titanium.md",
+   "src/content/gear/spyderco-dragonfly-2.md",
+   "src/content/gear/yubikey-5c-nfc.md",
+   "src/pages/gear/index.astro"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "52534dcd085d6b0b92a9e469dd9cdc97b2d0702f",
+  "author_date": "2025-08-11T08:22:49-04:00",
+  "subject": "checkpoint at 2025-08-11T08:22:49-0400",
+  "files_changed": [
+   "src/content/gear/aqara-presence-sensor-fp2.md",
+   "src/content/gear/ecobee-smart-thermostat.md",
+   "src/content/gear/eufy-robot-lawn-mower-e15.md",
+   ".../eufy-security-camera-floodlight-camera-e340.md",
+   "src/content/gear/eufy-security-homebase-s380.md",
+   "src/content/gear/eufy-video-doorbell-e340.md",
+   "src/content/gear/prometheus-beta-qrv2-titanium.md",
+   "src/content/gear/spyderco-dragonfly-2.md",
+   "src/content/gear/the-james-brand-midland.md",
+   "src/content/gear/yubikey-5c-nfc.md",
+   "src/pages/gear/index.astro"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "e74bc8fbdd9b07c035bf2deaeb5ada8d24421689",
+  "author_date": "2025-08-11T09:13:02-04:00",
+  "subject": "checkpoint at 2025-08-11T09:13:02-0400",
+  "files_changed": [
+   "src/content/gear/eufy-robot-lawn-mower-e15.md",
+   "src/content/gear/eufy-video-doorbell-e340.md",
+   "src/pages/gear/index.astro"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "219cec29735838b65df13776bfc22fc7df08a607",
+  "author_date": "2025-08-11T19:11:27-04:00",
+  "subject": "checkpoint at 2025-08-11T19:11:27-0400",
+  "files_changed": [
+   "src/consts.ts",
+   "src/content/gear/anker-laptop-charger.md",
+   ".../breville-barista-express-espresso-machine.md",
+   "src/content/gear/kalita-wave.md",
+   "src/content/gear/nitecore-nb-air.md",
+   "src/content/gear/peak-design-packing-cube.md",
+   "src/content/gear/technivorm-moccamaster.md",
+   "src/content/pages/colophon.md",
+   "src/content/pages/everyday-carry.md",
+   "src/pages/gear/[slug].astro",
+   "src/pages/gear/index.astro"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "20c7626d41aece719966a2c1edbb4962343998c8",
+  "author_date": "2025-08-12T08:10:25-04:00",
+  "subject": "checkpoint at 2025-08-12T08:10:25-0400",
+  "files_changed": [
+   "src/pages/gear/[slug].astro",
+   "src/pages/tags/[tag].astro"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "28f03a078fe84d2b7f3403ab7070455cb84da9b6",
+  "author_date": "2025-08-12T17:16:50-04:00",
+  "subject": "checkpoint at 2025-08-12T17:16:50-0400",
+  "files_changed": [
+   "src/components/ExternalLink.astro",
+   "src/consts.ts",
+   "src/content.config.ts",
+   "src/content/gear/aer-day-sling-3.md",
+   "src/content/gear/evergoods-civic-panel-loader-16l.md",
+   "src/content/gear/tom-bihn-synik-22.md",
+   "src/content/gear/tom-bihn-truck.md",
+   "src/pages/gear/index.astro"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "af322826f6abacfd54ed0bc375aa6affac8df01d",
+  "author_date": "2025-08-13T07:59:01-04:00",
+  "subject": "checkpoint at 2025-08-13T07:59:01-0400",
+  "files_changed": [
+   "src/content.config.ts",
+   "src/content/gear/snow-peak-ti-double-h200-stacking-mug.md",
+   "src/content/notes/2025-08-13-1.md",
+   "src/layouts/BaseLayout.astro",
+   "src/layouts/DemoLayout.astro",
+   "src/pages/demos/bg-repeat-round.astro",
+   "src/pages/notes/[...slug].astro",
+   "src/pages/notes/index.astro",
+   "src/pages/tags/[tag].astro",
+   "src/styles/demos.css"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "9b8434eaa9d08f82e93cc3b3bdaea94435e029a5",
+  "author_date": "2025-08-13T08:17:26-04:00",
+  "subject": "checkpoint at 2025-08-13T08:17:26-0400",
+  "files_changed": [
+   "src/content/notes/2025-08-13-1.md",
+   "src/content/notes/2025-08-13-2.md",
+   "src/layouts/DemoLayout.astro",
+   "src/pages/demos/box-decoration-break-clone.astro"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "aaebfa2e74fbf0a4070f0cfe1ec96c559c161d59",
+  "author_date": "2025-08-13T08:24:28-04:00",
+  "subject": "checkpoint at 2025-08-13T08:24:28-0400",
+  "files_changed": [
+   "src/content/notes/2025-08-13-2.md"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "1fa835356ae91fd98d3542ce60793b530799b00b",
+  "author_date": "2025-08-13T09:23:10-04:00",
+  "subject": "checkpoint at 2025-08-13T09:23:10-0400",
+  "files_changed": [
+   "src/content/notes/2025-04-14-2.md",
+   "src/pages/demos/list-format-to-parts.astro"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "30245348352174a6d6a15c8aa81be03e91dbf7a4",
+  "author_date": "2025-08-13T09:46:15-04:00",
+  "subject": "checkpoint at 2025-08-13T09:46:15-0400",
+  "files_changed": [
+   "src/content/notes/2025-08-13-2.md"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "2fd3a4fd0f99d35fa2ba52cc65fbd160587177ff",
+  "author_date": "2025-08-13T15:18:41-04:00",
+  "subject": "checkpoint at 2025-08-13T15:18:41-0400",
+  "files_changed": [
+   "src/content/jobs/clerk.md"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "7aa73445876bf8c8cb51a399fd36f8c28dcf58eb",
+  "author_date": "2025-08-13T16:36:44-04:00",
+  "subject": "checkpoint at 2025-08-13T16:36:44-0400",
+  "files_changed": [
+   "src/content/notes/2025-08-13-3.md"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "30070cb313d21f61c8bcf3f398bdfa89b1a99f32",
+  "author_date": "2025-08-14T16:05:17-04:00",
+  "subject": "checkpoint at 2025-08-14T16:05:17-0400",
+  "files_changed": [
+   "src/content/notes/2025-08-14-1.md",
+   "src/icons/badge-check.svg",
+   "src/pages/demos/list-item-icon-baseline.astro"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "31aa03acfacf5986e7f78d37b56743a449a44acd",
+  "author_date": "2025-08-14T16:54:09-04:00",
+  "subject": "checkpoint at 2025-08-14T16:54:09-0400",
+  "files_changed": [
+   "src/content/notes/2025-08-14-1.md"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "7d986121b0c864a299a0229b0a1ee9f89f91a318",
+  "author_date": "2025-08-14T19:40:05-04:00",
+  "subject": "checkpoint at 2025-08-14T19:40:05-0400",
+  "files_changed": [
+   "src/pages/demos/list-item-icon-baseline.astro"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "b9347d015eb03f8fbaf040d092bba516c19e6c08",
+  "author_date": "2025-08-14T19:47:54-04:00",
+  "subject": "checkpoint at 2025-08-14T19:47:54-0400",
+  "files_changed": [
+   "src/pages/demos/list-item-icon-baseline.astro"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "cdb0d1d04fe79a6f12d35a4e190019d6bd34b7d4",
+  "author_date": "2025-08-16T07:53:07-04:00",
+  "subject": "checkpoint at 2025-08-16T07:53:07-0400",
+  "files_changed": [
+   "src/content.config.ts",
+   "src/content/gear/snow-peak-ti-double-h200-stacking-mug.md",
+   "src/content/gear/technivorm-moccamaster.md",
+   "src/pages/gear/index.astro"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "434191df2bdb9e5750931ba4197b683f1228dfb9",
+  "author_date": "2025-08-16T07:53:46-04:00",
+  "subject": "checkpoint at 2025-08-16T07:53:46-0400",
+  "files_changed": [
+   "src/content/gear/tom-bihn-truck.md"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "63f9a4fd62df30ada87a01b13a860fe7bff9323b",
+  "author_date": "2025-08-16T07:54:34-04:00",
+  "subject": "checkpoint at 2025-08-16T07:54:34-0400",
+  "files_changed": [
+   "src/pages/gear/index.astro"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "12cda30d6f5675cae80fed523c3466982144fdc6",
+  "author_date": "2025-08-16T12:57:53-04:00",
+  "subject": "checkpoint at 2025-08-16T12:57:53-0400",
+  "files_changed": [
+   "src/pages/gear/index.astro"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "56ad47ddc3d267c5879f83d25d2fbcd391ff59a4",
+  "author_date": "2025-08-16T13:32:52-04:00",
+  "subject": "checkpoint at 2025-08-16T13:32:52-0400",
+  "files_changed": [
+   "src/consts.ts",
+   "src/content.config.ts",
+   "src/content/gear/aer-day-sling-3.md",
+   "src/content/gear/benchmade-mini-bugout.md",
+   "src/content/gear/chris-reeve-small-sebenza-31.md",
+   "src/content/gear/evergoods-civic-panel-loader-16l.md",
+   "src/content/gear/hds-systems-edc-tactical.md",
+   "src/content/gear/tom-bihn-synik-22.md",
+   "src/content/gear/tom-bihn-truck.md",
+   "src/pages/gear/[slug].astro"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "c2b772359f5847e8898670b16ff367346ef732ad",
+  "author_date": "2025-08-16T13:40:30-04:00",
+  "subject": "checkpoint at 2025-08-16T13:40:30-0400",
+  "files_changed": [
+   "src/content/gear/foursevens-mini-turbo-mk-iii.md",
+   "src/content/gear/zebralight-sc5c-ii-le.md"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "a6cbe6e1a06977c65ca32cbe84fda517e4bcac7b",
+  "author_date": "2025-08-16T14:18:10-04:00",
+  "subject": "checkpoint at 2025-08-16T14:18:10-0400",
+  "files_changed": [
+   "src/content/gear/roost-laptop-stand.md",
+   "src/content/gear/sony-wh-1000xm4-headphones.md"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "f1e57a95386e9134c0d7dc67e4de8d79eedb7dd2",
+  "author_date": "2025-08-16T14:18:54-04:00",
+  "subject": "checkpoint at 2025-08-16T14:18:54-0400",
+  "files_changed": [
+   "src/content/gear/sony-wh-1000xm4-headphones.md"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "f308e257936a0e396c02ad315aae8d9b0600eb3c",
+  "author_date": "2025-08-16T14:32:33-04:00",
+  "subject": "checkpoint at 2025-08-16T14:32:33-0400",
+  "files_changed": [
+   "src/pages/index.astro"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "a735defbc550fd633c21873899ebd4a4e5872a79",
+  "author_date": "2025-08-16T14:37:40-04:00",
+  "subject": "checkpoint at 2025-08-16T14:37:40-0400",
+  "files_changed": [
+   "src/pages/gear/index.astro"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "a8f884560a51bc4c4132b761ffea89d928d2cd51",
+  "author_date": "2025-08-17T17:01:42-04:00",
+  "subject": "checkpoint at 2025-08-17T17:01:42-0400",
+  "files_changed": [
+   "src/content/notes/2025-08-14-1.md"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "03d7404ff8d4c73928378b93c6b52804b271b2e6",
+  "author_date": "2025-08-18T15:24:41-04:00",
+  "subject": "checkpoint at 2025-08-18T15:24:41-0400",
+  "files_changed": [
+   "src/content/notes/2025-08-14-1.md",
+   "src/content/notes/2025-08-18-1.md",
+   "src/layouts/DemoLayout.astro",
+   "src/pages/demos/inline-trailing-icon.astro",
+   "src/pages/demos/list-item-icon-baseline.astro",
+   "src/styles/demos.css"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "f4c32616124647a277cc84511b00f84db99a989e",
+  "author_date": "2025-08-18T17:18:29-04:00",
+  "subject": "checkpoint at 2025-08-18T17:18:29-0400",
+  "files_changed": [
+   "src/content/notes/2025-08-18-1.md",
+   "src/pages/demos/inline-trailing-icon.astro"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "b7082bf23bbbbaab1302db27b997432b504f0a80",
+  "author_date": "2025-08-18T17:18:55-04:00",
+  "subject": "checkpoint at 2025-08-18T17:18:55-0400",
+  "files_changed": [
+   "src/content/notes/2025-08-18-1.md"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "456338151df3d0c4fb3aac049a168095aecfd98a",
+  "author_date": "2025-08-18T17:20:46-04:00",
+  "subject": "checkpoint at 2025-08-18T17:20:46-0400",
+  "files_changed": [
+   "src/content/notes/2025-08-18-2.md"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "3d3292d15b24e5667c1ada7fefff967ea7672174",
+  "author_date": "2025-08-19T08:10:00-04:00",
+  "subject": "checkpoint at 2025-08-19T08:10:00-0400",
+  "files_changed": [
+   "src/styles/global.css"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "44e24db8da7e0fe6b94f060e7067908375334519",
+  "author_date": "2025-08-19T08:13:22-04:00",
+  "subject": "checkpoint at 2025-08-19T08:13:22-0400",
+  "files_changed": [
+   "src/pages/notes/index.astro",
+   "src/styles/global.css"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "35cfda78c1d4010ff0230dcba76272841b09b095",
+  "author_date": "2025-08-19T08:14:40-04:00",
+  "subject": "checkpoint at 2025-08-19T08:14:40-0400",
+  "files_changed": [
+   "src/pages/notes/index.astro",
+   "src/styles/global.css"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "4ac1ce305499e4b23e85ba984d76dc4b398136f3",
+  "author_date": "2025-08-19T08:36:12-04:00",
+  "subject": "checkpoint at 2025-08-19T08:36:12-0400",
+  "files_changed": [
+   "src/pages/notes/[...slug].astro",
+   "src/pages/notes/index.astro"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "dfb36201e07a7745a833e2c748a5b94ba59727d9",
+  "author_date": "2025-08-19T11:40:44-04:00",
+  "subject": "checkpoint at 2025-08-19T11:40:44-0400",
+  "files_changed": [
+   "src/components/Preview.astro",
+   "src/pages/notes/[...slug].astro",
+   "src/pages/notes/index.astro"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "2d305fd67422553668064bedab39a315e1590527",
+  "author_date": "2025-08-19T11:44:21-04:00",
+  "subject": "checkpoint at 2025-08-19T11:44:21-0400",
+  "files_changed": [
+   "src/layouts/DemoLayout.astro",
+   "src/pages/demos/box-decoration-break-clone.astro",
+   "src/pages/demos/inline-trailing-icon.astro",
+   "src/pages/demos/list-format-to-parts.astro",
+   "src/pages/demos/list-item-icon-baseline.astro"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "22b825e182560183d2908d043ccbe12b3d9fb707",
+  "author_date": "2025-08-19T11:45:33-04:00",
+  "subject": "checkpoint at 2025-08-19T11:45:33-0400",
+  "files_changed": [
+   "src/components/Preview.astro"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "0b587ab5343673f529188f19368e05e5a6456a69",
+  "author_date": "2025-08-19T11:49:44-04:00",
+  "subject": "checkpoint at 2025-08-19T11:49:44-0400",
+  "files_changed": [
+   "src/pages/demos/list-format-to-parts.astro"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "257efbfbe0467835355ed3cc7ed7541a5740778a",
+  "author_date": "2025-08-23T08:55:09-04:00",
+  "subject": "checkpoint at 2025-08-23T08:55:09-0400",
+  "files_changed": [
+   "src/content/gear/aqara-smart-home-hub-m3.md",
+   "src/content/gear/aqara-smart-lock-u100.md",
+   "src/content/gear/aqara-water-leak-sensor.md",
+   "src/content/gear/aqara-wireless-mini-switch.md",
+   "src/content/gear/lutron-aurora-smart-bulb-dimmer-switch.md",
+   "src/content/gear/tactile-turn-apollo-flashlight.md",
+   "src/content/gear/tactile-turn-rockwall-thumbstud.md",
+   "src/content/gear/tp-link-16-port-gigabit-poe-switch.md",
+   "src/content/gear/tp-link-6e-mesh-system.md"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "121d6c5888afbd959f68abbe2e2fa1f1ddc5215e",
+  "author_date": "2025-08-23T08:59:59-04:00",
+  "subject": "checkpoint at 2025-08-23T08:59:59-0400",
+  "files_changed": [
+   "src/content/gear/tp-link-6e-mesh-system.md"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "269ad4771e838f9079c767780406f62b3a7c44b7",
+  "author_date": "2025-08-23T09:39:03-04:00",
+  "subject": "checkpoint at 2025-08-23T09:39:03-0400",
+  "files_changed": [
+   "src/consts.ts",
+   ".../gear/evergoods-civic-access-pouch-2l.md",
+   "src/icons/arrow-right.svg",
+   "src/pages/gear/[slug].astro",
+   "src/pages/gear/index.astro"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "280c495742e74db62b80fd7b219ee8c5460cad69",
+  "author_date": "2025-08-23T09:41:54-04:00",
+  "subject": "checkpoint at 2025-08-23T09:41:54-0400",
+  "files_changed": [
+   "src/content/pages/favorites.md",
+   "src/content/pages/home-automation.md",
+   "src/content/pages/now.md"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "a63865c2c43e17298c7b8bcac01fd89dbf01edae",
+  "author_date": "2025-08-23T09:45:04-04:00",
+  "subject": "checkpoint at 2025-08-23T09:45:04-0400",
+  "files_changed": [
+   "src/content/pages/changelog.md",
+   "src/content/pages/now.md",
+   "src/content/pages/security.md"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "add1c72ec35b4f1804c5fab94a45d530f6fe7b7c",
+  "author_date": "2025-08-23T10:03:48-04:00",
+  "subject": "checkpoint at 2025-08-23T10:03:48-0400",
+  "files_changed": [
+   "src/content.config.ts",
+   "src/content/pages/changelog.md",
+   "src/content/pages/micah.md",
+   "src/pages/changelog/index.astro",
+   "src/pages/micah/index.astro"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "ec70d3c1901ea171d9178460a58ab8e64d5cf702",
+  "author_date": "2025-08-23T10:04:34-04:00",
+  "subject": "checkpoint at 2025-08-23T10:04:34-0400",
+  "files_changed": [
+   "src/images/amy-stuart.jpeg",
+   "src/images/andrew-possehl.jpeg",
+   "src/images/benjamin-kohl.jpeg",
+   "src/images/bryce-kalow.jpeg",
+   "src/images/danielle-dunn.jpeg",
+   "src/images/david-mosher.jpg",
+   "src/images/dylan-staley.jpeg",
+   "src/images/jacek-radko.jpeg",
+   "src/images/jimmy-merritello.jpeg",
+   "src/images/joe-bell.jpeg",
+   "src/images/kyle-luck.jpeg",
+   "src/images/me.jpg",
+   "src/images/melissa-taylor.jpeg",
+   "src/images/nikos-douvlis.jpeg",
+   "src/images/pantelis-eleftheriadis.jpg",
+   "src/images/tom-milewski.jpeg"
+  ],
+  "page_touching": false
+ },
+ {
+  "sha": "b13fcd4daf026b4049f0933d10207c6ded290a06",
+  "author_date": "2025-08-23T10:05:40-04:00",
+  "subject": "checkpoint at 2025-08-23T10:05:40-0400",
+  "files_changed": [
+   "public/videos/test.mp4",
+   "src/pages/[slug].astro"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "c700ead1d02ac5041fabd6a6a5fb6f6369008f24",
+  "author_date": "2025-08-23T10:09:54-04:00",
+  "subject": "checkpoint at 2025-08-23T10:09:54-0400",
+  "files_changed": [
+   "package.json",
+   "pnpm-lock.yaml",
+   "public/logos/clerk.svg",
+   "public/logos/hashicorp.svg",
+   "public/logos/masuga-design.svg",
+   "public/logos/mighty-in-the-midwest.svg",
+   "public/logos/nationbuilder.svg",
+   "public/logos/watershed.svg",
+   "src/components/FacePile.astro"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "338085b9213619ab79da8459041a1b7fe17c0c0d",
+  "author_date": "2025-08-23T10:20:09-04:00",
+  "subject": "checkpoint at 2025-08-23T10:20:09-0400",
+  "files_changed": [
+   "src/pages/micah/index.astro"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "ffa68862810ee98830efe856439e4793fa65bdb2",
+  "author_date": "2025-08-23T10:28:08-04:00",
+  "subject": "checkpoint at 2025-08-23T10:28:08-0400",
+  "files_changed": [
+   "src/content/gear/goruck-bullet-15l.md"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "4813392eb6389c466750140312fdaed5536e36d4",
+  "author_date": "2025-08-23T10:29:19-04:00",
+  "subject": "checkpoint at 2025-08-23T10:29:19-0400",
+  "files_changed": [
+   "src/pages/gear/[slug].astro",
+   "src/pages/gear/index.astro"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "ad0c96fd6340590a3041b39c14b9f94bb7c7f5d1",
+  "author_date": "2025-08-23T13:19:20-04:00",
+  "subject": "checkpoint at 2025-08-23T13:19:20-0400",
+  "files_changed": [
+   "src/content/gear/coway-airmega-air-purifier.md",
+   "src/pages/gear/[slug].astro",
+   "src/pages/gear/index.astro"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "b36ba0d7317e4b4354c5939d89477bd74924891c",
+  "author_date": "2025-08-23T13:21:11-04:00",
+  "subject": "checkpoint at 2025-08-23T13:21:11-0400",
+  "files_changed": [
+   "src/content/gear/evergoods-civic-half-zip.md"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "5bba143b825bd1c3951aa4139655dbdf703417ea",
+  "author_date": "2025-08-23T13:54:28-04:00",
+  "subject": "checkpoint at 2025-08-23T13:54:28-0400",
+  "files_changed": [
+   "src/content/notes/2025-08-23-1.md"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "7080981d74ed813402aef829e0fb435849834f63",
+  "author_date": "2025-08-25T08:26:11-04:00",
+  "subject": "checkpoint at 2025-08-25T08:26:11-0400",
+  "files_changed": [
+   "src/components/Changelog.astro",
+   "src/components/ExternalLink.astro",
+   "src/components/Preview.astro",
+   "src/icons/expand.svg",
+   "src/layouts/BaseLayout.astro",
+   "src/pages/404.astro",
+   "src/pages/changelog/index.astro",
+   "src/pages/gear/[slug].astro",
+   "src/pages/gear/index.astro",
+   "src/pages/index.astro",
+   "src/pages/micah/index.astro",
+   "src/pages/notes/[...slug].astro",
+   "src/pages/notes/index.astro",
+   "src/pages/tags/[tag].astro",
+   "src/pages/tags/index.astro",
+   "src/styles/demos.css",
+   "src/styles/global.css"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "c773a771755deb4021732885bde158e3248df6d2",
+  "author_date": "2025-08-25T08:44:25-04:00",
+  "subject": "checkpoint at 2025-08-25T08:44:25-0400",
+  "files_changed": [
+   "src/content/notes/2025-08-25-1.md",
+   "src/pages/demos/hanging-punctuation.astro"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "e73ae86cfc1d46f9873fb9c8cc95aed16d4f584b",
+  "author_date": "2025-08-25T08:51:52-04:00",
+  "subject": "checkpoint at 2025-08-25T08:51:52-0400",
+  "files_changed": [
+   "src/content/notes/2025-08-25-1.md",
+   "src/pages/demos/hanging-punctuation.astro"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "253f1176c36acf70b37152e085f34a1641c5ffbf",
+  "author_date": "2025-08-26T11:33:12-04:00",
+  "subject": "checkpoint at 2025-08-26T11:33:12-0400",
+  "files_changed": [
+   "src/content/notes/2025-08-26-1.md"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "9d97d6511d893327bdf5f09a2ea012f8e7aedf20",
+  "author_date": "2025-08-26T11:33:33-04:00",
+  "subject": "checkpoint at 2025-08-26T11:33:33-0400",
+  "files_changed": [
+   "src/content/notes/2025-08-26-1.md"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "1ee9ec1c3da1ab23ee36b5e674f3ddad527c0b51",
+  "author_date": "2025-08-26T11:35:23-04:00",
+  "subject": "checkpoint at 2025-08-26T11:35:23-0400",
+  "files_changed": [
+   "src/content/notes/2025-08-26-2.md"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "a8c1e6d893c32879b5875d56fbe7d924a13e3881",
+  "author_date": "2025-09-05T08:37:48-04:00",
+  "subject": "checkpoint at 2025-09-05T08:37:48-0400",
+  "files_changed": [
+   "src/content/notes/2025-09-05-1.md"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "934af5b8cfb05fca807a9aba4af62529473554b8",
+  "author_date": "2025-09-05T09:00:53-04:00",
+  "subject": "checkpoint at 2025-09-05T09:00:53-0400",
+  "files_changed": [
+   "src/content/notes/2025-09-05-2.md"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "95b57e92419aa239bdd613513a4cdf4583724b27",
+  "author_date": "2025-09-06T15:34:33-04:00",
+  "subject": "checkpoint at 2025-09-06T15:34:33-0400",
+  "files_changed": [
+   "src/content/notes/2025-09-06-1.md"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "0eadc980cd094b046d4454da33682e9dac30a1aa",
+  "author_date": "2025-09-07T12:03:07-04:00",
+  "subject": "checkpoint at 2025-09-07T12:03:07-0400",
+  "files_changed": [
+   "src/consts.ts",
+   "src/content.config.ts",
+   "src/content/gear/apple-studio-display.md",
+   "src/content/gear/caldigit-ts4-thunderbolt-4-dock.md",
+   "src/content/gear/focusrite-scarlett-audio-interface.md",
+   "src/content/gear/herman-miller-sayl-chair.md",
+   "src/content/gear/kinesis-advantage-360-keyboard.md",
+   "src/content/gear/rode-podmic-microphone.md",
+   "src/layouts/BaseLayout.astro"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "9d1eb6cb0a1b8fc5b79b9cccf4a310408dd754b2",
+  "author_date": "2025-09-07T12:06:00-04:00",
+  "subject": "checkpoint at 2025-09-07T12:06:00-0400",
+  "files_changed": [
+   "src/content/gear/tom-bihn-synik-22.md"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "9572ebd6828a707541ad627662bca8d2494758a5",
+  "author_date": "2025-09-07T13:02:43-04:00",
+  "subject": "checkpoint at 2025-09-07T13:02:43-0400",
+  "files_changed": [
+   "src/content/notes/2025-08-14-1.md"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "1bce446bbb3158b4743f353ea9b1abc37281b877",
+  "author_date": "2025-09-12T09:09:18-04:00",
+  "subject": "add rolodex",
+  "files_changed": [
+   "public/images/alvish-baldha.jpg",
+   "public/images/mery-kaftar.jpg",
+   "src/content.config.ts",
+   "src/content/notes/2025-09-05-2.md",
+   "src/content/rolodex/alvish-baldha.md",
+   "src/content/rolodex/mery-kaftar.md",
+   "src/pages/rolodex/index.astro"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "6a6d0648b382655e25926618727ceb7a7397ced2",
+  "author_date": "2025-09-12T09:16:22-04:00",
+  "subject": "add rolodex link",
+  "files_changed": [
+   "src/pages/index.astro"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "519fc9693011153a7782be820bd53e7bef8a4fb5",
+  "author_date": "2025-09-12T09:17:17-04:00",
+  "subject": "sort",
+  "files_changed": [
+   "src/pages/rolodex/index.astro"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "c03565e2f612ec33e07124dd8a1641d4145f6faa",
+  "author_date": "2025-09-12T09:18:24-04:00",
+  "subject": "add title + description",
+  "files_changed": [
+   "src/pages/rolodex/index.astro"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "0f8efd5fa2a14636a775b2b57c600b19c305bcd5",
+  "author_date": "2025-09-12T18:18:41-04:00",
+  "subject": "checkpoint at 2025-09-12T18:18:41-0400",
+  "files_changed": [
+   "src/pages/index.astro"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "132a54454bc7a37fa2be465a48a6073893d6bf96",
+  "author_date": "2025-09-12T18:21:01-04:00",
+  "subject": "checkpoint at 2025-09-12T18:21:01-0400",
+  "files_changed": [
+   "src/content/notes/2025-09-12-1.md"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "c1c8e34b6b519b0386cd4253e5635851578aca59",
+  "author_date": "2025-09-12T22:19:16-04:00",
+  "subject": "checkpoint at 2025-09-12T22:19:15-0400",
+  "files_changed": [
+   "src/content/notes/2025-09-06-1.md"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "929c595bf0cbfd19dbb4c37fba82ddae47f05840",
+  "author_date": "2025-09-13T08:26:14-04:00",
+  "subject": "checkpoint at 2025-09-13T08:26:14-0400",
+  "files_changed": [
+   "src/content.config.ts",
+   "src/content/rolodex/alvish-baldha.md",
+   "src/content/rolodex/mery-kaftar.md",
+   "src/pages/rolodex/index.astro"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "235144e530cb6d7de5e4a6b8113971df1da8a837",
+  "author_date": "2025-09-13T08:32:43-04:00",
+  "subject": "checkpoint at 2025-09-13T08:32:43-0400",
+  "files_changed": [
+   "src/content/rolodex/alvish-baldha.md",
+   "src/content/rolodex/mery-kaftar.md",
+   "src/pages/rolodex/index.astro"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "4fecfcce10e891be190d42c650eef17e3bec0001",
+  "author_date": "2025-09-14T11:16:00-04:00",
+  "subject": "checkpoint at 2025-09-14T11:16:00-0400",
+  "files_changed": [
+   "public/images/avatar.jpg",
+   "src/layouts/BaseLayout.astro",
+   "src/pages/changelog/index.astro"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "d1e08e9d3a24a07f639c6dba97d2433fcbd3f814",
+  "author_date": "2025-09-14T15:21:34-04:00",
+  "subject": "checkpoint at 2025-09-14T15:21:34-0400",
+  "files_changed": [
+   "src/pages/index.astro"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "90aaf9d7e6bf27e4c33df663fd3d74ad488a7d53",
+  "author_date": "2025-09-14T17:19:49-04:00",
+  "subject": "checkpoint at 2025-09-14T17:19:49-0400",
+  "files_changed": [
+   "astro.config.mjs",
+   "package.json",
+   "pnpm-lock.yaml",
+   "src/components/Markdown.astro",
+   "src/lib/markdown.js",
+   "src/pages/index.astro",
+   "src/pages/notes/index.astro",
+   "src/pages/notes/rss.xml.js",
+   "src/pages/rolodex/index.astro",
+   "src/pages/tags/[tag].astro"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "88ff85db3a60332f045fc410ac558055f4578996",
+  "author_date": "2025-09-14T17:20:02-04:00",
+  "subject": "checkpoint at 2025-09-14T17:20:02-0400",
+  "files_changed": [
+   "src/lib/markdown.js"
+  ],
+  "page_touching": false
+ },
+ {
+  "sha": "6980d5c4f72635e3a14feb93f962f2004cd019f8",
+  "author_date": "2025-09-14T18:13:18-04:00",
+  "subject": "checkpoint at 2025-09-14T18:13:18-0400",
+  "files_changed": [
+   "src/components/Button.astro",
+   "src/pages/index.astro",
+   "src/pages/notes/[page].astro",
+   "src/pages/notes/index.astro",
+   "src/pages/notes/rss.xml.js",
+   "src/pages/tags/index.astro"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "dafbda18a942975e979aa182d150b800b60481e8",
+  "author_date": "2025-09-14T18:27:26-04:00",
+  "subject": "checkpoint at 2025-09-14T18:27:26-0400",
+  "files_changed": [
+   "astro.config.mjs",
+   "src/pages/notes/index.astro"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "b08b6f17470cac56a011e6f394b7c24fc5748057",
+  "author_date": "2025-09-14T18:37:41-04:00",
+  "subject": "checkpoint at 2025-09-14T18:37:41-0400",
+  "files_changed": [
+   "src/pages/notes/[page].astro"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "2af7054cfbb0912e1d790929e5b794aea7cbaebd",
+  "author_date": "2025-09-14T18:58:41-04:00",
+  "subject": "checkpoint at 2025-09-14T18:58:41-0400",
+  "files_changed": [
+   "astro.config.mjs",
+   "src/pages/notes/[page].astro",
+   "src/pages/notes/index.astro",
+   "src/pages/tags/[tag].astro",
+   "src/pages/tags/index.astro"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "d750ffb451c24f781eb3fa342e671a5bccb4bcb0",
+  "author_date": "2025-09-14T20:15:32-04:00",
+  "subject": "checkpoint at 2025-09-14T20:15:32-0400",
+  "files_changed": [
+   "package.json",
+   "pnpm-lock.yaml",
+   "src/components/Button.astro",
+   "src/pages/notes/[page].astro",
+   "src/pages/notes/index.astro"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "20321d051a32d97f84733685f15d040f9677d664",
+  "author_date": "2025-09-15T07:50:32-04:00",
+  "subject": "checkpoint at 2025-09-15T07:50:32-0400",
+  "files_changed": [
+   "src/components/Button.astro"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "1a339eff840e79fce98f634d99044c2a66134713",
+  "author_date": "2025-09-15T07:54:20-04:00",
+  "subject": "checkpoint at 2025-09-15T07:54:20-0400",
+  "files_changed": [
+   "src/components/Changelog.astro",
+   "src/pages/changelog/index.astro"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "215f4b3bde927988b70d2d8b911b7b27873baa59",
+  "author_date": "2025-09-15T07:58:51-04:00",
+  "subject": "checkpoint at 2025-09-15T07:58:51-0400",
+  "files_changed": [
+   "src/pages/changelog/index.astro"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "0af9114c79f844acd06f91cca1281a1549511a93",
+  "author_date": "2025-09-15T08:07:41-04:00",
+  "subject": "checkpoint at 2025-09-15T08:07:41-0400",
+  "files_changed": [
+   ".prettierrc.mjs",
+   "package.json",
+   "src/components/Button.astro",
+   "src/pages/gear/[slug].astro",
+   "src/pages/index.astro",
+   "src/pages/notes/[page].astro",
+   "src/pages/notes/index.astro",
+   "src/pages/rolodex/index.astro"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "3d82cb1fdd94d0fb326ca08a2abf4d41e2c445d4",
+  "author_date": "2025-09-15T08:34:39-04:00",
+  "subject": "checkpoint at 2025-09-15T08:34:39-0400",
+  "files_changed": [
+   ".prettierrc.mjs",
+   ".vscode/settings.json",
+   "src/components/Button.astro",
+   "src/components/ExternalLink.astro",
+   "src/components/Preview.astro",
+   "src/layouts/BaseLayout.astro",
+   "src/layouts/DemoLayout.astro",
+   "src/pages/404.astro",
+   "src/pages/changelog/index.astro",
+   "src/pages/demos/box-decoration-break-clone.astro",
+   "src/pages/demos/hanging-punctuation.astro",
+   "src/pages/demos/inline-trailing-icon.astro",
+   "src/pages/demos/list-format-to-parts.astro",
+   "src/pages/demos/list-item-icon-baseline.astro",
+   "src/pages/gear/[slug].astro",
+   "src/pages/gear/index.astro",
+   "src/pages/index.astro",
+   "src/pages/micah/index.astro",
+   "src/pages/notes/[...slug].astro",
+   "src/pages/notes/[page].astro",
+   "src/pages/notes/index.astro",
+   "src/pages/rolodex/index.astro"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "caa5b2e0ba43539c050a32988da984644aa9ad5e",
+  "author_date": "2025-09-15T09:12:23-04:00",
+  "subject": "checkpoint at 2025-09-15T09:12:23-0400",
+  "files_changed": [
+   "package.json",
+   "pnpm-lock.yaml",
+   "src/components/Pagination.astro",
+   "src/lib/utils.ts",
+   "src/pages/notes/[page].astro",
+   "src/pages/notes/index.astro"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "819e65fdc1cc685092c7c2acd3f225bab3d520b1",
+  "author_date": "2025-09-15T09:18:37-04:00",
+  "subject": "checkpoint at 2025-09-15T09:18:37-0400",
+  "files_changed": [
+   "src/components/Pagination.astro",
+   "src/pages/notes/[page].astro",
+   "src/pages/notes/index.astro"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "ba88adeb2c77e2f399d889401373b17f4fd0ae19",
+  "author_date": "2025-09-15T19:40:19-04:00",
+  "subject": "checkpoint at 2025-09-15T19:40:19-0400",
+  "files_changed": [
+   "src/components/Button.astro",
+   "src/components/ExternalLink.astro",
+   "src/pages/notes/[page].astro",
+   "src/pages/notes/index.astro"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "bb5427b36ed3c36f4ec56db25a73e03e328b6459",
+  "author_date": "2025-09-15T20:22:52-04:00",
+  "subject": "checkpoint at 2025-09-15T20:22:52-0400",
+  "files_changed": [
+   ".prettierrc.json",
+   ".prettierrc.mjs",
+   ".vscode/settings.json"
+  ],
+  "page_touching": false
+ },
+ {
+  "sha": "8d047ec73266a72d52fc31969dc99743a912cfb1",
+  "author_date": "2025-09-15T20:31:56-04:00",
+  "subject": "checkpoint at 2025-09-15T20:31:56-0400",
+  "files_changed": [
+   "package.json",
+   "pnpm-lock.yaml",
+   "src/pages/gear/[slug].astro",
+   "src/pages/notes/[page].astro"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "abfa12e9680457932fd5eb3947821b3a36e2b47f",
+  "author_date": "2025-09-17T08:19:12-04:00",
+  "subject": "checkpoint at 2025-09-17T08:19:12-0400",
+  "files_changed": [
+   "src/icons/hash.svg",
+   "src/pages/index.astro"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "b8fc734b417fd2601d7bdb95f831c494c6af7e96",
+  "author_date": "2025-09-17T08:22:51-04:00",
+  "subject": "checkpoint at 2025-09-17T08:22:51-0400",
+  "files_changed": [
+   "src/pages/index.astro"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "e1f30e7e3fa809c43a6c35b56eda37f29484de62",
+  "author_date": "2025-09-17T20:33:55-04:00",
+  "subject": "checkpoint at 2025-09-17T20:33:55-0400",
+  "files_changed": [
+   "src/components/SectionHeading.astro",
+   "src/consts.ts",
+   "src/content.config.ts",
+   "src/content/gear/global-6-inch-chef-s-knife.md",
+   "src/content/gear/hurom-h400-cold-press-juicer.md",
+   "src/pages/gear/index.astro",
+   "src/pages/index.astro"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "870d598ac7f182a4838299604e466ec6662ffb6a",
+  "author_date": "2025-09-17T20:35:56-04:00",
+  "subject": "checkpoint at 2025-09-17T20:35:56-0400",
+  "files_changed": [
+   "src/pages/gear/index.astro"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "e6c28647c49743c458ed9fde00943f888f8b9bab",
+  "author_date": "2025-09-18T08:59:59-04:00",
+  "subject": "checkpoint at 2025-09-18T08:59:59-0400",
+  "files_changed": [
+   "src/icons/info.svg",
+   "src/pages/gear/index.astro"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "4c5da684256c327fef8c0207d2dee3175f6c3dfd",
+  "author_date": "2025-09-19T08:26:06-04:00",
+  "subject": "checkpoint at 2025-09-19T08:26:06-0400",
+  "files_changed": [
+   "src/content/notes/2025-09-19-1.md",
+   "src/pages/gear/index.astro"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "d73584352e4f374c9a8dc4359242758597e0b3a2",
+  "author_date": "2025-09-19T19:36:51-04:00",
+  "subject": "checkpoint at 2025-09-19T19:36:51-0400",
+  "files_changed": [
+   "package.json",
+   "pnpm-lock.yaml"
+  ],
+  "page_touching": false
+ },
+ {
+  "sha": "5b39b96447bb887579607631855a1befab6b6217",
+  "author_date": "2025-09-19T19:40:56-04:00",
+  "subject": "checkpoint at 2025-09-19T19:40:56-0400",
+  "files_changed": [
+   "package.json",
+   "pnpm-lock.yaml"
+  ],
+  "page_touching": false
+ },
+ {
+  "sha": "d0750297f6e04f8b6de35db5fdad4181e128c9a9",
+  "author_date": "2025-09-20T08:31:13-04:00",
+  "subject": "checkpoint at 2025-09-20T08:31:13-0400",
+  "files_changed": [
+   "src/consts.ts",
+   "src/content.config.ts",
+   ".../gear/toto-washlet-s5-electronic-bidet.md"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "cf8cb5eebf4569e8af4e564d1672d4f8fd7a5155",
+  "author_date": "2025-09-20T08:40:52-04:00",
+  "subject": "checkpoint at 2025-09-20T08:40:52-0400",
+  "files_changed": [
+   "src/content/notes/2025-09-20-1.md"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "58389add587edb609f6aab922a379eda9b01ea95",
+  "author_date": "2025-09-21T09:19:39-04:00",
+  "subject": "checkpoint at 2025-09-21T09:19:39-0400",
+  "files_changed": [
+   "src/content/gear/hds-systems-edc-tactical.md"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "4efbec8045ee68c8976fd8c2ea657ee65a0d469c",
+  "author_date": "2025-09-21T13:55:47-04:00",
+  "subject": "checkpoint at 2025-09-21T13:55:47-0400",
+  "files_changed": [
+   "src/pages/index.astro"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "0496f1ab265250c10a51386ce0367951e6629ea4",
+  "author_date": "2025-09-22T08:33:32-04:00",
+  "subject": "checkpoint at 2025-09-22T08:33:32-0400",
+  "files_changed": [
+   "src/content/notes/2025-09-22-1.md"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "24d17746a0738c9b7b6ea83e59c4baaf1f91f5dc",
+  "author_date": "2025-09-22T08:36:06-04:00",
+  "subject": "checkpoint at 2025-09-22T08:36:06-0400",
+  "files_changed": [
+   "src/content/notes/2025-09-22-1.md"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "6bb2cf526dc7d97f3cf925fb06abf1853c2f5865",
+  "author_date": "2025-09-22T08:41:16-04:00",
+  "subject": "checkpoint at 2025-09-22T08:41:16-0400",
+  "files_changed": [
+   "src/content/notes/2025-09-22-1.md"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "a321a5861925720237d45928af24d6dc2d6b2286",
+  "author_date": "2025-09-22T12:36:50-04:00",
+  "subject": "checkpoint at 2025-09-22T12:36:50-0400",
+  "files_changed": [
+   "src/layouts/BaseLayout.astro"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "bacb9331d8aa607c59df7adbcd9c9c3fc817911b",
+  "author_date": "2025-09-23T09:01:23-04:00",
+  "subject": "checkpoint at 2025-09-23T09:01:23-0400",
+  "files_changed": [
+   "src/content/jobs/clerk.md"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "32cc07a2fa5031bdcf8648142efe96fbf82225f4",
+  "author_date": "2025-09-24T07:52:33-04:00",
+  "subject": "checkpoint at 2025-09-24T07:52:33-0400",
+  "files_changed": [
+   "src/pages/readme/index.astro",
+   "src/styles/global.css"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "f51f445f3c636abb76339111dd706df48b0e62db",
+  "author_date": "2025-09-24T11:53:57-04:00",
+  "subject": "checkpoint at 2025-09-24T11:53:57-0400",
+  "files_changed": [
+   "src/components/SectionHeading.astro",
+   "src/content.config.ts",
+   "src/content/oss-contributions.json",
+   "src/icons/pull-request.svg",
+   "src/pages/index.astro"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "b70b0c626883bdbb1bf099257b65d1a875db75c8",
+  "author_date": "2025-09-24T11:59:54-04:00",
+  "subject": "checkpoint at 2025-09-24T11:59:54-0400",
+  "files_changed": [
+   "src/components/SectionHeading.astro",
+   "src/pages/index.astro"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "2a2c8670ae3225f04c3d7428c5531eedda2a37cc",
+  "author_date": "2025-09-24T12:06:16-04:00",
+  "subject": "checkpoint at 2025-09-24T12:06:16-0400",
+  "files_changed": [
+   "src/pages/index.astro"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "55832d05219108083e101366939b48a1b78e2e79",
+  "author_date": "2025-09-24T12:21:11-04:00",
+  "subject": "checkpoint at 2025-09-24T12:21:11-0400",
+  "files_changed": [
+   "src/content/oss-contributions.json",
+   "src/pages/index.astro"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "539b1a850bc24ebc1d41efaa85a0692ecc26eace",
+  "author_date": "2025-09-28T14:29:30+01:00",
+  "subject": "Fix typo in 2025-09-05-1.md (#173)",
+  "files_changed": [
+   "src/content/notes/2025-09-05-1.md"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "b721350b44a35e5c261161b6968b316c34a305af",
+  "author_date": "2025-09-28T09:47:44-04:00",
+  "subject": "checkpoint at 2025-09-28T09:47:44-0400",
+  "files_changed": [
+   "src/content/notes/2025-09-28-1.md",
+   "src/pages/demos/button-disabled-color-mix.astro",
+   "src/styles/demos.css"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "42e8f661ea43e48789c739c80bfa9b9a737c534b",
+  "author_date": "2025-09-28T09:50:03-04:00",
+  "subject": "checkpoint at 2025-09-28T09:50:03-0400",
+  "files_changed": [
+   "src/styles/demos.css"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "0b122d291b12ade59e40a415cdca5f12a021f19c",
+  "author_date": "2025-09-28T15:31:59-04:00",
+  "subject": "checkpoint at 2025-09-28T15:31:59-0400",
+  "files_changed": [
+   "src/pages/demos/button-disabled-color-mix.astro",
+   "src/styles/demos.css"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "f4e66a8dbc44eeea92c085ebbcd9f1d87b998993",
+  "author_date": "2025-09-28T15:45:32-04:00",
+  "subject": "checkpoint at 2025-09-28T15:45:32-0400",
+  "files_changed": [
+   "src/pages/demos/button-disabled-color-mix.astro",
+   "src/styles/demos.css"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "00e823a5308e6ffea4a27b194b9ed5eacfbb2fe9",
+  "author_date": "2025-09-29T16:17:00-04:00",
+  "subject": "checkpoint at 2025-09-29T16:17:00-0400",
+  "files_changed": [
+   "src/content/oss-contributions.json"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "95dfebba8c06ee41c8f43f2f17b236c771177244",
+  "author_date": "2025-09-29T20:23:10-04:00",
+  "subject": "checkpoint at 2025-09-29T20:23:10-0400",
+  "files_changed": [
+   "src/pages/index.astro",
+   "src/styles/global.css"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "10afdd9f2634827bcd87e6abd6810246b06c083a",
+  "author_date": "2025-09-29T20:58:29-04:00",
+  "subject": "checkpoint at 2025-09-29T20:58:29-0400",
+  "files_changed": [
+   "src/content/oss-contributions.json"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "812455a111bccb4f8de961b410124a9df2706a60",
+  "author_date": "2025-09-30T19:57:39-04:00",
+  "subject": "checkpoint at 2025-09-30T19:57:39-0400",
+  "files_changed": [
+   "src/content/oss-contributions.json"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "d1329b68758a2be1237c9b3527cd30b928843849",
+  "author_date": "2025-09-30T20:35:14-04:00",
+  "subject": "checkpoint at 2025-09-30T20:35:14-0400",
+  "files_changed": [
+   "src/icons/git-merge.svg",
+   "src/icons/git-pull-request-arrow.svg",
+   "src/icons/git-pull-request-closed.svg",
+   "src/pages/index.astro"
+  ],
+  "page_touching": true
+ }
+]

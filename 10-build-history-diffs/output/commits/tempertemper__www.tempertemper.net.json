@@ -1,0 +1,1552 @@
+[
+ {
+  "sha": "c12d97cdbd8e4fcac10c964a7eb06f45e18c68fb",
+  "author_date": "2025-07-01T15:32:31+01:00",
+  "subject": "Merge pull request #1117 from tempertemper/post/everything-has-its-time",
+  "files_changed": [
+   ".../posts/2025-07-01--everything-has-its-time.md"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "4f1deb1e25dc89c070cdf0f5c23b96fe2b7b3f41",
+  "author_date": "2025-07-01T21:14:44+01:00",
+  "subject": "Merge pull request #1118 from tempertemper/skills-update",
+  "files_changed": [
+   ".changelog",
+   "netlify.toml",
+   "package-lock.json",
+   "package.json",
+   "src/site/_data/site.js",
+   "src/site/skills/accessibility.md",
+   "src/site/skills/frontend-development.md",
+   "src/site/skills/html-email.md",
+   "src/site/skills/perch-cms.md",
+   "src/site/skills/user-experience-design.md",
+   "src/site/skills/user-interface-design.md"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "1d2a6aae3da41e13ca2c86bd2cb4d8fd377915df",
+  "author_date": "2025-07-01T21:28:04+01:00",
+  "subject": "Merge pull request #1119 from tempertemper/feature/social-icons-alignment",
+  "files_changed": [
+   ".changelog",
+   "package-lock.json",
+   "package.json",
+   "src/scss/components/_footer.scss",
+   "src/site/_data/site.js",
+   "src/site/_includes/call-to-action.html"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "74056980ec5faad98b72184b8ea5206d776a3179",
+  "author_date": "2025-07-02T10:01:30+01:00",
+  "subject": "Merge pull request #1120 from tempertemper/fix/typo",
+  "files_changed": [
+   "src/site/consultancy.md"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "5e38769bf98b08d97d6b26cc5b93ada7172ff0f1",
+  "author_date": "2025-07-02T10:39:21+01:00",
+  "subject": "Merge pull request #1121 from tempertemper/post/table-hierarchy",
+  "files_changed": [
+   "src/site/posts/2025-07-02--hierarchy-in-tables.md"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "4a46b42a0697449bf9e7a36c77289fde5fc673b3",
+  "author_date": "2025-07-08T05:14:20+01:00",
+  "subject": "Merge pull request #1122 from tempertemper/node-fix",
+  "files_changed": [
+   ".changelog",
+   "package-lock.json",
+   "package.json",
+   "src/site/_data/site.js"
+  ],
+  "page_touching": false
+ },
+ {
+  "sha": "e1007c0b1cb169983ed50f89cee273523d29e7fd",
+  "author_date": "2025-07-17T19:26:21+01:00",
+  "subject": "Merge pull request #1123 from tempertemper/gaad-images",
+  "files_changed": [
+   ".changelog",
+   "package-lock.json",
+   "package.json",
+   "src/img/case-studies/empathy-lab-2024.avif",
+   "src/img/case-studies/empathy-lab-2024.jpg",
+   "src/img/case-studies/empathy-lab-2024.webp",
+   "src/img/case-studies/empathy-lab-2025.avif",
+   "src/img/case-studies/empathy-lab-2025.jpg",
+   "src/img/case-studies/empathy-lab-2025.webp",
+   "src/img/case-studies/empathy-lab.avif",
+   "src/img/case-studies/empathy-lab.jpg",
+   "src/img/case-studies/empathy-lab.webp",
+   "src/img/case-studies/gaad-2021.avif",
+   "src/img/case-studies/gaad-2021.jpg",
+   "src/img/case-studies/gaad-2021.webp",
+   "src/img/case-studies/gaad-2022.avif",
+   "src/img/case-studies/gaad-2022.jpg",
+   "src/img/case-studies/gaad-2022.webp",
+   "src/img/case-studies/gaad-2023.avif",
+   "src/img/case-studies/gaad-2023.jpg",
+   "src/img/case-studies/gaad-2023.webp",
+   "src/img/case-studies/gaad-2024.avif",
+   "src/img/case-studies/gaad-2024.jpg",
+   "src/img/case-studies/gaad-2024.webp",
+   "src/img/case-studies/gaad-2025.avif",
+   "src/img/case-studies/gaad-2025.jpg",
+   "src/img/case-studies/gaad-2025.webp",
+   "src/img/case-studies/gaad.avif",
+   "src/img/case-studies/gaad.png",
+   "src/img/case-studies/gaad.webp",
+   "src/scss/base/_images.scss",
+   "src/site/_data/site.js",
+   "...ibility-awareness-at-sage-five-years-of-gaad.md"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "03f8e1dad960569fd684ef7ef9c4639d5a2998ee",
+  "author_date": "2025-07-18T12:04:48+01:00",
+  "subject": "Merge pull request #1124 from tempertemper/cta-wording",
+  "files_changed": [
+   ".changelog",
+   "src/site/_includes/call-to-action.html",
+   "src/site/consultancy.md",
+   "src/site/contact.md"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "cdaba985e9277998674a36f3c84a33396dd34987",
+  "author_date": "2025-07-19T14:28:41+01:00",
+  "subject": "Merge pull request #1125 from tempertemper/post/the-law",
+  "files_changed": [
+   "...9--making-sense-of-accessibility-and-the-law.md"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "85a954e5635c3200ec5d06c5f897aeaf4a6f0f68",
+  "author_date": "2025-07-21T15:49:00+01:00",
+  "subject": "Merge pull request #1126 from tempertemper/case-study/culture-of-accessibility",
+  "files_changed": [
+   ".changelog",
+   "package-lock.json",
+   "package.json",
+   "src/site/_data/site.js",
+   "...ibility-awareness-at-sage-five-years-of-gaad.md",
+   "...5-07-21--creating-a-culture-of-accessibility.md"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "50e260898a6c48c7d5943822e0f1420f56dd4c95",
+  "author_date": "2025-07-22T12:30:36+01:00",
+  "subject": "Merge pull request #1127 from tempertemper/fix/buttondown-form",
+  "files_changed": [
+   ".changelog",
+   "lib/functions/submission-created.js",
+   "package-lock.json",
+   "package.json",
+   "src/site/_includes/newsletter-signup.html",
+   "src/site/feeds/atom.html",
+   "src/site/feeds/json.html"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "ce56157ce1a6c17564c9a0d5afd93d1d24691318",
+  "author_date": "2025-07-22T18:30:08+01:00",
+  "subject": "Merge pull request #1128 from tempertemper/typos-and-tweaks",
+  "files_changed": [
+   "src/site/colophon.md",
+   ".../posts/2023-07-31--accessibility-represents-maturity.md"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "5047b58657c6ea2b9c6c84dd82fa724b243ce852",
+  "author_date": "2025-07-27T11:33:18+01:00",
+  "subject": "Merge pull request #1129 from tempertemper/case-study/frontend-ne",
+  "files_changed": [
+   "src/img/case-studies/frontend-ne-conference.avif",
+   "src/img/case-studies/frontend-ne-conference.jpg",
+   "src/img/case-studies/frontend-ne-conference.webp",
+   "...a-community-in-north-east-england-and-beyond.md"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "aeae41bf8d04daf3c95fa328cd7b240f8770f647",
+  "author_date": "2025-07-27T14:48:28+01:00",
+  "subject": "Bumps version number to 6.6.0",
+  "files_changed": [
+   "package-lock.json",
+   "package.json",
+   "src/site/_data/site.js"
+  ],
+  "page_touching": false
+ },
+ {
+  "sha": "25bc0cf6a3887a728ad5de5640687fcbeec6d94c",
+  "author_date": "2025-07-27T14:59:05+01:00",
+  "subject": "Merge pull request #1130 from tempertemper/fix/input-button-dist",
+  "files_changed": [
+   ".changelog",
+   "package-lock.json",
+   "package.json",
+   "src/scss/base/_forms.scss",
+   "src/site/_data/site.js"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "002e753abeebb1fd6c8e2190227fef7d28242d8c",
+  "author_date": "2025-07-28T07:32:18+01:00",
+  "subject": "Merge pull request #1131 from tempertemper/typo/frontend-ne-case-study-date",
+  "files_changed": [
+   "...2021-11-01--building-a-community-in-north-east-england-and-beyond.md"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "c29a9e90e471b0b4c47df989dec71d2022f8b4ba",
+  "author_date": "2025-08-01T06:34:51+01:00",
+  "subject": "Merge pull request #1132 from tempertemper/newsletter/july-2025",
+  "files_changed": [
+   "src/site/newsletter/2025-07-31.md"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "abe26ca74d90b72a54d9d3b946d39ff9fe4eaeca",
+  "author_date": "2025-08-04T10:55:04+01:00",
+  "subject": "Merge pull request #1133 from tempertemper/feature/websites-page",
+  "files_changed": [
+   ".changelog",
+   ".nova/Configuration.json",
+   "netlify.toml",
+   "package-lock.json",
+   "package.json",
+   "src/site/_data/site.js",
+   "src/site/_includes/call-to-action.html",
+   "src/site/_includes/navigation-primary.html",
+   "src/site/_includes/navigation-secondary.html",
+   "src/site/_layouts/skills.html",
+   "src/site/about.md",
+   "src/site/contact.md",
+   "src/site/index.html",
+   "src/site/newsletter/2025-06-30.md",
+   "src/site/newsletter/2025-07-31.md",
+   "src/site/{ => services}/consultancy.md",
+   "src/site/services/contracting.md",
+   "src/site/services/index.md",
+   "src/site/services/services.json",
+   "src/site/services/websites.md",
+   "src/site/skills.html",
+   "src/site/skills/accessibility.md",
+   "src/site/skills/frontend-development.md",
+   "src/site/skills/index.md",
+   "src/site/skills/skills.json",
+   "src/site/skills/user-experience-design.md",
+   "src/site/terms.md"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "f4428511e177fc1557b1e9b41f9cc11e4cd3bf71",
+  "author_date": "2025-08-05T08:42:22+01:00",
+  "subject": "Merge pull request #1134 from tempertemper/fix/homepage-markdown-issue",
+  "files_changed": [
+   ".changelog",
+   "package-lock.json",
+   "package.json",
+   "src/site/_data/site.js",
+   "src/site/_layouts/home.html"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "8b9d944069bea26e2880711bb062af1055f91f44",
+  "author_date": "2025-08-05T19:17:19+01:00",
+  "subject": "Merge pull request #1135 from tempertemper/fix/typo-culture-case-study",
+  "files_changed": [
+   ".../case-studies/2025-07-21--creating-a-culture-of-accessibility.md"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "0ff37d29ebb9ff22b090f80565db300d21d90f79",
+  "author_date": "2025-08-16T10:10:55+01:00",
+  "subject": "Merge pull request #1136 from tempertemper/fix/rss",
+  "files_changed": [
+   ".changelog",
+   ".eleventy.js",
+   "netlify.toml",
+   "package-lock.json",
+   "package.json",
+   "src/site/_data/site.js",
+   "src/site/feeds/atom.html",
+   "src/site/feeds/json.html",
+   "src/site/posts/2023-09-20--own-your-own-content.md"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "215732150e57e683f4142ff9b089bca5140e8b0e",
+  "author_date": "2025-08-17T07:25:39+01:00",
+  "subject": "Merge pull request #1137 from tempertemper/fix/json-feed",
+  "files_changed": [
+   "src/site/feeds/json.html"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "c1fb0beb854f1b066fa0b716cf71895fbabf7dff",
+  "author_date": "2025-08-17T07:30:09+01:00",
+  "subject": "Merge pull request #1138 from tempertemper/fix/json-feed",
+  "files_changed": [
+   "src/site/feeds/json.html"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "e393ed971b584fef9c53637126dc2b30bc33f71c",
+  "author_date": "2025-08-17T07:42:40+01:00",
+  "subject": "Merge pull request #1139 from tempertemper/fix/json-feed",
+  "files_changed": [
+   "src/site/feeds/json.html"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "0b74e47a2bb06aaf9279e388cb24cfdb5c422ac6",
+  "author_date": "2025-08-17T12:30:11+01:00",
+  "subject": "Merge pull request #1140 from tempertemper/services-tidy",
+  "files_changed": [
+   ".changelog",
+   ".eleventy.js",
+   "package-lock.json",
+   "package.json",
+   "src/site/_data/site.js",
+   "src/site/services/consultancy.md",
+   "src/site/services/contracting.md",
+   "src/site/services/index.md",
+   "src/site/services/services.json",
+   "src/site/services/websites.md",
+   "src/site/skills/accessibility.md",
+   "src/site/skills/frontend-development.md",
+   "src/site/skills/index.md",
+   "src/site/skills/skills.json",
+   "src/site/skills/user-experience-design.md"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "232977dd378f25006442bf72a1d17afb7685e62b",
+  "author_date": "2025-08-17T17:23:39+01:00",
+  "subject": "Merge pull request #1141 from tempertemper/feature/list-boxes",
+  "files_changed": [
+   ".changelog",
+   "package-lock.json",
+   "package.json",
+   "src/scss/admin/_mixins--buttons.scss",
+   "src/scss/admin/_mixins--general.scss",
+   "src/scss/admin/_mixins--links.scss",
+   "src/scss/admin/_mixins--modes.scss",
+   "src/scss/admin/_mixins--typography.scss",
+   "src/scss/base/_code.scss",
+   "src/scss/base/_details-summary.scss",
+   "src/scss/base/_forms.scss",
+   "src/scss/base/_page.scss",
+   "src/scss/base/_tables.scss",
+   ".../base/typography/_general--non-critical.scss",
+   "src/scss/components/_call-to-action.scss",
+   "src/scss/components/_footer.scss",
+   "src/scss/components/_logo.scss",
+   "src/scss/components/_skip-to-content.scss",
+   "src/scss/components/_subscribe.scss",
+   "src/scss/components/_syntax-highlighting.scss",
+   "src/scss/components/_teaser.scss",
+   "src/site/_data/site.js",
+   "src/site/_includes/call-to-action.html",
+   "src/site/_includes/more-case-studies.html",
+   "src/site/_includes/more-posts.html",
+   "src/site/_layouts/home.html",
+   "src/site/{portfolio.html => case-studies/index.md}",
+   "src/site/{blog.html => posts/index.html}",
+   "src/site/{resources.html => resources/index.html}",
+   "src/site/services/index.md",
+   "src/site/skills/index.md",
+   ".../{testimonials.html => testimonials/index.md}"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "8793d5de4f15ce8e8c01625ed7bb1790d83fc831",
+  "author_date": "2025-08-19T10:10:13+01:00",
+  "subject": "Merge pull request #1142 from tempertemper/content/websites",
+  "files_changed": [
+   "src/site/services/websites.md"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "ea5cdc037d041a3415625fff1c45591889c7638e",
+  "author_date": "2025-08-20T07:18:41+01:00",
+  "subject": "Merge pull request #1143 from tempertemper/tweaks",
+  "files_changed": [
+   "src/site/accessibility-statement.md",
+   "src/site/humans.html",
+   "src/site/services/websites.md"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "32da83a1d49ff5d7e995aa7417cf71af98b0d1e7",
+  "author_date": "2025-08-21T14:37:09+01:00",
+  "subject": "Merge pull request #1144 from tempertemper/content-tweaks",
+  "files_changed": [
+   "src/site/humans.html",
+   "src/site/newsletter/index.md"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "5a013356e8cc0eee05a06d93ae11306013545d99",
+  "author_date": "2025-08-31T16:24:08+01:00",
+  "subject": "Merge pull request #1145 from tempertemper/post/bottom-up",
+  "files_changed": [
+   "...-focus-on-the-people-that-make-things-happen.md"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "bb3f025e84c28a71e95dce9e871421815fc82e28",
+  "author_date": "2025-08-31T17:20:02+01:00",
+  "subject": "Merge pull request #1146 from tempertemper/feature/footer-fixes",
+  "files_changed": [
+   ".changelog",
+   "package-lock.json",
+   "package.json",
+   "src/scss/components/_footer.scss",
+   "src/site/_data/site.js",
+   "src/site/_includes/footer.html",
+   "src/site/_includes/navigation-secondary.html"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "d3aa8a1cf02c783e20d9f9d4f17281493123fdfa",
+  "author_date": "2025-08-31T21:55:33+01:00",
+  "subject": "Merge pull request #1147 from tempertemper/newsletter/august-2025",
+  "files_changed": [
+   "src/site/newsletter/2025-08-31.md"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "35e5b60d930fed66a5c049623d8710eafb8757b9",
+  "author_date": "2025-09-03T20:50:34+01:00",
+  "subject": "Merge pull request #1148 from tempertemper/feature/redirects",
+  "files_changed": [
+   ".changelog",
+   ".eleventy.js",
+   "_redirects",
+   "netlify.toml"
+  ],
+  "page_touching": false
+ },
+ {
+  "sha": "5d63c24a5ccd96bad6df11c47a28f311c5fb96c2",
+  "author_date": "2025-09-09T14:31:15+01:00",
+  "subject": "Merge pull request #1149 from tempertemper/feature/talks-page",
+  "files_changed": [
+   ".changelog",
+   "_redirects",
+   "package-lock.json",
+   "package.json",
+   "src/scss/admin/_mixins--general.scss",
+   "src/scss/components/_footer.scss",
+   "src/site/_data/site.js",
+   "src/site/_includes/navigation-primary.html",
+   "src/site/_includes/navigation-secondary.html",
+   "src/site/_layouts/home.html",
+   "src/site/about.md",
+   "src/site/approaches/approaches.json",
+   "src/site/{services => approaches}/consultancy.md",
+   "src/site/{services => approaches}/contracting.md",
+   "src/site/approaches/index.md",
+   "src/site/approaches/projects.md",
+   "src/site/contact.md",
+   "src/site/index.html",
+   "src/site/keep-in-touch.md",
+   "src/site/newsletter/2025-06-30.md",
+   "src/site/newsletter/2025-07-31.md",
+   "src/site/resources/{index.html => index.md}",
+   "src/site/services/audits.md",
+   "src/site/services/culture.md",
+   "src/site/services/index.md",
+   "src/site/services/strategy.md",
+   "src/site/services/talks.md",
+   "src/site/services/training.md",
+   "src/site/services/websites.md",
+   "src/site/skills/accessibility.md",
+   "src/site/skills/user-experience-design.md"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "015406eb6e81c9469061732fe4198ced99fd8f8f",
+  "author_date": "2025-09-09T20:59:36+01:00",
+  "subject": "Merge pull request #1150 from tempertemper/content/friendly-and-informal",
+  "files_changed": [
+   "src/site/approaches/consultancy.md",
+   "src/site/services/audits.md",
+   "src/site/services/culture.md",
+   "src/site/services/talks.md",
+   "src/site/services/training.md"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "b677825d635475a1738dad2ed3b16fc88c75ba15",
+  "author_date": "2025-09-12T11:48:10+01:00",
+  "subject": "Merge pull request #1151 from tempertemper/feature/new-pic",
+  "files_changed": [
+   ".changelog",
+   "package-lock.json",
+   "package.json",
+   "src/img/martin-underhill-tempertemper-square.avif",
+   "src/img/martin-underhill-tempertemper-square.jpg",
+   "src/img/martin-underhill-tempertemper-square.webp",
+   "src/img/martin-underhill-tempertemper.avif",
+   "src/img/martin-underhill-tempertemper.jpg",
+   "src/img/martin-underhill-tempertemper.webp",
+   "src/site/_data/site.js",
+   "src/site/_includes/more-posts.html",
+   "src/site/_includes/post-categories.html",
+   "src/site/_includes/post-in-list.html",
+   "src/site/about.md",
+   "src/site/now.md"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "3c81fdf49a98d9efea0baa4299cbf5d4db369d98",
+  "author_date": "2025-09-12T11:55:40+01:00",
+  "subject": "Merge pull request #1152 from tempertemper/content/photo-credit",
+  "files_changed": [
+   "src/site/_includes/footer.html",
+   "src/site/humans.html"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "a68d212d5f7408079e407c5943624301bfe68845",
+  "author_date": "2025-09-15T10:02:53+01:00",
+  "subject": "Merge pull request #1153 from tempertemper/post/macbook-air",
+  "files_changed": [
+   ".../2025-09-15--a-new-macbook-for-a-new-chapter.md"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "8ee7730075c15117629209f488151a2722ac3376",
+  "author_date": "2025-09-16T15:41:11+01:00",
+  "subject": "Merge pull request #1154 from tempertemper/feature/coaching-page",
+  "files_changed": [
+   ".changelog",
+   "package-lock.json",
+   "package.json",
+   "src/site/_data/site.js",
+   "src/site/approaches/consultancy.md",
+   "src/site/services/audits.md",
+   "src/site/services/coaching.md",
+   "src/site/services/culture.md",
+   "src/site/services/index.md",
+   "src/site/services/strategy.md",
+   "src/site/services/training.md",
+   "src/site/services/websites.md"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "94dcf6bd4eaebf0d54f12d84aa134b098bb1b067",
+  "author_date": "2025-09-25T21:23:00+01:00",
+  "subject": "Merge pull request #1156 from tempertemper/replace-smartypants",
+  "files_changed": [
+   ".eleventy.js",
+   "lib/filters/smart-quotes.js",
+   "package-lock.json",
+   "package.json"
+  ],
+  "page_touching": false
+ },
+ {
+  "sha": "b97dcadc14743922b8353013f369e82c0e209816",
+  "author_date": "2025-09-25T21:28:21+01:00",
+  "subject": "Merge pull request #1157 from tempertemper/smartypants-changelog",
+  "files_changed": [
+   ".changelog",
+   "package-lock.json",
+   "package.json",
+   "src/site/_data/site.js"
+  ],
+  "page_touching": false
+ },
+ {
+  "sha": "dc14ff4d69d9e1ed5106cb4c303a7afe8a63b9f0",
+  "author_date": "2025-09-30T21:43:44+01:00",
+  "subject": "Merge pull request #1158 from tempertemper/newsletter/september-2025",
+  "files_changed": [
+   "src/site/newsletter/2025-09-30.md"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "8fccaa01734c272525878294b99ff4bf153549fa",
+  "author_date": "2025-09-30T22:03:47+01:00",
+  "subject": "Merge pull request #1159 from tempertemper/fix/subscribe-form",
+  "files_changed": [
+   "netlify.toml"
+  ],
+  "page_touching": false
+ },
+ {
+  "sha": "aa708ff80df7d829df108149ef0ded23317d4d4e",
+  "author_date": "2025-09-30T22:11:08+01:00",
+  "subject": "Merge pull request #1160 from tempertemper/fix/subscribe-form",
+  "files_changed": [
+   "netlify.toml"
+  ],
+  "page_touching": false
+ },
+ {
+  "sha": "9978788ab006e27f2a375d679bd401fce2b6ee14",
+  "author_date": "2025-10-06T10:58:09+01:00",
+  "subject": "Merge pull request #1161 from tempertemper/content/contracting-page",
+  "files_changed": [
+   ".changelog",
+   "package-lock.json",
+   "package.json",
+   "src/site/_data/site.js",
+   "src/site/approaches/contracting.md",
+   "src/site/services/audits.md",
+   "src/site/services/coaching.md",
+   "src/site/services/culture.md",
+   "src/site/services/design-systems.md",
+   "src/site/services/strategy.md",
+   "src/site/services/talks.md",
+   "src/site/services/training.md",
+   "src/site/services/websites.md",
+   "src/site/skills/accessibility.md"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "9754f4f5216b48f602cf48bcc3cecfb9d10f9e46",
+  "author_date": "2025-10-14T20:08:43+01:00",
+  "subject": "Merge pull request #1162 from tempertemper/feature/bump-autotag",
+  "files_changed": [
+   ".changelog",
+   ".github/workflows/auto-tag.yml",
+   "package-lock.json",
+   "package.json",
+   "scripts/sync-site-version.js",
+   "src/site/_data/site.js"
+  ],
+  "page_touching": false
+ },
+ {
+  "sha": "cc7509241605198f140f095af94869665674e0fe",
+  "author_date": "2025-10-15T15:24:46+01:00",
+  "subject": "Merge pull request #1163 from tempertemper/post/h1-in-headers",
+  "files_changed": [
+   "...-15--page-headings-dont-belong-in-the-header.md"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "515615f6d05a73a0523ac32ad1c65bc26134628e",
+  "author_date": "2025-10-16T15:00:49+01:00",
+  "subject": "Merge pull request #1164 from tempertemper/case-study/gusto",
+  "files_changed": [
+   ".../gusto-research--colour-contrast--after.avif",
+   ".../gusto-research--colour-contrast--after.jpg",
+   ".../gusto-research--colour-contrast--after.webp",
+   ".../gusto-research--colour-contrast--before.avif",
+   ".../gusto-research--colour-contrast--before.jpg",
+   ".../gusto-research--colour-contrast--before.webp",
+   ".../2024-12-02--making-a-website-accessible.md",
+   "src/site/services/websites.md"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "61129f1f958fe0f819a2ad3b97848a5d7c85dea8",
+  "author_date": "2025-10-17T15:15:20+01:00",
+  "subject": "Merge pull request #1165 from tempertemper/post/heading-header-title",
+  "files_changed": [
+   ".../2025-10-17--headers-headings-and-titles.md"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "60cc70448ddbe4528755b3d4ae0b6920899c8a62",
+  "author_date": "2025-10-20T07:25:48+01:00",
+  "subject": "Merge pull request #1166 from tempertemper/post/millennium-falcon",
+  "files_changed": [
+   "src/img/blog/millennium-falcon.avif",
+   "src/img/blog/millennium-falcon.jpg",
+   "src/img/blog/millennium-falcon.webp",
+   "...-thank-you-for-an-incredible-leaving-present.md"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "64ea01191b22fe730db8918c84641b6d5c7f9cb7",
+  "author_date": "2025-10-22T09:29:07+01:00",
+  "subject": "Merge pull request #1155 from tempertemper/search-function",
+  "files_changed": [
+   ".eleventy.js",
+   "package-lock.json",
+   "package.json",
+   "src/js/add-footer-search-link.js",
+   "src/scss/admin/_variables--colour.scss",
+   ".../base/typography/_general--non-critical.scss",
+   "src/scss/components/_post-in-list.scss",
+   "src/site/_includes/head.html",
+   "src/site/_includes/post-in-list.html",
+   "src/site/_layouts/article.html",
+   "src/site/_layouts/case-study.html",
+   "src/site/_layouts/default.html",
+   "src/site/_layouts/newsletter.html",
+   "src/site/posts/index.html",
+   "src/site/robots.txt",
+   "src/site/search.html"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "06f96f7861a6a49cfb372358894d7d448675b6d6",
+  "author_date": "2025-10-22T11:55:49+01:00",
+  "subject": "Merge pull request #1167 from tempertemper/search-changelog",
+  "files_changed": [
+   ".changelog",
+   "package-lock.json",
+   "package.json",
+   "src/site/_data/site.js"
+  ],
+  "page_touching": false
+ },
+ {
+  "sha": "04a1815fc6e1b4cc36b110321bf17ad51169eae3",
+  "author_date": "2025-10-24T06:52:06+01:00",
+  "subject": "Merge pull request #1168 from tempertemper/fix/search-redirect",
+  "files_changed": [
+   ".changelog",
+   "_redirects",
+   "package-lock.json",
+   "package.json",
+   "src/site/_data/site.js"
+  ],
+  "page_touching": false
+ },
+ {
+  "sha": "6841f460da1d2f97816f071387a2c09c28cff3c3",
+  "author_date": "2025-10-31T16:32:13+00:00",
+  "subject": "Merge pull request #1169 from tempertemper/newsletter/october-2025",
+  "files_changed": [
+   "src/site/newsletter/2025-10-31.md"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "4c45055f56c7721786a200ae9dbc77e1ecabc926",
+  "author_date": "2025-11-01T08:07:59+00:00",
+  "subject": "Merge pull request #1170 from tempertemper/post/hgroup",
+  "files_changed": [
+   ".../2025-11-01--the-return-of-the-heading-group.md"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "c75d3c62f6aeb9dd92ff6546e6ae98ef0d98fe70",
+  "author_date": "2025-11-03T12:02:12+00:00",
+  "subject": "Merge pull request #1171 from tempertemper/updates/hgroup-post",
+  "files_changed": [
+   ".../2025-11-01--the-return-of-the-heading-group.md"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "913bc354c37cacf0c67532b2458599c38638ff69",
+  "author_date": "2025-11-06T17:33:24+00:00",
+  "subject": "Merge pull request #1172 from tempertemper/fix/csp-for-search",
+  "files_changed": [
+   "netlify.toml",
+   "package.json",
+   "src/site/_includes/head.html",
+   "src/site/search.html"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "92a4455e7c62da3388cfb34f088eb372c2d78229",
+  "author_date": "2025-11-06T20:22:13+00:00",
+  "subject": "Merge pull request #1174 from tempertemper/feature/eleventy-config-split",
+  "files_changed": [
+   ".changelog",
+   ".eleventy.js",
+   "eleventy.config.js",
+   "eleventy/build.js",
+   "eleventy/filters.js",
+   "eleventy/index.js",
+   "eleventy/markdown.js",
+   "eleventy/plugins.js",
+   "eleventy/returns.js",
+   "eleventy/server.js",
+   "eleventy/transforms.js",
+   "lib/filters/dates.js",
+   "lib/filters/isoDate.js",
+   "lib/filters/smart-quotes.js",
+   "package-lock.json",
+   "package.json",
+   "scripts/sync-site-version.js",
+   "src/site/_data/site.js"
+  ],
+  "page_touching": false
+ },
+ {
+  "sha": "bb11de8260a328630657aa859fcd7e1f5c252403",
+  "author_date": "2025-11-07T10:25:17+00:00",
+  "subject": "Merge pull request #1175 from tempertemper/feature/http-headers",
+  "files_changed": [
+   ".changelog",
+   "netlify.toml"
+  ],
+  "page_touching": false
+ },
+ {
+  "sha": "69bb20a5784498e31d5ee17b69d078d21b319db0",
+  "author_date": "2025-11-07T16:17:22+00:00",
+  "subject": "Merge pull request #1176 from tempertemper/fix/cls-issue",
+  "files_changed": [
+   ".changelog",
+   "src/scss/base/typography/_fonts--critical.scss",
+   "src/scss/base/typography/_fonts--non-critical.scss",
+   "src/scss/base/typography/_general--critical.scss",
+   "src/scss/components/_header.scss",
+   "src/scss/components/_logo.scss",
+   "src/scss/components/_subscribe.scss",
+   "src/site/_includes/head.html",
+   "src/site/_includes/svg/tempertemper-logo.svg"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "1da27b88f2e5829aed29887a23b7e4dc61562d9e",
+  "author_date": "2025-11-08T19:13:45+00:00",
+  "subject": "Merge pull request #1177 from tempertemper/fix/cls-issue",
+  "files_changed": [
+   ".changelog",
+   "package-lock.json",
+   "package.json",
+   "src/scss/base/_reset.scss",
+   "src/scss/base/_tables.scss",
+   "src/scss/components/_footer.scss",
+   "src/scss/components/_header.scss",
+   "src/scss/components/_logo.scss",
+   "src/scss/components/_navigation.scss",
+   "src/scss/critical.scss",
+   "src/site/_data/site.js",
+   "src/site/_includes/footer.html",
+   "src/site/_includes/head.html"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "56e9cfbdf5e790564aa3d62f88e90bf09dcbccce",
+  "author_date": "2025-11-08T19:21:56+00:00",
+  "subject": "Merge pull request #1178 from tempertemper/fix/cls-issue",
+  "files_changed": [
+   "src/scss/components/_footer.scss"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "31298b617d07ba16fe5b15a9d88ad2fee5f3a6ec",
+  "author_date": "2025-11-09T09:04:01+00:00",
+  "subject": "Merge pull request #1179 from tempertemper/fix/slugify",
+  "files_changed": [
+   ".changelog",
+   "eleventy/filters.js",
+   "package-lock.json",
+   "package.json",
+   "src/site/_data/site.js"
+  ],
+  "page_touching": false
+ },
+ {
+  "sha": "f3cdee67ba7d65c64314d1d39f33155d2f18be8d",
+  "author_date": "2025-11-09T09:33:19+00:00",
+  "subject": "Merge pull request #1180 from tempertemper/simplify-scss",
+  "files_changed": [
+   ".changelog",
+   "package-lock.json",
+   "package.json",
+   "src/scss/admin/_mixins--buttons.scss",
+   "src/scss/admin/_mixins--general.scss",
+   "src/scss/admin/_mixins--links.scss",
+   "src/scss/admin/_mixins--typography.scss",
+   "src/scss/admin/_placeholders.scss",
+   "src/scss/admin/_variables--general.scss",
+   "src/scss/admin/_variables--layout.scss",
+   "src/scss/admin/_variables--typography.scss",
+   ".../{_variables--colour.scss => _variables.scss}",
+   "src/scss/base/_code.scss",
+   "src/scss/base/_details-summary.scss",
+   "src/scss/base/_forms.scss",
+   "src/scss/base/_images.scss",
+   "src/scss/base/_links.scss",
+   "src/scss/base/_page.scss",
+   "src/scss/base/_tables.scss",
+   "src/scss/base/_utility--non-critical.scss",
+   "src/scss/base/typography/_general--critical.scss",
+   ".../base/typography/_general--non-critical.scss",
+   "src/scss/components/_call-to-action.scss",
+   "src/scss/components/_footer.scss",
+   "src/scss/components/_header.scss",
+   "src/scss/components/_post-details.scss",
+   "src/scss/components/_skip-to-content.scss",
+   "src/scss/components/_syntax-highlighting.scss",
+   "src/scss/components/_teaser.scss",
+   "src/site/_data/site.js"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "6727b9b97ae121457ea351954ec48f8e6e5115ae",
+  "author_date": "2025-11-10T11:09:56+00:00",
+  "subject": "Merge pull request #1173 from tempertemper/blog-pagination",
+  "files_changed": [
+   ".changelog",
+   "package-lock.json",
+   "package.json",
+   "src/scss/components/_pagination.scss",
+   "src/scss/non-critical.scss",
+   "src/site/_data/site.js",
+   "src/site/_includes/head.html",
+   "src/site/_includes/pagination.html",
+   "src/site/posts/index.html",
+   "src/site/resources/{index.md => index.html}"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "cc7bef0f4fca262e990487d4570e3564cf2995e6",
+  "author_date": "2025-11-10T11:40:49+00:00",
+  "subject": "Merge pull request #1181 from tempertemper/fix/button-colour",
+  "files_changed": [
+   ".changelog",
+   "package-lock.json",
+   "package.json",
+   "src/scss/admin/_mixins--buttons.scss",
+   "src/scss/base/_reset.scss",
+   "src/site/_data/site.js"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "ea83c60f504c75c7ad6df59a71dd3a4218f97051",
+  "author_date": "2025-11-11T22:19:08+00:00",
+  "subject": "Merge pull request #1182 from tempertemper/search-speed-fix",
+  "files_changed": [
+   "netlify.toml",
+   "src/site/_includes/head.html"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "d176e29b075b06e4084f270fe9ec3a0d89074732",
+  "author_date": "2025-11-11T22:30:36+00:00",
+  "subject": "Merge pull request #1183 from tempertemper/preload-wasm",
+  "files_changed": [
+   "src/site/_includes/head.html"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "45ebac00ef5c508aebd3f5c43fb2165f87efb88e",
+  "author_date": "2025-11-13T20:41:31+00:00",
+  "subject": "Merge pull request #1184 from tempertemper/search-tweaks-again",
+  "files_changed": [
+   "eleventy/build.js",
+   "package.json",
+   "src/site/_includes/head.html",
+   "src/site/search.html"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "db1dc213cb575c5a8afddd158233c4a28d8f849e",
+  "author_date": "2025-11-14T09:37:55+00:00",
+  "subject": "Merge pull request #1185 from tempertemper/search-optimisation",
+  "files_changed": [
+   ".changelog",
+   "src/site/_includes/head.html"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "dee25ee3d25021f6e696083f25c79f120679a998",
+  "author_date": "2025-11-14T14:48:03+00:00",
+  "subject": "Fixes some whitespace in changelog",
+  "files_changed": [
+   ".changelog"
+  ],
+  "page_touching": false
+ },
+ {
+  "sha": "791e37c38e3ac6ce528e4dc71f54fb7c9b04b511",
+  "author_date": "2025-11-18T14:03:57+00:00",
+  "subject": "Merge pull request #1187 from tempertemper/feature/pagination-restructure",
+  "files_changed": [
+   ".changelog",
+   "package-lock.json",
+   "package.json",
+   "src/scss/components/_pagination.scss",
+   "src/site/_data/site.js",
+   "src/site/_includes/pagination.html"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "8716401dc5cfcda8d5dfd73264070093398ad7a2",
+  "author_date": "2025-11-18T19:33:09+00:00",
+  "subject": "Merge pull request #1188 from tempertemper/dependabot/npm_and_yarn/multi-75e6bc5210",
+  "files_changed": [
+   "package-lock.json"
+  ],
+  "page_touching": false
+ },
+ {
+  "sha": "d6f65bed37d9de5eacbfadd741c0f1bd5fb0a4ec",
+  "author_date": "2025-11-18T19:38:03+00:00",
+  "subject": "Merge pull request #1189 from tempertemper/feature/pagination-in-title",
+  "files_changed": [
+   ".changelog",
+   "package-lock.json",
+   "package.json",
+   "src/site/_data/site.js",
+   "src/site/_includes/head.html",
+   "src/site/_layouts/default.html",
+   "src/site/resources/index.html"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "dde06cedc5e04e2b1a44e90784ee8b5d2f0b7439",
+  "author_date": "2025-11-19T10:40:13+00:00",
+  "subject": "Merge pull request #1190 from tempertemper/post/pagination-markup",
+  "files_changed": [
+   "...-19--an-accessible-pagination-pattern-or-two.md"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "b538aecd97261ec5c4c0ba00225db9c6de6cab12",
+  "author_date": "2025-11-19T11:38:04+00:00",
+  "subject": "Merge pull request #1191 from tempertemper/fix/pagination-description",
+  "files_changed": [
+   "src/site/posts/2025-11-19--an-accessible-pagination-pattern-or-two.md"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "35d2d3a3b14aa55df8fe41183f93083b96369ba7",
+  "author_date": "2025-11-19T12:28:48+00:00",
+  "subject": "typo",
+  "files_changed": [
+   "src/site/posts/2025-11-19--an-accessible-pagination-pattern-or-two.md"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "cb354cbd2747f95061b789a5ab2a63c21f4f544b",
+  "author_date": "2025-11-20T16:18:48+00:00",
+  "subject": "Merge pull request #1192 from tempertemper/update/pagination",
+  "files_changed": [
+   "src/site/posts/2025-11-19--an-accessible-pagination-pattern-or-two.md"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "af03559ca99296683d5600fd96bf1e517c3f2513",
+  "author_date": "2025-11-25T08:35:01+00:00",
+  "subject": "Merge pull request #1193 from tempertemper/reviews-page",
+  "files_changed": [
+   ".changelog",
+   "package-lock.json",
+   "package.json",
+   "src/site/_data/site.js",
+   "src/site/_layouts/home.html",
+   "src/site/services/audits.md",
+   "src/site/services/coaching.md",
+   "src/site/services/culture.md",
+   "src/site/services/design-systems.md",
+   "src/site/services/reviews.md",
+   "src/site/services/strategy.md",
+   "src/site/services/talks.md",
+   "src/site/services/training.md",
+   "src/site/services/websites.md"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "212c5af74ccd507ed6bffe1a148af867938c3964",
+  "author_date": "2025-11-26T11:24:05+00:00",
+  "subject": "Merge pull request #1194 from tempertemper/feature/buttondown-api-update",
+  "files_changed": [
+   ".changelog",
+   "lib/functions/submission-created.js",
+   "package-lock.json",
+   "package.json",
+   "src/site/_data/site.js"
+  ],
+  "page_touching": false
+ },
+ {
+  "sha": "eb0a9e15c08d69e7f9b72882003efb30ee104299",
+  "author_date": "2025-11-28T08:33:12+00:00",
+  "subject": "Merge pull request #1195 from tempertemper/fix/search-page-file-ext",
+  "files_changed": [
+   ".changelog",
+   "package-lock.json",
+   "package.json",
+   "src/site/_data/site.js",
+   "src/site/search.html"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "e07b3c848536bb23cc45662a8f31bf4b0b7573b0",
+  "author_date": "2025-11-28T10:34:16+00:00",
+  "subject": "Merge pull request #1196 from tempertemper/fix/newsletter-search",
+  "files_changed": [
+   ".changelog",
+   "package-lock.json",
+   "package.json",
+   "src/site/_data/site.js",
+   "src/site/_layouts/newsletter.html"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "9504b1fed85977f8122641dfad4786fbf4355bc8",
+  "author_date": "2025-11-30T10:41:18+00:00",
+  "subject": "Merge pull request #1197 from tempertemper/newsletter/november-2025",
+  "files_changed": [
+   "src/site/newsletter/2035-11-30.md"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "80ff38bb470c7071ff9d05da01d27014b8b31b40",
+  "author_date": "2025-12-01T14:36:05+00:00",
+  "subject": "Merge pull request #1198 from tempertemper/feature/validation",
+  "files_changed": [
+   ".changelog",
+   "package-lock.json",
+   "package.json",
+   "src/js/form-validation.js",
+   "src/scss/admin/_variables.scss",
+   "src/scss/base/_forms.scss",
+   "src/site/_data/site.js",
+   "src/site/_includes/newsletter-signup.html",
+   "src/site/search.html"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "4936acab102fd9dab51dad0e0a9a1364c49eb28b",
+  "author_date": "2025-12-01T17:25:23+00:00",
+  "subject": "Merge pull request #1199 from tempertemper/feature/js-with-eleventy",
+  "files_changed": [
+   ".changelog",
+   "eleventy/build.js",
+   "eleventy/index.js",
+   "package-lock.json",
+   "package.json",
+   "src/js/scripts.js",
+   "src/site/_data/site.js",
+   "src/site/search.html"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "084aa554f4e7d6b5be0b7715b64380db7bc002bc",
+  "author_date": "2025-12-01T20:19:26+00:00",
+  "subject": "Merge pull request #1200 from tempertemper/feature/unsubscribe-form",
+  "files_changed": [
+   ".changelog",
+   "lib/functions/submission-created.js",
+   "package-lock.json",
+   "package.json",
+   "src/js/form-validation.js",
+   "src/site/_data/site.js",
+   "src/site/newsletter/unsubscribe.md",
+   "src/site/newsletter/unsubscribed.md"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "83e0c1c7b50032166c8394d2f15e5db4cec2fdb4",
+  "author_date": "2025-12-02T07:07:27+00:00",
+  "subject": "Merge pull request #1204 from tempertemper/remove-cv",
+  "files_changed": [
+   ".changelog",
+   "eleventy/build.js",
+   "eleventy/index.js",
+   "eleventy/plugins.js",
+   "eleventy/returns.js",
+   "eleventy/server.js",
+   "package-lock.json",
+   "package.json",
+   "src/{scss => css}/admin/_mixins--buttons.scss",
+   "src/{scss => css}/admin/_mixins--general.scss",
+   "src/{scss => css}/admin/_mixins--links.scss",
+   "src/{scss => css}/admin/_mixins--modes.scss",
+   "src/{scss => css}/admin/_mixins--typography.scss",
+   "src/{scss => css}/admin/_variables.scss",
+   "src/{scss => css}/base/_code.scss",
+   "src/{scss => css}/base/_details-summary.scss",
+   "src/{scss => css}/base/_forms.scss",
+   "src/{scss => css}/base/_images.scss",
+   "src/{scss => css}/base/_links.scss",
+   "src/{scss => css}/base/_page.scss",
+   "src/{scss => css}/base/_reset.scss",
+   "src/{scss => css}/base/_tables.scss",
+   "src/{scss => css}/base/_utility--critical.scss",
+   "src/{scss => css}/base/_utility--non-critical.scss",
+   "src/{scss => css}/base/_video.scss",
+   ".../base/typography/_fonts--critical.scss",
+   ".../base/typography/_fonts--non-critical.scss",
+   ".../base/typography/_general--critical.scss",
+   ".../base/typography/_general--non-critical.scss",
+   ".../base/typography/_headings--critical.scss",
+   ".../base/typography/_headings--non-critical.scss",
+   "src/{scss => css}/components/_call-to-action.scss",
+   "src/{scss => css}/components/_footer.scss",
+   "src/{scss => css}/components/_header.scss",
+   "src/css/components/_navigation.scss",
+   "src/{scss => css}/components/_pagination.scss",
+   "src/{scss => css}/components/_post-details.scss",
+   "src/{scss => css}/components/_post-in-list.scss",
+   "src/{scss => css}/components/_skip-to-content.scss",
+   "src/{scss => css}/components/_subscribe.scss",
+   ".../components/_syntax-highlighting.scss",
+   "src/{scss => css}/components/_teaser.scss",
+   "src/{scss => css}/critical.scss",
+   "src/{scss => css}/non-critical.scss",
+   "src/docs/index.md",
+   "src/img/icons/favicon--dev.svg",
+   "src/js/add-footer-search-link.js",
+   "src/js/scripts.js",
+   "src/site/_data/site.js",
+   "src/site/_includes/head.html",
+   "src/site/_includes/navigation-primary.html",
+   "src/site/_includes/newsletter-signup.html",
+   "src/site/colophon.md",
+   "src/site/cv.md",
+   "src/site/favicon--dev.ico",
+   "src/site/manifest.webmanifest",
+   "src/site/newsletter/unsubscribe.md",
+   "src/site/search.html"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "f5c0d8b84b1c28cacbe3b3f72e9a18cd1b770bea",
+  "author_date": "2025-12-02T16:08:40+00:00",
+  "subject": "Merge pull request #1205 from tempertemper/feature/feed-count",
+  "files_changed": [
+   ".changelog",
+   "_redirects",
+   "lib/functions/feed-atom.js",
+   "lib/functions/feed-json.js",
+   "package-lock.json",
+   "package.json",
+   "src/site/_data/site.js",
+   "src/site/feeds/atom.html",
+   "src/site/feeds/json.html"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "d2491c85f0a37c4a56e3bebc5bc2f11e336560ee",
+  "author_date": "2025-12-03T10:11:26+00:00",
+  "subject": "Merge pull request #1206 from tempertemper/post/pagination-link-button",
+  "files_changed": [
+   "...03--should-pagination-take-you-to-a-new-page.md"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "18c250eda58c7fffd8e02f641ceaae8d5d6d4106",
+  "author_date": "2025-12-04T09:46:02+00:00",
+  "subject": "Merge pull request #1207 from tempertemper/feature/newsletter-pagination",
+  "files_changed": [
+   ".changelog",
+   "eleventy/filters.js",
+   "eleventy/index.js",
+   "package-lock.json",
+   "package.json",
+   "src/css/components/_pagination.scss",
+   "src/site/_data/site.js",
+   "src/site/_includes/pagination.html",
+   "src/site/_layouts/newsletter.html"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "f82e3d6c4c4861e108e8da4f8e23bafa4c2343a3",
+  "author_date": "2025-12-05T16:27:38+00:00",
+  "subject": "Merge pull request #1208 from tempertemper/feature/contact-form",
+  "files_changed": [
+   ".changelog",
+   "package-lock.json",
+   "package.json",
+   "src/css/admin/_mixins--buttons.scss",
+   "src/css/base/_forms.scss",
+   "src/css/base/_reset.scss",
+   "src/css/components/_call-to-action.scss",
+   "src/js/form-validation.js",
+   "src/site/_data/site.js",
+   "src/site/_includes/call-to-action.html",
+   "src/site/_includes/footer.html",
+   "src/site/_includes/head.html",
+   "src/site/_includes/header.html",
+   "src/site/_includes/more-posts.html",
+   "src/site/_includes/nav.html",
+   "src/site/_includes/navigation-primary.html",
+   "src/site/_includes/navigation-secondary.html",
+   "src/site/_includes/post-in-list.html",
+   "src/site/_layouts/default.html",
+   "src/site/case-studies/case-studies.json",
+   "src/site/case-studies/index.md",
+   "src/site/contact.md",
+   "src/site/contact/index.html",
+   "src/site/contact/thanks.md",
+   "src/site/{ => posts}/year.html",
+   "src/site/{ => posts}/years.html"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "fc43ab1367bfb8b160426998b8de202be82aca90",
+  "author_date": "2025-12-07T18:43:26+00:00",
+  "subject": "Merge pull request #1209 from tempertemper/feature/sponsorship-page",
+  "files_changed": [
+   ".changelog",
+   "package-lock.json",
+   "package.json",
+   "src/css/components/_header.scss",
+   "src/site/_data/site.js",
+   "src/site/_includes/footer.html",
+   "src/site/_includes/header.html",
+   "src/site/_includes/svg/bluesky.svg",
+   "src/site/_includes/svg/logo.svg"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "e3e88d52903b86cff20d1b2080f6cfc91e3259a3",
+  "author_date": "2025-12-07T20:16:38+00:00",
+  "subject": "Merge pull request #1210 from tempertemper/fix/removes-years-rss",
+  "files_changed": [
+   ".changelog",
+   "package-lock.json",
+   "package.json",
+   "...artin-underhill-tempertemper--square-512x512.jpg",
+   "src/site/_data/site.js",
+   "src/site/feeds/atom.html",
+   "src/site/feeds/json.html",
+   "src/site/posts/year.html",
+   "src/site/posts/years.html"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "9e24d7794c507b4569f5f6c38dde8ea2a1ebce76",
+  "author_date": "2025-12-07T21:31:48+00:00",
+  "subject": "Merge pull request #1211 from tempertemper/feature/sponsorship-page",
+  "files_changed": [
+   ".changelog",
+   "package-lock.json",
+   "package.json",
+   "src/site/_data/site.js",
+   "src/site/_includes/footer.html",
+   "src/site/feeds/atom.html",
+   "src/site/feeds/feeds.json",
+   "src/site/feeds/json.html"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "b5672e2aa78439625a451865bb4b7c7407aa9665",
+  "author_date": "2025-12-09T15:58:37+00:00",
+  "subject": "Merge pull request #1212 from tempertemper/feature/logo-strapline-bigger",
+  "files_changed": [
+   ".changelog",
+   "src/site/_includes/svg/logo-smaller.svg",
+   "src/site/_includes/svg/logo.svg"
+  ],
+  "page_touching": false
+ },
+ {
+  "sha": "4836984599da37a19fa6c5f7dad80b3f19c42e8d",
+  "author_date": "2025-12-16T11:04:34+00:00",
+  "subject": "Merge pull request #1213 from tempertemper/feature/sponsorship-page",
+  "files_changed": [
+   ".changelog",
+   ".vscode/settings.json",
+   "package-lock.json",
+   "package.json",
+   "src/site/_data/site.js"
+  ],
+  "page_touching": false
+ },
+ {
+  "sha": "6be9f0eca82a9a42bb4f6805ba4e834ddde0d281",
+  "author_date": "2025-12-23T09:01:29+00:00",
+  "subject": "Merge pull request #1215 from tempertemper/feature/speaking-page",
+  "files_changed": [
+   ".changelog",
+   ".sublime-project.json",
+   "eleventy/index.js",
+   "package-lock.json",
+   "package.json",
+   "scripts/sync-site-version.js",
+   "src/css/base/_details-summary.scss",
+   "src/css/base/_forms.scss",
+   "src/css/base/_images.scss",
+   "src/css/base/_reset.scss",
+   "src/css/base/_utility--critical.scss",
+   "src/css/base/_utility--non-critical.scss",
+   "...in-underhill-tempertemper--square-1024x1024.jpg",
+   "src/site/_includes/call-to-action.html",
+   "src/site/_includes/footer.html",
+   "src/site/_includes/head.html",
+   "src/site/about.md",
+   "...a-community-in-north-east-england-and-beyond.md",
+   "...ibility-awareness-at-sage-five-years-of-gaad.md",
+   "src/site/newsletter/2020-08-06.md",
+   ".../2018-12-13--leaving-the-frontend-ne-meet-up.md",
+   ".../2019-01-02--a-new-years-resolution-for-2019.md",
+   "src/site/posts/2019-04-10--keep-on-learning.md",
+   ".../2020-06-30--front-end-frontend-or-front-end.md",
+   ".../2020-07-13--frontend-ne-draws-to-a-close.md",
+   "...2013-01-30--how-can-twitter-help-my-business.md",
+   "src/site/speaking/index.md",
+   "src/site/speaking/speaking.json",
+   ".sublime-project => tempertemper.sublime-project"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "cb728ae4072dbde01b2b7a3d0136f93cb20e4d2e",
+  "author_date": "2025-12-24T11:22:27+00:00",
+  "subject": "Merge pull request #1216 from tempertemper/content/empathy-labs",
+  "files_changed": [
+   ".changelog",
+   "package-lock.json",
+   "package.json",
+   "src/site/_includes/call-to-action.html",
+   "src/site/services/training.md"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "5acf2eca847bdab59b45b8002d3acf68e61e5306",
+  "author_date": "2025-12-26T13:37:49+00:00",
+  "subject": "Merge pull request #1217 from tempertemper/feature/sponsors-page",
+  "files_changed": [
+   ".changelog",
+   "eleventy/filters.js",
+   "package-lock.json",
+   "package.json",
+   "src/site/_includes/call-to-action.html",
+   "src/site/_includes/footer.html",
+   "src/site/_includes/header.html",
+   "src/site/sponsors.md"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "60daa0f6308837bc5f34d5e522354a5cb148f956",
+  "author_date": "2025-12-29T14:36:07+00:00",
+  "subject": "Merge pull request #1218 from tempertemper/post/html5-headings",
+  "files_changed": [
+   "...al-nail-in-the-html5-document-outline-coffin.md"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "0e0d679ee6a3d60d249f41d94e52c32af0305464",
+  "author_date": "2025-12-30T17:51:46+00:00",
+  "subject": "Merge pull request #1219 from tempertemper/feature/sponsorship-infrastructure",
+  "files_changed": [
+   ".changelog",
+   ".gitignore",
+   "eleventy/build.js",
+   "package-lock.json",
+   "package.json",
+   "src/css/admin/_mixins--typography.scss",
+   "src/css/base/_details-summary.scss",
+   "src/css/sponsor.scss",
+   "src/img/sponsors/example-corp.png",
+   "src/img/sponsors/preview--blog-list.avif",
+   "src/img/sponsors/preview--blog-list.png",
+   "src/img/sponsors/preview--blog-list.webp",
+   "src/img/sponsors/preview--blog-post.avif",
+   "src/img/sponsors/preview--blog-post.png",
+   "src/img/sponsors/preview--blog-post.webp",
+   "src/img/sponsors/preview--email.avif",
+   "src/img/sponsors/preview--email.png",
+   "src/img/sponsors/preview--email.webp",
+   "src/site/_data/site.js",
+   "src/site/_includes/head.html",
+   "src/site/_includes/pagination.html",
+   "src/site/_includes/sponsor.html",
+   "src/site/_layouts/article.html",
+   "src/site/_layouts/default.html",
+   "src/site/_layouts/newsletter.html",
+   "src/site/feeds/atom.html",
+   "src/site/feeds/json.html",
+   "src/site/newsletter/2035-11-30.md",
+   "src/site/posts/index.html",
+   "src/site/sponsors.md"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "2cda2bdda6b7cca5c7d5c169eda1f7e867e0f236",
+  "author_date": "2025-12-31T10:49:48+00:00",
+  "subject": "Merge pull request #1222 from tempertemper/newsletter/december-2025",
+  "files_changed": [
+   ".../newsletter/{2035-11-30.md => 2025-11-30.md}",
+   "src/site/newsletter/2025-12-31.md"
+  ],
+  "page_touching": true
+ }
+]

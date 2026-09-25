@@ -1,0 +1,704 @@
+[
+ {
+  "sha": "0021db21a50eb72d2c216d93ff09ad2d832bd507",
+  "author_date": "2025-04-19T20:59:18+09:00",
+  "subject": "DJControl Mix Ultra",
+  "files_changed": [
+   "_posts/2025/2025-04-19-DJControlMixUltra.md",
+   "wp-content/uploads/2025/04/19-1745061533.png",
+   "wp-content/uploads/2025/04/19-1745062209.png",
+   "wp-content/uploads/2025/04/19-1745063096.png",
+   ".../uploads/2025/04/DJControl_Mix_Ultra_mac.jpeg",
+   ".../2025/04/DJControl_Mix_Ultra_optimized.mp4",
+   "wp-content/uploads/2025/04/IMG_7376_optimized.jpg",
+   "wp-content/uploads/2025/04/IMG_7377_optimized.jpg",
+   ".../uploads/2025/04/djcontrol-mix-ultra-2.jpg",
+   "wp-content/uploads/2025/04/ultra-case.jpeg"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "6496d9a6b6016a05b966ba1dc4201df84bf978d7",
+  "author_date": "2025-04-19T21:01:43+09:00",
+  "subject": "Update _posts/2025/2025-04-19-DJControlMixUltra.md+2",
+  "files_changed": [
+   "_posts/2025/2025-04-19-DJControlMixUltra.md",
+   ".../uploads/2025/04/DJControl_Mix_Ultra_mac.jpeg",
+   ".../uploads/2025/04/DJControl_Mix_Ultra_mac.jpg"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "47a0e2069fb2c9ce460ec96a8949cfc26c49649e",
+  "author_date": "2025-04-19T21:23:47+09:00",
+  "subject": "Update _posts/2025/2025-04-19-DJControlMixUltra.md",
+  "files_changed": [
+   "_posts/2025/2025-04-19-DJControlMixUltra.md"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "e7b79906331a75597e2400872545e97f11baf267",
+  "author_date": "2025-04-19T21:27:39+09:00",
+  "subject": "Update _posts/2025/2025-04-19-DJControlMixUltra.md",
+  "files_changed": [
+   "_posts/2025/2025-04-19-DJControlMixUltra.md"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "2de120b26441219b4878ea56d885e3cb4f5677ef",
+  "author_date": "2025-04-20T08:26:05+09:00",
+  "subject": "Update 2025-04-19-DJControlMixUltra.md",
+  "files_changed": [
+   "_posts/2025/2025-04-19-DJControlMixUltra.md"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "617bc97249b5a31358f5c5b746070600da6c88e6",
+  "author_date": "2025-04-20T09:45:43+09:00",
+  "subject": "Update _posts/2025/2025-04-19-DJControlMixUltra.md",
+  "files_changed": [
+   "_posts/2025/2025-04-19-DJControlMixUltra.md"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "7b1af6c262204494a5b3052fa62dbf648364ce34",
+  "author_date": "2025-04-20T10:25:18+09:00",
+  "subject": "Update _posts/2025/2025-04-19-DJControlMixUltra.md",
+  "files_changed": [
+   "_posts/2025/2025-04-19-DJControlMixUltra.md"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "43e937f001429902d9d11f9f608e34537d10f991",
+  "author_date": "2025-04-20T10:50:15+09:00",
+  "subject": "Update 2025-04-19-DJControlMixUltra.md",
+  "files_changed": [
+   "_posts/2025/2025-04-19-DJControlMixUltra.md"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "f4710c2d20f6e727519d25c9dcc5787af388718b",
+  "author_date": "2025-04-25T12:52:35+09:00",
+  "subject": "JavaScript Primer\u306eES2025\u5bfe\u5fdc\u306e\u52df\u96c6\u8a18\u4e8b (#221)",
+  "files_changed": [
+   "_posts/2025/2025-04-25-jsprimer-es2025-proposal.md"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "2cc795eb7a63436c86da6ee07a131dbb080103f7",
+  "author_date": "2025-04-28T23:05:36+09:00",
+  "subject": "fix link",
+  "files_changed": [
+   "_posts/2025/2025-04-25-jsprimer-es2025-proposal.md"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "2a655f54993a927189e9a8d15a1ea8d47cd996cf",
+  "author_date": "2025-05-07T12:50:38+09:00",
+  "subject": "Update 2025-04-25-jsprimer-es2025-proposal.md",
+  "files_changed": [
+   "_posts/2025/2025-04-25-jsprimer-es2025-proposal.md"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "bddeea9ff892e721066b82052c0517cf87c15d7c",
+  "author_date": "2025-05-09T21:56:27+09:00",
+  "subject": "Update 2025-04-25-jsprimer-es2025-proposal.md",
+  "files_changed": [
+   "_posts/2025/2025-04-25-jsprimer-es2025-proposal.md"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "7eb256534f3ba22435f58167bd1ba9f11e8ec356",
+  "author_date": "2025-05-24T21:44:25+09:00",
+  "subject": "tskaigi",
+  "files_changed": [
+   "_posts/2025/2025-05-24-tskaigi-2025-jsprimer.md",
+   "wp-content/uploads/2025/05/24-1748090468.png"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "1ba0f643d038b3b6b49aff8633f6c5c42c536b34",
+  "author_date": "2025-05-24T21:47:13+09:00",
+  "subject": "Update _posts/2025/2025-05-24-tskaigi-2025-jsprimer.md",
+  "files_changed": [
+   "_posts/2025/2025-05-24-tskaigi-2025-jsprimer.md"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "8a7bc9cef47c76d3d6df8ae4d773b78302145f8a",
+  "author_date": "2025-05-24T23:15:29+09:00",
+  "subject": "Update _posts/2025/2025-05-24-tskaigi-2025-jsprimer.md",
+  "files_changed": [
+   "_posts/2025/2025-05-24-tskaigi-2025-jsprimer.md"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "0ff1e447b34fcc538dcfbdfd496898b35d26c60c",
+  "author_date": "2025-05-25T09:09:57+09:00",
+  "subject": "Update 2025-05-24-tskaigi-2025-jsprimer.md",
+  "files_changed": [
+   "_posts/2025/2025-05-24-tskaigi-2025-jsprimer.md"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "864bc8eea5b5749403ba3b1b01c34934277819dc",
+  "author_date": "2025-05-25T09:12:39+09:00",
+  "subject": "Update 2025-05-24-tskaigi-2025-jsprimer.md",
+  "files_changed": [
+   "_posts/2025/2025-05-24-tskaigi-2025-jsprimer.md"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "e6349233791ff4d71278ab985243b20e2019c6b3",
+  "author_date": "2025-05-25T09:34:13+09:00",
+  "subject": "Update 2025-05-24-tskaigi-2025-jsprimer.md",
+  "files_changed": [
+   "_posts/2025/2025-05-24-tskaigi-2025-jsprimer.md"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "8e33233408382077e82d70d83d7b99acdb5815a2",
+  "author_date": "2025-06-07T09:09:44+09:00",
+  "subject": "Update 2025-05-24-tskaigi-2025-jsprimer.md",
+  "files_changed": [
+   "_posts/2025/2025-05-24-tskaigi-2025-jsprimer.md"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "5b7e05a0175b5c89cbf56b483d02e1b22bc7c05b",
+  "author_date": "2025-06-07T18:59:36+09:00",
+  "subject": "Add _posts/2025/2025-06-07-jsprimer-notebooklm.md",
+  "files_changed": [
+   "_posts/2025/2025-06-07-jsprimer-notebooklm.md"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "a537c26a1f85f917ed253ed64b4e33a8fa5c99e7",
+  "author_date": "2025-06-08T13:19:29+09:00",
+  "subject": "Update 2025-06-07-jsprimer-notebooklm.md",
+  "files_changed": [
+   "_posts/2025/2025-06-07-jsprimer-notebooklm.md"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "d944db735efb3853717a8aaa542267f49228b71f",
+  "author_date": "2025-06-08T14:02:55+09:00",
+  "subject": "Update 2025-06-07-jsprimer-notebooklm.md",
+  "files_changed": [
+   "_posts/2025/2025-06-07-jsprimer-notebooklm.md"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "9773e962b8ec49f59bd0674651d2f5fa0660ddb7",
+  "author_date": "2025-06-09T20:48:08+09:00",
+  "subject": "Update 2025-06-07-jsprimer-notebooklm.md",
+  "files_changed": [
+   "_posts/2025/2025-06-07-jsprimer-notebooklm.md"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "c89360a105d8fd26ae260964a982d99e002fc106",
+  "author_date": "2025-06-09T22:34:08+09:00",
+  "subject": "Update 2025-06-07-jsprimer-notebooklm.md",
+  "files_changed": [
+   "_posts/2025/2025-06-07-jsprimer-notebooklm.md"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "6f78f7825fd9f470b608d7055d62d3463703226e",
+  "author_date": "2025-06-10T09:00:29+09:00",
+  "subject": "textlint --mcp",
+  "files_changed": [
+   "_posts/2025/2025-06-10-textlint-mcp.md",
+   "package.json",
+   "yarn.lock"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "c380fc74d84055be767ad3ba5970abfc2f68b03c",
+  "author_date": "2025-06-10T09:05:17+09:00",
+  "subject": "docs(textlint): MCP\u30b5\u30dd\u30fc\u30c8\u306b\u95a2\u3059\u308b\u30c9\u30ad\u30e5\u30e1\u30f3\u30c8\u3092\u4fee\u6b63 - MCP\u306e\u8aac\u660e\u3092\u660e\u78ba\u306b\u3057\u3001\u30aa\u30fc\u30d7\u30f3\u30b9\u30bf\u30f3\u30c0\u30fc\u30c9\u304b\u3089\u30d7\u30ed\u30c8\u30b3\u30eb\u306b\u5909\u66f4 - \u524d\u63d0\u6761\u4ef6\u306e\u8868\u73fe\u3092\u7d71\u4e00",
+  "files_changed": [
+   "_posts/2025/2025-06-10-textlint-mcp.md"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "0bcd3282b58ac9781ce19f675c5fd1fc25e67562",
+  "author_date": "2025-06-10T09:15:27+09:00",
+  "subject": "Update _posts/2025/2025-06-10-textlint-mcp.md+1",
+  "files_changed": [
+   "_posts/2025/2025-06-10-textlint-mcp.md",
+   "wp-content/uploads/2025/06/10-1749514447.png"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "b7093d5e92258065b427b4c903b6b6b267792fce",
+  "author_date": "2025-06-10T09:18:08+09:00",
+  "subject": "docs(textlint): MCP\u30b5\u30fc\u30d0\u30fc\u8a2d\u5b9a\u306e\u30b5\u30f3\u30d7\u30eb\u30ea\u30dd\u30b8\u30c8\u30ea\u3092\u8ffd\u52a0 - VSCode\u3067\u306etextlint MCP\u30b5\u30fc\u30d0\u30fc\u8a2d\u5b9a\u306b\u95a2\u3059\u308b\u30b5\u30f3\u30d7\u30eb\u30ea\u30dd\u30b8\u30c8\u30ea\u3092\u7d39\u4ecb - \u5177\u4f53\u7684\u306a\u30af\u30ed\u30fc\u30f3\u624b\u9806\u3092\u8a18\u8f09",
+  "files_changed": [
+   "_posts/2025/2025-06-10-textlint-mcp.md"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "a56e9759a69c2dff40f3d04101d9702d59bfe3b4",
+  "author_date": "2025-06-10T09:18:50+09:00",
+  "subject": "Update _posts/2025/2025-06-10-textlint-mcp.md",
+  "files_changed": [
+   "_posts/2025/2025-06-10-textlint-mcp.md"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "eb0a23fbef3a8300fe7c242caa0001d08bb966cf",
+  "author_date": "2025-06-10T09:20:54+09:00",
+  "subject": "Update 2025-06-10-textlint-mcp.md",
+  "files_changed": [
+   "_posts/2025/2025-06-10-textlint-mcp.md"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "0d287a739d95e48fe3ce72c87b4500655da47cbe",
+  "author_date": "2025-06-10T09:21:12+09:00",
+  "subject": "Update 2025-06-10-textlint-mcp.md",
+  "files_changed": [
+   "_posts/2025/2025-06-10-textlint-mcp.md"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "48f0ab26eb7ba4ebcde0327e1bfa243dac5a6975",
+  "author_date": "2025-06-10T09:24:43+09:00",
+  "subject": "style(textlint-mcp): \u30b3\u30fc\u30c9\u30d6\u30ed\u30c3\u30af\u306e\u8a00\u8a9e\u6307\u5b9a\u3092\u8ffd\u52a0",
+  "files_changed": [
+   "_posts/2025/2025-06-10-textlint-mcp.md"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "8fbf498f4055652220c3b88241c6d07e31f0883e",
+  "author_date": "2025-06-10T09:26:06+09:00",
+  "subject": "Update _posts/2025/2025-06-10-textlint-mcp.md",
+  "files_changed": [
+   "_posts/2025/2025-06-10-textlint-mcp.md"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "593d317ee46e8315a9331edd1bc3416d4aa317c8",
+  "author_date": "2025-06-10T09:44:29+09:00",
+  "subject": "Update 2025-06-10-textlint-mcp.md",
+  "files_changed": [
+   "_posts/2025/2025-06-10-textlint-mcp.md"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "94911eabb47b333fc2701303a75f6daaa669b822",
+  "author_date": "2025-06-15T08:22:46+09:00",
+  "subject": "feat(secretlint): Secretlint v10.0.0\u30ea\u30ea\u30fc\u30b9 - \u30c7\u30d5\u30a9\u30eb\u30c8\u3067\u30b7\u30fc\u30af\u30ec\u30c3\u30c8\u3092\u30de\u30b9\u30af\u8868\u793a\u3001Node.js 20+\u30b5\u30dd\u30fc\u30c8",
+  "files_changed": [
+   "_posts/2025/2025-06-15-secretlint-v10.md"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "8087feef6d2f72ae9f431a05d9eda182bc07d473",
+  "author_date": "2025-06-15T08:23:11+09:00",
+  "subject": "Update _posts/2025/2025-06-15-secretlint-v10.md",
+  "files_changed": [
+   "_posts/2025/2025-06-15-secretlint-v10.md"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "744428916a73a795e32a0593c058f405c47b46d9",
+  "author_date": "2025-06-15T08:23:17+09:00",
+  "subject": "Update _posts/2025/2025-06-15-secretlint-v10.md",
+  "files_changed": [
+   "_posts/2025/2025-06-15-secretlint-v10.md"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "889a2a8426afa2bcb3353104ed0e4036187a98ed",
+  "author_date": "2025-06-15T09:01:31+09:00",
+  "subject": "fix(secretlint): \u8aac\u660e\u6587\u3092\u4fee\u6b63 - \u6a5f\u5bc6\u60c5\u5831\u3092\u691c\u51fa\u3059\u308bCLI\u3068\u3057\u3066\u660e\u78ba\u5316",
+  "files_changed": [
+   "_posts/2025/2025-06-15-secretlint-v10.md"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "17a357f6bb99c8c553168fadf0c442ec345b8325",
+  "author_date": "2025-06-15T09:01:55+09:00",
+  "subject": "fix(secretlint): \u8aac\u660e\u6587\u3092\u4fee\u6b63 - \u5b9f\u969b\u306e\u30b7\u30fc\u30af\u30ec\u30c3\u30c8\u5024\u78ba\u8a8d\u306e\u30aa\u30d7\u30b7\u30e7\u30f3\u306b\u3064\u3044\u3066\u660e\u78ba\u5316",
+  "files_changed": [
+   "_posts/2025/2025-06-15-secretlint-v10.md"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "307729a526590d15319267f2b8b1dc4d13ef2d94",
+  "author_date": "2025-06-15T09:05:29+09:00",
+  "subject": "fix(secretlint): \u30bb\u30af\u30b7\u30e7\u30f3\u30bf\u30a4\u30c8\u30eb\u3092\u4fee\u6b63 - \u30c7\u30d5\u30a9\u30eb\u30c8\u3067\u30de\u30b9\u30af\u3059\u308b\u7406\u7531\u306b\u3064\u3044\u3066\u306e\u660e\u78ba\u5316",
+  "files_changed": [
+   "_posts/2025/2025-06-15-secretlint-v10.md"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "32547f9dd2b27dfdf454f0bcbd1ad03a74b4c969",
+  "author_date": "2025-06-15T09:08:24+09:00",
+  "subject": "fix(secretlint): \u8aac\u660e\u6587\u3092\u4fee\u6b63 - \u30c4\u30fc\u30eb\u306e\u4f7f\u308f\u308c\u65b9\u306e\u5909\u5316\u306b\u3064\u3044\u3066\u306e\u660e\u78ba\u5316",
+  "files_changed": [
+   "_posts/2025/2025-06-15-secretlint-v10.md"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "e4c1f0e78129d0080a4bae0273e79a39c703aaaa",
+  "author_date": "2025-06-15T09:08:53+09:00",
+  "subject": "fix(secretlint): \u8aac\u660e\u6587\u3092\u4fee\u6b63 - \u30b7\u30fc\u30af\u30ec\u30c3\u30c8\u6f0f\u6d29\u306e\u30ea\u30b9\u30af\u3092\u660e\u78ba\u5316",
+  "files_changed": [
+   "_posts/2025/2025-06-15-secretlint-v10.md"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "1909cd06334e8f3064f1d1cc82c05e7de4490c42",
+  "author_date": "2025-06-25T09:19:41+09:00",
+  "subject": "feat(textlint): textlint v15.0.0\u3092\u30ea\u30ea\u30fc\u30b9 - \u975e\u63a8\u5968API\u306e\u524a\u9664\u3068Node.js 20+\u30b5\u30dd\u30fc\u30c8\u306e\u8ffd\u52a0",
+  "files_changed": [
+   "_posts/2025/2025-06-25-textlint-v15.md",
+   "package.json",
+   "yarn.lock"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "c3e0857c84ea91ea8caee5d2d8e8cb7fc9914f0a",
+  "author_date": "2025-06-25T09:22:31+09:00",
+  "subject": "update",
+  "files_changed": [
+   "_posts/2025/2025-06-25-textlint-v15.md"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "6a97513c4ded6902029c344235d798ef52d7c1cf",
+  "author_date": "2025-06-25T09:29:02+09:00",
+  "subject": "fix(textlint): `.textlintignore`\u306e\u7d76\u5bfe\u30d1\u30b9\u51e6\u7406\u306b\u95a2\u3059\u308b\u8aac\u660e\u3092\u660e\u78ba\u5316",
+  "files_changed": [
+   "_posts/2025/2025-06-25-textlint-v15.md"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "4e6e03e73c90a0390ca52396fc0d074c97a99439",
+  "author_date": "2025-07-02T22:24:28+09:00",
+  "subject": "Update 2024-03-15-kagi-search.md (#222)",
+  "files_changed": [
+   "_posts/2024/2024-03-15-kagi-search.md"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "f395cb31de8f1a8a8ead5ab738884dacd9815bd1",
+  "author_date": "2025-07-05T18:33:00+09:00",
+  "subject": "confirm-pam (#223)",
+  "files_changed": [
+   ".node-version",
+   ".textlintrc",
+   ".textlintrc.json",
+   "_posts/2025/2025-07-05-confirm-pam.md",
+   "package.json",
+   "wp-content/uploads/2025/07/05-1751706673.png",
+   "wp-content/uploads/2025/07/05-1751706845.png",
+   "yarn.lock"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "45c777e9e551eb98fd1cfe6cb64144912fe09db5",
+  "author_date": "2025-07-05T18:38:29+09:00",
+  "subject": "Implement code changes to enhance functionality and improve performance",
+  "files_changed": [
+   "_posts/2025/2025-07-05-confirm-pam.md",
+   "wp-content/uploads/2025/07/05-1751708268.png"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "b6cf90678cd6bc661c01e566ec301c5ad7b033ce",
+  "author_date": "2025-07-05T18:38:41+09:00",
+  "subject": "fix: \u753b\u50cf\u306e\u4f4d\u7f6e\u3092\u4fee\u6b63\u3057\u3001AI Agent\u306e\u8aac\u660e\u3092\u660e\u78ba\u5316",
+  "files_changed": [
+   "_posts/2025/2025-07-05-confirm-pam.md"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "71ba46f5474a038b943ff8f7055ef9a8aae4cf31",
+  "author_date": "2025-07-05T18:41:32+09:00",
+  "subject": "Implement code changes to enhance functionality and improve performance",
+  "files_changed": [
+   "_posts/2025/2025-07-05-confirm-pam.md",
+   "wp-content/uploads/2025/07/confirm-pam.jpeg"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "29f37d0f44fc2691378767c56d47c8061b5506f1",
+  "author_date": "2025-07-06T12:14:55+09:00",
+  "subject": "Update yarn.lock",
+  "files_changed": [
+   "yarn.lock"
+  ],
+  "page_touching": false
+ },
+ {
+  "sha": "6c5ac71ca281e345f40027f4327f8edc8e9d4d39",
+  "author_date": "2025-08-12T00:21:41+09:00",
+  "subject": "Update 2021-08-21-git-precommit-hook.md",
+  "files_changed": [
+   "_posts/2021/2021-08-21-git-precommit-hook.md"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "78167fb9ea489f3e89c1b171cbb011608632c47e",
+  "author_date": "2025-08-18T15:03:54+09:00",
+  "subject": "jsprimer v7 (#224)",
+  "files_changed": [
+   ".textlintrc.json",
+   "_posts/2025/2025-08-18-jsprimer-v7.md",
+   "package-lock.json",
+   "package.json",
+   "yarn.lock"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "d9d1b4522a5dd28b77935c2ad336c4111f544d48",
+  "author_date": "2025-08-18T15:09:14+09:00",
+  "subject": "Update 2025-08-18-jsprimer-v7.md",
+  "files_changed": [
+   "_posts/2025/2025-08-18-jsprimer-v7.md"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "89219d2f17f277e4ae387163082a986a7352c114",
+  "author_date": "2025-08-18T20:21:39+09:00",
+  "subject": "Update 2025-05-24-tskaigi-2025-jsprimer.md",
+  "files_changed": [
+   "_posts/2025/2025-05-24-tskaigi-2025-jsprimer.md"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "7bf4db9a33175eb8a9ba3cfaec2b426598e62841",
+  "author_date": "2025-08-18T23:50:42+09:00",
+  "subject": "Update 2025-08-18-jsprimer-v7.md",
+  "files_changed": [
+   "_posts/2025/2025-08-18-jsprimer-v7.md"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "914ae9efce6e237fc2b22ec21935bd41d6243ec8",
+  "author_date": "2025-09-07T17:48:25+09:00",
+  "subject": "npm trusted publish + OIDC (#226)",
+  "files_changed": [
+   "_posts/2025/2025-09-07-npm-oidc.md",
+   "wp-content/uploads/2025/09/07-1757215895.png",
+   "wp-content/uploads/2025/09/07-1757218982.png",
+   "wp-content/uploads/2025/09/07-1757219036.png",
+   "wp-content/uploads/2025/09/07-1757219102.png",
+   "wp-content/uploads/2025/09/07-1757229112.png",
+   "wp-content/uploads/2025/09/07-1757229121.png"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "ddcbe52860beaa8b3405a3ecbe61f754ea2a5b1b",
+  "author_date": "2025-09-07T18:01:35+09:00",
+  "subject": "Update 2025-09-07-npm-oidc.md",
+  "files_changed": [
+   "_posts/2025/2025-09-07-npm-oidc.md"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "267bbda79e3efea0df0046c16ab305020e4b60dc",
+  "author_date": "2025-09-07T18:06:49+09:00",
+  "subject": "Update 2025-09-07-npm-oidc.md",
+  "files_changed": [
+   "_posts/2025/2025-09-07-npm-oidc.md"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "4142ed6eca825e09ac6a46b4bdb9ca458acb9e33",
+  "author_date": "2025-09-07T19:02:26+09:00",
+  "subject": "Update 2021-07-21-update-github-actions-permissions.md",
+  "files_changed": [
+   "_posts/2021/2021-07-21-update-github-actions-permissions.md"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "3f82d595b368f2d6ad714271a167577737a6f861",
+  "author_date": "2025-09-07T19:10:03+09:00",
+  "subject": "monorepo\u5411\u3051\u306eOIDC\u8a2d\u5b9a\u306b\u95a2\u3059\u308b\u60c5\u5831\u3092\u8ffd\u52a0\u3057\u3001\u672a\u8a2d\u5b9a\u30d1\u30c3\u30b1\u30fc\u30b8\u3092\u691c\u51fa\u3059\u308b\u30ef\u30fc\u30af\u30d5\u30ed\u30fc\u3092\u5c0e\u5165",
+  "files_changed": [
+   "_posts/2025/2025-09-07-npm-oidc.md"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "e204d3540d721a9b3c6dda3305857ef313d676c8",
+  "author_date": "2025-09-08T08:19:36+09:00",
+  "subject": "Update 2025-09-07-npm-oidc.md",
+  "files_changed": [
+   "_posts/2025/2025-09-07-npm-oidc.md"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "1f73088cbeb2988ab49e7e129d101575bf1ca066",
+  "author_date": "2025-09-08T09:11:09+09:00",
+  "subject": "fix: Jekyll Liquid\u30c6\u30f3\u30d7\u30ec\u30fc\u30c8\u3068\u306e\u7af6\u5408\u3092\u56de\u907f\u3059\u308b\u305f\u3081raw\u30bf\u30b0\u3092\u8ffd\u52a0",
+  "files_changed": [
+   "_posts/2025/2025-09-07-npm-oidc.md"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "2fdb17d98d594754f6dc097530a754dd3131f888",
+  "author_date": "2025-09-08T09:16:19+09:00",
+  "subject": "feat: render_with_liquid: false\u3092Front Matter\u306b\u8ffd\u52a0",
+  "files_changed": [
+   "_posts/2025/2025-09-07-npm-oidc.md"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "e52bda1e828e68a973ee51ed34aa4fe42488d29d",
+  "author_date": "2025-09-08T09:19:11+09:00",
+  "subject": "fix: render_with_liquid: false\u3092\u4f7f\u7528\u3059\u308b\u305f\u3081raw\u30bf\u30b0\u3092\u524a\u9664",
+  "files_changed": [
+   "_posts/2025/2025-09-07-npm-oidc.md"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "8ada33788a472b15b4072f1c1158a9d311e5f4cc",
+  "author_date": "2025-09-08T09:22:05+09:00",
+  "subject": "refactor: monorepo\u30b3\u30de\u30f3\u30c9\u306e\u5bfe\u5fdc\u8868\u3092\u8ffd\u52a0\u3057\u3066\u53ef\u8aad\u6027\u3092\u5411\u4e0a",
+  "files_changed": [
+   "_posts/2025/2025-09-07-npm-oidc.md"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "cbc8b6205c8b166d9234292edc9f47a9db02256a",
+  "author_date": "2025-09-08T09:26:18+09:00",
+  "subject": "refactor: \u91cd\u8907\u3057\u305f\u8aac\u660e\u3092\u524a\u9664\u3057\u3066\u7c21\u6f54\u306b\u4fee\u6b63",
+  "files_changed": [
+   "_posts/2025/2025-09-07-npm-oidc.md"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "fc0dfe3485992ac063e64d43e58f2417b2b84bb2",
+  "author_date": "2025-09-08T09:26:41+09:00",
+  "subject": "feat: provenance\u30ef\u30fc\u30af\u30d5\u30ed\u30fc\u3078\u306e\u76f4\u63a5\u30ea\u30f3\u30af\u3092\u8ffd\u52a0",
+  "files_changed": [
+   "_posts/2025/2025-09-07-npm-oidc.md"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "ee755b0fde6c08e343276c45d9a8e3e4de578542",
+  "author_date": "2025-09-08T10:53:52+09:00",
+  "subject": "Update 2025-09-07-npm-oidc.md",
+  "files_changed": [
+   "_posts/2025/2025-09-07-npm-oidc.md"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "a83144a481989768b0ac4072b46cd6f9921549ad",
+  "author_date": "2025-09-08T14:02:54+09:00",
+  "subject": "Update 2025-09-07-npm-oidc.md",
+  "files_changed": [
+   "_posts/2025/2025-09-07-npm-oidc.md"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "2d3b3eda7c5303d699710c6f58bf0722e5de12a4",
+  "author_date": "2025-09-08T22:57:47+09:00",
+  "subject": "Update 2025-09-07-npm-oidc.md",
+  "files_changed": [
+   "_posts/2025/2025-09-07-npm-oidc.md"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "fe82cfb9add1b61ce2958d3f79037175102fa79d",
+  "author_date": "2025-09-09T14:03:50+09:00",
+  "subject": "Update 2025-09-07-npm-oidc.md",
+  "files_changed": [
+   "_posts/2025/2025-09-07-npm-oidc.md"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "ddbc4f8b2470b52bfff83b1f9a63899df35092fd",
+  "author_date": "2025-09-09T14:05:36+09:00",
+  "subject": "Update MFA security discussion in npm documentation",
+  "files_changed": [
+   "_posts/2025/2025-09-07-npm-oidc.md"
+  ],
+  "page_touching": true
+ },
+ {
+  "sha": "ef5717299a895401388a1c880bf6b313a7ed227e",
+  "author_date": "2025-09-23T21:16:13+09:00",
+  "subject": "Update 2025-09-07-npm-oidc.md",
+  "files_changed": [
+   "_posts/2025/2025-09-07-npm-oidc.md"
+  ],
+  "page_touching": true
+ }
+]

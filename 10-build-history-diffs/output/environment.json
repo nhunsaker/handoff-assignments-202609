@@ -1,0 +1,17 @@
+{
+  "corepack": "available inside fnm node bin dirs; used as `corepack pnpm@<ver>` / `corepack yarn` per commit",
+  "date": "2026-09-25",
+  "disk_free_gb": 35,
+  "git": "2.43.0",
+  "html_parser": "Python lxml (lxml.html) \u2014 used in Phase 4",
+  "node_release_index": "https://nodejs.org/download/release/index.json, 868 releases, fetched 2026-09-24; used to resolve the newest release satisfying a range at each commit date",
+  "node_resolution_rule": "newest installed LTS-line (even major) release satisfying the declared range with release date <= commit date; never the lowest. Rungs: declared (engines/.nvmrc/.node-version) -> lockfile_version -> latest_lts_at_commit_date",
+  "node_switching": "fnm 1.39.0, installed v11-v26",
+  "npm_repair": "8 fnm node installs had a clobbered npm 8.19.4 (the contamination found in 08's session); replaced lib/node_modules/npm with the correct bundled tarballs: v18.20.8->10.8.2, v20.19.5->10.8.2, v21.6.2->10.2.4, v22.9.0->10.8.3, v22.14.0->10.9.2, v22.22.2->10.9.4, v24.13.0->11.6.2, v24.16.0->11.6.2. v16.20.2 ships 8.19.4 legitimately, left alone.",
+  "package_managers": "npm (bundled per node), pnpm via corepack (lockfileVersion 6.x -> pnpm@8.15.9, 9.x -> pnpm@10.7.0, matching 08), yarn via corepack, bundler for Ruby",
+  "registries": {
+    "https://registry.npmjs.org/": "HTTP/1.1 200 OK",
+    "https://rubygems.org/": "HTTP/1.1 200 OK"
+  },
+  "ruby": "3.2.2 via rbenv (built from source 2026-09-25; no system ruby present). ruby -v -> ruby 3.2.2 (2023-03-30 revision e51014f9c0) [x86_64-linux]; psych OK (libyaml-dev 0.2.5-1build1 installed from Ubuntu noble archive; system apt update was hung so the .deb was installed directly). bundler 4.0.21 (default) + 2.4.12 (efcl BUNDLED WITH)."
+}

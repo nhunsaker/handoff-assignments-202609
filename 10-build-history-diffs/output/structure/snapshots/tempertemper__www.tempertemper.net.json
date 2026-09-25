@@ -1,0 +1,25 @@
+{
+ "inserts": 1,
+ "removals": 1,
+ "budget_used_bytes": 124592,
+ "examples": [
+  {
+   "kind": "removal",
+   "pair": [
+    "c12d97cdbd8e4fcac10c964a7eb06f45e18c68fb",
+    "4f1deb1e25dc89c070cdf0f5c23b96fe2b7b3f41"
+   ],
+   "page": "category/skills.html",
+   "dir": "snapshots/tempertemper__www.tempertemper.net/c12d97cdbd8e__4f1deb1e25dc"
+  },
+  {
+   "kind": "insert",
+   "pair": [
+    "c12d97cdbd8e4fcac10c964a7eb06f45e18c68fb",
+    "4f1deb1e25dc89c070cdf0f5c23b96fe2b7b3f41"
+   ],
+   "page": "skills/accessibility.html",
+   "dir": "snapshots/tempertemper__www.tempertemper.net/c12d97cdbd8e__4f1deb1e25dc"
+  }
+ ]
+}

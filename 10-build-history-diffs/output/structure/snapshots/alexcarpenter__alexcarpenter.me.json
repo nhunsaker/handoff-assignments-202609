@@ -1,0 +1,25 @@
+{
+ "inserts": 1,
+ "removals": 1,
+ "budget_used_bytes": 270456,
+ "examples": [
+  {
+   "kind": "removal",
+   "pair": [
+    "744e94b897c1762dff55fbbf2a8f9bd8d4c38cb3",
+    "af0b7eb85dc5984c447373ffee4ae6099f2b671f"
+   ],
+   "page": "index.html",
+   "dir": "snapshots/alexcarpenter__alexcarpenter.me/744e94b897c1__af0b7eb85dc5"
+  },
+  {
+   "kind": "insert",
+   "pair": [
+    "af0b7eb85dc5984c447373ffee4ae6099f2b671f",
+    "717c243e633f0cebaf681929309046c1531664fb"
+   ],
+   "page": "index.html",
+   "dir": "snapshots/alexcarpenter__alexcarpenter.me/af0b7eb85dc5__717c243e633f"
+  }
+ ]
+}
