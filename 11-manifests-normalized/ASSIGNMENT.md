@@ -73,6 +73,14 @@ output/
                                            snapshot count and MB, anything unexpected
 ```
 
+## Check-ins and review
+
+This assignment follows the repository's **check-in, self-check and review protocol** (README, "Check-ins,
+self-check and review"): push `output/` at every phase boundary and at least every 2 hours with an updated
+`PROGRESS.md`; before the final commit, append the return manifest and re-derive every `summary.json` number from
+the returned files; after the final commit, watch for `REVIEW.md` with `status: corrections_requested` and address
+every numbered item in a new commit.
+
 ## Rules
 - **Never report a hash you did not compute from a file on disk**, or a build you did not run.
 - **Write each manifest as its commit finishes.** Partial work must come back.
