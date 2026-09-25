@@ -1,5 +1,7 @@
 # Assignment 14: which element keys survive a list insertion — measured over 300 real events
 
+**Phase:** P1 (see the README's phase tags)
+
 Budget **12–16 hours**. An element in a page can be named many ways: by its position (`li:nth-of-type(7)`), by its
 `id`, by its classes, by its text, by its attributes, by its ancestors. When a new item is inserted into a list,
 every positional name below it points at a different element. Assignment 10 found thousands of such insertions in

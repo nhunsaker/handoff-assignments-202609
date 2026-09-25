@@ -1,5 +1,7 @@
 # Assignment 21: verify the CSS layout-propagation reference by measurement, in three engines
 
+**Phase:** P3 (see the README's phase tags)
+
 Budget **14–18 hours**. Assignment 03 produced a structured reference of which CSS property changes move which
 elements, and what stops the movement, **derived from the specifications**. Nothing in it has been measured. This
 assignment turns every row of that reference into an executable test, renders it before and after the change in

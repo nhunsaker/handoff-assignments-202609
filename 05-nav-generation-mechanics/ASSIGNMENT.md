@@ -1,5 +1,7 @@
 # Assignment 05: how static-site frameworks turn page metadata into navigation
 
+**Phase:** P3 (see the README's phase tags)
+
 Budget **12 hours**. Slow, careful work; every claim verified by running a build, not by reading
 about one.
 

@@ -1,5 +1,7 @@
 # Assignment 19: how text length turns into height — measured tables for real fonts
 
+**Phase:** P1 · P3 (see the README's phase tags)
+
 Budget **12–16 hours**. When text gets longer, the element gets taller, in steps of one line. Exactly when it steps
 depends on the font, the size, the width, the line-height, hyphenation and wrapping rules. This assignment measures
 those steps directly, for the fonts the three corpus sites actually use and for the system fonts, and returns the

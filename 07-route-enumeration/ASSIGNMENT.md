@@ -1,5 +1,7 @@
 # Assignment 07: count a site's pages correctly, then re-probe two repositories where the count broke
 
+**Phase:** P1 (see the README's phase tags)
+
 Budget **8–12 hours**. Two halves: a per-framework rule that is verified rather than guessed,
 then applying it to fix a result from Assignment 04 that was wrong because the counting was.
 

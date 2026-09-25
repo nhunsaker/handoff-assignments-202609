@@ -1,5 +1,7 @@
 # Assignment 18: what a content edit does to the geometry of a real page
 
+**Phase:** P1 · P3 (see the README's phase tags)
+
 Budget **14–18 hours**. Assignment 21 measures single CSS changes on minimal pages. This one measures **content
 edits on real built pages**: insert a list item, remove one, lengthen a heading, add a paragraph, add an image — the
 edits a site's history is made of — and records exactly which elements moved, by how much, how far the effect

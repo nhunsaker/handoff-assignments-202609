@@ -1,5 +1,7 @@
 # Assignment 17: how much a site's built output depends on the toolchain version
 
+**Phase:** P1 · P2 (see the README's phase tags)
+
 Budget **12–16 hours**. Assignments 02 and 10 built old commits under a **date-matched** toolchain (the framework
 and Node version current at the commit's date). That is slow to set up. If building under today's versions gives the
 same pages, the date-matching is wasted effort; if it gives different pages, the differences matter. This assignment

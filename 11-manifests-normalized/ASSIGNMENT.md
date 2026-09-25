@@ -1,5 +1,7 @@
 # Assignment 11: per-commit manifests for tempertemper, raw and normalized, plus insertion snapshots
 
+**Phase:** P1 (see the README's phase tags)
+
 Budget **2–4 hours**, mostly machine time. Assignment 10 did the hard part but two of its deliverables did not come
 back: the per-commit **manifests** (`manifests/<owner>__<repo>/<sha>.json`) were never written, and the before/after
 **HTML snapshots** were not returned (the summary says the 120 MB budget was used; on disk it is 124,592 bytes, two

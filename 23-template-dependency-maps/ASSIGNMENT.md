@@ -1,5 +1,7 @@
 # Assignment 23: which pages each template, layout and partial reaches — mapped and checked against history
 
+**Phase:** P3 (see the README's phase tags)
+
 Budget **12–16 hours**. In a static site, one layout or partial (a header, a post card, a footer, a pagination
 control) is rendered into many pages. Editing it changes all of them. This assignment maps every template to the
 pages it reaches, from the built output, for the three corpus sites — and then checks the map against the real

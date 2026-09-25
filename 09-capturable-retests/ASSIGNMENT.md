@@ -1,5 +1,7 @@
 # Assignment 09: re-test three repositories from assignment 08
 
+**Phase:** P1 · P2 (see the README's phase tags)
+
 Budget **2–4 hours**. Assignment 08 probed 20 repositories. Three of them did not get a fair verdict: one because
 of a toolchain choice, two because the environment failed. Re-test exactly these three, at **the same eight
 commits 08 used**, and give each a verdict.

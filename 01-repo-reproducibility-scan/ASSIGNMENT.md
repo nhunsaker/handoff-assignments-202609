@@ -1,5 +1,7 @@
 # Research task: find 100 front-end repositories that can be built repeatedly across their own history
 
+**Phase:** P2 (see the README's phase tags)
+
 You are screening public GitHub repositories. Work entirely from the public web and from
 `git` and `npm`/`pnpm` on your own machine. Nothing will be uploaded to you and you need no
 files from me. Budget roughly 5 to 7 hours.

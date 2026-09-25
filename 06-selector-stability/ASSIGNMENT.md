@@ -1,5 +1,7 @@
 # Assignment 06: which element selectors survive a site's own commits?
 
+**Phase:** P1 (see the README's phase tags)
+
 Budget **8–12 hours**. This is a measurement study over real commit history. It needs `git`,
 Node, an HTML parser from npm (`cheerio` or `jsdom`), and patience. No browser.
 

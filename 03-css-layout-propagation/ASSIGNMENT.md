@@ -1,5 +1,7 @@
 # Research task: build a reference table of CSS layout propagation semantics
 
+**Phase:** P3 (see the README's phase tags)
+
 You are compiling a structured reference from the CSS specifications. Work entirely from public
 specs on the web. Nothing will be uploaded to you and you need no files from me. Budget 6 hours.
 

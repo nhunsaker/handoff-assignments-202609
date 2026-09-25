@@ -1,5 +1,7 @@
 # Assignment 04: full build manifests for five repositories
 
+**Phase:** P2 (see the README's phase tags)
+
 Budget **12 hours**. This is slow, mechanical work and that is the point — it is the kind of
 thing worth doing once, carefully, so nobody has to do it again.
 

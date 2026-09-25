@@ -1,5 +1,7 @@
 # Assignment 22: every CSS change in three sites' histories, at the declaration level
 
+**Phase:** P2 · P3 (see the README's phase tags)
+
 Budget **12–16 hours**. Assignment 10 recorded which commits changed a stylesheet. This assignment records **what**
 changed: every added, removed and modified declaration in the **built** CSS between consecutive commits, with its
 selector and property, classified by kind — and pairs it with the pages whose bodies changed in the same commit.

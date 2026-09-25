@@ -1,5 +1,7 @@
 # Assignment 08: find sites that can actually be captured, not merely built
 
+**Phase:** P1 · P2 (see the README's phase tags)
+
 Budget **10–14 hours**. Four previous scans found repositories that build and then turned out to
 be useless for a different reason each time. This one screens for the properties that actually
 matter, in the order that kills candidates fastest.

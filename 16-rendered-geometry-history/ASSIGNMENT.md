@@ -1,5 +1,7 @@
 # Assignment 16: the rendered geometry of every changed page across tempertemper's history
 
+**Phase:** P1 (see the README's phase tags)
+
 Budget **16–24 hours**. Assignments 10 and 11 give, for each of tempertemper's 102 commits, which built pages
 changed. This assignment **renders** each changed page at each commit and records the geometry of every element,
 so that the history can be read as "what moved, commit by commit" rather than "what markup changed".

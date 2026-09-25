@@ -1,5 +1,7 @@
 # Assignment 20: how list pages are built and what a new post does to them, across 30 real sites
 
+**Phase:** P2 · P3 (see the README's phase tags)
+
 Budget **12–16 hours**. A content site's list pages (post index, tag pages, archives, paginated lists) are where a
 new post shows up without anyone editing that page. This assignment documents, for 30 real sites, how those pages
 are put together in the built output and — by building two real commits where a post was added — exactly what the

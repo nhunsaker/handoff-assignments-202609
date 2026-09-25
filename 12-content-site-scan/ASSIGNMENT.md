@@ -1,5 +1,7 @@
 # Assignment 12: find content sites with index pages, whose history builds reproducibly
 
+**Phase:** P1 · P2 (see the README's phase tags)
+
 Budget **16–24 hours**. The biggest assignment in this repo. Assignment 08 screened 150 repositories and found one
 site that clears every bar (three once the build-time limit was dropped, a fourth in 09). This scan uses everything
 the last five scans learned to find **ten or more**, and adds two filters none of them had.

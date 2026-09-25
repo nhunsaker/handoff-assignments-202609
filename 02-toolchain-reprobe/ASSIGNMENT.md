@@ -1,5 +1,7 @@
 # Research task: re-probe 41 repositories with a date-matched toolchain
 
+**Phase:** P2 (see the README's phase tags)
+
 You are re-testing 41 GitHub repositories that a previous scan marked "broken". Budget 5 to 7
 hours. Nothing will be uploaded to you; everything you need is below or on the public web.
 

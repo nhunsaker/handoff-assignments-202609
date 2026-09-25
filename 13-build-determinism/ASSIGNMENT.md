@@ -1,5 +1,7 @@
 # Assignment 13: what makes a static build non-deterministic, and which normalizations are safe
 
+**Phase:** P1 · P2 (see the README's phase tags)
+
 Budget **12–18 hours**. When the same commit of a static site is built twice, the output is often not byte-identical.
 Assignment 10 found one cause the hard way: a build-time millisecond timestamp in a cache-busting query string
 (`non-critical.css?v=1790336771992`) that made every page of one site differ on every build. There are many other

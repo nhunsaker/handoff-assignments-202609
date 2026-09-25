@@ -1,5 +1,7 @@
 # Assignment 15: how much of a page's geometry depends on fonts, images, scripts and third parties
 
+**Phase:** P1 · P4 (see the README's phase tags)
+
 Budget **12–16 hours**. The same HTML and CSS can render differently depending on whether a web font loaded, whether
 an image had known dimensions, whether a script ran, and whether a third-party embed answered. This assignment
 measures those dependencies on 40 real pages, and separately measures how much two identical renders differ from
