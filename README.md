@@ -22,6 +22,9 @@ public web or in public git repositories.
 | `07-route-enumeration/` | A verified per-framework rule for counting a site's pages in build output (ten frameworks, each checked against a second source of truth), applied to fix Assignment 04's counts, then a recent-window re-probe of the two repositories whose 04 windows were five years old | 8–12 h |
 | `09-capturable-retests/` | Re-test **three repositories from 08** at the same commits: one killed by a Node 20.0.0 toolchain choice, two by network failures. The 90-second build limit is dropped | 2-4 h |
 | `10-build-history-diffs/` | Build **every first-parent commit** of the three sites 08 found capturable (455 commits), hash every built page, and record per commit which pages changed and how their HTML structure changed (sibling-group insertions/removals, text-only, attribute-only), with before/after snapshots | 14-20 h |
+| `11-manifests-normalized/` | Re-run the missing **per-commit manifests** for tempertemper's 102 commits with a raw, a normalized and a `<body>` hash per page, targeted insertion snapshots, and a determinism control | 2-4 h |
+| `12-content-site-scan/` | **300-candidate scan for content sites with index pages** whose history builds reproducibly: static-output, index-page and build-time-network screens before any build, new-post commits in the window, and a rebuild comparison | 16-24 h |
+| `13-build-determinism/` | Build three commits of twelve sites **four times each** (baseline, repeat, other timezone/locale, fresh install), classify every output difference by cause, and **test normalization rules both ways**: noise removed and real changes kept | 12-18 h |
 
 Assignments 01-03 are independent. **04 builds on 01 and 02** — it takes their survivors and probes every commit rather than a sample. **05 is independent.** **06 and 07 both build on 04** — they use its buildable-commit lists and its toolchain ladder. 07 also uses 05's starters. Do 04 before either.
 
