@@ -31,10 +31,10 @@ mapping instead, or mark it `unmapped` with the reason.
 
 From `10-build-history-diffs/output/pairs/<site>.json`: every pair whose `source_files_changed` includes at least one
 template or data file from Phase 0 **and no content file** (no `*.md`, no `content/`, no `_posts/`, no `src/pages/**`
-content). For each such pair, the predicted set = union of the pages mapped to the changed templates (at the map's
-commit; note when the template did not exist yet). The actual set = pages whose `<body>` changed per 10's
-`structure/` rows (plus pages whose inline `<style>` changed, listed separately). Report, per pair: predicted,
-actual, `actual − predicted` (pages the map missed), `predicted − actual` (pages that did not change although mapped),
+content). For each such pair, the mapped set = union of the pages mapped to the changed templates (at the map's
+commit; note when the template did not exist yet). The changed set = pages whose `<body>` changed per 10's
+`structure/` rows (plus pages whose inline `<style>` changed, listed separately). Report, per pair: mapped,
+changed, `changed − mapped` (pages the map missed), `mapped − changed` (pages that did not change although mapped),
 and — for each missed page — the reason if you can find it by looking at the diff of that page (quote it).
 
 `history/<site>.json`.
@@ -61,6 +61,6 @@ every numbered item in a new commit.
 
 ## Rules
 - **Every mapping comes from a build you ran with a marker**, not from reading the templates.
-- **`predicted − actual` is a finding, not a defect to hide** — report it with the pages.
+- **`mapped − changed` is a finding, not a defect to hide** — report it with the pages.
 - **`summary.json` must be recomputable from the other files.**
 - Write files as sites finish. No analysis or recommendations. Return the files.
