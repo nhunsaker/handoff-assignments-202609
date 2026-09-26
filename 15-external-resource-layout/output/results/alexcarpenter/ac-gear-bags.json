@@ -1,0 +1,175 @@
+{
+ "site": "alexcarpenter",
+ "page": "ac-gear-bags",
+ "url": "file:///home/hatch/workspace/a15-work/builds/alexcarpenter/dist/gear/bags/index.html",
+ "render_ok": true,
+ "C0": {
+  "element_count": 101,
+  "doc_height": 1164,
+  "requests_total": 4,
+  "fonts_check": {
+   "body_font_family": "\"Geist Sans\", ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+   "check_16px": true
+  },
+  "images": {
+   "total": 0,
+   "with_wh": 0,
+   "without_wh": 0
+  },
+  "iframes": []
+ },
+ "conditions": {
+  "C1": {
+   "render_ok": true,
+   "requests_total": 4,
+   "requests_aborted": 1,
+   "aborted_by_rule": {
+    "font": 1
+   },
+   "fonts_check": {
+    "body_font_family": "\"Geist Sans\", ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+    "check_16px": true
+   },
+   "elements_differ": 0,
+   "elements_compared": 101,
+   "max_abs_dy": 0.0,
+   "doc_height_C0": 1164,
+   "doc_height_Cx": 1164,
+   "doc_height_delta": 0,
+   "first_differing": null,
+   "only_in_C0": 0,
+   "only_in_Cx": 0,
+   "text_dh": {
+    "n_text_elements": 32,
+    "n_nonzero_dh": 0,
+    "min": 0,
+    "max": 0,
+    "median": 0.0,
+    "mean": 0.0,
+    "values_sorted": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   }
+  },
+  "C2": {
+   "render_ok": true,
+   "requests_total": 4,
+   "requests_aborted": 0,
+   "aborted_by_rule": {},
+   "fonts_check": {
+    "body_font_family": "\"Geist Sans\", ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+    "check_16px": true
+   },
+   "elements_differ": 0,
+   "elements_compared": 101,
+   "max_abs_dy": 0.0,
+   "doc_height_C0": 1164,
+   "doc_height_Cx": 1164,
+   "doc_height_delta": 0,
+   "first_differing": null,
+   "only_in_C0": 0,
+   "only_in_Cx": 0
+  },
+  "C3": {
+   "render_ok": true,
+   "requests_total": 4,
+   "requests_aborted": 0,
+   "aborted_by_rule": {},
+   "fonts_check": {
+    "body_font_family": "\"Geist Sans\", ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+    "check_16px": true
+   },
+   "elements_differ": 0,
+   "elements_compared": 101,
+   "max_abs_dy": 0.0,
+   "doc_height_C0": 1164,
+   "doc_height_Cx": 1164,
+   "doc_height_delta": 0,
+   "first_differing": null,
+   "only_in_C0": 0,
+   "only_in_Cx": 0
+  },
+  "C4": {
+   "render_ok": true,
+   "requests_total": 4,
+   "requests_aborted": 0,
+   "aborted_by_rule": {},
+   "fonts_check": {
+    "body_font_family": "\"Geist Sans\", ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+    "check_16px": true
+   },
+   "elements_differ": 0,
+   "elements_compared": 101,
+   "max_abs_dy": 0.0,
+   "doc_height_C0": 1164,
+   "doc_height_Cx": 1164,
+   "doc_height_delta": 0,
+   "first_differing": null,
+   "only_in_C0": 0,
+   "only_in_Cx": 0
+  },
+  "C5": {
+   "render_ok": true,
+   "requests_total": 4,
+   "requests_aborted": 1,
+   "aborted_by_rule": {
+    "font": 1
+   },
+   "fonts_check": {
+    "body_font_family": "\"Geist Sans\", ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+    "check_16px": true
+   },
+   "elements_differ": 0,
+   "elements_compared": 101,
+   "max_abs_dy": 0.0,
+   "doc_height_C0": 1164,
+   "doc_height_Cx": 1164,
+   "doc_height_delta": 0,
+   "first_differing": null,
+   "only_in_C0": 0,
+   "only_in_Cx": 0
+  }
+ },
+ "jitter": {
+  "runs": [
+   "C0",
+   "R1",
+   "R2",
+   "R3",
+   "R4",
+   "R5"
+  ],
+  "differing_elements": []
+ }
+}

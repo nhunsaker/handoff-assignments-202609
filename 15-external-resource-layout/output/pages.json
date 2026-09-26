@@ -1,0 +1,1143 @@
+{
+ "n_pages": 50,
+ "page_count_note": "50 = 40 main-site pages (tempertemper 14, efcl 13, alexcarpenter 13) + 10 third-party-embed pages (beeps.website 3, cubxxw/blog 7). The assignment intro says 40 but the phase-2 spec requires 40+10=50.",
+ "missing_kinds": {
+  "efcl": "no year-archive output found in _site; tags/index.html and categories/index.html used as the two tag/category pages",
+  "alexcarpenter": "no tag/category or year-archive outputs found in dist/; gear/coffee and gear/bags (gear subcategory indexes) used as the two category pages"
+ },
+ "rejected_candidates": {
+  "bobmonsour/11tybundle.dev": "build requires author-local /Users/Bob/Dropbox/... data files (genuine build failure); has lite-youtube embeds but not buildable here"
+ },
+ "pages": [
+  {
+   "site": "alexcarpenter",
+   "page_id": "ac-changelog",
+   "kind": "extra",
+   "relpath": "changelog/index.html",
+   "url": "file:///home/hatch/workspace/a15-work/builds/alexcarpenter/dist/changelog/index.html",
+   "repo": "alexcarpenter/alexcarpenter.me",
+   "commit": "4c5da684256c327fef8c0207d2dee3175f6c3dfd",
+   "conditions": [
+    "C0",
+    "C1",
+    "C2",
+    "C3",
+    "C4",
+    "C5",
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5"
+   ]
+  },
+  {
+   "site": "alexcarpenter",
+   "page_id": "ac-demo",
+   "kind": "extra",
+   "relpath": "demos/bg-repeat-round/index.html",
+   "url": "file:///home/hatch/workspace/a15-work/builds/alexcarpenter/dist/demos/bg-repeat-round/index.html",
+   "repo": "alexcarpenter/alexcarpenter.me",
+   "commit": "4c5da684256c327fef8c0207d2dee3175f6c3dfd",
+   "conditions": [
+    "C0",
+    "C1",
+    "C2",
+    "C3",
+    "C4",
+    "C5",
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5"
+   ]
+  },
+  {
+   "site": "alexcarpenter",
+   "page_id": "ac-gear-bags",
+   "kind": "category",
+   "relpath": "gear/bags/index.html",
+   "url": "file:///home/hatch/workspace/a15-work/builds/alexcarpenter/dist/gear/bags/index.html",
+   "repo": "alexcarpenter/alexcarpenter.me",
+   "commit": "4c5da684256c327fef8c0207d2dee3175f6c3dfd",
+   "conditions": [
+    "C0",
+    "C1",
+    "C2",
+    "C3",
+    "C4",
+    "C5",
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5"
+   ]
+  },
+  {
+   "site": "alexcarpenter",
+   "page_id": "ac-gear-coffee",
+   "kind": "category",
+   "relpath": "gear/coffee/index.html",
+   "url": "file:///home/hatch/workspace/a15-work/builds/alexcarpenter/dist/gear/coffee/index.html",
+   "repo": "alexcarpenter/alexcarpenter.me",
+   "commit": "4c5da684256c327fef8c0207d2dee3175f6c3dfd",
+   "conditions": [
+    "C0",
+    "C1",
+    "C2",
+    "C3",
+    "C4",
+    "C5",
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5"
+   ]
+  },
+  {
+   "site": "alexcarpenter",
+   "page_id": "ac-home",
+   "kind": "home",
+   "relpath": "index.html",
+   "url": "file:///home/hatch/workspace/a15-work/builds/alexcarpenter/dist/index.html",
+   "repo": "alexcarpenter/alexcarpenter.me",
+   "commit": "4c5da684256c327fef8c0207d2dee3175f6c3dfd",
+   "conditions": [
+    "C0",
+    "C1",
+    "C2",
+    "C3",
+    "C4",
+    "C5",
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5"
+   ]
+  },
+  {
+   "site": "alexcarpenter",
+   "page_id": "ac-micah",
+   "kind": "extra",
+   "relpath": "micah/index.html",
+   "url": "file:///home/hatch/workspace/a15-work/builds/alexcarpenter/dist/micah/index.html",
+   "repo": "alexcarpenter/alexcarpenter.me",
+   "commit": "4c5da684256c327fef8c0207d2dee3175f6c3dfd",
+   "conditions": [
+    "C0",
+    "C1",
+    "C2",
+    "C3",
+    "C4",
+    "C5",
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5"
+   ]
+  },
+  {
+   "site": "alexcarpenter",
+   "page_id": "ac-note-1",
+   "kind": "post",
+   "relpath": "notes/2025-09-19-1/index.html",
+   "url": "file:///home/hatch/workspace/a15-work/builds/alexcarpenter/dist/notes/2025-09-19-1/index.html",
+   "repo": "alexcarpenter/alexcarpenter.me",
+   "commit": "4c5da684256c327fef8c0207d2dee3175f6c3dfd",
+   "conditions": [
+    "C0",
+    "C1",
+    "C2",
+    "C3",
+    "C4",
+    "C5",
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5"
+   ]
+  },
+  {
+   "site": "alexcarpenter",
+   "page_id": "ac-note-2",
+   "kind": "post",
+   "relpath": "notes/2025-09-12-1/index.html",
+   "url": "file:///home/hatch/workspace/a15-work/builds/alexcarpenter/dist/notes/2025-09-12-1/index.html",
+   "repo": "alexcarpenter/alexcarpenter.me",
+   "commit": "4c5da684256c327fef8c0207d2dee3175f6c3dfd",
+   "conditions": [
+    "C0",
+    "C1",
+    "C2",
+    "C3",
+    "C4",
+    "C5",
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5"
+   ]
+  },
+  {
+   "site": "alexcarpenter",
+   "page_id": "ac-note-3",
+   "kind": "post",
+   "relpath": "notes/2025-09-06-1/index.html",
+   "url": "file:///home/hatch/workspace/a15-work/builds/alexcarpenter/dist/notes/2025-09-06-1/index.html",
+   "repo": "alexcarpenter/alexcarpenter.me",
+   "commit": "4c5da684256c327fef8c0207d2dee3175f6c3dfd",
+   "conditions": [
+    "C0",
+    "C1",
+    "C2",
+    "C3",
+    "C4",
+    "C5",
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5"
+   ]
+  },
+  {
+   "site": "alexcarpenter",
+   "page_id": "ac-note-4",
+   "kind": "post",
+   "relpath": "notes/2025-09-05-2/index.html",
+   "url": "file:///home/hatch/workspace/a15-work/builds/alexcarpenter/dist/notes/2025-09-05-2/index.html",
+   "repo": "alexcarpenter/alexcarpenter.me",
+   "commit": "4c5da684256c327fef8c0207d2dee3175f6c3dfd",
+   "conditions": [
+    "C0",
+    "C1",
+    "C2",
+    "C3",
+    "C4",
+    "C5",
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5"
+   ]
+  },
+  {
+   "site": "alexcarpenter",
+   "page_id": "ac-note-5",
+   "kind": "post",
+   "relpath": "notes/2025-09-05-1/index.html",
+   "url": "file:///home/hatch/workspace/a15-work/builds/alexcarpenter/dist/notes/2025-09-05-1/index.html",
+   "repo": "alexcarpenter/alexcarpenter.me",
+   "commit": "4c5da684256c327fef8c0207d2dee3175f6c3dfd",
+   "conditions": [
+    "C0",
+    "C1",
+    "C2",
+    "C3",
+    "C4",
+    "C5",
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5"
+   ]
+  },
+  {
+   "site": "alexcarpenter",
+   "page_id": "ac-notes-index",
+   "kind": "post_index",
+   "relpath": "notes/index.html",
+   "url": "file:///home/hatch/workspace/a15-work/builds/alexcarpenter/dist/notes/index.html",
+   "repo": "alexcarpenter/alexcarpenter.me",
+   "commit": "4c5da684256c327fef8c0207d2dee3175f6c3dfd",
+   "conditions": [
+    "C0",
+    "C1",
+    "C2",
+    "C3",
+    "C4",
+    "C5",
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5"
+   ]
+  },
+  {
+   "site": "alexcarpenter",
+   "page_id": "ac-rolodex",
+   "kind": "extra",
+   "relpath": "rolodex/index.html",
+   "url": "file:///home/hatch/workspace/a15-work/builds/alexcarpenter/dist/rolodex/index.html",
+   "repo": "alexcarpenter/alexcarpenter.me",
+   "commit": "4c5da684256c327fef8c0207d2dee3175f6c3dfd",
+   "conditions": [
+    "C0",
+    "C1",
+    "C2",
+    "C3",
+    "C4",
+    "C5",
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5"
+   ]
+  },
+  {
+   "site": "beeps",
+   "page_id": "beeps-yt-1",
+   "kind": "third_party_embed",
+   "relpath": "blog/2023-02-01-writing-and-reconnection-january/index.html",
+   "url": "file:///home/hatch/workspace/13-scratch/querkmachine__beeps.website/keep/74dc73cd551a/b1-site/blog/2023-02-01-writing-and-reconnection-january/index.html",
+   "repo": "querkmachine/beeps.website",
+   "commit": "74dc73cd551a",
+   "conditions": [
+    "C0",
+    "C1",
+    "C2",
+    "C3",
+    "C4",
+    "C5",
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5"
+   ],
+   "third_party_embeds": [
+    "<iframe width=\"500\" height=\"281\" src=\"https://www.youtube-nocookie.com/embed/NVGuFdX5guE\" title=\"CGP Grey video explaining how the theme system works\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen>"
+   ]
+  },
+  {
+   "site": "beeps",
+   "page_id": "beeps-yt-2",
+   "kind": "third_party_embed",
+   "relpath": "blog/2023-05-01-writing-and-reconnection-april/index.html",
+   "url": "file:///home/hatch/workspace/13-scratch/querkmachine__beeps.website/keep/74dc73cd551a/b1-site/blog/2023-05-01-writing-and-reconnection-april/index.html",
+   "repo": "querkmachine/beeps.website",
+   "commit": "74dc73cd551a",
+   "conditions": [
+    "C0",
+    "C1",
+    "C2",
+    "C3",
+    "C4",
+    "C5",
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5"
+   ],
+   "third_party_embeds": [
+    "<iframe width=\"500\" height=\"500\" src=\"https://www.youtube-nocookie.com/embed/WzZaJDg6E0A\" title=\"'First of May' by Jonathan Coulton\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen>"
+   ]
+  },
+  {
+   "site": "beeps",
+   "page_id": "beeps-yt-3",
+   "kind": "third_party_embed",
+   "relpath": "blog/2024-01-23-the-changelog-mastodon-opengraph-third-party-code/index.html",
+   "url": "file:///home/hatch/workspace/13-scratch/querkmachine__beeps.website/keep/74dc73cd551a/b1-site/blog/2024-01-23-the-changelog-mastodon-opengraph-third-party-code/index.html",
+   "repo": "querkmachine/beeps.website",
+   "commit": "74dc73cd551a",
+   "conditions": [
+    "C0",
+    "C1",
+    "C2",
+    "C3",
+    "C4",
+    "C5",
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5"
+   ],
+   "third_party_embeds": [
+    "<iframe width=\"500\" height=\"375\" src=\"https://www.youtube-nocookie.com/embed/2J5tjfqbWkA\" title=\"Poptart, a video by the comedy trio Balloon Shop, where rapid editing cuts are used to make the characters speak and dance in a purposefully disjointed and surreal manner. It's very inspirational.\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-p"
+   ]
+  },
+  {
+   "site": "cubxxw",
+   "page_id": "cubxxw-post-1",
+   "kind": "third_party_embed",
+   "relpath": "growth/posts/2023-annual-summary-reflections-and-aspirations/index.html",
+   "url": "file:///home/hatch/workspace/13-scratch/cubxxw__blog/kept/fed853722c17/b1/growth/posts/2023-annual-summary-reflections-and-aspirations/index.html",
+   "repo": "cubxxw/blog",
+   "commit": "fed853722c17",
+   "conditions": [
+    "C0",
+    "C1",
+    "C2",
+    "C3",
+    "C4",
+    "C5",
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5"
+   ],
+   "third_party_embeds": [
+    "<script src=https://utteranc.es/client.js repo=cubxxw/blog issue-term=pathname label=blog-comment theme=github-light crossorigin=anonymous async>"
+   ]
+  },
+  {
+   "site": "cubxxw",
+   "page_id": "cubxxw-post-2",
+   "kind": "third_party_embed",
+   "relpath": "growth/posts/2025-03-thought-notes/index.html",
+   "url": "file:///home/hatch/workspace/13-scratch/cubxxw__blog/kept/fed853722c17/b1/growth/posts/2025-03-thought-notes/index.html",
+   "repo": "cubxxw/blog",
+   "commit": "fed853722c17",
+   "conditions": [
+    "C0",
+    "C1",
+    "C2",
+    "C3",
+    "C4",
+    "C5",
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5"
+   ],
+   "third_party_embeds": [
+    "<script src=https://utteranc.es/client.js repo=cubxxw/blog issue-term=pathname label=blog-comment theme=github-light crossorigin=anonymous async>"
+   ]
+  },
+  {
+   "site": "cubxxw",
+   "page_id": "cubxxw-post-3",
+   "kind": "third_party_embed",
+   "relpath": "growth/posts/2024-annual-review/index.html",
+   "url": "file:///home/hatch/workspace/13-scratch/cubxxw__blog/kept/fed853722c17/b1/growth/posts/2024-annual-review/index.html",
+   "repo": "cubxxw/blog",
+   "commit": "fed853722c17",
+   "conditions": [
+    "C0",
+    "C1",
+    "C2",
+    "C3",
+    "C4",
+    "C5",
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5"
+   ],
+   "third_party_embeds": [
+    "<script src=https://utteranc.es/client.js repo=cubxxw/blog issue-term=pathname label=blog-comment theme=github-light crossorigin=anonymous async>"
+   ]
+  },
+  {
+   "site": "cubxxw",
+   "page_id": "cubxxw-post-4",
+   "kind": "third_party_embed",
+   "relpath": "growth/posts/2025-11-thought-notes/index.html",
+   "url": "file:///home/hatch/workspace/13-scratch/cubxxw__blog/kept/fed853722c17/b1/growth/posts/2025-11-thought-notes/index.html",
+   "repo": "cubxxw/blog",
+   "commit": "fed853722c17",
+   "conditions": [
+    "C0",
+    "C1",
+    "C2",
+    "C3",
+    "C4",
+    "C5",
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5"
+   ],
+   "third_party_embeds": [
+    "<script src=https://utteranc.es/client.js repo=cubxxw/blog issue-term=pathname label=blog-comment theme=github-light crossorigin=anonymous async>"
+   ]
+  },
+  {
+   "site": "cubxxw",
+   "page_id": "cubxxw-post-5",
+   "kind": "third_party_embed",
+   "relpath": "growth/posts/2025-annual-review/index.html",
+   "url": "file:///home/hatch/workspace/13-scratch/cubxxw__blog/kept/fed853722c17/b1/growth/posts/2025-annual-review/index.html",
+   "repo": "cubxxw/blog",
+   "commit": "fed853722c17",
+   "conditions": [
+    "C0",
+    "C1",
+    "C2",
+    "C3",
+    "C4",
+    "C5",
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5"
+   ],
+   "third_party_embeds": [
+    "<script src=https://utteranc.es/client.js repo=cubxxw/blog issue-term=pathname label=blog-comment theme=github-light crossorigin=anonymous async>"
+   ]
+  },
+  {
+   "site": "cubxxw",
+   "page_id": "cubxxw-post-6",
+   "kind": "third_party_embed",
+   "relpath": "growth/posts/2026-01-thought-notes/index.html",
+   "url": "file:///home/hatch/workspace/13-scratch/cubxxw__blog/kept/fed853722c17/b1/growth/posts/2026-01-thought-notes/index.html",
+   "repo": "cubxxw/blog",
+   "commit": "fed853722c17",
+   "conditions": [
+    "C0",
+    "C1",
+    "C2",
+    "C3",
+    "C4",
+    "C5",
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5"
+   ],
+   "third_party_embeds": [
+    "<script src=https://utteranc.es/client.js repo=cubxxw/blog issue-term=pathname label=blog-comment theme=github-light crossorigin=anonymous async>"
+   ]
+  },
+  {
+   "site": "cubxxw",
+   "page_id": "cubxxw-post-7",
+   "kind": "third_party_embed",
+   "relpath": "growth/posts/2025-12-thought-notes/index.html",
+   "url": "file:///home/hatch/workspace/13-scratch/cubxxw__blog/kept/fed853722c17/b1/growth/posts/2025-12-thought-notes/index.html",
+   "repo": "cubxxw/blog",
+   "commit": "fed853722c17",
+   "conditions": [
+    "C0",
+    "C1",
+    "C2",
+    "C3",
+    "C4",
+    "C5",
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5"
+   ],
+   "third_party_embeds": [
+    "<script src=https://utteranc.es/client.js repo=cubxxw/blog issue-term=pathname label=blog-comment theme=github-light crossorigin=anonymous async>"
+   ]
+  },
+  {
+   "site": "efcl",
+   "page_id": "efcl-about",
+   "kind": "extra",
+   "relpath": "about/index.html",
+   "url": "file:///home/hatch/workspace/a15-work/builds/efcl/_site/about/index.html",
+   "repo": "efcl/efcl.github.io",
+   "commit": "ef5717299a895401388a1c880bf6b313a7ed227e",
+   "conditions": [
+    "C0",
+    "C1",
+    "C2",
+    "C3",
+    "C4",
+    "C5",
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5"
+   ]
+  },
+  {
+   "site": "efcl",
+   "page_id": "efcl-categories",
+   "kind": "category",
+   "relpath": "categories/index.html",
+   "url": "file:///home/hatch/workspace/a15-work/builds/efcl/_site/categories/index.html",
+   "repo": "efcl/efcl.github.io",
+   "commit": "ef5717299a895401388a1c880bf6b313a7ed227e",
+   "conditions": [
+    "C0",
+    "C1",
+    "C2",
+    "C3",
+    "C4",
+    "C5",
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5"
+   ]
+  },
+  {
+   "site": "efcl",
+   "page_id": "efcl-home",
+   "kind": "home (doubles as post index: newest-first post list)",
+   "relpath": "index.html",
+   "url": "file:///home/hatch/workspace/a15-work/builds/efcl/_site/index.html",
+   "repo": "efcl/efcl.github.io",
+   "commit": "ef5717299a895401388a1c880bf6b313a7ed227e",
+   "conditions": [
+    "C0",
+    "C1",
+    "C2",
+    "C3",
+    "C4",
+    "C5",
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5"
+   ]
+  },
+  {
+   "site": "efcl",
+   "page_id": "efcl-page-10",
+   "kind": "extra (pagination)",
+   "relpath": "page/10/index.html",
+   "url": "file:///home/hatch/workspace/a15-work/builds/efcl/_site/page/10/index.html",
+   "repo": "efcl/efcl.github.io",
+   "commit": "ef5717299a895401388a1c880bf6b313a7ed227e",
+   "conditions": [
+    "C0",
+    "C1",
+    "C2",
+    "C3",
+    "C4",
+    "C5",
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5"
+   ]
+  },
+  {
+   "site": "efcl",
+   "page_id": "efcl-post-1",
+   "kind": "post",
+   "relpath": "2025/09/07/npm-oidc/index.html",
+   "url": "file:///home/hatch/workspace/a15-work/builds/efcl/_site/2025/09/07/npm-oidc/index.html",
+   "repo": "efcl/efcl.github.io",
+   "commit": "ef5717299a895401388a1c880bf6b313a7ed227e",
+   "conditions": [
+    "C0",
+    "C1",
+    "C2",
+    "C3",
+    "C4",
+    "C5",
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5"
+   ]
+  },
+  {
+   "site": "efcl",
+   "page_id": "efcl-post-2",
+   "kind": "post",
+   "relpath": "2025/08/18/jsprimer-v7/index.html",
+   "url": "file:///home/hatch/workspace/a15-work/builds/efcl/_site/2025/08/18/jsprimer-v7/index.html",
+   "repo": "efcl/efcl.github.io",
+   "commit": "ef5717299a895401388a1c880bf6b313a7ed227e",
+   "conditions": [
+    "C0",
+    "C1",
+    "C2",
+    "C3",
+    "C4",
+    "C5",
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5"
+   ]
+  },
+  {
+   "site": "efcl",
+   "page_id": "efcl-post-3",
+   "kind": "post",
+   "relpath": "2025/07/05/confirm-pam/index.html",
+   "url": "file:///home/hatch/workspace/a15-work/builds/efcl/_site/2025/07/05/confirm-pam/index.html",
+   "repo": "efcl/efcl.github.io",
+   "commit": "ef5717299a895401388a1c880bf6b313a7ed227e",
+   "conditions": [
+    "C0",
+    "C1",
+    "C2",
+    "C3",
+    "C4",
+    "C5",
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5"
+   ]
+  },
+  {
+   "site": "efcl",
+   "page_id": "efcl-post-4",
+   "kind": "post",
+   "relpath": "2025/06/25/textlint-v15/index.html",
+   "url": "file:///home/hatch/workspace/a15-work/builds/efcl/_site/2025/06/25/textlint-v15/index.html",
+   "repo": "efcl/efcl.github.io",
+   "commit": "ef5717299a895401388a1c880bf6b313a7ed227e",
+   "conditions": [
+    "C0",
+    "C1",
+    "C2",
+    "C3",
+    "C4",
+    "C5",
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5"
+   ]
+  },
+  {
+   "site": "efcl",
+   "page_id": "efcl-post-5",
+   "kind": "post",
+   "relpath": "2025/06/15/secretlint-v10/index.html",
+   "url": "file:///home/hatch/workspace/a15-work/builds/efcl/_site/2025/06/15/secretlint-v10/index.html",
+   "repo": "efcl/efcl.github.io",
+   "commit": "ef5717299a895401388a1c880bf6b313a7ed227e",
+   "conditions": [
+    "C0",
+    "C1",
+    "C2",
+    "C3",
+    "C4",
+    "C5",
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5"
+   ]
+  },
+  {
+   "site": "efcl",
+   "page_id": "efcl-post-6",
+   "kind": "post",
+   "relpath": "2025/06/10/textlint-mcp/index.html",
+   "url": "file:///home/hatch/workspace/a15-work/builds/efcl/_site/2025/06/10/textlint-mcp/index.html",
+   "repo": "efcl/efcl.github.io",
+   "commit": "ef5717299a895401388a1c880bf6b313a7ed227e",
+   "conditions": [
+    "C0",
+    "C1",
+    "C2",
+    "C3",
+    "C4",
+    "C5",
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5"
+   ]
+  },
+  {
+   "site": "efcl",
+   "page_id": "efcl-post-7",
+   "kind": "post",
+   "relpath": "2025/05/24/tskaigi-2025-jsprimer/index.html",
+   "url": "file:///home/hatch/workspace/a15-work/builds/efcl/_site/2025/05/24/tskaigi-2025-jsprimer/index.html",
+   "repo": "efcl/efcl.github.io",
+   "commit": "ef5717299a895401388a1c880bf6b313a7ed227e",
+   "conditions": [
+    "C0",
+    "C1",
+    "C2",
+    "C3",
+    "C4",
+    "C5",
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5"
+   ]
+  },
+  {
+   "site": "efcl",
+   "page_id": "efcl-post-8",
+   "kind": "post",
+   "relpath": "2025/04/25/jsprimer-es2025-proposal/index.html",
+   "url": "file:///home/hatch/workspace/a15-work/builds/efcl/_site/2025/04/25/jsprimer-es2025-proposal/index.html",
+   "repo": "efcl/efcl.github.io",
+   "commit": "ef5717299a895401388a1c880bf6b313a7ed227e",
+   "conditions": [
+    "C0",
+    "C1",
+    "C2",
+    "C3",
+    "C4",
+    "C5",
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5"
+   ]
+  },
+  {
+   "site": "efcl",
+   "page_id": "efcl-tags",
+   "kind": "tag",
+   "relpath": "tags/index.html",
+   "url": "file:///home/hatch/workspace/a15-work/builds/efcl/_site/tags/index.html",
+   "repo": "efcl/efcl.github.io",
+   "commit": "ef5717299a895401388a1c880bf6b313a7ed227e",
+   "conditions": [
+    "C0",
+    "C1",
+    "C2",
+    "C3",
+    "C4",
+    "C5",
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5"
+   ]
+  },
+  {
+   "site": "tempertemper",
+   "page_id": "tt-about",
+   "kind": "extra",
+   "relpath": "about.html",
+   "url": "file:///home/hatch/workspace/a15-work/builds/tempertemper/dist/about.html",
+   "repo": "tempertemper/www.tempertemper.net",
+   "commit": "2cda2bdda6b7cca5c7d5c169eda1f7e867e0f236",
+   "conditions": [
+    "C0",
+    "C1",
+    "C2",
+    "C3",
+    "C4",
+    "C5",
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5"
+   ]
+  },
+  {
+   "site": "tempertemper",
+   "page_id": "tt-blog-index",
+   "kind": "post_index",
+   "relpath": "blog/index.html",
+   "url": "file:///home/hatch/workspace/a15-work/builds/tempertemper/dist/blog/index.html",
+   "repo": "tempertemper/www.tempertemper.net",
+   "commit": "2cda2bdda6b7cca5c7d5c169eda1f7e867e0f236",
+   "conditions": [
+    "C0",
+    "C1",
+    "C2",
+    "C3",
+    "C4",
+    "C5",
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5"
+   ]
+  },
+  {
+   "site": "tempertemper",
+   "page_id": "tt-cat-accessibility",
+   "kind": "category",
+   "relpath": "category/accessibility.html",
+   "url": "file:///home/hatch/workspace/a15-work/builds/tempertemper/dist/category/accessibility.html",
+   "repo": "tempertemper/www.tempertemper.net",
+   "commit": "2cda2bdda6b7cca5c7d5c169eda1f7e867e0f236",
+   "conditions": [
+    "C0",
+    "C1",
+    "C2",
+    "C3",
+    "C4",
+    "C5",
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5"
+   ]
+  },
+  {
+   "site": "tempertemper",
+   "page_id": "tt-cat-apple",
+   "kind": "category",
+   "relpath": "category/apple.html",
+   "url": "file:///home/hatch/workspace/a15-work/builds/tempertemper/dist/category/apple.html",
+   "repo": "tempertemper/www.tempertemper.net",
+   "commit": "2cda2bdda6b7cca5c7d5c169eda1f7e867e0f236",
+   "conditions": [
+    "C0",
+    "C1",
+    "C2",
+    "C3",
+    "C4",
+    "C5",
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5"
+   ]
+  },
+  {
+   "site": "tempertemper",
+   "page_id": "tt-home",
+   "kind": "home",
+   "relpath": "index.html",
+   "url": "file:///home/hatch/workspace/a15-work/builds/tempertemper/dist/index.html",
+   "repo": "tempertemper/www.tempertemper.net",
+   "commit": "2cda2bdda6b7cca5c7d5c169eda1f7e867e0f236",
+   "conditions": [
+    "C0",
+    "C1",
+    "C2",
+    "C3",
+    "C4",
+    "C5",
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5"
+   ]
+  },
+  {
+   "site": "tempertemper",
+   "page_id": "tt-now",
+   "kind": "extra",
+   "relpath": "now.html",
+   "url": "file:///home/hatch/workspace/a15-work/builds/tempertemper/dist/now.html",
+   "repo": "tempertemper/www.tempertemper.net",
+   "commit": "2cda2bdda6b7cca5c7d5c169eda1f7e867e0f236",
+   "conditions": [
+    "C0",
+    "C1",
+    "C2",
+    "C3",
+    "C4",
+    "C5",
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5"
+   ]
+  },
+  {
+   "site": "tempertemper",
+   "page_id": "tt-post-1",
+   "kind": "post",
+   "relpath": "blog/the-final-nail-in-the-html5-document-outline-coffin.html",
+   "url": "file:///home/hatch/workspace/a15-work/builds/tempertemper/dist/blog/the-final-nail-in-the-html5-document-outline-coffin.html",
+   "repo": "tempertemper/www.tempertemper.net",
+   "commit": "2cda2bdda6b7cca5c7d5c169eda1f7e867e0f236",
+   "conditions": [
+    "C0",
+    "C1",
+    "C2",
+    "C3",
+    "C4",
+    "C5",
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5"
+   ]
+  },
+  {
+   "site": "tempertemper",
+   "page_id": "tt-post-2",
+   "kind": "post",
+   "relpath": "blog/should-pagination-take-you-to-a-new-page.html",
+   "url": "file:///home/hatch/workspace/a15-work/builds/tempertemper/dist/blog/should-pagination-take-you-to-a-new-page.html",
+   "repo": "tempertemper/www.tempertemper.net",
+   "commit": "2cda2bdda6b7cca5c7d5c169eda1f7e867e0f236",
+   "conditions": [
+    "C0",
+    "C1",
+    "C2",
+    "C3",
+    "C4",
+    "C5",
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5"
+   ]
+  },
+  {
+   "site": "tempertemper",
+   "page_id": "tt-post-3",
+   "kind": "post",
+   "relpath": "blog/an-accessible-pagination-pattern-or-two.html",
+   "url": "file:///home/hatch/workspace/a15-work/builds/tempertemper/dist/blog/an-accessible-pagination-pattern-or-two.html",
+   "repo": "tempertemper/www.tempertemper.net",
+   "commit": "2cda2bdda6b7cca5c7d5c169eda1f7e867e0f236",
+   "conditions": [
+    "C0",
+    "C1",
+    "C2",
+    "C3",
+    "C4",
+    "C5",
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5"
+   ]
+  },
+  {
+   "site": "tempertemper",
+   "page_id": "tt-post-4",
+   "kind": "post",
+   "relpath": "blog/the-return-of-the-heading-group.html",
+   "url": "file:///home/hatch/workspace/a15-work/builds/tempertemper/dist/blog/the-return-of-the-heading-group.html",
+   "repo": "tempertemper/www.tempertemper.net",
+   "commit": "2cda2bdda6b7cca5c7d5c169eda1f7e867e0f236",
+   "conditions": [
+    "C0",
+    "C1",
+    "C2",
+    "C3",
+    "C4",
+    "C5",
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5"
+   ]
+  },
+  {
+   "site": "tempertemper",
+   "page_id": "tt-post-5",
+   "kind": "post",
+   "relpath": "blog/a-big-thank-you-for-an-incredible-leaving-present.html",
+   "url": "file:///home/hatch/workspace/a15-work/builds/tempertemper/dist/blog/a-big-thank-you-for-an-incredible-leaving-present.html",
+   "repo": "tempertemper/www.tempertemper.net",
+   "commit": "2cda2bdda6b7cca5c7d5c169eda1f7e867e0f236",
+   "conditions": [
+    "C0",
+    "C1",
+    "C2",
+    "C3",
+    "C4",
+    "C5",
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5"
+   ]
+  },
+  {
+   "site": "tempertemper",
+   "page_id": "tt-resources",
+   "kind": "extra",
+   "relpath": "resources/index.html",
+   "url": "file:///home/hatch/workspace/a15-work/builds/tempertemper/dist/resources/index.html",
+   "repo": "tempertemper/www.tempertemper.net",
+   "commit": "2cda2bdda6b7cca5c7d5c169eda1f7e867e0f236",
+   "conditions": [
+    "C0",
+    "C1",
+    "C2",
+    "C3",
+    "C4",
+    "C5",
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5"
+   ]
+  },
+  {
+   "site": "tempertemper",
+   "page_id": "tt-testimonials",
+   "kind": "extra",
+   "relpath": "testimonials/index.html",
+   "url": "file:///home/hatch/workspace/a15-work/builds/tempertemper/dist/testimonials/index.html",
+   "repo": "tempertemper/www.tempertemper.net",
+   "commit": "2cda2bdda6b7cca5c7d5c169eda1f7e867e0f236",
+   "conditions": [
+    "C0",
+    "C1",
+    "C2",
+    "C3",
+    "C4",
+    "C5",
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5"
+   ]
+  },
+  {
+   "site": "tempertemper",
+   "page_id": "tt-year-2023",
+   "kind": "year_archive",
+   "relpath": "blog/year/2023.html",
+   "url": "file:///home/hatch/workspace/a15-work/builds/tempertemper/dist/blog/year/2023.html",
+   "repo": "tempertemper/www.tempertemper.net",
+   "commit": "2cda2bdda6b7cca5c7d5c169eda1f7e867e0f236",
+   "conditions": [
+    "C0",
+    "C1",
+    "C2",
+    "C3",
+    "C4",
+    "C5",
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5"
+   ]
+  }
+ ]
+}
