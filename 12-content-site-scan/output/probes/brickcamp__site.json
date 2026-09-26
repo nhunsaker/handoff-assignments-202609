@@ -1,0 +1,228 @@
+{
+ "repo": "brickcamp/site",
+ "bucket": "H",
+ "window": {
+  "window_start_date": "2026-02-17",
+  "window_end_date": "2026-08-19",
+  "page_touching_commits": 72,
+  "new_content_commits": 34
+ },
+ "selection": [
+  {
+   "sha": "abe839ef5c44bfed388890a1bbb476bbec83e034",
+   "date": "2026-02-17",
+   "adds_new_content": false
+  },
+  {
+   "sha": "5b46d6bfbb4ac49bfa8d1eb36449d4a5f6155a03",
+   "date": "2026-02-22",
+   "adds_new_content": true
+  },
+  {
+   "sha": "05b4613cf7a55760bad1e0bb9c738cee492fe793",
+   "date": "2026-02-28",
+   "adds_new_content": false
+  },
+  {
+   "sha": "803261287d4bbaa7a0d9f9dc5ddf86c3f705f7d0",
+   "date": "2026-07-23",
+   "adds_new_content": true
+  },
+  {
+   "sha": "090134b1efc5978abbdf80f9dd162382de086955",
+   "date": "2026-08-08",
+   "adds_new_content": false
+  },
+  {
+   "sha": "b6f08ed16ba997c6daf69d67c8a04e3d75bf56c2",
+   "date": "2026-08-08",
+   "adds_new_content": true
+  },
+  {
+   "sha": "e2329a9a8e2258adbb25fa91011b3aee5901db5e",
+   "date": "2026-08-14",
+   "adds_new_content": false
+  },
+  {
+   "sha": "b61149bac6ed41cb524019fefd60106470421619",
+   "date": "2026-08-18",
+   "adds_new_content": false
+  }
+ ],
+ "commits": [
+  {
+   "sha": "abe839ef5c44bfed388890a1bbb476bbec83e034",
+   "date": "2026-02-17",
+   "adds_new_content": false,
+   "hugo_version": "0.152.2 extended",
+   "hugo_pin_source": ".github/workflows/hugo.yaml line 23: `      HUGO_VERSION: 0.152.2`",
+   "output_dir_config_line": "no publishDir in hugo.toml; Hugo default public/ (CI uploads ./public; probe builds run plain `hugo --gc --minify` into public/)",
+   "worktree_method": "git worktree add --detach on blobless clone (blobs fetched on demand)",
+   "node_version": "22.20.0",
+   "node_pin_source": ".github/workflows/hugo.yaml env: `      NODE_VERSION: 22.20.0`",
+   "prebuild_command": "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true",
+   "prebuild_seconds": 31.58,
+   "build_command": "<hugobins>/hugo_0.152.2 --gc --minify",
+   "build_ok": true,
+   "build_seconds": 109.61,
+   "page_count": 430,
+   "list_pages": [],
+   "list_page_note": "Manual inspection of built output (commit abe839ef, 430 pages): no index/list pages exist in output. Taxonomy/term rendering is disabled via hugo.toml cascade (`[cascade.build] render = 'never'` for kind '{taxonomy,term}' at /parts,/size,/tags,/uses paths); no section index pages are rendered (/entry/, /tech/ have no index.html); the home page (index.html, title 'Dictionary of Brick Building Techniques | BrickCamp') contains 0 links to entry/tech pages - its entry lookup is a client-side JS app (assets/js/home/lookup.js, fetch() calls classified client_side_only in phase 4). All 430 .html files are leaf pages (215 entry/, 211 tech/, 3 tools/, 1 home)."
+  },
+  {
+   "sha": "5b46d6bfbb4ac49bfa8d1eb36449d4a5f6155a03",
+   "date": "2026-02-22",
+   "adds_new_content": true,
+   "hugo_version": "0.152.2 extended",
+   "hugo_pin_source": ".github/workflows/hugo.yaml line 23: `      HUGO_VERSION: 0.152.2`",
+   "output_dir_config_line": "no publishDir in hugo.toml; Hugo default public/ (CI uploads ./public; probe builds run plain `hugo --gc --minify` into public/)",
+   "worktree_method": "git worktree add --detach on blobless clone (blobs fetched on demand)",
+   "node_version": "22.20.0",
+   "node_pin_source": ".github/workflows/hugo.yaml env: `      NODE_VERSION: 22.20.0`",
+   "prebuild_command": "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true",
+   "prebuild_seconds": 18.44,
+   "build_command": "<hugobins>/hugo_0.152.2 --gc --minify",
+   "build_ok": true,
+   "build_seconds": 69.48,
+   "page_count": 439,
+   "list_page_note": "Manual inspection of built output (commit abe839ef, 430 pages): no index/list pages exist in output. Taxonomy/term rendering is disabled via hugo.toml cascade (`[cascade.build] render = 'never'` for kind '{taxonomy,term}' at /parts,/size,/tags,/uses paths); no section index pages are rendered (/entry/, /tech/ have no index.html); the home page (index.html, title 'Dictionary of Brick Building Techniques | BrickCamp') contains 0 links to entry/tech pages - its entry lookup is a client-side JS app (assets/js/home/lookup.js, fetch() calls classified client_side_only in phase 4). All 430 .html files are leaf pages (215 entry/, 211 tech/, 3 tools/, 1 home).",
+   "list_pages": []
+  },
+  {
+   "sha": "05b4613cf7a55760bad1e0bb9c738cee492fe793",
+   "date": "2026-02-28",
+   "adds_new_content": false,
+   "hugo_version": "0.152.2 extended",
+   "hugo_pin_source": ".github/workflows/hugo.yaml line 23: `      HUGO_VERSION: 0.152.2`",
+   "output_dir_config_line": "no publishDir in hugo.toml; Hugo default public/ (CI uploads ./public; probe builds run plain `hugo --gc --minify` into public/)",
+   "worktree_method": "git worktree add --detach on blobless clone (blobs fetched on demand)",
+   "node_version": "22.20.0",
+   "node_pin_source": ".github/workflows/hugo.yaml env: `      NODE_VERSION: 22.20.0`",
+   "prebuild_command": "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true",
+   "prebuild_seconds": 17.15,
+   "build_command": "<hugobins>/hugo_0.152.2 --gc --minify",
+   "build_ok": true,
+   "build_seconds": 83.66,
+   "page_count": 445,
+   "list_page_note": "Manual inspection of built output (commit abe839ef, 430 pages): no index/list pages exist in output. Taxonomy/term rendering is disabled via hugo.toml cascade (`[cascade.build] render = 'never'` for kind '{taxonomy,term}' at /parts,/size,/tags,/uses paths); no section index pages are rendered (/entry/, /tech/ have no index.html); the home page (index.html, title 'Dictionary of Brick Building Techniques | BrickCamp') contains 0 links to entry/tech pages - its entry lookup is a client-side JS app (assets/js/home/lookup.js, fetch() calls classified client_side_only in phase 4). All 430 .html files are leaf pages (215 entry/, 211 tech/, 3 tools/, 1 home).",
+   "list_pages": []
+  },
+  {
+   "sha": "803261287d4bbaa7a0d9f9dc5ddf86c3f705f7d0",
+   "date": "2026-07-23",
+   "adds_new_content": true,
+   "hugo_version": "0.152.2 extended",
+   "hugo_pin_source": ".github/workflows/hugo.yaml line 23: `      HUGO_VERSION: 0.152.2`",
+   "output_dir_config_line": "no publishDir in hugo.toml; Hugo default public/ (CI uploads ./public; probe builds run plain `hugo --gc --minify` into public/)",
+   "worktree_method": "git worktree add --detach on blobless clone (blobs fetched on demand)",
+   "node_version": "22.20.0",
+   "node_pin_source": ".github/workflows/hugo.yaml env: `      NODE_VERSION: 22.20.0`",
+   "prebuild_command": "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true",
+   "prebuild_seconds": 23.77,
+   "build_command": "<hugobins>/hugo_0.152.2 --gc --minify",
+   "build_ok": true,
+   "build_seconds": 144.26,
+   "page_count": 451,
+   "list_page_note": "Manual inspection of built output (commit abe839ef, 430 pages): no index/list pages exist in output. Taxonomy/term rendering is disabled via hugo.toml cascade (`[cascade.build] render = 'never'` for kind '{taxonomy,term}' at /parts,/size,/tags,/uses paths); no section index pages are rendered (/entry/, /tech/ have no index.html); the home page (index.html, title 'Dictionary of Brick Building Techniques | BrickCamp') contains 0 links to entry/tech pages - its entry lookup is a client-side JS app (assets/js/home/lookup.js, fetch() calls classified client_side_only in phase 4). All 430 .html files are leaf pages (215 entry/, 211 tech/, 3 tools/, 1 home).",
+   "list_pages": []
+  },
+  {
+   "sha": "090134b1efc5978abbdf80f9dd162382de086955",
+   "date": "2026-08-08",
+   "adds_new_content": false,
+   "hugo_version": "0.164.0 extended",
+   "hugo_pin_source": ".github/workflows/hugo.yaml line 23: `      HUGO_VERSION: 0.164.0`",
+   "output_dir_config_line": "no publishDir in hugo.toml; Hugo default public/ (CI uploads ./public; probe builds run plain `hugo --gc --minify` into public/)",
+   "worktree_method": "git worktree add --detach on blobless clone (blobs fetched on demand)",
+   "node_version": "24.15.0",
+   "node_pin_source": ".github/workflows/hugo.yaml env: `      NODE_VERSION: 24.15.0`",
+   "prebuild_command": "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true",
+   "prebuild_seconds": 39.75,
+   "build_command": "<hugobins>/hugo_0.164.0 --gc --minify",
+   "build_ok": true,
+   "build_seconds": 247.49,
+   "page_count": 1135,
+   "list_page_note": "Manual inspection of built output (commit abe839ef, 430 pages): no index/list pages exist in output. Taxonomy/term rendering is disabled via hugo.toml cascade (`[cascade.build] render = 'never'` for kind '{taxonomy,term}' at /parts,/size,/tags,/uses paths); no section index pages are rendered (/entry/, /tech/ have no index.html); the home page (index.html, title 'Dictionary of Brick Building Techniques | BrickCamp') contains 0 links to entry/tech pages - its entry lookup is a client-side JS app (assets/js/home/lookup.js, fetch() calls classified client_side_only in phase 4). All 430 .html files are leaf pages (215 entry/, 211 tech/, 3 tools/, 1 home).",
+   "list_pages": []
+  },
+  {
+   "sha": "b6f08ed16ba997c6daf69d67c8a04e3d75bf56c2",
+   "date": "2026-08-08",
+   "adds_new_content": true,
+   "hugo_version": "0.164.0 extended",
+   "hugo_pin_source": ".github/workflows/hugo.yaml line 23: `      HUGO_VERSION: 0.164.0`",
+   "output_dir_config_line": "no publishDir in hugo.toml; Hugo default public/ (CI uploads ./public; probe builds run plain `hugo --gc --minify` into public/)",
+   "worktree_method": "git worktree add --detach on blobless clone (blobs fetched on demand)",
+   "node_version": "24.15.0",
+   "node_pin_source": ".github/workflows/hugo.yaml env: `      NODE_VERSION: 24.15.0`",
+   "prebuild_command": "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true",
+   "prebuild_seconds": 32.67,
+   "build_command": "<hugobins>/hugo_0.164.0 --gc --minify",
+   "build_ok": true,
+   "build_seconds": 301.88,
+   "page_count": 1133,
+   "list_page_note": "Manual inspection of built output (commit abe839ef, 430 pages): no index/list pages exist in output. Taxonomy/term rendering is disabled via hugo.toml cascade (`[cascade.build] render = 'never'` for kind '{taxonomy,term}' at /parts,/size,/tags,/uses paths); no section index pages are rendered (/entry/, /tech/ have no index.html); the home page (index.html, title 'Dictionary of Brick Building Techniques | BrickCamp') contains 0 links to entry/tech pages - its entry lookup is a client-side JS app (assets/js/home/lookup.js, fetch() calls classified client_side_only in phase 4). All 430 .html files are leaf pages (215 entry/, 211 tech/, 3 tools/, 1 home).",
+   "list_pages": []
+  },
+  {
+   "sha": "e2329a9a8e2258adbb25fa91011b3aee5901db5e",
+   "date": "2026-08-14",
+   "adds_new_content": false,
+   "hugo_version": "0.164.0 extended",
+   "hugo_pin_source": ".github/workflows/hugo.yaml line 25: `      HUGO_VERSION: 0.164.0`",
+   "output_dir_config_line": "no publishDir in hugo.toml; Hugo default public/ (CI uploads ./public; probe builds run plain `hugo --gc --minify` into public/)",
+   "worktree_method": "git worktree add --detach on blobless clone (blobs fetched on demand)",
+   "node_version": "24.15.0",
+   "node_pin_source": ".github/workflows/hugo.yaml env: `      NODE_VERSION: 24.15.0`",
+   "prebuild_command": "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true",
+   "prebuild_seconds": 26.58,
+   "build_command": "<hugobins>/hugo_0.164.0 --gc --minify",
+   "build_ok": true,
+   "build_seconds": 273.11,
+   "page_count": 1139,
+   "list_page_note": "Manual inspection of built output (commit abe839ef, 430 pages): no index/list pages exist in output. Taxonomy/term rendering is disabled via hugo.toml cascade (`[cascade.build] render = 'never'` for kind '{taxonomy,term}' at /parts,/size,/tags,/uses paths); no section index pages are rendered (/entry/, /tech/ have no index.html); the home page (index.html, title 'Dictionary of Brick Building Techniques | BrickCamp') contains 0 links to entry/tech pages - its entry lookup is a client-side JS app (assets/js/home/lookup.js, fetch() calls classified client_side_only in phase 4). All 430 .html files are leaf pages (215 entry/, 211 tech/, 3 tools/, 1 home).",
+   "list_pages": []
+  },
+  {
+   "sha": "b61149bac6ed41cb524019fefd60106470421619",
+   "date": "2026-08-18",
+   "adds_new_content": false,
+   "hugo_version": "0.164.0 extended",
+   "hugo_pin_source": ".github/workflows/hugo.yaml line 25: `      HUGO_VERSION: 0.164.0`",
+   "output_dir_config_line": "no publishDir in hugo.toml; Hugo default public/ (CI uploads ./public; probe builds run plain `hugo --gc --minify` into public/)",
+   "worktree_method": "git worktree add --detach on blobless clone (blobs fetched on demand)",
+   "node_version": "24.15.0",
+   "node_pin_source": ".github/workflows/hugo.yaml env: `      NODE_VERSION: 24.15.0`",
+   "prebuild_command": "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true",
+   "prebuild_seconds": 35.48,
+   "build_command": "<hugobins>/hugo_0.164.0 --gc --minify",
+   "build_ok": true,
+   "build_seconds": 271.25,
+   "page_count": 1157,
+   "list_page_note": "Manual inspection of built output (commit abe839ef, 430 pages): no index/list pages exist in output. Taxonomy/term rendering is disabled via hugo.toml cascade (`[cascade.build] render = 'never'` for kind '{taxonomy,term}' at /parts,/size,/tags,/uses paths); no section index pages are rendered (/entry/, /tech/ have no index.html); the home page (index.html, title 'Dictionary of Brick Building Techniques | BrickCamp') contains 0 links to entry/tech pages - its entry lookup is a client-side JS app (assets/js/home/lookup.js, fetch() calls classified client_side_only in phase 4). All 430 .html files are leaf pages (215 entry/, 211 tech/, 3 tools/, 1 home).",
+   "list_pages": []
+  }
+ ],
+ "median_page_count": 792.0,
+ "median_build_seconds": 195.88,
+ "phase7": {
+  "rebuilt_commits": [
+   "5b46d6bfbb4ac49bfa8d1eb36449d4a5f6155a03",
+   "e2329a9a8e2258adbb25fa91011b3aee5901db5e"
+  ],
+  "pages_compared": 1578,
+  "all_body_identical": false,
+  "differing_pages": [
+   {
+    "path": "legal/index.html",
+    "commit": "e2329a9a",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "rebuilds differ: other content difference",
+    "quote": "REBUILD1>>>ection:\u00a0</noscript><span class=\"hdn\"><span class=\"no\">R</span><span class=\"yes\">j</span><span class=\"no\">e</span><span class=\"yes\">C</span><span class=\"no\">i</sp<<<REBUILD2>>>ection:\u00a0</noscript><span class=\"hdn\"><span class=\"no\">R</span><span class=\"yes\">?</span><span class=\"no\">e</span><span class=\"yes\">p</span><span class=\"no\">i</sp"
+   }
+  ]
+ },
+ "verdict": "nondeterministic",
+ "verdict_reason": "8/8 commits build with their pinned toolchain; median 792.0 static pages. Phase 7 rebuilt commits 5b46d6bf and e2329a9a fresh (1578 pages compared); 1 page differs between rebuilds of the same commit: legal/index.html <body> contains a honeypot span whose letters are randomized per build (REBUILD1: R/j/e/C/i..., REBUILD2: R/?/e/p/i...) \u2014 build-time randomness, so output is not deterministic. Additionally, no list pages were detected at any of the 8 commits (list_pages=[] throughout)."
+}

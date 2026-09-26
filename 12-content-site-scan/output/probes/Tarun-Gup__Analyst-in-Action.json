@@ -1,0 +1,400 @@
+{
+ "repo": "Tarun-Gup/Analyst-in-Action",
+ "bucket": "E",
+ "window": {
+  "start": "2026-02-06",
+  "end": "2026-08-08",
+  "page_touching_commits": 29,
+  "new_content_commits": 14,
+  "new_content_commit_shas": [
+   "58421148328ddabc359928266c66c7d0e15500d3",
+   "1979c610556ff187abbb5fd260ca745739756e21",
+   "52d7724acbfd045c158f32ca9dbab16e0c0adbff",
+   "6fbe163d6b7738e6639483c1dded9dd2641e417b",
+   "04ddcc22976973c03dc848a3b6c7767c86a1033d",
+   "c5afb1d73d0a5621cda8b5d491323d985efb0a9d",
+   "001d9b5e84e09b6c3d30b882fb2c60da6ba86a14",
+   "32f0b44c1d499c9bc9a8176d61d0c6e17867d29b",
+   "b3cc343016ce9b9f5e990b3363002a2980297b9a",
+   "c799f7aab4a710ab3b0145f43d825ac74d20ab5f",
+   "b4f5d1a92a7eaf8801e3b014742c7a6162e108bb",
+   "882129c91231f1b1525ce40220a9fff9c975190e",
+   "ed1172595be58958ae6b27c3c06f25fe649ebf14",
+   "267cfd3e8a5277f32d34ecb5427b1bb1c18f8546"
+  ]
+ },
+ "selection": [
+  {
+   "sha": "d9642d52d106b814283e4466325097cf84b41523",
+   "date": "2026-02-10",
+   "adds_new_content": false
+  },
+  {
+   "sha": "6b380d2c68743efbf61d1b3be1ac1240bb9b9c13",
+   "date": "2026-02-25",
+   "adds_new_content": false
+  },
+  {
+   "sha": "918e8f50795747fa516f340fcbce5569ad6295c8",
+   "date": "2026-03-01",
+   "adds_new_content": false
+  },
+  {
+   "sha": "c7cd158bccc13a2640477e7093fdc810edbb69b7",
+   "date": "2026-03-22",
+   "adds_new_content": false
+  },
+  {
+   "sha": "001d9b5e84e09b6c3d30b882fb2c60da6ba86a14",
+   "date": "2026-05-02",
+   "adds_new_content": true
+  },
+  {
+   "sha": "a0782f25892effb4ebd1d81326b3f42dd3dbea04",
+   "date": "2026-05-31",
+   "adds_new_content": false
+  },
+  {
+   "sha": "b4f5d1a92a7eaf8801e3b014742c7a6162e108bb",
+   "date": "2026-06-28",
+   "adds_new_content": true
+  },
+  {
+   "sha": "267cfd3e8a5277f32d34ecb5427b1bb1c18f8546",
+   "date": "2026-08-08",
+   "adds_new_content": true
+  }
+ ],
+ "commits": [
+  {
+   "sha": "d9642d52d106b814283e4466325097cf84b41523",
+   "date": "2026-02-10",
+   "adds_new_content": false,
+   "worktree_method": "git worktree add --detach on blobless clone",
+   "output_dir_config_line": "output: \"_site\"",
+   "build_command": "npm run build",
+   "toolchain": {
+    "node_declared": null,
+    "node_rung": "v24.13.0",
+    "node_rule": "declared engines range -> newest installed fnm release satisfying it on-or-before commit date; else newest installed release on-or-before commit date (never lowest)",
+    "package_manager": "npm (package-lock.json at commit)",
+    "install_command": "npm ci --no-audit --no-fund",
+    "build_command": "npm run build"
+   },
+   "install_seconds": 11.7,
+   "install_ok": true,
+   "build_seconds": 6.4,
+   "build_ok": true,
+   "page_count": 68,
+   "list_pages": [
+    {
+     "path": "blog/index.html",
+     "main_list_selector": "body > ul",
+     "selector_reason": "inside <ul> the element with the most links to content pages (3 distinct content-page targets; deepest on ties); tag=\"ul\" id=\"None\" class=\"None\"; 0 descendant <article> items",
+     "link_count": 3
+    }
+   ]
+  },
+  {
+   "sha": "6b380d2c68743efbf61d1b3be1ac1240bb9b9c13",
+   "date": "2026-02-25",
+   "adds_new_content": false,
+   "worktree_method": "git worktree add --detach on blobless clone",
+   "output_dir_config_line": "output: \"_site\"",
+   "build_command": "npm run build",
+   "toolchain": {
+    "node_declared": null,
+    "node_rung": "v24.13.0",
+    "node_rule": "declared engines range -> newest installed fnm release satisfying it on-or-before commit date; else newest installed release on-or-before commit date (never lowest)",
+    "package_manager": "npm (package-lock.json at commit)",
+    "install_command": "npm ci --no-audit --no-fund",
+    "build_command": "npm run build"
+   },
+   "install_seconds": 44.2,
+   "install_ok": true,
+   "build_seconds": 7.2,
+   "build_ok": true,
+   "page_count": 62,
+   "list_pages": [
+    {
+     "path": "blog/index.html",
+     "main_list_selector": "main > div.post-grid",
+     "selector_reason": "inside <div> the element with the most links to content pages (9 distinct content-page targets; deepest on ties); tag=\"div\" id=\"None\" class=\"post-grid\"; 9 descendant <article> items",
+     "link_count": 9
+    },
+    {
+     "path": "index.html",
+     "main_list_selector": "body > main",
+     "selector_reason": "inside <main> the element with the most links to content pages (9 distinct content-page targets; deepest on ties); tag=\"main\" id=\"None\" class=\"None\"; 9 descendant <article> items",
+     "link_count": 9
+    },
+    {
+     "path": "start-here/index.html",
+     "main_list_selector": "body > main",
+     "selector_reason": "inside <main> the element with the most links to content pages (19 distinct content-page targets; deepest on ties); tag=\"main\" id=\"None\" class=\"None\"; 0 descendant <article> items",
+     "link_count": 19
+    }
+   ]
+  },
+  {
+   "sha": "918e8f50795747fa516f340fcbce5569ad6295c8",
+   "date": "2026-03-01",
+   "adds_new_content": false,
+   "worktree_method": "git worktree add --detach on blobless clone",
+   "output_dir_config_line": "output: \"_site\"",
+   "build_command": "npm run build",
+   "toolchain": {
+    "node_declared": null,
+    "node_rung": "v24.13.0",
+    "node_rule": "declared engines range -> newest installed fnm release satisfying it on-or-before commit date; else newest installed release on-or-before commit date (never lowest)",
+    "package_manager": "npm (package-lock.json at commit)",
+    "install_command": "npm ci --no-audit --no-fund",
+    "build_command": "npm run build"
+   },
+   "install_seconds": 7.6,
+   "install_ok": true,
+   "build_seconds": 8.5,
+   "build_ok": true,
+   "page_count": 63,
+   "list_pages": [
+    {
+     "path": "blog/index.html",
+     "main_list_selector": "main.layout-full > div.post-grid",
+     "selector_reason": "inside <div> the element with the most links to content pages (9 distinct content-page targets; deepest on ties); tag=\"div\" id=\"None\" class=\"post-grid\"; 9 descendant <article> items",
+     "link_count": 9
+    },
+    {
+     "path": "index.html",
+     "main_list_selector": "body > main.layout-full",
+     "selector_reason": "inside <main> the element with the most links to content pages (9 distinct content-page targets; deepest on ties); tag=\"main\" id=\"None\" class=\"layout-full\"; 9 descendant <article> items",
+     "link_count": 9
+    },
+    {
+     "path": "start-here/index.html",
+     "main_list_selector": "body > main.layout-full",
+     "selector_reason": "inside <main> the element with the most links to content pages (19 distinct content-page targets; deepest on ties); tag=\"main\" id=\"None\" class=\"layout-full\"; 0 descendant <article> items",
+     "link_count": 19
+    }
+   ]
+  },
+  {
+   "sha": "c7cd158bccc13a2640477e7093fdc810edbb69b7",
+   "date": "2026-03-22",
+   "adds_new_content": false,
+   "worktree_method": "git worktree add --detach on blobless clone",
+   "output_dir_config_line": "output: \"_site\"",
+   "build_command": "npm run build",
+   "toolchain": {
+    "node_declared": null,
+    "node_rung": "v24.13.0",
+    "node_rule": "declared engines range -> newest installed fnm release satisfying it on-or-before commit date; else newest installed release on-or-before commit date (never lowest)",
+    "package_manager": "npm (package-lock.json at commit)",
+    "install_command": "npm ci --no-audit --no-fund",
+    "build_command": "npm run build"
+   },
+   "install_seconds": 6.5,
+   "install_ok": true,
+   "build_seconds": 8.3,
+   "build_ok": true,
+   "page_count": 76,
+   "list_pages": [
+    {
+     "path": "blog/index.html",
+     "main_list_selector": "body > main.layout-full",
+     "selector_reason": "inside <main> the element with the most links to content pages (19 distinct content-page targets; deepest on ties); tag=\"main\" id=\"None\" class=\"layout-full\"; 9 descendant <article> items",
+     "link_count": 19
+    },
+    {
+     "path": "index.html",
+     "main_list_selector": "main.layout-full > div.page-layout",
+     "selector_reason": "inside <div> the element with the most links to content pages (19 distinct content-page targets; deepest on ties); tag=\"div\" id=\"None\" class=\"page-layout\"; 9 descendant <article> items",
+     "link_count": 19
+    },
+    {
+     "path": "start-here/index.html",
+     "main_list_selector": "body > main.layout-full",
+     "selector_reason": "inside <main> the element with the most links to content pages (20 distinct content-page targets; deepest on ties); tag=\"main\" id=\"None\" class=\"layout-full\"; 0 descendant <article> items",
+     "link_count": 20
+    }
+   ]
+  },
+  {
+   "sha": "001d9b5e84e09b6c3d30b882fb2c60da6ba86a14",
+   "date": "2026-05-02",
+   "adds_new_content": true,
+   "worktree_method": "git worktree add --detach on blobless clone",
+   "output_dir_config_line": "output: \"_site\"",
+   "build_command": "npm run build",
+   "toolchain": {
+    "node_declared": null,
+    "node_rung": "v24.15.0",
+    "node_rule": "declared engines range -> newest installed fnm release satisfying it on-or-before commit date; else newest installed release on-or-before commit date (never lowest)",
+    "package_manager": "npm (package-lock.json at commit)",
+    "install_command": "npm ci --no-audit --no-fund",
+    "build_command": "npm run build"
+   },
+   "install_seconds": 14.9,
+   "install_ok": true,
+   "build_seconds": 18.7,
+   "build_ok": true,
+   "page_count": 80,
+   "list_pages": [
+    {
+     "path": "blog/index.html",
+     "main_list_selector": "body > main.layout-full",
+     "selector_reason": "inside <main> the element with the most links to content pages (20 distinct content-page targets; deepest on ties); tag=\"main\" id=\"None\" class=\"layout-full\"; 9 descendant <article> items",
+     "link_count": 20
+    },
+    {
+     "path": "index.html",
+     "main_list_selector": "main.layout-full > div.page-layout",
+     "selector_reason": "inside <div> the element with the most links to content pages (20 distinct content-page targets; deepest on ties); tag=\"div\" id=\"None\" class=\"page-layout\"; 9 descendant <article> items",
+     "link_count": 20
+    },
+    {
+     "path": "start-here/index.html",
+     "main_list_selector": "body > main.layout-full",
+     "selector_reason": "inside <main> the element with the most links to content pages (20 distinct content-page targets; deepest on ties); tag=\"main\" id=\"None\" class=\"layout-full\"; 0 descendant <article> items",
+     "link_count": 20
+    }
+   ]
+  },
+  {
+   "sha": "a0782f25892effb4ebd1d81326b3f42dd3dbea04",
+   "date": "2026-05-31",
+   "adds_new_content": false,
+   "worktree_method": "git worktree add --detach on blobless clone",
+   "output_dir_config_line": "output: \"_site\"",
+   "build_command": "npm run build",
+   "toolchain": {
+    "node_declared": null,
+    "node_rung": "v24.16.0",
+    "node_rule": "declared engines range -> newest installed fnm release satisfying it on-or-before commit date; else newest installed release on-or-before commit date (never lowest)",
+    "package_manager": "npm (package-lock.json at commit)",
+    "install_command": "npm ci --no-audit --no-fund",
+    "build_command": "npm run build"
+   },
+   "install_seconds": 6.0,
+   "install_ok": true,
+   "build_seconds": 8.1,
+   "build_ok": true,
+   "page_count": 82,
+   "list_pages": [
+    {
+     "path": "blog/index.html",
+     "main_list_selector": "body > main.layout-full",
+     "selector_reason": "inside <main> the element with the most links to content pages (20 distinct content-page targets; deepest on ties); tag=\"main\" id=\"None\" class=\"layout-full\"; 9 descendant <article> items",
+     "link_count": 20
+    },
+    {
+     "path": "index.html",
+     "main_list_selector": "main.layout-full > div.page-layout",
+     "selector_reason": "inside <div> the element with the most links to content pages (20 distinct content-page targets; deepest on ties); tag=\"div\" id=\"None\" class=\"page-layout\"; 9 descendant <article> items",
+     "link_count": 20
+    },
+    {
+     "path": "start-here/index.html",
+     "main_list_selector": "body > main.layout-full",
+     "selector_reason": "inside <main> the element with the most links to content pages (19 distinct content-page targets; deepest on ties); tag=\"main\" id=\"None\" class=\"layout-full\"; 0 descendant <article> items",
+     "link_count": 19
+    }
+   ]
+  },
+  {
+   "sha": "b4f5d1a92a7eaf8801e3b014742c7a6162e108bb",
+   "date": "2026-06-28",
+   "adds_new_content": true,
+   "worktree_method": "git worktree add --detach on blobless clone",
+   "output_dir_config_line": "output: \"_site\"",
+   "build_command": "npm run build",
+   "toolchain": {
+    "node_declared": null,
+    "node_rung": "v24.16.0",
+    "node_rule": "declared engines range -> newest installed fnm release satisfying it on-or-before commit date; else newest installed release on-or-before commit date (never lowest)",
+    "package_manager": "npm (package-lock.json at commit)",
+    "install_command": "npm ci --no-audit --no-fund",
+    "build_command": "npm run build"
+   },
+   "install_seconds": 5.7,
+   "install_ok": true,
+   "build_seconds": 4.8,
+   "build_ok": true,
+   "page_count": 84,
+   "list_pages": [
+    {
+     "path": "blog/index.html",
+     "main_list_selector": "body > main.layout-full",
+     "selector_reason": "inside <main> the element with the most links to content pages (20 distinct content-page targets; deepest on ties); tag=\"main\" id=\"None\" class=\"layout-full\"; 9 descendant <article> items",
+     "link_count": 20
+    },
+    {
+     "path": "index.html",
+     "main_list_selector": "main.layout-full > div.page-layout",
+     "selector_reason": "inside <div> the element with the most links to content pages (20 distinct content-page targets; deepest on ties); tag=\"div\" id=\"None\" class=\"page-layout\"; 9 descendant <article> items",
+     "link_count": 20
+    },
+    {
+     "path": "start-here/index.html",
+     "main_list_selector": "body > main.layout-full",
+     "selector_reason": "inside <main> the element with the most links to content pages (20 distinct content-page targets; deepest on ties); tag=\"main\" id=\"None\" class=\"layout-full\"; 0 descendant <article> items",
+     "link_count": 20
+    }
+   ]
+  },
+  {
+   "sha": "267cfd3e8a5277f32d34ecb5427b1bb1c18f8546",
+   "date": "2026-08-08",
+   "adds_new_content": true,
+   "worktree_method": "git worktree add --detach on blobless clone",
+   "output_dir_config_line": "output: \"_site\"",
+   "build_command": "npm run build",
+   "toolchain": {
+    "node_declared": null,
+    "node_rung": "v24.16.0",
+    "node_rule": "declared engines range -> newest installed fnm release satisfying it on-or-before commit date; else newest installed release on-or-before commit date (never lowest)",
+    "package_manager": "npm (package-lock.json at commit)",
+    "install_command": "npm ci --no-audit --no-fund",
+    "build_command": "npm run build"
+   },
+   "install_seconds": 6.4,
+   "install_ok": true,
+   "build_seconds": 8.2,
+   "build_ok": true,
+   "page_count": 88,
+   "list_pages": [
+    {
+     "path": "blog/index.html",
+     "main_list_selector": "body > main.layout-full",
+     "selector_reason": "inside <main> the element with the most links to content pages (20 distinct content-page targets; deepest on ties); tag=\"main\" id=\"None\" class=\"layout-full\"; 9 descendant <article> items",
+     "link_count": 20
+    },
+    {
+     "path": "index.html",
+     "main_list_selector": "main.layout-full > div.page-layout",
+     "selector_reason": "inside <div> the element with the most links to content pages (20 distinct content-page targets; deepest on ties); tag=\"div\" id=\"None\" class=\"page-layout\"; 9 descendant <article> items",
+     "link_count": 20
+    },
+    {
+     "path": "start-here/index.html",
+     "main_list_selector": "main.layout-full > div.start-here-grid",
+     "selector_reason": "inside <div> the element with the most links to content pages (31 distinct content-page targets; deepest on ties); tag=\"div\" id=\"None\" class=\"start-here-grid\"; 0 descendant <article> items",
+     "link_count": 31
+    }
+   ]
+  }
+ ],
+ "median_page_count": 78.0,
+ "median_build_seconds": 8.149999999999999,
+ "phase7": {
+  "rebuilt_commits": [
+   "d9642d52d106b814283e4466325097cf84b41523",
+   "267cfd3e8a5277f32d34ecb5427b1bb1c18f8546"
+  ],
+  "pages_compared": 156,
+  "all_body_identical": true,
+  "differing_pages": [],
+  "distinct_causes": {}
+ },
+ "verdict": "corpus_ready",
+ "verdict_reason": "8/8 commits build; median 78.0 static pages (>=20); list pages present at every commit; list insertions observed (main-list link counts change across commits); phase-7 rebuilds have identical body hashes on every page (156 pages compared)"
+}

@@ -1,0 +1,1501 @@
+{
+ "repo": "24x7fpga/24x7fpga-website",
+ "bucket": "H",
+ "window": {
+  "window_start_date": "2024-07-13",
+  "window_end_date": "2025-01-12",
+  "page_touching_commits": 166,
+  "new_content_commits": 72
+ },
+ "selection": [
+  {
+   "sha": "fa588aad9623878139fa321e2a5a614af85ad296",
+   "date": "2024-07-13",
+   "adds_new_content": true
+  },
+  {
+   "sha": "9cd33faf09b2b139d5243f51252fa596dec656a0",
+   "date": "2024-07-25",
+   "adds_new_content": false
+  },
+  {
+   "sha": "5bf19aaddb74caadfa8f2a42a016ef0421b39154",
+   "date": "2024-08-05",
+   "adds_new_content": false
+  },
+  {
+   "sha": "74d14271035fd715b691bb453cbf8debd9584a63",
+   "date": "2024-08-22",
+   "adds_new_content": false
+  },
+  {
+   "sha": "1a32523d61d353e86be77714b53180286488ed8f",
+   "date": "2024-09-25",
+   "adds_new_content": true
+  },
+  {
+   "sha": "5f5344b116616465274ce87ddf228f852b69ab84",
+   "date": "2024-10-15",
+   "adds_new_content": true
+  },
+  {
+   "sha": "2127c95379cead4e9ce535759cccc45b62ea245a",
+   "date": "2024-11-12",
+   "adds_new_content": false
+  },
+  {
+   "sha": "d3f83af7a826a4c6441e23635963b41146e524f1",
+   "date": "2025-01-12",
+   "adds_new_content": true
+  }
+ ],
+ "commits": [
+  {
+   "sha": "fa588aad9623878139fa321e2a5a614af85ad296",
+   "date": "2024-07-13",
+   "adds_new_content": true,
+   "worktree_method": "git worktree add --detach on blobless clone (blobs fetched on demand)",
+   "hugo_version": "0.128.2 extended",
+   "build_command": "hugo --gc --minify -d <worktree>/out",
+   "build_ok": true,
+   "build_seconds": 1.57,
+   "error_excerpt": null,
+   "page_count": 51,
+   "output_dir_config_line": "no publishDir in hugo.toml; Hugo default public/ (builds here run with -d <worktree>/out)",
+   "list_pages": [
+    {
+     "path": "about/index.html",
+     "main_list_selector": "article.post-entry a.entry-link",
+     "selector_reason": "article.post-entry is the only element class the PaperMod list template (themes/hugo-PaperMod/layouts/_default/list.html, \"post-entry\"/\"post-entry tag-entry\") assigns per paginated page; each article holds exactly one a.entry-link pointing at the page permalink",
+     "link_count": 1
+    },
+    {
+     "path": "article/index.html",
+     "main_list_selector": "article.post-entry a.entry-link",
+     "selector_reason": "article.post-entry is the only element class the PaperMod list template (themes/hugo-PaperMod/layouts/_default/list.html, \"post-entry\"/\"post-entry tag-entry\") assigns per paginated page; each article holds exactly one a.entry-link pointing at the page permalink",
+     "link_count": 1
+    },
+    {
+     "path": "research/index.html",
+     "main_list_selector": "article.post-entry a.entry-link",
+     "selector_reason": "article.post-entry is the only element class the PaperMod list template (themes/hugo-PaperMod/layouts/_default/list.html, \"post-entry\"/\"post-entry tag-entry\") assigns per paginated page; each article holds exactly one a.entry-link pointing at the page permalink",
+     "link_count": 1
+    },
+    {
+     "path": "rtl_directory/index.html",
+     "main_list_selector": "article.post-entry a.entry-link",
+     "selector_reason": "article.post-entry is the only element class the PaperMod list template (themes/hugo-PaperMod/layouts/_default/list.html, \"post-entry\"/\"post-entry tag-entry\") assigns per paginated page; each article holds exactly one a.entry-link pointing at the page permalink",
+     "link_count": 10
+    },
+    {
+     "path": "rtl_directory/page/2/index.html",
+     "main_list_selector": "article.post-entry a.entry-link",
+     "selector_reason": "article.post-entry is the only element class the PaperMod list template (themes/hugo-PaperMod/layouts/_default/list.html, \"post-entry\"/\"post-entry tag-entry\") assigns per paginated page; each article holds exactly one a.entry-link pointing at the page permalink",
+     "link_count": 1
+    },
+    {
+     "path": "sv_directory/index.html",
+     "main_list_selector": "article.post-entry a.entry-link",
+     "selector_reason": "article.post-entry is the only element class the PaperMod list template (themes/hugo-PaperMod/layouts/_default/list.html, \"post-entry\"/\"post-entry tag-entry\") assigns per paginated page; each article holds exactly one a.entry-link pointing at the page permalink",
+     "link_count": 10
+    },
+    {
+     "path": "sv_directory/page/2/index.html",
+     "main_list_selector": "article.post-entry a.entry-link",
+     "selector_reason": "article.post-entry is the only element class the PaperMod list template (themes/hugo-PaperMod/layouts/_default/list.html, \"post-entry\"/\"post-entry tag-entry\") assigns per paginated page; each article holds exactly one a.entry-link pointing at the page permalink",
+     "link_count": 2
+    },
+    {
+     "path": "tags/article/index.html",
+     "main_list_selector": "article.post-entry a.entry-link",
+     "selector_reason": "article.post-entry is the only element class the PaperMod list template (themes/hugo-PaperMod/layouts/_default/list.html, \"post-entry\"/\"post-entry tag-entry\") assigns per paginated page; each article holds exactly one a.entry-link pointing at the page permalink",
+     "link_count": 1
+    },
+    {
+     "path": "tags/rtl/index.html",
+     "main_list_selector": "article.post-entry a.entry-link",
+     "selector_reason": "article.post-entry is the only element class the PaperMod list template (themes/hugo-PaperMod/layouts/_default/list.html, \"post-entry\"/\"post-entry tag-entry\") assigns per paginated page; each article holds exactly one a.entry-link pointing at the page permalink",
+     "link_count": 10
+    },
+    {
+     "path": "tags/sv/index.html",
+     "main_list_selector": "article.post-entry a.entry-link",
+     "selector_reason": "article.post-entry is the only element class the PaperMod list template (themes/hugo-PaperMod/layouts/_default/list.html, \"post-entry\"/\"post-entry tag-entry\") assigns per paginated page; each article holds exactly one a.entry-link pointing at the page permalink",
+     "link_count": 10
+    },
+    {
+     "path": "tags/sv/page/2/index.html",
+     "main_list_selector": "article.post-entry a.entry-link",
+     "selector_reason": "article.post-entry is the only element class the PaperMod list template (themes/hugo-PaperMod/layouts/_default/list.html, \"post-entry\"/\"post-entry tag-entry\") assigns per paginated page; each article holds exactly one a.entry-link pointing at the page permalink",
+     "link_count": 1
+    },
+    {
+     "path": "tags/toc/index.html",
+     "main_list_selector": "article.post-entry a.entry-link",
+     "selector_reason": "article.post-entry is the only element class the PaperMod list template (themes/hugo-PaperMod/layouts/_default/list.html, \"post-entry\"/\"post-entry tag-entry\") assigns per paginated page; each article holds exactly one a.entry-link pointing at the page permalink",
+     "link_count": 2
+    }
+   ]
+  },
+  {
+   "sha": "9cd33faf09b2b139d5243f51252fa596dec656a0",
+   "date": "2024-07-25",
+   "adds_new_content": false,
+   "worktree_method": "git worktree add --detach on blobless clone (blobs fetched on demand)",
+   "hugo_version": "0.128.0 extended",
+   "build_command": "hugo --gc --minify -d <worktree>/out",
+   "build_ok": true,
+   "build_seconds": 3.08,
+   "error_excerpt": null,
+   "page_count": 78,
+   "output_dir_config_line": "no publishDir in hugo.toml; Hugo default public/ (builds here run with -d <worktree>/out)",
+   "list_pages": [
+    {
+     "path": "about/index.html",
+     "main_list_selector": "article.post-entry a.entry-link",
+     "selector_reason": "article.post-entry is the only element class the PaperMod list template (themes/hugo-PaperMod/layouts/_default/list.html, \"post-entry\"/\"post-entry tag-entry\") assigns per paginated page; each article holds exactly one a.entry-link pointing at the page permalink",
+     "link_count": 1
+    },
+    {
+     "path": "article/index.html",
+     "main_list_selector": "article.post-entry a.entry-link",
+     "selector_reason": "article.post-entry is the only element class the PaperMod list template (themes/hugo-PaperMod/layouts/_default/list.html, \"post-entry\"/\"post-entry tag-entry\") assigns per paginated page; each article holds exactly one a.entry-link pointing at the page permalink",
+     "link_count": 2
+    },
+    {
+     "path": "research/index.html",
+     "main_list_selector": "article.post-entry a.entry-link",
+     "selector_reason": "article.post-entry is the only element class the PaperMod list template (themes/hugo-PaperMod/layouts/_default/list.html, \"post-entry\"/\"post-entry tag-entry\") assigns per paginated page; each article holds exactly one a.entry-link pointing at the page permalink",
+     "link_count": 1
+    },
+    {
+     "path": "rtl_directory/index.html",
+     "main_list_selector": "article.post-entry a.entry-link",
+     "selector_reason": "article.post-entry is the only element class the PaperMod list template (themes/hugo-PaperMod/layouts/_default/list.html, \"post-entry\"/\"post-entry tag-entry\") assigns per paginated page; each article holds exactly one a.entry-link pointing at the page permalink",
+     "link_count": 10
+    },
+    {
+     "path": "rtl_directory/page/2/index.html",
+     "main_list_selector": "article.post-entry a.entry-link",
+     "selector_reason": "article.post-entry is the only element class the PaperMod list template (themes/hugo-PaperMod/layouts/_default/list.html, \"post-entry\"/\"post-entry tag-entry\") assigns per paginated page; each article holds exactly one a.entry-link pointing at the page permalink",
+     "link_count": 10
+    },
+    {
+     "path": "sv_directory/index.html",
+     "main_list_selector": "article.post-entry a.entry-link",
+     "selector_reason": "article.post-entry is the only element class the PaperMod list template (themes/hugo-PaperMod/layouts/_default/list.html, \"post-entry\"/\"post-entry tag-entry\") assigns per paginated page; each article holds exactly one a.entry-link pointing at the page permalink",
+     "link_count": 10
+    },
+    {
+     "path": "sv_directory/page/2/index.html",
+     "main_list_selector": "article.post-entry a.entry-link",
+     "selector_reason": "article.post-entry is the only element class the PaperMod list template (themes/hugo-PaperMod/layouts/_default/list.html, \"post-entry\"/\"post-entry tag-entry\") assigns per paginated page; each article holds exactly one a.entry-link pointing at the page permalink",
+     "link_count": 10
+    },
+    {
+     "path": "sv_directory/page/3/index.html",
+     "main_list_selector": "article.post-entry a.entry-link",
+     "selector_reason": "article.post-entry is the only element class the PaperMod list template (themes/hugo-PaperMod/layouts/_default/list.html, \"post-entry\"/\"post-entry tag-entry\") assigns per paginated page; each article holds exactly one a.entry-link pointing at the page permalink",
+     "link_count": 6
+    },
+    {
+     "path": "tags/article/index.html",
+     "main_list_selector": "article.post-entry a.entry-link",
+     "selector_reason": "article.post-entry is the only element class the PaperMod list template (themes/hugo-PaperMod/layouts/_default/list.html, \"post-entry\"/\"post-entry tag-entry\") assigns per paginated page; each article holds exactly one a.entry-link pointing at the page permalink",
+     "link_count": 2
+    },
+    {
+     "path": "tags/rtl/index.html",
+     "main_list_selector": "article.post-entry a.entry-link",
+     "selector_reason": "article.post-entry is the only element class the PaperMod list template (themes/hugo-PaperMod/layouts/_default/list.html, \"post-entry\"/\"post-entry tag-entry\") assigns per paginated page; each article holds exactly one a.entry-link pointing at the page permalink",
+     "link_count": 10
+    },
+    {
+     "path": "tags/rtl/page/2/index.html",
+     "main_list_selector": "article.post-entry a.entry-link",
+     "selector_reason": "article.post-entry is the only element class the PaperMod list template (themes/hugo-PaperMod/layouts/_default/list.html, \"post-entry\"/\"post-entry tag-entry\") assigns per paginated page; each article holds exactly one a.entry-link pointing at the page permalink",
+     "link_count": 9
+    },
+    {
+     "path": "tags/sv/index.html",
+     "main_list_selector": "article.post-entry a.entry-link",
+     "selector_reason": "article.post-entry is the only element class the PaperMod list template (themes/hugo-PaperMod/layouts/_default/list.html, \"post-entry\"/\"post-entry tag-entry\") assigns per paginated page; each article holds exactly one a.entry-link pointing at the page permalink",
+     "link_count": 10
+    },
+    {
+     "path": "tags/sv/page/2/index.html",
+     "main_list_selector": "article.post-entry a.entry-link",
+     "selector_reason": "article.post-entry is the only element class the PaperMod list template (themes/hugo-PaperMod/layouts/_default/list.html, \"post-entry\"/\"post-entry tag-entry\") assigns per paginated page; each article holds exactly one a.entry-link pointing at the page permalink",
+     "link_count": 10
+    },
+    {
+     "path": "tags/sv/page/3/index.html",
+     "main_list_selector": "article.post-entry a.entry-link",
+     "selector_reason": "article.post-entry is the only element class the PaperMod list template (themes/hugo-PaperMod/layouts/_default/list.html, \"post-entry\"/\"post-entry tag-entry\") assigns per paginated page; each article holds exactly one a.entry-link pointing at the page permalink",
+     "link_count": 5
+    },
+    {
+     "path": "tags/toc/index.html",
+     "main_list_selector": "article.post-entry a.entry-link",
+     "selector_reason": "article.post-entry is the only element class the PaperMod list template (themes/hugo-PaperMod/layouts/_default/list.html, \"post-entry\"/\"post-entry tag-entry\") assigns per paginated page; each article holds exactly one a.entry-link pointing at the page permalink",
+     "link_count": 2
+    }
+   ]
+  },
+  {
+   "sha": "5bf19aaddb74caadfa8f2a42a016ef0421b39154",
+   "date": "2024-08-05",
+   "adds_new_content": false,
+   "worktree_method": "git worktree add --detach on blobless clone (blobs fetched on demand)",
+   "hugo_version": "0.128.0 extended",
+   "build_command": "hugo --gc --minify -d <worktree>/out",
+   "build_ok": true,
+   "build_seconds": 3.68,
+   "error_excerpt": null,
+   "page_count": 117,
+   "output_dir_config_line": "no publishDir in hugo.toml; Hugo default public/ (builds here run with -d <worktree>/out)",
+   "list_pages": [
+    {
+     "path": "about/index.html",
+     "main_list_selector": "article.post-entry a.entry-link",
+     "selector_reason": "article.post-entry is the only element class the PaperMod list template (themes/hugo-PaperMod/layouts/_default/list.html, \"post-entry\"/\"post-entry tag-entry\") assigns per paginated page; each article holds exactly one a.entry-link pointing at the page permalink",
+     "link_count": 1
+    },
+    {
+     "path": "article/index.html",
+     "main_list_selector": "article.post-entry a.entry-link",
+     "selector_reason": "article.post-entry is the only element class the PaperMod list template (themes/hugo-PaperMod/layouts/_default/list.html, \"post-entry\"/\"post-entry tag-entry\") assigns per paginated page; each article holds exactly one a.entry-link pointing at the page permalink",
+     "link_count": 2
+    },
+    {
+     "path": "emacs_directory/index.html",
+     "main_list_selector": "article.post-entry a.entry-link",
+     "selector_reason": "article.post-entry is the only element class the PaperMod list template (themes/hugo-PaperMod/layouts/_default/list.html, \"post-entry\"/\"post-entry tag-entry\") assigns per paginated page; each article holds exactly one a.entry-link pointing at the page permalink",
+     "link_count": 1
+    },
+    {
+     "path": "git_directory/index.html",
+     "main_list_selector": "article.post-entry a.entry-link",
+     "selector_reason": "article.post-entry is the only element class the PaperMod list template (themes/hugo-PaperMod/layouts/_default/list.html, \"post-entry\"/\"post-entry tag-entry\") assigns per paginated page; each article holds exactly one a.entry-link pointing at the page permalink",
+     "link_count": 4
+    },
+    {
+     "path": "research/index.html",
+     "main_list_selector": "article.post-entry a.entry-link",
+     "selector_reason": "article.post-entry is the only element class the PaperMod list template (themes/hugo-PaperMod/layouts/_default/list.html, \"post-entry\"/\"post-entry tag-entry\") assigns per paginated page; each article holds exactly one a.entry-link pointing at the page permalink",
+     "link_count": 1
+    },
+    {
+     "path": "rtl_directory/index.html",
+     "main_list_selector": "article.post-entry a.entry-link",
+     "selector_reason": "article.post-entry is the only element class the PaperMod list template (themes/hugo-PaperMod/layouts/_default/list.html, \"post-entry\"/\"post-entry tag-entry\") assigns per paginated page; each article holds exactly one a.entry-link pointing at the page permalink",
+     "link_count": 10
+    },
+    {
+     "path": "rtl_directory/page/2/index.html",
+     "main_list_selector": "article.post-entry a.entry-link",
+     "selector_reason": "article.post-entry is the only element class the PaperMod list template (themes/hugo-PaperMod/layouts/_default/list.html, \"post-entry\"/\"post-entry tag-entry\") assigns per paginated page; each article holds exactly one a.entry-link pointing at the page permalink",
+     "link_count": 10
+    },
+    {
+     "path": "rtl_directory/page/3/index.html",
+     "main_list_selector": "article.post-entry a.entry-link",
+     "selector_reason": "article.post-entry is the only element class the PaperMod list template (themes/hugo-PaperMod/layouts/_default/list.html, \"post-entry\"/\"post-entry tag-entry\") assigns per paginated page; each article holds exactly one a.entry-link pointing at the page permalink",
+     "link_count": 2
+    },
+    {
+     "path": "sv_directory/index.html",
+     "main_list_selector": "article.post-entry a.entry-link",
+     "selector_reason": "article.post-entry is the only element class the PaperMod list template (themes/hugo-PaperMod/layouts/_default/list.html, \"post-entry\"/\"post-entry tag-entry\") assigns per paginated page; each article holds exactly one a.entry-link pointing at the page permalink",
+     "link_count": 10
+    },
+    {
+     "path": "sv_directory/page/2/index.html",
+     "main_list_selector": "article.post-entry a.entry-link",
+     "selector_reason": "article.post-entry is the only element class the PaperMod list template (themes/hugo-PaperMod/layouts/_default/list.html, \"post-entry\"/\"post-entry tag-entry\") assigns per paginated page; each article holds exactly one a.entry-link pointing at the page permalink",
+     "link_count": 10
+    },
+    {
+     "path": "sv_directory/page/3/index.html",
+     "main_list_selector": "article.post-entry a.entry-link",
+     "selector_reason": "article.post-entry is the only element class the PaperMod list template (themes/hugo-PaperMod/layouts/_default/list.html, \"post-entry\"/\"post-entry tag-entry\") assigns per paginated page; each article holds exactly one a.entry-link pointing at the page permalink",
+     "link_count": 10
+    },
+    {
+     "path": "sv_directory/page/4/index.html",
+     "main_list_selector": "article.post-entry a.entry-link",
+     "selector_reason": "article.post-entry is the only element class the PaperMod list template (themes/hugo-PaperMod/layouts/_default/list.html, \"post-entry\"/\"post-entry tag-entry\") assigns per paginated page; each article holds exactly one a.entry-link pointing at the page permalink",
+     "link_count": 7
+    },
+    {
+     "path": "tags/article/index.html",
+     "main_list_selector": "article.post-entry a.entry-link",
+     "selector_reason": "article.post-entry is the only element class the PaperMod list template (themes/hugo-PaperMod/layouts/_default/list.html, \"post-entry\"/\"post-entry tag-entry\") assigns per paginated page; each article holds exactly one a.entry-link pointing at the page permalink",
+     "link_count": 2
+    },
+    {
+     "path": "tags/emacs/index.html",
+     "main_list_selector": "article.post-entry a.entry-link",
+     "selector_reason": "article.post-entry is the only element class the PaperMod list template (themes/hugo-PaperMod/layouts/_default/list.html, \"post-entry\"/\"post-entry tag-entry\") assigns per paginated page; each article holds exactly one a.entry-link pointing at the page permalink",
+     "link_count": 1
+    },
+    {
+     "path": "tags/git/index.html",
+     "main_list_selector": "article.post-entry a.entry-link",
+     "selector_reason": "article.post-entry is the only element class the PaperMod list template (themes/hugo-PaperMod/layouts/_default/list.html, \"post-entry\"/\"post-entry tag-entry\") assigns per paginated page; each article holds exactly one a.entry-link pointing at the page permalink",
+     "link_count": 4
+    },
+    {
+     "path": "tags/rtl/index.html",
+     "main_list_selector": "article.post-entry a.entry-link",
+     "selector_reason": "article.post-entry is the only element class the PaperMod list template (themes/hugo-PaperMod/layouts/_default/list.html, \"post-entry\"/\"post-entry tag-entry\") assigns per paginated page; each article holds exactly one a.entry-link pointing at the page permalink",
+     "link_count": 10
+    },
+    {
+     "path": "tags/rtl/page/2/index.html",
+     "main_list_selector": "article.post-entry a.entry-link",
+     "selector_reason": "article.post-entry is the only element class the PaperMod list template (themes/hugo-PaperMod/layouts/_default/list.html, \"post-entry\"/\"post-entry tag-entry\") assigns per paginated page; each article holds exactly one a.entry-link pointing at the page permalink",
+     "link_count": 10
+    },
+    {
+     "path": "tags/rtl/page/3/index.html",
+     "main_list_selector": "article.post-entry a.entry-link",
+     "selector_reason": "article.post-entry is the only element class the PaperMod list template (themes/hugo-PaperMod/layouts/_default/list.html, \"post-entry\"/\"post-entry tag-entry\") assigns per paginated page; each article holds exactly one a.entry-link pointing at the page permalink",
+     "link_count": 1
+    },
+    {
+     "path": "tags/sv/index.html",
+     "main_list_selector": "article.post-entry a.entry-link",
+     "selector_reason": "article.post-entry is the only element class the PaperMod list template (themes/hugo-PaperMod/layouts/_default/list.html, \"post-entry\"/\"post-entry tag-entry\") assigns per paginated page; each article holds exactly one a.entry-link pointing at the page permalink",
+     "link_count": 10
+    },
+    {
+     "path": "tags/sv/page/2/index.html",
+     "main_list_selector": "article.post-entry a.entry-link",
+     "selector_reason": "article.post-entry is the only element class the PaperMod list template (themes/hugo-PaperMod/layouts/_default/list.html, \"post-entry\"/\"post-entry tag-entry\") assigns per paginated page; each article holds exactly one a.entry-link pointing at the page permalink",
+     "link_count": 10
+    },
+    {
+     "path": "tags/sv/page/3/index.html",
+     "main_list_selector": "article.post-entry a.entry-link",
+     "selector_reason": "article.post-entry is the only element class the PaperMod list template (themes/hugo-PaperMod/layouts/_default/list.html, \"post-entry\"/\"post-entry tag-entry\") assigns per paginated page; each article holds exactly one a.entry-link pointing at the page permalink",
+     "link_count": 10
+    },
+    {
+     "path": "tags/sv/page/4/index.html",
+     "main_list_selector": "article.post-entry a.entry-link",
+     "selector_reason": "article.post-entry is the only element class the PaperMod list template (themes/hugo-PaperMod/layouts/_default/list.html, \"post-entry\"/\"post-entry tag-entry\") assigns per paginated page; each article holds exactly one a.entry-link pointing at the page permalink",
+     "link_count": 6
+    },
+    {
+     "path": "tags/toc/index.html",
+     "main_list_selector": "article.post-entry a.entry-link",
+     "selector_reason": "article.post-entry is the only element class the PaperMod list template (themes/hugo-PaperMod/layouts/_default/list.html, \"post-entry\"/\"post-entry tag-entry\") assigns per paginated page; each article holds exactly one a.entry-link pointing at the page permalink",
+     "link_count": 2
+    },
+    {
+     "path": "tags/vim/index.html",
+     "main_list_selector": "article.post-entry a.entry-link",
+     "selector_reason": "article.post-entry is the only element class the PaperMod list template (themes/hugo-PaperMod/layouts/_default/list.html, \"post-entry\"/\"post-entry tag-entry\") assigns per paginated page; each article holds exactly one a.entry-link pointing at the page permalink",
+     "link_count": 5
+    },
+    {
+     "path": "vim_directory/index.html",
+     "main_list_selector": "article.post-entry a.entry-link",
+     "selector_reason": "article.post-entry is the only element class the PaperMod list template (themes/hugo-PaperMod/layouts/_default/list.html, \"post-entry\"/\"post-entry tag-entry\") assigns per paginated page; each article holds exactly one a.entry-link pointing at the page permalink",
+     "link_count": 5
+    }
+   ]
+  },
+  {
+   "sha": "74d14271035fd715b691bb453cbf8debd9584a63",
+   "date": "2024-08-22",
+   "adds_new_content": false,
+   "worktree_method": "git worktree add --detach on blobless clone (blobs fetched on demand)",
+   "hugo_version": "0.128.0 extended",
+   "build_command": "hugo --gc --minify -d <worktree>/out",
+   "build_ok": true,
+   "build_seconds": 4.48,
+   "error_excerpt": null,
+   "page_count": 134,
+   "output_dir_config_line": "no publishDir in hugo.toml; Hugo default public/ (builds here run with -d <worktree>/out)",
+   "list_pages": [
+    {
+     "path": "about/index.html",
+     "main_list_selector": "article.post-entry a.entry-link",
+     "selector_reason": "article.post-entry is the only element class the PaperMod list template (themes/hugo-PaperMod/layouts/_default/list.html, \"post-entry\"/\"post-entry tag-entry\") assigns per paginated page; each article holds exactly one a.entry-link pointing at the page permalink",
+     "link_count": 1
+    },
+    {
+     "path": "article/index.html",
+     "main_list_selector": "article.post-entry a.entry-link",
+     "selector_reason": "article.post-entry is the only element class the PaperMod list template (themes/hugo-PaperMod/layouts/_default/list.html, \"post-entry\"/\"post-entry tag-entry\") assigns per paginated page; each article holds exactly one a.entry-link pointing at the page permalink",
+     "link_count": 2
+    },
+    {
+     "path": "emacs_directory/index.html",
+     "main_list_selector": "article.post-entry a.entry-link",
+     "selector_reason": "article.post-entry is the only element class the PaperMod list template (themes/hugo-PaperMod/layouts/_default/list.html, \"post-entry\"/\"post-entry tag-entry\") assigns per paginated page; each article holds exactly one a.entry-link pointing at the page permalink",
+     "link_count": 1
+    },
+    {
+     "path": "git_directory/index.html",
+     "main_list_selector": "article.post-entry a.entry-link",
+     "selector_reason": "article.post-entry is the only element class the PaperMod list template (themes/hugo-PaperMod/layouts/_default/list.html, \"post-entry\"/\"post-entry tag-entry\") assigns per paginated page; each article holds exactly one a.entry-link pointing at the page permalink",
+     "link_count": 4
+    },
+    {
+     "path": "research/index.html",
+     "main_list_selector": "article.post-entry a.entry-link",
+     "selector_reason": "article.post-entry is the only element class the PaperMod list template (themes/hugo-PaperMod/layouts/_default/list.html, \"post-entry\"/\"post-entry tag-entry\") assigns per paginated page; each article holds exactly one a.entry-link pointing at the page permalink",
+     "link_count": 1
+    },
+    {
+     "path": "rfsoc_directory/index.html",
+     "main_list_selector": "article.post-entry a.entry-link",
+     "selector_reason": "article.post-entry is the only element class the PaperMod list template (themes/hugo-PaperMod/layouts/_default/list.html, \"post-entry\"/\"post-entry tag-entry\") assigns per paginated page; each article holds exactly one a.entry-link pointing at the page permalink",
+     "link_count": 2
+    },
+    {
+     "path": "rtl_directory/index.html",
+     "main_list_selector": "article.post-entry a.entry-link",
+     "selector_reason": "article.post-entry is the only element class the PaperMod list template (themes/hugo-PaperMod/layouts/_default/list.html, \"post-entry\"/\"post-entry tag-entry\") assigns per paginated page; each article holds exactly one a.entry-link pointing at the page permalink",
+     "link_count": 10
+    },
+    {
+     "path": "rtl_directory/page/2/index.html",
+     "main_list_selector": "article.post-entry a.entry-link",
+     "selector_reason": "article.post-entry is the only element class the PaperMod list template (themes/hugo-PaperMod/layouts/_default/list.html, \"post-entry\"/\"post-entry tag-entry\") assigns per paginated page; each article holds exactly one a.entry-link pointing at the page permalink",
+     "link_count": 10
+    },
+    {
+     "path": "rtl_directory/page/3/index.html",
+     "main_list_selector": "article.post-entry a.entry-link",
+     "selector_reason": "article.post-entry is the only element class the PaperMod list template (themes/hugo-PaperMod/layouts/_default/list.html, \"post-entry\"/\"post-entry tag-entry\") assigns per paginated page; each article holds exactly one a.entry-link pointing at the page permalink",
+     "link_count": 5
+    },
+    {
+     "path": "sv_directory/index.html",
+     "main_list_selector": "article.post-entry a.entry-link",
+     "selector_reason": "article.post-entry is the only element class the PaperMod list template (themes/hugo-PaperMod/layouts/_default/list.html, \"post-entry\"/\"post-entry tag-entry\") assigns per paginated page; each article holds exactly one a.entry-link pointing at the page permalink",
+     "link_count": 10
+    },
+    {
+     "path": "sv_directory/page/2/index.html",
+     "main_list_selector": "article.post-entry a.entry-link",
+     "selector_reason": "article.post-entry is the only element class the PaperMod list template (themes/hugo-PaperMod/layouts/_default/list.html, \"post-entry\"/\"post-entry tag-entry\") assigns per paginated page; each article holds exactly one a.entry-link pointing at the page permalink",
+     "link_count": 10
+    },
+    {
+     "path": "sv_directory/page/3/index.html",
+     "main_list_selector": "article.post-entry a.entry-link",
+     "selector_reason": "article.post-entry is the only element class the PaperMod list template (themes/hugo-PaperMod/layouts/_default/list.html, \"post-entry\"/\"post-entry tag-entry\") assigns per paginated page; each article holds exactly one a.entry-link pointing at the page permalink",
+     "link_count": 10
+    },
+    {
+     "path": "sv_directory/page/4/index.html",
+     "main_list_selector": "article.post-entry a.entry-link",
+     "selector_reason": "article.post-entry is the only element class the PaperMod list template (themes/hugo-PaperMod/layouts/_default/list.html, \"post-entry\"/\"post-entry tag-entry\") assigns per paginated page; each article holds exactly one a.entry-link pointing at the page permalink",
+     "link_count": 10
+    },
+    {
+     "path": "sv_directory/page/5/index.html",
+     "main_list_selector": "article.post-entry a.entry-link",
+     "selector_reason": "article.post-entry is the only element class the PaperMod list template (themes/hugo-PaperMod/layouts/_default/list.html, \"post-entry\"/\"post-entry tag-entry\") assigns per paginated page; each article holds exactly one a.entry-link pointing at the page permalink",
+     "link_count": 3
+    },
+    {
+     "path": "tags/article/index.html",
+     "main_list_selector": "article.post-entry a.entry-link",
+     "selector_reason": "article.post-entry is the only element class the PaperMod list template (themes/hugo-PaperMod/layouts/_default/list.html, \"post-entry\"/\"post-entry tag-entry\") assigns per paginated page; each article holds exactly one a.entry-link pointing at the page permalink",
+     "link_count": 2
+    },
+    {
+     "path": "tags/emacs/index.html",
+     "main_list_selector": "article.post-entry a.entry-link",
+     "selector_reason": "article.post-entry is the only element class the PaperMod list template (themes/hugo-PaperMod/layouts/_default/list.html, \"post-entry\"/\"post-entry tag-entry\") assigns per paginated page; each article holds exactly one a.entry-link pointing at the page permalink",
+     "link_count": 1
+    },
+    {
+     "path": "tags/git/index.html",
+     "main_list_selector": "article.post-entry a.entry-link",
+     "selector_reason": "article.post-entry is the only element class the PaperMod list template (themes/hugo-PaperMod/layouts/_default/list.html, \"post-entry\"/\"post-entry tag-entry\") assigns per paginated page; each article holds exactly one a.entry-link pointing at the page permalink",
+     "link_count": 4
+    },
+    {
+     "path": "tags/rfsoc/index.html",
+     "main_list_selector": "article.post-entry a.entry-link",
+     "selector_reason": "article.post-entry is the only element class the PaperMod list template (themes/hugo-PaperMod/layouts/_default/list.html, \"post-entry\"/\"post-entry tag-entry\") assigns per paginated page; each article holds exactly one a.entry-link pointing at the page permalink",
+     "link_count": 2
+    },
+    {
+     "path": "tags/rtl/index.html",
+     "main_list_selector": "article.post-entry a.entry-link",
+     "selector_reason": "article.post-entry is the only element class the PaperMod list template (themes/hugo-PaperMod/layouts/_default/list.html, \"post-entry\"/\"post-entry tag-entry\") assigns per paginated page; each article holds exactly one a.entry-link pointing at the page permalink",
+     "link_count": 10
+    },
+    {
+     "path": "tags/rtl/page/2/index.html",
+     "main_list_selector": "article.post-entry a.entry-link",
+     "selector_reason": "article.post-entry is the only element class the PaperMod list template (themes/hugo-PaperMod/layouts/_default/list.html, \"post-entry\"/\"post-entry tag-entry\") assigns per paginated page; each article holds exactly one a.entry-link pointing at the page permalink",
+     "link_count": 10
+    },
+    {
+     "path": "tags/rtl/page/3/index.html",
+     "main_list_selector": "article.post-entry a.entry-link",
+     "selector_reason": "article.post-entry is the only element class the PaperMod list template (themes/hugo-PaperMod/layouts/_default/list.html, \"post-entry\"/\"post-entry tag-entry\") assigns per paginated page; each article holds exactly one a.entry-link pointing at the page permalink",
+     "link_count": 4
+    },
+    {
+     "path": "tags/sv/index.html",
+     "main_list_selector": "article.post-entry a.entry-link",
+     "selector_reason": "article.post-entry is the only element class the PaperMod list template (themes/hugo-PaperMod/layouts/_default/list.html, \"post-entry\"/\"post-entry tag-entry\") assigns per paginated page; each article holds exactly one a.entry-link pointing at the page permalink",
+     "link_count": 10
+    },
+    {
+     "path": "tags/sv/page/2/index.html",
+     "main_list_selector": "article.post-entry a.entry-link",
+     "selector_reason": "article.post-entry is the only element class the PaperMod list template (themes/hugo-PaperMod/layouts/_default/list.html, \"post-entry\"/\"post-entry tag-entry\") assigns per paginated page; each article holds exactly one a.entry-link pointing at the page permalink",
+     "link_count": 10
+    },
+    {
+     "path": "tags/sv/page/3/index.html",
+     "main_list_selector": "article.post-entry a.entry-link",
+     "selector_reason": "article.post-entry is the only element class the PaperMod list template (themes/hugo-PaperMod/layouts/_default/list.html, \"post-entry\"/\"post-entry tag-entry\") assigns per paginated page; each article holds exactly one a.entry-link pointing at the page permalink",
+     "link_count": 10
+    },
+    {
+     "path": "tags/sv/page/4/index.html",
+     "main_list_selector": "article.post-entry a.entry-link",
+     "selector_reason": "article.post-entry is the only element class the PaperMod list template (themes/hugo-PaperMod/layouts/_default/list.html, \"post-entry\"/\"post-entry tag-entry\") assigns per paginated page; each article holds exactly one a.entry-link pointing at the page permalink",
+     "link_count": 10
+    },
+    {
+     "path": "tags/sv/page/5/index.html",
+     "main_list_selector": "article.post-entry a.entry-link",
+     "selector_reason": "article.post-entry is the only element class the PaperMod list template (themes/hugo-PaperMod/layouts/_default/list.html, \"post-entry\"/\"post-entry tag-entry\") assigns per paginated page; each article holds exactly one a.entry-link pointing at the page permalink",
+     "link_count": 2
+    },
+    {
+     "path": "tags/toc/index.html",
+     "main_list_selector": "article.post-entry a.entry-link",
+     "selector_reason": "article.post-entry is the only element class the PaperMod list template (themes/hugo-PaperMod/layouts/_default/list.html, \"post-entry\"/\"post-entry tag-entry\") assigns per paginated page; each article holds exactly one a.entry-link pointing at the page permalink",
+     "link_count": 2
+    },
+    {
+     "path": "tags/vim/index.html",
+     "main_list_selector": "article.post-entry a.entry-link",
+     "selector_reason": "article.post-entry is the only element class the PaperMod list template (themes/hugo-PaperMod/layouts/_default/list.html, \"post-entry\"/\"post-entry tag-entry\") assigns per paginated page; each article holds exactly one a.entry-link pointing at the page permalink",
+     "link_count": 5
+    },
+    {
+     "path": "vim_directory/index.html",
+     "main_list_selector": "article.post-entry a.entry-link",
+     "selector_reason": "article.post-entry is the only element class the PaperMod list template (themes/hugo-PaperMod/layouts/_default/list.html, \"post-entry\"/\"post-entry tag-entry\") assigns per paginated page; each article holds exactly one a.entry-link pointing at the page permalink",
+     "link_count": 5
+    }
+   ]
+  },
+  {
+   "sha": "1a32523d61d353e86be77714b53180286488ed8f",
+   "date": "2024-09-25",
+   "adds_new_content": true,
+   "worktree_method": "git worktree add --detach on blobless clone (blobs fetched on demand)",
+   "hugo_version": "0.128.0 extended",
+   "build_command": "hugo --gc --minify -d <worktree>/out",
+   "build_ok": true,
+   "build_seconds": 3.05,
+   "error_excerpt": null,
+   "page_count": 150,
+   "output_dir_config_line": "no publishDir in hugo.toml; Hugo default public/ (builds here run with -d <worktree>/out)",
+   "list_pages": [
+    {
+     "path": "about/index.html",
+     "main_list_selector": "article.post-entry a.entry-link",
+     "selector_reason": "article.post-entry is the only element class the PaperMod list template (themes/hugo-PaperMod/layouts/_default/list.html, \"post-entry\"/\"post-entry tag-entry\") assigns per paginated page; each article holds exactly one a.entry-link pointing at the page permalink",
+     "link_count": 1
+    },
+    {
+     "path": "article/index.html",
+     "main_list_selector": "article.post-entry a.entry-link",
+     "selector_reason": "article.post-entry is the only element class the PaperMod list template (themes/hugo-PaperMod/layouts/_default/list.html, \"post-entry\"/\"post-entry tag-entry\") assigns per paginated page; each article holds exactly one a.entry-link pointing at the page permalink",
+     "link_count": 2
+    },
+    {
+     "path": "emacs_directory/index.html",
+     "main_list_selector": "article.post-entry a.entry-link",
+     "selector_reason": "article.post-entry is the only element class the PaperMod list template (themes/hugo-PaperMod/layouts/_default/list.html, \"post-entry\"/\"post-entry tag-entry\") assigns per paginated page; each article holds exactly one a.entry-link pointing at the page permalink",
+     "link_count": 1
+    },
+    {
+     "path": "git_directory/index.html",
+     "main_list_selector": "article.post-entry a.entry-link",
+     "selector_reason": "article.post-entry is the only element class the PaperMod list template (themes/hugo-PaperMod/layouts/_default/list.html, \"post-entry\"/\"post-entry tag-entry\") assigns per paginated page; each article holds exactly one a.entry-link pointing at the page permalink",
+     "link_count": 4
+    },
+    {
+     "path": "research/index.html",
+     "main_list_selector": "article.post-entry a.entry-link",
+     "selector_reason": "article.post-entry is the only element class the PaperMod list template (themes/hugo-PaperMod/layouts/_default/list.html, \"post-entry\"/\"post-entry tag-entry\") assigns per paginated page; each article holds exactly one a.entry-link pointing at the page permalink",
+     "link_count": 1
+    },
+    {
+     "path": "rfsoc_directory/index.html",
+     "main_list_selector": "article.post-entry a.entry-link",
+     "selector_reason": "article.post-entry is the only element class the PaperMod list template (themes/hugo-PaperMod/layouts/_default/list.html, \"post-entry\"/\"post-entry tag-entry\") assigns per paginated page; each article holds exactly one a.entry-link pointing at the page permalink",
+     "link_count": 2
+    },
+    {
+     "path": "rtl_directory/index.html",
+     "main_list_selector": "article.post-entry a.entry-link",
+     "selector_reason": "article.post-entry is the only element class the PaperMod list template (themes/hugo-PaperMod/layouts/_default/list.html, \"post-entry\"/\"post-entry tag-entry\") assigns per paginated page; each article holds exactly one a.entry-link pointing at the page permalink",
+     "link_count": 10
+    },
+    {
+     "path": "rtl_directory/page/2/index.html",
+     "main_list_selector": "article.post-entry a.entry-link",
+     "selector_reason": "article.post-entry is the only element class the PaperMod list template (themes/hugo-PaperMod/layouts/_default/list.html, \"post-entry\"/\"post-entry tag-entry\") assigns per paginated page; each article holds exactly one a.entry-link pointing at the page permalink",
+     "link_count": 10
+    },
+    {
+     "path": "rtl_directory/page/3/index.html",
+     "main_list_selector": "article.post-entry a.entry-link",
+     "selector_reason": "article.post-entry is the only element class the PaperMod list template (themes/hugo-PaperMod/layouts/_default/list.html, \"post-entry\"/\"post-entry tag-entry\") assigns per paginated page; each article holds exactly one a.entry-link pointing at the page permalink",
+     "link_count": 10
+    },
+    {
+     "path": "rtl_directory/page/4/index.html",
+     "main_list_selector": "article.post-entry a.entry-link",
+     "selector_reason": "article.post-entry is the only element class the PaperMod list template (themes/hugo-PaperMod/layouts/_default/list.html, \"post-entry\"/\"post-entry tag-entry\") assigns per paginated page; each article holds exactly one a.entry-link pointing at the page permalink",
+     "link_count": 1
+    },
+    {
+     "path": "sv_directory/index.html",
+     "main_list_selector": "article.post-entry a.entry-link",
+     "selector_reason": "article.post-entry is the only element class the PaperMod list template (themes/hugo-PaperMod/layouts/_default/list.html, \"post-entry\"/\"post-entry tag-entry\") assigns per paginated page; each article holds exactly one a.entry-link pointing at the page permalink",
+     "link_count": 10
+    },
+    {
+     "path": "sv_directory/page/2/index.html",
+     "main_list_selector": "article.post-entry a.entry-link",
+     "selector_reason": "article.post-entry is the only element class the PaperMod list template (themes/hugo-PaperMod/layouts/_default/list.html, \"post-entry\"/\"post-entry tag-entry\") assigns per paginated page; each article holds exactly one a.entry-link pointing at the page permalink",
+     "link_count": 10
+    },
+    {
+     "path": "sv_directory/page/3/index.html",
+     "main_list_selector": "article.post-entry a.entry-link",
+     "selector_reason": "article.post-entry is the only element class the PaperMod list template (themes/hugo-PaperMod/layouts/_default/list.html, \"post-entry\"/\"post-entry tag-entry\") assigns per paginated page; each article holds exactly one a.entry-link pointing at the page permalink",
+     "link_count": 10
+    },
+    {
+     "path": "sv_directory/page/4/index.html",
+     "main_list_selector": "article.post-entry a.entry-link",
+     "selector_reason": "article.post-entry is the only element class the PaperMod list template (themes/hugo-PaperMod/layouts/_default/list.html, \"post-entry\"/\"post-entry tag-entry\") assigns per paginated page; each article holds exactly one a.entry-link pointing at the page permalink",
+     "link_count": 10
+    },
+    {
+     "path": "sv_directory/page/5/index.html",
+     "main_list_selector": "article.post-entry a.entry-link",
+     "selector_reason": "article.post-entry is the only element class the PaperMod list template (themes/hugo-PaperMod/layouts/_default/list.html, \"post-entry\"/\"post-entry tag-entry\") assigns per paginated page; each article holds exactly one a.entry-link pointing at the page permalink",
+     "link_count": 3
+    },
+    {
+     "path": "tags/article/index.html",
+     "main_list_selector": "article.post-entry a.entry-link",
+     "selector_reason": "article.post-entry is the only element class the PaperMod list template (themes/hugo-PaperMod/layouts/_default/list.html, \"post-entry\"/\"post-entry tag-entry\") assigns per paginated page; each article holds exactly one a.entry-link pointing at the page permalink",
+     "link_count": 2
+    },
+    {
+     "path": "tags/emacs/index.html",
+     "main_list_selector": "article.post-entry a.entry-link",
+     "selector_reason": "article.post-entry is the only element class the PaperMod list template (themes/hugo-PaperMod/layouts/_default/list.html, \"post-entry\"/\"post-entry tag-entry\") assigns per paginated page; each article holds exactly one a.entry-link pointing at the page permalink",
+     "link_count": 1
+    },
+    {
+     "path": "tags/git/index.html",
+     "main_list_selector": "article.post-entry a.entry-link",
+     "selector_reason": "article.post-entry is the only element class the PaperMod list template (themes/hugo-PaperMod/layouts/_default/list.html, \"post-entry\"/\"post-entry tag-entry\") assigns per paginated page; each article holds exactly one a.entry-link pointing at the page permalink",
+     "link_count": 4
+    },
+    {
+     "path": "tags/rfsoc/index.html",
+     "main_list_selector": "article.post-entry a.entry-link",
+     "selector_reason": "article.post-entry is the only element class the PaperMod list template (themes/hugo-PaperMod/layouts/_default/list.html, \"post-entry\"/\"post-entry tag-entry\") assigns per paginated page; each article holds exactly one a.entry-link pointing at the page permalink",
+     "link_count": 2
+    },
+    {
+     "path": "tags/rtl/index.html",
+     "main_list_selector": "article.post-entry a.entry-link",
+     "selector_reason": "article.post-entry is the only element class the PaperMod list template (themes/hugo-PaperMod/layouts/_default/list.html, \"post-entry\"/\"post-entry tag-entry\") assigns per paginated page; each article holds exactly one a.entry-link pointing at the page permalink",
+     "link_count": 10
+    },
+    {
+     "path": "tags/rtl/page/2/index.html",
+     "main_list_selector": "article.post-entry a.entry-link",
+     "selector_reason": "article.post-entry is the only element class the PaperMod list template (themes/hugo-PaperMod/layouts/_default/list.html, \"post-entry\"/\"post-entry tag-entry\") assigns per paginated page; each article holds exactly one a.entry-link pointing at the page permalink",
+     "link_count": 10
+    },
+    {
+     "path": "tags/rtl/page/3/index.html",
+     "main_list_selector": "article.post-entry a.entry-link",
+     "selector_reason": "article.post-entry is the only element class the PaperMod list template (themes/hugo-PaperMod/layouts/_default/list.html, \"post-entry\"/\"post-entry tag-entry\") assigns per paginated page; each article holds exactly one a.entry-link pointing at the page permalink",
+     "link_count": 10
+    },
+    {
+     "path": "tags/sv/index.html",
+     "main_list_selector": "article.post-entry a.entry-link",
+     "selector_reason": "article.post-entry is the only element class the PaperMod list template (themes/hugo-PaperMod/layouts/_default/list.html, \"post-entry\"/\"post-entry tag-entry\") assigns per paginated page; each article holds exactly one a.entry-link pointing at the page permalink",
+     "link_count": 10
+    },
+    {
+     "path": "tags/sv/page/2/index.html",
+     "main_list_selector": "article.post-entry a.entry-link",
+     "selector_reason": "article.post-entry is the only element class the PaperMod list template (themes/hugo-PaperMod/layouts/_default/list.html, \"post-entry\"/\"post-entry tag-entry\") assigns per paginated page; each article holds exactly one a.entry-link pointing at the page permalink",
+     "link_count": 10
+    },
+    {
+     "path": "tags/sv/page/3/index.html",
+     "main_list_selector": "article.post-entry a.entry-link",
+     "selector_reason": "article.post-entry is the only element class the PaperMod list template (themes/hugo-PaperMod/layouts/_default/list.html, \"post-entry\"/\"post-entry tag-entry\") assigns per paginated page; each article holds exactly one a.entry-link pointing at the page permalink",
+     "link_count": 10
+    },
+    {
+     "path": "tags/sv/page/4/index.html",
+     "main_list_selector": "article.post-entry a.entry-link",
+     "selector_reason": "article.post-entry is the only element class the PaperMod list template (themes/hugo-PaperMod/layouts/_default/list.html, \"post-entry\"/\"post-entry tag-entry\") assigns per paginated page; each article holds exactly one a.entry-link pointing at the page permalink",
+     "link_count": 10
+    },
+    {
+     "path": "tags/sv/page/5/index.html",
+     "main_list_selector": "article.post-entry a.entry-link",
+     "selector_reason": "article.post-entry is the only element class the PaperMod list template (themes/hugo-PaperMod/layouts/_default/list.html, \"post-entry\"/\"post-entry tag-entry\") assigns per paginated page; each article holds exactly one a.entry-link pointing at the page permalink",
+     "link_count": 2
+    },
+    {
+     "path": "tags/toc/index.html",
+     "main_list_selector": "article.post-entry a.entry-link",
+     "selector_reason": "article.post-entry is the only element class the PaperMod list template (themes/hugo-PaperMod/layouts/_default/list.html, \"post-entry\"/\"post-entry tag-entry\") assigns per paginated page; each article holds exactly one a.entry-link pointing at the page permalink",
+     "link_count": 3
+    },
+    {
+     "path": "tags/uvm/index.html",
+     "main_list_selector": "article.post-entry a.entry-link",
+     "selector_reason": "article.post-entry is the only element class the PaperMod list template (themes/hugo-PaperMod/layouts/_default/list.html, \"post-entry\"/\"post-entry tag-entry\") assigns per paginated page; each article holds exactly one a.entry-link pointing at the page permalink",
+     "link_count": 4
+    },
+    {
+     "path": "tags/vim/index.html",
+     "main_list_selector": "article.post-entry a.entry-link",
+     "selector_reason": "article.post-entry is the only element class the PaperMod list template (themes/hugo-PaperMod/layouts/_default/list.html, \"post-entry\"/\"post-entry tag-entry\") assigns per paginated page; each article holds exactly one a.entry-link pointing at the page permalink",
+     "link_count": 5
+    },
+    {
+     "path": "uvm_directory/index.html",
+     "main_list_selector": "article.post-entry a.entry-link",
+     "selector_reason": "article.post-entry is the only element class the PaperMod list template (themes/hugo-PaperMod/layouts/_default/list.html, \"post-entry\"/\"post-entry tag-entry\") assigns per paginated page; each article holds exactly one a.entry-link pointing at the page permalink",
+     "link_count": 5
+    },
+    {
+     "path": "vim_directory/index.html",
+     "main_list_selector": "article.post-entry a.entry-link",
+     "selector_reason": "article.post-entry is the only element class the PaperMod list template (themes/hugo-PaperMod/layouts/_default/list.html, \"post-entry\"/\"post-entry tag-entry\") assigns per paginated page; each article holds exactly one a.entry-link pointing at the page permalink",
+     "link_count": 5
+    }
+   ]
+  },
+  {
+   "sha": "5f5344b116616465274ce87ddf228f852b69ab84",
+   "date": "2024-10-15",
+   "adds_new_content": true,
+   "worktree_method": "git worktree add --detach on blobless clone (blobs fetched on demand)",
+   "hugo_version": "0.128.0 extended",
+   "build_command": "hugo --gc --minify -d <worktree>/out",
+   "build_ok": true,
+   "build_seconds": 3.12,
+   "error_excerpt": null,
+   "page_count": 160,
+   "output_dir_config_line": "no publishDir in hugo.toml; Hugo default public/ (builds here run with -d <worktree>/out)",
+   "list_pages": [
+    {
+     "path": "about/index.html",
+     "main_list_selector": "article.post-entry a.entry-link",
+     "selector_reason": "article.post-entry is the only element class the PaperMod list template (themes/hugo-PaperMod/layouts/_default/list.html, \"post-entry\"/\"post-entry tag-entry\") assigns per paginated page; each article holds exactly one a.entry-link pointing at the page permalink",
+     "link_count": 1
+    },
+    {
+     "path": "article/index.html",
+     "main_list_selector": "article.post-entry a.entry-link",
+     "selector_reason": "article.post-entry is the only element class the PaperMod list template (themes/hugo-PaperMod/layouts/_default/list.html, \"post-entry\"/\"post-entry tag-entry\") assigns per paginated page; each article holds exactly one a.entry-link pointing at the page permalink",
+     "link_count": 2
+    },
+    {
+     "path": "emacs_directory/index.html",
+     "main_list_selector": "article.post-entry a.entry-link",
+     "selector_reason": "article.post-entry is the only element class the PaperMod list template (themes/hugo-PaperMod/layouts/_default/list.html, \"post-entry\"/\"post-entry tag-entry\") assigns per paginated page; each article holds exactly one a.entry-link pointing at the page permalink",
+     "link_count": 1
+    },
+    {
+     "path": "git_directory/index.html",
+     "main_list_selector": "article.post-entry a.entry-link",
+     "selector_reason": "article.post-entry is the only element class the PaperMod list template (themes/hugo-PaperMod/layouts/_default/list.html, \"post-entry\"/\"post-entry tag-entry\") assigns per paginated page; each article holds exactly one a.entry-link pointing at the page permalink",
+     "link_count": 4
+    },
+    {
+     "path": "research/index.html",
+     "main_list_selector": "article.post-entry a.entry-link",
+     "selector_reason": "article.post-entry is the only element class the PaperMod list template (themes/hugo-PaperMod/layouts/_default/list.html, \"post-entry\"/\"post-entry tag-entry\") assigns per paginated page; each article holds exactly one a.entry-link pointing at the page permalink",
+     "link_count": 1
+    },
+    {
+     "path": "rfsoc_directory/index.html",
+     "main_list_selector": "article.post-entry a.entry-link",
+     "selector_reason": "article.post-entry is the only element class the PaperMod list template (themes/hugo-PaperMod/layouts/_default/list.html, \"post-entry\"/\"post-entry tag-entry\") assigns per paginated page; each article holds exactly one a.entry-link pointing at the page permalink",
+     "link_count": 2
+    },
+    {
+     "path": "rtl_directory/index.html",
+     "main_list_selector": "article.post-entry a.entry-link",
+     "selector_reason": "article.post-entry is the only element class the PaperMod list template (themes/hugo-PaperMod/layouts/_default/list.html, \"post-entry\"/\"post-entry tag-entry\") assigns per paginated page; each article holds exactly one a.entry-link pointing at the page permalink",
+     "link_count": 10
+    },
+    {
+     "path": "rtl_directory/page/2/index.html",
+     "main_list_selector": "article.post-entry a.entry-link",
+     "selector_reason": "article.post-entry is the only element class the PaperMod list template (themes/hugo-PaperMod/layouts/_default/list.html, \"post-entry\"/\"post-entry tag-entry\") assigns per paginated page; each article holds exactly one a.entry-link pointing at the page permalink",
+     "link_count": 10
+    },
+    {
+     "path": "rtl_directory/page/3/index.html",
+     "main_list_selector": "article.post-entry a.entry-link",
+     "selector_reason": "article.post-entry is the only element class the PaperMod list template (themes/hugo-PaperMod/layouts/_default/list.html, \"post-entry\"/\"post-entry tag-entry\") assigns per paginated page; each article holds exactly one a.entry-link pointing at the page permalink",
+     "link_count": 10
+    },
+    {
+     "path": "rtl_directory/page/4/index.html",
+     "main_list_selector": "article.post-entry a.entry-link",
+     "selector_reason": "article.post-entry is the only element class the PaperMod list template (themes/hugo-PaperMod/layouts/_default/list.html, \"post-entry\"/\"post-entry tag-entry\") assigns per paginated page; each article holds exactly one a.entry-link pointing at the page permalink",
+     "link_count": 2
+    },
+    {
+     "path": "sv_directory/index.html",
+     "main_list_selector": "article.post-entry a.entry-link",
+     "selector_reason": "article.post-entry is the only element class the PaperMod list template (themes/hugo-PaperMod/layouts/_default/list.html, \"post-entry\"/\"post-entry tag-entry\") assigns per paginated page; each article holds exactly one a.entry-link pointing at the page permalink",
+     "link_count": 10
+    },
+    {
+     "path": "sv_directory/page/2/index.html",
+     "main_list_selector": "article.post-entry a.entry-link",
+     "selector_reason": "article.post-entry is the only element class the PaperMod list template (themes/hugo-PaperMod/layouts/_default/list.html, \"post-entry\"/\"post-entry tag-entry\") assigns per paginated page; each article holds exactly one a.entry-link pointing at the page permalink",
+     "link_count": 10
+    },
+    {
+     "path": "sv_directory/page/3/index.html",
+     "main_list_selector": "article.post-entry a.entry-link",
+     "selector_reason": "article.post-entry is the only element class the PaperMod list template (themes/hugo-PaperMod/layouts/_default/list.html, \"post-entry\"/\"post-entry tag-entry\") assigns per paginated page; each article holds exactly one a.entry-link pointing at the page permalink",
+     "link_count": 10
+    },
+    {
+     "path": "sv_directory/page/4/index.html",
+     "main_list_selector": "article.post-entry a.entry-link",
+     "selector_reason": "article.post-entry is the only element class the PaperMod list template (themes/hugo-PaperMod/layouts/_default/list.html, \"post-entry\"/\"post-entry tag-entry\") assigns per paginated page; each article holds exactly one a.entry-link pointing at the page permalink",
+     "link_count": 10
+    },
+    {
+     "path": "sv_directory/page/5/index.html",
+     "main_list_selector": "article.post-entry a.entry-link",
+     "selector_reason": "article.post-entry is the only element class the PaperMod list template (themes/hugo-PaperMod/layouts/_default/list.html, \"post-entry\"/\"post-entry tag-entry\") assigns per paginated page; each article holds exactly one a.entry-link pointing at the page permalink",
+     "link_count": 8
+    },
+    {
+     "path": "tags/article/index.html",
+     "main_list_selector": "article.post-entry a.entry-link",
+     "selector_reason": "article.post-entry is the only element class the PaperMod list template (themes/hugo-PaperMod/layouts/_default/list.html, \"post-entry\"/\"post-entry tag-entry\") assigns per paginated page; each article holds exactly one a.entry-link pointing at the page permalink",
+     "link_count": 2
+    },
+    {
+     "path": "tags/emacs/index.html",
+     "main_list_selector": "article.post-entry a.entry-link",
+     "selector_reason": "article.post-entry is the only element class the PaperMod list template (themes/hugo-PaperMod/layouts/_default/list.html, \"post-entry\"/\"post-entry tag-entry\") assigns per paginated page; each article holds exactly one a.entry-link pointing at the page permalink",
+     "link_count": 1
+    },
+    {
+     "path": "tags/git/index.html",
+     "main_list_selector": "article.post-entry a.entry-link",
+     "selector_reason": "article.post-entry is the only element class the PaperMod list template (themes/hugo-PaperMod/layouts/_default/list.html, \"post-entry\"/\"post-entry tag-entry\") assigns per paginated page; each article holds exactly one a.entry-link pointing at the page permalink",
+     "link_count": 4
+    },
+    {
+     "path": "tags/rfsoc/index.html",
+     "main_list_selector": "article.post-entry a.entry-link",
+     "selector_reason": "article.post-entry is the only element class the PaperMod list template (themes/hugo-PaperMod/layouts/_default/list.html, \"post-entry\"/\"post-entry tag-entry\") assigns per paginated page; each article holds exactly one a.entry-link pointing at the page permalink",
+     "link_count": 2
+    },
+    {
+     "path": "tags/rtl/index.html",
+     "main_list_selector": "article.post-entry a.entry-link",
+     "selector_reason": "article.post-entry is the only element class the PaperMod list template (themes/hugo-PaperMod/layouts/_default/list.html, \"post-entry\"/\"post-entry tag-entry\") assigns per paginated page; each article holds exactly one a.entry-link pointing at the page permalink",
+     "link_count": 10
+    },
+    {
+     "path": "tags/rtl/page/2/index.html",
+     "main_list_selector": "article.post-entry a.entry-link",
+     "selector_reason": "article.post-entry is the only element class the PaperMod list template (themes/hugo-PaperMod/layouts/_default/list.html, \"post-entry\"/\"post-entry tag-entry\") assigns per paginated page; each article holds exactly one a.entry-link pointing at the page permalink",
+     "link_count": 10
+    },
+    {
+     "path": "tags/rtl/page/3/index.html",
+     "main_list_selector": "article.post-entry a.entry-link",
+     "selector_reason": "article.post-entry is the only element class the PaperMod list template (themes/hugo-PaperMod/layouts/_default/list.html, \"post-entry\"/\"post-entry tag-entry\") assigns per paginated page; each article holds exactly one a.entry-link pointing at the page permalink",
+     "link_count": 10
+    },
+    {
+     "path": "tags/rtl/page/4/index.html",
+     "main_list_selector": "article.post-entry a.entry-link",
+     "selector_reason": "article.post-entry is the only element class the PaperMod list template (themes/hugo-PaperMod/layouts/_default/list.html, \"post-entry\"/\"post-entry tag-entry\") assigns per paginated page; each article holds exactly one a.entry-link pointing at the page permalink",
+     "link_count": 1
+    },
+    {
+     "path": "tags/sv/index.html",
+     "main_list_selector": "article.post-entry a.entry-link",
+     "selector_reason": "article.post-entry is the only element class the PaperMod list template (themes/hugo-PaperMod/layouts/_default/list.html, \"post-entry\"/\"post-entry tag-entry\") assigns per paginated page; each article holds exactly one a.entry-link pointing at the page permalink",
+     "link_count": 10
+    },
+    {
+     "path": "tags/sv/page/2/index.html",
+     "main_list_selector": "article.post-entry a.entry-link",
+     "selector_reason": "article.post-entry is the only element class the PaperMod list template (themes/hugo-PaperMod/layouts/_default/list.html, \"post-entry\"/\"post-entry tag-entry\") assigns per paginated page; each article holds exactly one a.entry-link pointing at the page permalink",
+     "link_count": 10
+    },
+    {
+     "path": "tags/sv/page/3/index.html",
+     "main_list_selector": "article.post-entry a.entry-link",
+     "selector_reason": "article.post-entry is the only element class the PaperMod list template (themes/hugo-PaperMod/layouts/_default/list.html, \"post-entry\"/\"post-entry tag-entry\") assigns per paginated page; each article holds exactly one a.entry-link pointing at the page permalink",
+     "link_count": 10
+    },
+    {
+     "path": "tags/sv/page/4/index.html",
+     "main_list_selector": "article.post-entry a.entry-link",
+     "selector_reason": "article.post-entry is the only element class the PaperMod list template (themes/hugo-PaperMod/layouts/_default/list.html, \"post-entry\"/\"post-entry tag-entry\") assigns per paginated page; each article holds exactly one a.entry-link pointing at the page permalink",
+     "link_count": 10
+    },
+    {
+     "path": "tags/sv/page/5/index.html",
+     "main_list_selector": "article.post-entry a.entry-link",
+     "selector_reason": "article.post-entry is the only element class the PaperMod list template (themes/hugo-PaperMod/layouts/_default/list.html, \"post-entry\"/\"post-entry tag-entry\") assigns per paginated page; each article holds exactly one a.entry-link pointing at the page permalink",
+     "link_count": 7
+    },
+    {
+     "path": "tags/toc/index.html",
+     "main_list_selector": "article.post-entry a.entry-link",
+     "selector_reason": "article.post-entry is the only element class the PaperMod list template (themes/hugo-PaperMod/layouts/_default/list.html, \"post-entry\"/\"post-entry tag-entry\") assigns per paginated page; each article holds exactly one a.entry-link pointing at the page permalink",
+     "link_count": 3
+    },
+    {
+     "path": "tags/uvm/index.html",
+     "main_list_selector": "article.post-entry a.entry-link",
+     "selector_reason": "article.post-entry is the only element class the PaperMod list template (themes/hugo-PaperMod/layouts/_default/list.html, \"post-entry\"/\"post-entry tag-entry\") assigns per paginated page; each article holds exactly one a.entry-link pointing at the page permalink",
+     "link_count": 7
+    },
+    {
+     "path": "tags/vim/index.html",
+     "main_list_selector": "article.post-entry a.entry-link",
+     "selector_reason": "article.post-entry is the only element class the PaperMod list template (themes/hugo-PaperMod/layouts/_default/list.html, \"post-entry\"/\"post-entry tag-entry\") assigns per paginated page; each article holds exactly one a.entry-link pointing at the page permalink",
+     "link_count": 5
+    },
+    {
+     "path": "uvm_directory/index.html",
+     "main_list_selector": "article.post-entry a.entry-link",
+     "selector_reason": "article.post-entry is the only element class the PaperMod list template (themes/hugo-PaperMod/layouts/_default/list.html, \"post-entry\"/\"post-entry tag-entry\") assigns per paginated page; each article holds exactly one a.entry-link pointing at the page permalink",
+     "link_count": 8
+    },
+    {
+     "path": "vim_directory/index.html",
+     "main_list_selector": "article.post-entry a.entry-link",
+     "selector_reason": "article.post-entry is the only element class the PaperMod list template (themes/hugo-PaperMod/layouts/_default/list.html, \"post-entry\"/\"post-entry tag-entry\") assigns per paginated page; each article holds exactly one a.entry-link pointing at the page permalink",
+     "link_count": 5
+    }
+   ]
+  },
+  {
+   "sha": "2127c95379cead4e9ce535759cccc45b62ea245a",
+   "date": "2024-11-12",
+   "adds_new_content": false,
+   "worktree_method": "git worktree add --detach on blobless clone (blobs fetched on demand)",
+   "hugo_version": "0.128.0 extended",
+   "build_command": "hugo --gc --minify -d <worktree>/out",
+   "build_ok": true,
+   "build_seconds": 7.52,
+   "error_excerpt": null,
+   "page_count": 170,
+   "output_dir_config_line": "no publishDir in hugo.toml; Hugo default public/ (builds here run with -d <worktree>/out)",
+   "list_pages": [
+    {
+     "path": "about/index.html",
+     "main_list_selector": "article.post-entry a.entry-link",
+     "selector_reason": "article.post-entry is the only element class the PaperMod list template (themes/hugo-PaperMod/layouts/_default/list.html, \"post-entry\"/\"post-entry tag-entry\") assigns per paginated page; each article holds exactly one a.entry-link pointing at the page permalink",
+     "link_count": 1
+    },
+    {
+     "path": "article/index.html",
+     "main_list_selector": "article.post-entry a.entry-link",
+     "selector_reason": "article.post-entry is the only element class the PaperMod list template (themes/hugo-PaperMod/layouts/_default/list.html, \"post-entry\"/\"post-entry tag-entry\") assigns per paginated page; each article holds exactly one a.entry-link pointing at the page permalink",
+     "link_count": 2
+    },
+    {
+     "path": "emacs_directory/index.html",
+     "main_list_selector": "article.post-entry a.entry-link",
+     "selector_reason": "article.post-entry is the only element class the PaperMod list template (themes/hugo-PaperMod/layouts/_default/list.html, \"post-entry\"/\"post-entry tag-entry\") assigns per paginated page; each article holds exactly one a.entry-link pointing at the page permalink",
+     "link_count": 1
+    },
+    {
+     "path": "git_directory/index.html",
+     "main_list_selector": "article.post-entry a.entry-link",
+     "selector_reason": "article.post-entry is the only element class the PaperMod list template (themes/hugo-PaperMod/layouts/_default/list.html, \"post-entry\"/\"post-entry tag-entry\") assigns per paginated page; each article holds exactly one a.entry-link pointing at the page permalink",
+     "link_count": 4
+    },
+    {
+     "path": "research/index.html",
+     "main_list_selector": "article.post-entry a.entry-link",
+     "selector_reason": "article.post-entry is the only element class the PaperMod list template (themes/hugo-PaperMod/layouts/_default/list.html, \"post-entry\"/\"post-entry tag-entry\") assigns per paginated page; each article holds exactly one a.entry-link pointing at the page permalink",
+     "link_count": 1
+    },
+    {
+     "path": "rfsoc_directory/index.html",
+     "main_list_selector": "article.post-entry a.entry-link",
+     "selector_reason": "article.post-entry is the only element class the PaperMod list template (themes/hugo-PaperMod/layouts/_default/list.html, \"post-entry\"/\"post-entry tag-entry\") assigns per paginated page; each article holds exactly one a.entry-link pointing at the page permalink",
+     "link_count": 2
+    },
+    {
+     "path": "rtl_directory/index.html",
+     "main_list_selector": "article.post-entry a.entry-link",
+     "selector_reason": "article.post-entry is the only element class the PaperMod list template (themes/hugo-PaperMod/layouts/_default/list.html, \"post-entry\"/\"post-entry tag-entry\") assigns per paginated page; each article holds exactly one a.entry-link pointing at the page permalink",
+     "link_count": 10
+    },
+    {
+     "path": "rtl_directory/page/2/index.html",
+     "main_list_selector": "article.post-entry a.entry-link",
+     "selector_reason": "article.post-entry is the only element class the PaperMod list template (themes/hugo-PaperMod/layouts/_default/list.html, \"post-entry\"/\"post-entry tag-entry\") assigns per paginated page; each article holds exactly one a.entry-link pointing at the page permalink",
+     "link_count": 10
+    },
+    {
+     "path": "rtl_directory/page/3/index.html",
+     "main_list_selector": "article.post-entry a.entry-link",
+     "selector_reason": "article.post-entry is the only element class the PaperMod list template (themes/hugo-PaperMod/layouts/_default/list.html, \"post-entry\"/\"post-entry tag-entry\") assigns per paginated page; each article holds exactly one a.entry-link pointing at the page permalink",
+     "link_count": 10
+    },
+    {
+     "path": "rtl_directory/page/4/index.html",
+     "main_list_selector": "article.post-entry a.entry-link",
+     "selector_reason": "article.post-entry is the only element class the PaperMod list template (themes/hugo-PaperMod/layouts/_default/list.html, \"post-entry\"/\"post-entry tag-entry\") assigns per paginated page; each article holds exactly one a.entry-link pointing at the page permalink",
+     "link_count": 3
+    },
+    {
+     "path": "sv_directory/index.html",
+     "main_list_selector": "article.post-entry a.entry-link",
+     "selector_reason": "article.post-entry is the only element class the PaperMod list template (themes/hugo-PaperMod/layouts/_default/list.html, \"post-entry\"/\"post-entry tag-entry\") assigns per paginated page; each article holds exactly one a.entry-link pointing at the page permalink",
+     "link_count": 10
+    },
+    {
+     "path": "sv_directory/page/2/index.html",
+     "main_list_selector": "article.post-entry a.entry-link",
+     "selector_reason": "article.post-entry is the only element class the PaperMod list template (themes/hugo-PaperMod/layouts/_default/list.html, \"post-entry\"/\"post-entry tag-entry\") assigns per paginated page; each article holds exactly one a.entry-link pointing at the page permalink",
+     "link_count": 10
+    },
+    {
+     "path": "sv_directory/page/3/index.html",
+     "main_list_selector": "article.post-entry a.entry-link",
+     "selector_reason": "article.post-entry is the only element class the PaperMod list template (themes/hugo-PaperMod/layouts/_default/list.html, \"post-entry\"/\"post-entry tag-entry\") assigns per paginated page; each article holds exactly one a.entry-link pointing at the page permalink",
+     "link_count": 10
+    },
+    {
+     "path": "sv_directory/page/4/index.html",
+     "main_list_selector": "article.post-entry a.entry-link",
+     "selector_reason": "article.post-entry is the only element class the PaperMod list template (themes/hugo-PaperMod/layouts/_default/list.html, \"post-entry\"/\"post-entry tag-entry\") assigns per paginated page; each article holds exactly one a.entry-link pointing at the page permalink",
+     "link_count": 10
+    },
+    {
+     "path": "sv_directory/page/5/index.html",
+     "main_list_selector": "article.post-entry a.entry-link",
+     "selector_reason": "article.post-entry is the only element class the PaperMod list template (themes/hugo-PaperMod/layouts/_default/list.html, \"post-entry\"/\"post-entry tag-entry\") assigns per paginated page; each article holds exactly one a.entry-link pointing at the page permalink",
+     "link_count": 10
+    },
+    {
+     "path": "sv_directory/page/6/index.html",
+     "main_list_selector": "article.post-entry a.entry-link",
+     "selector_reason": "article.post-entry is the only element class the PaperMod list template (themes/hugo-PaperMod/layouts/_default/list.html, \"post-entry\"/\"post-entry tag-entry\") assigns per paginated page; each article holds exactly one a.entry-link pointing at the page permalink",
+     "link_count": 5
+    },
+    {
+     "path": "tags/article/index.html",
+     "main_list_selector": "article.post-entry a.entry-link",
+     "selector_reason": "article.post-entry is the only element class the PaperMod list template (themes/hugo-PaperMod/layouts/_default/list.html, \"post-entry\"/\"post-entry tag-entry\") assigns per paginated page; each article holds exactly one a.entry-link pointing at the page permalink",
+     "link_count": 2
+    },
+    {
+     "path": "tags/emacs/index.html",
+     "main_list_selector": "article.post-entry a.entry-link",
+     "selector_reason": "article.post-entry is the only element class the PaperMod list template (themes/hugo-PaperMod/layouts/_default/list.html, \"post-entry\"/\"post-entry tag-entry\") assigns per paginated page; each article holds exactly one a.entry-link pointing at the page permalink",
+     "link_count": 1
+    },
+    {
+     "path": "tags/git/index.html",
+     "main_list_selector": "article.post-entry a.entry-link",
+     "selector_reason": "article.post-entry is the only element class the PaperMod list template (themes/hugo-PaperMod/layouts/_default/list.html, \"post-entry\"/\"post-entry tag-entry\") assigns per paginated page; each article holds exactly one a.entry-link pointing at the page permalink",
+     "link_count": 4
+    },
+    {
+     "path": "tags/rfsoc/index.html",
+     "main_list_selector": "article.post-entry a.entry-link",
+     "selector_reason": "article.post-entry is the only element class the PaperMod list template (themes/hugo-PaperMod/layouts/_default/list.html, \"post-entry\"/\"post-entry tag-entry\") assigns per paginated page; each article holds exactly one a.entry-link pointing at the page permalink",
+     "link_count": 2
+    },
+    {
+     "path": "tags/rtl/index.html",
+     "main_list_selector": "article.post-entry a.entry-link",
+     "selector_reason": "article.post-entry is the only element class the PaperMod list template (themes/hugo-PaperMod/layouts/_default/list.html, \"post-entry\"/\"post-entry tag-entry\") assigns per paginated page; each article holds exactly one a.entry-link pointing at the page permalink",
+     "link_count": 10
+    },
+    {
+     "path": "tags/rtl/page/2/index.html",
+     "main_list_selector": "article.post-entry a.entry-link",
+     "selector_reason": "article.post-entry is the only element class the PaperMod list template (themes/hugo-PaperMod/layouts/_default/list.html, \"post-entry\"/\"post-entry tag-entry\") assigns per paginated page; each article holds exactly one a.entry-link pointing at the page permalink",
+     "link_count": 10
+    },
+    {
+     "path": "tags/rtl/page/3/index.html",
+     "main_list_selector": "article.post-entry a.entry-link",
+     "selector_reason": "article.post-entry is the only element class the PaperMod list template (themes/hugo-PaperMod/layouts/_default/list.html, \"post-entry\"/\"post-entry tag-entry\") assigns per paginated page; each article holds exactly one a.entry-link pointing at the page permalink",
+     "link_count": 10
+    },
+    {
+     "path": "tags/rtl/page/4/index.html",
+     "main_list_selector": "article.post-entry a.entry-link",
+     "selector_reason": "article.post-entry is the only element class the PaperMod list template (themes/hugo-PaperMod/layouts/_default/list.html, \"post-entry\"/\"post-entry tag-entry\") assigns per paginated page; each article holds exactly one a.entry-link pointing at the page permalink",
+     "link_count": 2
+    },
+    {
+     "path": "tags/sv/index.html",
+     "main_list_selector": "article.post-entry a.entry-link",
+     "selector_reason": "article.post-entry is the only element class the PaperMod list template (themes/hugo-PaperMod/layouts/_default/list.html, \"post-entry\"/\"post-entry tag-entry\") assigns per paginated page; each article holds exactly one a.entry-link pointing at the page permalink",
+     "link_count": 10
+    },
+    {
+     "path": "tags/sv/page/2/index.html",
+     "main_list_selector": "article.post-entry a.entry-link",
+     "selector_reason": "article.post-entry is the only element class the PaperMod list template (themes/hugo-PaperMod/layouts/_default/list.html, \"post-entry\"/\"post-entry tag-entry\") assigns per paginated page; each article holds exactly one a.entry-link pointing at the page permalink",
+     "link_count": 10
+    },
+    {
+     "path": "tags/sv/page/3/index.html",
+     "main_list_selector": "article.post-entry a.entry-link",
+     "selector_reason": "article.post-entry is the only element class the PaperMod list template (themes/hugo-PaperMod/layouts/_default/list.html, \"post-entry\"/\"post-entry tag-entry\") assigns per paginated page; each article holds exactly one a.entry-link pointing at the page permalink",
+     "link_count": 10
+    },
+    {
+     "path": "tags/sv/page/4/index.html",
+     "main_list_selector": "article.post-entry a.entry-link",
+     "selector_reason": "article.post-entry is the only element class the PaperMod list template (themes/hugo-PaperMod/layouts/_default/list.html, \"post-entry\"/\"post-entry tag-entry\") assigns per paginated page; each article holds exactly one a.entry-link pointing at the page permalink",
+     "link_count": 10
+    },
+    {
+     "path": "tags/sv/page/5/index.html",
+     "main_list_selector": "article.post-entry a.entry-link",
+     "selector_reason": "article.post-entry is the only element class the PaperMod list template (themes/hugo-PaperMod/layouts/_default/list.html, \"post-entry\"/\"post-entry tag-entry\") assigns per paginated page; each article holds exactly one a.entry-link pointing at the page permalink",
+     "link_count": 10
+    },
+    {
+     "path": "tags/sv/page/6/index.html",
+     "main_list_selector": "article.post-entry a.entry-link",
+     "selector_reason": "article.post-entry is the only element class the PaperMod list template (themes/hugo-PaperMod/layouts/_default/list.html, \"post-entry\"/\"post-entry tag-entry\") assigns per paginated page; each article holds exactly one a.entry-link pointing at the page permalink",
+     "link_count": 4
+    },
+    {
+     "path": "tags/toc/index.html",
+     "main_list_selector": "article.post-entry a.entry-link",
+     "selector_reason": "article.post-entry is the only element class the PaperMod list template (themes/hugo-PaperMod/layouts/_default/list.html, \"post-entry\"/\"post-entry tag-entry\") assigns per paginated page; each article holds exactly one a.entry-link pointing at the page permalink",
+     "link_count": 3
+    },
+    {
+     "path": "tags/uvm/index.html",
+     "main_list_selector": "article.post-entry a.entry-link",
+     "selector_reason": "article.post-entry is the only element class the PaperMod list template (themes/hugo-PaperMod/layouts/_default/list.html, \"post-entry\"/\"post-entry tag-entry\") assigns per paginated page; each article holds exactly one a.entry-link pointing at the page permalink",
+     "link_count": 7
+    },
+    {
+     "path": "tags/vim/index.html",
+     "main_list_selector": "article.post-entry a.entry-link",
+     "selector_reason": "article.post-entry is the only element class the PaperMod list template (themes/hugo-PaperMod/layouts/_default/list.html, \"post-entry\"/\"post-entry tag-entry\") assigns per paginated page; each article holds exactly one a.entry-link pointing at the page permalink",
+     "link_count": 5
+    },
+    {
+     "path": "uvm_directory/index.html",
+     "main_list_selector": "article.post-entry a.entry-link",
+     "selector_reason": "article.post-entry is the only element class the PaperMod list template (themes/hugo-PaperMod/layouts/_default/list.html, \"post-entry\"/\"post-entry tag-entry\") assigns per paginated page; each article holds exactly one a.entry-link pointing at the page permalink",
+     "link_count": 8
+    },
+    {
+     "path": "vim_directory/index.html",
+     "main_list_selector": "article.post-entry a.entry-link",
+     "selector_reason": "article.post-entry is the only element class the PaperMod list template (themes/hugo-PaperMod/layouts/_default/list.html, \"post-entry\"/\"post-entry tag-entry\") assigns per paginated page; each article holds exactly one a.entry-link pointing at the page permalink",
+     "link_count": 5
+    }
+   ]
+  },
+  {
+   "sha": "d3f83af7a826a4c6441e23635963b41146e524f1",
+   "date": "2025-01-12",
+   "adds_new_content": true,
+   "worktree_method": "git worktree add --detach on blobless clone (blobs fetched on demand)",
+   "hugo_version": "0.128.0 extended",
+   "build_command": "hugo --gc --minify -d <worktree>/out",
+   "build_ok": true,
+   "build_seconds": 6.39,
+   "error_excerpt": null,
+   "page_count": 186,
+   "output_dir_config_line": "no publishDir in hugo.toml; Hugo default public/ (builds here run with -d <worktree>/out)",
+   "list_pages": [
+    {
+     "path": "about/index.html",
+     "main_list_selector": "article.post-entry a.entry-link",
+     "selector_reason": "article.post-entry is the only element class the PaperMod list template (themes/hugo-PaperMod/layouts/_default/list.html, \"post-entry\"/\"post-entry tag-entry\") assigns per paginated page; each article holds exactly one a.entry-link pointing at the page permalink",
+     "link_count": 1
+    },
+    {
+     "path": "article/index.html",
+     "main_list_selector": "article.post-entry a.entry-link",
+     "selector_reason": "article.post-entry is the only element class the PaperMod list template (themes/hugo-PaperMod/layouts/_default/list.html, \"post-entry\"/\"post-entry tag-entry\") assigns per paginated page; each article holds exactly one a.entry-link pointing at the page permalink",
+     "link_count": 2
+    },
+    {
+     "path": "emacs_directory/index.html",
+     "main_list_selector": "article.post-entry a.entry-link",
+     "selector_reason": "article.post-entry is the only element class the PaperMod list template (themes/hugo-PaperMod/layouts/_default/list.html, \"post-entry\"/\"post-entry tag-entry\") assigns per paginated page; each article holds exactly one a.entry-link pointing at the page permalink",
+     "link_count": 1
+    },
+    {
+     "path": "git_directory/index.html",
+     "main_list_selector": "article.post-entry a.entry-link",
+     "selector_reason": "article.post-entry is the only element class the PaperMod list template (themes/hugo-PaperMod/layouts/_default/list.html, \"post-entry\"/\"post-entry tag-entry\") assigns per paginated page; each article holds exactly one a.entry-link pointing at the page permalink",
+     "link_count": 4
+    },
+    {
+     "path": "research/index.html",
+     "main_list_selector": "article.post-entry a.entry-link",
+     "selector_reason": "article.post-entry is the only element class the PaperMod list template (themes/hugo-PaperMod/layouts/_default/list.html, \"post-entry\"/\"post-entry tag-entry\") assigns per paginated page; each article holds exactly one a.entry-link pointing at the page permalink",
+     "link_count": 1
+    },
+    {
+     "path": "rfsoc_directory/index.html",
+     "main_list_selector": "article.post-entry a.entry-link",
+     "selector_reason": "article.post-entry is the only element class the PaperMod list template (themes/hugo-PaperMod/layouts/_default/list.html, \"post-entry\"/\"post-entry tag-entry\") assigns per paginated page; each article holds exactly one a.entry-link pointing at the page permalink",
+     "link_count": 2
+    },
+    {
+     "path": "rtl_directory/index.html",
+     "main_list_selector": "article.post-entry a.entry-link",
+     "selector_reason": "article.post-entry is the only element class the PaperMod list template (themes/hugo-PaperMod/layouts/_default/list.html, \"post-entry\"/\"post-entry tag-entry\") assigns per paginated page; each article holds exactly one a.entry-link pointing at the page permalink",
+     "link_count": 10
+    },
+    {
+     "path": "rtl_directory/page/2/index.html",
+     "main_list_selector": "article.post-entry a.entry-link",
+     "selector_reason": "article.post-entry is the only element class the PaperMod list template (themes/hugo-PaperMod/layouts/_default/list.html, \"post-entry\"/\"post-entry tag-entry\") assigns per paginated page; each article holds exactly one a.entry-link pointing at the page permalink",
+     "link_count": 10
+    },
+    {
+     "path": "rtl_directory/page/3/index.html",
+     "main_list_selector": "article.post-entry a.entry-link",
+     "selector_reason": "article.post-entry is the only element class the PaperMod list template (themes/hugo-PaperMod/layouts/_default/list.html, \"post-entry\"/\"post-entry tag-entry\") assigns per paginated page; each article holds exactly one a.entry-link pointing at the page permalink",
+     "link_count": 10
+    },
+    {
+     "path": "rtl_directory/page/4/index.html",
+     "main_list_selector": "article.post-entry a.entry-link",
+     "selector_reason": "article.post-entry is the only element class the PaperMod list template (themes/hugo-PaperMod/layouts/_default/list.html, \"post-entry\"/\"post-entry tag-entry\") assigns per paginated page; each article holds exactly one a.entry-link pointing at the page permalink",
+     "link_count": 7
+    },
+    {
+     "path": "sv_directory/index.html",
+     "main_list_selector": "article.post-entry a.entry-link",
+     "selector_reason": "article.post-entry is the only element class the PaperMod list template (themes/hugo-PaperMod/layouts/_default/list.html, \"post-entry\"/\"post-entry tag-entry\") assigns per paginated page; each article holds exactly one a.entry-link pointing at the page permalink",
+     "link_count": 10
+    },
+    {
+     "path": "sv_directory/page/2/index.html",
+     "main_list_selector": "article.post-entry a.entry-link",
+     "selector_reason": "article.post-entry is the only element class the PaperMod list template (themes/hugo-PaperMod/layouts/_default/list.html, \"post-entry\"/\"post-entry tag-entry\") assigns per paginated page; each article holds exactly one a.entry-link pointing at the page permalink",
+     "link_count": 10
+    },
+    {
+     "path": "sv_directory/page/3/index.html",
+     "main_list_selector": "article.post-entry a.entry-link",
+     "selector_reason": "article.post-entry is the only element class the PaperMod list template (themes/hugo-PaperMod/layouts/_default/list.html, \"post-entry\"/\"post-entry tag-entry\") assigns per paginated page; each article holds exactly one a.entry-link pointing at the page permalink",
+     "link_count": 10
+    },
+    {
+     "path": "sv_directory/page/4/index.html",
+     "main_list_selector": "article.post-entry a.entry-link",
+     "selector_reason": "article.post-entry is the only element class the PaperMod list template (themes/hugo-PaperMod/layouts/_default/list.html, \"post-entry\"/\"post-entry tag-entry\") assigns per paginated page; each article holds exactly one a.entry-link pointing at the page permalink",
+     "link_count": 10
+    },
+    {
+     "path": "sv_directory/page/5/index.html",
+     "main_list_selector": "article.post-entry a.entry-link",
+     "selector_reason": "article.post-entry is the only element class the PaperMod list template (themes/hugo-PaperMod/layouts/_default/list.html, \"post-entry\"/\"post-entry tag-entry\") assigns per paginated page; each article holds exactly one a.entry-link pointing at the page permalink",
+     "link_count": 10
+    },
+    {
+     "path": "sv_directory/page/6/index.html",
+     "main_list_selector": "article.post-entry a.entry-link",
+     "selector_reason": "article.post-entry is the only element class the PaperMod list template (themes/hugo-PaperMod/layouts/_default/list.html, \"post-entry\"/\"post-entry tag-entry\") assigns per paginated page; each article holds exactly one a.entry-link pointing at the page permalink",
+     "link_count": 10
+    },
+    {
+     "path": "sv_directory/page/7/index.html",
+     "main_list_selector": "article.post-entry a.entry-link",
+     "selector_reason": "article.post-entry is the only element class the PaperMod list template (themes/hugo-PaperMod/layouts/_default/list.html, \"post-entry\"/\"post-entry tag-entry\") assigns per paginated page; each article holds exactly one a.entry-link pointing at the page permalink",
+     "link_count": 1
+    },
+    {
+     "path": "tags/article/index.html",
+     "main_list_selector": "article.post-entry a.entry-link",
+     "selector_reason": "article.post-entry is the only element class the PaperMod list template (themes/hugo-PaperMod/layouts/_default/list.html, \"post-entry\"/\"post-entry tag-entry\") assigns per paginated page; each article holds exactly one a.entry-link pointing at the page permalink",
+     "link_count": 2
+    },
+    {
+     "path": "tags/cstr/index.html",
+     "main_list_selector": "article.post-entry a.entry-link",
+     "selector_reason": "article.post-entry is the only element class the PaperMod list template (themes/hugo-PaperMod/layouts/_default/list.html, \"post-entry\"/\"post-entry tag-entry\") assigns per paginated page; each article holds exactly one a.entry-link pointing at the page permalink",
+     "link_count": 5
+    },
+    {
+     "path": "tags/emacs/index.html",
+     "main_list_selector": "article.post-entry a.entry-link",
+     "selector_reason": "article.post-entry is the only element class the PaperMod list template (themes/hugo-PaperMod/layouts/_default/list.html, \"post-entry\"/\"post-entry tag-entry\") assigns per paginated page; each article holds exactly one a.entry-link pointing at the page permalink",
+     "link_count": 1
+    },
+    {
+     "path": "tags/git/index.html",
+     "main_list_selector": "article.post-entry a.entry-link",
+     "selector_reason": "article.post-entry is the only element class the PaperMod list template (themes/hugo-PaperMod/layouts/_default/list.html, \"post-entry\"/\"post-entry tag-entry\") assigns per paginated page; each article holds exactly one a.entry-link pointing at the page permalink",
+     "link_count": 4
+    },
+    {
+     "path": "tags/rfsoc/index.html",
+     "main_list_selector": "article.post-entry a.entry-link",
+     "selector_reason": "article.post-entry is the only element class the PaperMod list template (themes/hugo-PaperMod/layouts/_default/list.html, \"post-entry\"/\"post-entry tag-entry\") assigns per paginated page; each article holds exactly one a.entry-link pointing at the page permalink",
+     "link_count": 2
+    },
+    {
+     "path": "tags/rtl/index.html",
+     "main_list_selector": "article.post-entry a.entry-link",
+     "selector_reason": "article.post-entry is the only element class the PaperMod list template (themes/hugo-PaperMod/layouts/_default/list.html, \"post-entry\"/\"post-entry tag-entry\") assigns per paginated page; each article holds exactly one a.entry-link pointing at the page permalink",
+     "link_count": 10
+    },
+    {
+     "path": "tags/rtl/page/2/index.html",
+     "main_list_selector": "article.post-entry a.entry-link",
+     "selector_reason": "article.post-entry is the only element class the PaperMod list template (themes/hugo-PaperMod/layouts/_default/list.html, \"post-entry\"/\"post-entry tag-entry\") assigns per paginated page; each article holds exactly one a.entry-link pointing at the page permalink",
+     "link_count": 10
+    },
+    {
+     "path": "tags/rtl/page/3/index.html",
+     "main_list_selector": "article.post-entry a.entry-link",
+     "selector_reason": "article.post-entry is the only element class the PaperMod list template (themes/hugo-PaperMod/layouts/_default/list.html, \"post-entry\"/\"post-entry tag-entry\") assigns per paginated page; each article holds exactly one a.entry-link pointing at the page permalink",
+     "link_count": 10
+    },
+    {
+     "path": "tags/rtl/page/4/index.html",
+     "main_list_selector": "article.post-entry a.entry-link",
+     "selector_reason": "article.post-entry is the only element class the PaperMod list template (themes/hugo-PaperMod/layouts/_default/list.html, \"post-entry\"/\"post-entry tag-entry\") assigns per paginated page; each article holds exactly one a.entry-link pointing at the page permalink",
+     "link_count": 6
+    },
+    {
+     "path": "tags/sta/index.html",
+     "main_list_selector": "article.post-entry a.entry-link",
+     "selector_reason": "article.post-entry is the only element class the PaperMod list template (themes/hugo-PaperMod/layouts/_default/list.html, \"post-entry\"/\"post-entry tag-entry\") assigns per paginated page; each article holds exactly one a.entry-link pointing at the page permalink",
+     "link_count": 2
+    },
+    {
+     "path": "tags/sv/index.html",
+     "main_list_selector": "article.post-entry a.entry-link",
+     "selector_reason": "article.post-entry is the only element class the PaperMod list template (themes/hugo-PaperMod/layouts/_default/list.html, \"post-entry\"/\"post-entry tag-entry\") assigns per paginated page; each article holds exactly one a.entry-link pointing at the page permalink",
+     "link_count": 10
+    },
+    {
+     "path": "tags/sv/page/2/index.html",
+     "main_list_selector": "article.post-entry a.entry-link",
+     "selector_reason": "article.post-entry is the only element class the PaperMod list template (themes/hugo-PaperMod/layouts/_default/list.html, \"post-entry\"/\"post-entry tag-entry\") assigns per paginated page; each article holds exactly one a.entry-link pointing at the page permalink",
+     "link_count": 10
+    },
+    {
+     "path": "tags/sv/page/3/index.html",
+     "main_list_selector": "article.post-entry a.entry-link",
+     "selector_reason": "article.post-entry is the only element class the PaperMod list template (themes/hugo-PaperMod/layouts/_default/list.html, \"post-entry\"/\"post-entry tag-entry\") assigns per paginated page; each article holds exactly one a.entry-link pointing at the page permalink",
+     "link_count": 10
+    },
+    {
+     "path": "tags/sv/page/4/index.html",
+     "main_list_selector": "article.post-entry a.entry-link",
+     "selector_reason": "article.post-entry is the only element class the PaperMod list template (themes/hugo-PaperMod/layouts/_default/list.html, \"post-entry\"/\"post-entry tag-entry\") assigns per paginated page; each article holds exactly one a.entry-link pointing at the page permalink",
+     "link_count": 10
+    },
+    {
+     "path": "tags/sv/page/5/index.html",
+     "main_list_selector": "article.post-entry a.entry-link",
+     "selector_reason": "article.post-entry is the only element class the PaperMod list template (themes/hugo-PaperMod/layouts/_default/list.html, \"post-entry\"/\"post-entry tag-entry\") assigns per paginated page; each article holds exactly one a.entry-link pointing at the page permalink",
+     "link_count": 10
+    },
+    {
+     "path": "tags/sv/page/6/index.html",
+     "main_list_selector": "article.post-entry a.entry-link",
+     "selector_reason": "article.post-entry is the only element class the PaperMod list template (themes/hugo-PaperMod/layouts/_default/list.html, \"post-entry\"/\"post-entry tag-entry\") assigns per paginated page; each article holds exactly one a.entry-link pointing at the page permalink",
+     "link_count": 10
+    },
+    {
+     "path": "tags/toc/index.html",
+     "main_list_selector": "article.post-entry a.entry-link",
+     "selector_reason": "article.post-entry is the only element class the PaperMod list template (themes/hugo-PaperMod/layouts/_default/list.html, \"post-entry\"/\"post-entry tag-entry\") assigns per paginated page; each article holds exactly one a.entry-link pointing at the page permalink",
+     "link_count": 4
+    },
+    {
+     "path": "tags/uvm/index.html",
+     "main_list_selector": "article.post-entry a.entry-link",
+     "selector_reason": "article.post-entry is the only element class the PaperMod list template (themes/hugo-PaperMod/layouts/_default/list.html, \"post-entry\"/\"post-entry tag-entry\") assigns per paginated page; each article holds exactly one a.entry-link pointing at the page permalink",
+     "link_count": 7
+    },
+    {
+     "path": "tags/vim/index.html",
+     "main_list_selector": "article.post-entry a.entry-link",
+     "selector_reason": "article.post-entry is the only element class the PaperMod list template (themes/hugo-PaperMod/layouts/_default/list.html, \"post-entry\"/\"post-entry tag-entry\") assigns per paginated page; each article holds exactly one a.entry-link pointing at the page permalink",
+     "link_count": 6
+    },
+    {
+     "path": "uvm_directory/index.html",
+     "main_list_selector": "article.post-entry a.entry-link",
+     "selector_reason": "article.post-entry is the only element class the PaperMod list template (themes/hugo-PaperMod/layouts/_default/list.html, \"post-entry\"/\"post-entry tag-entry\") assigns per paginated page; each article holds exactly one a.entry-link pointing at the page permalink",
+     "link_count": 8
+    },
+    {
+     "path": "vim_directory/index.html",
+     "main_list_selector": "article.post-entry a.entry-link",
+     "selector_reason": "article.post-entry is the only element class the PaperMod list template (themes/hugo-PaperMod/layouts/_default/list.html, \"post-entry\"/\"post-entry tag-entry\") assigns per paginated page; each article holds exactly one a.entry-link pointing at the page permalink",
+     "link_count": 6
+    }
+   ]
+  }
+ ],
+ "median_page_count": 142.0,
+ "median_build_seconds": 3.4000000000000004,
+ "phase7": {
+  "rebuilt_commits": [
+   "9cd33faf09b2b139d5243f51252fa596dec656a0",
+   "2127c95379cead4e9ce535759cccc45b62ea245a"
+  ],
+  "pages_compared": 248,
+  "all_body_identical": true,
+  "differing_pages": []
+ },
+ "verdict": "corpus_ready",
+ "verdict_reason": "8/8 builds, median pages >= 20, list pages at every commit, both rebuilds identical body hashes on every page"
+}

@@ -1,0 +1,3167 @@
+{
+ "repo": "erikkroes/erikkroes-nl",
+ "bucket": "E",
+ "window": {
+  "start": "2026-01-01",
+  "end": "2026-07-03",
+  "page_touching_commits": 166,
+  "new_content_commits": 136,
+  "new_content_commit_shas": [
+   "1a69abc828029e6bbd76e394f8b927ff48fa05c6",
+   "5c8a09d713bac8d125c2a2e5c5afb5248905d517",
+   "666382190534893cbdd0c5f2ffe7adc63b8615ad",
+   "eb365be52791f36d998e8102ed50782ec4bb6b50",
+   "86ccdd92feafe6e0da8a842fcba03321c56ea980",
+   "45507a39c7c27d1287a52ce346432914625a9873",
+   "5fadbc001d37d95fde4158da14772126af7c9335",
+   "f0d509a89db40365ff429948075cf0a2106c863c",
+   "b24c77b76ff43458678529379d1b4af359856ff5",
+   "3a1b0e59c47a44619d11b09b77ff0181d0494791",
+   "1c1ac5936aae9fa2488072f033ad207197b4f04e",
+   "451680b49bdcb36b31488a70d830a4401420245e",
+   "cacaaa3fa84d2abd40ed6875c5ecdb95967c1067",
+   "cf67713a3d29f5c7f68004fd17d2e963d8d2b654",
+   "8f36e01c8fe1979e9559a3329de7731ab028ba12",
+   "cc34aa1beb7ea60760055daef66b3cec035a3252",
+   "350d68f4a72b72899199a00a956d566d673da431",
+   "4c7103ff301249e4edc22e6e72dcfcc0b0c04c42",
+   "df60c79945b9cb4d9f14df8653106c8b913e07e5",
+   "297cb8835bf66694953ae57df6e9700d4a05bda3",
+   "55bcd3a610d32c0f58e7991ae1c9cf1f8ce7ad9c",
+   "f858da58e040d874b0a1c6cbb196eed248f9353c",
+   "1497d24191336948ce81215a2d4546898e7eecfe",
+   "ed96df00e4155df46cd4d8e1948df5be99f956f7",
+   "1a000093bbc7b040053dee233ff0fa8710bc1e76",
+   "539c4c1349b69021deacd535f1d536055cd6cf27",
+   "6ea649eabc763020534df71eeec402c3ffc3064c",
+   "cf151607a8b443bff71b7a1cf1aedc43de1797bf",
+   "d1ab4a108679875d91da98b7899fca9aa529144e",
+   "d67b74a09e8e1b7801694bf74d4911ae135218ab",
+   "ec98cc334f9eac78ff2fae60144aeacada57b75b",
+   "24c4fc0be55c29bcd30b93ce404f8b51a81edc56",
+   "5c1ee8e9c02a55d1144309dee5cee3a2a2b7ccc8",
+   "02010917e2f59d789320b858f6ddc77e33707d9a",
+   "cee5c17c8da08a5cd19ab010c02ef40960d41bc7",
+   "d3a75f674771c7597776fdf8d93069ad8492cf34",
+   "e93ecf18244463edd557160fd6a01a6edf322168",
+   "0afdea595d0ad5cc0b4c97cec993165ed4ad811d",
+   "281f087996fbf7c518ceed1b570a153cbec3ae63",
+   "77a68ccef76633b1775e94ffc590f65a535bdd8a",
+   "d94aa674a7e9c2633d9c2d8ba5affb9226c0f238",
+   "bd39c2fdcfc3f36431aa66a6e557a7cac7170bf9",
+   "ca518cb651fd6ab145a4086f47fb356cca139341",
+   "cfb3bbc060c93b13920e844a55f19049ccae27b7",
+   "4ebaaff8909c5475d8787e4e3ce7247407234437",
+   "c504c242ca8cf3839a547ad82666ad8500395146",
+   "d069fa20f7e443ff48abbc52b7c1fddb6cc78974",
+   "45ee10a244b768c4091a9c2b9562524c9b643193",
+   "2ff4a13df44c478d0ee3b2f927eecbae0468d037",
+   "6086954501a517b293c6e188649db8aec316823b",
+   "9f3837ac84a98745d2ec7244e663018554865b8c",
+   "785e015e7901c3a747514a37f840f6b75ec069f5",
+   "e99bcf607b999deea85c0d6ff4d5b4b66d4b4539",
+   "6f33a744de8e671f62bc3f479a80945826dbf427",
+   "7c77e053ae3bcbe139a668c061104dfe4395efdd",
+   "16d8286ade5914e172fcb9a9e9bc3a25b4aa0c62",
+   "f26c3037420e2ec8066eaf10f3752ad3bee075a4",
+   "17d1680b76d1b1216860a47b8e668dc751cbf75d",
+   "65e26b804add58b41d6815acdf65d5087d8829fb",
+   "2266a1cf9a46d94effef43fc12c6f34ff9e3618f",
+   "6213bae357a9a5ffbc9f31d723835be4c10de0e2",
+   "22182a44441eecef34417d7e27e6193491989ba0",
+   "5db3489455b06ecb5bece03b01cedebab45d31dd",
+   "b89a35d807a1b983ba3fde11f044316d477c6418",
+   "cfccd19bc1dd1702f2bcf0005bf9934049e0e1c2",
+   "5ace82b0888f8ab6d51811caa6673c66cd34b9c6",
+   "9a7626df8f4f62975cd0323d18b3dfc01a1d38cf",
+   "3855a77fbcc37d58a2ab578e0d1df4c989103571",
+   "6a5f73516d4918f1b81dd32e9eb570787cbb2701",
+   "743599e5e224d175fe11dcbe83f8b008e2a65bc3",
+   "329335c6c5842e0ffe2ad2acba450d2bdaf035f4",
+   "d514217363eef9b0948f2283a4d084e66346e72d",
+   "9e74d1d345e6b7b4c0b57177cb4417f30e051c47",
+   "1bd970bad5e7f4a5e01403f28098e2728d0b95df",
+   "25f2fa414926cb92075f0a436f057c678269ac34",
+   "b1ea5edd6cddc586adc55fcbdc9eaf7d097f9527",
+   "1c5a8c0e25b9b991b1018ae9fcaa08042652428f",
+   "3c3d3a0cc7aaa2a145feeea00daa6fab5f00bba4",
+   "78e8c82d6772d438baa226bb61e1be231f7030a3",
+   "816acbd2b9b32563d0f387b842db7bdd994e65ae",
+   "42b5def563f5dfc341930d4bd8abe3f09caeb1f6",
+   "4974a7b2eb00f9ab5ffd85421eb409bf527019f3",
+   "e449b99318f4c06e936e27f706784ef4910451b4",
+   "f62f14e8bf8026da36afc16fac41e7314f1286e9",
+   "2ac8b4109af54bb63d8e132e5821ab67317b8a98",
+   "79f6554b32f27674aacd47143fd5369e41951094",
+   "cc63395c8aaae415eb49877366ea844be81340ef",
+   "f1b20d9e3c2b83c6a0f52c59c9d362ca7f83995f",
+   "09eee77d8b76cfbf5cf7cdf9409f80162af9b297",
+   "52cabb4978b8ea57ad0b4d3039e6209a3e681562",
+   "88bd1949b891433c20e082d99784ed4dcd6d2bed",
+   "c3a372e5584f1fd6fcf9129cecdd64e269102d8d",
+   "de8a5535e1c1ac577c5edaf6e0334fd4d6e0252b",
+   "dac7209a22b5d6b4ad2aab96d7d1e3c1d20b2251",
+   "f077a64d938e1627ba9b341e47d944fa8be36b79",
+   "d9397760013ee262ac5f5c85112778b08bf76244",
+   "19228bc17c353861f1f5acc83508f1f42d996808",
+   "77bdd2cb833d67b07f14aa727607424d4519250a",
+   "043fb0f6370628b9d2789afbf70416ab310ac38c",
+   "4b3b2043e642f44454c17ff638c4b7a3f119c497",
+   "088fcb7837e0bea34183795b18a6d80c64fca1ee",
+   "3414159a86296801ebd4653eb8af859d6a42a218",
+   "6191fe25bd10346c5bbe0da3a0ee361ff05df59a",
+   "f07510cadeb0176041f1bdab70219d9a7c35d22a",
+   "b57a803f960652ce959eb44ad9894383f4a4a073",
+   "28e0202bf9cfe9f8452587dc8a75fda6e9c9a83a",
+   "385384380c362707b9e2be35199cb2274885b86e",
+   "c4e2fafc089c77cbd223d5df0220dc177306e894",
+   "f0ec9708d24e966753ba499d6539274125fb163c",
+   "e30a23fd1aa6c995f712777df04b84955b6c3da6",
+   "4286be38c3cfd99ebd3e7b291b60b5ab0c1d0858",
+   "9bdbf2e7b72640b9504ef71d94bf47e1566d1a35",
+   "9261e13d3cc74128dc2d8fff177af86148806174",
+   "ed00fa49bdadbb2b980ecf43e3cc01b9d0607b0d",
+   "7802f52c09a5ca79388cc4c6602df1f6698c62a3",
+   "4233d79ff3be697910e972b6784be050a4366523",
+   "950a39c296f55c8043a2a56d1defa1f1214f0357",
+   "8eacf7911fc4444976742fb5724147f2293e91dd",
+   "9fe3a6ec94c84b1d7e8f408845570562ea45c822",
+   "3744cca92e657ad1e35e966c14e15153f8476083",
+   "4df532e9c7f958667f9db0607b67ef8da7230430",
+   "23d4a7eff4171ce55ef17be29b51e3a2256e5b99",
+   "b49a098c48832d4b7472d7227dadc2c3f02b38b2",
+   "98c88436ff7311e5819391ccd6a8cd21b9941714",
+   "89ee215b3def3e171126a4f3b6fe758042bf5937",
+   "9150bd32a3768ef77180ea9f86eb438e0f194118",
+   "aaab84e365d3451508bdb8dcf463f6b2809a9448",
+   "22b9307ce89bf10b3065211a173c4a640378bc16",
+   "7dd58820891a00c10d845d81e0d61110a998ef54",
+   "faaead805ae10bcadc95941af7692a43c1ba798c",
+   "2720d6f7dc1c63d627e2f66d675a926a76f14090",
+   "ca2f1fd1d805c0cfcbe9cde40f32656f4498bfda",
+   "2444626eaeb41dc43541b84eaec5c13111fd8db9",
+   "377267c38fa608963dcfb20309574ef54e03d2c4",
+   "55218f91162bec4814323a08ba09dd34e4c182f5",
+   "51d8eaae348381561ddfd4afe991435c709132cc"
+  ]
+ },
+ "selection": [
+  {
+   "sha": "1a69abc828029e6bbd76e394f8b927ff48fa05c6",
+   "date": "2026-01-02",
+   "adds_new_content": true
+  },
+  {
+   "sha": "4c7103ff301249e4edc22e6e72dcfcc0b0c04c42",
+   "date": "2026-01-14",
+   "adds_new_content": true
+  },
+  {
+   "sha": "0afdea595d0ad5cc0b4c97cec993165ed4ad811d",
+   "date": "2026-01-28",
+   "adds_new_content": true
+  },
+  {
+   "sha": "6f33a744de8e671f62bc3f479a80945826dbf427",
+   "date": "2026-02-11",
+   "adds_new_content": true
+  },
+  {
+   "sha": "25f2fa414926cb92075f0a436f057c678269ac34",
+   "date": "2026-03-11",
+   "adds_new_content": true
+  },
+  {
+   "sha": "19228bc17c353861f1f5acc83508f1f42d996808",
+   "date": "2026-03-31",
+   "adds_new_content": true
+  },
+  {
+   "sha": "3744cca92e657ad1e35e966c14e15153f8476083",
+   "date": "2026-06-04",
+   "adds_new_content": true
+  },
+  {
+   "sha": "51d8eaae348381561ddfd4afe991435c709132cc",
+   "date": "2026-07-03",
+   "adds_new_content": true
+  }
+ ],
+ "commits": [
+  {
+   "sha": "1a69abc828029e6bbd76e394f8b927ff48fa05c6",
+   "date": "2026-01-02",
+   "adds_new_content": true,
+   "worktree_method": "git worktree add --detach on blobless clone",
+   "output_dir_config_line": "output: 'dist'",
+   "build_command": "npm run build",
+   "toolchain": {
+    "node_declared": null,
+    "node_rung": "v24.12.0",
+    "node_rule": "declared engines range -> newest installed fnm release satisfying it on-or-before commit date; else newest installed release on-or-before commit date (never lowest)",
+    "package_manager": "npm (package-lock.json at commit)",
+    "install_command": "npm ci --no-audit --no-fund",
+    "build_command": "npm run build"
+   },
+   "install_seconds": 24.3,
+   "install_ok": true,
+   "build_seconds": 506.1,
+   "build_ok": true,
+   "page_count": 251,
+   "list_pages": [
+    {
+     "path": "blog/index.html",
+     "main_list_selector": "article > ul",
+     "selector_reason": "inside <ul> the element with the most links to content pages (38 distinct content-page targets; deepest on ties); tag=\"ul\" id=\"None\" class=\"None\"; 38 descendant <article> items",
+     "link_count": 38
+    },
+    {
+     "path": "index.html",
+     "main_list_selector": "section.blog > ul.h-feed",
+     "selector_reason": "inside <ul> the element with the most links to content pages (4 distinct content-page targets; deepest on ties); tag=\"ul\" id=\"None\" class=\"h-feed\"; 4 descendant <article> items",
+     "link_count": 4
+    },
+    {
+     "path": "notes/index.html",
+     "main_list_selector": "article > ul",
+     "selector_reason": "inside <ul> the element with the most links to content pages (203 distinct content-page targets; deepest on ties); tag=\"ul\" id=\"None\" class=\"None\"; 205 descendant <article> items",
+     "link_count": 203
+    }
+   ]
+  },
+  {
+   "sha": "4c7103ff301249e4edc22e6e72dcfcc0b0c04c42",
+   "date": "2026-01-14",
+   "adds_new_content": true,
+   "worktree_method": "git worktree add --detach on blobless clone",
+   "output_dir_config_line": "output: 'dist'",
+   "build_command": "npm run build",
+   "toolchain": {
+    "node_declared": null,
+    "node_rung": "v24.13.0",
+    "node_rule": "declared engines range -> newest installed fnm release satisfying it on-or-before commit date; else newest installed release on-or-before commit date (never lowest)",
+    "package_manager": "npm (package-lock.json at commit)",
+    "install_command": "npm ci --no-audit --no-fund",
+    "build_command": "npm run build"
+   },
+   "install_seconds": 11.8,
+   "install_ok": true,
+   "build_seconds": 310.7,
+   "build_ok": true,
+   "page_count": 264,
+   "list_pages": [
+    {
+     "path": "blog/index.html",
+     "main_list_selector": "article > ul",
+     "selector_reason": "inside <ul> the element with the most links to content pages (39 distinct content-page targets; deepest on ties); tag=\"ul\" id=\"None\" class=\"None\"; 39 descendant <article> items",
+     "link_count": 39
+    },
+    {
+     "path": "index.html",
+     "main_list_selector": "section.blog > ul.h-feed",
+     "selector_reason": "inside <ul> the element with the most links to content pages (4 distinct content-page targets; deepest on ties); tag=\"ul\" id=\"None\" class=\"h-feed\"; 4 descendant <article> items",
+     "link_count": 4
+    },
+    {
+     "path": "notes/index.html",
+     "main_list_selector": "article > ul",
+     "selector_reason": "inside <ul> the element with the most links to content pages (215 distinct content-page targets; deepest on ties); tag=\"ul\" id=\"None\" class=\"None\"; 217 descendant <article> items",
+     "link_count": 215
+    }
+   ]
+  },
+  {
+   "sha": "0afdea595d0ad5cc0b4c97cec993165ed4ad811d",
+   "date": "2026-01-28",
+   "adds_new_content": true,
+   "worktree_method": "git worktree add --detach on blobless clone",
+   "output_dir_config_line": "output: 'dist'",
+   "build_command": "npm run build",
+   "toolchain": {
+    "node_declared": null,
+    "node_rung": "v24.13.0",
+    "node_rule": "declared engines range -> newest installed fnm release satisfying it on-or-before commit date; else newest installed release on-or-before commit date (never lowest)",
+    "package_manager": "npm (package-lock.json at commit)",
+    "install_command": "npm ci --no-audit --no-fund",
+    "build_command": "npm run build"
+   },
+   "install_seconds": 9.5,
+   "install_ok": true,
+   "build_seconds": 306.1,
+   "build_ok": true,
+   "page_count": 563,
+   "list_pages": [
+    {
+     "path": "blog/index.html",
+     "main_list_selector": "article > ul",
+     "selector_reason": "inside <ul> the element with the most links to content pages (40 distinct content-page targets; deepest on ties); tag=\"ul\" id=\"None\" class=\"None\"; 40 descendant <article> items",
+     "link_count": 40
+    },
+    {
+     "path": "index.html",
+     "main_list_selector": "section.blog > ul.h-feed",
+     "selector_reason": "inside <ul> the element with the most links to content pages (4 distinct content-page targets; deepest on ties); tag=\"ul\" id=\"None\" class=\"h-feed\"; 4 descendant <article> items",
+     "link_count": 4
+    },
+    {
+     "path": "notes/index.html",
+     "main_list_selector": "article > ul",
+     "selector_reason": "inside <ul> the element with the most links to content pages (232 distinct content-page targets; deepest on ties); tag=\"ul\" id=\"None\" class=\"None\"; 234 descendant <article> items",
+     "link_count": 232
+    }
+   ]
+  },
+  {
+   "sha": "6f33a744de8e671f62bc3f479a80945826dbf427",
+   "date": "2026-02-11",
+   "adds_new_content": true,
+   "worktree_method": "git worktree add --detach on blobless clone",
+   "output_dir_config_line": "output: 'dist'",
+   "build_command": "npm run build",
+   "toolchain": {
+    "node_declared": null,
+    "node_rung": "v24.13.0",
+    "node_rule": "declared engines range -> newest installed fnm release satisfying it on-or-before commit date; else newest installed release on-or-before commit date (never lowest)",
+    "package_manager": "npm (package-lock.json at commit)",
+    "install_command": "npm ci --no-audit --no-fund",
+    "build_command": "npm run build"
+   },
+   "install_seconds": 9.3,
+   "install_ok": true,
+   "build_seconds": 315.7,
+   "build_ok": true,
+   "page_count": 593,
+   "list_pages": [
+    {
+     "path": "blog/index.html",
+     "main_list_selector": "article > ul",
+     "selector_reason": "inside <ul> the element with the most links to content pages (42 distinct content-page targets; deepest on ties); tag=\"ul\" id=\"None\" class=\"None\"; 42 descendant <article> items",
+     "link_count": 42
+    },
+    {
+     "path": "index.html",
+     "main_list_selector": "section.blog > ul.h-feed",
+     "selector_reason": "inside <ul> the element with the most links to content pages (4 distinct content-page targets; deepest on ties); tag=\"ul\" id=\"None\" class=\"h-feed\"; 4 descendant <article> items",
+     "link_count": 4
+    },
+    {
+     "path": "notes/index.html",
+     "main_list_selector": "article > ul",
+     "selector_reason": "inside <ul> the element with the most links to content pages (245 distinct content-page targets; deepest on ties); tag=\"ul\" id=\"None\" class=\"None\"; 247 descendant <article> items",
+     "link_count": 245
+    }
+   ]
+  },
+  {
+   "sha": "25f2fa414926cb92075f0a436f057c678269ac34",
+   "date": "2026-03-11",
+   "adds_new_content": true,
+   "worktree_method": "git worktree add --detach on blobless clone",
+   "output_dir_config_line": "output: 'dist'",
+   "build_command": "npm run build",
+   "toolchain": {
+    "node_declared": null,
+    "node_rung": "v24.13.0",
+    "node_rule": "declared engines range -> newest installed fnm release satisfying it on-or-before commit date; else newest installed release on-or-before commit date (never lowest)",
+    "package_manager": "npm (package-lock.json at commit)",
+    "install_command": "npm ci --no-audit --no-fund",
+    "build_command": "npm run build"
+   },
+   "install_seconds": 10.8,
+   "install_ok": true,
+   "build_seconds": 313.5,
+   "build_ok": true,
+   "page_count": 633,
+   "list_pages": [
+    {
+     "path": "blog/index.html",
+     "main_list_selector": "article > ul",
+     "selector_reason": "inside <ul> the element with the most links to content pages (43 distinct content-page targets; deepest on ties); tag=\"ul\" id=\"None\" class=\"None\"; 43 descendant <article> items",
+     "link_count": 43
+    },
+    {
+     "path": "index.html",
+     "main_list_selector": "section.blog > ul.h-feed",
+     "selector_reason": "inside <ul> the element with the most links to content pages (4 distinct content-page targets; deepest on ties); tag=\"ul\" id=\"None\" class=\"h-feed\"; 4 descendant <article> items",
+     "link_count": 4
+    },
+    {
+     "path": "notes/index.html",
+     "main_list_selector": "article > ul",
+     "selector_reason": "inside <ul> the element with the most links to content pages (264 distinct content-page targets; deepest on ties); tag=\"ul\" id=\"None\" class=\"None\"; 266 descendant <article> items",
+     "link_count": 264
+    }
+   ]
+  },
+  {
+   "sha": "19228bc17c353861f1f5acc83508f1f42d996808",
+   "date": "2026-03-31",
+   "adds_new_content": true,
+   "worktree_method": "git worktree add --detach on blobless clone",
+   "output_dir_config_line": "output: 'dist'",
+   "build_command": "npm run build",
+   "toolchain": {
+    "node_declared": null,
+    "node_rung": "v22.22.2",
+    "node_rule": "declared engines range -> newest installed fnm release satisfying it on-or-before commit date; else newest installed release on-or-before commit date (never lowest)",
+    "package_manager": "npm (package-lock.json at commit)",
+    "install_command": "npm ci --no-audit --no-fund",
+    "build_command": "npm run build"
+   },
+   "install_seconds": 11.3,
+   "install_ok": true,
+   "build_seconds": 310.8,
+   "build_ok": true,
+   "page_count": 677,
+   "list_pages": [
+    {
+     "path": "blog/index.html",
+     "main_list_selector": "article > ul",
+     "selector_reason": "inside <ul> the element with the most links to content pages (43 distinct content-page targets; deepest on ties); tag=\"ul\" id=\"None\" class=\"None\"; 43 descendant <article> items",
+     "link_count": 43
+    },
+    {
+     "path": "index.html",
+     "main_list_selector": "section.blog > ul.h-feed",
+     "selector_reason": "inside <ul> the element with the most links to content pages (4 distinct content-page targets; deepest on ties); tag=\"ul\" id=\"None\" class=\"h-feed\"; 4 descendant <article> items",
+     "link_count": 4
+    },
+    {
+     "path": "notes/index.html",
+     "main_list_selector": "article > ul",
+     "selector_reason": "inside <ul> the element with the most links to content pages (285 distinct content-page targets; deepest on ties); tag=\"ul\" id=\"None\" class=\"None\"; 288 descendant <article> items",
+     "link_count": 285
+    }
+   ]
+  },
+  {
+   "sha": "3744cca92e657ad1e35e966c14e15153f8476083",
+   "date": "2026-06-04",
+   "adds_new_content": true,
+   "worktree_method": "git worktree add --detach on blobless clone",
+   "output_dir_config_line": "output: 'dist'",
+   "build_command": "npm run build",
+   "toolchain": {
+    "node_declared": null,
+    "node_rung": "v24.16.0",
+    "node_rule": "declared engines range -> newest installed fnm release satisfying it on-or-before commit date; else newest installed release on-or-before commit date (never lowest)",
+    "package_manager": "npm (package-lock.json at commit)",
+    "install_command": "npm ci --no-audit --no-fund",
+    "build_command": "npm run build"
+   },
+   "install_seconds": 12.3,
+   "install_ok": true,
+   "build_seconds": 312.0,
+   "build_ok": true,
+   "page_count": 723,
+   "list_pages": [
+    {
+     "path": "blog/index.html",
+     "main_list_selector": "article > ul",
+     "selector_reason": "inside <ul> the element with the most links to content pages (44 distinct content-page targets; deepest on ties); tag=\"ul\" id=\"None\" class=\"None\"; 44 descendant <article> items",
+     "link_count": 44
+    },
+    {
+     "path": "index.html",
+     "main_list_selector": "section.blog > ul.h-feed",
+     "selector_reason": "inside <ul> the element with the most links to content pages (4 distinct content-page targets; deepest on ties); tag=\"ul\" id=\"None\" class=\"h-feed\"; 4 descendant <article> items",
+     "link_count": 4
+    },
+    {
+     "path": "notes/index.html",
+     "main_list_selector": "article > ul",
+     "selector_reason": "inside <ul> the element with the most links to content pages (307 distinct content-page targets; deepest on ties); tag=\"ul\" id=\"None\" class=\"None\"; 310 descendant <article> items",
+     "link_count": 307
+    }
+   ]
+  },
+  {
+   "sha": "51d8eaae348381561ddfd4afe991435c709132cc",
+   "date": "2026-07-03",
+   "adds_new_content": true,
+   "worktree_method": "git worktree add --detach on blobless clone",
+   "output_dir_config_line": "output: 'dist'",
+   "build_command": "npm run build",
+   "toolchain": {
+    "node_declared": null,
+    "node_rung": "v24.16.0",
+    "node_rule": "declared engines range -> newest installed fnm release satisfying it on-or-before commit date; else newest installed release on-or-before commit date (never lowest)",
+    "package_manager": "npm (package-lock.json at commit)",
+    "install_command": "npm ci --no-audit --no-fund",
+    "build_command": "npm run build"
+   },
+   "install_seconds": 8.1,
+   "install_ok": true,
+   "build_seconds": 314.7,
+   "build_ok": true,
+   "page_count": 753,
+   "list_pages": [
+    {
+     "path": "blog/index.html",
+     "main_list_selector": "article > ul",
+     "selector_reason": "inside <ul> the element with the most links to content pages (46 distinct content-page targets; deepest on ties); tag=\"ul\" id=\"None\" class=\"None\"; 46 descendant <article> items",
+     "link_count": 46
+    },
+    {
+     "path": "index.html",
+     "main_list_selector": "section.blog > ul.h-feed",
+     "selector_reason": "inside <ul> the element with the most links to content pages (4 distinct content-page targets; deepest on ties); tag=\"ul\" id=\"None\" class=\"h-feed\"; 4 descendant <article> items",
+     "link_count": 4
+    },
+    {
+     "path": "notes/index.html",
+     "main_list_selector": "article > ul",
+     "selector_reason": "inside <ul> the element with the most links to content pages (320 distinct content-page targets; deepest on ties); tag=\"ul\" id=\"None\" class=\"None\"; 323 descendant <article> items",
+     "link_count": 320
+    }
+   ]
+  }
+ ],
+ "median_page_count": 613.0,
+ "median_build_seconds": 312.75,
+ "phase7": {
+  "rebuilt_commits": [
+   "1a69abc828029e6bbd76e394f8b927ff48fa05c6",
+   "51d8eaae348381561ddfd4afe991435c709132cc"
+  ],
+  "pages_compared": 1004,
+  "all_body_identical": true,
+  "differing_pages": [
+   {
+    "path": "about/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "blog/Assignment/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "blog/Be-flexible-about-what-people-need-and-dont-assume/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "blog/The-unclear-case-of-usability-widgets-on-your-website/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "blog/a-closer-look-a-family-evacuated-from-afghanistan-arrives-at-dulles/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "blog/a-photographer-s-view-on-alt-text/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "blog/accessibility-and-ai/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "blog/accessibility-design-systems-and-management/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "blog/accessibility-is-not-binary/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "blog/accessibility-is-not-for-a-group-of-disabled-people/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "blog/accessibility/google-please-be-good/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "blog/accessibility/the-guide-to-accessible-web-components-draft/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "blog/accessible-html-toggle-button-switch/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "blog/accessible-inline-collapsible/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "blog/accessible-name-of-button/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "blog/an-audit-wont-solve-your-issues/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "blog/anchor-link/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "blog/aria-roles-do-very-little/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "blog/burn-your-toast/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "blog/color-and-contrast/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "blog/community-corporations-and-more/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "blog/compose-your-components/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "blog/dont-test-accessibility-with-a-screen-reader/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "blog/floating-action-buttons-are-bad-and-what-to-do-instead-1/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "blog/generic-impact-prioritization-lists-are-an-empty-promise-we-can-do-better/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "blog/how-not-to-name-things/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "blog/i-cant-read-but-id-like-to/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "blog/i-made-this-website-with-html/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "blog/inclusion-beats-optimization/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "blog/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "blog/knowing-what-to-expect-maybe-my-favorite-accessibility-principle/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "blog/lets-start-a-club/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "blog/looking-back-on-2025-and-looking-forward/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "blog/new-year-new-focus-new-online-presence-and-communication/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "blog/no-your-website-does-not-have-a-mobile-version/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "blog/personal-update/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "blog/politieke-partijen-niet-digitaal-toegankelijk/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "blog/semantics-what-does-it-mean/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "blog/tactile-indicators-for-installing-and-connecting-devices/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "blog/the-added-value-of-neuro-diversity/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "blog/the-universal-focus-state/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "blog/the-value-of-less/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "blog/thoughts-on-people-first-language/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "blog/unicorns-exist/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "blog/web/an-introduction-to-web-monetization/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "blog/what-is-accessibility/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "blog/why-i-blog-again/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "blog/your-website-is-history/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "eaa/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "glossary/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/1984/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/2-5-8/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/2024-2/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/2024/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/2025/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/30mm-again/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/320px/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/3d-printing-1/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/3d-printing/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/5th-tumor-day/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/Accessibility-shaming/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/Audit-WoW/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/Best-practice/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/Capitalize-your-hashtags/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/Chatbots/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/External-link/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/GitHub-profile-accessibility/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/Glossary-TOC/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/Lets-create-a-nice-community-together-httpswwwerikkroesnlbloglets-start-a-club/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/Needs-and-flexibility/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/REM-sleep/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/RSS-feeds/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/RSS-from-Mastodon/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/Shared-responsibility/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/Shattered-elbow/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/Twitter-on-websites/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/WAI-ARIA-13-WD/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/Wrong/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/a11y-club-summit-2026/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/accessibility-and-ai/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/accessibility-club-summit/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/accessibility-efforts/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/accessibility-for-designers/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/accessibility-for-disable-people/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/accessibility-for-everyone/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/accessibility-unicorns/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/accessible-at-the-core/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/accessible-inline-collapsible-update/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/accessible-inline-collapsible/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/active-contrast/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/adblock/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/agentic-browsing/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/ai-answers/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/ai-in-gmail/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/ai-labels/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/ai-shirt/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/ai-translations/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/alt-contrast/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/alt-text-process/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/alternatives/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/apg-patterns/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/apg/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/aria-disabled/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/aria-externaltarget/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/aria-is-powerful/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/aria-label-appending/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/aria-label-overwrites/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/arial-label/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/ascii-tables/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/audit-reports/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/autocomplete/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/automated-tools/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/automation/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/autonomy-vs-stimulation/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/avif/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/aws/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/backups/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/beckham/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/becoming-a-developer/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/best-time/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/bilingual/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/bird-feet/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/black-text/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/bluesky/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/branding-contrast/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/brick-separator/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/button-attributes/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/button-href/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/buttons-and-names/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/c25k-4w1/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/cable-hoarding/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/carousel-code/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/casual-meetup/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/chat-widgets/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/chatbot-names/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/chatgpt-qr/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/checkboxes/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/chicken-pops/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/chips/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/chocolate/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/chrome-and-adblockers/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/cleaning-up/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/click-away-pound/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/clickable-span/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/collapsibles/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/comboboxes/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/conformance-math/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/contrast-grid/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/cookies-/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/corkscrew-update-1/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/courses-/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/creative/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/css-colour-tool/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/cursor-pointer/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/dashboard-tool/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/de-crapulator/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/describedby/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/description-and-technology/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/design-systems/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/desk/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/dfn/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/different-images/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/digital-addiction/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/disability-tax/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/disabled-button-color/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/discord/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/diverse hiring/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/dont-test-with-a-screen-reader/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/dragon-skeleton/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/driving/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/dropped-hours/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/dutch-dadding/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/easy-hobbies/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/elno-spam/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/emphasis-1/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/emphasis/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/error-messages-1/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/error-messages/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/esun-bone-white-filament/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/eu-products-and-services/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/events/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/fab-update/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/faq/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/figma-annotations/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/figma-contrast/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/firefox/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/fires/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/floating-action-buttons/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/fonts/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/foundation/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/fragment-image/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/front-door-birds/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/gaad-2026/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/garden-inspection/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/glossary-skip-link/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/glossary-update/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/glossary/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/google-ads/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/google-search-results/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/graduation-project/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/gray/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/head-of-state/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/heading-class/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/hela/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/hemingway/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/hgroup/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/hiding-with-height/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/hire-people/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/how-WCAG-works/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/hr-in-select/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/html-bad-parts/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/human-centered/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/hypelink/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/iaap-presentation/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/iaap-spam/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/id2425/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/ideally-2025-04-16/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/ideally-2025-4/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/igtorba-1/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/improve-the-code/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/inaccessible-accessibility-resources/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/inert/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/info-button/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/input/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/instagram/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/international-day-of-sign-languages/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/intro-to-accessibility/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/investors/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/jakobs-law-1/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/jakobs-law/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/journeys/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/jquery-click/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/lambo/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/lang-att/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/lego-10351-sherlock-holmes-book-nook/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/lego-alt-text/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/lego-storage/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/level-access-buys-userway/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/linktree/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/looking/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/m-enabling-website/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/mail-contrast/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/massive/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/maxlength/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/mcp-api/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/measure-twice/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/media-loop/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/meetup-2025-04/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/meetup-form/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/meetup/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/millenium-falcon/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/mobile-version/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/mogwai/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/monkey-bars/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/music/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/naming-the-interactive-element/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/naming-things/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/ncdt-2025/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/necessary/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/nest-tables/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/new-camera/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/new-year-new-focus-new-online-presence-and-communication/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/nl-design-system-start/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/nn-overlays/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/northern-lights/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/npr/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/numbers-and-statistics/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/object-object/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/obsidian/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/off-by-one/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/open-summary/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/orange/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/ornament-1/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/password/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/pdf-stories/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/people-first-language/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/perfect-middle/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/phone-number/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/physical-connectors-and-tactile-markings/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/pictures/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/placeholder-contrast/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/pointers-for-buttons/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/popups/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/potential/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/price-changes/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/product-and-process/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/product-description/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/progressbar/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/prunus-cerasifera/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/python-tool/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/quadstick/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/readability/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/reading/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/reflow/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/required-form-field/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/required/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/resources/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/rss-order/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/rss-work/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/running-music/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/running/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/sam/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/scrape/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/scrcpy/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/screen-reader-survey-10/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/scroll-fade/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/scrolling-changes/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/sensory-overload/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/separation-of-concerns/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/sfw-dictionary/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/shortest-day/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/site-kit/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/slopportunity/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/smashingconf/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/snow-on-the-swing/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/solid-colour-logo/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/sonoma/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/sow/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/spectrum-two/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/spooky-twitter/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/spools/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/spring-/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/spring-1/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/spring/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/sr-only/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/sr-support/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/start-with-an-introduction/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/static-mini/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/statistics/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/sticks/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/stoic/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/stream-deck-for-accessibility/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/stream-deck-screenshots/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/streaming/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/styling/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/subtitles/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/suggestions/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/summer-2025/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/support-denmark/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/sustainability/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/tabindex/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/tactile-paving/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/talent/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/test/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/the-state-of-things/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/the-work/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/transparent/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/truncation/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/ux/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/vacation-2025/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/waiting-mode/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/wall-thickness/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/wcag-theme-song/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/weak-and-de-em/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/webaim-million-2024/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/webaim-million-2025/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/webaim-million-2026/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/webcam/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/weekly-content-thread/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/wet-floor/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/wft/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/wheelchair/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/white-and-light-green/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/white/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/word/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/workspace/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/writing-about-contrast/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/writing-mode/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/x-link-audit/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/yahoo-pipes/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/you-broke-reddit/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/ziggo/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "notes/zip-off-pants/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   },
+   {
+    "path": "uses/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "unclassified",
+    "quote": ""
+   }
+  ],
+  "distinct_causes": {}
+ },
+ "verdict": "corpus_ready",
+ "verdict_reason": "8/8 commits build; median 613.0 static pages (>=20); list pages present at every commit; list insertions observed (main-list link counts change across commits); phase-7 rebuilds have identical body hashes on every page (1004 pages compared)"
+}

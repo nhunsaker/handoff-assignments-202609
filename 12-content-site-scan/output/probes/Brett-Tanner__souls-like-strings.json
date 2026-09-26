@@ -1,0 +1,1701 @@
+{
+ "repo": "Brett-Tanner/souls-like-strings",
+ "bucket": "E",
+ "window": {
+  "start": "2025-12-13",
+  "end": "2026-06-14",
+  "page_touching_commits": 123,
+  "new_content_commits": 109,
+  "new_content_commit_shas": [
+   "2d61dacc2e1b96765024f54618e59c6444d57c7b",
+   "551ae2057a345c67553a7174f3672767c8019b55",
+   "a7f9f69937f1d7c26089b8ca60ba59aedf264884",
+   "3b806449071e8a511b0f6f48966be22d1648a2b5",
+   "144dc75a6d20e797516bb7439bf2baff44e4e041",
+   "2b8668deeed5e6fc95ca18392bcdb84c3dfbaf45",
+   "357a2ee9e9487c1e18f15dbb875bf9f5c83b9388",
+   "773f5f3d2c07703ccf7811329503e38b7cede20a",
+   "05f3a0bc5b21e41ed8f2cb41834eb78f937ff913",
+   "fcfcfffdb167cf1c37b018d71a7ba29c62825da4",
+   "0bfa912d99957a964b9d2edd10b1bb7fd007fdf6",
+   "aa90c1f71644fe68b8c809743c502534af37a3f0",
+   "ad74f74450af47291046bedd00459ee5a90b41d3",
+   "5ffd4ba041cc88c0c58f7d0825d9c8e2010519b9",
+   "6685bf73c400210940fb79529be4939670aed0bf",
+   "dd8baf18e1067fc3ccb71cb7e25d79b874e61825",
+   "50ca7168fecb562711899265dddb0f686c96ab1e",
+   "fb5ad6de803fbbcf6b7ebe7213105997a1142974",
+   "15f986312ac6bb47c093d5a84cdd88da21e153f4",
+   "1c88d722b56401beb1596fe35df548d126d807c6",
+   "e3b4419ed37b244d23466b8a844d571f62d50c69",
+   "7e858cae6b779b6914f3a1c8ff1f608d810108a6",
+   "4d9395a7115c600cbcae2812f98ec638d0d3c47a",
+   "9db4a209f1b65122569ea4aa11a92557e63e4904",
+   "b177e41bb32573ab39f6a5b06d9009b67d73515e",
+   "65229890eaa5426eb71f099051dde41a4fd23943",
+   "a93fbc3671d177327e7a6395b7e8330c6924c0a3",
+   "8ff52e6469d78afe362fc99b570509a3221295e1",
+   "18a8cc195f7f7403b176a1bb0f763ccb4c6b4dfd",
+   "e6fb7a7b9b9435fe5ffa053ca3cae2f1daf6b7a5",
+   "4a9cac1f0681dd66d0585cdfdf395acef48c05c5",
+   "c63741dc78befe1ace96bda241fd177f4eb0314b",
+   "859e833e41cc8f065ed967dbd81a4f23ee9aaa46",
+   "294c2c8c04abd85b74d7a3b73b0114c22904270c",
+   "2cc053ab0be346f0bee4d5e2fdd80404d7f3efa0",
+   "7ef4cce6632d47bf0dd909fb75b3439ac3d55e79",
+   "4fac4c728a7d5215a135c6bee0be0630ee95bd5e",
+   "3931bf28be703484b57b4ebb4a77ea1c1ec493fe",
+   "1779a41822f81040276b262bd7eab37685d6ad93",
+   "4087860bd6a41b262a510141bcf6d66c0e4587e9",
+   "88753c76bc096ac600331d2f523ccdabddaffce1",
+   "3fd5cdf639b8e4b966b0daaf1d4dd8ca0cc0e0db",
+   "6c1f3fad76f54133a03f4306fa16c56f93ad12fe",
+   "81076ef2c8bea884457c263c731509fb6f022aee",
+   "9972afb92a76db85a9c2cebe2882aba058d0e3a0",
+   "d19959ea788786688761573487a87bc45d802e88",
+   "875e4742ccdb0c17d547425bc42e2e96bc2e380e",
+   "563aa01ccb7d068c450051649cf1624e30089e28",
+   "ca1707e71b05639d8a3fd36f584a3fa050202884",
+   "2070fbd19479068b634a63c2c6795be89d01f726",
+   "3f2e430cf6f574173a70240766b84166cff474e2",
+   "e717e5ea7a2a8939ad888903702d8d9620f702e5",
+   "34b6d11b0ff28be4b0382feb3d06529298de1d57",
+   "4077ee52d0524251b19e3d766486b368e3a838a9",
+   "4d7e3fff23e5690c392be6f4510dd2fdafe4cafe",
+   "632980b813f38de153ddc2015bdca4b20406d7f9",
+   "eab99be4075c0fe8822cf7d70df9bb0a7edebc54",
+   "19823b600c914ceea0c91cabc2309ed9d9a1f014",
+   "46e2d8069131f3e95c00ddf77d29092f009a0e96",
+   "5d47e9c659d816b3745bf38bd91a25508c628831",
+   "34e05e8ad0af92813d8bd29b0d9f6d4cda2dfd5a",
+   "3b77c37a5b55bb3282f406b7034ceed5aea04d12",
+   "fa6556948b6476e4615e2a115e72a54cc01b0145",
+   "8b920309a4178d84ad8ef36c7db369c114d80613",
+   "2194b7cefde8bd4f47dd8c03bbc91899a68b7e0e",
+   "c3f7d480f88b4d8d689d269c17116c06c6bc27e3",
+   "870c0eca9f72950eb0b4e9ad42a160a958f46a7c",
+   "2a2ba8c21ac8dceea7f4431201627afee4aaa0a0",
+   "c8486b8160376524fb8eaa1210292d70b4db2f37",
+   "ed8f4fd5fbf13e1f31d5b1e5ee46cb0f7fa8ff2b",
+   "c675950bb0b09f2d4039f3ff5bb473c91f8a83b9",
+   "c473a974bf69c423f64cbc2bacf07a454b6e9c3f",
+   "880daf86a9bc7d78cb059f4497be21a71c439652",
+   "6230201f17cb1c21d244024779f111a9063d77b6",
+   "b51f527344480a239858412a5c0f305cf599dfd1",
+   "75aef93abe47cfdc30e53c303c2fca37854c2ff3",
+   "ac83bfea4d9e2dfd8b7d23e4bf15a9da25156b01",
+   "02dec0efb972c5ec97f1c2c5521e9bcb4479d823",
+   "b2838da3bb83762f02c609967830c183651ed071",
+   "8454d6235f0f5555e86b2a7325986dabcb3cbbfe",
+   "453bccc6a6159ccb6fc859b061177399ad115e59",
+   "c04109d49039bf0035223d0ea22e50df5d558a62",
+   "6241940c33911b55dec084bb331d0da4691e5368",
+   "dcda284904d05b614582319d9acd896a3bd4c587",
+   "f104b8ca5010ba2d99fc7e88f34357476ee0f1c5",
+   "3cd74d8bd47277a600c1e43fea61b8db14f90e42",
+   "abcb1f1039a5ee1555d630d71527641ef07a0035",
+   "51a2aa87fb79a26043c93dedcf5909ee7445a2ac",
+   "58432449a7f299c3d68f536575dbdbfc11adb3d0",
+   "a80ffa62a3c5455068f230240fd1da0891577a8c",
+   "bb8b272a840b7ee68e35c65bccba5ddf123c7860",
+   "cf1529dc52400eba2e57a35a639c14c66b5227b8",
+   "bddd331542625ba751eb22cd13c7317cd735187f",
+   "d30991b9c9cbb8e5aee696d3c041b5d15e8acb05",
+   "d7c471ea24bd544ec18bc0aeb26d1e629fceaa80",
+   "9439de3e9703210a51ad87021c0060faf41f77b7",
+   "272fb056f7019bb8504622c57fcb54783c671edb",
+   "082e65de939c717b0c087f6fb90031dd39ad49ae",
+   "e552b58a18fa2438cfafba0af18c13d21e41cdc9",
+   "e55f9e101b0fafc38cc050739c20980b6ed8eb11",
+   "1d8df02fe91ed3087a2175396e35f7c35002020f",
+   "fa21416e792973bec90ccd849b47cb780d01fa21",
+   "b009e721b2e8602e3b8a2ce17ee2241d0a786746",
+   "f06cebcbf2aae439b94b57e58db506488a0be5d4",
+   "54991de56e0e5f78fbcb5beffc595530a4c2ffa9",
+   "debec3ff0953a931f6b7f5fe0fa34716afd198e4",
+   "4124316e7ed60166405d6683d124cdf8161f6b2c",
+   "1fe394abcb9e5388dfed71fd9e42df361d9d4a36",
+   "a79c47d8e8782684437951b26cc5a833902792f3"
+  ]
+ },
+ "selection": [
+  {
+   "sha": "2d61dacc2e1b96765024f54618e59c6444d57c7b",
+   "date": "2025-12-13",
+   "adds_new_content": true
+  },
+  {
+   "sha": "dd8baf18e1067fc3ccb71cb7e25d79b874e61825",
+   "date": "2026-01-06",
+   "adds_new_content": true
+  },
+  {
+   "sha": "859e833e41cc8f065ed967dbd81a4f23ee9aaa46",
+   "date": "2026-02-02",
+   "adds_new_content": true
+  },
+  {
+   "sha": "2070fbd19479068b634a63c2c6795be89d01f726",
+   "date": "2026-03-12",
+   "adds_new_content": true
+  },
+  {
+   "sha": "c3f7d480f88b4d8d689d269c17116c06c6bc27e3",
+   "date": "2026-04-07",
+   "adds_new_content": true
+  },
+  {
+   "sha": "02dec0efb972c5ec97f1c2c5521e9bcb4479d823",
+   "date": "2026-05-04",
+   "adds_new_content": true
+  },
+  {
+   "sha": "d7c471ea24bd544ec18bc0aeb26d1e629fceaa80",
+   "date": "2026-05-25",
+   "adds_new_content": true
+  },
+  {
+   "sha": "a79c47d8e8782684437951b26cc5a833902792f3",
+   "date": "2026-06-14",
+   "adds_new_content": true
+  }
+ ],
+ "commits": [
+  {
+   "sha": "2d61dacc2e1b96765024f54618e59c6444d57c7b",
+   "date": "2025-12-13",
+   "adds_new_content": true,
+   "worktree_method": "git worktree add --detach on blobless clone",
+   "output_dir_config_line": "_site (Eleventy default; no dir.output line in config)",
+   "build_command": "npm run build",
+   "toolchain": {
+    "node_declared": null,
+    "node_rung": "v24.12.0",
+    "node_rule": "declared engines range -> newest installed fnm release satisfying it on-or-before commit date; else newest installed release on-or-before commit date (never lowest)",
+    "package_manager": "npm (package-lock.json at commit)",
+    "install_command": "npm ci --no-audit --no-fund",
+    "build_command": "npm run build"
+   },
+   "install_seconds": 8.4,
+   "install_ok": true,
+   "build_seconds": 16.5,
+   "build_ok": true,
+   "page_count": 106,
+   "list_pages": [
+    {
+     "path": "1/index.html",
+     "main_list_selector": "body > main",
+     "selector_reason": "inside <main> the element with the most links to content pages (5 distinct content-page targets; deepest on ties); tag=\"main\" id=\"None\" class=\"None\"; 5 descendant <article> items",
+     "link_count": 5
+    },
+    {
+     "path": "10/index.html",
+     "main_list_selector": "body > main",
+     "selector_reason": "inside <main> the element with the most links to content pages (5 distinct content-page targets; deepest on ties); tag=\"main\" id=\"None\" class=\"None\"; 5 descendant <article> items",
+     "link_count": 5
+    },
+    {
+     "path": "11/index.html",
+     "main_list_selector": "body > main",
+     "selector_reason": "inside <main> the element with the most links to content pages (5 distinct content-page targets; deepest on ties); tag=\"main\" id=\"None\" class=\"None\"; 5 descendant <article> items",
+     "link_count": 5
+    },
+    {
+     "path": "12/index.html",
+     "main_list_selector": "body > main",
+     "selector_reason": "inside <main> the element with the most links to content pages (5 distinct content-page targets; deepest on ties); tag=\"main\" id=\"None\" class=\"None\"; 5 descendant <article> items",
+     "link_count": 5
+    },
+    {
+     "path": "13/index.html",
+     "main_list_selector": "body > main",
+     "selector_reason": "inside <main> the element with the most links to content pages (5 distinct content-page targets; deepest on ties); tag=\"main\" id=\"None\" class=\"None\"; 5 descendant <article> items",
+     "link_count": 5
+    },
+    {
+     "path": "14/index.html",
+     "main_list_selector": "body > main",
+     "selector_reason": "inside <main> the element with the most links to content pages (5 distinct content-page targets; deepest on ties); tag=\"main\" id=\"None\" class=\"None\"; 5 descendant <article> items",
+     "link_count": 5
+    },
+    {
+     "path": "15/index.html",
+     "main_list_selector": "dialog#nav-dialog > div.nav-links",
+     "selector_reason": "inside <div> the element with the most links to content pages (4 distinct content-page targets; deepest on ties); tag=\"div\" id=\"None\" class=\"nav-links\"; 0 descendant <article> items",
+     "link_count": 4
+    },
+    {
+     "path": "2/index.html",
+     "main_list_selector": "body > main",
+     "selector_reason": "inside <main> the element with the most links to content pages (5 distinct content-page targets; deepest on ties); tag=\"main\" id=\"None\" class=\"None\"; 5 descendant <article> items",
+     "link_count": 5
+    },
+    {
+     "path": "3/index.html",
+     "main_list_selector": "body > main",
+     "selector_reason": "inside <main> the element with the most links to content pages (5 distinct content-page targets; deepest on ties); tag=\"main\" id=\"None\" class=\"None\"; 5 descendant <article> items",
+     "link_count": 5
+    },
+    {
+     "path": "4/index.html",
+     "main_list_selector": "body > main",
+     "selector_reason": "inside <main> the element with the most links to content pages (5 distinct content-page targets; deepest on ties); tag=\"main\" id=\"None\" class=\"None\"; 5 descendant <article> items",
+     "link_count": 5
+    },
+    {
+     "path": "5/index.html",
+     "main_list_selector": "body > main",
+     "selector_reason": "inside <main> the element with the most links to content pages (5 distinct content-page targets; deepest on ties); tag=\"main\" id=\"None\" class=\"None\"; 5 descendant <article> items",
+     "link_count": 5
+    },
+    {
+     "path": "6/index.html",
+     "main_list_selector": "body > main",
+     "selector_reason": "inside <main> the element with the most links to content pages (5 distinct content-page targets; deepest on ties); tag=\"main\" id=\"None\" class=\"None\"; 5 descendant <article> items",
+     "link_count": 5
+    },
+    {
+     "path": "7/index.html",
+     "main_list_selector": "body > main",
+     "selector_reason": "inside <main> the element with the most links to content pages (5 distinct content-page targets; deepest on ties); tag=\"main\" id=\"None\" class=\"None\"; 5 descendant <article> items",
+     "link_count": 5
+    },
+    {
+     "path": "8/index.html",
+     "main_list_selector": "body > main",
+     "selector_reason": "inside <main> the element with the most links to content pages (5 distinct content-page targets; deepest on ties); tag=\"main\" id=\"None\" class=\"None\"; 5 descendant <article> items",
+     "link_count": 5
+    },
+    {
+     "path": "9/index.html",
+     "main_list_selector": "body > main",
+     "selector_reason": "inside <main> the element with the most links to content pages (5 distinct content-page targets; deepest on ties); tag=\"main\" id=\"None\" class=\"None\"; 5 descendant <article> items",
+     "link_count": 5
+    },
+    {
+     "path": "index.html",
+     "main_list_selector": "body > main",
+     "selector_reason": "inside <main> the element with the most links to content pages (5 distinct content-page targets; deepest on ties); tag=\"main\" id=\"None\" class=\"None\"; 5 descendant <article> items",
+     "link_count": 5
+    },
+    {
+     "path": "wishlist/index.html",
+     "main_list_selector": "dialog#nav-dialog > div.nav-links",
+     "selector_reason": "inside <div> the element with the most links to content pages (4 distinct content-page targets; deepest on ties); tag=\"div\" id=\"None\" class=\"nav-links\"; 0 descendant <article> items",
+     "link_count": 4
+    }
+   ]
+  },
+  {
+   "sha": "dd8baf18e1067fc3ccb71cb7e25d79b874e61825",
+   "date": "2026-01-06",
+   "adds_new_content": true,
+   "worktree_method": "git worktree add --detach on blobless clone",
+   "output_dir_config_line": "_site (Eleventy default; no dir.output line in config)",
+   "build_command": "npm run build",
+   "toolchain": {
+    "node_declared": null,
+    "node_rung": "v24.12.0",
+    "node_rule": "declared engines range -> newest installed fnm release satisfying it on-or-before commit date; else newest installed release on-or-before commit date (never lowest)",
+    "package_manager": "npm (package-lock.json at commit)",
+    "install_command": "npm ci --no-audit --no-fund",
+    "build_command": "npm run build"
+   },
+   "install_seconds": 6.9,
+   "install_ok": true,
+   "build_seconds": 18.9,
+   "build_ok": true,
+   "page_count": 126,
+   "list_pages": [
+    {
+     "path": "1/index.html",
+     "main_list_selector": "body > main",
+     "selector_reason": "inside <main> the element with the most links to content pages (5 distinct content-page targets; deepest on ties); tag=\"main\" id=\"None\" class=\"None\"; 5 descendant <article> items",
+     "link_count": 5
+    },
+    {
+     "path": "10/index.html",
+     "main_list_selector": "body > main",
+     "selector_reason": "inside <main> the element with the most links to content pages (5 distinct content-page targets; deepest on ties); tag=\"main\" id=\"None\" class=\"None\"; 5 descendant <article> items",
+     "link_count": 5
+    },
+    {
+     "path": "11/index.html",
+     "main_list_selector": "body > main",
+     "selector_reason": "inside <main> the element with the most links to content pages (5 distinct content-page targets; deepest on ties); tag=\"main\" id=\"None\" class=\"None\"; 5 descendant <article> items",
+     "link_count": 5
+    },
+    {
+     "path": "12/index.html",
+     "main_list_selector": "body > main",
+     "selector_reason": "inside <main> the element with the most links to content pages (5 distinct content-page targets; deepest on ties); tag=\"main\" id=\"None\" class=\"None\"; 5 descendant <article> items",
+     "link_count": 5
+    },
+    {
+     "path": "13/index.html",
+     "main_list_selector": "body > main",
+     "selector_reason": "inside <main> the element with the most links to content pages (5 distinct content-page targets; deepest on ties); tag=\"main\" id=\"None\" class=\"None\"; 5 descendant <article> items",
+     "link_count": 5
+    },
+    {
+     "path": "14/index.html",
+     "main_list_selector": "body > main",
+     "selector_reason": "inside <main> the element with the most links to content pages (5 distinct content-page targets; deepest on ties); tag=\"main\" id=\"None\" class=\"None\"; 5 descendant <article> items",
+     "link_count": 5
+    },
+    {
+     "path": "15/index.html",
+     "main_list_selector": "body > main",
+     "selector_reason": "inside <main> the element with the most links to content pages (5 distinct content-page targets; deepest on ties); tag=\"main\" id=\"None\" class=\"None\"; 5 descendant <article> items",
+     "link_count": 5
+    },
+    {
+     "path": "16/index.html",
+     "main_list_selector": "body > main",
+     "selector_reason": "inside <main> the element with the most links to content pages (5 distinct content-page targets; deepest on ties); tag=\"main\" id=\"None\" class=\"None\"; 5 descendant <article> items",
+     "link_count": 5
+    },
+    {
+     "path": "17/index.html",
+     "main_list_selector": "body > main",
+     "selector_reason": "inside <main> the element with the most links to content pages (5 distinct content-page targets; deepest on ties); tag=\"main\" id=\"None\" class=\"None\"; 5 descendant <article> items",
+     "link_count": 5
+    },
+    {
+     "path": "18/index.html",
+     "main_list_selector": "dialog#nav-dialog > div.nav-links",
+     "selector_reason": "inside <div> the element with the most links to content pages (4 distinct content-page targets; deepest on ties); tag=\"div\" id=\"None\" class=\"nav-links\"; 0 descendant <article> items",
+     "link_count": 4
+    },
+    {
+     "path": "2/index.html",
+     "main_list_selector": "body > main",
+     "selector_reason": "inside <main> the element with the most links to content pages (5 distinct content-page targets; deepest on ties); tag=\"main\" id=\"None\" class=\"None\"; 5 descendant <article> items",
+     "link_count": 5
+    },
+    {
+     "path": "3/index.html",
+     "main_list_selector": "body > main",
+     "selector_reason": "inside <main> the element with the most links to content pages (5 distinct content-page targets; deepest on ties); tag=\"main\" id=\"None\" class=\"None\"; 5 descendant <article> items",
+     "link_count": 5
+    },
+    {
+     "path": "4/index.html",
+     "main_list_selector": "body > main",
+     "selector_reason": "inside <main> the element with the most links to content pages (5 distinct content-page targets; deepest on ties); tag=\"main\" id=\"None\" class=\"None\"; 5 descendant <article> items",
+     "link_count": 5
+    },
+    {
+     "path": "5/index.html",
+     "main_list_selector": "body > main",
+     "selector_reason": "inside <main> the element with the most links to content pages (5 distinct content-page targets; deepest on ties); tag=\"main\" id=\"None\" class=\"None\"; 5 descendant <article> items",
+     "link_count": 5
+    },
+    {
+     "path": "6/index.html",
+     "main_list_selector": "body > main",
+     "selector_reason": "inside <main> the element with the most links to content pages (5 distinct content-page targets; deepest on ties); tag=\"main\" id=\"None\" class=\"None\"; 5 descendant <article> items",
+     "link_count": 5
+    },
+    {
+     "path": "7/index.html",
+     "main_list_selector": "body > main",
+     "selector_reason": "inside <main> the element with the most links to content pages (5 distinct content-page targets; deepest on ties); tag=\"main\" id=\"None\" class=\"None\"; 5 descendant <article> items",
+     "link_count": 5
+    },
+    {
+     "path": "8/index.html",
+     "main_list_selector": "body > main",
+     "selector_reason": "inside <main> the element with the most links to content pages (5 distinct content-page targets; deepest on ties); tag=\"main\" id=\"None\" class=\"None\"; 5 descendant <article> items",
+     "link_count": 5
+    },
+    {
+     "path": "9/index.html",
+     "main_list_selector": "body > main",
+     "selector_reason": "inside <main> the element with the most links to content pages (5 distinct content-page targets; deepest on ties); tag=\"main\" id=\"None\" class=\"None\"; 5 descendant <article> items",
+     "link_count": 5
+    },
+    {
+     "path": "index.html",
+     "main_list_selector": "body > main",
+     "selector_reason": "inside <main> the element with the most links to content pages (5 distinct content-page targets; deepest on ties); tag=\"main\" id=\"None\" class=\"None\"; 5 descendant <article> items",
+     "link_count": 5
+    },
+    {
+     "path": "wishlist/index.html",
+     "main_list_selector": "dialog#nav-dialog > div.nav-links",
+     "selector_reason": "inside <div> the element with the most links to content pages (4 distinct content-page targets; deepest on ties); tag=\"div\" id=\"None\" class=\"nav-links\"; 0 descendant <article> items",
+     "link_count": 4
+    }
+   ]
+  },
+  {
+   "sha": "859e833e41cc8f065ed967dbd81a4f23ee9aaa46",
+   "date": "2026-02-02",
+   "adds_new_content": true,
+   "worktree_method": "git worktree add --detach on blobless clone",
+   "output_dir_config_line": "_site (Eleventy default; no dir.output line in config)",
+   "build_command": "npm run build",
+   "toolchain": {
+    "node_declared": null,
+    "node_rung": "v24.13.0",
+    "node_rule": "declared engines range -> newest installed fnm release satisfying it on-or-before commit date; else newest installed release on-or-before commit date (never lowest)",
+    "package_manager": "npm (package-lock.json at commit)",
+    "install_command": "npm ci --no-audit --no-fund",
+    "build_command": "npm run build"
+   },
+   "install_seconds": 7.9,
+   "install_ok": true,
+   "build_seconds": 18.9,
+   "build_ok": true,
+   "page_count": 147,
+   "list_pages": [
+    {
+     "path": "1/index.html",
+     "main_list_selector": "body > main",
+     "selector_reason": "inside <main> the element with the most links to content pages (5 distinct content-page targets; deepest on ties); tag=\"main\" id=\"None\" class=\"None\"; 5 descendant <article> items",
+     "link_count": 5
+    },
+    {
+     "path": "10/index.html",
+     "main_list_selector": "body > main",
+     "selector_reason": "inside <main> the element with the most links to content pages (5 distinct content-page targets; deepest on ties); tag=\"main\" id=\"None\" class=\"None\"; 5 descendant <article> items",
+     "link_count": 5
+    },
+    {
+     "path": "11/index.html",
+     "main_list_selector": "body > main",
+     "selector_reason": "inside <main> the element with the most links to content pages (5 distinct content-page targets; deepest on ties); tag=\"main\" id=\"None\" class=\"None\"; 5 descendant <article> items",
+     "link_count": 5
+    },
+    {
+     "path": "12/index.html",
+     "main_list_selector": "body > main",
+     "selector_reason": "inside <main> the element with the most links to content pages (5 distinct content-page targets; deepest on ties); tag=\"main\" id=\"None\" class=\"None\"; 5 descendant <article> items",
+     "link_count": 5
+    },
+    {
+     "path": "13/index.html",
+     "main_list_selector": "body > main",
+     "selector_reason": "inside <main> the element with the most links to content pages (5 distinct content-page targets; deepest on ties); tag=\"main\" id=\"None\" class=\"None\"; 5 descendant <article> items",
+     "link_count": 5
+    },
+    {
+     "path": "14/index.html",
+     "main_list_selector": "body > main",
+     "selector_reason": "inside <main> the element with the most links to content pages (5 distinct content-page targets; deepest on ties); tag=\"main\" id=\"None\" class=\"None\"; 5 descendant <article> items",
+     "link_count": 5
+    },
+    {
+     "path": "15/index.html",
+     "main_list_selector": "body > main",
+     "selector_reason": "inside <main> the element with the most links to content pages (5 distinct content-page targets; deepest on ties); tag=\"main\" id=\"None\" class=\"None\"; 5 descendant <article> items",
+     "link_count": 5
+    },
+    {
+     "path": "16/index.html",
+     "main_list_selector": "body > main",
+     "selector_reason": "inside <main> the element with the most links to content pages (5 distinct content-page targets; deepest on ties); tag=\"main\" id=\"None\" class=\"None\"; 5 descendant <article> items",
+     "link_count": 5
+    },
+    {
+     "path": "17/index.html",
+     "main_list_selector": "body > main",
+     "selector_reason": "inside <main> the element with the most links to content pages (5 distinct content-page targets; deepest on ties); tag=\"main\" id=\"None\" class=\"None\"; 5 descendant <article> items",
+     "link_count": 5
+    },
+    {
+     "path": "18/index.html",
+     "main_list_selector": "body > main",
+     "selector_reason": "inside <main> the element with the most links to content pages (5 distinct content-page targets; deepest on ties); tag=\"main\" id=\"None\" class=\"None\"; 5 descendant <article> items",
+     "link_count": 5
+    },
+    {
+     "path": "19/index.html",
+     "main_list_selector": "body > main",
+     "selector_reason": "inside <main> the element with the most links to content pages (5 distinct content-page targets; deepest on ties); tag=\"main\" id=\"None\" class=\"None\"; 5 descendant <article> items",
+     "link_count": 5
+    },
+    {
+     "path": "2/index.html",
+     "main_list_selector": "body > main",
+     "selector_reason": "inside <main> the element with the most links to content pages (5 distinct content-page targets; deepest on ties); tag=\"main\" id=\"None\" class=\"None\"; 5 descendant <article> items",
+     "link_count": 5
+    },
+    {
+     "path": "20/index.html",
+     "main_list_selector": "body > main",
+     "selector_reason": "inside <main> the element with the most links to content pages (5 distinct content-page targets; deepest on ties); tag=\"main\" id=\"None\" class=\"None\"; 5 descendant <article> items",
+     "link_count": 5
+    },
+    {
+     "path": "21/index.html",
+     "main_list_selector": "dialog#nav-dialog > div.nav-links",
+     "selector_reason": "inside <div> the element with the most links to content pages (4 distinct content-page targets; deepest on ties); tag=\"div\" id=\"None\" class=\"nav-links\"; 0 descendant <article> items",
+     "link_count": 4
+    },
+    {
+     "path": "3/index.html",
+     "main_list_selector": "body > main",
+     "selector_reason": "inside <main> the element with the most links to content pages (5 distinct content-page targets; deepest on ties); tag=\"main\" id=\"None\" class=\"None\"; 5 descendant <article> items",
+     "link_count": 5
+    },
+    {
+     "path": "4/index.html",
+     "main_list_selector": "dialog#nav-dialog > div.nav-links",
+     "selector_reason": "inside <div> the element with the most links to content pages (4 distinct content-page targets; deepest on ties); tag=\"div\" id=\"None\" class=\"nav-links\"; 0 descendant <article> items",
+     "link_count": 4
+    },
+    {
+     "path": "5/index.html",
+     "main_list_selector": "body > main",
+     "selector_reason": "inside <main> the element with the most links to content pages (5 distinct content-page targets; deepest on ties); tag=\"main\" id=\"None\" class=\"None\"; 5 descendant <article> items",
+     "link_count": 5
+    },
+    {
+     "path": "6/index.html",
+     "main_list_selector": "body > main",
+     "selector_reason": "inside <main> the element with the most links to content pages (5 distinct content-page targets; deepest on ties); tag=\"main\" id=\"None\" class=\"None\"; 5 descendant <article> items",
+     "link_count": 5
+    },
+    {
+     "path": "7/index.html",
+     "main_list_selector": "body > main",
+     "selector_reason": "inside <main> the element with the most links to content pages (5 distinct content-page targets; deepest on ties); tag=\"main\" id=\"None\" class=\"None\"; 5 descendant <article> items",
+     "link_count": 5
+    },
+    {
+     "path": "8/index.html",
+     "main_list_selector": "body > main",
+     "selector_reason": "inside <main> the element with the most links to content pages (5 distinct content-page targets; deepest on ties); tag=\"main\" id=\"None\" class=\"None\"; 5 descendant <article> items",
+     "link_count": 5
+    },
+    {
+     "path": "9/index.html",
+     "main_list_selector": "body > main",
+     "selector_reason": "inside <main> the element with the most links to content pages (5 distinct content-page targets; deepest on ties); tag=\"main\" id=\"None\" class=\"None\"; 5 descendant <article> items",
+     "link_count": 5
+    },
+    {
+     "path": "index.html",
+     "main_list_selector": "body > main",
+     "selector_reason": "inside <main> the element with the most links to content pages (5 distinct content-page targets; deepest on ties); tag=\"main\" id=\"None\" class=\"None\"; 5 descendant <article> items",
+     "link_count": 5
+    },
+    {
+     "path": "wishlist/index.html",
+     "main_list_selector": "dialog#nav-dialog > div.nav-links",
+     "selector_reason": "inside <div> the element with the most links to content pages (4 distinct content-page targets; deepest on ties); tag=\"div\" id=\"None\" class=\"nav-links\"; 0 descendant <article> items",
+     "link_count": 4
+    }
+   ]
+  },
+  {
+   "sha": "2070fbd19479068b634a63c2c6795be89d01f726",
+   "date": "2026-03-12",
+   "adds_new_content": true,
+   "worktree_method": "git worktree add --detach on blobless clone",
+   "output_dir_config_line": "_site (Eleventy default; no dir.output line in config)",
+   "build_command": "npm run build",
+   "toolchain": {
+    "node_declared": null,
+    "node_rung": "v24.13.0",
+    "node_rule": "declared engines range -> newest installed fnm release satisfying it on-or-before commit date; else newest installed release on-or-before commit date (never lowest)",
+    "package_manager": "npm (package-lock.json at commit)",
+    "install_command": "npm ci --no-audit --no-fund",
+    "build_command": "npm run build"
+   },
+   "install_seconds": 7.9,
+   "install_ok": true,
+   "build_seconds": 20.4,
+   "build_ok": true,
+   "page_count": 168,
+   "list_pages": [
+    {
+     "path": "1/index.html",
+     "main_list_selector": "body > main",
+     "selector_reason": "inside <main> the element with the most links to content pages (5 distinct content-page targets; deepest on ties); tag=\"main\" id=\"None\" class=\"None\"; 5 descendant <article> items",
+     "link_count": 5
+    },
+    {
+     "path": "10/index.html",
+     "main_list_selector": "body > main",
+     "selector_reason": "inside <main> the element with the most links to content pages (5 distinct content-page targets; deepest on ties); tag=\"main\" id=\"None\" class=\"None\"; 5 descendant <article> items",
+     "link_count": 5
+    },
+    {
+     "path": "11/index.html",
+     "main_list_selector": "body > main",
+     "selector_reason": "inside <main> the element with the most links to content pages (5 distinct content-page targets; deepest on ties); tag=\"main\" id=\"None\" class=\"None\"; 5 descendant <article> items",
+     "link_count": 5
+    },
+    {
+     "path": "12/index.html",
+     "main_list_selector": "body > main",
+     "selector_reason": "inside <main> the element with the most links to content pages (5 distinct content-page targets; deepest on ties); tag=\"main\" id=\"None\" class=\"None\"; 5 descendant <article> items",
+     "link_count": 5
+    },
+    {
+     "path": "13/index.html",
+     "main_list_selector": "body > main",
+     "selector_reason": "inside <main> the element with the most links to content pages (5 distinct content-page targets; deepest on ties); tag=\"main\" id=\"None\" class=\"None\"; 5 descendant <article> items",
+     "link_count": 5
+    },
+    {
+     "path": "14/index.html",
+     "main_list_selector": "body > main",
+     "selector_reason": "inside <main> the element with the most links to content pages (5 distinct content-page targets; deepest on ties); tag=\"main\" id=\"None\" class=\"None\"; 5 descendant <article> items",
+     "link_count": 5
+    },
+    {
+     "path": "15/index.html",
+     "main_list_selector": "body > main",
+     "selector_reason": "inside <main> the element with the most links to content pages (5 distinct content-page targets; deepest on ties); tag=\"main\" id=\"None\" class=\"None\"; 5 descendant <article> items",
+     "link_count": 5
+    },
+    {
+     "path": "16/index.html",
+     "main_list_selector": "body > main",
+     "selector_reason": "inside <main> the element with the most links to content pages (5 distinct content-page targets; deepest on ties); tag=\"main\" id=\"None\" class=\"None\"; 5 descendant <article> items",
+     "link_count": 5
+    },
+    {
+     "path": "17/index.html",
+     "main_list_selector": "body > main",
+     "selector_reason": "inside <main> the element with the most links to content pages (5 distinct content-page targets; deepest on ties); tag=\"main\" id=\"None\" class=\"None\"; 5 descendant <article> items",
+     "link_count": 5
+    },
+    {
+     "path": "18/index.html",
+     "main_list_selector": "body > main",
+     "selector_reason": "inside <main> the element with the most links to content pages (5 distinct content-page targets; deepest on ties); tag=\"main\" id=\"None\" class=\"None\"; 5 descendant <article> items",
+     "link_count": 5
+    },
+    {
+     "path": "19/index.html",
+     "main_list_selector": "body > main",
+     "selector_reason": "inside <main> the element with the most links to content pages (5 distinct content-page targets; deepest on ties); tag=\"main\" id=\"None\" class=\"None\"; 5 descendant <article> items",
+     "link_count": 5
+    },
+    {
+     "path": "2/index.html",
+     "main_list_selector": "body > main",
+     "selector_reason": "inside <main> the element with the most links to content pages (5 distinct content-page targets; deepest on ties); tag=\"main\" id=\"None\" class=\"None\"; 5 descendant <article> items",
+     "link_count": 5
+    },
+    {
+     "path": "20/index.html",
+     "main_list_selector": "body > main",
+     "selector_reason": "inside <main> the element with the most links to content pages (5 distinct content-page targets; deepest on ties); tag=\"main\" id=\"None\" class=\"None\"; 5 descendant <article> items",
+     "link_count": 5
+    },
+    {
+     "path": "21/index.html",
+     "main_list_selector": "body > main",
+     "selector_reason": "inside <main> the element with the most links to content pages (5 distinct content-page targets; deepest on ties); tag=\"main\" id=\"None\" class=\"None\"; 5 descendant <article> items",
+     "link_count": 5
+    },
+    {
+     "path": "22/index.html",
+     "main_list_selector": "body > main",
+     "selector_reason": "inside <main> the element with the most links to content pages (5 distinct content-page targets; deepest on ties); tag=\"main\" id=\"None\" class=\"None\"; 5 descendant <article> items",
+     "link_count": 5
+    },
+    {
+     "path": "23/index.html",
+     "main_list_selector": "body > main",
+     "selector_reason": "inside <main> the element with the most links to content pages (5 distinct content-page targets; deepest on ties); tag=\"main\" id=\"None\" class=\"None\"; 5 descendant <article> items",
+     "link_count": 5
+    },
+    {
+     "path": "24/index.html",
+     "main_list_selector": "body > main",
+     "selector_reason": "inside <main> the element with the most links to content pages (5 distinct content-page targets; deepest on ties); tag=\"main\" id=\"None\" class=\"None\"; 5 descendant <article> items",
+     "link_count": 5
+    },
+    {
+     "path": "25/index.html",
+     "main_list_selector": "dialog#nav-dialog > div.nav-links",
+     "selector_reason": "inside <div> the element with the most links to content pages (4 distinct content-page targets; deepest on ties); tag=\"div\" id=\"None\" class=\"nav-links\"; 0 descendant <article> items",
+     "link_count": 4
+    },
+    {
+     "path": "3/index.html",
+     "main_list_selector": "body > main",
+     "selector_reason": "inside <main> the element with the most links to content pages (5 distinct content-page targets; deepest on ties); tag=\"main\" id=\"None\" class=\"None\"; 5 descendant <article> items",
+     "link_count": 5
+    },
+    {
+     "path": "4/index.html",
+     "main_list_selector": "body > main",
+     "selector_reason": "inside <main> the element with the most links to content pages (5 distinct content-page targets; deepest on ties); tag=\"main\" id=\"None\" class=\"None\"; 5 descendant <article> items",
+     "link_count": 5
+    },
+    {
+     "path": "5/index.html",
+     "main_list_selector": "body > main",
+     "selector_reason": "inside <main> the element with the most links to content pages (5 distinct content-page targets; deepest on ties); tag=\"main\" id=\"None\" class=\"None\"; 5 descendant <article> items",
+     "link_count": 5
+    },
+    {
+     "path": "6/index.html",
+     "main_list_selector": "body > main",
+     "selector_reason": "inside <main> the element with the most links to content pages (5 distinct content-page targets; deepest on ties); tag=\"main\" id=\"None\" class=\"None\"; 5 descendant <article> items",
+     "link_count": 5
+    },
+    {
+     "path": "7/index.html",
+     "main_list_selector": "dialog#nav-dialog > div.nav-links",
+     "selector_reason": "inside <div> the element with the most links to content pages (4 distinct content-page targets; deepest on ties); tag=\"div\" id=\"None\" class=\"nav-links\"; 0 descendant <article> items",
+     "link_count": 4
+    },
+    {
+     "path": "8/index.html",
+     "main_list_selector": "body > main",
+     "selector_reason": "inside <main> the element with the most links to content pages (5 distinct content-page targets; deepest on ties); tag=\"main\" id=\"None\" class=\"None\"; 5 descendant <article> items",
+     "link_count": 5
+    },
+    {
+     "path": "9/index.html",
+     "main_list_selector": "body > main",
+     "selector_reason": "inside <main> the element with the most links to content pages (5 distinct content-page targets; deepest on ties); tag=\"main\" id=\"None\" class=\"None\"; 5 descendant <article> items",
+     "link_count": 5
+    },
+    {
+     "path": "index.html",
+     "main_list_selector": "body > main",
+     "selector_reason": "inside <main> the element with the most links to content pages (5 distinct content-page targets; deepest on ties); tag=\"main\" id=\"None\" class=\"None\"; 5 descendant <article> items",
+     "link_count": 5
+    },
+    {
+     "path": "wishlist/index.html",
+     "main_list_selector": "dialog#nav-dialog > div.nav-links",
+     "selector_reason": "inside <div> the element with the most links to content pages (4 distinct content-page targets; deepest on ties); tag=\"div\" id=\"None\" class=\"nav-links\"; 0 descendant <article> items",
+     "link_count": 4
+    }
+   ]
+  },
+  {
+   "sha": "c3f7d480f88b4d8d689d269c17116c06c6bc27e3",
+   "date": "2026-04-07",
+   "adds_new_content": true,
+   "worktree_method": "git worktree add --detach on blobless clone",
+   "output_dir_config_line": "_site (Eleventy default; no dir.output line in config)",
+   "build_command": "npm run build",
+   "toolchain": {
+    "node_declared": null,
+    "node_rung": "v22.22.2",
+    "node_rule": "declared engines range -> newest installed fnm release satisfying it on-or-before commit date; else newest installed release on-or-before commit date (never lowest)",
+    "package_manager": "npm (package-lock.json at commit)",
+    "install_command": "npm ci --no-audit --no-fund",
+    "build_command": "npm run build"
+   },
+   "install_seconds": 7.2,
+   "install_ok": true,
+   "build_seconds": 14.3,
+   "build_ok": true,
+   "page_count": 187,
+   "list_pages": [
+    {
+     "path": "1/index.html",
+     "main_list_selector": "body > main",
+     "selector_reason": "inside <main> the element with the most links to content pages (5 distinct content-page targets; deepest on ties); tag=\"main\" id=\"None\" class=\"None\"; 5 descendant <article> items",
+     "link_count": 5
+    },
+    {
+     "path": "10/index.html",
+     "main_list_selector": "body > main",
+     "selector_reason": "inside <main> the element with the most links to content pages (5 distinct content-page targets; deepest on ties); tag=\"main\" id=\"None\" class=\"None\"; 5 descendant <article> items",
+     "link_count": 5
+    },
+    {
+     "path": "11/index.html",
+     "main_list_selector": "dialog#nav-dialog > div.nav-links",
+     "selector_reason": "inside <div> the element with the most links to content pages (4 distinct content-page targets; deepest on ties); tag=\"div\" id=\"None\" class=\"nav-links\"; 0 descendant <article> items",
+     "link_count": 4
+    },
+    {
+     "path": "12/index.html",
+     "main_list_selector": "body > main",
+     "selector_reason": "inside <main> the element with the most links to content pages (5 distinct content-page targets; deepest on ties); tag=\"main\" id=\"None\" class=\"None\"; 5 descendant <article> items",
+     "link_count": 5
+    },
+    {
+     "path": "13/index.html",
+     "main_list_selector": "body > main",
+     "selector_reason": "inside <main> the element with the most links to content pages (5 distinct content-page targets; deepest on ties); tag=\"main\" id=\"None\" class=\"None\"; 5 descendant <article> items",
+     "link_count": 5
+    },
+    {
+     "path": "14/index.html",
+     "main_list_selector": "body > main",
+     "selector_reason": "inside <main> the element with the most links to content pages (5 distinct content-page targets; deepest on ties); tag=\"main\" id=\"None\" class=\"None\"; 5 descendant <article> items",
+     "link_count": 5
+    },
+    {
+     "path": "15/index.html",
+     "main_list_selector": "body > main",
+     "selector_reason": "inside <main> the element with the most links to content pages (5 distinct content-page targets; deepest on ties); tag=\"main\" id=\"None\" class=\"None\"; 5 descendant <article> items",
+     "link_count": 5
+    },
+    {
+     "path": "16/index.html",
+     "main_list_selector": "body > main",
+     "selector_reason": "inside <main> the element with the most links to content pages (5 distinct content-page targets; deepest on ties); tag=\"main\" id=\"None\" class=\"None\"; 5 descendant <article> items",
+     "link_count": 5
+    },
+    {
+     "path": "17/index.html",
+     "main_list_selector": "body > main",
+     "selector_reason": "inside <main> the element with the most links to content pages (5 distinct content-page targets; deepest on ties); tag=\"main\" id=\"None\" class=\"None\"; 5 descendant <article> items",
+     "link_count": 5
+    },
+    {
+     "path": "18/index.html",
+     "main_list_selector": "body > main",
+     "selector_reason": "inside <main> the element with the most links to content pages (5 distinct content-page targets; deepest on ties); tag=\"main\" id=\"None\" class=\"None\"; 5 descendant <article> items",
+     "link_count": 5
+    },
+    {
+     "path": "19/index.html",
+     "main_list_selector": "body > main",
+     "selector_reason": "inside <main> the element with the most links to content pages (5 distinct content-page targets; deepest on ties); tag=\"main\" id=\"None\" class=\"None\"; 5 descendant <article> items",
+     "link_count": 5
+    },
+    {
+     "path": "2/index.html",
+     "main_list_selector": "body > main",
+     "selector_reason": "inside <main> the element with the most links to content pages (5 distinct content-page targets; deepest on ties); tag=\"main\" id=\"None\" class=\"None\"; 5 descendant <article> items",
+     "link_count": 5
+    },
+    {
+     "path": "20/index.html",
+     "main_list_selector": "body > main",
+     "selector_reason": "inside <main> the element with the most links to content pages (5 distinct content-page targets; deepest on ties); tag=\"main\" id=\"None\" class=\"None\"; 5 descendant <article> items",
+     "link_count": 5
+    },
+    {
+     "path": "21/index.html",
+     "main_list_selector": "body > main",
+     "selector_reason": "inside <main> the element with the most links to content pages (5 distinct content-page targets; deepest on ties); tag=\"main\" id=\"None\" class=\"None\"; 5 descendant <article> items",
+     "link_count": 5
+    },
+    {
+     "path": "22/index.html",
+     "main_list_selector": "body > main",
+     "selector_reason": "inside <main> the element with the most links to content pages (5 distinct content-page targets; deepest on ties); tag=\"main\" id=\"None\" class=\"None\"; 5 descendant <article> items",
+     "link_count": 5
+    },
+    {
+     "path": "23/index.html",
+     "main_list_selector": "body > main",
+     "selector_reason": "inside <main> the element with the most links to content pages (5 distinct content-page targets; deepest on ties); tag=\"main\" id=\"None\" class=\"None\"; 5 descendant <article> items",
+     "link_count": 5
+    },
+    {
+     "path": "24/index.html",
+     "main_list_selector": "body > main",
+     "selector_reason": "inside <main> the element with the most links to content pages (5 distinct content-page targets; deepest on ties); tag=\"main\" id=\"None\" class=\"None\"; 5 descendant <article> items",
+     "link_count": 5
+    },
+    {
+     "path": "25/index.html",
+     "main_list_selector": "body > main",
+     "selector_reason": "inside <main> the element with the most links to content pages (5 distinct content-page targets; deepest on ties); tag=\"main\" id=\"None\" class=\"None\"; 5 descendant <article> items",
+     "link_count": 5
+    },
+    {
+     "path": "26/index.html",
+     "main_list_selector": "body > main",
+     "selector_reason": "inside <main> the element with the most links to content pages (5 distinct content-page targets; deepest on ties); tag=\"main\" id=\"None\" class=\"None\"; 5 descendant <article> items",
+     "link_count": 5
+    },
+    {
+     "path": "27/index.html",
+     "main_list_selector": "body > main",
+     "selector_reason": "inside <main> the element with the most links to content pages (5 distinct content-page targets; deepest on ties); tag=\"main\" id=\"None\" class=\"None\"; 5 descendant <article> items",
+     "link_count": 5
+    },
+    {
+     "path": "28/index.html",
+     "main_list_selector": "dialog#nav-dialog > div.nav-links",
+     "selector_reason": "inside <div> the element with the most links to content pages (4 distinct content-page targets; deepest on ties); tag=\"div\" id=\"None\" class=\"nav-links\"; 0 descendant <article> items",
+     "link_count": 4
+    },
+    {
+     "path": "3/index.html",
+     "main_list_selector": "body > main",
+     "selector_reason": "inside <main> the element with the most links to content pages (5 distinct content-page targets; deepest on ties); tag=\"main\" id=\"None\" class=\"None\"; 5 descendant <article> items",
+     "link_count": 5
+    },
+    {
+     "path": "4/index.html",
+     "main_list_selector": "body > main",
+     "selector_reason": "inside <main> the element with the most links to content pages (5 distinct content-page targets; deepest on ties); tag=\"main\" id=\"None\" class=\"None\"; 5 descendant <article> items",
+     "link_count": 5
+    },
+    {
+     "path": "5/index.html",
+     "main_list_selector": "body > main",
+     "selector_reason": "inside <main> the element with the most links to content pages (5 distinct content-page targets; deepest on ties); tag=\"main\" id=\"None\" class=\"None\"; 5 descendant <article> items",
+     "link_count": 5
+    },
+    {
+     "path": "6/index.html",
+     "main_list_selector": "body > main",
+     "selector_reason": "inside <main> the element with the most links to content pages (5 distinct content-page targets; deepest on ties); tag=\"main\" id=\"None\" class=\"None\"; 5 descendant <article> items",
+     "link_count": 5
+    },
+    {
+     "path": "7/index.html",
+     "main_list_selector": "body > main",
+     "selector_reason": "inside <main> the element with the most links to content pages (5 distinct content-page targets; deepest on ties); tag=\"main\" id=\"None\" class=\"None\"; 5 descendant <article> items",
+     "link_count": 5
+    },
+    {
+     "path": "8/index.html",
+     "main_list_selector": "body > main",
+     "selector_reason": "inside <main> the element with the most links to content pages (5 distinct content-page targets; deepest on ties); tag=\"main\" id=\"None\" class=\"None\"; 5 descendant <article> items",
+     "link_count": 5
+    },
+    {
+     "path": "9/index.html",
+     "main_list_selector": "body > main",
+     "selector_reason": "inside <main> the element with the most links to content pages (5 distinct content-page targets; deepest on ties); tag=\"main\" id=\"None\" class=\"None\"; 5 descendant <article> items",
+     "link_count": 5
+    },
+    {
+     "path": "index.html",
+     "main_list_selector": "body > main",
+     "selector_reason": "inside <main> the element with the most links to content pages (5 distinct content-page targets; deepest on ties); tag=\"main\" id=\"None\" class=\"None\"; 5 descendant <article> items",
+     "link_count": 5
+    },
+    {
+     "path": "wishlist/index.html",
+     "main_list_selector": "dialog#nav-dialog > div.nav-links",
+     "selector_reason": "inside <div> the element with the most links to content pages (4 distinct content-page targets; deepest on ties); tag=\"div\" id=\"None\" class=\"nav-links\"; 0 descendant <article> items",
+     "link_count": 4
+    }
+   ]
+  },
+  {
+   "sha": "02dec0efb972c5ec97f1c2c5521e9bcb4479d823",
+   "date": "2026-05-04",
+   "adds_new_content": true,
+   "worktree_method": "git worktree add --detach on blobless clone",
+   "output_dir_config_line": "_site (Eleventy default; no dir.output line in config)",
+   "build_command": "npm run build",
+   "toolchain": {
+    "node_declared": null,
+    "node_rung": "v24.15.0",
+    "node_rule": "declared engines range -> newest installed fnm release satisfying it on-or-before commit date; else newest installed release on-or-before commit date (never lowest)",
+    "package_manager": "npm (package-lock.json at commit)",
+    "install_command": "npm ci --no-audit --no-fund",
+    "build_command": "npm run build"
+   },
+   "install_seconds": 7.2,
+   "install_ok": true,
+   "build_seconds": 65.0,
+   "build_ok": true,
+   "page_count": 201,
+   "list_pages": [
+    {
+     "path": "1/index.html",
+     "main_list_selector": "body > main",
+     "selector_reason": "inside <main> the element with the most links to content pages (5 distinct content-page targets; deepest on ties); tag=\"main\" id=\"None\" class=\"None\"; 5 descendant <article> items",
+     "link_count": 5
+    },
+    {
+     "path": "10/index.html",
+     "main_list_selector": "body > main",
+     "selector_reason": "inside <main> the element with the most links to content pages (5 distinct content-page targets; deepest on ties); tag=\"main\" id=\"None\" class=\"None\"; 5 descendant <article> items",
+     "link_count": 5
+    },
+    {
+     "path": "11/index.html",
+     "main_list_selector": "body > main",
+     "selector_reason": "inside <main> the element with the most links to content pages (5 distinct content-page targets; deepest on ties); tag=\"main\" id=\"None\" class=\"None\"; 5 descendant <article> items",
+     "link_count": 5
+    },
+    {
+     "path": "12/index.html",
+     "main_list_selector": "body > main",
+     "selector_reason": "inside <main> the element with the most links to content pages (5 distinct content-page targets; deepest on ties); tag=\"main\" id=\"None\" class=\"None\"; 5 descendant <article> items",
+     "link_count": 5
+    },
+    {
+     "path": "13/index.html",
+     "main_list_selector": "dialog#nav-dialog > div.nav-links",
+     "selector_reason": "inside <div> the element with the most links to content pages (4 distinct content-page targets; deepest on ties); tag=\"div\" id=\"None\" class=\"nav-links\"; 0 descendant <article> items",
+     "link_count": 4
+    },
+    {
+     "path": "14/index.html",
+     "main_list_selector": "body > main",
+     "selector_reason": "inside <main> the element with the most links to content pages (5 distinct content-page targets; deepest on ties); tag=\"main\" id=\"None\" class=\"None\"; 5 descendant <article> items",
+     "link_count": 5
+    },
+    {
+     "path": "15/index.html",
+     "main_list_selector": "body > main",
+     "selector_reason": "inside <main> the element with the most links to content pages (5 distinct content-page targets; deepest on ties); tag=\"main\" id=\"None\" class=\"None\"; 5 descendant <article> items",
+     "link_count": 5
+    },
+    {
+     "path": "16/index.html",
+     "main_list_selector": "body > main",
+     "selector_reason": "inside <main> the element with the most links to content pages (5 distinct content-page targets; deepest on ties); tag=\"main\" id=\"None\" class=\"None\"; 5 descendant <article> items",
+     "link_count": 5
+    },
+    {
+     "path": "17/index.html",
+     "main_list_selector": "body > main",
+     "selector_reason": "inside <main> the element with the most links to content pages (5 distinct content-page targets; deepest on ties); tag=\"main\" id=\"None\" class=\"None\"; 5 descendant <article> items",
+     "link_count": 5
+    },
+    {
+     "path": "18/index.html",
+     "main_list_selector": "body > main",
+     "selector_reason": "inside <main> the element with the most links to content pages (5 distinct content-page targets; deepest on ties); tag=\"main\" id=\"None\" class=\"None\"; 5 descendant <article> items",
+     "link_count": 5
+    },
+    {
+     "path": "19/index.html",
+     "main_list_selector": "body > main",
+     "selector_reason": "inside <main> the element with the most links to content pages (5 distinct content-page targets; deepest on ties); tag=\"main\" id=\"None\" class=\"None\"; 5 descendant <article> items",
+     "link_count": 5
+    },
+    {
+     "path": "2/index.html",
+     "main_list_selector": "body > main",
+     "selector_reason": "inside <main> the element with the most links to content pages (5 distinct content-page targets; deepest on ties); tag=\"main\" id=\"None\" class=\"None\"; 5 descendant <article> items",
+     "link_count": 5
+    },
+    {
+     "path": "20/index.html",
+     "main_list_selector": "body > main",
+     "selector_reason": "inside <main> the element with the most links to content pages (5 distinct content-page targets; deepest on ties); tag=\"main\" id=\"None\" class=\"None\"; 5 descendant <article> items",
+     "link_count": 5
+    },
+    {
+     "path": "21/index.html",
+     "main_list_selector": "body > main",
+     "selector_reason": "inside <main> the element with the most links to content pages (5 distinct content-page targets; deepest on ties); tag=\"main\" id=\"None\" class=\"None\"; 5 descendant <article> items",
+     "link_count": 5
+    },
+    {
+     "path": "22/index.html",
+     "main_list_selector": "body > main",
+     "selector_reason": "inside <main> the element with the most links to content pages (5 distinct content-page targets; deepest on ties); tag=\"main\" id=\"None\" class=\"None\"; 5 descendant <article> items",
+     "link_count": 5
+    },
+    {
+     "path": "23/index.html",
+     "main_list_selector": "body > main",
+     "selector_reason": "inside <main> the element with the most links to content pages (5 distinct content-page targets; deepest on ties); tag=\"main\" id=\"None\" class=\"None\"; 5 descendant <article> items",
+     "link_count": 5
+    },
+    {
+     "path": "24/index.html",
+     "main_list_selector": "body > main",
+     "selector_reason": "inside <main> the element with the most links to content pages (5 distinct content-page targets; deepest on ties); tag=\"main\" id=\"None\" class=\"None\"; 5 descendant <article> items",
+     "link_count": 5
+    },
+    {
+     "path": "25/index.html",
+     "main_list_selector": "body > main",
+     "selector_reason": "inside <main> the element with the most links to content pages (5 distinct content-page targets; deepest on ties); tag=\"main\" id=\"None\" class=\"None\"; 5 descendant <article> items",
+     "link_count": 5
+    },
+    {
+     "path": "26/index.html",
+     "main_list_selector": "body > main",
+     "selector_reason": "inside <main> the element with the most links to content pages (5 distinct content-page targets; deepest on ties); tag=\"main\" id=\"None\" class=\"None\"; 5 descendant <article> items",
+     "link_count": 5
+    },
+    {
+     "path": "27/index.html",
+     "main_list_selector": "body > main",
+     "selector_reason": "inside <main> the element with the most links to content pages (5 distinct content-page targets; deepest on ties); tag=\"main\" id=\"None\" class=\"None\"; 5 descendant <article> items",
+     "link_count": 5
+    },
+    {
+     "path": "28/index.html",
+     "main_list_selector": "body > main",
+     "selector_reason": "inside <main> the element with the most links to content pages (5 distinct content-page targets; deepest on ties); tag=\"main\" id=\"None\" class=\"None\"; 5 descendant <article> items",
+     "link_count": 5
+    },
+    {
+     "path": "29/index.html",
+     "main_list_selector": "body > main",
+     "selector_reason": "inside <main> the element with the most links to content pages (5 distinct content-page targets; deepest on ties); tag=\"main\" id=\"None\" class=\"None\"; 5 descendant <article> items",
+     "link_count": 5
+    },
+    {
+     "path": "3/index.html",
+     "main_list_selector": "body > main",
+     "selector_reason": "inside <main> the element with the most links to content pages (5 distinct content-page targets; deepest on ties); tag=\"main\" id=\"None\" class=\"None\"; 5 descendant <article> items",
+     "link_count": 5
+    },
+    {
+     "path": "30/index.html",
+     "main_list_selector": "dialog#nav-dialog > div.nav-links",
+     "selector_reason": "inside <div> the element with the most links to content pages (4 distinct content-page targets; deepest on ties); tag=\"div\" id=\"None\" class=\"nav-links\"; 0 descendant <article> items",
+     "link_count": 4
+    },
+    {
+     "path": "4/index.html",
+     "main_list_selector": "body > main",
+     "selector_reason": "inside <main> the element with the most links to content pages (5 distinct content-page targets; deepest on ties); tag=\"main\" id=\"None\" class=\"None\"; 5 descendant <article> items",
+     "link_count": 5
+    },
+    {
+     "path": "5/index.html",
+     "main_list_selector": "body > main",
+     "selector_reason": "inside <main> the element with the most links to content pages (5 distinct content-page targets; deepest on ties); tag=\"main\" id=\"None\" class=\"None\"; 5 descendant <article> items",
+     "link_count": 5
+    },
+    {
+     "path": "6/index.html",
+     "main_list_selector": "body > main",
+     "selector_reason": "inside <main> the element with the most links to content pages (5 distinct content-page targets; deepest on ties); tag=\"main\" id=\"None\" class=\"None\"; 5 descendant <article> items",
+     "link_count": 5
+    },
+    {
+     "path": "7/index.html",
+     "main_list_selector": "body > main",
+     "selector_reason": "inside <main> the element with the most links to content pages (5 distinct content-page targets; deepest on ties); tag=\"main\" id=\"None\" class=\"None\"; 5 descendant <article> items",
+     "link_count": 5
+    },
+    {
+     "path": "8/index.html",
+     "main_list_selector": "body > main",
+     "selector_reason": "inside <main> the element with the most links to content pages (5 distinct content-page targets; deepest on ties); tag=\"main\" id=\"None\" class=\"None\"; 5 descendant <article> items",
+     "link_count": 5
+    },
+    {
+     "path": "9/index.html",
+     "main_list_selector": "body > main",
+     "selector_reason": "inside <main> the element with the most links to content pages (5 distinct content-page targets; deepest on ties); tag=\"main\" id=\"None\" class=\"None\"; 5 descendant <article> items",
+     "link_count": 5
+    },
+    {
+     "path": "index.html",
+     "main_list_selector": "body > main",
+     "selector_reason": "inside <main> the element with the most links to content pages (5 distinct content-page targets; deepest on ties); tag=\"main\" id=\"None\" class=\"None\"; 5 descendant <article> items",
+     "link_count": 5
+    },
+    {
+     "path": "wishlist/index.html",
+     "main_list_selector": "dialog#nav-dialog > div.nav-links",
+     "selector_reason": "inside <div> the element with the most links to content pages (4 distinct content-page targets; deepest on ties); tag=\"div\" id=\"None\" class=\"nav-links\"; 0 descendant <article> items",
+     "link_count": 4
+    }
+   ]
+  },
+  {
+   "sha": "d7c471ea24bd544ec18bc0aeb26d1e629fceaa80",
+   "date": "2026-05-25",
+   "adds_new_content": true,
+   "worktree_method": "git worktree add --detach on blobless clone",
+   "output_dir_config_line": "_site (Eleventy default; no dir.output line in config)",
+   "build_command": "npm run build",
+   "toolchain": {
+    "node_declared": null,
+    "node_rung": "v24.16.0",
+    "node_rule": "declared engines range -> newest installed fnm release satisfying it on-or-before commit date; else newest installed release on-or-before commit date (never lowest)",
+    "package_manager": "npm (package-lock.json at commit)",
+    "install_command": "npm ci --no-audit --no-fund",
+    "build_command": "npm run build"
+   },
+   "install_seconds": 6.0,
+   "install_ok": true,
+   "build_seconds": 13.3,
+   "build_ok": true,
+   "page_count": 223,
+   "list_pages": [
+    {
+     "path": "1/index.html",
+     "main_list_selector": "body > main",
+     "selector_reason": "inside <main> the element with the most links to content pages (5 distinct content-page targets; deepest on ties); tag=\"main\" id=\"None\" class=\"None\"; 5 descendant <article> items",
+     "link_count": 5
+    },
+    {
+     "path": "10/index.html",
+     "main_list_selector": "body > main",
+     "selector_reason": "inside <main> the element with the most links to content pages (5 distinct content-page targets; deepest on ties); tag=\"main\" id=\"None\" class=\"None\"; 5 descendant <article> items",
+     "link_count": 5
+    },
+    {
+     "path": "11/index.html",
+     "main_list_selector": "body > main",
+     "selector_reason": "inside <main> the element with the most links to content pages (5 distinct content-page targets; deepest on ties); tag=\"main\" id=\"None\" class=\"None\"; 5 descendant <article> items",
+     "link_count": 5
+    },
+    {
+     "path": "12/index.html",
+     "main_list_selector": "body > main",
+     "selector_reason": "inside <main> the element with the most links to content pages (5 distinct content-page targets; deepest on ties); tag=\"main\" id=\"None\" class=\"None\"; 5 descendant <article> items",
+     "link_count": 5
+    },
+    {
+     "path": "13/index.html",
+     "main_list_selector": "body > main",
+     "selector_reason": "inside <main> the element with the most links to content pages (5 distinct content-page targets; deepest on ties); tag=\"main\" id=\"None\" class=\"None\"; 5 descendant <article> items",
+     "link_count": 5
+    },
+    {
+     "path": "14/index.html",
+     "main_list_selector": "body > main",
+     "selector_reason": "inside <main> the element with the most links to content pages (5 distinct content-page targets; deepest on ties); tag=\"main\" id=\"None\" class=\"None\"; 5 descendant <article> items",
+     "link_count": 5
+    },
+    {
+     "path": "15/index.html",
+     "main_list_selector": "body > main",
+     "selector_reason": "inside <main> the element with the most links to content pages (5 distinct content-page targets; deepest on ties); tag=\"main\" id=\"None\" class=\"None\"; 5 descendant <article> items",
+     "link_count": 5
+    },
+    {
+     "path": "16/index.html",
+     "main_list_selector": "dialog#nav-dialog > div.nav-links",
+     "selector_reason": "inside <div> the element with the most links to content pages (4 distinct content-page targets; deepest on ties); tag=\"div\" id=\"None\" class=\"nav-links\"; 0 descendant <article> items",
+     "link_count": 4
+    },
+    {
+     "path": "17/index.html",
+     "main_list_selector": "body > main",
+     "selector_reason": "inside <main> the element with the most links to content pages (5 distinct content-page targets; deepest on ties); tag=\"main\" id=\"None\" class=\"None\"; 5 descendant <article> items",
+     "link_count": 5
+    },
+    {
+     "path": "18/index.html",
+     "main_list_selector": "body > main",
+     "selector_reason": "inside <main> the element with the most links to content pages (5 distinct content-page targets; deepest on ties); tag=\"main\" id=\"None\" class=\"None\"; 5 descendant <article> items",
+     "link_count": 5
+    },
+    {
+     "path": "19/index.html",
+     "main_list_selector": "body > main",
+     "selector_reason": "inside <main> the element with the most links to content pages (5 distinct content-page targets; deepest on ties); tag=\"main\" id=\"None\" class=\"None\"; 5 descendant <article> items",
+     "link_count": 5
+    },
+    {
+     "path": "2/index.html",
+     "main_list_selector": "body > main",
+     "selector_reason": "inside <main> the element with the most links to content pages (5 distinct content-page targets; deepest on ties); tag=\"main\" id=\"None\" class=\"None\"; 5 descendant <article> items",
+     "link_count": 5
+    },
+    {
+     "path": "20/index.html",
+     "main_list_selector": "body > main",
+     "selector_reason": "inside <main> the element with the most links to content pages (5 distinct content-page targets; deepest on ties); tag=\"main\" id=\"None\" class=\"None\"; 5 descendant <article> items",
+     "link_count": 5
+    },
+    {
+     "path": "21/index.html",
+     "main_list_selector": "body > main",
+     "selector_reason": "inside <main> the element with the most links to content pages (5 distinct content-page targets; deepest on ties); tag=\"main\" id=\"None\" class=\"None\"; 5 descendant <article> items",
+     "link_count": 5
+    },
+    {
+     "path": "22/index.html",
+     "main_list_selector": "body > main",
+     "selector_reason": "inside <main> the element with the most links to content pages (5 distinct content-page targets; deepest on ties); tag=\"main\" id=\"None\" class=\"None\"; 5 descendant <article> items",
+     "link_count": 5
+    },
+    {
+     "path": "23/index.html",
+     "main_list_selector": "body > main",
+     "selector_reason": "inside <main> the element with the most links to content pages (5 distinct content-page targets; deepest on ties); tag=\"main\" id=\"None\" class=\"None\"; 5 descendant <article> items",
+     "link_count": 5
+    },
+    {
+     "path": "24/index.html",
+     "main_list_selector": "body > main",
+     "selector_reason": "inside <main> the element with the most links to content pages (5 distinct content-page targets; deepest on ties); tag=\"main\" id=\"None\" class=\"None\"; 5 descendant <article> items",
+     "link_count": 5
+    },
+    {
+     "path": "25/index.html",
+     "main_list_selector": "body > main",
+     "selector_reason": "inside <main> the element with the most links to content pages (5 distinct content-page targets; deepest on ties); tag=\"main\" id=\"None\" class=\"None\"; 5 descendant <article> items",
+     "link_count": 5
+    },
+    {
+     "path": "26/index.html",
+     "main_list_selector": "body > main",
+     "selector_reason": "inside <main> the element with the most links to content pages (5 distinct content-page targets; deepest on ties); tag=\"main\" id=\"None\" class=\"None\"; 5 descendant <article> items",
+     "link_count": 5
+    },
+    {
+     "path": "27/index.html",
+     "main_list_selector": "body > main",
+     "selector_reason": "inside <main> the element with the most links to content pages (5 distinct content-page targets; deepest on ties); tag=\"main\" id=\"None\" class=\"None\"; 5 descendant <article> items",
+     "link_count": 5
+    },
+    {
+     "path": "28/index.html",
+     "main_list_selector": "body > main",
+     "selector_reason": "inside <main> the element with the most links to content pages (5 distinct content-page targets; deepest on ties); tag=\"main\" id=\"None\" class=\"None\"; 5 descendant <article> items",
+     "link_count": 5
+    },
+    {
+     "path": "29/index.html",
+     "main_list_selector": "body > main",
+     "selector_reason": "inside <main> the element with the most links to content pages (5 distinct content-page targets; deepest on ties); tag=\"main\" id=\"None\" class=\"None\"; 5 descendant <article> items",
+     "link_count": 5
+    },
+    {
+     "path": "3/index.html",
+     "main_list_selector": "body > main",
+     "selector_reason": "inside <main> the element with the most links to content pages (5 distinct content-page targets; deepest on ties); tag=\"main\" id=\"None\" class=\"None\"; 5 descendant <article> items",
+     "link_count": 5
+    },
+    {
+     "path": "30/index.html",
+     "main_list_selector": "body > main",
+     "selector_reason": "inside <main> the element with the most links to content pages (5 distinct content-page targets; deepest on ties); tag=\"main\" id=\"None\" class=\"None\"; 5 descendant <article> items",
+     "link_count": 5
+    },
+    {
+     "path": "31/index.html",
+     "main_list_selector": "body > main",
+     "selector_reason": "inside <main> the element with the most links to content pages (5 distinct content-page targets; deepest on ties); tag=\"main\" id=\"None\" class=\"None\"; 5 descendant <article> items",
+     "link_count": 5
+    },
+    {
+     "path": "32/index.html",
+     "main_list_selector": "body > main",
+     "selector_reason": "inside <main> the element with the most links to content pages (5 distinct content-page targets; deepest on ties); tag=\"main\" id=\"None\" class=\"None\"; 5 descendant <article> items",
+     "link_count": 5
+    },
+    {
+     "path": "33/index.html",
+     "main_list_selector": "body > main",
+     "selector_reason": "inside <main> the element with the most links to content pages (5 distinct content-page targets; deepest on ties); tag=\"main\" id=\"None\" class=\"None\"; 5 descendant <article> items",
+     "link_count": 5
+    },
+    {
+     "path": "34/index.html",
+     "main_list_selector": "dialog#nav-dialog > div.nav-links",
+     "selector_reason": "inside <div> the element with the most links to content pages (4 distinct content-page targets; deepest on ties); tag=\"div\" id=\"None\" class=\"nav-links\"; 0 descendant <article> items",
+     "link_count": 4
+    },
+    {
+     "path": "4/index.html",
+     "main_list_selector": "body > main",
+     "selector_reason": "inside <main> the element with the most links to content pages (5 distinct content-page targets; deepest on ties); tag=\"main\" id=\"None\" class=\"None\"; 5 descendant <article> items",
+     "link_count": 5
+    },
+    {
+     "path": "5/index.html",
+     "main_list_selector": "body > main",
+     "selector_reason": "inside <main> the element with the most links to content pages (5 distinct content-page targets; deepest on ties); tag=\"main\" id=\"None\" class=\"None\"; 5 descendant <article> items",
+     "link_count": 5
+    },
+    {
+     "path": "6/index.html",
+     "main_list_selector": "body > main",
+     "selector_reason": "inside <main> the element with the most links to content pages (5 distinct content-page targets; deepest on ties); tag=\"main\" id=\"None\" class=\"None\"; 5 descendant <article> items",
+     "link_count": 5
+    },
+    {
+     "path": "7/index.html",
+     "main_list_selector": "body > main",
+     "selector_reason": "inside <main> the element with the most links to content pages (5 distinct content-page targets; deepest on ties); tag=\"main\" id=\"None\" class=\"None\"; 5 descendant <article> items",
+     "link_count": 5
+    },
+    {
+     "path": "8/index.html",
+     "main_list_selector": "body > main",
+     "selector_reason": "inside <main> the element with the most links to content pages (5 distinct content-page targets; deepest on ties); tag=\"main\" id=\"None\" class=\"None\"; 5 descendant <article> items",
+     "link_count": 5
+    },
+    {
+     "path": "9/index.html",
+     "main_list_selector": "body > main",
+     "selector_reason": "inside <main> the element with the most links to content pages (5 distinct content-page targets; deepest on ties); tag=\"main\" id=\"None\" class=\"None\"; 5 descendant <article> items",
+     "link_count": 5
+    },
+    {
+     "path": "index.html",
+     "main_list_selector": "body > main",
+     "selector_reason": "inside <main> the element with the most links to content pages (5 distinct content-page targets; deepest on ties); tag=\"main\" id=\"None\" class=\"None\"; 5 descendant <article> items",
+     "link_count": 5
+    },
+    {
+     "path": "wishlist/index.html",
+     "main_list_selector": "dialog#nav-dialog > div.nav-links",
+     "selector_reason": "inside <div> the element with the most links to content pages (4 distinct content-page targets; deepest on ties); tag=\"div\" id=\"None\" class=\"nav-links\"; 0 descendant <article> items",
+     "link_count": 4
+    }
+   ]
+  },
+  {
+   "sha": "a79c47d8e8782684437951b26cc5a833902792f3",
+   "date": "2026-06-14",
+   "adds_new_content": true,
+   "worktree_method": "git worktree add --detach on blobless clone",
+   "output_dir_config_line": "_site (Eleventy default; no dir.output line in config)",
+   "build_command": "npm run build",
+   "toolchain": {
+    "node_declared": null,
+    "node_rung": "v24.16.0",
+    "node_rule": "declared engines range -> newest installed fnm release satisfying it on-or-before commit date; else newest installed release on-or-before commit date (never lowest)",
+    "package_manager": "npm (package-lock.json at commit)",
+    "install_command": "npm ci --no-audit --no-fund",
+    "build_command": "npm run build"
+   },
+   "install_seconds": 4.4,
+   "install_ok": true,
+   "build_seconds": 14.5,
+   "build_ok": true,
+   "page_count": 237,
+   "list_pages": [
+    {
+     "path": "1/index.html",
+     "main_list_selector": "body > main",
+     "selector_reason": "inside <main> the element with the most links to content pages (5 distinct content-page targets; deepest on ties); tag=\"main\" id=\"None\" class=\"None\"; 5 descendant <article> items",
+     "link_count": 5
+    },
+    {
+     "path": "10/index.html",
+     "main_list_selector": "body > main",
+     "selector_reason": "inside <main> the element with the most links to content pages (5 distinct content-page targets; deepest on ties); tag=\"main\" id=\"None\" class=\"None\"; 5 descendant <article> items",
+     "link_count": 5
+    },
+    {
+     "path": "11/index.html",
+     "main_list_selector": "body > main",
+     "selector_reason": "inside <main> the element with the most links to content pages (5 distinct content-page targets; deepest on ties); tag=\"main\" id=\"None\" class=\"None\"; 5 descendant <article> items",
+     "link_count": 5
+    },
+    {
+     "path": "12/index.html",
+     "main_list_selector": "body > main",
+     "selector_reason": "inside <main> the element with the most links to content pages (5 distinct content-page targets; deepest on ties); tag=\"main\" id=\"None\" class=\"None\"; 5 descendant <article> items",
+     "link_count": 5
+    },
+    {
+     "path": "13/index.html",
+     "main_list_selector": "body > main",
+     "selector_reason": "inside <main> the element with the most links to content pages (5 distinct content-page targets; deepest on ties); tag=\"main\" id=\"None\" class=\"None\"; 5 descendant <article> items",
+     "link_count": 5
+    },
+    {
+     "path": "14/index.html",
+     "main_list_selector": "body > main",
+     "selector_reason": "inside <main> the element with the most links to content pages (5 distinct content-page targets; deepest on ties); tag=\"main\" id=\"None\" class=\"None\"; 5 descendant <article> items",
+     "link_count": 5
+    },
+    {
+     "path": "15/index.html",
+     "main_list_selector": "body > main",
+     "selector_reason": "inside <main> the element with the most links to content pages (5 distinct content-page targets; deepest on ties); tag=\"main\" id=\"None\" class=\"None\"; 5 descendant <article> items",
+     "link_count": 5
+    },
+    {
+     "path": "16/index.html",
+     "main_list_selector": "body > main",
+     "selector_reason": "inside <main> the element with the most links to content pages (5 distinct content-page targets; deepest on ties); tag=\"main\" id=\"None\" class=\"None\"; 5 descendant <article> items",
+     "link_count": 5
+    },
+    {
+     "path": "17/index.html",
+     "main_list_selector": "body > main",
+     "selector_reason": "inside <main> the element with the most links to content pages (5 distinct content-page targets; deepest on ties); tag=\"main\" id=\"None\" class=\"None\"; 5 descendant <article> items",
+     "link_count": 5
+    },
+    {
+     "path": "18/index.html",
+     "main_list_selector": "body > main",
+     "selector_reason": "inside <main> the element with the most links to content pages (5 distinct content-page targets; deepest on ties); tag=\"main\" id=\"None\" class=\"None\"; 5 descendant <article> items",
+     "link_count": 5
+    },
+    {
+     "path": "19/index.html",
+     "main_list_selector": "dialog#nav-dialog > div.nav-links",
+     "selector_reason": "inside <div> the element with the most links to content pages (4 distinct content-page targets; deepest on ties); tag=\"div\" id=\"None\" class=\"nav-links\"; 0 descendant <article> items",
+     "link_count": 4
+    },
+    {
+     "path": "2/index.html",
+     "main_list_selector": "body > main",
+     "selector_reason": "inside <main> the element with the most links to content pages (5 distinct content-page targets; deepest on ties); tag=\"main\" id=\"None\" class=\"None\"; 5 descendant <article> items",
+     "link_count": 5
+    },
+    {
+     "path": "20/index.html",
+     "main_list_selector": "body > main",
+     "selector_reason": "inside <main> the element with the most links to content pages (5 distinct content-page targets; deepest on ties); tag=\"main\" id=\"None\" class=\"None\"; 5 descendant <article> items",
+     "link_count": 5
+    },
+    {
+     "path": "21/index.html",
+     "main_list_selector": "body > main",
+     "selector_reason": "inside <main> the element with the most links to content pages (5 distinct content-page targets; deepest on ties); tag=\"main\" id=\"None\" class=\"None\"; 5 descendant <article> items",
+     "link_count": 5
+    },
+    {
+     "path": "22/index.html",
+     "main_list_selector": "body > main",
+     "selector_reason": "inside <main> the element with the most links to content pages (5 distinct content-page targets; deepest on ties); tag=\"main\" id=\"None\" class=\"None\"; 5 descendant <article> items",
+     "link_count": 5
+    },
+    {
+     "path": "23/index.html",
+     "main_list_selector": "body > main",
+     "selector_reason": "inside <main> the element with the most links to content pages (5 distinct content-page targets; deepest on ties); tag=\"main\" id=\"None\" class=\"None\"; 5 descendant <article> items",
+     "link_count": 5
+    },
+    {
+     "path": "24/index.html",
+     "main_list_selector": "body > main",
+     "selector_reason": "inside <main> the element with the most links to content pages (5 distinct content-page targets; deepest on ties); tag=\"main\" id=\"None\" class=\"None\"; 5 descendant <article> items",
+     "link_count": 5
+    },
+    {
+     "path": "25/index.html",
+     "main_list_selector": "body > main",
+     "selector_reason": "inside <main> the element with the most links to content pages (5 distinct content-page targets; deepest on ties); tag=\"main\" id=\"None\" class=\"None\"; 5 descendant <article> items",
+     "link_count": 5
+    },
+    {
+     "path": "26/index.html",
+     "main_list_selector": "body > main",
+     "selector_reason": "inside <main> the element with the most links to content pages (5 distinct content-page targets; deepest on ties); tag=\"main\" id=\"None\" class=\"None\"; 5 descendant <article> items",
+     "link_count": 5
+    },
+    {
+     "path": "27/index.html",
+     "main_list_selector": "body > main",
+     "selector_reason": "inside <main> the element with the most links to content pages (5 distinct content-page targets; deepest on ties); tag=\"main\" id=\"None\" class=\"None\"; 5 descendant <article> items",
+     "link_count": 5
+    },
+    {
+     "path": "28/index.html",
+     "main_list_selector": "body > main",
+     "selector_reason": "inside <main> the element with the most links to content pages (5 distinct content-page targets; deepest on ties); tag=\"main\" id=\"None\" class=\"None\"; 5 descendant <article> items",
+     "link_count": 5
+    },
+    {
+     "path": "29/index.html",
+     "main_list_selector": "body > main",
+     "selector_reason": "inside <main> the element with the most links to content pages (5 distinct content-page targets; deepest on ties); tag=\"main\" id=\"None\" class=\"None\"; 5 descendant <article> items",
+     "link_count": 5
+    },
+    {
+     "path": "3/index.html",
+     "main_list_selector": "body > main",
+     "selector_reason": "inside <main> the element with the most links to content pages (5 distinct content-page targets; deepest on ties); tag=\"main\" id=\"None\" class=\"None\"; 5 descendant <article> items",
+     "link_count": 5
+    },
+    {
+     "path": "30/index.html",
+     "main_list_selector": "body > main",
+     "selector_reason": "inside <main> the element with the most links to content pages (5 distinct content-page targets; deepest on ties); tag=\"main\" id=\"None\" class=\"None\"; 5 descendant <article> items",
+     "link_count": 5
+    },
+    {
+     "path": "31/index.html",
+     "main_list_selector": "body > main",
+     "selector_reason": "inside <main> the element with the most links to content pages (5 distinct content-page targets; deepest on ties); tag=\"main\" id=\"None\" class=\"None\"; 5 descendant <article> items",
+     "link_count": 5
+    },
+    {
+     "path": "32/index.html",
+     "main_list_selector": "body > main",
+     "selector_reason": "inside <main> the element with the most links to content pages (5 distinct content-page targets; deepest on ties); tag=\"main\" id=\"None\" class=\"None\"; 5 descendant <article> items",
+     "link_count": 5
+    },
+    {
+     "path": "33/index.html",
+     "main_list_selector": "body > main",
+     "selector_reason": "inside <main> the element with the most links to content pages (5 distinct content-page targets; deepest on ties); tag=\"main\" id=\"None\" class=\"None\"; 5 descendant <article> items",
+     "link_count": 5
+    },
+    {
+     "path": "34/index.html",
+     "main_list_selector": "body > main",
+     "selector_reason": "inside <main> the element with the most links to content pages (5 distinct content-page targets; deepest on ties); tag=\"main\" id=\"None\" class=\"None\"; 5 descendant <article> items",
+     "link_count": 5
+    },
+    {
+     "path": "35/index.html",
+     "main_list_selector": "body > main",
+     "selector_reason": "inside <main> the element with the most links to content pages (5 distinct content-page targets; deepest on ties); tag=\"main\" id=\"None\" class=\"None\"; 5 descendant <article> items",
+     "link_count": 5
+    },
+    {
+     "path": "36/index.html",
+     "main_list_selector": "dialog#nav-dialog > div.nav-links",
+     "selector_reason": "inside <div> the element with the most links to content pages (4 distinct content-page targets; deepest on ties); tag=\"div\" id=\"None\" class=\"nav-links\"; 0 descendant <article> items",
+     "link_count": 4
+    },
+    {
+     "path": "4/index.html",
+     "main_list_selector": "body > main",
+     "selector_reason": "inside <main> the element with the most links to content pages (5 distinct content-page targets; deepest on ties); tag=\"main\" id=\"None\" class=\"None\"; 5 descendant <article> items",
+     "link_count": 5
+    },
+    {
+     "path": "5/index.html",
+     "main_list_selector": "body > main",
+     "selector_reason": "inside <main> the element with the most links to content pages (5 distinct content-page targets; deepest on ties); tag=\"main\" id=\"None\" class=\"None\"; 5 descendant <article> items",
+     "link_count": 5
+    },
+    {
+     "path": "6/index.html",
+     "main_list_selector": "body > main",
+     "selector_reason": "inside <main> the element with the most links to content pages (5 distinct content-page targets; deepest on ties); tag=\"main\" id=\"None\" class=\"None\"; 5 descendant <article> items",
+     "link_count": 5
+    },
+    {
+     "path": "7/index.html",
+     "main_list_selector": "body > main",
+     "selector_reason": "inside <main> the element with the most links to content pages (5 distinct content-page targets; deepest on ties); tag=\"main\" id=\"None\" class=\"None\"; 5 descendant <article> items",
+     "link_count": 5
+    },
+    {
+     "path": "8/index.html",
+     "main_list_selector": "body > main",
+     "selector_reason": "inside <main> the element with the most links to content pages (5 distinct content-page targets; deepest on ties); tag=\"main\" id=\"None\" class=\"None\"; 5 descendant <article> items",
+     "link_count": 5
+    },
+    {
+     "path": "9/index.html",
+     "main_list_selector": "body > main",
+     "selector_reason": "inside <main> the element with the most links to content pages (5 distinct content-page targets; deepest on ties); tag=\"main\" id=\"None\" class=\"None\"; 5 descendant <article> items",
+     "link_count": 5
+    },
+    {
+     "path": "index.html",
+     "main_list_selector": "body > main",
+     "selector_reason": "inside <main> the element with the most links to content pages (5 distinct content-page targets; deepest on ties); tag=\"main\" id=\"None\" class=\"None\"; 5 descendant <article> items",
+     "link_count": 5
+    },
+    {
+     "path": "wishlist/index.html",
+     "main_list_selector": "dialog#nav-dialog > div.nav-links",
+     "selector_reason": "inside <div> the element with the most links to content pages (4 distinct content-page targets; deepest on ties); tag=\"div\" id=\"None\" class=\"nav-links\"; 0 descendant <article> items",
+     "link_count": 4
+    }
+   ]
+  }
+ ],
+ "median_page_count": 177.5,
+ "median_build_seconds": 17.7,
+ "phase7": {
+  "rebuilt_commits": [
+   "2d61dacc2e1b96765024f54618e59c6444d57c7b",
+   "a79c47d8e8782684437951b26cc5a833902792f3"
+  ],
+  "pages_compared": 343,
+  "all_body_identical": true,
+  "differing_pages": [],
+  "distinct_causes": {}
+ },
+ "verdict": "corpus_ready",
+ "verdict_reason": "8/8 commits build; median 177.5 static pages (>=20); list pages present at every commit; list insertions observed (main-list link counts change across commits); phase-7 rebuilds have identical body hashes on every page (343 pages compared)"
+}

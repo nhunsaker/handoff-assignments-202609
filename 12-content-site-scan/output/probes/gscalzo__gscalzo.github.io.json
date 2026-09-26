@@ -1,0 +1,531 @@
+{
+ "repo": "gscalzo/gscalzo.github.io",
+ "bucket": "H",
+ "window": {
+  "window_start_date": "2026-03-16",
+  "window_end_date": "2026-09-15",
+  "page_touching_commits": 25,
+  "new_content_commits": 5
+ },
+ "selection": [
+  {
+   "sha": "90796c8712d00bf01c8ebd424089ebdafaee33fb",
+   "date": "2026-03-16",
+   "adds_new_content": true
+  },
+  {
+   "sha": "cc4e631ebe8937300ac2b0165c332cdd3ceedf7e",
+   "date": "2026-08-14",
+   "adds_new_content": true
+  },
+  {
+   "sha": "f99ba182944b9fe9c0f71c990335c344d5d989fc",
+   "date": "2026-08-16",
+   "adds_new_content": false
+  },
+  {
+   "sha": "96e83031633dc3cfb894cf5a48cae0fb896ab3e7",
+   "date": "2026-09-04",
+   "adds_new_content": true
+  },
+  {
+   "sha": "e68a8a6ddf95787657093a39d5e105d04a76e319",
+   "date": "2026-09-04",
+   "adds_new_content": false
+  },
+  {
+   "sha": "b582edff430d471324e75db2c3f83d0e7851d812",
+   "date": "2026-09-05",
+   "adds_new_content": false
+  },
+  {
+   "sha": "4796758f79db78d282af7cd24f7f75a98155f132",
+   "date": "2026-09-06",
+   "adds_new_content": false
+  },
+  {
+   "sha": "7ecf330ffbfb62f39b9e3054b7e36e2d42f0f9c4",
+   "date": "2026-09-06",
+   "adds_new_content": false
+  }
+ ],
+ "commits": [
+  {
+   "sha": "90796c8712d00bf01c8ebd424089ebdafaee33fb",
+   "date": "2026-03-16",
+   "adds_new_content": true,
+   "worktree_method": "git worktree add --detach on blobless clone (blobs fetched on demand)",
+   "hugo_version": "0.157.0 extended",
+   "build_command": "hugo --minify -d <worktree>/out",
+   "build_ok": false,
+   "build_seconds": 0.84,
+   "error_excerpt": [
+    "Start building sites \u2026 ",
+    "hugo v0.157.0-7747abbb316b03c8f353fd3be62d5011fa883ee6+extended linux/amd64 BuildDate=2026-02-25T16:38:33Z VendorInfo=gohugoio",
+    "Total in 286 ms",
+    "ERROR error building site: render: [en v1.0.0 guest] failed to render pages: render of \"/404\" failed: \"/home/hatch/workspace/a12-work/wt-gscalzo-0/themes/paper/layouts/_default/baseof.html:42:6\": execute of template failed: template: 404.html:42:6: executing \"404.html\" at <partial \"head.html\" .>: error calling partial: \"/home/hatch/workspace/a12-work/wt-gscalzo-0/themes/paper/layouts/partials/head.html:18:25\": execute of template failed: template: _partials/head.html:18:25: executing \"_partials/head.html\" at <site>: can't evaluate field Author in type interface {}"
+   ],
+   "page_count": null,
+   "output_dir_config_line": "no publishDir in config.toml; Hugo default public/ (builds here run with -d <worktree>/out)",
+   "list_pages": []
+  },
+  {
+   "sha": "cc4e631ebe8937300ac2b0165c332cdd3ceedf7e",
+   "date": "2026-08-14",
+   "adds_new_content": true,
+   "worktree_method": "git worktree add --detach on blobless clone (blobs fetched on demand)",
+   "hugo_version": "0.147.7 extended",
+   "build_command": "hugo --minify -d <worktree>/out",
+   "build_ok": true,
+   "build_seconds": 1.83,
+   "error_excerpt": null,
+   "page_count": 74,
+   "output_dir_config_line": "no publishDir in config.toml; Hugo default public/ (builds here run with -d <worktree>/out)",
+   "list_pages": [
+    {
+     "path": "blog/index.html",
+     "main_list_selector": "section.relative.my-10 a.absolute.inset-0",
+     "selector_reason": "section.relative.my-10 is the only section class the theme's list template (themes/paper/layouts/_default/list.html) emits per paginated page; each wraps exactly one a.absolute.inset-0 anchor pointing at the page permalink",
+     "link_count": 7
+    },
+    {
+     "path": "tags/ai-workflows/index.html",
+     "main_list_selector": "section.relative.my-10 a.absolute.inset-0",
+     "selector_reason": "section.relative.my-10 is the only section class the theme's list template (themes/paper/layouts/_default/list.html) emits per paginated page; each wraps exactly one a.absolute.inset-0 anchor pointing at the page permalink",
+     "link_count": 1
+    },
+    {
+     "path": "tags/ai/index.html",
+     "main_list_selector": "section.relative.my-10 a.absolute.inset-0",
+     "selector_reason": "section.relative.my-10 is the only section class the theme's list template (themes/paper/layouts/_default/list.html) emits per paginated page; each wraps exactly one a.absolute.inset-0 anchor pointing at the page permalink",
+     "link_count": 5
+    },
+    {
+     "path": "tags/android/index.html",
+     "main_list_selector": "section.relative.my-10 a.absolute.inset-0",
+     "selector_reason": "section.relative.my-10 is the only section class the theme's list template (themes/paper/layouts/_default/list.html) emits per paginated page; each wraps exactly one a.absolute.inset-0 anchor pointing at the page permalink",
+     "link_count": 1
+    },
+    {
+     "path": "tags/automation/index.html",
+     "main_list_selector": "section.relative.my-10 a.absolute.inset-0",
+     "selector_reason": "section.relative.my-10 is the only section class the theme's list template (themes/paper/layouts/_default/list.html) emits per paginated page; each wraps exactly one a.absolute.inset-0 anchor pointing at the page permalink",
+     "link_count": 1
+    },
+    {
+     "path": "tags/bletchley-park/index.html",
+     "main_list_selector": "section.relative.my-10 a.absolute.inset-0",
+     "selector_reason": "section.relative.my-10 is the only section class the theme's list template (themes/paper/layouts/_default/list.html) emits per paginated page; each wraps exactly one a.absolute.inset-0 anchor pointing at the page permalink",
+     "link_count": 1
+    },
+    {
+     "path": "tags/build-with-ai/index.html",
+     "main_list_selector": "section.relative.my-10 a.absolute.inset-0",
+     "selector_reason": "section.relative.my-10 is the only section class the theme's list template (themes/paper/layouts/_default/list.html) emits per paginated page; each wraps exactly one a.absolute.inset-0 anchor pointing at the page permalink",
+     "link_count": 1
+    },
+    {
+     "path": "tags/coding-agents/index.html",
+     "main_list_selector": "section.relative.my-10 a.absolute.inset-0",
+     "selector_reason": "section.relative.my-10 is the only section class the theme's list template (themes/paper/layouts/_default/list.html) emits per paginated page; each wraps exactly one a.absolute.inset-0 anchor pointing at the page permalink",
+     "link_count": 1
+    },
+    {
+     "path": "tags/copilot/index.html",
+     "main_list_selector": "section.relative.my-10 a.absolute.inset-0",
+     "selector_reason": "section.relative.my-10 is the only section class the theme's list template (themes/paper/layouts/_default/list.html) emits per paginated page; each wraps exactly one a.absolute.inset-0 anchor pointing at the page permalink",
+     "link_count": 1
+    },
+    {
+     "path": "tags/devfest/index.html",
+     "main_list_selector": "section.relative.my-10 a.absolute.inset-0",
+     "selector_reason": "section.relative.my-10 is the only section class the theme's list template (themes/paper/layouts/_default/list.html) emits per paginated page; each wraps exactly one a.absolute.inset-0 anchor pointing at the page permalink",
+     "link_count": 1
+    },
+    {
+     "path": "tags/events/index.html",
+     "main_list_selector": "section.relative.my-10 a.absolute.inset-0",
+     "selector_reason": "section.relative.my-10 is the only section class the theme's list template (themes/paper/layouts/_default/list.html) emits per paginated page; each wraps exactly one a.absolute.inset-0 anchor pointing at the page permalink",
+     "link_count": 2
+    },
+    {
+     "path": "tags/games/index.html",
+     "main_list_selector": "section.relative.my-10 a.absolute.inset-0",
+     "selector_reason": "section.relative.my-10 is the only section class the theme's list template (themes/paper/layouts/_default/list.html) emits per paginated page; each wraps exactly one a.absolute.inset-0 anchor pointing at the page permalink",
+     "link_count": 1
+    },
+    {
+     "path": "tags/gdg-bletchley/index.html",
+     "main_list_selector": "section.relative.my-10 a.absolute.inset-0",
+     "selector_reason": "section.relative.my-10 is the only section class the theme's list template (themes/paper/layouts/_default/list.html) emits per paginated page; each wraps exactly one a.absolute.inset-0 anchor pointing at the page permalink",
+     "link_count": 1
+    },
+    {
+     "path": "tags/gdg-london/index.html",
+     "main_list_selector": "section.relative.my-10 a.absolute.inset-0",
+     "selector_reason": "section.relative.my-10 is the only section class the theme's list template (themes/paper/layouts/_default/list.html) emits per paginated page; each wraps exactly one a.absolute.inset-0 anchor pointing at the page permalink",
+     "link_count": 1
+    },
+    {
+     "path": "tags/imperial-college/index.html",
+     "main_list_selector": "section.relative.my-10 a.absolute.inset-0",
+     "selector_reason": "section.relative.my-10 is the only section class the theme's list template (themes/paper/layouts/_default/list.html) emits per paginated page; each wraps exactly one a.absolute.inset-0 anchor pointing at the page permalink",
+     "link_count": 1
+    },
+    {
+     "path": "tags/ios/index.html",
+     "main_list_selector": "section.relative.my-10 a.absolute.inset-0",
+     "selector_reason": "section.relative.my-10 is the only section class the theme's list template (themes/paper/layouts/_default/list.html) emits per paginated page; each wraps exactly one a.absolute.inset-0 anchor pointing at the page permalink",
+     "link_count": 2
+    },
+    {
+     "path": "tags/llm/index.html",
+     "main_list_selector": "section.relative.my-10 a.absolute.inset-0",
+     "selector_reason": "section.relative.my-10 is the only section class the theme's list template (themes/paper/layouts/_default/list.html) emits per paginated page; each wraps exactly one a.absolute.inset-0 anchor pointing at the page permalink",
+     "link_count": 1
+    },
+    {
+     "path": "tags/londroid/index.html",
+     "main_list_selector": "section.relative.my-10 a.absolute.inset-0",
+     "selector_reason": "section.relative.my-10 is the only section class the theme's list template (themes/paper/layouts/_default/list.html) emits per paginated page; each wraps exactly one a.absolute.inset-0 anchor pointing at the page permalink",
+     "link_count": 1
+    },
+    {
+     "path": "tags/mobile-dev/index.html",
+     "main_list_selector": "section.relative.my-10 a.absolute.inset-0",
+     "selector_reason": "section.relative.my-10 is the only section class the theme's list template (themes/paper/layouts/_default/list.html) emits per paginated page; each wraps exactly one a.absolute.inset-0 anchor pointing at the page permalink",
+     "link_count": 2
+    },
+    {
+     "path": "tags/national-museum-of-computing/index.html",
+     "main_list_selector": "section.relative.my-10 a.absolute.inset-0",
+     "selector_reason": "section.relative.my-10 is the only section class the theme's list template (themes/paper/layouts/_default/list.html) emits per paginated page; each wraps exactly one a.absolute.inset-0 anchor pointing at the page permalink",
+     "link_count": 1
+    },
+    {
+     "path": "tags/ollama/index.html",
+     "main_list_selector": "section.relative.my-10 a.absolute.inset-0",
+     "selector_reason": "section.relative.my-10 is the only section class the theme's list template (themes/paper/layouts/_default/list.html) emits per paginated page; each wraps exactly one a.absolute.inset-0 anchor pointing at the page permalink",
+     "link_count": 1
+    },
+    {
+     "path": "tags/openai/index.html",
+     "main_list_selector": "section.relative.my-10 a.absolute.inset-0",
+     "selector_reason": "section.relative.my-10 is the only section class the theme's list template (themes/paper/layouts/_default/list.html) emits per paginated page; each wraps exactly one a.absolute.inset-0 anchor pointing at the page permalink",
+     "link_count": 1
+    },
+    {
+     "path": "tags/react-native/index.html",
+     "main_list_selector": "section.relative.my-10 a.absolute.inset-0",
+     "selector_reason": "section.relative.my-10 is the only section class the theme's list template (themes/paper/layouts/_default/list.html) emits per paginated page; each wraps exactly one a.absolute.inset-0 anchor pointing at the page permalink",
+     "link_count": 1
+    },
+    {
+     "path": "tags/retrocomputing/index.html",
+     "main_list_selector": "section.relative.my-10 a.absolute.inset-0",
+     "selector_reason": "section.relative.my-10 is the only section class the theme's list template (themes/paper/layouts/_default/list.html) emits per paginated page; each wraps exactly one a.absolute.inset-0 anchor pointing at the page permalink",
+     "link_count": 1
+    },
+    {
+     "path": "tags/reverse-engineering/index.html",
+     "main_list_selector": "section.relative.my-10 a.absolute.inset-0",
+     "selector_reason": "section.relative.my-10 is the only section class the theme's list template (themes/paper/layouts/_default/list.html) emits per paginated page; each wraps exactly one a.absolute.inset-0 anchor pointing at the page permalink",
+     "link_count": 1
+    },
+    {
+     "path": "tags/swift/index.html",
+     "main_list_selector": "section.relative.my-10 a.absolute.inset-0",
+     "selector_reason": "section.relative.my-10 is the only section class the theme's list template (themes/paper/layouts/_default/list.html) emits per paginated page; each wraps exactly one a.absolute.inset-0 anchor pointing at the page permalink",
+     "link_count": 1
+    },
+    {
+     "path": "tags/women-techmakers/index.html",
+     "main_list_selector": "section.relative.my-10 a.absolute.inset-0",
+     "selector_reason": "section.relative.my-10 is the only section class the theme's list template (themes/paper/layouts/_default/list.html) emits per paginated page; each wraps exactly one a.absolute.inset-0 anchor pointing at the page permalink",
+     "link_count": 1
+    },
+    {
+     "path": "tags/z80/index.html",
+     "main_list_selector": "section.relative.my-10 a.absolute.inset-0",
+     "selector_reason": "section.relative.my-10 is the only section class the theme's list template (themes/paper/layouts/_default/list.html) emits per paginated page; each wraps exactly one a.absolute.inset-0 anchor pointing at the page permalink",
+     "link_count": 1
+    },
+    {
+     "path": "tags/zx-spectrum/index.html",
+     "main_list_selector": "section.relative.my-10 a.absolute.inset-0",
+     "selector_reason": "section.relative.my-10 is the only section class the theme's list template (themes/paper/layouts/_default/list.html) emits per paginated page; each wraps exactly one a.absolute.inset-0 anchor pointing at the page permalink",
+     "link_count": 1
+    }
+   ]
+  },
+  {
+   "sha": "f99ba182944b9fe9c0f71c990335c344d5d989fc",
+   "date": "2026-08-16",
+   "adds_new_content": false,
+   "worktree_method": "git worktree add --detach on blobless clone (blobs fetched on demand)",
+   "hugo_version": "0.147.7 extended",
+   "build_command": "hugo --minify -d <worktree>/out",
+   "build_ok": true,
+   "build_seconds": 0.75,
+   "error_excerpt": null,
+   "page_count": 93,
+   "output_dir_config_line": "no publishDir in config.toml; Hugo default public/ (builds here run with -d <worktree>/out)",
+   "list_pages": [
+    {
+     "path": "blog/index.html",
+     "main_list_selector": "section.relative.my-10 a.absolute.inset-0",
+     "selector_reason": "section.relative.my-10 is the only section class the theme's list template (themes/paper/layouts/_default/list.html) emits per paginated page; each wraps exactly one a.absolute.inset-0 anchor pointing at the page permalink",
+     "link_count": 7
+    },
+    {
+     "path": "tags/ai-workflows/index.html",
+     "main_list_selector": "section.relative.my-10 a.absolute.inset-0",
+     "selector_reason": "section.relative.my-10 is the only section class the theme's list template (themes/paper/layouts/_default/list.html) emits per paginated page; each wraps exactly one a.absolute.inset-0 anchor pointing at the page permalink",
+     "link_count": 1
+    },
+    {
+     "path": "tags/ai/index.html",
+     "main_list_selector": "section.relative.my-10 a.absolute.inset-0",
+     "selector_reason": "section.relative.my-10 is the only section class the theme's list template (themes/paper/layouts/_default/list.html) emits per paginated page; each wraps exactly one a.absolute.inset-0 anchor pointing at the page permalink",
+     "link_count": 5
+    },
+    {
+     "path": "tags/android/index.html",
+     "main_list_selector": "section.relative.my-10 a.absolute.inset-0",
+     "selector_reason": "section.relative.my-10 is the only section class the theme's list template (themes/paper/layouts/_default/list.html) emits per paginated page; each wraps exactly one a.absolute.inset-0 anchor pointing at the page permalink",
+     "link_count": 1
+    },
+    {
+     "path": "tags/automation/index.html",
+     "main_list_selector": "section.relative.my-10 a.absolute.inset-0",
+     "selector_reason": "section.relative.my-10 is the only section class the theme's list template (themes/paper/layouts/_default/list.html) emits per paginated page; each wraps exactly one a.absolute.inset-0 anchor pointing at the page permalink",
+     "link_count": 1
+    },
+    {
+     "path": "tags/bletchley-park/index.html",
+     "main_list_selector": "section.relative.my-10 a.absolute.inset-0",
+     "selector_reason": "section.relative.my-10 is the only section class the theme's list template (themes/paper/layouts/_default/list.html) emits per paginated page; each wraps exactly one a.absolute.inset-0 anchor pointing at the page permalink",
+     "link_count": 1
+    },
+    {
+     "path": "tags/build-with-ai/index.html",
+     "main_list_selector": "section.relative.my-10 a.absolute.inset-0",
+     "selector_reason": "section.relative.my-10 is the only section class the theme's list template (themes/paper/layouts/_default/list.html) emits per paginated page; each wraps exactly one a.absolute.inset-0 anchor pointing at the page permalink",
+     "link_count": 1
+    },
+    {
+     "path": "tags/coding-agents/index.html",
+     "main_list_selector": "section.relative.my-10 a.absolute.inset-0",
+     "selector_reason": "section.relative.my-10 is the only section class the theme's list template (themes/paper/layouts/_default/list.html) emits per paginated page; each wraps exactly one a.absolute.inset-0 anchor pointing at the page permalink",
+     "link_count": 1
+    },
+    {
+     "path": "tags/copilot/index.html",
+     "main_list_selector": "section.relative.my-10 a.absolute.inset-0",
+     "selector_reason": "section.relative.my-10 is the only section class the theme's list template (themes/paper/layouts/_default/list.html) emits per paginated page; each wraps exactly one a.absolute.inset-0 anchor pointing at the page permalink",
+     "link_count": 1
+    },
+    {
+     "path": "tags/devfest/index.html",
+     "main_list_selector": "section.relative.my-10 a.absolute.inset-0",
+     "selector_reason": "section.relative.my-10 is the only section class the theme's list template (themes/paper/layouts/_default/list.html) emits per paginated page; each wraps exactly one a.absolute.inset-0 anchor pointing at the page permalink",
+     "link_count": 1
+    },
+    {
+     "path": "tags/events/index.html",
+     "main_list_selector": "section.relative.my-10 a.absolute.inset-0",
+     "selector_reason": "section.relative.my-10 is the only section class the theme's list template (themes/paper/layouts/_default/list.html) emits per paginated page; each wraps exactly one a.absolute.inset-0 anchor pointing at the page permalink",
+     "link_count": 2
+    },
+    {
+     "path": "tags/games/index.html",
+     "main_list_selector": "section.relative.my-10 a.absolute.inset-0",
+     "selector_reason": "section.relative.my-10 is the only section class the theme's list template (themes/paper/layouts/_default/list.html) emits per paginated page; each wraps exactly one a.absolute.inset-0 anchor pointing at the page permalink",
+     "link_count": 1
+    },
+    {
+     "path": "tags/gdg-bletchley/index.html",
+     "main_list_selector": "section.relative.my-10 a.absolute.inset-0",
+     "selector_reason": "section.relative.my-10 is the only section class the theme's list template (themes/paper/layouts/_default/list.html) emits per paginated page; each wraps exactly one a.absolute.inset-0 anchor pointing at the page permalink",
+     "link_count": 1
+    },
+    {
+     "path": "tags/gdg-london/index.html",
+     "main_list_selector": "section.relative.my-10 a.absolute.inset-0",
+     "selector_reason": "section.relative.my-10 is the only section class the theme's list template (themes/paper/layouts/_default/list.html) emits per paginated page; each wraps exactly one a.absolute.inset-0 anchor pointing at the page permalink",
+     "link_count": 1
+    },
+    {
+     "path": "tags/imperial-college/index.html",
+     "main_list_selector": "section.relative.my-10 a.absolute.inset-0",
+     "selector_reason": "section.relative.my-10 is the only section class the theme's list template (themes/paper/layouts/_default/list.html) emits per paginated page; each wraps exactly one a.absolute.inset-0 anchor pointing at the page permalink",
+     "link_count": 1
+    },
+    {
+     "path": "tags/ios/index.html",
+     "main_list_selector": "section.relative.my-10 a.absolute.inset-0",
+     "selector_reason": "section.relative.my-10 is the only section class the theme's list template (themes/paper/layouts/_default/list.html) emits per paginated page; each wraps exactly one a.absolute.inset-0 anchor pointing at the page permalink",
+     "link_count": 2
+    },
+    {
+     "path": "tags/llm/index.html",
+     "main_list_selector": "section.relative.my-10 a.absolute.inset-0",
+     "selector_reason": "section.relative.my-10 is the only section class the theme's list template (themes/paper/layouts/_default/list.html) emits per paginated page; each wraps exactly one a.absolute.inset-0 anchor pointing at the page permalink",
+     "link_count": 1
+    },
+    {
+     "path": "tags/londroid/index.html",
+     "main_list_selector": "section.relative.my-10 a.absolute.inset-0",
+     "selector_reason": "section.relative.my-10 is the only section class the theme's list template (themes/paper/layouts/_default/list.html) emits per paginated page; each wraps exactly one a.absolute.inset-0 anchor pointing at the page permalink",
+     "link_count": 1
+    },
+    {
+     "path": "tags/mobile-dev/index.html",
+     "main_list_selector": "section.relative.my-10 a.absolute.inset-0",
+     "selector_reason": "section.relative.my-10 is the only section class the theme's list template (themes/paper/layouts/_default/list.html) emits per paginated page; each wraps exactly one a.absolute.inset-0 anchor pointing at the page permalink",
+     "link_count": 2
+    },
+    {
+     "path": "tags/national-museum-of-computing/index.html",
+     "main_list_selector": "section.relative.my-10 a.absolute.inset-0",
+     "selector_reason": "section.relative.my-10 is the only section class the theme's list template (themes/paper/layouts/_default/list.html) emits per paginated page; each wraps exactly one a.absolute.inset-0 anchor pointing at the page permalink",
+     "link_count": 1
+    },
+    {
+     "path": "tags/ollama/index.html",
+     "main_list_selector": "section.relative.my-10 a.absolute.inset-0",
+     "selector_reason": "section.relative.my-10 is the only section class the theme's list template (themes/paper/layouts/_default/list.html) emits per paginated page; each wraps exactly one a.absolute.inset-0 anchor pointing at the page permalink",
+     "link_count": 1
+    },
+    {
+     "path": "tags/openai/index.html",
+     "main_list_selector": "section.relative.my-10 a.absolute.inset-0",
+     "selector_reason": "section.relative.my-10 is the only section class the theme's list template (themes/paper/layouts/_default/list.html) emits per paginated page; each wraps exactly one a.absolute.inset-0 anchor pointing at the page permalink",
+     "link_count": 1
+    },
+    {
+     "path": "tags/react-native/index.html",
+     "main_list_selector": "section.relative.my-10 a.absolute.inset-0",
+     "selector_reason": "section.relative.my-10 is the only section class the theme's list template (themes/paper/layouts/_default/list.html) emits per paginated page; each wraps exactly one a.absolute.inset-0 anchor pointing at the page permalink",
+     "link_count": 1
+    },
+    {
+     "path": "tags/retrocomputing/index.html",
+     "main_list_selector": "section.relative.my-10 a.absolute.inset-0",
+     "selector_reason": "section.relative.my-10 is the only section class the theme's list template (themes/paper/layouts/_default/list.html) emits per paginated page; each wraps exactly one a.absolute.inset-0 anchor pointing at the page permalink",
+     "link_count": 1
+    },
+    {
+     "path": "tags/reverse-engineering/index.html",
+     "main_list_selector": "section.relative.my-10 a.absolute.inset-0",
+     "selector_reason": "section.relative.my-10 is the only section class the theme's list template (themes/paper/layouts/_default/list.html) emits per paginated page; each wraps exactly one a.absolute.inset-0 anchor pointing at the page permalink",
+     "link_count": 1
+    },
+    {
+     "path": "tags/swift/index.html",
+     "main_list_selector": "section.relative.my-10 a.absolute.inset-0",
+     "selector_reason": "section.relative.my-10 is the only section class the theme's list template (themes/paper/layouts/_default/list.html) emits per paginated page; each wraps exactly one a.absolute.inset-0 anchor pointing at the page permalink",
+     "link_count": 1
+    },
+    {
+     "path": "tags/women-techmakers/index.html",
+     "main_list_selector": "section.relative.my-10 a.absolute.inset-0",
+     "selector_reason": "section.relative.my-10 is the only section class the theme's list template (themes/paper/layouts/_default/list.html) emits per paginated page; each wraps exactly one a.absolute.inset-0 anchor pointing at the page permalink",
+     "link_count": 1
+    },
+    {
+     "path": "tags/z80/index.html",
+     "main_list_selector": "section.relative.my-10 a.absolute.inset-0",
+     "selector_reason": "section.relative.my-10 is the only section class the theme's list template (themes/paper/layouts/_default/list.html) emits per paginated page; each wraps exactly one a.absolute.inset-0 anchor pointing at the page permalink",
+     "link_count": 1
+    },
+    {
+     "path": "tags/zx-spectrum/index.html",
+     "main_list_selector": "section.relative.my-10 a.absolute.inset-0",
+     "selector_reason": "section.relative.my-10 is the only section class the theme's list template (themes/paper/layouts/_default/list.html) emits per paginated page; each wraps exactly one a.absolute.inset-0 anchor pointing at the page permalink",
+     "link_count": 1
+    }
+   ]
+  },
+  {
+   "sha": "96e83031633dc3cfb894cf5a48cae0fb896ab3e7",
+   "date": "2026-09-04",
+   "adds_new_content": true,
+   "worktree_method": "git worktree add --detach on blobless clone (blobs fetched on demand)",
+   "hugo_version": "0.165.0 extended",
+   "build_command": "hugo --minify -d <worktree>/out",
+   "build_ok": true,
+   "build_seconds": 1.27,
+   "error_excerpt": null,
+   "page_count": 96,
+   "output_dir_config_line": "no publishDir in config.toml; Hugo default public/ (builds here run with -d <worktree>/out)",
+   "list_pages": []
+  },
+  {
+   "sha": "e68a8a6ddf95787657093a39d5e105d04a76e319",
+   "date": "2026-09-04",
+   "adds_new_content": false,
+   "worktree_method": "git worktree add --detach on blobless clone (blobs fetched on demand)",
+   "hugo_version": "0.165.0 extended",
+   "build_command": "hugo --minify -d <worktree>/out",
+   "build_ok": true,
+   "build_seconds": 0.82,
+   "error_excerpt": null,
+   "page_count": 93,
+   "output_dir_config_line": "no publishDir in config.toml; Hugo default public/ (builds here run with -d <worktree>/out)",
+   "list_pages": []
+  },
+  {
+   "sha": "b582edff430d471324e75db2c3f83d0e7851d812",
+   "date": "2026-09-05",
+   "adds_new_content": false,
+   "worktree_method": "git worktree add --detach on blobless clone (blobs fetched on demand)",
+   "hugo_version": "0.165.0 extended",
+   "build_command": "hugo --minify -d <worktree>/out",
+   "build_ok": true,
+   "build_seconds": 0.73,
+   "error_excerpt": null,
+   "page_count": 103,
+   "output_dir_config_line": "no publishDir in config.toml; Hugo default public/ (builds here run with -d <worktree>/out)",
+   "list_pages": []
+  },
+  {
+   "sha": "4796758f79db78d282af7cd24f7f75a98155f132",
+   "date": "2026-09-06",
+   "adds_new_content": false,
+   "worktree_method": "git worktree add --detach on blobless clone (blobs fetched on demand)",
+   "hugo_version": "0.165.0 extended",
+   "build_command": "hugo --minify -d <worktree>/out",
+   "build_ok": true,
+   "build_seconds": 0.76,
+   "error_excerpt": null,
+   "page_count": 103,
+   "output_dir_config_line": "no publishDir in config.toml; Hugo default public/ (builds here run with -d <worktree>/out)",
+   "list_pages": []
+  },
+  {
+   "sha": "7ecf330ffbfb62f39b9e3054b7e36e2d42f0f9c4",
+   "date": "2026-09-06",
+   "adds_new_content": false,
+   "worktree_method": "git worktree add --detach on blobless clone (blobs fetched on demand)",
+   "hugo_version": "0.165.0 extended",
+   "build_command": "hugo --minify -d <worktree>/out",
+   "build_ok": true,
+   "build_seconds": 1.08,
+   "error_excerpt": null,
+   "page_count": 103,
+   "output_dir_config_line": "no publishDir in config.toml; Hugo default public/ (builds here run with -d <worktree>/out)",
+   "list_pages": []
+  }
+ ],
+ "median_page_count": 96.0,
+ "median_build_seconds": 0.83,
+ "phase7": {
+  "rebuilt_commits": [],
+  "pages_compared": 0,
+  "all_body_identical": null,
+  "differing_pages": []
+ },
+ "verdict": "broken",
+ "verdict_reason": "1/8 commits failed to build with the repo's pinned Hugo toolchain; e.g. 90796c87 (2026-03-16): Start building sites \u2026  | hugo v0.157.0-7747abbb316b03c8f353fd3be62d5011fa883ee6+extended linux/amd64 BuildDate=2026-02-25T16:38:33Z VendorInfo=gohugoio | Total in 286 ms Root cause: the vendored theme themes/paper/layouts/partials/head.html:18 evaluates site.Author.name; Hugo v0.156.0 release notes list \".Site.Author (use .Site.Params.Author)\" under Removed. The repo pinned \"latest\" at that commit, which resolved to v0.157.0 at the commit date."
+}

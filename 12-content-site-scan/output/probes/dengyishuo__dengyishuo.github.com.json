@@ -1,0 +1,1757 @@
+{
+ "repo": "dengyishuo/dengyishuo.github.com",
+ "bucket": "H",
+ "window": {
+  "start": "2025-04-20",
+  "end": "2025-10-20",
+  "page_touching_commits": 67,
+  "new_content_commits": 27
+ },
+ "selection": [
+  {
+   "sha": "052071e23931571961fd12f0aca335f9322bf083",
+   "date": "2025-04-20",
+   "adds_new_content": false
+  },
+  {
+   "sha": "a58c3595824802b7106f6913762ad2a76687999e",
+   "date": "2025-04-27",
+   "adds_new_content": false
+  },
+  {
+   "sha": "fda5a0d078ea34427187d9b61927bc1d366b2b23",
+   "date": "2025-04-28",
+   "adds_new_content": false
+  },
+  {
+   "sha": "bb2bd345f24e9be4a1f5139de2d3e37608f18539",
+   "date": "2025-05-05",
+   "adds_new_content": true
+  },
+  {
+   "sha": "2a7fda09ebe4b9b33bbec01d29c4f11c61e2f8e0",
+   "date": "2025-05-26",
+   "adds_new_content": true
+  },
+  {
+   "sha": "4ff1a140bf8b0d785292039f82b376d515cc9b4f",
+   "date": "2025-07-03",
+   "adds_new_content": false
+  },
+  {
+   "sha": "b308728b10237948735e7cfbc026d1e82e7b9a17",
+   "date": "2025-07-04",
+   "adds_new_content": true
+  },
+  {
+   "sha": "6cec02adfadeb7e0e7a4b24f9207b0e194f5cd32",
+   "date": "2025-07-15",
+   "adds_new_content": true
+  }
+ ],
+ "commits": [
+  {
+   "sha": "052071e23931571961fd12f0aca335f9322bf083",
+   "date": "2025-04-20",
+   "adds_new_content": false,
+   "manifest_present": true,
+   "worktree_method": "git worktree add --detach <path> <sha>",
+   "hugo_version": "0.146.6",
+   "build_ok": true,
+   "build_seconds": 2.8,
+   "page_count": 7,
+   "output_dir_config_line": "(no publishDir in config; default public/)",
+   "list_pages": [
+    {
+     "path": "index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 2 of 2 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 2
+    },
+    {
+     "path": "post/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 2 of 2 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 2
+    }
+   ]
+  },
+  {
+   "sha": "a58c3595824802b7106f6913762ad2a76687999e",
+   "date": "2025-04-27",
+   "adds_new_content": false,
+   "manifest_present": false,
+   "worktree_method": "git worktree add --detach <path> <sha>",
+   "hugo_version": null,
+   "build_ok": null,
+   "build_note": "build_skipped_manifest_missing"
+  },
+  {
+   "sha": "fda5a0d078ea34427187d9b61927bc1d366b2b23",
+   "date": "2025-04-28",
+   "adds_new_content": false,
+   "manifest_present": true,
+   "worktree_method": "git worktree add --detach <path> <sha>",
+   "hugo_version": "0.147.0",
+   "build_ok": true,
+   "build_seconds": 1.0,
+   "page_count": 9,
+   "output_dir_config_line": "(no publishDir in config; default public/)",
+   "list_pages": [
+    {
+     "path": "index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 2 of 2 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 2
+    },
+    {
+     "path": "post/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 2 of 2 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 2
+    }
+   ]
+  },
+  {
+   "sha": "bb2bd345f24e9be4a1f5139de2d3e37608f18539",
+   "date": "2025-05-05",
+   "adds_new_content": true,
+   "manifest_present": true,
+   "worktree_method": "git worktree add --detach <path> <sha>",
+   "hugo_version": "0.147.0",
+   "build_ok": true,
+   "build_seconds": 10.5,
+   "page_count": 171,
+   "output_dir_config_line": "(no publishDir in config; default public/)",
+   "list_pages": [
+    {
+     "path": "categories/investment/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 3 of 3 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 3
+    },
+    {
+     "path": "categories/r/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 12 of 12 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 12
+    },
+    {
+     "path": "categories/\u5546\u4e1a/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 2 of 2 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 2
+    },
+    {
+     "path": "categories/\u7ecf\u6d4e\u5b66/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 3 of 3 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 3
+    },
+    {
+     "path": "categories/\u8ba1\u91cf\u7ecf\u6d4e\u5b66/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 4 of 4 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 4
+    },
+    {
+     "path": "categories/\u91cf\u5316\u6295\u8d44/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 8 of 8 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 8
+    },
+    {
+     "path": "categories/\u968f\u7b14/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 2 of 2 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 2
+    },
+    {
+     "path": "index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 42 of 42 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 42
+    },
+    {
+     "path": "post/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 42 of 42 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 42
+    },
+    {
+     "path": "tags/data/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 2 of 2 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 2
+    },
+    {
+     "path": "tags/economics/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 2 of 2 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 2
+    },
+    {
+     "path": "tags/mgarch/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 2 of 2 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 2
+    },
+    {
+     "path": "tags/quantmod/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 2 of 2 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 2
+    },
+    {
+     "path": "tags/r/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 14 of 14 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 14
+    },
+    {
+     "path": "tags/rtools/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 2 of 2 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 2
+    },
+    {
+     "path": "tags/var/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 4 of 4 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 4
+    },
+    {
+     "path": "tags/vis/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 2 of 2 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 2
+    },
+    {
+     "path": "tags/\u7edf\u8ba1\u4e4b\u90fd/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 2 of 2 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 2
+    },
+    {
+     "path": "tags/\u91cf\u5316\u6295\u8d44/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 5 of 5 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 5
+    },
+    {
+     "path": "tags/\u98ce\u9669/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 2 of 2 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 2
+    },
+    {
+     "path": "tags/\u98ce\u9669\u5ea6\u91cf/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 3 of 3 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 3
+    }
+   ]
+  },
+  {
+   "sha": "2a7fda09ebe4b9b33bbec01d29c4f11c61e2f8e0",
+   "date": "2025-05-26",
+   "adds_new_content": true,
+   "manifest_present": true,
+   "worktree_method": "git worktree add --detach <path> <sha>",
+   "hugo_version": "0.147.0",
+   "build_ok": true,
+   "build_seconds": 31.2,
+   "page_count": 447,
+   "output_dir_config_line": "(no publishDir in config; default public/)",
+   "list_pages": [
+    {
+     "path": "categories/datavis/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 2 of 2 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 2
+    },
+    {
+     "path": "categories/econometrics/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 3 of 3 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 3
+    },
+    {
+     "path": "categories/economics/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 5 of 5 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 5
+    },
+    {
+     "path": "categories/investment/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 11 of 11 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 11
+    },
+    {
+     "path": "categories/life/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 4 of 4 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 4
+    },
+    {
+     "path": "categories/quant/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 5 of 5 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 5
+    },
+    {
+     "path": "categories/r/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 47 of 47 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 47
+    },
+    {
+     "path": "categories/\u5546\u4e1a/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 2 of 2 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 2
+    },
+    {
+     "path": "categories/\u7ecf\u6d4e\u5b66/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 5 of 5 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 5
+    },
+    {
+     "path": "categories/\u8ba1\u91cf\u7ecf\u6d4e\u5b66/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 5 of 5 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 5
+    },
+    {
+     "path": "categories/\u91cf\u5316\u6295\u8d44/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 26 of 26 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 26
+    },
+    {
+     "path": "categories/\u968f\u7b14/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 11 of 11 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 11
+    },
+    {
+     "path": "index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 134 of 134 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 134
+    },
+    {
+     "path": "post/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 134 of 134 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 134
+    },
+    {
+     "path": "tags/cos/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 2 of 2 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 2
+    },
+    {
+     "path": "tags/data/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 2 of 2 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 2
+    },
+    {
+     "path": "tags/economics/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 3 of 3 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 3
+    },
+    {
+     "path": "tags/luxor/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 2 of 2 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 2
+    },
+    {
+     "path": "tags/macd/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 4 of 4 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 4
+    },
+    {
+     "path": "tags/mgarch/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 2 of 2 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 2
+    },
+    {
+     "path": "tags/quantmod/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 9 of 9 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 9
+    },
+    {
+     "path": "tags/quantstrat/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 16 of 16 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 16
+    },
+    {
+     "path": "tags/r/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 52 of 52 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 52
+    },
+    {
+     "path": "tags/rattle/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 2 of 2 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 2
+    },
+    {
+     "path": "tags/rsi/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 3 of 3 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 3
+    },
+    {
+     "path": "tags/rtools/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 2 of 2 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 2
+    },
+    {
+     "path": "tags/r\u8bed\u8a00/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 3 of 3 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 3
+    },
+    {
+     "path": "tags/r\u8f6f\u4ef6/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 3 of 3 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 3
+    },
+    {
+     "path": "tags/sma/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 2 of 2 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 2
+    },
+    {
+     "path": "tags/value-at-risk/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 2 of 2 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 2
+    },
+    {
+     "path": "tags/var/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 5 of 5 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 5
+    },
+    {
+     "path": "tags/vis/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 2 of 2 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 2
+    },
+    {
+     "path": "tags/yahoo/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 2 of 2 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 2
+    },
+    {
+     "path": "tags/zoo/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 2 of 2 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 2
+    },
+    {
+     "path": "tags/\u4e2d\u56fd/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 2 of 2 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 2
+    },
+    {
+     "path": "tags/\u4e66\u7c4d/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 2 of 2 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 2
+    },
+    {
+     "path": "tags/\u4e71\u7801/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 2 of 2 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 2
+    },
+    {
+     "path": "tags/\u534f\u6574/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 2 of 2 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 2
+    },
+    {
+     "path": "tags/\u5386\u53f2/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 2 of 2 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 2
+    },
+    {
+     "path": "tags/\u5957\u5229/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 2 of 2 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 2
+    },
+    {
+     "path": "tags/\u623f\u4ef7/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 2 of 2 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 2
+    },
+    {
+     "path": "tags/\u6280\u672f\u6307\u6807/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 4 of 4 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 4
+    },
+    {
+     "path": "tags/\u6293\u6570\u636e/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 2 of 2 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 2
+    },
+    {
+     "path": "tags/\u6295\u8d44/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 3 of 3 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 3
+    },
+    {
+     "path": "tags/\u6295\u8d44\u7ec4\u5408/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 3 of 3 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 3
+    },
+    {
+     "path": "tags/\u6570\u636e/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 2 of 2 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 2
+    },
+    {
+     "path": "tags/\u65f6\u95f4\u5e8f\u5217/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 4 of 4 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 4
+    },
+    {
+     "path": "tags/\u7a33\u5065\u56de\u5f52/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 2 of 2 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 2
+    },
+    {
+     "path": "tags/\u7b14\u8bb0/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 3 of 3 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 3
+    },
+    {
+     "path": "tags/\u7ed8\u56fe/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 3 of 3 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 3
+    },
+    {
+     "path": "tags/\u7edf\u8ba1\u4e4b\u90fd/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 3 of 3 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 3
+    },
+    {
+     "path": "tags/\u7ffb\u8bd1/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 2 of 2 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 2
+    },
+    {
+     "path": "tags/\u80a1\u7968/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 3 of 3 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 3
+    },
+    {
+     "path": "tags/\u8ba1\u91cf\u7ecf\u6d4e\u5b66/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 2 of 2 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 2
+    },
+    {
+     "path": "tags/\u91cf\u5316\u6295\u8d44/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 21 of 21 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 21
+    },
+    {
+     "path": "tags/\u91d1\u878d/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 5 of 5 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 5
+    },
+    {
+     "path": "tags/\u98ce\u9669/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 3 of 3 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 3
+    },
+    {
+     "path": "tags/\u98ce\u9669\u5747\u644a/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 2 of 2 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 2
+    },
+    {
+     "path": "tags/\u98ce\u9669\u5ea6\u91cf/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 3 of 3 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 3
+    }
+   ]
+  },
+  {
+   "sha": "4ff1a140bf8b0d785292039f82b376d515cc9b4f",
+   "date": "2025-07-03",
+   "adds_new_content": false,
+   "manifest_present": true,
+   "worktree_method": "git worktree add --detach <path> <sha>",
+   "hugo_version": "0.147.7",
+   "build_ok": true,
+   "build_seconds": 12.4,
+   "page_count": 453,
+   "output_dir_config_line": "(no publishDir in config; default public/)",
+   "list_pages": [
+    {
+     "path": "categories/datavis/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 2 of 2 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 2
+    },
+    {
+     "path": "categories/econometrics/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 3 of 3 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 3
+    },
+    {
+     "path": "categories/economics/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 5 of 5 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 5
+    },
+    {
+     "path": "categories/investment/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 11 of 11 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 11
+    },
+    {
+     "path": "categories/life/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 4 of 4 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 4
+    },
+    {
+     "path": "categories/quant/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 5 of 5 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 5
+    },
+    {
+     "path": "categories/r/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 47 of 47 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 47
+    },
+    {
+     "path": "categories/\u5546\u4e1a/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 2 of 2 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 2
+    },
+    {
+     "path": "categories/\u7ecf\u6d4e\u5b66/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 5 of 5 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 5
+    },
+    {
+     "path": "categories/\u8ba1\u91cf\u7ecf\u6d4e\u5b66/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 5 of 5 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 5
+    },
+    {
+     "path": "categories/\u91cf\u5316\u6295\u8d44/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 26 of 26 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 26
+    },
+    {
+     "path": "categories/\u968f\u7b14/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 12 of 12 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 12
+    },
+    {
+     "path": "index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 135 of 135 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 135
+    },
+    {
+     "path": "post/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 135 of 135 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 135
+    },
+    {
+     "path": "tags/cos/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 2 of 2 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 2
+    },
+    {
+     "path": "tags/data/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 2 of 2 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 2
+    },
+    {
+     "path": "tags/economics/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 3 of 3 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 3
+    },
+    {
+     "path": "tags/luxor/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 2 of 2 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 2
+    },
+    {
+     "path": "tags/macd/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 4 of 4 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 4
+    },
+    {
+     "path": "tags/mgarch/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 2 of 2 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 2
+    },
+    {
+     "path": "tags/quantmod/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 9 of 9 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 9
+    },
+    {
+     "path": "tags/quantstrat/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 16 of 16 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 16
+    },
+    {
+     "path": "tags/r/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 52 of 52 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 52
+    },
+    {
+     "path": "tags/rattle/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 2 of 2 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 2
+    },
+    {
+     "path": "tags/rsi/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 3 of 3 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 3
+    },
+    {
+     "path": "tags/rtools/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 2 of 2 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 2
+    },
+    {
+     "path": "tags/r\u8bed\u8a00/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 3 of 3 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 3
+    },
+    {
+     "path": "tags/r\u8f6f\u4ef6/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 3 of 3 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 3
+    },
+    {
+     "path": "tags/sma/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 2 of 2 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 2
+    },
+    {
+     "path": "tags/value-at-risk/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 2 of 2 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 2
+    },
+    {
+     "path": "tags/var/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 5 of 5 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 5
+    },
+    {
+     "path": "tags/vis/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 2 of 2 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 2
+    },
+    {
+     "path": "tags/yahoo/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 2 of 2 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 2
+    },
+    {
+     "path": "tags/zoo/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 2 of 2 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 2
+    },
+    {
+     "path": "tags/\u4e2d\u56fd/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 2 of 2 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 2
+    },
+    {
+     "path": "tags/\u4e66\u7c4d/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 2 of 2 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 2
+    },
+    {
+     "path": "tags/\u4e71\u7801/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 2 of 2 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 2
+    },
+    {
+     "path": "tags/\u534f\u6574/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 2 of 2 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 2
+    },
+    {
+     "path": "tags/\u5386\u53f2/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 2 of 2 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 2
+    },
+    {
+     "path": "tags/\u5957\u5229/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 2 of 2 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 2
+    },
+    {
+     "path": "tags/\u623f\u4ef7/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 2 of 2 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 2
+    },
+    {
+     "path": "tags/\u6280\u672f\u6307\u6807/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 4 of 4 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 4
+    },
+    {
+     "path": "tags/\u6293\u6570\u636e/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 2 of 2 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 2
+    },
+    {
+     "path": "tags/\u6295\u8d44/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 3 of 3 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 3
+    },
+    {
+     "path": "tags/\u6295\u8d44\u7ec4\u5408/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 3 of 3 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 3
+    },
+    {
+     "path": "tags/\u6570\u636e/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 2 of 2 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 2
+    },
+    {
+     "path": "tags/\u65f6\u95f4\u5e8f\u5217/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 4 of 4 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 4
+    },
+    {
+     "path": "tags/\u7a33\u5065\u56de\u5f52/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 2 of 2 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 2
+    },
+    {
+     "path": "tags/\u7b14\u8bb0/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 3 of 3 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 3
+    },
+    {
+     "path": "tags/\u7ed8\u56fe/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 3 of 3 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 3
+    },
+    {
+     "path": "tags/\u7edf\u8ba1\u4e4b\u90fd/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 3 of 3 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 3
+    },
+    {
+     "path": "tags/\u7ffb\u8bd1/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 2 of 2 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 2
+    },
+    {
+     "path": "tags/\u80a1\u7968/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 3 of 3 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 3
+    },
+    {
+     "path": "tags/\u8ba1\u91cf\u7ecf\u6d4e\u5b66/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 2 of 2 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 2
+    },
+    {
+     "path": "tags/\u91cf\u5316\u6295\u8d44/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 21 of 21 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 21
+    },
+    {
+     "path": "tags/\u91d1\u878d/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 5 of 5 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 5
+    },
+    {
+     "path": "tags/\u98ce\u9669/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 3 of 3 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 3
+    },
+    {
+     "path": "tags/\u98ce\u9669\u5747\u644a/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 2 of 2 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 2
+    },
+    {
+     "path": "tags/\u98ce\u9669\u5ea6\u91cf/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 3 of 3 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 3
+    }
+   ]
+  },
+  {
+   "sha": "b308728b10237948735e7cfbc026d1e82e7b9a17",
+   "date": "2025-07-04",
+   "adds_new_content": true,
+   "manifest_present": true,
+   "worktree_method": "git worktree add --detach <path> <sha>",
+   "hugo_version": "0.147.7",
+   "build_ok": true,
+   "build_seconds": 17.2,
+   "page_count": 456,
+   "output_dir_config_line": "(no publishDir in config; default public/)",
+   "list_pages": [
+    {
+     "path": "categories/datavis/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 2 of 2 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 2
+    },
+    {
+     "path": "categories/econometrics/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 3 of 3 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 3
+    },
+    {
+     "path": "categories/economics/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 5 of 5 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 5
+    },
+    {
+     "path": "categories/investment/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 11 of 11 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 11
+    },
+    {
+     "path": "categories/life/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 4 of 4 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 4
+    },
+    {
+     "path": "categories/quant/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 6 of 6 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 6
+    },
+    {
+     "path": "categories/r/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 47 of 47 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 47
+    },
+    {
+     "path": "categories/\u5546\u4e1a/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 2 of 2 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 2
+    },
+    {
+     "path": "categories/\u7ecf\u6d4e\u5b66/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 5 of 5 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 5
+    },
+    {
+     "path": "categories/\u8ba1\u91cf\u7ecf\u6d4e\u5b66/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 5 of 5 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 5
+    },
+    {
+     "path": "categories/\u91cf\u5316\u6295\u8d44/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 26 of 26 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 26
+    },
+    {
+     "path": "categories/\u968f\u7b14/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 12 of 12 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 12
+    },
+    {
+     "path": "index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 136 of 136 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 136
+    },
+    {
+     "path": "post/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 136 of 136 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 136
+    },
+    {
+     "path": "tags/cos/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 2 of 2 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 2
+    },
+    {
+     "path": "tags/data/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 2 of 2 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 2
+    },
+    {
+     "path": "tags/economics/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 3 of 3 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 3
+    },
+    {
+     "path": "tags/lppl/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 2 of 2 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 2
+    },
+    {
+     "path": "tags/luxor/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 2 of 2 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 2
+    },
+    {
+     "path": "tags/macd/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 4 of 4 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 4
+    },
+    {
+     "path": "tags/mgarch/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 2 of 2 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 2
+    },
+    {
+     "path": "tags/quantmod/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 9 of 9 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 9
+    },
+    {
+     "path": "tags/quantstrat/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 16 of 16 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 16
+    },
+    {
+     "path": "tags/r/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 52 of 52 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 52
+    },
+    {
+     "path": "tags/rattle/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 2 of 2 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 2
+    },
+    {
+     "path": "tags/rsi/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 3 of 3 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 3
+    },
+    {
+     "path": "tags/rtools/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 2 of 2 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 2
+    },
+    {
+     "path": "tags/r\u8bed\u8a00/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 3 of 3 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 3
+    },
+    {
+     "path": "tags/r\u8f6f\u4ef6/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 3 of 3 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 3
+    },
+    {
+     "path": "tags/sma/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 2 of 2 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 2
+    },
+    {
+     "path": "tags/value-at-risk/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 2 of 2 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 2
+    },
+    {
+     "path": "tags/var/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 5 of 5 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 5
+    },
+    {
+     "path": "tags/vis/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 2 of 2 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 2
+    },
+    {
+     "path": "tags/yahoo/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 2 of 2 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 2
+    },
+    {
+     "path": "tags/zoo/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 2 of 2 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 2
+    },
+    {
+     "path": "tags/\u4e2d\u56fd/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 2 of 2 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 2
+    },
+    {
+     "path": "tags/\u4e66\u7c4d/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 2 of 2 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 2
+    },
+    {
+     "path": "tags/\u4e71\u7801/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 2 of 2 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 2
+    },
+    {
+     "path": "tags/\u534f\u6574/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 2 of 2 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 2
+    },
+    {
+     "path": "tags/\u5386\u53f2/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 2 of 2 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 2
+    },
+    {
+     "path": "tags/\u5957\u5229/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 2 of 2 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 2
+    },
+    {
+     "path": "tags/\u623f\u4ef7/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 2 of 2 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 2
+    },
+    {
+     "path": "tags/\u6280\u672f\u6307\u6807/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 4 of 4 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 4
+    },
+    {
+     "path": "tags/\u6293\u6570\u636e/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 2 of 2 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 2
+    },
+    {
+     "path": "tags/\u6295\u8d44/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 3 of 3 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 3
+    },
+    {
+     "path": "tags/\u6295\u8d44\u7ec4\u5408/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 3 of 3 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 3
+    },
+    {
+     "path": "tags/\u6570\u636e/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 2 of 2 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 2
+    },
+    {
+     "path": "tags/\u65f6\u95f4\u5e8f\u5217/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 4 of 4 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 4
+    },
+    {
+     "path": "tags/\u7a33\u5065\u56de\u5f52/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 2 of 2 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 2
+    },
+    {
+     "path": "tags/\u7b14\u8bb0/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 3 of 3 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 3
+    },
+    {
+     "path": "tags/\u7ed8\u56fe/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 3 of 3 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 3
+    },
+    {
+     "path": "tags/\u7edf\u8ba1\u4e4b\u90fd/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 3 of 3 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 3
+    },
+    {
+     "path": "tags/\u7ffb\u8bd1/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 2 of 2 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 2
+    },
+    {
+     "path": "tags/\u80a1\u7968/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 3 of 3 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 3
+    },
+    {
+     "path": "tags/\u8ba1\u91cf\u7ecf\u6d4e\u5b66/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 2 of 2 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 2
+    },
+    {
+     "path": "tags/\u91cf\u5316\u6295\u8d44/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 21 of 21 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 21
+    },
+    {
+     "path": "tags/\u91d1\u878d/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 5 of 5 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 5
+    },
+    {
+     "path": "tags/\u98ce\u9669/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 3 of 3 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 3
+    },
+    {
+     "path": "tags/\u98ce\u9669\u5747\u644a/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 2 of 2 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 2
+    },
+    {
+     "path": "tags/\u98ce\u9669\u5ea6\u91cf/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 3 of 3 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 3
+    }
+   ]
+  },
+  {
+   "sha": "6cec02adfadeb7e0e7a4b24f9207b0e194f5cd32",
+   "date": "2025-07-15",
+   "adds_new_content": true,
+   "manifest_present": true,
+   "worktree_method": "git worktree add --detach <path> <sha>",
+   "hugo_version": "0.147.7",
+   "build_ok": true,
+   "build_seconds": 20.1,
+   "page_count": 467,
+   "output_dir_config_line": "(no publishDir in config; default public/)",
+   "list_pages": [
+    {
+     "path": "categories/datavis/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 2 of 2 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 2
+    },
+    {
+     "path": "categories/econometrics/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 5 of 5 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 5
+    },
+    {
+     "path": "categories/economics/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 7 of 7 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 7
+    },
+    {
+     "path": "categories/investment/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 11 of 11 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 11
+    },
+    {
+     "path": "categories/life/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 4 of 4 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 4
+    },
+    {
+     "path": "categories/quant/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 6 of 6 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 6
+    },
+    {
+     "path": "categories/r/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 47 of 47 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 47
+    },
+    {
+     "path": "categories/\u5546\u4e1a/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 2 of 2 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 2
+    },
+    {
+     "path": "categories/\u7ecf\u6d4e\u5b66/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 5 of 5 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 5
+    },
+    {
+     "path": "categories/\u8ba1\u91cf\u7ecf\u6d4e\u5b66/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 5 of 5 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 5
+    },
+    {
+     "path": "categories/\u91cf\u5316\u6295\u8d44/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 25 of 25 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 25
+    },
+    {
+     "path": "categories/\u968f\u7b14/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 12 of 12 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 12
+    },
+    {
+     "path": "index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 141 of 141 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 141
+    },
+    {
+     "path": "post/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 141 of 141 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 141
+    },
+    {
+     "path": "tags/cos/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 2 of 2 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 2
+    },
+    {
+     "path": "tags/data/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 2 of 2 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 2
+    },
+    {
+     "path": "tags/economics/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 3 of 3 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 3
+    },
+    {
+     "path": "tags/garch/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 2 of 2 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 2
+    },
+    {
+     "path": "tags/lppl/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 2 of 2 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 2
+    },
+    {
+     "path": "tags/luxor/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 2 of 2 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 2
+    },
+    {
+     "path": "tags/macd/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 4 of 4 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 4
+    },
+    {
+     "path": "tags/mgarch/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 2 of 2 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 2
+    },
+    {
+     "path": "tags/nasdaq/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 2 of 2 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 2
+    },
+    {
+     "path": "tags/quantmod/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 9 of 9 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 9
+    },
+    {
+     "path": "tags/quantstrat/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 15 of 15 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 15
+    },
+    {
+     "path": "tags/r/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 54 of 54 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 54
+    },
+    {
+     "path": "tags/rattle/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 2 of 2 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 2
+    },
+    {
+     "path": "tags/rsi/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 3 of 3 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 3
+    },
+    {
+     "path": "tags/rtools/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 2 of 2 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 2
+    },
+    {
+     "path": "tags/r\u8bed\u8a00/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 3 of 3 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 3
+    },
+    {
+     "path": "tags/r\u8f6f\u4ef6/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 3 of 3 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 3
+    },
+    {
+     "path": "tags/sma/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 2 of 2 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 2
+    },
+    {
+     "path": "tags/value-at-risk/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 2 of 2 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 2
+    },
+    {
+     "path": "tags/var/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 7 of 7 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 7
+    },
+    {
+     "path": "tags/vis/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 2 of 2 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 2
+    },
+    {
+     "path": "tags/yahoo/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 2 of 2 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 2
+    },
+    {
+     "path": "tags/zoo/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 2 of 2 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 2
+    },
+    {
+     "path": "tags/\u4e2d\u56fd/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 2 of 2 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 2
+    },
+    {
+     "path": "tags/\u4e66\u7c4d/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 2 of 2 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 2
+    },
+    {
+     "path": "tags/\u4e71\u7801/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 2 of 2 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 2
+    },
+    {
+     "path": "tags/\u534f\u6574/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 2 of 2 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 2
+    },
+    {
+     "path": "tags/\u5386\u53f2/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 2 of 2 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 2
+    },
+    {
+     "path": "tags/\u5957\u5229/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 2 of 2 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 2
+    },
+    {
+     "path": "tags/\u623f\u4ef7/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 2 of 2 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 2
+    },
+    {
+     "path": "tags/\u6280\u672f\u6307\u6807/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 4 of 4 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 4
+    },
+    {
+     "path": "tags/\u6293\u6570\u636e/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 2 of 2 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 2
+    },
+    {
+     "path": "tags/\u6295\u8d44/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 3 of 3 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 3
+    },
+    {
+     "path": "tags/\u6295\u8d44\u7ec4\u5408/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 3 of 3 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 3
+    },
+    {
+     "path": "tags/\u6570\u636e/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 2 of 2 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 2
+    },
+    {
+     "path": "tags/\u65f6\u95f4\u5e8f\u5217/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 4 of 4 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 4
+    },
+    {
+     "path": "tags/\u7a33\u5065\u56de\u5f52/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 2 of 2 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 2
+    },
+    {
+     "path": "tags/\u7b14\u8bb0/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 3 of 3 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 3
+    },
+    {
+     "path": "tags/\u7ed8\u56fe/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 3 of 3 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 3
+    },
+    {
+     "path": "tags/\u7edf\u8ba1\u4e4b\u90fd/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 3 of 3 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 3
+    },
+    {
+     "path": "tags/\u7ffb\u8bd1/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 2 of 2 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 2
+    },
+    {
+     "path": "tags/\u80a1\u7968/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 3 of 3 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 3
+    },
+    {
+     "path": "tags/\u8ba1\u91cf\u7ecf\u6d4e\u5b66/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 2 of 2 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 2
+    },
+    {
+     "path": "tags/\u91cf\u5316\u6295\u8d44/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 20 of 20 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 20
+    },
+    {
+     "path": "tags/\u91d1\u878d/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 5 of 5 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 5
+    },
+    {
+     "path": "tags/\u98ce\u9669/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 3 of 3 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 3
+    },
+    {
+     "path": "tags/\u98ce\u9669\u5747\u644a/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 2 of 2 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 2
+    },
+    {
+     "path": "tags/\u98ce\u9669\u5ea6\u91cf/index.html",
+     "main_list_selector": "div.wrapper > main.content > div.archive",
+     "selector_reason": "container holding 3 of 3 content-page links on this page (content = links matching ['/\\\\d{4}/\\\\d{2}/\\\\d{2}/[^/]+/']); every other container holds fewer \u2014 the page's main list",
+     "link_count": 3
+    }
+   ]
+  }
+ ],
+ "median_page_count": 447,
+ "median_build_seconds": 12.4,
+ "phase7": null,
+ "verdict": "environment_incomplete",
+ "verdict_reason": "manifest (hugo config) missing at 1 of 8 selected commits (a58c3595); per task instructions recorded as build_skipped_manifest_missing, not broken"
+}

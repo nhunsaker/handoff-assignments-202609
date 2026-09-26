@@ -1,0 +1,209 @@
+{
+ "repo": "carpentries/carpentries.org",
+ "bucket": "H",
+ "window": {
+  "start": "2024-09-04",
+  "end": "2025-03-06",
+  "page_touching_commits": 247,
+  "new_content_commits": 27
+ },
+ "selection": [
+  {
+   "sha": "dc3e0c3b9fc5fee6ce8c19742c1b30b1554b717a",
+   "date": "2024-09-16",
+   "adds_new_content": true
+  },
+  {
+   "sha": "c38cbc011aa60536a3944fda263a3f1630b07da7",
+   "date": "2024-09-17",
+   "adds_new_content": true
+  },
+  {
+   "sha": "ae2387d4ff1b7fd585eeda478325348ffbc03e9c",
+   "date": "2024-10-03",
+   "adds_new_content": true
+  },
+  {
+   "sha": "7fba3b806f8003f801cc212c496f7f43032c2be6",
+   "date": "2024-10-21",
+   "adds_new_content": false
+  },
+  {
+   "sha": "167f3bfed8339da328de2798abc468922788f186",
+   "date": "2024-11-18",
+   "adds_new_content": false
+  },
+  {
+   "sha": "8f16b4a8d5b04ac32d9ba2cf6d92b77120c24e67",
+   "date": "2024-12-19",
+   "adds_new_content": false
+  },
+  {
+   "sha": "8d2f70d9f456fef85f95054f86add8270e67e088",
+   "date": "2025-02-10",
+   "adds_new_content": false
+  },
+  {
+   "sha": "fd779f211145c05c1f043c97db7cfc39dea3f301",
+   "date": "2025-03-06",
+   "adds_new_content": false
+  }
+ ],
+ "commits": [
+  {
+   "sha": "dc3e0c3b9fc5fee6ce8c19742c1b30b1554b717a",
+   "date": "2024-09-16",
+   "adds_new_content": true,
+   "worktree_method": "sequential detached checkout + git clean -fdx in single clone (git worktree add fails on these partial clones: \"Could not reset index file to revision HEAD\")",
+   "hugo_version": "0.123.7 pinned in netlify.toml at this commit (build attempt run with local 0.152.2 extended; fails at module download, before any version-specific behavior)",
+   "build_ok": false,
+   "build_seconds": 1.02,
+   "error_excerpt": [
+    "Total in 29 ms",
+    "Error: failed to load modules: failed to download modules: binary with name \"go\" not found in PATH",
+    "",
+    "WARN  deprecated: the \":filename\" permalink token was deprecated in Hugo 0.144.0 and will be removed in a future release. Use \":contentbasename\" instead."
+   ],
+   "page_count": null,
+   "output_dir_config_line": "netlify.toml [build]: publish = \"public\"",
+   "list_pages": []
+  },
+  {
+   "sha": "c38cbc011aa60536a3944fda263a3f1630b07da7",
+   "date": "2024-09-17",
+   "adds_new_content": true,
+   "worktree_method": "sequential detached checkout + git clean -fdx in single clone (git worktree add fails on these partial clones: \"Could not reset index file to revision HEAD\")",
+   "hugo_version": "0.123.7 pinned in netlify.toml at this commit (build attempt run with local 0.152.2 extended; fails at module download, before any version-specific behavior)",
+   "build_ok": false,
+   "build_seconds": 0.43,
+   "error_excerpt": [
+    "Total in 58 ms",
+    "Error: failed to load modules: failed to download modules: binary with name \"go\" not found in PATH",
+    "",
+    "WARN  deprecated: the \":filename\" permalink token was deprecated in Hugo 0.144.0 and will be removed in a future release. Use \":contentbasename\" instead."
+   ],
+   "page_count": null,
+   "output_dir_config_line": "netlify.toml [build]: publish = \"public\"",
+   "list_pages": []
+  },
+  {
+   "sha": "ae2387d4ff1b7fd585eeda478325348ffbc03e9c",
+   "date": "2024-10-03",
+   "adds_new_content": true,
+   "worktree_method": "sequential detached checkout + git clean -fdx in single clone (git worktree add fails on these partial clones: \"Could not reset index file to revision HEAD\")",
+   "hugo_version": "0.123.7 pinned in netlify.toml at this commit (build attempt run with local 0.152.2 extended; fails at module download, before any version-specific behavior)",
+   "build_ok": false,
+   "build_seconds": 0.55,
+   "error_excerpt": [
+    "Total in 89 ms",
+    "Error: failed to load modules: failed to download modules: binary with name \"go\" not found in PATH",
+    "",
+    "WARN  deprecated: the \":filename\" permalink token was deprecated in Hugo 0.144.0 and will be removed in a future release. Use \":contentbasename\" instead."
+   ],
+   "page_count": null,
+   "output_dir_config_line": "netlify.toml [build]: publish = \"public\"",
+   "list_pages": []
+  },
+  {
+   "sha": "7fba3b806f8003f801cc212c496f7f43032c2be6",
+   "date": "2024-10-21",
+   "adds_new_content": false,
+   "worktree_method": "sequential detached checkout + git clean -fdx in single clone (git worktree add fails on these partial clones: \"Could not reset index file to revision HEAD\")",
+   "hugo_version": "0.123.7 pinned in netlify.toml at this commit (build attempt run with local 0.152.2 extended; fails at module download, before any version-specific behavior)",
+   "build_ok": false,
+   "build_seconds": 0.26,
+   "error_excerpt": [
+    "Total in 11 ms",
+    "Error: failed to load modules: failed to download modules: binary with name \"go\" not found in PATH",
+    "",
+    "WARN  deprecated: the \":filename\" permalink token was deprecated in Hugo 0.144.0 and will be removed in a future release. Use \":contentbasename\" instead."
+   ],
+   "page_count": null,
+   "output_dir_config_line": "netlify.toml [build]: publish = \"public\"",
+   "list_pages": []
+  },
+  {
+   "sha": "167f3bfed8339da328de2798abc468922788f186",
+   "date": "2024-11-18",
+   "adds_new_content": false,
+   "worktree_method": "sequential detached checkout + git clean -fdx in single clone (git worktree add fails on these partial clones: \"Could not reset index file to revision HEAD\")",
+   "hugo_version": "0.123.7 pinned in netlify.toml at this commit (build attempt run with local 0.152.2 extended; fails at module download, before any version-specific behavior)",
+   "build_ok": false,
+   "build_seconds": 0.39,
+   "error_excerpt": [
+    "Total in 50 ms",
+    "Error: failed to load modules: failed to download modules: binary with name \"go\" not found in PATH",
+    "",
+    "WARN  deprecated: the \":filename\" permalink token was deprecated in Hugo 0.144.0 and will be removed in a future release. Use \":contentbasename\" instead."
+   ],
+   "page_count": null,
+   "output_dir_config_line": "netlify.toml [build]: publish = \"public\"",
+   "list_pages": []
+  },
+  {
+   "sha": "8f16b4a8d5b04ac32d9ba2cf6d92b77120c24e67",
+   "date": "2024-12-19",
+   "adds_new_content": false,
+   "worktree_method": "sequential detached checkout + git clean -fdx in single clone (git worktree add fails on these partial clones: \"Could not reset index file to revision HEAD\")",
+   "hugo_version": "0.123.7 pinned in netlify.toml at this commit (build attempt run with local 0.152.2 extended; fails at module download, before any version-specific behavior)",
+   "build_ok": false,
+   "build_seconds": 0.38,
+   "error_excerpt": [
+    "Total in 112 ms",
+    "Error: failed to load modules: failed to download modules: binary with name \"go\" not found in PATH",
+    "",
+    "WARN  deprecated: the \":filename\" permalink token was deprecated in Hugo 0.144.0 and will be removed in a future release. Use \":contentbasename\" instead."
+   ],
+   "page_count": null,
+   "output_dir_config_line": "netlify.toml [build]: publish = \"public\"",
+   "list_pages": []
+  },
+  {
+   "sha": "8d2f70d9f456fef85f95054f86add8270e67e088",
+   "date": "2025-02-10",
+   "adds_new_content": false,
+   "worktree_method": "sequential detached checkout + git clean -fdx in single clone (git worktree add fails on these partial clones: \"Could not reset index file to revision HEAD\")",
+   "hugo_version": "0.139.2 pinned in netlify.toml at this commit (build attempt run with local 0.152.2 extended; fails at module download, before any version-specific behavior)",
+   "build_ok": false,
+   "build_seconds": 0.28,
+   "error_excerpt": [
+    "Total in 85 ms",
+    "Error: failed to load modules: failed to download modules: binary with name \"go\" not found in PATH",
+    "",
+    "WARN  deprecated: the \":filename\" permalink token was deprecated in Hugo 0.144.0 and will be removed in a future release. Use \":contentbasename\" instead."
+   ],
+   "page_count": null,
+   "output_dir_config_line": "netlify.toml [build]: publish = \"public\"",
+   "list_pages": []
+  },
+  {
+   "sha": "fd779f211145c05c1f043c97db7cfc39dea3f301",
+   "date": "2025-03-06",
+   "adds_new_content": false,
+   "worktree_method": "sequential detached checkout + git clean -fdx in single clone (git worktree add fails on these partial clones: \"Could not reset index file to revision HEAD\")",
+   "hugo_version": "0.139.2 pinned in netlify.toml at this commit (build attempt run with local 0.152.2 extended; fails at module download, before any version-specific behavior)",
+   "build_ok": false,
+   "build_seconds": 0.36,
+   "error_excerpt": [
+    "Total in 56 ms",
+    "Error: failed to load modules: failed to download modules: binary with name \"go\" not found in PATH",
+    "",
+    "WARN  deprecated: the \":filename\" permalink token was deprecated in Hugo 0.144.0 and will be removed in a future release. Use \":contentbasename\" instead."
+   ],
+   "page_count": null,
+   "output_dir_config_line": "netlify.toml [build]: publish = \"public\"",
+   "list_pages": []
+  }
+ ],
+ "median_page_count": null,
+ "median_build_seconds": null,
+ "phase7": {
+  "rebuilt_commits": [],
+  "pages_compared": 0,
+  "all_body_identical": null,
+  "differing_pages": [],
+  "note": "not run: 0/8 builds (environment_incomplete)"
+ },
+ "verdict": "environment_incomplete",
+ "verdict_reason": "All 8 window commits carry go.mod requiring the Hugo module github.com/carpentries/carpentries-hugo-theme (hugo.yaml module.imports; not vendored). Every build attempt fails with verbatim error: 'Error: failed to load modules: failed to download modules: binary with name \"go\" not found in PATH'. Go is not installed in this environment, so the theme module cannot be downloaded; per assignment rules this is environment_incomplete, never broken."
+}

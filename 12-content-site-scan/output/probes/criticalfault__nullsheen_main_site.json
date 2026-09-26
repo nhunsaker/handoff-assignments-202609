@@ -1,0 +1,1153 @@
+{
+ "repo": "criticalfault/nullsheen_main_site",
+ "bucket": "H",
+ "window": {
+  "window_start_date": "2024-05-03",
+  "window_end_date": "2024-11-02",
+  "page_touching_commits": 91,
+  "new_content_commits": 26
+ },
+ "selection": [
+  {
+   "sha": "33d13a80ffed860b3ce1aae1719d69ecfda02160",
+   "date": "2024-05-03",
+   "adds_new_content": false
+  },
+  {
+   "sha": "c3eea7cabfb15e46711e29da9451815ce5fce9d8",
+   "date": "2024-05-16",
+   "adds_new_content": true
+  },
+  {
+   "sha": "6a4acf8814d3dabf64d08c4e0729e2a18efe01c4",
+   "date": "2024-05-24",
+   "adds_new_content": false
+  },
+  {
+   "sha": "aacf5f4d83b2e20e7d3a1778d7d379eabb19e686",
+   "date": "2024-06-03",
+   "adds_new_content": false
+  },
+  {
+   "sha": "9a19fd6c76f58153a68c29cea4dc7572aa4186e6",
+   "date": "2024-06-23",
+   "adds_new_content": true
+  },
+  {
+   "sha": "6d9f73f0b5092fbfe3e09fda609689dd7757e5e8",
+   "date": "2024-08-13",
+   "adds_new_content": true
+  },
+  {
+   "sha": "809ddf77bf44b1b01568bfe2ee1733ec8d98d484",
+   "date": "2024-10-01",
+   "adds_new_content": false
+  },
+  {
+   "sha": "e6b3014018c6786475f95739e0712581913fffe8",
+   "date": "2024-10-30",
+   "adds_new_content": false
+  }
+ ],
+ "commits": [
+  {
+   "sha": "33d13a80ffed860b3ce1aae1719d69ecfda02160",
+   "date": "2024-05-03",
+   "adds_new_content": false,
+   "worktree_method": "git worktree add --detach on blobless clone (blobs fetched on demand); git submodule update --init --recursive",
+   "hugo_version": "0.114.0 extended",
+   "build_command": "hugo --gc --minify -d <worktree>/out",
+   "build_ok": true,
+   "build_seconds": 1.03,
+   "error_excerpt": null,
+   "page_count": 40,
+   "output_dir_config_line": "no publishDir in hugo.toml; Hugo default public/ (builds here run with -d <worktree>/out)",
+   "list_pages": [
+    {
+     "path": "posts/index.html",
+     "main_list_selector": "section.flex-ns.flex-wrap.justify-around.mt5 a[href^=\"/posts/\"]",
+     "selector_reason": "section.flex-ns.flex-wrap.justify-around.mt5 is the container the ananke theme list.html/taxonomy.html ranges .Paginator.Pages/.Pages over, one summary card per page; only single-segment /posts/<slug>/ permalinks counted (excludes /posts/page/N/ pagination links)",
+     "link_count": 10
+    },
+    {
+     "path": "posts/page/2/index.html",
+     "main_list_selector": "section.flex-ns.flex-wrap.justify-around.mt5 a[href^=\"/posts/\"]",
+     "selector_reason": "section.flex-ns.flex-wrap.justify-around.mt5 is the container the ananke theme list.html/taxonomy.html ranges .Paginator.Pages/.Pages over, one summary card per page; only single-segment /posts/<slug>/ permalinks counted (excludes /posts/page/N/ pagination links)",
+     "link_count": 10
+    },
+    {
+     "path": "posts/page/3/index.html",
+     "main_list_selector": "section.flex-ns.flex-wrap.justify-around.mt5 a[href^=\"/posts/\"]",
+     "selector_reason": "section.flex-ns.flex-wrap.justify-around.mt5 is the container the ananke theme list.html/taxonomy.html ranges .Paginator.Pages/.Pages over, one summary card per page; only single-segment /posts/<slug>/ permalinks counted (excludes /posts/page/N/ pagination links)",
+     "link_count": 3
+    },
+    {
+     "path": "tags/adventure/index.html",
+     "main_list_selector": "section.flex-ns.flex-wrap.justify-around.mt5 a[href^=\"/posts/\"]",
+     "selector_reason": "section.flex-ns.flex-wrap.justify-around.mt5 is the container the ananke theme list.html/taxonomy.html ranges .Paginator.Pages/.Pages over, one summary card per page; only single-segment /posts/<slug>/ permalinks counted (excludes /posts/page/N/ pagination links)",
+     "link_count": 3
+    },
+    {
+     "path": "tags/archive/index.html",
+     "main_list_selector": "section.flex-ns.flex-wrap.justify-around.mt5 a[href^=\"/posts/\"]",
+     "selector_reason": "section.flex-ns.flex-wrap.justify-around.mt5 is the container the ananke theme list.html/taxonomy.html ranges .Paginator.Pages/.Pages over, one summary card per page; only single-segment /posts/<slug>/ permalinks counted (excludes /posts/page/N/ pagination links)",
+     "link_count": 9
+    },
+    {
+     "path": "tags/decking/index.html",
+     "main_list_selector": "section.flex-ns.flex-wrap.justify-around.mt5 a[href^=\"/posts/\"]",
+     "selector_reason": "section.flex-ns.flex-wrap.justify-around.mt5 is the container the ananke theme list.html/taxonomy.html ranges .Paginator.Pages/.Pages over, one summary card per page; only single-segment /posts/<slug>/ permalinks counted (excludes /posts/page/N/ pagination links)",
+     "link_count": 1
+    },
+    {
+     "path": "tags/gm-help/index.html",
+     "main_list_selector": "section.flex-ns.flex-wrap.justify-around.mt5 a[href^=\"/posts/\"]",
+     "selector_reason": "section.flex-ns.flex-wrap.justify-around.mt5 is the container the ananke theme list.html/taxonomy.html ranges .Paginator.Pages/.Pages over, one summary card per page; only single-segment /posts/<slug>/ permalinks counted (excludes /posts/page/N/ pagination links)",
+     "link_count": 8
+    },
+    {
+     "path": "tags/gm-helper/index.html",
+     "main_list_selector": "section.flex-ns.flex-wrap.justify-around.mt5 a[href^=\"/posts/\"]",
+     "selector_reason": "section.flex-ns.flex-wrap.justify-around.mt5 is the container the ananke theme list.html/taxonomy.html ranges .Paginator.Pages/.Pages over, one summary card per page; only single-segment /posts/<slug>/ permalinks counted (excludes /posts/page/N/ pagination links)",
+     "link_count": 2
+    },
+    {
+     "path": "tags/guide/index.html",
+     "main_list_selector": "section.flex-ns.flex-wrap.justify-around.mt5 a[href^=\"/posts/\"]",
+     "selector_reason": "section.flex-ns.flex-wrap.justify-around.mt5 is the container the ananke theme list.html/taxonomy.html ranges .Paginator.Pages/.Pages over, one summary card per page; only single-segment /posts/<slug>/ permalinks counted (excludes /posts/page/N/ pagination links)",
+     "link_count": 1
+    },
+    {
+     "path": "tags/guides/index.html",
+     "main_list_selector": "section.flex-ns.flex-wrap.justify-around.mt5 a[href^=\"/posts/\"]",
+     "selector_reason": "section.flex-ns.flex-wrap.justify-around.mt5 is the container the ananke theme list.html/taxonomy.html ranges .Paginator.Pages/.Pages over, one summary card per page; only single-segment /posts/<slug>/ permalinks counted (excludes /posts/page/N/ pagination links)",
+     "link_count": 1
+    },
+    {
+     "path": "tags/index.html",
+     "main_list_selector": "section.ph4 h2 a",
+     "selector_reason": "section.ph4 is the container the ananke theme terms.html ranges .Data.Pages over; each h2 links to one taxonomy term page (term list, not content pages)",
+     "link_count": 8
+    },
+    {
+     "path": "tags/tools/index.html",
+     "main_list_selector": "section.flex-ns.flex-wrap.justify-around.mt5 a[href^=\"/posts/\"]",
+     "selector_reason": "section.flex-ns.flex-wrap.justify-around.mt5 is the container the ananke theme list.html/taxonomy.html ranges .Paginator.Pages/.Pages over, one summary card per page; only single-segment /posts/<slug>/ permalinks counted (excludes /posts/page/N/ pagination links)",
+     "link_count": 4
+    }
+   ]
+  },
+  {
+   "sha": "c3eea7cabfb15e46711e29da9451815ce5fce9d8",
+   "date": "2024-05-16",
+   "adds_new_content": true,
+   "worktree_method": "git worktree add --detach on blobless clone (blobs fetched on demand); git submodule update --init --recursive",
+   "hugo_version": "0.114.0 extended",
+   "build_command": "hugo --gc --minify -d <worktree>/out",
+   "build_ok": true,
+   "build_seconds": 2.6,
+   "error_excerpt": null,
+   "page_count": 48,
+   "output_dir_config_line": "no publishDir in hugo.toml; Hugo default public/ (builds here run with -d <worktree>/out)",
+   "list_pages": [
+    {
+     "path": "posts/index.html",
+     "main_list_selector": "section.flex-ns.flex-wrap.justify-around.mt5 a[href^=\"/posts/\"]",
+     "selector_reason": "section.flex-ns.flex-wrap.justify-around.mt5 is the container the ananke theme list.html/taxonomy.html ranges .Paginator.Pages/.Pages over, one summary card per page; only single-segment /posts/<slug>/ permalinks counted (excludes /posts/page/N/ pagination links)",
+     "link_count": 10
+    },
+    {
+     "path": "posts/page/2/index.html",
+     "main_list_selector": "section.flex-ns.flex-wrap.justify-around.mt5 a[href^=\"/posts/\"]",
+     "selector_reason": "section.flex-ns.flex-wrap.justify-around.mt5 is the container the ananke theme list.html/taxonomy.html ranges .Paginator.Pages/.Pages over, one summary card per page; only single-segment /posts/<slug>/ permalinks counted (excludes /posts/page/N/ pagination links)",
+     "link_count": 10
+    },
+    {
+     "path": "posts/page/3/index.html",
+     "main_list_selector": "section.flex-ns.flex-wrap.justify-around.mt5 a[href^=\"/posts/\"]",
+     "selector_reason": "section.flex-ns.flex-wrap.justify-around.mt5 is the container the ananke theme list.html/taxonomy.html ranges .Paginator.Pages/.Pages over, one summary card per page; only single-segment /posts/<slug>/ permalinks counted (excludes /posts/page/N/ pagination links)",
+     "link_count": 6
+    },
+    {
+     "path": "tags/adventure/index.html",
+     "main_list_selector": "section.flex-ns.flex-wrap.justify-around.mt5 a[href^=\"/posts/\"]",
+     "selector_reason": "section.flex-ns.flex-wrap.justify-around.mt5 is the container the ananke theme list.html/taxonomy.html ranges .Paginator.Pages/.Pages over, one summary card per page; only single-segment /posts/<slug>/ permalinks counted (excludes /posts/page/N/ pagination links)",
+     "link_count": 3
+    },
+    {
+     "path": "tags/archive/index.html",
+     "main_list_selector": "section.flex-ns.flex-wrap.justify-around.mt5 a[href^=\"/posts/\"]",
+     "selector_reason": "section.flex-ns.flex-wrap.justify-around.mt5 is the container the ananke theme list.html/taxonomy.html ranges .Paginator.Pages/.Pages over, one summary card per page; only single-segment /posts/<slug>/ permalinks counted (excludes /posts/page/N/ pagination links)",
+     "link_count": 9
+    },
+    {
+     "path": "tags/decking/index.html",
+     "main_list_selector": "section.flex-ns.flex-wrap.justify-around.mt5 a[href^=\"/posts/\"]",
+     "selector_reason": "section.flex-ns.flex-wrap.justify-around.mt5 is the container the ananke theme list.html/taxonomy.html ranges .Paginator.Pages/.Pages over, one summary card per page; only single-segment /posts/<slug>/ permalinks counted (excludes /posts/page/N/ pagination links)",
+     "link_count": 1
+    },
+    {
+     "path": "tags/gm-help/index.html",
+     "main_list_selector": "section.flex-ns.flex-wrap.justify-around.mt5 a[href^=\"/posts/\"]",
+     "selector_reason": "section.flex-ns.flex-wrap.justify-around.mt5 is the container the ananke theme list.html/taxonomy.html ranges .Paginator.Pages/.Pages over, one summary card per page; only single-segment /posts/<slug>/ permalinks counted (excludes /posts/page/N/ pagination links)",
+     "link_count": 10
+    },
+    {
+     "path": "tags/gm-helper/index.html",
+     "main_list_selector": "section.flex-ns.flex-wrap.justify-around.mt5 a[href^=\"/posts/\"]",
+     "selector_reason": "section.flex-ns.flex-wrap.justify-around.mt5 is the container the ananke theme list.html/taxonomy.html ranges .Paginator.Pages/.Pages over, one summary card per page; only single-segment /posts/<slug>/ permalinks counted (excludes /posts/page/N/ pagination links)",
+     "link_count": 2
+    },
+    {
+     "path": "tags/guide/index.html",
+     "main_list_selector": "section.flex-ns.flex-wrap.justify-around.mt5 a[href^=\"/posts/\"]",
+     "selector_reason": "section.flex-ns.flex-wrap.justify-around.mt5 is the container the ananke theme list.html/taxonomy.html ranges .Paginator.Pages/.Pages over, one summary card per page; only single-segment /posts/<slug>/ permalinks counted (excludes /posts/page/N/ pagination links)",
+     "link_count": 1
+    },
+    {
+     "path": "tags/guides/index.html",
+     "main_list_selector": "section.flex-ns.flex-wrap.justify-around.mt5 a[href^=\"/posts/\"]",
+     "selector_reason": "section.flex-ns.flex-wrap.justify-around.mt5 is the container the ananke theme list.html/taxonomy.html ranges .Paginator.Pages/.Pages over, one summary card per page; only single-segment /posts/<slug>/ permalinks counted (excludes /posts/page/N/ pagination links)",
+     "link_count": 1
+    },
+    {
+     "path": "tags/index.html",
+     "main_list_selector": "section.ph4 h2 a",
+     "selector_reason": "section.ph4 is the container the ananke theme terms.html ranges .Data.Pages over; each h2 links to one taxonomy term page (term list, not content pages)",
+     "link_count": 10
+    },
+    {
+     "path": "tags/magical-traditions/index.html",
+     "main_list_selector": "section.flex-ns.flex-wrap.justify-around.mt5 a[href^=\"/posts/\"]",
+     "selector_reason": "section.flex-ns.flex-wrap.justify-around.mt5 is the container the ananke theme list.html/taxonomy.html ranges .Paginator.Pages/.Pages over, one summary card per page; only single-segment /posts/<slug>/ permalinks counted (excludes /posts/page/N/ pagination links)",
+     "link_count": 2
+    },
+    {
+     "path": "tags/real-talk/index.html",
+     "main_list_selector": "section.flex-ns.flex-wrap.justify-around.mt5 a[href^=\"/posts/\"]",
+     "selector_reason": "section.flex-ns.flex-wrap.justify-around.mt5 is the container the ananke theme list.html/taxonomy.html ranges .Paginator.Pages/.Pages over, one summary card per page; only single-segment /posts/<slug>/ permalinks counted (excludes /posts/page/N/ pagination links)",
+     "link_count": 1
+    },
+    {
+     "path": "tags/tools/index.html",
+     "main_list_selector": "section.flex-ns.flex-wrap.justify-around.mt5 a[href^=\"/posts/\"]",
+     "selector_reason": "section.flex-ns.flex-wrap.justify-around.mt5 is the container the ananke theme list.html/taxonomy.html ranges .Paginator.Pages/.Pages over, one summary card per page; only single-segment /posts/<slug>/ permalinks counted (excludes /posts/page/N/ pagination links)",
+     "link_count": 4
+    }
+   ]
+  },
+  {
+   "sha": "6a4acf8814d3dabf64d08c4e0729e2a18efe01c4",
+   "date": "2024-05-24",
+   "adds_new_content": false,
+   "worktree_method": "git worktree add --detach on blobless clone (blobs fetched on demand); git submodule update --init --recursive",
+   "hugo_version": "0.114.0 extended",
+   "build_command": "hugo --gc --minify -d <worktree>/out",
+   "build_ok": true,
+   "build_seconds": 6.85,
+   "error_excerpt": null,
+   "page_count": 55,
+   "output_dir_config_line": "no publishDir in hugo.toml; Hugo default public/ (builds here run with -d <worktree>/out)",
+   "list_pages": [
+    {
+     "path": "posts/index.html",
+     "main_list_selector": "section.flex-ns.flex-wrap.justify-around.mt5 a[href^=\"/posts/\"]",
+     "selector_reason": "section.flex-ns.flex-wrap.justify-around.mt5 is the container the ananke theme list.html/taxonomy.html ranges .Paginator.Pages/.Pages over, one summary card per page; only single-segment /posts/<slug>/ permalinks counted (excludes /posts/page/N/ pagination links)",
+     "link_count": 10
+    },
+    {
+     "path": "posts/page/2/index.html",
+     "main_list_selector": "section.flex-ns.flex-wrap.justify-around.mt5 a[href^=\"/posts/\"]",
+     "selector_reason": "section.flex-ns.flex-wrap.justify-around.mt5 is the container the ananke theme list.html/taxonomy.html ranges .Paginator.Pages/.Pages over, one summary card per page; only single-segment /posts/<slug>/ permalinks counted (excludes /posts/page/N/ pagination links)",
+     "link_count": 10
+    },
+    {
+     "path": "posts/page/3/index.html",
+     "main_list_selector": "section.flex-ns.flex-wrap.justify-around.mt5 a[href^=\"/posts/\"]",
+     "selector_reason": "section.flex-ns.flex-wrap.justify-around.mt5 is the container the ananke theme list.html/taxonomy.html ranges .Paginator.Pages/.Pages over, one summary card per page; only single-segment /posts/<slug>/ permalinks counted (excludes /posts/page/N/ pagination links)",
+     "link_count": 9
+    },
+    {
+     "path": "tags/3rd-edition/index.html",
+     "main_list_selector": "section.flex-ns.flex-wrap.justify-around.mt5 a[href^=\"/posts/\"]",
+     "selector_reason": "section.flex-ns.flex-wrap.justify-around.mt5 is the container the ananke theme list.html/taxonomy.html ranges .Paginator.Pages/.Pages over, one summary card per page; only single-segment /posts/<slug>/ permalinks counted (excludes /posts/page/N/ pagination links)",
+     "link_count": 4
+    },
+    {
+     "path": "tags/adventure/index.html",
+     "main_list_selector": "section.flex-ns.flex-wrap.justify-around.mt5 a[href^=\"/posts/\"]",
+     "selector_reason": "section.flex-ns.flex-wrap.justify-around.mt5 is the container the ananke theme list.html/taxonomy.html ranges .Paginator.Pages/.Pages over, one summary card per page; only single-segment /posts/<slug>/ permalinks counted (excludes /posts/page/N/ pagination links)",
+     "link_count": 3
+    },
+    {
+     "path": "tags/any-edition/index.html",
+     "main_list_selector": "section.flex-ns.flex-wrap.justify-around.mt5 a[href^=\"/posts/\"]",
+     "selector_reason": "section.flex-ns.flex-wrap.justify-around.mt5 is the container the ananke theme list.html/taxonomy.html ranges .Paginator.Pages/.Pages over, one summary card per page; only single-segment /posts/<slug>/ permalinks counted (excludes /posts/page/N/ pagination links)",
+     "link_count": 3
+    },
+    {
+     "path": "tags/archive/index.html",
+     "main_list_selector": "section.flex-ns.flex-wrap.justify-around.mt5 a[href^=\"/posts/\"]",
+     "selector_reason": "section.flex-ns.flex-wrap.justify-around.mt5 is the container the ananke theme list.html/taxonomy.html ranges .Paginator.Pages/.Pages over, one summary card per page; only single-segment /posts/<slug>/ permalinks counted (excludes /posts/page/N/ pagination links)",
+     "link_count": 9
+    },
+    {
+     "path": "tags/decking/index.html",
+     "main_list_selector": "section.flex-ns.flex-wrap.justify-around.mt5 a[href^=\"/posts/\"]",
+     "selector_reason": "section.flex-ns.flex-wrap.justify-around.mt5 is the container the ananke theme list.html/taxonomy.html ranges .Paginator.Pages/.Pages over, one summary card per page; only single-segment /posts/<slug>/ permalinks counted (excludes /posts/page/N/ pagination links)",
+     "link_count": 1
+    },
+    {
+     "path": "tags/gm-help/index.html",
+     "main_list_selector": "section.flex-ns.flex-wrap.justify-around.mt5 a[href^=\"/posts/\"]",
+     "selector_reason": "section.flex-ns.flex-wrap.justify-around.mt5 is the container the ananke theme list.html/taxonomy.html ranges .Paginator.Pages/.Pages over, one summary card per page; only single-segment /posts/<slug>/ permalinks counted (excludes /posts/page/N/ pagination links)",
+     "link_count": 12
+    },
+    {
+     "path": "tags/gm-helper/index.html",
+     "main_list_selector": "section.flex-ns.flex-wrap.justify-around.mt5 a[href^=\"/posts/\"]",
+     "selector_reason": "section.flex-ns.flex-wrap.justify-around.mt5 is the container the ananke theme list.html/taxonomy.html ranges .Paginator.Pages/.Pages over, one summary card per page; only single-segment /posts/<slug>/ permalinks counted (excludes /posts/page/N/ pagination links)",
+     "link_count": 2
+    },
+    {
+     "path": "tags/guide/index.html",
+     "main_list_selector": "section.flex-ns.flex-wrap.justify-around.mt5 a[href^=\"/posts/\"]",
+     "selector_reason": "section.flex-ns.flex-wrap.justify-around.mt5 is the container the ananke theme list.html/taxonomy.html ranges .Paginator.Pages/.Pages over, one summary card per page; only single-segment /posts/<slug>/ permalinks counted (excludes /posts/page/N/ pagination links)",
+     "link_count": 1
+    },
+    {
+     "path": "tags/guides/index.html",
+     "main_list_selector": "section.flex-ns.flex-wrap.justify-around.mt5 a[href^=\"/posts/\"]",
+     "selector_reason": "section.flex-ns.flex-wrap.justify-around.mt5 is the container the ananke theme list.html/taxonomy.html ranges .Paginator.Pages/.Pages over, one summary card per page; only single-segment /posts/<slug>/ permalinks counted (excludes /posts/page/N/ pagination links)",
+     "link_count": 1
+    },
+    {
+     "path": "tags/index.html",
+     "main_list_selector": "section.ph4 h2 a",
+     "selector_reason": "section.ph4 is the container the ananke theme terms.html ranges .Data.Pages over; each h2 links to one taxonomy term page (term list, not content pages)",
+     "link_count": 13
+    },
+    {
+     "path": "tags/magical-traditions/index.html",
+     "main_list_selector": "section.flex-ns.flex-wrap.justify-around.mt5 a[href^=\"/posts/\"]",
+     "selector_reason": "section.flex-ns.flex-wrap.justify-around.mt5 is the container the ananke theme list.html/taxonomy.html ranges .Paginator.Pages/.Pages over, one summary card per page; only single-segment /posts/<slug>/ permalinks counted (excludes /posts/page/N/ pagination links)",
+     "link_count": 2
+    },
+    {
+     "path": "tags/player-help/index.html",
+     "main_list_selector": "section.flex-ns.flex-wrap.justify-around.mt5 a[href^=\"/posts/\"]",
+     "selector_reason": "section.flex-ns.flex-wrap.justify-around.mt5 is the container the ananke theme list.html/taxonomy.html ranges .Paginator.Pages/.Pages over, one summary card per page; only single-segment /posts/<slug>/ permalinks counted (excludes /posts/page/N/ pagination links)",
+     "link_count": 1
+    },
+    {
+     "path": "tags/real-talk/index.html",
+     "main_list_selector": "section.flex-ns.flex-wrap.justify-around.mt5 a[href^=\"/posts/\"]",
+     "selector_reason": "section.flex-ns.flex-wrap.justify-around.mt5 is the container the ananke theme list.html/taxonomy.html ranges .Paginator.Pages/.Pages over, one summary card per page; only single-segment /posts/<slug>/ permalinks counted (excludes /posts/page/N/ pagination links)",
+     "link_count": 1
+    },
+    {
+     "path": "tags/tools/index.html",
+     "main_list_selector": "section.flex-ns.flex-wrap.justify-around.mt5 a[href^=\"/posts/\"]",
+     "selector_reason": "section.flex-ns.flex-wrap.justify-around.mt5 is the container the ananke theme list.html/taxonomy.html ranges .Paginator.Pages/.Pages over, one summary card per page; only single-segment /posts/<slug>/ permalinks counted (excludes /posts/page/N/ pagination links)",
+     "link_count": 4
+    }
+   ]
+  },
+  {
+   "sha": "aacf5f4d83b2e20e7d3a1778d7d379eabb19e686",
+   "date": "2024-06-03",
+   "adds_new_content": false,
+   "worktree_method": "git worktree add --detach on blobless clone (blobs fetched on demand); git submodule update --init --recursive",
+   "hugo_version": "0.114.0 extended",
+   "build_command": "hugo --gc --minify -d <worktree>/out",
+   "build_ok": true,
+   "build_seconds": 6.75,
+   "error_excerpt": null,
+   "page_count": 64,
+   "output_dir_config_line": "no publishDir in hugo.toml; Hugo default public/ (builds here run with -d <worktree>/out)",
+   "list_pages": [
+    {
+     "path": "posts/index.html",
+     "main_list_selector": "section.flex-ns.flex-wrap.justify-around.mt5 a[href^=\"/posts/\"]",
+     "selector_reason": "section.flex-ns.flex-wrap.justify-around.mt5 is the container the ananke theme list.html/taxonomy.html ranges .Paginator.Pages/.Pages over, one summary card per page; only single-segment /posts/<slug>/ permalinks counted (excludes /posts/page/N/ pagination links)",
+     "link_count": 10
+    },
+    {
+     "path": "posts/page/2/index.html",
+     "main_list_selector": "section.flex-ns.flex-wrap.justify-around.mt5 a[href^=\"/posts/\"]",
+     "selector_reason": "section.flex-ns.flex-wrap.justify-around.mt5 is the container the ananke theme list.html/taxonomy.html ranges .Paginator.Pages/.Pages over, one summary card per page; only single-segment /posts/<slug>/ permalinks counted (excludes /posts/page/N/ pagination links)",
+     "link_count": 10
+    },
+    {
+     "path": "posts/page/3/index.html",
+     "main_list_selector": "section.flex-ns.flex-wrap.justify-around.mt5 a[href^=\"/posts/\"]",
+     "selector_reason": "section.flex-ns.flex-wrap.justify-around.mt5 is the container the ananke theme list.html/taxonomy.html ranges .Paginator.Pages/.Pages over, one summary card per page; only single-segment /posts/<slug>/ permalinks counted (excludes /posts/page/N/ pagination links)",
+     "link_count": 10
+    },
+    {
+     "path": "posts/page/4/index.html",
+     "main_list_selector": "section.flex-ns.flex-wrap.justify-around.mt5 a[href^=\"/posts/\"]",
+     "selector_reason": "section.flex-ns.flex-wrap.justify-around.mt5 is the container the ananke theme list.html/taxonomy.html ranges .Paginator.Pages/.Pages over, one summary card per page; only single-segment /posts/<slug>/ permalinks counted (excludes /posts/page/N/ pagination links)",
+     "link_count": 3
+    },
+    {
+     "path": "tags/3rd-edition/index.html",
+     "main_list_selector": "section.flex-ns.flex-wrap.justify-around.mt5 a[href^=\"/posts/\"]",
+     "selector_reason": "section.flex-ns.flex-wrap.justify-around.mt5 is the container the ananke theme list.html/taxonomy.html ranges .Paginator.Pages/.Pages over, one summary card per page; only single-segment /posts/<slug>/ permalinks counted (excludes /posts/page/N/ pagination links)",
+     "link_count": 4
+    },
+    {
+     "path": "tags/adventure/index.html",
+     "main_list_selector": "section.flex-ns.flex-wrap.justify-around.mt5 a[href^=\"/posts/\"]",
+     "selector_reason": "section.flex-ns.flex-wrap.justify-around.mt5 is the container the ananke theme list.html/taxonomy.html ranges .Paginator.Pages/.Pages over, one summary card per page; only single-segment /posts/<slug>/ permalinks counted (excludes /posts/page/N/ pagination links)",
+     "link_count": 3
+    },
+    {
+     "path": "tags/any-edition/index.html",
+     "main_list_selector": "section.flex-ns.flex-wrap.justify-around.mt5 a[href^=\"/posts/\"]",
+     "selector_reason": "section.flex-ns.flex-wrap.justify-around.mt5 is the container the ananke theme list.html/taxonomy.html ranges .Paginator.Pages/.Pages over, one summary card per page; only single-segment /posts/<slug>/ permalinks counted (excludes /posts/page/N/ pagination links)",
+     "link_count": 3
+    },
+    {
+     "path": "tags/archive/index.html",
+     "main_list_selector": "section.flex-ns.flex-wrap.justify-around.mt5 a[href^=\"/posts/\"]",
+     "selector_reason": "section.flex-ns.flex-wrap.justify-around.mt5 is the container the ananke theme list.html/taxonomy.html ranges .Paginator.Pages/.Pages over, one summary card per page; only single-segment /posts/<slug>/ permalinks counted (excludes /posts/page/N/ pagination links)",
+     "link_count": 9
+    },
+    {
+     "path": "tags/cyberpunk/index.html",
+     "main_list_selector": "section.flex-ns.flex-wrap.justify-around.mt5 a[href^=\"/posts/\"]",
+     "selector_reason": "section.flex-ns.flex-wrap.justify-around.mt5 is the container the ananke theme list.html/taxonomy.html ranges .Paginator.Pages/.Pages over, one summary card per page; only single-segment /posts/<slug>/ permalinks counted (excludes /posts/page/N/ pagination links)",
+     "link_count": 2
+    },
+    {
+     "path": "tags/decking/index.html",
+     "main_list_selector": "section.flex-ns.flex-wrap.justify-around.mt5 a[href^=\"/posts/\"]",
+     "selector_reason": "section.flex-ns.flex-wrap.justify-around.mt5 is the container the ananke theme list.html/taxonomy.html ranges .Paginator.Pages/.Pages over, one summary card per page; only single-segment /posts/<slug>/ permalinks counted (excludes /posts/page/N/ pagination links)",
+     "link_count": 1
+    },
+    {
+     "path": "tags/gm-help/index.html",
+     "main_list_selector": "section.flex-ns.flex-wrap.justify-around.mt5 a[href^=\"/posts/\"]",
+     "selector_reason": "section.flex-ns.flex-wrap.justify-around.mt5 is the container the ananke theme list.html/taxonomy.html ranges .Paginator.Pages/.Pages over, one summary card per page; only single-segment /posts/<slug>/ permalinks counted (excludes /posts/page/N/ pagination links)",
+     "link_count": 14
+    },
+    {
+     "path": "tags/gm-helper/index.html",
+     "main_list_selector": "section.flex-ns.flex-wrap.justify-around.mt5 a[href^=\"/posts/\"]",
+     "selector_reason": "section.flex-ns.flex-wrap.justify-around.mt5 is the container the ananke theme list.html/taxonomy.html ranges .Paginator.Pages/.Pages over, one summary card per page; only single-segment /posts/<slug>/ permalinks counted (excludes /posts/page/N/ pagination links)",
+     "link_count": 1
+    },
+    {
+     "path": "tags/guide/index.html",
+     "main_list_selector": "section.flex-ns.flex-wrap.justify-around.mt5 a[href^=\"/posts/\"]",
+     "selector_reason": "section.flex-ns.flex-wrap.justify-around.mt5 is the container the ananke theme list.html/taxonomy.html ranges .Paginator.Pages/.Pages over, one summary card per page; only single-segment /posts/<slug>/ permalinks counted (excludes /posts/page/N/ pagination links)",
+     "link_count": 1
+    },
+    {
+     "path": "tags/guides/index.html",
+     "main_list_selector": "section.flex-ns.flex-wrap.justify-around.mt5 a[href^=\"/posts/\"]",
+     "selector_reason": "section.flex-ns.flex-wrap.justify-around.mt5 is the container the ananke theme list.html/taxonomy.html ranges .Paginator.Pages/.Pages over, one summary card per page; only single-segment /posts/<slug>/ permalinks counted (excludes /posts/page/N/ pagination links)",
+     "link_count": 1
+    },
+    {
+     "path": "tags/index.html",
+     "main_list_selector": "section.ph4 h2 a",
+     "selector_reason": "section.ph4 is the container the ananke theme terms.html ranges .Data.Pages over; each h2 links to one taxonomy term page (term list, not content pages)",
+     "link_count": 17
+    },
+    {
+     "path": "tags/magical-traditions/index.html",
+     "main_list_selector": "section.flex-ns.flex-wrap.justify-around.mt5 a[href^=\"/posts/\"]",
+     "selector_reason": "section.flex-ns.flex-wrap.justify-around.mt5 is the container the ananke theme list.html/taxonomy.html ranges .Paginator.Pages/.Pages over, one summary card per page; only single-segment /posts/<slug>/ permalinks counted (excludes /posts/page/N/ pagination links)",
+     "link_count": 2
+    },
+    {
+     "path": "tags/movies/index.html",
+     "main_list_selector": "section.flex-ns.flex-wrap.justify-around.mt5 a[href^=\"/posts/\"]",
+     "selector_reason": "section.flex-ns.flex-wrap.justify-around.mt5 is the container the ananke theme list.html/taxonomy.html ranges .Paginator.Pages/.Pages over, one summary card per page; only single-segment /posts/<slug>/ permalinks counted (excludes /posts/page/N/ pagination links)",
+     "link_count": 1
+    },
+    {
+     "path": "tags/opinion/index.html",
+     "main_list_selector": "section.flex-ns.flex-wrap.justify-around.mt5 a[href^=\"/posts/\"]",
+     "selector_reason": "section.flex-ns.flex-wrap.justify-around.mt5 is the container the ananke theme list.html/taxonomy.html ranges .Paginator.Pages/.Pages over, one summary card per page; only single-segment /posts/<slug>/ permalinks counted (excludes /posts/page/N/ pagination links)",
+     "link_count": 3
+    },
+    {
+     "path": "tags/player-help/index.html",
+     "main_list_selector": "section.flex-ns.flex-wrap.justify-around.mt5 a[href^=\"/posts/\"]",
+     "selector_reason": "section.flex-ns.flex-wrap.justify-around.mt5 is the container the ananke theme list.html/taxonomy.html ranges .Paginator.Pages/.Pages over, one summary card per page; only single-segment /posts/<slug>/ permalinks counted (excludes /posts/page/N/ pagination links)",
+     "link_count": 1
+    },
+    {
+     "path": "tags/product_reviews/index.html",
+     "main_list_selector": "section.flex-ns.flex-wrap.justify-around.mt5 a[href^=\"/posts/\"]",
+     "selector_reason": "section.flex-ns.flex-wrap.justify-around.mt5 is the container the ananke theme list.html/taxonomy.html ranges .Paginator.Pages/.Pages over, one summary card per page; only single-segment /posts/<slug>/ permalinks counted (excludes /posts/page/N/ pagination links)",
+     "link_count": 1
+    },
+    {
+     "path": "tags/real-talk/index.html",
+     "main_list_selector": "section.flex-ns.flex-wrap.justify-around.mt5 a[href^=\"/posts/\"]",
+     "selector_reason": "section.flex-ns.flex-wrap.justify-around.mt5 is the container the ananke theme list.html/taxonomy.html ranges .Paginator.Pages/.Pages over, one summary card per page; only single-segment /posts/<slug>/ permalinks counted (excludes /posts/page/N/ pagination links)",
+     "link_count": 1
+    },
+    {
+     "path": "tags/tools/index.html",
+     "main_list_selector": "section.flex-ns.flex-wrap.justify-around.mt5 a[href^=\"/posts/\"]",
+     "selector_reason": "section.flex-ns.flex-wrap.justify-around.mt5 is the container the ananke theme list.html/taxonomy.html ranges .Paginator.Pages/.Pages over, one summary card per page; only single-segment /posts/<slug>/ permalinks counted (excludes /posts/page/N/ pagination links)",
+     "link_count": 4
+    }
+   ]
+  },
+  {
+   "sha": "9a19fd6c76f58153a68c29cea4dc7572aa4186e6",
+   "date": "2024-06-23",
+   "adds_new_content": true,
+   "worktree_method": "git worktree add --detach on blobless clone (blobs fetched on demand); git submodule update --init --recursive",
+   "hugo_version": "0.114.0 extended",
+   "build_command": "hugo --gc --minify -d <worktree>/out",
+   "build_ok": true,
+   "build_seconds": 4.85,
+   "error_excerpt": null,
+   "page_count": 68,
+   "output_dir_config_line": "no publishDir in hugo.toml; Hugo default public/ (builds here run with -d <worktree>/out)",
+   "list_pages": [
+    {
+     "path": "posts/index.html",
+     "main_list_selector": "section.flex-ns.flex-wrap.justify-around.mt5 a[href^=\"/posts/\"]",
+     "selector_reason": "section.flex-ns.flex-wrap.justify-around.mt5 is the container the ananke theme list.html/taxonomy.html ranges .Paginator.Pages/.Pages over, one summary card per page; only single-segment /posts/<slug>/ permalinks counted (excludes /posts/page/N/ pagination links)",
+     "link_count": 10
+    },
+    {
+     "path": "posts/page/2/index.html",
+     "main_list_selector": "section.flex-ns.flex-wrap.justify-around.mt5 a[href^=\"/posts/\"]",
+     "selector_reason": "section.flex-ns.flex-wrap.justify-around.mt5 is the container the ananke theme list.html/taxonomy.html ranges .Paginator.Pages/.Pages over, one summary card per page; only single-segment /posts/<slug>/ permalinks counted (excludes /posts/page/N/ pagination links)",
+     "link_count": 10
+    },
+    {
+     "path": "posts/page/3/index.html",
+     "main_list_selector": "section.flex-ns.flex-wrap.justify-around.mt5 a[href^=\"/posts/\"]",
+     "selector_reason": "section.flex-ns.flex-wrap.justify-around.mt5 is the container the ananke theme list.html/taxonomy.html ranges .Paginator.Pages/.Pages over, one summary card per page; only single-segment /posts/<slug>/ permalinks counted (excludes /posts/page/N/ pagination links)",
+     "link_count": 10
+    },
+    {
+     "path": "posts/page/4/index.html",
+     "main_list_selector": "section.flex-ns.flex-wrap.justify-around.mt5 a[href^=\"/posts/\"]",
+     "selector_reason": "section.flex-ns.flex-wrap.justify-around.mt5 is the container the ananke theme list.html/taxonomy.html ranges .Paginator.Pages/.Pages over, one summary card per page; only single-segment /posts/<slug>/ permalinks counted (excludes /posts/page/N/ pagination links)",
+     "link_count": 6
+    },
+    {
+     "path": "tags/3rd-edition/index.html",
+     "main_list_selector": "section.flex-ns.flex-wrap.justify-around.mt5 a[href^=\"/posts/\"]",
+     "selector_reason": "section.flex-ns.flex-wrap.justify-around.mt5 is the container the ananke theme list.html/taxonomy.html ranges .Paginator.Pages/.Pages over, one summary card per page; only single-segment /posts/<slug>/ permalinks counted (excludes /posts/page/N/ pagination links)",
+     "link_count": 4
+    },
+    {
+     "path": "tags/adventure-reviews/index.html",
+     "main_list_selector": "section.flex-ns.flex-wrap.justify-around.mt5 a[href^=\"/posts/\"]",
+     "selector_reason": "section.flex-ns.flex-wrap.justify-around.mt5 is the container the ananke theme list.html/taxonomy.html ranges .Paginator.Pages/.Pages over, one summary card per page; only single-segment /posts/<slug>/ permalinks counted (excludes /posts/page/N/ pagination links)",
+     "link_count": 1
+    },
+    {
+     "path": "tags/adventure/index.html",
+     "main_list_selector": "section.flex-ns.flex-wrap.justify-around.mt5 a[href^=\"/posts/\"]",
+     "selector_reason": "section.flex-ns.flex-wrap.justify-around.mt5 is the container the ananke theme list.html/taxonomy.html ranges .Paginator.Pages/.Pages over, one summary card per page; only single-segment /posts/<slug>/ permalinks counted (excludes /posts/page/N/ pagination links)",
+     "link_count": 3
+    },
+    {
+     "path": "tags/any-edition/index.html",
+     "main_list_selector": "section.flex-ns.flex-wrap.justify-around.mt5 a[href^=\"/posts/\"]",
+     "selector_reason": "section.flex-ns.flex-wrap.justify-around.mt5 is the container the ananke theme list.html/taxonomy.html ranges .Paginator.Pages/.Pages over, one summary card per page; only single-segment /posts/<slug>/ permalinks counted (excludes /posts/page/N/ pagination links)",
+     "link_count": 3
+    },
+    {
+     "path": "tags/archive/index.html",
+     "main_list_selector": "section.flex-ns.flex-wrap.justify-around.mt5 a[href^=\"/posts/\"]",
+     "selector_reason": "section.flex-ns.flex-wrap.justify-around.mt5 is the container the ananke theme list.html/taxonomy.html ranges .Paginator.Pages/.Pages over, one summary card per page; only single-segment /posts/<slug>/ permalinks counted (excludes /posts/page/N/ pagination links)",
+     "link_count": 9
+    },
+    {
+     "path": "tags/cyberpunk/index.html",
+     "main_list_selector": "section.flex-ns.flex-wrap.justify-around.mt5 a[href^=\"/posts/\"]",
+     "selector_reason": "section.flex-ns.flex-wrap.justify-around.mt5 is the container the ananke theme list.html/taxonomy.html ranges .Paginator.Pages/.Pages over, one summary card per page; only single-segment /posts/<slug>/ permalinks counted (excludes /posts/page/N/ pagination links)",
+     "link_count": 2
+    },
+    {
+     "path": "tags/decking/index.html",
+     "main_list_selector": "section.flex-ns.flex-wrap.justify-around.mt5 a[href^=\"/posts/\"]",
+     "selector_reason": "section.flex-ns.flex-wrap.justify-around.mt5 is the container the ananke theme list.html/taxonomy.html ranges .Paginator.Pages/.Pages over, one summary card per page; only single-segment /posts/<slug>/ permalinks counted (excludes /posts/page/N/ pagination links)",
+     "link_count": 1
+    },
+    {
+     "path": "tags/gm-help/index.html",
+     "main_list_selector": "section.flex-ns.flex-wrap.justify-around.mt5 a[href^=\"/posts/\"]",
+     "selector_reason": "section.flex-ns.flex-wrap.justify-around.mt5 is the container the ananke theme list.html/taxonomy.html ranges .Paginator.Pages/.Pages over, one summary card per page; only single-segment /posts/<slug>/ permalinks counted (excludes /posts/page/N/ pagination links)",
+     "link_count": 16
+    },
+    {
+     "path": "tags/gm-helper/index.html",
+     "main_list_selector": "section.flex-ns.flex-wrap.justify-around.mt5 a[href^=\"/posts/\"]",
+     "selector_reason": "section.flex-ns.flex-wrap.justify-around.mt5 is the container the ananke theme list.html/taxonomy.html ranges .Paginator.Pages/.Pages over, one summary card per page; only single-segment /posts/<slug>/ permalinks counted (excludes /posts/page/N/ pagination links)",
+     "link_count": 2
+    },
+    {
+     "path": "tags/guide/index.html",
+     "main_list_selector": "section.flex-ns.flex-wrap.justify-around.mt5 a[href^=\"/posts/\"]",
+     "selector_reason": "section.flex-ns.flex-wrap.justify-around.mt5 is the container the ananke theme list.html/taxonomy.html ranges .Paginator.Pages/.Pages over, one summary card per page; only single-segment /posts/<slug>/ permalinks counted (excludes /posts/page/N/ pagination links)",
+     "link_count": 1
+    },
+    {
+     "path": "tags/guides/index.html",
+     "main_list_selector": "section.flex-ns.flex-wrap.justify-around.mt5 a[href^=\"/posts/\"]",
+     "selector_reason": "section.flex-ns.flex-wrap.justify-around.mt5 is the container the ananke theme list.html/taxonomy.html ranges .Paginator.Pages/.Pages over, one summary card per page; only single-segment /posts/<slug>/ permalinks counted (excludes /posts/page/N/ pagination links)",
+     "link_count": 1
+    },
+    {
+     "path": "tags/index.html",
+     "main_list_selector": "section.ph4 h2 a",
+     "selector_reason": "section.ph4 is the container the ananke theme terms.html ranges .Data.Pages over; each h2 links to one taxonomy term page (term list, not content pages)",
+     "link_count": 18
+    },
+    {
+     "path": "tags/magical-traditions/index.html",
+     "main_list_selector": "section.flex-ns.flex-wrap.justify-around.mt5 a[href^=\"/posts/\"]",
+     "selector_reason": "section.flex-ns.flex-wrap.justify-around.mt5 is the container the ananke theme list.html/taxonomy.html ranges .Paginator.Pages/.Pages over, one summary card per page; only single-segment /posts/<slug>/ permalinks counted (excludes /posts/page/N/ pagination links)",
+     "link_count": 3
+    },
+    {
+     "path": "tags/movies/index.html",
+     "main_list_selector": "section.flex-ns.flex-wrap.justify-around.mt5 a[href^=\"/posts/\"]",
+     "selector_reason": "section.flex-ns.flex-wrap.justify-around.mt5 is the container the ananke theme list.html/taxonomy.html ranges .Paginator.Pages/.Pages over, one summary card per page; only single-segment /posts/<slug>/ permalinks counted (excludes /posts/page/N/ pagination links)",
+     "link_count": 1
+    },
+    {
+     "path": "tags/opinion/index.html",
+     "main_list_selector": "section.flex-ns.flex-wrap.justify-around.mt5 a[href^=\"/posts/\"]",
+     "selector_reason": "section.flex-ns.flex-wrap.justify-around.mt5 is the container the ananke theme list.html/taxonomy.html ranges .Paginator.Pages/.Pages over, one summary card per page; only single-segment /posts/<slug>/ permalinks counted (excludes /posts/page/N/ pagination links)",
+     "link_count": 3
+    },
+    {
+     "path": "tags/player-help/index.html",
+     "main_list_selector": "section.flex-ns.flex-wrap.justify-around.mt5 a[href^=\"/posts/\"]",
+     "selector_reason": "section.flex-ns.flex-wrap.justify-around.mt5 is the container the ananke theme list.html/taxonomy.html ranges .Paginator.Pages/.Pages over, one summary card per page; only single-segment /posts/<slug>/ permalinks counted (excludes /posts/page/N/ pagination links)",
+     "link_count": 1
+    },
+    {
+     "path": "tags/product_reviews/index.html",
+     "main_list_selector": "section.flex-ns.flex-wrap.justify-around.mt5 a[href^=\"/posts/\"]",
+     "selector_reason": "section.flex-ns.flex-wrap.justify-around.mt5 is the container the ananke theme list.html/taxonomy.html ranges .Paginator.Pages/.Pages over, one summary card per page; only single-segment /posts/<slug>/ permalinks counted (excludes /posts/page/N/ pagination links)",
+     "link_count": 1
+    },
+    {
+     "path": "tags/real-talk/index.html",
+     "main_list_selector": "section.flex-ns.flex-wrap.justify-around.mt5 a[href^=\"/posts/\"]",
+     "selector_reason": "section.flex-ns.flex-wrap.justify-around.mt5 is the container the ananke theme list.html/taxonomy.html ranges .Paginator.Pages/.Pages over, one summary card per page; only single-segment /posts/<slug>/ permalinks counted (excludes /posts/page/N/ pagination links)",
+     "link_count": 1
+    },
+    {
+     "path": "tags/tools/index.html",
+     "main_list_selector": "section.flex-ns.flex-wrap.justify-around.mt5 a[href^=\"/posts/\"]",
+     "selector_reason": "section.flex-ns.flex-wrap.justify-around.mt5 is the container the ananke theme list.html/taxonomy.html ranges .Paginator.Pages/.Pages over, one summary card per page; only single-segment /posts/<slug>/ permalinks counted (excludes /posts/page/N/ pagination links)",
+     "link_count": 4
+    }
+   ]
+  },
+  {
+   "sha": "6d9f73f0b5092fbfe3e09fda609689dd7757e5e8",
+   "date": "2024-08-13",
+   "adds_new_content": true,
+   "worktree_method": "git worktree add --detach on blobless clone (blobs fetched on demand); git submodule update --init --recursive",
+   "hugo_version": "0.114.0 extended",
+   "build_command": "hugo --gc --minify -d <worktree>/out",
+   "build_ok": true,
+   "build_seconds": 6.32,
+   "error_excerpt": null,
+   "page_count": 72,
+   "output_dir_config_line": "no publishDir in hugo.toml; Hugo default public/ (builds here run with -d <worktree>/out)",
+   "list_pages": [
+    {
+     "path": "posts/index.html",
+     "main_list_selector": "section.flex-ns.flex-wrap.justify-around.mt5 a[href^=\"/posts/\"]",
+     "selector_reason": "section.flex-ns.flex-wrap.justify-around.mt5 is the container the ananke theme list.html/taxonomy.html ranges .Paginator.Pages/.Pages over, one summary card per page; only single-segment /posts/<slug>/ permalinks counted (excludes /posts/page/N/ pagination links)",
+     "link_count": 10
+    },
+    {
+     "path": "posts/page/2/index.html",
+     "main_list_selector": "section.flex-ns.flex-wrap.justify-around.mt5 a[href^=\"/posts/\"]",
+     "selector_reason": "section.flex-ns.flex-wrap.justify-around.mt5 is the container the ananke theme list.html/taxonomy.html ranges .Paginator.Pages/.Pages over, one summary card per page; only single-segment /posts/<slug>/ permalinks counted (excludes /posts/page/N/ pagination links)",
+     "link_count": 10
+    },
+    {
+     "path": "posts/page/3/index.html",
+     "main_list_selector": "section.flex-ns.flex-wrap.justify-around.mt5 a[href^=\"/posts/\"]",
+     "selector_reason": "section.flex-ns.flex-wrap.justify-around.mt5 is the container the ananke theme list.html/taxonomy.html ranges .Paginator.Pages/.Pages over, one summary card per page; only single-segment /posts/<slug>/ permalinks counted (excludes /posts/page/N/ pagination links)",
+     "link_count": 10
+    },
+    {
+     "path": "posts/page/4/index.html",
+     "main_list_selector": "section.flex-ns.flex-wrap.justify-around.mt5 a[href^=\"/posts/\"]",
+     "selector_reason": "section.flex-ns.flex-wrap.justify-around.mt5 is the container the ananke theme list.html/taxonomy.html ranges .Paginator.Pages/.Pages over, one summary card per page; only single-segment /posts/<slug>/ permalinks counted (excludes /posts/page/N/ pagination links)",
+     "link_count": 10
+    },
+    {
+     "path": "tags/3rd-edition/index.html",
+     "main_list_selector": "section.flex-ns.flex-wrap.justify-around.mt5 a[href^=\"/posts/\"]",
+     "selector_reason": "section.flex-ns.flex-wrap.justify-around.mt5 is the container the ananke theme list.html/taxonomy.html ranges .Paginator.Pages/.Pages over, one summary card per page; only single-segment /posts/<slug>/ permalinks counted (excludes /posts/page/N/ pagination links)",
+     "link_count": 4
+    },
+    {
+     "path": "tags/adventure-reviews/index.html",
+     "main_list_selector": "section.flex-ns.flex-wrap.justify-around.mt5 a[href^=\"/posts/\"]",
+     "selector_reason": "section.flex-ns.flex-wrap.justify-around.mt5 is the container the ananke theme list.html/taxonomy.html ranges .Paginator.Pages/.Pages over, one summary card per page; only single-segment /posts/<slug>/ permalinks counted (excludes /posts/page/N/ pagination links)",
+     "link_count": 3
+    },
+    {
+     "path": "tags/adventure/index.html",
+     "main_list_selector": "section.flex-ns.flex-wrap.justify-around.mt5 a[href^=\"/posts/\"]",
+     "selector_reason": "section.flex-ns.flex-wrap.justify-around.mt5 is the container the ananke theme list.html/taxonomy.html ranges .Paginator.Pages/.Pages over, one summary card per page; only single-segment /posts/<slug>/ permalinks counted (excludes /posts/page/N/ pagination links)",
+     "link_count": 3
+    },
+    {
+     "path": "tags/any-edition/index.html",
+     "main_list_selector": "section.flex-ns.flex-wrap.justify-around.mt5 a[href^=\"/posts/\"]",
+     "selector_reason": "section.flex-ns.flex-wrap.justify-around.mt5 is the container the ananke theme list.html/taxonomy.html ranges .Paginator.Pages/.Pages over, one summary card per page; only single-segment /posts/<slug>/ permalinks counted (excludes /posts/page/N/ pagination links)",
+     "link_count": 3
+    },
+    {
+     "path": "tags/archive/index.html",
+     "main_list_selector": "section.flex-ns.flex-wrap.justify-around.mt5 a[href^=\"/posts/\"]",
+     "selector_reason": "section.flex-ns.flex-wrap.justify-around.mt5 is the container the ananke theme list.html/taxonomy.html ranges .Paginator.Pages/.Pages over, one summary card per page; only single-segment /posts/<slug>/ permalinks counted (excludes /posts/page/N/ pagination links)",
+     "link_count": 9
+    },
+    {
+     "path": "tags/cyberpunk/index.html",
+     "main_list_selector": "section.flex-ns.flex-wrap.justify-around.mt5 a[href^=\"/posts/\"]",
+     "selector_reason": "section.flex-ns.flex-wrap.justify-around.mt5 is the container the ananke theme list.html/taxonomy.html ranges .Paginator.Pages/.Pages over, one summary card per page; only single-segment /posts/<slug>/ permalinks counted (excludes /posts/page/N/ pagination links)",
+     "link_count": 3
+    },
+    {
+     "path": "tags/decking/index.html",
+     "main_list_selector": "section.flex-ns.flex-wrap.justify-around.mt5 a[href^=\"/posts/\"]",
+     "selector_reason": "section.flex-ns.flex-wrap.justify-around.mt5 is the container the ananke theme list.html/taxonomy.html ranges .Paginator.Pages/.Pages over, one summary card per page; only single-segment /posts/<slug>/ permalinks counted (excludes /posts/page/N/ pagination links)",
+     "link_count": 1
+    },
+    {
+     "path": "tags/gm-help/index.html",
+     "main_list_selector": "section.flex-ns.flex-wrap.justify-around.mt5 a[href^=\"/posts/\"]",
+     "selector_reason": "section.flex-ns.flex-wrap.justify-around.mt5 is the container the ananke theme list.html/taxonomy.html ranges .Paginator.Pages/.Pages over, one summary card per page; only single-segment /posts/<slug>/ permalinks counted (excludes /posts/page/N/ pagination links)",
+     "link_count": 17
+    },
+    {
+     "path": "tags/gm-helper/index.html",
+     "main_list_selector": "section.flex-ns.flex-wrap.justify-around.mt5 a[href^=\"/posts/\"]",
+     "selector_reason": "section.flex-ns.flex-wrap.justify-around.mt5 is the container the ananke theme list.html/taxonomy.html ranges .Paginator.Pages/.Pages over, one summary card per page; only single-segment /posts/<slug>/ permalinks counted (excludes /posts/page/N/ pagination links)",
+     "link_count": 4
+    },
+    {
+     "path": "tags/guide/index.html",
+     "main_list_selector": "section.flex-ns.flex-wrap.justify-around.mt5 a[href^=\"/posts/\"]",
+     "selector_reason": "section.flex-ns.flex-wrap.justify-around.mt5 is the container the ananke theme list.html/taxonomy.html ranges .Paginator.Pages/.Pages over, one summary card per page; only single-segment /posts/<slug>/ permalinks counted (excludes /posts/page/N/ pagination links)",
+     "link_count": 1
+    },
+    {
+     "path": "tags/guides/index.html",
+     "main_list_selector": "section.flex-ns.flex-wrap.justify-around.mt5 a[href^=\"/posts/\"]",
+     "selector_reason": "section.flex-ns.flex-wrap.justify-around.mt5 is the container the ananke theme list.html/taxonomy.html ranges .Paginator.Pages/.Pages over, one summary card per page; only single-segment /posts/<slug>/ permalinks counted (excludes /posts/page/N/ pagination links)",
+     "link_count": 1
+    },
+    {
+     "path": "tags/index.html",
+     "main_list_selector": "section.ph4 h2 a",
+     "selector_reason": "section.ph4 is the container the ananke theme terms.html ranges .Data.Pages over; each h2 links to one taxonomy term page (term list, not content pages)",
+     "link_count": 18
+    },
+    {
+     "path": "tags/magical-traditions/index.html",
+     "main_list_selector": "section.flex-ns.flex-wrap.justify-around.mt5 a[href^=\"/posts/\"]",
+     "selector_reason": "section.flex-ns.flex-wrap.justify-around.mt5 is the container the ananke theme list.html/taxonomy.html ranges .Paginator.Pages/.Pages over, one summary card per page; only single-segment /posts/<slug>/ permalinks counted (excludes /posts/page/N/ pagination links)",
+     "link_count": 3
+    },
+    {
+     "path": "tags/movies/index.html",
+     "main_list_selector": "section.flex-ns.flex-wrap.justify-around.mt5 a[href^=\"/posts/\"]",
+     "selector_reason": "section.flex-ns.flex-wrap.justify-around.mt5 is the container the ananke theme list.html/taxonomy.html ranges .Paginator.Pages/.Pages over, one summary card per page; only single-segment /posts/<slug>/ permalinks counted (excludes /posts/page/N/ pagination links)",
+     "link_count": 2
+    },
+    {
+     "path": "tags/opinion/index.html",
+     "main_list_selector": "section.flex-ns.flex-wrap.justify-around.mt5 a[href^=\"/posts/\"]",
+     "selector_reason": "section.flex-ns.flex-wrap.justify-around.mt5 is the container the ananke theme list.html/taxonomy.html ranges .Paginator.Pages/.Pages over, one summary card per page; only single-segment /posts/<slug>/ permalinks counted (excludes /posts/page/N/ pagination links)",
+     "link_count": 4
+    },
+    {
+     "path": "tags/player-help/index.html",
+     "main_list_selector": "section.flex-ns.flex-wrap.justify-around.mt5 a[href^=\"/posts/\"]",
+     "selector_reason": "section.flex-ns.flex-wrap.justify-around.mt5 is the container the ananke theme list.html/taxonomy.html ranges .Paginator.Pages/.Pages over, one summary card per page; only single-segment /posts/<slug>/ permalinks counted (excludes /posts/page/N/ pagination links)",
+     "link_count": 1
+    },
+    {
+     "path": "tags/product_reviews/index.html",
+     "main_list_selector": "section.flex-ns.flex-wrap.justify-around.mt5 a[href^=\"/posts/\"]",
+     "selector_reason": "section.flex-ns.flex-wrap.justify-around.mt5 is the container the ananke theme list.html/taxonomy.html ranges .Paginator.Pages/.Pages over, one summary card per page; only single-segment /posts/<slug>/ permalinks counted (excludes /posts/page/N/ pagination links)",
+     "link_count": 1
+    },
+    {
+     "path": "tags/real-talk/index.html",
+     "main_list_selector": "section.flex-ns.flex-wrap.justify-around.mt5 a[href^=\"/posts/\"]",
+     "selector_reason": "section.flex-ns.flex-wrap.justify-around.mt5 is the container the ananke theme list.html/taxonomy.html ranges .Paginator.Pages/.Pages over, one summary card per page; only single-segment /posts/<slug>/ permalinks counted (excludes /posts/page/N/ pagination links)",
+     "link_count": 1
+    },
+    {
+     "path": "tags/tools/index.html",
+     "main_list_selector": "section.flex-ns.flex-wrap.justify-around.mt5 a[href^=\"/posts/\"]",
+     "selector_reason": "section.flex-ns.flex-wrap.justify-around.mt5 is the container the ananke theme list.html/taxonomy.html ranges .Paginator.Pages/.Pages over, one summary card per page; only single-segment /posts/<slug>/ permalinks counted (excludes /posts/page/N/ pagination links)",
+     "link_count": 4
+    }
+   ]
+  },
+  {
+   "sha": "809ddf77bf44b1b01568bfe2ee1733ec8d98d484",
+   "date": "2024-10-01",
+   "adds_new_content": false,
+   "worktree_method": "git worktree add --detach on blobless clone (blobs fetched on demand); git submodule update --init --recursive",
+   "hugo_version": "0.114.0 extended",
+   "build_command": "hugo --gc --minify -d <worktree>/out",
+   "build_ok": true,
+   "build_seconds": 5.36,
+   "error_excerpt": null,
+   "page_count": 76,
+   "output_dir_config_line": "no publishDir in hugo.toml; Hugo default public/ (builds here run with -d <worktree>/out)",
+   "list_pages": [
+    {
+     "path": "posts/index.html",
+     "main_list_selector": "section.flex-ns.flex-wrap.justify-around.mt5 a[href^=\"/posts/\"]",
+     "selector_reason": "section.flex-ns.flex-wrap.justify-around.mt5 is the container the ananke theme list.html/taxonomy.html ranges .Paginator.Pages/.Pages over, one summary card per page; only single-segment /posts/<slug>/ permalinks counted (excludes /posts/page/N/ pagination links)",
+     "link_count": 10
+    },
+    {
+     "path": "posts/page/2/index.html",
+     "main_list_selector": "section.flex-ns.flex-wrap.justify-around.mt5 a[href^=\"/posts/\"]",
+     "selector_reason": "section.flex-ns.flex-wrap.justify-around.mt5 is the container the ananke theme list.html/taxonomy.html ranges .Paginator.Pages/.Pages over, one summary card per page; only single-segment /posts/<slug>/ permalinks counted (excludes /posts/page/N/ pagination links)",
+     "link_count": 10
+    },
+    {
+     "path": "posts/page/3/index.html",
+     "main_list_selector": "section.flex-ns.flex-wrap.justify-around.mt5 a[href^=\"/posts/\"]",
+     "selector_reason": "section.flex-ns.flex-wrap.justify-around.mt5 is the container the ananke theme list.html/taxonomy.html ranges .Paginator.Pages/.Pages over, one summary card per page; only single-segment /posts/<slug>/ permalinks counted (excludes /posts/page/N/ pagination links)",
+     "link_count": 10
+    },
+    {
+     "path": "posts/page/4/index.html",
+     "main_list_selector": "section.flex-ns.flex-wrap.justify-around.mt5 a[href^=\"/posts/\"]",
+     "selector_reason": "section.flex-ns.flex-wrap.justify-around.mt5 is the container the ananke theme list.html/taxonomy.html ranges .Paginator.Pages/.Pages over, one summary card per page; only single-segment /posts/<slug>/ permalinks counted (excludes /posts/page/N/ pagination links)",
+     "link_count": 10
+    },
+    {
+     "path": "posts/page/5/index.html",
+     "main_list_selector": "section.flex-ns.flex-wrap.justify-around.mt5 a[href^=\"/posts/\"]",
+     "selector_reason": "section.flex-ns.flex-wrap.justify-around.mt5 is the container the ananke theme list.html/taxonomy.html ranges .Paginator.Pages/.Pages over, one summary card per page; only single-segment /posts/<slug>/ permalinks counted (excludes /posts/page/N/ pagination links)",
+     "link_count": 1
+    },
+    {
+     "path": "tags/3rd-edition/index.html",
+     "main_list_selector": "section.flex-ns.flex-wrap.justify-around.mt5 a[href^=\"/posts/\"]",
+     "selector_reason": "section.flex-ns.flex-wrap.justify-around.mt5 is the container the ananke theme list.html/taxonomy.html ranges .Paginator.Pages/.Pages over, one summary card per page; only single-segment /posts/<slug>/ permalinks counted (excludes /posts/page/N/ pagination links)",
+     "link_count": 4
+    },
+    {
+     "path": "tags/adventure-reviews/index.html",
+     "main_list_selector": "section.flex-ns.flex-wrap.justify-around.mt5 a[href^=\"/posts/\"]",
+     "selector_reason": "section.flex-ns.flex-wrap.justify-around.mt5 is the container the ananke theme list.html/taxonomy.html ranges .Paginator.Pages/.Pages over, one summary card per page; only single-segment /posts/<slug>/ permalinks counted (excludes /posts/page/N/ pagination links)",
+     "link_count": 4
+    },
+    {
+     "path": "tags/adventure/index.html",
+     "main_list_selector": "section.flex-ns.flex-wrap.justify-around.mt5 a[href^=\"/posts/\"]",
+     "selector_reason": "section.flex-ns.flex-wrap.justify-around.mt5 is the container the ananke theme list.html/taxonomy.html ranges .Paginator.Pages/.Pages over, one summary card per page; only single-segment /posts/<slug>/ permalinks counted (excludes /posts/page/N/ pagination links)",
+     "link_count": 3
+    },
+    {
+     "path": "tags/any-edition/index.html",
+     "main_list_selector": "section.flex-ns.flex-wrap.justify-around.mt5 a[href^=\"/posts/\"]",
+     "selector_reason": "section.flex-ns.flex-wrap.justify-around.mt5 is the container the ananke theme list.html/taxonomy.html ranges .Paginator.Pages/.Pages over, one summary card per page; only single-segment /posts/<slug>/ permalinks counted (excludes /posts/page/N/ pagination links)",
+     "link_count": 3
+    },
+    {
+     "path": "tags/archive/index.html",
+     "main_list_selector": "section.flex-ns.flex-wrap.justify-around.mt5 a[href^=\"/posts/\"]",
+     "selector_reason": "section.flex-ns.flex-wrap.justify-around.mt5 is the container the ananke theme list.html/taxonomy.html ranges .Paginator.Pages/.Pages over, one summary card per page; only single-segment /posts/<slug>/ permalinks counted (excludes /posts/page/N/ pagination links)",
+     "link_count": 9
+    },
+    {
+     "path": "tags/cyberpunk-red/index.html",
+     "main_list_selector": "section.flex-ns.flex-wrap.justify-around.mt5 a[href^=\"/posts/\"]",
+     "selector_reason": "section.flex-ns.flex-wrap.justify-around.mt5 is the container the ananke theme list.html/taxonomy.html ranges .Paginator.Pages/.Pages over, one summary card per page; only single-segment /posts/<slug>/ permalinks counted (excludes /posts/page/N/ pagination links)",
+     "link_count": 1
+    },
+    {
+     "path": "tags/cyberpunk/index.html",
+     "main_list_selector": "section.flex-ns.flex-wrap.justify-around.mt5 a[href^=\"/posts/\"]",
+     "selector_reason": "section.flex-ns.flex-wrap.justify-around.mt5 is the container the ananke theme list.html/taxonomy.html ranges .Paginator.Pages/.Pages over, one summary card per page; only single-segment /posts/<slug>/ permalinks counted (excludes /posts/page/N/ pagination links)",
+     "link_count": 3
+    },
+    {
+     "path": "tags/decking/index.html",
+     "main_list_selector": "section.flex-ns.flex-wrap.justify-around.mt5 a[href^=\"/posts/\"]",
+     "selector_reason": "section.flex-ns.flex-wrap.justify-around.mt5 is the container the ananke theme list.html/taxonomy.html ranges .Paginator.Pages/.Pages over, one summary card per page; only single-segment /posts/<slug>/ permalinks counted (excludes /posts/page/N/ pagination links)",
+     "link_count": 1
+    },
+    {
+     "path": "tags/gm-help/index.html",
+     "main_list_selector": "section.flex-ns.flex-wrap.justify-around.mt5 a[href^=\"/posts/\"]",
+     "selector_reason": "section.flex-ns.flex-wrap.justify-around.mt5 is the container the ananke theme list.html/taxonomy.html ranges .Paginator.Pages/.Pages over, one summary card per page; only single-segment /posts/<slug>/ permalinks counted (excludes /posts/page/N/ pagination links)",
+     "link_count": 18
+    },
+    {
+     "path": "tags/gm-helper/index.html",
+     "main_list_selector": "section.flex-ns.flex-wrap.justify-around.mt5 a[href^=\"/posts/\"]",
+     "selector_reason": "section.flex-ns.flex-wrap.justify-around.mt5 is the container the ananke theme list.html/taxonomy.html ranges .Paginator.Pages/.Pages over, one summary card per page; only single-segment /posts/<slug>/ permalinks counted (excludes /posts/page/N/ pagination links)",
+     "link_count": 4
+    },
+    {
+     "path": "tags/guide/index.html",
+     "main_list_selector": "section.flex-ns.flex-wrap.justify-around.mt5 a[href^=\"/posts/\"]",
+     "selector_reason": "section.flex-ns.flex-wrap.justify-around.mt5 is the container the ananke theme list.html/taxonomy.html ranges .Paginator.Pages/.Pages over, one summary card per page; only single-segment /posts/<slug>/ permalinks counted (excludes /posts/page/N/ pagination links)",
+     "link_count": 1
+    },
+    {
+     "path": "tags/guides/index.html",
+     "main_list_selector": "section.flex-ns.flex-wrap.justify-around.mt5 a[href^=\"/posts/\"]",
+     "selector_reason": "section.flex-ns.flex-wrap.justify-around.mt5 is the container the ananke theme list.html/taxonomy.html ranges .Paginator.Pages/.Pages over, one summary card per page; only single-segment /posts/<slug>/ permalinks counted (excludes /posts/page/N/ pagination links)",
+     "link_count": 1
+    },
+    {
+     "path": "tags/index.html",
+     "main_list_selector": "section.ph4 h2 a",
+     "selector_reason": "section.ph4 is the container the ananke theme terms.html ranges .Data.Pages over; each h2 links to one taxonomy term page (term list, not content pages)",
+     "link_count": 19
+    },
+    {
+     "path": "tags/magical-traditions/index.html",
+     "main_list_selector": "section.flex-ns.flex-wrap.justify-around.mt5 a[href^=\"/posts/\"]",
+     "selector_reason": "section.flex-ns.flex-wrap.justify-around.mt5 is the container the ananke theme list.html/taxonomy.html ranges .Paginator.Pages/.Pages over, one summary card per page; only single-segment /posts/<slug>/ permalinks counted (excludes /posts/page/N/ pagination links)",
+     "link_count": 3
+    },
+    {
+     "path": "tags/movies/index.html",
+     "main_list_selector": "section.flex-ns.flex-wrap.justify-around.mt5 a[href^=\"/posts/\"]",
+     "selector_reason": "section.flex-ns.flex-wrap.justify-around.mt5 is the container the ananke theme list.html/taxonomy.html ranges .Paginator.Pages/.Pages over, one summary card per page; only single-segment /posts/<slug>/ permalinks counted (excludes /posts/page/N/ pagination links)",
+     "link_count": 2
+    },
+    {
+     "path": "tags/opinion/index.html",
+     "main_list_selector": "section.flex-ns.flex-wrap.justify-around.mt5 a[href^=\"/posts/\"]",
+     "selector_reason": "section.flex-ns.flex-wrap.justify-around.mt5 is the container the ananke theme list.html/taxonomy.html ranges .Paginator.Pages/.Pages over, one summary card per page; only single-segment /posts/<slug>/ permalinks counted (excludes /posts/page/N/ pagination links)",
+     "link_count": 4
+    },
+    {
+     "path": "tags/player-help/index.html",
+     "main_list_selector": "section.flex-ns.flex-wrap.justify-around.mt5 a[href^=\"/posts/\"]",
+     "selector_reason": "section.flex-ns.flex-wrap.justify-around.mt5 is the container the ananke theme list.html/taxonomy.html ranges .Paginator.Pages/.Pages over, one summary card per page; only single-segment /posts/<slug>/ permalinks counted (excludes /posts/page/N/ pagination links)",
+     "link_count": 1
+    },
+    {
+     "path": "tags/product_reviews/index.html",
+     "main_list_selector": "section.flex-ns.flex-wrap.justify-around.mt5 a[href^=\"/posts/\"]",
+     "selector_reason": "section.flex-ns.flex-wrap.justify-around.mt5 is the container the ananke theme list.html/taxonomy.html ranges .Paginator.Pages/.Pages over, one summary card per page; only single-segment /posts/<slug>/ permalinks counted (excludes /posts/page/N/ pagination links)",
+     "link_count": 1
+    },
+    {
+     "path": "tags/real-talk/index.html",
+     "main_list_selector": "section.flex-ns.flex-wrap.justify-around.mt5 a[href^=\"/posts/\"]",
+     "selector_reason": "section.flex-ns.flex-wrap.justify-around.mt5 is the container the ananke theme list.html/taxonomy.html ranges .Paginator.Pages/.Pages over, one summary card per page; only single-segment /posts/<slug>/ permalinks counted (excludes /posts/page/N/ pagination links)",
+     "link_count": 1
+    },
+    {
+     "path": "tags/tools/index.html",
+     "main_list_selector": "section.flex-ns.flex-wrap.justify-around.mt5 a[href^=\"/posts/\"]",
+     "selector_reason": "section.flex-ns.flex-wrap.justify-around.mt5 is the container the ananke theme list.html/taxonomy.html ranges .Paginator.Pages/.Pages over, one summary card per page; only single-segment /posts/<slug>/ permalinks counted (excludes /posts/page/N/ pagination links)",
+     "link_count": 4
+    }
+   ]
+  },
+  {
+   "sha": "e6b3014018c6786475f95739e0712581913fffe8",
+   "date": "2024-10-30",
+   "adds_new_content": false,
+   "worktree_method": "git worktree add --detach on blobless clone (blobs fetched on demand); git submodule update --init --recursive",
+   "hugo_version": "0.114.0 extended",
+   "build_command": "hugo --gc --minify -d <worktree>/out",
+   "build_ok": true,
+   "build_seconds": 4.35,
+   "error_excerpt": null,
+   "page_count": 80,
+   "output_dir_config_line": "no publishDir in hugo.toml; Hugo default public/ (builds here run with -d <worktree>/out)",
+   "list_pages": [
+    {
+     "path": "posts/index.html",
+     "main_list_selector": "section.flex-ns.flex-wrap.justify-around.mt5 a[href^=\"/posts/\"]",
+     "selector_reason": "section.flex-ns.flex-wrap.justify-around.mt5 is the container the ananke theme list.html/taxonomy.html ranges .Paginator.Pages/.Pages over, one summary card per page; only single-segment /posts/<slug>/ permalinks counted (excludes /posts/page/N/ pagination links)",
+     "link_count": 10
+    },
+    {
+     "path": "posts/page/2/index.html",
+     "main_list_selector": "section.flex-ns.flex-wrap.justify-around.mt5 a[href^=\"/posts/\"]",
+     "selector_reason": "section.flex-ns.flex-wrap.justify-around.mt5 is the container the ananke theme list.html/taxonomy.html ranges .Paginator.Pages/.Pages over, one summary card per page; only single-segment /posts/<slug>/ permalinks counted (excludes /posts/page/N/ pagination links)",
+     "link_count": 10
+    },
+    {
+     "path": "posts/page/3/index.html",
+     "main_list_selector": "section.flex-ns.flex-wrap.justify-around.mt5 a[href^=\"/posts/\"]",
+     "selector_reason": "section.flex-ns.flex-wrap.justify-around.mt5 is the container the ananke theme list.html/taxonomy.html ranges .Paginator.Pages/.Pages over, one summary card per page; only single-segment /posts/<slug>/ permalinks counted (excludes /posts/page/N/ pagination links)",
+     "link_count": 10
+    },
+    {
+     "path": "posts/page/4/index.html",
+     "main_list_selector": "section.flex-ns.flex-wrap.justify-around.mt5 a[href^=\"/posts/\"]",
+     "selector_reason": "section.flex-ns.flex-wrap.justify-around.mt5 is the container the ananke theme list.html/taxonomy.html ranges .Paginator.Pages/.Pages over, one summary card per page; only single-segment /posts/<slug>/ permalinks counted (excludes /posts/page/N/ pagination links)",
+     "link_count": 10
+    },
+    {
+     "path": "posts/page/5/index.html",
+     "main_list_selector": "section.flex-ns.flex-wrap.justify-around.mt5 a[href^=\"/posts/\"]",
+     "selector_reason": "section.flex-ns.flex-wrap.justify-around.mt5 is the container the ananke theme list.html/taxonomy.html ranges .Paginator.Pages/.Pages over, one summary card per page; only single-segment /posts/<slug>/ permalinks counted (excludes /posts/page/N/ pagination links)",
+     "link_count": 5
+    },
+    {
+     "path": "tags/3rd-edition/index.html",
+     "main_list_selector": "section.flex-ns.flex-wrap.justify-around.mt5 a[href^=\"/posts/\"]",
+     "selector_reason": "section.flex-ns.flex-wrap.justify-around.mt5 is the container the ananke theme list.html/taxonomy.html ranges .Paginator.Pages/.Pages over, one summary card per page; only single-segment /posts/<slug>/ permalinks counted (excludes /posts/page/N/ pagination links)",
+     "link_count": 6
+    },
+    {
+     "path": "tags/adventure-reviews/index.html",
+     "main_list_selector": "section.flex-ns.flex-wrap.justify-around.mt5 a[href^=\"/posts/\"]",
+     "selector_reason": "section.flex-ns.flex-wrap.justify-around.mt5 is the container the ananke theme list.html/taxonomy.html ranges .Paginator.Pages/.Pages over, one summary card per page; only single-segment /posts/<slug>/ permalinks counted (excludes /posts/page/N/ pagination links)",
+     "link_count": 4
+    },
+    {
+     "path": "tags/adventure/index.html",
+     "main_list_selector": "section.flex-ns.flex-wrap.justify-around.mt5 a[href^=\"/posts/\"]",
+     "selector_reason": "section.flex-ns.flex-wrap.justify-around.mt5 is the container the ananke theme list.html/taxonomy.html ranges .Paginator.Pages/.Pages over, one summary card per page; only single-segment /posts/<slug>/ permalinks counted (excludes /posts/page/N/ pagination links)",
+     "link_count": 3
+    },
+    {
+     "path": "tags/any-edition/index.html",
+     "main_list_selector": "section.flex-ns.flex-wrap.justify-around.mt5 a[href^=\"/posts/\"]",
+     "selector_reason": "section.flex-ns.flex-wrap.justify-around.mt5 is the container the ananke theme list.html/taxonomy.html ranges .Paginator.Pages/.Pages over, one summary card per page; only single-segment /posts/<slug>/ permalinks counted (excludes /posts/page/N/ pagination links)",
+     "link_count": 3
+    },
+    {
+     "path": "tags/archive/index.html",
+     "main_list_selector": "section.flex-ns.flex-wrap.justify-around.mt5 a[href^=\"/posts/\"]",
+     "selector_reason": "section.flex-ns.flex-wrap.justify-around.mt5 is the container the ananke theme list.html/taxonomy.html ranges .Paginator.Pages/.Pages over, one summary card per page; only single-segment /posts/<slug>/ permalinks counted (excludes /posts/page/N/ pagination links)",
+     "link_count": 9
+    },
+    {
+     "path": "tags/cyberpunk-red/index.html",
+     "main_list_selector": "section.flex-ns.flex-wrap.justify-around.mt5 a[href^=\"/posts/\"]",
+     "selector_reason": "section.flex-ns.flex-wrap.justify-around.mt5 is the container the ananke theme list.html/taxonomy.html ranges .Paginator.Pages/.Pages over, one summary card per page; only single-segment /posts/<slug>/ permalinks counted (excludes /posts/page/N/ pagination links)",
+     "link_count": 1
+    },
+    {
+     "path": "tags/cyberpunk/index.html",
+     "main_list_selector": "section.flex-ns.flex-wrap.justify-around.mt5 a[href^=\"/posts/\"]",
+     "selector_reason": "section.flex-ns.flex-wrap.justify-around.mt5 is the container the ananke theme list.html/taxonomy.html ranges .Paginator.Pages/.Pages over, one summary card per page; only single-segment /posts/<slug>/ permalinks counted (excludes /posts/page/N/ pagination links)",
+     "link_count": 3
+    },
+    {
+     "path": "tags/decking/index.html",
+     "main_list_selector": "section.flex-ns.flex-wrap.justify-around.mt5 a[href^=\"/posts/\"]",
+     "selector_reason": "section.flex-ns.flex-wrap.justify-around.mt5 is the container the ananke theme list.html/taxonomy.html ranges .Paginator.Pages/.Pages over, one summary card per page; only single-segment /posts/<slug>/ permalinks counted (excludes /posts/page/N/ pagination links)",
+     "link_count": 1
+    },
+    {
+     "path": "tags/gm-help/index.html",
+     "main_list_selector": "section.flex-ns.flex-wrap.justify-around.mt5 a[href^=\"/posts/\"]",
+     "selector_reason": "section.flex-ns.flex-wrap.justify-around.mt5 is the container the ananke theme list.html/taxonomy.html ranges .Paginator.Pages/.Pages over, one summary card per page; only single-segment /posts/<slug>/ permalinks counted (excludes /posts/page/N/ pagination links)",
+     "link_count": 19
+    },
+    {
+     "path": "tags/gm-helper/index.html",
+     "main_list_selector": "section.flex-ns.flex-wrap.justify-around.mt5 a[href^=\"/posts/\"]",
+     "selector_reason": "section.flex-ns.flex-wrap.justify-around.mt5 is the container the ananke theme list.html/taxonomy.html ranges .Paginator.Pages/.Pages over, one summary card per page; only single-segment /posts/<slug>/ permalinks counted (excludes /posts/page/N/ pagination links)",
+     "link_count": 6
+    },
+    {
+     "path": "tags/guide/index.html",
+     "main_list_selector": "section.flex-ns.flex-wrap.justify-around.mt5 a[href^=\"/posts/\"]",
+     "selector_reason": "section.flex-ns.flex-wrap.justify-around.mt5 is the container the ananke theme list.html/taxonomy.html ranges .Paginator.Pages/.Pages over, one summary card per page; only single-segment /posts/<slug>/ permalinks counted (excludes /posts/page/N/ pagination links)",
+     "link_count": 1
+    },
+    {
+     "path": "tags/guides/index.html",
+     "main_list_selector": "section.flex-ns.flex-wrap.justify-around.mt5 a[href^=\"/posts/\"]",
+     "selector_reason": "section.flex-ns.flex-wrap.justify-around.mt5 is the container the ananke theme list.html/taxonomy.html ranges .Paginator.Pages/.Pages over, one summary card per page; only single-segment /posts/<slug>/ permalinks counted (excludes /posts/page/N/ pagination links)",
+     "link_count": 1
+    },
+    {
+     "path": "tags/index.html",
+     "main_list_selector": "section.ph4 h2 a",
+     "selector_reason": "section.ph4 is the container the ananke theme terms.html ranges .Data.Pages over; each h2 links to one taxonomy term page (term list, not content pages)",
+     "link_count": 19
+    },
+    {
+     "path": "tags/magical-traditions/index.html",
+     "main_list_selector": "section.flex-ns.flex-wrap.justify-around.mt5 a[href^=\"/posts/\"]",
+     "selector_reason": "section.flex-ns.flex-wrap.justify-around.mt5 is the container the ananke theme list.html/taxonomy.html ranges .Paginator.Pages/.Pages over, one summary card per page; only single-segment /posts/<slug>/ permalinks counted (excludes /posts/page/N/ pagination links)",
+     "link_count": 3
+    },
+    {
+     "path": "tags/movies/index.html",
+     "main_list_selector": "section.flex-ns.flex-wrap.justify-around.mt5 a[href^=\"/posts/\"]",
+     "selector_reason": "section.flex-ns.flex-wrap.justify-around.mt5 is the container the ananke theme list.html/taxonomy.html ranges .Paginator.Pages/.Pages over, one summary card per page; only single-segment /posts/<slug>/ permalinks counted (excludes /posts/page/N/ pagination links)",
+     "link_count": 2
+    },
+    {
+     "path": "tags/opinion/index.html",
+     "main_list_selector": "section.flex-ns.flex-wrap.justify-around.mt5 a[href^=\"/posts/\"]",
+     "selector_reason": "section.flex-ns.flex-wrap.justify-around.mt5 is the container the ananke theme list.html/taxonomy.html ranges .Paginator.Pages/.Pages over, one summary card per page; only single-segment /posts/<slug>/ permalinks counted (excludes /posts/page/N/ pagination links)",
+     "link_count": 4
+    },
+    {
+     "path": "tags/player-help/index.html",
+     "main_list_selector": "section.flex-ns.flex-wrap.justify-around.mt5 a[href^=\"/posts/\"]",
+     "selector_reason": "section.flex-ns.flex-wrap.justify-around.mt5 is the container the ananke theme list.html/taxonomy.html ranges .Paginator.Pages/.Pages over, one summary card per page; only single-segment /posts/<slug>/ permalinks counted (excludes /posts/page/N/ pagination links)",
+     "link_count": 1
+    },
+    {
+     "path": "tags/product_reviews/index.html",
+     "main_list_selector": "section.flex-ns.flex-wrap.justify-around.mt5 a[href^=\"/posts/\"]",
+     "selector_reason": "section.flex-ns.flex-wrap.justify-around.mt5 is the container the ananke theme list.html/taxonomy.html ranges .Paginator.Pages/.Pages over, one summary card per page; only single-segment /posts/<slug>/ permalinks counted (excludes /posts/page/N/ pagination links)",
+     "link_count": 1
+    },
+    {
+     "path": "tags/real-talk/index.html",
+     "main_list_selector": "section.flex-ns.flex-wrap.justify-around.mt5 a[href^=\"/posts/\"]",
+     "selector_reason": "section.flex-ns.flex-wrap.justify-around.mt5 is the container the ananke theme list.html/taxonomy.html ranges .Paginator.Pages/.Pages over, one summary card per page; only single-segment /posts/<slug>/ permalinks counted (excludes /posts/page/N/ pagination links)",
+     "link_count": 2
+    },
+    {
+     "path": "tags/tools/index.html",
+     "main_list_selector": "section.flex-ns.flex-wrap.justify-around.mt5 a[href^=\"/posts/\"]",
+     "selector_reason": "section.flex-ns.flex-wrap.justify-around.mt5 is the container the ananke theme list.html/taxonomy.html ranges .Paginator.Pages/.Pages over, one summary card per page; only single-segment /posts/<slug>/ permalinks counted (excludes /posts/page/N/ pagination links)",
+     "link_count": 4
+    }
+   ]
+  }
+ ],
+ "median_page_count": 66.0,
+ "median_build_seconds": 5.105,
+ "phase7": {
+  "rebuilt_commits": [
+   "c3eea7cabfb15e46711e29da9451815ce5fce9d8",
+   "809ddf77bf44b1b01568bfe2ee1733ec8d98d484"
+  ],
+  "pages_compared": 124,
+  "all_body_identical": true,
+  "differing_pages": []
+ },
+ "verdict": "corpus_ready",
+ "verdict_reason": "8/8 builds, median pages >= 20, list pages at every commit, both rebuilds identical body hashes on every page"
+}
