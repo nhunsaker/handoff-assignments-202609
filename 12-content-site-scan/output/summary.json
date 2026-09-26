@@ -1,0 +1,283 @@
+{
+ "assignment": "12-content-site-scan",
+ "generated": "2026-09-26",
+ "bucket_targets": {
+  "H": 70,
+  "E": 60,
+  "J": 50,
+  "A": 60,
+  "N": 60
+ },
+ "funnel": {
+  "searched": 1481,
+  "intake_kept": 307,
+  "intake_rejected": 1174,
+  "intake_reject_reasons": {
+   "theme": 36,
+   "too_few_content_pages": 57,
+   "no_config_found": 16,
+   "no_hugo_version_pin": 25,
+   "docs_for_dev_tool": 8,
+   "stale_no_window_possible": 68,
+   "monorepo": 47,
+   "starter_template_boilerplate": 5,
+   "no_gemfile_lock": 2,
+   "repo_unavailable": 4,
+   "no_committed_lockfile": 42,
+   "docs_for_tool: CSS developer-tool file repo; site is project docs": 1,
+   "docs_for_tool: matched /test anything protocol/ (test framework repo; site is project docs)": 1,
+   "inactive_pushed_before_2024-09-25": 184,
+   "framework_owned": 5,
+   "docs_for_tool: matched /frontend code editor/ (code editor app repo)": 1,
+   "docs_for_tool: matched /parcel website/ (bundler project website)": 1,
+   "starter_theme_demo_keyword:boilerplate": 1,
+   "readme_keyword:tutorial": 2,
+   "docs_for_tool: matched /tag google fonts/ (font tooling project)": 1,
+   "docs_for_tool: matched /textbox and select box/ (JS select-box library)": 1,
+   "starter_theme_demo_keyword:tutorial": 1,
+   "starter_theme_demo_keyword:example": 1,
+   "readme_keyword:template": 25,
+   "starter_theme_demo_keyword:starter": 2,
+   "readme_keyword:starter": 7,
+   "docs_for_tool: matched /plugin for eleventy/ (eleventy plugin)": 1,
+   "docs_for_tool: matched /dsnp spec/ (protocol spec repo)": 1,
+   "docs_for_tool: matched /design system generator/ (design-system tooling)": 1,
+   "docs_for_tool: matched /tui for agentic/ (TUI app repo)": 1,
+   "docs_for_tool: matched /catalog of single-file mcp servers/ (dev-tool catalog)": 1,
+   "docs_for_tool: matched /web interface to chat with gpt/ (chat web app repo)": 1,
+   "docs_for_tool: matched /info and docs site/ (project docs site)": 1,
+   "docs_for_tool: matched /kdl\\.dev is hosted/ (document-language project site)": 1,
+   "excluded_prior_assignment": 6,
+   "docs_for_tool": 3,
+   "starter_theme_demo_keyword:theme": 2,
+   "readme_keyword:theme": 19,
+   "starter_theme_demo_keyword:course": 2,
+   "readme_keyword:boilerplate": 2,
+   "docs_for_tool: matched /hr compliance skill/ (agent skill repo, not a content site)": 1,
+   "starter_theme_demo_keyword:template": 3,
+   "demo_site": 1,
+   "docs_for_tool_readme": 3,
+   "starter_theme_demo_keyword:workshop": 4,
+   "starter_theme_demo_keyword:curriculum": 1,
+   "workshop_materials: matched /workshop-in-name/": 1,
+   "readme_keyword:scaffold": 1,
+   "demo_site: matched /demo-in-name/": 1,
+   "devtool_docs": 8,
+   "not_content_site": 37,
+   "thin_content": 251,
+   "starter_theme_demo": 109,
+   "no_lockfile": 57,
+   "devtool": 14,
+   "no_static_output": 74,
+   "runtime_adapter": 21,
+   "no_config_at_head": 1
+  },
+  "screened": 187,
+  "static_output_pass": 94,
+  "index_pages_pass": 86,
+  "no_build_time_fetch_pass": 76,
+  "qualifying_windows": 76,
+  "probed": 27,
+  "verdicts": {
+   "corpus_ready": 14,
+   "nondeterministic": 5,
+   "environment_incomplete": 4,
+   "broken": 3,
+   "no_list_insertions": 1
+  }
+ },
+ "per_bucket": {
+  "H": {
+   "intake_kept": 70,
+   "screened": 70,
+   "static_output_pass": 51,
+   "index_pages_pass": 49,
+   "no_build_time_fetch_pass": 42,
+   "qualifying_windows": 0,
+   "probed": 14,
+   "verdicts": {
+    "corpus_ready": 7,
+    "nondeterministic": 2,
+    "environment_incomplete": 3,
+    "broken": 1,
+    "no_list_insertions": 1
+   }
+  },
+  "E": {
+   "intake_kept": 65,
+   "screened": 65,
+   "static_output_pass": 34,
+   "index_pages_pass": 29,
+   "no_build_time_fetch_pass": 26,
+   "qualifying_windows": 26,
+   "probed": 9,
+   "verdicts": {
+    "corpus_ready": 5,
+    "nondeterministic": 3,
+    "broken": 1
+   }
+  },
+  "J": {
+   "intake_kept": 52,
+   "screened": 52,
+   "static_output_pass": 9,
+   "index_pages_pass": 8,
+   "no_build_time_fetch_pass": 8,
+   "qualifying_windows": 8,
+   "probed": 1,
+   "verdicts": {
+    "corpus_ready": 1
+   }
+  },
+  "A": {
+   "intake_kept": 60,
+   "screened": 0,
+   "static_output_pass": 0,
+   "index_pages_pass": 0,
+   "no_build_time_fetch_pass": 0,
+   "qualifying_windows": 0,
+   "probed": 0,
+   "verdicts": {}
+  },
+  "N": {
+   "intake_kept": 60,
+   "screened": 0,
+   "static_output_pass": 0,
+   "index_pages_pass": 0,
+   "no_build_time_fetch_pass": 0,
+   "qualifying_windows": 0,
+   "probed": 0,
+   "verdicts": {}
+  }
+ },
+ "qualifying_corpus_ranked": [
+  {
+   "repo": "Svenno76/bioplastic-website",
+   "bucket": "H",
+   "verdict": "corpus_ready",
+   "median_static_pages": 959.5,
+   "new_content_commits_in_window": 219,
+   "score": 210130.5,
+   "probe_file": "probes/Svenno76__bioplastic-website.json"
+  },
+  {
+   "repo": "erikkroes/erikkroes-nl",
+   "bucket": "E",
+   "verdict": "corpus_ready",
+   "median_static_pages": 613.0,
+   "new_content_commits_in_window": 136,
+   "score": 83368.0,
+   "probe_file": "probes/erikkroes__erikkroes-nl.json"
+  },
+  {
+   "repo": "antrea-io/website",
+   "bucket": null,
+   "verdict": "corpus_ready",
+   "median_static_pages": 4136.5,
+   "new_content_commits_in_window": 8,
+   "score": 33092.0,
+   "probe_file": "probes/antrea-io__website.json"
+  },
+  {
+   "repo": "Brett-Tanner/souls-like-strings",
+   "bucket": "E",
+   "verdict": "corpus_ready",
+   "median_static_pages": 177.5,
+   "new_content_commits_in_window": 109,
+   "score": 19347.5,
+   "probe_file": "probes/Brett-Tanner__souls-like-strings.json"
+  },
+  {
+   "repo": "24x7fpga/24x7fpga-website",
+   "bucket": "H",
+   "verdict": "corpus_ready",
+   "median_static_pages": 142.0,
+   "new_content_commits_in_window": 72,
+   "score": 10224.0,
+   "probe_file": "probes/24x7fpga__24x7fpga-website.json"
+  },
+  {
+   "repo": "nushackers/nushackers-site",
+   "bucket": "H",
+   "verdict": "corpus_ready",
+   "median_static_pages": 771.0,
+   "new_content_commits_in_window": 10,
+   "score": 7710.0,
+   "probe_file": "probes/nushackers__nushackers-site.json"
+  },
+  {
+   "repo": "j-magnolia/maggiegilligan.hugo",
+   "bucket": "H",
+   "verdict": "corpus_ready",
+   "median_static_pages": 416.0,
+   "new_content_commits_in_window": 5,
+   "score": 2080.0,
+   "probe_file": "probes/j-magnolia__maggiegilligan.hugo.json"
+  },
+  {
+   "repo": "criticalfault/nullsheen_main_site",
+   "bucket": "H",
+   "verdict": "corpus_ready",
+   "median_static_pages": 66.0,
+   "new_content_commits_in_window": 26,
+   "score": 1716.0,
+   "probe_file": "probes/criticalfault__nullsheen_main_site.json"
+  },
+  {
+   "repo": "pdxrconf/pdxrconf.github.io",
+   "bucket": "H",
+   "verdict": "corpus_ready",
+   "median_static_pages": 210.0,
+   "new_content_commits_in_window": 7,
+   "score": 1470.0,
+   "probe_file": "probes/pdxrconf__pdxrconf.github.io.json"
+  },
+  {
+   "repo": "Tarun-Gup/Analyst-in-Action",
+   "bucket": "E",
+   "verdict": "corpus_ready",
+   "median_static_pages": 78.0,
+   "new_content_commits_in_window": 14,
+   "score": 1092.0,
+   "probe_file": "probes/Tarun-Gup__Analyst-in-Action.json"
+  },
+  {
+   "repo": "inclusive-design/standards.inclusivedesign.ca",
+   "bucket": "E",
+   "verdict": "corpus_ready",
+   "median_static_pages": 154.0,
+   "new_content_commits_in_window": 3,
+   "score": 462.0,
+   "probe_file": "probes/inclusive-design__standards.inclusivedesign.ca.json"
+  },
+  {
+   "repo": "x-govuk/fix-common-accessibility-mistakes",
+   "bucket": "E",
+   "verdict": "corpus_ready",
+   "median_static_pages": 40.0,
+   "new_content_commits_in_window": 10,
+   "score": 400.0,
+   "probe_file": "probes/x-govuk__fix-common-accessibility-mistakes.json"
+  },
+  {
+   "repo": "murex/EventStormingJournal",
+   "bucket": "J",
+   "verdict": "corpus_ready",
+   "median_static_pages": 43.5,
+   "new_content_commits_in_window": 7,
+   "score": 304.5,
+   "probe_file": "probes/murex__EventStormingJournal.json"
+  },
+  {
+   "repo": "stewing-co/warp_and_weft_data",
+   "bucket": "H",
+   "verdict": "corpus_ready",
+   "median_static_pages": 40.0,
+   "new_content_commits_in_window": 5,
+   "score": 200.0,
+   "probe_file": "probes/stewing-co__warp_and_weft_data.json"
+  }
+ ],
+ "recompute": "funnel counts are derived by this script from candidates.json, screen.json, windows.json and probes/*.json in output/; corpus rank score = median_static_pages * new_content_commits_in_window",
+ "intake_note": "intake kept 307 candidates (H70/E65/J52/A60/N60); assignment target was 300 (H70/E60/J50/A60/N60). Surplus: E+5, J+2. No records were dropped; the 307 are reported as observed."
+}
