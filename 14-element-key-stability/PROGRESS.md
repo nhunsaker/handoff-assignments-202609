@@ -49,3 +49,22 @@
   in/above/below/outside_group). Fixed keys.py, keys.json,
   recompute_summary.py. Deleted 7 incorrect result files; measurement
   workers restarted (4 shards polling).
+- 2026-09-26T14:00:00Z: Workers died unexpectedly (61/184 commits, 39/300
+  results saved). Restarted 2 rebuild + 4 measure shards; they resume from
+  saved state. GitHub API push failed (transient 401, then RemoteDisconnected);
+  data safe locally, will retry push later.
+- 2026-09-26T15:30:00Z: Found filename collisions: 12 (pair,page) combos have
+  multiple events (57 extra), causing result overwrites. Fixed measure.py to
+  include event_id suffix in filenames. Cleared 243 incomplete results;
+  restarted 4 measurement workers to regenerate all 300 with unique names.
+  Rebuilds: 184/184 commits, all build_ok.
+- 2026-09-26T16:00:00Z: All 300 events measured. Summary recomputed and
+  verified (VERIFY OK). 184/184 commits built, all build_ok. 287/300 events
+  reproduced in rebuild (13 not reproduced due to collection-order
+  nondeterminism on gear pages, documented). False-match lists truncated to
+  100 entries (from 24G to 56M). Ready for final push.
+- 2026-09-26T15:07Z: Push attempt 1 to GitHub main via Git Database API (diff-based, 788
+  local candidates, 784 new/changed vs remote base 370ab70ba7c7, work/ excluded).
+  Hit GitHub REST API rate limit (403) during blob upload at 15:07:17 UTC; no tree,
+  commit, or ref update was issued. Remote main unchanged. All 14 files safe locally.
+  Retry after quota resets (hourly window).
