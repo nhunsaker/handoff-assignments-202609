@@ -1,0 +1,277 @@
+{
+ "site": "beeps",
+ "page": "beeps-yt-3",
+ "url": "file:///home/hatch/workspace/13-scratch/querkmachine__beeps.website/keep/74dc73cd551a/b1-site/blog/2024-01-23-the-changelog-mastodon-opengraph-third-party-code/index.html",
+ "render_ok": true,
+ "C0": {
+  "element_count": 241,
+  "doc_height": 4692,
+  "requests_total": 11,
+  "fonts_check": {
+   "body_font_family": "\"Times New Roman\"",
+   "check_16px": true
+  },
+  "images": {
+   "total": 7,
+   "with_wh": 7,
+   "without_wh": 0
+  },
+  "iframes": [
+   {
+    "src": "https://www.youtube-nocookie.com/embed/2J5tjfqbWkA",
+    "x": 48,
+    "y": 1938.75,
+    "w": 500,
+    "h": 375
+   }
+  ]
+ },
+ "conditions": {
+  "C1": {
+   "render_ok": true,
+   "requests_total": 11,
+   "requests_aborted": 0,
+   "aborted_by_rule": {},
+   "fonts_check": {
+    "body_font_family": "\"Times New Roman\"",
+    "check_16px": true
+   },
+   "elements_differ": 0,
+   "elements_compared": 241,
+   "max_abs_dy": 0.0,
+   "doc_height_C0": 4692,
+   "doc_height_Cx": 4692,
+   "doc_height_delta": 0,
+   "first_differing": null,
+   "only_in_C0": 0,
+   "only_in_Cx": 0,
+   "text_dh": {
+    "n_text_elements": 77,
+    "n_nonzero_dh": 0,
+    "min": 0,
+    "max": 0,
+    "median": 0,
+    "mean": 0.0,
+    "values_sorted": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   }
+  },
+  "C2": {
+   "render_ok": true,
+   "requests_total": 11,
+   "requests_aborted": 2,
+   "aborted_by_rule": {
+    "image": 2
+   },
+   "fonts_check": {
+    "body_font_family": "\"Times New Roman\"",
+    "check_16px": true
+   },
+   "elements_differ": 0,
+   "elements_compared": 241,
+   "max_abs_dy": 0.0,
+   "doc_height_C0": 4692,
+   "doc_height_Cx": 4692,
+   "doc_height_delta": 0,
+   "first_differing": null,
+   "only_in_C0": 0,
+   "only_in_Cx": 0
+  },
+  "C3": {
+   "render_ok": true,
+   "requests_total": 13,
+   "requests_aborted": 0,
+   "aborted_by_rule": {},
+   "fonts_check": {
+    "body_font_family": "\"Times New Roman\"",
+    "check_16px": true
+   },
+   "elements_differ": 86,
+   "elements_compared": 241,
+   "max_abs_dy": 342.0,
+   "doc_height_C0": 4692,
+   "doc_height_Cx": 4350,
+   "doc_height_delta": -342,
+   "first_differing": {
+    "i": 12,
+    "path": "body>main:nth-of-type(1)",
+    "tag": "main",
+    "class": null,
+    "C0_box": [
+     8,
+     124.4375,
+     1264,
+     4017
+    ],
+    "Cx_box": [
+     8,
+     124.4375,
+     1264,
+     3837
+    ],
+    "delta": [
+     0,
+     0.0,
+     0,
+     -180
+    ]
+   },
+   "only_in_C0": 0,
+   "only_in_Cx": 0
+  },
+  "C4": {
+   "render_ok": true,
+   "requests_total": 11,
+   "requests_aborted": 1,
+   "aborted_by_rule": {
+    "third_party": 1
+   },
+   "fonts_check": {
+    "body_font_family": "\"Times New Roman\"",
+    "check_16px": true
+   },
+   "elements_differ": 0,
+   "elements_compared": 241,
+   "max_abs_dy": 0.0,
+   "doc_height_C0": 4692,
+   "doc_height_Cx": 4692,
+   "doc_height_delta": 0,
+   "first_differing": null,
+   "only_in_C0": 0,
+   "only_in_Cx": 0
+  },
+  "C5": {
+   "render_ok": true,
+   "requests_total": 13,
+   "requests_aborted": 8,
+   "aborted_by_rule": {
+    "image": 7,
+    "third_party": 1
+   },
+   "fonts_check": {
+    "body_font_family": "\"Times New Roman\"",
+    "check_16px": true
+   },
+   "elements_differ": 86,
+   "elements_compared": 241,
+   "max_abs_dy": 342.0,
+   "doc_height_C0": 4692,
+   "doc_height_Cx": 4350,
+   "doc_height_delta": -342,
+   "first_differing": {
+    "i": 12,
+    "path": "body>main:nth-of-type(1)",
+    "tag": "main",
+    "class": null,
+    "C0_box": [
+     8,
+     124.4375,
+     1264,
+     4017
+    ],
+    "Cx_box": [
+     8,
+     124.4375,
+     1264,
+     3837
+    ],
+    "delta": [
+     0,
+     0.0,
+     0,
+     -180
+    ]
+   },
+   "only_in_C0": 0,
+   "only_in_Cx": 0
+  }
+ },
+ "jitter": {
+  "runs": [
+   "C0",
+   "R1",
+   "R2",
+   "R3",
+   "R4",
+   "R5"
+  ],
+  "differing_elements": []
+ }
+}

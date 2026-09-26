@@ -1,0 +1,2696 @@
+{
+ "site": "tempertemper",
+ "page": "tt-resources",
+ "url": "file:///home/hatch/workspace/a15-work/builds/tempertemper/dist/resources/index.html",
+ "render_ok": true,
+ "C0": {
+  "element_count": 172,
+  "doc_height": 4885,
+  "requests_total": 12,
+  "fonts_check": {
+   "body_font_family": "\"FS Me Web\", sans-serif",
+   "check_16px": true
+  },
+  "images": {
+   "total": 0,
+   "with_wh": 0,
+   "without_wh": 0
+  },
+  "iframes": []
+ },
+ "conditions": {
+  "C1": {
+   "render_ok": true,
+   "requests_total": 14,
+   "requests_aborted": 7,
+   "aborted_by_rule": {
+    "font": 7
+   },
+   "fonts_check": {
+    "body_font_family": "\"FS Me Web\", sans-serif",
+    "check_16px": false
+   },
+   "elements_differ": 71,
+   "elements_compared": 172,
+   "max_abs_dy": 4.0,
+   "doc_height_C0": 4885,
+   "doc_height_Cx": 4885,
+   "doc_height_delta": 0,
+   "first_differing": {
+    "i": 11,
+    "path": "body>div:nth-of-type(1)>header:nth-of-type(1)>nav:nth-of-type(1)",
+    "tag": "nav",
+    "class": "navigation",
+    "C0_box": [
+     659.8125,
+     24,
+     412.1875,
+     36
+    ],
+    "Cx_box": [
+     657.109375,
+     24,
+     414.890625,
+     36
+    ],
+    "delta": [
+     -2.703125,
+     0,
+     2.703125,
+     0
+    ]
+   },
+   "only_in_C0": 0,
+   "only_in_Cx": 0,
+   "text_dh": {
+    "n_text_elements": 69,
+    "n_nonzero_dh": 3,
+    "min": -2,
+    "max": 0,
+    "median": 0.0,
+    "mean": -0.08695652173913043,
+    "values_sorted": [
+     -2,
+     -2.0,
+     -2.0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0.0,
+     0,
+     0.0,
+     0.0,
+     0,
+     0,
+     0.0,
+     0.0,
+     0,
+     0,
+     0.0,
+     0.0,
+     0,
+     0,
+     0.0,
+     0.0,
+     0,
+     0,
+     0.0,
+     0.0,
+     0,
+     0,
+     0.0,
+     0.0,
+     0,
+     0,
+     0.0,
+     0.0,
+     0,
+     0,
+     0.0,
+     0.0,
+     0,
+     0,
+     0.0,
+     0.0,
+     0,
+     0,
+     0.0,
+     0.0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   }
+  },
+  "C2": {
+   "render_ok": true,
+   "requests_total": 12,
+   "requests_aborted": 0,
+   "aborted_by_rule": {},
+   "fonts_check": {
+    "body_font_family": "\"FS Me Web\", sans-serif",
+    "check_16px": true
+   },
+   "elements_differ": 0,
+   "elements_compared": 172,
+   "max_abs_dy": 0.0,
+   "doc_height_C0": 4885,
+   "doc_height_Cx": 4885,
+   "doc_height_delta": 0,
+   "first_differing": null,
+   "only_in_C0": 0,
+   "only_in_Cx": 0
+  },
+  "C3": {
+   "render_ok": true,
+   "requests_total": 12,
+   "requests_aborted": 0,
+   "aborted_by_rule": {},
+   "fonts_check": {
+    "body_font_family": "\"FS Me Web\", sans-serif",
+    "check_16px": true
+   },
+   "elements_differ": 71,
+   "elements_compared": 172,
+   "max_abs_dy": 4.0,
+   "doc_height_C0": 4885,
+   "doc_height_Cx": 4885,
+   "doc_height_delta": 0,
+   "first_differing": {
+    "i": 11,
+    "path": "body>div:nth-of-type(1)>header:nth-of-type(1)>nav:nth-of-type(1)",
+    "tag": "nav",
+    "class": "navigation",
+    "C0_box": [
+     659.8125,
+     24,
+     412.1875,
+     36
+    ],
+    "Cx_box": [
+     657.109375,
+     24,
+     414.890625,
+     36
+    ],
+    "delta": [
+     -2.703125,
+     0,
+     2.703125,
+     0
+    ]
+   },
+   "only_in_C0": 0,
+   "only_in_Cx": 0
+  },
+  "C4": {
+   "render_ok": true,
+   "requests_total": 12,
+   "requests_aborted": 0,
+   "aborted_by_rule": {},
+   "fonts_check": {
+    "body_font_family": "\"FS Me Web\", sans-serif",
+    "check_16px": true
+   },
+   "elements_differ": 0,
+   "elements_compared": 172,
+   "max_abs_dy": 0.0,
+   "doc_height_C0": 4885,
+   "doc_height_Cx": 4885,
+   "doc_height_delta": 0,
+   "first_differing": null,
+   "only_in_C0": 0,
+   "only_in_Cx": 0
+  },
+  "C5": {
+   "render_ok": true,
+   "requests_total": 12,
+   "requests_aborted": 5,
+   "aborted_by_rule": {
+    "font": 5
+   },
+   "fonts_check": {
+    "body_font_family": "\"FS Me Web\", sans-serif",
+    "check_16px": false
+   },
+   "elements_differ": 71,
+   "elements_compared": 172,
+   "max_abs_dy": 4.0,
+   "doc_height_C0": 4885,
+   "doc_height_Cx": 4885,
+   "doc_height_delta": 0,
+   "first_differing": {
+    "i": 11,
+    "path": "body>div:nth-of-type(1)>header:nth-of-type(1)>nav:nth-of-type(1)",
+    "tag": "nav",
+    "class": "navigation",
+    "C0_box": [
+     659.8125,
+     24,
+     412.1875,
+     36
+    ],
+    "Cx_box": [
+     657.109375,
+     24,
+     414.890625,
+     36
+    ],
+    "delta": [
+     -2.703125,
+     0,
+     2.703125,
+     0
+    ]
+   },
+   "only_in_C0": 0,
+   "only_in_Cx": 0
+  }
+ },
+ "jitter": {
+  "runs": [
+   "C0",
+   "R1",
+   "R2",
+   "R3",
+   "R4",
+   "R5"
+  ],
+  "differing_elements": [
+   {
+    "i": 11,
+    "path": "body>div:nth-of-type(1)>header:nth-of-type(1)>nav:nth-of-type(1)",
+    "tag": "nav",
+    "class": "navigation",
+    "present_in": [
+     "C0",
+     "R1",
+     "R2",
+     "R3",
+     "R4",
+     "R5"
+    ],
+    "ranges": {
+     "x": [
+      657.109375,
+      659.8125
+     ],
+     "y": [
+      24,
+      24
+     ],
+     "w": [
+      412.1875,
+      414.890625
+     ],
+     "h": [
+      36,
+      36
+     ]
+    },
+    "cause": "webfont loading race: font-display:optional on \"FS Me Web\"",
+    "cause_quote": "@font-face{font-family:\"FS Me Web\";font-size-adjust:.53;font-style:italic;font-weight:400;src:url(\"../fonts/FSMeWeb-Italic.woff2\") format(\"woff2\"),url(\"../fonts/FSMeWeb-Italic.woff\") format(\"woff\");font-display:optional} (from tempertemper dist/assets/css/non-critical.css; the ~100ms optional window means the webfont is applied on some loads and the fallback on others, changing text metrics/line-breaks: e.g. nav items shift ~2.7px horizontally, paragraphs wrap to different heights)"
+   },
+   {
+    "i": 12,
+    "path": "body>div:nth-of-type(1)>header:nth-of-type(1)>nav:nth-of-type(1)>ul:nth-of-type(1)",
+    "tag": "ul",
+    "class": null,
+    "present_in": [
+     "C0",
+     "R1",
+     "R2",
+     "R3",
+     "R4",
+     "R5"
+    ],
+    "ranges": {
+     "x": [
+      657.109375,
+      659.8125
+     ],
+     "y": [
+      24,
+      24
+     ],
+     "w": [
+      412.1875,
+      414.890625
+     ],
+     "h": [
+      36,
+      36
+     ]
+    },
+    "cause": "webfont loading race: font-display:optional on \"FS Me Web\"",
+    "cause_quote": "@font-face{font-family:\"FS Me Web\";font-size-adjust:.53;font-style:italic;font-weight:400;src:url(\"../fonts/FSMeWeb-Italic.woff2\") format(\"woff2\"),url(\"../fonts/FSMeWeb-Italic.woff\") format(\"woff\");font-display:optional} (from tempertemper dist/assets/css/non-critical.css; the ~100ms optional window means the webfont is applied on some loads and the fallback on others, changing text metrics/line-breaks: e.g. nav items shift ~2.7px horizontally, paragraphs wrap to different heights)"
+   },
+   {
+    "i": 13,
+    "path": "body>div:nth-of-type(1)>header:nth-of-type(1)>nav:nth-of-type(1)>ul:nth-of-type(1)>li:nth-of-type(1)",
+    "tag": "li",
+    "class": null,
+    "present_in": [
+     "C0",
+     "R1",
+     "R2",
+     "R3",
+     "R4",
+     "R5"
+    ],
+    "ranges": {
+     "x": [
+      657.109375,
+      659.8125
+     ],
+     "y": [
+      24,
+      24
+     ],
+     "w": [
+      48,
+      48.046875
+     ],
+     "h": [
+      36,
+      36
+     ]
+    },
+    "cause": "webfont loading race: font-display:optional on \"FS Me Web\"",
+    "cause_quote": "@font-face{font-family:\"FS Me Web\";font-size-adjust:.53;font-style:italic;font-weight:400;src:url(\"../fonts/FSMeWeb-Italic.woff2\") format(\"woff2\"),url(\"../fonts/FSMeWeb-Italic.woff\") format(\"woff\");font-display:optional} (from tempertemper dist/assets/css/non-critical.css; the ~100ms optional window means the webfont is applied on some loads and the fallback on others, changing text metrics/line-breaks: e.g. nav items shift ~2.7px horizontally, paragraphs wrap to different heights)"
+   },
+   {
+    "i": 14,
+    "path": "body>div:nth-of-type(1)>header:nth-of-type(1)>nav:nth-of-type(1)>ul:nth-of-type(1)>li:nth-of-type(1)>a:nth-of-type(1)",
+    "tag": "a",
+    "class": null,
+    "present_in": [
+     "C0",
+     "R1",
+     "R2",
+     "R3",
+     "R4",
+     "R5"
+    ],
+    "ranges": {
+     "x": [
+      657.109375,
+      659.8125
+     ],
+     "y": [
+      24,
+      24
+     ],
+     "w": [
+      48,
+      48.046875
+     ],
+     "h": [
+      36,
+      36
+     ]
+    },
+    "cause": "webfont loading race: font-display:optional on \"FS Me Web\"",
+    "cause_quote": "@font-face{font-family:\"FS Me Web\";font-size-adjust:.53;font-style:italic;font-weight:400;src:url(\"../fonts/FSMeWeb-Italic.woff2\") format(\"woff2\"),url(\"../fonts/FSMeWeb-Italic.woff\") format(\"woff\");font-display:optional} (from tempertemper dist/assets/css/non-critical.css; the ~100ms optional window means the webfont is applied on some loads and the fallback on others, changing text metrics/line-breaks: e.g. nav items shift ~2.7px horizontally, paragraphs wrap to different heights)"
+   },
+   {
+    "i": 15,
+    "path": "body>div:nth-of-type(1)>header:nth-of-type(1)>nav:nth-of-type(1)>ul:nth-of-type(1)>li:nth-of-type(2)",
+    "tag": "li",
+    "class": null,
+    "present_in": [
+     "C0",
+     "R1",
+     "R2",
+     "R3",
+     "R4",
+     "R5"
+    ],
+    "ranges": {
+     "x": [
+      717.15625,
+      719.8125
+     ],
+     "y": [
+      24,
+      24
+     ],
+     "w": [
+      62.71875,
+      65.40625
+     ],
+     "h": [
+      36,
+      36
+     ]
+    },
+    "cause": "webfont loading race: font-display:optional on \"FS Me Web\"",
+    "cause_quote": "@font-face{font-family:\"FS Me Web\";font-size-adjust:.53;font-style:italic;font-weight:400;src:url(\"../fonts/FSMeWeb-Italic.woff2\") format(\"woff2\"),url(\"../fonts/FSMeWeb-Italic.woff\") format(\"woff\");font-display:optional} (from tempertemper dist/assets/css/non-critical.css; the ~100ms optional window means the webfont is applied on some loads and the fallback on others, changing text metrics/line-breaks: e.g. nav items shift ~2.7px horizontally, paragraphs wrap to different heights)"
+   },
+   {
+    "i": 16,
+    "path": "body>div:nth-of-type(1)>header:nth-of-type(1)>nav:nth-of-type(1)>ul:nth-of-type(1)>li:nth-of-type(2)>a:nth-of-type(1)",
+    "tag": "a",
+    "class": null,
+    "present_in": [
+     "C0",
+     "R1",
+     "R2",
+     "R3",
+     "R4",
+     "R5"
+    ],
+    "ranges": {
+     "x": [
+      717.15625,
+      719.8125
+     ],
+     "y": [
+      24,
+      24
+     ],
+     "w": [
+      62.71875,
+      65.40625
+     ],
+     "h": [
+      36,
+      36
+     ]
+    },
+    "cause": "webfont loading race: font-display:optional on \"FS Me Web\"",
+    "cause_quote": "@font-face{font-family:\"FS Me Web\";font-size-adjust:.53;font-style:italic;font-weight:400;src:url(\"../fonts/FSMeWeb-Italic.woff2\") format(\"woff2\"),url(\"../fonts/FSMeWeb-Italic.woff\") format(\"woff\");font-display:optional} (from tempertemper dist/assets/css/non-critical.css; the ~100ms optional window means the webfont is applied on some loads and the fallback on others, changing text metrics/line-breaks: e.g. nav items shift ~2.7px horizontally, paragraphs wrap to different heights)"
+   },
+   {
+    "i": 17,
+    "path": "body>div:nth-of-type(1)>header:nth-of-type(1)>nav:nth-of-type(1)>ul:nth-of-type(1)>li:nth-of-type(3)",
+    "tag": "li",
+    "class": null,
+    "present_in": [
+     "C0",
+     "R1",
+     "R2",
+     "R3",
+     "R4",
+     "R5"
+    ],
+    "ranges": {
+     "x": [
+      791.875,
+      797.21875
+     ],
+     "y": [
+      24,
+      24
+     ],
+     "w": [
+      87.46875,
+      92.03125
+     ],
+     "h": [
+      36,
+      36
+     ]
+    },
+    "cause": "webfont loading race: font-display:optional on \"FS Me Web\"",
+    "cause_quote": "@font-face{font-family:\"FS Me Web\";font-size-adjust:.53;font-style:italic;font-weight:400;src:url(\"../fonts/FSMeWeb-Italic.woff2\") format(\"woff2\"),url(\"../fonts/FSMeWeb-Italic.woff\") format(\"woff\");font-display:optional} (from tempertemper dist/assets/css/non-critical.css; the ~100ms optional window means the webfont is applied on some loads and the fallback on others, changing text metrics/line-breaks: e.g. nav items shift ~2.7px horizontally, paragraphs wrap to different heights)"
+   },
+   {
+    "i": 18,
+    "path": "body>div:nth-of-type(1)>header:nth-of-type(1)>nav:nth-of-type(1)>ul:nth-of-type(1)>li:nth-of-type(3)>a:nth-of-type(1)",
+    "tag": "a",
+    "class": null,
+    "present_in": [
+     "C0",
+     "R1",
+     "R2",
+     "R3",
+     "R4",
+     "R5"
+    ],
+    "ranges": {
+     "x": [
+      791.875,
+      797.21875
+     ],
+     "y": [
+      24,
+      24
+     ],
+     "w": [
+      87.46875,
+      92.03125
+     ],
+     "h": [
+      36,
+      36
+     ]
+    },
+    "cause": "webfont loading race: font-display:optional on \"FS Me Web\"",
+    "cause_quote": "@font-face{font-family:\"FS Me Web\";font-size-adjust:.53;font-style:italic;font-weight:400;src:url(\"../fonts/FSMeWeb-Italic.woff2\") format(\"woff2\"),url(\"../fonts/FSMeWeb-Italic.woff\") format(\"woff\");font-display:optional} (from tempertemper dist/assets/css/non-critical.css; the ~100ms optional window means the webfont is applied on some loads and the fallback on others, changing text metrics/line-breaks: e.g. nav items shift ~2.7px horizontally, paragraphs wrap to different heights)"
+   },
+   {
+    "i": 19,
+    "path": "body>div:nth-of-type(1)>header:nth-of-type(1)>nav:nth-of-type(1)>ul:nth-of-type(1)>li:nth-of-type(4)",
+    "tag": "li",
+    "class": null,
+    "present_in": [
+     "C0",
+     "R1",
+     "R2",
+     "R3",
+     "R4",
+     "R5"
+    ],
+    "ranges": {
+     "x": [
+      895.90625,
+      896.6875
+     ],
+     "y": [
+      24,
+      24
+     ],
+     "w": [
+      88.046875,
+      90.25
+     ],
+     "h": [
+      36,
+      36
+     ]
+    },
+    "cause": "webfont loading race: font-display:optional on \"FS Me Web\"",
+    "cause_quote": "@font-face{font-family:\"FS Me Web\";font-size-adjust:.53;font-style:italic;font-weight:400;src:url(\"../fonts/FSMeWeb-Italic.woff2\") format(\"woff2\"),url(\"../fonts/FSMeWeb-Italic.woff\") format(\"woff\");font-display:optional} (from tempertemper dist/assets/css/non-critical.css; the ~100ms optional window means the webfont is applied on some loads and the fallback on others, changing text metrics/line-breaks: e.g. nav items shift ~2.7px horizontally, paragraphs wrap to different heights)"
+   },
+   {
+    "i": 20,
+    "path": "body>div:nth-of-type(1)>header:nth-of-type(1)>nav:nth-of-type(1)>ul:nth-of-type(1)>li:nth-of-type(4)>a:nth-of-type(1)",
+    "tag": "a",
+    "class": null,
+    "present_in": [
+     "C0",
+     "R1",
+     "R2",
+     "R3",
+     "R4",
+     "R5"
+    ],
+    "ranges": {
+     "x": [
+      895.90625,
+      896.6875
+     ],
+     "y": [
+      24,
+      24
+     ],
+     "w": [
+      88.046875,
+      90.25
+     ],
+     "h": [
+      36,
+      36
+     ]
+    },
+    "cause": "webfont loading race: font-display:optional on \"FS Me Web\"",
+    "cause_quote": "@font-face{font-family:\"FS Me Web\";font-size-adjust:.53;font-style:italic;font-weight:400;src:url(\"../fonts/FSMeWeb-Italic.woff2\") format(\"woff2\"),url(\"../fonts/FSMeWeb-Italic.woff\") format(\"woff\");font-display:optional} (from tempertemper dist/assets/css/non-critical.css; the ~100ms optional window means the webfont is applied on some loads and the fallback on others, changing text metrics/line-breaks: e.g. nav items shift ~2.7px horizontally, paragraphs wrap to different heights)"
+   },
+   {
+    "i": 21,
+    "path": "body>div:nth-of-type(1)>header:nth-of-type(1)>nav:nth-of-type(1)>ul:nth-of-type(1)>li:nth-of-type(5)",
+    "tag": "li",
+    "class": null,
+    "present_in": [
+     "C0",
+     "R1",
+     "R2",
+     "R3",
+     "R4",
+     "R5"
+    ],
+    "ranges": {
+     "x": [
+      995.953125,
+      998.9375
+     ],
+     "y": [
+      24,
+      24
+     ],
+     "w": [
+      73.0625,
+      76.046875
+     ],
+     "h": [
+      36,
+      36
+     ]
+    },
+    "cause": "webfont loading race: font-display:optional on \"FS Me Web\"",
+    "cause_quote": "@font-face{font-family:\"FS Me Web\";font-size-adjust:.53;font-style:italic;font-weight:400;src:url(\"../fonts/FSMeWeb-Italic.woff2\") format(\"woff2\"),url(\"../fonts/FSMeWeb-Italic.woff\") format(\"woff\");font-display:optional} (from tempertemper dist/assets/css/non-critical.css; the ~100ms optional window means the webfont is applied on some loads and the fallback on others, changing text metrics/line-breaks: e.g. nav items shift ~2.7px horizontally, paragraphs wrap to different heights)"
+   },
+   {
+    "i": 22,
+    "path": "body>div:nth-of-type(1)>header:nth-of-type(1)>nav:nth-of-type(1)>ul:nth-of-type(1)>li:nth-of-type(5)>a:nth-of-type(1)",
+    "tag": "a",
+    "class": null,
+    "present_in": [
+     "C0",
+     "R1",
+     "R2",
+     "R3",
+     "R4",
+     "R5"
+    ],
+    "ranges": {
+     "x": [
+      995.953125,
+      998.9375
+     ],
+     "y": [
+      24,
+      24
+     ],
+     "w": [
+      73.0625,
+      76.046875
+     ],
+     "h": [
+      36,
+      36
+     ]
+    },
+    "cause": "webfont loading race: font-display:optional on \"FS Me Web\"",
+    "cause_quote": "@font-face{font-family:\"FS Me Web\";font-size-adjust:.53;font-style:italic;font-weight:400;src:url(\"../fonts/FSMeWeb-Italic.woff2\") format(\"woff2\"),url(\"../fonts/FSMeWeb-Italic.woff\") format(\"woff\");font-display:optional} (from tempertemper dist/assets/css/non-critical.css; the ~100ms optional window means the webfont is applied on some loads and the fallback on others, changing text metrics/line-breaks: e.g. nav items shift ~2.7px horizontally, paragraphs wrap to different heights)"
+   },
+   {
+    "i": 26,
+    "path": "body>div:nth-of-type(1)>main:nth-of-type(1)>p:nth-of-type(1)>a:nth-of-type(1)",
+    "tag": "a",
+    "class": null,
+    "present_in": [
+     "C0",
+     "R1",
+     "R2",
+     "R3",
+     "R4",
+     "R5"
+    ],
+    "ranges": {
+     "x": [
+      639.8125,
+      650.734375
+     ],
+     "y": [
+      461.828125,
+      463.828125
+     ],
+     "w": [
+      170.78125,
+      175.453125
+     ],
+     "h": [
+      30,
+      33
+     ]
+    },
+    "cause": "webfont loading race: font-display:optional on \"FS Me Web\"",
+    "cause_quote": "@font-face{font-family:\"FS Me Web\";font-size-adjust:.53;font-style:italic;font-weight:400;src:url(\"../fonts/FSMeWeb-Italic.woff2\") format(\"woff2\"),url(\"../fonts/FSMeWeb-Italic.woff\") format(\"woff\");font-display:optional} (from tempertemper dist/assets/css/non-critical.css; the ~100ms optional window means the webfont is applied on some loads and the fallback on others, changing text metrics/line-breaks: e.g. nav items shift ~2.7px horizontally, paragraphs wrap to different heights)"
+   },
+   {
+    "i": 30,
+    "path": "body>div:nth-of-type(1)>main:nth-of-type(1)>ol:nth-of-type(1)>li:nth-of-type(1)>h2:nth-of-type(1)>a:nth-of-type(1)",
+    "tag": "a",
+    "class": null,
+    "present_in": [
+     "C0",
+     "R1",
+     "R2",
+     "R3",
+     "R4",
+     "R5"
+    ],
+    "ranges": {
+     "x": [
+      208,
+      208
+     ],
+     "y": [
+      559.65625,
+      562.65625
+     ],
+     "w": [
+      640.03125,
+      670.8125
+     ],
+     "h": [
+      127.390625,
+      134.390625
+     ]
+    },
+    "cause": "webfont loading race: font-display:optional on \"FS Me Web\"",
+    "cause_quote": "@font-face{font-family:\"FS Me Web\";font-size-adjust:.53;font-style:italic;font-weight:400;src:url(\"../fonts/FSMeWeb-Italic.woff2\") format(\"woff2\"),url(\"../fonts/FSMeWeb-Italic.woff\") format(\"woff\");font-display:optional} (from tempertemper dist/assets/css/non-critical.css; the ~100ms optional window means the webfont is applied on some loads and the fallback on others, changing text metrics/line-breaks: e.g. nav items shift ~2.7px horizontally, paragraphs wrap to different heights)"
+   },
+   {
+    "i": 32,
+    "path": "body>div:nth-of-type(1)>main:nth-of-type(1)>ol:nth-of-type(1)>li:nth-of-type(1)>p:nth-of-type(1)>a:nth-of-type(1)",
+    "tag": "a",
+    "class": null,
+    "present_in": [
+     "C0",
+     "R1",
+     "R2",
+     "R3",
+     "R4",
+     "R5"
+    ],
+    "ranges": {
+     "x": [
+      651.859375,
+      652.28125
+     ],
+     "y": [
+      705.140625,
+      707.140625
+     ],
+     "w": [
+      84.0625,
+      85.375
+     ],
+     "h": [
+      30,
+      33
+     ]
+    },
+    "cause": "webfont loading race: font-display:optional on \"FS Me Web\"",
+    "cause_quote": "@font-face{font-family:\"FS Me Web\";font-size-adjust:.53;font-style:italic;font-weight:400;src:url(\"../fonts/FSMeWeb-Italic.woff2\") format(\"woff2\"),url(\"../fonts/FSMeWeb-Italic.woff\") format(\"woff\");font-display:optional} (from tempertemper dist/assets/css/non-critical.css; the ~100ms optional window means the webfont is applied on some loads and the fallback on others, changing text metrics/line-breaks: e.g. nav items shift ~2.7px horizontally, paragraphs wrap to different heights)"
+   },
+   {
+    "i": 37,
+    "path": "body>div:nth-of-type(1)>main:nth-of-type(1)>ol:nth-of-type(1)>li:nth-of-type(2)>h2:nth-of-type(1)>a:nth-of-type(1)",
+    "tag": "a",
+    "class": null,
+    "present_in": [
+     "C0",
+     "R1",
+     "R2",
+     "R3",
+     "R4",
+     "R5"
+    ],
+    "ranges": {
+     "x": [
+      208,
+      208
+     ],
+     "y": [
+      922.96875,
+      925.96875
+     ],
+     "w": [
+      649.765625,
+      674.3125
+     ],
+     "h": [
+      127.390625,
+      134.390625
+     ]
+    },
+    "cause": "webfont loading race: font-display:optional on \"FS Me Web\"",
+    "cause_quote": "@font-face{font-family:\"FS Me Web\";font-size-adjust:.53;font-style:italic;font-weight:400;src:url(\"../fonts/FSMeWeb-Italic.woff2\") format(\"woff2\"),url(\"../fonts/FSMeWeb-Italic.woff\") format(\"woff\");font-display:optional} (from tempertemper dist/assets/css/non-critical.css; the ~100ms optional window means the webfont is applied on some loads and the fallback on others, changing text metrics/line-breaks: e.g. nav items shift ~2.7px horizontally, paragraphs wrap to different heights)"
+   },
+   {
+    "i": 39,
+    "path": "body>div:nth-of-type(1)>main:nth-of-type(1)>ol:nth-of-type(1)>li:nth-of-type(2)>p:nth-of-type(1)>a:nth-of-type(1)",
+    "tag": "a",
+    "class": null,
+    "present_in": [
+     "C0",
+     "R1",
+     "R2",
+     "R3",
+     "R4",
+     "R5"
+    ],
+    "ranges": {
+     "x": [
+      663.59375,
+      665.640625
+     ],
+     "y": [
+      1068.453125,
+      1070.453125
+     ],
+     "w": [
+      84.0625,
+      85.375
+     ],
+     "h": [
+      30,
+      33
+     ]
+    },
+    "cause": "webfont loading race: font-display:optional on \"FS Me Web\"",
+    "cause_quote": "@font-face{font-family:\"FS Me Web\";font-size-adjust:.53;font-style:italic;font-weight:400;src:url(\"../fonts/FSMeWeb-Italic.woff2\") format(\"woff2\"),url(\"../fonts/FSMeWeb-Italic.woff\") format(\"woff\");font-display:optional} (from tempertemper dist/assets/css/non-critical.css; the ~100ms optional window means the webfont is applied on some loads and the fallback on others, changing text metrics/line-breaks: e.g. nav items shift ~2.7px horizontally, paragraphs wrap to different heights)"
+   },
+   {
+    "i": 44,
+    "path": "body>div:nth-of-type(1)>main:nth-of-type(1)>ol:nth-of-type(1)>li:nth-of-type(3)>h2:nth-of-type(1)>a:nth-of-type(1)",
+    "tag": "a",
+    "class": null,
+    "present_in": [
+     "C0",
+     "R1",
+     "R2",
+     "R3",
+     "R4",
+     "R5"
+    ],
+    "ranges": {
+     "x": [
+      208,
+      208
+     ],
+     "y": [
+      1286.28125,
+      1289.28125
+     ],
+     "w": [
+      568.171875,
+      712.21875
+     ],
+     "h": [
+      127.390625,
+      134.390625
+     ]
+    },
+    "cause": "webfont loading race: font-display:optional on \"FS Me Web\"",
+    "cause_quote": "@font-face{font-family:\"FS Me Web\";font-size-adjust:.53;font-style:italic;font-weight:400;src:url(\"../fonts/FSMeWeb-Italic.woff2\") format(\"woff2\"),url(\"../fonts/FSMeWeb-Italic.woff\") format(\"woff\");font-display:optional} (from tempertemper dist/assets/css/non-critical.css; the ~100ms optional window means the webfont is applied on some loads and the fallback on others, changing text metrics/line-breaks: e.g. nav items shift ~2.7px horizontally, paragraphs wrap to different heights)"
+   },
+   {
+    "i": 46,
+    "path": "body>div:nth-of-type(1)>main:nth-of-type(1)>ol:nth-of-type(1)>li:nth-of-type(3)>p:nth-of-type(1)>a:nth-of-type(1)",
+    "tag": "a",
+    "class": null,
+    "present_in": [
+     "C0",
+     "R1",
+     "R2",
+     "R3",
+     "R4",
+     "R5"
+    ],
+    "ranges": {
+     "x": [
+      658.484375,
+      658.96875
+     ],
+     "y": [
+      1431.765625,
+      1433.765625
+     ],
+     "w": [
+      86.53125,
+      86.703125
+     ],
+     "h": [
+      30,
+      33
+     ]
+    },
+    "cause": "webfont loading race: font-display:optional on \"FS Me Web\"",
+    "cause_quote": "@font-face{font-family:\"FS Me Web\";font-size-adjust:.53;font-style:italic;font-weight:400;src:url(\"../fonts/FSMeWeb-Italic.woff2\") format(\"woff2\"),url(\"../fonts/FSMeWeb-Italic.woff\") format(\"woff\");font-display:optional} (from tempertemper dist/assets/css/non-critical.css; the ~100ms optional window means the webfont is applied on some loads and the fallback on others, changing text metrics/line-breaks: e.g. nav items shift ~2.7px horizontally, paragraphs wrap to different heights)"
+   },
+   {
+    "i": 51,
+    "path": "body>div:nth-of-type(1)>main:nth-of-type(1)>ol:nth-of-type(1)>li:nth-of-type(4)>h2:nth-of-type(1)>a:nth-of-type(1)",
+    "tag": "a",
+    "class": null,
+    "present_in": [
+     "C0",
+     "R1",
+     "R2",
+     "R3",
+     "R4",
+     "R5"
+    ],
+    "ranges": {
+     "x": [
+      208,
+      208
+     ],
+     "y": [
+      1649.59375,
+      1652.59375
+     ],
+     "w": [
+      454.3125,
+      485.484375
+     ],
+     "h": [
+      63,
+      70
+     ]
+    },
+    "cause": "webfont loading race: font-display:optional on \"FS Me Web\"",
+    "cause_quote": "@font-face{font-family:\"FS Me Web\";font-size-adjust:.53;font-style:italic;font-weight:400;src:url(\"../fonts/FSMeWeb-Italic.woff2\") format(\"woff2\"),url(\"../fonts/FSMeWeb-Italic.woff\") format(\"woff\");font-display:optional} (from tempertemper dist/assets/css/non-critical.css; the ~100ms optional window means the webfont is applied on some loads and the fallback on others, changing text metrics/line-breaks: e.g. nav items shift ~2.7px horizontally, paragraphs wrap to different heights)"
+   },
+   {
+    "i": 53,
+    "path": "body>div:nth-of-type(1)>main:nth-of-type(1)>ol:nth-of-type(1)>li:nth-of-type(4)>p:nth-of-type(1)>a:nth-of-type(1)",
+    "tag": "a",
+    "class": null,
+    "present_in": [
+     "C0",
+     "R1",
+     "R2",
+     "R3",
+     "R4",
+     "R5"
+    ],
+    "ranges": {
+     "x": [
+      592.3125,
+      593.609375
+     ],
+     "y": [
+      1730.6875,
+      1732.6875
+     ],
+     "w": [
+      86.53125,
+      86.703125
+     ],
+     "h": [
+      30,
+      33
+     ]
+    },
+    "cause": "webfont loading race: font-display:optional on \"FS Me Web\"",
+    "cause_quote": "@font-face{font-family:\"FS Me Web\";font-size-adjust:.53;font-style:italic;font-weight:400;src:url(\"../fonts/FSMeWeb-Italic.woff2\") format(\"woff2\"),url(\"../fonts/FSMeWeb-Italic.woff\") format(\"woff\");font-display:optional} (from tempertemper dist/assets/css/non-critical.css; the ~100ms optional window means the webfont is applied on some loads and the fallback on others, changing text metrics/line-breaks: e.g. nav items shift ~2.7px horizontally, paragraphs wrap to different heights)"
+   },
+   {
+    "i": 58,
+    "path": "body>div:nth-of-type(1)>main:nth-of-type(1)>ol:nth-of-type(1)>li:nth-of-type(5)>h2:nth-of-type(1)>a:nth-of-type(1)",
+    "tag": "a",
+    "class": null,
+    "present_in": [
+     "C0",
+     "R1",
+     "R2",
+     "R3",
+     "R4",
+     "R5"
+    ],
+    "ranges": {
+     "x": [
+      208,
+      208
+     ],
+     "y": [
+      1948.515625,
+      1951.515625
+     ],
+     "w": [
+      582.671875,
+      606.21875
+     ],
+     "h": [
+      127.390625,
+      134.390625
+     ]
+    },
+    "cause": "webfont loading race: font-display:optional on \"FS Me Web\"",
+    "cause_quote": "@font-face{font-family:\"FS Me Web\";font-size-adjust:.53;font-style:italic;font-weight:400;src:url(\"../fonts/FSMeWeb-Italic.woff2\") format(\"woff2\"),url(\"../fonts/FSMeWeb-Italic.woff\") format(\"woff\");font-display:optional} (from tempertemper dist/assets/css/non-critical.css; the ~100ms optional window means the webfont is applied on some loads and the fallback on others, changing text metrics/line-breaks: e.g. nav items shift ~2.7px horizontally, paragraphs wrap to different heights)"
+   },
+   {
+    "i": 60,
+    "path": "body>div:nth-of-type(1)>main:nth-of-type(1)>ol:nth-of-type(1)>li:nth-of-type(5)>p:nth-of-type(1)>a:nth-of-type(1)",
+    "tag": "a",
+    "class": null,
+    "present_in": [
+     "C0",
+     "R1",
+     "R2",
+     "R3",
+     "R4",
+     "R5"
+    ],
+    "ranges": {
+     "x": [
+      616.28125,
+      616.796875
+     ],
+     "y": [
+      2094,
+      2096
+     ],
+     "w": [
+      84.0625,
+      85.375
+     ],
+     "h": [
+      30,
+      33
+     ]
+    },
+    "cause": "webfont loading race: font-display:optional on \"FS Me Web\"",
+    "cause_quote": "@font-face{font-family:\"FS Me Web\";font-size-adjust:.53;font-style:italic;font-weight:400;src:url(\"../fonts/FSMeWeb-Italic.woff2\") format(\"woff2\"),url(\"../fonts/FSMeWeb-Italic.woff\") format(\"woff\");font-display:optional} (from tempertemper dist/assets/css/non-critical.css; the ~100ms optional window means the webfont is applied on some loads and the fallback on others, changing text metrics/line-breaks: e.g. nav items shift ~2.7px horizontally, paragraphs wrap to different heights)"
+   },
+   {
+    "i": 61,
+    "path": "body>div:nth-of-type(1)>main:nth-of-type(1)>ol:nth-of-type(1)>li:nth-of-type(5)>p:nth-of-type(1)>a:nth-of-type(2)",
+    "tag": "a",
+    "class": null,
+    "present_in": [
+     "C0",
+     "R1",
+     "R2",
+     "R3",
+     "R4",
+     "R5"
+    ],
+    "ranges": {
+     "x": [
+      753.734375,
+      755.75
+     ],
+     "y": [
+      2094,
+      2096
+     ],
+     "w": [
+      158.296875,
+      161.984375
+     ],
+     "h": [
+      30,
+      33
+     ]
+    },
+    "cause": "webfont loading race: font-display:optional on \"FS Me Web\"",
+    "cause_quote": "@font-face{font-family:\"FS Me Web\";font-size-adjust:.53;font-style:italic;font-weight:400;src:url(\"../fonts/FSMeWeb-Italic.woff2\") format(\"woff2\"),url(\"../fonts/FSMeWeb-Italic.woff\") format(\"woff\");font-display:optional} (from tempertemper dist/assets/css/non-critical.css; the ~100ms optional window means the webfont is applied on some loads and the fallback on others, changing text metrics/line-breaks: e.g. nav items shift ~2.7px horizontally, paragraphs wrap to different heights)"
+   },
+   {
+    "i": 66,
+    "path": "body>div:nth-of-type(1)>main:nth-of-type(1)>ol:nth-of-type(1)>li:nth-of-type(6)>h2:nth-of-type(1)>a:nth-of-type(1)",
+    "tag": "a",
+    "class": null,
+    "present_in": [
+     "C0",
+     "R1",
+     "R2",
+     "R3",
+     "R4",
+     "R5"
+    ],
+    "ranges": {
+     "x": [
+      208,
+      208
+     ],
+     "y": [
+      2311.828125,
+      2314.828125
+     ],
+     "w": [
+      677.859375,
+      695.625
+     ],
+     "h": [
+      127.390625,
+      134.390625
+     ]
+    },
+    "cause": "webfont loading race: font-display:optional on \"FS Me Web\"",
+    "cause_quote": "@font-face{font-family:\"FS Me Web\";font-size-adjust:.53;font-style:italic;font-weight:400;src:url(\"../fonts/FSMeWeb-Italic.woff2\") format(\"woff2\"),url(\"../fonts/FSMeWeb-Italic.woff\") format(\"woff\");font-display:optional} (from tempertemper dist/assets/css/non-critical.css; the ~100ms optional window means the webfont is applied on some loads and the fallback on others, changing text metrics/line-breaks: e.g. nav items shift ~2.7px horizontally, paragraphs wrap to different heights)"
+   },
+   {
+    "i": 68,
+    "path": "body>div:nth-of-type(1)>main:nth-of-type(1)>ol:nth-of-type(1)>li:nth-of-type(6)>p:nth-of-type(1)>a:nth-of-type(1)",
+    "tag": "a",
+    "class": null,
+    "present_in": [
+     "C0",
+     "R1",
+     "R2",
+     "R3",
+     "R4",
+     "R5"
+    ],
+    "ranges": {
+     "x": [
+      614.96875,
+      617.5
+     ],
+     "y": [
+      2457.3125,
+      2459.3125
+     ],
+     "w": [
+      60.015625,
+      60.421875
+     ],
+     "h": [
+      30,
+      33
+     ]
+    },
+    "cause": "webfont loading race: font-display:optional on \"FS Me Web\"",
+    "cause_quote": "@font-face{font-family:\"FS Me Web\";font-size-adjust:.53;font-style:italic;font-weight:400;src:url(\"../fonts/FSMeWeb-Italic.woff2\") format(\"woff2\"),url(\"../fonts/FSMeWeb-Italic.woff\") format(\"woff\");font-display:optional} (from tempertemper dist/assets/css/non-critical.css; the ~100ms optional window means the webfont is applied on some loads and the fallback on others, changing text metrics/line-breaks: e.g. nav items shift ~2.7px horizontally, paragraphs wrap to different heights)"
+   },
+   {
+    "i": 69,
+    "path": "body>div:nth-of-type(1)>main:nth-of-type(1)>ol:nth-of-type(1)>li:nth-of-type(6)>p:nth-of-type(1)>a:nth-of-type(2)",
+    "tag": "a",
+    "class": null,
+    "present_in": [
+     "C0",
+     "R1",
+     "R2",
+     "R3",
+     "R4",
+     "R5"
+    ],
+    "ranges": {
+     "x": [
+      728.375,
+      731.5
+     ],
+     "y": [
+      2457.3125,
+      2459.3125
+     ],
+     "w": [
+      158.296875,
+      161.984375
+     ],
+     "h": [
+      30,
+      33
+     ]
+    },
+    "cause": "webfont loading race: font-display:optional on \"FS Me Web\"",
+    "cause_quote": "@font-face{font-family:\"FS Me Web\";font-size-adjust:.53;font-style:italic;font-weight:400;src:url(\"../fonts/FSMeWeb-Italic.woff2\") format(\"woff2\"),url(\"../fonts/FSMeWeb-Italic.woff\") format(\"woff\");font-display:optional} (from tempertemper dist/assets/css/non-critical.css; the ~100ms optional window means the webfont is applied on some loads and the fallback on others, changing text metrics/line-breaks: e.g. nav items shift ~2.7px horizontally, paragraphs wrap to different heights)"
+   },
+   {
+    "i": 74,
+    "path": "body>div:nth-of-type(1)>main:nth-of-type(1)>ol:nth-of-type(1)>li:nth-of-type(7)>h2:nth-of-type(1)>a:nth-of-type(1)",
+    "tag": "a",
+    "class": null,
+    "present_in": [
+     "C0",
+     "R1",
+     "R2",
+     "R3",
+     "R4",
+     "R5"
+    ],
+    "ranges": {
+     "x": [
+      208,
+      208
+     ],
+     "y": [
+      2675.140625,
+      2678.140625
+     ],
+     "w": [
+      558.046875,
+      582.265625
+     ],
+     "h": [
+      127.390625,
+      134.390625
+     ]
+    },
+    "cause": "webfont loading race: font-display:optional on \"FS Me Web\"",
+    "cause_quote": "@font-face{font-family:\"FS Me Web\";font-size-adjust:.53;font-style:italic;font-weight:400;src:url(\"../fonts/FSMeWeb-Italic.woff2\") format(\"woff2\"),url(\"../fonts/FSMeWeb-Italic.woff\") format(\"woff\");font-display:optional} (from tempertemper dist/assets/css/non-critical.css; the ~100ms optional window means the webfont is applied on some loads and the fallback on others, changing text metrics/line-breaks: e.g. nav items shift ~2.7px horizontally, paragraphs wrap to different heights)"
+   },
+   {
+    "i": 76,
+    "path": "body>div:nth-of-type(1)>main:nth-of-type(1)>ol:nth-of-type(1)>li:nth-of-type(7)>p:nth-of-type(1)>a:nth-of-type(1)",
+    "tag": "a",
+    "class": null,
+    "present_in": [
+     "C0",
+     "R1",
+     "R2",
+     "R3",
+     "R4",
+     "R5"
+    ],
+    "ranges": {
+     "x": [
+      583.53125,
+      584.25
+     ],
+     "y": [
+      2820.625,
+      2822.625
+     ],
+     "w": [
+      158.296875,
+      161.984375
+     ],
+     "h": [
+      30,
+      33
+     ]
+    },
+    "cause": "webfont loading race: font-display:optional on \"FS Me Web\"",
+    "cause_quote": "@font-face{font-family:\"FS Me Web\";font-size-adjust:.53;font-style:italic;font-weight:400;src:url(\"../fonts/FSMeWeb-Italic.woff2\") format(\"woff2\"),url(\"../fonts/FSMeWeb-Italic.woff\") format(\"woff\");font-display:optional} (from tempertemper dist/assets/css/non-critical.css; the ~100ms optional window means the webfont is applied on some loads and the fallback on others, changing text metrics/line-breaks: e.g. nav items shift ~2.7px horizontally, paragraphs wrap to different heights)"
+   },
+   {
+    "i": 81,
+    "path": "body>div:nth-of-type(1)>main:nth-of-type(1)>ol:nth-of-type(1)>li:nth-of-type(8)>h2:nth-of-type(1)>a:nth-of-type(1)",
+    "tag": "a",
+    "class": null,
+    "present_in": [
+     "C0",
+     "R1",
+     "R2",
+     "R3",
+     "R4",
+     "R5"
+    ],
+    "ranges": {
+     "x": [
+      208,
+      208
+     ],
+     "y": [
+      3038.453125,
+      3041.453125
+     ],
+     "w": [
+      654.046875,
+      678.8125
+     ],
+     "h": [
+      127.390625,
+      134.390625
+     ]
+    },
+    "cause": "webfont loading race: font-display:optional on \"FS Me Web\"",
+    "cause_quote": "@font-face{font-family:\"FS Me Web\";font-size-adjust:.53;font-style:italic;font-weight:400;src:url(\"../fonts/FSMeWeb-Italic.woff2\") format(\"woff2\"),url(\"../fonts/FSMeWeb-Italic.woff\") format(\"woff\");font-display:optional} (from tempertemper dist/assets/css/non-critical.css; the ~100ms optional window means the webfont is applied on some loads and the fallback on others, changing text metrics/line-breaks: e.g. nav items shift ~2.7px horizontally, paragraphs wrap to different heights)"
+   },
+   {
+    "i": 83,
+    "path": "body>div:nth-of-type(1)>main:nth-of-type(1)>ol:nth-of-type(1)>li:nth-of-type(8)>p:nth-of-type(1)>a:nth-of-type(1)",
+    "tag": "a",
+    "class": null,
+    "present_in": [
+     "C0",
+     "R1",
+     "R2",
+     "R3",
+     "R4",
+     "R5"
+    ],
+    "ranges": {
+     "x": [
+      574.96875,
+      577.578125
+     ],
+     "y": [
+      3183.9375,
+      3185.9375
+     ],
+     "w": [
+      84.0625,
+      85.375
+     ],
+     "h": [
+      30,
+      33
+     ]
+    },
+    "cause": "webfont loading race: font-display:optional on \"FS Me Web\"",
+    "cause_quote": "@font-face{font-family:\"FS Me Web\";font-size-adjust:.53;font-style:italic;font-weight:400;src:url(\"../fonts/FSMeWeb-Italic.woff2\") format(\"woff2\"),url(\"../fonts/FSMeWeb-Italic.woff\") format(\"woff\");font-display:optional} (from tempertemper dist/assets/css/non-critical.css; the ~100ms optional window means the webfont is applied on some loads and the fallback on others, changing text metrics/line-breaks: e.g. nav items shift ~2.7px horizontally, paragraphs wrap to different heights)"
+   },
+   {
+    "i": 84,
+    "path": "body>div:nth-of-type(1)>main:nth-of-type(1)>ol:nth-of-type(1)>li:nth-of-type(8)>p:nth-of-type(1)>a:nth-of-type(2)",
+    "tag": "a",
+    "class": null,
+    "present_in": [
+     "C0",
+     "R1",
+     "R2",
+     "R3",
+     "R4",
+     "R5"
+    ],
+    "ranges": {
+     "x": [
+      713.921875,
+      715.03125
+     ],
+     "y": [
+      3183.9375,
+      3185.9375
+     ],
+     "w": [
+      158.296875,
+      161.984375
+     ],
+     "h": [
+      30,
+      33
+     ]
+    },
+    "cause": "webfont loading race: font-display:optional on \"FS Me Web\"",
+    "cause_quote": "@font-face{font-family:\"FS Me Web\";font-size-adjust:.53;font-style:italic;font-weight:400;src:url(\"../fonts/FSMeWeb-Italic.woff2\") format(\"woff2\"),url(\"../fonts/FSMeWeb-Italic.woff\") format(\"woff\");font-display:optional} (from tempertemper dist/assets/css/non-critical.css; the ~100ms optional window means the webfont is applied on some loads and the fallback on others, changing text metrics/line-breaks: e.g. nav items shift ~2.7px horizontally, paragraphs wrap to different heights)"
+   },
+   {
+    "i": 89,
+    "path": "body>div:nth-of-type(1)>main:nth-of-type(1)>ol:nth-of-type(1)>li:nth-of-type(9)>h2:nth-of-type(1)>a:nth-of-type(1)",
+    "tag": "a",
+    "class": null,
+    "present_in": [
+     "C0",
+     "R1",
+     "R2",
+     "R3",
+     "R4",
+     "R5"
+    ],
+    "ranges": {
+     "x": [
+      208,
+      208
+     ],
+     "y": [
+      3365.765625,
+      3368.765625
+     ],
+     "w": [
+      655.046875,
+      673.796875
+     ],
+     "h": [
+      127.390625,
+      134.390625
+     ]
+    },
+    "cause": "webfont loading race: font-display:optional on \"FS Me Web\"",
+    "cause_quote": "@font-face{font-family:\"FS Me Web\";font-size-adjust:.53;font-style:italic;font-weight:400;src:url(\"../fonts/FSMeWeb-Italic.woff2\") format(\"woff2\"),url(\"../fonts/FSMeWeb-Italic.woff\") format(\"woff\");font-display:optional} (from tempertemper dist/assets/css/non-critical.css; the ~100ms optional window means the webfont is applied on some loads and the fallback on others, changing text metrics/line-breaks: e.g. nav items shift ~2.7px horizontally, paragraphs wrap to different heights)"
+   },
+   {
+    "i": 91,
+    "path": "body>div:nth-of-type(1)>main:nth-of-type(1)>ol:nth-of-type(1)>li:nth-of-type(9)>p:nth-of-type(1)>a:nth-of-type(1)",
+    "tag": "a",
+    "class": null,
+    "present_in": [
+     "C0",
+     "R1",
+     "R2",
+     "R3",
+     "R4",
+     "R5"
+    ],
+    "ranges": {
+     "x": [
+      592.28125,
+      592.3125
+     ],
+     "y": [
+      3511.25,
+      3513.25
+     ],
+     "w": [
+      128.921875,
+      131.84375
+     ],
+     "h": [
+      30,
+      33
+     ]
+    },
+    "cause": "webfont loading race: font-display:optional on \"FS Me Web\"",
+    "cause_quote": "@font-face{font-family:\"FS Me Web\";font-size-adjust:.53;font-style:italic;font-weight:400;src:url(\"../fonts/FSMeWeb-Italic.woff2\") format(\"woff2\"),url(\"../fonts/FSMeWeb-Italic.woff\") format(\"woff\");font-display:optional} (from tempertemper dist/assets/css/non-critical.css; the ~100ms optional window means the webfont is applied on some loads and the fallback on others, changing text metrics/line-breaks: e.g. nav items shift ~2.7px horizontally, paragraphs wrap to different heights)"
+   },
+   {
+    "i": 92,
+    "path": "body>div:nth-of-type(1)>main:nth-of-type(1)>ol:nth-of-type(1)>li:nth-of-type(9)>p:nth-of-type(1)>a:nth-of-type(2)",
+    "tag": "a",
+    "class": null,
+    "present_in": [
+     "C0",
+     "R1",
+     "R2",
+     "R3",
+     "R4",
+     "R5"
+    ],
+    "ranges": {
+     "x": [
+      734.546875,
+      735.953125
+     ],
+     "y": [
+      3511.25,
+      3513.25
+     ],
+     "w": [
+      137.390625,
+      138.3125
+     ],
+     "h": [
+      30,
+      33
+     ]
+    },
+    "cause": "webfont loading race: font-display:optional on \"FS Me Web\"",
+    "cause_quote": "@font-face{font-family:\"FS Me Web\";font-size-adjust:.53;font-style:italic;font-weight:400;src:url(\"../fonts/FSMeWeb-Italic.woff2\") format(\"woff2\"),url(\"../fonts/FSMeWeb-Italic.woff\") format(\"woff\");font-display:optional} (from tempertemper dist/assets/css/non-critical.css; the ~100ms optional window means the webfont is applied on some loads and the fallback on others, changing text metrics/line-breaks: e.g. nav items shift ~2.7px horizontally, paragraphs wrap to different heights)"
+   },
+   {
+    "i": 93,
+    "path": "body>div:nth-of-type(1)>main:nth-of-type(1)>ol:nth-of-type(1)>li:nth-of-type(9)>p:nth-of-type(1)>a:nth-of-type(3)",
+    "tag": "a",
+    "class": null,
+    "present_in": [
+     "C0",
+     "R1",
+     "R2",
+     "R3",
+     "R4",
+     "R5"
+    ],
+    "ranges": {
+     "x": [
+      254.71875,
+      255.578125
+     ],
+     "y": [
+      3547.25,
+      3549.25
+     ],
+     "w": [
+      73.0625,
+      76.046875
+     ],
+     "h": [
+      30,
+      33
+     ]
+    },
+    "cause": "webfont loading race: font-display:optional on \"FS Me Web\"",
+    "cause_quote": "@font-face{font-family:\"FS Me Web\";font-size-adjust:.53;font-style:italic;font-weight:400;src:url(\"../fonts/FSMeWeb-Italic.woff2\") format(\"woff2\"),url(\"../fonts/FSMeWeb-Italic.woff\") format(\"woff\");font-display:optional} (from tempertemper dist/assets/css/non-critical.css; the ~100ms optional window means the webfont is applied on some loads and the fallback on others, changing text metrics/line-breaks: e.g. nav items shift ~2.7px horizontally, paragraphs wrap to different heights)"
+   },
+   {
+    "i": 98,
+    "path": "body>div:nth-of-type(1)>main:nth-of-type(1)>ol:nth-of-type(1)>li:nth-of-type(10)>h2:nth-of-type(1)>a:nth-of-type(1)",
+    "tag": "a",
+    "class": null,
+    "present_in": [
+     "C0",
+     "R1",
+     "R2",
+     "R3",
+     "R4",
+     "R5"
+    ],
+    "ranges": {
+     "x": [
+      208,
+      208
+     ],
+     "y": [
+      3765.078125,
+      3768.078125
+     ],
+     "w": [
+      636.953125,
+      656.703125
+     ],
+     "h": [
+      127.390625,
+      134.390625
+     ]
+    },
+    "cause": "webfont loading race: font-display:optional on \"FS Me Web\"",
+    "cause_quote": "@font-face{font-family:\"FS Me Web\";font-size-adjust:.53;font-style:italic;font-weight:400;src:url(\"../fonts/FSMeWeb-Italic.woff2\") format(\"woff2\"),url(\"../fonts/FSMeWeb-Italic.woff\") format(\"woff\");font-display:optional} (from tempertemper dist/assets/css/non-critical.css; the ~100ms optional window means the webfont is applied on some loads and the fallback on others, changing text metrics/line-breaks: e.g. nav items shift ~2.7px horizontally, paragraphs wrap to different heights)"
+   },
+   {
+    "i": 100,
+    "path": "body>div:nth-of-type(1)>main:nth-of-type(1)>ol:nth-of-type(1)>li:nth-of-type(10)>p:nth-of-type(1)>a:nth-of-type(1)",
+    "tag": "a",
+    "class": null,
+    "present_in": [
+     "C0",
+     "R1",
+     "R2",
+     "R3",
+     "R4",
+     "R5"
+    ],
+    "ranges": {
+     "x": [
+      591.828125,
+      592.3125
+     ],
+     "y": [
+      3910.5625,
+      3912.5625
+     ],
+     "w": [
+      73.0625,
+      76.046875
+     ],
+     "h": [
+      30,
+      33
+     ]
+    },
+    "cause": "webfont loading race: font-display:optional on \"FS Me Web\"",
+    "cause_quote": "@font-face{font-family:\"FS Me Web\";font-size-adjust:.53;font-style:italic;font-weight:400;src:url(\"../fonts/FSMeWeb-Italic.woff2\") format(\"woff2\"),url(\"../fonts/FSMeWeb-Italic.woff\") format(\"woff\");font-display:optional} (from tempertemper dist/assets/css/non-critical.css; the ~100ms optional window means the webfont is applied on some loads and the fallback on others, changing text metrics/line-breaks: e.g. nav items shift ~2.7px horizontally, paragraphs wrap to different heights)"
+   },
+   {
+    "i": 101,
+    "path": "body>div:nth-of-type(1)>main:nth-of-type(1)>ol:nth-of-type(1)>li:nth-of-type(10)>p:nth-of-type(1)>a:nth-of-type(2)",
+    "tag": "a",
+    "class": null,
+    "present_in": [
+     "C0",
+     "R1",
+     "R2",
+     "R3",
+     "R4",
+     "R5"
+    ],
+    "ranges": {
+     "x": [
+      718.953125,
+      721.265625
+     ],
+     "y": [
+      3910.5625,
+      3912.5625
+     ],
+     "w": [
+      158.296875,
+      161.984375
+     ],
+     "h": [
+      30,
+      33
+     ]
+    },
+    "cause": "webfont loading race: font-display:optional on \"FS Me Web\"",
+    "cause_quote": "@font-face{font-family:\"FS Me Web\";font-size-adjust:.53;font-style:italic;font-weight:400;src:url(\"../fonts/FSMeWeb-Italic.woff2\") format(\"woff2\"),url(\"../fonts/FSMeWeb-Italic.woff\") format(\"woff\");font-display:optional} (from tempertemper dist/assets/css/non-critical.css; the ~100ms optional window means the webfont is applied on some loads and the fallback on others, changing text metrics/line-breaks: e.g. nav items shift ~2.7px horizontally, paragraphs wrap to different heights)"
+   },
+   {
+    "i": 106,
+    "path": "body>div:nth-of-type(1)>main:nth-of-type(1)>nav:nth-of-type(1)>a:nth-of-type(1)",
+    "tag": "a",
+    "class": null,
+    "present_in": [
+     "C0",
+     "R1",
+     "R2",
+     "R3",
+     "R4",
+     "R5"
+    ],
+    "ranges": {
+     "x": [
+      208,
+      208
+     ],
+     "y": [
+      4140.5625,
+      4140.5625
+     ],
+     "w": [
+      72.609375,
+      80.015625
+     ],
+     "h": [
+      36,
+      36
+     ]
+    },
+    "cause": "webfont loading race: font-display:optional on \"FS Me Web\"",
+    "cause_quote": "@font-face{font-family:\"FS Me Web\";font-size-adjust:.53;font-style:italic;font-weight:400;src:url(\"../fonts/FSMeWeb-Italic.woff2\") format(\"woff2\"),url(\"../fonts/FSMeWeb-Italic.woff\") format(\"woff\");font-display:optional} (from tempertemper dist/assets/css/non-critical.css; the ~100ms optional window means the webfont is applied on some loads and the fallback on others, changing text metrics/line-breaks: e.g. nav items shift ~2.7px horizontally, paragraphs wrap to different heights)"
+   },
+   {
+    "i": 107,
+    "path": "body>div:nth-of-type(1)>main:nth-of-type(1)>nav:nth-of-type(1)>a:nth-of-type(1)>span:nth-of-type(1)",
+    "tag": "span",
+    "class": null,
+    "present_in": [
+     "C0",
+     "R1",
+     "R2",
+     "R3",
+     "R4",
+     "R5"
+    ],
+    "ranges": {
+     "x": [
+      264.015625,
+      264.625
+     ],
+     "y": [
+      4144.5625,
+      4146.5625
+     ],
+     "w": [
+      15.984375,
+      24
+     ],
+     "h": [
+      24,
+      27
+     ]
+    },
+    "cause": "webfont loading race: font-display:optional on \"FS Me Web\"",
+    "cause_quote": "@font-face{font-family:\"FS Me Web\";font-size-adjust:.53;font-style:italic;font-weight:400;src:url(\"../fonts/FSMeWeb-Italic.woff2\") format(\"woff2\"),url(\"../fonts/FSMeWeb-Italic.woff\") format(\"woff\");font-display:optional} (from tempertemper dist/assets/css/non-critical.css; the ~100ms optional window means the webfont is applied on some loads and the fallback on others, changing text metrics/line-breaks: e.g. nav items shift ~2.7px horizontally, paragraphs wrap to different heights)"
+   },
+   {
+    "i": 108,
+    "path": "body>div:nth-of-type(1)>main:nth-of-type(1)>nav:nth-of-type(1)>a:nth-of-type(2)",
+    "tag": "a",
+    "class": null,
+    "present_in": [
+     "C0",
+     "R1",
+     "R2",
+     "R3",
+     "R4",
+     "R5"
+    ],
+    "ranges": {
+     "x": [
+      304.609375,
+      312.6875
+     ],
+     "y": [
+      4140.5625,
+      4140.5625
+     ],
+     "w": [
+      70.75,
+      72.140625
+     ],
+     "h": [
+      36,
+      36
+     ]
+    },
+    "cause": "webfont loading race: font-display:optional on \"FS Me Web\"",
+    "cause_quote": "@font-face{font-family:\"FS Me Web\";font-size-adjust:.53;font-style:italic;font-weight:400;src:url(\"../fonts/FSMeWeb-Italic.woff2\") format(\"woff2\"),url(\"../fonts/FSMeWeb-Italic.woff\") format(\"woff\");font-display:optional} (from tempertemper dist/assets/css/non-critical.css; the ~100ms optional window means the webfont is applied on some loads and the fallback on others, changing text metrics/line-breaks: e.g. nav items shift ~2.7px horizontally, paragraphs wrap to different heights)"
+   },
+   {
+    "i": 109,
+    "path": "body>div:nth-of-type(1)>main:nth-of-type(1)>nav:nth-of-type(1)>a:nth-of-type(2)>span:nth-of-type(1)",
+    "tag": "span",
+    "class": null,
+    "present_in": [
+     "C0",
+     "R1",
+     "R2",
+     "R3",
+     "R4",
+     "R5"
+    ],
+    "ranges": {
+     "x": [
+      355.25,
+      364.71875
+     ],
+     "y": [
+      4144.5625,
+      4146.5625
+     ],
+     "w": [
+      20.109375,
+      20.109375
+     ],
+     "h": [
+      24,
+      27
+     ]
+    },
+    "cause": "webfont loading race: font-display:optional on \"FS Me Web\"",
+    "cause_quote": "@font-face{font-family:\"FS Me Web\";font-size-adjust:.53;font-style:italic;font-weight:400;src:url(\"../fonts/FSMeWeb-Italic.woff2\") format(\"woff2\"),url(\"../fonts/FSMeWeb-Italic.woff\") format(\"woff\");font-display:optional} (from tempertemper dist/assets/css/non-critical.css; the ~100ms optional window means the webfont is applied on some loads and the fallback on others, changing text metrics/line-breaks: e.g. nav items shift ~2.7px horizontally, paragraphs wrap to different heights)"
+   },
+   {
+    "i": 113,
+    "path": "body>div:nth-of-type(1)>footer:nth-of-type(1)>nav:nth-of-type(1)>ul:nth-of-type(1)>li:nth-of-type(1)",
+    "tag": "li",
+    "class": null,
+    "present_in": [
+     "C0",
+     "R1",
+     "R2",
+     "R3",
+     "R4",
+     "R5"
+    ],
+    "ranges": {
+     "x": [
+      208,
+      208
+     ],
+     "y": [
+      4248.5625,
+      4248.5625
+     ],
+     "w": [
+      420,
+      420
+     ],
+     "h": [
+      46,
+      48
+     ]
+    },
+    "cause": "webfont loading race: font-display:optional on \"FS Me Web\"",
+    "cause_quote": "@font-face{font-family:\"FS Me Web\";font-size-adjust:.53;font-style:italic;font-weight:400;src:url(\"../fonts/FSMeWeb-Italic.woff2\") format(\"woff2\"),url(\"../fonts/FSMeWeb-Italic.woff\") format(\"woff\");font-display:optional} (from tempertemper dist/assets/css/non-critical.css; the ~100ms optional window means the webfont is applied on some loads and the fallback on others, changing text metrics/line-breaks: e.g. nav items shift ~2.7px horizontally, paragraphs wrap to different heights)"
+   },
+   {
+    "i": 114,
+    "path": "body>div:nth-of-type(1)>footer:nth-of-type(1)>nav:nth-of-type(1)>ul:nth-of-type(1)>li:nth-of-type(1)>a:nth-of-type(1)",
+    "tag": "a",
+    "class": null,
+    "present_in": [
+     "C0",
+     "R1",
+     "R2",
+     "R3",
+     "R4",
+     "R5"
+    ],
+    "ranges": {
+     "x": [
+      208,
+      208
+     ],
+     "y": [
+      4248.5625,
+      4248.5625
+     ],
+     "w": [
+      307.6875,
+      313.640625
+     ],
+     "h": [
+      36,
+      36
+     ]
+    },
+    "cause": "webfont loading race: font-display:optional on \"FS Me Web\"",
+    "cause_quote": "@font-face{font-family:\"FS Me Web\";font-size-adjust:.53;font-style:italic;font-weight:400;src:url(\"../fonts/FSMeWeb-Italic.woff2\") format(\"woff2\"),url(\"../fonts/FSMeWeb-Italic.woff\") format(\"woff\");font-display:optional} (from tempertemper dist/assets/css/non-critical.css; the ~100ms optional window means the webfont is applied on some loads and the fallback on others, changing text metrics/line-breaks: e.g. nav items shift ~2.7px horizontally, paragraphs wrap to different heights)"
+   },
+   {
+    "i": 117,
+    "path": "body>div:nth-of-type(1)>footer:nth-of-type(1)>nav:nth-of-type(1)>ul:nth-of-type(1)>li:nth-of-type(2)",
+    "tag": "li",
+    "class": null,
+    "present_in": [
+     "C0",
+     "R1",
+     "R2",
+     "R3",
+     "R4",
+     "R5"
+    ],
+    "ranges": {
+     "x": [
+      208,
+      208
+     ],
+     "y": [
+      4294.5625,
+      4296.5625
+     ],
+     "w": [
+      420,
+      420
+     ],
+     "h": [
+      47.59375,
+      49.59375
+     ]
+    },
+    "cause": "webfont loading race: font-display:optional on \"FS Me Web\"",
+    "cause_quote": "@font-face{font-family:\"FS Me Web\";font-size-adjust:.53;font-style:italic;font-weight:400;src:url(\"../fonts/FSMeWeb-Italic.woff2\") format(\"woff2\"),url(\"../fonts/FSMeWeb-Italic.woff\") format(\"woff\");font-display:optional} (from tempertemper dist/assets/css/non-critical.css; the ~100ms optional window means the webfont is applied on some loads and the fallback on others, changing text metrics/line-breaks: e.g. nav items shift ~2.7px horizontally, paragraphs wrap to different heights)"
+   },
+   {
+    "i": 118,
+    "path": "body>div:nth-of-type(1)>footer:nth-of-type(1)>nav:nth-of-type(1)>ul:nth-of-type(1)>li:nth-of-type(2)>a:nth-of-type(1)",
+    "tag": "a",
+    "class": null,
+    "present_in": [
+     "C0",
+     "R1",
+     "R2",
+     "R3",
+     "R4",
+     "R5"
+    ],
+    "ranges": {
+     "x": [
+      208,
+      208
+     ],
+     "y": [
+      4294.5625,
+      4296.5625
+     ],
+     "w": [
+      302.796875,
+      305
+     ],
+     "h": [
+      37.59375,
+      37.59375
+     ]
+    },
+    "cause": "webfont loading race: font-display:optional on \"FS Me Web\"",
+    "cause_quote": "@font-face{font-family:\"FS Me Web\";font-size-adjust:.53;font-style:italic;font-weight:400;src:url(\"../fonts/FSMeWeb-Italic.woff2\") format(\"woff2\"),url(\"../fonts/FSMeWeb-Italic.woff\") format(\"woff\");font-display:optional} (from tempertemper dist/assets/css/non-critical.css; the ~100ms optional window means the webfont is applied on some loads and the fallback on others, changing text metrics/line-breaks: e.g. nav items shift ~2.7px horizontally, paragraphs wrap to different heights)"
+   },
+   {
+    "i": 119,
+    "path": "body>div:nth-of-type(1)>footer:nth-of-type(1)>nav:nth-of-type(1)>ul:nth-of-type(1)>li:nth-of-type(2)>a:nth-of-type(1)>svg:nth-of-type(1)",
+    "tag": "svg",
+    "class": "mastodon",
+    "present_in": [
+     "C0",
+     "R1",
+     "R2",
+     "R3",
+     "R4",
+     "R5"
+    ],
+    "ranges": {
+     "x": [
+      208,
+      208
+     ],
+     "y": [
+      4294.5625,
+      4296.5625
+     ],
+     "w": [
+      36,
+      36
+     ],
+     "h": [
+      37.59375,
+      37.59375
+     ]
+    },
+    "cause": "webfont loading race: font-display:optional on \"FS Me Web\"",
+    "cause_quote": "@font-face{font-family:\"FS Me Web\";font-size-adjust:.53;font-style:italic;font-weight:400;src:url(\"../fonts/FSMeWeb-Italic.woff2\") format(\"woff2\"),url(\"../fonts/FSMeWeb-Italic.woff\") format(\"woff\");font-display:optional} (from tempertemper dist/assets/css/non-critical.css; the ~100ms optional window means the webfont is applied on some loads and the fallback on others, changing text metrics/line-breaks: e.g. nav items shift ~2.7px horizontally, paragraphs wrap to different heights)"
+   },
+   {
+    "i": 120,
+    "path": "body>div:nth-of-type(1)>footer:nth-of-type(1)>nav:nth-of-type(1)>ul:nth-of-type(1)>li:nth-of-type(2)>a:nth-of-type(1)>svg:nth-of-type(1)>path:nth-of-type(1)",
+    "tag": "path",
+    "class": null,
+    "present_in": [
+     "C0",
+     "R1",
+     "R2",
+     "R3",
+     "R4",
+     "R5"
+    ],
+    "ranges": {
+     "x": [
+      208.00299072265625,
+      208.00299072265625
+     ],
+     "y": [
+      4294.5625,
+      4296.5625
+     ],
+     "w": [
+      35.580535888671875,
+      35.580535888671875
+     ],
+     "h": [
+      37.91357421875,
+      37.91357421875
+     ]
+    },
+    "cause": "webfont loading race: font-display:optional on \"FS Me Web\"",
+    "cause_quote": "@font-face{font-family:\"FS Me Web\";font-size-adjust:.53;font-style:italic;font-weight:400;src:url(\"../fonts/FSMeWeb-Italic.woff2\") format(\"woff2\"),url(\"../fonts/FSMeWeb-Italic.woff\") format(\"woff\");font-display:optional} (from tempertemper dist/assets/css/non-critical.css; the ~100ms optional window means the webfont is applied on some loads and the fallback on others, changing text metrics/line-breaks: e.g. nav items shift ~2.7px horizontally, paragraphs wrap to different heights)"
+   },
+   {
+    "i": 121,
+    "path": "body>div:nth-of-type(1)>footer:nth-of-type(1)>nav:nth-of-type(1)>ul:nth-of-type(1)>li:nth-of-type(3)",
+    "tag": "li",
+    "class": null,
+    "present_in": [
+     "C0",
+     "R1",
+     "R2",
+     "R3",
+     "R4",
+     "R5"
+    ],
+    "ranges": {
+     "x": [
+      208,
+      208
+     ],
+     "y": [
+      4342.15625,
+      4346.15625
+     ],
+     "w": [
+      420,
+      420
+     ],
+     "h": [
+      41.5,
+      43.5
+     ]
+    },
+    "cause": "webfont loading race: font-display:optional on \"FS Me Web\"",
+    "cause_quote": "@font-face{font-family:\"FS Me Web\";font-size-adjust:.53;font-style:italic;font-weight:400;src:url(\"../fonts/FSMeWeb-Italic.woff2\") format(\"woff2\"),url(\"../fonts/FSMeWeb-Italic.woff\") format(\"woff\");font-display:optional} (from tempertemper dist/assets/css/non-critical.css; the ~100ms optional window means the webfont is applied on some loads and the fallback on others, changing text metrics/line-breaks: e.g. nav items shift ~2.7px horizontally, paragraphs wrap to different heights)"
+   },
+   {
+    "i": 122,
+    "path": "body>div:nth-of-type(1)>footer:nth-of-type(1)>nav:nth-of-type(1)>ul:nth-of-type(1)>li:nth-of-type(3)>a:nth-of-type(1)",
+    "tag": "a",
+    "class": null,
+    "present_in": [
+     "C0",
+     "R1",
+     "R2",
+     "R3",
+     "R4",
+     "R5"
+    ],
+    "ranges": {
+     "x": [
+      208,
+      208
+     ],
+     "y": [
+      4342.15625,
+      4346.15625
+     ],
+     "w": [
+      279.46875,
+      281.4375
+     ],
+     "h": [
+      36,
+      36
+     ]
+    },
+    "cause": "webfont loading race: font-display:optional on \"FS Me Web\"",
+    "cause_quote": "@font-face{font-family:\"FS Me Web\";font-size-adjust:.53;font-style:italic;font-weight:400;src:url(\"../fonts/FSMeWeb-Italic.woff2\") format(\"woff2\"),url(\"../fonts/FSMeWeb-Italic.woff\") format(\"woff\");font-display:optional} (from tempertemper dist/assets/css/non-critical.css; the ~100ms optional window means the webfont is applied on some loads and the fallback on others, changing text metrics/line-breaks: e.g. nav items shift ~2.7px horizontally, paragraphs wrap to different heights)"
+   },
+   {
+    "i": 123,
+    "path": "body>div:nth-of-type(1)>footer:nth-of-type(1)>nav:nth-of-type(1)>ul:nth-of-type(1)>li:nth-of-type(3)>a:nth-of-type(1)>svg:nth-of-type(1)",
+    "tag": "svg",
+    "class": "bluesky",
+    "present_in": [
+     "C0",
+     "R1",
+     "R2",
+     "R3",
+     "R4",
+     "R5"
+    ],
+    "ranges": {
+     "x": [
+      208,
+      208
+     ],
+     "y": [
+      4342.15625,
+      4346.15625
+     ],
+     "w": [
+      36,
+      36
+     ],
+     "h": [
+      31.5,
+      31.5
+     ]
+    },
+    "cause": "webfont loading race: font-display:optional on \"FS Me Web\"",
+    "cause_quote": "@font-face{font-family:\"FS Me Web\";font-size-adjust:.53;font-style:italic;font-weight:400;src:url(\"../fonts/FSMeWeb-Italic.woff2\") format(\"woff2\"),url(\"../fonts/FSMeWeb-Italic.woff\") format(\"woff\");font-display:optional} (from tempertemper dist/assets/css/non-critical.css; the ~100ms optional window means the webfont is applied on some loads and the fallback on others, changing text metrics/line-breaks: e.g. nav items shift ~2.7px horizontally, paragraphs wrap to different heights)"
+   },
+   {
+    "i": 124,
+    "path": "body>div:nth-of-type(1)>footer:nth-of-type(1)>nav:nth-of-type(1)>ul:nth-of-type(1)>li:nth-of-type(3)>a:nth-of-type(1)>svg:nth-of-type(1)>path:nth-of-type(1)",
+    "tag": "path",
+    "class": null,
+    "present_in": [
+     "C0",
+     "R1",
+     "R2",
+     "R3",
+     "R4",
+     "R5"
+    ],
+    "ranges": {
+     "x": [
+      208,
+      208
+     ],
+     "y": [
+      4342.15625,
+      4346.15625
+     ],
+     "w": [
+      36,
+      36
+     ],
+     "h": [
+      31.5,
+      31.5
+     ]
+    },
+    "cause": "webfont loading race: font-display:optional on \"FS Me Web\"",
+    "cause_quote": "@font-face{font-family:\"FS Me Web\";font-size-adjust:.53;font-style:italic;font-weight:400;src:url(\"../fonts/FSMeWeb-Italic.woff2\") format(\"woff2\"),url(\"../fonts/FSMeWeb-Italic.woff\") format(\"woff\");font-display:optional} (from tempertemper dist/assets/css/non-critical.css; the ~100ms optional window means the webfont is applied on some loads and the fallback on others, changing text metrics/line-breaks: e.g. nav items shift ~2.7px horizontally, paragraphs wrap to different heights)"
+   },
+   {
+    "i": 130,
+    "path": "body>div:nth-of-type(1)>footer:nth-of-type(1)>nav:nth-of-type(1)>nav:nth-of-type(1)>ul:nth-of-type(1)>li:nth-of-type(2)>a:nth-of-type(1)",
+    "tag": "a",
+    "class": null,
+    "present_in": [
+     "C0",
+     "R1",
+     "R2",
+     "R3",
+     "R4",
+     "R5"
+    ],
+    "ranges": {
+     "x": [
+      652,
+      652
+     ],
+     "y": [
+      4284.5625,
+      4284.5625
+     ],
+     "w": [
+      62.71875,
+      65.40625
+     ],
+     "h": [
+      36,
+      36
+     ]
+    },
+    "cause": "webfont loading race: font-display:optional on \"FS Me Web\"",
+    "cause_quote": "@font-face{font-family:\"FS Me Web\";font-size-adjust:.53;font-style:italic;font-weight:400;src:url(\"../fonts/FSMeWeb-Italic.woff2\") format(\"woff2\"),url(\"../fonts/FSMeWeb-Italic.woff\") format(\"woff\");font-display:optional} (from tempertemper dist/assets/css/non-critical.css; the ~100ms optional window means the webfont is applied on some loads and the fallback on others, changing text metrics/line-breaks: e.g. nav items shift ~2.7px horizontally, paragraphs wrap to different heights)"
+   },
+   {
+    "i": 132,
+    "path": "body>div:nth-of-type(1)>footer:nth-of-type(1)>nav:nth-of-type(1)>nav:nth-of-type(1)>ul:nth-of-type(1)>li:nth-of-type(3)>a:nth-of-type(1)",
+    "tag": "a",
+    "class": null,
+    "present_in": [
+     "C0",
+     "R1",
+     "R2",
+     "R3",
+     "R4",
+     "R5"
+    ],
+    "ranges": {
+     "x": [
+      652,
+      652
+     ],
+     "y": [
+      4320.5625,
+      4320.5625
+     ],
+     "w": [
+      88.046875,
+      90.25
+     ],
+     "h": [
+      36,
+      36
+     ]
+    },
+    "cause": "webfont loading race: font-display:optional on \"FS Me Web\"",
+    "cause_quote": "@font-face{font-family:\"FS Me Web\";font-size-adjust:.53;font-style:italic;font-weight:400;src:url(\"../fonts/FSMeWeb-Italic.woff2\") format(\"woff2\"),url(\"../fonts/FSMeWeb-Italic.woff\") format(\"woff\");font-display:optional} (from tempertemper dist/assets/css/non-critical.css; the ~100ms optional window means the webfont is applied on some loads and the fallback on others, changing text metrics/line-breaks: e.g. nav items shift ~2.7px horizontally, paragraphs wrap to different heights)"
+   },
+   {
+    "i": 134,
+    "path": "body>div:nth-of-type(1)>footer:nth-of-type(1)>nav:nth-of-type(1)>nav:nth-of-type(1)>ul:nth-of-type(1)>li:nth-of-type(4)>a:nth-of-type(1)",
+    "tag": "a",
+    "class": null,
+    "present_in": [
+     "C0",
+     "R1",
+     "R2",
+     "R3",
+     "R4",
+     "R5"
+    ],
+    "ranges": {
+     "x": [
+      652,
+      652
+     ],
+     "y": [
+      4356.5625,
+      4356.5625
+     ],
+     "w": [
+      73.0625,
+      76.046875
+     ],
+     "h": [
+      36,
+      36
+     ]
+    },
+    "cause": "webfont loading race: font-display:optional on \"FS Me Web\"",
+    "cause_quote": "@font-face{font-family:\"FS Me Web\";font-size-adjust:.53;font-style:italic;font-weight:400;src:url(\"../fonts/FSMeWeb-Italic.woff2\") format(\"woff2\"),url(\"../fonts/FSMeWeb-Italic.woff\") format(\"woff\");font-display:optional} (from tempertemper dist/assets/css/non-critical.css; the ~100ms optional window means the webfont is applied on some loads and the fallback on others, changing text metrics/line-breaks: e.g. nav items shift ~2.7px horizontally, paragraphs wrap to different heights)"
+   },
+   {
+    "i": 136,
+    "path": "body>div:nth-of-type(1)>footer:nth-of-type(1)>nav:nth-of-type(1)>nav:nth-of-type(1)>ul:nth-of-type(1)>li:nth-of-type(5)>a:nth-of-type(1)",
+    "tag": "a",
+    "class": null,
+    "present_in": [
+     "C0",
+     "R1",
+     "R2",
+     "R3",
+     "R4",
+     "R5"
+    ],
+    "ranges": {
+     "x": [
+      652,
+      652
+     ],
+     "y": [
+      4392.5625,
+      4392.5625
+     ],
+     "w": [
+      82.71875,
+      84.125
+     ],
+     "h": [
+      36,
+      36
+     ]
+    },
+    "cause": "webfont loading race: font-display:optional on \"FS Me Web\"",
+    "cause_quote": "@font-face{font-family:\"FS Me Web\";font-size-adjust:.53;font-style:italic;font-weight:400;src:url(\"../fonts/FSMeWeb-Italic.woff2\") format(\"woff2\"),url(\"../fonts/FSMeWeb-Italic.woff\") format(\"woff\");font-display:optional} (from tempertemper dist/assets/css/non-critical.css; the ~100ms optional window means the webfont is applied on some loads and the fallback on others, changing text metrics/line-breaks: e.g. nav items shift ~2.7px horizontally, paragraphs wrap to different heights)"
+   },
+   {
+    "i": 140,
+    "path": "body>div:nth-of-type(1)>footer:nth-of-type(1)>nav:nth-of-type(1)>nav:nth-of-type(2)>ul:nth-of-type(1)>li:nth-of-type(1)>a:nth-of-type(1)",
+    "tag": "a",
+    "class": null,
+    "present_in": [
+     "C0",
+     "R1",
+     "R2",
+     "R3",
+     "R4",
+     "R5"
+    ],
+    "ranges": {
+     "x": [
+      874,
+      874
+     ],
+     "y": [
+      4248.5625,
+      4248.5625
+     ],
+     "w": [
+      87.46875,
+      92.03125
+     ],
+     "h": [
+      36,
+      36
+     ]
+    },
+    "cause": "webfont loading race: font-display:optional on \"FS Me Web\"",
+    "cause_quote": "@font-face{font-family:\"FS Me Web\";font-size-adjust:.53;font-style:italic;font-weight:400;src:url(\"../fonts/FSMeWeb-Italic.woff2\") format(\"woff2\"),url(\"../fonts/FSMeWeb-Italic.woff\") format(\"woff\");font-display:optional} (from tempertemper dist/assets/css/non-critical.css; the ~100ms optional window means the webfont is applied on some loads and the fallback on others, changing text metrics/line-breaks: e.g. nav items shift ~2.7px horizontally, paragraphs wrap to different heights)"
+   },
+   {
+    "i": 144,
+    "path": "body>div:nth-of-type(1)>footer:nth-of-type(1)>nav:nth-of-type(1)>nav:nth-of-type(2)>ul:nth-of-type(1)>li:nth-of-type(3)>a:nth-of-type(1)",
+    "tag": "a",
+    "class": null,
+    "present_in": [
+     "C0",
+     "R1",
+     "R2",
+     "R3",
+     "R4",
+     "R5"
+    ],
+    "ranges": {
+     "x": [
+      874,
+      874
+     ],
+     "y": [
+      4320.5625,
+      4320.5625
+     ],
+     "w": [
+      53.3125,
+      56.015625
+     ],
+     "h": [
+      36,
+      36
+     ]
+    },
+    "cause": "webfont loading race: font-display:optional on \"FS Me Web\"",
+    "cause_quote": "@font-face{font-family:\"FS Me Web\";font-size-adjust:.53;font-style:italic;font-weight:400;src:url(\"../fonts/FSMeWeb-Italic.woff2\") format(\"woff2\"),url(\"../fonts/FSMeWeb-Italic.woff\") format(\"woff\");font-display:optional} (from tempertemper dist/assets/css/non-critical.css; the ~100ms optional window means the webfont is applied on some loads and the fallback on others, changing text metrics/line-breaks: e.g. nav items shift ~2.7px horizontally, paragraphs wrap to different heights)"
+   },
+   {
+    "i": 146,
+    "path": "body>div:nth-of-type(1)>footer:nth-of-type(1)>nav:nth-of-type(1)>nav:nth-of-type(2)>ul:nth-of-type(1)>li:nth-of-type(4)>a:nth-of-type(1)",
+    "tag": "a",
+    "class": null,
+    "present_in": [
+     "C0",
+     "R1",
+     "R2",
+     "R3",
+     "R4",
+     "R5"
+    ],
+    "ranges": {
+     "x": [
+      874,
+      874
+     ],
+     "y": [
+      4356.5625,
+      4356.5625
+     ],
+     "w": [
+      97.859375,
+      100.078125
+     ],
+     "h": [
+      36,
+      36
+     ]
+    },
+    "cause": "webfont loading race: font-display:optional on \"FS Me Web\"",
+    "cause_quote": "@font-face{font-family:\"FS Me Web\";font-size-adjust:.53;font-style:italic;font-weight:400;src:url(\"../fonts/FSMeWeb-Italic.woff2\") format(\"woff2\"),url(\"../fonts/FSMeWeb-Italic.woff\") format(\"woff\");font-display:optional} (from tempertemper dist/assets/css/non-critical.css; the ~100ms optional window means the webfont is applied on some loads and the fallback on others, changing text metrics/line-breaks: e.g. nav items shift ~2.7px horizontally, paragraphs wrap to different heights)"
+   },
+   {
+    "i": 148,
+    "path": "body>div:nth-of-type(1)>footer:nth-of-type(1)>nav:nth-of-type(1)>nav:nth-of-type(2)>ul:nth-of-type(1)>li:nth-of-type(5)>a:nth-of-type(1)",
+    "tag": "a",
+    "class": null,
+    "present_in": [
+     "C0",
+     "R1",
+     "R2",
+     "R3",
+     "R4",
+     "R5"
+    ],
+    "ranges": {
+     "x": [
+      874,
+      874
+     ],
+     "y": [
+      4392.5625,
+      4392.5625
+     ],
+     "w": [
+      132.046875,
+      135.171875
+     ],
+     "h": [
+      36,
+      36
+     ]
+    },
+    "cause": "webfont loading race: font-display:optional on \"FS Me Web\"",
+    "cause_quote": "@font-face{font-family:\"FS Me Web\";font-size-adjust:.53;font-style:italic;font-weight:400;src:url(\"../fonts/FSMeWeb-Italic.woff2\") format(\"woff2\"),url(\"../fonts/FSMeWeb-Italic.woff\") format(\"woff\");font-display:optional} (from tempertemper dist/assets/css/non-critical.css; the ~100ms optional window means the webfont is applied on some loads and the fallback on others, changing text metrics/line-breaks: e.g. nav items shift ~2.7px horizontally, paragraphs wrap to different heights)"
+   },
+   {
+    "i": 152,
+    "path": "body>div:nth-of-type(1)>footer:nth-of-type(1)>address:nth-of-type(1)>span:nth-of-type(2)",
+    "tag": "span",
+    "class": "extended-address",
+    "present_in": [
+     "C0",
+     "R1",
+     "R2",
+     "R3",
+     "R4",
+     "R5"
+    ],
+    "ranges": {
+     "x": [
+      208,
+      208
+     ],
+     "y": [
+      4528.5625,
+      4530.5625
+     ],
+     "w": [
+      173.234375,
+      177.421875
+     ],
+     "h": [
+      24,
+      27
+     ]
+    },
+    "cause": "webfont loading race: font-display:optional on \"FS Me Web\"",
+    "cause_quote": "@font-face{font-family:\"FS Me Web\";font-size-adjust:.53;font-style:italic;font-weight:400;src:url(\"../fonts/FSMeWeb-Italic.woff2\") format(\"woff2\"),url(\"../fonts/FSMeWeb-Italic.woff\") format(\"woff\");font-display:optional} (from tempertemper dist/assets/css/non-critical.css; the ~100ms optional window means the webfont is applied on some loads and the fallback on others, changing text metrics/line-breaks: e.g. nav items shift ~2.7px horizontally, paragraphs wrap to different heights)"
+   },
+   {
+    "i": 153,
+    "path": "body>div:nth-of-type(1)>footer:nth-of-type(1)>address:nth-of-type(1)>span:nth-of-type(3)",
+    "tag": "span",
+    "class": "street-address",
+    "present_in": [
+     "C0",
+     "R1",
+     "R2",
+     "R3",
+     "R4",
+     "R5"
+    ],
+    "ranges": {
+     "x": [
+      393.03125,
+      398.765625
+     ],
+     "y": [
+      4528.5625,
+      4530.5625
+     ],
+     "w": [
+      163.0625,
+      168.09375
+     ],
+     "h": [
+      24,
+      27
+     ]
+    },
+    "cause": "webfont loading race: font-display:optional on \"FS Me Web\"",
+    "cause_quote": "@font-face{font-family:\"FS Me Web\";font-size-adjust:.53;font-style:italic;font-weight:400;src:url(\"../fonts/FSMeWeb-Italic.woff2\") format(\"woff2\"),url(\"../fonts/FSMeWeb-Italic.woff\") format(\"woff\");font-display:optional} (from tempertemper dist/assets/css/non-critical.css; the ~100ms optional window means the webfont is applied on some loads and the fallback on others, changing text metrics/line-breaks: e.g. nav items shift ~2.7px horizontally, paragraphs wrap to different heights)"
+   },
+   {
+    "i": 154,
+    "path": "body>div:nth-of-type(1)>footer:nth-of-type(1)>address:nth-of-type(1)>span:nth-of-type(4)",
+    "tag": "span",
+    "class": "locality",
+    "present_in": [
+     "C0",
+     "R1",
+     "R2",
+     "R3",
+     "R4",
+     "R5"
+    ],
+    "ranges": {
+     "x": [
+      567.890625,
+      580.203125
+     ],
+     "y": [
+      4528.5625,
+      4530.5625
+     ],
+     "w": [
+      229.03125,
+      229.25
+     ],
+     "h": [
+      24,
+      27
+     ]
+    },
+    "cause": "webfont loading race: font-display:optional on \"FS Me Web\"",
+    "cause_quote": "@font-face{font-family:\"FS Me Web\";font-size-adjust:.53;font-style:italic;font-weight:400;src:url(\"../fonts/FSMeWeb-Italic.woff2\") format(\"woff2\"),url(\"../fonts/FSMeWeb-Italic.woff\") format(\"woff\");font-display:optional} (from tempertemper dist/assets/css/non-critical.css; the ~100ms optional window means the webfont is applied on some loads and the fallback on others, changing text metrics/line-breaks: e.g. nav items shift ~2.7px horizontally, paragraphs wrap to different heights)"
+   },
+   {
+    "i": 155,
+    "path": "body>div:nth-of-type(1)>footer:nth-of-type(1)>address:nth-of-type(1)>span:nth-of-type(5)",
+    "tag": "span",
+    "class": "postal-code",
+    "present_in": [
+     "C0",
+     "R1",
+     "R2",
+     "R3",
+     "R4",
+     "R5"
+    ],
+    "ranges": {
+     "x": [
+      808.9375,
+      822.578125
+     ],
+     "y": [
+      4528.5625,
+      4530.5625
+     ],
+     "w": [
+      94.203125,
+      102.703125
+     ],
+     "h": [
+      24,
+      27
+     ]
+    },
+    "cause": "webfont loading race: font-display:optional on \"FS Me Web\"",
+    "cause_quote": "@font-face{font-family:\"FS Me Web\";font-size-adjust:.53;font-style:italic;font-weight:400;src:url(\"../fonts/FSMeWeb-Italic.woff2\") format(\"woff2\"),url(\"../fonts/FSMeWeb-Italic.woff\") format(\"woff\");font-display:optional} (from tempertemper dist/assets/css/non-critical.css; the ~100ms optional window means the webfont is applied on some loads and the fallback on others, changing text metrics/line-breaks: e.g. nav items shift ~2.7px horizontally, paragraphs wrap to different heights)"
+   },
+   {
+    "i": 156,
+    "path": "body>div:nth-of-type(1)>footer:nth-of-type(1)>address:nth-of-type(1)>span:nth-of-type(6)",
+    "tag": "span",
+    "class": "country-name",
+    "present_in": [
+     "C0",
+     "R1",
+     "R2",
+     "R3",
+     "R4",
+     "R5"
+    ],
+    "ranges": {
+     "x": [
+      914.9375,
+      938.625
+     ],
+     "y": [
+      4528.5625,
+      4530.5625
+     ],
+     "w": [
+      30.390625,
+      33.34375
+     ],
+     "h": [
+      24,
+      27
+     ]
+    },
+    "cause": "webfont loading race: font-display:optional on \"FS Me Web\"",
+    "cause_quote": "@font-face{font-family:\"FS Me Web\";font-size-adjust:.53;font-style:italic;font-weight:400;src:url(\"../fonts/FSMeWeb-Italic.woff2\") format(\"woff2\"),url(\"../fonts/FSMeWeb-Italic.woff\") format(\"woff\");font-display:optional} (from tempertemper dist/assets/css/non-critical.css; the ~100ms optional window means the webfont is applied on some loads and the fallback on others, changing text metrics/line-breaks: e.g. nav items shift ~2.7px horizontally, paragraphs wrap to different heights)"
+   },
+   {
+    "i": 161,
+    "path": "body>div:nth-of-type(1)>footer:nth-of-type(1)>ul:nth-of-type(1)>li:nth-of-type(1)>a:nth-of-type(1)",
+    "tag": "a",
+    "class": null,
+    "present_in": [
+     "C0",
+     "R1",
+     "R2",
+     "R3",
+     "R4",
+     "R5"
+    ],
+    "ranges": {
+     "x": [
+      208,
+      208
+     ],
+     "y": [
+      4660.5625,
+      4662.5625
+     ],
+     "w": [
+      131.265625,
+      133.421875
+     ],
+     "h": [
+      24,
+      27
+     ]
+    },
+    "cause": "webfont loading race: font-display:optional on \"FS Me Web\"",
+    "cause_quote": "@font-face{font-family:\"FS Me Web\";font-size-adjust:.53;font-style:italic;font-weight:400;src:url(\"../fonts/FSMeWeb-Italic.woff2\") format(\"woff2\"),url(\"../fonts/FSMeWeb-Italic.woff\") format(\"woff\");font-display:optional} (from tempertemper dist/assets/css/non-critical.css; the ~100ms optional window means the webfont is applied on some loads and the fallback on others, changing text metrics/line-breaks: e.g. nav items shift ~2.7px horizontally, paragraphs wrap to different heights)"
+   },
+   {
+    "i": 163,
+    "path": "body>div:nth-of-type(1)>footer:nth-of-type(1)>ul:nth-of-type(1)>li:nth-of-type(2)>a:nth-of-type(1)",
+    "tag": "a",
+    "class": null,
+    "present_in": [
+     "C0",
+     "R1",
+     "R2",
+     "R3",
+     "R4",
+     "R5"
+    ],
+    "ranges": {
+     "x": [
+      208,
+      208
+     ],
+     "y": [
+      4696.5625,
+      4698.5625
+     ],
+     "w": [
+      144.84375,
+      146.71875
+     ],
+     "h": [
+      24,
+      27
+     ]
+    },
+    "cause": "webfont loading race: font-display:optional on \"FS Me Web\"",
+    "cause_quote": "@font-face{font-family:\"FS Me Web\";font-size-adjust:.53;font-style:italic;font-weight:400;src:url(\"../fonts/FSMeWeb-Italic.woff2\") format(\"woff2\"),url(\"../fonts/FSMeWeb-Italic.woff\") format(\"woff\");font-display:optional} (from tempertemper dist/assets/css/non-critical.css; the ~100ms optional window means the webfont is applied on some loads and the fallback on others, changing text metrics/line-breaks: e.g. nav items shift ~2.7px horizontally, paragraphs wrap to different heights)"
+   },
+   {
+    "i": 165,
+    "path": "body>div:nth-of-type(1)>footer:nth-of-type(1)>ul:nth-of-type(1)>li:nth-of-type(3)>a:nth-of-type(1)",
+    "tag": "a",
+    "class": null,
+    "present_in": [
+     "C0",
+     "R1",
+     "R2",
+     "R3",
+     "R4",
+     "R5"
+    ],
+    "ranges": {
+     "x": [
+      208,
+      208
+     ],
+     "y": [
+      4732.5625,
+      4734.5625
+     ],
+     "w": [
+      242.765625,
+      250.6875
+     ],
+     "h": [
+      24,
+      27
+     ]
+    },
+    "cause": "webfont loading race: font-display:optional on \"FS Me Web\"",
+    "cause_quote": "@font-face{font-family:\"FS Me Web\";font-size-adjust:.53;font-style:italic;font-weight:400;src:url(\"../fonts/FSMeWeb-Italic.woff2\") format(\"woff2\"),url(\"../fonts/FSMeWeb-Italic.woff\") format(\"woff\");font-display:optional} (from tempertemper dist/assets/css/non-critical.css; the ~100ms optional window means the webfont is applied on some loads and the fallback on others, changing text metrics/line-breaks: e.g. nav items shift ~2.7px horizontally, paragraphs wrap to different heights)"
+   },
+   {
+    "i": 167,
+    "path": "body>div:nth-of-type(1)>footer:nth-of-type(1)>ul:nth-of-type(1)>li:nth-of-type(4)>a:nth-of-type(1)",
+    "tag": "a",
+    "class": null,
+    "present_in": [
+     "C0",
+     "R1",
+     "R2",
+     "R3",
+     "R4",
+     "R5"
+    ],
+    "ranges": {
+     "x": [
+      208,
+      208
+     ],
+     "y": [
+      4768.5625,
+      4770.5625
+     ],
+     "w": [
+      191.859375,
+      193.40625
+     ],
+     "h": [
+      24,
+      27
+     ]
+    },
+    "cause": "webfont loading race: font-display:optional on \"FS Me Web\"",
+    "cause_quote": "@font-face{font-family:\"FS Me Web\";font-size-adjust:.53;font-style:italic;font-weight:400;src:url(\"../fonts/FSMeWeb-Italic.woff2\") format(\"woff2\"),url(\"../fonts/FSMeWeb-Italic.woff\") format(\"woff\");font-display:optional} (from tempertemper dist/assets/css/non-critical.css; the ~100ms optional window means the webfont is applied on some loads and the fallback on others, changing text metrics/line-breaks: e.g. nav items shift ~2.7px horizontally, paragraphs wrap to different heights)"
+   },
+   {
+    "i": 169,
+    "path": "body>div:nth-of-type(1)>footer:nth-of-type(1)>ul:nth-of-type(1)>li:nth-of-type(5)>a:nth-of-type(1)",
+    "tag": "a",
+    "class": null,
+    "present_in": [
+     "C0",
+     "R1",
+     "R2",
+     "R3",
+     "R4",
+     "R5"
+    ],
+    "ranges": {
+     "x": [
+      208,
+      208
+     ],
+     "y": [
+      4804.5625,
+      4806.5625
+     ],
+     "w": [
+      259.015625,
+      260.15625
+     ],
+     "h": [
+      24,
+      27
+     ]
+    },
+    "cause": "webfont loading race: font-display:optional on \"FS Me Web\"",
+    "cause_quote": "@font-face{font-family:\"FS Me Web\";font-size-adjust:.53;font-style:italic;font-weight:400;src:url(\"../fonts/FSMeWeb-Italic.woff2\") format(\"woff2\"),url(\"../fonts/FSMeWeb-Italic.woff\") format(\"woff\");font-display:optional} (from tempertemper dist/assets/css/non-critical.css; the ~100ms optional window means the webfont is applied on some loads and the fallback on others, changing text metrics/line-breaks: e.g. nav items shift ~2.7px horizontally, paragraphs wrap to different heights)"
+   }
+  ]
+ }
+}

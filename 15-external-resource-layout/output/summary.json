@@ -1,0 +1,525 @@
+{
+ "per_condition": {
+  "C1": {
+   "pages_rendered": 50,
+   "pages_affected": 11,
+   "affected_pages": [
+    "tempertemper/tt-blog-index",
+    "tempertemper/tt-cat-accessibility",
+    "tempertemper/tt-cat-apple",
+    "tempertemper/tt-home",
+    "tempertemper/tt-now",
+    "tempertemper/tt-post-2",
+    "tempertemper/tt-post-3",
+    "tempertemper/tt-post-4",
+    "tempertemper/tt-post-5",
+    "tempertemper/tt-resources",
+    "tempertemper/tt-year-2023"
+   ],
+   "median_elements_affected": 0.0,
+   "max_elements_affected": 928,
+   "median_doc_height_delta": 0.0
+  },
+  "C2": {
+   "pages_rendered": 50,
+   "pages_affected": 19,
+   "affected_pages": [
+    "efcl/efcl-about",
+    "efcl/efcl-categories",
+    "efcl/efcl-home",
+    "efcl/efcl-page-10",
+    "efcl/efcl-post-1",
+    "efcl/efcl-post-2",
+    "efcl/efcl-post-3",
+    "efcl/efcl-post-4",
+    "efcl/efcl-post-5",
+    "efcl/efcl-post-6",
+    "efcl/efcl-post-7",
+    "efcl/efcl-post-8",
+    "efcl/efcl-tags",
+    "tempertemper/tt-about",
+    "tempertemper/tt-home",
+    "tempertemper/tt-post-1",
+    "tempertemper/tt-post-2",
+    "tempertemper/tt-post-3",
+    "tempertemper/tt-testimonials"
+   ],
+   "median_elements_affected": 0.0,
+   "max_elements_affected": 510,
+   "median_doc_height_delta": 0.0
+  },
+  "C3": {
+   "pages_rendered": 50,
+   "pages_affected": 32,
+   "affected_pages": [
+    "beeps/beeps-yt-1",
+    "beeps/beeps-yt-2",
+    "beeps/beeps-yt-3",
+    "cubxxw/cubxxw-post-1",
+    "cubxxw/cubxxw-post-2",
+    "cubxxw/cubxxw-post-3",
+    "cubxxw/cubxxw-post-4",
+    "cubxxw/cubxxw-post-5",
+    "cubxxw/cubxxw-post-6",
+    "cubxxw/cubxxw-post-7",
+    "efcl/efcl-categories",
+    "efcl/efcl-home",
+    "efcl/efcl-page-10",
+    "efcl/efcl-post-1",
+    "efcl/efcl-post-2",
+    "efcl/efcl-post-3",
+    "efcl/efcl-post-4",
+    "efcl/efcl-post-5",
+    "efcl/efcl-post-6",
+    "efcl/efcl-post-7",
+    "efcl/efcl-post-8",
+    "efcl/efcl-tags",
+    "tempertemper/tt-cat-accessibility",
+    "tempertemper/tt-cat-apple",
+    "tempertemper/tt-home",
+    "tempertemper/tt-now",
+    "tempertemper/tt-post-2",
+    "tempertemper/tt-post-3",
+    "tempertemper/tt-post-4",
+    "tempertemper/tt-post-5",
+    "tempertemper/tt-resources",
+    "tempertemper/tt-year-2023"
+   ],
+   "median_elements_affected": 80.0,
+   "max_elements_affected": 5890,
+   "median_doc_height_delta": 0.0
+  },
+  "C4": {
+   "pages_rendered": 50,
+   "pages_affected": 3,
+   "affected_pages": [
+    "tempertemper/tt-about",
+    "tempertemper/tt-post-5",
+    "tempertemper/tt-testimonials"
+   ],
+   "median_elements_affected": 0.0,
+   "max_elements_affected": 207,
+   "median_doc_height_delta": 0.0
+  },
+  "C5": {
+   "pages_rendered": 50,
+   "pages_affected": 34,
+   "affected_pages": [
+    "beeps/beeps-yt-1",
+    "beeps/beeps-yt-2",
+    "beeps/beeps-yt-3",
+    "cubxxw/cubxxw-post-1",
+    "cubxxw/cubxxw-post-2",
+    "cubxxw/cubxxw-post-3",
+    "cubxxw/cubxxw-post-4",
+    "cubxxw/cubxxw-post-5",
+    "cubxxw/cubxxw-post-6",
+    "cubxxw/cubxxw-post-7",
+    "efcl/efcl-about",
+    "efcl/efcl-categories",
+    "efcl/efcl-home",
+    "efcl/efcl-page-10",
+    "efcl/efcl-post-1",
+    "efcl/efcl-post-2",
+    "efcl/efcl-post-3",
+    "efcl/efcl-post-4",
+    "efcl/efcl-post-5",
+    "efcl/efcl-post-6",
+    "efcl/efcl-post-7",
+    "efcl/efcl-post-8",
+    "efcl/efcl-tags",
+    "tempertemper/tt-blog-index",
+    "tempertemper/tt-cat-accessibility",
+    "tempertemper/tt-cat-apple",
+    "tempertemper/tt-home",
+    "tempertemper/tt-now",
+    "tempertemper/tt-post-2",
+    "tempertemper/tt-post-3",
+    "tempertemper/tt-post-4",
+    "tempertemper/tt-post-5",
+    "tempertemper/tt-resources",
+    "tempertemper/tt-year-2023"
+   ],
+   "median_elements_affected": 101.0,
+   "max_elements_affected": 5890,
+   "median_doc_height_delta": 0.0
+  }
+ },
+ "jitter": [
+  {
+   "site": "alexcarpenter",
+   "page": "ac-changelog",
+   "jitter": false,
+   "n_jitter_elements": 0,
+   "causes": null
+  },
+  {
+   "site": "alexcarpenter",
+   "page": "ac-demo",
+   "jitter": false,
+   "n_jitter_elements": 0,
+   "causes": null
+  },
+  {
+   "site": "alexcarpenter",
+   "page": "ac-gear-bags",
+   "jitter": false,
+   "n_jitter_elements": 0,
+   "causes": null
+  },
+  {
+   "site": "alexcarpenter",
+   "page": "ac-gear-coffee",
+   "jitter": false,
+   "n_jitter_elements": 0,
+   "causes": null
+  },
+  {
+   "site": "alexcarpenter",
+   "page": "ac-home",
+   "jitter": false,
+   "n_jitter_elements": 0,
+   "causes": null
+  },
+  {
+   "site": "alexcarpenter",
+   "page": "ac-micah",
+   "jitter": false,
+   "n_jitter_elements": 0,
+   "causes": null
+  },
+  {
+   "site": "alexcarpenter",
+   "page": "ac-note-1",
+   "jitter": false,
+   "n_jitter_elements": 0,
+   "causes": null
+  },
+  {
+   "site": "alexcarpenter",
+   "page": "ac-note-2",
+   "jitter": false,
+   "n_jitter_elements": 0,
+   "causes": null
+  },
+  {
+   "site": "alexcarpenter",
+   "page": "ac-note-3",
+   "jitter": false,
+   "n_jitter_elements": 0,
+   "causes": null
+  },
+  {
+   "site": "alexcarpenter",
+   "page": "ac-note-4",
+   "jitter": false,
+   "n_jitter_elements": 0,
+   "causes": null
+  },
+  {
+   "site": "alexcarpenter",
+   "page": "ac-note-5",
+   "jitter": false,
+   "n_jitter_elements": 0,
+   "causes": null
+  },
+  {
+   "site": "alexcarpenter",
+   "page": "ac-notes-index",
+   "jitter": false,
+   "n_jitter_elements": 0,
+   "causes": null
+  },
+  {
+   "site": "alexcarpenter",
+   "page": "ac-rolodex",
+   "jitter": false,
+   "n_jitter_elements": 0,
+   "causes": null
+  },
+  {
+   "site": "beeps",
+   "page": "beeps-yt-1",
+   "jitter": false,
+   "n_jitter_elements": 0,
+   "causes": null
+  },
+  {
+   "site": "beeps",
+   "page": "beeps-yt-2",
+   "jitter": false,
+   "n_jitter_elements": 0,
+   "causes": null
+  },
+  {
+   "site": "beeps",
+   "page": "beeps-yt-3",
+   "jitter": false,
+   "n_jitter_elements": 0,
+   "causes": null
+  },
+  {
+   "site": "cubxxw",
+   "page": "cubxxw-post-1",
+   "jitter": false,
+   "n_jitter_elements": 0,
+   "causes": null
+  },
+  {
+   "site": "cubxxw",
+   "page": "cubxxw-post-2",
+   "jitter": false,
+   "n_jitter_elements": 0,
+   "causes": null
+  },
+  {
+   "site": "cubxxw",
+   "page": "cubxxw-post-3",
+   "jitter": false,
+   "n_jitter_elements": 0,
+   "causes": null
+  },
+  {
+   "site": "cubxxw",
+   "page": "cubxxw-post-4",
+   "jitter": false,
+   "n_jitter_elements": 0,
+   "causes": null
+  },
+  {
+   "site": "cubxxw",
+   "page": "cubxxw-post-5",
+   "jitter": false,
+   "n_jitter_elements": 0,
+   "causes": null
+  },
+  {
+   "site": "cubxxw",
+   "page": "cubxxw-post-6",
+   "jitter": false,
+   "n_jitter_elements": 0,
+   "causes": null
+  },
+  {
+   "site": "cubxxw",
+   "page": "cubxxw-post-7",
+   "jitter": false,
+   "n_jitter_elements": 0,
+   "causes": null
+  },
+  {
+   "site": "efcl",
+   "page": "efcl-about",
+   "jitter": false,
+   "n_jitter_elements": 0,
+   "causes": null
+  },
+  {
+   "site": "efcl",
+   "page": "efcl-categories",
+   "jitter": false,
+   "n_jitter_elements": 0,
+   "causes": null
+  },
+  {
+   "site": "efcl",
+   "page": "efcl-home",
+   "jitter": false,
+   "n_jitter_elements": 0,
+   "causes": null
+  },
+  {
+   "site": "efcl",
+   "page": "efcl-page-10",
+   "jitter": false,
+   "n_jitter_elements": 0,
+   "causes": null
+  },
+  {
+   "site": "efcl",
+   "page": "efcl-post-1",
+   "jitter": false,
+   "n_jitter_elements": 0,
+   "causes": null
+  },
+  {
+   "site": "efcl",
+   "page": "efcl-post-2",
+   "jitter": false,
+   "n_jitter_elements": 0,
+   "causes": null
+  },
+  {
+   "site": "efcl",
+   "page": "efcl-post-3",
+   "jitter": false,
+   "n_jitter_elements": 0,
+   "causes": null
+  },
+  {
+   "site": "efcl",
+   "page": "efcl-post-4",
+   "jitter": false,
+   "n_jitter_elements": 0,
+   "causes": null
+  },
+  {
+   "site": "efcl",
+   "page": "efcl-post-5",
+   "jitter": false,
+   "n_jitter_elements": 0,
+   "causes": null
+  },
+  {
+   "site": "efcl",
+   "page": "efcl-post-6",
+   "jitter": false,
+   "n_jitter_elements": 0,
+   "causes": null
+  },
+  {
+   "site": "efcl",
+   "page": "efcl-post-7",
+   "jitter": false,
+   "n_jitter_elements": 0,
+   "causes": null
+  },
+  {
+   "site": "efcl",
+   "page": "efcl-post-8",
+   "jitter": false,
+   "n_jitter_elements": 0,
+   "causes": null
+  },
+  {
+   "site": "efcl",
+   "page": "efcl-tags",
+   "jitter": false,
+   "n_jitter_elements": 0,
+   "causes": null
+  },
+  {
+   "site": "tempertemper",
+   "page": "tt-about",
+   "jitter": true,
+   "n_jitter_elements": 124,
+   "causes": [
+    "webfont loading race: font-display:optional on \"FS Me Web\""
+   ]
+  },
+  {
+   "site": "tempertemper",
+   "page": "tt-blog-index",
+   "jitter": false,
+   "n_jitter_elements": 0,
+   "causes": null
+  },
+  {
+   "site": "tempertemper",
+   "page": "tt-cat-accessibility",
+   "jitter": true,
+   "n_jitter_elements": 928,
+   "causes": [
+    "webfont loading race: font-display:optional on \"FS Me Web\""
+   ]
+  },
+  {
+   "site": "tempertemper",
+   "page": "tt-cat-apple",
+   "jitter": true,
+   "n_jitter_elements": 381,
+   "causes": [
+    "webfont loading race: font-display:optional on \"FS Me Web\""
+   ]
+  },
+  {
+   "site": "tempertemper",
+   "page": "tt-home",
+   "jitter": true,
+   "n_jitter_elements": 113,
+   "causes": [
+    "webfont loading race: font-display:optional on \"FS Me Web\""
+   ]
+  },
+  {
+   "site": "tempertemper",
+   "page": "tt-now",
+   "jitter": false,
+   "n_jitter_elements": 0,
+   "causes": null
+  },
+  {
+   "site": "tempertemper",
+   "page": "tt-post-1",
+   "jitter": true,
+   "n_jitter_elements": 175,
+   "causes": [
+    "webfont loading race: font-display:optional on \"FS Me Web\""
+   ]
+  },
+  {
+   "site": "tempertemper",
+   "page": "tt-post-2",
+   "jitter": true,
+   "n_jitter_elements": 180,
+   "causes": [
+    "webfont loading race: font-display:optional on \"FS Me Web\""
+   ]
+  },
+  {
+   "site": "tempertemper",
+   "page": "tt-post-3",
+   "jitter": true,
+   "n_jitter_elements": 510,
+   "causes": [
+    "webfont loading race: font-display:optional on \"FS Me Web\""
+   ]
+  },
+  {
+   "site": "tempertemper",
+   "page": "tt-post-4",
+   "jitter": false,
+   "n_jitter_elements": 0,
+   "causes": null
+  },
+  {
+   "site": "tempertemper",
+   "page": "tt-post-5",
+   "jitter": true,
+   "n_jitter_elements": 127,
+   "causes": [
+    "webfont loading race: font-display:optional on \"FS Me Web\""
+   ]
+  },
+  {
+   "site": "tempertemper",
+   "page": "tt-resources",
+   "jitter": true,
+   "n_jitter_elements": 71,
+   "causes": [
+    "webfont loading race: font-display:optional on \"FS Me Web\""
+   ]
+  },
+  {
+   "site": "tempertemper",
+   "page": "tt-testimonials",
+   "jitter": true,
+   "n_jitter_elements": 207,
+   "causes": [
+    "webfont loading race: font-display:optional on \"FS Me Web\""
+   ]
+  },
+  {
+   "site": "tempertemper",
+   "page": "tt-year-2023",
+   "jitter": false,
+   "n_jitter_elements": 0,
+   "causes": null
+  }
+ ],
+ "pages_failed_to_render": [],
+ "render_totals": {
+  "boxes_files": 550,
+  "error_files": 0
+ }
+}
