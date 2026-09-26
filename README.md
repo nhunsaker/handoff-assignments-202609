@@ -62,6 +62,11 @@ blockers: (none, or what and since when)
 Commit message: `Assignment NN: progress — phase K, <one line>`. Partial work that is pushed is worth something;
 partial work that is not pushed is worth nothing.
 
+**2a. Everything you describe is in the push.** Assignments 10 and 14 described files (page HTML, manifests) that
+existed on the worker's disk but were never pushed. Before the final commit, compare `find output -type f | wc -l`
+with `git ls-files output | wc -l`; they must match (excluding anything the brief says to keep local), and PROGRESS.md
+states both numbers.
+
 **2. Self-check before the final commit.** Before declaring an assignment complete, append to `PROGRESS.md` a
 **manifest of the return**: every file or file pattern the brief's "Output" section names, with `present | absent`,
 the count of files matching it, and total bytes. Then re-derive **every number in `summary.json` from the returned
@@ -91,12 +96,30 @@ where the assignment asks for them; if an engine will not install, say so in `en
 the engines you have). Record every browser version. Unless the assignment says otherwise, every render uses:
 
 - viewport **1280×800**, `deviceScaleFactor: 1`, `page.emulateMedia({ reducedMotion: 'reduce' })`;
-- pages served over a local static HTTP server (never `file://`);
+- pages served over a local static HTTP server — **never `file://`**. Root-relative URLs (`/assets/fonts/…`) break under
+  `file://`, and request-rewriting workarounds delay fonts enough to change layout (assignment 15's "jitter" was
+  exactly this). If the sandbox blocks localhost ("Local Network Access checks"), serve on `127.0.0.1` and launch
+  Chromium with `--disable-features=LocalNetworkAccessChecks,BlockInsecurePrivateNetworkRequests`; record what you did;
 - wait for `load`, then `document.fonts.ready`, then one `requestAnimationFrame`.
+- **per render, record the font state:** `document.fonts.check()` for the page's body font, and every `font-display`
+  value in the page's CSS. With `font-display: optional` a late font is never applied even if `check()` later says
+  it loaded — for such pages, render once to warm the cache, then measure (and say so).
 
 **Geometry schema:** `getBoundingClientRect()` of every element under `<body>`, rounded to 0.01 px, keyed by the
 element's nth-of-type CSS path (`html > body > div:nth-of-type(1) > p:nth-of-type(2)`), plus tag, `id`, `class`, and
 the sha256 of its whitespace-collapsed text.
+
+## Page hashes (every assignment that compares built pages)
+
+- **`body` hash is the change signal:** sha256 of the `<body>` subtree parsed with `lxml.html` and re-serialized with
+  `lxml.html.tostring(body, method="html", encoding="unicode")`. Builds stamp timestamps and cache-busters into
+  `<head>` on every build (assignment 11: median 526 pages changed per commit by raw hash, 5 by body hash).
+- **`normalized` hash**, when asked for: replace the **whole** value of a cache-buster query parameter —
+  `([?&](?:v|ver|version|t|ts|cb|cache)=)[^"'&\s>]+` → `\g<1>0` — then CRLF → LF. (Assignment 11's digits-only rule
+  missed version strings such as `?v=6.5.23`.)
+- **Determinism before difference:** a difference between two commits counts only if the same commit, built twice,
+  agrees on that page. Some sites order lists nondeterministically (tempertemper category pages from late 2025;
+  alexcarpenter gear pages). When a finding depends on one page's order or content, build that commit twice.
 
 ## Rules that apply to every assignment
 

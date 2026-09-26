@@ -37,7 +37,9 @@ For each site, find in its history (last 24 months, first-parent) **one commit t
 file** and its parent. Quote the added file's path and front matter (date, tags/categories). Build both. Then, from
 the built outputs:
 
-- every page whose `<body>` hash changed (as assignment 11 defines it) — list them and classify each as
+- **build each of the two commits twice first**; a list page whose body differs between the two builds of the same
+  commit has nondeterministic order — report it as such and do not attribute its changes to the post;
+- every page whose `<body>` hash changed (README **Page hashes**) — list them and classify each as
   `new_post_page`, `post_index`, `tag_page`, `category_page`, `archive_page`, `paginated_page_N`, `home`, `feed`,
   `other` (say what);
 - for each changed list page: the container's item count before and after, the position of the new item, and

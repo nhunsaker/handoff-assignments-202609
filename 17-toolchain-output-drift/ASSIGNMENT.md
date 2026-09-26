@@ -27,8 +27,9 @@ failure verbatim (five lines) and move on — that is a result.
 
 ## Phase 2 — Compare outputs
 
-For every (commit, T1 vs T2) and (commit, T1 vs T3): per built page, three hashes — raw, normalized (assignment 11's
-rules, plus assignment 13's `rules.json` if it has returned; say which), and `<body>` (assignment 11's definition).
+For every (commit, T1 vs T2) and (commit, T1 vs T3): per built page, three hashes — raw, normalized and `<body>`, as the README's **Page hashes** section defines
+them (plus assignment 13's `rules.json` if you use it; say so). **Build T1 twice first:** any page whose hashes differ
+between the two T1 builds is build noise, not toolchain drift — report those pages separately and exclude them.
 Report pages identical/different under each hash. For pages whose **body** differs, classify the difference by
 parsing both with `lxml.html` and diffing: `whitespace_only`, `attribute_order`, `attribute_value` (which
 attributes), `element_added`/`element_removed` (which tags, how many), `text_changed`, `structure_changed` (describe).

@@ -9,7 +9,7 @@ travelled, and what stopped it.
 
 ## Phase 0 — Environment and pages
 
-The README's **Shared rendering settings**, **Chromium only**, at **three viewports**: 1280×800, 768×1024,
+The README's **Shared rendering settings** (over HTTP; font state recorded — tempertemper uses `font-display: optional`, so warm the font before measuring), **Chromium only**, at **three viewports**: 1280×800, 768×1024,
 390×844. Build the three sites from assignment 10 at their latest commit in the window (tempertemper, efcl,
 alexcarpenter). Choose **40 pages**: for each site, its post index, two tag/category pages, one year archive, five
 posts, and the home page (fewer if a site lacks a kind; say so). Serve each site's built output locally.

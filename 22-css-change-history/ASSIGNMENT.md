@@ -25,7 +25,9 @@ text. Then diff:
   "property": "margin-left", "before": ".5em", "after": "1em", "change": "modified" }
 ```
 
-`change` ∈ `added_rule | removed_rule | added_declaration | removed_declaration | modified`. Selectors are recorded
+`change` ∈ `added_rule | removed_rule | added_declaration | removed_declaration | modified`. If a CSS file's bytes
+or name changed but its parsed rules are identical (a content hash in the filename, build noise), record the file
+once as `no_declaration_change` rather than as changes. Selectors are recorded
 verbatim; `at_rule` is the enclosing at-rule chain or null. Also record per pair: rules and declarations counted
 before/after, and the number of changes.
 

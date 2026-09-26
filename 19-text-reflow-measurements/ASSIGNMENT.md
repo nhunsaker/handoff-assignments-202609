@@ -18,7 +18,10 @@ The README's **Shared rendering settings**, Chromium and Firefox (WebKit too if 
    name for each (read it from the computed style plus a canvas measurement of a test string, and say how you got
    it).
 
-`fonts.json` lists every family with its source and whether it loaded (`document.fonts.check`).
+`fonts.json` lists every family with its source and whether it loaded (`document.fonts.check`). Before measuring a
+family, force it to load (`await document.fonts.load('16px "<family>"')`) and confirm it is the family actually
+used (compare a canvas width against the fallback); with `font-display: optional` a font can be loaded but not
+applied. A cell measured in a fallback font is invalid — record it as such.
 
 ## Phase 1 — The grid
 

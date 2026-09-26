@@ -20,7 +20,12 @@ From the **source**, list every template-like file: Eleventy layouts/includes (`
 
 For each template, find its **rendered fingerprint**: build the site once, then build it again with the template
 minimally changed (insert a harmless attribute `data-t22="<template id>"` on its root element, or for data files
-change one value) and diff the built pages — every page that changed is reached by that template. **Revert between
+change one value) and diff the built pages — every page that changed is reached by that template. **Diff by the
+README's `body` hash, against a baseline:** build the site twice unmarked first; any page whose body differs between
+those two builds is noise and is excluded from every template's reach (report it). A marker in a template or data
+file that only reaches `<head>` (titles, meta, cache-buster) will not move the body hash: for those, also compare
+the `normalized` hash and report head-only reach separately. Never use raw hashes here — on sites that stamp
+`Date.now()` into every page, every template would appear to reach every page. **Revert between
 templates**; one template per build. That is one build per template: ~30–80 builds per site, cheap for tempertemper,
 minutes each for the others. Record per template the list of pages reached and the count.
 
