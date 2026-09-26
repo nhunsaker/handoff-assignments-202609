@@ -1,0 +1,336 @@
+{
+ "date": "2026-09-25",
+ "coordinator": "n",
+ "searches": [
+  {
+   "query": "filename:astro.config.mjs",
+   "bucket": "A",
+   "sub_framework": "astro",
+   "date": "2026-09-25",
+   "result_count": null,
+   "repos_surfaced": 0,
+   "candidates_yielded": 0,
+   "error": "Traceback (most recent call last):\n  File \"/usr/lib/python3.12/urllib/request.py\", line 1344, in do_open\n    h.request(req.get_method(), req.selector, req.data, headers,\n  File \"/usr/lib/python3.12/http/client.py\", line 1365, in request\n    self._send_request(method, url, body, headers, encode_chunk"
+  },
+  {
+   "query": "filename:astro.config.ts",
+   "bucket": "A",
+   "sub_framework": "astro",
+   "date": "2026-09-25",
+   "result_count": 7008,
+   "repos_surfaced": 100,
+   "candidates_yielded": 35,
+   "error": null
+  },
+  {
+   "query": "getCollection extension:astro",
+   "bucket": "A",
+   "sub_framework": "astro",
+   "date": "2026-09-25",
+   "result_count": 171520,
+   "repos_surfaced": 97,
+   "candidates_yielded": 25,
+   "error": null
+  },
+  {
+   "query": "getStaticPaths extension:astro",
+   "bucket": "A",
+   "sub_framework": "astro",
+   "date": "2026-09-25",
+   "result_count": 152064,
+   "repos_surfaced": 99,
+   "candidates_yielded": 0,
+   "error": null
+  },
+  {
+   "query": "output:'export' filename:next.config.mjs",
+   "bucket": "N",
+   "sub_framework": "next",
+   "date": "2026-09-25",
+   "result_count": 212,
+   "repos_surfaced": 100,
+   "candidates_yielded": 0,
+   "error": null
+  },
+  {
+   "query": "output:'export' filename:next.config.js",
+   "bucket": "N",
+   "sub_framework": "next",
+   "date": "2026-09-25",
+   "result_count": 125,
+   "repos_surfaced": 98,
+   "candidates_yielded": 4,
+   "error": null
+  },
+  {
+   "query": "output:'export' filename:next.config.ts",
+   "bucket": "N",
+   "sub_framework": "next",
+   "date": "2026-09-25",
+   "result_count": 117,
+   "repos_surfaced": 100,
+   "candidates_yielded": 4,
+   "error": null
+  },
+  {
+   "query": "output:\"export\" filename:next.config.mjs",
+   "bucket": "N",
+   "sub_framework": "next",
+   "date": "2026-09-25",
+   "result_count": 159,
+   "repos_surfaced": 100,
+   "candidates_yielded": 0,
+   "error": null
+  },
+  {
+   "query": "output:\"export\" filename:next.config.js",
+   "bucket": "N",
+   "sub_framework": "next",
+   "date": "2026-09-25",
+   "result_count": 117,
+   "repos_surfaced": 100,
+   "candidates_yielded": 0,
+   "error": null
+  },
+  {
+   "query": "target:'static' filename:nuxt.config.js",
+   "bucket": "N",
+   "sub_framework": "nuxt",
+   "date": "2026-09-25",
+   "result_count": 10,
+   "repos_surfaced": 10,
+   "candidates_yielded": 0,
+   "error": null
+  },
+  {
+   "query": "target:\"static\" filename:nuxt.config.js",
+   "bucket": "N",
+   "sub_framework": "nuxt",
+   "date": "2026-09-25",
+   "result_count": 5,
+   "repos_surfaced": 5,
+   "candidates_yielded": 0,
+   "error": null
+  },
+  {
+   "query": "target:'static' filename:nuxt.config.ts",
+   "bucket": "N",
+   "sub_framework": "nuxt",
+   "date": "2026-09-25",
+   "result_count": 4,
+   "repos_surfaced": 4,
+   "candidates_yielded": 0,
+   "error": null
+  },
+  {
+   "query": "nuxi generate filename:package.json",
+   "bucket": "N",
+   "sub_framework": "nuxt",
+   "date": "2026-09-25",
+   "result_count": 5752,
+   "repos_surfaced": 100,
+   "candidates_yielded": 0,
+   "error": null
+  },
+  {
+   "query": "adapter-static filename:svelte.config.js",
+   "bucket": "N",
+   "sub_framework": "sveltekit",
+   "date": "2026-09-25",
+   "result_count": 22944,
+   "repos_surfaced": 100,
+   "candidates_yielded": 0,
+   "error": null
+  },
+  {
+   "query": "adapter-static filename:svelte.config.ts",
+   "bucket": "N",
+   "sub_framework": "sveltekit",
+   "date": "2026-09-25",
+   "result_count": 120,
+   "repos_surfaced": 98,
+   "candidates_yielded": 0,
+   "error": null
+  },
+  {
+   "query": "filename:gatsby-config.mjs",
+   "bucket": "N",
+   "sub_framework": "gatsby",
+   "date": "2026-09-25",
+   "result_count": 193,
+   "repos_surfaced": 85,
+   "candidates_yielded": 0,
+   "error": null
+  },
+  {
+   "query": "filename:gatsby-config.js",
+   "bucket": "N",
+   "sub_framework": "gatsby",
+   "date": "2026-09-25",
+   "result_count": 37312,
+   "repos_surfaced": 100,
+   "candidates_yielded": 0,
+   "error": null
+  },
+  {
+   "query": "filename:gatsby-config.ts",
+   "bucket": "N",
+   "sub_framework": "gatsby",
+   "date": "2026-09-25",
+   "result_count": 2540,
+   "repos_surfaced": 100,
+   "candidates_yielded": 0,
+   "error": null
+  },
+  {
+   "query": "nuxt generate filename:package.json",
+   "bucket": "N",
+   "sub_framework": "nuxt",
+   "date": "2026-09-25",
+   "result_count": 92032,
+   "repos_surfaced": 95,
+   "candidates_yielded": 0,
+   "error": null
+  },
+  {
+   "query": "filename:nuxt.config.ts blog",
+   "bucket": "N",
+   "sub_framework": "nuxt",
+   "date": "2026-09-25",
+   "result_count": 1784,
+   "repos_surfaced": 98,
+   "candidates_yielded": 0,
+   "error": null
+  },
+  {
+   "query": "filename:next.config.mjs blog",
+   "bucket": "N",
+   "sub_framework": "next",
+   "date": "2026-09-25",
+   "result_count": 2088,
+   "repos_surfaced": 100,
+   "candidates_yielded": 2,
+   "error": null
+  },
+  {
+   "query": "filename:next.config.js blog",
+   "bucket": "N",
+   "sub_framework": "next",
+   "date": "2026-09-25",
+   "result_count": 3688,
+   "repos_surfaced": 100,
+   "candidates_yielded": 0,
+   "error": null
+  },
+  {
+   "query": "filename:nuxt.config.js blog",
+   "bucket": "N",
+   "sub_framework": "nuxt",
+   "date": "2026-09-25",
+   "result_count": 1028,
+   "repos_surfaced": 75,
+   "candidates_yielded": 16,
+   "error": null
+  },
+  {
+   "query": "filename:svelte.config.js blog",
+   "bucket": "N",
+   "sub_framework": "sveltekit",
+   "date": "2026-09-25",
+   "result_count": 420,
+   "repos_surfaced": 95,
+   "candidates_yielded": 16,
+   "error": null
+  },
+  {
+   "query": "filename:gatsby-config.js blog",
+   "bucket": "N",
+   "sub_framework": "gatsby",
+   "date": "2026-09-25",
+   "result_count": 6704,
+   "repos_surfaced": 100,
+   "candidates_yielded": 18,
+   "error": null
+  },
+  {
+   "query": "\"@next/mdx\" filename:package.json",
+   "bucket": "N",
+   "sub_framework": "next",
+   "date": "2026-09-25",
+   "result_count": 17376,
+   "repos_surfaced": 99,
+   "candidates_yielded": 0,
+   "error": null
+  },
+  {
+   "query": "\"next-contentlayer\" filename:package.json",
+   "bucket": "N",
+   "sub_framework": "next",
+   "date": "2026-09-25",
+   "result_count": 4224,
+   "repos_surfaced": 100,
+   "candidates_yielded": 0,
+   "error": null
+  },
+  {
+   "query": "\"@nuxt/content\" filename:package.json",
+   "bucket": "N",
+   "sub_framework": "nuxt",
+   "date": "2026-09-25",
+   "result_count": 8096,
+   "repos_surfaced": 98,
+   "candidates_yielded": 0,
+   "error": null
+  },
+  {
+   "query": "mdsvex filename:package.json",
+   "bucket": "N",
+   "sub_framework": "sveltekit",
+   "date": "2026-09-25",
+   "result_count": 5504,
+   "repos_surfaced": 100,
+   "candidates_yielded": 0,
+   "error": null
+  },
+  {
+   "query": "filename:gatsby-config.mjs blog",
+   "bucket": "N",
+   "sub_framework": "gatsby",
+   "date": "2026-09-25",
+   "result_count": 63,
+   "repos_surfaced": 62,
+   "candidates_yielded": 0,
+   "error": null
+  },
+  {
+   "query": "filename:gatsby-config.ts blog",
+   "bucket": "N",
+   "sub_framework": "gatsby",
+   "date": "2026-09-25",
+   "result_count": 519,
+   "repos_surfaced": 99,
+   "candidates_yielded": 0,
+   "error": null
+  },
+  {
+   "query": "\"@sveltejs/adapter-static\" filename:package.json",
+   "bucket": "N",
+   "sub_framework": "sveltekit",
+   "date": "2026-09-25",
+   "result_count": 28864,
+   "repos_surfaced": 100,
+   "candidates_yielded": 0,
+   "error": null
+  },
+  {
+   "query": "filename:nuxt.config.mjs blog",
+   "bucket": "N",
+   "sub_framework": "nuxt",
+   "date": "2026-09-25",
+   "result_count": 0,
+   "repos_surfaced": 0,
+   "candidates_yielded": 0,
+   "error": null
+  }
+ ]
+}

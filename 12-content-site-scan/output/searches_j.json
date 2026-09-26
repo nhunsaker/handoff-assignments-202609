@@ -1,0 +1,34 @@
+[
+ {
+  "query": "jekyll filename:Gemfile.lock",
+  "date": "2026-09-25",
+  "result_count": 78464,
+  "candidates_yielded": 485,
+  "bucket": "J",
+  "opened_successfully": true
+ },
+ {
+  "query": "jekyll filename:_config.yml",
+  "date": "2026-09-25",
+  "result_count": 245760,
+  "candidates_yielded": 388,
+  "bucket": "J",
+  "opened_successfully": true
+ },
+ {
+  "query": "paginate filename:_config.yml",
+  "date": "2026-09-25",
+  "result_count": 78720,
+  "candidates_yielded": 135,
+  "bucket": "J",
+  "opened_successfully": true
+ },
+ {
+  "query": "path:_posts extension:md",
+  "date": "2026-09-25",
+  "result_count": 3289088,
+  "candidates_yielded": 169,
+  "bucket": "J",
+  "opened_successfully": true
+ }
+]

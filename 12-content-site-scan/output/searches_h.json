@@ -1,0 +1,16 @@
+[
+ {
+  "query": "filename:hugo.toml",
+  "date": "2026-09-25",
+  "result_count": 25984,
+  "candidates_yielded": 195,
+  "bucket": "H"
+ },
+ {
+  "query": "filename:netlify.toml HUGO_VERSION",
+  "date": "2026-09-25",
+  "result_count": 10720,
+  "candidates_yielded": 198,
+  "bucket": "H"
+ }
+]

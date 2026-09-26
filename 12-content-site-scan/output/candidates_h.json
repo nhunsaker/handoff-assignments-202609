@@ -1,0 +1,3247 @@
+[
+ {
+  "repo": "dillonzq/LoveIt",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "theme",
+  "detail": "\u2764\ufe0fA clean, elegant but advanced blog theme for Hugo \u4e00\u4e2a\u7b80\u6d01\u3001\u4f18\u96c5\u4e14\u9ad8\u6548\u7684 Hugo \u4e3b\u9898"
+ },
+ {
+  "repo": "cli-guidelines/cli-guidelines",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "too_few_content_pages",
+  "detail": "0 content files under content/"
+ },
+ {
+  "repo": "ufz/ogs",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "no_config_found"
+ },
+ {
+  "repo": "KindleModding/kindlemodding.github.io",
+  "bucket": "H",
+  "status": "rejected",
+  "default_branch": "main",
+  "head_sha": "2be47304adfb3bdeecabf213dd698f7a86f54aa8",
+  "stars": 400,
+  "pushed_at": "2026-09-25T00:53:45Z",
+  "archived": false,
+  "config_filename": "hugo.toml",
+  "content_count": 152,
+  "content_dir": "content/",
+  "tree_truncated": false,
+  "description": "Technical Kindle documentation and jailbreaking guides",
+  "reason": "no_hugo_version_pin"
+ },
+ {
+  "repo": "maolonglong/hugo-simple",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "theme",
+  "detail": "A Hugo-theme based on Simple.css and Bear Blog"
+ },
+ {
+  "repo": "brreg/docs",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "docs_for_dev_tool",
+  "detail": "BR dokumentasjon"
+ },
+ {
+  "repo": "verifa/website",
+  "bucket": "H",
+  "status": "kept",
+  "default_branch": "main",
+  "head_sha": "8aa99b75bba8dd17d276d174dfa43003070e11af",
+  "stars": 37,
+  "pushed_at": "2025-06-24T08:09:35Z",
+  "archived": false,
+  "config_filename": "hugo.toml",
+  "content_count": 91,
+  "content_dir": "content/",
+  "tree_truncated": false,
+  "description": "Verifa website written in Go with Templ + HTMX",
+  "hugo_version_pin": "0.147.8",
+  "hugo_pin_quote": ".github/workflows/deploy.yml: HUGO_VERSION: 0.147.8",
+  "why_real_content_site": "91 content files under content/; hugo.toml at repo root; 37 stars; pushed 2025-06-24T08:09:35Z; description: Verifa website written in Go with Templ + HTMX"
+ },
+ {
+  "repo": "PatilShreyas/PatilShreyas.github.io",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "too_few_content_pages",
+  "detail": "0 content files under content/"
+ },
+ {
+  "repo": "dmf-archive/dmf-archive.github.io",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "too_few_content_pages",
+  "detail": "0 content files under content/"
+ },
+ {
+  "repo": "H3xKatana/Blog",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "stale_no_window_possible",
+  "detail": "pushed_at=2024-09-19T17:36:31Z"
+ },
+ {
+  "repo": "JingWangTW/dark-theme-editor",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "theme",
+  "detail": "Hugo Theme - dark theme editor"
+ },
+ {
+  "repo": "zkreations/hudocs",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "theme",
+  "detail": "Documentation theme created for Hugo."
+ },
+ {
+  "repo": "nick-san/nick-blog",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "too_few_content_pages",
+  "detail": "4 content files under content/"
+ },
+ {
+  "repo": "BasBerk/zwc-dts",
+  "bucket": "H",
+  "status": "kept",
+  "default_branch": "master",
+  "head_sha": "8ecec6764665fb9ac17e22b3283610269dca9fe5",
+  "stars": 0,
+  "pushed_at": "2026-08-19T14:48:39Z",
+  "archived": false,
+  "config_filename": "hugo.yaml",
+  "content_count": 41,
+  "content_dir": "content/",
+  "tree_truncated": false,
+  "description": "",
+  "hugo_version_pin": "0.152.2",
+  "hugo_pin_quote": ".github/workflows/pages.yaml: HUGO_VERSION: 0.152.2",
+  "why_real_content_site": "41 content files under content/; hugo.yaml at repo root; 0 stars; pushed 2026-08-19T14:48:39Z; description: "
+ },
+ {
+  "repo": "dr-saad-la/saad-laouadi-cv",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "stale_no_window_possible",
+  "detail": "pushed_at=2024-07-22T15:02:53Z"
+ },
+ {
+  "repo": "neoforged/websites",
+  "bucket": "H",
+  "status": "kept",
+  "default_branch": "main",
+  "head_sha": "4d38126b8b02c7aeb668bb26b2c01a25d1521728",
+  "stars": 4,
+  "pushed_at": "2026-05-17T01:07:56Z",
+  "archived": false,
+  "config_filename": "hugo.toml",
+  "content_count": 34,
+  "content_dir": "content/",
+  "tree_truncated": false,
+  "description": "Official website for NeoForged",
+  "hugo_version_pin": "0.119.0",
+  "hugo_pin_quote": ".github/workflows/build-pr.yml: hugo-version: \"0.119.0\"",
+  "why_real_content_site": "34 content files under content/; hugo.toml at repo root; 4 stars; pushed 2026-05-17T01:07:56Z; description: Official website for NeoForged"
+ },
+ {
+  "repo": "gscalzo/gscalzo.github.io",
+  "bucket": "H",
+  "status": "kept",
+  "default_branch": "main",
+  "head_sha": "7b480db987e35d9416348eade33980e06966d8ee",
+  "stars": 3,
+  "pushed_at": "2026-09-06T19:30:19Z",
+  "archived": false,
+  "config_filename": "config.toml",
+  "content_count": 30,
+  "content_dir": "content/",
+  "tree_truncated": false,
+  "description": "Giordano's amazing website",
+  "hugo_version_pin": "0.165.0",
+  "hugo_pin_quote": ".github/workflows/gh-pages.yml: hugo-version: \"0.165.0\"",
+  "why_real_content_site": "30 content files under content/; config.toml at repo root; 3 stars; pushed 2026-09-06T19:30:19Z; description: Giordano's amazing website"
+ },
+ {
+  "repo": "pyrevitlabs/pyrevitlabs",
+  "bucket": "H",
+  "status": "kept",
+  "default_branch": "main",
+  "head_sha": "b57b363a089cef299abe7ddebaf9d0fda2d099de",
+  "stars": 8,
+  "pushed_at": "2026-09-24T16:02:34Z",
+  "archived": false,
+  "config_filename": "hugo.toml",
+  "content_count": 25,
+  "content_dir": "content/",
+  "tree_truncated": false,
+  "description": "pyRevitLabs website",
+  "hugo_version_pin": "0.163.2",
+  "hugo_pin_quote": ".github/workflows/hugo-pr.yaml: HUGO_VERSION: 0.163.2",
+  "why_real_content_site": "25 content files under content/; hugo.toml at repo root; 8 stars; pushed 2026-09-24T16:02:34Z; description: pyRevitLabs website"
+ },
+ {
+  "repo": "ajanicij/vogonblog",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "too_few_content_pages",
+  "detail": "1 content files under content/"
+ },
+ {
+  "repo": "jcorrean/Critical_Centrality",
+  "bucket": "H",
+  "status": "kept",
+  "default_branch": "main",
+  "head_sha": "ac02bd7260bdac466f1212a02897934226327ddf",
+  "stars": 0,
+  "pushed_at": "2025-05-31T22:36:48Z",
+  "archived": false,
+  "config_filename": "config.toml",
+  "content_count": 19,
+  "content_dir": "content/",
+  "tree_truncated": false,
+  "description": "",
+  "hugo_version_pin": "0.136.5",
+  "hugo_pin_quote": "netlify.toml: HUGO_VERSION = \"0.136.5\"",
+  "why_real_content_site": "19 content files under content/; config.toml at repo root; 0 stars; pushed 2025-05-31T22:36:48Z; description: "
+ },
+ {
+  "repo": "rrcarter/rrcarter.github.io",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "too_few_content_pages",
+  "detail": "2 content files under content/"
+ },
+ {
+  "repo": "psugumar2610/namahnest",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "no_config_found"
+ },
+ {
+  "repo": "dongbinhtran/dongbinhtran.github.io",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "stale_no_window_possible",
+  "detail": "pushed_at=2023-11-10T13:38:27Z"
+ },
+ {
+  "repo": "LucChang/Hugo-blog",
+  "bucket": "H",
+  "status": "rejected",
+  "default_branch": "main",
+  "head_sha": "d8959f69e699f1e84c3e279ac2e63c8bddd51be1",
+  "stars": 1,
+  "pushed_at": "2025-07-26T16:17:58Z",
+  "archived": false,
+  "config_filename": "hugo.toml",
+  "content_count": 21,
+  "content_dir": "content/",
+  "tree_truncated": false,
+  "description": "record senior high school life",
+  "reason": "no_hugo_version_pin"
+ },
+ {
+  "repo": "think-ke/playbook",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "monorepo",
+  "detail": "site config nested at .github/workflows/hugo.yaml"
+ },
+ {
+  "repo": "dreamkidd/dreamkidd.github.io",
+  "bucket": "H",
+  "status": "kept",
+  "default_branch": "main",
+  "head_sha": "320df2c9e239180bd13905d60809d1a21c533cbf",
+  "stars": 1,
+  "pushed_at": "2026-03-04T15:00:51Z",
+  "archived": false,
+  "config_filename": "hugo.toml",
+  "content_count": 37,
+  "content_dir": "content/",
+  "tree_truncated": false,
+  "description": "github.io , my personal blog",
+  "hugo_version_pin": "0.146.5",
+  "hugo_pin_quote": ".github/workflows/hugo.yaml: HUGO_VERSION: 0.146.5",
+  "why_real_content_site": "37 content files under content/; hugo.toml at repo root; 1 stars; pushed 2026-03-04T15:00:51Z; description: github.io , my personal blog"
+ },
+ {
+  "repo": "sujee/ai-events-recap",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "monorepo",
+  "detail": "site config nested at .github/workflows/hugo.yaml"
+ },
+ {
+  "repo": "snapcrafters/snapcrafters.org",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "too_few_content_pages",
+  "detail": "0 content files under content/"
+ },
+ {
+  "repo": "hyddd/hyddd.github.io",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "too_few_content_pages",
+  "detail": "5 content files under content/"
+ },
+ {
+  "repo": "hugomods/images",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "too_few_content_pages",
+  "detail": "0 content files under content/"
+ },
+ {
+  "repo": "VNAO-VFA-136-Knighthawks/vnao-vfa-136-knighthawks.github.io",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "too_few_content_pages",
+  "detail": "4 content files under content/"
+ },
+ {
+  "repo": "JaneliaSciComp/hortacloud-website",
+  "bucket": "H",
+  "status": "kept",
+  "default_branch": "main",
+  "head_sha": "cd5ea6bf8cb914c88fe740999aaf1d78ab12394f",
+  "stars": 3,
+  "pushed_at": "2026-04-15T13:08:38Z",
+  "archived": false,
+  "config_filename": "hugo.toml",
+  "content_count": 37,
+  "content_dir": "content/",
+  "tree_truncated": false,
+  "description": "Documentation website for HortaCloud",
+  "hugo_version_pin": "0.96.0",
+  "hugo_pin_quote": "netlify.toml: HUGO_VERSION = \"0.96.0\"",
+  "why_real_content_site": "37 content files under content/; hugo.toml at repo root; 3 stars; pushed 2026-04-15T13:08:38Z; description: Documentation website for HortaCloud"
+ },
+ {
+  "repo": "btcba/btcba.github.io",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "theme",
+  "detail": "theme.toml at root"
+ },
+ {
+  "repo": "throttlemeister/sport-touring.eu",
+  "bucket": "H",
+  "status": "kept",
+  "default_branch": "main",
+  "head_sha": "2b81b328010033d4ec1f69906b673090574686a1",
+  "stars": 0,
+  "pushed_at": "2026-01-03T21:24:43Z",
+  "archived": false,
+  "config_filename": "config.toml",
+  "content_count": 25,
+  "content_dir": "content/",
+  "tree_truncated": false,
+  "description": "sport-touring.eu website repo",
+  "hugo_version_pin": "0.90.0",
+  "hugo_pin_quote": "netlify.toml: HUGO_VERSION = \"0.90.0\"",
+  "why_real_content_site": "25 content files under content/; config.toml at repo root; 0 stars; pushed 2026-01-03T21:24:43Z; description: sport-touring.eu website repo"
+ },
+ {
+  "repo": "laingyulee/coding-world",
+  "bucket": "H",
+  "status": "rejected",
+  "default_branch": "main",
+  "head_sha": "4650b58f2b586ee1b006608dbd6eabd2e0b9d37c",
+  "stars": 0,
+  "pushed_at": "2025-09-12T06:35:57Z",
+  "archived": false,
+  "config_filename": "hugo.toml",
+  "content_count": 12,
+  "content_dir": "content/",
+  "tree_truncated": false,
+  "description": "\u7801\u9489\u6ce5\u7684\u7f16\u7a0b\u4e16\u754c",
+  "reason": "no_hugo_version_pin"
+ },
+ {
+  "repo": "ChiefDennis/chiefdennis.github.io",
+  "bucket": "H",
+  "status": "kept",
+  "default_branch": "main",
+  "head_sha": "bd66c447c55d92cf204eda74bb3d71fba6beceb4",
+  "stars": 0,
+  "pushed_at": "2025-12-11T22:57:38Z",
+  "archived": false,
+  "config_filename": "hugo.toml",
+  "content_count": 33,
+  "content_dir": "content/",
+  "tree_truncated": false,
+  "description": "",
+  "hugo_version_pin": "0.141.0",
+  "hugo_pin_quote": ".github/workflows/hugo.yml: HUGO_VERSION: 0.141.0",
+  "why_real_content_site": "33 content files under content/; hugo.toml at repo root; 0 stars; pushed 2025-12-11T22:57:38Z; description: "
+ },
+ {
+  "repo": "spielhuus/elektrophon",
+  "bucket": "H",
+  "status": "rejected",
+  "default_branch": "master",
+  "head_sha": "caced54bf5367af03da850a4c8f10510aace8c40",
+  "stars": 31,
+  "pushed_at": "2026-02-16T18:14:03Z",
+  "archived": false,
+  "config_filename": "hugo.toml",
+  "content_count": 16,
+  "content_dir": "content/",
+  "tree_truncated": false,
+  "description": "Modular analog electro acoustic noise machine.",
+  "reason": "no_hugo_version_pin"
+ },
+ {
+  "repo": "iwawakoiwa/blog",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "theme",
+  "detail": "theme.toml at root"
+ },
+ {
+  "repo": "Pupoin/tmp",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "stale_no_window_possible",
+  "detail": "pushed_at=2023-07-01T22:07:07Z"
+ },
+ {
+  "repo": "fichil/fichil.com",
+  "bucket": "H",
+  "status": "kept",
+  "default_branch": "main",
+  "head_sha": "3412719ddcd00805d12bde5b7f8b8b0d4d67a8a7",
+  "stars": 0,
+  "pushed_at": "2026-09-21T01:12:38Z",
+  "archived": false,
+  "config_filename": "hugo.yaml",
+  "content_count": 109,
+  "content_dir": "content/",
+  "tree_truncated": false,
+  "description": "Personal tech blog powered by Hugo.",
+  "hugo_version_pin": "0.160.1",
+  "hugo_pin_quote": ".github/workflows/hugo-check.yml: hugo-version: '0.160.1'",
+  "why_real_content_site": "109 content files under content/; hugo.yaml at repo root; 0 stars; pushed 2026-09-21T01:12:38Z; description: Personal tech blog powered by Hugo."
+ },
+ {
+  "repo": "The-Walker-coder/ign3",
+  "bucket": "H",
+  "status": "rejected",
+  "default_branch": "main",
+  "head_sha": "b780457001ff70e9fa6feb63d23fe3948b410dda",
+  "stars": 0,
+  "pushed_at": "2025-08-08T11:10:32Z",
+  "archived": false,
+  "config_filename": "hugo.toml",
+  "content_count": 18,
+  "content_dir": "content/",
+  "tree_truncated": false,
+  "description": "Ignasia website v29.7.25",
+  "reason": "no_hugo_version_pin"
+ },
+ {
+  "repo": "cwl12/cwl12.github.io",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "too_few_content_pages",
+  "detail": "8 content files under content/"
+ },
+ {
+  "repo": "babeneso/hugo-neso",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "theme",
+  "detail": "Neso is a carefully crafted Hugo theme that delivers a refined experience in a minimal aesthetic."
+ },
+ {
+  "repo": "JoeHeflin/personal-site",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "monorepo",
+  "detail": "site config nested at config/_default/config.toml"
+ },
+ {
+  "repo": "criticalfault/nullsheen_main_site",
+  "bucket": "H",
+  "status": "kept",
+  "default_branch": "main",
+  "head_sha": "e1c23067fa33bd61cdd05a4867af7c16e8a3f2c6",
+  "stars": 0,
+  "pushed_at": "2026-09-21T14:35:09Z",
+  "archived": false,
+  "config_filename": "hugo.toml",
+  "content_count": 97,
+  "content_dir": "content/",
+  "tree_truncated": false,
+  "description": "",
+  "hugo_version_pin": "0.141.0",
+  "hugo_pin_quote": ".github/workflows/hugo.yml: HUGO_VERSION: 0.141.0",
+  "why_real_content_site": "97 content files under content/; hugo.toml at repo root; 0 stars; pushed 2026-09-21T14:35:09Z; description: "
+ },
+ {
+  "repo": "daimexmachina/daim.co.uk",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "too_few_content_pages",
+  "detail": "6 content files under content/"
+ },
+ {
+  "repo": "danimaniarqsoft/blog",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "theme",
+  "detail": "theme.toml at root"
+ },
+ {
+  "repo": "martincarapia/martincarapia.github.io",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "too_few_content_pages",
+  "detail": "7 content files under content/"
+ },
+ {
+  "repo": "hugomods/hugopress",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "theme",
+  "detail": ":ice_cube: Hugo hooks framework/system for building modular themes and static websites."
+ },
+ {
+  "repo": "QualityUnit/hugo-boilerplate",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "starter_template_boilerplate",
+  "detail": "Template for hugo projects"
+ },
+ {
+  "repo": "ipsilon/evmobjectformat.org",
+  "bucket": "H",
+  "status": "kept",
+  "default_branch": "main",
+  "head_sha": "8c57f0b6222657ca658f181161cadbfca4a7d9df",
+  "stars": 6,
+  "pushed_at": "2025-10-31T16:19:56Z",
+  "archived": false,
+  "config_filename": "hugo.toml",
+  "content_count": 12,
+  "content_dir": "content/",
+  "tree_truncated": false,
+  "description": "Website for EOF",
+  "hugo_version_pin": "0.146.0",
+  "hugo_pin_quote": ".github/workflows/hugo.yaml: HUGO_VERSION: 0.146.0",
+  "why_real_content_site": "12 content files under content/; hugo.toml at repo root; 6 stars; pushed 2025-10-31T16:19:56Z; description: Website for EOF"
+ },
+ {
+  "repo": "uzcoderblog/uzcoderblog.github.io",
+  "bucket": "H",
+  "status": "kept",
+  "default_branch": "main",
+  "head_sha": "03c69a448ce8bd2bd6c4930f3e2b7e2efb832c25",
+  "stars": 0,
+  "pushed_at": "2024-10-27T13:08:01Z",
+  "archived": false,
+  "config_filename": "hugo.yaml",
+  "content_count": 24,
+  "content_dir": "content/",
+  "tree_truncated": false,
+  "description": "",
+  "hugo_version_pin": "0.124.0",
+  "hugo_pin_quote": "netlify.toml: HUGO_VERSION = \"0.124.0\"",
+  "why_real_content_site": "24 content files under content/; hugo.yaml at repo root; 0 stars; pushed 2024-10-27T13:08:01Z; description: "
+ },
+ {
+  "repo": "alexgetmancom/infra",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "no_config_found"
+ },
+ {
+  "repo": "alkock/personal-page",
+  "bucket": "H",
+  "status": "kept",
+  "default_branch": "main",
+  "head_sha": "e36f5dcd8ac34c7538302314f6ecdb408492a881",
+  "stars": 0,
+  "pushed_at": "2026-06-30T18:03:33Z",
+  "archived": false,
+  "config_filename": "hugo.toml",
+  "content_count": 16,
+  "content_dir": "content/",
+  "tree_truncated": false,
+  "description": "",
+  "hugo_version_pin": "0.114.0",
+  "hugo_pin_quote": ".github/workflows/hugo.yml: HUGO_VERSION: 0.114.0",
+  "why_real_content_site": "16 content files under content/; hugo.toml at repo root; 0 stars; pushed 2026-06-30T18:03:33Z; description: "
+ },
+ {
+  "repo": "jmeridth/jmeridth.github.io",
+  "bucket": "H",
+  "status": "rejected",
+  "default_branch": "main",
+  "head_sha": "ee81ab168ef472e69947f60fffc2e6135ad6d109",
+  "stars": 14,
+  "pushed_at": "2026-09-03T23:06:17Z",
+  "archived": false,
+  "config_filename": "hugo.toml",
+  "content_count": 296,
+  "content_dir": "content/",
+  "tree_truncated": false,
+  "description": "Jason Meridth's blog",
+  "reason": "no_hugo_version_pin"
+ },
+ {
+  "repo": "thinklabllc/Hunger-United-blog",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "monorepo",
+  "detail": "site config nested at site/hugo.toml"
+ },
+ {
+  "repo": "hyphatech/jailrun-hub",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "no_config_found"
+ },
+ {
+  "repo": "Doradx/doradx.github.io",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "stale_no_window_possible",
+  "detail": "pushed_at=2024-04-25T06:11:04Z"
+ },
+ {
+  "repo": "omgkill/omgkill.github.io",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "too_few_content_pages",
+  "detail": "2 content files under content/"
+ },
+ {
+  "repo": "Tall-Paul/genericnerd",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "too_few_content_pages",
+  "detail": "0 content files under content/"
+ },
+ {
+  "repo": "sigchill/study_blog",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "monorepo",
+  "detail": "site config nested at .github/workflows/hugo.yaml"
+ },
+ {
+  "repo": "JasonLocklin/HomePage",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "too_few_content_pages",
+  "detail": "4 content files under content/"
+ },
+ {
+  "repo": "ishiharatma/ishiharatma.github.io",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "monorepo",
+  "detail": "site config nested at config/_default/hugo.toml"
+ },
+ {
+  "repo": "trust2065/blog",
+  "bucket": "H",
+  "status": "kept",
+  "default_branch": "master",
+  "head_sha": "0331687731c8eee875d82e142b1f454542ce4342",
+  "stars": 0,
+  "pushed_at": "2026-03-27T05:18:25Z",
+  "archived": false,
+  "config_filename": "hugo.toml",
+  "content_count": 75,
+  "content_dir": "content/",
+  "tree_truncated": false,
+  "description": "",
+  "hugo_version_pin": "0.146.0",
+  "hugo_pin_quote": ".github/workflows/hugo.yml: HUGO_VERSION: 0.146.0",
+  "why_real_content_site": "75 content files under content/; hugo.toml at repo root; 0 stars; pushed 2026-03-27T05:18:25Z; description: "
+ },
+ {
+  "repo": "loganoxo/hugo-theme-logan",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "theme",
+  "detail": "\u5728hugo-stack-theme\u57fa\u7840\u4e0a\u4fee\u6539\u7684\u81ea\u7528\u4e3b\u9898"
+ },
+ {
+  "repo": "Ceald1/Blog",
+  "bucket": "H",
+  "status": "kept",
+  "default_branch": "main",
+  "head_sha": "facdf5ef9564785272e783c0224d77e5a1ae39e4",
+  "stars": 0,
+  "pushed_at": "2026-08-17T19:11:05Z",
+  "archived": false,
+  "config_filename": "config.toml",
+  "content_count": 12,
+  "content_dir": "content/",
+  "tree_truncated": false,
+  "description": "",
+  "hugo_version_pin": "0.154.5",
+  "hugo_pin_quote": ".github/workflows/hugoPages.yml: HUGO_VERSION: 0.154.5",
+  "why_real_content_site": "12 content files under content/; config.toml at repo root; 0 stars; pushed 2026-08-17T19:11:05Z; description: "
+ },
+ {
+  "repo": "vgiles/fcpvg-hugo-blog-src",
+  "bucket": "H",
+  "status": "kept",
+  "default_branch": "main",
+  "head_sha": "eb81d8dcc0eb720c295855a1304502a7999cad3a",
+  "stars": 0,
+  "pushed_at": "2026-02-05T08:58:03Z",
+  "archived": false,
+  "config_filename": "hugo.toml",
+  "content_count": 10,
+  "content_dir": "content/",
+  "tree_truncated": false,
+  "description": "Updated fcpvg.work to hugo",
+  "hugo_version_pin": "0.121.2",
+  "hugo_pin_quote": "netlify.toml: HUGO_VERSION = \"0.121.2\"",
+  "why_real_content_site": "10 content files under content/; hugo.toml at repo root; 0 stars; pushed 2026-02-05T08:58:03Z; description: Updated fcpvg.work to hugo"
+ },
+ {
+  "repo": "MickTheLinuxGeek/mgl-website",
+  "bucket": "H",
+  "status": "kept",
+  "default_branch": "main",
+  "head_sha": "963e42ecaf4f62227784b0c9e2ed16df89b31023",
+  "stars": 1,
+  "pushed_at": "2026-02-16T05:37:47Z",
+  "archived": false,
+  "config_filename": "hugo.toml",
+  "content_count": 23,
+  "content_dir": "content/",
+  "tree_truncated": false,
+  "description": "MickGeekLabs.org Website",
+  "hugo_version_pin": "0.142.0",
+  "hugo_pin_quote": "netlify.toml: HUGO_VERSION = \"0.142.0\"",
+  "why_real_content_site": "23 content files under content/; hugo.toml at repo root; 1 stars; pushed 2026-02-16T05:37:47Z; description: MickGeekLabs.org Website"
+ },
+ {
+  "repo": "bertyterty/fc-wiki",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "no_config_found"
+ },
+ {
+  "repo": "edubad06/CV-AWS",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "too_few_content_pages",
+  "detail": "0 content files under content/"
+ },
+ {
+  "repo": "komalthecoolk/hugoblogaws",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "monorepo",
+  "detail": "site config nested at config/_default/config.toml"
+ },
+ {
+  "repo": "haakmal/learning-hub",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "too_few_content_pages",
+  "detail": "0 content files under content/"
+ },
+ {
+  "repo": "quintessence/quintessence.github.test",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "stale_no_window_possible",
+  "detail": "pushed_at=2024-05-27T06:50:48Z"
+ },
+ {
+  "repo": "Mmarin95/bookish-umbrella",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "stale_no_window_possible",
+  "detail": "pushed_at=2023-10-12T13:29:12Z"
+ },
+ {
+  "repo": "mikotian/mata",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "stale_no_window_possible",
+  "detail": "pushed_at=2024-08-25T13:03:19Z"
+ },
+ {
+  "repo": "castlelore-studios/castlelore-website-hugo",
+  "bucket": "H",
+  "status": "rejected",
+  "default_branch": "main",
+  "head_sha": "14336072266c06e34f076b47c986c69eecdcaa61",
+  "stars": 0,
+  "pushed_at": "2025-08-06T06:45:13Z",
+  "archived": false,
+  "config_filename": "hugo.toml",
+  "content_count": 12,
+  "content_dir": "content/",
+  "tree_truncated": false,
+  "description": "",
+  "reason": "no_hugo_version_pin"
+ },
+ {
+  "repo": "zhaoyuezheng-cvg/log",
+  "bucket": "H",
+  "status": "rejected",
+  "default_branch": "main",
+  "head_sha": "ba087cc1ca3fe524fcbc3d4fcad43eac4d77dd4f",
+  "stars": 0,
+  "pushed_at": "2026-09-23T07:56:38Z",
+  "archived": false,
+  "config_filename": "hugo.toml",
+  "content_count": 27,
+  "content_dir": "content/",
+  "tree_truncated": false,
+  "description": "",
+  "reason": "no_hugo_version_pin"
+ },
+ {
+  "repo": "rmelojs/blog",
+  "bucket": "H",
+  "status": "rejected",
+  "default_branch": "main",
+  "head_sha": "9a7a132e88f7b2af8964660abaff02b365b553aa",
+  "stars": 0,
+  "pushed_at": "2025-03-19T11:41:58Z",
+  "archived": false,
+  "config_filename": "hugo.toml",
+  "content_count": 20,
+  "content_dir": "content/",
+  "tree_truncated": false,
+  "description": "",
+  "reason": "no_hugo_version_pin"
+ },
+ {
+  "repo": "eliotziqi/hugo-gallery-site",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "too_few_content_pages",
+  "detail": "1 content files under content/"
+ },
+ {
+  "repo": "Hsnsnn1907/my-aws-fcaj-2026-journey",
+  "bucket": "H",
+  "status": "kept",
+  "default_branch": "main",
+  "head_sha": "2d73b44c2a59591fced432302029f8325decc9c1",
+  "stars": 0,
+  "pushed_at": "2026-07-29T03:13:10Z",
+  "archived": false,
+  "config_filename": "config.toml",
+  "content_count": 20,
+  "content_dir": "content/",
+  "tree_truncated": false,
+  "description": "",
+  "hugo_version_pin": "0.134.3",
+  "hugo_pin_quote": ".github/workflows/hugo.yml: hugo-version: \"0.134.3\"",
+  "why_real_content_site": "20 content files under content/; config.toml at repo root; 0 stars; pushed 2026-07-29T03:13:10Z; description: "
+ },
+ {
+  "repo": "timothyylim/tpot-wiki",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "too_few_content_pages",
+  "detail": "4 content files under content/"
+ },
+ {
+  "repo": "cgangwar11/dl-blog",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "stale_no_window_possible",
+  "detail": "pushed_at=2024-09-20T19:05:19Z"
+ },
+ {
+  "repo": "ChenSenhao0104/kaoyan-diary",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "monorepo",
+  "detail": "site config nested at .github/workflows/hugo.yaml"
+ },
+ {
+  "repo": "volteret4/rym",
+  "bucket": "H",
+  "status": "kept",
+  "default_branch": "main",
+  "head_sha": "79b4045491e76ab636b66c078a717b9d43f605bd",
+  "stars": 0,
+  "pushed_at": "2025-11-15T15:00:55Z",
+  "archived": false,
+  "config_filename": "config.toml",
+  "content_count": 10,
+  "content_dir": "content/",
+  "tree_truncated": false,
+  "description": "",
+  "hugo_version_pin": "0.128.0",
+  "hugo_pin_quote": ".github/workflows/hugo.yml: HUGO_VERSION: 0.128.0",
+  "why_real_content_site": "10 content files under content/; config.toml at repo root; 0 stars; pushed 2025-11-15T15:00:55Z; description: "
+ },
+ {
+  "repo": "wilonweb/multi-author",
+  "bucket": "H",
+  "status": "kept",
+  "default_branch": "main",
+  "head_sha": "efd7ebe5a06850baae434744301cede1bb47119e",
+  "stars": 0,
+  "pushed_at": "2025-09-07T15:03:28Z",
+  "archived": false,
+  "config_filename": "hugo.toml",
+  "content_count": 12,
+  "content_dir": "content/",
+  "tree_truncated": false,
+  "description": "",
+  "hugo_version_pin": "0.147.1",
+  "hugo_pin_quote": ".github/workflows/deploy.yaml: HUGO_VERSION: 0.147.1",
+  "why_real_content_site": "12 content files under content/; hugo.toml at repo root; 0 stars; pushed 2025-09-07T15:03:28Z; description: "
+ },
+ {
+  "repo": "DR-Ive/tmtst",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "stale_no_window_possible",
+  "detail": "pushed_at=2024-08-25T09:24:14Z"
+ },
+ {
+  "repo": "seudut/mysite",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "too_few_content_pages",
+  "detail": "4 content files under content/"
+ },
+ {
+  "repo": "suriyasonp/myknowledgesource",
+  "bucket": "H",
+  "status": "kept",
+  "default_branch": "main",
+  "head_sha": "0f023349a1468cad88f852e19273d36f74a0d147",
+  "stars": 0,
+  "pushed_at": "2025-05-29T14:51:17Z",
+  "archived": false,
+  "config_filename": "hugo.toml",
+  "content_count": 11,
+  "content_dir": "content/",
+  "tree_truncated": false,
+  "description": "My simplify blog",
+  "hugo_version_pin": "0.147.5",
+  "hugo_pin_quote": ".github/workflows/hugo.yml: HUGO_VERSION: 0.147.5",
+  "why_real_content_site": "11 content files under content/; hugo.toml at repo root; 0 stars; pushed 2025-05-29T14:51:17Z; description: My simplify blog"
+ },
+ {
+  "repo": "NEU-Khoury-DoC/hugo-blog-template",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "stale_no_window_possible",
+  "detail": "pushed_at=2024-06-09T21:53:11Z"
+ },
+ {
+  "repo": "HappyCSharpCoder/WebSite",
+  "bucket": "H",
+  "status": "rejected",
+  "default_branch": "main",
+  "head_sha": "f4fb5d469c9fb63e8b862cc5e2a61fe9a15bf02a",
+  "stars": 0,
+  "pushed_at": "2026-03-01T22:16:19Z",
+  "archived": false,
+  "config_filename": "hugo.toml",
+  "content_count": 14,
+  "content_dir": "content/",
+  "tree_truncated": false,
+  "description": "",
+  "reason": "no_hugo_version_pin"
+ },
+ {
+  "repo": "24x7fpga/24x7fpga-website",
+  "bucket": "H",
+  "status": "kept",
+  "default_branch": "main",
+  "head_sha": "6ff6e23a3acbeb2eb0e66b73fa2d87608c20a7ac",
+  "stars": 0,
+  "pushed_at": "2026-02-06T03:42:26Z",
+  "archived": false,
+  "config_filename": "hugo.toml",
+  "content_count": 140,
+  "content_dir": "content/",
+  "tree_truncated": false,
+  "description": "",
+  "hugo_version_pin": "0.128.0",
+  "hugo_pin_quote": ".github/workflows/hugo.yaml: HUGO_VERSION: 0.128.0",
+  "why_real_content_site": "140 content files under content/; hugo.toml at repo root; 0 stars; pushed 2026-02-06T03:42:26Z; description: "
+ },
+ {
+  "repo": "stonefish02/stonefish02.github.io",
+  "bucket": "H",
+  "status": "kept",
+  "default_branch": "main",
+  "head_sha": "b5ce47db7b5a1eb7374dddfe0dbf46df611dccee",
+  "stars": 0,
+  "pushed_at": "2026-08-08T05:01:20Z",
+  "archived": false,
+  "config_filename": "hugo.toml",
+  "content_count": 38,
+  "content_dir": "content/",
+  "tree_truncated": false,
+  "description": "My website fueled by pain and suffering.",
+  "hugo_version_pin": "0.141.0",
+  "hugo_pin_quote": ".github/workflows/hugo.yaml: HUGO_VERSION: 0.141.0",
+  "why_real_content_site": "38 content files under content/; hugo.toml at repo root; 0 stars; pushed 2026-08-08T05:01:20Z; description: My website fueled by pain and suffering."
+ },
+ {
+  "repo": "Svenno76/bioplastic-website",
+  "bucket": "H",
+  "status": "kept",
+  "default_branch": "main",
+  "head_sha": "ef784ec2e3cc4d497a14422121b21ba0871d9028",
+  "stars": 0,
+  "pushed_at": "2026-09-19T17:31:26Z",
+  "archived": false,
+  "config_filename": "hugo.toml",
+  "content_count": 709,
+  "content_dir": "content/",
+  "tree_truncated": false,
+  "description": "Content of my bioplastic website",
+  "hugo_version_pin": "0.138.0",
+  "hugo_pin_quote": "netlify.toml: HUGO_VERSION = \"0.138.0\"",
+  "why_real_content_site": "709 content files under content/; hugo.toml at repo root; 0 stars; pushed 2026-09-19T17:31:26Z; description: Content of my bioplastic website"
+ },
+ {
+  "repo": "KirisameMagicShop/kirisamemagicshop.github.io",
+  "bucket": "H",
+  "status": "kept",
+  "default_branch": "master",
+  "head_sha": "7f37692bef681ef9adb780d002d1f9da46710aa8",
+  "stars": 11,
+  "pushed_at": "2025-05-27T04:09:35Z",
+  "archived": false,
+  "config_filename": "hugo.toml",
+  "content_count": 90,
+  "content_dir": "content/",
+  "tree_truncated": false,
+  "description": "",
+  "hugo_version_pin": "0.133.1",
+  "hugo_pin_quote": ".github/workflows/hugo.yaml: HUGO_VERSION: 0.133.1",
+  "why_real_content_site": "90 content files under content/; hugo.toml at repo root; 11 stars; pushed 2025-05-27T04:09:35Z; description: "
+ },
+ {
+  "repo": "Blunix-GmbH/hugo-theme-blunix",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "theme",
+  "detail": "hugo theme \"blunix\", used for www.blunix.com"
+ },
+ {
+  "repo": "nongio/otto",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "monorepo",
+  "detail": "site config nested at website/hugo.toml"
+ },
+ {
+  "repo": "CodeYourFuture/curriculum",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "monorepo",
+  "detail": "site config nested at common-content/hugo.toml"
+ },
+ {
+  "repo": "apache/amoro-site",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "monorepo",
+  "detail": "site config nested at amoro-docs/hugo.toml"
+ },
+ {
+  "repo": "DevOpsKC/website",
+  "bucket": "H",
+  "status": "kept",
+  "default_branch": "main",
+  "head_sha": "ebd3bdc21a65001aaea0763cdcdc211d76e32284",
+  "stars": 0,
+  "pushed_at": "2025-04-12T18:08:06Z",
+  "archived": false,
+  "config_filename": "hugo.toml",
+  "content_count": 11,
+  "content_dir": "content/",
+  "tree_truncated": false,
+  "description": "Repository for the DevOps KC website, based on Hugo",
+  "hugo_version_pin": "0.130.0",
+  "hugo_pin_quote": "netlify.toml: HUGO_VERSION = \"0.130.0\"",
+  "why_real_content_site": "11 content files under content/; hugo.toml at repo root; 0 stars; pushed 2025-04-12T18:08:06Z; description: Repository for the DevOps KC website, based on Hugo"
+ },
+ {
+  "repo": "stewing-co/warp_and_weft_data",
+  "bucket": "H",
+  "status": "kept",
+  "default_branch": "main",
+  "head_sha": "cd67f2832bdca7f6364c0987d2d84b1cdef05311",
+  "stars": 0,
+  "pushed_at": "2024-12-12T17:00:01Z",
+  "archived": false,
+  "config_filename": "config.toml",
+  "content_count": 21,
+  "content_dir": "content/",
+  "tree_truncated": false,
+  "description": "",
+  "hugo_version_pin": "0.136.2",
+  "hugo_pin_quote": "netlify.toml: HUGO_VERSION = '0.136.2'",
+  "why_real_content_site": "21 content files under content/; config.toml at repo root; 0 stars; pushed 2024-12-12T17:00:01Z; description: "
+ },
+ {
+  "repo": "OthmanBensoudaKoraichi/website_ismail",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "stale_no_window_possible",
+  "detail": "pushed_at=2024-07-14T22:03:18Z"
+ },
+ {
+  "repo": "OthmanBensoudaKoraichi/website_forty",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "stale_no_window_possible",
+  "detail": "pushed_at=2024-09-21T15:50:07Z"
+ },
+ {
+  "repo": "liaoqijia/liaoqj",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "stale_no_window_possible",
+  "detail": "pushed_at=2023-12-10T01:04:05Z"
+ },
+ {
+  "repo": "bitanWeb3/bitanWeb3.github.io",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "theme",
+  "detail": "theme.toml at root"
+ },
+ {
+  "repo": "wchuqi/wchuqi.github.io111",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "stale_no_window_possible",
+  "detail": "pushed_at=2024-06-24T15:22:12Z"
+ },
+ {
+  "repo": "codemanufacture/codemanufacture.com",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "too_few_content_pages",
+  "detail": "4 content files under content/"
+ },
+ {
+  "repo": "nuodb/nuodb-cp-docs",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "docs_for_dev_tool",
+  "detail": "Documentation for NuoDB DBaaS Control Plane"
+ },
+ {
+  "repo": "InkosiZhong/InkosiZhong.github.io",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "monorepo",
+  "detail": "site config nested at .github/workflows/hugo.yaml"
+ },
+ {
+  "repo": "chrismarquardt/hugo",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "too_few_content_pages",
+  "detail": "4 content files under content/"
+ },
+ {
+  "repo": "kamibook/kamibook.github.io",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "stale_no_window_possible",
+  "detail": "pushed_at=2023-10-15T13:04:57Z"
+ },
+ {
+  "repo": "Anhlaidh/hantianzhao.info",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "stale_no_window_possible",
+  "detail": "pushed_at=2024-03-20T09:31:30Z"
+ },
+ {
+  "repo": "ssathya/SridharBlog",
+  "bucket": "H",
+  "status": "kept",
+  "default_branch": "main",
+  "head_sha": "5b10ab6e063f93d74b9843deff2ac5c04e1775ed",
+  "stars": 0,
+  "pushed_at": "2026-09-17T20:17:53Z",
+  "archived": false,
+  "config_filename": "hugo.toml",
+  "content_count": 30,
+  "content_dir": "content/",
+  "tree_truncated": false,
+  "description": "",
+  "hugo_version_pin": "0.149.0",
+  "hugo_pin_quote": ".github/workflows/deploy.yml: hugo-version: '0.149.0'",
+  "why_real_content_site": "30 content files under content/; hugo.toml at repo root; 0 stars; pushed 2026-09-17T20:17:53Z; description: "
+ },
+ {
+  "repo": "malayamanas/malayamanas.github.io",
+  "bucket": "H",
+  "status": "rejected",
+  "default_branch": "main",
+  "head_sha": "3429408d66c794089830a19b33acef7b25fd601f",
+  "stars": 0,
+  "pushed_at": "2026-03-17T13:50:38Z",
+  "archived": false,
+  "config_filename": "hugo.toml",
+  "content_count": 28,
+  "content_dir": "content/",
+  "tree_truncated": false,
+  "description": "",
+  "reason": "no_hugo_version_pin"
+ },
+ {
+  "repo": "konfound-project/konfound-project.github.io",
+  "bucket": "H",
+  "status": "rejected",
+  "default_branch": "main",
+  "head_sha": "2fb0bdc6071ddc526a4802aa211d2806e8d98f60",
+  "stars": 0,
+  "pushed_at": "2026-09-02T23:06:54Z",
+  "archived": false,
+  "config_filename": "hugo.toml",
+  "content_count": 18,
+  "content_dir": "content/",
+  "tree_truncated": false,
+  "description": "Repository for project website",
+  "reason": "no_hugo_version_pin"
+ },
+ {
+  "repo": "hugozhu/blog2",
+  "bucket": "H",
+  "status": "kept",
+  "default_branch": "main",
+  "head_sha": "9e1ab8b0f2def74362ed2fe48ac94984a93bcb17",
+  "stars": 2,
+  "pushed_at": "2026-09-25T12:35:02Z",
+  "archived": false,
+  "config_filename": "hugo.toml",
+  "content_count": 415,
+  "content_dir": "content/",
+  "tree_truncated": false,
+  "description": "blog publisher with hugo",
+  "hugo_version_pin": "0.161.1",
+  "hugo_pin_quote": ".github/workflows/hugo.yaml: HUGO_VERSION: 0.161.1",
+  "why_real_content_site": "415 content files under content/; hugo.toml at repo root; 2 stars; pushed 2026-09-25T12:35:02Z; description: blog publisher with hugo"
+ },
+ {
+  "repo": "aymanbagabas/aymanbagabas.github.io",
+  "bucket": "H",
+  "status": "rejected",
+  "default_branch": "master",
+  "head_sha": "569b0d8cf96b1ecc2a60ede73700f556b19993bf",
+  "stars": 3,
+  "pushed_at": "2026-08-28T19:50:25Z",
+  "archived": false,
+  "config_filename": "hugo.toml",
+  "content_count": 14,
+  "content_dir": "content/",
+  "tree_truncated": false,
+  "description": "Personal website",
+  "reason": "no_hugo_version_pin"
+ },
+ {
+  "repo": "crisperdue/prooftoys-site",
+  "bucket": "H",
+  "status": "rejected",
+  "default_branch": "master",
+  "head_sha": "9495b7e429205b326b12e1b68c2d39353f5517bc",
+  "stars": 1,
+  "pushed_at": "2026-03-30T05:32:35Z",
+  "archived": false,
+  "config_filename": "hugo.toml",
+  "content_count": 79,
+  "content_dir": "content/",
+  "tree_truncated": false,
+  "description": "Prooftoys web site (future http://prooftoys.org), pages without app code.",
+  "reason": "no_hugo_version_pin"
+ },
+ {
+  "repo": "MatinWood/matinwood.github.io",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "too_few_content_pages",
+  "detail": "8 content files under content/"
+ },
+ {
+  "repo": "jonkeane/jonkeane-woodworking",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "too_few_content_pages",
+  "detail": "1 content files under content/"
+ },
+ {
+  "repo": "cedadev/ceda-div-hugo-hinode",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "theme",
+  "detail": "CEDA Div website using Hugo static site generator and Hinode theme"
+ },
+ {
+  "repo": "eklavyagoyal/eklavyagoyal.github.io",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "too_few_content_pages",
+  "detail": "1 content files under content/"
+ },
+ {
+  "repo": "Xuan-Wang-Summer/Xuan-Wang-Summer.github.io",
+  "bucket": "H",
+  "status": "rejected",
+  "default_branch": "main",
+  "head_sha": "88d737621e67abb9cb5b533e2cf864e05fab42ce",
+  "stars": 0,
+  "pushed_at": "2024-10-19T21:02:58Z",
+  "archived": false,
+  "config_filename": "hugo.toml",
+  "content_count": 19,
+  "content_dir": "content/",
+  "tree_truncated": false,
+  "description": "",
+  "reason": "no_hugo_version_pin"
+ },
+ {
+  "repo": "brickcamp/site",
+  "bucket": "H",
+  "status": "kept",
+  "default_branch": "main",
+  "head_sha": "0ffda1aa61860f988acb07b76abc8e86a3f827f5",
+  "stars": 1,
+  "pushed_at": "2026-09-07T14:43:33Z",
+  "archived": false,
+  "config_filename": "hugo.toml",
+  "content_count": 265,
+  "content_dir": "content/",
+  "tree_truncated": false,
+  "description": "Dictionary of Brick Building Techniques",
+  "hugo_version_pin": "0.164.0",
+  "hugo_pin_quote": ".github/workflows/hugo.yaml: HUGO_VERSION: 0.164.0",
+  "why_real_content_site": "265 content files under content/; hugo.toml at repo root; 1 stars; pushed 2026-09-07T14:43:33Z; description: Dictionary of Brick Building Techniques"
+ },
+ {
+  "repo": "foreops/foreops",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "theme",
+  "detail": "theme.toml at root"
+ },
+ {
+  "repo": "QubiTO-team/qubito-website",
+  "bucket": "H",
+  "status": "kept",
+  "default_branch": "main",
+  "head_sha": "035b00301f8c2bcf7cad95cb53e43fca0580004d",
+  "stars": 3,
+  "pushed_at": "2026-09-24T13:13:49Z",
+  "archived": false,
+  "config_filename": "hugo.toml",
+  "content_count": 35,
+  "content_dir": "content/",
+  "tree_truncated": false,
+  "description": "The official repository for the QubiTO website",
+  "hugo_version_pin": "0.124.0",
+  "hugo_pin_quote": "netlify.toml: HUGO_VERSION = \"0.124.0\"",
+  "why_real_content_site": "35 content files under content/; hugo.toml at repo root; 3 stars; pushed 2026-09-24T13:13:49Z; description: The official repository for the QubiTO website"
+ },
+ {
+  "repo": "cedricbouffard/tempete",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "too_few_content_pages",
+  "detail": "4 content files under content/"
+ },
+ {
+  "repo": "Nodal-Works/nodal_homepage",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "theme",
+  "detail": "theme.toml at root"
+ },
+ {
+  "repo": "monica-m-ps/monica-m-ps.github.io",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "too_few_content_pages",
+  "detail": "5 content files under content/"
+ },
+ {
+  "repo": "lwmacct/260812-hugo-docs",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "docs_for_dev_tool",
+  "detail": ""
+ },
+ {
+  "repo": "FernieTech/fernietech.github.io",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "too_few_content_pages",
+  "detail": "0 content files under content/"
+ },
+ {
+  "repo": "rpsadarangani/hugo-terminal-theme",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "theme",
+  "detail": "A minimal, terminal-inspired Hugo theme with dark/light mode"
+ },
+ {
+  "repo": "bored002/newsblur_export_saved_stories_python",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "no_gemfile_lock"
+ },
+ {
+  "repo": "cmahnke/kinderbuecher",
+  "bucket": "H",
+  "status": "kept",
+  "default_branch": "main",
+  "head_sha": "66e527219ef30b2972e8deafe76216d2b0d74d89",
+  "stars": 0,
+  "pushed_at": "2026-09-24T17:45:38Z",
+  "archived": false,
+  "config_filename": "hugo.toml",
+  "content_count": 27,
+  "content_dir": "content/",
+  "tree_truncated": false,
+  "description": "",
+  "hugo_version_pin": "0.166.0",
+  "hugo_pin_quote": ".github/workflows/gh-pages.yml: HUGO_VERSION: 0.166.0",
+  "why_real_content_site": "27 content files under content/; hugo.toml at repo root; 0 stars; pushed 2026-09-24T17:45:38Z; description: "
+ },
+ {
+  "repo": "HarrisonBubbles/website",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "too_few_content_pages",
+  "detail": "5 content files under content/"
+ },
+ {
+  "repo": "mcsrainbow/mcsrainbow.github.io",
+  "bucket": "H",
+  "status": "rejected",
+  "default_branch": "main",
+  "head_sha": "4d7c3ab7b356e9aaf50864a94b2f8b82536770f3",
+  "stars": 0,
+  "pushed_at": "2026-09-22T07:59:07Z",
+  "archived": false,
+  "config_filename": "hugo.toml",
+  "content_count": 86,
+  "content_dir": "content/",
+  "tree_truncated": false,
+  "description": "",
+  "reason": "no_hugo_version_pin"
+ },
+ {
+  "repo": "nofear195/nofear195.github.io",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "stale_no_window_possible",
+  "detail": "pushed_at=2024-06-23T06:37:15Z"
+ },
+ {
+  "repo": "ginamc/wordsbydesign",
+  "bucket": "H",
+  "status": "kept",
+  "default_branch": "main",
+  "head_sha": "cef2e741b3971c0c4634e1e7af48a4bee2d6539c",
+  "stars": 1,
+  "pushed_at": "2026-09-19T11:51:51Z",
+  "archived": false,
+  "config_filename": "hugo.toml",
+  "content_count": 11,
+  "content_dir": "content/",
+  "tree_truncated": false,
+  "description": "the blog",
+  "hugo_version_pin": "0.165.0",
+  "hugo_pin_quote": ".github/workflows/hugo.yml: HUGO_VERSION: 0.165.0",
+  "why_real_content_site": "11 content files under content/; hugo.toml at repo root; 1 stars; pushed 2026-09-19T11:51:51Z; description: the blog"
+ },
+ {
+  "repo": "pratclot/website",
+  "bucket": "H",
+  "status": "kept",
+  "default_branch": "master",
+  "head_sha": "78b614c4283d2cb990167f46778fb346a13654c9",
+  "stars": 0,
+  "pushed_at": "2026-09-05T14:57:26Z",
+  "archived": false,
+  "config_filename": "hugo.toml",
+  "content_count": 19,
+  "content_dir": "content/",
+  "tree_truncated": false,
+  "description": "",
+  "hugo_version_pin": "0.147.5",
+  "hugo_pin_quote": ".github/workflows/hugo.yaml: HUGO_VERSION: 0.147.5",
+  "why_real_content_site": "19 content files under content/; hugo.toml at repo root; 0 stars; pushed 2026-09-05T14:57:26Z; description: "
+ },
+ {
+  "repo": "forkedReminisce/Note_Aggregate",
+  "bucket": "H",
+  "status": "rejected",
+  "default_branch": "main",
+  "head_sha": "2ecf4390c12172119e79a1e52f8c652804ce051e",
+  "stars": 0,
+  "pushed_at": "2026-09-21T01:33:41Z",
+  "archived": false,
+  "config_filename": "hugo.toml",
+  "content_count": 87,
+  "content_dir": "content/",
+  "tree_truncated": false,
+  "description": "The place to format and organize my notes",
+  "reason": "no_hugo_version_pin"
+ },
+ {
+  "repo": "felix-red-panda/felix-red-panda.github.io",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "too_few_content_pages",
+  "detail": "3 content files under content/"
+ },
+ {
+  "repo": "Inturious-Labs/sundayblender",
+  "bucket": "H",
+  "status": "rejected",
+  "default_branch": "main",
+  "head_sha": "1f7c7ca8a6aa46bcf0b2262939ebcaa1db7ece9a",
+  "stars": 1,
+  "pushed_at": "2026-09-19T10:44:43Z",
+  "archived": false,
+  "config_filename": "hugo.toml",
+  "content_count": 66,
+  "content_dir": "content/",
+  "tree_truncated": false,
+  "description": "weekly news digest for curious kids aged 8~15 to catch up on tech, global affairs, nature, science, environment, culture, art and history",
+  "reason": "no_hugo_version_pin"
+ },
+ {
+  "repo": "Redcozmo/hugo-coder-josselingiffard.fr",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "stale_no_window_possible",
+  "detail": "pushed_at=2024-06-10T08:29:28Z"
+ },
+ {
+  "repo": "dgatland/dgatland.github.io",
+  "bucket": "H",
+  "status": "kept",
+  "default_branch": "main",
+  "head_sha": "031a4c098aa3d4ecf0380bf2c245b73f097e007b",
+  "stars": 0,
+  "pushed_at": "2025-06-26T08:17:36Z",
+  "archived": false,
+  "config_filename": "hugo.toml",
+  "content_count": 17,
+  "content_dir": "content/",
+  "tree_truncated": false,
+  "description": "A portfolio website about my experience.",
+  "hugo_version_pin": "0.131.0",
+  "hugo_pin_quote": ".github/workflows/hugo.yaml: HUGO_VERSION: 0.131.0",
+  "why_real_content_site": "17 content files under content/; hugo.toml at repo root; 0 stars; pushed 2025-06-26T08:17:36Z; description: A portfolio website about my experience."
+ },
+ {
+  "repo": "mishoko/blog",
+  "bucket": "H",
+  "status": "rejected",
+  "default_branch": "main",
+  "head_sha": "207c701af25c93dfaca72792685cfde7fa8d744a",
+  "stars": 0,
+  "pushed_at": "2025-12-08T09:50:10Z",
+  "archived": false,
+  "config_filename": "hugo.toml",
+  "content_count": 14,
+  "content_dir": "content/",
+  "tree_truncated": false,
+  "description": "",
+  "reason": "no_hugo_version_pin"
+ },
+ {
+  "repo": "first10forward/f10f-spa",
+  "bucket": "H",
+  "status": "kept",
+  "default_branch": "main",
+  "head_sha": "af0943048b5529ab97a119b64c4010609d404f87",
+  "stars": 0,
+  "pushed_at": "2026-09-20T16:24:33Z",
+  "archived": false,
+  "config_filename": "hugo.toml",
+  "content_count": 12,
+  "content_dir": "content/",
+  "tree_truncated": false,
+  "description": "First10Forward website",
+  "hugo_version_pin": "0.148.1",
+  "hugo_pin_quote": ".github/workflows/azure-static-web-apps-witty-ocean-0431acc0f.yml: hugo-version: '0.148.1'",
+  "why_real_content_site": "12 content files under content/; hugo.toml at repo root; 0 stars; pushed 2026-09-20T16:24:33Z; description: First10Forward website"
+ },
+ {
+  "repo": "camurriusu/website",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "too_few_content_pages",
+  "detail": "0 content files under content/"
+ },
+ {
+  "repo": "ApptrixAI/www.apptrix.org",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "too_few_content_pages",
+  "detail": "6 content files under content/"
+ },
+ {
+  "repo": "chrispyme/chrispy.me",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "too_few_content_pages",
+  "detail": "5 content files under content/"
+ },
+ {
+  "repo": "BastelColor/homepage",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "too_few_content_pages",
+  "detail": "0 content files under content/"
+ },
+ {
+  "repo": "hamsterthon/hamsterthon.github.io",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "stale_no_window_possible",
+  "detail": "pushed_at=2024-08-16T06:05:48Z"
+ },
+ {
+  "repo": "EhsanAramide/ehsanaramide.github.io",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "stale_no_window_possible",
+  "detail": "pushed_at=2024-04-03T18:54:57Z"
+ },
+ {
+  "repo": "coumarane/iamcoumar",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "too_few_content_pages",
+  "detail": "6 content files under content/"
+ },
+ {
+  "repo": "hybridgroup/yzma-site",
+  "bucket": "H",
+  "status": "kept",
+  "default_branch": "main",
+  "head_sha": "ddbe520d244cfb6ca7a8d762f96d3dde4327682f",
+  "stars": 0,
+  "pushed_at": "2026-09-24T13:00:00Z",
+  "archived": false,
+  "config_filename": "hugo.toml",
+  "content_count": 49,
+  "content_dir": "content/",
+  "tree_truncated": false,
+  "description": "Web site for yzma",
+  "hugo_version_pin": "0.164.0",
+  "hugo_pin_quote": "netlify.toml: HUGO_VERSION = \"0.164.0\"",
+  "why_real_content_site": "49 content files under content/; hugo.toml at repo root; 0 stars; pushed 2026-09-24T13:00:00Z; description: Web site for yzma"
+ },
+ {
+  "repo": "asungy/blog",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "too_few_content_pages",
+  "detail": "8 content files under content/"
+ },
+ {
+  "repo": "tedKozub/morava_blog",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "stale_no_window_possible",
+  "detail": "pushed_at=2024-01-28T18:36:52Z"
+ },
+ {
+  "repo": "CyWreck/CyWreck.github.io",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "stale_no_window_possible",
+  "detail": "pushed_at=2024-07-11T10:40:07Z"
+ },
+ {
+  "repo": "Omenogor01/SammyMailBlog",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "too_few_content_pages",
+  "detail": "8 content files under content/"
+ },
+ {
+  "repo": "j2gl/j2gl.github.io",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "too_few_content_pages",
+  "detail": "6 content files under content/"
+ },
+ {
+  "repo": "ridvan-cln/ridvanacilan.de",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "too_few_content_pages",
+  "detail": "4 content files under content/"
+ },
+ {
+  "repo": "steady-space/steadyspace",
+  "bucket": "H",
+  "status": "rejected",
+  "default_branch": "main",
+  "head_sha": "82b008e8828b27142375828c4975c21fe16260d6",
+  "stars": 1,
+  "pushed_at": "2025-11-13T18:32:12Z",
+  "archived": false,
+  "config_filename": "hugo.toml",
+  "content_count": 116,
+  "content_dir": "content/",
+  "tree_truncated": false,
+  "description": "a calming Hugo site for steadyspace.net",
+  "reason": "no_hugo_version_pin"
+ },
+ {
+  "repo": "pcm9881/hugo-jindo",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "stale_no_window_possible",
+  "detail": "pushed_at=2024-02-19T06:22:43Z"
+ },
+ {
+  "repo": "qinmenghua/hugo-theme-warmpaper",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "theme",
+  "detail": "A warm, Claude-inspired Hugo blog theme with graph paper background."
+ },
+ {
+  "repo": "ChenGou-zheng/ChenGou-zheng.github.io",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "monorepo",
+  "detail": "site config nested at hugo/hugo.toml"
+ },
+ {
+  "repo": "DataLabTechTV/datalabtechtv.github.io",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "monorepo",
+  "detail": "site config nested at config/_default/hugo.toml"
+ },
+ {
+  "repo": "JCornand/VeilleCyber_AyzzeurV2",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "monorepo",
+  "detail": "site config nested at config/_default/hugo.toml"
+ },
+ {
+  "repo": "MaximoMachado/personal-website-hugo",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "monorepo",
+  "detail": "site config nested at config/_default/hugo.toml"
+ },
+ {
+  "repo": "diecasting/alucastor.github.io",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "monorepo",
+  "detail": "site config nested at config/_default/hugo.toml"
+ },
+ {
+  "repo": "hbstack/syntax-highlighting",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "too_few_content_pages",
+  "detail": "0 content files under content/"
+ },
+ {
+  "repo": "smithjw/smithjw.github.io",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "stale_no_window_possible",
+  "detail": "pushed_at=2023-07-25T23:46:51Z"
+ },
+ {
+  "repo": "StupidYoshiaki/StupidYoshiaki.github.io",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "monorepo",
+  "detail": "site config nested at hugo_blog/hugo.toml"
+ },
+ {
+  "repo": "Toumy24/Toumy24-Blog",
+  "bucket": "H",
+  "status": "rejected",
+  "default_branch": "main",
+  "head_sha": "cba2816f19c72f2a2aad35576676ab1fc4fec25a",
+  "stars": 0,
+  "pushed_at": "2026-05-13T19:26:56Z",
+  "archived": false,
+  "config_filename": "hugo.toml",
+  "content_count": 56,
+  "content_dir": "content/",
+  "tree_truncated": false,
+  "description": "\u535a\u5ba2\u4e3b\u7ad9",
+  "reason": "no_hugo_version_pin"
+ },
+ {
+  "repo": "vmkteam/labs",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "too_few_content_pages",
+  "detail": "8 content files under content/"
+ },
+ {
+  "repo": "rkoripalli/blog",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "too_few_content_pages",
+  "detail": "3 content files under content/"
+ },
+ {
+  "repo": "CRaC/crac.github.io",
+  "bucket": "H",
+  "status": "kept",
+  "default_branch": "main",
+  "head_sha": "244cba66a087b9f6865d9d473778017ae9b501a5",
+  "stars": 0,
+  "pushed_at": "2026-09-22T11:46:23Z",
+  "archived": false,
+  "config_filename": "hugo.toml",
+  "content_count": 20,
+  "content_dir": "content/",
+  "tree_truncated": false,
+  "description": "Sources of the crac.org website",
+  "hugo_version_pin": "0.165.0",
+  "hugo_pin_quote": ".github/workflows/hugo.yaml: HUGO_VERSION: 0.165.0",
+  "why_real_content_site": "20 content files under content/; hugo.toml at repo root; 0 stars; pushed 2026-09-22T11:46:23Z; description: Sources of the crac.org website"
+ },
+ {
+  "repo": "bakanaouji/bakanaouji.github.io",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "monorepo",
+  "detail": "site config nested at config/_default/hugo.toml"
+ },
+ {
+  "repo": "zpy2001/zpy2001.github.io",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "stale_no_window_possible",
+  "detail": "pushed_at=2024-06-24T01:22:18Z"
+ },
+ {
+  "repo": "xrf-9527/devflow-ai",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "monorepo",
+  "detail": "site config nested at config/_default/hugo.toml"
+ },
+ {
+  "repo": "mbsimulations/mbaehler.ch",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "monorepo",
+  "detail": "site config nested at config/_default/hugo.toml"
+ },
+ {
+  "repo": "anvaplus/hugo-blog-example",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "starter_template_boilerplate",
+  "detail": ""
+ },
+ {
+  "repo": "insipid/insipid.github.com",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "too_few_content_pages",
+  "detail": "3 content files under content/"
+ },
+ {
+  "repo": "twistors105/twistors105.github.io",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "too_few_content_pages",
+  "detail": "3 content files under content/"
+ },
+ {
+  "repo": "rohimoz28/rohimoz28.github.io",
+  "bucket": "H",
+  "status": "rejected",
+  "default_branch": "main",
+  "head_sha": "f18c6575a9b06812ffe503880192d9da30260b7c",
+  "stars": 0,
+  "pushed_at": "2025-04-25T02:48:01Z",
+  "archived": false,
+  "config_filename": "hugo.toml",
+  "content_count": 17,
+  "content_dir": "content/",
+  "tree_truncated": false,
+  "description": "Resume",
+  "reason": "no_hugo_version_pin"
+ },
+ {
+  "repo": "falco-talon/falco-talon.github.io",
+  "bucket": "H",
+  "status": "kept",
+  "default_branch": "main",
+  "head_sha": "953180c3fc46dc473d82212d1eebf337dca39bf2",
+  "stars": 0,
+  "pushed_at": "2026-06-15T16:45:10Z",
+  "archived": false,
+  "config_filename": "hugo.toml",
+  "content_count": 11,
+  "content_dir": "content/",
+  "tree_truncated": false,
+  "description": "A custom response engine for Falco",
+  "hugo_version_pin": "0.118.2",
+  "hugo_pin_quote": ".github/workflows/docs.yml: HUGO_VERSION: 0.118.2",
+  "why_real_content_site": "11 content files under content/; hugo.toml at repo root; 0 stars; pushed 2026-06-15T16:45:10Z; description: A custom response engine for Falco"
+ },
+ {
+  "repo": "kikoso/lopez-manas",
+  "bucket": "H",
+  "status": "rejected",
+  "default_branch": "main",
+  "head_sha": "1c0a68554a868a61535b2ced008b27b3d9821566",
+  "stars": 0,
+  "pushed_at": "2026-09-02T09:50:50Z",
+  "archived": false,
+  "config_filename": "hugo.toml",
+  "content_count": 111,
+  "content_dir": "content/",
+  "tree_truncated": false,
+  "description": "lopez-manas website",
+  "reason": "no_hugo_version_pin"
+ },
+ {
+  "repo": "meganblibrarian/PhDWebsite",
+  "bucket": "H",
+  "status": "kept",
+  "default_branch": "main",
+  "head_sha": "98b6873caf3ecab0da66c92a09b7cbc59b93b5b3",
+  "stars": 0,
+  "pushed_at": "2026-07-06T18:40:55Z",
+  "archived": false,
+  "config_filename": "hugo.toml",
+  "content_count": 39,
+  "content_dir": "content/",
+  "tree_truncated": false,
+  "description": "",
+  "hugo_version_pin": "0.150.0",
+  "hugo_pin_quote": "netlify.toml: HUGO_VERSION = \"0.150.0\"",
+  "why_real_content_site": "39 content files under content/; hugo.toml at repo root; 0 stars; pushed 2026-07-06T18:40:55Z; description: "
+ },
+ {
+  "repo": "yagizdemir/ygzdmr.github.io",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "too_few_content_pages",
+  "detail": "1 content files under content/"
+ },
+ {
+  "repo": "kozmotronik/kozmotronik-blog",
+  "bucket": "H",
+  "status": "rejected",
+  "default_branch": "main",
+  "head_sha": "bf3f5e508f825b3f3e4ac5cbd02bb124acf5938a",
+  "stars": 0,
+  "pushed_at": "2024-12-20T20:39:27Z",
+  "archived": false,
+  "config_filename": "hugo.toml",
+  "content_count": 31,
+  "content_dir": "content/",
+  "tree_truncated": false,
+  "description": "",
+  "reason": "no_hugo_version_pin"
+ },
+ {
+  "repo": "7emoutyX/blog",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "stale_no_window_possible",
+  "detail": "pushed_at=2024-09-22T00:48:42Z"
+ },
+ {
+  "repo": "mlvin/littleroyals-website",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "stale_no_window_possible",
+  "detail": "pushed_at=2024-07-30T20:38:10Z"
+ },
+ {
+  "repo": "LancelotGD/LancelotGD.github.io",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "stale_no_window_possible",
+  "detail": "pushed_at=2024-03-08T04:47:29Z"
+ },
+ {
+  "repo": "terrancebrown/countingbeans",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "too_few_content_pages",
+  "detail": "0 content files under content/"
+ },
+ {
+  "repo": "paipaiio/paipaiio.github.io",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "too_few_content_pages",
+  "detail": "7 content files under content/"
+ },
+ {
+  "repo": "lutzcc1/mysite",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "too_few_content_pages",
+  "detail": "1 content files under content/"
+ },
+ {
+  "repo": "jonbertelsen/demoportfolio",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "too_few_content_pages",
+  "detail": "5 content files under content/"
+ },
+ {
+  "repo": "saifrahmed/ssg",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "too_few_content_pages",
+  "detail": "2 content files under content/"
+ },
+ {
+  "repo": "brigadecore/brigade",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "stale_no_window_possible",
+  "detail": "pushed_at=2023-03-07T03:41:43Z"
+ },
+ {
+  "repo": "xianmin/hugo-theme-jane",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "theme",
+  "detail": "A readable & concise theme for Hugo, color schemes to choose, easy to personalize. Working well since 2018."
+ },
+ {
+  "repo": "joshed-io/reveal-hugo",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "theme",
+  "detail": "\ud83d\udcfd\ufe0f Create rich HTML-based presentations with Hugo and Reveal.js"
+ },
+ {
+  "repo": "flamego/flamego",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "monorepo",
+  "detail": "site config nested at docs/hugo.yaml"
+ },
+ {
+  "repo": "MunifTanjim/minimo",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "theme",
+  "detail": "Minimo - Minimalist theme for Hugo"
+ },
+ {
+  "repo": "lxndrblz/anatole",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "theme",
+  "detail": "Anatole is a minimalistic two-column theme for Hugo."
+ },
+ {
+  "repo": "kubeflow/website",
+  "bucket": "H",
+  "status": "kept",
+  "default_branch": "master",
+  "head_sha": "cecdc57aecff8af8b74b2a544ee0e7b1729d0c9e",
+  "stars": 188,
+  "pushed_at": "2026-09-24T19:45:09Z",
+  "archived": false,
+  "config_filename": "config.toml",
+  "content_count": 187,
+  "content_dir": "content/",
+  "tree_truncated": false,
+  "description": "Kubeflow Website",
+  "hugo_version_pin": "0.124.1",
+  "hugo_pin_quote": "netlify.toml: HUGO_VERSION = \"0.124.1\"",
+  "why_real_content_site": "187 content files under content/; config.toml at repo root; 188 stars; pushed 2026-09-24T19:45:09Z; description: Kubeflow Website"
+ },
+ {
+  "repo": "kubernetes-sigs/jobset",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "monorepo",
+  "detail": "site config nested at hack/genref/config.yaml"
+ },
+ {
+  "repo": "karlgroves/overlayfactsheet",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "too_few_content_pages",
+  "detail": "0 content files under content/"
+ },
+ {
+  "repo": "o3de/o3de.org",
+  "bucket": "H",
+  "status": "kept",
+  "default_branch": "development",
+  "head_sha": "ff8e59ad1a4b5b42b44242c9128a4b26860299d7",
+  "stars": 104,
+  "pushed_at": "2026-09-22T23:01:46Z",
+  "archived": false,
+  "config_filename": "hugo.toml",
+  "content_count": 967,
+  "content_dir": "content/",
+  "tree_truncated": false,
+  "description": "The O3DE website",
+  "hugo_version_pin": "0.151.0",
+  "hugo_pin_quote": "netlify.toml: HUGO_VERSION = \"0.151.0\"",
+  "why_real_content_site": "967 content files under content/; hugo.toml at repo root; 104 stars; pushed 2026-09-22T23:01:46Z; description: The O3DE website"
+ },
+ {
+  "repo": "keptn/lifecycle-toolkit",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "no_config_found"
+ },
+ {
+  "repo": "thegetty/quire-docs",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "docs_for_dev_tool",
+  "detail": "Documentation for Quire, a multiformat publishing framework"
+ },
+ {
+  "repo": "okkur/syna",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "theme",
+  "detail": "Highly customizable open source theme for Hugo based static websites"
+ },
+ {
+  "repo": "linkerd/website",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "monorepo",
+  "detail": "site config nested at linkerd.io/config/_default/hugo.yaml"
+ },
+ {
+  "repo": "forrtproject/forrtproject.github.io",
+  "bucket": "H",
+  "status": "rejected",
+  "default_branch": "main",
+  "head_sha": "e4ba9519094dafd7f19e9859e517749e4c1ce00b",
+  "stars": 42,
+  "pushed_at": "2026-09-25T00:13:45Z",
+  "archived": false,
+  "config_filename": "config.toml",
+  "content_count": 2974,
+  "content_dir": "content/",
+  "tree_truncated": false,
+  "description": "FORRT Website",
+  "reason": "no_hugo_version_pin"
+ },
+ {
+  "repo": "mdlayher/corerad",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "monorepo",
+  "detail": "site config nested at website/config.toml"
+ },
+ {
+  "repo": "statichunt/geeky-hugo",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "theme",
+  "detail": "Geeky is a Personal Hugo blog theme focused on high speed. Geeky is fully responsive, Superfast, and powered by Bootstrap v5."
+ },
+ {
+  "repo": "bep/hugo-starter-tailwind-basic",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "stale_no_window_possible",
+  "detail": "pushed_at=2024-06-24T16:58:17Z"
+ },
+ {
+  "repo": "nushackers/nushackers-site",
+  "bucket": "H",
+  "status": "kept",
+  "default_branch": "master",
+  "head_sha": "6db375ac8d9b6e821ac9a6d7b8f513f51374c637",
+  "stars": 49,
+  "pushed_at": "2026-09-17T14:38:15Z",
+  "archived": false,
+  "config_filename": "config.toml",
+  "content_count": 524,
+  "content_dir": "content/",
+  "tree_truncated": false,
+  "description": "NUS Hackers website",
+  "hugo_version_pin": "0.111.3",
+  "hugo_pin_quote": "netlify.toml: HUGO_VERSION = \"0.111.3\"",
+  "why_real_content_site": "524 content files under content/; config.toml at repo root; 49 stars; pushed 2026-09-17T14:38:15Z; description: NUS Hackers website"
+ },
+ {
+  "repo": "WingLim/hugo-tania",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "stale_no_window_possible",
+  "detail": "pushed_at=2023-02-19T07:50:27Z"
+ },
+ {
+  "repo": "input-output-hk/dev-handbook",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "stale_no_window_possible",
+  "detail": "pushed_at=2019-02-21T21:01:51Z"
+ },
+ {
+  "repo": "eladg/ffmpeg-by-example",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "starter_template_boilerplate",
+  "detail": ""
+ },
+ {
+  "repo": "hkgaajau/yellow-blue-map",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "monorepo",
+  "detail": "site config nested at hugo/config/_default/config.yaml"
+ },
+ {
+  "repo": "aws/eks-news",
+  "bucket": "H",
+  "status": "kept",
+  "default_branch": "main",
+  "head_sha": "25319170dc84e52e46bd8dea671ff0f59796beb6",
+  "stars": 46,
+  "pushed_at": "2026-05-05T15:37:13Z",
+  "archived": false,
+  "config_filename": "config.toml",
+  "content_count": 80,
+  "content_dir": "content/",
+  "tree_truncated": false,
+  "description": "The latest and greatest on all things AWS Elastic Kubernetes Service, Kubernetes, and Cloud Native. Keeping up with what\u2019s happening so you can stay on top of this evolving space.",
+  "hugo_version_pin": "0.110.0",
+  "hugo_pin_quote": "netlify.toml: HUGO_VERSION = \"0.110.0\"",
+  "why_real_content_site": "80 content files under content/; config.toml at repo root; 46 stars; pushed 2026-05-05T15:37:13Z; description: The latest and greatest on all things AWS Elastic Kubernetes Service, Kubernetes, and Cloud Native. Keeping up with what\u2019s happening so you can stay on top of t"
+ },
+ {
+  "repo": "guangzhengli/hugo-theme-ladder",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "theme",
+  "detail": "A fast, clean Hugo theme | \u4e00\u4e2a\u7b80\u5355\u800c\u4f18\u96c5\u7684 hugo \u4e3b\u9898"
+ },
+ {
+  "repo": "scientific-python/blog.scientific-python.org",
+  "bucket": "H",
+  "status": "kept",
+  "default_branch": "main",
+  "head_sha": "53515d78dcfddbb2d212d6e3ed555062bb4dbeea",
+  "stars": 30,
+  "pushed_at": "2026-08-26T23:11:06Z",
+  "archived": false,
+  "config_filename": "config.yaml",
+  "content_count": 93,
+  "content_dir": "content/",
+  "tree_truncated": false,
+  "description": "Community blog posts on scientific-python.org",
+  "hugo_version_pin": "0.141.0",
+  "hugo_pin_quote": "netlify.toml: HUGO_VERSION = \"0.141.0\"",
+  "why_real_content_site": "93 content files under content/; config.yaml at repo root; 30 stars; pushed 2026-08-26T23:11:06Z; description: Community blog posts on scientific-python.org"
+ },
+ {
+  "repo": "cncf/architecture",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "too_few_content_pages",
+  "detail": "9 content files under content/"
+ },
+ {
+  "repo": "Orbiter/academic-test",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "stale_no_window_possible",
+  "detail": "pushed_at=2019-05-17T20:18:02Z"
+ },
+ {
+  "repo": "sdlab-naist/website",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "monorepo",
+  "detail": "site config nested at config/_default/config.toml"
+ },
+ {
+  "repo": "kubermatic/docs",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "docs_for_dev_tool",
+  "detail": "Documentation for Kubermatic projects"
+ },
+ {
+  "repo": "thanos-community/thanos-operator",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "monorepo",
+  "detail": "site config nested at website/config/_default/hugo.toml"
+ },
+ {
+  "repo": "ncachanosky/Macro-with-Python",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "stale_no_window_possible",
+  "detail": "pushed_at=2021-05-25T21:27:22Z"
+ },
+ {
+  "repo": "kubesphere/dev-guide",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "no_config_found"
+ },
+ {
+  "repo": "simple-login/website",
+  "bucket": "H",
+  "status": "kept",
+  "default_branch": "master",
+  "head_sha": "6d7722365e4c850126fec3351b61450a3195eb4a",
+  "stars": 61,
+  "pushed_at": "2026-09-04T12:11:22Z",
+  "archived": false,
+  "config_filename": "config.yaml",
+  "content_count": 121,
+  "content_dir": "content/",
+  "tree_truncated": false,
+  "description": "SimpleLogin website - https://simplelogin.io",
+  "hugo_version_pin": "0.94.0",
+  "hugo_pin_quote": "netlify.toml: HUGO_VERSION = \"0.94.0\"",
+  "why_real_content_site": "121 content files under content/; config.yaml at repo root; 61 stars; pushed 2026-09-04T12:11:22Z; description: SimpleLogin website - https://simplelogin.io"
+ },
+ {
+  "repo": "ronv/lines",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "theme",
+  "detail": "Minimalist and simple theme for Hugo"
+ },
+ {
+  "repo": "dengyishuo/dengyishuo.github.com",
+  "bucket": "H",
+  "status": "kept",
+  "default_branch": "master",
+  "head_sha": "e29a77a30a142bd2f31a543c2907272f2bd57c14",
+  "stars": 61,
+  "pushed_at": "2026-09-01T05:16:22Z",
+  "archived": false,
+  "config_filename": "config.yaml",
+  "content_count": 117,
+  "content_dir": "content/",
+  "tree_truncated": false,
+  "description": "MatrixSpk's website",
+  "hugo_version_pin": "0.147.7",
+  "hugo_pin_quote": "netlify.toml: HUGO_VERSION = '0.147.7'",
+  "why_real_content_site": "117 content files under content/; config.yaml at repo root; 61 stars; pushed 2026-09-01T05:16:22Z; description: MatrixSpk's website"
+ },
+ {
+  "repo": "apache/celix-site",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "too_few_content_pages",
+  "detail": "0 content files under content/"
+ },
+ {
+  "repo": "pythonindia/inpycon2021",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "stale_no_window_possible",
+  "detail": "pushed_at=2022-04-12T08:41:34Z"
+ },
+ {
+  "repo": "nephio-project/docs",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "docs_for_dev_tool",
+  "detail": "User facing documentation and tutorials."
+ },
+ {
+  "repo": "rladies/rladies.github.io",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "monorepo",
+  "detail": "site config nested at config/_default/hugo.yaml"
+ },
+ {
+  "repo": "official-stockfish/stockfish-web",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "theme",
+  "detail": "theme.toml at root"
+ },
+ {
+  "repo": "sbstjn/68Keys.io",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "no_config_found"
+ },
+ {
+  "repo": "tekumara/notes",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "no_config_found"
+ },
+ {
+  "repo": "stackrox/bsidessf-2020-workshop",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "stale_no_window_possible",
+  "detail": "pushed_at=2022-05-19T01:12:46Z"
+ },
+ {
+  "repo": "navcoin/NavHub",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "stale_no_window_possible",
+  "detail": "pushed_at=2023-02-28T08:00:17Z"
+ },
+ {
+  "repo": "cis-ds/course-site",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "stale_no_window_possible",
+  "detail": "pushed_at=2022-11-30T19:17:50Z"
+ },
+ {
+  "repo": "crossplane/docs",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "docs_for_dev_tool",
+  "detail": "Repo for Crossplane documentation."
+ },
+ {
+  "repo": "jacobtomlinson/website",
+  "bucket": "H",
+  "status": "kept",
+  "default_branch": "master",
+  "head_sha": "30fd7be9a4ba793056f546871b1751886c70e603",
+  "stars": 27,
+  "pushed_at": "2026-08-11T12:43:03Z",
+  "archived": false,
+  "config_filename": "config.toml",
+  "content_count": 274,
+  "content_dir": "content/",
+  "tree_truncated": false,
+  "description": "The code that powers jacobtomlinson.dev",
+  "hugo_version_pin": "0.141.0",
+  "hugo_pin_quote": "netlify.toml: HUGO_VERSION = \"0.141.0\"",
+  "why_real_content_site": "274 content files under content/; config.toml at repo root; 27 stars; pushed 2026-08-11T12:43:03Z; description: The code that powers jacobtomlinson.dev"
+ },
+ {
+  "repo": "pyodide/pyodide-blog",
+  "bucket": "H",
+  "status": "kept",
+  "default_branch": "main",
+  "head_sha": "3ad57a6534f0a9597e0562bcb406ec12aaddc785",
+  "stars": 21,
+  "pushed_at": "2026-07-26T18:30:19Z",
+  "archived": false,
+  "config_filename": "config.yaml",
+  "content_count": 24,
+  "content_dir": "content/",
+  "tree_truncated": false,
+  "description": "The Pyodide blog  ",
+  "hugo_version_pin": "0.145.0",
+  "hugo_pin_quote": "netlify.toml: HUGO_VERSION = \"0.145.0\"",
+  "why_real_content_site": "24 content files under content/; config.yaml at repo root; 21 stars; pushed 2026-07-26T18:30:19Z; description: The Pyodide blog  "
+ },
+ {
+  "repo": "nicercode/EnvironmentalComputing",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "too_few_content_pages",
+  "detail": "1 content files under content/"
+ },
+ {
+  "repo": "sciencemesh/sciencemesh",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "stale_no_window_possible",
+  "detail": "pushed_at=2023-10-27T14:21:53Z"
+ },
+ {
+  "repo": "rackerlabs/technical-blog",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "stale_no_window_possible",
+  "detail": "pushed_at=2024-07-02T15:52:54Z"
+ },
+ {
+  "repo": "weecology/website",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "theme",
+  "detail": "theme.toml at root"
+ },
+ {
+  "repo": "chrisreddington/hugo-community",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "stale_no_window_possible",
+  "detail": "pushed_at=2023-04-05T21:56:57Z"
+ },
+ {
+  "repo": "slathrop/vue-hugo-netlify-spa-demo",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "stale_no_window_possible",
+  "detail": "pushed_at=2022-06-09T03:31:45Z"
+ },
+ {
+  "repo": "tenable/runterrascan.io",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "stale_no_window_possible",
+  "detail": "pushed_at=2023-10-05T02:50:04Z"
+ },
+ {
+  "repo": "statichunt/minilog-hugo",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "theme",
+  "detail": "Minilog is a free Blog template based on Bootstrap and powered by Hugo. It is a perfect fit for blogs, Lifestyle, Travel  Food, websites. It is a modern, fully responsive design and clean look."
+ },
+ {
+  "repo": "microsoft/Documentarian",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "monorepo",
+  "detail": "site config nested at Projects/Hugo/docsy-pwsh/config.yaml"
+ },
+ {
+  "repo": "okfde/codefor.de",
+  "bucket": "H",
+  "status": "kept",
+  "default_branch": "main",
+  "head_sha": "1e1e6ddbc9058ef260bde8fe8f726cc05b31c2ef",
+  "stars": 50,
+  "pushed_at": "2026-09-17T07:37:01Z",
+  "archived": false,
+  "config_filename": "config.yaml",
+  "content_count": 530,
+  "content_dir": "content/",
+  "tree_truncated": false,
+  "description": "The website at codefor.de",
+  "hugo_version_pin": "0.120.4",
+  "hugo_pin_quote": "netlify.toml: HUGO_VERSION = \"0.120.4\"",
+  "why_real_content_site": "530 content files under content/; config.yaml at repo root; 50 stars; pushed 2026-09-17T07:37:01Z; description: The website at codefor.de"
+ },
+ {
+  "repo": "zwbetz-gh/zwbetz",
+  "bucket": "H",
+  "status": "kept",
+  "default_branch": "master",
+  "head_sha": "53839a42ccb69a6d2c259aaf792e1894035b4ff2",
+  "stars": 16,
+  "pushed_at": "2026-09-05T18:23:45Z",
+  "archived": false,
+  "config_filename": "config.yaml",
+  "content_count": 228,
+  "content_dir": "content/",
+  "tree_truncated": false,
+  "description": "My personal site",
+  "hugo_version_pin": "0.131.0",
+  "hugo_pin_quote": "netlify.toml: HUGO_VERSION = \"0.131.0\"",
+  "why_real_content_site": "228 content files under content/; config.yaml at repo root; 16 stars; pushed 2026-09-05T18:23:45Z; description: My personal site"
+ },
+ {
+  "repo": "pytorch-ignite/pytorch-ignite.ai",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "too_few_content_pages",
+  "detail": "0 content files under content/"
+ },
+ {
+  "repo": "hartee/Portfolio2023",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "theme",
+  "detail": "theme.toml at root"
+ },
+ {
+  "repo": "solyg86/aurumeta",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "no_config_found"
+ },
+ {
+  "repo": "Bioconductor/BioC_template",
+  "bucket": "H",
+  "status": "kept",
+  "default_branch": "devel",
+  "head_sha": "67f216a19be1fc667cf84e4c7af5621ce270c3f9",
+  "stars": 3,
+  "pushed_at": "2025-08-28T14:06:00Z",
+  "archived": false,
+  "config_filename": "config.toml",
+  "content_count": 16,
+  "content_dir": "content/",
+  "tree_truncated": false,
+  "description": "",
+  "hugo_version_pin": "0.144.0",
+  "hugo_pin_quote": "netlify.toml: HUGO_VERSION = \"0.144.0\"",
+  "why_real_content_site": "16 content files under content/; config.toml at repo root; 3 stars; pushed 2025-08-28T14:06:00Z; description: "
+ },
+ {
+  "repo": "sambarnes/noir-by-example",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "stale_no_window_possible",
+  "detail": "pushed_at=2024-01-08T16:08:13Z"
+ },
+ {
+  "repo": "dsafc/dsafc",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "stale_no_window_possible",
+  "detail": "pushed_at=2023-06-10T21:00:13Z"
+ },
+ {
+  "repo": "psf/the-invisibles",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "theme",
+  "detail": "theme.toml at root"
+ },
+ {
+  "repo": "barklan/luabyexample",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "no_config_found"
+ },
+ {
+  "repo": "learnitmyway/learnitmyway-wesbite",
+  "bucket": "H",
+  "status": "kept",
+  "default_branch": "main",
+  "head_sha": "1ba2e11af7709e18244d7cf7862541a0c5f53bbf",
+  "stars": 17,
+  "pushed_at": "2026-06-14T19:28:46Z",
+  "archived": false,
+  "config_filename": "config.toml",
+  "content_count": 34,
+  "content_dir": "content/",
+  "tree_truncated": false,
+  "description": "My website ",
+  "hugo_version_pin": "0.147.9",
+  "hugo_pin_quote": "netlify.toml: HUGO_VERSION = \"0.147.9\"",
+  "why_real_content_site": "34 content files under content/; config.toml at repo root; 17 stars; pushed 2026-06-14T19:28:46Z; description: My website "
+ },
+ {
+  "repo": "chris-short/nomedium.dev",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "too_few_content_pages",
+  "detail": "0 content files under content/"
+ },
+ {
+  "repo": "regisphilibert/hugoGetApi",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "stale_no_window_possible",
+  "detail": "pushed_at=2020-10-06T06:53:21Z"
+ },
+ {
+  "repo": "jnsprnw/stones.computer",
+  "bucket": "H",
+  "status": "kept",
+  "default_branch": "master",
+  "head_sha": "fa4f4e22236861e9a66f103ca86be93bd176e3f9",
+  "stars": 12,
+  "pushed_at": "2026-01-20T20:18:59Z",
+  "archived": false,
+  "config_filename": "config.toml",
+  "content_count": 180,
+  "content_dir": "content/",
+  "tree_truncated": false,
+  "description": "Collection of resources about post-digital materiality compiled by Jonas and Paul.",
+  "hugo_version_pin": "0.80.0",
+  "hugo_pin_quote": "netlify.toml: HUGO_VERSION = \"0.80.0\"",
+  "why_real_content_site": "180 content files under content/; config.toml at repo root; 12 stars; pushed 2026-01-20T20:18:59Z; description: Collection of resources about post-digital materiality compiled by Jonas and Paul."
+ },
+ {
+  "repo": "antrea-io/website",
+  "bucket": "H",
+  "status": "kept",
+  "default_branch": "main",
+  "head_sha": "f9209bf663935edcab9bdd975aeb3bc64c730724",
+  "stars": 6,
+  "pushed_at": "2026-09-24T22:25:43Z",
+  "archived": false,
+  "config_filename": "config.yaml",
+  "content_count": 6244,
+  "content_dir": "content/",
+  "tree_truncated": false,
+  "description": "Source for the antrea.io website",
+  "hugo_version_pin": "0.88.1",
+  "hugo_pin_quote": "netlify.toml: HUGO_VERSION = \"0.88.1\"",
+  "why_real_content_site": "6244 content files under content/; config.yaml at repo root; 6 stars; pushed 2026-09-24T22:25:43Z; description: Source for the antrea.io website"
+ },
+ {
+  "repo": "johnhebron/portfolio-hugo",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "starter_template_boilerplate",
+  "detail": "Hugo template to host my portfolio site"
+ },
+ {
+  "repo": "kami93/SHpark",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "stale_no_window_possible",
+  "detail": "pushed_at=2024-08-29T05:15:26Z"
+ },
+ {
+  "repo": "Warzone2100/wz2100.net",
+  "bucket": "H",
+  "status": "kept",
+  "default_branch": "master",
+  "head_sha": "aeffff71f92f7b9be43c46319d0e70bd577f1218",
+  "stars": 11,
+  "pushed_at": "2026-09-20T15:59:11Z",
+  "archived": false,
+  "config_filename": "config.yaml",
+  "content_count": 361,
+  "content_dir": "content/",
+  "tree_truncated": false,
+  "description": "Web code for wz2100.net",
+  "hugo_version_pin": "0.71.1",
+  "hugo_pin_quote": "netlify.toml: HUGO_VERSION = \"0.71.1\"",
+  "why_real_content_site": "361 content files under content/; config.yaml at repo root; 11 stars; pushed 2026-09-20T15:59:11Z; description: Web code for wz2100.net"
+ },
+ {
+  "repo": "pdxrconf/pdxrconf.github.io",
+  "bucket": "H",
+  "status": "kept",
+  "default_branch": "newsite",
+  "head_sha": "f09c9dfe8877a4cf48fd039b09a1ddd8b7f2f7cd",
+  "stars": 21,
+  "pushed_at": "2026-09-23T00:30:22Z",
+  "archived": false,
+  "config_filename": "config.toml",
+  "content_count": 193,
+  "content_dir": "content/",
+  "tree_truncated": false,
+  "description": "Cascadia R Conf",
+  "hugo_version_pin": "0.62.2",
+  "hugo_pin_quote": "netlify.toml: HUGO_VERSION = \"0.62.2\"",
+  "why_real_content_site": "193 content files under content/; config.toml at repo root; 21 stars; pushed 2026-09-23T00:30:22Z; description: Cascadia R Conf"
+ },
+ {
+  "repo": "rogue-hack-lab/rogue-hack-lab.github.io",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "no_config_found"
+ },
+ {
+  "repo": "qdzhang/hugo-notepadium-mod",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "stale_no_window_possible",
+  "detail": "pushed_at=2022-05-30T02:31:36Z"
+ },
+ {
+  "repo": "Project-Gutenberg/nCovMemory-Web",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "stale_no_window_possible",
+  "detail": "pushed_at=2023-03-06T11:13:35Z"
+ },
+ {
+  "repo": "palladius/palladius.github.io",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "monorepo",
+  "detail": "site config nested at .themes/feeling-responsive/_config.yml"
+ },
+ {
+  "repo": "STATforU/STATforU.github.source",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "stale_no_window_possible",
+  "detail": "pushed_at=2021-05-12T15:11:09Z"
+ },
+ {
+  "repo": "arborchurch/arbor-web",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "monorepo",
+  "detail": "site config nested at site/config.yaml"
+ },
+ {
+  "repo": "odhyp/hugo-tailwindcss-starter",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "theme",
+  "detail": ":rocket: Starter project for Hugo and TailwindCSS v4.1, ready to deploy in Vercel, GitHub Pages, Cloudflare Pages, and Netlify"
+ },
+ {
+  "repo": "rafik8/istio-workshop",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "stale_no_window_possible",
+  "detail": "pushed_at=2023-03-03T16:54:10Z"
+ },
+ {
+  "repo": "snowplow-archive/composable-cdp-with-predictive-ml-modeling-accelerator",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "stale_no_window_possible",
+  "detail": "pushed_at=2023-07-18T10:16:53Z"
+ },
+ {
+  "repo": "covid19tracing/covid-19-tracing",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "stale_no_window_possible",
+  "detail": "pushed_at=2021-03-04T12:00:42Z"
+ },
+ {
+  "repo": "olgabot/olgabotvinnik.com",
+  "bucket": "H",
+  "status": "kept",
+  "default_branch": "master",
+  "head_sha": "c1421eb24305dcb9b42c0e4120dc66c066755fdc",
+  "stars": 0,
+  "pushed_at": "2024-11-15T22:21:46Z",
+  "archived": false,
+  "config_filename": "config.toml",
+  "content_count": 65,
+  "content_dir": "content/",
+  "tree_truncated": false,
+  "description": "Personal website",
+  "hugo_version_pin": "0.134.3",
+  "hugo_pin_quote": "netlify.toml: HUGO_VERSION = \"0.134.3\"",
+  "why_real_content_site": "65 content files under content/; config.toml at repo root; 0 stars; pushed 2024-11-15T22:21:46Z; description: Personal website"
+ },
+ {
+  "repo": "kubereboot/website",
+  "bucket": "H",
+  "status": "kept",
+  "default_branch": "main",
+  "head_sha": "8a150f31f44a2787d822e8820a428405b8f1283a",
+  "stars": 5,
+  "pushed_at": "2026-09-10T21:12:16Z",
+  "archived": false,
+  "config_filename": "hugo.yaml",
+  "content_count": 10,
+  "content_dir": "content/",
+  "tree_truncated": false,
+  "description": "Website for the kured project",
+  "hugo_version_pin": "0.121.1",
+  "hugo_pin_quote": "netlify.toml: HUGO_VERSION = \"0.121.1\"",
+  "why_real_content_site": "10 content files under content/; hugo.yaml at repo root; 5 stars; pushed 2026-09-10T21:12:16Z; description: Website for the kured project"
+ },
+ {
+  "repo": "EVERSE-ResearchSoftware/EVERSE-ResearchSoftware.github.io",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "no_gemfile_lock"
+ },
+ {
+  "repo": "joshed-io/estelle-and-josh",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "stale_no_window_possible",
+  "detail": "pushed_at=2020-05-25T21:02:04Z"
+ },
+ {
+  "repo": "ZhaoqiangCn/BlogHugoLoveit",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "stale_no_window_possible",
+  "detail": "pushed_at=2023-07-05T13:46:23Z"
+ },
+ {
+  "repo": "cruiurc/hiker",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "stale_no_window_possible",
+  "detail": "pushed_at=2023-02-23T00:49:09Z"
+ },
+ {
+  "repo": "spotlightpa/poor-richard",
+  "bucket": "H",
+  "status": "kept",
+  "default_branch": "master",
+  "head_sha": "84f2089af51158b8be0f2701b55ce1b8bb1cf0ea",
+  "stars": 30,
+  "pushed_at": "2026-09-25T08:57:04Z",
+  "archived": false,
+  "config_filename": "config.toml",
+  "content_count": 5232,
+  "content_dir": "content/",
+  "tree_truncated": false,
+  "description": "Static site for Spotlight PA",
+  "hugo_version_pin": "0.165.0",
+  "hugo_pin_quote": "netlify.toml: HUGO_VERSION = \"0.165.0\"",
+  "why_real_content_site": "5232 content files under content/; config.toml at repo root; 30 stars; pushed 2026-09-25T08:57:04Z; description: Static site for Spotlight PA"
+ },
+ {
+  "repo": "ucfai/ucfai",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "monorepo",
+  "detail": "site config nested at config/_default/config.toml"
+ },
+ {
+  "repo": "anapaulagomes/onde-tem",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "stale_no_window_possible",
+  "detail": "pushed_at=2020-05-14T19:55:05Z"
+ },
+ {
+  "repo": "codemeta/codemeta.github.io",
+  "bucket": "H",
+  "status": "kept",
+  "default_branch": "master",
+  "head_sha": "19b326c307642d396ea40d12b09408d2ad722004",
+  "stars": 5,
+  "pushed_at": "2026-09-12T15:14:15Z",
+  "archived": false,
+  "config_filename": "config.toml",
+  "content_count": 12,
+  "content_dir": "content/",
+  "tree_truncated": false,
+  "description": "CodeMeta web site",
+  "hugo_version_pin": "0.37.1",
+  "hugo_pin_quote": "netlify.toml: HUGO_VERSION = \"0.37.1\"",
+  "why_real_content_site": "12 content files under content/; config.toml at repo root; 5 stars; pushed 2026-09-12T15:14:15Z; description: CodeMeta web site"
+ },
+ {
+  "repo": "wayn3h0/hugo-bulma",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "stale_no_window_possible",
+  "detail": "pushed_at=2023-03-04T22:38:59Z"
+ },
+ {
+  "repo": "e154/smart-home",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "monorepo",
+  "detail": "site config nested at doc/config.toml"
+ },
+ {
+  "repo": "solyg86/aurumeta.world",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "repo_unavailable",
+  "detail": "{'__http_error__': -1, '__body__': {'raw': 'Remote end closed connection without response'}}"
+ },
+ {
+  "repo": "solyg86/aurumeta.word",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "repo_unavailable",
+  "detail": "{'__http_error__': -1, '__body__': {'raw': 'Remote end closed connection without response'}}"
+ },
+ {
+  "repo": "solyg86/aurumeta-website",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "no_config_found"
+ },
+ {
+  "repo": "r-tensorflow/r-tensorflow",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "repo_unavailable",
+  "detail": "{'__http_error__': -1, '__body__': {'raw': 'Remote end closed connection without response'}}"
+ },
+ {
+  "repo": "wq-will/SimpleTES",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "no_config_found"
+ },
+ {
+  "repo": "platenio/platen-template",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "starter_template_boilerplate",
+  "detail": "Template for a platen site"
+ },
+ {
+  "repo": "carpentries/carpentries.org",
+  "bucket": "H",
+  "status": "kept",
+  "default_branch": "main",
+  "head_sha": "740cbba16df47b210df4827574b046c04e025e73",
+  "stars": 5,
+  "pushed_at": "2026-09-23T17:09:05Z",
+  "archived": false,
+  "config_filename": "hugo.yaml",
+  "content_count": 1326,
+  "content_dir": "content/",
+  "tree_truncated": false,
+  "description": "The  Carpentries website ",
+  "hugo_version_pin": "0.139.2",
+  "hugo_pin_quote": "netlify.toml: HUGO_VERSION = \"0.139.2\"",
+  "why_real_content_site": "1326 content files under content/; hugo.yaml at repo root; 5 stars; pushed 2026-09-23T17:09:05Z; description: The  Carpentries website "
+ },
+ {
+  "repo": "hiiruki/hiiruki.dev",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "no_config_found"
+ },
+ {
+  "repo": "temuller/astro-visualization",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "stale_no_window_possible",
+  "detail": "pushed_at=2021-01-18T10:52:36Z"
+ },
+ {
+  "repo": "2KAbhishek/neonote",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "theme",
+  "detail": "Hugo Theme for Minimalists \ud83c\udfa8\u2712\ufe0f"
+ },
+ {
+  "repo": "speechfree/StandWithHongKong_TreeHole",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "stale_no_window_possible",
+  "detail": "pushed_at=2022-11-13T11:28:15Z"
+ },
+ {
+  "repo": "foss-for-all/foss-for-all.github.io",
+  "bucket": "H",
+  "status": "kept",
+  "default_branch": "main",
+  "head_sha": "134df7576eb7b0f534ed618da67d47e7b3967a14",
+  "stars": 0,
+  "pushed_at": "2026-09-18T05:18:37Z",
+  "archived": false,
+  "config_filename": "hugo.yaml",
+  "content_count": 41,
+  "content_dir": "content/",
+  "tree_truncated": false,
+  "description": "Website for FOSS for All",
+  "hugo_version_pin": "0.159.1",
+  "hugo_pin_quote": "netlify.toml: HUGO_VERSION = \"0.159.1\"",
+  "why_real_content_site": "41 content files under content/; hugo.yaml at repo root; 0 stars; pushed 2026-09-18T05:18:37Z; description: Website for FOSS for All"
+ },
+ {
+  "repo": "j-magnolia/maggiegilligan.hugo",
+  "bucket": "H",
+  "status": "kept",
+  "default_branch": "main",
+  "head_sha": "b8c8d8be71c337788c88a1a43a0dd51a31a40728",
+  "stars": 3,
+  "pushed_at": "2026-09-08T20:47:45Z",
+  "archived": false,
+  "config_filename": "config.yaml",
+  "content_count": 177,
+  "content_dir": "content/",
+  "tree_truncated": false,
+  "description": "Hugo source for personal web site.",
+  "hugo_version_pin": "0.162.1",
+  "hugo_pin_quote": "netlify.toml: HUGO_VERSION = \"0.162.1\"",
+  "why_real_content_site": "177 content files under content/; config.yaml at repo root; 3 stars; pushed 2026-09-08T20:47:45Z; description: Hugo source for personal web site."
+ },
+ {
+  "repo": "DevOpsCloudJunction/website",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "theme",
+  "detail": "theme.toml at root"
+ },
+ {
+  "repo": "NGSchoolEU/website",
+  "bucket": "H",
+  "status": "kept",
+  "default_branch": "master",
+  "head_sha": "049843db85d70603bb2b4c10254f1f167a7a0ec1",
+  "stars": 1,
+  "pushed_at": "2026-05-06T08:47:37Z",
+  "archived": false,
+  "config_filename": "config.toml",
+  "content_count": 107,
+  "content_dir": "content/",
+  "tree_truncated": false,
+  "description": "",
+  "hugo_version_pin": "0.64.1",
+  "hugo_pin_quote": "netlify.toml: HUGO_VERSION = \"0.64.1\"",
+  "why_real_content_site": "107 content files under content/; config.toml at repo root; 1 stars; pushed 2026-05-06T08:47:37Z; description: "
+ },
+ {
+  "repo": "claycamprd/claycamp-rd-web",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "theme",
+  "detail": "theme.toml at root"
+ },
+ {
+  "repo": "johony/hugo-theme-jane",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "stale_no_window_possible",
+  "detail": "pushed_at=2019-10-23T08:12:11Z"
+ },
+ {
+  "repo": "bgonzalezbustamante/academic-kickstart",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "theme",
+  "detail": "Code of my website"
+ },
+ {
+  "repo": "jimangel/jimangel.io",
+  "bucket": "H",
+  "status": "kept",
+  "default_branch": "main",
+  "head_sha": "a06bae3884178bc9ce0af5da84b01ef739de1fc3",
+  "stars": 3,
+  "pushed_at": "2026-06-06T20:55:32Z",
+  "archived": false,
+  "config_filename": "config.yaml",
+  "content_count": 35,
+  "content_dir": "content/",
+  "tree_truncated": false,
+  "description": "",
+  "hugo_version_pin": "0.152.2",
+  "hugo_pin_quote": "netlify.toml: HUGO_VERSION = \"0.152.2\"",
+  "why_real_content_site": "35 content files under content/; config.yaml at repo root; 3 stars; pushed 2026-06-06T20:55:32Z; description: "
+ },
+ {
+  "repo": "sylvanding/sylvanding.github.io",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "stale_no_window_possible",
+  "detail": "pushed_at=2024-06-03T07:03:22Z"
+ },
+ {
+  "repo": "Azuriom/azuriom.com",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "no_config_found"
+ },
+ {
+  "repo": "Cray-HPE/csm-docs-html-builder",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "docs_for_dev_tool",
+  "detail": "repo for hugo docs processing"
+ },
+ {
+  "repo": "CFD-GO/TCLB_site",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "stale_no_window_possible",
+  "detail": "pushed_at=2023-02-24T06:25:31Z"
+ },
+ {
+  "repo": "akccakcctw/clean",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "stale_no_window_possible",
+  "detail": "pushed_at=2023-04-18T18:07:05Z"
+ },
+ {
+  "repo": "jmsmkn/jmsmkn.com",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "stale_no_window_possible",
+  "detail": "pushed_at=2023-07-12T15:53:24Z"
+ },
+ {
+  "repo": "hxchen/3afun",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "stale_no_window_possible",
+  "detail": "pushed_at=2024-08-09T10:08:05Z"
+ },
+ {
+  "repo": "ani-mohan/aniruddh-mohan",
+  "bucket": "H",
+  "status": "kept",
+  "default_branch": "working",
+  "head_sha": "36b9f489ce9b09536169a100a6aefbc64e45270b",
+  "stars": 0,
+  "pushed_at": "2024-10-09T15:51:11Z",
+  "archived": false,
+  "config_filename": "config.toml",
+  "content_count": 39,
+  "content_dir": "content/",
+  "tree_truncated": false,
+  "description": "Code for my personal website",
+  "hugo_version_pin": "0.74.3",
+  "hugo_pin_quote": "netlify.toml: HUGO_VERSION = \"0.74.3\"",
+  "why_real_content_site": "39 content files under content/; config.toml at repo root; 0 stars; pushed 2024-10-09T15:51:11Z; description: Code for my personal website"
+ },
+ {
+  "repo": "mitchelloharawild/workshop-shiny-intermediate",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "stale_no_window_possible",
+  "detail": "pushed_at=2023-11-29T03:46:02Z"
+ },
+ {
+  "repo": "s-nozue/s-nozue-profile",
+  "bucket": "H",
+  "status": "rejected",
+  "reason": "theme",
+  "detail": "theme.toml at root"
+ },
+ {
+  "repo": "laomaiorg/laomaiorg",
+  "bucket": "H",
+  "status": "kept",
+  "default_branch": "main",
+  "head_sha": "4cf6c1968bc1d3e890c19e958470b90ce32c92e8",
+  "stars": 1,
+  "pushed_at": "2026-08-25T00:41:38Z",
+  "archived": false,
+  "config_filename": "config.yaml",
+  "content_count": 183,
+  "content_dir": "content/",
+  "tree_truncated": false,
+  "description": "\u57fa\u4e8eHugo\u4e0eTailwindcss\u6784\u5efa\u7684\u4e2a\u4eba\u535a\u5ba2\u3002",
+  "hugo_version_pin": "0.112.0",
+  "hugo_pin_quote": "netlify.toml: HUGO_VERSION = \"0.112.0\"",
+  "why_real_content_site": "183 content files under content/; config.yaml at repo root; 1 stars; pushed 2026-08-25T00:41:38Z; description: \u57fa\u4e8eHugo\u4e0eTailwindcss\u6784\u5efa\u7684\u4e2a\u4eba\u535a\u5ba2\u3002"
+ }
+]

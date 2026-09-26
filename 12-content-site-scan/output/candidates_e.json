@@ -1,0 +1,3011 @@
+[
+ {
+  "repo": "v8/v8.dev",
+  "bucket": "E",
+  "status": "rejected",
+  "reason": "no_committed_lockfile",
+  "stars": 1021,
+  "pushed_at": "2026-07-20T08:47:51Z",
+  "default_branch": "main",
+  "lockfile": null,
+  "source_queries": [
+   "eleventy filename:package.json"
+  ]
+ },
+ {
+  "repo": "ffoodd/a11y.css",
+  "bucket": "E",
+  "status": "rejected",
+  "reason": "docs_for_tool: CSS developer-tool file repo; site is project docs",
+  "stars": 1610,
+  "pushed_at": "2026-04-24T07:33:25Z",
+  "default_branch": "main",
+  "lockfile": "package-lock.json",
+  "source_queries": [
+   "eleventy filename:package.json"
+  ]
+ },
+ {
+  "repo": "tapjs/tapjs",
+  "bucket": "E",
+  "status": "rejected",
+  "reason": "docs_for_tool: matched /test anything protocol/ (test framework repo; site is project docs)",
+  "stars": 2425,
+  "pushed_at": "2026-09-03T23:20:19Z",
+  "default_branch": "main",
+  "lockfile": "package-lock.json",
+  "source_queries": [
+   "eleventy filename:package.json"
+  ]
+ },
+ {
+  "repo": "maxboeck/eleventastic",
+  "bucket": "E",
+  "status": "rejected",
+  "reason": "inactive_pushed_before_2024-09-25",
+  "stars": 491,
+  "pushed_at": "2023-03-04T06:27:23Z",
+  "default_branch": "master",
+  "source_queries": [
+   "eleventy filename:package.json"
+  ]
+ },
+ {
+  "repo": "11ty/is-land",
+  "bucket": "E",
+  "status": "rejected",
+  "reason": "framework_owned",
+  "stars": 636,
+  "pushed_at": "2025-12-02T16:08:48Z",
+  "default_branch": "main",
+  "source_queries": [
+   "eleventy filename:package.json"
+  ]
+ },
+ {
+  "repo": "flore2003/staythefuckhome",
+  "bucket": "E",
+  "status": "rejected",
+  "reason": "inactive_pushed_before_2024-09-25",
+  "stars": 391,
+  "pushed_at": "2020-10-04T15:06:07Z",
+  "default_branch": "master",
+  "source_queries": [
+   "eleventy filename:package.json",
+   "filename:eleventy.config.js"
+  ]
+ },
+ {
+  "repo": "chinchang/web-maker",
+  "bucket": "E",
+  "status": "rejected",
+  "reason": "docs_for_tool: matched /frontend code editor/ (code editor app repo)",
+  "stars": 2698,
+  "pushed_at": "2026-08-03T22:28:28Z",
+  "default_branch": "master",
+  "lockfile": "package-lock.json",
+  "source_queries": [
+   "eleventy filename:package.json"
+  ]
+ },
+ {
+  "repo": "parcel-bundler/website",
+  "bucket": "E",
+  "status": "rejected",
+  "reason": "docs_for_tool: matched /parcel website/ (bundler project website)",
+  "stars": 364,
+  "pushed_at": "2026-02-02T03:23:16Z",
+  "default_branch": "v2",
+  "lockfile": "yarn.lock",
+  "source_queries": [
+   "eleventy filename:package.json"
+  ]
+ },
+ {
+  "repo": "watermarkktp/watermarkktp",
+  "bucket": "E",
+  "status": "rejected",
+  "reason": "no_committed_lockfile",
+  "stars": 403,
+  "pushed_at": "2025-12-23T17:29:19Z",
+  "default_branch": "main",
+  "lockfile": null,
+  "source_queries": [
+   "eleventy filename:package.json"
+  ]
+ },
+ {
+  "repo": "captainbrosset/devtools-tips",
+  "bucket": "E",
+  "status": "kept",
+  "reason": null,
+  "stars": 448,
+  "pushed_at": "2026-09-25T03:16:48Z",
+  "default_branch": "main",
+  "lockfile": "package-lock.json",
+  "head_sha": "602260435be2198a13e243fc83bb052825540179",
+  "site_evidence": "description='A collection of useful cross-browser DevTools tips'; topics=['debugging', 'devtools', 'tips']; stars=448; pushed=2026-09-25; lockfile=package-lock.json committed; no starter/theme/demo/docs keywords in name/description/readme",
+  "source_queries": [
+   "eleventy filename:package.json"
+  ]
+ },
+ {
+  "repo": "ksylor/ohshitgit",
+  "bucket": "E",
+  "status": "rejected",
+  "reason": "no_committed_lockfile",
+  "stars": 1559,
+  "pushed_at": "2026-01-29T18:58:17Z",
+  "default_branch": "master",
+  "lockfile": null,
+  "source_queries": [
+   "eleventy filename:package.json"
+  ]
+ },
+ {
+  "repo": "googlefonts/specimen-skeleton",
+  "bucket": "E",
+  "status": "rejected",
+  "reason": "starter_theme_demo_keyword:boilerplate",
+  "stars": 51,
+  "pushed_at": "2026-06-10T02:13:52Z",
+  "default_branch": "master",
+  "source_queries": [
+   "eleventy filename:package.json"
+  ]
+ },
+ {
+  "repo": "googlemaps/js-samples",
+  "bucket": "E",
+  "status": "rejected",
+  "reason": "readme_keyword:tutorial",
+  "stars": 805,
+  "pushed_at": "2026-06-24T07:10:12Z",
+  "default_branch": "main",
+  "lockfile": "package-lock.json",
+  "source_queries": [
+   "eleventy filename:package.json"
+  ]
+ },
+ {
+  "repo": "web-padawan/webcomponents.today",
+  "bucket": "E",
+  "status": "rejected",
+  "reason": "inactive_pushed_before_2024-09-25",
+  "stars": 103,
+  "pushed_at": "2023-10-06T11:39:06Z",
+  "default_branch": "main",
+  "source_queries": [
+   "eleventy filename:package.json"
+  ]
+ },
+ {
+  "repo": "kbstt/pwastats",
+  "bucket": "E",
+  "status": "kept",
+  "reason": null,
+  "stars": 103,
+  "pushed_at": "2026-05-23T04:05:21Z",
+  "default_branch": "main",
+  "lockfile": "package-lock.json",
+  "head_sha": "61bd8a1368303d8eb4d431d1f66010d612df67f1",
+  "site_evidence": "description='A directory of Progressive Web App case studies.'; topics=['directory', 'offline', 'push-notifications', 'pwa', 'service-worker']; stars=103; pushed=2026-05-23; lockfile=package-lock.json committed; no starter/theme/demo/docs keywords in name/description/readme",
+  "source_queries": [
+   "eleventy filename:package.json"
+  ]
+ },
+ {
+  "repo": "katydecorah/font-library",
+  "bucket": "E",
+  "status": "rejected",
+  "reason": "docs_for_tool: matched /tag google fonts/ (font tooling project)",
+  "stars": 165,
+  "pushed_at": "2026-09-22T10:15:53Z",
+  "default_branch": "gh-pages",
+  "lockfile": "package-lock.json",
+  "source_queries": [
+   "eleventy filename:package.json"
+  ]
+ },
+ {
+  "repo": "pheyvaer/solid-chess",
+  "bucket": "E",
+  "status": "rejected",
+  "reason": "inactive_pushed_before_2024-09-25",
+  "stars": 52,
+  "pushed_at": "2019-03-24T13:58:42Z",
+  "default_branch": "master",
+  "source_queries": [
+   "eleventy filename:package.json"
+  ]
+ },
+ {
+  "repo": "la-rache/la-rache.com",
+  "bucket": "E",
+  "status": "rejected",
+  "reason": "no_committed_lockfile",
+  "stars": 242,
+  "pushed_at": "2026-03-26T11:06:08Z",
+  "default_branch": "master",
+  "lockfile": null,
+  "source_queries": [
+   "eleventy filename:package.json"
+  ]
+ },
+ {
+  "repo": "orchidjs/tom-select",
+  "bucket": "E",
+  "status": "rejected",
+  "reason": "docs_for_tool: matched /textbox and select box/ (JS select-box library)",
+  "stars": 2228,
+  "pushed_at": "2026-09-09T13:32:20Z",
+  "default_branch": "master",
+  "lockfile": "package-lock.json",
+  "source_queries": [
+   "eleventy filename:package.json"
+  ]
+ },
+ {
+  "repo": "ndrwhr/andrewhoyer",
+  "bucket": "E",
+  "status": "rejected",
+  "reason": "no_committed_lockfile",
+  "stars": 64,
+  "pushed_at": "2026-07-27T02:44:05Z",
+  "default_branch": "master",
+  "lockfile": null,
+  "source_queries": [
+   "eleventy filename:package.json"
+  ]
+ },
+ {
+  "repo": "uswds/uswds-tutorial",
+  "bucket": "E",
+  "status": "rejected",
+  "reason": "starter_theme_demo_keyword:tutorial",
+  "stars": 45,
+  "pushed_at": "2026-09-17T00:47:41Z",
+  "default_branch": "main",
+  "source_queries": [
+   "eleventy filename:package.json"
+  ]
+ },
+ {
+  "repo": "adamduncan/eleventy-shortcomps",
+  "bucket": "E",
+  "status": "rejected",
+  "reason": "inactive_pushed_before_2024-09-25",
+  "stars": 72,
+  "pushed_at": "2023-01-27T04:23:29Z",
+  "default_branch": "master",
+  "source_queries": [
+   "eleventy filename:package.json",
+   "filename:.eleventy.js"
+  ]
+ },
+ {
+  "repo": "matuzo/front-end-bookmarks",
+  "bucket": "E",
+  "status": "rejected",
+  "reason": "inactive_pushed_before_2024-09-25",
+  "stars": 72,
+  "pushed_at": "2023-01-09T22:48:56Z",
+  "default_branch": "master",
+  "source_queries": [
+   "eleventy filename:package.json"
+  ]
+ },
+ {
+  "repo": "e111077/11ty-lit",
+  "bucket": "E",
+  "status": "rejected",
+  "reason": "starter_theme_demo_keyword:example",
+  "stars": 63,
+  "pushed_at": "2024-12-06T07:15:25Z",
+  "default_branch": "main",
+  "source_queries": [
+   "eleventy filename:package.json"
+  ]
+ },
+ {
+  "repo": "gfscott/eleventy-plugin-embed-everything",
+  "bucket": "E",
+  "status": "rejected",
+  "reason": "monorepo",
+  "stars": 113,
+  "pushed_at": "2026-09-23T21:32:55Z",
+  "default_branch": "main",
+  "lockfile": "pnpm-lock.yaml",
+  "source_queries": [
+   "eleventy filename:package.json"
+  ]
+ },
+ {
+  "repo": "artstorm/eleventy-plugin-seo",
+  "bucket": "E",
+  "status": "rejected",
+  "reason": "inactive_pushed_before_2024-09-25",
+  "stars": 55,
+  "pushed_at": "2023-10-19T21:58:43Z",
+  "default_branch": "develop",
+  "source_queries": [
+   "eleventy filename:package.json"
+  ]
+ },
+ {
+  "repo": "cymetrics/blog",
+  "bucket": "E",
+  "status": "rejected",
+  "reason": "readme_keyword:template",
+  "stars": 62,
+  "pushed_at": "2026-06-29T03:35:43Z",
+  "default_branch": "main",
+  "lockfile": "package-lock.json",
+  "source_queries": [
+   "eleventy filename:package.json",
+   "filename:.eleventy.js"
+  ]
+ },
+ {
+  "repo": "nstungcom/gulp-starter-kit",
+  "bucket": "E",
+  "status": "rejected",
+  "reason": "starter_theme_demo_keyword:starter",
+  "stars": 42,
+  "pushed_at": "2026-01-21T23:55:23Z",
+  "default_branch": "master",
+  "source_queries": [
+   "eleventy filename:package.json"
+  ]
+ },
+ {
+  "repo": "w3c/csswg-www",
+  "bucket": "E",
+  "status": "rejected",
+  "reason": "inactive_pushed_before_2024-09-25",
+  "stars": 5,
+  "pushed_at": "2023-01-19T18:58:47Z",
+  "default_branch": "main",
+  "source_queries": [
+   "eleventy filename:package.json",
+   "filename:.eleventy.js"
+  ]
+ },
+ {
+  "repo": "oddbird/css-sandbox",
+  "bucket": "E",
+  "status": "rejected",
+  "reason": "readme_keyword:template",
+  "stars": 57,
+  "pushed_at": "2025-10-02T14:47:17Z",
+  "default_branch": "main",
+  "lockfile": "package-lock.json",
+  "source_queries": [
+   "eleventy filename:package.json"
+  ]
+ },
+ {
+  "repo": "KiwiKilian/eleventy-plugin-og-image",
+  "bucket": "E",
+  "status": "rejected",
+  "reason": "readme_keyword:template",
+  "stars": 70,
+  "pushed_at": "2026-09-08T21:45:12Z",
+  "default_branch": "main",
+  "lockfile": "package-lock.json",
+  "source_queries": [
+   "eleventy filename:package.json"
+  ]
+ },
+ {
+  "repo": "wavebeem/bread-n-butter",
+  "bucket": "E",
+  "status": "rejected",
+  "reason": "inactive_pushed_before_2024-09-25",
+  "stars": 38,
+  "pushed_at": "2022-07-01T17:34:08Z",
+  "default_branch": "main",
+  "source_queries": [
+   "eleventy filename:package.json"
+  ]
+ },
+ {
+  "repo": "zuixjs/zkit",
+  "bucket": "E",
+  "status": "rejected",
+  "reason": "readme_keyword:starter",
+  "stars": 40,
+  "pushed_at": "2026-05-31T10:35:10Z",
+  "default_branch": "master",
+  "lockfile": "package-lock.json",
+  "source_queries": [
+   "eleventy filename:package.json"
+  ]
+ },
+ {
+  "repo": "ygoex/yetty",
+  "bucket": "E",
+  "status": "rejected",
+  "reason": "inactive_pushed_before_2024-09-25",
+  "stars": 53,
+  "pushed_at": "2021-12-21T14:14:42Z",
+  "default_branch": "main",
+  "source_queries": [
+   "eleventy filename:package.json",
+   "filename:.eleventy.js"
+  ]
+ },
+ {
+  "repo": "bigskysoftware/grugbrain.dev",
+  "bucket": "E",
+  "status": "kept",
+  "reason": null,
+  "stars": 229,
+  "pushed_at": "2025-05-05T13:11:13Z",
+  "default_branch": "master",
+  "lockfile": "package-lock.json",
+  "head_sha": "b1b1ca855ca1242b61bd15109fab10312f5bb9b8",
+  "site_evidence": "description='The Grug Brained Developer'; topics=[]; stars=229; pushed=2025-05-05; lockfile=package-lock.json committed; no starter/theme/demo/docs keywords in name/description/readme",
+  "source_queries": [
+   "eleventy filename:package.json"
+  ]
+ },
+ {
+  "repo": "5t3ph/smol-11ty-starter",
+  "bucket": "E",
+  "status": "rejected",
+  "reason": "inactive_pushed_before_2024-09-25",
+  "stars": 98,
+  "pushed_at": "2024-02-16T14:55:10Z",
+  "default_branch": "main",
+  "source_queries": [
+   "eleventy filename:package.json",
+   "filename:.eleventy.js"
+  ]
+ },
+ {
+  "repo": "Upstatement/ups-public-library",
+  "bucket": "E",
+  "status": "rejected",
+  "reason": "inactive_pushed_before_2024-09-25",
+  "stars": 8,
+  "pushed_at": "2022-01-12T23:14:53Z",
+  "default_branch": "main",
+  "source_queries": [
+   "eleventy filename:package.json",
+   "filename:.eleventy.js"
+  ]
+ },
+ {
+  "repo": "stebrech/accessible-pdf",
+  "bucket": "E",
+  "status": "kept",
+  "reason": null,
+  "stars": 20,
+  "pushed_at": "2026-09-01T05:09:51Z",
+  "default_branch": "public",
+  "lockfile": "package-lock.json",
+  "head_sha": "9d0e4ff6b242c8d7d45cdf0a665d093a7995e080",
+  "site_evidence": "description='Repo for 11ty website accessible-pdf.info'; topics=['a11y', 'accessibility', 'markdown', 'pdf', 'pdfua', 'tutorials']; stars=20; pushed=2026-09-01; lockfile=package-lock.json committed; no starter/theme/demo/docs keywords in name/description/readme",
+  "source_queries": [
+   "eleventy filename:package.json",
+   "filename:eleventy.config.js"
+  ]
+ },
+ {
+  "repo": "airalab/robonomics-wiki",
+  "bucket": "E",
+  "status": "kept",
+  "reason": null,
+  "stars": 13,
+  "pushed_at": "2026-09-09T09:36:30Z",
+  "default_branch": "master",
+  "lockfile": "package-lock.json",
+  "head_sha": "e9549972138d11ebbb62b84e7062e6e49a0c93cd",
+  "site_evidence": "description='Getting Started always better than reading white paper; Robonomics Wiki aims to bring all the knowledge about Robonomics to everyone who is '; topics=['guides', 'how-to', 'open-source', 'wiki']; stars=13; pushed=2026-09-09; lockfile=package-lock.json committed; no starter/theme/demo/docs keywords in name/description/readme",
+  "source_queries": [
+   "eleventy filename:package.json",
+   "filename:eleventy.config.js"
+  ]
+ },
+ {
+  "repo": "kentaroi/eleventy-sass",
+  "bucket": "E",
+  "status": "rejected",
+  "reason": "docs_for_tool: matched /plugin for eleventy/ (eleventy plugin)",
+  "stars": 61,
+  "pushed_at": "2025-05-12T09:50:56Z",
+  "default_branch": "main",
+  "lockfile": "package-lock.json",
+  "source_queries": [
+   "eleventy filename:package.json"
+  ]
+ },
+ {
+  "repo": "LibertyDSNP/spec",
+  "bucket": "E",
+  "status": "rejected",
+  "reason": "docs_for_tool: matched /dsnp spec/ (protocol spec repo)",
+  "stars": 45,
+  "pushed_at": "2026-07-11T17:10:36Z",
+  "default_branch": "main",
+  "lockfile": "package-lock.json",
+  "source_queries": [
+   "eleventy filename:package.json"
+  ]
+ },
+ {
+  "repo": "5t3ph/11ty-web-component-generator",
+  "bucket": "E",
+  "status": "rejected",
+  "reason": "inactive_pushed_before_2024-09-25",
+  "stars": 55,
+  "pushed_at": "2020-10-23T00:37:05Z",
+  "default_branch": "main",
+  "source_queries": [
+   "eleventy filename:package.json"
+  ]
+ },
+ {
+  "repo": "benbalter/situation-clock",
+  "bucket": "E",
+  "status": "rejected",
+  "reason": "no_committed_lockfile",
+  "stars": 40,
+  "pushed_at": "2026-09-06T00:53:21Z",
+  "default_branch": "gh-pages",
+  "lockfile": null,
+  "source_queries": [
+   "eleventy filename:package.json"
+  ]
+ },
+ {
+  "repo": "peruvianidol/11ty-recipes",
+  "bucket": "E",
+  "status": "rejected",
+  "reason": "inactive_pushed_before_2024-09-25",
+  "stars": 40,
+  "pushed_at": "2022-11-02T03:38:55Z",
+  "default_branch": "master",
+  "source_queries": [
+   "eleventy filename:package.json"
+  ]
+ },
+ {
+  "repo": "cagov/cannabis.ca.gov",
+  "bucket": "E",
+  "status": "kept",
+  "reason": null,
+  "stars": 10,
+  "pushed_at": "2026-08-11T00:11:22Z",
+  "default_branch": "main",
+  "lockfile": "package-lock.json",
+  "head_sha": "0de0ddaca73e15051d86a1d2cc1522a9c88d0a3e",
+  "site_evidence": "description='Static site generator for cannabis.ca.gov website.'; topics=['government', 'jamstack', 'wordpress']; stars=10; pushed=2026-08-11; lockfile=package-lock.json committed; no starter/theme/demo/docs keywords in name/description/readme",
+  "source_queries": [
+   "eleventy filename:package.json"
+  ]
+ },
+ {
+  "repo": "nfreear/diveintoaccessibility",
+  "bucket": "E",
+  "status": "kept",
+  "reason": null,
+  "stars": 31,
+  "pushed_at": "2026-02-09T18:13:29Z",
+  "default_branch": "revive",
+  "lockfile": "package-lock.json",
+  "head_sha": "f1ded0f6ba52bec36146a7c2cd6be871218a4080",
+  "site_evidence": "description='Copy of \"Dive Into Accessibility\" by Mark Pilgrim (offline / online book)'; topics=['a11y', 'accessibility', 'book', 'case-study', 'copy', 'how-to', 'mirror', 'user-experience']; stars=31; pushed=2026-02-09; lockfile=package-lock.json committed; no starter/theme/demo/docs keywords in name/description/readme",
+  "source_queries": [
+   "eleventy filename:package.json"
+  ]
+ },
+ {
+  "repo": "stevekinney/rxjs-fundamentals",
+  "bucket": "E",
+  "status": "rejected",
+  "reason": "inactive_pushed_before_2024-09-25",
+  "stars": 61,
+  "pushed_at": "2023-02-28T18:43:21Z",
+  "default_branch": "master",
+  "source_queries": [
+   "eleventy filename:package.json"
+  ]
+ },
+ {
+  "repo": "voightco/micro-site",
+  "bucket": "E",
+  "status": "rejected",
+  "reason": "inactive_pushed_before_2024-09-25",
+  "stars": 48,
+  "pushed_at": "2023-03-05T20:47:01Z",
+  "default_branch": "master",
+  "source_queries": [
+   "eleventy filename:package.json"
+  ]
+ },
+ {
+  "repo": "panoply/vscode-liquid",
+  "bucket": "E",
+  "status": "rejected",
+  "reason": "readme_keyword:template",
+  "stars": 181,
+  "pushed_at": "2024-09-30T17:28:58Z",
+  "default_branch": "master",
+  "lockfile": "pnpm-lock.yaml",
+  "source_queries": [
+   "eleventy filename:package.json"
+  ]
+ },
+ {
+  "repo": "nhsbsa/nhsbsa-digital-playbook",
+  "bucket": "E",
+  "status": "kept",
+  "reason": null,
+  "stars": 15,
+  "pushed_at": "2026-09-25T08:29:13Z",
+  "default_branch": "main",
+  "lockfile": "package-lock.json",
+  "head_sha": "c9e5d3eda9ca4b7cd1245fa1c87534f3b8003dbb",
+  "site_evidence": "description='Defines how the NHS Business Services Authority provides digital services'; topics=[]; stars=15; pushed=2026-09-25; lockfile=package-lock.json committed; no starter/theme/demo/docs keywords in name/description/readme",
+  "source_queries": [
+   "eleventy filename:package.json"
+  ]
+ },
+ {
+  "repo": "manustays/eleventy-plugin-generate-social-images",
+  "bucket": "E",
+  "status": "rejected",
+  "reason": "inactive_pushed_before_2024-09-25",
+  "stars": 28,
+  "pushed_at": "2021-02-01T15:25:46Z",
+  "default_branch": "main",
+  "source_queries": [
+   "eleventy filename:package.json"
+  ]
+ },
+ {
+  "repo": "stevenwoodson/11ty-design-system",
+  "bucket": "E",
+  "status": "rejected",
+  "reason": "docs_for_tool: matched /design system generator/ (design-system tooling)",
+  "stars": 38,
+  "pushed_at": "2026-01-22T15:05:13Z",
+  "default_branch": "main",
+  "lockfile": "package-lock.json",
+  "source_queries": [
+   "eleventy filename:package.json"
+  ]
+ },
+ {
+  "repo": "einomi/frontenso-11ty-starter",
+  "bucket": "E",
+  "status": "rejected",
+  "reason": "starter_theme_demo_keyword:starter",
+  "stars": 36,
+  "pushed_at": "2025-07-20T13:06:31Z",
+  "default_branch": "master",
+  "source_queries": [
+   "eleventy filename:package.json"
+  ]
+ },
+ {
+  "repo": "Thurbeen/thurbox",
+  "bucket": "E",
+  "status": "rejected",
+  "reason": "docs_for_tool: matched /tui for agentic/ (TUI app repo)",
+  "stars": 79,
+  "pushed_at": "2026-09-25T13:02:26Z",
+  "default_branch": "main",
+  "lockfile": "package-lock.json",
+  "source_queries": [
+   "eleventy filename:package.json",
+   "filename:eleventy.config.js"
+  ]
+ },
+ {
+  "repo": "pianomanfrazier/lilypond-in-markdown",
+  "bucket": "E",
+  "status": "rejected",
+  "reason": "inactive_pushed_before_2024-09-25",
+  "stars": 35,
+  "pushed_at": "2023-01-09T22:09:38Z",
+  "default_branch": "master",
+  "source_queries": [
+   "eleventy filename:package.json"
+  ]
+ },
+ {
+  "repo": "xakpc/anymcp-io",
+  "bucket": "E",
+  "status": "rejected",
+  "reason": "docs_for_tool: matched /catalog of single-file mcp servers/ (dev-tool catalog)",
+  "stars": 60,
+  "pushed_at": "2026-08-20T09:52:45Z",
+  "default_branch": "main",
+  "lockfile": "package-lock.json",
+  "source_queries": [
+   "eleventy filename:package.json"
+  ]
+ },
+ {
+  "repo": "didier-lechenne/obsidian_eleventy_pagedjs",
+  "bucket": "E",
+  "status": "rejected",
+  "reason": "no_committed_lockfile",
+  "stars": 0,
+  "pushed_at": "2025-06-28T16:15:06Z",
+  "default_branch": "main",
+  "lockfile": null,
+  "source_queries": [
+   "eleventy filename:package.json"
+  ]
+ },
+ {
+  "repo": "sabeechen/homelab-gpt",
+  "bucket": "E",
+  "status": "rejected",
+  "reason": "docs_for_tool: matched /web interface to chat with gpt/ (chat web app repo)",
+  "stars": 15,
+  "pushed_at": "2026-04-05T15:50:01Z",
+  "default_branch": "master",
+  "lockfile": "package-lock.json",
+  "source_queries": [
+   "eleventy filename:package.json"
+  ]
+ },
+ {
+  "repo": "stevenpetryk/eleventy-plugin-error-overlay",
+  "bucket": "E",
+  "status": "rejected",
+  "reason": "inactive_pushed_before_2024-09-25",
+  "stars": 32,
+  "pushed_at": "2022-03-17T16:44:06Z",
+  "default_branch": "master",
+  "source_queries": [
+   "eleventy filename:package.json"
+  ]
+ },
+ {
+  "repo": "cjerrington/cjerrington.github.io",
+  "bucket": "E",
+  "status": "kept",
+  "reason": null,
+  "stars": 3,
+  "pushed_at": "2025-12-09T05:10:15Z",
+  "default_branch": "master",
+  "lockfile": "package-lock.json",
+  "head_sha": "33401bc5a16961f1f6baaa9457d05991c8d395ff",
+  "site_evidence": "description='Source code for my website'; topics=['11ty', 'eleventy', 'eleventy-website']; stars=3; pushed=2025-12-09; lockfile=package-lock.json committed; no starter/theme/demo/docs keywords in name/description/readme",
+  "source_queries": [
+   "eleventy filename:package.json"
+  ]
+ },
+ {
+  "repo": "aces/gbc_website",
+  "bucket": "E",
+  "status": "kept",
+  "reason": null,
+  "stars": 1,
+  "pushed_at": "2026-09-02T14:54:01Z",
+  "default_branch": "main",
+  "lockfile": "package-lock.json",
+  "head_sha": "733b22862c0171e8fd02e00da1537e9653162df3",
+  "site_evidence": "description='GBC website since Aug 2024, based on Leeds framework'; topics=[]; stars=1; pushed=2026-09-02; lockfile=package-lock.json committed; no starter/theme/demo/docs keywords in name/description/readme",
+  "source_queries": [
+   "eleventy filename:package.json"
+  ]
+ },
+ {
+  "repo": "codeforamerica/uswds",
+  "bucket": "E",
+  "status": "rejected",
+  "reason": "inactive_pushed_before_2024-09-25",
+  "stars": 5,
+  "pushed_at": "2024-05-03T18:48:07Z",
+  "default_branch": "main",
+  "source_queries": [
+   "eleventy filename:package.json"
+  ]
+ },
+ {
+  "repo": "coryasilva/11ty-aws",
+  "bucket": "E",
+  "status": "rejected",
+  "reason": "readme_keyword:template",
+  "stars": 18,
+  "pushed_at": "2025-04-09T10:24:51Z",
+  "default_branch": "main",
+  "lockfile": "package-lock.json",
+  "source_queries": [
+   "eleventy filename:package.json",
+   "filename:eleventy.config.js"
+  ]
+ },
+ {
+  "repo": "Yakikim/Obsidian-11ty",
+  "bucket": "E",
+  "status": "rejected",
+  "reason": "inactive_pushed_before_2024-09-25",
+  "stars": 13,
+  "pushed_at": "2022-05-24T09:48:23Z",
+  "default_branch": "main",
+  "source_queries": [
+   "eleventy filename:package.json"
+  ]
+ },
+ {
+  "repo": "3design/gbc",
+  "bucket": "E",
+  "status": "kept",
+  "reason": null,
+  "stars": 0,
+  "pushed_at": "2026-02-04T16:39:40Z",
+  "default_branch": "main",
+  "lockfile": "package-lock.json",
+  "head_sha": "fd9c8094754ac684fdd73847cd43897f5ae5bff3",
+  "site_evidence": "description='The repository of the new GBC website'; topics=[]; stars=0; pushed=2026-02-04; lockfile=package-lock.json committed; no starter/theme/demo/docs keywords in name/description/readme",
+  "source_queries": [
+   "eleventy filename:package.json"
+  ]
+ },
+ {
+  "repo": "Chrisissorry/lazyslides",
+  "bucket": "E",
+  "status": "rejected",
+  "reason": "readme_keyword:starter",
+  "stars": 5,
+  "pushed_at": "2026-06-22T07:34:31Z",
+  "default_branch": "develop",
+  "lockfile": "pnpm-lock.yaml",
+  "source_queries": [
+   "eleventy filename:package.json"
+  ]
+ },
+ {
+  "repo": "inclusive-design/wecount.inclusivedesign.ca",
+  "bucket": "E",
+  "status": "kept",
+  "reason": null,
+  "stars": 8,
+  "pushed_at": "2026-09-24T22:00:27Z",
+  "default_branch": "dev",
+  "lockfile": "package-lock.json",
+  "head_sha": "69a02cdd706721b94c9b37abd96791a9574fece9",
+  "site_evidence": "description='The source files for the We Count website, built with Eleventy.'; topics=['eleventy', 'eleventy-website', 'inclusive-ai', 'inclusive-design', 'netlify-cms', 'vuejs', 'we-count']; stars=8; pushed=2026-09-24; lockfile=package-lock.json committed; no starter/theme/demo/docs keywords in name/description/readme",
+  "source_queries": [
+   "eleventy filename:package.json"
+  ]
+ },
+ {
+  "repo": "ahgraber/stopsloppypasta",
+  "bucket": "E",
+  "status": "kept",
+  "reason": null,
+  "stars": 37,
+  "pushed_at": "2026-09-15T16:31:43Z",
+  "default_branch": "main",
+  "lockfile": "package-lock.json",
+  "head_sha": "13e33df9ab0a8be3616e10cce010f5d09c169bd9",
+  "site_evidence": "description='Sloppypasta | n. | Verbatim LLM output copy-pasted at someone, unread, unedited, and usually unrequested. From slop (low-quality AI-generate'; topics=[]; stars=37; pushed=2026-09-15; lockfile=package-lock.json committed; no starter/theme/demo/docs keywords in name/description/readme",
+  "source_queries": [
+   "eleventy filename:package.json"
+  ]
+ },
+ {
+  "repo": "wschenk/willschenk.com",
+  "bucket": "E",
+  "status": "rejected",
+  "reason": "no_committed_lockfile",
+  "stars": 14,
+  "pushed_at": "2026-07-09T17:56:20Z",
+  "default_branch": "master",
+  "lockfile": null,
+  "source_queries": [
+   "eleventy filename:package.json"
+  ]
+ },
+ {
+  "repo": "DFE-Digital/teacher-cpd-design-history",
+  "bucket": "E",
+  "status": "rejected",
+  "reason": "readme_keyword:template",
+  "stars": 2,
+  "pushed_at": "2026-09-23T12:39:08Z",
+  "default_branch": "main",
+  "lockfile": "package-lock.json",
+  "source_queries": [
+   "eleventy filename:package.json"
+  ]
+ },
+ {
+  "repo": "frm/obama_did_it",
+  "bucket": "E",
+  "status": "rejected",
+  "reason": "inactive_pushed_before_2024-09-25",
+  "stars": 12,
+  "pushed_at": "2023-01-09T23:57:58Z",
+  "default_branch": "master",
+  "source_queries": [
+   "eleventy filename:package.json"
+  ]
+ },
+ {
+  "repo": "kaicataldo/eleventy-plugin-jsx",
+  "bucket": "E",
+  "status": "rejected",
+  "reason": "inactive_pushed_before_2024-09-25",
+  "stars": 12,
+  "pushed_at": "2020-11-02T00:13:01Z",
+  "default_branch": "main",
+  "source_queries": [
+   "eleventy filename:package.json"
+  ]
+ },
+ {
+  "repo": "KillrVideo/killrvideo.github.io",
+  "bucket": "E",
+  "status": "rejected",
+  "reason": "docs_for_tool: matched /info and docs site/ (project docs site)",
+  "stars": 7,
+  "pushed_at": "2026-06-17T08:07:40Z",
+  "default_branch": "source",
+  "lockfile": "package-lock.json",
+  "source_queries": [
+   "eleventy filename:package.json"
+  ]
+ },
+ {
+  "repo": "kdl-org/kdl-org.github.io",
+  "bucket": "E",
+  "status": "rejected",
+  "reason": "docs_for_tool: matched /kdl\\.dev is hosted/ (document-language project site)",
+  "stars": 14,
+  "pushed_at": "2026-09-01T16:29:12Z",
+  "default_branch": "main",
+  "lockfile": "package-lock.json",
+  "source_queries": [
+   "eleventy filename:package.json"
+  ]
+ },
+ {
+  "repo": "asvny/eleventy-blog-monospaced",
+  "bucket": "E",
+  "status": "rejected",
+  "reason": "excluded_prior_assignment",
+  "source_queries": [
+   "eleventy filename:package.json"
+  ]
+ },
+ {
+  "repo": "anparfenov/11ty-starter",
+  "bucket": "E",
+  "status": "rejected",
+  "reason": "inactive_pushed_before_2024-09-25",
+  "stars": 18,
+  "pushed_at": "2024-02-21T06:27:17Z",
+  "default_branch": "main",
+  "source_queries": [
+   "eleventy filename:package.json"
+  ]
+ },
+ {
+  "repo": "LiyamFlx/tech-news-magazine",
+  "bucket": "E",
+  "status": "rejected",
+  "reason": "readme_keyword:starter",
+  "stars": 0,
+  "pushed_at": "2025-05-06T22:10:26Z",
+  "default_branch": "main",
+  "lockfile": "package-lock.json",
+  "source_queries": [
+   "eleventy filename:package.json"
+  ]
+ },
+ {
+  "repo": "aobando98/css-portfolio",
+  "bucket": "E",
+  "status": "kept",
+  "reason": null,
+  "stars": 0,
+  "pushed_at": "2026-04-13T21:28:19Z",
+  "default_branch": "main",
+  "lockfile": "package-lock.json",
+  "head_sha": "481bdff6b68e56b126b973514a6260c4c0cb46b8",
+  "site_evidence": "description='CV made with CSS and HTML'; topics=[]; stars=0; pushed=2026-04-13; lockfile=package-lock.json committed; no starter/theme/demo/docs keywords in name/description/readme",
+  "source_queries": [
+   "eleventy filename:package.json"
+  ]
+ },
+ {
+  "repo": "nhsbsa/research-playbook",
+  "bucket": "E",
+  "status": "rejected",
+  "reason": "inactive_pushed_before_2024-09-25",
+  "stars": 6,
+  "pushed_at": "2021-08-27T16:37:50Z",
+  "default_branch": "main",
+  "source_queries": [
+   "eleventy filename:package.json"
+  ]
+ },
+ {
+  "repo": "fontra/fontra-docs",
+  "bucket": "E",
+  "status": "rejected",
+  "reason": "docs_for_tool",
+  "stars": 7,
+  "pushed_at": "2026-09-14T07:31:24Z",
+  "default_branch": "main",
+  "source_queries": [
+   "eleventy filename:package.json"
+  ]
+ },
+ {
+  "repo": "jeromecoupe/sample-11ty-blog",
+  "bucket": "E",
+  "status": "rejected",
+  "reason": "inactive_pushed_before_2024-09-25",
+  "stars": 22,
+  "pushed_at": "2021-11-08T12:20:07Z",
+  "default_branch": "master",
+  "source_queries": [
+   "eleventy filename:package.json"
+  ]
+ },
+ {
+  "repo": "exponential-idle-guides/exponential-idle-guides",
+  "bucket": "E",
+  "status": "kept",
+  "reason": null,
+  "stars": 12,
+  "pushed_at": "2026-08-25T16:42:11Z",
+  "default_branch": "main",
+  "lockfile": "package-lock.json",
+  "head_sha": "bd882992a04e98bf0a7f0931d23597f12906054a",
+  "site_evidence": "description=''; topics=[]; stars=12; pushed=2026-08-25; lockfile=package-lock.json committed; no starter/theme/demo/docs keywords in name/description/readme",
+  "source_queries": [
+   "eleventy filename:package.json",
+   "filename:.eleventy.js"
+  ]
+ },
+ {
+  "repo": "brennanbrown/newsprint",
+  "bucket": "E",
+  "status": "rejected",
+  "reason": "starter_theme_demo_keyword:theme",
+  "stars": 18,
+  "pushed_at": "2026-02-15T00:14:22Z",
+  "default_branch": "main",
+  "source_queries": [
+   "eleventy filename:package.json"
+  ]
+ },
+ {
+  "repo": "bennypowers/eleventy-plugin-slide-decks",
+  "bucket": "E",
+  "status": "rejected",
+  "reason": "readme_keyword:template",
+  "stars": 23,
+  "pushed_at": "2025-06-09T14:10:24Z",
+  "default_branch": "main",
+  "lockfile": "package-lock.json",
+  "source_queries": [
+   "eleventy filename:package.json"
+  ]
+ },
+ {
+  "repo": "jacebenson/servicenow-versions",
+  "bucket": "E",
+  "status": "rejected",
+  "reason": "no_committed_lockfile",
+  "stars": 9,
+  "pushed_at": "2026-07-07T09:49:56Z",
+  "default_branch": "main",
+  "lockfile": null,
+  "source_queries": [
+   "eleventy filename:package.json"
+  ]
+ },
+ {
+  "repo": "mariusGundersen/htmx-json",
+  "bucket": "E",
+  "status": "rejected",
+  "reason": "readme_keyword:template",
+  "stars": 34,
+  "pushed_at": "2025-09-15T12:30:20Z",
+  "default_branch": "main",
+  "lockfile": "package-lock.json",
+  "source_queries": [
+   "eleventy filename:package.json"
+  ]
+ },
+ {
+  "repo": "zachleat/queue-code",
+  "bucket": "E",
+  "status": "rejected",
+  "reason": "inactive_pushed_before_2024-09-25",
+  "stars": 30,
+  "pushed_at": "2021-07-12T14:18:21Z",
+  "default_branch": "main",
+  "source_queries": [
+   "eleventy filename:package.json"
+  ]
+ },
+ {
+  "repo": "hheydarian/Gitab",
+  "bucket": "E",
+  "status": "kept",
+  "reason": null,
+  "stars": 48,
+  "pushed_at": "2026-02-03T10:49:06Z",
+  "default_branch": "main",
+  "lockfile": "package-lock.json",
+  "head_sha": "5f345dc4c76cf2427398d1d33e4a3e3d3ce74d8d",
+  "site_evidence": "description='Books Translation Programming'; topics=['book', 'csharp', 'css', 'dotnet', 'eleventy', 'eleventy-website', 'farsi', 'gitab', 'github-page', 'iran', 'markdown', 'online', 'persian', 'template', 'translate', 'translation']; stars=48; pushed=2026-02-03; lockfile=package-lock.json committed; no starter/theme/demo/docs keywords in name/description/readme",
+  "source_queries": [
+   "eleventy filename:package.json"
+  ]
+ },
+ {
+  "repo": "reverentgeek/ghost-to-eleventy-exporter",
+  "bucket": "E",
+  "status": "rejected",
+  "reason": "monorepo",
+  "stars": 16,
+  "pushed_at": "2026-07-07T18:24:36Z",
+  "default_branch": "main",
+  "lockfile": "pnpm-lock.yaml",
+  "source_queries": [
+   "eleventy filename:package.json"
+  ]
+ },
+ {
+  "repo": "rmurphey/cornerbycorner.org",
+  "bucket": "E",
+  "status": "rejected",
+  "reason": "readme_keyword:theme",
+  "stars": 0,
+  "pushed_at": "2025-04-13T19:00:49Z",
+  "default_branch": "main",
+  "lockfile": "package-lock.json",
+  "source_queries": [
+   "eleventy filename:package.json"
+  ]
+ },
+ {
+  "repo": "cmaxw/devchat-eleventy",
+  "bucket": "E",
+  "status": "rejected",
+  "reason": "inactive_pushed_before_2024-09-25",
+  "stars": 28,
+  "pushed_at": "2024-01-05T20:56:10Z",
+  "default_branch": "master",
+  "source_queries": [
+   "eleventy filename:package.json",
+   "filename:.eleventy.js"
+  ]
+ },
+ {
+  "repo": "codomposer/Front-end-Developer-Interview-Questions",
+  "bucket": "E",
+  "status": "rejected",
+  "reason": "inactive_pushed_before_2024-09-25",
+  "stars": 12,
+  "pushed_at": "2023-03-01T03:58:53Z",
+  "default_branch": "main",
+  "source_queries": [
+   "eleventy filename:package.json"
+  ]
+ },
+ {
+  "repo": "GSAPP-CDP/colloquium-2-2023",
+  "bucket": "E",
+  "status": "rejected",
+  "reason": "starter_theme_demo_keyword:course",
+  "stars": 3,
+  "pushed_at": "2024-11-18T18:36:43Z",
+  "default_branch": "main",
+  "source_queries": [
+   "eleventy filename:package.json"
+  ]
+ },
+ {
+  "repo": "erikkroes/erikkroes-nl",
+  "bucket": "E",
+  "status": "kept",
+  "reason": null,
+  "stars": 13,
+  "pushed_at": "2026-09-25T06:48:58Z",
+  "default_branch": "main",
+  "lockfile": "package-lock.json",
+  "head_sha": "56f7db5f7204d1ea068094a76bb53781af540e98",
+  "site_evidence": "description=''; topics=[]; stars=13; pushed=2026-09-25; lockfile=package-lock.json committed; no starter/theme/demo/docs keywords in name/description/readme",
+  "source_queries": [
+   "eleventy filename:package.json"
+  ]
+ },
+ {
+  "repo": "11ty/webc",
+  "bucket": "E",
+  "status": "rejected",
+  "reason": "framework_owned",
+  "stars": 1410,
+  "pushed_at": "2026-09-16T22:26:51Z",
+  "default_branch": "main",
+  "source_queries": [
+   "eleventy filename:package.json"
+  ]
+ },
+ {
+  "repo": "la-ots/pelican",
+  "bucket": "E",
+  "status": "rejected",
+  "reason": "readme_keyword:theme",
+  "stars": 15,
+  "pushed_at": "2026-09-09T17:40:07Z",
+  "default_branch": "main",
+  "lockfile": "package-lock.json",
+  "source_queries": [
+   "eleventy filename:package.json"
+  ]
+ },
+ {
+  "repo": "towerofpower256/davidmac.pro",
+  "bucket": "E",
+  "status": "kept",
+  "reason": null,
+  "stars": 0,
+  "pushed_at": "2026-09-21T00:34:38Z",
+  "default_branch": "main",
+  "lockfile": "package-lock.json",
+  "head_sha": "045740bec1969132aac9a990b95dea903f55e729",
+  "site_evidence": "description='My personal website'; topics=[]; stars=0; pushed=2026-09-21; lockfile=package-lock.json committed; no starter/theme/demo/docs keywords in name/description/readme",
+  "source_queries": [
+   "eleventy filename:package.json"
+  ]
+ },
+ {
+  "repo": "decentpatterns/website",
+  "bucket": "E",
+  "status": "kept",
+  "reason": null,
+  "stars": 4,
+  "pushed_at": "2026-04-25T18:17:16Z",
+  "default_branch": "develop",
+  "lockfile": "package-lock.json",
+  "head_sha": "d9dddc3bd68eb03774ca2c1c54e78818109e72bf",
+  "site_evidence": "description=''; topics=[]; stars=4; pushed=2026-04-25; lockfile=package-lock.json committed; no starter/theme/demo/docs keywords in name/description/readme",
+  "source_queries": [
+   "eleventy filename:package.json"
+  ]
+ },
+ {
+  "repo": "zanodor/TUD1_Render",
+  "bucket": "E",
+  "status": "rejected",
+  "reason": "readme_keyword:template",
+  "stars": 0,
+  "pushed_at": "2026-08-20T15:39:34Z",
+  "default_branch": "main",
+  "lockfile": "package-lock.json",
+  "source_queries": [
+   "eleventy filename:package.json"
+  ]
+ },
+ {
+  "repo": "CloudCannon/bookshop",
+  "bucket": "E",
+  "status": "rejected",
+  "reason": "no_committed_lockfile",
+  "stars": 288,
+  "pushed_at": "2026-09-08T20:09:15Z",
+  "default_branch": "main",
+  "lockfile": null,
+  "source_queries": [
+   "eleventy filename:package.json"
+  ]
+ },
+ {
+  "repo": "SteveCaruso/galilean-grammar",
+  "bucket": "E",
+  "status": "kept",
+  "reason": null,
+  "stars": 8,
+  "pushed_at": "2026-01-24T21:39:56Z",
+  "default_branch": "main",
+  "lockfile": "package-lock.json",
+  "head_sha": "d199b7a51e5600bdb3d5d578138067de15f9420b",
+  "site_evidence": "description='A grammar of Galilean Aramaic.'; topics=[]; stars=8; pushed=2026-01-24; lockfile=package-lock.json committed; no starter/theme/demo/docs keywords in name/description/readme",
+  "source_queries": [
+   "eleventy filename:package.json"
+  ]
+ },
+ {
+  "repo": "pianomanfrazier/lilypond-in-markdown-v2",
+  "bucket": "E",
+  "status": "rejected",
+  "reason": "inactive_pushed_before_2024-09-25",
+  "stars": 8,
+  "pushed_at": "2023-01-09T22:09:46Z",
+  "default_branch": "master",
+  "source_queries": [
+   "eleventy filename:package.json"
+  ]
+ },
+ {
+  "repo": "clubmatto/vetrina",
+  "bucket": "E",
+  "status": "rejected",
+  "reason": "no_committed_lockfile",
+  "stars": 6,
+  "pushed_at": "2026-09-25T08:39:36Z",
+  "default_branch": "main",
+  "lockfile": null,
+  "source_queries": [
+   "eleventy filename:package.json"
+  ]
+ },
+ {
+  "repo": "michalzalobny/webgl2-vanilla-experiments",
+  "bucket": "E",
+  "status": "kept",
+  "reason": null,
+  "stars": 12,
+  "pushed_at": "2026-04-03T13:33:05Z",
+  "default_branch": "main",
+  "lockfile": "package-lock.json",
+  "head_sha": "0611a96c06f9e5a713856d65bbc48ffbf1d9aedc",
+  "site_evidence": "description='Vanilla WebGL2 experiments with no libraries. Custom made physics, math api, rendering, collision detection, and more.'; topics=[]; stars=12; pushed=2026-04-03; lockfile=package-lock.json committed; no starter/theme/demo/docs keywords in name/description/readme",
+  "source_queries": [
+   "eleventy filename:package.json"
+  ]
+ },
+ {
+  "repo": "alexcarpenter/learn-eleventy",
+  "bucket": "E",
+  "status": "rejected",
+  "reason": "inactive_pushed_before_2024-09-25",
+  "stars": 12,
+  "pushed_at": "2020-04-29T20:46:47Z",
+  "default_branch": "master",
+  "source_queries": [
+   "eleventy filename:package.json"
+  ]
+ },
+ {
+  "repo": "gsathya/gsathya.github.io",
+  "bucket": "E",
+  "status": "rejected",
+  "reason": "inactive_pushed_before_2024-09-25",
+  "stars": 3,
+  "pushed_at": "2024-03-26T13:36:58Z",
+  "default_branch": "main",
+  "source_queries": [
+   "eleventy filename:package.json"
+  ]
+ },
+ {
+  "repo": "UKHomeOffice/engineering-guidance-and-standards",
+  "bucket": "E",
+  "status": "kept",
+  "reason": null,
+  "stars": 26,
+  "pushed_at": "2026-09-14T13:14:25Z",
+  "default_branch": "main",
+  "lockfile": "package-lock.json",
+  "head_sha": "886ef0dd93bd8754adc441463ff8f3aca16ffe96",
+  "site_evidence": "description='Engineering Guidance and Standards for the Home Office'; topics=[]; stars=26; pushed=2026-09-14; lockfile=package-lock.json committed; no starter/theme/demo/docs keywords in name/description/readme",
+  "source_queries": [
+   "eleventy filename:package.json"
+  ]
+ },
+ {
+  "repo": "alphagov/govuk-brand-guidelines",
+  "bucket": "E",
+  "status": "kept",
+  "reason": null,
+  "stars": 0,
+  "pushed_at": "2026-09-22T09:14:02Z",
+  "default_branch": "main",
+  "lockfile": "package-lock.json",
+  "head_sha": "1ce27074782c2f76f2904447ce3aac5b91bcdbfc",
+  "site_evidence": "description=''; topics=[]; stars=0; pushed=2026-09-22; lockfile=package-lock.json committed; no starter/theme/demo/docs keywords in name/description/readme",
+  "source_queries": [
+   "eleventy filename:package.json",
+   "filename:eleventy.config.js"
+  ]
+ },
+ {
+  "repo": "Kuadrant/kuadrant.github.io",
+  "bucket": "E",
+  "status": "rejected",
+  "reason": "readme_keyword:template",
+  "stars": 3,
+  "pushed_at": "2026-09-22T13:52:51Z",
+  "default_branch": "main",
+  "lockfile": "package-lock.json",
+  "source_queries": [
+   "eleventy filename:package.json"
+  ]
+ },
+ {
+  "repo": "magicmark/programming-protips-wiki",
+  "bucket": "E",
+  "status": "kept",
+  "reason": null,
+  "stars": 7,
+  "pushed_at": "2025-12-09T21:05:31Z",
+  "default_branch": "master",
+  "lockfile": "yarn.lock",
+  "head_sha": "b1bab5d5650e3e9887bf0005140963b186b2e211",
+  "site_evidence": "description='A collection of programming protips'; topics=[]; stars=7; pushed=2025-12-09; lockfile=yarn.lock committed; no starter/theme/demo/docs keywords in name/description/readme",
+  "source_queries": [
+   "eleventy filename:package.json"
+  ]
+ },
+ {
+  "repo": "adamdjbrett/11ty-long-reads",
+  "bucket": "E",
+  "status": "kept",
+  "reason": null,
+  "stars": 2,
+  "pushed_at": "2026-09-07T16:10:08Z",
+  "default_branch": "main",
+  "lockfile": "package-lock.json",
+  "head_sha": "27d17e7f5879eebff504c0c1ae7ca99a212169d1",
+  "site_evidence": "description='11ty Long Reads'; topics=['11ty', '11ty-starter']; stars=2; pushed=2026-09-07; lockfile=package-lock.json committed; no starter/theme/demo/docs keywords in name/description/readme",
+  "source_queries": [
+   "eleventy filename:package.json"
+  ]
+ },
+ {
+  "repo": "dnum-mi/cct-mi",
+  "bucket": "E",
+  "status": "rejected",
+  "reason": "no_committed_lockfile",
+  "stars": 0,
+  "pushed_at": "2025-01-18T17:21:37Z",
+  "default_branch": "dev",
+  "lockfile": null,
+  "source_queries": [
+   "eleventy filename:package.json"
+  ]
+ },
+ {
+  "repo": "inclusive-design/standards.inclusivedesign.ca",
+  "bucket": "E",
+  "status": "kept",
+  "reason": null,
+  "stars": 0,
+  "pushed_at": "2026-09-25T05:36:20Z",
+  "default_branch": "dev",
+  "lockfile": "package-lock.json",
+  "head_sha": "ed8660cce0e3e1a19119e49bf778e113755f3d91",
+  "site_evidence": "description='Website for IDRC standards development work.'; topics=[]; stars=0; pushed=2026-09-25; lockfile=package-lock.json committed; no starter/theme/demo/docs keywords in name/description/readme",
+  "source_queries": [
+   "eleventy filename:package.json"
+  ]
+ },
+ {
+  "repo": "clairezed/base-de-connaissance",
+  "bucket": "E",
+  "status": "rejected",
+  "reason": "inactive_pushed_before_2024-09-25",
+  "stars": 4,
+  "pushed_at": "2023-03-02T03:10:32Z",
+  "default_branch": "master",
+  "source_queries": [
+   "eleventy filename:package.json"
+  ]
+ },
+ {
+  "repo": "GSAPP-CDP/colloquium-2-2024",
+  "bucket": "E",
+  "status": "rejected",
+  "reason": "readme_keyword:template",
+  "stars": 0,
+  "pushed_at": "2025-01-19T21:28:43Z",
+  "default_branch": "main",
+  "lockfile": "package-lock.json",
+  "source_queries": [
+   "eleventy filename:package.json"
+  ]
+ },
+ {
+  "repo": "dontliem1/browsbeforebros.ru",
+  "bucket": "E",
+  "status": "rejected",
+  "reason": "inactive_pushed_before_2024-09-25",
+  "stars": 0,
+  "pushed_at": "2023-12-03T12:28:54Z",
+  "default_branch": "master",
+  "source_queries": [
+   "eleventy filename:package.json"
+  ]
+ },
+ {
+  "repo": "rniemand/rniemand.github.io",
+  "bucket": "E",
+  "status": "kept",
+  "reason": null,
+  "stars": 0,
+  "pushed_at": "2026-08-14T21:19:30Z",
+  "default_branch": "main",
+  "lockfile": "package-lock.json",
+  "head_sha": "6b06ae3ec859854e8bc29ac557f2aaf6dc504206",
+  "site_evidence": "description=''; topics=[]; stars=0; pushed=2026-08-14; lockfile=package-lock.json committed; no starter/theme/demo/docs keywords in name/description/readme",
+  "source_queries": [
+   "eleventy filename:package.json"
+  ]
+ },
+ {
+  "repo": "hrothmar/hrothmar.com",
+  "bucket": "E",
+  "status": "rejected",
+  "reason": "inactive_pushed_before_2024-09-25",
+  "stars": 0,
+  "pushed_at": "2024-02-07T07:19:48Z",
+  "default_branch": "main",
+  "source_queries": [
+   "eleventy filename:package.json"
+  ]
+ },
+ {
+  "repo": "HarlonServer/harlon-transit-website",
+  "bucket": "E",
+  "status": "rejected",
+  "reason": "readme_keyword:boilerplate",
+  "stars": 0,
+  "pushed_at": "2026-09-14T13:39:59Z",
+  "default_branch": "main",
+  "lockfile": "package-lock.json",
+  "source_queries": [
+   "eleventy filename:package.json"
+  ]
+ },
+ {
+  "repo": "oliviachang29/ffr",
+  "bucket": "E",
+  "status": "rejected",
+  "reason": "inactive_pushed_before_2024-09-25",
+  "stars": 0,
+  "pushed_at": "2023-06-22T23:56:49Z",
+  "default_branch": "master",
+  "source_queries": [
+   "eleventy filename:package.json"
+  ]
+ },
+ {
+  "repo": "danieldafoe/danieldafoe.com",
+  "bucket": "E",
+  "status": "kept",
+  "reason": null,
+  "stars": 2,
+  "pushed_at": "2026-09-23T00:40:35Z",
+  "default_branch": "main",
+  "lockfile": "package-lock.json",
+  "head_sha": "70d68fa24742e350e9356fb2c37957852d4e66ac",
+  "site_evidence": "description='Personal website.'; topics=['accessibility', 'css', 'design', 'html', 'inclusive', 'sass', 'writing']; stars=2; pushed=2026-09-23; lockfile=package-lock.json committed; no starter/theme/demo/docs keywords in name/description/readme",
+  "source_queries": [
+   "eleventy filename:package.json"
+  ]
+ },
+ {
+  "repo": "ortiz-antonio/article-preview-component",
+  "bucket": "E",
+  "status": "rejected",
+  "reason": "no_committed_lockfile",
+  "stars": 0,
+  "pushed_at": "2025-01-10T06:35:55Z",
+  "default_branch": "main",
+  "lockfile": null,
+  "source_queries": [
+   "eleventy filename:package.json"
+  ]
+ },
+ {
+  "repo": "ken00535/blog",
+  "bucket": "E",
+  "status": "rejected",
+  "reason": "inactive_pushed_before_2024-09-25",
+  "stars": 0,
+  "pushed_at": "2023-02-07T05:13:37Z",
+  "default_branch": "main",
+  "source_queries": [
+   "eleventy filename:package.json",
+   "filename:.eleventy.js"
+  ]
+ },
+ {
+  "repo": "brettdewoody/eleventy-playground",
+  "bucket": "E",
+  "status": "rejected",
+  "reason": "inactive_pushed_before_2024-09-25",
+  "stars": 2,
+  "pushed_at": "2022-05-06T20:23:05Z",
+  "default_branch": "main",
+  "source_queries": [
+   "eleventy filename:package.json"
+  ]
+ },
+ {
+  "repo": "OGS-Digital-Service/accessibility-reporting",
+  "bucket": "E",
+  "status": "kept",
+  "reason": null,
+  "stars": 0,
+  "pushed_at": "2026-09-18T14:31:41Z",
+  "default_branch": "main",
+  "lockfile": "package-lock.json",
+  "head_sha": "ae485a7b04e44701d9239aa24f3369d06340ba47",
+  "site_evidence": "description='A micro-site and repo to manage automated accessibility reports, generated scans, and general compliance with WCAG 2.2 AA across Digital Ser'; topics=[]; stars=0; pushed=2026-09-18; lockfile=package-lock.json committed; no starter/theme/demo/docs keywords in name/description/readme",
+  "source_queries": [
+   "eleventy filename:package.json"
+  ]
+ },
+ {
+  "repo": "bronscode/gp-website",
+  "bucket": "E",
+  "status": "kept",
+  "reason": null,
+  "stars": 0,
+  "pushed_at": "2026-04-02T15:28:14Z",
+  "default_branch": "develop",
+  "lockfile": "package-lock.json",
+  "head_sha": "a1b445e315fe35551bd4cfb1150ede071f353761",
+  "site_evidence": "description=''; topics=[]; stars=0; pushed=2026-04-02; lockfile=package-lock.json committed; no starter/theme/demo/docs keywords in name/description/readme",
+  "source_queries": [
+   "eleventy filename:package.json"
+  ]
+ },
+ {
+  "repo": "yaxley-peaks/yaxley-peaks.github.io",
+  "bucket": "E",
+  "status": "kept",
+  "reason": null,
+  "stars": 0,
+  "pushed_at": "2024-12-16T13:51:29Z",
+  "default_branch": "main",
+  "lockfile": "package-lock.json",
+  "head_sha": "fc9390f6c3c67dae5b381390ce8a0ec3efb2ee1a",
+  "site_evidence": "description=''; topics=[]; stars=0; pushed=2024-12-16; lockfile=package-lock.json committed; no starter/theme/demo/docs keywords in name/description/readme",
+  "source_queries": [
+   "eleventy filename:package.json"
+  ]
+ },
+ {
+  "repo": "bhavana-netlify/bana-hasura-netlify",
+  "bucket": "E",
+  "status": "rejected",
+  "reason": "inactive_pushed_before_2024-09-25",
+  "stars": 0,
+  "pushed_at": "2022-01-19T16:35:57Z",
+  "default_branch": "main",
+  "source_queries": [
+   "eleventy filename:package.json"
+  ]
+ },
+ {
+  "repo": "derekvincent/derekvincent.github.io",
+  "bucket": "E",
+  "status": "rejected",
+  "reason": "inactive_pushed_before_2024-09-25",
+  "stars": 0,
+  "pushed_at": "2023-09-13T11:16:15Z",
+  "default_branch": "master",
+  "source_queries": [
+   "eleventy filename:package.json"
+  ]
+ },
+ {
+  "repo": "MMcKinney/nfg-11ty",
+  "bucket": "E",
+  "status": "rejected",
+  "reason": "inactive_pushed_before_2024-09-25",
+  "stars": 0,
+  "pushed_at": "2023-04-26T04:08:49Z",
+  "default_branch": "main",
+  "source_queries": [
+   "eleventy filename:package.json"
+  ]
+ },
+ {
+  "repo": "avblackwell/eleventy-excellent-main-2",
+  "bucket": "E",
+  "status": "rejected",
+  "reason": "inactive_pushed_before_2024-09-25",
+  "stars": 0,
+  "pushed_at": "2023-03-15T18:23:53Z",
+  "default_branch": "master",
+  "source_queries": [
+   "eleventy filename:package.json"
+  ]
+ },
+ {
+  "repo": "DHDesignsSF/11ty-Alpine-Tailwind-DaisyUI-starter",
+  "bucket": "E",
+  "status": "rejected",
+  "reason": "inactive_pushed_before_2024-09-25",
+  "stars": 0,
+  "pushed_at": "2021-06-01T02:21:25Z",
+  "default_branch": "main",
+  "source_queries": [
+   "eleventy filename:package.json"
+  ]
+ },
+ {
+  "repo": "cryptoskillz/imagesnapshot",
+  "bucket": "E",
+  "status": "rejected",
+  "reason": "inactive_pushed_before_2024-09-25",
+  "stars": 0,
+  "pushed_at": "2023-06-22T09:58:51Z",
+  "default_branch": "master",
+  "source_queries": [
+   "eleventy filename:package.json"
+  ]
+ },
+ {
+  "repo": "progcompcl/2024-cipc-website",
+  "bucket": "E",
+  "status": "kept",
+  "reason": null,
+  "stars": 1,
+  "pushed_at": "2025-09-23T18:54:39Z",
+  "default_branch": "main",
+  "lockfile": "package-lock.json",
+  "head_sha": "778956fd34d2aee2465cfa1623bdccf626458a6d",
+  "site_evidence": "description='Sitio web para el Campamento Invernal de Programaci\u00f3n Competitiva'; topics=[]; stars=1; pushed=2025-09-23; lockfile=package-lock.json committed; no starter/theme/demo/docs keywords in name/description/readme",
+  "source_queries": [
+   "eleventy filename:package.json"
+  ]
+ },
+ {
+  "repo": "booksandspirits/booksandspirits.github.io",
+  "bucket": "E",
+  "status": "rejected",
+  "reason": "no_committed_lockfile",
+  "stars": 0,
+  "pushed_at": "2024-11-17T21:50:57Z",
+  "default_branch": "main",
+  "lockfile": null,
+  "source_queries": [
+   "eleventy filename:package.json"
+  ]
+ },
+ {
+  "repo": "jkarteaga/micro-site",
+  "bucket": "E",
+  "status": "rejected",
+  "reason": "inactive_pushed_before_2024-09-25",
+  "stars": 0,
+  "pushed_at": "2024-08-13T11:31:15Z",
+  "default_branch": "master",
+  "source_queries": [
+   "eleventy filename:package.json"
+  ]
+ },
+ {
+  "repo": "Tomrso/ambrosebuildinggroup",
+  "bucket": "E",
+  "status": "rejected",
+  "reason": "readme_keyword:starter",
+  "stars": 0,
+  "pushed_at": "2026-05-07T06:10:18Z",
+  "default_branch": "main",
+  "lockfile": "package-lock.json",
+  "source_queries": [
+   "eleventy filename:package.json"
+  ]
+ },
+ {
+  "repo": "tsharley/micro-site",
+  "bucket": "E",
+  "status": "rejected",
+  "reason": "inactive_pushed_before_2024-09-25",
+  "stars": 0,
+  "pushed_at": "2023-07-16T05:20:06Z",
+  "default_branch": "master",
+  "source_queries": [
+   "eleventy filename:package.json"
+  ]
+ },
+ {
+  "repo": "aarongustafson/eleventy-plugin-share-card",
+  "bucket": "E",
+  "status": "rejected",
+  "reason": "readme_keyword:template",
+  "stars": 0,
+  "pushed_at": "2026-05-04T16:07:51Z",
+  "default_branch": "main",
+  "lockfile": "package-lock.json",
+  "source_queries": [
+   "eleventy filename:package.json"
+  ]
+ },
+ {
+  "repo": "AndrezBlu3/magica",
+  "bucket": "E",
+  "status": "rejected",
+  "reason": "inactive_pushed_before_2024-09-25",
+  "stars": 0,
+  "pushed_at": "2022-03-07T18:57:02Z",
+  "default_branch": "main",
+  "source_queries": [
+   "eleventy filename:package.json",
+   "filename:.eleventy.js"
+  ]
+ },
+ {
+  "repo": "zivtech/hr-compliance",
+  "bucket": "E",
+  "status": "rejected",
+  "reason": "docs_for_tool: matched /hr compliance skill/ (agent skill repo, not a content site)",
+  "stars": 0,
+  "pushed_at": "2026-03-12T01:25:36Z",
+  "default_branch": "main",
+  "lockfile": "package-lock.json",
+  "source_queries": [
+   "eleventy filename:package.json"
+  ]
+ },
+ {
+  "repo": "BarkBarklington/micro-site",
+  "bucket": "E",
+  "status": "rejected",
+  "reason": "readme_keyword:template",
+  "stars": 0,
+  "pushed_at": "2025-04-09T08:46:26Z",
+  "default_branch": "master",
+  "lockfile": "package-lock.json",
+  "source_queries": [
+   "eleventy filename:package.json"
+  ]
+ },
+ {
+  "repo": "olets/eleventy-plugin-shiki-twoslash",
+  "bucket": "E",
+  "status": "rejected",
+  "reason": "readme_keyword:theme",
+  "stars": 1,
+  "pushed_at": "2024-10-23T23:35:40Z",
+  "default_branch": "main",
+  "lockfile": "bun.lockb",
+  "source_queries": [
+   "eleventy filename:package.json"
+  ]
+ },
+ {
+  "repo": "Ochirsaikhan/ochirsaikhan.github.io",
+  "bucket": "E",
+  "status": "rejected",
+  "reason": "inactive_pushed_before_2024-09-25",
+  "stars": 0,
+  "pushed_at": "2023-02-01T21:58:22Z",
+  "default_branch": "main",
+  "source_queries": [
+   "eleventy filename:package.json",
+   "filename:.eleventy.js"
+  ]
+ },
+ {
+  "repo": "staram/eleventastic",
+  "bucket": "E",
+  "status": "rejected",
+  "reason": "readme_keyword:starter",
+  "stars": 0,
+  "pushed_at": "2025-01-02T07:02:20Z",
+  "default_branch": "master",
+  "lockfile": "package-lock.json",
+  "source_queries": [
+   "eleventy filename:package.json"
+  ]
+ },
+ {
+  "repo": "gmcgowan13/yetty",
+  "bucket": "E",
+  "status": "rejected",
+  "reason": "readme_keyword:starter",
+  "stars": 0,
+  "pushed_at": "2024-10-06T22:40:00Z",
+  "default_branch": "main",
+  "lockfile": "package-lock.json",
+  "source_queries": [
+   "eleventy filename:package.json",
+   "filename:.eleventy.js"
+  ]
+ },
+ {
+  "repo": "AnoTherK-ATK/js-samples",
+  "bucket": "E",
+  "status": "rejected",
+  "reason": "readme_keyword:tutorial",
+  "stars": 0,
+  "pushed_at": "2025-10-20T21:52:36Z",
+  "default_branch": "main",
+  "lockfile": "package-lock.json",
+  "source_queries": [
+   "eleventy filename:package.json"
+  ]
+ },
+ {
+  "repo": "aaronpinero/pinero-blog",
+  "bucket": "E",
+  "status": "rejected",
+  "reason": "no_committed_lockfile",
+  "stars": 0,
+  "pushed_at": "2026-08-30T19:08:09Z",
+  "default_branch": "master",
+  "lockfile": null,
+  "source_queries": [
+   "eleventy filename:package.json"
+  ]
+ },
+ {
+  "repo": "ovidus/rightfulliberty",
+  "bucket": "E",
+  "status": "rejected",
+  "reason": "readme_keyword:starter",
+  "stars": 0,
+  "pushed_at": "2024-11-23T21:56:45Z",
+  "default_branch": "main",
+  "lockfile": "package-lock.json",
+  "source_queries": [
+   "eleventy filename:package.json",
+   "filename:.eleventy.js"
+  ]
+ },
+ {
+  "repo": "SgiobairOg/photographer-sans-netlify",
+  "bucket": "E",
+  "status": "rejected",
+  "reason": "inactive_pushed_before_2024-09-25",
+  "stars": 0,
+  "pushed_at": "2023-05-24T01:24:57Z",
+  "default_branch": "master",
+  "source_queries": [
+   "eleventy filename:package.json"
+  ]
+ },
+ {
+  "repo": "ElmarJ/aliceheuff.com",
+  "bucket": "E",
+  "status": "rejected",
+  "reason": "inactive_pushed_before_2024-09-25",
+  "stars": 0,
+  "pushed_at": "2022-02-28T13:34:59Z",
+  "default_branch": "master",
+  "source_queries": [
+   "eleventy filename:package.json"
+  ]
+ },
+ {
+  "repo": "arcaner666/rxjs-fundamentals",
+  "bucket": "E",
+  "status": "rejected",
+  "reason": "inactive_pushed_before_2024-09-25",
+  "stars": 0,
+  "pushed_at": "2024-03-04T13:38:58Z",
+  "default_branch": "main",
+  "source_queries": [
+   "eleventy filename:package.json"
+  ]
+ },
+ {
+  "repo": "elrumordelaluz/bici-fenomen-a",
+  "bucket": "E",
+  "status": "rejected",
+  "reason": "inactive_pushed_before_2024-09-25",
+  "stars": 0,
+  "pushed_at": "2022-07-09T08:10:26Z",
+  "default_branch": "main",
+  "source_queries": [
+   "eleventy filename:package.json"
+  ]
+ },
+ {
+  "repo": "harshinilaks/ppn_timeline",
+  "bucket": "E",
+  "status": "kept",
+  "reason": null,
+  "stars": 0,
+  "pushed_at": "2026-05-13T05:46:14Z",
+  "default_branch": "main",
+  "lockfile": "package-lock.json",
+  "head_sha": "ac424f6be241100139afadd521968542f04004e1",
+  "site_evidence": "description='ethics & politics of knowledge final project'; topics=[]; stars=0; pushed=2026-05-13; lockfile=package-lock.json committed; no starter/theme/demo/docs keywords in name/description/readme",
+  "source_queries": [
+   "eleventy filename:package.json"
+  ]
+ },
+ {
+  "repo": "forbesye/cs373",
+  "bucket": "E",
+  "status": "rejected",
+  "reason": "inactive_pushed_before_2024-09-25",
+  "stars": 1,
+  "pushed_at": "2022-02-09T17:08:08Z",
+  "default_branch": "main",
+  "source_queries": [
+   "eleventy filename:package.json"
+  ]
+ },
+ {
+  "repo": "9elements/dxm-website",
+  "bucket": "E",
+  "status": "rejected",
+  "reason": "readme_keyword:boilerplate",
+  "stars": 0,
+  "pushed_at": "2026-06-09T11:28:23Z",
+  "default_branch": "main",
+  "lockfile": "package-lock.json",
+  "source_queries": [
+   "eleventy filename:package.json"
+  ]
+ },
+ {
+  "repo": "WilcoFiers/wcag3-docs",
+  "bucket": "E",
+  "status": "rejected",
+  "reason": "inactive_pushed_before_2024-09-25",
+  "stars": 0,
+  "pushed_at": "2023-07-10T17:15:38Z",
+  "default_branch": "main",
+  "source_queries": [
+   "eleventy filename:package.json"
+  ]
+ },
+ {
+  "repo": "eringrant/static-website-template",
+  "bucket": "E",
+  "status": "rejected",
+  "reason": "starter_theme_demo_keyword:template",
+  "stars": 0,
+  "pushed_at": "2026-09-19T15:51:12Z",
+  "default_branch": "main",
+  "source_queries": [
+   "eleventy filename:package.json"
+  ]
+ },
+ {
+  "repo": "turkufrontend/turkufrontend.fi",
+  "bucket": "E",
+  "status": "kept",
+  "reason": null,
+  "stars": 0,
+  "pushed_at": "2026-09-16T08:08:32Z",
+  "default_branch": "main",
+  "lockfile": "package-lock.json",
+  "head_sha": "d5eb32f4f0f247718253f6b275c665c86ffdaa06",
+  "site_evidence": "description=''; topics=[]; stars=0; pushed=2026-09-16; lockfile=package-lock.json committed; no starter/theme/demo/docs keywords in name/description/readme",
+  "source_queries": [
+   "eleventy filename:package.json"
+  ]
+ },
+ {
+  "repo": "ecarlisle/ericcarlisle-11ty",
+  "bucket": "E",
+  "status": "rejected",
+  "reason": "inactive_pushed_before_2024-09-25",
+  "stars": 0,
+  "pushed_at": "2022-12-06T19:43:27Z",
+  "default_branch": "main",
+  "source_queries": [
+   "eleventy filename:package.json"
+  ]
+ },
+ {
+  "repo": "reinierkb/kbsite",
+  "bucket": "E",
+  "status": "kept",
+  "reason": null,
+  "stars": 0,
+  "pushed_at": "2026-01-07T13:56:30Z",
+  "default_branch": "main",
+  "lockfile": "yarn.lock",
+  "head_sha": "30f4d9b0f4ad0f0c1bfecdb318e9280cff6d26fb",
+  "site_evidence": "description=''; topics=[]; stars=0; pushed=2026-01-07; lockfile=yarn.lock committed; no starter/theme/demo/docs keywords in name/description/readme",
+  "source_queries": [
+   "eleventy filename:package.json"
+  ]
+ },
+ {
+  "repo": "adamlaki/adamlaki-site",
+  "bucket": "E",
+  "status": "kept",
+  "reason": null,
+  "stars": 0,
+  "pushed_at": "2025-12-20T15:12:29Z",
+  "default_branch": "master",
+  "lockfile": "package-lock.json",
+  "head_sha": "8f0dfef6080054615b06ec47e678ff50c572fe50",
+  "site_evidence": "description='My personal Eleventy-based website.'; topics=['11ty', 'eleventy', 'static-site']; stars=0; pushed=2025-12-20; lockfile=package-lock.json committed; no starter/theme/demo/docs keywords in name/description/readme",
+  "source_queries": [
+   "eleventy filename:package.json"
+  ]
+ },
+ {
+  "repo": "dwkns/marqeta-dropdown",
+  "bucket": "E",
+  "status": "rejected",
+  "reason": "inactive_pushed_before_2024-09-25",
+  "stars": 0,
+  "pushed_at": "2021-03-12T18:19:57Z",
+  "default_branch": "main",
+  "source_queries": [
+   "eleventy filename:package.json"
+  ]
+ },
+ {
+  "repo": "Tarun-Gup/Analyst-in-Action",
+  "bucket": "E",
+  "status": "kept",
+  "reason": null,
+  "stars": 0,
+  "pushed_at": "2026-09-20T12:58:57Z",
+  "default_branch": "main",
+  "lockfile": "package-lock.json",
+  "head_sha": "e77e15504774cacfeb86f96198578652828dce41",
+  "site_evidence": "description='My blog'; topics=[]; stars=0; pushed=2026-09-20; lockfile=package-lock.json committed; no starter/theme/demo/docs keywords in name/description/readme",
+  "source_queries": [
+   "eleventy filename:package.json"
+  ]
+ },
+ {
+  "repo": "matto2/excellent",
+  "bucket": "E",
+  "status": "rejected",
+  "reason": "inactive_pushed_before_2024-09-25",
+  "stars": 0,
+  "pushed_at": "2023-01-07T05:33:08Z",
+  "default_branch": "main",
+  "source_queries": [
+   "eleventy filename:package.json"
+  ]
+ },
+ {
+  "repo": "RVCC-IDMX/style-mobile-first-cynthiateeters",
+  "bucket": "E",
+  "status": "rejected",
+  "reason": "inactive_pushed_before_2024-09-25",
+  "stars": 0,
+  "pushed_at": "2022-12-05T02:49:39Z",
+  "default_branch": "main",
+  "source_queries": [
+   "eleventy filename:package.json"
+  ]
+ },
+ {
+  "repo": "MarcelSchouwenaar/site",
+  "bucket": "E",
+  "status": "kept",
+  "reason": null,
+  "stars": 0,
+  "pushed_at": "2025-02-08T11:43:42Z",
+  "default_branch": "main",
+  "lockfile": "package-lock.json",
+  "head_sha": "b9441f8eee78896cdf1c1a4c6b97b2e8f0c1ecc2",
+  "site_evidence": "description='Personal website of Marcel Schouwenaar'; topics=[]; stars=0; pushed=2025-02-08; lockfile=package-lock.json committed; no starter/theme/demo/docs keywords in name/description/readme",
+  "source_queries": [
+   "eleventy filename:package.json"
+  ]
+ },
+ {
+  "repo": "nsursock/track-record-v12",
+  "bucket": "E",
+  "status": "kept",
+  "reason": null,
+  "stars": 0,
+  "pushed_at": "2025-07-02T09:30:21Z",
+  "default_branch": "main",
+  "lockfile": "package-lock.json",
+  "head_sha": "4fe698d31d9232e23ed5c6b94c2d839a8ba5d21b",
+  "site_evidence": "description='Track Record v12: a music and philosophy blog exploring the connections between sound, rhythm, and meaning. Built with Eleventy, Vite, Tailw'; topics=['11ty', 'alpinejs', 'blog', 'eleventy', 'music', 'philosophy', 'ssg', 'static-site', 'tailwindcss', 'vite']; stars=0; pushed=2025-07-02; lockfile=package-lock.json committed; no starter/theme/demo/docs keywords in name/description/readme",
+  "source_queries": [
+   "eleventy filename:package.json"
+  ]
+ },
+ {
+  "repo": "atomstar-inc/atomstar.github.io",
+  "bucket": "E",
+  "status": "kept",
+  "reason": null,
+  "stars": 0,
+  "pushed_at": "2026-09-01T00:10:05Z",
+  "default_branch": "main",
+  "lockfile": "package-lock.json",
+  "head_sha": "ff88942339fb67df2f5894e48132cebab2307030",
+  "site_evidence": "description=''; topics=[]; stars=0; pushed=2026-09-01; lockfile=package-lock.json committed; no starter/theme/demo/docs keywords in name/description/readme",
+  "source_queries": [
+   "eleventy filename:package.json"
+  ]
+ },
+ {
+  "repo": "FNebEx/new-fnebex-site",
+  "bucket": "E",
+  "status": "rejected",
+  "reason": "inactive_pushed_before_2024-09-25",
+  "stars": 0,
+  "pushed_at": "2021-08-18T21:45:55Z",
+  "default_branch": "main",
+  "source_queries": [
+   "eleventy filename:package.json"
+  ]
+ },
+ {
+  "repo": "sakshidudani2021-Wins/Sakshidudaniportfolio",
+  "bucket": "E",
+  "status": "rejected",
+  "reason": "no_committed_lockfile",
+  "stars": 0,
+  "pushed_at": "2026-07-17T15:29:11Z",
+  "default_branch": "main",
+  "lockfile": null,
+  "source_queries": [
+   "eleventy filename:package.json",
+   "filename:.eleventy.js"
+  ]
+ },
+ {
+  "repo": "SqrtNegativOne/newwebsitetest",
+  "bucket": "E",
+  "status": "rejected",
+  "reason": "readme_keyword:template",
+  "stars": 0,
+  "pushed_at": "2026-04-14T10:30:58Z",
+  "default_branch": "main",
+  "lockfile": "package-lock.json",
+  "source_queries": [
+   "eleventy filename:package.json"
+  ]
+ },
+ {
+  "repo": "HanJian16/M3-Bootcamp",
+  "bucket": "E",
+  "status": "rejected",
+  "reason": "no_committed_lockfile",
+  "stars": 0,
+  "pushed_at": "2026-03-08T05:29:22Z",
+  "default_branch": "main",
+  "lockfile": null,
+  "source_queries": [
+   "eleventy filename:package.json"
+  ]
+ },
+ {
+  "repo": "DSACMS/website-template",
+  "bucket": "E",
+  "status": "rejected",
+  "reason": "starter_theme_demo_keyword:template",
+  "stars": 1,
+  "pushed_at": "2026-08-18T18:08:43Z",
+  "default_branch": "main",
+  "source_queries": [
+   "eleventy filename:package.json"
+  ]
+ },
+ {
+  "repo": "hmgog-comms/prepare-gibraltar",
+  "bucket": "E",
+  "status": "kept",
+  "reason": null,
+  "stars": 0,
+  "pushed_at": "2026-09-16T14:16:20Z",
+  "default_branch": "main",
+  "lockfile": "package-lock.json",
+  "head_sha": "5ff8687be416eafcb848b8084eb5db6a8d3aafbe",
+  "site_evidence": "description='Official emergency preparedness website for Gibraltar residents \u2014 HM Government of Gibraltar, Civil Contingencies Unit'; topics=[]; stars=0; pushed=2026-09-16; lockfile=package-lock.json committed; no starter/theme/demo/docs keywords in name/description/readme",
+  "source_queries": [
+   "eleventy filename:package.json"
+  ]
+ },
+ {
+  "repo": "jamesaduncan/organised.team",
+  "bucket": "E",
+  "status": "kept",
+  "reason": null,
+  "stars": 0,
+  "pushed_at": "2025-07-31T11:15:38Z",
+  "default_branch": "main",
+  "lockfile": "package-lock.json",
+  "head_sha": "fcf6fa18c959b419e96c272ae2c80c9a0b0adcc9",
+  "site_evidence": "description='Organised.team is a standards-compliant approach to services, policies and teams.'; topics=[]; stars=0; pushed=2025-07-31; lockfile=package-lock.json committed; no starter/theme/demo/docs keywords in name/description/readme",
+  "source_queries": [
+   "eleventy filename:package.json"
+  ]
+ },
+ {
+  "repo": "YoungElPaso/big-u-tw-demo",
+  "bucket": "E",
+  "status": "rejected",
+  "reason": "inactive_pushed_before_2024-09-25",
+  "stars": 1,
+  "pushed_at": "2021-03-12T23:44:32Z",
+  "default_branch": "main",
+  "source_queries": [
+   "eleventy filename:package.json"
+  ]
+ },
+ {
+  "repo": "cynthiateeters/smol-11ty-starter",
+  "bucket": "E",
+  "status": "rejected",
+  "reason": "inactive_pushed_before_2024-09-25",
+  "stars": 0,
+  "pushed_at": "2022-06-16T17:57:42Z",
+  "default_branch": "main",
+  "source_queries": [
+   "eleventy filename:package.json",
+   "filename:.eleventy.js"
+  ]
+ },
+ {
+  "repo": "bryanpaget/homepage-2023-3",
+  "bucket": "E",
+  "status": "rejected",
+  "reason": "inactive_pushed_before_2024-09-25",
+  "stars": 0,
+  "pushed_at": "2023-06-29T14:54:11Z",
+  "default_branch": "main",
+  "source_queries": [
+   "eleventy filename:package.json",
+   "filename:.eleventy.js"
+  ]
+ },
+ {
+  "repo": "X2Agent/x2agent.github.io",
+  "bucket": "E",
+  "status": "kept",
+  "reason": null,
+  "stars": 0,
+  "pushed_at": "2026-08-16T07:15:38Z",
+  "default_branch": "main",
+  "lockfile": "package-lock.json",
+  "head_sha": "d753511219a39cf7514129d4bb37e07d98b6ea30",
+  "site_evidence": "description='\u667a\u80fd\u52a9\u624b'; topics=[]; stars=0; pushed=2026-08-16; lockfile=package-lock.json committed; no starter/theme/demo/docs keywords in name/description/readme",
+  "source_queries": [
+   "eleventy filename:package.json"
+  ]
+ },
+ {
+  "repo": "avblackwell/bros-landscaping",
+  "bucket": "E",
+  "status": "rejected",
+  "reason": "inactive_pushed_before_2024-09-25",
+  "stars": 0,
+  "pushed_at": "2022-06-26T16:30:07Z",
+  "default_branch": "main",
+  "source_queries": [
+   "eleventy filename:package.json",
+   "filename:.eleventy.js"
+  ]
+ },
+ {
+  "repo": "Collederas/collederas.com",
+  "bucket": "E",
+  "status": "rejected",
+  "reason": "no_committed_lockfile",
+  "stars": 0,
+  "pushed_at": "2025-08-13T09:43:59Z",
+  "default_branch": "main",
+  "lockfile": null,
+  "source_queries": [
+   "eleventy filename:package.json"
+  ]
+ },
+ {
+  "repo": "gabrielmeir53/shatunovsky.com",
+  "bucket": "E",
+  "status": "rejected",
+  "reason": "readme_keyword:template",
+  "stars": 0,
+  "pushed_at": "2026-09-24T21:34:16Z",
+  "default_branch": "main",
+  "lockfile": "package-lock.json",
+  "source_queries": [
+   "eleventy filename:package.json"
+  ]
+ },
+ {
+  "repo": "avblackwell/worldwideweeb",
+  "bucket": "E",
+  "status": "rejected",
+  "reason": "inactive_pushed_before_2024-09-25",
+  "stars": 0,
+  "pushed_at": "2022-03-21T19:52:57Z",
+  "default_branch": "main",
+  "source_queries": [
+   "eleventy filename:package.json",
+   "filename:.eleventy.js"
+  ]
+ },
+ {
+  "repo": "MarkLopresto/frontend-masters-rxjs-fundamentals",
+  "bucket": "E",
+  "status": "rejected",
+  "reason": "inactive_pushed_before_2024-09-25",
+  "stars": 0,
+  "pushed_at": "2023-12-27T23:06:25Z",
+  "default_branch": "master",
+  "source_queries": [
+   "eleventy filename:package.json"
+  ]
+ },
+ {
+  "repo": "s-espinosa/rxjs-fundamentals",
+  "bucket": "E",
+  "status": "rejected",
+  "reason": "inactive_pushed_before_2024-09-25",
+  "stars": 0,
+  "pushed_at": "2023-12-11T19:17:49Z",
+  "default_branch": "main",
+  "source_queries": [
+   "eleventy filename:package.json"
+  ]
+ },
+ {
+  "repo": "OakHarbor/Starter-Kit-v4-Eleventy-",
+  "bucket": "E",
+  "status": "rejected",
+  "reason": "inactive_pushed_before_2024-09-25",
+  "stars": 2,
+  "pushed_at": "2022-12-03T17:44:14Z",
+  "default_branch": "master",
+  "source_queries": [
+   "eleventy filename:package.json"
+  ]
+ },
+ {
+  "repo": "johnpuddephatt/hidinginplainsight",
+  "bucket": "E",
+  "status": "rejected",
+  "reason": "inactive_pushed_before_2024-09-25",
+  "stars": 0,
+  "pushed_at": "2023-03-05T04:01:33Z",
+  "default_branch": "master",
+  "source_queries": [
+   "eleventy filename:package.json"
+  ]
+ },
+ {
+  "repo": "emrantusho/saasdeep3-37d05",
+  "bucket": "E",
+  "status": "kept",
+  "reason": null,
+  "stars": 0,
+  "pushed_at": "2025-10-10T16:07:25Z",
+  "default_branch": "main",
+  "lockfile": "package-lock.json",
+  "head_sha": "2241d6566229010ee7be57669288aa989f306585",
+  "site_evidence": "description=''; topics=[]; stars=0; pushed=2025-10-10; lockfile=package-lock.json committed; no starter/theme/demo/docs keywords in name/description/readme",
+  "source_queries": [
+   "eleventy filename:package.json"
+  ]
+ },
+ {
+  "repo": "org-echo-unchartedsoftware/cogfluence",
+  "bucket": "E",
+  "status": "rejected",
+  "reason": "no_committed_lockfile",
+  "stars": 0,
+  "pushed_at": "2026-09-15T20:33:10Z",
+  "default_branch": "master",
+  "lockfile": null,
+  "source_queries": [
+   "eleventy filename:package.json"
+  ]
+ },
+ {
+  "repo": "bitprj/bitproject-howard",
+  "bucket": "E",
+  "status": "rejected",
+  "reason": "inactive_pushed_before_2024-09-25",
+  "stars": 0,
+  "pushed_at": "2020-09-15T01:27:45Z",
+  "default_branch": "master",
+  "source_queries": [
+   "eleventy filename:package.json"
+  ]
+ },
+ {
+  "repo": "ilyaselh/agency",
+  "bucket": "E",
+  "status": "kept",
+  "reason": null,
+  "stars": 0,
+  "pushed_at": "2025-12-09T15:09:08Z",
+  "default_branch": "main",
+  "lockfile": "package-lock.json",
+  "head_sha": "49e4bce8b812219f73e0290a1c788648a8e748bc",
+  "site_evidence": "description=''; topics=[]; stars=0; pushed=2025-12-09; lockfile=package-lock.json committed; no starter/theme/demo/docs keywords in name/description/readme",
+  "source_queries": [
+   "eleventy filename:package.json"
+  ]
+ },
+ {
+  "repo": "abl00mfield/rxjs_learning",
+  "bucket": "E",
+  "status": "kept",
+  "reason": null,
+  "stars": 0,
+  "pushed_at": "2025-11-14T00:35:17Z",
+  "default_branch": "main",
+  "lockfile": "package-lock.json",
+  "head_sha": "eabbe41342317e51bd5ca9a54c9b03e962d1322b",
+  "site_evidence": "description=''; topics=[]; stars=0; pushed=2025-11-14; lockfile=package-lock.json committed; no starter/theme/demo/docs keywords in name/description/readme",
+  "source_queries": [
+   "eleventy filename:package.json"
+  ]
+ },
+ {
+  "repo": "sbhacks-org/sbhacks-vii-site",
+  "bucket": "E",
+  "status": "kept",
+  "reason": null,
+  "stars": 3,
+  "pushed_at": "2024-12-29T01:55:55Z",
+  "default_branch": "master",
+  "lockfile": "package-lock.json",
+  "head_sha": "5f1abfc91e1f85840ff1daf446bbb5d1d0afae79",
+  "site_evidence": "description=''; topics=[]; stars=3; pushed=2024-12-29; lockfile=package-lock.json committed; no starter/theme/demo/docs keywords in name/description/readme",
+  "source_queries": [
+   "eleventy filename:package.json"
+  ]
+ },
+ {
+  "repo": "RobertGregg/RobertGregg.github.io",
+  "bucket": "E",
+  "status": "kept",
+  "reason": null,
+  "stars": 0,
+  "pushed_at": "2025-05-04T20:01:13Z",
+  "default_branch": "master",
+  "lockfile": "package-lock.json",
+  "head_sha": "e5af094ed00bd82b1f2ad51299c5199d1c032efb",
+  "site_evidence": "description='https://robertgregg.github.io/'; topics=[]; stars=0; pushed=2025-05-04; lockfile=package-lock.json committed; no starter/theme/demo/docs keywords in name/description/readme",
+  "source_queries": [
+   "eleventy filename:package.json"
+  ]
+ },
+ {
+  "repo": "okhousecat/okhousecat-archive",
+  "bucket": "E",
+  "status": "kept",
+  "reason": null,
+  "stars": 0,
+  "pushed_at": "2025-07-26T20:53:50Z",
+  "default_branch": "main",
+  "lockfile": "package-lock.json",
+  "head_sha": "56c4720d19e4dfe129db2c3fa418526458973f40",
+  "site_evidence": "description=''; topics=[]; stars=0; pushed=2025-07-26; lockfile=package-lock.json committed; no starter/theme/demo/docs keywords in name/description/readme",
+  "source_queries": [
+   "eleventy filename:package.json"
+  ]
+ },
+ {
+  "repo": "Brett-Tanner/souls-like-strings",
+  "bucket": "E",
+  "status": "kept",
+  "reason": null,
+  "stars": 0,
+  "pushed_at": "2026-09-21T02:40:41Z",
+  "default_branch": "main",
+  "lockfile": "package-lock.json",
+  "head_sha": "75179d4ccc8f81946776a5a4556c79ae3dbc8c28",
+  "site_evidence": "description=''; topics=[]; stars=0; pushed=2026-09-21; lockfile=package-lock.json committed; no starter/theme/demo/docs keywords in name/description/readme",
+  "source_queries": [
+   "eleventy filename:package.json"
+  ]
+ },
+ {
+  "repo": "sanelysvasth-soumya/sanelysvasth",
+  "bucket": "E",
+  "status": "kept",
+  "reason": null,
+  "stars": 0,
+  "pushed_at": "2026-08-11T17:12:58Z",
+  "default_branch": "main",
+  "lockfile": "package-lock.json",
+  "head_sha": "6c32c3c07d5cf920e0d8d362272c04ba2c2fd9ed",
+  "site_evidence": "description=''; topics=[]; stars=0; pushed=2026-08-11; lockfile=package-lock.json committed; no starter/theme/demo/docs keywords in name/description/readme",
+  "source_queries": [
+   "eleventy filename:package.json"
+  ]
+ },
+ {
+  "repo": "JoshuaGJohanson/NoICEinSchools",
+  "bucket": "E",
+  "status": "kept",
+  "reason": null,
+  "stars": 0,
+  "pushed_at": "2026-07-10T20:37:25Z",
+  "default_branch": "main",
+  "lockfile": "package-lock.json",
+  "head_sha": "5c6701e08ea57cb2b7c1ad5bce962d2a3d3eee04",
+  "site_evidence": "description='Repo for '; topics=[]; stars=0; pushed=2026-07-10; lockfile=package-lock.json committed; no starter/theme/demo/docs keywords in name/description/readme",
+  "source_queries": [
+   "eleventy filename:package.json"
+  ]
+ },
+ {
+  "repo": "cfjedimaster/eleventy-demos",
+  "bucket": "E",
+  "status": "rejected",
+  "reason": "demo_site",
+  "stars": 72,
+  "pushed_at": "2025-05-22T17:55:54Z",
+  "default_branch": "master",
+  "source_queries": [
+   "eleventy filename:package.json",
+   "filename:.eleventy.js"
+  ]
+ },
+ {
+  "repo": "minaalfy/katameros.bible",
+  "bucket": "E",
+  "status": "rejected",
+  "reason": "inactive_pushed_before_2024-09-25",
+  "stars": 5,
+  "pushed_at": "2024-05-13T20:59:15Z",
+  "default_branch": "main",
+  "source_queries": [
+   "eleventy filename:package.json"
+  ]
+ },
+ {
+  "repo": "Ewan-D/beginnersBase11ty",
+  "bucket": "E",
+  "status": "rejected",
+  "reason": "inactive_pushed_before_2024-09-25",
+  "stars": 5,
+  "pushed_at": "2021-07-23T20:14:50Z",
+  "default_branch": "main",
+  "source_queries": [
+   "eleventy filename:package.json"
+  ]
+ },
+ {
+  "repo": "11ty/eleventy-plugin-template-languages",
+  "bucket": "E",
+  "status": "rejected",
+  "reason": "framework_owned",
+  "stars": 7,
+  "pushed_at": "2025-05-13T17:14:54Z",
+  "default_branch": "main",
+  "source_queries": [
+   "eleventy filename:package.json"
+  ]
+ },
+ {
+  "repo": "fu4303/devResources",
+  "bucket": "E",
+  "status": "rejected",
+  "reason": "inactive_pushed_before_2024-09-25",
+  "stars": 4,
+  "pushed_at": "2021-04-15T00:13:29Z",
+  "default_branch": "main",
+  "source_queries": [
+   "eleventy filename:package.json"
+  ]
+ },
+ {
+  "repo": "11ty/api-built-with",
+  "bucket": "E",
+  "status": "rejected",
+  "reason": "framework_owned",
+  "stars": 6,
+  "pushed_at": "2024-08-07T15:26:11Z",
+  "default_branch": "v1-vercel",
+  "source_queries": [
+   "eleventy filename:package.json"
+  ]
+ },
+ {
+  "repo": "OrlandoDevs/orlandodevs-site",
+  "bucket": "E",
+  "status": "rejected",
+  "reason": "inactive_pushed_before_2024-09-25",
+  "stars": 2,
+  "pushed_at": "2021-02-07T18:55:01Z",
+  "default_branch": "master",
+  "source_queries": [
+   "eleventy filename:package.json"
+  ]
+ },
+ {
+  "repo": "atomfinger/nomeatproxy",
+  "bucket": "E",
+  "status": "kept",
+  "reason": null,
+  "stars": 35,
+  "pushed_at": "2026-09-24T17:29:41Z",
+  "default_branch": "main",
+  "lockfile": "package-lock.json",
+  "head_sha": "0413b2b926b62df9f6c55655a41f126a89584b28",
+  "site_evidence": "description=''; topics=[]; stars=35; pushed=2026-09-24; lockfile=package-lock.json committed; no starter/theme/demo/docs keywords in name/description/readme",
+  "source_queries": [
+   "eleventy filename:package.json"
+  ]
+ },
+ {
+  "repo": "pdehaan/11ty-liquid-builtin-liquid-filters",
+  "bucket": "E",
+  "status": "rejected",
+  "reason": "inactive_pushed_before_2024-09-25",
+  "stars": 1,
+  "pushed_at": "2023-03-02T17:17:31Z",
+  "default_branch": "master",
+  "source_queries": [
+   "eleventy filename:package.json"
+  ]
+ },
+ {
+  "repo": "kwickramasekara/photo-grid",
+  "bucket": "E",
+  "status": "kept",
+  "reason": null,
+  "stars": 9,
+  "pushed_at": "2026-01-19T02:18:28Z",
+  "default_branch": "main",
+  "lockfile": "package-lock.json",
+  "head_sha": "9008756f61bf76cb480d43c7c92c7e55aa7808e1",
+  "site_evidence": "description='Self host-able photography portfolio.'; topics=['11ty', 'javascript', 'sanity', 'static-site']; stars=9; pushed=2026-01-19; lockfile=package-lock.json committed; no starter/theme/demo/docs keywords in name/description/readme",
+  "source_queries": [
+   "eleventy filename:package.json"
+  ]
+ },
+ {
+  "repo": "photogabble/hyperlink-cafe",
+  "bucket": "E",
+  "status": "rejected",
+  "reason": "readme_keyword:template",
+  "stars": 2,
+  "pushed_at": "2025-05-22T21:12:38Z",
+  "default_branch": "main",
+  "lockfile": "package-lock.json",
+  "source_queries": [
+   "eleventy filename:package.json"
+  ]
+ },
+ {
+  "repo": "Jaza/greenash",
+  "bucket": "E",
+  "status": "rejected",
+  "reason": "no_committed_lockfile",
+  "stars": 0,
+  "pushed_at": "2026-06-07T22:08:33Z",
+  "default_branch": "master",
+  "lockfile": null,
+  "source_queries": [
+   "eleventy filename:package.json"
+  ]
+ },
+ {
+  "repo": "x-govuk/govuk-services-frontend-stats",
+  "bucket": "E",
+  "status": "kept",
+  "reason": null,
+  "stars": 5,
+  "pushed_at": "2026-09-25T04:19:31Z",
+  "default_branch": "main",
+  "lockfile": "package-lock.json",
+  "head_sha": "5ed9fd343894252508a04a7d4571357e4c90afad",
+  "site_evidence": "description=''; topics=[]; stars=5; pushed=2026-09-25; lockfile=package-lock.json committed; no starter/theme/demo/docs keywords in name/description/readme",
+  "source_queries": [
+   "eleventy filename:package.json"
+  ]
+ },
+ {
+  "repo": "pjedlund/speedlify",
+  "bucket": "E",
+  "status": "rejected",
+  "reason": "no_committed_lockfile",
+  "stars": 0,
+  "pushed_at": "2026-06-17T10:51:27Z",
+  "default_branch": "live",
+  "lockfile": null,
+  "source_queries": [
+   "eleventy filename:package.json"
+  ]
+ },
+ {
+  "repo": "kingdom-code/kingdom-code",
+  "bucket": "E",
+  "status": "kept",
+  "reason": null,
+  "stars": 6,
+  "pushed_at": "2026-06-23T19:11:49Z",
+  "default_branch": "master",
+  "lockfile": "package-lock.json",
+  "head_sha": "375e7c5b2d1f15e563d1036eee1e74a77a76681e",
+  "site_evidence": "description=''; topics=[]; stars=6; pushed=2026-06-23; lockfile=package-lock.json committed; no starter/theme/demo/docs keywords in name/description/readme",
+  "source_queries": [
+   "eleventy filename:package.json"
+  ]
+ },
+ {
+  "repo": "Bferreira5/fire-2020",
+  "bucket": "E",
+  "status": "rejected",
+  "reason": "inactive_pushed_before_2024-09-25",
+  "stars": 0,
+  "pushed_at": "2022-02-13T01:10:20Z",
+  "default_branch": "master",
+  "source_queries": [
+   "eleventy filename:package.json"
+  ]
+ },
+ {
+  "repo": "romaindillet/personal-site",
+  "bucket": "E",
+  "status": "kept",
+  "reason": null,
+  "stars": 2,
+  "pushed_at": "2026-01-26T09:32:11Z",
+  "default_branch": "main",
+  "lockfile": "package-lock.json",
+  "head_sha": "adc5c04b059c3502f32e4b1190e69e61e14648bd",
+  "site_evidence": "description=''; topics=[]; stars=2; pushed=2026-01-26; lockfile=package-lock.json committed; no starter/theme/demo/docs keywords in name/description/readme",
+  "source_queries": [
+   "eleventy filename:package.json"
+  ]
+ },
+ {
+  "repo": "johnwargo/eleventy-plugin-github-repos",
+  "bucket": "E",
+  "status": "kept",
+  "reason": null,
+  "stars": 0,
+  "pushed_at": "2026-01-14T12:54:16Z",
+  "default_branch": "main",
+  "lockfile": "package-lock.json",
+  "head_sha": "339c7c6beadf1a44647bb7ecb06c5e70aa72d91c",
+  "site_evidence": "description='Creates an Eleventy data file containing a list of GitHub repositories for a specified user or organization'; topics=['eleventy-plugin']; stars=0; pushed=2026-01-14; lockfile=package-lock.json committed; no starter/theme/demo/docs keywords in name/description/readme",
+  "source_queries": [
+   "eleventy filename:package.json"
+  ]
+ },
+ {
+  "repo": "nvb33/SRA",
+  "bucket": "E",
+  "status": "kept",
+  "reason": null,
+  "stars": 0,
+  "pushed_at": "2026-09-01T07:21:42Z",
+  "default_branch": "main",
+  "lockfile": "package-lock.json",
+  "head_sha": "24132f6dd65c5e7588afd8df3ba9e5cb7fdd6c8e",
+  "site_evidence": "description=''; topics=[]; stars=0; pushed=2026-09-01; lockfile=package-lock.json committed; no starter/theme/demo/docs keywords in name/description/readme",
+  "source_queries": [
+   "eleventy filename:package.json"
+  ]
+ },
+ {
+  "repo": "philhawksworth/test-11ty-scaffold-with-sass-3",
+  "bucket": "E",
+  "status": "rejected",
+  "reason": "inactive_pushed_before_2024-09-25",
+  "stars": 0,
+  "pushed_at": "2021-01-18T15:59:28Z",
+  "default_branch": "main",
+  "source_queries": [
+   "eleventy filename:package.json"
+  ]
+ },
+ {
+  "repo": "reillypascal/personalsite-ssg",
+  "bucket": "E",
+  "status": "kept",
+  "reason": null,
+  "stars": 1,
+  "pushed_at": "2026-09-06T16:42:33Z",
+  "default_branch": "main",
+  "lockfile": "package-lock.json",
+  "head_sha": "a2af3759fc7d4ff6baeefbaf03c5dc5797169691",
+  "site_evidence": "description='My personal site, formatted for a static site generator (Eleventy)'; topics=[]; stars=1; pushed=2026-09-06; lockfile=package-lock.json committed; no starter/theme/demo/docs keywords in name/description/readme",
+  "source_queries": [
+   "eleventy filename:package.json"
+  ]
+ },
+ {
+  "repo": "boudreauLabs/boudreauLabs",
+  "bucket": "E",
+  "status": "kept",
+  "reason": null,
+  "stars": 0,
+  "pushed_at": "2025-06-04T15:11:41Z",
+  "default_branch": "main",
+  "lockfile": "package-lock.json",
+  "head_sha": "3882dcd31d1474e022fc90aded2c7ed1fafb02ce",
+  "site_evidence": "description=''; topics=[]; stars=0; pushed=2025-06-04; lockfile=package-lock.json committed; no starter/theme/demo/docs keywords in name/description/readme",
+  "source_queries": [
+   "eleventy filename:package.json"
+  ]
+ },
+ {
+  "repo": "JanDW/speedlify",
+  "bucket": "E",
+  "status": "rejected",
+  "reason": "inactive_pushed_before_2024-09-25",
+  "stars": 0,
+  "pushed_at": "2021-03-10T17:17:37Z",
+  "default_branch": "live",
+  "source_queries": [
+   "eleventy filename:package.json"
+  ]
+ },
+ {
+  "repo": "x-govuk/fix-common-accessibility-mistakes",
+  "bucket": "E",
+  "status": "kept",
+  "reason": null,
+  "stars": 1,
+  "pushed_at": "2026-06-01T23:16:36Z",
+  "default_branch": "main",
+  "lockfile": "package-lock.json",
+  "head_sha": "b485fe353b8f7bec410dee69500ff0f25bd76de6",
+  "site_evidence": "description='Fix common accessibility mistakes'; topics=['project']; stars=1; pushed=2026-06-01; lockfile=package-lock.json committed; no starter/theme/demo/docs keywords in name/description/readme",
+  "source_queries": [
+   "eleventy filename:package.json"
+  ]
+ },
+ {
+  "repo": "rcwillett/LitPractice",
+  "bucket": "E",
+  "status": "rejected",
+  "reason": "inactive_pushed_before_2024-09-25",
+  "stars": 0,
+  "pushed_at": "2024-05-04T22:42:23Z",
+  "default_branch": "main",
+  "source_queries": [
+   "eleventy filename:package.json"
+  ]
+ },
+ {
+  "repo": "justanesta/justanesta-site",
+  "bucket": "E",
+  "status": "kept",
+  "reason": null,
+  "stars": 0,
+  "pushed_at": "2026-09-14T13:09:22Z",
+  "default_branch": "main",
+  "lockfile": "package-lock.json",
+  "head_sha": "daa8f71e025926369fb56a45241adfd71424791c",
+  "site_evidence": "description='This is a repository that holds my personal website that is a static site dynmaically built with 11ty and styled with Bulma CSS'; topics=[]; stars=0; pushed=2026-09-14; lockfile=package-lock.json committed; no starter/theme/demo/docs keywords in name/description/readme",
+  "source_queries": [
+   "eleventy filename:package.json"
+  ]
+ },
+ {
+  "repo": "hmfarimani/trait",
+  "bucket": "E",
+  "status": "kept",
+  "reason": null,
+  "stars": 0,
+  "pushed_at": "2026-01-30T21:32:10Z",
+  "default_branch": "develop",
+  "lockfile": "package-lock.json",
+  "head_sha": "0b86359f65fc252b872ff5a0dcf4b868b9c041b0",
+  "site_evidence": "description=''; topics=[]; stars=0; pushed=2026-01-30; lockfile=package-lock.json committed; no starter/theme/demo/docs keywords in name/description/readme",
+  "source_queries": [
+   "eleventy filename:package.json"
+  ]
+ },
+ {
+  "repo": "slandath/coffeeBlog",
+  "bucket": "E",
+  "status": "kept",
+  "reason": null,
+  "stars": 0,
+  "pushed_at": "2026-07-28T14:13:14Z",
+  "default_branch": "main",
+  "lockfile": "pnpm-lock.yaml",
+  "head_sha": "a445f71f7db61bb792ede864c3bff5a739dbf411",
+  "site_evidence": "description='A simple blog using Eleventy'; topics=[]; stars=0; pushed=2026-07-28; lockfile=pnpm-lock.yaml committed; no starter/theme/demo/docs keywords in name/description/readme",
+  "source_queries": [
+   "eleventy filename:package.json"
+  ]
+ }
+]

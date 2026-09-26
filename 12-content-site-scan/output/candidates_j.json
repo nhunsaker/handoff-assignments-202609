@@ -1,0 +1,2852 @@
+[
+ {
+  "repo": "PacificAI/langtest",
+  "bucket": "J",
+  "status": "rejected",
+  "reason": "no_committed_lockfile",
+  "stars": 560,
+  "pushed_at": "2026-08-28T12:59:56Z",
+  "default_branch": "main",
+  "lockfile": null,
+  "source_queries": [
+   "jekyll filename:Gemfile.lock"
+  ]
+ },
+ {
+  "repo": "ResearchObject/ro-crate",
+  "bucket": "J",
+  "status": "rejected",
+  "reason": "no_committed_lockfile",
+  "stars": 162,
+  "pushed_at": "2026-09-24T22:53:10Z",
+  "default_branch": "main",
+  "lockfile": null,
+  "source_queries": [
+   "jekyll filename:Gemfile.lock"
+  ]
+ },
+ {
+  "repo": "nhoizey/jekyll-cloudinary",
+  "bucket": "J",
+  "status": "rejected",
+  "reason": "inactive_pushed_before_2024-09-25",
+  "stars": 92,
+  "pushed_at": "2023-08-24T04:41:09Z",
+  "default_branch": "master",
+  "source_queries": [
+   "jekyll filename:Gemfile.lock"
+  ]
+ },
+ {
+  "repo": "flutterchina/website",
+  "bucket": "J",
+  "status": "rejected",
+  "reason": "inactive_pushed_before_2024-09-25",
+  "stars": 154,
+  "pushed_at": "2023-04-29T04:51:48Z",
+  "default_branch": "master",
+  "source_queries": [
+   "jekyll filename:Gemfile.lock"
+  ]
+ },
+ {
+  "repo": "ebello/jekyll-perf",
+  "bucket": "J",
+  "status": "rejected",
+  "reason": "inactive_pushed_before_2024-09-25",
+  "stars": 50,
+  "pushed_at": "2014-06-26T19:38:04Z",
+  "default_branch": "master",
+  "source_queries": [
+   "jekyll filename:Gemfile.lock"
+  ]
+ },
+ {
+  "repo": "RemoteML/bestofml",
+  "bucket": "J",
+  "status": "rejected",
+  "reason": "inactive_pushed_before_2024-09-25",
+  "stars": 350,
+  "pushed_at": "2022-02-01T03:28:54Z",
+  "default_branch": "master",
+  "source_queries": [
+   "jekyll filename:Gemfile.lock"
+  ]
+ },
+ {
+  "repo": "sean-parent/sean-parent.github.io",
+  "bucket": "J",
+  "status": "kept",
+  "reason": null,
+  "stars": 214,
+  "pushed_at": "2026-03-03T23:44:37Z",
+  "default_branch": "main",
+  "lockfile": "Gemfile.lock",
+  "head_sha": "b8e50fa21fbea58f2f8249aec2981bd63c8afdde",
+  "site_evidence": "description=''; topics=[]; stars=214; pushed=2026-03-03; lockfile=Gemfile.lock committed; no starter/theme/demo/docs keywords in name/description/readme",
+  "source_queries": [
+   "jekyll filename:Gemfile.lock"
+  ]
+ },
+ {
+  "repo": "KeJunMao/jekyll-theme-mdui",
+  "bucket": "J",
+  "status": "rejected",
+  "reason": "inactive_pushed_before_2024-09-25",
+  "stars": 168,
+  "pushed_at": "2024-05-16T20:05:06Z",
+  "default_branch": "master",
+  "source_queries": [
+   "jekyll filename:Gemfile.lock"
+  ]
+ },
+ {
+  "repo": "ainzzorl/goodcode",
+  "bucket": "J",
+  "status": "rejected",
+  "reason": "inactive_pushed_before_2024-09-25",
+  "stars": 224,
+  "pushed_at": "2022-08-09T12:53:09Z",
+  "default_branch": "main",
+  "source_queries": [
+   "jekyll filename:Gemfile.lock"
+  ]
+ },
+ {
+  "repo": "cs341-illinois/cs341-illinois.github.io",
+  "bucket": "J",
+  "status": "rejected",
+  "reason": "starter_theme_demo_keyword:course",
+  "stars": 31,
+  "pushed_at": "2026-09-23T16:52:13Z",
+  "default_branch": "develop",
+  "source_queries": [
+   "jekyll filename:Gemfile.lock"
+  ]
+ },
+ {
+  "repo": "urbit/old-urbit.org",
+  "bucket": "J",
+  "status": "rejected",
+  "reason": "inactive_pushed_before_2024-09-25",
+  "stars": 27,
+  "pushed_at": "2020-01-08T18:04:33Z",
+  "default_branch": "master",
+  "source_queries": [
+   "jekyll filename:Gemfile.lock"
+  ]
+ },
+ {
+  "repo": "ohbm/osr2024",
+  "bucket": "J",
+  "status": "rejected",
+  "reason": "inactive_pushed_before_2024-09-25",
+  "stars": 3,
+  "pushed_at": "2024-06-25T02:43:57Z",
+  "default_branch": "main",
+  "source_queries": [
+   "jekyll filename:Gemfile.lock"
+  ]
+ },
+ {
+  "repo": "weng-lab/cabbagelooper",
+  "bucket": "J",
+  "status": "rejected",
+  "reason": "inactive_pushed_before_2024-09-25",
+  "stars": 2,
+  "pushed_at": "2023-04-12T06:12:30Z",
+  "default_branch": "master",
+  "source_queries": [
+   "jekyll filename:Gemfile.lock"
+  ]
+ },
+ {
+  "repo": "i3dsymposium/i3dsymposium.github.io",
+  "bucket": "J",
+  "status": "rejected",
+  "reason": "no_committed_lockfile",
+  "stars": 9,
+  "pushed_at": "2026-06-01T01:02:37Z",
+  "default_branch": "master",
+  "lockfile": null,
+  "source_queries": [
+   "jekyll filename:Gemfile.lock"
+  ]
+ },
+ {
+  "repo": "uqbar-project/wollok-site",
+  "bucket": "J",
+  "status": "rejected",
+  "reason": "inactive_pushed_before_2024-09-25",
+  "stars": 1,
+  "pushed_at": "2024-08-13T21:31:19Z",
+  "default_branch": "master",
+  "source_queries": [
+   "jekyll filename:Gemfile.lock"
+  ]
+ },
+ {
+  "repo": "umwics/wics-site-old",
+  "bucket": "J",
+  "status": "rejected",
+  "reason": "inactive_pushed_before_2024-09-25",
+  "stars": 8,
+  "pushed_at": "2023-07-04T15:37:56Z",
+  "default_branch": "master",
+  "source_queries": [
+   "jekyll filename:Gemfile.lock"
+  ]
+ },
+ {
+  "repo": "TeamGloomy/TeamGloomy.github.io",
+  "bucket": "J",
+  "status": "rejected",
+  "reason": "no_committed_lockfile",
+  "stars": 11,
+  "pushed_at": "2026-08-03T09:33:35Z",
+  "default_branch": "main",
+  "lockfile": null,
+  "source_queries": [
+   "jekyll filename:Gemfile.lock"
+  ]
+ },
+ {
+  "repo": "assobit/assobit.github.io",
+  "bucket": "J",
+  "status": "rejected",
+  "reason": "inactive_pushed_before_2024-09-25",
+  "stars": 9,
+  "pushed_at": "2017-05-27T08:09:30Z",
+  "default_branch": "master",
+  "source_queries": [
+   "jekyll filename:Gemfile.lock"
+  ]
+ },
+ {
+  "repo": "Starkovden/Starkovden.github.io",
+  "bucket": "J",
+  "status": "rejected",
+  "reason": "inactive_pushed_before_2024-09-25",
+  "stars": 119,
+  "pushed_at": "2024-03-15T13:07:58Z",
+  "default_branch": "master",
+  "source_queries": [
+   "jekyll filename:Gemfile.lock"
+  ]
+ },
+ {
+  "repo": "formigone/easylearntutorial",
+  "bucket": "J",
+  "status": "rejected",
+  "reason": "inactive_pushed_before_2024-09-25",
+  "stars": 36,
+  "pushed_at": "2020-06-18T14:36:36Z",
+  "default_branch": "master",
+  "source_queries": [
+   "jekyll filename:Gemfile.lock"
+  ]
+ },
+ {
+  "repo": "zerospatial/material-maps",
+  "bucket": "J",
+  "status": "rejected",
+  "reason": "inactive_pushed_before_2024-09-25",
+  "stars": 8,
+  "pushed_at": "2018-04-04T19:14:38Z",
+  "default_branch": "master",
+  "source_queries": [
+   "jekyll filename:Gemfile.lock"
+  ]
+ },
+ {
+  "repo": "dongyado/dongyado.github.io",
+  "bucket": "J",
+  "status": "rejected",
+  "reason": "inactive_pushed_before_2024-09-25",
+  "stars": 59,
+  "pushed_at": "2024-08-01T23:41:17Z",
+  "default_branch": "master",
+  "source_queries": [
+   "jekyll filename:Gemfile.lock"
+  ]
+ },
+ {
+  "repo": "MobileFirst-Platform-Developer-Center/DevCenter",
+  "bucket": "J",
+  "status": "rejected",
+  "reason": "inactive_pushed_before_2024-09-25",
+  "stars": 22,
+  "pushed_at": "2024-04-22T23:16:32Z",
+  "default_branch": "master",
+  "source_queries": [
+   "jekyll filename:Gemfile.lock"
+  ]
+ },
+ {
+  "repo": "lsc-sde/lsc-sde",
+  "bucket": "J",
+  "status": "rejected",
+  "reason": "no_committed_lockfile",
+  "stars": 5,
+  "pushed_at": "2026-08-24T14:43:58Z",
+  "default_branch": "main",
+  "lockfile": null,
+  "source_queries": [
+   "jekyll filename:Gemfile.lock"
+  ]
+ },
+ {
+  "repo": "microsoft/gov-solutions",
+  "bucket": "J",
+  "status": "rejected",
+  "reason": "no_committed_lockfile",
+  "stars": 8,
+  "pushed_at": "2026-04-07T17:56:31Z",
+  "default_branch": "main",
+  "lockfile": null,
+  "source_queries": [
+   "jekyll filename:Gemfile.lock"
+  ]
+ },
+ {
+  "repo": "InnerSourceCommons/innersource-working-group",
+  "bucket": "J",
+  "status": "kept",
+  "reason": null,
+  "stars": 27,
+  "pushed_at": "2026-08-30T19:09:32Z",
+  "default_branch": "main",
+  "lockfile": "Gemfile.lock",
+  "head_sha": "7a79cad8d8410cef9dd1781231bd39567e3808aa",
+  "site_evidence": "description='Materials for the ISPO working group'; topics=['innersource', 'ispo']; stars=27; pushed=2026-08-30; lockfile=Gemfile.lock committed; no starter/theme/demo/docs keywords in name/description/readme",
+  "source_queries": [
+   "jekyll filename:Gemfile.lock"
+  ]
+ },
+ {
+  "repo": "doycode/doycode.github.io",
+  "bucket": "J",
+  "status": "rejected",
+  "reason": "inactive_pushed_before_2024-09-25",
+  "stars": 3,
+  "pushed_at": "2024-02-22T06:53:49Z",
+  "default_branch": "master",
+  "source_queries": [
+   "jekyll filename:Gemfile.lock"
+  ]
+ },
+ {
+  "repo": "neurohackademy/nh2022-curriculum",
+  "bucket": "J",
+  "status": "rejected",
+  "reason": "inactive_pushed_before_2024-09-25",
+  "stars": 12,
+  "pushed_at": "2022-07-29T19:39:35Z",
+  "default_branch": "main",
+  "source_queries": [
+   "jekyll filename:Gemfile.lock"
+  ]
+ },
+ {
+  "repo": "bgoonz/Cheat-Sheets",
+  "bucket": "J",
+  "status": "rejected",
+  "reason": "inactive_pushed_before_2024-09-25",
+  "stars": 12,
+  "pushed_at": "2022-07-23T04:09:20Z",
+  "default_branch": "master",
+  "source_queries": [
+   "jekyll filename:Gemfile.lock"
+  ]
+ },
+ {
+  "repo": "QualiSystems/devguide_source",
+  "bucket": "J",
+  "status": "rejected",
+  "reason": "inactive_pushed_before_2024-09-25",
+  "stars": 2,
+  "pushed_at": "2022-10-05T20:50:50Z",
+  "default_branch": "master",
+  "source_queries": [
+   "jekyll filename:Gemfile.lock"
+  ]
+ },
+ {
+  "repo": "snaclab/snaclab.github.io",
+  "bucket": "J",
+  "status": "rejected",
+  "reason": "inactive_pushed_before_2024-09-25",
+  "stars": 3,
+  "pushed_at": "2020-10-21T02:58:42Z",
+  "default_branch": "master",
+  "source_queries": [
+   "jekyll filename:Gemfile.lock"
+  ]
+ },
+ {
+  "repo": "CruGlobal/appbuilder_docs",
+  "bucket": "J",
+  "status": "rejected",
+  "reason": "docs_for_tool",
+  "stars": 0,
+  "pushed_at": "2026-04-14T10:09:40Z",
+  "default_branch": "master",
+  "source_queries": [
+   "jekyll filename:Gemfile.lock"
+  ]
+ },
+ {
+  "repo": "GhanaNLP/website",
+  "bucket": "J",
+  "status": "rejected",
+  "reason": "no_committed_lockfile",
+  "stars": 4,
+  "pushed_at": "2026-09-18T13:27:38Z",
+  "default_branch": "main",
+  "lockfile": null,
+  "source_queries": [
+   "jekyll filename:Gemfile.lock"
+  ]
+ },
+ {
+  "repo": "fosslight/en",
+  "bucket": "J",
+  "status": "rejected",
+  "reason": "readme_keyword:theme",
+  "stars": 3,
+  "pushed_at": "2026-09-24T13:33:22Z",
+  "default_branch": "main",
+  "lockfile": "Gemfile.lock",
+  "source_queries": [
+   "jekyll filename:Gemfile.lock"
+  ]
+ },
+ {
+  "repo": "bitstein/justmeat.co",
+  "bucket": "J",
+  "status": "kept",
+  "reason": null,
+  "stars": 62,
+  "pushed_at": "2025-10-11T18:47:22Z",
+  "default_branch": "master",
+  "lockfile": "Gemfile.lock",
+  "head_sha": "ecbe016cf2cf9e279749d774add92f2568124de6",
+  "site_evidence": "description='Carnivorous eating, paleolithic ketogenic diet and medicine, and zero carb lifestyle. Don\u2019t bother with vegetables. Just eat meat.'; topics=[]; stars=62; pushed=2025-10-11; lockfile=Gemfile.lock committed; no starter/theme/demo/docs keywords in name/description/readme",
+  "source_queries": [
+   "jekyll filename:Gemfile.lock"
+  ]
+ },
+ {
+  "repo": "fosslight/fosslight.github.io",
+  "bucket": "J",
+  "status": "rejected",
+  "reason": "no_committed_lockfile",
+  "stars": 3,
+  "pushed_at": "2026-09-24T13:33:14Z",
+  "default_branch": "main",
+  "lockfile": null,
+  "source_queries": [
+   "jekyll filename:Gemfile.lock"
+  ]
+ },
+ {
+  "repo": "theWhiteFox/theWhiteFox",
+  "bucket": "J",
+  "status": "rejected",
+  "reason": "no_committed_lockfile",
+  "stars": 5,
+  "pushed_at": "2026-04-27T20:49:55Z",
+  "default_branch": "gh-pages",
+  "lockfile": null,
+  "source_queries": [
+   "jekyll filename:Gemfile.lock"
+  ]
+ },
+ {
+  "repo": "open-amdocs/open-amdocs.github.io",
+  "bucket": "J",
+  "status": "rejected",
+  "reason": "inactive_pushed_before_2024-09-25",
+  "stars": 2,
+  "pushed_at": "2018-03-14T01:25:41Z",
+  "default_branch": "master",
+  "source_queries": [
+   "jekyll filename:Gemfile.lock"
+  ]
+ },
+ {
+  "repo": "sudouc/sudouc.club",
+  "bucket": "J",
+  "status": "kept",
+  "reason": null,
+  "stars": 4,
+  "pushed_at": "2025-02-22T01:30:01Z",
+  "default_branch": "main",
+  "lockfile": "Gemfile.lock",
+  "head_sha": "ede41fb8c51d14dfe3f69ed2abd727847f9e333a",
+  "site_evidence": "description='Sudo website'; topics=[]; stars=4; pushed=2025-02-22; lockfile=Gemfile.lock committed; no starter/theme/demo/docs keywords in name/description/readme",
+  "source_queries": [
+   "jekyll filename:Gemfile.lock"
+  ]
+ },
+ {
+  "repo": "trstringer/trstringer.github.io",
+  "bucket": "J",
+  "status": "rejected",
+  "reason": "no_committed_lockfile",
+  "stars": 6,
+  "pushed_at": "2025-04-08T14:36:32Z",
+  "default_branch": "main",
+  "lockfile": null,
+  "source_queries": [
+   "jekyll filename:Gemfile.lock"
+  ]
+ },
+ {
+  "repo": "mergeweb/best_practices",
+  "bucket": "J",
+  "status": "rejected",
+  "reason": "inactive_pushed_before_2024-09-25",
+  "stars": 0,
+  "pushed_at": "2017-08-14T19:13:55Z",
+  "default_branch": "master",
+  "source_queries": [
+   "jekyll filename:Gemfile.lock"
+  ]
+ },
+ {
+  "repo": "Meshcapade/wiki",
+  "bucket": "J",
+  "status": "kept",
+  "reason": null,
+  "stars": 118,
+  "pushed_at": "2025-09-24T12:01:38Z",
+  "default_branch": "main",
+  "lockfile": "Gemfile.lock",
+  "head_sha": "23b9518fc1492c52c0bfba2e3623c95f1c5aafb6",
+  "site_evidence": "description='A Wiki on Body-Modelling Technology, maintained by Meshcapade GmbH. '; topics=['blender-plug-ins', 'pose-blend-shapes', 'smpl', 'smpl-model', 'wiki']; stars=118; pushed=2025-09-24; lockfile=Gemfile.lock committed; no starter/theme/demo/docs keywords in name/description/readme",
+  "source_queries": [
+   "jekyll filename:Gemfile.lock"
+  ]
+ },
+ {
+  "repo": "zroger/jekyll-minimagick",
+  "bucket": "J",
+  "status": "rejected",
+  "reason": "inactive_pushed_before_2024-09-25",
+  "stars": 67,
+  "pushed_at": "2019-10-23T02:04:26Z",
+  "default_branch": "master",
+  "source_queries": [
+   "jekyll filename:Gemfile.lock"
+  ]
+ },
+ {
+  "repo": "whatsmate/whatsmate.github.io",
+  "bucket": "J",
+  "status": "rejected",
+  "reason": "no_committed_lockfile",
+  "stars": 5,
+  "pushed_at": "2026-05-10T10:33:08Z",
+  "default_branch": "master",
+  "lockfile": null,
+  "source_queries": [
+   "jekyll filename:Gemfile.lock",
+   "path:_posts extension:md"
+  ]
+ },
+ {
+  "repo": "barcelonajug/jbcnconf_web",
+  "bucket": "J",
+  "status": "rejected",
+  "reason": "inactive_pushed_before_2024-09-25",
+  "stars": 16,
+  "pushed_at": "2023-03-09T09:51:06Z",
+  "default_branch": "main",
+  "source_queries": [
+   "jekyll filename:Gemfile.lock"
+  ]
+ },
+ {
+  "repo": "facundoq/facundoq.github.io",
+  "bucket": "J",
+  "status": "kept",
+  "reason": null,
+  "stars": 11,
+  "pushed_at": "2026-08-04T11:43:12Z",
+  "default_branch": "master",
+  "lockfile": "Gemfile.lock",
+  "head_sha": "0cd834fcc586fc4b70fb47efcd5e2cc71ec6f5b2",
+  "site_evidence": "description='Facundo Quiroga, UNLP'; topics=[]; stars=11; pushed=2026-08-04; lockfile=Gemfile.lock committed; no starter/theme/demo/docs keywords in name/description/readme",
+  "source_queries": [
+   "jekyll filename:Gemfile.lock"
+  ]
+ },
+ {
+  "repo": "PracticumAI/practicumai.github.io",
+  "bucket": "J",
+  "status": "rejected",
+  "reason": "readme_keyword:theme",
+  "stars": 4,
+  "pushed_at": "2026-09-03T20:46:00Z",
+  "default_branch": "main",
+  "lockfile": "Gemfile.lock",
+  "source_queries": [
+   "jekyll filename:Gemfile.lock"
+  ]
+ },
+ {
+  "repo": "ecohydro/waves_website",
+  "bucket": "J",
+  "status": "rejected",
+  "reason": "readme_keyword:theme",
+  "stars": 3,
+  "pushed_at": "2026-04-16T14:52:00Z",
+  "default_branch": "master",
+  "lockfile": "Gemfile.lock",
+  "source_queries": [
+   "jekyll filename:Gemfile.lock"
+  ]
+ },
+ {
+  "repo": "polettix/ETOOBUSY",
+  "bucket": "J",
+  "status": "rejected",
+  "reason": "inactive_pushed_before_2024-09-25",
+  "stars": 6,
+  "pushed_at": "2024-09-13T05:30:06Z",
+  "default_branch": "master",
+  "source_queries": [
+   "jekyll filename:Gemfile.lock"
+  ]
+ },
+ {
+  "repo": "spitz-dan-l/wreck",
+  "bucket": "J",
+  "status": "kept",
+  "reason": null,
+  "stars": 2,
+  "pushed_at": "2026-09-04T04:36:44Z",
+  "default_branch": "master",
+  "lockfile": "Gemfile.lock",
+  "head_sha": "2145049719628734b14ac2e32870879841ac6451",
+  "site_evidence": "description='Interactive Fiction game'; topics=[]; stars=2; pushed=2026-09-04; lockfile=Gemfile.lock committed; no starter/theme/demo/docs keywords in name/description/readme",
+  "source_queries": [
+   "jekyll filename:Gemfile.lock"
+  ]
+ },
+ {
+  "repo": "smudge-js/smudge",
+  "bucket": "J",
+  "status": "rejected",
+  "reason": "inactive_pushed_before_2024-09-25",
+  "stars": 4,
+  "pushed_at": "2023-01-03T21:47:52Z",
+  "default_branch": "master",
+  "source_queries": [
+   "jekyll filename:Gemfile.lock"
+  ]
+ },
+ {
+  "repo": "csprag/csprag.github.io",
+  "bucket": "J",
+  "status": "rejected",
+  "reason": "inactive_pushed_before_2024-09-25",
+  "stars": 3,
+  "pushed_at": "2021-05-20T09:18:12Z",
+  "default_branch": "master",
+  "source_queries": [
+   "jekyll filename:Gemfile.lock"
+  ]
+ },
+ {
+  "repo": "VoxaAI/voxa-cli",
+  "bucket": "J",
+  "status": "rejected",
+  "reason": "inactive_pushed_before_2024-09-25",
+  "stars": 6,
+  "pushed_at": "2022-12-08T14:34:18Z",
+  "default_branch": "staging",
+  "source_queries": [
+   "jekyll filename:Gemfile.lock"
+  ]
+ },
+ {
+  "repo": "NeuroHackademy-2023/curriculum",
+  "bucket": "J",
+  "status": "rejected",
+  "reason": "inactive_pushed_before_2024-09-25",
+  "stars": 5,
+  "pushed_at": "2023-08-15T17:54:51Z",
+  "default_branch": "main",
+  "source_queries": [
+   "jekyll filename:Gemfile.lock"
+  ]
+ },
+ {
+  "repo": "BingfengYan/BingfengYan.github.io",
+  "bucket": "J",
+  "status": "rejected",
+  "reason": "inactive_pushed_before_2024-09-25",
+  "stars": 3,
+  "pushed_at": "2022-11-10T10:40:46Z",
+  "default_branch": "master",
+  "source_queries": [
+   "jekyll filename:Gemfile.lock"
+  ]
+ },
+ {
+  "repo": "FengMengZhao/fengmengzhao.github.io",
+  "bucket": "J",
+  "status": "rejected",
+  "reason": "inactive_pushed_before_2024-09-25",
+  "stars": 3,
+  "pushed_at": "2024-08-13T02:53:22Z",
+  "default_branch": "master",
+  "source_queries": [
+   "jekyll filename:Gemfile.lock"
+  ]
+ },
+ {
+  "repo": "ohduran/the-interesting-times",
+  "bucket": "J",
+  "status": "rejected",
+  "reason": "starter_theme_demo_keyword:theme",
+  "stars": 76,
+  "pushed_at": "2026-06-23T15:52:15Z",
+  "default_branch": "master",
+  "source_queries": [
+   "jekyll filename:Gemfile.lock"
+  ]
+ },
+ {
+  "repo": "solliancenet/microsoft-learning-path-build-copilots-with-cosmos-db-labs",
+  "bucket": "J",
+  "status": "rejected",
+  "reason": "no_committed_lockfile",
+  "stars": 2,
+  "pushed_at": "2026-04-01T21:08:41Z",
+  "default_branch": "main",
+  "lockfile": null,
+  "source_queries": [
+   "jekyll filename:Gemfile.lock"
+  ]
+ },
+ {
+  "repo": "q2a/q2a.github.io",
+  "bucket": "J",
+  "status": "rejected",
+  "reason": "docs_for_tool_readme",
+  "stars": 19,
+  "pushed_at": "2026-05-08T12:59:22Z",
+  "default_branch": "master",
+  "lockfile": "Gemfile.lock",
+  "source_queries": [
+   "jekyll filename:Gemfile.lock"
+  ]
+ },
+ {
+  "repo": "sneakers-the-rat/surveillance-graphs",
+  "bucket": "J",
+  "status": "kept",
+  "reason": null,
+  "stars": 4,
+  "pushed_at": "2025-01-15T02:15:48Z",
+  "default_branch": "main",
+  "lockfile": "Gemfile.lock",
+  "head_sha": "6c8ca29a575731d358fecf12f68ab6a217506475",
+  "site_evidence": "description='in defense of vulgar linked data'; topics=[]; stars=4; pushed=2025-01-15; lockfile=Gemfile.lock committed; no starter/theme/demo/docs keywords in name/description/readme",
+  "source_queries": [
+   "jekyll filename:Gemfile.lock"
+  ]
+ },
+ {
+  "repo": "simplefin/simplefin.github.com",
+  "bucket": "J",
+  "status": "kept",
+  "reason": null,
+  "stars": 40,
+  "pushed_at": "2026-08-11T15:12:19Z",
+  "default_branch": "master",
+  "lockfile": "Gemfile.lock",
+  "head_sha": "c0bd5675b8ead4bbaefdaa7b83b270c803b8ab0d",
+  "site_evidence": "description='SimpleFIN standard and website'; topics=[]; stars=40; pushed=2026-08-11; lockfile=Gemfile.lock committed; no starter/theme/demo/docs keywords in name/description/readme",
+  "source_queries": [
+   "jekyll filename:Gemfile.lock"
+  ]
+ },
+ {
+  "repo": "artnux/artnux.github.io",
+  "bucket": "J",
+  "status": "rejected",
+  "reason": "inactive_pushed_before_2024-09-25",
+  "stars": 0,
+  "pushed_at": "2020-11-18T23:32:59Z",
+  "default_branch": "master",
+  "source_queries": [
+   "jekyll filename:Gemfile.lock"
+  ]
+ },
+ {
+  "repo": "xiazemin/MyBlogSrc",
+  "bucket": "J",
+  "status": "rejected",
+  "reason": "inactive_pushed_before_2024-09-25",
+  "stars": 3,
+  "pushed_at": "2023-03-07T00:19:02Z",
+  "default_branch": "master",
+  "source_queries": [
+   "jekyll filename:Gemfile.lock"
+  ]
+ },
+ {
+  "repo": "wuanlife/wuanlife_editor",
+  "bucket": "J",
+  "status": "rejected",
+  "reason": "inactive_pushed_before_2024-09-25",
+  "stars": 0,
+  "pushed_at": "2018-01-09T03:32:18Z",
+  "default_branch": "master",
+  "source_queries": [
+   "jekyll filename:Gemfile.lock"
+  ]
+ },
+ {
+  "repo": "w3c/ws-homepage-template",
+  "bucket": "J",
+  "status": "rejected",
+  "reason": "inactive_pushed_before_2024-09-25",
+  "stars": 1,
+  "pushed_at": "2022-10-07T19:33:10Z",
+  "default_branch": "main",
+  "source_queries": [
+   "jekyll filename:Gemfile.lock"
+  ]
+ },
+ {
+  "repo": "qwentes-team/qw-template",
+  "bucket": "J",
+  "status": "rejected",
+  "reason": "inactive_pushed_before_2024-09-25",
+  "stars": 0,
+  "pushed_at": "2019-02-22T17:20:03Z",
+  "default_branch": "master",
+  "source_queries": [
+   "jekyll filename:Gemfile.lock"
+  ]
+ },
+ {
+  "repo": "NOLA-musicians-4-Palestine/nm4p_website",
+  "bucket": "J",
+  "status": "rejected",
+  "reason": "readme_keyword:template",
+  "stars": 0,
+  "pushed_at": "2026-09-22T05:36:14Z",
+  "default_branch": "live",
+  "lockfile": "Gemfile.lock",
+  "source_queries": [
+   "jekyll filename:Gemfile.lock"
+  ]
+ },
+ {
+  "repo": "pganssle/cim",
+  "bucket": "J",
+  "status": "kept",
+  "reason": null,
+  "stars": 29,
+  "pushed_at": "2026-08-05T14:37:05Z",
+  "default_branch": "main",
+  "lockfile": "Gemfile.lock",
+  "head_sha": "bc23cf04e867b36da5ff19fb769397c488180269",
+  "site_evidence": "description='Chord Identification Method Trainer'; topics=[]; stars=29; pushed=2026-08-05; lockfile=Gemfile.lock committed; no starter/theme/demo/docs keywords in name/description/readme",
+  "source_queries": [
+   "jekyll filename:Gemfile.lock"
+  ]
+ },
+ {
+  "repo": "VeraLiconaResearchGroup/OCSANA-Plus",
+  "bucket": "J",
+  "status": "rejected",
+  "reason": "inactive_pushed_before_2024-09-25",
+  "stars": 1,
+  "pushed_at": "2021-02-11T20:26:41Z",
+  "default_branch": "master",
+  "source_queries": [
+   "jekyll filename:Gemfile.lock"
+  ]
+ },
+ {
+  "repo": "JPS-Science-Bowl/JPS-Science-Bowl.github.io",
+  "bucket": "J",
+  "status": "rejected",
+  "reason": "inactive_pushed_before_2024-09-25",
+  "stars": 2,
+  "pushed_at": "2021-02-22T13:49:14Z",
+  "default_branch": "master",
+  "source_queries": [
+   "jekyll filename:Gemfile.lock"
+  ]
+ },
+ {
+  "repo": "prefapp/prefapp.github.io",
+  "bucket": "J",
+  "status": "rejected",
+  "reason": "inactive_pushed_before_2024-09-25",
+  "stars": 0,
+  "pushed_at": "2024-01-03T13:44:46Z",
+  "default_branch": "master",
+  "source_queries": [
+   "jekyll filename:Gemfile.lock"
+  ]
+ },
+ {
+  "repo": "qweraqq/qweraqq.github.io",
+  "bucket": "J",
+  "status": "rejected",
+  "reason": "no_committed_lockfile",
+  "stars": 5,
+  "pushed_at": "2026-05-05T02:03:46Z",
+  "default_branch": "master",
+  "lockfile": null,
+  "source_queries": [
+   "jekyll filename:Gemfile.lock"
+  ]
+ },
+ {
+  "repo": "datasciencebar/datasciencebar.github.io",
+  "bucket": "J",
+  "status": "rejected",
+  "reason": "inactive_pushed_before_2024-09-25",
+  "stars": 0,
+  "pushed_at": "2016-08-30T14:04:18Z",
+  "default_branch": "master",
+  "source_queries": [
+   "jekyll filename:Gemfile.lock"
+  ]
+ },
+ {
+  "repo": "TeamNexile/jk-workshop-docs",
+  "bucket": "J",
+  "status": "rejected",
+  "reason": "starter_theme_demo_keyword:workshop",
+  "stars": 1,
+  "pushed_at": "2025-06-02T10:40:34Z",
+  "default_branch": "www",
+  "source_queries": [
+   "jekyll filename:Gemfile.lock"
+  ]
+ },
+ {
+  "repo": "krrish94/sniffle-workshop",
+  "bucket": "J",
+  "status": "rejected",
+  "reason": "inactive_pushed_before_2024-09-25",
+  "stars": 28,
+  "pushed_at": "2021-01-03T01:29:59Z",
+  "default_branch": "main",
+  "source_queries": [
+   "jekyll filename:Gemfile.lock"
+  ]
+ },
+ {
+  "repo": "sigu-training/clinical_genomics",
+  "bucket": "J",
+  "status": "rejected",
+  "reason": "no_committed_lockfile",
+  "stars": 1,
+  "pushed_at": "2026-02-22T14:59:38Z",
+  "default_branch": "master",
+  "lockfile": null,
+  "source_queries": [
+   "jekyll filename:Gemfile.lock",
+   "paginate filename:_config.yml"
+  ]
+ },
+ {
+  "repo": "NordicEC/EC4py",
+  "bucket": "J",
+  "status": "rejected",
+  "reason": "no_committed_lockfile",
+  "stars": 2,
+  "pushed_at": "2025-05-21T17:36:39Z",
+  "default_branch": "main",
+  "lockfile": null,
+  "source_queries": [
+   "jekyll filename:Gemfile.lock"
+  ]
+ },
+ {
+  "repo": "murex/EventStormingJournal",
+  "bucket": "J",
+  "status": "kept",
+  "reason": null,
+  "stars": 10,
+  "pushed_at": "2026-09-08T18:18:05Z",
+  "default_branch": "master",
+  "lockfile": "Gemfile.lock",
+  "head_sha": "7d9d83408520bb2e27f9a5ade2be651049796c04",
+  "site_evidence": "description='This is a repo containing the posts of the \"Event Storming Journal\" blog to be served as a static website through github pages.'; topics=['eventstorming']; stars=10; pushed=2026-09-08; lockfile=Gemfile.lock committed; no starter/theme/demo/docs keywords in name/description/readme",
+  "source_queries": [
+   "jekyll filename:Gemfile.lock"
+  ]
+ },
+ {
+  "repo": "vda-lab/vda-lab.github.io",
+  "bucket": "J",
+  "status": "rejected",
+  "reason": "inactive_pushed_before_2024-09-25",
+  "stars": 2,
+  "pushed_at": "2024-07-04T18:38:51Z",
+  "default_branch": "master",
+  "source_queries": [
+   "jekyll filename:Gemfile.lock"
+  ]
+ },
+ {
+  "repo": "corceslab/corceslab.github.io",
+  "bucket": "J",
+  "status": "kept",
+  "reason": null,
+  "stars": 3,
+  "pushed_at": "2026-08-10T13:22:04Z",
+  "default_branch": "master",
+  "lockfile": "Gemfile.lock",
+  "head_sha": "20b4da262bb93fe59d8a1fa23dfec19bbeaf01c6",
+  "site_evidence": "description='Corces lab website'; topics=[]; stars=3; pushed=2026-08-10; lockfile=Gemfile.lock committed; no starter/theme/demo/docs keywords in name/description/readme",
+  "source_queries": [
+   "jekyll filename:Gemfile.lock"
+  ]
+ },
+ {
+  "repo": "design-automation/design-automation-website",
+  "bucket": "J",
+  "status": "kept",
+  "reason": null,
+  "stars": 0,
+  "pushed_at": "2026-09-19T10:27:28Z",
+  "default_branch": "master",
+  "lockfile": "Gemfile.lock",
+  "head_sha": "454cb02bd6dd38490d96e558f1f1e3ca7ef3062a",
+  "site_evidence": "description='Design Automation Lab'; topics=[]; stars=0; pushed=2026-09-19; lockfile=Gemfile.lock committed; no starter/theme/demo/docs keywords in name/description/readme",
+  "source_queries": [
+   "jekyll filename:Gemfile.lock"
+  ]
+ },
+ {
+  "repo": "VeldEnDuin/VeldEnDuin.github.io",
+  "bucket": "J",
+  "status": "rejected",
+  "reason": "no_committed_lockfile",
+  "stars": 0,
+  "pushed_at": "2026-09-11T19:04:24Z",
+  "default_branch": "master",
+  "lockfile": null,
+  "source_queries": [
+   "jekyll filename:Gemfile.lock"
+  ]
+ },
+ {
+  "repo": "mids-w203/practice_problems",
+  "bucket": "J",
+  "status": "kept",
+  "reason": null,
+  "stars": 12,
+  "pushed_at": "2026-05-15T18:06:08Z",
+  "default_branch": "master",
+  "lockfile": "Gemfile.lock",
+  "head_sha": "ab9a477d86b4f12d1d15b300f88fe1cf4ec86a65",
+  "site_evidence": "description='https://mids-w203.github.io/practice_problems/'; topics=[]; stars=12; pushed=2026-05-15; lockfile=Gemfile.lock committed; no starter/theme/demo/docs keywords in name/description/readme",
+  "source_queries": [
+   "jekyll filename:Gemfile.lock"
+  ]
+ },
+ {
+  "repo": "zeemeil/zeemeil.github.io",
+  "bucket": "J",
+  "status": "kept",
+  "reason": null,
+  "stars": 3,
+  "pushed_at": "2026-09-21T10:50:19Z",
+  "default_branch": "main",
+  "lockfile": "Gemfile.lock",
+  "head_sha": "a0f06299fcedb02073282259941086a86b373952",
+  "site_evidence": "description='Personal Pages'; topics=[]; stars=3; pushed=2026-09-21; lockfile=Gemfile.lock committed; no starter/theme/demo/docs keywords in name/description/readme",
+  "source_queries": [
+   "jekyll filename:Gemfile.lock"
+  ]
+ },
+ {
+  "repo": "neusymbridge/neusymbridge.github.io",
+  "bucket": "J",
+  "status": "rejected",
+  "reason": "starter_theme_demo_keyword:workshop",
+  "stars": 0,
+  "pushed_at": "2026-06-03T19:18:44Z",
+  "default_branch": "main",
+  "source_queries": [
+   "jekyll filename:Gemfile.lock"
+  ]
+ },
+ {
+  "repo": "FlocksCM/snow-documentation",
+  "bucket": "J",
+  "status": "rejected",
+  "reason": "inactive_pushed_before_2024-09-25",
+  "stars": 1,
+  "pushed_at": "2018-12-03T15:49:27Z",
+  "default_branch": "master",
+  "source_queries": [
+   "jekyll filename:Gemfile.lock"
+  ]
+ },
+ {
+  "repo": "vu-rdm-tech/site",
+  "bucket": "J",
+  "status": "rejected",
+  "reason": "no_committed_lockfile",
+  "stars": 0,
+  "pushed_at": "2025-07-08T14:46:36Z",
+  "default_branch": "master",
+  "lockfile": null,
+  "source_queries": [
+   "jekyll filename:Gemfile.lock"
+  ]
+ },
+ {
+  "repo": "toepoke/toepoke.github.io",
+  "bucket": "J",
+  "status": "rejected",
+  "reason": "readme_keyword:theme",
+  "stars": 0,
+  "pushed_at": "2026-08-10T12:31:52Z",
+  "default_branch": "master",
+  "lockfile": "Gemfile.lock",
+  "source_queries": [
+   "jekyll filename:Gemfile.lock"
+  ]
+ },
+ {
+  "repo": "Bennett-Wendorf/Bennett-Wendorf.github.io",
+  "bucket": "J",
+  "status": "rejected",
+  "reason": "readme_keyword:template",
+  "stars": 0,
+  "pushed_at": "2026-08-12T12:24:34Z",
+  "default_branch": "master",
+  "lockfile": "Gemfile.lock",
+  "source_queries": [
+   "jekyll filename:Gemfile.lock"
+  ]
+ },
+ {
+  "repo": "bdd-unlam/bdd-unlam.github.io",
+  "bucket": "J",
+  "status": "rejected",
+  "reason": "inactive_pushed_before_2024-09-25",
+  "stars": 0,
+  "pushed_at": "2022-07-21T23:43:10Z",
+  "default_branch": "master",
+  "source_queries": [
+   "jekyll filename:Gemfile.lock"
+  ]
+ },
+ {
+  "repo": "upendra-bajpai/upendra-bajpai.github.io",
+  "bucket": "J",
+  "status": "rejected",
+  "reason": "inactive_pushed_before_2024-09-25",
+  "stars": 3,
+  "pushed_at": "2024-01-09T07:11:03Z",
+  "default_branch": "relese",
+  "source_queries": [
+   "jekyll filename:Gemfile.lock"
+  ]
+ },
+ {
+  "repo": "confmeet/ccs2024",
+  "bucket": "J",
+  "status": "rejected",
+  "reason": "no_committed_lockfile",
+  "stars": 0,
+  "pushed_at": "2025-01-10T01:05:33Z",
+  "default_branch": "main",
+  "lockfile": null,
+  "source_queries": [
+   "jekyll filename:Gemfile.lock"
+  ]
+ },
+ {
+  "repo": "powerfulseal/powerfulseal",
+  "bucket": "J",
+  "status": "rejected",
+  "reason": "inactive_pushed_before_2024-09-25",
+  "stars": 1983,
+  "pushed_at": "2023-11-10T18:28:39Z",
+  "default_branch": "master",
+  "source_queries": [
+   "jekyll filename:Gemfile.lock"
+  ]
+ },
+ {
+  "repo": "NeuroHackademy2024/curriculum",
+  "bucket": "J",
+  "status": "rejected",
+  "reason": "starter_theme_demo_keyword:curriculum",
+  "stars": 4,
+  "pushed_at": "2025-07-17T19:38:57Z",
+  "default_branch": "main",
+  "source_queries": [
+   "jekyll filename:Gemfile.lock"
+  ]
+ },
+ {
+  "repo": "aiplans/aiplans.github.io",
+  "bucket": "J",
+  "status": "rejected",
+  "reason": "inactive_pushed_before_2024-09-25",
+  "stars": 9,
+  "pushed_at": "2024-06-08T16:36:58Z",
+  "default_branch": "main",
+  "source_queries": [
+   "jekyll filename:Gemfile.lock"
+  ]
+ },
+ {
+  "repo": "table-mountain-hema/table-mountain-hema.github.io",
+  "bucket": "J",
+  "status": "kept",
+  "reason": null,
+  "stars": 1,
+  "pushed_at": "2026-09-20T16:09:24Z",
+  "default_branch": "master",
+  "lockfile": "Gemfile.lock",
+  "head_sha": "efcdc92ae0730aba27825cfc24451d5f6ff454ff",
+  "site_evidence": "description='Table Mountain HEMA Website'; topics=[]; stars=1; pushed=2026-09-20; lockfile=Gemfile.lock committed; no starter/theme/demo/docs keywords in name/description/readme",
+  "source_queries": [
+   "jekyll filename:Gemfile.lock"
+  ]
+ },
+ {
+  "repo": "montrealrobotics/diff3d",
+  "bucket": "J",
+  "status": "rejected",
+  "reason": "inactive_pushed_before_2024-09-25",
+  "stars": 8,
+  "pushed_at": "2021-10-11T13:58:14Z",
+  "default_branch": "main",
+  "source_queries": [
+   "jekyll filename:Gemfile.lock"
+  ]
+ },
+ {
+  "repo": "ifrnead/rubynapratica",
+  "bucket": "J",
+  "status": "rejected",
+  "reason": "inactive_pushed_before_2024-09-25",
+  "stars": 19,
+  "pushed_at": "2022-10-05T19:59:19Z",
+  "default_branch": "master",
+  "source_queries": [
+   "jekyll filename:Gemfile.lock"
+  ]
+ },
+ {
+  "repo": "thatvirtualboy/thatvirtualboy.github.io",
+  "bucket": "J",
+  "status": "rejected",
+  "reason": "readme_keyword:theme",
+  "stars": 2,
+  "pushed_at": "2026-09-15T23:16:46Z",
+  "default_branch": "master",
+  "lockfile": "Gemfile.lock",
+  "source_queries": [
+   "jekyll filename:Gemfile.lock"
+  ]
+ },
+ {
+  "repo": "LanceXuanLi/crazylnx.github.io",
+  "bucket": "J",
+  "status": "rejected",
+  "reason": "inactive_pushed_before_2024-09-25",
+  "stars": 0,
+  "pushed_at": "2022-01-13T07:47:30Z",
+  "default_branch": "master",
+  "source_queries": [
+   "jekyll filename:Gemfile.lock"
+  ]
+ },
+ {
+  "repo": "qasampameeting/qasampameeting.github.io",
+  "bucket": "J",
+  "status": "rejected",
+  "reason": "inactive_pushed_before_2024-09-25",
+  "stars": 3,
+  "pushed_at": "2022-10-06T00:09:30Z",
+  "default_branch": "master",
+  "source_queries": [
+   "jekyll filename:Gemfile.lock"
+  ]
+ },
+ {
+  "repo": "flutterchina/flutterchina.github.io",
+  "bucket": "J",
+  "status": "rejected",
+  "reason": "inactive_pushed_before_2024-09-25",
+  "stars": 0,
+  "pushed_at": "2022-06-13T08:17:48Z",
+  "default_branch": "master",
+  "source_queries": [
+   "jekyll filename:Gemfile.lock"
+  ]
+ },
+ {
+  "repo": "Activiti/www.activiti.org",
+  "bucket": "J",
+  "status": "rejected",
+  "reason": "inactive_pushed_before_2024-09-25",
+  "stars": 5,
+  "pushed_at": "2024-03-19T00:11:03Z",
+  "default_branch": "master",
+  "source_queries": [
+   "jekyll filename:Gemfile.lock"
+  ]
+ },
+ {
+  "repo": "BillRaymond/my-jekyll-docker-website",
+  "bucket": "J",
+  "status": "rejected",
+  "reason": "inactive_pushed_before_2024-09-25",
+  "stars": 37,
+  "pushed_at": "2024-01-29T19:28:33Z",
+  "default_branch": "main",
+  "source_queries": [
+   "jekyll filename:Gemfile.lock"
+  ]
+ },
+ {
+  "repo": "openstreetmap/stateofthemap-2016",
+  "bucket": "J",
+  "status": "kept",
+  "reason": null,
+  "stars": 5,
+  "pushed_at": "2026-08-09T10:31:38Z",
+  "default_branch": "gh-pages",
+  "lockfile": "Gemfile.lock",
+  "head_sha": "587b0b0f11487f8272246e3048b367afa26512d9",
+  "site_evidence": "description='State of the Map 2016'; topics=['docker-image', 'stateofthemap']; stars=5; pushed=2026-08-09; lockfile=Gemfile.lock committed; no starter/theme/demo/docs keywords in name/description/readme",
+  "source_queries": [
+   "jekyll filename:Gemfile.lock"
+  ]
+ },
+ {
+  "repo": "code4lib/2020.code4lib.org",
+  "bucket": "J",
+  "status": "rejected",
+  "reason": "inactive_pushed_before_2024-09-25",
+  "stars": 7,
+  "pushed_at": "2020-06-26T16:29:59Z",
+  "default_branch": "main",
+  "source_queries": [
+   "jekyll filename:Gemfile.lock"
+  ]
+ },
+ {
+  "repo": "BirminghamConservatoire/JohannesTinctoris",
+  "bucket": "J",
+  "status": "kept",
+  "reason": null,
+  "stars": 8,
+  "pushed_at": "2026-07-22T15:24:19Z",
+  "default_branch": "master",
+  "lockfile": "Gemfile.lock",
+  "head_sha": "ca24beab63578b353bc46536bec1d49f8728560f",
+  "site_evidence": "description='Editing and rendering text and music notation for online edition of music treatises'; topics=[]; stars=8; pushed=2026-07-22; lockfile=Gemfile.lock committed; no starter/theme/demo/docs keywords in name/description/readme",
+  "source_queries": [
+   "jekyll filename:Gemfile.lock"
+  ]
+ },
+ {
+  "repo": "Japh/required-for-jekyll",
+  "bucket": "J",
+  "status": "rejected",
+  "reason": "inactive_pushed_before_2024-09-25",
+  "stars": 9,
+  "pushed_at": "2017-11-28T23:28:50Z",
+  "default_branch": "master",
+  "source_queries": [
+   "jekyll filename:Gemfile.lock"
+  ]
+ },
+ {
+  "repo": "Chicago/tnp-reporting-manual",
+  "bucket": "J",
+  "status": "rejected",
+  "reason": "inactive_pushed_before_2024-09-25",
+  "stars": 2,
+  "pushed_at": "2023-01-17T21:25:36Z",
+  "default_branch": "gh-pages",
+  "source_queries": [
+   "jekyll filename:Gemfile.lock"
+  ]
+ },
+ {
+  "repo": "rethinkingmlpapers/rethinkingmlpapers.github.io",
+  "bucket": "J",
+  "status": "rejected",
+  "reason": "inactive_pushed_before_2024-09-25",
+  "stars": 7,
+  "pushed_at": "2021-11-21T15:25:26Z",
+  "default_branch": "main",
+  "source_queries": [
+   "jekyll filename:Gemfile.lock"
+  ]
+ },
+ {
+  "repo": "upendra-bajpai/upnotes",
+  "bucket": "J",
+  "status": "rejected",
+  "reason": "no_committed_lockfile",
+  "stars": 0,
+  "pushed_at": "2026-01-17T13:52:14Z",
+  "default_branch": "relese",
+  "lockfile": null,
+  "source_queries": [
+   "jekyll filename:Gemfile.lock"
+  ]
+ },
+ {
+  "repo": "SODAChallenges/SODAChallenges.github.io",
+  "bucket": "J",
+  "status": "rejected",
+  "reason": "inactive_pushed_before_2024-09-25",
+  "stars": 1,
+  "pushed_at": "2018-10-09T02:29:21Z",
+  "default_branch": "master",
+  "source_queries": [
+   "jekyll filename:Gemfile.lock"
+  ]
+ },
+ {
+  "repo": "umass-gis/workshops",
+  "bucket": "J",
+  "status": "rejected",
+  "reason": "workshop_materials: matched /workshop-in-name/",
+  "stars": 11,
+  "pushed_at": "2026-06-23T23:29:59Z",
+  "default_branch": "main",
+  "lockfile": "Gemfile.lock",
+  "source_queries": [
+   "jekyll filename:Gemfile.lock"
+  ]
+ },
+ {
+  "repo": "mistersilver-uk/fabricate",
+  "bucket": "J",
+  "status": "rejected",
+  "reason": "no_committed_lockfile",
+  "stars": 6,
+  "pushed_at": "2026-09-25T13:07:26Z",
+  "default_branch": "main",
+  "lockfile": null,
+  "source_queries": [
+   "jekyll filename:Gemfile.lock"
+  ]
+ },
+ {
+  "repo": "LogtalkDotOrg/logtalk.org",
+  "bucket": "J",
+  "status": "rejected",
+  "reason": "readme_keyword:theme",
+  "stars": 5,
+  "pushed_at": "2026-08-11T16:34:46Z",
+  "default_branch": "master",
+  "lockfile": "Gemfile.lock",
+  "source_queries": [
+   "jekyll filename:Gemfile.lock"
+  ]
+ },
+ {
+  "repo": "oguyon/docs",
+  "bucket": "J",
+  "status": "rejected",
+  "reason": "inactive_pushed_before_2024-09-25",
+  "stars": 2,
+  "pushed_at": "2024-02-21T09:41:56Z",
+  "default_branch": "gh-pages",
+  "source_queries": [
+   "jekyll filename:Gemfile.lock"
+  ]
+ },
+ {
+  "repo": "mapcampcommittee/mapcampcommittee.github.io",
+  "bucket": "J",
+  "status": "kept",
+  "reason": null,
+  "stars": 3,
+  "pushed_at": "2026-06-24T02:04:25Z",
+  "default_branch": "master",
+  "lockfile": "Gemfile.lock",
+  "head_sha": "9579662b03b7cf4b5ceaf8dcd7a8de3460b9ae9e",
+  "site_evidence": "description=''; topics=[]; stars=3; pushed=2026-06-24; lockfile=Gemfile.lock committed; no starter/theme/demo/docs keywords in name/description/readme",
+  "source_queries": [
+   "jekyll filename:Gemfile.lock"
+  ]
+ },
+ {
+  "repo": "vormwald/jekyll-blahg",
+  "bucket": "J",
+  "status": "rejected",
+  "reason": "readme_keyword:template",
+  "stars": 3,
+  "pushed_at": "2025-04-11T01:50:07Z",
+  "default_branch": "main",
+  "lockfile": "Gemfile.lock",
+  "source_queries": [
+   "jekyll filename:Gemfile.lock"
+  ]
+ },
+ {
+  "repo": "PrincetonACM/princetonacm.github.io",
+  "bucket": "J",
+  "status": "kept",
+  "reason": null,
+  "stars": 1,
+  "pushed_at": "2026-09-24T00:44:30Z",
+  "default_branch": "master",
+  "lockfile": "Gemfile.lock",
+  "head_sha": "719455b65cc99c1ee08d261a9c5848b051f472f1",
+  "site_evidence": "description='The official website for Princeton ACM.'; topics=[]; stars=1; pushed=2026-09-24; lockfile=Gemfile.lock committed; no starter/theme/demo/docs keywords in name/description/readme",
+  "source_queries": [
+   "jekyll filename:Gemfile.lock"
+  ]
+ },
+ {
+  "repo": "ucalyptus/Blog",
+  "bucket": "J",
+  "status": "rejected",
+  "reason": "readme_keyword:template",
+  "stars": 2,
+  "pushed_at": "2026-02-09T21:26:46Z",
+  "default_branch": "master",
+  "lockfile": "Gemfile.lock",
+  "source_queries": [
+   "jekyll filename:Gemfile.lock"
+  ]
+ },
+ {
+  "repo": "lambdamentors/lambdamentors.github.io",
+  "bucket": "J",
+  "status": "rejected",
+  "reason": "inactive_pushed_before_2024-09-25",
+  "stars": 1,
+  "pushed_at": "2015-12-06T16:58:25Z",
+  "default_branch": "master",
+  "source_queries": [
+   "jekyll filename:Gemfile.lock"
+  ]
+ },
+ {
+  "repo": "pep-dortmund/homepage-physikon",
+  "bucket": "J",
+  "status": "kept",
+  "reason": null,
+  "stars": 1,
+  "pushed_at": "2026-04-21T08:28:01Z",
+  "default_branch": "main",
+  "lockfile": "Gemfile.lock",
+  "head_sha": "46808fb249bc159e3a5e652d1384ba7325669506",
+  "site_evidence": "description=''; topics=[]; stars=1; pushed=2026-04-21; lockfile=Gemfile.lock committed; no starter/theme/demo/docs keywords in name/description/readme",
+  "source_queries": [
+   "jekyll filename:Gemfile.lock"
+  ]
+ },
+ {
+  "repo": "QualGreens/qualgreens.github.io",
+  "bucket": "J",
+  "status": "rejected",
+  "reason": "inactive_pushed_before_2024-09-25",
+  "stars": 0,
+  "pushed_at": "2016-06-30T09:09:19Z",
+  "default_branch": "master",
+  "source_queries": [
+   "jekyll filename:Gemfile.lock"
+  ]
+ },
+ {
+  "repo": "Southampton-RSG-Training/TrainingProjects",
+  "bucket": "J",
+  "status": "rejected",
+  "reason": "inactive_pushed_before_2024-09-25",
+  "stars": 0,
+  "pushed_at": "2023-03-07T13:54:44Z",
+  "default_branch": "main",
+  "source_queries": [
+   "jekyll filename:Gemfile.lock"
+  ]
+ },
+ {
+  "repo": "canoi12/canoi12.github.io",
+  "bucket": "J",
+  "status": "rejected",
+  "reason": "inactive_pushed_before_2024-09-25",
+  "stars": 0,
+  "pushed_at": "2024-06-24T03:40:14Z",
+  "default_branch": "master",
+  "source_queries": [
+   "jekyll filename:Gemfile.lock"
+  ]
+ },
+ {
+  "repo": "labraven/techr10n.github.io",
+  "bucket": "J",
+  "status": "rejected",
+  "reason": "inactive_pushed_before_2024-09-25",
+  "stars": 0,
+  "pushed_at": "2023-04-17T19:19:47Z",
+  "default_branch": "master",
+  "source_queries": [
+   "jekyll filename:Gemfile.lock"
+  ]
+ },
+ {
+  "repo": "pasdoc/pasdoc.github.io",
+  "bucket": "J",
+  "status": "rejected",
+  "reason": "readme_keyword:theme",
+  "stars": 2,
+  "pushed_at": "2026-04-05T12:21:55Z",
+  "default_branch": "master",
+  "lockfile": "Gemfile.lock",
+  "source_queries": [
+   "jekyll filename:Gemfile.lock"
+  ]
+ },
+ {
+  "repo": "svtempleofnc/svtempleofnc.github.io",
+  "bucket": "J",
+  "status": "rejected",
+  "reason": "readme_keyword:template",
+  "stars": 0,
+  "pushed_at": "2026-01-02T17:02:37Z",
+  "default_branch": "master",
+  "lockfile": "Gemfile.lock",
+  "source_queries": [
+   "jekyll filename:Gemfile.lock"
+  ]
+ },
+ {
+  "repo": "joonhyun-ahn/reviewing-a-pull-request",
+  "bucket": "J",
+  "status": "rejected",
+  "reason": "inactive_pushed_before_2024-09-25",
+  "stars": 0,
+  "pushed_at": "2023-04-12T00:10:15Z",
+  "default_branch": "master",
+  "source_queries": [
+   "jekyll filename:Gemfile.lock"
+  ]
+ },
+ {
+  "repo": "jkuschner/jekyll_website",
+  "bucket": "J",
+  "status": "rejected",
+  "reason": "inactive_pushed_before_2024-09-25",
+  "stars": 0,
+  "pushed_at": "2024-09-16T18:09:32Z",
+  "default_branch": "master",
+  "source_queries": [
+   "jekyll filename:Gemfile.lock"
+  ]
+ },
+ {
+  "repo": "ieee-eduvis/ieee-eduvis.github.io",
+  "bucket": "J",
+  "status": "rejected",
+  "reason": "starter_theme_demo_keyword:workshop",
+  "stars": 0,
+  "pushed_at": "2026-08-06T14:08:56Z",
+  "default_branch": "main",
+  "source_queries": [
+   "jekyll filename:Gemfile.lock"
+  ]
+ },
+ {
+  "repo": "firehomework/firehomework.github.io",
+  "bucket": "J",
+  "status": "rejected",
+  "reason": "inactive_pushed_before_2024-09-25",
+  "stars": 0,
+  "pushed_at": "2024-02-04T04:01:19Z",
+  "default_branch": "gh-pages",
+  "source_queries": [
+   "jekyll filename:Gemfile.lock"
+  ]
+ },
+ {
+  "repo": "johntrimble/johntrimble.github.io",
+  "bucket": "J",
+  "status": "rejected",
+  "reason": "readme_keyword:theme",
+  "stars": 0,
+  "pushed_at": "2026-08-24T06:42:50Z",
+  "default_branch": "johntrimble-blog-chirpy",
+  "lockfile": "Gemfile.lock",
+  "source_queries": [
+   "jekyll filename:Gemfile.lock"
+  ]
+ },
+ {
+  "repo": "frankolson/willolson.io-jekyll",
+  "bucket": "J",
+  "status": "rejected",
+  "reason": "inactive_pushed_before_2024-09-25",
+  "stars": 0,
+  "pushed_at": "2024-03-26T00:32:43Z",
+  "default_branch": "main",
+  "source_queries": [
+   "jekyll filename:Gemfile.lock"
+  ]
+ },
+ {
+  "repo": "GeeWee/geewee.github.io",
+  "bucket": "J",
+  "status": "kept",
+  "reason": null,
+  "stars": 3,
+  "pushed_at": "2026-09-14T05:44:27Z",
+  "default_branch": "master",
+  "lockfile": "Gemfile.lock",
+  "head_sha": "2123cbd4b19dcc0f4addc9e3b6b50ef860412dc1",
+  "site_evidence": "description='Personal blog'; topics=[]; stars=3; pushed=2026-09-14; lockfile=Gemfile.lock committed; no starter/theme/demo/docs keywords in name/description/readme",
+  "source_queries": [
+   "jekyll filename:Gemfile.lock"
+  ]
+ },
+ {
+  "repo": "PT-Inersia/PT-Inersia.github.io",
+  "bucket": "J",
+  "status": "rejected",
+  "reason": "inactive_pushed_before_2024-09-25",
+  "stars": 0,
+  "pushed_at": "2024-06-11T10:31:19Z",
+  "default_branch": "main",
+  "source_queries": [
+   "jekyll filename:Gemfile.lock"
+  ]
+ },
+ {
+  "repo": "DECAF/blog.decaf.de",
+  "bucket": "J",
+  "status": "kept",
+  "reason": null,
+  "stars": 2,
+  "pushed_at": "2026-06-23T19:43:30Z",
+  "default_branch": "main",
+  "lockfile": "Gemfile.lock",
+  "head_sha": "cf74d1e41d8a74c978bf66625ce1eb05765432dd",
+  "site_evidence": "description='DECAF Blog'; topics=['blog', 'decaf', 'github-pages', 'jekyll']; stars=2; pushed=2026-06-23; lockfile=Gemfile.lock committed; no starter/theme/demo/docs keywords in name/description/readme",
+  "source_queries": [
+   "jekyll filename:Gemfile.lock"
+  ]
+ },
+ {
+  "repo": "universe-builders/universe-builders.github.io",
+  "bucket": "J",
+  "status": "rejected",
+  "reason": "inactive_pushed_before_2024-09-25",
+  "stars": 0,
+  "pushed_at": "2024-01-24T07:42:12Z",
+  "default_branch": "main",
+  "source_queries": [
+   "jekyll filename:Gemfile.lock"
+  ]
+ },
+ {
+  "repo": "Ewa6/quoteable-service",
+  "bucket": "J",
+  "status": "rejected",
+  "reason": "readme_keyword:scaffold",
+  "stars": 0,
+  "pushed_at": "2026-05-29T06:16:44Z",
+  "default_branch": "main",
+  "lockfile": "Gemfile.lock",
+  "source_queries": [
+   "jekyll filename:Gemfile.lock"
+  ]
+ },
+ {
+  "repo": "JZSAWYER/JZSAWYER.github.io",
+  "bucket": "J",
+  "status": "rejected",
+  "reason": "readme_keyword:template",
+  "stars": 0,
+  "pushed_at": "2025-09-09T09:30:34Z",
+  "default_branch": "main",
+  "lockfile": "Gemfile.lock",
+  "source_queries": [
+   "jekyll filename:Gemfile.lock"
+  ]
+ },
+ {
+  "repo": "smsag99/Personal_Website",
+  "bucket": "J",
+  "status": "kept",
+  "reason": null,
+  "stars": 0,
+  "pushed_at": "2026-06-02T09:50:13Z",
+  "default_branch": "main",
+  "lockfile": "Gemfile.lock",
+  "head_sha": "d4163466b7a7850c2ba9cfab6088faf075580f1f",
+  "site_evidence": "description='Personal wensite with Jekyll'; topics=[]; stars=0; pushed=2026-06-02; lockfile=Gemfile.lock committed; no starter/theme/demo/docs keywords in name/description/readme",
+  "source_queries": [
+   "jekyll filename:Gemfile.lock"
+  ]
+ },
+ {
+  "repo": "horsesandcars/horsesandcars.github.io",
+  "bucket": "J",
+  "status": "kept",
+  "reason": null,
+  "stars": 0,
+  "pushed_at": "2024-11-15T15:38:52Z",
+  "default_branch": "dev",
+  "lockfile": "Gemfile.lock",
+  "head_sha": "698ee9866fca9a341e0163fff7b451a9084b8a9e",
+  "site_evidence": "description=''; topics=[]; stars=0; pushed=2024-11-15; lockfile=Gemfile.lock committed; no starter/theme/demo/docs keywords in name/description/readme",
+  "source_queries": [
+   "jekyll filename:Gemfile.lock"
+  ]
+ },
+ {
+  "repo": "taskography/taskography.github.io",
+  "bucket": "J",
+  "status": "rejected",
+  "reason": "inactive_pushed_before_2024-09-25",
+  "stars": 0,
+  "pushed_at": "2022-07-12T13:58:36Z",
+  "default_branch": "main",
+  "source_queries": [
+   "jekyll filename:Gemfile.lock"
+  ]
+ },
+ {
+  "repo": "vatten-app/vatten-app.github.io",
+  "bucket": "J",
+  "status": "rejected",
+  "reason": "readme_keyword:template",
+  "stars": 0,
+  "pushed_at": "2025-09-12T13:36:53Z",
+  "default_branch": "develop",
+  "lockfile": "Gemfile.lock",
+  "source_queries": [
+   "jekyll filename:Gemfile.lock"
+  ]
+ },
+ {
+  "repo": "colemancda/website",
+  "bucket": "J",
+  "status": "rejected",
+  "reason": "inactive_pushed_before_2024-09-25",
+  "stars": 0,
+  "pushed_at": "2018-07-31T21:20:33Z",
+  "default_branch": "master",
+  "source_queries": [
+   "jekyll filename:Gemfile.lock"
+  ]
+ },
+ {
+  "repo": "Trust-Worthy/Trust-Worthy.github.io",
+  "bucket": "J",
+  "status": "kept",
+  "reason": null,
+  "stars": 0,
+  "pushed_at": "2026-01-13T05:19:21Z",
+  "default_branch": "main",
+  "lockfile": "Gemfile.lock",
+  "head_sha": "7c557a33496f115b9a82751eebcb6fabbc55209c",
+  "site_evidence": "description='Personal Website'; topics=[]; stars=0; pushed=2026-01-13; lockfile=Gemfile.lock committed; no starter/theme/demo/docs keywords in name/description/readme",
+  "source_queries": [
+   "jekyll filename:Gemfile.lock"
+  ]
+ },
+ {
+  "repo": "moritzschaefer/moritzschaefer.github.io",
+  "bucket": "J",
+  "status": "kept",
+  "reason": null,
+  "stars": 0,
+  "pushed_at": "2026-07-25T17:13:49Z",
+  "default_branch": "master",
+  "lockfile": "Gemfile.lock",
+  "head_sha": "8edd2fd5993588c44ddde5abc40990bb468ee465",
+  "site_evidence": "description=''; topics=[]; stars=0; pushed=2026-07-25; lockfile=Gemfile.lock committed; no starter/theme/demo/docs keywords in name/description/readme",
+  "source_queries": [
+   "jekyll filename:Gemfile.lock"
+  ]
+ },
+ {
+  "repo": "rxchun/q2adocs-preview",
+  "bucket": "J",
+  "status": "rejected",
+  "reason": "docs_for_tool_readme",
+  "stars": 0,
+  "pushed_at": "2025-06-18T04:48:18Z",
+  "default_branch": "master",
+  "lockfile": "Gemfile.lock",
+  "source_queries": [
+   "jekyll filename:Gemfile.lock"
+  ]
+ },
+ {
+  "repo": "DongJae-Go-FE/DongJae-GO-FE.github.io",
+  "bucket": "J",
+  "status": "rejected",
+  "reason": "readme_keyword:theme",
+  "stars": 0,
+  "pushed_at": "2025-05-26T11:54:21Z",
+  "default_branch": "main",
+  "lockfile": "Gemfile.lock",
+  "source_queries": [
+   "jekyll filename:Gemfile.lock"
+  ]
+ },
+ {
+  "repo": "Team8334/Docs",
+  "bucket": "J",
+  "status": "rejected",
+  "reason": "inactive_pushed_before_2024-09-25",
+  "stars": 0,
+  "pushed_at": "2024-04-02T01:39:12Z",
+  "default_branch": "main",
+  "source_queries": [
+   "jekyll filename:Gemfile.lock"
+  ]
+ },
+ {
+  "repo": "dolchan/github-pages-with-docker",
+  "bucket": "J",
+  "status": "rejected",
+  "reason": "inactive_pushed_before_2024-09-25",
+  "stars": 0,
+  "pushed_at": "2024-03-13T21:48:36Z",
+  "default_branch": "main",
+  "source_queries": [
+   "jekyll filename:Gemfile.lock"
+  ]
+ },
+ {
+  "repo": "jvlevinson/modern_jekyll",
+  "bucket": "J",
+  "status": "rejected",
+  "reason": "readme_keyword:theme",
+  "stars": 1,
+  "pushed_at": "2026-04-08T09:10:06Z",
+  "default_branch": "main",
+  "lockfile": "Gemfile.lock",
+  "source_queries": [
+   "jekyll filename:Gemfile.lock"
+  ]
+ },
+ {
+  "repo": "boozey-psi/boozey-psi.github.io",
+  "bucket": "J",
+  "status": "rejected",
+  "reason": "readme_keyword:template",
+  "stars": 0,
+  "pushed_at": "2025-04-24T10:35:44Z",
+  "default_branch": "main",
+  "lockfile": "Gemfile.lock",
+  "source_queries": [
+   "jekyll filename:Gemfile.lock"
+  ]
+ },
+ {
+  "repo": "jiangbos/jiangbos.github.io",
+  "bucket": "J",
+  "status": "rejected",
+  "reason": "inactive_pushed_before_2024-09-25",
+  "stars": 0,
+  "pushed_at": "2021-02-22T22:18:43Z",
+  "default_branch": "master",
+  "source_queries": [
+   "jekyll filename:Gemfile.lock"
+  ]
+ },
+ {
+  "repo": "MrE-Fog/doh-proxy",
+  "bucket": "J",
+  "status": "rejected",
+  "reason": "inactive_pushed_before_2024-09-25",
+  "stars": 0,
+  "pushed_at": "2024-03-19T00:31:53Z",
+  "default_branch": "master",
+  "source_queries": [
+   "jekyll filename:Gemfile.lock"
+  ]
+ },
+ {
+  "repo": "bracke/bracke",
+  "bucket": "J",
+  "status": "rejected",
+  "reason": "inactive_pushed_before_2024-09-25",
+  "stars": 1,
+  "pushed_at": "2024-05-14T17:50:27Z",
+  "default_branch": "gh-pages",
+  "source_queries": [
+   "jekyll filename:Gemfile.lock"
+  ]
+ },
+ {
+  "repo": "Krr0vt/semantiquement_votre",
+  "bucket": "J",
+  "status": "rejected",
+  "reason": "readme_keyword:theme",
+  "stars": 0,
+  "pushed_at": "2025-03-21T10:04:17Z",
+  "default_branch": "main",
+  "lockfile": "Gemfile.lock",
+  "source_queries": [
+   "jekyll filename:Gemfile.lock"
+  ]
+ },
+ {
+  "repo": "pmanvi/pmanvi.github.io",
+  "bucket": "J",
+  "status": "kept",
+  "reason": null,
+  "stars": 0,
+  "pushed_at": "2024-11-11T14:40:00Z",
+  "default_branch": "main",
+  "lockfile": "Gemfile.lock",
+  "head_sha": "7860db6f500aaa2bd85774450e041233fc967c88",
+  "site_evidence": "description=''; topics=[]; stars=0; pushed=2024-11-11; lockfile=Gemfile.lock committed; no starter/theme/demo/docs keywords in name/description/readme",
+  "source_queries": [
+   "jekyll filename:Gemfile.lock"
+  ]
+ },
+ {
+  "repo": "graimon/graimon.github.io",
+  "bucket": "J",
+  "status": "rejected",
+  "reason": "readme_keyword:theme",
+  "stars": 0,
+  "pushed_at": "2025-11-25T19:27:04Z",
+  "default_branch": "master",
+  "lockfile": "Gemfile.lock",
+  "source_queries": [
+   "jekyll filename:Gemfile.lock"
+  ]
+ },
+ {
+  "repo": "inbo/edna-workflows",
+  "bucket": "J",
+  "status": "kept",
+  "reason": null,
+  "stars": 0,
+  "pushed_at": "2026-07-02T10:01:21Z",
+  "default_branch": "main",
+  "lockfile": "Gemfile.lock",
+  "head_sha": "7c9109c4b621c479f84094cb40f97b16cfb7e376",
+  "site_evidence": "description='Workflows for storing and publishing (e)DNA survey data'; topics=['biodiversity', 'biodiversity-informatics', 'edna', 'genetic-diversity', 'genetics', 'open-data', 'pipelines', 'workflows']; stars=0; pushed=2026-07-02; lockfile=Gemfile.lock committed; no starter/theme/demo/docs keywords in name/description/readme",
+  "source_queries": [
+   "jekyll filename:Gemfile.lock"
+  ]
+ },
+ {
+  "repo": "YooHyun-Kim/CLAS",
+  "bucket": "J",
+  "status": "rejected",
+  "reason": "docs_for_tool_readme",
+  "stars": 0,
+  "pushed_at": "2024-11-28T07:34:05Z",
+  "default_branch": "main",
+  "lockfile": "Gemfile.lock",
+  "source_queries": [
+   "jekyll filename:Gemfile.lock"
+  ]
+ },
+ {
+  "repo": "ogirginc/ogirginc.github.io",
+  "bucket": "J",
+  "status": "rejected",
+  "reason": "inactive_pushed_before_2024-09-25",
+  "stars": 1,
+  "pushed_at": "2024-08-01T23:40:23Z",
+  "default_branch": "main",
+  "source_queries": [
+   "jekyll filename:Gemfile.lock"
+  ]
+ },
+ {
+  "repo": "phillipian/blueprint-2019",
+  "bucket": "J",
+  "status": "rejected",
+  "reason": "inactive_pushed_before_2024-09-25",
+  "stars": 0,
+  "pushed_at": "2022-10-06T07:51:21Z",
+  "default_branch": "master",
+  "source_queries": [
+   "jekyll filename:Gemfile.lock"
+  ]
+ },
+ {
+  "repo": "hurricane-response/response-hub",
+  "bucket": "J",
+  "status": "rejected",
+  "reason": "inactive_pushed_before_2024-09-25",
+  "stars": 0,
+  "pushed_at": "2022-12-04T02:42:37Z",
+  "default_branch": "master",
+  "source_queries": [
+   "jekyll filename:Gemfile.lock"
+  ]
+ },
+ {
+  "repo": "EcoRewards/ecorewards.co.uk",
+  "bucket": "J",
+  "status": "kept",
+  "reason": null,
+  "stars": 0,
+  "pushed_at": "2026-08-24T15:22:41Z",
+  "default_branch": "master",
+  "lockfile": "Gemfile.lock",
+  "head_sha": "18c984a0b013b69e87d08c07cb27d3146afab6f0",
+  "site_evidence": "description=''; topics=[]; stars=0; pushed=2026-08-24; lockfile=Gemfile.lock committed; no starter/theme/demo/docs keywords in name/description/readme",
+  "source_queries": [
+   "jekyll filename:Gemfile.lock"
+  ]
+ },
+ {
+  "repo": "brianhonohan/brianhonohan.github.io",
+  "bucket": "J",
+  "status": "kept",
+  "reason": null,
+  "stars": 0,
+  "pushed_at": "2026-06-24T00:45:10Z",
+  "default_branch": "main",
+  "lockfile": "Gemfile.lock",
+  "head_sha": "0f9f14a3ad8f41ae0b9fd4df5b10707871264f5e",
+  "site_evidence": "description='Personal site of Brian Honohan, a Philadelphia based software/data engineer.'; topics=[]; stars=0; pushed=2026-06-24; lockfile=Gemfile.lock committed; no starter/theme/demo/docs keywords in name/description/readme",
+  "source_queries": [
+   "jekyll filename:Gemfile.lock"
+  ]
+ },
+ {
+  "repo": "colleowino/colleowino.github.io",
+  "bucket": "J",
+  "status": "kept",
+  "reason": null,
+  "stars": 1,
+  "pushed_at": "2025-05-20T07:32:43Z",
+  "default_branch": "master",
+  "lockfile": "Gemfile.lock",
+  "head_sha": "26382ae6e52fd965db69f819a4c7bbc87ea3e46a",
+  "site_evidence": "description='My blog :)'; topics=['gh-pages', 'jekyll', 'personal-website']; stars=1; pushed=2025-05-20; lockfile=Gemfile.lock committed; no starter/theme/demo/docs keywords in name/description/readme",
+  "source_queries": [
+   "jekyll filename:Gemfile.lock"
+  ]
+ },
+ {
+  "repo": "HackaSoton/hackasoton.com",
+  "bucket": "J",
+  "status": "kept",
+  "reason": null,
+  "stars": 0,
+  "pushed_at": "2026-06-23T15:59:16Z",
+  "default_branch": "master",
+  "lockfile": "Gemfile.lock",
+  "head_sha": "30c2bac6cea47664053c6298a77da69b86d3599d",
+  "site_evidence": "description='The official website'; topics=[]; stars=0; pushed=2026-06-23; lockfile=Gemfile.lock committed; no starter/theme/demo/docs keywords in name/description/readme",
+  "source_queries": [
+   "jekyll filename:Gemfile.lock"
+  ]
+ },
+ {
+  "repo": "jmassardo/github-training",
+  "bucket": "J",
+  "status": "rejected",
+  "reason": "readme_keyword:theme",
+  "stars": 1,
+  "pushed_at": "2026-05-08T18:24:39Z",
+  "default_branch": "main",
+  "lockfile": "Gemfile.lock",
+  "source_queries": [
+   "jekyll filename:Gemfile.lock"
+  ]
+ },
+ {
+  "repo": "L-Lamont/l-lamont.github.io",
+  "bucket": "J",
+  "status": "kept",
+  "reason": null,
+  "stars": 0,
+  "pushed_at": "2026-06-04T14:14:38Z",
+  "default_branch": "main",
+  "lockfile": "Gemfile.lock",
+  "head_sha": "206dabb62f87c248fac0aebe9fda384c8dc4f641",
+  "site_evidence": "description=''; topics=[]; stars=0; pushed=2026-06-04; lockfile=Gemfile.lock committed; no starter/theme/demo/docs keywords in name/description/readme",
+  "source_queries": [
+   "jekyll filename:Gemfile.lock"
+  ]
+ },
+ {
+  "repo": "hoangmaihuy/jekyll-blog",
+  "bucket": "J",
+  "status": "rejected",
+  "reason": "inactive_pushed_before_2024-09-25",
+  "stars": 0,
+  "pushed_at": "2016-09-01T17:05:24Z",
+  "default_branch": "gh-pages",
+  "source_queries": [
+   "jekyll filename:Gemfile.lock"
+  ]
+ },
+ {
+  "repo": "pballada/pballada.github.io",
+  "bucket": "J",
+  "status": "kept",
+  "reason": null,
+  "stars": 0,
+  "pushed_at": "2026-07-06T09:09:10Z",
+  "default_branch": "main",
+  "lockfile": "Gemfile.lock",
+  "head_sha": "a6a4efbf014281402d6a05ce1145810f9a9e17d8",
+  "site_evidence": "description=''; topics=[]; stars=0; pushed=2026-07-06; lockfile=Gemfile.lock committed; no starter/theme/demo/docs keywords in name/description/readme",
+  "source_queries": [
+   "jekyll filename:Gemfile.lock"
+  ]
+ },
+ {
+  "repo": "evmckinney9/evmckinney9.github.io",
+  "bucket": "J",
+  "status": "kept",
+  "reason": null,
+  "stars": 0,
+  "pushed_at": "2026-06-01T21:47:01Z",
+  "default_branch": "main",
+  "lockfile": "Gemfile.lock",
+  "head_sha": "6f4678e291eb7328e2f710c07ed90b12609c012e",
+  "site_evidence": "description='personal github pages site'; topics=['github-pages', 'jekyll', 'portfolio-website']; stars=0; pushed=2026-06-01; lockfile=Gemfile.lock committed; no starter/theme/demo/docs keywords in name/description/readme",
+  "source_queries": [
+   "jekyll filename:Gemfile.lock"
+  ]
+ },
+ {
+  "repo": "eric551130/MusicDemo",
+  "bucket": "J",
+  "status": "rejected",
+  "reason": "demo_site: matched /demo-in-name/",
+  "stars": 0,
+  "pushed_at": "2025-01-22T12:54:33Z",
+  "default_branch": "main",
+  "lockfile": "Gemfile.lock",
+  "source_queries": [
+   "jekyll filename:Gemfile.lock"
+  ]
+ },
+ {
+  "repo": "Bay-Area-Programming-Contest/BAPC_Website",
+  "bucket": "J",
+  "status": "kept",
+  "reason": null,
+  "stars": 1,
+  "pushed_at": "2026-09-13T22:09:28Z",
+  "default_branch": "main",
+  "lockfile": "Gemfile.lock",
+  "head_sha": "9538ea1dcb13e23f203619e194308d5fd94667fd",
+  "site_evidence": "description='Website for the Bay Area Programming Contest'; topics=['competitive-programming-contests']; stars=1; pushed=2026-09-13; lockfile=Gemfile.lock committed; no starter/theme/demo/docs keywords in name/description/readme",
+  "source_queries": [
+   "jekyll filename:Gemfile.lock"
+  ]
+ },
+ {
+  "repo": "cameroncowden/passwordman",
+  "bucket": "J",
+  "status": "rejected",
+  "reason": "inactive_pushed_before_2024-09-25",
+  "stars": 1,
+  "pushed_at": "2021-02-23T22:36:10Z",
+  "default_branch": "master",
+  "source_queries": [
+   "jekyll filename:Gemfile.lock"
+  ]
+ },
+ {
+  "repo": "DanCoughlin/DanCoughlin.github.io",
+  "bucket": "J",
+  "status": "rejected",
+  "reason": "inactive_pushed_before_2024-09-25",
+  "stars": 0,
+  "pushed_at": "2014-12-03T19:36:46Z",
+  "default_branch": "master",
+  "source_queries": [
+   "jekyll filename:Gemfile.lock"
+  ]
+ },
+ {
+  "repo": "khalidmihlar/khalidmihlar.github.io",
+  "bucket": "J",
+  "status": "rejected",
+  "reason": "readme_keyword:template",
+  "stars": 0,
+  "pushed_at": "2026-08-11T08:17:31Z",
+  "default_branch": "master",
+  "lockfile": "Gemfile.lock",
+  "source_queries": [
+   "jekyll filename:Gemfile.lock"
+  ]
+ },
+ {
+  "repo": "gwDistSys2021/gwDistSys2021",
+  "bucket": "J",
+  "status": "rejected",
+  "reason": "inactive_pushed_before_2024-09-25",
+  "stars": 1,
+  "pushed_at": "2021-12-20T02:13:37Z",
+  "default_branch": "main",
+  "source_queries": [
+   "jekyll filename:Gemfile.lock"
+  ]
+ },
+ {
+  "repo": "siyu-lin/FPM_INR_Page",
+  "bucket": "J",
+  "status": "rejected",
+  "reason": "inactive_pushed_before_2024-09-25",
+  "stars": 0,
+  "pushed_at": "2023-10-24T01:12:53Z",
+  "default_branch": "main",
+  "source_queries": [
+   "jekyll filename:Gemfile.lock"
+  ]
+ },
+ {
+  "repo": "Mato-Park/Mato-Park.github.io",
+  "bucket": "J",
+  "status": "rejected",
+  "reason": "inactive_pushed_before_2024-09-25",
+  "stars": 0,
+  "pushed_at": "2024-03-11T13:19:02Z",
+  "default_branch": "main",
+  "source_queries": [
+   "jekyll filename:Gemfile.lock"
+  ]
+ },
+ {
+  "repo": "scott2b/codeandcircuits",
+  "bucket": "J",
+  "status": "rejected",
+  "reason": "no_committed_lockfile",
+  "stars": 0,
+  "pushed_at": "2026-06-03T21:26:03Z",
+  "default_branch": "main",
+  "lockfile": null,
+  "source_queries": [
+   "jekyll filename:Gemfile.lock"
+  ]
+ },
+ {
+  "repo": "rfcx-espol/rfcx-espol-server",
+  "bucket": "J",
+  "status": "rejected",
+  "reason": "inactive_pushed_before_2024-09-25",
+  "stars": 0,
+  "pushed_at": "2022-12-08T00:56:40Z",
+  "default_branch": "master",
+  "source_queries": [
+   "jekyll filename:Gemfile.lock"
+  ]
+ },
+ {
+  "repo": "guiireal/adminlte3-scaffold-laravel-livewire",
+  "bucket": "J",
+  "status": "rejected",
+  "reason": "inactive_pushed_before_2024-09-25",
+  "stars": 0,
+  "pushed_at": "2023-09-24T20:37:09Z",
+  "default_branch": "main",
+  "source_queries": [
+   "jekyll filename:Gemfile.lock"
+  ]
+ },
+ {
+  "repo": "amymurlowski/amymurlowski.github.io",
+  "bucket": "J",
+  "status": "kept",
+  "reason": null,
+  "stars": 0,
+  "pushed_at": "2026-03-28T04:22:18Z",
+  "default_branch": "main",
+  "lockfile": "Gemfile.lock",
+  "head_sha": "0f8ec1187f03ff663165c9165aafaaa86a1571f6",
+  "site_evidence": "description=''; topics=[]; stars=0; pushed=2026-03-28; lockfile=Gemfile.lock committed; no starter/theme/demo/docs keywords in name/description/readme",
+  "source_queries": [
+   "jekyll filename:Gemfile.lock"
+  ]
+ },
+ {
+  "repo": "Amirali-Khamseh/LocationBasedDisountApp",
+  "bucket": "J",
+  "status": "rejected",
+  "reason": "inactive_pushed_before_2024-09-25",
+  "stars": 1,
+  "pushed_at": "2023-07-03T10:30:19Z",
+  "default_branch": "main",
+  "source_queries": [
+   "jekyll filename:Gemfile.lock"
+  ]
+ },
+ {
+  "repo": "Seva41/Seva41.github.io",
+  "bucket": "J",
+  "status": "kept",
+  "reason": null,
+  "stars": 0,
+  "pushed_at": "2026-09-24T22:52:45Z",
+  "default_branch": "main",
+  "lockfile": "Gemfile.lock",
+  "head_sha": "c4a5ac52387859873fbdde8343e32672987fb0b0",
+  "site_evidence": "description='Personal presentation webpage'; topics=[]; stars=0; pushed=2026-09-24; lockfile=Gemfile.lock committed; no starter/theme/demo/docs keywords in name/description/readme",
+  "source_queries": [
+   "jekyll filename:Gemfile.lock"
+  ]
+ },
+ {
+  "repo": "nkalupahana/baseline-landing",
+  "bucket": "J",
+  "status": "kept",
+  "reason": null,
+  "stars": 1,
+  "pushed_at": "2025-04-22T04:13:14Z",
+  "default_branch": "main",
+  "lockfile": "Gemfile.lock",
+  "head_sha": "47abaf21818ef5a9952a38b37798d5b3654519f7",
+  "site_evidence": "description='Landing page for baseline, a better journaling app.'; topics=[]; stars=1; pushed=2025-04-22; lockfile=Gemfile.lock committed; no starter/theme/demo/docs keywords in name/description/readme",
+  "source_queries": [
+   "jekyll filename:Gemfile.lock"
+  ]
+ },
+ {
+  "repo": "sweeden-ttu/spring-2026",
+  "bucket": "J",
+  "status": "kept",
+  "reason": null,
+  "stars": 0,
+  "pushed_at": "2026-02-25T22:36:06Z",
+  "default_branch": "main",
+  "lockfile": "Gemfile.lock",
+  "head_sha": "a9d0e7349770d3630c7d61283ea48625ae918ae4",
+  "site_evidence": "description='Cryptography and Software Validation'; topics=[]; stars=0; pushed=2026-02-25; lockfile=Gemfile.lock committed; no starter/theme/demo/docs keywords in name/description/readme",
+  "source_queries": [
+   "jekyll filename:Gemfile.lock"
+  ]
+ },
+ {
+  "repo": "akshatamohanty/akshatamohanty.github.io",
+  "bucket": "J",
+  "status": "kept",
+  "reason": null,
+  "stars": 2,
+  "pushed_at": "2026-04-12T19:17:01Z",
+  "default_branch": "dev",
+  "lockfile": "Gemfile.lock",
+  "head_sha": "7769383504a060bdd4c754630e65405772f47cae",
+  "site_evidence": "description='Collection of articles, ideas and code-snippets.'; topics=['blog', 'jekyll']; stars=2; pushed=2026-04-12; lockfile=Gemfile.lock committed; no starter/theme/demo/docs keywords in name/description/readme",
+  "source_queries": [
+   "jekyll filename:Gemfile.lock"
+  ]
+ },
+ {
+  "repo": "swift-berlin/swift-berlin.github.io",
+  "bucket": "J",
+  "status": "rejected",
+  "reason": "inactive_pushed_before_2024-09-25",
+  "stars": 12,
+  "pushed_at": "2017-06-12T16:11:48Z",
+  "default_branch": "master",
+  "source_queries": [
+   "jekyll filename:Gemfile.lock"
+  ]
+ },
+ {
+  "repo": "deccanrubyconf/deccanrubyconf.github.io",
+  "bucket": "J",
+  "status": "rejected",
+  "reason": "inactive_pushed_before_2024-09-25",
+  "stars": 2,
+  "pushed_at": "2023-04-12T05:41:34Z",
+  "default_branch": "master",
+  "source_queries": [
+   "jekyll filename:Gemfile.lock"
+  ]
+ },
+ {
+  "repo": "LexLadiesCode/LexLadiesCode.github.io",
+  "bucket": "J",
+  "status": "rejected",
+  "reason": "inactive_pushed_before_2024-09-25",
+  "stars": 2,
+  "pushed_at": "2018-02-06T00:40:32Z",
+  "default_branch": "master",
+  "source_queries": [
+   "jekyll filename:Gemfile.lock"
+  ]
+ },
+ {
+  "repo": "foroyskt/umset",
+  "bucket": "J",
+  "status": "rejected",
+  "reason": "inactive_pushed_before_2024-09-25",
+  "stars": 3,
+  "pushed_at": "2023-03-21T19:18:58Z",
+  "default_branch": "main",
+  "source_queries": [
+   "jekyll filename:Gemfile.lock"
+  ]
+ },
+ {
+  "repo": "ludwigwinkler/ludwigwinkler.github.io",
+  "bucket": "J",
+  "status": "rejected",
+  "reason": "readme_keyword:theme",
+  "stars": 1,
+  "pushed_at": "2026-09-15T07:41:39Z",
+  "default_branch": "master",
+  "lockfile": "Gemfile.lock",
+  "source_queries": [
+   "jekyll filename:Gemfile.lock"
+  ]
+ },
+ {
+  "repo": "robotix/2017.robotix.in",
+  "bucket": "J",
+  "status": "rejected",
+  "reason": "inactive_pushed_before_2024-09-25",
+  "stars": 0,
+  "pushed_at": "2017-10-15T11:15:10Z",
+  "default_branch": "gh-pages",
+  "source_queries": [
+   "jekyll filename:Gemfile.lock"
+  ]
+ },
+ {
+  "repo": "guyogev/guyogev.github.io",
+  "bucket": "J",
+  "status": "kept",
+  "reason": null,
+  "stars": 1,
+  "pushed_at": "2026-03-21T19:24:58Z",
+  "default_branch": "master",
+  "lockfile": "Gemfile.lock",
+  "head_sha": "b31cb68fab7329f7be3440825382142b2fb3bb07",
+  "site_evidence": "description=''; topics=[]; stars=1; pushed=2026-03-21; lockfile=Gemfile.lock committed; no starter/theme/demo/docs keywords in name/description/readme",
+  "source_queries": [
+   "jekyll filename:Gemfile.lock"
+  ]
+ },
+ {
+  "repo": "base-cms/base-cms",
+  "bucket": "J",
+  "status": "rejected",
+  "reason": "inactive_pushed_before_2024-09-25",
+  "stars": 6,
+  "pushed_at": "2022-12-10T06:12:14Z",
+  "default_branch": "master",
+  "source_queries": [
+   "jekyll filename:Gemfile.lock"
+  ]
+ },
+ {
+  "repo": "Cedrus32/Personal_Site",
+  "bucket": "J",
+  "status": "kept",
+  "reason": null,
+  "stars": 0,
+  "pushed_at": "2025-10-30T10:35:32Z",
+  "default_branch": "main",
+  "lockfile": "Gemfile.lock",
+  "head_sha": "787df87192f82ff1aeb006d77a21bd90b37aba93",
+  "site_evidence": "description=''; topics=[]; stars=0; pushed=2025-10-30; lockfile=Gemfile.lock committed; no starter/theme/demo/docs keywords in name/description/readme",
+  "source_queries": [
+   "jekyll filename:Gemfile.lock"
+  ]
+ },
+ {
+  "repo": "buzzni/buzzni.github.com",
+  "bucket": "J",
+  "status": "rejected",
+  "reason": "inactive_pushed_before_2024-09-25",
+  "stars": 0,
+  "pushed_at": "2023-01-19T03:25:47Z",
+  "default_branch": "master",
+  "source_queries": [
+   "jekyll filename:Gemfile.lock"
+  ]
+ },
+ {
+  "repo": "Dyldog/dyldog.github.io",
+  "bucket": "J",
+  "status": "kept",
+  "reason": null,
+  "stars": 0,
+  "pushed_at": "2026-04-23T13:25:52Z",
+  "default_branch": "master",
+  "lockfile": "Gemfile.lock",
+  "head_sha": "43fcb1abba8dd6a97eea3269a0b3e5760bbd9192",
+  "site_evidence": "description=''; topics=[]; stars=0; pushed=2026-04-23; lockfile=Gemfile.lock committed; no starter/theme/demo/docs keywords in name/description/readme",
+  "source_queries": [
+   "jekyll filename:Gemfile.lock"
+  ]
+ },
+ {
+  "repo": "CARLresearch/blog",
+  "bucket": "J",
+  "status": "rejected",
+  "reason": "inactive_pushed_before_2024-09-25",
+  "stars": 0,
+  "pushed_at": "2023-04-12T06:02:13Z",
+  "default_branch": "master",
+  "source_queries": [
+   "jekyll filename:Gemfile.lock"
+  ]
+ },
+ {
+  "repo": "TirelessWake/crosswards-main",
+  "bucket": "J",
+  "status": "rejected",
+  "reason": "inactive_pushed_before_2024-09-25",
+  "stars": 0,
+  "pushed_at": "2016-12-23T18:27:11Z",
+  "default_branch": "master",
+  "source_queries": [
+   "jekyll filename:Gemfile.lock"
+  ]
+ },
+ {
+  "repo": "gurkanakdeniz/rocket-space",
+  "bucket": "J",
+  "status": "rejected",
+  "reason": "inactive_pushed_before_2024-09-25",
+  "stars": 3,
+  "pushed_at": "2020-02-18T19:53:48Z",
+  "default_branch": "master",
+  "source_queries": [
+   "jekyll filename:Gemfile.lock"
+  ]
+ },
+ {
+  "repo": "JamesGardiner/jamesgardiner.github.io",
+  "bucket": "J",
+  "status": "rejected",
+  "reason": "inactive_pushed_before_2024-09-25",
+  "stars": 2,
+  "pushed_at": "2017-01-27T20:39:01Z",
+  "default_branch": "master",
+  "source_queries": [
+   "jekyll filename:Gemfile.lock"
+  ]
+ },
+ {
+  "repo": "co-demos/solidata-backend",
+  "bucket": "J",
+  "status": "rejected",
+  "reason": "inactive_pushed_before_2024-09-25",
+  "stars": 4,
+  "pushed_at": "2022-12-08T01:46:56Z",
+  "default_branch": "master",
+  "source_queries": [
+   "jekyll filename:Gemfile.lock"
+  ]
+ },
+ {
+  "repo": "walkah/walkah.net",
+  "bucket": "J",
+  "status": "kept",
+  "reason": null,
+  "stars": 12,
+  "pushed_at": "2026-09-09T22:15:16Z",
+  "default_branch": "main",
+  "lockfile": "Gemfile.lock",
+  "head_sha": "48338fa7952d730cb709874b5123f3f72b923eac",
+  "site_evidence": "description='\u270d\ufe0f My Jekyll-based blog'; topics=[]; stars=12; pushed=2026-09-09; lockfile=Gemfile.lock committed; no starter/theme/demo/docs keywords in name/description/readme",
+  "source_queries": [
+   "jekyll filename:Gemfile.lock"
+  ]
+ },
+ {
+  "repo": "LaEsquinaGo/LaEsquinaGo.github.io",
+  "bucket": "J",
+  "status": "kept",
+  "reason": null,
+  "stars": 3,
+  "pushed_at": "2026-07-05T07:27:14Z",
+  "default_branch": "main",
+  "lockfile": "Gemfile.lock",
+  "head_sha": "224f2136582e29edaa527cadf1ea24416cc07a33",
+  "site_evidence": "description=''; topics=[]; stars=3; pushed=2026-07-05; lockfile=Gemfile.lock committed; no starter/theme/demo/docs keywords in name/description/readme",
+  "source_queries": [
+   "jekyll filename:Gemfile.lock"
+  ]
+ },
+ {
+  "repo": "cacao-org/docs",
+  "bucket": "J",
+  "status": "rejected",
+  "reason": "docs_for_tool",
+  "stars": 0,
+  "pushed_at": "2025-02-22T02:38:48Z",
+  "default_branch": "gh-pages",
+  "source_queries": [
+   "jekyll filename:Gemfile.lock"
+  ]
+ },
+ {
+  "repo": "Smart-Harvesting/website",
+  "bucket": "J",
+  "status": "rejected",
+  "reason": "readme_keyword:theme",
+  "stars": 1,
+  "pushed_at": "2026-06-23T18:44:23Z",
+  "default_branch": "master",
+  "lockfile": "Gemfile.lock",
+  "source_queries": [
+   "jekyll filename:Gemfile.lock"
+  ]
+ },
+ {
+  "repo": "Microwave-MVC/Microwave-MVC.github.io",
+  "bucket": "J",
+  "status": "rejected",
+  "reason": "inactive_pushed_before_2024-09-25",
+  "stars": 1,
+  "pushed_at": "2015-06-11T17:22:02Z",
+  "default_branch": "master",
+  "source_queries": [
+   "jekyll filename:Gemfile.lock"
+  ]
+ },
+ {
+  "repo": "nevvkid/lohbihler.com",
+  "bucket": "J",
+  "status": "rejected",
+  "reason": "inactive_pushed_before_2024-09-25",
+  "stars": 0,
+  "pushed_at": "2023-12-08T11:40:18Z",
+  "default_branch": "master",
+  "source_queries": [
+   "jekyll filename:Gemfile.lock"
+  ]
+ },
+ {
+  "repo": "vesense/vesense.github.io",
+  "bucket": "J",
+  "status": "kept",
+  "reason": null,
+  "stars": 3,
+  "pushed_at": "2026-02-05T02:17:17Z",
+  "default_branch": "master",
+  "lockfile": "Gemfile.lock",
+  "head_sha": "0ecad4bb014fa158ea65e75343ffd9f58b9973a0",
+  "site_evidence": "description=''; topics=[]; stars=3; pushed=2026-02-05; lockfile=Gemfile.lock committed; no starter/theme/demo/docs keywords in name/description/readme",
+  "source_queries": [
+   "jekyll filename:Gemfile.lock"
+  ]
+ },
+ {
+  "repo": "learn-to-compress-workshop-isit/learn-to-compress-workshop-isit.github.io",
+  "bucket": "J",
+  "status": "rejected",
+  "reason": "starter_theme_demo_keyword:workshop",
+  "stars": 0,
+  "pushed_at": "2026-07-03T04:51:37Z",
+  "default_branch": "main",
+  "source_queries": [
+   "jekyll filename:Gemfile.lock"
+  ]
+ },
+ {
+  "repo": "mbdunn/mbdunn.github.io",
+  "bucket": "J",
+  "status": "rejected",
+  "reason": "starter_theme_demo_keyword:template",
+  "stars": 0,
+  "pushed_at": "2025-05-15T07:52:32Z",
+  "default_branch": "master",
+  "source_queries": [
+   "jekyll filename:Gemfile.lock"
+  ]
+ },
+ {
+  "repo": "andreiepure/andreiepure.github.io",
+  "bucket": "J",
+  "status": "kept",
+  "reason": null,
+  "stars": 0,
+  "pushed_at": "2026-09-16T21:59:38Z",
+  "default_branch": "master",
+  "lockfile": "Gemfile.lock",
+  "head_sha": "851041f7198542fdf041a6840eb951585459c8b4",
+  "site_evidence": "description='personal site'; topics=[]; stars=0; pushed=2026-09-16; lockfile=Gemfile.lock committed; no starter/theme/demo/docs keywords in name/description/readme",
+  "source_queries": [
+   "jekyll filename:Gemfile.lock"
+  ]
+ },
+ {
+  "repo": "bloggure/bloggure.github.io",
+  "bucket": "J",
+  "status": "kept",
+  "reason": null,
+  "stars": 0,
+  "pushed_at": "2026-01-27T14:31:46Z",
+  "default_branch": "master",
+  "lockfile": "Gemfile.lock",
+  "head_sha": "c106998091e028c974c619de1dc67efdd50599cc",
+  "site_evidence": "description=''; topics=[]; stars=0; pushed=2026-01-27; lockfile=Gemfile.lock committed; no starter/theme/demo/docs keywords in name/description/readme",
+  "source_queries": [
+   "jekyll filename:Gemfile.lock"
+  ]
+ },
+ {
+  "repo": "samxuxiang/samxuxiang.github.io",
+  "bucket": "J",
+  "status": "rejected",
+  "reason": "readme_keyword:theme",
+  "stars": 1,
+  "pushed_at": "2026-07-16T23:57:00Z",
+  "default_branch": "master",
+  "lockfile": "Gemfile.lock",
+  "source_queries": [
+   "jekyll filename:Gemfile.lock"
+  ]
+ },
+ {
+  "repo": "gatewayautox/gatewayautox.github.io",
+  "bucket": "J",
+  "status": "kept",
+  "reason": null,
+  "stars": 0,
+  "pushed_at": "2024-11-15T15:38:44Z",
+  "default_branch": "dev",
+  "lockfile": "Gemfile.lock",
+  "head_sha": "f8880c96dac7a93e983b6dea85b4405ae12d3716",
+  "site_evidence": "description=''; topics=[]; stars=0; pushed=2024-11-15; lockfile=Gemfile.lock committed; no starter/theme/demo/docs keywords in name/description/readme",
+  "source_queries": [
+   "jekyll filename:Gemfile.lock"
+  ]
+ },
+ {
+  "repo": "skherra/samettof.org",
+  "bucket": "J",
+  "status": "kept",
+  "reason": null,
+  "stars": 0,
+  "pushed_at": "2026-09-22T19:16:47Z",
+  "default_branch": "master",
+  "lockfile": "Gemfile.lock",
+  "head_sha": "58691bdf6f39afcfadd9241857540899a139d926",
+  "site_evidence": "description=''; topics=[]; stars=0; pushed=2026-09-22; lockfile=Gemfile.lock committed; no starter/theme/demo/docs keywords in name/description/readme",
+  "source_queries": [
+   "jekyll filename:Gemfile.lock"
+  ]
+ }
+]
