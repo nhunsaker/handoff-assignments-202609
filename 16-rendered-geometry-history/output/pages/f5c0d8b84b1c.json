@@ -1,0 +1,189 @@
+{
+ "sha": "f5c0d8b84b1c28cacbe3b3f72e9a18cd1b770bea",
+ "sha12": "f5c0d8b84b1c",
+ "commit_index": 87,
+ "previous_built_sha": "83e0c1c7b50032166c8394d2f15e5db4cec2fdb4",
+ "note": "page set decided from 11-manifests-normalized body hashes; actual render uses this repo build output",
+ "pages": [
+  {
+   "page": "blog/index.html",
+   "reason": "list_page_always_rendered"
+  },
+  {
+   "page": "blog/year/2011.html",
+   "reason": "list_page_always_rendered"
+  },
+  {
+   "page": "blog/year/2012.html",
+   "reason": "list_page_always_rendered"
+  },
+  {
+   "page": "blog/year/2013.html",
+   "reason": "list_page_always_rendered"
+  },
+  {
+   "page": "blog/year/2014.html",
+   "reason": "list_page_always_rendered"
+  },
+  {
+   "page": "blog/year/2015.html",
+   "reason": "list_page_always_rendered"
+  },
+  {
+   "page": "blog/year/2016.html",
+   "reason": "list_page_always_rendered"
+  },
+  {
+   "page": "blog/year/2017.html",
+   "reason": "list_page_always_rendered"
+  },
+  {
+   "page": "blog/year/2018.html",
+   "reason": "list_page_always_rendered"
+  },
+  {
+   "page": "blog/year/2019.html",
+   "reason": "list_page_always_rendered"
+  },
+  {
+   "page": "blog/year/2020.html",
+   "reason": "list_page_always_rendered"
+  },
+  {
+   "page": "blog/year/2021.html",
+   "reason": "list_page_always_rendered"
+  },
+  {
+   "page": "blog/year/2022.html",
+   "reason": "list_page_always_rendered"
+  },
+  {
+   "page": "blog/year/2023.html",
+   "reason": "list_page_always_rendered"
+  },
+  {
+   "page": "blog/year/2024.html",
+   "reason": "list_page_always_rendered"
+  },
+  {
+   "page": "blog/year/2025.html",
+   "reason": "list_page_always_rendered"
+  },
+  {
+   "page": "blog/year/2026.html",
+   "reason": "list_page_always_rendered"
+  },
+  {
+   "page": "blog/year/2035.html",
+   "reason": "list_page_always_rendered"
+  },
+  {
+   "page": "category/accessibility.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "category/apple.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "category/approach.html",
+   "reason": "list_page_always_rendered"
+  },
+  {
+   "page": "category/brand.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "category/business.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "category/case-study.html",
+   "reason": "list_page_always_rendered"
+  },
+  {
+   "page": "category/content.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "category/css.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "category/design.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "category/development.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "category/email.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "category/git.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "category/html.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "category/javascript.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "category/markdown.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "category/marketing.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "category/meta-data.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "category/performance.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "category/search.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "category/security.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "category/serverless.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "category/service.html",
+   "reason": "list_page_always_rendered"
+  },
+  {
+   "page": "category/skill.html",
+   "reason": "list_page_always_rendered"
+  },
+  {
+   "page": "category/tools.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "category/website-admin.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "category/workflows.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "index.html",
+   "reason": "list_page_always_rendered"
+  }
+ ]
+}

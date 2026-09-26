@@ -1,0 +1,481 @@
+{
+ "sha": "d6f65bed37d9de5eacbfadd741c0f1bd5fb0a4ec",
+ "sha12": "d6f65bed37d9",
+ "commit_index": 73,
+ "previous_built_sha": "8716401dc5cfcda8d5dfd73264070093398ad7a2",
+ "note": "page set decided from 11-manifests-normalized body hashes; actual render uses this repo build output",
+ "pages": [
+  {
+   "page": "404.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "about.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "accessibility-statement.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "approaches/consultancy.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "approaches/contracting.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "approaches/index.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "approaches/projects.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "blog/index.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "blog/page/10.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "blog/page/11.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "blog/page/12.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "blog/page/13.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "blog/page/14.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "blog/page/15.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "blog/page/16.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "blog/page/17.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "blog/page/18.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "blog/page/19.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "blog/page/2.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "blog/page/20.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "blog/page/21.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "blog/page/22.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "blog/page/23.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "blog/page/24.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "blog/page/25.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "blog/page/26.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "blog/page/27.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "blog/page/28.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "blog/page/29.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "blog/page/3.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "blog/page/30.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "blog/page/4.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "blog/page/5.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "blog/page/6.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "blog/page/7.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "blog/page/8.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "blog/page/9.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "blog/year/2011.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "blog/year/2012.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "blog/year/2013.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "blog/year/2014.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "blog/year/2015.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "blog/year/2016.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "blog/year/2017.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "blog/year/2018.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "blog/year/2019.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "blog/year/2020.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "blog/year/2021.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "blog/year/2022.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "blog/year/2023.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "blog/year/2024.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "blog/year/2025.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "blog/year/2026.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "blog/years.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "categories.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "category/accessibility.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "category/apple.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "category/approach.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "category/brand.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "category/business.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "category/case-study.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "category/content.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "category/css.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "category/design.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "category/development.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "category/email.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "category/git.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "category/html.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "category/javascript.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "category/markdown.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "category/marketing.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "category/meta-data.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "category/performance.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "category/search.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "category/security.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "category/serverless.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "category/service.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "category/skill.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "category/tools.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "category/website-admin.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "category/workflows.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "colophon.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "contact.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "cv.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "index.html",
+   "reason": "list_page_always_rendered"
+  },
+  {
+   "page": "keep-in-touch.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "newsletter/archive.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "newsletter/confirm-email.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "newsletter/index.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "newsletter/subscribed.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "newsletter/unsubscribe.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "now.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "portfolio/index.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "privacy-policy.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "resources/index.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "resources/page/2.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "resources/page/3.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "resources/page/4.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "resources/page/5.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "resources/page/6.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "resources/page/7.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "search.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "services/audits.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "services/coaching.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "services/culture.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "services/design-systems.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "services/index.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "services/strategy.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "services/talks.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "services/training.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "services/websites.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "skills/accessibility.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "skills/frontend-development.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "skills/index.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "skills/user-experience-design.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "terms.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "testimonials/index.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "user-manual.html",
+   "reason": "body_hash_changed"
+  }
+ ]
+}
