@@ -1,11 +1,14 @@
 # Assignment 15 — PROGRESS
 
-- status: in_progress
-- phase: 2/2 complete (analysis done; pushing)
-- elapsed_hours: 2.0
+- status: complete (pushed; awaiting review)
+- phase: 2/2 complete
+- elapsed_hours: 2.2
 - files_written: output/{environment,pages,summary,manifest}.json, boxes/ (550), results/ (50)
-- last_check_in: 2026-09-26T16:20:00Z
-- blockers: PARALLEL-WORKER COLLISION (see log 16:05Z) — second agent active in same folders until ~15:45Z, now quiet 35+ min; parent arbitration needed
+- last_check_in: 2026-09-26T16:50:00Z
+- remote_head: 4d3831692b6a8b332f67878824e43aab43478670 (verified via git ls-remote)
+- blockers: none for this assignment; PARALLEL-WORKER COLLISION (log 16:05Z)
+  noted for parent arbitration — second agent quiet since ~15:45Z, its batch1
+  clone loop died; its invalid boxes/PROGRESS edits were fully remediated.
 
 ## Log
 - 2026-09-26T15:30:00Z: started. Read ASSIGNMENT.md in full. Remote main at
@@ -32,8 +35,6 @@
   file:// URLs (localhost blocked by Chromium Local Network Access checks in
   sandbox); C1 aborted 6 font requests on tempertemper blog index, C5 aborted
   7; C2/C4 blocked 0 there (no images / no third-party requests on that page).
-  output/environment.json written (geometry schema, conditions, site commits).
-  Two subagents running: 40-page selection for the three sites; 08-probe-list
   third-party embed source search (17 repos).
 - 2026-09-26T15:45Z: page-selection subagent done but raced the alexcarpenter
   rebuild (read the pre-fix log, reported build failed; the fixed rebuild had
@@ -42,6 +43,17 @@
   written (40 pages, kinds, titles, embed findings; efcl/alexcarpenter lack
   year archives — documented). Waiting on the 08-probe embed search for the
   10 third-party pages.
+- 2026-09-26T16:20Z: embed search complete (17/17 repos, raw matches in
+  a15-work/embed-scan/). Notable embeds: ChrisTitusTech youtube-nocookie +
+  utterances; EllyLoel codepen + lite-youtube; JanWilczek gist + emgithub;
+  benbalter youtube facade; bobmonsour tweet + lite-youtube + fathom;
+  cubxxw utterances; elsbrock openstreetmap tiles (spa, not renderable);
+  godruoyi giscus (package-lock only); nemanjam youtube (old code docs only);
+  yunyuyuan giscus + youtube markdown; madrilene codepen shortcode;
+  beeps.website youtube-nocookie shortcode (used in 11+ posts).
+  Zero-embed repos: hnpf/stabbed.wtf, rimzzlabs/website, whoisyurii/checkmygit.
+  Decision: build beeps.website (capturable 8/8 in assignment 09, node 22.9)
+  and take all 10 third-party pages from it (youtube embeds); build running.
 - 2026-09-26T16:05Z (second worker): PARALLEL-WORKER COLLISION. A second agent
   is concurrently executing this same assignment in the same folders
   (~/workspace/a15-work and 15-external-resource-layout/output). Evidence:
@@ -76,3 +88,9 @@
   requests but differing elements). C4 truly affected 0 pages by third-party
   blocking (the 3 nominal are race artifacts); efcl-home's googletagmanager
   block caused no layout change. manifest.json written (604 files, 9.3MB).
+- 2026-09-26T16:50Z: Pushed output/ (604 files) + PROGRESS.md in 8 chunked
+  Git Database API commits (<=80 files each), each based on current remote
+  ref. Remote HEAD verified via git ls-remote:
+  4d3831692b6a8b332f67878824e43aab43478670. Remote
+  15-external-resource-layout/REVIEW.md does not exist yet (404) — no
+  corrections to address. Assignment 15 complete.
