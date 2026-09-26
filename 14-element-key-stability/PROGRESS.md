@@ -39,3 +39,13 @@
   builds (same commit, same toolchain, different order). 9/300 events are on
   gear pages. Events kept with QA flags; stability/false-match remain valid
   (ground truth from rebuilt pages).
+- 2026-09-26T13:15:00Z: CRITICAL CORRECTION — re-read ASSIGNMENT.md and found
+  two spec deviations: (1) K1 is the nth-of-type CSS path (not outerHTML);
+  outerHTML is only the ground-truth matching rule. Fixed: K1 stability for
+  inside_group_after_position now 0.0 as the spec predicts ("near zero by
+  construction"). (2) Relation buckets are the spec's four:
+  inside_group_before_position / inside_group_after_position /
+  outside_group_descendant_of_container / outside_group_elsewhere (not
+  in/above/below/outside_group). Fixed keys.py, keys.json,
+  recompute_summary.py. Deleted 7 incorrect result files; measurement
+  workers restarted (4 shards polling).
