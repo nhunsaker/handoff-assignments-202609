@@ -1,0 +1,41 @@
+{
+ "actual_b3_locale": {
+  "LANG": "de_DE.UTF-8",
+  "LC_ALL_unset": "LANG only; LC_* unset",
+  "LC_ALL_verification": "2026-09-25: TZ=Pacific/Auckland LC_ALL=de_DE.UTF-8 LOCPATH=/home/hatch/.locales locale -> all LC_* = de_DE.UTF-8, charmap UTF-8. b3 builds used LANG=de_DE.UTF-8 (LC_ALL unset), LOCPATH=/home/hatch/.locales, TZ=Pacific/Auckland.",
+  "LC_MESSAGES": "de_DE.UTF-8",
+  "LC_NUMERIC": "de_DE.UTF-8",
+  "LC_TIME": "de_DE.UTF-8",
+  "LOCPATH": "/home/hatch/.locales",
+  "TZ": "Pacific/Auckland",
+  "locale_source": "localedef -i de_DE -f UTF-8 ~/.locales/de_DE.UTF-8 (locale -a does not list it, but the locale definition files exist and the locale is functional: `locale` reports de_DE.UTF-8 and Node renders German timezone names)",
+  "verification": "TZ=Pacific/Auckland date -> 'Sa 26. Sep 00:35:49 NZST 2026'; node new Date().toString() -> 'Sat Sep 26 2026 00:35:51 GMT+1200 (Neuseeland-Normalzeit)'"
+ },
+ "commit_substitutions": "none \u2014 all three assigned commits (c12d97cdbd8e 2025-07-01, 06f96f7861a6 2025-10-22, 2cda2bdda6b7 2025-12-31) built successfully",
+ "incomplete_measurements": [
+  "c12d97cdbd8e b2: manifest exists (install=48.8s build=74.8s, 740/740 hashes identical to b1) but dist/ was not retained (predates driver retention); not re-run.",
+  "06f96f7861a6 b4: build succeeded and dist/ retained (128.2s, 1269 files, byte-identical to b1), but install_seconds is null \u2014 the driver process was killed by the runtime after npm ci completed; the build was rerun manually. Not re-run through the driver.",
+  "2cda2bdda6b7 b1: build succeeded and dist/ retained (242.0s, 1262 files), but install_seconds is null \u2014 the driver process was killed by the runtime during the build after npm install; the build was rerun manually in the same worktree. Not re-run through the driver.",
+  "2cda2bdda6b7 b3: install took 1160.2s (19.3 min) due to heavy machine contention during npm ci; build 499.2s. Succeeded."
+ ],
+ "output_dir_note": "Brief said output dir _site; the Eleventy config (eleventy/returns.js, verified at each commit) sets output: 'dist', and `npm run build` clears and writes dist/. Manifests record output_dir='dist'.",
+ "phase2_findings": {
+  "06f96f7861a6": "b1/b2/b4 byte-identical (1269 files). b3 differs only in humans.txt (locale_timezone).",
+  "2cda2bdda6b7": "Four distinct differences. D-cache-buster (cache_buster_query): ?v=<13-digit epoch ms> in 588 HTML files, all builds differ. D-category-order (nondeterministic_order): category pagination prev/next order differs across all four builds (b1: skill->service->speaking; b2: service->speaking->skill; b3: speaking->skill->service; b4: service->speaking->skill); mechanism is TemplateMap.add() pushing to this.map in async getData() completion order under Promise.all. D-pagefind-hash (content_hash_filename): pagefind index hashes take two values (b1/b4: en_89774e10a2; b2/b3: en_2027d70c77); b4 pagefind is byte-identical to b1. D-humans-date (locale_timezone): b3 only.",
+  "c12d97cdbd8e": "b1/b2/b4 byte-identical (740 files). b3 differs only in humans.txt (locale_timezone)."
+ },
+ "signal_pair": {
+  "after_commit": "5e38769bf98b08d97d6b26cc5b93ada7172ff0f1",
+  "after_date": "2025-07-02",
+  "before_commit": "74056980ec5faad98b72184b8ea5206d776a3179",
+  "before_date": "2025-07-02",
+  "changed_source_files": [
+   "src/site/posts/2025-07-02--hierarchy-in-tables.md"
+  ],
+  "note": "consecutive commits in the assignment-10 probe list; the only file changed between them is the post markdown (pure content change, no config/includes changes)",
+  "selection_method": "git diff --name-only between consecutive commits of the probe list; chose a pair where the only changed file is author-written content"
+ },
+ "sitemap_transient_note": "The first c12d97cdbd8e b4 run recorded a sitemap.xml hash differing from b1 in its manifest, but that dist/ was not retained (predated driver retention) and the rerun b4 was byte-identical including sitemap.xml. Five same-worktree rebuilds and multiple fresh-worktree/fresh-cache rebuilds all produced byte-identical sitemap.xml. A 4-iteration fresh-cache reproduction probe (sm4) was started; only iteration 1 completed (identical) before this note was written. The single differing hash was never reproduced and no verbatim regions were captured; it is NOT included in differences.json per the on-disk quotation rule.",
+ "toolchain_notes": "fnm binary not found on PATH; used the fnm-installed toolchain directly at ~/.fnm/node-versions/v22.14.0/installation/bin (node v22.14.0, bundled npm 10.9.2). Install: `npm ci`. b4 = fresh worktree + `npm ci --cache <scratch>/npm-cache-<sha12>-b4` (empty cache). Each build used a fresh `git worktree`; worktree removed after manifest written and (from the second run of commit 1 onward) a full copy of dist/ retained under scratch/builds/<sha12>/<b>/. b2 started >120s after its b1 started in every case. 45-min cap: no build hit it.",
+ "toolchain_verification_20260925": "Parent requested fnm-flow verification on 2026-09-25. Verified: fnm at /home/hatch/.local/share/fnm/fnm; after PATH export + eval \"$(fnm env)\" + fnm use 22.14.0, node -v = v22.14.0, npm -v = 10.9.2. Driver prepends ~/.fnm/node-versions/v22.14.0/installation/bin to PATH, which IS fnms v22.14.0 installation. Assignment-10 probe used node v22.14.0. CONCLUSION: all builds ran under correct node v22.14.0; no wrong-node builds; no rebuilds required."
+}

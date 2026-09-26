@@ -2700,7 +2700,7 @@
  {
   "repo": "antrea-io/website",
   "bucket": "H",
-  "status": "kept",
+  "status": "rejected",
   "default_branch": "main",
   "head_sha": "f9209bf663935edcab9bdd975aeb3bc64c730724",
   "stars": 6,
@@ -2713,7 +2713,9 @@
   "description": "Source for the antrea.io website",
   "hugo_version_pin": "0.88.1",
   "hugo_pin_quote": "netlify.toml: HUGO_VERSION = \"0.88.1\"",
-  "why_real_content_site": "6244 content files under content/; config.yaml at repo root; 6 stars; pushed 2026-09-24T22:25:43Z; description: Source for the antrea.io website"
+  "why_real_content_site": "6244 content files under content/; config.yaml at repo root; 6 stars; pushed 2026-09-24T22:25:43Z; description: Source for the antrea.io website",
+  "reason": "project website of a Kubernetes networking tool \u2014 documentation for a developer tool",
+  "detail": "moved to intake rejections on 2026-09-26 review correction C2: intake kept it in error; window/probe work already run is retained on disk but excluded from the funnel"
  },
  {
   "repo": "johnhebron/portfolio-hugo",

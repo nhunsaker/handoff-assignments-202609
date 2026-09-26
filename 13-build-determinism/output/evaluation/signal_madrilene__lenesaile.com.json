@@ -9,6 +9,60 @@
  "diff_after": 89,
  "became_identical": 0,
  "flagged_pages": [],
- "signal_lost": false,
- "analysis": "89/89 pages differ before and after; 0 became identical."
+ "signal_lost": true,
+ "analysis": "89/89 pages differ before and after; 0 became identical.",
+ "region_analysis": {
+  "madrilene-time-display": {
+   "matcher": "regex: rule pattern applied to raw file text; match spans paired by document order per page; region normalization = match.expand(replacement)",
+   "files_compared": 89,
+   "regions_matched": 120,
+   "regions_differing_raw": 24,
+   "regions_differing_across_commits": 2,
+   "regions_preserved_but_differing": 22,
+   "unpaired_before": 57,
+   "unpaired_after": 12,
+   "examples": [
+    {
+     "file": "en/blog/a-new-project-from-planning-to-publication/index.html",
+     "before": "ng to publication</h1><p class=\"meta | cluster gutter-xs-s\"><time datetime=\"2020-08-28T00:00:00.000Z\">August 28, 2020 </time><a href=\"/tags/blog\" data-small-button class=\"button\">blog</",
+     "after": "class=\"cluster text-step-min-1\"><div><dt>Published:</dt><dd><time datetime=\"2020-08-28T00:00:00.000Z\">August 28, 2020</time></dd></div><div><dt>Reading time:</dt><dd>1 min.</dd></div><"
+    },
+    {
+     "file": "en/blog/technical-details-about-the-development-of-ineliagestioncom/index.html",
+     "before": "enty:ignore></picture><p class=\"meta | cluster gutter-xs-s\"><time datetime=\"2021-01-11T00:00:00.000Z\">January 11, 2021 </time><a href=\"/tags/notes\" data-small-button class=\"button\">notes",
+     "after": "class=\"cluster text-step-min-1\"><div><dt>Published:</dt><dd><time datetime=\"2021-01-11T00:00:00.000Z\">January 11, 2021</time></dd></div><div><dt>Reading time:</dt><dd>3 min.</dd></div><"
+    }
+   ],
+   "signal_lost": true
+  },
+  "feed-updated": {
+   "matcher": "regex: rule pattern applied to raw file text; match spans paired by document order per page; region normalization = match.expand(replacement)",
+   "files_compared": 0,
+   "regions_matched": 0,
+   "regions_differing_raw": 0,
+   "regions_differing_across_commits": 0,
+   "regions_preserved_but_differing": 0,
+   "unpaired_before": 0,
+   "unpaired_after": 0,
+   "examples": [],
+   "signal_lost": false,
+   "measurability": "not_measurable: no .xml/.opml files are present in either signal-pair build dir on disk (only HTML was retained for the signal builds); the rule could not be exercised"
+  },
+  "sitemap-lastmod": {
+   "matcher": "regex: rule pattern applied to raw file text; match spans paired by document order per page; region normalization = match.expand(replacement)",
+   "files_compared": 0,
+   "regions_matched": 0,
+   "regions_differing_raw": 0,
+   "regions_differing_across_commits": 0,
+   "regions_preserved_but_differing": 0,
+   "unpaired_before": 0,
+   "unpaired_after": 0,
+   "examples": [],
+   "signal_lost": false,
+   "measurability": "not_measurable: no .xml/.opml files are present in either signal-pair build dir on disk (only HTML was retained for the signal builds); the rule could not be exercised"
+  }
+ },
+ "signal_lost_rules": [
+  "madrilene-time-display"
+ ]
 }

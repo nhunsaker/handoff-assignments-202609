@@ -1,7 +1,5 @@
 # Assignment 12: find content sites with index pages, whose history builds reproducibly
 
-**Phase:** P1 · P2 (see the README's phase tags)
-
 Budget **16–24 hours**. The biggest assignment in this repo. Assignment 08 screened 150 repositories and found one
 site that clears every bar (three once the build-time limit was dropped, a fourth in 09). This scan uses everything
 the last five scans learned to find **ten or more**, and adds two filters none of them had.
@@ -139,14 +137,6 @@ output/
                            per bucket; and the corpus_ready + corpus_ready_normalizable list ranked by
                            (median static pages × new-content commits in window)
 ```
-
-## Check-ins and review
-
-This assignment follows the repository's **check-in, self-check and review protocol** (README, "Check-ins,
-self-check and review"): push `output/` at every phase boundary and at least every 2 hours with an updated
-`PROGRESS.md`; before the final commit, append the return manifest and re-derive every `summary.json` number from
-the returned files; after the final commit, watch for `REVIEW.md` with `status: corrections_requested` and address
-every numbered item in a new commit.
 
 ## Rules
 - **Quote config lines.** "It looked static" and "it has a blog" are not evidence.

@@ -26,7 +26,47 @@
      "total": 1
     }
    },
-   "signal_lost": false
+   "signal_lost": false,
+   "b1_b3_evaluation": {
+    "0b799cab": {
+     "identical_before": 1,
+     "identical_after": 1,
+     "total": 1
+    },
+    "3ce6dc31": {
+     "status": "missing_keep"
+    },
+    "3df9004f": {
+     "identical_before": 10,
+     "identical_after": 10,
+     "total": 10
+    },
+    "e5372824": {
+     "identical_before": 1,
+     "identical_after": 1,
+     "total": 1
+    }
+   },
+   "b1_b4_evaluation": {
+    "0b799cab": {
+     "identical_before": 1,
+     "identical_after": 1,
+     "total": 1
+    },
+    "3ce6dc31": {
+     "status": "missing_keep"
+    },
+    "3df9004f": {
+     "identical_before": 10,
+     "identical_after": 10,
+     "total": 10
+    },
+    "e5372824": {
+     "identical_before": 1,
+     "identical_after": 1,
+     "total": 1
+    }
+   }
   },
   "tempertemper__www.tempertemper.net": {
    "repo": "tempertemper/www.tempertemper.net",
@@ -35,10 +75,9 @@
    "differences_count": 4,
    "rules": [
     "cache-buster-q",
-    "category-order-mask",
-    "category-page-num-mask"
+    "category-order-mask"
    ],
-   "rules_count": 3,
+   "rules_count": 2,
    "b1_b2_evaluation": {
     "06f96f78": {
      "identical_before": 547,
@@ -51,7 +90,53 @@
      "total": 592
     }
    },
-   "signal_lost": false
+   "signal_lost": false,
+   "b1_b3_evaluation": {
+    "06f96f78": {
+     "identical_before": 547,
+     "identical_after": 547,
+     "total": 547
+    },
+    "2cda2bdd": {
+     "identical_before": 0,
+     "identical_after": 592,
+     "total": 592
+    },
+    "5e38769b": {
+     "status": "missing_keep"
+    },
+    "74056980": {
+     "status": "missing_keep"
+    },
+    "c12d97cd": {
+     "identical_before": 522,
+     "identical_after": 522,
+     "total": 522
+    }
+   },
+   "b1_b4_evaluation": {
+    "06f96f78": {
+     "identical_before": 547,
+     "identical_after": 547,
+     "total": 547
+    },
+    "2cda2bdd": {
+     "identical_before": 0,
+     "identical_after": 592,
+     "total": 592
+    },
+    "5e38769b": {
+     "status": "missing_keep"
+    },
+    "74056980": {
+     "status": "missing_keep"
+    },
+    "c12d97cd": {
+     "identical_before": 522,
+     "identical_after": 522,
+     "total": 522
+    }
+   }
   },
   "madrilene__lenesaile.com": {
    "repo": "madrilene/lenesaile.com",
@@ -76,7 +161,31 @@
      "total": 89
     }
    },
-   "signal_lost": false
+   "signal_lost": false,
+   "b1_b3_evaluation": {
+    "322bacec": {
+     "identical_before": 75,
+     "identical_after": 89,
+     "total": 89
+    },
+    "5c24158e": {
+     "identical_before": 75,
+     "identical_after": 89,
+     "total": 89
+    }
+   },
+   "b1_b4_evaluation": {
+    "322bacec": {
+     "identical_before": 89,
+     "identical_after": 89,
+     "total": 89
+    },
+    "5c24158e": {
+     "identical_before": 89,
+     "identical_after": 89,
+     "total": 89
+    }
+   }
   },
   "alexcarpenter__alexcarpenter.me": {
    "repo": "alexcarpenter/alexcarpenter.me",
@@ -105,7 +214,47 @@
      "total": 3
     }
    },
-   "signal_lost": false
+   "signal_lost": false,
+   "b1_b3_evaluation": {
+    "4c5da684": {
+     "identical_before": 31,
+     "identical_after": 35,
+     "total": 80
+    },
+    "502724d6": {
+     "identical_before": 16,
+     "identical_after": 19,
+     "total": 51
+    },
+    "e3641869": {
+     "identical_before": 1,
+     "identical_after": 2,
+     "total": 3
+    },
+    "e6c28647": {
+     "status": "missing_keep"
+    }
+   },
+   "b1_b4_evaluation": {
+    "4c5da684": {
+     "identical_before": 72,
+     "identical_after": 80,
+     "total": 80
+    },
+    "502724d6": {
+     "identical_before": 33,
+     "identical_after": 50,
+     "total": 51
+    },
+    "e3641869": {
+     "identical_before": 2,
+     "identical_after": 3,
+     "total": 3
+    },
+    "e6c28647": {
+     "status": "missing_keep"
+    }
+   }
   },
   "efcl__efcl.github.io": {
    "repo": "efcl/efcl.github.io",
@@ -131,7 +280,47 @@
      "total": 945
     }
    },
-   "signal_lost": false
+   "signal_lost": false,
+   "b1_b3_evaluation": {
+    "0021db21": {
+     "identical_before": 935,
+     "identical_after": 935,
+     "total": 935
+    },
+    "6496d9a6": {
+     "status": "missing_keep"
+    },
+    "889a2a84": {
+     "identical_before": 940,
+     "identical_after": 940,
+     "total": 940
+    },
+    "ef571729": {
+     "identical_before": 945,
+     "identical_after": 945,
+     "total": 945
+    }
+   },
+   "b1_b4_evaluation": {
+    "0021db21": {
+     "identical_before": 935,
+     "identical_after": 935,
+     "total": 935
+    },
+    "6496d9a6": {
+     "status": "missing_keep"
+    },
+    "889a2a84": {
+     "identical_before": 940,
+     "identical_after": 940,
+     "total": 940
+    },
+    "ef571729": {
+     "identical_before": 945,
+     "identical_after": 945,
+     "total": 945
+    }
+   }
   },
   "rimzzlabs__website": {
    "repo": "rimzzlabs/website",
@@ -160,7 +349,41 @@
      "total": 18
     }
    },
-   "signal_lost": false
+   "signal_lost": false,
+   "b1_b3_evaluation": {
+    "328e90f1": {
+     "identical_before": 4,
+     "identical_after": 4,
+     "total": 16
+    },
+    "59c612e4": {
+     "identical_before": 6,
+     "identical_after": 6,
+     "total": 18
+    },
+    "5c5c0fbc": {
+     "identical_before": 6,
+     "identical_after": 6,
+     "total": 18
+    }
+   },
+   "b1_b4_evaluation": {
+    "328e90f1": {
+     "identical_before": 8,
+     "identical_after": 16,
+     "total": 16
+    },
+    "59c612e4": {
+     "identical_before": 12,
+     "identical_after": 18,
+     "total": 18
+    },
+    "5c5c0fbc": {
+     "identical_before": 13,
+     "identical_after": 18,
+     "total": 18
+    }
+   }
   },
   "godruoyi__gblog": {
    "repo": "godruoyi/gblog",
@@ -184,7 +407,31 @@
      "total": 9
     }
    },
-   "signal_lost": false
+   "signal_lost": false,
+   "b1_b3_evaluation": {
+    "2a505c3d": {
+     "identical_before": 85,
+     "identical_after": 85,
+     "total": 85
+    },
+    "b5bebb21": {
+     "identical_before": 1,
+     "identical_after": 9,
+     "total": 9
+    }
+   },
+   "b1_b4_evaluation": {
+    "2a505c3d": {
+     "identical_before": 85,
+     "identical_after": 85,
+     "total": 85
+    },
+    "b5bebb21": {
+     "identical_before": 9,
+     "identical_after": 9,
+     "total": 9
+    }
+   }
   },
   "cubxxw__blog": {
    "repo": "cubxxw/blog",
@@ -214,7 +461,47 @@
      "total": 930
     }
    },
-   "signal_lost": false
+   "signal_lost": false,
+   "b1_b3_evaluation": {
+    "52710aa6": {
+     "status": "missing_keep"
+    },
+    "7090d6ac": {
+     "identical_before": 623,
+     "identical_after": 623,
+     "total": 623
+    },
+    "e302344a": {
+     "identical_before": 1113,
+     "identical_after": 1135,
+     "total": 1135
+    },
+    "fed85372": {
+     "identical_before": 928,
+     "identical_after": 930,
+     "total": 930
+    }
+   },
+   "b1_b4_evaluation": {
+    "52710aa6": {
+     "status": "missing_keep"
+    },
+    "7090d6ac": {
+     "identical_before": 623,
+     "identical_after": 623,
+     "total": 623
+    },
+    "e302344a": {
+     "identical_before": 1135,
+     "identical_after": 1135,
+     "total": 1135
+    },
+    "fed85372": {
+     "identical_before": 929,
+     "identical_after": 930,
+     "total": 930
+    }
+   }
   },
   "yunyuyuan__nuxt3-blog": {
    "repo": "yunyuyuan/nuxt3-blog",
@@ -230,10 +517,9 @@
     "nuxt-cssmod",
     "nuxt-tz-span",
     "nuxt-tz-jil",
-    "nuxt-tz-b",
-    "nuxt-tz-bare"
+    "nuxt-tz-b"
    ],
-   "rules_count": 10,
+   "rules_count": 9,
    "b1_b2_evaluation": {
     "40b7bb51": {
      "identical_before": 1,
@@ -251,7 +537,47 @@
      "total": 120
     }
    },
-   "signal_lost": false
+   "signal_lost": false,
+   "b1_b3_evaluation": {
+    "40b7bb51": {
+     "identical_before": 1,
+     "identical_after": 7,
+     "total": 169
+    },
+    "82486509": {
+     "status": "missing_keep"
+    },
+    "a28de421": {
+     "identical_before": 1,
+     "identical_after": 7,
+     "total": 158
+    },
+    "f50767bf": {
+     "identical_before": 1,
+     "identical_after": 117,
+     "total": 120
+    }
+   },
+   "b1_b4_evaluation": {
+    "40b7bb51": {
+     "identical_before": 1,
+     "identical_after": 169,
+     "total": 169
+    },
+    "82486509": {
+     "status": "missing_keep"
+    },
+    "a28de421": {
+     "identical_before": 1,
+     "identical_after": 158,
+     "total": 158
+    },
+    "f50767bf": {
+     "identical_before": 1,
+     "identical_after": 120,
+     "total": 120
+    }
+   }
   },
   "querkmachine__beeps.website": {
    "repo": "querkmachine/beeps.website",
@@ -260,10 +586,9 @@
    "differences_count": 2,
    "rules": [
     "cache-buster-q",
-    "beeps-og-timestamp",
-    "beeps-redaction-mask"
+    "beeps-og-timestamp"
    ],
-   "rules_count": 3,
+   "rules_count": 2,
    "b1_b2_evaluation": {
     "23276fd8": {
      "identical_before": 7,
@@ -281,22 +606,55 @@
      "total": 227
     }
    },
-   "signal_lost": false
+   "signal_lost": false,
+   "b1_b3_evaluation": {
+    "23276fd8": {
+     "identical_before": 7,
+     "identical_after": 247,
+     "total": 248
+    },
+    "477a1f74": {
+     "identical_before": 15,
+     "identical_after": 354,
+     "total": 354
+    },
+    "6ed66e63": {
+     "status": "missing_keep"
+    },
+    "74dc73cd": {
+     "identical_before": 7,
+     "identical_after": 226,
+     "total": 227
+    }
+   },
+   "b1_b4_evaluation": {
+    "23276fd8": {
+     "identical_before": 7,
+     "identical_after": 248,
+     "total": 248
+    },
+    "477a1f74": {
+     "identical_before": 15,
+     "identical_after": 354,
+     "total": 354
+    },
+    "6ed66e63": {
+     "status": "missing_keep"
+    },
+    "74dc73cd": {
+     "identical_before": 7,
+     "identical_after": 227,
+     "total": 227
+    }
+   }
   },
   "nemanjam__nemanjam.github.io": {
    "repo": "nemanjam/nemanjam.github.io",
    "manifests": 13,
    "commits": 4,
    "differences_count": 16,
-   "rules": [
-    "shiki-unwrap",
-    "nemanjam-image-suffix",
-    "nemanjam-excerpt-tail",
-    "nemanjam-island-uid",
-    "nemanjam-more-posts",
-    "nemanjam-hoisted-js"
-   ],
-   "rules_count": 6,
+   "rules": [],
+   "rules_count": 0,
    "b1_b2_evaluation": {
     "0b7c59fd": {
      "identical_before": 10,
@@ -314,7 +672,43 @@
      "total": 61
     }
    },
-   "signal_lost": false
+   "signal_lost": false,
+   "b1_b3_evaluation": {
+    "0b7c59fd": {
+     "identical_before": 10,
+     "identical_after": 53,
+     "total": 53
+    },
+    "6333be10": {
+     "identical_before": 8,
+     "identical_after": 23,
+     "total": 23
+    },
+    "7fed9b43": {
+     "identical_before": 0,
+     "identical_after": 61,
+     "total": 61
+    }
+   },
+   "b1_b4_evaluation": {
+    "0b7c59fd": {
+     "identical_before": 10,
+     "identical_after": 53,
+     "total": 53
+    },
+    "6333be10": {
+     "identical_before": 8,
+     "identical_after": 23,
+     "total": 23
+    },
+    "7fed9b43": {
+     "identical_before": 17,
+     "identical_after": 61,
+     "total": 61
+    }
+   },
+   "reproducible": false,
+   "reproducible_reason": "C2 reclassification (2026-09-26): not a content site. Its posts are generated placeholder text (\"Dolor velit excepteur cupidatat aute in fugiat id reprehenderit ipsum qui tempor fugiat. Excepteur tempor culpa velit duis quis…\") that changes on every build, and 52 page paths exist only in one build of the same commit (differences/nemanjam__nemanjam.github.io.json, 6333be10bf83 b1_b2: only_in_b1=52, only_in_b2=52). Masking that is not normalization; the site is classified live_data/other: \"generated content\" and its six normalization rules were withdrawn."
   },
   "elsbrock__hetzner-radar": {
    "repo": "elsbrock/hetzner-radar",
@@ -335,7 +729,43 @@
      "total": 1
     }
    },
-   "signal_lost": false
+   "signal_lost": false,
+   "b1_b3_evaluation": {
+    "23a1d738": {
+     "status": "missing_keep"
+    },
+    "9f656706": {
+     "identical_before": 1,
+     "identical_after": 1,
+     "total": 1
+    },
+    "d7cc3753": {
+     "identical_before": 1,
+     "identical_after": 1,
+     "total": 1
+    },
+    "fb9db8dc": {
+     "status": "missing_keep"
+    }
+   },
+   "b1_b4_evaluation": {
+    "23a1d738": {
+     "status": "missing_keep"
+    },
+    "9f656706": {
+     "identical_before": 1,
+     "identical_after": 1,
+     "total": 1
+    },
+    "d7cc3753": {
+     "identical_before": 1,
+     "identical_after": 1,
+     "total": 1
+    },
+    "fb9db8dc": {
+     "status": "missing_keep"
+    }
+   }
   }
  },
  "total_rules": 30,

@@ -1,7 +1,5 @@
 # Assignment 13: what makes a static build non-deterministic, and which normalizations are safe
 
-**Phase:** P1 · P2 (see the README's phase tags)
-
 Budget **12–18 hours**. When the same commit of a static site is built twice, the output is often not byte-identical.
 Assignment 10 found one cause the hard way: a build-time millisecond timestamp in a cache-busting query string
 (`non-critical.css?v=1790336771992`) that made every page of one site differ on every build. There are many other
@@ -124,14 +122,6 @@ output/
   summary.json                     per site: builds run, distinct differences by cause, pages identical b1↔b2
                                    before/after normalization, signal-retention result, any signal_lost
 ```
-
-## Check-ins and review
-
-This assignment follows the repository's **check-in, self-check and review protocol** (README, "Check-ins,
-self-check and review"): push `output/` at every phase boundary and at least every 2 hours with an updated
-`PROGRESS.md`; before the final commit, append the return manifest and re-derive every `summary.json` number from
-the returned files; after the final commit, watch for `REVIEW.md` with `status: corrections_requested` and address
-every numbered item in a new commit.
 
 ## Rules
 - **Never report a difference you did not extract from two files on disk.** Quote regions verbatim.

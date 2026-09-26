@@ -1,0 +1,96 @@
+{
+  "b3_locale": {
+    "actual": "de_DE.UTF-8 active via LOCPATH=$HOME/.locales (locale data pre-generated at $HOME/.locales/de_DE.UTF-8; system locale -a only lists C, C.utf8, POSIX)",
+    "env_for_b3": "TZ=Pacific/Auckland LANG=de_DE.UTF-8 LC_ALL=de_DE.UTF-8 LOCPATH=$HOME/.locales, applied to both install and build commands",
+    "requested": "LANG=de_DE.UTF-8 with TZ=Pacific/Auckland",
+    "verified": "LOCPATH=$HOME/.locales LC_ALL=de_DE.UTF-8 locale shows de_DE.UTF-8 categories; node toLocaleString renders German format (30.6.2025)"
+  },
+  "build_procedure_notes": [
+    "Each build: fresh `git worktree add --detach <sha>` at ~/workspace/13-scratch/yunyuyuan__nuxt3-blog/w/<sha12>/<bN>, fresh `pnpm install`, `pnpm run generate` (timeout 2700s), manifest hashed from .output/public, full output copied to scratch outs/<sha>/<bN> for Phase 2, worktree removed immediately after.",
+    "b2 build start enforced >= 120s after b1 build start (sleep inserted when needed).",
+    "b4 procedure: fresh worktree + fresh `pnpm install` + build (worktree is empty so node_modules/.nuxt/.output deletion is a no-op; install is from scratch in every build since worktrees are never reused). Recorded as such in manifests.",
+    "Worktree dir components are equal-length across b1..b4 (w/<sha12>/bN) so any embedded absolute build path differs by exactly one character at a fixed offset."
+  ],
+  "commit_substitutions": "none — all three selected commits built successfully (f50767bf05e4, a28de421d25f, 40b7bb516071)",
+  "commits": {
+    "40b7bb516071": {
+      "date": "2025-06-29T19:30:25+08:00",
+      "position": "latest successful in 08 window",
+      "builds": "b1-b4 all OK",
+      "files": 937,
+      "html_pages": 169
+    },
+    "a28de421d25f": {
+      "date": "2025-03-16T17:18:50+08:00",
+      "position": "middle successful in 08 window",
+      "builds": "b1-b4 all OK (b2 required one retry after environment-failure SSR OOM)",
+      "files": 837,
+      "html_pages": 158
+    },
+    "f50767bf05e4": {
+      "date": "2025-03-03T21:16:03+08:00",
+      "position": "earliest successful in 08 window",
+      "builds": "b1-b4 all OK",
+      "files": 807,
+      "html_pages": 120
+    }
+  },
+  "could_not_do": [],
+  "repo": "yunyuyuan/nuxt3-blog",
+  "signal_pair": {
+    "from": "a28de421d25f",
+    "to": "82486509cce0",
+    "signal_build": "82486509cce0 b1 OK (842 files)",
+    "changed_files": "added 131, removed 126; non-_nuxt added: rebuild/knowledges/2685.md, search/index.html",
+    "signal_test": "diff_before 159, diff_after 159, became_identical 0, signal_lost 0"
+  },
+  "slug": "yunyuyuan__nuxt3-blog",
+  "toolchain": {
+    "build_command": "corepack pnpm@9.13.2 run generate",
+    "install_command": "corepack pnpm@9.13.2 install",
+    "node": "v20.19.0 via fnm. fnm is NOT on default PATH; every build driver runs `export PATH=\"$HOME/.local/share/fnm:$PATH\"` before `eval \"$(fnm env)\"; fnm use 20.19.0`, and `node -v` was verified = v20.19.0. All manifests record node_used=v20.19.0; no build ran under the wrong node.",
+    "output_dir": ".output/public (nuxt generate default; verified: 08 counted .html files there)",
+    "pnpm": "pnpm@9.13.2 via corepack (`corepack pnpm@9.13.2`)"
+  },
+  "environment_failures": [
+    {
+      "sha": "a28de421d25f",
+      "build": "b2",
+      "attempt": 1,
+      "what": "build command failed during SSR bundle vite transform (client bundle had built OK in 38m7s); pnpm ELIFECYCLE, no error detail in log, brc=124",
+      "classification": "environment failure (likely OOM/resource contention under parallel workers), NOT a genuine build failure — same commit's b1 built successfully",
+      "action": "retried b2 from scratch (fresh worktree + fresh install) via do_one.sh"
+    }
+  ],
+  "phase2": {
+    "differences": "16 (D1-D16, D15=cssmod random_id, D16=additional tz)",
+    "causes": {
+      "build_timestamp": [
+        "D1",
+        "D2",
+        "D7",
+        "D10"
+      ],
+      "content_hash_filename": [
+        "D3",
+        "D4"
+      ],
+      "random_id": [
+        "D5",
+        "D6",
+        "D8",
+        "D9",
+        "D15"
+      ],
+      "locale_timezone": [
+        "D11",
+        "D12",
+        "D13",
+        "D14",
+        "D16"
+      ]
+    },
+    "candidate_rules": 10,
+    "verification": "b1<->b2 and b1<->b3 100% identical after R1-R10 at all 3 commits; b1<->b4 100% at all 3 commits"
+  }
+}

@@ -1,0 +1,224 @@
+{
+  "repo": "madrilene/lenesaile.com",
+  "slug": "madrilene__lenesaile.com",
+  "primary_commit": "5c24158e6c6a",
+  "primary_sha": "5c24158e6c6abd49b5b1c1b70146c75af16938f5",
+  "toolchain": {
+    "node": "v20.19.4",
+    "npm": "9.9.4",
+    "install": "npm ci --no-audit --no-fund",
+    "build": "npm run build",
+    "build_detail": "rimraf dist && cross-env ELEVENTY_ENV=production eleventy (via eleventy-excellent scripts)"
+  },
+  "builds": {
+    "b1": {
+      "build": "b1",
+      "build_ok": true,
+      "build_rc": "0",
+      "file_count": 295,
+      "install_seconds": 109,
+      "build_seconds": 302,
+      "install_command": "npm ci --no-audit --no-fund",
+      "build_command": "npm run build",
+      "node_used": "v20.19.4",
+      "pm_used": "npm 9.9.4",
+      "environment_incomplete": false,
+      "error": "",
+      "locale_actual": null,
+      "tz_actual": null,
+      "install_notes": null,
+      "finalized_manually": null
+    },
+    "b2": {
+      "build": "b2",
+      "build_ok": true,
+      "build_rc": "0",
+      "file_count": 295,
+      "install_seconds": 360,
+      "build_seconds": 310,
+      "install_command": "npm ci --no-audit --no-fund",
+      "build_command": "npm run build",
+      "node_used": "v20.19.4",
+      "pm_used": "npm 9.9.4",
+      "environment_incomplete": false,
+      "error": "",
+      "locale_actual": null,
+      "tz_actual": null,
+      "install_notes": "13 total npm ci attempts (8 via retry-b2.sh, 5 manual with npm_config_maxsockets=3); first 12 failed with ECONNRESET from registry.npmjs.org via egress proxy; final attempt succeeded, 446 packages in ~360s",
+      "finalized_manually": null
+    },
+    "b3": {
+      "build": "b3",
+      "build_ok": true,
+      "build_rc": "?",
+      "file_count": 295,
+      "install_seconds": 103,
+      "build_seconds": 417,
+      "install_command": "npm ci --no-audit --no-fund",
+      "build_command": "npm run build",
+      "node_used": "v20.19.4",
+      "pm_used": "npm 9.9.4",
+      "environment_incomplete": false,
+      "error": "",
+      "locale_actual": "LANG=de_DE.UTF-8\nLANGUAGE=\nLC_CTYPE=\"de_DE.UTF-8\"\nLC_NUMERIC=\"de_DE.UTF-8\"\nLC_TIME=\"de_DE.UTF-8\"\nLC_COLLATE=\"de_DE.UTF-8\"\nLC_MONETARY=\"de_DE.UTF-8\"\nLC_MESSAGES=\"de_DE.UTF-8\"\nLC_PAPER=\"de_DE.UTF-8\"\nLC_NAME=\"de_DE.UTF-8\"\nLC_ADDRESS=\"de_DE.UTF-8\"\nLC_TELEPHONE=\"de_DE.UTF-8\"\nLC_MEASUREMENT=\"de_DE.UTF-8\"\nLC_IDENTIFICATION=\"de_DE.UTF-8\"\nLC_ALL=de_DE.UTF-8\n",
+      "tz_actual": "Pacific/Auckland",
+      "install_notes": null,
+      "finalized_manually": true
+    },
+    "b4": {
+      "build": "b4",
+      "build_ok": true,
+      "build_rc": 0,
+      "file_count": 295,
+      "install_seconds": 49,
+      "build_seconds": 396,
+      "install_command": "npm ci --no-audit --no-fund",
+      "build_command": "npm run build",
+      "node_used": "v20.19.4",
+      "pm_used": "npm 9.9.4",
+      "environment_incomplete": false,
+      "error": null,
+      "locale_actual": null,
+      "tz_actual": null,
+      "install_notes": "fresh worktree (no node_modules carried); npm_config_maxsockets=3, fetch_retries=5",
+      "finalized_manually": null
+    },
+    "p2b1": {
+      "build": "b1",
+      "build_ok": true,
+      "build_rc": "0",
+      "file_count": 214,
+      "install_seconds": 77,
+      "build_seconds": 406,
+      "install_command": "npm ci --no-audit --no-fund",
+      "build_command": "npm run build",
+      "node_used": "v20.19.4",
+      "pm_used": "npm 9.9.4",
+      "environment_incomplete": false,
+      "error": "",
+      "locale_actual": null,
+      "tz_actual": null,
+      "install_notes": null,
+      "finalized_manually": null
+    }
+  },
+  "b3_locale": {
+    "requested": {
+      "TZ": "Pacific/Auckland",
+      "LANG": "de_DE.UTF-8"
+    },
+    "actual": {
+      "TZ": "Pacific/Auckland",
+      "LANG": "de_DE.UTF-8",
+      "LC_ALL": "de_DE.UTF-8",
+      "LOCPATH": "/home/hatch/.locales"
+    },
+    "locale_built": "localedef -i de_DE -f UTF-8 ~/.locales/de_DE.UTF-8 (system had only C.utf8)",
+    "verified": "python locale.getlocale() -> ('de_DE','UTF-8'); date formatted in German; time.tzname NZST"
+  },
+  "probe_commits": {
+    "p1": {
+      "sha12": "ca298d39e342",
+      "sha": "ca298d39e3428427e04b4b7b59706697a5676b0a",
+      "install_ok": true,
+      "install_seconds": 66,
+      "build_stage": "build_failed",
+      "build_seconds": 77,
+      "html_pages": 0,
+      "error_excerpt": "\n> eleventy-excellent@4.1.4 build\n> npm run clean && npm run build:11ty\n\n\n> eleventy-excellent@4.1.4 clean\n> rimraf dist src/_includes/css src/_includes/scripts\n\n\n> eleventy-excellent@4.1.4 build:11ty\n> cross-env ELEVENTY_ENV=production eleventy\n\n[11ty] Problem writing Eleventy templates:\n[11ty] fetch failed (via TypeError)\n[11ty] \n[11ty] Original error stack trace: TypeError: fetch failed\n[11ty]     at node:internal/deps/undici/undici:13510:13\n[11ty]     at process.processTicksAndRejections (no"
+    },
+    "p2": {
+      "sha12": "322baceca9da",
+      "sha": "322baceca9da79e372d7a8d06f2befaa698b34ec",
+      "install_ok": true,
+      "install_seconds": 77,
+      "build_stage": "build_ok",
+      "build_seconds": 406,
+      "html_pages": 92,
+      "error_excerpt": "ent/posts/en/2022-02-15-new-store-alberto-ballesteros-eleventy-snipcart.md (njk)\n[11ty] Writing ./dist/es/blog/nuevo-shop-para-albertoballesteroscom-eleventy-y-snipcart/index.html from ./src/content/posts/es/2022-02-15-new-store-alberto-ballesteros-eleventy-snipcart.md (njk)\n[11ty] Writing ./dist/de/blog/neuer-shop-fur-albertoballesteroscom-eleventy-und-snipcart/index.html from ./src/content/posts/de/2022-02-15-new-store-alberto-ballesteros-eleventy-snipcart.md (njk)\n[11ty] Writing ./dist/de/blo"
+    },
+    "p3": {
+      "sha12": "5f0fd98ef80e",
+      "sha": "5f0fd98ef80efa63e508e3e30aa1d7e8138ac79d",
+      "install_ok": true,
+      "install_seconds": 96,
+      "build_stage": "build_failed",
+      "build_seconds": 379,
+      "html_pages": 0,
+      "error_excerpt": ".parse (file:///home/hatch/workspace/13-scratch/madrilene__lenesaile.com/wt-probe-p3/node_modules/html-minifier-terser/src/htmlparser.js:249:15)\n[11ty]     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n[11ty]     at async minifyHTML (file:///home/hatch/workspace/13-scratch/madrilene__lenesaile.com/wt-probe-p3/node_modules/html-minifier-terser/src/htmlminifier.js:1276:3)\n[11ty]     at async Object.minify (file:///home/hatch/workspace/13-scratch/madrilene__lenesaile"
+    },
+    "p4": {
+      "sha12": "1dfd7301c829",
+      "sha": "1dfd7301c829cec5fe51db6148c2de32fe00f257",
+      "install_ok": false,
+      "install_seconds": 297,
+      "build_stage": "install_failed",
+      "build_seconds": 0,
+      "html_pages": 0,
+      "error_excerpt": "npm ERR! code ECONNRESET\nnpm ERR! network aborted\nnpm ERR! network This is a problem related to network connectivity.\nnpm ERR! network In most cases you are behind a proxy or have bad network settings.\nnpm ERR! network \nnpm ERR! network If you are behind a proxy, please make sure that the\nnpm ERR! network 'proxy' config is set properly.  See: 'npm help config'\n\nnpm ERR! A complete log of this run can be found in: /home/hatch/.npm/_logs/2026-09-25T14_21_22_870Z-debug-0.log"
+    },
+    "p5": {
+      "sha12": "b70ce01a5c50",
+      "sha": "b70ce01a5c5011fe0196d05f3291257ad14f2f11",
+      "install_ok": false,
+      "install_seconds": 234,
+      "build_stage": "install_failed",
+      "build_seconds": 0,
+      "html_pages": 0,
+      "error_excerpt": "npm ERR! code ECONNRESET\nnpm ERR! network aborted\nnpm ERR! network This is a problem related to network connectivity.\nnpm ERR! network In most cases you are behind a proxy or have bad network settings.\nnpm ERR! network \nnpm ERR! network If you are behind a proxy, please make sure that the\nnpm ERR! network 'proxy' config is set properly.  See: 'npm help config'\n\nnpm ERR! A complete log of this run can be found in: /home/hatch/.npm/_logs/2026-09-25T14_26_31_539Z-debug-0.log"
+    },
+    "p6": {
+      "sha12": "0433bd0c237c",
+      "sha": "0433bd0c237c96fbd75d2e93e4ab12e15a72981f",
+      "install_ok": false,
+      "install_seconds": 373,
+      "build_stage": "install_failed",
+      "build_seconds": 0,
+      "html_pages": 0,
+      "error_excerpt": "npm ERR! code ECONNRESET\nnpm ERR! network aborted\nnpm ERR! network This is a problem related to network connectivity.\nnpm ERR! network In most cases you are behind a proxy or have bad network settings.\nnpm ERR! network \nnpm ERR! network If you are behind a proxy, please make sure that the\nnpm ERR! network 'proxy' config is set properly.  See: 'npm help config'\n\nnpm ERR! A complete log of this run can be found in: /home/hatch/.npm/_logs/2026-09-25T14_30_48_736Z-debug-0.log"
+    },
+    "p7": {
+      "sha12": "5a03ea7a720d",
+      "sha": "5a03ea7a720daef687c200f31c8f347279d5e2f8",
+      "install_ok": false,
+      "install_seconds": 170,
+      "build_stage": "install_failed",
+      "build_seconds": 0,
+      "html_pages": 0,
+      "error_excerpt": "npm ERR! code ECONNRESET\nnpm ERR! network aborted\nnpm ERR! network This is a problem related to network connectivity.\nnpm ERR! network In most cases you are behind a proxy or have bad network settings.\nnpm ERR! network \nnpm ERR! network If you are behind a proxy, please make sure that the\nnpm ERR! network 'proxy' config is set properly.  See: 'npm help config'\n\nnpm ERR! A complete log of this run can be found in: /home/hatch/.npm/_logs/2026-09-25T14_37_39_428Z-debug-0.log"
+    }
+  },
+  "signal_pair": {
+    "earlier_sha": "322baceca9da79e372d7a8d06f2befaa698b34ec",
+    "earlier_sha12": "322baceca9da",
+    "earlier_msg": "blog layout",
+    "earlier_date": "2025-03-29",
+    "later_sha": "5c24158e6c6abd49b5b1c1b70146c75af16938f5",
+    "later_sha12": "5c24158e6c6a",
+    "later_msg": "projects basic",
+    "later_date": "2025-04-02",
+    "relationship": "earlier is ancestor of later; 21 commits between (NOT strictly consecutive). Only p2 and main commit built OK among the 8 window commits probed.",
+    "total_changed_files_all_dirs": 0,
+    "changed_files_src_content_common_count": 1,
+    "changed_files_src_content_common_stat": "",
+    "changed_files_src_content_common": [
+      ""
+    ],
+    "earlier_manifest": "builds/madrilene__lenesaile.com/322baceca9da/b1.json",
+    "earlier_build_ok": true,
+    "earlier_file_count": 214
+  },
+  "determinism_findings": {
+    "b1_b2": "295 files; 0 unique either side; 3 differing (blog.xml, feed.xml, sitemap.xml - build_timestamp only). All 122 HTML pages byte-identical.",
+    "b1_b3": "295 files; 0 unique either side; 17 differing (14 HTML locale_timezone time-display +1day; 3 XML build_timestamp).",
+    "b1_b4": "295 files; 0 unique either side; 3 differing (blog.xml, feed.xml, sitemap.xml - build_timestamp only). Fresh reinstall; no dependency_resolution differences.",
+    "b2_delay": "b2 script_start >120s after b1 script_start (b1 1790341897; b2 started after 13:20 UTC).",
+    "normalization": "b1<->b2 HTML byte-identical so no b1/b2 rule proposed. b3-only rules (R1-R3) carry addresses_build=b3. No b4 dependency rule (no b4-only differences)."
+  },
+  "concurrent_worker": "At ~14:37 UTC 2026-09-25 a second worker was found writing in the same scratch/output area (created retry-b2.sh, overwrote b2.json with environment_incomplete, emptied keep-b2). Its driver died in a VM restart. b2 was rebuilt by this worker via manual-b2.sh; final b2.json/build_ok=true is authoritative.",
+  "environment_failures": [
+    "npm registry ECONNRESET via egress proxy 14:05-17:00 UTC 2026-09-25: b2 required 13 install attempts, b4 first attempt (other worker) failed after 1349s/6 attempts, probes p4-p7 install_failed. npm cache wiped by b4 'npm cache clean --force'. Resolved with npm_config_maxsockets=3.",
+    "VM/service restarts killed build drivers mid-run multiple times (12:47, 14:14, 16:01 UTC); finalize.py used to recover completed worktrees."
+  ],
+  "incomplete": []
+}

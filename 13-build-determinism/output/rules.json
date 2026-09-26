@@ -9,13 +9,30 @@
    "rimzzlabs R1",
    "nemanjam Shiki span-split (new, central)"
   ],
-  "note": "Merged from alexcarpenter R2 and rimzzlabs R1 (identical operation); extended to nemanjam rehype-pretty-code pre[data-theme]. Normalizes Shiki dual-theme nondeterministic token-span splits and light-theme token colors; code text preserved.",
+  "note": "Merged from alexcarpenter R2 and rimzzlabs R1 (identical operation); extended to nemanjam rehype-pretty-code pre[data-theme]. Normalizes Shiki dual-theme nondeterministic token-span splits and light-theme token colors; code text preserved. [2026-09-26 C2 correction: nemanjam application withdrawn under the live_data/other \"generated content\" reclassification; rule remains active for alexcarpenter and rimzzlabs.]",
   "operation": "unwrap span descendants of pre.astro-code (remove span tags, keep text content)",
   "selector": "pre.astro-code span, pre[data-theme] span",
   "sites_needing_it": [
    "alexcarpenter/alexcarpenter.me",
-   "nemanjam/nemanjam.github.io",
    "rimzzlabs/website"
+  ],
+  "derived_from": [
+   {
+    "site": "alexcarpenter/alexcarpenter.me",
+    "commit": null,
+    "file": "notes/index.html (e3641869d63e)",
+    "difference_id": "D2",
+    "region_before": "x3C;</span><span style=\"color:#1F2328;--shiki-dark:#7EE787\">TooltipTrigger</span><span style=\"color:#1F2328;--shiki-dark:#79C0FF\"> isOpen</sp",
+    "region_after": "x3C;</span><span style=\"color:#116329;--shiki-dark:#7EE787\">TooltipTrigger</span><span style=\"color:#0550AE;--shiki-dark:#79C0FF\"> isOpen</sp"
+   },
+   {
+    "site": "rimzzlabs/website",
+    "commit": "328e90f173aa",
+    "file": "id/notes/how-to-setup-husky-nextjs/index.html",
+    "difference_id": "D4",
+    "region_before": "line\"><span style=\"color:#D73A49;--shiki-dark:#CB7676\">const</span><span style=\"color:#D73A49;--shiki-dark:#BD976A\"> config</span><span style=\"color:#D73A49;--shiki-dark:#666666\"> =</span><span style=\"color:#D73A49;--shiki-dark:#666666\"> {</span></span>\n<span class=\"line\"><span style=\"color:#6F42C1;--shiki-dark:#B8A965\">  semi</span><span style=\"color:#24292E;--shiki-dark:#666666\">:</span><span style=\"color:#24292E;--shiki-dark:#4D9375\"> false</span><span style=\"color:#24292E;--shiki-dark:#666666\">,</span></span>\n<span class=\"line\"><span style=\"color:#6F42C1;--shiki-dark:#B8A965\">  tabWidth</span><span style=\"color:#24292E;--shiki-dark:#666666\">:</span><span style=\"color:#005CC5;--shiki-dark:#4C9A91\"> 2</",
+    "region_after": "line\"><span style=\"color:#D73A49;--shiki-dark:#CB7676\">const</span><span style=\"color:#005CC5;--shiki-dark:#BD976A\"> con"
+   }
   ]
  },
  {
@@ -33,6 +50,24 @@
   "sites_needing_it": [
    "tempertemper/www.tempertemper.net",
    "querkmachine/beeps.website"
+  ],
+  "derived_from": [
+   {
+    "site": "tempertemper/www.tempertemper.net",
+    "commit": "2cda2bdda6b7",
+    "file": "index.html",
+    "difference_id": "D-cache-buster",
+    "region_before": "in-top:0}</style>\n    <link rel=\"preload\" href=\"/assets/css/non-critical.css?v=1790345155261\" as=\"style\" onload=\"this.on",
+    "region_after": "in-top:0}</style>\n    <link rel=\"preload\" href=\"/assets/css/non-critical.css?v=1790352650535\" as=\"style\" onload=\"this.on"
+   },
+   {
+    "site": "querkmachine/beeps.website",
+    "commit": "74dc73cd551a",
+    "file": "404/index.html",
+    "difference_id": "D1",
+    "region_before": "<link rel=\"preload\" as=\"style\" href=\"/assets/fonts/fonts.css?v=1790348725\" />",
+    "region_after": "<link rel=\"preload\" as=\"style\" href=\"/assets/fonts/fonts.css?v=1790354660\" />"
+   }
   ]
  },
  {
@@ -45,18 +80,16 @@
   "replacement": "",
   "sites_needing_it": [
    "tempertemper/www.tempertemper.net"
-  ]
- },
- {
-  "applies_to": "html",
-  "cause": "ordering",
-  "id": "category-page-num-mask",
-  "kind": "regex",
-  "note": "Masks nondeterministic category pagination page number in <title> (same TemplateMap async race as category-order-mask). Scoped to category archive titles.",
-  "pattern": "(<title>[^<]* \u2013 Page )\\d+( \u2013 tempertemper</title>)",
-  "replacement": "\\g<1>N\\g<2>",
-  "sites_needing_it": [
-   "tempertemper/www.tempertemper.net"
+  ],
+  "derived_from": [
+   {
+    "site": "tempertemper/www.tempertemper.net",
+    "commit": "2cda2bdda6b7",
+    "file": "category/approach.html",
+    "difference_id": "D-category-order",
+    "region_before": "rel=\"canonical\" href=\"https://www.tempertemper.net//\"><link rel=\"prev\" href=\"/category/javascript\"><link rel=\"next\" href=\"/category/skill\">\n\n    <link rel=\"icon\" href=\"/favicon.ico",
+    "region_after": "rel=\"canonical\" href=\"https://www.tempertemper.net//\"><link rel=\"prev\" href=\"/category/javascript\"><link rel=\"next\" href=\"/category/service\">\n\n    <link rel=\"icon\" href=\"/favicon.i"
+   }
   ]
  },
  {
@@ -69,6 +102,17 @@
   "selector": "div.highlight",
   "sites_needing_it": [
    "cubxxw/blog"
+  ],
+  "derived_from": [
+   {
+    "site": "cubxxw/blog",
+    "commit": "e302344a57a8",
+    "file": "ai-technology/posts/deep-dive-into-the-components-of-kubernetes-etcd/index.html",
+    "difference_id": "D1",
+    "region_before": "pan></span><span class=line><span class=cl>     <span class=err>&lt;</span>/li&gt;\n",
+    "region_after": "pan></span><span class=line><span class=cl>     <span class=p>&lt;/</span><span class=nt>li</span><span class=p>&gt;</spa",
+    "note": "Recorded region is a fragment of the highlighted code block showing the nondeterministic Chroma token spans; the div.highlight wrapper falls outside the recorded ±context window."
+   }
   ]
  },
  {
@@ -80,6 +124,17 @@
   "replacement": "\\g<1>0",
   "sites_needing_it": [
    "yunyuyuan/nuxt3-blog"
+  ],
+  "derived_from": [
+   {
+    "site": "yunyuyuan/nuxt3-blog",
+    "commit": "40b7bb516071",
+    "file": "200.html",
+    "difference_id": "D10",
+    "region_before": " data-ssr=\"true\" id=\"__NUXT_DATA__\">[[\"ShallowReactive\",1],{\"prerenderedAt\":2,\"data\":3,\"state\":5,\"once\":11,\"_errors\":12,\"serverRendered\":14,\"path\":15},1790359059891,[\"ShallowReactive\",4],{},[\"Reactive\",6],{\"$slang\":7,\"$sthem",
+    "region_after": " data-ssr=\"true\" id=\"__NUXT_DATA__\">[[\"ShallowReactive\",1],{\"prerenderedAt\":2,\"data\":3,\"state\":5,\"once\":11,\"_errors\":12,\"serverRendered\":14,\"path\":15},1790360017199,[\"ShallowReactive\",4],{},[\"Reactive\",6],{\"$slang\":7,\"$sthem",
+    "note": "differences file covers commits 40b7bb516071, a28de421d25f, f50767bf05e4; difference not attributed to a single commit."
+   }
   ]
  },
  {
@@ -91,6 +146,16 @@
   "replacement": "\\g<1>0000-00-00 00:00:00\\g<2>",
   "sites_needing_it": [
    "yunyuyuan/nuxt3-blog"
+  ],
+  "derived_from": [
+   {
+    "site": "yunyuyuan/nuxt3-blog",
+    "commit": "40b7bb516071",
+    "file": "about/index.html",
+    "difference_id": "D1",
+    "region_before": "ition hover:text-primary-500\">40b7bb51</a>&gt; succeeded at <time>Fri, 25 Sep 2026 17:43:31 GMT</time></p></div></footer><!--]--><!--]--></div></div><div id=\"tele",
+    "region_after": "ition hover:text-primary-500\">40b7bb51</a>&gt; succeeded at <time>Fri, 25 Sep 2026 18:02:47 GMT</time></p></div></footer><!--]--><!--]--></div></div><div id=\"tele"
+   }
   ]
  },
  {
@@ -103,6 +168,16 @@
   "replacement": "/_nuxt/00000000\\g<1>",
   "sites_needing_it": [
    "yunyuyuan/nuxt3-blog"
+  ],
+  "derived_from": [
+   {
+    "site": "yunyuyuan/nuxt3-blog",
+    "commit": "40b7bb516071",
+    "file": "200.html",
+    "difference_id": "D4",
+    "region_before": "in>\n<link rel=\"modulepreload\" as=\"script\" crossorigin href=\"/_nuxt/CeVT-QfP.js\">\n<link rel=\"modulepreload\" as=\"script\" crossorigin href=\"/",
+    "region_after": "in>\n<link rel=\"modulepreload\" as=\"script\" crossorigin href=\"/_nuxt/CajyTW_0.js\">\n<link rel=\"modulepreload\" as=\"script\" crossorigin href=\"/"
+   }
   ]
  },
  {
@@ -114,6 +189,16 @@
   "replacement": "\\g<1>UUID\\g<2>",
   "sites_needing_it": [
    "yunyuyuan/nuxt3-blog"
+  ],
+  "derived_from": [
+   {
+    "site": "yunyuyuan/nuxt3-blog",
+    "commit": "40b7bb516071",
+    "file": "about/index.html",
+    "difference_id": "D8",
+    "region_before": "s=\"fetch\" fetchpriority=\"low\" crossorigin=\"anonymous\" href=\"/_nuxt/builds/meta/0e417a9a-da9c-4d7f-85b1-4ed647a59b56.json\"></head><body><div id=\"__nuxt\"><div class=\"m-auto flex min-",
+    "region_after": "s=\"fetch\" fetchpriority=\"low\" crossorigin=\"anonymous\" href=\"/_nuxt/builds/meta/f760337d-0dfa-4042-87d1-e805d32cdf28.json\"></head><body><div id=\"__nuxt\"><div class=\"m-auto flex min-"
+   }
   ]
  },
  {
@@ -125,6 +210,16 @@
   "replacement": "\\g<1>UUID\\g<2>",
   "sites_needing_it": [
    "yunyuyuan/nuxt3-blog"
+  ],
+  "derived_from": [
+   {
+    "site": "yunyuyuan/nuxt3-blog",
+    "commit": "40b7bb516071",
+    "file": "200.html",
+    "difference_id": "D9",
+    "region_before": "ickers:{aru:143,cube:72,\"yellow-face\":71}},app:{baseURL:\"/\",buildId:\"0e417a9a-da9c-4d7f-85b1-4ed647a59b56\",buildAssetsDir:\"/_nuxt/\",cdnURL:\"\",githubBranch:\"HEAD\"}}</s",
+    "region_after": "ickers:{aru:143,cube:72,\"yellow-face\":71}},app:{baseURL:\"/\",buildId:\"f760337d-0dfa-4042-87d1-e805d32cdf28\",buildAssetsDir:\"/_nuxt/\",cdnURL:\"\",githubBranch:\"HEAD\"}}</s"
+   }
   ]
  },
  {
@@ -137,53 +232,16 @@
   "replacement": "\\g<1>_CSSMOD",
   "sites_needing_it": [
    "yunyuyuan/nuxt3-blog"
-  ]
- },
- {
-  "applies_to": "html",
-  "cause": "content_hash_filename",
-  "id": "nemanjam-image-suffix",
-  "kind": "regex",
-  "note": "Normalizes Astro transformed-image _<transformHash> suffix which depends on absolute worktree path via src.fsPath.",
-  "pattern": "/_astro/[A-Za-z0-9_.-]+?\\.[A-Za-z0-9_-]+_[A-Za-z0-9_-]+(\\.webp)",
-  "replacement": "/_astro/IMAGE_HASH\\g<1>",
-  "sites_needing_it": [
-   "nemanjam/nemanjam.github.io"
-  ]
- },
- {
-  "applies_to": "html",
-  "cause": "random_id",
-  "id": "nemanjam-excerpt-tail",
-  "kind": "regex",
-  "note": "Normalizes random post-card excerpt truncation (getRandomLengthSubstring).",
-  "pattern": "(<p>)([^<]{100,200}?\u2026)(</p>)",
-  "replacement": "\\g<1>EXCERPT\\g<3>",
-  "sites_needing_it": [
-   "nemanjam/nemanjam.github.io"
-  ]
- },
- {
-  "applies_to": "html",
-  "cause": "random_id",
-  "id": "nemanjam-island-uid",
-  "kind": "regex",
-  "pattern": "(<astro-island uid=\")[^\"]+(\")",
-  "replacement": "\\g<1>UID\\g<2>",
-  "sites_needing_it": [
-   "nemanjam/nemanjam.github.io"
-  ]
- },
- {
-  "applies_to": "html",
-  "cause": "random_id",
-  "id": "nemanjam-more-posts",
-  "kind": "regex",
-  "note": "Masks the randomized 'More posts' card grid (random post selection per build). Main article content unaffected.",
-  "pattern": "(More posts</h2> <ul[^>]*>).*?(</ul>)",
-  "replacement": "\\g<1>MORE_POSTS\\g<2>",
-  "sites_needing_it": [
-   "nemanjam/nemanjam.github.io"
+  ],
+  "derived_from": [
+   {
+    "site": "yunyuyuan/nuxt3-blog",
+    "commit": "40b7bb516071",
+    "file": "articles/index.html",
+    "difference_id": "D15",
+    "region_before": "iv class=\"fixed z-modeBg size-0 rounded-full right-12 top-6 _themeAnimateBgLight_30cd9\"></div><nav class=\"_nav_30cd9\"><div class=\"container mx-aut",
+    "region_after": "iv class=\"fixed z-modeBg size-0 rounded-full right-12 top-6 _themeAnimateBgLight_e3c02\"></div><nav class=\"_nav_e3c02\"><div class=\"container mx-aut"
+   }
   ]
  },
  {
@@ -196,6 +254,17 @@
   "replacement": "\\g<1>1970-01-01T00:00:00.000Z\\g<2>",
   "sites_needing_it": [
    "alexcarpenter/alexcarpenter.me"
+  ],
+  "derived_from": [
+   {
+    "site": "alexcarpenter/alexcarpenter.me",
+    "commit": null,
+    "file": "index.html (e3641869d63e)",
+    "difference_id": "D1",
+    "region_before": "me datetime=\"2024-01-04T00:00:00.000Z\"> Jan 2024 </time> \\n-\\n<time datetime=\"2026-09-25T12:53:13.970Z\">\\nPresent\\n</time> </p> </div> <div class=\"mt-4 tex",
+    "region_after": "me datetime=\"2024-01-04T00:00:00.000Z\"> Jan 2024 </time> \\n-\\n<time datetime=\"2026-09-25T13:27:45.661Z\">\\nPresent\\n</time> </p> </div> <div class=\"mt-4 tex",
+    "note": "Recorded region contains literal backslash-n escapes (\\n) where the build HTML has real newlines; the rule pattern matches after unescaping (verified)."
+   }
   ]
  },
  {
@@ -208,18 +277,16 @@
   "replacement": "\\g<1>TIMESTAMP\\g<2>",
   "sites_needing_it": [
    "querkmachine/beeps.website"
-  ]
- },
- {
-  "applies_to": "html",
-  "cause": "random_id",
-  "id": "beeps-redaction-mask",
-  "kind": "regex",
-  "note": "Masks random-length redaction \u2588 blocks ('redacted for legal reasons' placeholders).",
-  "pattern": "(<span aria-hidden=\"true\">)[\u2588 ]+(</span>)",
-  "replacement": "\\g<1>REDACTED\\g<2>",
-  "sites_needing_it": [
-   "querkmachine/beeps.website"
+  ],
+  "derived_from": [
+   {
+    "site": "querkmachine/beeps.website",
+    "commit": "74dc73cd551a",
+    "file": "404/index.html",
+    "difference_id": "D2",
+    "region_before": "content=\"https://v1.screenshot.11ty.dev/https%3A%2F%2Fbeeps.website%2F404%2Fopengraph%2F/opengraph/_1790348725/\"",
+    "region_after": "content=\"https://v1.screenshot.11ty.dev/https%3A%2F%2Fbeeps.website%2F404%2Fopengraph%2F/opengraph/_1790354660/\""
+   }
   ]
  },
  {
@@ -233,6 +300,16 @@
   "replacement": "\\g<1>\\g<2>",
   "sites_needing_it": [
    "cubxxw/blog"
+  ],
+  "derived_from": [
+   {
+    "site": "cubxxw/blog",
+    "commit": "e302344a57a8",
+    "file": "index.html",
+    "difference_id": "D3",
+    "region_before": "lass=hp-entry-label>ENTRY · <span id=hp-entry-date>2026/09/25</span></span></div><h1><span class=hp-hero-name-row><span c",
+    "region_after": "lass=hp-entry-label>ENTRY · <span id=hp-entry-date>2026/09/26</span></span></div><h1><span class=hp-hero-name-row><span c"
+   }
   ]
  },
  {
@@ -246,6 +323,16 @@
   "replacement": "\\g<1>0000-00-00T00:00:00.000Z\\g<2>",
   "sites_needing_it": [
    "godruoyi/gblog"
+  ],
+  "derived_from": [
+   {
+    "site": "godruoyi/gblog",
+    "commit": "b5bebb21bad5",
+    "file": "about/index.html",
+    "difference_id": "D1",
+    "region_before": "ass=\"date\" data-astro-cid-bvzihdzo><time datetime=\"2021-08-08T00:00:00.000Z\">Aug 8, 2021</time></div><h1 data-astro-cid-bvzi",
+    "region_after": "ass=\"date\" data-astro-cid-bvzihdzo><time datetime=\"2021-08-07T12:00:00.000Z\">Aug 8, 2021</time></div><h1 data-astro-cid-bvzi"
+   }
   ]
  },
  {
@@ -259,6 +346,16 @@
   "replacement": "\\g<1>DATE\\g<2>",
   "sites_needing_it": [
    "madrilene/lenesaile.com"
+  ],
+  "derived_from": [
+   {
+    "site": "madrilene/lenesaile.com",
+    "commit": "5c24158e6c6a",
+    "file": "de/blog/index.html",
+    "difference_id": "D3",
+    "region_before": "s=\"meta | cluster flow-space-xs\"><span class=\"flow-space-s\"><time datetime=\"2024-01-02T11:30:00.000Z\">January 2, 2024</time></span></div>\n  <p>Was ich erreichen möchte, ist die vertika",
+    "region_after": "s=\"meta | cluster flow-space-xs\"><span class=\"flow-space-s\"><time datetime=\"2024-01-02T11:30:00.000Z\">January 3, 2024</time></span></div>\n  <p>Was ich erreichen möchte, ist die vertika"
+   }
   ]
  },
  {
@@ -272,6 +369,17 @@
   "replacement": "\\g<1>0000-00-00 00:00:00\\g<2>0000-00-00\\g<3>",
   "sites_needing_it": [
    "yunyuyuan/nuxt3-blog"
+  ],
+  "derived_from": [
+   {
+    "site": "yunyuyuan/nuxt3-blog",
+    "commit": "40b7bb516071",
+    "file": "articles/index.html",
+    "difference_id": "D16",
+    "region_before": "-400 max-md:absolute max-md:bottom-6 max-md:right-6\" title=\"2025-03-09 13:49:44\">2025-03-09</span></div><div class=\"mt-4 flex item",
+    "region_after": "-400 max-md:absolute max-md:bottom-6 max-md:right-6\" title=\"2025-03-10 02:49:44\">2025-03-10</span></div><div class=\"mt-4 flex item",
+    "note": "Recorded region is truncated mid-tag by the context window (the <span opening is cut); the visible portion shows the span-title TZ date and bare date the rule normalizes. C1 region analysis confirms the rule matches 68 such regions in the yunyuyuan signal pair."
+   }
   ]
  },
  {
@@ -280,10 +388,20 @@
   "cause": "locale_timezone",
   "id": "nuxt-tz-jil",
   "kind": "regex",
-  "pattern": "(\u8bb0\u5f55: )\\d{4}-\\d{2}-\\d{2}",
+  "pattern": "(记录: )\\d{4}-\\d{2}-\\d{2}",
   "replacement": "\\g<1>0000-00-00",
   "sites_needing_it": [
    "yunyuyuan/nuxt3-blog"
+  ],
+  "derived_from": [
+   {
+    "site": "yunyuyuan/nuxt3-blog",
+    "commit": "a28de421d25f",
+    "file": "records/1207/index.html",
+    "difference_id": "D13",
+    "region_before": "port\" content=\"width=device-width, initial-scale=1\">\n<title>记录: 2020-10-26 - yunyuyuan blog</title>\n<link rel=\"stylesheet\" href=\"/_nux",
+    "region_after": "port\" content=\"width=device-width, initial-scale=1\">\n<title>记录: 2020-10-27 - yunyuyuan blog</title>\n<link rel=\"stylesheet\" href=\"/_nux"
+   }
   ]
  },
  {
@@ -296,31 +414,16 @@
   "replacement": "\\g<1>0000-00-00 00:00:00\\g<2>0.0\\g<3>",
   "sites_needing_it": [
    "yunyuyuan/nuxt3-blog"
-  ]
- },
- {
-  "addresses_build": "b3",
-  "applies_to": "html",
-  "cause": "locale_timezone",
-  "id": "nuxt-tz-bare",
-  "kind": "regex",
-  "note": "Simplified from worker R10 (bare dates after calendar icon / in metadata span).",
-  "pattern": "(</svg>)\\d{4}-\\d{2}-\\d{2}(</span>)",
-  "replacement": "\\g<1>0000-00-00\\g<2>",
-  "sites_needing_it": [
-   "yunyuyuan/nuxt3-blog"
-  ]
- },
- {
-  "addresses_build": "b3",
-  "applies_to": "html",
-  "cause": "content_hash_filename",
-  "id": "nemanjam-hoisted-js",
-  "kind": "regex",
-  "pattern": "/_astro/hoisted\\.[A-Za-z0-9_-]+(\\.js)",
-  "replacement": "/_astro/hoisted.HASH\\g<1>",
-  "sites_needing_it": [
-   "nemanjam/nemanjam.github.io"
+  ],
+  "derived_from": [
+   {
+    "site": "yunyuyuan/nuxt3-blog",
+    "commit": "f50767bf05e4",
+    "file": "records/index.html",
+    "difference_id": "D14",
+    "region_before": "ass=\"contain flex\"><!--[--><div style=\"\" class=\"item flexc\"><b title=\"2024-12-29 05:45:39\">12.29</b><a href=\"/records/6259\" class=\"multiple\"><!----></a",
+    "region_after": "ass=\"contain flex\"><!--[--><div style=\"\" class=\"item flexc\"><b title=\"2024-12-29 18:45:39\">12.29</b><a href=\"/records/6259\" class=\"multiple\"><!----></a"
+   }
   ]
  },
  {
@@ -333,6 +436,16 @@
   "replacement": "\\g<1>0\\g<3>",
   "sites_needing_it": [
    "madrilene/lenesaile.com"
+  ],
+  "derived_from": [
+   {
+    "site": "madrilene/lenesaile.com",
+    "commit": "5c24158e6c6a",
+    "file": "blog.xml",
+    "difference_id": "D1",
+    "region_before": "tp://blog.xml/\" rel=\"self\" type=\"application/atom+xml\" />\n  <updated>2026-09-25T13:15:50Z</updated>",
+    "region_after": "tp://blog.xml/\" rel=\"self\" type=\"application/atom+xml\" />\n  <updated>2026-09-25T13:42:29Z</updated>"
+   }
   ]
  },
  {
@@ -350,6 +463,24 @@
   "sites_needing_it": [
    "madrilene/lenesaile.com",
    "rimzzlabs/website"
+  ],
+  "derived_from": [
+   {
+    "site": "madrilene/lenesaile.com",
+    "commit": "5c24158e6c6a",
+    "file": "sitemap.xml",
+    "difference_id": "D2",
+    "region_before": "        <loc>http://localhost:8080/tags/blog/</loc>\n        <lastmod>2026-09-25T13:11:41.907Z</lastmod>\n        <changefreq>monthly</changefreq>\n    </url>\n    \n  ",
+    "region_after": "        <loc>http://localhost:8080/tags/blog/</loc>\n        <lastmod>2026-09-25T13:36:33.208Z</lastmod>\n        <changefreq>monthly</changefreq>\n    </url>\n    \n  "
+   },
+   {
+    "site": "rimzzlabs/website",
+    "commit": "328e90f173aa",
+    "file": "sitemap-0.xml",
+    "difference_id": "D1",
+    "region_before": "><url><loc>https://rimzzlabs.com/</loc><lastmod>2026-09-25T13:49:26.635Z</lastmod><changefreq>daily</changefreq><priority>",
+    "region_after": "><url><loc>https://rimzzlabs.com/</loc><lastmod>2026-09-25T14:10:44.152Z</lastmod><changefreq>daily</changefreq><priorit"
+   }
   ]
  },
  {
@@ -362,6 +493,16 @@
   "replacement": "\\g<1>\\g<2>",
   "sites_needing_it": [
    "cubxxw/blog"
+  ],
+  "derived_from": [
+   {
+    "site": "cubxxw/blog",
+    "commit": "7090d6acbb75",
+    "file": "subscriptions.opml",
+    "difference_id": "D2",
+    "region_before": "    <dateCreated>Fri, 25 Sep 2026 15:29:55 +0000</dateCreated>\n",
+    "region_after": "    <dateCreated>Fri, 25 Sep 2026 15:39:49 +0000</dateCreated>\n"
+   }
   ]
  },
  {
@@ -375,6 +516,16 @@
   "replacement": "\\g<1>Thu, 01 Jan 1970 00:00:00 GMT\\g<2>",
   "sites_needing_it": [
    "godruoyi/gblog"
+  ],
+  "derived_from": [
+   {
+    "site": "godruoyi/gblog",
+    "commit": "2a505c3d70af",
+    "file": "rss.xml",
+    "difference_id": "D2",
+    "region_before": "和那些只知道刷抖音的人来说并没有什么不同</description><pubDate>Fri, 09 Feb 2024 15:10:51 GMT</pubDate></item><item><title>办酒</title><link>http",
+    "region_after": "和那些只知道刷抖音的人来说并没有什么不同</description><pubDate>Fri, 09 Feb 2024 02:10:51 GMT</pubDate></item><item><title>办酒</title><link>http"
+   }
   ]
  }
 ]

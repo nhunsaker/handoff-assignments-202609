@@ -1081,6 +1081,100 @@
    }
   }
  ],
- "signal_lost": false,
- "analysis": "107 pages became identical; verified all differ ONLY in rule-matched noise regions (cache-buster-q ?v= timestamps). 120 pages with real content changes still differ; 14 new pages in after build."
+ "signal_lost": true,
+ "analysis": "107 pages became identical; verified all differ ONLY in rule-matched noise regions (cache-buster-q ?v= timestamps). 120 pages with real content changes still differ; 14 new pages in after build.",
+ "region_analysis": {
+  "cache-buster-q": {
+   "matcher": "regex: rule pattern applied to raw file text; match spans paired by document order per page; region normalization = match.expand(replacement)",
+   "files_compared": 234,
+   "regions_matched": 2646,
+   "regions_differing_raw": 2646,
+   "regions_differing_across_commits": 2646,
+   "regions_preserved_but_differing": 0,
+   "unpaired_before": 0,
+   "unpaired_after": 202,
+   "examples": [
+    {
+     "file": "404/index.html",
+     "before": "<link rel=\"preload\" as=\"style\" href=\"/assets/fonts/fonts.css?v=1790365934\">\n  <link rel=\"preload\" as=\"script\" href=\"/assets/javascrip",
+     "after": "<link rel=\"preload\" as=\"style\" href=\"/assets/fonts/fonts.css?v=1790366675\">\n  <link rel=\"preload\" as=\"script\" href=\"/assets/javascrip"
+    },
+    {
+     "file": "404/index.html",
+     "before": "reload\" as=\"script\" href=\"/assets/javascript/color-scheme.js?v=1790365934\">\n  <meta name=\"viewport\" content=\"width=device-width, init",
+     "after": "reload\" as=\"script\" href=\"/assets/javascript/color-scheme.js?v=1790366675\">\n  <meta name=\"viewport\" content=\"width=device-width, init"
+    },
+    {
+     "file": "404/index.html",
+     "before": "itle>\n  <link rel=\"stylesheet\" href=\"/assets/fonts/fonts.css?v=1790365934\" media=\"print\" onload=\"this.media='all'\">\n  <noscript><link",
+     "after": "itle>\n  <link rel=\"stylesheet\" href=\"/assets/fonts/fonts.css?v=1790366675\" media=\"print\" onload=\"this.media='all'\">\n  <noscript><link"
+    },
+    {
+     "file": "404/index.html",
+     "before": "oscript><link rel=\"stylesheet\" href=\"/assets/fonts/fonts.css?v=1790365934\"></noscript>\n  <link rel=\"stylesheet\" href=\"/assets/stylesh",
+     "after": "oscript><link rel=\"stylesheet\" href=\"/assets/fonts/fonts.css?v=1790366675\"></noscript>\n  <link rel=\"stylesheet\" href=\"/assets/stylesh"
+    },
+    {
+     "file": "404/index.html",
+     "before": "cript>\n  <link rel=\"stylesheet\" href=\"/assets/stylesheet.css?v=1790365934\" media=\"all\">\n  \n  \n  <link rel=\"stylesheet\" href=\"/assets/",
+     "after": "cript>\n  <link rel=\"stylesheet\" href=\"/assets/stylesheet.css?v=1790366675\" media=\"all\">\n  \n  \n  <link rel=\"stylesheet\" href=\"/assets/"
+    }
+   ],
+   "signal_lost": true
+  },
+  "beeps-og-timestamp": {
+   "matcher": "regex: rule pattern applied to raw file text; match spans paired by document order per page; region normalization = match.expand(replacement)",
+   "files_compared": 234,
+   "regions_matched": 122,
+   "regions_differing_raw": 122,
+   "regions_differing_across_commits": 122,
+   "regions_preserved_but_differing": 0,
+   "unpaired_before": 0,
+   "unpaired_after": 0,
+   "examples": [
+    {
+     "file": "404/index.html",
+     "before": "/https%3A%2F%2Fbeeps.website%2F404%2Fopengraph%2F/opengraph/_1790365934/\">\n<meta property=\"og:type\" content=\"website\">\n<meta name=\"t",
+     "after": "/https%3A%2F%2Fbeeps.website%2F404%2Fopengraph%2F/opengraph/_1790366675/\">\n<meta property=\"og:type\" content=\"website\">\n<meta name=\"t"
+    },
+    {
+     "file": "about/asexuality/index.html",
+     "before": "beeps.website%2Fabout%2Fasexuality%2Fopengraph%2F/opengraph/_1790365943/\">\n<meta property=\"og:type\" content=\"website\">\n<meta name=\"t",
+     "after": "beeps.website%2Fabout%2Fasexuality%2Fopengraph%2F/opengraph/_1790366682/\">\n<meta property=\"og:type\" content=\"website\">\n<meta name=\"t"
+    },
+    {
+     "file": "about/furry/index.html",
+     "before": "2F%2Fbeeps.website%2Fabout%2Ffurry%2Fopengraph%2F/opengraph/_1790365943/\">\n<meta property=\"og:type\" content=\"website\">\n<meta name=\"t",
+     "after": "2F%2Fbeeps.website%2Fabout%2Ffurry%2Fopengraph%2F/opengraph/_1790366682/\">\n<meta property=\"og:type\" content=\"website\">\n<meta name=\"t"
+    },
+    {
+     "file": "about/gender/index.html",
+     "before": "F%2Fbeeps.website%2Fabout%2Fgender%2Fopengraph%2F/opengraph/_1790365943/\">\n<meta property=\"og:type\" content=\"website\">\n<meta name=\"t",
+     "after": "F%2Fbeeps.website%2Fabout%2Fgender%2Fopengraph%2F/opengraph/_1790366682/\">\n<meta property=\"og:type\" content=\"website\">\n<meta name=\"t"
+    },
+    {
+     "file": "about/index.html",
+     "before": "ttps%3A%2F%2Fbeeps.website%2Fabout%2Fopengraph%2F/opengraph/_1790365941/\">\n<meta property=\"og:type\" content=\"website\">\n  <meta name=",
+     "after": "ttps%3A%2F%2Fbeeps.website%2Fabout%2Fopengraph%2F/opengraph/_1790366680/\">\n<meta property=\"og:type\" content=\"website\">\n  <meta name="
+    }
+   ],
+   "signal_lost": true
+  },
+  "beeps-redaction-mask": {
+   "matcher": "regex: rule pattern applied to raw file text; match spans paired by document order per page; region normalization = match.expand(replacement)",
+   "files_compared": 234,
+   "regions_matched": 0,
+   "regions_differing_raw": 0,
+   "regions_differing_across_commits": 0,
+   "regions_preserved_but_differing": 0,
+   "unpaired_before": 0,
+   "unpaired_after": 0,
+   "examples": [],
+   "signal_lost": false
+  }
+ },
+ "signal_lost_rules": [
+  "cache-buster-q",
+  "beeps-og-timestamp"
+ ]
 }

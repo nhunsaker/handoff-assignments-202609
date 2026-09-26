@@ -9,7 +9,7 @@
    },
    "differences": [
     {
-     "cause": "random_id",
+     "cause": "live_data",
      "files_count": 11,
      "files_examples": [
       "blog/index.html",
@@ -18,14 +18,15 @@
       "blog/1/index.html",
       "blog/tags/python/index.html"
      ],
-     "region_before": "Dolor velit excepteur cupidatat aute in fugiat id reprehenderit ipsum qui tempor fugiat. Excepteur tempor culpa velit duis quis\u2026",
-     "region_after": "Dolor velit excepteur cupidatat aute in fugiat id reprehenderit ipsum qui tempor fugiat. Excepteur tempor culpa velit duis quis enim aliquip. Et\u2026",
+     "region_before": "Dolor velit excepteur cupidatat aute in fugiat id reprehenderit ipsum qui tempor fugiat. Excepteur tempor culpa velit duis quis…",
+     "region_after": "Dolor velit excepteur cupidatat aute in fugiat id reprehenderit ipsum qui tempor fugiat. Excepteur tempor culpa velit duis quis enim aliquip. Et…",
      "seen_in": [
       "b2",
       "b3",
       "b4"
      ],
-     "note": "From getRandomLengthSubstring(description, 100, 50) in PostItem.astro; only listing pages."
+     "note": "From getRandomLengthSubstring(description, 100, 50) in PostItem.astro; only listing pages. [2026-09-26 C2 reclassification: cause live_data/other=\"generated content\" — posts are generated placeholder text (\"Dolor velit excepteur cupidatat aute in fugiat id reprehenderit ipsum qui tempor fugiat. Excepteur tempor culpa velit duis quis…\") that changes on every build; masking it is not normalization.]",
+     "other": "generated content"
     },
     {
      "cause": "content_hash_filename",
@@ -189,7 +190,7 @@
      "note": "39 HTML files differ ONLY by transformed-image URLs."
     },
     {
-     "cause": "random_id",
+     "cause": "live_data",
      "files_count": 28,
      "files_examples": [
       "og-image PNG files"
@@ -201,7 +202,8 @@
       "b3",
       "b4"
      ],
-     "note": "From: const randomIndex = Math.floor(Math.random() * imageFiles.length); in og-image generation."
+     "note": "From: const randomIndex = Math.floor(Math.random() * imageFiles.length); in og-image generation. [2026-09-26 C2 reclassification: open-graph PNG uses one random background image per build — generated content, not a normalizable difference.]",
+     "other": "generated content"
     },
     {
      "cause": "random_id",

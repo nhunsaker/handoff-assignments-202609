@@ -10,5 +10,9 @@
  "became_identical": 0,
  "flagged_pages": [],
  "signal_lost": false,
- "analysis": "0 HTML pages changed in signal pair (changes were non-HTML). No rules for this site."
+ "analysis": "0 HTML pages changed in signal pair (changes were non-HTML). No rules for this site.",
+ "region_analysis": {
+  "note": "not_measurable: signal-pair build HTML not retained on disk (elsbrock/hetzner-radar signal pair 23a1d73826cd -> fb9db8dc9e75 emitted 0 HTML pages; Cloudflare SPA). No rules assigned to this site."
+ },
+ "signal_lost_rules": []
 }

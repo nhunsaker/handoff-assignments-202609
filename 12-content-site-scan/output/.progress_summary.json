@@ -1,1 +1,14 @@
-{"current_stage":4,"progress_percent":100,"stage_name":"summary.json write","stages":["probe validation","verdict audit","funnel arithmetic","summary.json write"],"status":"complete","total_stages":4}
+{
+ "current_stage": 4,
+ "progress_percent": 100,
+ "stage_name": "summary.json write",
+ "stages": [
+  "probe validation",
+  "verdict audit",
+  "funnel arithmetic",
+  "summary.json write"
+ ],
+ "status": "complete",
+ "total_stages": 4,
+ "scope": "H/E/J probe phase only: 100% of screening/windowing/probing for buckets H, E, J. Buckets A (Astro) and N (Next/Nuxt/SvelteKit/Gatsby) stopped after intake (60 candidates kept each); they were never screened, windowed or probed in this run."
+}

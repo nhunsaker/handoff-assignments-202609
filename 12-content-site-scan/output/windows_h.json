@@ -29,7 +29,8 @@
     "count": 2
    }
   ],
-  "commits_missing_manifest": []
+  "commits_missing_manifest": [],
+  "qualifies": true
  },
  {
   "repo": "neoforged/websites",
@@ -230,7 +231,8 @@
     "count": 23
    }
   ],
-  "commits_missing_manifest": []
+  "commits_missing_manifest": [],
+  "qualifies": true
  },
  {
   "repo": "gscalzo/gscalzo.github.io",
@@ -419,7 +421,8 @@
     "count": 20
    }
   ],
-  "commits_missing_manifest": []
+  "commits_missing_manifest": [],
+  "qualifies": true
  },
  {
   "repo": "dreamkidd/dreamkidd.github.io",
@@ -504,7 +507,8 @@
     "count": 6
    }
   ],
-  "commits_missing_manifest": []
+  "commits_missing_manifest": [],
+  "qualifies": true
  },
  {
   "repo": "JaneliaSciComp/hortacloud-website",
@@ -646,7 +650,8 @@
     "count": 22
    }
   ],
-  "commits_missing_manifest": []
+  "commits_missing_manifest": [],
+  "qualifies": true
  },
  {
   "repo": "throttlemeister/sport-touring.eu",
@@ -746,7 +751,8 @@
     "count": 1
    }
   ],
-  "commits_missing_manifest": []
+  "commits_missing_manifest": [],
+  "qualifies": true
  },
  {
   "repo": "fichil/fichil.com",
@@ -761,7 +767,8 @@
   "manifest_present_all_commits": true,
   "manifest_at_head": "hugo.yaml",
   "verdict": "no_window",
-  "notes": "55 page-touching commits since 2024-03-01 but no 6-month window with end in [2024-09-25, 2026-09-25]; manifest at HEAD: hugo.yaml; tip 3412719"
+  "notes": "55 page-touching commits since 2024-03-01 but no 6-month window with end in [2024-09-25, 2026-09-25]; manifest at HEAD: hugo.yaml; tip 3412719",
+  "qualifies": true
  },
  {
   "repo": "criticalfault/nullsheen_main_site",
@@ -1344,7 +1351,8 @@
     "count": 88
    }
   ],
-  "commits_missing_manifest": []
+  "commits_missing_manifest": [],
+  "qualifies": true
  },
  {
   "repo": "trust2065/blog",
@@ -1511,7 +1519,8 @@
     "count": 13
    }
   ],
-  "commits_missing_manifest": []
+  "commits_missing_manifest": [],
+  "qualifies": true
  },
  {
   "repo": "MickTheLinuxGeek/mgl-website",
@@ -1760,7 +1769,8 @@
     "count": 20
    }
   ],
-  "commits_missing_manifest": []
+  "commits_missing_manifest": [],
+  "qualifies": true
  },
  {
   "repo": "24x7fpga/24x7fpga-website",
@@ -3016,7 +3026,8 @@
     "count": 165
    }
   ],
-  "commits_missing_manifest": []
+  "commits_missing_manifest": [],
+  "qualifies": true
  },
  {
   "repo": "stonefish02/stonefish02.github.io",
@@ -3224,7 +3235,8 @@
     "count": 24
    }
   ],
-  "commits_missing_manifest": []
+  "commits_missing_manifest": [],
+  "qualifies": true
  },
  {
   "repo": "Svenno76/bioplastic-website",
@@ -6446,7 +6458,8 @@
     "count": 314
    }
   ],
-  "commits_missing_manifest": []
+  "commits_missing_manifest": [],
+  "qualifies": true
  },
  {
   "repo": "KirisameMagicShop/kirisamemagicshop.github.io",
@@ -6646,7 +6659,8 @@
     "count": 5
    }
   ],
-  "commits_missing_manifest": []
+  "commits_missing_manifest": [],
+  "qualifies": true
  },
  {
   "repo": "stewing-co/warp_and_weft_data",
@@ -7064,7 +7078,8 @@
     "count": 38
    }
   ],
-  "commits_missing_manifest": []
+  "commits_missing_manifest": [],
+  "qualifies": true
  },
  {
   "repo": "hugozhu/blog2",
@@ -10802,7 +10817,8 @@
     "count": 476
    }
   ],
-  "commits_missing_manifest": []
+  "commits_missing_manifest": [],
+  "qualifies": true
  },
  {
   "repo": "brickcamp/site",
@@ -11367,7 +11383,8 @@
     "count": 69
    }
   ],
-  "commits_missing_manifest": []
+  "commits_missing_manifest": [],
+  "qualifies": true
  },
  {
   "repo": "QubiTO-team/qubito-website",
@@ -11572,7 +11589,8 @@
     "count": 35
    }
   ],
-  "commits_missing_manifest": []
+  "commits_missing_manifest": [],
+  "qualifies": true
  },
  {
   "repo": "cmahnke/kinderbuecher",
@@ -11695,7 +11713,8 @@
     "count": 13
    }
   ],
-  "commits_missing_manifest": []
+  "commits_missing_manifest": [],
+  "qualifies": true
  },
  {
   "repo": "hybridgroup/yzma-site",
@@ -11710,7 +11729,8 @@
   "manifest_present_all_commits": true,
   "manifest_at_head": "package.json",
   "verdict": "no_window",
-  "notes": "36 page-touching commits since 2024-03-01 but no 6-month window with end in [2024-09-25, 2026-09-25]; manifest at HEAD: package.json; tip d81a6cc"
+  "notes": "36 page-touching commits since 2024-03-01 but no 6-month window with end in [2024-09-25, 2026-09-25]; manifest at HEAD: package.json; tip d81a6cc",
+  "qualifies": true
  },
  {
   "repo": "CRaC/crac.github.io",
@@ -11801,7 +11821,8 @@
     "count": 3
    }
   ],
-  "commits_missing_manifest": []
+  "commits_missing_manifest": [],
+  "qualifies": true
  },
  {
   "repo": "o3de/o3de.org",
@@ -12006,7 +12027,8 @@
     "count": 28
    }
   ],
-  "commits_missing_manifest": []
+  "commits_missing_manifest": [],
+  "qualifies": true
  },
  {
   "repo": "nushackers/nushackers-site",
@@ -12239,7 +12261,8 @@
     "count": 29
    }
   ],
-  "commits_missing_manifest": []
+  "commits_missing_manifest": [],
+  "qualifies": true
  },
  {
   "repo": "aws/eks-news",
@@ -12353,7 +12376,8 @@
     "count": 10
    }
   ],
-  "commits_missing_manifest": []
+  "commits_missing_manifest": [],
+  "qualifies": true
  },
  {
   "repo": "scientific-python/blog.scientific-python.org",
@@ -12481,7 +12505,8 @@
     "count": 13
    }
   ],
-  "commits_missing_manifest": []
+  "commits_missing_manifest": [],
+  "qualifies": true
  },
  {
   "repo": "simple-login/website",
@@ -12570,7 +12595,8 @@
     "count": 9
    }
   ],
-  "commits_missing_manifest": []
+  "commits_missing_manifest": [],
+  "qualifies": true
  },
  {
   "repo": "dengyishuo/dengyishuo.github.com",
@@ -13369,7 +13395,8 @@
   "commits_missing_manifest": [
    "e73fe77",
    "a58c359"
-  ]
+  ],
+  "qualifies": true
  },
  {
   "repo": "jacobtomlinson/website",
@@ -13804,7 +13831,8 @@
     "count": 35
    }
   ],
-  "commits_missing_manifest": []
+  "commits_missing_manifest": [],
+  "qualifies": true
  },
  {
   "repo": "pyodide/pyodide-blog",
@@ -13906,7 +13934,8 @@
     "count": 6
    }
   ],
-  "commits_missing_manifest": []
+  "commits_missing_manifest": [],
+  "qualifies": true
  },
  {
   "repo": "okfde/codefor.de",
@@ -14062,7 +14091,8 @@
     "count": 21
    }
   ],
-  "commits_missing_manifest": []
+  "commits_missing_manifest": [],
+  "qualifies": true
  },
  {
   "repo": "zwbetz-gh/zwbetz",
@@ -14196,7 +14226,8 @@
     "count": 15
    }
   ],
-  "commits_missing_manifest": []
+  "commits_missing_manifest": [],
+  "qualifies": true
  },
  {
   "repo": "learnitmyway/learnitmyway-wesbite",
@@ -14211,7 +14242,8 @@
   "manifest_present_all_commits": true,
   "manifest_at_head": "package.json",
   "verdict": "no_window",
-  "notes": "no page-touching commits on main since 2024-03-01; manifest at HEAD: package.json; tip 1ba2e11"
+  "notes": "no page-touching commits on main since 2024-03-01; manifest at HEAD: package.json; tip 1ba2e11",
+  "qualifies": true
  },
  {
   "repo": "antrea-io/website",
@@ -15288,7 +15320,8 @@
     "count": 104
    }
   ],
-  "commits_missing_manifest": []
+  "commits_missing_manifest": [],
+  "qualifies": true
  },
  {
   "repo": "pdxrconf/pdxrconf.github.io",
@@ -15549,7 +15582,8 @@
     "count": 35
    }
   ],
-  "commits_missing_manifest": []
+  "commits_missing_manifest": [],
+  "qualifies": true
  },
  {
   "repo": "olgabot/olgabotvinnik.com",
@@ -15564,7 +15598,8 @@
   "manifest_present_all_commits": true,
   "manifest_at_head": "config.toml",
   "verdict": "no_window",
-  "notes": "no page-touching commits on master since 2024-03-01; manifest at HEAD: config.toml; tip c1421eb"
+  "notes": "no page-touching commits on master since 2024-03-01; manifest at HEAD: config.toml; tip c1421eb",
+  "qualifies": true
  },
  {
   "repo": "spotlightpa/poor-richard",
@@ -25777,7 +25812,8 @@
     "count": 1239
    }
   ],
-  "commits_missing_manifest": []
+  "commits_missing_manifest": [],
+  "qualifies": true
  },
  {
   "repo": "carpentries/carpentries.org",
@@ -28815,7 +28851,8 @@
     "count": 243
    }
   ],
-  "commits_missing_manifest": []
+  "commits_missing_manifest": [],
+  "qualifies": true
  },
  {
   "repo": "j-magnolia/maggiegilligan.hugo",
@@ -28985,7 +29022,8 @@
     "count": 20
    }
   ],
-  "commits_missing_manifest": []
+  "commits_missing_manifest": [],
+  "qualifies": true
  },
  {
   "repo": "NGSchoolEU/website",
@@ -29105,7 +29143,8 @@
     "count": 9
    }
   ],
-  "commits_missing_manifest": []
+  "commits_missing_manifest": [],
+  "qualifies": true
  },
  {
   "repo": "jimangel/jimangel.io",
@@ -29225,7 +29264,8 @@
     "count": 5
    }
   ],
-  "commits_missing_manifest": []
+  "commits_missing_manifest": [],
+  "qualifies": true
  },
  {
   "repo": "ani-mohan/aniruddh-mohan",
@@ -29338,7 +29378,8 @@
     "count": 15
    }
   ],
-  "commits_missing_manifest": []
+  "commits_missing_manifest": [],
+  "qualifies": true
  },
  {
   "repo": "laomaiorg/laomaiorg",
@@ -29353,6 +29394,7 @@
   "manifest_present_all_commits": true,
   "manifest_at_head": "package.json",
   "verdict": "no_window",
-  "notes": "no page-touching commits on main since 2024-03-01; manifest at HEAD: package.json; tip 4cf6c19"
+  "notes": "no page-touching commits on main since 2024-03-01; manifest at HEAD: package.json; tip 4cf6c19",
+  "qualifies": true
  }
 ]

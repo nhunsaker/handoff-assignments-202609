@@ -90,6 +90,73 @@
    }
   }
  ],
- "signal_lost": false,
- "analysis": "8 pages became identical; verified as noise (build-timestamp 'Present', Shiki nondeterministic colors). Real changes retained: new notes page, gear/index.html, index pages."
+ "signal_lost": true,
+ "analysis": "8 pages became identical; verified as noise (build-timestamp 'Present', Shiki nondeterministic colors). Real changes retained: new notes page, gear/index.html, index pages.",
+ "region_analysis": {
+  "shiki-unwrap": {
+   "matcher": "dom: lxml.html parse; selector \"pre.astro-code span, pre[data-theme] span\" translated to XPath [\"//pre[contains(concat(' ',normalize-space(@class),' '),' astro-code ')]//span\", '//pre[@data-theme]//span']; each selected element serialized via lxml.html.tostring(unicode); elements paired by document order per page; region normalization = element text content (both dom rules unwrap tags but keep text)",
+   "files_compared": 79,
+   "regions_matched": 2360,
+   "regions_differing_raw": 436,
+   "regions_differing_across_commits": 205,
+   "regions_preserved_but_differing": 231,
+   "unpaired_before": 1,
+   "unpaired_after": 23,
+   "examples": [
+    {
+     "file": "notes/1/index.html",
+     "before": "<span class=\"line\"><span style=\"color:#0550AE;--shiki-dark:#79C0FF\">  background-image</span><span style=\"color:#1F2328;--shiki-dark:#E6EDF3\">: </span><span style=\"color:#0550AE;--shiki-dark:#79C0FF\">radial-gradient</span><span style=\"color:#1F2328;--shiki-dark:#E6EDF3\">(</span><span style=\"color:#0550AE;--shiki-dark:#79C0FF\">red</span><span style=\"color:#0550AE;--shiki-dark:#79C0FF\"> 1</span><span style=\"color:#0550AE;--shiki-dark:#FF7B72\">px</span><span style=\"color:#0550AE;--shiki-dark:#E6EDF3\">, </span><span style=\"color:#0550AE;--shiki-dark:#79C0FF\">transparent</span><span style=\"color:#0",
+     "after": "<span class=\"line\"><span style=\"color:#0550AE;--shiki-dark:#79C0FF\">  background-image</span><span style=\"color:#1F2328;--shiki-dark:#E6EDF3\">: </span><span style=\"color:#0550AE;--shiki-dark:#79C0FF\">radial-gradient</span><span style=\"color:#1F2328;--shiki-dark:#E6EDF3\">(</span><span style=\"color:#0550AE;--shiki-dark:#79C0FF\">red</span><span style=\"color:#0550AE;--shiki-dark:#79C0FF\"> 1</span><span style=\"color:#CF222E;--shiki-dark:#FF7B72\">px</span><span style=\"color:#1F2328;--shiki-dark:#E6EDF3\">, </span><span style=\"color:#0550AE;--shiki-dark:#79C0FF\">transparent</span><span style=\"color:#0",
+     "shared_text": "  background-image: radial-gradient(red 1px, transparent 1.3px);"
+    },
+    {
+     "file": "notes/1/index.html",
+     "before": "<span style=\"color:#0550AE;--shiki-dark:#FF7B72\">px</span>",
+     "after": "<span style=\"color:#CF222E;--shiki-dark:#FF7B72\">px</span>",
+     "shared_text": "px"
+    },
+    {
+     "file": "notes/1/index.html",
+     "before": "<span style=\"color:#0550AE;--shiki-dark:#E6EDF3\">, </span>",
+     "after": "<span style=\"color:#1F2328;--shiki-dark:#E6EDF3\">, </span>",
+     "shared_text": ", "
+    },
+    {
+     "file": "notes/1/index.html",
+     "before": "<span style=\"color:#0550AE;--shiki-dark:#FF7B72\">px</span>",
+     "after": "<span style=\"color:#CF222E;--shiki-dark:#FF7B72\">px</span>",
+     "shared_text": "px"
+    },
+    {
+     "file": "notes/1/index.html",
+     "before": "<span style=\"color:#0550AE;--shiki-dark:#E6EDF3\">);</span>",
+     "after": "<span style=\"color:#1F2328;--shiki-dark:#E6EDF3\">);</span>",
+     "shared_text": ");"
+    }
+   ],
+   "signal_lost": true
+  },
+  "alex-present-time": {
+   "matcher": "regex: rule pattern applied to raw file text; match spans paired by document order per page; region normalization = match.expand(replacement)",
+   "files_compared": 79,
+   "regions_matched": 1,
+   "regions_differing_raw": 1,
+   "regions_differing_across_commits": 1,
+   "regions_preserved_but_differing": 0,
+   "unpaired_before": 0,
+   "unpaired_after": 0,
+   "examples": [
+    {
+     "file": "index.html",
+     "before": "me datetime=\"2024-01-04T00:00:00.000Z\"> Jan 2024 </time> \n-\n<time datetime=\"2026-09-25T17:28:23.262Z\">Present</time> </p> </div> <div class=\"prose mt-4 text-pretty\"> <p>UI Engi",
+     "after": "me datetime=\"2024-01-04T00:00:00.000Z\"> Jan 2024 </time> \n-\n<time datetime=\"2026-09-25T16:36:14.811Z\">Present</time> </p> </div> <div class=\"prose mt-4 text-pretty\"> <p>UI Engi"
+    }
+   ],
+   "signal_lost": true
+  }
+ },
+ "signal_lost_rules": [
+  "shiki-unwrap",
+  "alex-present-time"
+ ]
 }

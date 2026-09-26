@@ -1,0 +1,32 @@
+{
+ "commit_substitutions": "none - all three brief commits (6333be10bf83, 0b7c59fd2a7f, 7fed9b43b849) built as specified",
+ "locale_b3": {
+  "LC_CTYPE": "de_DE.UTF-8",
+  "LC_NUMERIC": "de_DE.UTF-8",
+  "LC_TIME": "de_DE.UTF-8",
+  "LC_ALL": "de_DE.UTF-8",
+  "LANG": "de_DE.UTF-8",
+  "TZ": "Pacific/Auckland"
+ },
+ "toolchain_notes": [
+  "Driver asserts exact node -v before every build",
+  "Offline mirror covers all required lockfiles; 1462 unique tarballs cached",
+  "Undici proxy shim at ~/workspace/13-scratch/proxy-shim/register.mjs (deviation from Assignment 09 curl-backed shim)",
+  "6333be10bf83/b2 used pristine node_modules snapshot copy (documented as snapshot-copy mode)",
+  "7fed9b43b849/b2 first attempt killed by service restart (environment failure); fresh worktree retry succeeded",
+  "6333be10bf83/b2 install 88s (snapshot copy) vs b1 2135s (full offline install)"
+ ],
+ "signal_pair": {
+  "before": "6333be10bf83",
+  "after": "5dc35d9eb87d",
+  "build_label": "signal-b1 (assignment requested b1; driver used signal-b1 label)",
+  "build": {
+   "install_seconds": 143,
+   "build_seconds": 146,
+   "file_count": 120
+  },
+  "changed_files_count": 20,
+  "changed_files_note": "git diff 6333be10bf83 5dc35d9eb87d --stat reports 84 files (includes images, config); 20 source files changed per assignment definition"
+ },
+ "not_done": []
+}

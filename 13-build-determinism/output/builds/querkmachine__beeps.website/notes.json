@@ -1,0 +1,300 @@
+{
+ "repo": "querkmachine/beeps.website",
+ "assignment": "13-build-determinism",
+ "commit_substitutions": "none; all three target commits built with valid b1-b4",
+ "target_commits": [
+  {
+   "sha12": "74dc73cd551a",
+   "full_sha": "74dc73cd551ac340ac0960d8f00cbdf60b5566fd",
+   "node": "v21.6.2",
+   "npm": "10.2.4",
+   "eleventy": "v2.0.1",
+   "builds": {
+    "b1": {
+     "install_seconds": 942,
+     "build_seconds": 2544,
+     "file_count": 780
+    },
+    "b2": {
+     "install_seconds": 840,
+     "build_seconds": 916,
+     "file_count": 780
+    },
+    "b3": {
+     "install_seconds": 58,
+     "build_seconds": 627,
+     "file_count": 780
+    },
+    "b4": {
+     "install_seconds": 404,
+     "build_seconds": 970,
+     "file_count": 780
+    }
+   },
+   "b3_locale": {
+    "locale": "de-DE",
+    "date": "Sat Sep 26 2026 05:07:56 GMT+1200 (Neuseeland-Normalzeit)"
+   }
+  },
+  {
+   "sha12": "23276fd86320",
+   "full_sha": "23276fd8632062d32e95844af02dda8ba489691b",
+   "node": "v22.9.0",
+   "npm": "10.8.3",
+   "eleventy": "v3.0.0",
+   "builds": {
+    "b1": {
+     "install_seconds": 60,
+     "build_seconds": 615,
+     "file_count": 1203
+    },
+    "b2": {
+     "install_seconds": 75,
+     "build_seconds": 475,
+     "file_count": 1203
+    },
+    "b3": {
+     "install_seconds": 50,
+     "build_seconds": 462,
+     "file_count": 1203
+    },
+    "b4": {
+     "install_seconds": 78,
+     "build_seconds": 412,
+     "file_count": 1203
+    }
+   },
+   "b3_locale": {
+    "locale": "de-DE",
+    "tz": "Pacific/Auckland",
+    "via": "LOCPATH=/home/hatch/.locales LANG=de_DE.UTF-8 LC_ALL=de_DE.UTF-8 TZ=Pacific/Auckland"
+   }
+  },
+  {
+   "sha12": "477a1f74a9db",
+   "full_sha": "477a1f74a9db58191892ed95218d92b0e69a906f",
+   "node": "v24.13.0",
+   "npm": "11.6.2",
+   "eleventy": "v3.1.6",
+   "builds": {
+    "b1": {
+     "install_seconds": 84,
+     "build_seconds": 482,
+     "file_count": 1540
+    },
+    "b2": {
+     "install_seconds": 75,
+     "build_seconds": 475,
+     "file_count": 1540
+    },
+    "b3": {
+     "install_seconds": 65,
+     "build_seconds": 535,
+     "file_count": 1540
+    },
+    "b4": {
+     "install_seconds": 122,
+     "build_seconds": 491,
+     "file_count": 1540
+    }
+   },
+   "b3_note": "b3 install without locale env (npm fails with de_DE.UTF-8); build with LOCPATH=$HOME/.locales LANG=de_DE.UTF-8 LC_ALL=de_DE.UTF-8 TZ=Pacific/Auckland. Node locale de-DE confirmed."
+  }
+ ],
+ "differences_summary": {
+  "74dc73cd551a": "b1 vs b2/b3/b4: 221 files differ; cause build_timestamp (?v=<ts> in asset URLs, _<ts> in og:image). No live_data differences observed.",
+  "23276fd86320": "b1 vs b2/b3/b4: 241 files differ; cause build_timestamp. No live_data differences observed.",
+  "477a1f74a9db": "b1 vs b2/b3/b4: 341 files differ; cause build_timestamp. No live_data differences observed."
+ },
+ "candidate_rules": [
+  {
+   "id": "normalize-build-timestamp",
+   "pattern": "?v=\\d+ -> ?v=TIMESTAMP; _\\d{10}/ -> _TIMESTAMP/ in og:image",
+   "addresses_build": "b1,b2,b3,b4",
+   "note": "Minimal rule for b1<->b2 HTML identity. Build timestamp in asset cache-busting URLs. Not live_data."
+  }
+ ],
+ "live_data_source": {
+  "file": "src/blog/blog.11tydata.js",
+  "endpoints": [
+   "https://${data.interactions.host}/api/v1/statuses/${data.interactions.id}",
+   "https://${data.interactions.host}/api/v1/statuses/${data.interactions.id}/favourited_by",
+   "https://${data.interactions.host}/api/v1/statuses/${data.interactions.id}/reblogged_by",
+   "https://${data.interactions.host}/api/v1/statuses/${data.interactions.id}/context"
+  ],
+  "classification": "Output changes caused by these responses are live_data. No normalization proposed."
+ },
+ "proxy_toolchain": {
+  "preload": "scratch/proxy/proxy-preload.js",
+  "via": "NODE_OPTIONS=--require .../proxy-preload.js",
+  "purpose": "Routes Node/node-fetch HTTPS through sandbox proxy; retries transient GET/HEAD failures.",
+  "note": "Environment/toolchain plumbing, not normalization. Direct Node TLS failed with ERR_SSL_WRONG_VERSION_NUMBER; curl via CONNECT proxy worked."
+ },
+ "signal_pair": {
+  "before": "2eded9a40a6f98a1d56d1d123592cae51263cb47",
+  "before_date": "2024-11-24",
+  "after": "e87b790eacd0be6809cad89539433e4d1af33313",
+  "after_date": "2025-01-09",
+  "consecutive": true,
+  "before_build": {
+   "node": "v22.9.0",
+   "install_seconds": 92,
+   "build_seconds": 367,
+   "file_count": 835
+  },
+  "after_build": {
+   "node": "v22.9.0",
+   "install_seconds": 62,
+   "build_seconds": 291,
+   "file_count": 1193
+  },
+  "changed_files_note": "Exact 150-file list in scratch/signal_changed_files.txt (use verbatim).",
+  "changed_files_sample": [
+   ".github/workflows/deploy.yml",
+   ".gitignore",
+   "config/sass.js",
+   "config/shortcodes/character.js",
+   "config/shortcodes/figure.js",
+   "package-lock.json",
+   "package.json",
+   "src/.well-known/discord",
+   "src/_data/buttons/friends.js",
+   "src/_data/site.js",
+   "src/_data/webrings.js",
+   "src/_includes/blog-card.njk",
+   "src/_includes/blog-comments.njk",
+   "src/_includes/color-scheme-switch.njk",
+   "src/_includes/interaction-list.njk",
+   "src/_includes/jump-link.njk",
+   "src/_layouts/blog-post.njk",
+   "src/_layouts/homepage.njk",
+   "src/_layouts/layout.njk",
+   "src/about/nonhuman.md"
+  ]
+ },
+ "toolchain_verification": {
+  "date": "2026-09-25T20:32Z",
+  "fnm_path": "/home/hatch/.local/share/fnm/fnm",
+  "setup": "export PATH=\"/home/hatch/.local/share/fnm:$PATH\"; eval \"$(fnm env)\"; fnm use <version>; node -v",
+  "verified_pairings": {
+   "v21.6.2": "node v21.6.2, npm 10.2.4",
+   "v22.9.0": "node v22.9.0, npm 10.8.3",
+   "v24.13.0": "node v24.13.0, npm 11.6.2"
+  },
+  "audit": "All 14 builds (12 target + 2 signal) used the brief-specified node: drivers used absolute-path fnm with '|| exit 1' and captured node -v; manual builds used the same sequence (empirically verified to switch correctly); npm debug log for 477a1f74a9db/b3 showed 'node v24.13.0 / npm v11.6.2'; manifest npm versions match node-bundled pairings. No wrong-node builds found; no redos needed. System node is v24.20.0 at /usr/bin/node (unused).",
+  "b3_locale": {
+   "built_with": "localedef -i de_DE -f UTF-8 /home/hatch/.locales/de_DE.UTF-8",
+   "visible_via": "LOCPATH=/home/hatch/.locales",
+   "verify_command": "TZ=Pacific/Auckland LC_ALL=de_DE.UTF-8 LOCPATH=/home/hatch/.locales locale",
+   "verify_result": "all LC_* = de_DE.UTF-8",
+   "node_check": "{\"d\":\"Sat Sep 26 2026 08:32:07 GMT+1200 (Neuseeland-Normalzeit)\",\"loc\":\"de-DE\",\"node\":\"v24.13.0\"}"
+  }
+ },
+ "build_completion": {
+  "74dc73cd551a": {
+   "b1": {
+    "status": "success",
+    "files": 780,
+    "install_s": 942,
+    "build_s": 1983
+   },
+   "b2": {
+    "status": "success",
+    "files": 780,
+    "install_s": 840,
+    "build_s": 916
+   },
+   "b3": {
+    "status": "success",
+    "files": 780,
+    "install_s": 58,
+    "build_s": 627
+   },
+   "b4": {
+    "status": "success",
+    "files": 780,
+    "install_s": 404,
+    "build_s": 970
+   }
+  },
+  "23276fd86320": {
+   "b1": {
+    "status": "success",
+    "files": 1203,
+    "install_s": 60,
+    "build_s": 615
+   },
+   "b2": {
+    "status": "success",
+    "files": 1203,
+    "install_s": 75,
+    "build_s": 475
+   },
+   "b3": {
+    "status": "success",
+    "files": 1203,
+    "install_s": 50,
+    "build_s": 462
+   },
+   "b4": {
+    "status": "success",
+    "files": 1203,
+    "install_s": 78,
+    "build_s": 412
+   }
+  },
+  "477a1f74a9db": {
+   "b1": {
+    "status": "success",
+    "files": 1540,
+    "install_s": 84,
+    "build_s": 482
+   },
+   "b2": {
+    "status": "success",
+    "files": 1540,
+    "install_s": 75,
+    "build_s": 475
+   },
+   "b3": {
+    "status": "success",
+    "files": 1540,
+    "install_s": 40,
+    "build_s": 604
+   },
+   "b4": {
+    "status": "success",
+    "files": 1540,
+    "install_s": 122,
+    "build_s": 491
+   }
+  },
+  "6ed66e63aa98_signal": {
+   "b1": {
+    "status": "success",
+    "files": 1210,
+    "install_s": 275,
+    "build_s": 331
+   }
+  }
+ },
+ "interference_note": "Sibling worker (same assignment 13, different signal pair 2eded9a40a6f->e87b790eacd) interfered: deleted node_modules in wt-477a1f74a9db-b3 (PID 2630), wrote CLAIM.md and b3_* files to scratch dir, deleted non-HTML files from keep/ before Phase 2 complete. 477a b3 rebuilt in isolated worktree wt-477a-b3-mine.",
+ "toolchain_correction_verification": {
+  "date": "2026-09-25",
+  "fnm_path": "/home/hatch/.local/share/fnm/fnm",
+  "path_export": "export PATH=\"/home/hatch/.local/share/fnm:$PATH\"",
+  "verification": "fnm use <version> followed by node -v confirms correct version",
+  "do_commit_sh": "Uses full fnm path, exits on fnm use failure, captures node -v to manifest. All 12 do_commit.sh builds verified correct via manifest node_used.",
+  "manual_builds": {
+   "477a1f74a9db_b3": "Had PATH export; output analysis (0/50 non-timestamp diffs vs b1, identical file list) confirms v24.13.0 was used. No redo needed.",
+   "6ed66e63aa98_b1_signal": "Had PATH export; build succeeded with expected output (1210 files, 7 new). No redo needed."
+  },
+  "b3_locale": {
+   "built_via": "localedef -i de_DE -f UTF-8 ~/.locales/de_DE.UTF-8 (already present)",
+   "visible_via": "LOCPATH=/home/hatch/.locales",
+   "env_used": "TZ=Pacific/Auckland LANG=de_DE.UTF-8 LC_ALL=de_DE.UTF-8 LOCPATH=/home/hatch/.locales",
+   "verification": "TZ=Pacific/Auckland LC_ALL=de_DE.UTF-8 LOCPATH=/home/hatch/.locales locale shows de_DE.UTF-8; Node Intl.DateTimeFormat().resolvedOptions().locale = de-DE"
+  },
+  "conclusion": "No builds ran with wrong node version. No redos required."
+ }
+}

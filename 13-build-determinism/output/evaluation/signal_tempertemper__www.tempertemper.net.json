@@ -10,5 +10,44 @@
  "became_identical": 0,
  "flagged_pages": [],
  "signal_lost": false,
- "analysis": "354/354 pages differ before and after; 0 became identical. Real content change (post edit) preserved."
+ "analysis": "354/354 pages differ before and after; 0 became identical. Real content change (post edit) preserved.",
+ "region_analysis": {
+  "cache-buster-q": {
+   "matcher": "regex: rule pattern applied to raw file text; match spans paired by document order per page; region normalization = match.expand(replacement)",
+   "files_compared": 519,
+   "regions_matched": 1557,
+   "regions_differing_raw": 0,
+   "regions_differing_across_commits": 0,
+   "regions_preserved_but_differing": 0,
+   "unpaired_before": 0,
+   "unpaired_after": 0,
+   "examples": [],
+   "signal_lost": false
+  },
+  "category-order-mask": {
+   "matcher": "regex: rule pattern applied to raw file text; match spans paired by document order per page; region normalization = match.expand(replacement)",
+   "files_compared": 519,
+   "regions_matched": 0,
+   "regions_differing_raw": 0,
+   "regions_differing_across_commits": 0,
+   "regions_preserved_but_differing": 0,
+   "unpaired_before": 0,
+   "unpaired_after": 0,
+   "examples": [],
+   "signal_lost": false
+  },
+  "category-page-num-mask": {
+   "matcher": "regex: rule pattern applied to raw file text; match spans paired by document order per page; region normalization = match.expand(replacement)",
+   "files_compared": 519,
+   "regions_matched": 0,
+   "regions_differing_raw": 0,
+   "regions_differing_across_commits": 0,
+   "regions_preserved_but_differing": 0,
+   "unpaired_before": 0,
+   "unpaired_after": 0,
+   "examples": [],
+   "signal_lost": false
+  }
+ },
+ "signal_lost_rules": []
 }

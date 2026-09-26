@@ -8,10 +8,21 @@
   "A": 60,
   "N": 60
  },
+ "funnel_coverage": {
+  "note": "Buckets A (Astro) and N (Next/Nuxt/SvelteKit/Gatsby) stopped after intake: 60 candidates kept per bucket, recorded in candidates.json (A) and candidates_n.json + candidates.json (N); screening, windowing and probing covered buckets H, E and J only within this run's screening/probe budget. A/N intake candidates are ready for a future pass.",
+  "buckets": {
+   "H": "intake + screening + windowing + probing",
+   "E": "intake + screening + windowing + probing",
+   "J": "intake + screening + windowing + probing",
+   "A": "intake only (60 kept; not screened/windowed/probed)",
+   "N": "intake only (60 kept; not screened/windowed/probed)"
+  }
+ },
+ "intake_note": "intake kept 306 candidates (H69/E65/J52/A60/N60); assignment target was 300 (H70/E60/J50/A60/N60). 2026-09-26 review correction C2 moved antrea-io/website (H) to intake rejections: project website of a Kubernetes networking tool, documentation for a developer tool. Surplus vs target: E+5, J+2.",
  "funnel": {
   "searched": 1481,
-  "intake_kept": 307,
-  "intake_rejected": 1174,
+  "intake_kept": 306,
+  "intake_rejected": 1175,
   "intake_reject_reasons": {
    "theme": 36,
    "too_few_content_pages": 57,
@@ -22,6 +33,7 @@
    "monorepo": 47,
    "starter_template_boilerplate": 5,
    "no_gemfile_lock": 2,
+   "project website of a Kubernetes networking tool \u2014 documentation for a developer tool": 1,
    "repo_unavailable": 4,
    "no_committed_lockfile": 42,
    "docs_for_tool: CSS developer-tool file repo; site is project docs": 1,
@@ -72,14 +84,14 @@
    "runtime_adapter": 21,
    "no_config_at_head": 1
   },
-  "screened": 187,
-  "static_output_pass": 94,
-  "index_pages_pass": 86,
-  "no_build_time_fetch_pass": 76,
-  "qualifying_windows": 76,
-  "probed": 27,
+  "screened": 186,
+  "static_output_pass": 93,
+  "index_pages_pass": 85,
+  "no_build_time_fetch_pass": 75,
+  "qualifying_windows": 75,
+  "probed": 26,
   "verdicts": {
-   "corpus_ready": 14,
+   "corpus_ready": 13,
    "nondeterministic": 5,
    "environment_incomplete": 4,
    "broken": 3,
@@ -88,18 +100,18 @@
  },
  "per_bucket": {
   "H": {
-   "intake_kept": 70,
-   "screened": 70,
-   "static_output_pass": 51,
-   "index_pages_pass": 49,
-   "no_build_time_fetch_pass": 42,
-   "qualifying_windows": 0,
-   "probed": 14,
+   "intake_kept": 69,
+   "screened": 69,
+   "static_output_pass": 50,
+   "index_pages_pass": 48,
+   "no_build_time_fetch_pass": 41,
+   "qualifying_windows": 41,
+   "probed": 15,
    "verdicts": {
     "corpus_ready": 7,
     "nondeterministic": 2,
     "environment_incomplete": 3,
-    "broken": 1,
+    "broken": 2,
     "no_list_insertions": 1
    }
   },
@@ -110,11 +122,12 @@
    "index_pages_pass": 29,
    "no_build_time_fetch_pass": 26,
    "qualifying_windows": 26,
-   "probed": 9,
+   "probed": 10,
    "verdicts": {
     "corpus_ready": 5,
     "nondeterministic": 3,
-    "broken": 1
+    "broken": 1,
+    "environment_incomplete": 1
    }
   },
   "J": {
@@ -168,15 +181,6 @@
    "new_content_commits_in_window": 136,
    "score": 83368.0,
    "probe_file": "probes/erikkroes__erikkroes-nl.json"
-  },
-  {
-   "repo": "antrea-io/website",
-   "bucket": null,
-   "verdict": "corpus_ready",
-   "median_static_pages": 4136.5,
-   "new_content_commits_in_window": 8,
-   "score": 33092.0,
-   "probe_file": "probes/antrea-io__website.json"
   },
   {
    "repo": "Brett-Tanner/souls-like-strings",
@@ -278,6 +282,5 @@
    "probe_file": "probes/stewing-co__warp_and_weft_data.json"
   }
  ],
- "recompute": "funnel counts are derived by this script from candidates.json, screen.json, windows.json and probes/*.json in output/; corpus rank score = median_static_pages * new_content_commits_in_window",
- "intake_note": "intake kept 307 candidates (H70/E65/J52/A60/N60); assignment target was 300 (H70/E60/J50/A60/N60). Surplus: E+5, J+2. No records were dropped; the 307 are reported as observed."
+ "recompute": "funnel counts are derived by output/tmp_finish12/build_summary.py from candidates.json (+ shards), screen.json (+ shards), windows.json (+ shards) and probes/*.json in output/. Buckets for windows and probes are joined from candidates.json by repo (probe/window rows do not reliably carry bucket). Screens, windows and probes are counted only for intake-kept repos; qualifying_windows counts rows with qualifies=true. Corpus rank score = median_static_pages * new_content_commits_in_window."
 }

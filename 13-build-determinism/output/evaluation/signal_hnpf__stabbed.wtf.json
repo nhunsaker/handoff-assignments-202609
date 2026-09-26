@@ -10,5 +10,9 @@
  "became_identical": 0,
  "flagged_pages": [],
  "signal_lost": false,
- "analysis": "1/1 pages differ before and after; 0 became identical. No rules for this site."
+ "analysis": "1/1 pages differ before and after; 0 became identical. No rules for this site.",
+ "region_analysis": {
+  "note": "no normalization rules assigned to this site; nothing to measure"
+ },
+ "signal_lost_rules": []
 }

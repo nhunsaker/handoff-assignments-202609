@@ -1,0 +1,424 @@
+<!DOCTYPE html><html lang="en"> <head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content=""><link rel="canonical" href="https://nemanjam.github.io/blog/2024-01-20-example-article-4/"><link rel="apple-touch-icon" sizes="180x180" href="/images/favicons/apple-touch-icon.png"><link rel="icon" type="image/png" sizes="32x32" href="/images/favicons/favicon-32x32.png"><link rel="icon" type="image/png" sizes="16x16" href="/images/favicons/favicon-16x16.png"><link rel="manifest" href="/manifest.json"><title>Example article 4 commodo ea ipsum tempor nisi aliqua - Nemanja Mitic</title><meta name="title" content="Example article 4 commodo ea ipsum tempor nisi aliqua - Nemanja Mitic"><meta name="description" content="Dolor velit excepteur cupidatat: Aute in fugiat id reprehenderit ipsum qui tempor fugiat. Excepteur tempor culpa velit duis quis enim aliquip.
+"><meta name="author" content="Nemanja Mitic"><link rel="alternate" type="application/rss+xml" title="RSS feed for nemanjam.github.io" href="/api/feed.xml"><link rel="alternate" type="application/json" title="JSON feed for nemanjam.github.io" href="/api/feed.json"><link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap-index.xml"><meta property="og:type" content="website"><meta property="og:url" content="https://nemanjam.github.io/blog/2024-01-20-example-article-4/"><meta property="og:title" content="Example article 4 commodo ea ipsum tempor nisi aliqua - Nemanja Mitic"><meta property="og:description" content="Dolor velit excepteur cupidatat: Aute in fugiat id reprehenderit ipsum qui tempor fugiat. Excepteur tempor culpa velit duis quis enim aliquip.
+"><meta property="og:image" content="https://nemanjam.github.io/api/open-graph/blog/2024-01-20-example-article-4.png"><meta property="twitter:card" content="summary"><meta property="twitter:url" content="https://nemanjam.github.io/blog/2024-01-20-example-article-4/"><meta property="twitter:title" content="Example article 4 commodo ea ipsum tempor nisi aliqua - Nemanja Mitic"><meta property="twitter:description" content="Dolor velit excepteur cupidatat: Aute in fugiat id reprehenderit ipsum qui tempor fugiat. Excepteur tempor culpa velit duis quis enim aliquip.
+"><meta property="twitter:image" content="https://nemanjam.github.io/api/open-graph/blog/2024-01-20-example-article-4.png"><script>(function(){const themeConstants = {"DEFAULT_THEMES":{"light":{"mode":"light","name":"default-light"},"dark":{"mode":"dark","name":"default-dark"}},"MODES":{"dark":"dark","light":"light"},"THEMES":[{"mode":"light","name":"default-light"},{"mode":"dark","name":"default-dark"},{"mode":"light","name":"green-light"},{"mode":"dark","name":"green-dark"}],"THEME_CONFIG":{"MODE_CLASS":"dark","DATA_ATTRIBUTE":"data-theme","CHANGE_EVENT":"theme-change","LOCAL_STORAGE_KEY":"theme"}};
+const defaultThemes = {"light":{"mode":"light","name":"default-light"},"dark":{"mode":"dark","name":"default-dark"}};
+const DEFAULT_MODE = "light";
+const THEME_META_TAG_SELECTOR = "meta[name=\"theme-color\"]";
+
+  // this is JavaScript, not TypeScript
+  const { MODES, THEMES, THEME_CONFIG } = themeConstants;
+  const { DATA_ATTRIBUTE, CHANGE_EVENT, LOCAL_STORAGE_KEY } = THEME_CONFIG;
+
+  // used for event
+  const darkModePreference = window.matchMedia('(prefers-color-scheme: dark)');
+
+  const getDefaultTheme = (themeMode) => defaultThemes[themeMode];
+
+  const getThemeNamePrefix = (themeName) => themeName.split('-')?.[0];
+
+  const getThemeFromMode = (themeMode) => {
+    const currentTheme = getTheme();
+
+    const newTheme = THEMES.find((theme) => {
+      const currentThemePrefix = getThemeNamePrefix(currentTheme.name);
+      const themePrefix = getThemeNamePrefix(theme.name);
+
+      const isModeMatch = theme.mode === themeMode;
+      const isThemeNameMatch =
+        themePrefix && currentThemePrefix && themePrefix === currentThemePrefix;
+
+      const isFound = isModeMatch && isThemeNameMatch;
+
+      return isFound;
+    });
+
+    const defaultTheme = getDefaultTheme(themeMode);
+    const resultTheme = newTheme ?? defaultTheme;
+
+    return resultTheme;
+  };
+
+  /** 'dark' | 'light' | null */
+  const getBrowserMode = () => {
+    const lightModePreference = window.matchMedia('(prefers-color-scheme: light)');
+
+    let browserMode;
+
+    switch (true) {
+      case darkModePreference.matches:
+        browserMode = MODES.dark;
+        break;
+      case lightModePreference.matches:
+        browserMode = MODES.light;
+        break;
+      default:
+        browserMode = null;
+        break;
+    }
+    return browserMode;
+  };
+
+  /**
+   * 1. stored mode
+   * 2. browser mode and theme
+   * 3. default app mode, config
+   */
+  const getTheme = () => {
+    // either from storage
+    const storedTheme = getStoredTheme();
+    if (storedTheme) return storedTheme;
+
+    // or fallback to default theme for browser mode
+    const browserMode = getBrowserMode();
+    if (browserMode) {
+      const defaultBrowserTheme = getDefaultTheme(browserMode);
+      return defaultBrowserTheme;
+    }
+
+    // fallback to app default
+    const defaultAppTheme = getDefaultTheme(DEFAULT_MODE);
+    return defaultAppTheme;
+  };
+
+  const getStoredTheme = () => {
+    const storedThemeString =
+      typeof localStorage !== 'undefined' && localStorage.getItem(LOCAL_STORAGE_KEY);
+
+    if (!storedThemeString) return null;
+
+    let storedTheme;
+    try {
+      storedTheme = JSON.parse(storedThemeString);
+    } catch (_error) {
+      localStorage.removeItem(LOCAL_STORAGE_KEY);
+      return null;
+    }
+
+    // invalid theme
+    if (!(storedTheme && storedTheme.name && storedTheme.mode)) {
+      // clear stored invalid theme
+      localStorage.removeItem(LOCAL_STORAGE_KEY);
+      return null;
+    }
+
+    return storedTheme;
+  };
+
+  const setTheme = (newTheme) => {
+    const validatedTheme = THEMES.find(
+      (theme) => theme.name === newTheme.name && theme.mode === newTheme.mode
+    );
+
+    if (!validatedTheme)
+      // eslint-disable-next-line no-console
+      return console.warn(
+        `Invalid theme value '${JSON.stringify(newTheme)}' received. Expected ${JSON.stringify(THEMES)}.`
+      );
+
+    const root = document.documentElement;
+
+    const isDarkMode = root.classList.contains(MODES.dark);
+    const existingTheme = {
+      name: root.getAttribute(DATA_ATTRIBUTE),
+      mode: isDarkMode ? MODES.dark : MODES.light,
+    };
+    const isExistingTheme =
+      newTheme.name === existingTheme.name && newTheme.mode === existingTheme.mode;
+
+    // root already set to newTheme, exit early
+    if (isExistingTheme) return;
+
+    // update root class and data-theme
+    root.setAttribute(DATA_ATTRIBUTE, newTheme.name);
+    if (newTheme.mode === MODES.dark) {
+      // dark
+      if (!isDarkMode) root.classList.add(MODES.dark);
+    } else {
+      // light
+      if (isDarkMode) root.classList.remove(MODES.dark);
+    }
+
+    if (typeof localStorage !== 'undefined') {
+      localStorage.setItem(LOCAL_STORAGE_KEY, JSON.stringify(newTheme));
+    }
+
+    // must have dealy for bg color to apply
+    setTimeout(() => updateMetaTag(), 1000);
+  };
+
+  const updateMetaTag = () => {
+    const bodyElement = document.body;
+    if (!bodyElement) return;
+
+    const computedStyles = window.getComputedStyle(bodyElement);
+    const bgColor = computedStyles.backgroundColor;
+
+    const metaElement = document.querySelector(THEME_META_TAG_SELECTOR);
+    if (!metaElement) return;
+
+    metaElement.setAttribute('content', bgColor);
+  };
+
+  // initial setup
+  setTheme(getTheme());
+
+  // View Transitions hook to restore theme
+  document.addEventListener('astro:after-swap', () => setTheme(getTheme()));
+
+  // listen for theme-change custom event, fired in src/components/ThemeToggle.astro
+  document.addEventListener(CHANGE_EVENT, (event) => {
+    setTheme(event.detail.theme);
+  });
+
+  // listen for prefers-color-scheme change
+  darkModePreference.addEventListener('change', (event) => {
+    const newMode = event.matches ? MODES.dark : MODES.light;
+    const newTheme = getThemeFromMode(newMode);
+
+    // trigger event instead of setTheme(newTheme), for Links page
+    const payload = { detail: { theme: newTheme } };
+    const themeChangeEvent = new CustomEvent(CHANGE_EVENT, payload);
+
+    document.dispatchEvent(themeChangeEvent);
+  });
+})();</script><meta name="astro-view-transitions-enabled" content="true"><meta name="astro-view-transitions-fallback" content="none"><!-- 
+    <style>
+      @view-transition {
+        navigation: auto; /* enabled! */
+      }
+    </style> 
+  --><style>svg[data-astro-cid-6mwf65d6]:hover{fill:#ea4335}svg[data-astro-cid-nksckkzh]:hover{fill:#1877f2}svg[data-astro-cid-upxiorz7]:hover{fill:#f0652f}svg[data-astro-cid-lja7htzy]:hover{fill:#0a66c2}svg[data-astro-cid-qrrmiaqu]:hover{fill:#ff4500}svg[data-astro-cid-a232q27d]:hover{fill:#000}svg[data-astro-cid-pvkfizkd]:hover{fill:#25d366}.astro-social-share{margin:20px 0;height:24px;display:inline-flex}.astro-social-share a{text-decoration:none;margin-right:10px}.astro-social-share svg{height:24px}.astro-social-share{margin-top:0;margin-bottom:0}.social-share-btn{margin-right:1rem!important;display:inline-block;height:1.5rem;width:1.5rem}.social-share-btn svg{height:100%;width:100%;fill:var(--th-captions)}
+</style>
+<link rel="stylesheet" href="/_astro/_page_.D1gfCP9u.css">
+<link rel="stylesheet" href="/_astro/embeds.e56x12hk.css">
+<style>@keyframes astroFadeInOut{0%{opacity:1}to{opacity:0}}@keyframes astroFadeIn{0%{opacity:0;mix-blend-mode:plus-lighter}to{opacity:1;mix-blend-mode:plus-lighter}}@keyframes astroFadeOut{0%{opacity:1;mix-blend-mode:plus-lighter}to{opacity:0;mix-blend-mode:plus-lighter}}@keyframes astroSlideFromRight{0%{transform:translate(100%)}}@keyframes astroSlideFromLeft{0%{transform:translate(-100%)}}@keyframes astroSlideToRight{to{transform:translate(100%)}}@keyframes astroSlideToLeft{to{transform:translate(-100%)}}@media (prefers-reduced-motion){::view-transition-group(*),::view-transition-old(*),::view-transition-new(*){animation:none!important}[data-astro-transition-scope]{animation:none!important}}
+</style>
+<link rel="stylesheet" href="/_astro/Gallery.RGgs1fah.css"><script type="module" src="/_astro/hoisted.uzx9aeKr.js"></script>
+<script>!(function(w,p,f,c){if(!window.crossOriginIsolated && !navigator.serviceWorker) return;c=w[p]=Object.assign(w[p]||{},{"lib":"/~partytown/","debug":false});c[f]=(c[f]||[]).concat(["dataLayer.push"])})(window,'partytown','forward');/* Partytown 0.10.2 - MIT builder.io */
+const t={preserveBehavior:!1},e=e=>{if("string"==typeof e)return[e,t];const[n,r=t]=e;return[n,{...t,...r}]},n=Object.freeze((t=>{const e=new Set;let n=[];do{Object.getOwnPropertyNames(n).forEach((t=>{"function"==typeof n[t]&&e.add(t)}))}while((n=Object.getPrototypeOf(n))!==Object.prototype);return Array.from(e)})());!function(t,r,o,i,a,s,c,d,l,p,u=t,f){function h(){f||(f=1,"/"==(c=(s.lib||"/~partytown/")+(s.debug?"debug/":""))[0]&&(l=r.querySelectorAll('script[type="text/partytown"]'),i!=t?i.dispatchEvent(new CustomEvent("pt1",{detail:t})):(d=setTimeout(v,1e4),r.addEventListener("pt0",w),a?y(1):o.serviceWorker?o.serviceWorker.register(c+(s.swPath||"partytown-sw.js"),{scope:c}).then((function(t){t.active?y():t.installing&&t.installing.addEventListener("statechange",(function(t){"activated"==t.target.state&&y()}))}),console.error):v())))}function y(e){p=r.createElement(e?"script":"iframe"),t._pttab=Date.now(),e||(p.style.display="block",p.style.width="0",p.style.height="0",p.style.border="0",p.style.visibility="hidden",p.setAttribute("aria-hidden",!0)),p.src=c+"partytown-"+(e?"atomics.js?v=0.10.2":"sandbox-sw.html?"+t._pttab),r.querySelector(s.sandboxParent||"body").appendChild(p)}function v(n,o){for(w(),i==t&&(s.forward||[]).map((function(n){const[r]=e(n);delete t[r.split(".")[0]]})),n=0;n<l.length;n++)(o=r.createElement("script")).innerHTML=l[n].innerHTML,o.nonce=s.nonce,r.head.appendChild(o);p&&p.parentNode.removeChild(p)}function w(){clearTimeout(d)}s=t.partytown||{},i==t&&(s.forward||[]).map((function(r){const[o,{preserveBehavior:i}]=e(r);u=t,o.split(".").map((function(e,r,o){var a;u=u[o[r]]=r+1<o.length?u[o[r]]||(a=o[r+1],n.includes(a)?[]:{}):(()=>{let e=null;if(i){const{methodOrProperty:n,thisObject:r}=((t,e)=>{let n=t;for(let t=0;t<e.length-1;t+=1)n=n[e[t]];return{thisObject:n,methodOrProperty:e.length>0?n[e[e.length-1]]:void 0}})(t,o);"function"==typeof n&&(e=(...t)=>n.apply(r,...t))}return function(){let n;return e&&(n=e(arguments)),(t._ptf=t._ptf||[]).push(o,arguments),n}})()}))})),"complete"==r.readyState?h():(t.addEventListener("DOMContentLoaded",h),t.addEventListener("load",h))}(window,document,navigator,top,window.crossOriginIsolated);;(e=>{e.addEventListener("astro:before-swap",e=>{let r=document.body.querySelector("iframe[src*='/~partytown/']");if(r)e.newDocument.body.append(r)})})(document);</script><style>[data-astro-transition-scope="astro-bmhwz3xn-1"] { view-transition-name: post-card-hero-image-2024-01-20-example-article-4; }@layer astro { ::view-transition-old(post-card-hero-image-2024-01-20-example-article-4) { 
+	animation-duration: 180ms;
+	animation-timing-function: cubic-bezier(0.76, 0, 0.24, 1);
+	animation-fill-mode: both;
+	animation-name: astroFadeOut; }::view-transition-new(post-card-hero-image-2024-01-20-example-article-4) { 
+	animation-duration: 180ms;
+	animation-timing-function: cubic-bezier(0.76, 0, 0.24, 1);
+	animation-fill-mode: both;
+	animation-name: astroFadeIn; }[data-astro-transition=back]::view-transition-old(post-card-hero-image-2024-01-20-example-article-4) { 
+	animation-duration: 180ms;
+	animation-timing-function: cubic-bezier(0.76, 0, 0.24, 1);
+	animation-fill-mode: both;
+	animation-name: astroFadeOut; }[data-astro-transition=back]::view-transition-new(post-card-hero-image-2024-01-20-example-article-4) { 
+	animation-duration: 180ms;
+	animation-timing-function: cubic-bezier(0.76, 0, 0.24, 1);
+	animation-fill-mode: both;
+	animation-name: astroFadeIn; } }[data-astro-transition-fallback="old"] [data-astro-transition-scope="astro-bmhwz3xn-1"],
+			[data-astro-transition-fallback="old"][data-astro-transition-scope="astro-bmhwz3xn-1"] { 
+	animation-duration: 180ms;
+	animation-timing-function: cubic-bezier(0.76, 0, 0.24, 1);
+	animation-fill-mode: both;
+	animation-name: astroFadeOut; }[data-astro-transition-fallback="new"] [data-astro-transition-scope="astro-bmhwz3xn-1"],
+			[data-astro-transition-fallback="new"][data-astro-transition-scope="astro-bmhwz3xn-1"] { 
+	animation-duration: 180ms;
+	animation-timing-function: cubic-bezier(0.76, 0, 0.24, 1);
+	animation-fill-mode: both;
+	animation-name: astroFadeIn; }[data-astro-transition=back][data-astro-transition-fallback="old"] [data-astro-transition-scope="astro-bmhwz3xn-1"],
+			[data-astro-transition=back][data-astro-transition-fallback="old"][data-astro-transition-scope="astro-bmhwz3xn-1"] { 
+	animation-duration: 180ms;
+	animation-timing-function: cubic-bezier(0.76, 0, 0.24, 1);
+	animation-fill-mode: both;
+	animation-name: astroFadeOut; }[data-astro-transition=back][data-astro-transition-fallback="new"] [data-astro-transition-scope="astro-bmhwz3xn-1"],
+			[data-astro-transition=back][data-astro-transition-fallback="new"][data-astro-transition-scope="astro-bmhwz3xn-1"] { 
+	animation-duration: 180ms;
+	animation-timing-function: cubic-bezier(0.76, 0, 0.24, 1);
+	animation-fill-mode: both;
+	animation-name: astroFadeIn; }</style><style>[data-astro-transition-scope="astro-o2gsqakd-2"] { view-transition-name: post-card-title-2024-01-20-example-article-4; }@layer astro { ::view-transition-old(post-card-title-2024-01-20-example-article-4) { 
+	animation-duration: 180ms;
+	animation-timing-function: cubic-bezier(0.76, 0, 0.24, 1);
+	animation-fill-mode: both;
+	animation-name: astroFadeOut; }::view-transition-new(post-card-title-2024-01-20-example-article-4) { 
+	animation-duration: 180ms;
+	animation-timing-function: cubic-bezier(0.76, 0, 0.24, 1);
+	animation-fill-mode: both;
+	animation-name: astroFadeIn; }[data-astro-transition=back]::view-transition-old(post-card-title-2024-01-20-example-article-4) { 
+	animation-duration: 180ms;
+	animation-timing-function: cubic-bezier(0.76, 0, 0.24, 1);
+	animation-fill-mode: both;
+	animation-name: astroFadeOut; }[data-astro-transition=back]::view-transition-new(post-card-title-2024-01-20-example-article-4) { 
+	animation-duration: 180ms;
+	animation-timing-function: cubic-bezier(0.76, 0, 0.24, 1);
+	animation-fill-mode: both;
+	animation-name: astroFadeIn; } }[data-astro-transition-fallback="old"] [data-astro-transition-scope="astro-o2gsqakd-2"],
+			[data-astro-transition-fallback="old"][data-astro-transition-scope="astro-o2gsqakd-2"] { 
+	animation-duration: 180ms;
+	animation-timing-function: cubic-bezier(0.76, 0, 0.24, 1);
+	animation-fill-mode: both;
+	animation-name: astroFadeOut; }[data-astro-transition-fallback="new"] [data-astro-transition-scope="astro-o2gsqakd-2"],
+			[data-astro-transition-fallback="new"][data-astro-transition-scope="astro-o2gsqakd-2"] { 
+	animation-duration: 180ms;
+	animation-timing-function: cubic-bezier(0.76, 0, 0.24, 1);
+	animation-fill-mode: both;
+	animation-name: astroFadeIn; }[data-astro-transition=back][data-astro-transition-fallback="old"] [data-astro-transition-scope="astro-o2gsqakd-2"],
+			[data-astro-transition=back][data-astro-transition-fallback="old"][data-astro-transition-scope="astro-o2gsqakd-2"] { 
+	animation-duration: 180ms;
+	animation-timing-function: cubic-bezier(0.76, 0, 0.24, 1);
+	animation-fill-mode: both;
+	animation-name: astroFadeOut; }[data-astro-transition=back][data-astro-transition-fallback="new"] [data-astro-transition-scope="astro-o2gsqakd-2"],
+			[data-astro-transition=back][data-astro-transition-fallback="new"][data-astro-transition-scope="astro-o2gsqakd-2"] { 
+	animation-duration: 180ms;
+	animation-timing-function: cubic-bezier(0.76, 0, 0.24, 1);
+	animation-fill-mode: both;
+	animation-name: astroFadeIn; }</style><style>[data-astro-transition-scope="astro-7xt5eaw6-3"] { view-transition-name: post-card-description-2024-01-20-example-article-4; }@layer astro { ::view-transition-old(post-card-description-2024-01-20-example-article-4) { 
+	animation-duration: 180ms;
+	animation-timing-function: cubic-bezier(0.76, 0, 0.24, 1);
+	animation-fill-mode: both;
+	animation-name: astroFadeOut; }::view-transition-new(post-card-description-2024-01-20-example-article-4) { 
+	animation-duration: 180ms;
+	animation-timing-function: cubic-bezier(0.76, 0, 0.24, 1);
+	animation-fill-mode: both;
+	animation-name: astroFadeIn; }[data-astro-transition=back]::view-transition-old(post-card-description-2024-01-20-example-article-4) { 
+	animation-duration: 180ms;
+	animation-timing-function: cubic-bezier(0.76, 0, 0.24, 1);
+	animation-fill-mode: both;
+	animation-name: astroFadeOut; }[data-astro-transition=back]::view-transition-new(post-card-description-2024-01-20-example-article-4) { 
+	animation-duration: 180ms;
+	animation-timing-function: cubic-bezier(0.76, 0, 0.24, 1);
+	animation-fill-mode: both;
+	animation-name: astroFadeIn; } }[data-astro-transition-fallback="old"] [data-astro-transition-scope="astro-7xt5eaw6-3"],
+			[data-astro-transition-fallback="old"][data-astro-transition-scope="astro-7xt5eaw6-3"] { 
+	animation-duration: 180ms;
+	animation-timing-function: cubic-bezier(0.76, 0, 0.24, 1);
+	animation-fill-mode: both;
+	animation-name: astroFadeOut; }[data-astro-transition-fallback="new"] [data-astro-transition-scope="astro-7xt5eaw6-3"],
+			[data-astro-transition-fallback="new"][data-astro-transition-scope="astro-7xt5eaw6-3"] { 
+	animation-duration: 180ms;
+	animation-timing-function: cubic-bezier(0.76, 0, 0.24, 1);
+	animation-fill-mode: both;
+	animation-name: astroFadeIn; }[data-astro-transition=back][data-astro-transition-fallback="old"] [data-astro-transition-scope="astro-7xt5eaw6-3"],
+			[data-astro-transition=back][data-astro-transition-fallback="old"][data-astro-transition-scope="astro-7xt5eaw6-3"] { 
+	animation-duration: 180ms;
+	animation-timing-function: cubic-bezier(0.76, 0, 0.24, 1);
+	animation-fill-mode: both;
+	animation-name: astroFadeOut; }[data-astro-transition=back][data-astro-transition-fallback="new"] [data-astro-transition-scope="astro-7xt5eaw6-3"],
+			[data-astro-transition=back][data-astro-transition-fallback="new"][data-astro-transition-scope="astro-7xt5eaw6-3"] { 
+	animation-duration: 180ms;
+	animation-timing-function: cubic-bezier(0.76, 0, 0.24, 1);
+	animation-fill-mode: both;
+	animation-name: astroFadeIn; }</style><style>[data-astro-transition-scope="astro-ntqca7if-4"] { view-transition-name: post-card-meta-2024-01-20-example-article-4; }@layer astro { ::view-transition-old(post-card-meta-2024-01-20-example-article-4) { 
+	animation-duration: 180ms;
+	animation-timing-function: cubic-bezier(0.76, 0, 0.24, 1);
+	animation-fill-mode: both;
+	animation-name: astroFadeOut; }::view-transition-new(post-card-meta-2024-01-20-example-article-4) { 
+	animation-duration: 180ms;
+	animation-timing-function: cubic-bezier(0.76, 0, 0.24, 1);
+	animation-fill-mode: both;
+	animation-name: astroFadeIn; }[data-astro-transition=back]::view-transition-old(post-card-meta-2024-01-20-example-article-4) { 
+	animation-duration: 180ms;
+	animation-timing-function: cubic-bezier(0.76, 0, 0.24, 1);
+	animation-fill-mode: both;
+	animation-name: astroFadeOut; }[data-astro-transition=back]::view-transition-new(post-card-meta-2024-01-20-example-article-4) { 
+	animation-duration: 180ms;
+	animation-timing-function: cubic-bezier(0.76, 0, 0.24, 1);
+	animation-fill-mode: both;
+	animation-name: astroFadeIn; } }[data-astro-transition-fallback="old"] [data-astro-transition-scope="astro-ntqca7if-4"],
+			[data-astro-transition-fallback="old"][data-astro-transition-scope="astro-ntqca7if-4"] { 
+	animation-duration: 180ms;
+	animation-timing-function: cubic-bezier(0.76, 0, 0.24, 1);
+	animation-fill-mode: both;
+	animation-name: astroFadeOut; }[data-astro-transition-fallback="new"] [data-astro-transition-scope="astro-ntqca7if-4"],
+			[data-astro-transition-fallback="new"][data-astro-transition-scope="astro-ntqca7if-4"] { 
+	animation-duration: 180ms;
+	animation-timing-function: cubic-bezier(0.76, 0, 0.24, 1);
+	animation-fill-mode: both;
+	animation-name: astroFadeIn; }[data-astro-transition=back][data-astro-transition-fallback="old"] [data-astro-transition-scope="astro-ntqca7if-4"],
+			[data-astro-transition=back][data-astro-transition-fallback="old"][data-astro-transition-scope="astro-ntqca7if-4"] { 
+	animation-duration: 180ms;
+	animation-timing-function: cubic-bezier(0.76, 0, 0.24, 1);
+	animation-fill-mode: both;
+	animation-name: astroFadeOut; }[data-astro-transition=back][data-astro-transition-fallback="new"] [data-astro-transition-scope="astro-ntqca7if-4"],
+			[data-astro-transition=back][data-astro-transition-fallback="new"][data-astro-transition-scope="astro-ntqca7if-4"] { 
+	animation-duration: 180ms;
+	animation-timing-function: cubic-bezier(0.76, 0, 0.24, 1);
+	animation-fill-mode: both;
+	animation-name: astroFadeIn; }</style></head><body class="relative flex flex-col min-h-screen bg-base-100 transition-colors duration-500"> <header id="main-header" class="group border-b border-base-300"> <div class="flex gap-2 group-[.menu-open]:flex-col md:!flex-row md:justify-between md:items-center max-w-6xl py-2 px-4 md:mx-auto">  <div class="w-full md:w-auto flex justify-between items-center"> <a class="link-default link-nav flex flex-row items-center gap-2 text-xl xs:text-2xl" href="/">   <img src="/_astro/avatar.BT0sAlIz_1Mv9n6.webp" loading="eager" class="shrink-0 select-none rounded-md border border-base-300" alt="Profile picture" width="48" height="48" decoding="async"> <span> Nemanja Mitic </span>   </a> <mobile-button class="md:hidden"> <button aria-expanded="false" aria-haspopup="menu" aria-label="Open main menu" type="button" class="group"> <svg width="1em" height="1em" viewBox="0 0 24 24" class="h-6 w-6 group-aria-expanded:hidden" data-icon="mdi:hamburger-menu">  <symbol id="ai:mdi:hamburger-menu"><path fill="currentColor" d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></symbol><use xlink:href="#ai:mdi:hamburger-menu"></use>  </svg> <svg width="1em" height="1em" viewBox="0 0 24 24" class="h-6 w-6 hidden group-aria-expanded:block" data-icon="mdi:close">  <symbol id="ai:mdi:close"><path fill="currentColor" d="M19 6.41L17.59 5L12 10.59L6.41 5L5 6.41L10.59 12L5 17.59L6.41 19L12 13.41L17.59 19L19 17.59L13.41 12z"/></symbol><use xlink:href="#ai:mdi:close"></use>  </svg> </button> </mobile-button> </div>  <nav class="select-none hidden md:block group-[.menu-open]:block mt-0 group-[.menu-open]:mt-2" aria-label="Site navigation"> <ul class="flex gap-4 group-[.menu-open]:flex-col md:!flex-row md:items-center"> <li> <a class="link-default link-nav underline text-links" href="/blog/">  Blog  </a> </li><li> <a class="link-default link-nav" href="/blog/explore/">  Explore  </a> </li><li> <a class="link-default link-nav" href="/projects/">  Projects  </a> </li><li> <a class="link-default link-nav" href="/about/">  About  </a> </li><li> <a class="link-default link-nav" href="/gallery/">  Gallery  </a> </li><li> <a class="link-default link-nav" href="/links/" data-astro-reload>  Links  </a> </li> <li class="shrink-0"> <theme-toggle> <button class="rounded-md p-2" type="button"> <svg width="1em" height="1em" viewBox="0 0 24 24" class="inline-block dark:hidden text-primary w-6 h-6" data-icon="mdi:white-balance-sunny">  <symbol id="ai:mdi:white-balance-sunny"><path fill="currentColor" d="m3.55 19.09l1.41 1.41l1.8-1.79l-1.42-1.42M12 6c-3.31 0-6 2.69-6 6s2.69 6 6 6s6-2.69 6-6c0-3.32-2.69-6-6-6m8 7h3v-2h-3m-2.76 7.71l1.8 1.79l1.41-1.41l-1.79-1.8M20.45 5l-1.41-1.4l-1.8 1.79l1.42 1.42M13 1h-2v3h2M6.76 5.39L4.96 3.6L3.55 5l1.79 1.81zM1 13h3v-2H1m12 9h-2v3h2"/></symbol><use xlink:href="#ai:mdi:white-balance-sunny"></use>  </svg> <svg width="1em" height="1em" viewBox="0 0 24 24" class="hidden dark:inline-block text-primary w-6 h-6" data-icon="mdi:moon-waning-crescent">  <symbol id="ai:mdi:moon-waning-crescent"><path fill="currentColor" d="M2 12a10 10 0 0 0 13 9.54a10 10 0 0 1 0-19.08A10 10 0 0 0 2 12"/></symbol><use xlink:href="#ai:mdi:moon-waning-crescent"></use>  </svg> </button> </theme-toggle>  </li> </ul> </nav> </div> </header>   <main id="main" class="flex-grow flex flex-col">  <article class="pb-16"> <figure class="centered max-w-4xl"> <img src="/_astro/river1.C67X_4bq_1WfXSz.webp" srcset="/_astro/river1.C67X_4bq_JhGU3.webp 320w, /_astro/river1.C67X_4bq_Z17t4Ab.webp 640w, /_astro/river1.C67X_4bq_hKWG.webp 768w, /_astro/river1.C67X_4bq_1Bjhvc.webp 1024w" sizes="(max-width: 475px) 320px, (max-width: 768px) 640px, (max-width: 1280px) 768px, 1024px" alt="sunt aute reprehenderit exercitation cillum culpa dolor dolor commodo ea ipsum tempor nisi aliqua." fetchpriority="high" loading="eager" itemprop="image" class="block max-w-full h-auto aspect-[16/8] object-cover" data-astro-transition-scope="astro-bmhwz3xn-1" width="4608" height="2592" decoding="async"> </figure> <section class="centered-px max-w-3xl b-h2-my">  <h1 class="b-h1" data-astro-transition-scope="astro-o2gsqakd-2"> Example article 4 commodo ea ipsum tempor nisi aliqua  </h1> <p class="font-normal text-content text-xl md:text-2xl mb-6 md:mb-8" data-astro-transition-scope="astro-7xt5eaw6-3"> Dolor velit excepteur cupidatat: Aute in fugiat id reprehenderit ipsum qui tempor fugiat. Excepteur tempor culpa velit duis quis enim aliquip.
+ </p><p aria-label="Post meta" class="b-p text-captions flex flex-row flex-wrap items-center gap-2"><svg width="1em" height="1em" viewBox="0 0 24 24" data-icon="mdi:access-time">  <symbol id="ai:mdi:access-time"><path fill="currentColor" d="M12 20a8 8 0 0 0 8-8a8 8 0 0 0-8-8a8 8 0 0 0-8 8a8 8 0 0 0 8 8m0-18a10 10 0 0 1 10 10a10 10 0 0 1-10 10C6.47 22 2 17.5 2 12A10 10 0 0 1 12 2m.5 5v5.25l4.5 2.67l-.75 1.23L11 13V7z"/></symbol><use xlink:href="#ai:mdi:access-time"></use>  </svg>
+          <time itemprop="datePublished" datetime="2024-01-20">Jan 20, 2024</time><span>·</span>     
+          <svg width="1em" height="1em" viewBox="0 0 24 24" data-icon="mdi:tools">  <symbol id="ai:mdi:tools"><path fill="currentColor" d="m21.71 20.29l-1.42 1.42a1 1 0 0 1-1.41 0L7 9.85A3.8 3.8 0 0 1 6 10a4 4 0 0 1-3.78-5.3l2.54 2.54l.53-.53l1.42-1.42l.53-.53L4.7 2.22A4 4 0 0 1 10 6a3.8 3.8 0 0 1-.15 1l11.86 11.88a1 1 0 0 1 0 1.41M2.29 18.88a1 1 0 0 0 0 1.41l1.42 1.42a1 1 0 0 0 1.41 0l5.47-5.46l-2.83-2.83M20 2l-4 2v2l-2.17 2.17l2 2L18 8h2l2-4Z"/></symbol><use xlink:href="#ai:mdi:tools"></use>  </svg>
+          <a class="link-default link" href="/blog/categories/tools"> tools </a><span>·</span>     
+          <svg width="1em" height="1em" viewBox="0 0 24 24" data-icon="mdi:book-open-blank-variant-outline">  <symbol id="ai:mdi:book-open-blank-variant-outline"><path fill="currentColor" d="M12 21.5c-1.35-.85-3.8-1.5-5.5-1.5c-1.65 0-3.35.3-4.75 1.05c-.1.05-.15.05-.25.05c-.25 0-.5-.25-.5-.5V6c.6-.45 1.25-.75 2-1c1.11-.35 2.33-.5 3.5-.5c1.95 0 4.05.4 5.5 1.5c1.45-1.1 3.55-1.5 5.5-1.5c1.17 0 2.39.15 3.5.5c.75.25 1.4.55 2 1v14.6c0 .25-.25.5-.5.5c-.1 0-.15 0-.25-.05c-1.4-.75-3.1-1.05-4.75-1.05c-1.7 0-4.15.65-5.5 1.5m-1-14c-1.36-.6-3.16-1-4.5-1c-1.2 0-2.4.15-3.5.5v11.5c1.1-.35 2.3-.5 3.5-.5c1.34 0 3.14.4 4.5 1zM13 19c1.36-.6 3.16-1 4.5-1c1.2 0 2.4.15 3.5.5V7c-1.1-.35-2.3-.5-3.5-.5c-1.34 0-3.14.4-4.5 1z"/></symbol><use xlink:href="#ai:mdi:book-open-blank-variant-outline"></use>  </svg>
+          <span>7 minutes</span><span>·</span>     
+          <svg width="1em" height="1em" viewBox="0 0 24 24" data-icon="mdi:edit-outline">  <symbol id="ai:mdi:edit-outline"><path fill="currentColor" d="m14.06 9l.94.94L5.92 19H5v-.92zm3.6-6c-.25 0-.51.1-.7.29l-1.83 1.83l3.75 3.75l1.83-1.83c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.2-.2-.45-.29-.71-.29m-3.6 3.19L3 17.25V21h3.75L17.81 9.94z"/></symbol><use xlink:href="#ai:mdi:edit-outline"></use>  </svg>
+          <time itemprop="dateUpdated" datetime="2024-05-23">May 23, 2024</time></p>  </section> <section class="my-prose centered-px max-w-3xl b-h2-my"> <aside class="toc md:max-w-lg rounded-box border border-base-300 p-4 mx-auto"> <h2 class="b-h2 mt-4">Table of contents</h2> <ol class="ol-nested-decimal my-0"> <li class="my-0"> <a class="link-default link" href="#commodo-commodo-fugiat-minim-adipisicing"> Commodo commodo fugiat minim adipisicing </a> <ol class="mt-0 mb-2"> <li class="my-0"> <a class="link-default link" href="#labore-qui-eu-aliquip-labore"> Labore qui eu aliquip labore </a> </li><li class="my-0"> <a class="link-default link" href="#non-consectetur-do"> Non consectetur do </a> </li><li class="my-0"> <a class="link-default link" href="#elit-excepteur"> Elit excepteur </a> </li><li class="my-0"> <a class="link-default link" href="#veniam-consequat-sint-ut-id"> Veniam consequat sint ut id </a> </li><li class="my-0"> <a class="link-default link" href="#quis-ex-officia"> Quis ex officia </a> </li><li class="my-0"> <a class="link-default link" href="#consequat-pariatur"> Consequat pariatur </a> </li> </ol> </li><li class="my-0"> <a class="link-default link" href="#anim-fugiat-laborum"> Anim fugiat laborum </a> <ol class="mt-0 mb-2"> <li class="my-0"> <a class="link-default link" href="#nulla-velit-incididunt"> Nulla velit incididunt </a> </li> </ol> </li><li class="my-0"> <a class="link-default link" href="#reprehenderit-aute-dolor-officia"> Reprehenderit aute dolor officia </a>  </li> </ol> </aside><p>Ut exercitation occaecat in velit <a href="#">nulla aliqua</a> eiusmod laboris ex. Officia dolore ipsum aliqua irure qui non ea elit veniam aute ex incididunt. Elit incididunt dolor velit velit magna. Nulla occaecat ut dolore ullamco amet aliqua laborum velit cillum.</p>
+<aside class="alert alert--tip" aria-label="Tip"> <h4 aria-hidden="true" class="b-h4 alert__title alert__title--tip"> <svg width="1em" height="1em" viewBox="0 0 24 24" class="inline h-6 w-6" data-icon="tip">  <symbol id="ai:local:tip"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 18v-5.25m0 0a6 6 0 0 0 1.5-.189m-1.5.189a6 6 0 0 1-1.5-.189m3.75 7.478a12.1 12.1 0 0 1-4.5 0m3.75 2.383a14.4 14.4 0 0 1-3 0M14.25 18v-.192c0-.983.658-1.823 1.508-2.316a7.5 7.5 0 1 0-7.517 0c.85.493 1.509 1.333 1.509 2.316V18"/></symbol><use xlink:href="#ai:local:tip"></use>  </svg> Tip </h4> <div> This is tip alert </div> </aside>
+<p>Nostrud irure nulla enim in commodo duis anim veniam irure fugiat cillum. Aliqua velit incididunt id eu aute labore. Nulla sint commodo voluptate labore <code>elit laboris</code> in anim labore eu qui commodo.Excepteur ea aliquip proident ea mollit nostrud excepteur et. Exercitation veniam officia <code>ullamco enim</code> officia fugiat pariatur anim mollit duis proident. Minim officia deserunt Lorem culpa occaecat adipisicing officia do laborum est ex do.</p>
+<div class="expressive-code"><link rel="stylesheet" href="/_astro/ec.8wlr7.css"/><script type="module" src="/_astro/ec.8zarh.js"></script><figure class="frame has-title"><figcaption class="header"><span class="title">example.ts</span></figcaption><pre data-language="ts"><code><div class="ec-line"><div class="code"><span style="--0:#0000FF;--1:#569CD6">function</span><span style="--0:#000000;--1:#D4D4D4"> </span><span style="--0:#795E26;--1:#DCDCAA">calculateArea</span><span style="--0:#000000;--1:#D4D4D4">(</span><span style="--0:#001080;--1:#9CDCFE">radius</span><span style="--0:#000000;--1:#D4D4D4">: </span><span style="--0:#227188;--1:#4EC9B0">number</span><span style="--0:#000000;--1:#D4D4D4">): </span><span style="--0:#227188;--1:#4EC9B0">number</span><span style="--0:#000000;--1:#D4D4D4"> {</span></div></div><div class="ec-line"><div class="code"><span class="indent">  </span><span style="--0:#AC00D8;--1:#C586C0">return</span><span style="--0:#000000;--1:#D4D4D4"> </span><span style="--0:#001080;--1:#9CDCFE">Math</span><span style="--0:#000000;--1:#D4D4D4">.</span><span style="--0:#006BB8;--1:#4FC1FF">PI</span><span style="--0:#000000;--1:#D4D4D4"> * </span><span style="--0:#001080;--1:#9CDCFE">Math</span><span style="--0:#000000;--1:#D4D4D4">.</span><span style="--0:#795E26;--1:#DCDCAA">pow</span><span style="--0:#000000;--1:#D4D4D4">(</span><span style="--0:#001080;--1:#9CDCFE">radius</span><span style="--0:#000000;--1:#D4D4D4">, </span><span style="--0:#08774E;--1:#B5CEA8">2</span><span style="--0:#000000;--1:#D4D4D4">);</span></div></div><div class="ec-line"><div class="code"><span style="--0:#000000;--1:#D4D4D4">}</span></div></div></code></pre><div class="copy"><button title="Copy to clipboard" data-copied="Copied!" data-code="function calculateArea(radius: number): number {  return Math.PI * Math.pow(radius, 2);}"><div></div></button></div></figure></div>
+<p>Adipisicing cupidatat consectetur <a href="#">aliqua <code>proident eu qui</code></a> ut laboris duis reprehenderit incididunt. Aliqua culpa minim occaecat ad in consectetur commodo voluptate amet culpa pariatur magna consectetur. Non officia esse qui occaecat laboris <a href="#">laborum aliqua</a> consectetur consequat. Tempor laboris officia sunt quis consequat nisi in do aute ullamco sint. Nulla ex minim ex anim labore amet nisi ex ex dolore magna eiusmod enim magna.</p>
+<div class="no-expand"><div class="expressive-code"><figure class="frame has-title"><figcaption class="header"><span class="title">example.json</span></figcaption><pre data-language="json"><code><div class="ec-line"><div class="code"><span style="--0:#000000;--1:#D4D4D4">{</span></div></div><div class="ec-line"><div class="code"><span class="indent">  </span><span style="--0:#0451A5;--1:#9CDCFE">&quot;name&quot;</span><span style="--0:#000000;--1:#D4D4D4">: </span><span style="--0:#A31515;--1:#CE9178">&quot;John Doe&quot;</span><span style="--0:#000000;--1:#D4D4D4">,</span></div></div><div class="ec-line highlight mark"><div class="code"><span class="indent">  </span><span style="--0:#0451A5;--1:#9CDCFE">&quot;age&quot;</span><span style="--0:#000000;--1:#D4D4D4">: </span><span style="--0:#065f3e;--1:#B5CEA8">30</span><span style="--0:#000000;--1:#D4D4D4">,</span></div></div><div class="ec-line highlight mark"><div class="code"><span class="indent">  </span><span style="--0:#0451A5;--1:#9CDCFE">&quot;city&quot;</span><span style="--0:#000000;--1:#D4D4D4">: </span><span style="--0:#A31515;--1:#d5a18c">&quot;Example City&quot;</span><span style="--0:#000000;--1:#D4D4D4">,</span></div></div><div class="ec-line highlight mark"><div class="code"><span class="indent">  </span><span style="--0:#0451A5;--1:#9CDCFE">&quot;isStudent&quot;</span><span style="--0:#000000;--1:#D4D4D4">: </span><span style="--0:#0000FF;--1:#7cb2df">false</span><span style="--0:#000000;--1:#D4D4D4">,</span></div></div><div class="ec-line"><div class="code"><span class="indent">  </span><span style="--0:#0451A5;--1:#9CDCFE">&quot;hobbies&quot;</span><span style="--0:#000000;--1:#D4D4D4">: [</span><span style="--0:#A31515;--1:#CE9178">&quot;reading&quot;</span><span style="--0:#000000;--1:#D4D4D4">, </span><span style="--0:#A31515;--1:#CE9178">&quot;coding&quot;</span><span style="--0:#000000;--1:#D4D4D4">, </span><span style="--0:#A31515;--1:#CE9178">&quot;traveling&quot;</span><span style="--0:#000000;--1:#D4D4D4">]</span></div></div><div class="ec-line"><div class="code"><span style="--0:#000000;--1:#D4D4D4">}</span></div></div></code></pre><div class="copy"><button title="Copy to clipboard" data-copied="Copied!" data-code="{  &#34;name&#34;: &#34;John Doe&#34;,  &#34;age&#34;: 30,  &#34;city&#34;: &#34;Example City&#34;,  &#34;isStudent&#34;: false,  &#34;hobbies&#34;: [&#34;reading&#34;, &#34;coding&#34;, &#34;traveling&#34;]}"><div></div></button></div></figure></div></div>
+<p>Velit commodo occaecat excepteur duis consectetur nulla Lorem consequat nisi. Qui labore consectetur nulla occaecat adipisicing nisi nostrud laboris do. Minim veniam magna ea in in ipsum nostrud sunt non veniam est laborum.</p>
+<div class="expressive-code"><figure class="frame"><figcaption class="header"></figcaption><pre data-language="ts"><code><div class="ec-line"><div class="code"><span style="--0:#0000FF;--1:#569CD6">function</span><span style="--0:#000000;--1:#D4D4D4"> </span><span style="--0:#795E26;--1:#DCDCAA">greet</span><span style="--0:#000000;--1:#D4D4D4">(</span><span style="--0:#001080;--1:#9CDCFE">person</span><span style="--0:#000000;--1:#D4D4D4">: </span><span style="--0:#227188;--1:#4EC9B0">Person</span><span style="--0:#000000;--1:#D4D4D4">): </span><span style="--0:#227188;--1:#4EC9B0">string</span><span style="--0:#000000;--1:#D4D4D4"> {</span></div></div><div class="ec-line"><div class="code"><span class="indent">  </span><span style="--0:#AC00D8;--1:#C586C0">return</span><span style="--0:#000000;--1:#D4D4D4"> </span><span style="--0:#A31515;--1:#CE9178">`Hello, </span><span style="--0:#0000FF;--1:#569CD6">${</span><span style="--0:#001080;--1:#9CDCFE">person</span><span style="--0:#000000;--1:#D4D4D4">.</span><span style="--0:#001080;--1:#9CDCFE">name</span><span style="--0:#0000FF;--1:#569CD6">}</span><span style="--0:#A31515;--1:#CE9178">!`</span><span style="--0:#000000;--1:#D4D4D4">;</span></div></div><div class="ec-line"><div class="code"><span style="--0:#000000;--1:#D4D4D4">}</span></div></div></code></pre><div class="copy"><button title="Copy to clipboard" data-copied="Copied!" data-code="function greet(person: Person): string {  return `Hello, ${person.name}!`;}"><div></div></button></div></figure></div>
+<aside class="alert alert--tip" aria-label="Anim dolor voluptate aliqua in quis esse"> <h4 aria-hidden="true" class="b-h4 alert__title alert__title--tip"> <svg width="1em" height="1em" viewBox="0 0 24 24" class="inline h-6 w-6" data-icon="tip">  <use xlink:href="#ai:local:tip"></use>  </svg> Anim dolor voluptate aliqua in quis esse </h4> <div> <p>Aliquip aute commodo mollit mollit et fugiat nulla velit Lorem esse. Reprehenderit nisi nulla
+proident est reprehenderit est nulla eu consequat. Anim dolor voluptate aliqua in quis esse Lorem
+cillum sunt adipisicing pariatur anim.</p> </div> </aside>
+<p>Commodo commodo fugiat minim adipisicing tempor occaecat.</p>
+<h2 id="commodo-commodo-fugiat-minim-adipisicing">Commodo commodo fugiat minim adipisicing</h2>
+<p>Nisi reprehenderit voluptate ullamco non officia irure nulla veniam deserunt ipsum eu aliquip cupidatat. Occaecat consequat Lorem sunt exercitation pariatur.</p>
+<p>Do ex magna non tempor incididunt mollit cillum duis:</p>
+<div class="expressive-code"><figure class="frame"><figcaption class="header"></figcaption><pre data-language="ts"><code><div class="ec-line"><div class="code"><span style="--0:#0000FF;--1:#569CD6">function</span><span style="--0:#000000;--1:#D4D4D4"> </span><span style="--0:#795E26;--1:#DCDCAA">shuffleArray</span><span style="--0:#000000;--1:#D4D4D4">&lt;</span><span style="--0:#227188;--1:#4EC9B0">T</span><span style="--0:#000000;--1:#D4D4D4">&gt;(</span><span style="--0:#001080;--1:#9CDCFE">array</span><span style="--0:#000000;--1:#D4D4D4">: </span><span style="--0:#227188;--1:#4EC9B0">T</span><span style="--0:#000000;--1:#D4D4D4">[]): </span><span style="--0:#227188;--1:#4EC9B0">T</span><span style="--0:#000000;--1:#D4D4D4">[] {</span></div></div><div class="ec-line"><div class="code"><span class="indent">  </span><span style="--0:#0000FF;--1:#569CD6">const</span><span style="--0:#000000;--1:#D4D4D4"> </span><span style="--0:#006BB8;--1:#4FC1FF">shuffledArray</span><span style="--0:#000000;--1:#D4D4D4"> = [...</span><span style="--0:#001080;--1:#9CDCFE">array</span><span style="--0:#000000;--1:#D4D4D4">];</span></div></div><div class="ec-line"><div class="code"><span class="indent">  </span><span style="--0:#AC00D8;--1:#C586C0">for</span><span style="--0:#000000;--1:#D4D4D4"> (</span><span style="--0:#0000FF;--1:#569CD6">let</span><span style="--0:#000000;--1:#D4D4D4"> </span><span style="--0:#001080;--1:#9CDCFE">i</span><span style="--0:#000000;--1:#D4D4D4"> = </span><span style="--0:#001080;--1:#9CDCFE">shuffledArray</span><span style="--0:#000000;--1:#D4D4D4">.</span><span style="--0:#001080;--1:#9CDCFE">length</span><span style="--0:#000000;--1:#D4D4D4"> - </span><span style="--0:#08774E;--1:#B5CEA8">1</span><span style="--0:#000000;--1:#D4D4D4">; </span><span style="--0:#001080;--1:#9CDCFE">i</span><span style="--0:#000000;--1:#D4D4D4"> &gt; </span><span style="--0:#08774E;--1:#B5CEA8">0</span><span style="--0:#000000;--1:#D4D4D4">; </span><span style="--0:#001080;--1:#9CDCFE">i</span><span style="--0:#000000;--1:#D4D4D4">--) {</span></div></div><div class="ec-line"><div class="code"><span class="indent">    </span><span style="--0:#0000FF;--1:#569CD6">const</span><span style="--0:#000000;--1:#D4D4D4"> </span><span style="--0:#006BB8;--1:#4FC1FF">j</span><span style="--0:#000000;--1:#D4D4D4"> = </span><span style="--0:#001080;--1:#9CDCFE">Math</span><span style="--0:#000000;--1:#D4D4D4">.</span><span style="--0:#795E26;--1:#DCDCAA">floor</span><span style="--0:#000000;--1:#D4D4D4">(</span><span style="--0:#001080;--1:#9CDCFE">Math</span><span style="--0:#000000;--1:#D4D4D4">.</span><span style="--0:#795E26;--1:#DCDCAA">random</span><span style="--0:#000000;--1:#D4D4D4">() * (</span><span style="--0:#001080;--1:#9CDCFE">i</span><span style="--0:#000000;--1:#D4D4D4"> + </span><span style="--0:#08774E;--1:#B5CEA8">1</span><span style="--0:#000000;--1:#D4D4D4">));</span></div></div><div class="ec-line"><div class="code"><span class="indent"><span style="--0:#000000;--1:#D4D4D4">    </span></span><span style="--0:#000000;--1:#D4D4D4">[</span><span style="--0:#001080;--1:#9CDCFE">shuffledArray</span><span style="--0:#000000;--1:#D4D4D4">[</span><span style="--0:#001080;--1:#9CDCFE">i</span><span style="--0:#000000;--1:#D4D4D4">], </span><span style="--0:#001080;--1:#9CDCFE">shuffledArray</span><span style="--0:#000000;--1:#D4D4D4">[</span><span style="--0:#001080;--1:#9CDCFE">j</span><span style="--0:#000000;--1:#D4D4D4">]] = [</span><span style="--0:#001080;--1:#9CDCFE">shuffledArray</span><span style="--0:#000000;--1:#D4D4D4">[</span><span style="--0:#001080;--1:#9CDCFE">j</span><span style="--0:#000000;--1:#D4D4D4">], </span><span style="--0:#001080;--1:#9CDCFE">shuffledArray</span><span style="--0:#000000;--1:#D4D4D4">[</span><span style="--0:#001080;--1:#9CDCFE">i</span><span style="--0:#000000;--1:#D4D4D4">]];</span></div></div><div class="ec-line"><div class="code"><span class="indent"><span style="--0:#000000;--1:#D4D4D4">  </span></span><span style="--0:#000000;--1:#D4D4D4">}</span></div></div><div class="ec-line"><div class="code"><span class="indent">  </span><span style="--0:#AC00D8;--1:#C586C0">return</span><span style="--0:#000000;--1:#D4D4D4"> </span><span style="--0:#001080;--1:#9CDCFE">shuffledArray</span><span style="--0:#000000;--1:#D4D4D4">;</span></div></div><div class="ec-line"><div class="code"><span style="--0:#000000;--1:#D4D4D4">}</span></div></div></code></pre><div class="copy"><button title="Copy to clipboard" data-copied="Copied!" data-code="function shuffleArray<T>(array: T[]): T[] {  const shuffledArray = [...array];  for (let i = shuffledArray.length - 1; i > 0; i--) {    const j = Math.floor(Math.random() * (i + 1));    [shuffledArray[i], shuffledArray[j]] = [shuffledArray[j], shuffledArray[i]];  }  return shuffledArray;}"><div></div></button></div></figure></div>
+<p>Nulla sint veniam voluptate exercitation nisi ex. Amet et deserunt anim irure esse non. Id amet excepteur sit proident ea exercitation voluptate enim dolor sit nostrud aliquip proident et.</p>
+<p>Amet dolor non adipisicing consequat mollit sit. Minim <code>nostrud</code> voluptate occaecat ullamco commodo nisi officia nulla aliquip do nostrud.</p>
+<div class="expressive-code"><figure class="frame"><figcaption class="header"></figcaption><pre data-language="ts"><code><div class="ec-line"><div class="code"><span style="--0:#0000FF;--1:#569CD6">const</span><span style="--0:#000000;--1:#D4D4D4"> </span><span style="--0:#006BB8;--1:#4FC1FF">numbers</span><span style="--0:#000000;--1:#D4D4D4"> = [</span><span style="--0:#08774E;--1:#B5CEA8">1</span><span style="--0:#000000;--1:#D4D4D4">, </span><span style="--0:#08774E;--1:#B5CEA8">2</span><span style="--0:#000000;--1:#D4D4D4">, </span><span style="--0:#08774E;--1:#B5CEA8">3</span><span style="--0:#000000;--1:#D4D4D4">, </span><span style="--0:#08774E;--1:#B5CEA8">4</span><span style="--0:#000000;--1:#D4D4D4">, </span><span style="--0:#08774E;--1:#B5CEA8">5</span><span style="--0:#000000;--1:#D4D4D4">];</span></div></div><div class="ec-line"><div class="code"><span style="--0:#0000FF;--1:#569CD6">const</span><span style="--0:#000000;--1:#D4D4D4"> </span><span style="--0:#006BB8;--1:#4FC1FF">shuffledNumbers</span><span style="--0:#000000;--1:#D4D4D4"> = </span><span style="--0:#795E26;--1:#DCDCAA">shuffleArray</span><span style="--0:#000000;--1:#D4D4D4">(</span><span style="--0:#001080;--1:#9CDCFE">numbers</span><span style="--0:#000000;--1:#D4D4D4">);</span></div></div><div class="ec-line"><div class="code"><span style="--0:#001080;--1:#9CDCFE">console</span><span style="--0:#000000;--1:#D4D4D4">.</span><span style="--0:#795E26;--1:#DCDCAA">log</span><span style="--0:#000000;--1:#D4D4D4">(</span><span style="--0:#A31515;--1:#CE9178">`Original array: </span><span style="--0:#0000FF;--1:#569CD6">${</span><span style="--0:#001080;--1:#9CDCFE">numbers</span><span style="--0:#0000FF;--1:#569CD6">}</span><span style="--0:#A31515;--1:#CE9178">`</span><span style="--0:#000000;--1:#D4D4D4">);</span></div></div><div class="ec-line"><div class="code"><span style="--0:#001080;--1:#9CDCFE">console</span><span style="--0:#000000;--1:#D4D4D4">.</span><span style="--0:#795E26;--1:#DCDCAA">log</span><span style="--0:#000000;--1:#D4D4D4">(</span><span style="--0:#A31515;--1:#CE9178">`Shuffled array: </span><span style="--0:#0000FF;--1:#569CD6">${</span><span style="--0:#001080;--1:#9CDCFE">shuffledNumbers</span><span style="--0:#0000FF;--1:#569CD6">}</span><span style="--0:#A31515;--1:#CE9178">`</span><span style="--0:#000000;--1:#D4D4D4">);</span></div></div></code></pre><div class="copy"><button title="Copy to clipboard" data-copied="Copied!" data-code="const numbers = [1, 2, 3, 4, 5];const shuffledNumbers = shuffleArray(numbers);console.log(`Original array: ${numbers}`);console.log(`Shuffled array: ${shuffledNumbers}`);"><div></div></button></div></figure></div>
+<p>Fugiat esse magna laborum enim et l<a href="#">ullamco do ex</a> ullamco reprehenderit officia magna exercitation. Mollit ullamco nulla minim pariatur laborum voluptate cupidatat id ad eu. Tempor occaecat dolore eiusmod ea eiusmod amet Lorem velit adipisicing.</p>
+<p>Eiusmod culpa in enim incididunt mollit cillum. Pariatur aliqua eu sit eu officia occaecat do consequat deserunt tempor reprehenderit cillum aliqua qui. Voluptate reprehenderit consectetur ea culpa magna ipsum elit velit exercitation. Sint anim elit consequat elit occaecat do cillum dolore voluptate mollit do elit.</p>
+<div class="expand-sm"><img src="/_astro/river1.C67X_4bq_gqCcm.webp" alt="" width="1024" height="576" loading="lazy" decoding="async"></div>
+<h3 id="labore-qui-eu-aliquip-labore">Labore qui eu aliquip labore</h3>
+<p>Pariatur velit et aliqua enim reprehenderit irure commodo. Veniam sunt amet adipisicing dolor esse elit commodo eu ea ullamco non. Consectetur sit enim duis consectetur nostrud laborum. Id est fugiat dolore cillum. Aliquip duis dolore nisi non commodo dolor sunt anim. Velit incididunt in ad labore sint.</p>
+<p>Ullamco consectetur elit elit laboris ea culpa consequat occaecat aliqua minim nulla laboris nulla dolore. Excepteur laborum magna ullamco est magna quis. Nisi occaecat <code>Lorem</code> adipisicing exercitation cillum anim nulla. Laborum consectetur culpa cillum commodo nulla dolor in consequat anim. Do <code>sunt</code> laboris nostrud in ipsum aliquip exercitation nisi.</p>
+<h3 id="non-consectetur-do">Non consectetur do</h3>
+<p>Est ut pariatur magna irure ad ipsum proident consequat. Ut incididunt aliqua est adipisicing excepteur laboris minim quis nisi aliquip est. Sit cupidatat duis irure voluptate dolor. Eiusmod incididunt duis do anim voluptate sunt culpa consequat irure id tempor incididunt. Duis velit occaecat occaecat amet non esse proident quis est aliquip incididunt aliquip. Culpa laborum cillum ea deserunt exercitation nisi.</p>
+<p>Pariatur consequat enim reprehenderit labore Lorem quis. Est commodo laboris duis do nostrud nostrud voluptate aute sint eu. Est voluptate officia tempor excepteur sint proident officia labore.</p>
+<div class="expressive-code"><figure class="frame"><figcaption class="header"></figcaption><pre data-language="ts"><code><div class="ec-line"><div class="code"><span style="--0:#007A00;--1:#74A061">// Usage</span></div></div><div class="ec-line"><div class="code"><span style="--0:#0000FF;--1:#569CD6">const</span><span style="--0:#000000;--1:#D4D4D4"> </span><span style="--0:#006BB8;--1:#4FC1FF">person</span><span style="--0:#000000;--1:#D4D4D4">: </span><span style="--0:#227188;--1:#4EC9B0">Person</span><span style="--0:#000000;--1:#D4D4D4"> = { </span><span style="--0:#001080;--1:#9CDCFE">name:</span><span style="--0:#000000;--1:#D4D4D4"> </span><span style="--0:#A31515;--1:#CE9178">&#39;John&#39;</span><span style="--0:#000000;--1:#D4D4D4">, </span><span style="--0:#001080;--1:#9CDCFE">age:</span><span style="--0:#000000;--1:#D4D4D4"> </span><span style="--0:#08774E;--1:#B5CEA8">25</span><span style="--0:#000000;--1:#D4D4D4"> };</span></div></div><div class="ec-line"><div class="code">
+</div></div><div class="ec-line"><div class="code"><span style="--0:#001080;--1:#9CDCFE">console</span><span style="--0:#000000;--1:#D4D4D4">.</span><span style="--0:#795E26;--1:#DCDCAA">log</span><span style="--0:#000000;--1:#D4D4D4">(</span><span style="--0:#795E26;--1:#DCDCAA">greet</span><span style="--0:#000000;--1:#D4D4D4">(</span><span style="--0:#001080;--1:#9CDCFE">person</span><span style="--0:#000000;--1:#D4D4D4">));</span></div></div></code></pre><div class="copy"><button title="Copy to clipboard" data-copied="Copied!" data-code="// Usageconst person: Person = { name: 'John', age: 25 };console.log(greet(person));"><div></div></button></div></figure></div>
+<h3 id="elit-excepteur">Elit excepteur</h3>
+<p>Reprehenderit ad dolore occaecat culpa sint ad. Ex cillum do dolor magna labore reprehenderit culpa cillum aliqua quis non nisi adipisicing cupidatat.</p>
+<div class="expressive-code"><figure class="frame has-title"><figcaption class="header"><span class="title">home/user/Example.tsx</span></figcaption><pre data-language="ts"><code><div class="ec-line"><div class="code"><span style="--0:#0000FF;--1:#569CD6">const</span><span style="--0:#000000;--1:#D4D4D4"> </span><span style="--0:#006BB8;--1:#4FC1FF">shuffledNumbers</span><span style="--0:#000000;--1:#D4D4D4"> = </span><span style="--0:#795E26;--1:#DCDCAA">shuffleArray</span><span style="--0:#000000;--1:#D4D4D4">(</span><span style="--0:#001080;--1:#9CDCFE">numbers</span><span style="--0:#000000;--1:#D4D4D4">);</span></div></div></code></pre><div class="copy"><button title="Copy to clipboard" data-copied="Copied!" data-code="const shuffledNumbers = shuffleArray(numbers);"><div></div></button></div></figure></div>
+<h3 id="veniam-consequat-sint-ut-id">Veniam consequat sint ut id</h3>
+<p>Commodo eu amet deserunt reprehenderit quis nulla minim veniam. Labore <code>Lorem magna</code> dolor tempor deserunt anim reprehenderit sint eu pariatur sit exercitation fugiat. Elit <code>nostrud Lorem</code> esse eu do sit ut irure id quis labore est ex do.</p>
+<p>Reprehenderit consequat id aute culpa id aute <a href="#"><code>sint incididunt</code></a> consequat. Eiusmod dolore culpa sit anim anim nulla aute magna laborum sint. Consectetur ex incididunt adipisicing <code>irure exercitation</code> culpa reprehenderit enim laborum. Cillum pariatur <a href="#">consectetur magna</a> enim. Reprehenderit voluptate nostrud tempor aliqua.</p>
+<div class="no-expand"><div class="expressive-code"><figure class="frame has-title"><figcaption class="header"><span class="title">example.js</span></figcaption><pre data-language="js"><code><div class="ec-line"><div class="code"><span style="--0:#007A00;--1:#74A061">// Example object representing a person</span></div></div><div class="ec-line"><div class="code"><span style="--0:#0000FF;--1:#569CD6">const</span><span style="--0:#000000;--1:#D4D4D4"> </span><span style="--0:#006BB8;--1:#4FC1FF">person</span><span style="--0:#000000;--1:#D4D4D4"> = {</span></div></div><div class="ec-line"><div class="code"><span class="indent">  </span><span style="--0:#001080;--1:#9CDCFE">name:</span><span style="--0:#000000;--1:#D4D4D4"> </span><span style="--0:#A31515;--1:#CE9178">&quot;Alice&quot;</span><span style="--0:#000000;--1:#D4D4D4">,</span></div></div><div class="ec-line"><div class="code"><span class="indent">  </span><span style="--0:#001080;--1:#9CDCFE">age:</span><span style="--0:#000000;--1:#D4D4D4"> </span><span style="--0:#08774E;--1:#B5CEA8">25</span><span style="--0:#000000;--1:#D4D4D4">,</span></div></div><div class="ec-line highlight mark"><div class="code"><span class="indent">  </span><span style="--0:#001080;--1:#9CDCFE">city:</span><span style="--0:#000000;--1:#D4D4D4"> </span><span style="--0:#A31515;--1:#d5a18c">&quot;Exampleville&quot;</span><span style="--0:#000000;--1:#D4D4D4">,</span></div></div><div class="ec-line highlight mark"><div class="code"><span class="indent">  </span><span style="--0:#001080;--1:#9CDCFE">hobbies:</span><span style="--0:#000000;--1:#D4D4D4"> [</span><span style="--0:#A31515;--1:#d5a18c">&quot;reading&quot;</span><span style="--0:#000000;--1:#D4D4D4">, </span><span style="--0:#A31515;--1:#d5a18c">&quot;listening to music&quot;</span><span style="--0:#000000;--1:#D4D4D4">, </span><span style="--0:#A31515;--1:#d5a18c">&quot;playing sports&quot;</span><span style="--0:#000000;--1:#D4D4D4">]</span></div></div><div class="ec-line highlight mark"><div class="code"><span style="--0:#000000;--1:#D4D4D4">};</span></div></div></code></pre><div class="copy"><button title="Copy to clipboard" data-copied="Copied!" data-code="// Example object representing a personconst person = {  name: &#34;Alice&#34;,  age: 25,  city: &#34;Exampleville&#34;,  hobbies: [&#34;reading&#34;, &#34;listening to music&#34;, &#34;playing sports&#34;]};"><div></div></button></div></figure></div></div>
+<h4 id="incididunt-lorem-magna-exercitation-elit">Incididunt Lorem magna exercitation elit</h4>
+<p>Mollit incididunt ut et ad voluptate. Laboris est laborum do incididunt. Ex et consectetur minim ad do. Nulla sint deserunt minim quis. Enim ut occaecat dolor culpa enim exercitation do.</p>
+<p>Aute ex aute est do culpa ex deserunt et incididunt <code>adipisicing exercitation</code> aliquip. Consectetur ex ut eu nostrud eiusmod pariatur ad occaecat. Duis duis et commodo ea fugiat elit anim ipsum. Excepteur incididunt ex esse duis laboris adipisicing labore sit nostrud aliqua velit tempor. Et ut minim aute cupidatat labore exercitation proident ipsum labore. Non minim officia officia ullamco.</p>
+<h3 id="quis-ex-officia">Quis ex officia</h3>
+<p>Do quis velit fugiat minim nostrud est ipsum. Enim anim ad culpa fugiat magna consequat consectetur duis ipsum laborum amet. Consequat amet culpa aliqua velit. Pariatur tempor labore id et consectetur in adipisicing nulla magna adipisicing nostrud voluptate velit. Consectetur incididunt ipsum elit incididunt.</p>
+<h3 id="consequat-pariatur">Consequat pariatur</h3>
+<p>Dolor ullamco do consectetur esse. Ea ullamco quis anim qui tempor aliquip sint duis sunt mollit magna. Voluptate laborum et ex laborum quis excepteur reprehenderit in ea eu eiusmod deserunt nisi ad.</p>
+<p>Excepteur tempor enim velit ex <code>exercitation sunt</code> irure id velit. Reprehenderit amet non aliqua ad fugiat ea. Aliquip anim ex id nostrud veniam cupidatat voluptate eu deserunt eu. Est consequat velit dolor qui dolore nostrud aliqua id excepteur mollit pariatur ex aute.</p>
+<p>Sint magna ex est esse nisi et minim laboris. Qui <a href="#">laborum fugiat</a> culpa ullamco adipisicing ad.</p>
+<hr/>
+<h2 id="anim-fugiat-laborum">Anim fugiat laborum</h2>
+<p>Fugiat velit Lorem deserunt tempor est fugiat eiusmod Lorem veniam ex magna velit deserunt. Consequat id cupidatat excepteur consequat officia magna duis <em>esse sit duis nostrud</em> ad est sint. Mollit nisi laborum est non quis deserunt ullamco laborum consectetur deserunt. Nisi <code>consectetur culpa reprehenderit</code> quis.</p>
+<div class="no-expand"><div class="expressive-code"><figure class="frame"><figcaption class="header"></figcaption><pre data-language="txt"><code><div class="ec-line"><div class="code"><span style="--0:#000000;--1:#d4d4d4">project-root/</span></div></div><div class="ec-line"><div class="code"><span style="--0:#000000;--1:#d4d4d4">|-- src/</span></div></div><div class="ec-line"><div class="code"><span style="--0:#000000;--1:#d4d4d4">|   |-- controllers/</span></div></div><div class="ec-line"><div class="code"><span style="--0:#000000;--1:#d4d4d4">|   |   |-- UserController.ts</span></div></div><div class="ec-line"><div class="code"><span style="--0:#000000;--1:#d4d4d4">|   |-- models/</span></div></div><div class="ec-line"><div class="code"><span style="--0:#000000;--1:#d4d4d4">|   |   |-- User.ts</span></div></div><div class="ec-line"><div class="code"><span style="--0:#000000;--1:#d4d4d4">|   |-- routes/</span></div></div><div class="ec-line"><div class="code"><span style="--0:#000000;--1:#d4d4d4">|   |   |-- userRoutes.ts</span></div></div></code></pre><div class="copy"><button title="Copy to clipboard" data-copied="Copied!" data-code="project-root/|-- src/|   |-- controllers/|   |   |-- UserController.ts|   |-- models/|   |   |-- User.ts|   |-- routes/|   |   |-- userRoutes.ts"><div></div></button></div></figure></div></div>
+<p>Non ipsum proident excepteur cillum. Ut aliquip excepteur reprehenderit tempor nostrud nostrud fugiat laborum reprehenderit. Sit elit consequat cupidatat ad pariatur. Eiusmod anim nisi consequat et minim laborum anim est commodo. Duis occaecat aute tempor adipisicing sunt in tempor Lorem anim officia.</p>
+<div class="no-expand"><div class="expressive-code"><figure class="frame"><figcaption class="header"></figcaption><pre data-language="plaintext"><code><div class="ec-line"><div class="code"><span style="--0:#000000;--1:#d4d4d4">project-root/</span></div></div><div class="ec-line"><div class="code"><span style="--0:#000000;--1:#d4d4d4">|-- src/</span></div></div><div class="ec-line"><div class="code"><span style="--0:#000000;--1:#d4d4d4">|   |-- services/</span></div></div><div class="ec-line"><div class="code"><span style="--0:#000000;--1:#d4d4d4">|   |   |-- userService.ts</span></div></div><div class="ec-line"><div class="code"><span style="--0:#000000;--1:#d4d4d4">|   |-- app.ts</span></div></div><div class="ec-line"><div class="code"><span style="--0:#000000;--1:#d4d4d4">|-- dist/ (output directory for compiled TypeScript)</span></div></div><div class="ec-line"><div class="code"><span style="--0:#000000;--1:#d4d4d4">|-- node_modules/</span></div></div></code></pre><div class="copy"><button title="Copy to clipboard" data-copied="Copied!" data-code="project-root/|-- src/|   |-- services/|   |   |-- userService.ts|   |-- app.ts|-- dist/ (output directory for compiled TypeScript)|-- node_modules/"><div></div></button></div></figure></div></div>
+<p>Occaecat occaecat proident reprehenderit occaecat quis sunt reprehenderit magna deserunt aliquip elit consectetur esse. Exercitation non exercitation aliqua aliqua non sunt magna Lorem nostrud proident quis aliqua.</p>
+<p>Esse exercitation nulla elit aliqua voluptate eu non anim nostrud et dolor. Esse elit eiusmod et ad deserunt. Ullamco excepteur dolore est voluptate sint qui consectetur do.</p>
+<h3 id="nulla-velit-incididunt">Nulla velit incididunt</h3>
+<p>Culpa sint labore id veniam laborum officia irure amet ex ea voluptate Lorem commodo cillum:</p>
+<ul>
+<li>
+<p><strong>Ea proident et qui voluptate nostrud consectetur aute.</strong></p>
+<p><code>Quis</code> esse nostrud commodo velit officia. Veniam ea eu fugiat dolor exercitation.</p>
+</li>
+<li>
+<p><strong>Cillum dolore laboris sint sit pariatur nulla.</strong></p>
+<p>Aliqua nisi eiusmod ex quis commodo occaecat pariatur incididunt tempor elit nulla in ipsum ullamco. Voluptate ea officia veniam consectetur. Laborum commodo consequat et magna do sit Lorem nostrud deserunt et aliquip anim. Veniam adipisicing eiusmod ad adipisicing aute. Eiusmod voluptate ipsum voluptate ad irure laboris et est minim non excepteur id.</p>
+</li>
+</ul>
+<hr/>
+<h2 id="reprehenderit-aute-dolor-officia">Reprehenderit aute dolor officia</h2>
+<p>Consectetur exercitation ut ea anim velit pariatur quis sint sint irure. Sit qui aute enim aliquip aliqua non. Elit incididunt nisi proident dolor eiusmod veniam quis. Dolor laboris laboris adipisicing voluptate consectetur in velit enim ut.</p>
+<p>Cupidatat nulla voluptate aliquip amet. Duis ipsum cupidatat occaecat consectetur amet.</p>  </section> <section class="centered-px max-w-3xl">  <div class="flex justify-between items-start gap-6 flex-col md:flex-row b-h2-mb"> <ul class="not-prose inline-flex items-center flex-wrap gap-3"><li class="inline-flex items-center"><a href="/blog/tags/devops" class="tag tag-solid tag-md tag-solid-md"> #devops </a></li><li class="inline-flex items-center"><a href="/blog/tags/css" class="tag tag-solid tag-md tag-solid-md"> #css </a></li><li class="inline-flex items-center"><a href="/blog/tags/react" class="tag tag-solid tag-md tag-solid-md"> #react </a></li><li class="inline-flex items-center"><a href="/blog/tags/astro" class="tag tag-solid tag-md tag-solid-md"> #astro </a></li></ul> <div class="inline-flex items-center gap-2"> <span class="font-bold text-base">Share:</span>   <div class="astro-social-share"> <a class="social-share-btn" target="_blank" href="https://twitter.com/intent/tweet?url=https://nemanjam.github.io/blog/2024-01-20-example-article-4&text=Dolor velit excepteur cupidatat: Aute in fugiat id reprehenderit ipsum qui tempor fugiat. Excepteur tempor culpa velit duis quis enim aliquip.
+&via=https://x.com/nemanja_codes" rel="noopener noreferrer" data-astro-cid-a232q27d>   <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" data-astro-cid-a232q27d><title>X</title><path d="M18.901 1.153h3.68l-8.04 9.19L24 22.846h-7.406l-5.8-7.584-6.638 7.584H.474l8.6-9.83L0 1.154h7.594l5.243 6.932ZM17.61 20.644h2.039L6.486 3.24H4.298Z" data-astro-cid-a232q27d></path></svg>  </a><a class="social-share-btn" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https://nemanjam.github.io/blog/2024-01-20-example-article-4" rel="noopener noreferrer" data-astro-cid-nksckkzh>   <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" data-astro-cid-nksckkzh><title>Facebook</title><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" data-astro-cid-nksckkzh></path></svg>  </a><a class="social-share-btn" target="_blank" href="https://www.reddit.com/submit?url=https%3A%2F%2Fnemanjam.github.io%2Fblog%2F2024-01-20-example-article-4&title=Example article 4 commodo ea ipsum tempor nisi aliqua" rel="noopener noreferrer" data-astro-cid-qrrmiaqu>   <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" data-astro-cid-qrrmiaqu><title>Reddit</title><path d="M12 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0zm5.01 4.744c.688 0 1.25.561 1.25 1.249a1.25 1.25 0 0 1-2.498.056l-2.597-.547-.8 3.747c1.824.07 3.48.632 4.674 1.488.308-.309.73-.491 1.207-.491.968 0 1.754.786 1.754 1.754 0 .716-.435 1.333-1.01 1.614a3.111 3.111 0 0 1 .042.52c0 2.694-3.13 4.87-7.004 4.87-3.874 0-7.004-2.176-7.004-4.87 0-.183.015-.366.043-.534A1.748 1.748 0 0 1 4.028 12c0-.968.786-1.754 1.754-1.754.463 0 .898.196 1.207.49 1.207-.883 2.878-1.43 4.744-1.487l.885-4.182a.342.342 0 0 1 .14-.197.35.35 0 0 1 .238-.042l2.906.617a1.214 1.214 0 0 1 1.108-.701zM9.25 12C8.561 12 8 12.562 8 13.25c0 .687.561 1.248 1.25 1.248.687 0 1.248-.561 1.248-1.249 0-.688-.561-1.249-1.249-1.249zm5.5 0c-.687 0-1.248.561-1.248 1.25 0 .687.561 1.248 1.249 1.248.688 0 1.249-.561 1.249-1.249 0-.687-.562-1.249-1.25-1.249zm-5.466 3.99a.327.327 0 0 0-.231.094.33.33 0 0 0 0 .463c.842.842 2.484.913 2.961.913.477 0 2.105-.056 2.961-.913a.361.361 0 0 0 .029-.463.33.33 0 0 0-.464 0c-.547.533-1.684.73-2.512.73-.828 0-1.979-.196-2.512-.73a.326.326 0 0 0-.232-.095z" data-astro-cid-qrrmiaqu></path></svg>  </a><a class="social-share-btn" target="_blank" href="https://www.linkedin.com/sharing/share-offsite/?url=https://nemanjam.github.io/blog/2024-01-20-example-article-4" rel="noopener noreferrer" data-astro-cid-lja7htzy>   <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" data-astro-cid-lja7htzy><title>LinkedIn</title><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" data-astro-cid-lja7htzy></path></svg>  </a><a class="social-share-btn" target="_blank" href="http://news.ycombinator.com/submitlink?u=https://nemanjam.github.io/blog/2024-01-20-example-article-4&t=Example article 4 commodo ea ipsum tempor nisi aliqua" rel="noopener noreferrer" data-astro-cid-upxiorz7>   <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" data-astro-cid-upxiorz7><title>Y Combinator</title><path d="M0 24V0h24v24H0zM6.951 5.896l4.112 7.708v5.064h1.583v-4.972l4.148-7.799h-1.749l-2.457 4.875c-.372.745-.688 1.434-.688 1.434s-.297-.708-.651-1.434L8.831 5.896h-1.88z" data-astro-cid-upxiorz7></path></svg>  </a> </div> </div>   </div> <div class="giscus b-h2-mt"> <giscus-widget id="giscus-comments" repo="nemanjam/nemanjam.github.io" repoid="R_kgDOKc-LeA" category="General" categoryid="DIC_kwDOKc-LeM4CZ7UL" mapping="pathname" term="Comments are welcome" strict="0" reactionsenabled="1" emitmetadata="0" inputposition="bottom" theme="light" lang="en" crossorigin="anonymous" loading="lazy"></giscus-widget> </div>   </section> <section class="centered-px max-w-5xl b-h2-mt">  <div class=""> <h2 class="b-h2 mt-0">More posts</h2> <ul class="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3"> <li> <div> <img src="/_astro/riverside1.D2xAI4x9_wRzqp.webp" srcset="/_astro/riverside1.D2xAI4x9_ZLIpCC.webp 320w, /_astro/riverside1.D2xAI4x9_2qGVF5.webp 640w" sizes="(max-width: 475px) 320px, 640px" alt="sunt aute reprehenderit exercitation cillum culpa dolor dolor commodo ea ipsum tempor nisi aliqua." class="max-h-40 object-cover rounded-t-box" width="4608" height="2592" loading="lazy" decoding="async"> <h4 class="b-h4 break-words line-clamp-2 mt-3 mb-2"> <a class="link-default link-heading" href="/blog/2022-03-17-example-article-2"> Example article 2 dolor commodo ea ipsum tempor nisi aliqua </a> </h4> <p class="text-base text-captions line-clamp-2">Dolor velit excepteur cupidatat: Aute in fugiat id reprehenderit ipsum qui tempor fugiat. Excepteur tempor culpa velit duis quis enim aliquip.
+</p> </div> </li><li> <div> <img src="/_astro/lure1.OfnH5Wkc_ZYfbKB.webp" srcset="/_astro/lure1.OfnH5Wkc_2bKLLD.webp 320w, /_astro/lure1.OfnH5Wkc_k00gp.webp 640w" sizes="(max-width: 475px) 320px, 640px" alt="sunt aute reprehenderit exercitation cillum culpa dolor dolor commodo ea ipsum tempor nisi aliqua." class="max-h-40 object-cover rounded-t-box" width="4608" height="2592" loading="lazy" decoding="async"> <h4 class="b-h4 break-words line-clamp-2 mt-3 mb-2"> <a class="link-default link-heading" href="/blog/2023-01-19-example-article-3"> Example article 3 reprehenderit ipsum qui tempor </a> </h4> <p class="text-base text-captions line-clamp-2">Dolor velit excepteur cupidatat: Aute in fugiat id reprehenderit ipsum qui tempor fugiat. Excepteur tempor culpa velit duis quis enim aliquip.
+</p> </div> </li><li> <div> <img src="/_astro/focus1.CEdGhKb3_1gsyHc.webp" srcset="/_astro/focus1.CEdGhKb3_Z5JEOh.webp 320w, /_astro/focus1.CEdGhKb3_Z1Wvrkv.webp 640w" sizes="(max-width: 475px) 320px, 640px" alt="sunt aute reprehenderit exercitation cillum culpa dolor dolor commodo ea ipsum tempor nisi aliqua." class="max-h-40 object-cover rounded-t-box" width="4608" height="2592" loading="lazy" decoding="async"> <h4 class="b-h4 break-words line-clamp-2 mt-3 mb-2"> <a class="link-default link-heading" href="/blog/2022-02-16-example-article-1"> Example article 1 </a> </h4> <p class="text-base text-captions line-clamp-2">Et dolor tempor velit: Aute ad tempor incididunt labore dolore incididunt in quis officia quis est. Ullamco aute et ex velit proident non.
+</p> </div> </li> </ul> </div>  </section> </article>  </main>  <footer class="border-t border-base-300 py-8 px-4"> <div class="max-w-6xl md:mx-auto flex justify-center md:justify-start"> <div class="flex justify-between gap-4 flex-col-reverse md:flex-row md:w-full"> <!-- left column --> <div class="flex items-center gap-2 flex-wrap text-sm text-content whitespace-nowrap"> <div class="flex items-center gap-2"> <label class="font-bold">Latest commit:</label> <a class="link-default link" href="https://github.com/nemanjam/nemanjam.github.io/commit/7fed9b43b84980be517d2a59290ef5eb4d195992" title="23rd October, 10pm" target="_blank"> remove url from desc... </a> </div> <div class="flex items-center gap-2"> <label class="font-bold">Design system:</label> <a class="link-default link" href="/design/" title="Design system"> link </a> </div> </div> <!-- right column --> <ul class="flex gap-2 flex-wrap xs:flex-nowrap lg:items-center"> <li> <a class="link-default link-nav flex items-center gap-2 text-base xs:text-lg" href="https://github.com/nemanjam" target="_blank" rel="me noreferrer noopener" title="@nemanjam on Github">  <svg width="1em" height="1em" viewBox="0 0 24 24" class="h-6 w-6 fill-current" data-icon="mdi:github">  <symbol id="ai:mdi:github"><path fill="currentColor" d="M12 2A10 10 0 0 0 2 12c0 4.42 2.87 8.17 6.84 9.5c.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34c-.46-1.16-1.11-1.47-1.11-1.47c-.91-.62.07-.6.07-.6c1 .07 1.53 1.03 1.53 1.03c.87 1.52 2.34 1.07 2.91.83c.09-.65.35-1.09.63-1.34c-2.22-.25-4.55-1.11-4.55-4.92c0-1.11.38-2 1.03-2.71c-.1-.25-.45-1.29.1-2.64c0 0 .84-.27 2.75 1.02c.79-.22 1.65-.33 2.5-.33s1.71.11 2.5.33c1.91-1.29 2.75-1.02 2.75-1.02c.55 1.35.2 2.39.1 2.64c.65.71 1.03 1.6 1.03 2.71c0 3.82-2.34 4.66-4.57 4.91c.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0 0 12 2"/></symbol><use xlink:href="#ai:mdi:github"></use>  </svg> <span>Github</span>  </a> </li> <li> <a class="link-default link-nav flex items-center gap-2 text-base xs:text-lg" href="https://www.linkedin.com/in/nemanja-mitic" target="_blank" rel="me noreferrer noopener" title="Nemanja on LinkedIn">  <svg width="1em" height="1em" viewBox="0 0 24 24" class="h-6 w-6 fill-current" data-icon="mdi:linkedin">  <symbol id="ai:mdi:linkedin"><path fill="currentColor" d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2zm-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.32 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93zM6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37z"/></symbol><use xlink:href="#ai:mdi:linkedin"></use>  </svg> <span>LinkedIn</span>  </a> </li> <li> <a class="link-default link-nav flex items-center gap-2 text-base xs:text-lg" href="/api/feed.xml" title="RSS feed for nemanjam.github.io">  <svg width="1em" height="1em" viewBox="0 0 24 24" class="h-6 w-6 fill-current" data-icon="mdi:rss">  <symbol id="ai:mdi:rss"><path fill="currentColor" d="M6.18 15.64a2.18 2.18 0 0 1 2.18 2.18C8.36 19 7.38 20 6.18 20C5 20 4 19 4 17.82a2.18 2.18 0 0 1 2.18-2.18M4 4.44A15.56 15.56 0 0 1 19.56 20h-2.83A12.73 12.73 0 0 0 4 7.27zm0 5.66a9.9 9.9 0 0 1 9.9 9.9h-2.83A7.07 7.07 0 0 0 4 12.93z"/></symbol><use xlink:href="#ai:mdi:rss"></use>  </svg> <span>RSS Feed</span>  </a> </li> </ul> </div> </div> </footer> <style>astro-island,astro-slot,astro-static-slot{display:contents}</style><script>(()=>{var e=async t=>{await(await t())()};(self.Astro||(self.Astro={})).only=e;window.dispatchEvent(new Event("astro:only"));})();;(()=>{var A=Object.defineProperty;var g=(i,o,a)=>o in i?A(i,o,{enumerable:!0,configurable:!0,writable:!0,value:a}):i[o]=a;var d=(i,o,a)=>g(i,typeof o!="symbol"?o+"":o,a);{let i={0:t=>m(t),1:t=>a(t),2:t=>new RegExp(t),3:t=>new Date(t),4:t=>new Map(a(t)),5:t=>new Set(a(t)),6:t=>BigInt(t),7:t=>new URL(t),8:t=>new Uint8Array(t),9:t=>new Uint16Array(t),10:t=>new Uint32Array(t),11:t=>1/0*t},o=t=>{let[l,e]=t;return l in i?i[l](e):void 0},a=t=>t.map(o),m=t=>typeof t!="object"||t===null?t:Object.fromEntries(Object.entries(t).map(([l,e])=>[l,o(e)]));class y extends HTMLElement{constructor(){super(...arguments);d(this,"Component");d(this,"hydrator");d(this,"hydrate",async()=>{var b;if(!this.hydrator||!this.isConnected)return;let e=(b=this.parentElement)==null?void 0:b.closest("astro-island[ssr]");if(e){e.addEventListener("astro:hydrate",this.hydrate,{once:!0});return}let c=this.querySelectorAll("astro-slot"),n={},h=this.querySelectorAll("template[data-astro-template]");for(let r of h){let s=r.closest(this.tagName);s!=null&&s.isSameNode(this)&&(n[r.getAttribute("data-astro-template")||"default"]=r.innerHTML,r.remove())}for(let r of c){let s=r.closest(this.tagName);s!=null&&s.isSameNode(this)&&(n[r.getAttribute("name")||"default"]=r.innerHTML)}let p;try{p=this.hasAttribute("props")?m(JSON.parse(this.getAttribute("props"))):{}}catch(r){let s=this.getAttribute("component-url")||"<unknown>",v=this.getAttribute("component-export");throw v&&(s+=` (export ${v})`),console.error(`[hydrate] Error parsing props for component ${s}`,this.getAttribute("props"),r),r}let u;await this.hydrator(this)(this.Component,p,n,{client:this.getAttribute("client")}),this.removeAttribute("ssr"),this.dispatchEvent(new CustomEvent("astro:hydrate"))});d(this,"unmount",()=>{this.isConnected||this.dispatchEvent(new CustomEvent("astro:unmount"))})}disconnectedCallback(){document.removeEventListener("astro:after-swap",this.unmount),document.addEventListener("astro:after-swap",this.unmount,{once:!0})}connectedCallback(){if(!this.hasAttribute("await-children")||document.readyState==="interactive"||document.readyState==="complete")this.childrenConnectedCallback();else{let e=()=>{document.removeEventListener("DOMContentLoaded",e),c.disconnect(),this.childrenConnectedCallback()},c=new MutationObserver(()=>{var n;((n=this.lastChild)==null?void 0:n.nodeType)===Node.COMMENT_NODE&&this.lastChild.nodeValue==="astro:end"&&(this.lastChild.remove(),e())});c.observe(this,{childList:!0}),document.addEventListener("DOMContentLoaded",e)}}async childrenConnectedCallback(){let e=this.getAttribute("before-hydration-url");e&&await import(e),this.start()}async start(){let e=JSON.parse(this.getAttribute("opts")),c=this.getAttribute("client");if(Astro[c]===void 0){window.addEventListener(`astro:${c}`,()=>this.start(),{once:!0});return}try{await Astro[c](async()=>{let n=this.getAttribute("renderer-url"),[h,{default:p}]=await Promise.all([import(this.getAttribute("component-url")),n?import(n):()=>()=>{}]),u=this.getAttribute("component-export")||"default";if(!u.includes("."))this.Component=h[u];else{this.Component=h;for(let f of u.split("."))this.Component=this.Component[f]}return this.hydrator=p,this.hydrate},e,this)}catch(n){console.error(`[astro-island] Error hydrating ${this.getAttribute("component-url")}`,n)}}attributeChangedCallback(){this.hydrate()}}d(y,"observedAttributes",["props"]),customElements.get("astro-island")||customElements.define("astro-island",y)}})();</script><astro-island uid="Z5NTfB" component-url="/_astro/ScrollToTop.DEzDiD-j.js" component-export="default" renderer-url="/_astro/client.WI9wUHpr.js" props="{}" ssr="" client="only" opts="{&quot;name&quot;:&quot;ScrollToTop&quot;,&quot;value&quot;:&quot;react&quot;}" await-children=""><template data-astro-template> <svg width="1em" height="1em" viewBox="0 0 24 24" class="h-10 w-10 text-content hover:text-links-hover" data-icon="mdi:arrow-up-thin">  <symbol id="ai:mdi:arrow-up-thin"><path fill="currentColor" d="M7.03 9.97h4v8.92l2.01.03V9.97h3.99l-5-5Z"/></symbol><use xlink:href="#ai:mdi:arrow-up-thin"></use>  </svg> </template><!--astro:end--></astro-island>  </body></html>

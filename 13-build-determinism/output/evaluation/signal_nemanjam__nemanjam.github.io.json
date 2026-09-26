@@ -9,6 +9,207 @@
  "diff_after": 21,
  "became_identical": 0,
  "flagged_pages": [],
- "signal_lost": false,
- "analysis": "21/21 pages differ before and after; 0 became identical."
+ "signal_lost": true,
+ "analysis": "21/21 pages differ before and after; 0 became identical.",
+ "region_analysis": {
+  "shiki-unwrap": {
+   "matcher": "dom: lxml.html parse; selector \"pre.astro-code span, pre[data-theme] span\" translated to XPath [\"//pre[contains(concat(' ',normalize-space(@class),' '),' astro-code ')]//span\", '//pre[@data-theme]//span']; each selected element serialized via lxml.html.tostring(unicode); elements paired by document order per page; region normalization = element text content (both dom rules unwrap tags but keep text)",
+   "files_compared": 21,
+   "regions_matched": 657,
+   "regions_differing_raw": 346,
+   "regions_differing_across_commits": 5,
+   "regions_preserved_but_differing": 341,
+   "unpaired_before": 0,
+   "unpaired_after": 130,
+   "examples": [
+    {
+     "file": "blog/2024-01-16-example-article-1/index.html",
+     "before": "<span class=\"inline-block w-full px-4 lg:px-8 border-l-4 border-transparent\" data-line=\"\"><span style=\"color:#C099FF\">function</span><span style=\"color:#82AAFF\"> calculateArea(radius: number): number {</span></span>\n",
+     "after": "<span class=\"inline-block w-full px-4 lg:px-8 border-l-4 border-transparent\" data-line=\"\"><span style=\"color:#C099FF\">function</span><span style=\"color:#82AAFF\"> calculateArea</span><span style=\"color:#B4C2F0\">(</span><span style=\"color:#FCA7EA\">radius</span><span style=\"color:#86E1FC\">:</span><span style=\"color:#FF966C\"> number</span><span style=\"color:#B4C2F0\">)</span><span style=\"color:#86E1FC\">:</span><span style=\"color:#FF966C\"> number</span><span style=\"color:#B4C2F0\"> {</span></span>\n",
+     "shared_text": "function calculateArea(radius: number): number {"
+    },
+    {
+     "file": "blog/2024-01-17-example-article-2/index.html",
+     "before": "<span class=\"inline-block w-full px-4 lg:px-8 border-l-4 border-transparent\" data-line=\"\"><span style=\"color:#4FD6BE\">  name</span><span style=\"color:#86E1FC\">:</span><span style=\"color:#86E1FC\"> \"Alice\",</span></span>\n",
+     "after": "<span class=\"inline-block w-full px-4 lg:px-8 border-l-4 border-transparent\" data-line=\"\"><span style=\"color:#4FD6BE\">  name</span><span style=\"color:#86E1FC\">:</span><span style=\"color:#86E1FC\"> \"</span><span style=\"color:#C3E88D\">Alice</span><span style=\"color:#86E1FC\">\"</span><span style=\"color:#86E1FC\">,</span></span>\n",
+     "shared_text": "  name: \"Alice\","
+    },
+    {
+     "file": "blog/2024-01-17-example-article-2/index.html",
+     "before": "<span style=\"color:#FF5370\">,</span>",
+     "after": "<span style=\"color:#86E1FC\">,</span>",
+     "shared_text": ","
+    },
+    {
+     "file": "styleguide/index.html",
+     "before": "<span class=\"inline-block w-full px-4 lg:px-8 border-l-4 border-transparent\" data-line=\"\"><span style=\"color:#86E1FC\">&lt;!doctype html&gt;</span></span>\n",
+     "after": "<span class=\"inline-block w-full px-4 lg:px-8 border-l-4 border-transparent\" data-line=\"\"><span style=\"color:#86E1FC\">&lt;!</span><span style=\"color:#C099FF\">doctype</span><span style=\"color:#FFC777\"> html</span><span style=\"color:#86E1FC\">&gt;</span></span>\n",
+     "shared_text": "<!doctype html>"
+    },
+    {
+     "file": "styleguide/index.html",
+     "before": "<span style=\"color:#FF5370\">    &lt;</span>",
+     "after": "<span style=\"color:#86E1FC\">    &lt;</span>",
+     "shared_text": "    <"
+    }
+   ],
+   "signal_lost": true,
+   "withdrawn": true,
+   "withdrawal_reason": "C2 (2026-09-26): site reclassified live_data/other \"generated content\"; rule withdrawn. Region numbers retained as measurement evidence."
+  },
+  "nemanjam-image-suffix": {
+   "matcher": "regex: rule pattern applied to raw file text; match spans paired by document order per page; region normalization = match.expand(replacement)",
+   "files_compared": 21,
+   "regions_matched": 44,
+   "regions_differing_raw": 21,
+   "regions_differing_across_commits": 21,
+   "regions_preserved_but_differing": 0,
+   "unpaired_before": 0,
+   "unpaired_after": 95,
+   "examples": [
+    {
+     "file": "blog/1/index.html",
+     "before": "p-10 md:max-w-none\">   <div class=\"md:basis-1/3\"> <img src=\"/_astro/focus1.CEdGhKb3_10NMxg.webp\" alt=\"sunt aute reprehenderit exercitation cillum culpa dol",
+     "after": "ase-300\">  <div class=\"md:basis-1/3 md:shrink-0\"> <img src=\"/_astro/morning1.BsQhkbTL_ZUmsSj.webp\" srcset=\"/_astro/morning1.BsQhkbTL_21Al0O.webp 320w, /_astr"
+    },
+    {
+     "file": "blog/1/index.html",
+     "before": "p-10 md:max-w-none\">   <div class=\"md:basis-1/3\"> <img src=\"/_astro/riverside1.D2xAI4x9_28gVTp.webp\" alt=\"sunt aute reprehenderit exercitation cillum culpa dol",
+     "after": "\"> <img src=\"/_astro/morning1.BsQhkbTL_ZUmsSj.webp\" srcset=\"/_astro/morning1.BsQhkbTL_21Al0O.webp 320w, /_astro/morning1.BsQhkbTL_ZSgsD5.webp 540w\" alt=\"sunt"
+    },
+    {
+     "file": "blog/2024-01-16-example-article-1/index.html",
+     "before": "ted\" datetime=\"2024-03-16\">Mar 16, 2024</time></p><img src=\"/_astro/focus1.CEdGhKb3_1W51lI.webp\" alt=\"sunt aute reprehenderit exercitation cillum culpa dol",
+     "after": "-8\"> <figure class=\"w-full max-w-5xl md:mx-auto\"> <img src=\"/_astro/focus1.CEdGhKb3_ZlG9GF.webp\" srcset=\"/_astro/focus1.CEdGhKb3_Z1o2hl9.webp 320w, /_astro"
+    },
+    {
+     "file": "blog/2024-01-16-example-article-1/index.html",
+     "before": "ptate mollit do elit.</p>\n<div class=\"bustout-sm\"><img src=\"/_astro/focus1.CEdGhKb3_Z1gSkA0.webp\" alt=\"\" width=\"1024\" height=\"576\" loading=\"lazy\" decoding=\"",
+     "after": "to\"> <img src=\"/_astro/focus1.CEdGhKb3_ZlG9GF.webp\" srcset=\"/_astro/focus1.CEdGhKb3_Z1o2hl9.webp 320w, /_astro/focus1.CEdGhKb3_Li2NS.webp 540w, /_astro/focu"
+    },
+    {
+     "file": "blog/2024-01-16-example-article-1/index.html",
+     "before": "an></code></pre></figure>\n<div class=\"bustout-sm\"><img src=\"/_astro/focus1.CEdGhKb3_Z1gSkA0.webp\" alt=\"Aliqua Lorem veniam tempor qui duis.\" width=\"1024\" he",
+     "after": "GF.webp\" srcset=\"/_astro/focus1.CEdGhKb3_Z1o2hl9.webp 320w, /_astro/focus1.CEdGhKb3_Li2NS.webp 540w, /_astro/focus1.CEdGhKb3_Z2gPhAo.webp 720w, /_astro/fo"
+    }
+   ],
+   "signal_lost": true,
+   "withdrawn": true,
+   "withdrawal_reason": "C2 (2026-09-26): site reclassified live_data/other \"generated content\"; rule withdrawn. Region numbers retained as measurement evidence."
+  },
+  "nemanjam-excerpt-tail": {
+   "matcher": "regex: rule pattern applied to raw file text; match spans paired by document order per page; region normalization = match.expand(replacement)",
+   "files_compared": 21,
+   "regions_matched": 0,
+   "regions_differing_raw": 0,
+   "regions_differing_across_commits": 0,
+   "regions_preserved_but_differing": 0,
+   "unpaired_before": 11,
+   "unpaired_after": 0,
+   "examples": [],
+   "signal_lost": false,
+   "withdrawn": true,
+   "withdrawal_reason": "C2 (2026-09-26): site reclassified live_data/other \"generated content\"; rule withdrawn. Region numbers retained as measurement evidence."
+  },
+  "nemanjam-island-uid": {
+   "matcher": "regex: rule pattern applied to raw file text; match spans paired by document order per page; region normalization = match.expand(replacement)",
+   "files_compared": 21,
+   "regions_matched": 46,
+   "regions_differing_raw": 46,
+   "regions_differing_across_commits": 46,
+   "regions_preserved_but_differing": 0,
+   "unpaired_before": 21,
+   "unpaired_after": 0,
+   "examples": [
+    {
+     "file": "404.html",
+     "before": "ts:[],completed:new WeakSet,r:{},fe(){}});</script><!--xs--><astro-island uid=\"1vhhb9\" data-solid-render-id=\"s1\" component-url=\"/_astro/ThemeSwitc",
+     "after": "nd\")||customElements.define(\"astro-island\",y)}})();</script><astro-island uid=\"IHGs2\" component-url=\"/_astro/BackToTop.BHd7YhCh.js\" component-exp"
+    },
+    {
+     "file": "404.html",
+     "before": "window.dispatchEvent(new Event(\"astro:only\"));})();</script><astro-island uid=\"IHGs2\" component-url=\"/_astro/BackToTop.BvVVm6Z9.js\" component-exp",
+     "after": "ts:[],completed:new WeakSet,r:{},fe(){}});</script><!--xs--><astro-island uid=\"ZjWwEn\" data-solid-render-id=\"s0\" component-url=\"/_astro/Snackbar.l"
+    },
+    {
+     "file": "about/index.html",
+     "before": "ts:[],completed:new WeakSet,r:{},fe(){}});</script><!--xs--><astro-island uid=\"1vhhb9\" data-solid-render-id=\"s1\" component-url=\"/_astro/ThemeSwitc",
+     "after": "nd\")||customElements.define(\"astro-island\",y)}})();</script><astro-island uid=\"IHGs2\" component-url=\"/_astro/BackToTop.BHd7YhCh.js\" component-exp"
+    },
+    {
+     "file": "about/index.html",
+     "before": "window.dispatchEvent(new Event(\"astro:only\"));})();</script><astro-island uid=\"IHGs2\" component-url=\"/_astro/BackToTop.BvVVm6Z9.js\" component-exp",
+     "after": "ts:[],completed:new WeakSet,r:{},fe(){}});</script><!--xs--><astro-island uid=\"ZjWwEn\" data-solid-render-id=\"s0\" component-url=\"/_astro/Snackbar.l"
+    },
+    {
+     "file": "blog/1/index.html",
+     "before": "ts:[],completed:new WeakSet,r:{},fe(){}});</script><!--xs--><astro-island uid=\"1vhhb9\" data-solid-render-id=\"s1\" component-url=\"/_astro/ThemeSwitc",
+     "after": "nd\")||customElements.define(\"astro-island\",y)}})();</script><astro-island uid=\"IHGs2\" component-url=\"/_astro/BackToTop.BHd7YhCh.js\" component-exp"
+    }
+   ],
+   "signal_lost": true,
+   "withdrawn": true,
+   "withdrawal_reason": "C2 (2026-09-26): site reclassified live_data/other \"generated content\"; rule withdrawn. Region numbers retained as measurement evidence."
+  },
+  "nemanjam-more-posts": {
+   "matcher": "regex: rule pattern applied to raw file text; match spans paired by document order per page; region normalization = match.expand(replacement)",
+   "files_compared": 21,
+   "regions_matched": 0,
+   "regions_differing_raw": 0,
+   "regions_differing_across_commits": 0,
+   "regions_preserved_but_differing": 0,
+   "unpaired_before": 0,
+   "unpaired_after": 0,
+   "examples": [],
+   "signal_lost": false,
+   "withdrawn": true,
+   "withdrawal_reason": "C2 (2026-09-26): site reclassified live_data/other \"generated content\"; rule withdrawn. Region numbers retained as measurement evidence."
+  },
+  "nemanjam-hoisted-js": {
+   "matcher": "regex: rule pattern applied to raw file text; match spans paired by document order per page; region normalization = match.expand(replacement)",
+   "files_compared": 21,
+   "regions_matched": 21,
+   "regions_differing_raw": 21,
+   "regions_differing_across_commits": 21,
+   "regions_preserved_but_differing": 0,
+   "unpaired_before": 0,
+   "unpaired_after": 0,
+   "examples": [
+    {
+     "file": "404.html",
+     "before": "ef=\"/_astro/_page_.CP0i9Yam.css\"><script type=\"module\" src=\"/_astro/hoisted.C3UjtfWe.js\"></script></head><body class=\"flex flex-col min-h-screen bg",
+     "after": "ef=\"/_astro/_page_.snVh6evk.css\"><script type=\"module\" src=\"/_astro/hoisted.CYt8maDg.js\"></script></head><body class=\"flex flex-col min-h-screen bg"
+    },
+    {
+     "file": "about/index.html",
+     "before": "ef=\"/_astro/_page_.CP0i9Yam.css\"><script type=\"module\" src=\"/_astro/hoisted.C3UjtfWe.js\"></script></head><body class=\"flex flex-col min-h-screen bg",
+     "after": "ef=\"/_astro/_page_.snVh6evk.css\"><script type=\"module\" src=\"/_astro/hoisted.CYt8maDg.js\"></script></head><body class=\"flex flex-col min-h-screen bg"
+    },
+    {
+     "file": "blog/1/index.html",
+     "before": "imation:none!important}}\n</style><script type=\"module\" src=\"/_astro/hoisted.C3UjtfWe.js\"></script><style>[data-astro-transition-scope=\"astro-djycji",
+     "after": "imation:none!important}}\n</style><script type=\"module\" src=\"/_astro/hoisted.CYt8maDg.js\"></script><style>[data-astro-transition-scope=\"astro-lzmvvq"
+    },
+    {
+     "file": "blog/2024-01-16-example-article-1/index.html",
+     "before": "imation:none!important}}\n</style><script type=\"module\" src=\"/_astro/hoisted.C3UjtfWe.js\"></script><style>[data-astro-transition-scope=\"astro-wgn6oa",
+     "after": "ef=\"/_astro/_page_.snVh6evk.css\"><script type=\"module\" src=\"/_astro/hoisted.CYt8maDg.js\"></script></head><body class=\"flex flex-col min-h-screen bg"
+    },
+    {
+     "file": "blog/2024-01-17-example-article-2/index.html",
+     "before": "imation:none!important}}\n</style><script type=\"module\" src=\"/_astro/hoisted.C3UjtfWe.js\"></script><style>[data-astro-transition-scope=\"astro-wgn6oa",
+     "after": "ef=\"/_astro/_page_.snVh6evk.css\"><script type=\"module\" src=\"/_astro/hoisted.CYt8maDg.js\"></script></head><body class=\"flex flex-col min-h-screen bg"
+    }
+   ],
+   "signal_lost": true,
+   "withdrawn": true,
+   "withdrawal_reason": "C2 (2026-09-26): site reclassified live_data/other \"generated content\"; rule withdrawn. Region numbers retained as measurement evidence."
+  }
+ },
+ "signal_lost_rules": [
+  "shiki-unwrap",
+  "nemanjam-image-suffix",
+  "nemanjam-island-uid",
+  "nemanjam-hoisted-js"
+ ]
 }

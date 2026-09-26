@@ -12,6 +12,7 @@
    "median_static_page_count": 547.0,
    "pairs_analysed": 101,
    "median_pages_modified_per_pair": 526,
+   "pages_modified_note": "pages_modified for tempertemper is a byte-level count inflated by the build-time `?v=<epoch ms>` cache-buster on every page; the structure layer is the change signal.",
    "pages_modified_distribution": {
     "0": 10,
     "1": 11,
@@ -493,8 +494,48 @@
  },
  "snapshot_budget": {
   "cap_mb": 120,
-  "used_mb": 120.0,
-  "cutoff_note": "120 MB snapshot budget exhausted during tempertemper (first repo in mandated order); efcl and alexcarpenter pages with insert/remove events record hashes only (row snapshot field = skipped_budget_exhausted)."
+  "work_snapshot_budget_json": {
+   "source": "work/snapshot_budget.json",
+   "used_bytes": 125828523,
+   "used_mb": 120.0,
+   "arithmetic": "125828523 / 1048576 = 119.9994 -> 120.0"
+  },
+  "per_repo_budget_used_bytes": {
+   "source": "output/structure/snapshots/<repo>.json",
+   "alexcarpenter__alexcarpenter.me": 270456,
+   "efcl__efcl.github.io": 214717,
+   "tempertemper__www.tempertemper.net": 124592,
+   "sum_bytes": 609765,
+   "sum_mb_arithmetic": "609765 / 1048576 = 0.5815 -> 0.58"
+  },
+  "accounting_note": "The per-repo budget_used_bytes values sum to 609765 bytes (~0.58 MB) and do not reconcile with work/snapshot_budget.json (125828523 bytes) or with the snapshot HTML bytes on disk (125828523 bytes); all values reported verbatim from the files.",
+  "snapshot_html_on_disk": {
+   "total_files": 3326,
+   "before_html": 1663,
+   "after_html": 1663,
+   "total_bytes": 125828523,
+   "total_mb_arithmetic": "125828523 / 1048576 = 119.9994 -> 120.0",
+   "per_repo": {
+    "alexcarpenter__alexcarpenter.me": {
+     "files": 4,
+     "bytes": 13416,
+     "pair_dirs": ["16599aecc770__cd6b581486c5", "257984650b1e__d48ee743600c"],
+     "note": "pair dirs on disk do not match the two example pointers in structure/snapshots/alexcarpenter__alexcarpenter.me.json (744e94b897c1__af0b7eb85dc5, af0b7eb85dc5__717c243e633f)"
+    },
+    "efcl__efcl.github.io": {
+     "files": 0,
+     "bytes": 0,
+     "note": "no snapshot files on disk; the two example pointers in structure/snapshots/efcl__efcl.github.io.json name dirs not present"
+    },
+    "tempertemper__www.tempertemper.net": {
+     "files": 3322,
+     "bytes": 125815107,
+     "pair_dirs": 36
+    }
+   },
+   "delivery_note": "snapshot HTML exists on disk and is kept in place for delivery"
+  },
+  "correction_note": "Replaces the prior 'used_mb: 120.0 / 120 MB snapshot budget exhausted during tempertemper; efcl and alexcarpenter pages with insert/remove events record hashes only' claim. The 120 MB figure matches work/snapshot_budget.json (used: 125828523) and the actual on-disk snapshot HTML bytes (125828523), not the per-repo budget_used_bytes accounting (sum 609765 bytes, ~0.58 MB). alexcarpenter has 4 snapshot files on disk, contrary to the prior 'hashes only' claim for that repo; efcl has zero snapshot files on disk."
  },
  "totals": {
   "repos": 3,

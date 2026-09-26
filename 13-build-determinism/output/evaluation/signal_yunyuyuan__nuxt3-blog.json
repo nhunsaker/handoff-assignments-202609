@@ -9,6 +9,272 @@
  "diff_after": 157,
  "became_identical": 0,
  "flagged_pages": [],
- "signal_lost": false,
- "analysis": "157/157 pages differ before and after; 0 became identical."
+ "signal_lost": true,
+ "analysis": "157/157 pages differ before and after; 0 became identical.",
+ "region_analysis": {
+  "nuxt-prerenderedAt": {
+   "matcher": "regex: rule pattern applied to raw file text; match spans paired by document order per page; region normalization = match.expand(replacement)",
+   "files_compared": 158,
+   "regions_matched": 157,
+   "regions_differing_raw": 157,
+   "regions_differing_across_commits": 157,
+   "regions_preserved_but_differing": 0,
+   "unpaired_before": 0,
+   "unpaired_after": 0,
+   "examples": [
+    {
+     "file": "200.html",
+     "before": "-nuxt-data=\"nuxt-app\" data-ssr=\"false\" id=\"__NUXT_DATA__\">[{\"prerenderedAt\":1,\"serverRendered\":2},1790347287945,false]</script>\n<script>window.__NUXT__={};window.__NUXT__.",
+     "after": "-nuxt-data=\"nuxt-app\" data-ssr=\"false\" id=\"__NUXT_DATA__\">[{\"prerenderedAt\":1,\"serverRendered\":2},1790362760455,false]</script>\n<script>window.__NUXT__={};window.__NUXT__."
+    },
+    {
+     "file": "404.html",
+     "before": "-nuxt-data=\"nuxt-app\" data-ssr=\"false\" id=\"__NUXT_DATA__\">[{\"prerenderedAt\":1,\"serverRendered\":2},1790347288042,false]</script>\n<script>window.__NUXT__={};window.__NUXT__.",
+     "after": "-nuxt-data=\"nuxt-app\" data-ssr=\"false\" id=\"__NUXT_DATA__\">[{\"prerenderedAt\":1,\"serverRendered\":2},1790362760459,false]</script>\n<script>window.__NUXT__={};window.__NUXT__."
+    },
+    {
+     "file": "about/index.html",
+     "before": " data-ssr=\"true\" id=\"__NUXT_DATA__\">[[\"ShallowReactive\",1],{\"prerenderedAt\":2,\"data\":3,\"state\":5,\"once\":8,\"_errors\":9,\"serverRendered\":11,\"path\":12},1790347287892,[\"ShallowReactive\",4],{},[\"Reactive\",6],{\"$slang\":7},\"zh\",[",
+     "after": " data-ssr=\"true\" id=\"__NUXT_DATA__\">[[\"ShallowReactive\",1],{\"prerenderedAt\":2,\"data\":3,\"state\":5,\"once\":8,\"_errors\":9,\"serverRendered\":11,\"path\":12},1790362760451,[\"ShallowReactive\",4],{},[\"Reactive\",6],{\"$slang\":7},\"zh\",["
+    },
+    {
+     "file": "articles/index.html",
+     "before": " data-ssr=\"true\" id=\"__NUXT_DATA__\">[[\"ShallowReactive\",1],{\"prerenderedAt\":2,\"data\":3,\"state\":5,\"once\":11,\"_errors\":12,\"serverRendered\":14,\"path\":15},1790347288058,[\"ShallowReactive\",4],{},[\"Reactive\",6],{\"$slang\":7,\"$sthem",
+     "after": " data-ssr=\"true\" id=\"__NUXT_DATA__\">[[\"ShallowReactive\",1],{\"prerenderedAt\":2,\"data\":3,\"state\":5,\"once\":11,\"_errors\":12,\"serverRendered\":14,\"path\":15},1790362760631,[\"ShallowReactive\",4],{},[\"Reactive\",6],{\"$slang\":7,\"$sthem"
+    },
+    {
+     "file": "index.html",
+     "before": " data-ssr=\"true\" id=\"__NUXT_DATA__\">[[\"ShallowReactive\",1],{\"prerenderedAt\":2,\"data\":3,\"state\":5,\"once\":11,\"_errors\":12,\"serverRendered\":14,\"path\":15},1790347329328,[\"ShallowReactive\",4],{},[\"Reactive\",6],{\"$slang\":7,\"$sthem",
+     "after": " data-ssr=\"true\" id=\"__NUXT_DATA__\">[[\"ShallowReactive\",1],{\"prerenderedAt\":2,\"data\":3,\"state\":5,\"once\":11,\"_errors\":12,\"serverRendered\":14,\"path\":15},1790362767613,[\"ShallowReactive\",4],{},[\"Reactive\",6],{\"$slang\":7,\"$sthem"
+    }
+   ],
+   "signal_lost": true
+  },
+  "nuxt-time-gmt": {
+   "matcher": "regex: rule pattern applied to raw file text; match spans paired by document order per page; region normalization = match.expand(replacement)",
+   "files_compared": 158,
+   "regions_matched": 1,
+   "regions_differing_raw": 1,
+   "regions_differing_across_commits": 1,
+   "regions_preserved_but_differing": 0,
+   "unpaired_before": 0,
+   "unpaired_after": 0,
+   "examples": [
+    {
+     "file": "about/index.html",
+     "before": "ition hover:text-primary-500\">a28de421</a>&gt; succeeded at <time>Fri, 25 Sep 2026 14:12:29 GMT</time></p></div></footer><!--]--><!--]--></div></div><div id=\"tele",
+     "after": "ition hover:text-primary-500\">82486509</a>&gt; succeeded at <time>Fri, 25 Sep 2026 18:47:47 GMT</time></p></div></footer><!--]--><!--]--></div></div><div id=\"tele"
+    }
+   ],
+   "signal_lost": true
+  },
+  "nuxt-asset-hash": {
+   "matcher": "regex: rule pattern applied to raw file text; match spans paired by document order per page; region normalization = match.expand(replacement)",
+   "files_compared": 158,
+   "regions_matched": 5090,
+   "regions_differing_raw": 5090,
+   "regions_differing_across_commits": 5084,
+   "regions_preserved_but_differing": 6,
+   "unpaired_before": 0,
+   "unpaired_after": 3,
+   "examples": [
+    {
+     "file": "200.html",
+     "before": "1\">\n<title>yun yu yuan</title>\n<link rel=\"stylesheet\" href=\"/_nuxt/entry.C1TNJxxV.css\" crossorigin>\n<link rel=\"modulepreload\" as=\"script\" crossor",
+     "after": "1\">\n<title>yun yu yuan</title>\n<link rel=\"stylesheet\" href=\"/_nuxt/entry.BD_VkWsG.css\" crossorigin>\n<link rel=\"modulepreload\" as=\"script\" crossor"
+    },
+    {
+     "file": "200.html",
+     "before": "in>\n<link rel=\"modulepreload\" as=\"script\" crossorigin href=\"/_nuxt/B95FK8uX.js\">\n<link rel=\"prefetch\" as=\"script\" crossorigin href=\"/_nuxt",
+     "after": "in>\n<link rel=\"modulepreload\" as=\"script\" crossorigin href=\"/_nuxt/QawFEcRk.js\">\n<link rel=\"prefetch\" as=\"script\" crossorigin href=\"/_nuxt"
+    },
+    {
+     "file": "200.html",
+     "before": "8uX.js\">\n<link rel=\"prefetch\" as=\"script\" crossorigin href=\"/_nuxt/BdVgBJ0c.js\">\n<link rel=\"prefetch\" as=\"style\" crossorigin href=\"/_nuxt/",
+     "after": "cRk.js\">\n<link rel=\"prefetch\" as=\"script\" crossorigin href=\"/_nuxt/Bwu1CQtu.js\">\n<link rel=\"prefetch\" as=\"style\" crossorigin href=\"/_nuxt/"
+    },
+    {
+     "file": "200.html",
+     "before": "BJ0c.js\">\n<link rel=\"prefetch\" as=\"style\" crossorigin href=\"/_nuxt/default.CkUhRQLX.css\">\n<link rel=\"prefetch\" as=\"style\" crossorigin href=\"/_nuxt/",
+     "after": "CQtu.js\">\n<link rel=\"prefetch\" as=\"style\" crossorigin href=\"/_nuxt/default.JepATpvp.css\">\n<link rel=\"prefetch\" as=\"style\" crossorigin href=\"/_nuxt/"
+    },
+    {
+     "file": "200.html",
+     "before": "QLX.css\">\n<link rel=\"prefetch\" as=\"style\" crossorigin href=\"/_nuxt/common-dropdown.DH3lVz0L.css\">\n<link rel=\"prefetch\" as=\"script\" crossorigin href=\"/_nuxt",
+     "after": "pvp.css\">\n<link rel=\"prefetch\" as=\"style\" crossorigin href=\"/_nuxt/common-dropdown.DE_DmCx3.css\">\n<link rel=\"prefetch\" as=\"script\" crossorigin href=\"/_nuxt"
+    }
+   ],
+   "signal_lost": true
+  },
+  "nuxt-meta-uuid": {
+   "matcher": "regex: rule pattern applied to raw file text; match spans paired by document order per page; region normalization = match.expand(replacement)",
+   "files_compared": 158,
+   "regions_matched": 155,
+   "regions_differing_raw": 155,
+   "regions_differing_across_commits": 155,
+   "regions_preserved_but_differing": 0,
+   "unpaired_before": 0,
+   "unpaired_after": 0,
+   "examples": [
+    {
+     "file": "about/index.html",
+     "before": "s=\"fetch\" fetchpriority=\"low\" crossorigin=\"anonymous\" href=\"/_nuxt/builds/meta/c2d23e69-951c-4de4-b247-cde00f27902d.json\"></head><body><div id=\"__nuxt\"><div><!--[--><!--[--><div cl",
+     "after": "s=\"fetch\" fetchpriority=\"low\" crossorigin=\"anonymous\" href=\"/_nuxt/builds/meta/45a37ef9-ac34-4771-ac2b-15f7dfac694b.json\"></head><body><div id=\"__nuxt\"><div><!--[--><!--[--><div cl"
+    },
+    {
+     "file": "articles/index.html",
+     "before": "s=\"fetch\" fetchpriority=\"low\" crossorigin=\"anonymous\" href=\"/_nuxt/builds/meta/c2d23e69-951c-4de4-b247-cde00f27902d.json\"></head><body><div id=\"__nuxt\"><div class=\"m-auto flex min-",
+     "after": "s=\"fetch\" fetchpriority=\"low\" crossorigin=\"anonymous\" href=\"/_nuxt/builds/meta/45a37ef9-ac34-4771-ac2b-15f7dfac694b.json\"></head><body><div id=\"__nuxt\"><div class=\"m-auto flex min-"
+    },
+    {
+     "file": "index.html",
+     "before": "s=\"fetch\" fetchpriority=\"low\" crossorigin=\"anonymous\" href=\"/_nuxt/builds/meta/c2d23e69-951c-4de4-b247-cde00f27902d.json\"></head><body><div id=\"__nuxt\"><div class=\"m-auto flex min-",
+     "after": "s=\"fetch\" fetchpriority=\"low\" crossorigin=\"anonymous\" href=\"/_nuxt/builds/meta/45a37ef9-ac34-4771-ac2b-15f7dfac694b.json\"></head><body><div id=\"__nuxt\"><div class=\"m-auto flex min-"
+    },
+    {
+     "file": "knowledges/1014/index.html",
+     "before": "s=\"fetch\" fetchpriority=\"low\" crossorigin=\"anonymous\" href=\"/_nuxt/builds/meta/c2d23e69-951c-4de4-b247-cde00f27902d.json\"></head><body><div id=\"__nuxt\"><div class=\"m-auto flex min-",
+     "after": "s=\"fetch\" fetchpriority=\"low\" crossorigin=\"anonymous\" href=\"/_nuxt/builds/meta/45a37ef9-ac34-4771-ac2b-15f7dfac694b.json\"></head><body><div id=\"__nuxt\"><div class=\"m-auto flex min-"
+    },
+    {
+     "file": "knowledges/1153/index.html",
+     "before": "s=\"fetch\" fetchpriority=\"low\" crossorigin=\"anonymous\" href=\"/_nuxt/builds/meta/c2d23e69-951c-4de4-b247-cde00f27902d.json\"></head><body><div id=\"__nuxt\"><div class=\"m-auto flex min-",
+     "after": "s=\"fetch\" fetchpriority=\"low\" crossorigin=\"anonymous\" href=\"/_nuxt/builds/meta/45a37ef9-ac34-4771-ac2b-15f7dfac694b.json\"></head><body><div id=\"__nuxt\"><div class=\"m-auto flex min-"
+    }
+   ],
+   "signal_lost": true
+  },
+  "nuxt-buildid": {
+   "matcher": "regex: rule pattern applied to raw file text; match spans paired by document order per page; region normalization = match.expand(replacement)",
+   "files_compared": 158,
+   "regions_matched": 157,
+   "regions_differing_raw": 157,
+   "regions_differing_across_commits": 157,
+   "regions_preserved_but_differing": 0,
+   "unpaired_before": 0,
+   "unpaired_after": 0,
+   "examples": [
+    {
+     "file": "200.html",
+     "before": "blic:{stickers:{aru:143,\"yellow-face\":71}},app:{baseURL:\"/\",buildId:\"c2d23e69-951c-4de4-b247-cde00f27902d\",buildAssetsDir:\"/_nuxt/\",cdnURL:\"\",githubBranch:\"HEAD\"}}</s",
+     "after": "blic:{stickers:{aru:143,\"yellow-face\":71}},app:{baseURL:\"/\",buildId:\"45a37ef9-ac34-4771-ac2b-15f7dfac694b\",buildAssetsDir:\"/_nuxt/\",cdnURL:\"\",githubBranch:\"HEAD\"}}</s"
+    },
+    {
+     "file": "404.html",
+     "before": "blic:{stickers:{aru:143,\"yellow-face\":71}},app:{baseURL:\"/\",buildId:\"c2d23e69-951c-4de4-b247-cde00f27902d\",buildAssetsDir:\"/_nuxt/\",cdnURL:\"\",githubBranch:\"HEAD\"}}</s",
+     "after": "blic:{stickers:{aru:143,\"yellow-face\":71}},app:{baseURL:\"/\",buildId:\"45a37ef9-ac34-4771-ac2b-15f7dfac694b\",buildAssetsDir:\"/_nuxt/\",cdnURL:\"\",githubBranch:\"HEAD\"}}</s"
+    },
+    {
+     "file": "about/index.html",
+     "before": "blic:{stickers:{aru:143,\"yellow-face\":71}},app:{baseURL:\"/\",buildId:\"c2d23e69-951c-4de4-b247-cde00f27902d\",buildAssetsDir:\"/_nuxt/\",cdnURL:\"\",githubBranch:\"HEAD\"}}</s",
+     "after": "blic:{stickers:{aru:143,\"yellow-face\":71}},app:{baseURL:\"/\",buildId:\"45a37ef9-ac34-4771-ac2b-15f7dfac694b\",buildAssetsDir:\"/_nuxt/\",cdnURL:\"\",githubBranch:\"HEAD\"}}</s"
+    },
+    {
+     "file": "articles/index.html",
+     "before": "blic:{stickers:{aru:143,\"yellow-face\":71}},app:{baseURL:\"/\",buildId:\"c2d23e69-951c-4de4-b247-cde00f27902d\",buildAssetsDir:\"/_nuxt/\",cdnURL:\"\",githubBranch:\"HEAD\"}}</s",
+     "after": "blic:{stickers:{aru:143,\"yellow-face\":71}},app:{baseURL:\"/\",buildId:\"45a37ef9-ac34-4771-ac2b-15f7dfac694b\",buildAssetsDir:\"/_nuxt/\",cdnURL:\"\",githubBranch:\"HEAD\"}}</s"
+    },
+    {
+     "file": "index.html",
+     "before": "blic:{stickers:{aru:143,\"yellow-face\":71}},app:{baseURL:\"/\",buildId:\"c2d23e69-951c-4de4-b247-cde00f27902d\",buildAssetsDir:\"/_nuxt/\",cdnURL:\"\",githubBranch:\"HEAD\"}}</s",
+     "after": "blic:{stickers:{aru:143,\"yellow-face\":71}},app:{baseURL:\"/\",buildId:\"45a37ef9-ac34-4771-ac2b-15f7dfac694b\",buildAssetsDir:\"/_nuxt/\",cdnURL:\"\",githubBranch:\"HEAD\"}}</s"
+    }
+   ],
+   "signal_lost": true
+  },
+  "nuxt-cssmod": {
+   "matcher": "regex: rule pattern applied to raw file text; match spans paired by document order per page; region normalization = match.expand(replacement)",
+   "files_compared": 158,
+   "regions_matched": 1638,
+   "regions_differing_raw": 1638,
+   "regions_differing_across_commits": 1638,
+   "regions_preserved_but_differing": 0,
+   "unpaired_before": 0,
+   "unpaired_after": 0,
+   "examples": [
+    {
+     "file": "articles/index.html",
+     "before": "iv class=\"fixed z-modeBg size-0 rounded-full right-12 top-6 _themeAnimateBgLight_b640b\"></div><nav class=\"_nav_b640b\"><div class=\"container mx-aut",
+     "after": "iv class=\"fixed z-modeBg size-0 rounded-full right-12 top-6 _themeAnimateBgLight_ceeab\"></div><nav class=\"_nav_ceeab\"><div class=\"container mx-aut"
+    },
+    {
+     "file": "articles/index.html",
+     "before": "ight-12 top-6 _themeAnimateBgLight_b640b\"></div><nav class=\"_nav_b640b\"><div class=\"container mx-auto flex h-header items-center j",
+     "after": "ight-12 top-6 _themeAnimateBgLight_ceeab\"></div><nav class=\"_nav_ceeab\"><div class=\"container mx-auto flex h-header items-center j"
+    },
+    {
+     "file": "articles/index.html",
+     "before": "ark:hover:text-primary-500\"><span>云与原</span></a><div class=\"_pcMenu_b640b\"><!--[--><a aria-current=\"page\" href=\"/articles\" class=\"rou",
+     "after": "-300 dark:hover:text-primary-500\">云与原</span></a><div class=\"_pcMenu_ceeab\"><!--[--><a aria-current=\"page\" href=\"/articles\" class=\"rou"
+    },
+    {
+     "file": "articles/index.html",
+     "before": "d=\"M14 18h6\"></path></svg><div style=\"display:none;\" class=\"_dropdown_4985c\"><!--[--><div><span></span></div><!--]--></div></button><bu",
+     "after": "d=\"M14 18h6\"></path></svg><div style=\"display:none;\" class=\"_dropdown_112ec mt-2\"><!--[--><div><span></span></div><!--]--></div></butto"
+    },
+    {
+     "file": "articles/index.html",
+     "before": "pan></div><!--]--></div></button><button class=\"icon-button _themeMode_b640b\" title=\"切换到日间模式\"><span class=\"\"><svg xmlns=\"http://www.w3.o",
+     "after": "pan></div><!--]--></div></button><button class=\"icon-button _themeMode_ceeab\" title=\"切换到日间模式\"><span class=\"\"><svg xmlns=\"http://www.w3.o"
+    }
+   ],
+   "signal_lost": true
+  },
+  "nuxt-tz-span": {
+   "matcher": "regex: rule pattern applied to raw file text; match spans paired by document order per page; region normalization = match.expand(replacement)",
+   "files_compared": 158,
+   "regions_matched": 68,
+   "regions_differing_raw": 0,
+   "regions_differing_across_commits": 0,
+   "regions_preserved_but_differing": 0,
+   "unpaired_before": 0,
+   "unpaired_after": 0,
+   "examples": [],
+   "signal_lost": false
+  },
+  "nuxt-tz-jil": {
+   "matcher": "regex: rule pattern applied to raw file text; match spans paired by document order per page; region normalization = match.expand(replacement)",
+   "files_compared": 158,
+   "regions_matched": 0,
+   "regions_differing_raw": 0,
+   "regions_differing_across_commits": 0,
+   "regions_preserved_but_differing": 0,
+   "unpaired_before": 210,
+   "unpaired_after": 0,
+   "examples": [],
+   "signal_lost": false
+  },
+  "nuxt-tz-b": {
+   "matcher": "regex: rule pattern applied to raw file text; match spans paired by document order per page; region normalization = match.expand(replacement)",
+   "files_compared": 158,
+   "regions_matched": 0,
+   "regions_differing_raw": 0,
+   "regions_differing_across_commits": 0,
+   "regions_preserved_but_differing": 0,
+   "unpaired_before": 0,
+   "unpaired_after": 0,
+   "examples": [],
+   "signal_lost": false
+  },
+  "nuxt-tz-bare": {
+   "matcher": "regex: rule pattern applied to raw file text; match spans paired by document order per page; region normalization = match.expand(replacement)",
+   "files_compared": 158,
+   "regions_matched": 150,
+   "regions_differing_raw": 0,
+   "regions_differing_across_commits": 0,
+   "regions_preserved_but_differing": 0,
+   "unpaired_before": 0,
+   "unpaired_after": 0,
+   "examples": [],
+   "signal_lost": false
+  }
+ },
+ "signal_lost_rules": [
+  "nuxt-prerenderedAt",
+  "nuxt-time-gmt",
+  "nuxt-asset-hash",
+  "nuxt-meta-uuid",
+  "nuxt-buildid",
+  "nuxt-cssmod"
+ ]
 }

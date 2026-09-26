@@ -10,5 +10,45 @@
  "became_identical": 0,
  "flagged_pages": [],
  "signal_lost": false,
- "analysis": "1004/1004 pages differ before and after; 0 became identical."
+ "analysis": "1004/1004 pages differ before and after; 0 became identical.",
+ "region_analysis": {
+  "chroma-text": {
+   "matcher": "dom: lxml.html parse; selector \"div.highlight\" translated to XPath [\"//div[contains(concat(' ',normalize-space(@class),' '),' highlight ')]\"]; each selected element serialized via lxml.html.tostring(unicode); elements paired by document order per page; region normalization = element text content (both dom rules unwrap tags but keep text)",
+   "files_compared": 1005,
+   "regions_matched": 1761,
+   "regions_differing_raw": 2,
+   "regions_differing_across_commits": 0,
+   "regions_preserved_but_differing": 2,
+   "unpaired_before": 0,
+   "unpaired_after": 12,
+   "examples": [],
+   "signal_lost": false
+  },
+  "cubxxw-hp-date": {
+   "matcher": "regex: rule pattern applied to raw file text; match spans paired by document order per page; region normalization = match.expand(replacement)",
+   "files_compared": 1005,
+   "regions_matched": 20,
+   "regions_differing_raw": 0,
+   "regions_differing_across_commits": 0,
+   "regions_preserved_but_differing": 0,
+   "unpaired_before": 0,
+   "unpaired_after": 0,
+   "examples": [],
+   "signal_lost": false
+  },
+  "opml-datecreated": {
+   "matcher": "regex: rule pattern applied to raw file text; match spans paired by document order per page; region normalization = match.expand(replacement)",
+   "files_compared": 0,
+   "regions_matched": 0,
+   "regions_differing_raw": 0,
+   "regions_differing_across_commits": 0,
+   "regions_preserved_but_differing": 0,
+   "unpaired_before": 0,
+   "unpaired_after": 0,
+   "examples": [],
+   "signal_lost": false,
+   "measurability": "not_measurable: no .xml/.opml files are present in either signal-pair build dir on disk (only HTML was retained for the signal builds); the rule could not be exercised"
+  }
+ },
+ "signal_lost_rules": []
 }

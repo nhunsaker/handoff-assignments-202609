@@ -1,7 +1,5 @@
 # Assignment 10: build every commit of three sites and record how each commit changed the built pages
 
-**Phase:** P1 · P2 (see the README's phase tags)
-
 Budget **14–20 hours**, most of it machine time. Assignment 08 found three sites whose commits build reliably and
 emit real static pages. This assignment builds **every commit** in each site's window and records, commit by
 commit, which built pages changed and how their HTML structure changed. Nothing is sampled: the point is the

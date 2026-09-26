@@ -1,0 +1,1262 @@
+<!DOCTYPE html><html lang="en"> <head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content=""><link rel="canonical" href="https://nemanjam.github.io/links/"><link rel="apple-touch-icon" sizes="180x180" href="/images/favicons/apple-touch-icon.png"><link rel="icon" type="image/png" sizes="32x32" href="/images/favicons/favicon-32x32.png"><link rel="icon" type="image/png" sizes="16x16" href="/images/favicons/favicon-16x16.png"><link rel="manifest" href="/manifest.json"><title>Links - Nemanja Mitic</title><meta name="title" content="Links - Nemanja Mitic"><meta name="description" content="I am Nemanja, full stack developer"><meta name="author" content="Nemanja Mitic"><link rel="alternate" type="application/rss+xml" title="RSS feed for nemanjam.github.io" href="/api/feed.xml"><link rel="alternate" type="application/json" title="JSON feed for nemanjam.github.io" href="/api/feed.json"><link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap-index.xml"><meta property="og:type" content="website"><meta property="og:url" content="https://nemanjam.github.io/links/"><meta property="og:title" content="Links - Nemanja Mitic"><meta property="og:description" content="I am Nemanja, full stack developer"><meta property="og:image" content="https://nemanjam.github.io/api/open-graph/lists/links.png"><meta property="twitter:card" content="summary"><meta property="twitter:url" content="https://nemanjam.github.io/links/"><meta property="twitter:title" content="Links - Nemanja Mitic"><meta property="twitter:description" content="I am Nemanja, full stack developer"><meta property="twitter:image" content="https://nemanjam.github.io/api/open-graph/lists/links.png"><script>(function(){const themeConstants = {"DEFAULT_THEMES":{"light":{"mode":"light","name":"default-light"},"dark":{"mode":"dark","name":"default-dark"}},"MODES":{"dark":"dark","light":"light"},"THEMES":[{"mode":"light","name":"default-light"},{"mode":"dark","name":"default-dark"},{"mode":"light","name":"green-light"},{"mode":"dark","name":"green-dark"}],"THEME_CONFIG":{"MODE_CLASS":"dark","DATA_ATTRIBUTE":"data-theme","CHANGE_EVENT":"theme-change","LOCAL_STORAGE_KEY":"theme"}};
+const defaultThemes = {"light":{"mode":"light","name":"default-light"},"dark":{"mode":"dark","name":"default-dark"}};
+const DEFAULT_MODE = "light";
+const THEME_META_TAG_SELECTOR = "meta[name=\"theme-color\"]";
+
+  // this is JavaScript, not TypeScript
+  const { MODES, THEMES, THEME_CONFIG } = themeConstants;
+  const { DATA_ATTRIBUTE, CHANGE_EVENT, LOCAL_STORAGE_KEY } = THEME_CONFIG;
+
+  // used for event
+  const darkModePreference = window.matchMedia('(prefers-color-scheme: dark)');
+
+  const getDefaultTheme = (themeMode) => defaultThemes[themeMode];
+
+  const getThemeNamePrefix = (themeName) => themeName.split('-')?.[0];
+
+  const getThemeFromMode = (themeMode) => {
+    const currentTheme = getTheme();
+
+    const newTheme = THEMES.find((theme) => {
+      const currentThemePrefix = getThemeNamePrefix(currentTheme.name);
+      const themePrefix = getThemeNamePrefix(theme.name);
+
+      const isModeMatch = theme.mode === themeMode;
+      const isThemeNameMatch =
+        themePrefix && currentThemePrefix && themePrefix === currentThemePrefix;
+
+      const isFound = isModeMatch && isThemeNameMatch;
+
+      return isFound;
+    });
+
+    const defaultTheme = getDefaultTheme(themeMode);
+    const resultTheme = newTheme ?? defaultTheme;
+
+    return resultTheme;
+  };
+
+  /** 'dark' | 'light' | null */
+  const getBrowserMode = () => {
+    const lightModePreference = window.matchMedia('(prefers-color-scheme: light)');
+
+    let browserMode;
+
+    switch (true) {
+      case darkModePreference.matches:
+        browserMode = MODES.dark;
+        break;
+      case lightModePreference.matches:
+        browserMode = MODES.light;
+        break;
+      default:
+        browserMode = null;
+        break;
+    }
+    return browserMode;
+  };
+
+  /**
+   * 1. stored mode
+   * 2. browser mode and theme
+   * 3. default app mode, config
+   */
+  const getTheme = () => {
+    // either from storage
+    const storedTheme = getStoredTheme();
+    if (storedTheme) return storedTheme;
+
+    // or fallback to default theme for browser mode
+    const browserMode = getBrowserMode();
+    if (browserMode) {
+      const defaultBrowserTheme = getDefaultTheme(browserMode);
+      return defaultBrowserTheme;
+    }
+
+    // fallback to app default
+    const defaultAppTheme = getDefaultTheme(DEFAULT_MODE);
+    return defaultAppTheme;
+  };
+
+  const getStoredTheme = () => {
+    const storedThemeString =
+      typeof localStorage !== 'undefined' && localStorage.getItem(LOCAL_STORAGE_KEY);
+
+    if (!storedThemeString) return null;
+
+    let storedTheme;
+    try {
+      storedTheme = JSON.parse(storedThemeString);
+    } catch (_error) {
+      localStorage.removeItem(LOCAL_STORAGE_KEY);
+      return null;
+    }
+
+    // invalid theme
+    if (!(storedTheme && storedTheme.name && storedTheme.mode)) {
+      // clear stored invalid theme
+      localStorage.removeItem(LOCAL_STORAGE_KEY);
+      return null;
+    }
+
+    return storedTheme;
+  };
+
+  const setTheme = (newTheme) => {
+    const validatedTheme = THEMES.find(
+      (theme) => theme.name === newTheme.name && theme.mode === newTheme.mode
+    );
+
+    if (!validatedTheme)
+      // eslint-disable-next-line no-console
+      return console.warn(
+        `Invalid theme value '${JSON.stringify(newTheme)}' received. Expected ${JSON.stringify(THEMES)}.`
+      );
+
+    const root = document.documentElement;
+
+    const isDarkMode = root.classList.contains(MODES.dark);
+    const existingTheme = {
+      name: root.getAttribute(DATA_ATTRIBUTE),
+      mode: isDarkMode ? MODES.dark : MODES.light,
+    };
+    const isExistingTheme =
+      newTheme.name === existingTheme.name && newTheme.mode === existingTheme.mode;
+
+    // root already set to newTheme, exit early
+    if (isExistingTheme) return;
+
+    // update root class and data-theme
+    root.setAttribute(DATA_ATTRIBUTE, newTheme.name);
+    if (newTheme.mode === MODES.dark) {
+      // dark
+      if (!isDarkMode) root.classList.add(MODES.dark);
+    } else {
+      // light
+      if (isDarkMode) root.classList.remove(MODES.dark);
+    }
+
+    if (typeof localStorage !== 'undefined') {
+      localStorage.setItem(LOCAL_STORAGE_KEY, JSON.stringify(newTheme));
+    }
+
+    // must have dealy for bg color to apply
+    setTimeout(() => updateMetaTag(), 1000);
+  };
+
+  const updateMetaTag = () => {
+    const bodyElement = document.body;
+    if (!bodyElement) return;
+
+    const computedStyles = window.getComputedStyle(bodyElement);
+    const bgColor = computedStyles.backgroundColor;
+
+    const metaElement = document.querySelector(THEME_META_TAG_SELECTOR);
+    if (!metaElement) return;
+
+    metaElement.setAttribute('content', bgColor);
+  };
+
+  // initial setup
+  setTheme(getTheme());
+
+  // View Transitions hook to restore theme
+  document.addEventListener('astro:after-swap', () => setTheme(getTheme()));
+
+  // listen for theme-change custom event, fired in src/components/ThemeToggle.astro
+  document.addEventListener(CHANGE_EVENT, (event) => {
+    setTheme(event.detail.theme);
+  });
+
+  // listen for prefers-color-scheme change
+  darkModePreference.addEventListener('change', (event) => {
+    const newMode = event.matches ? MODES.dark : MODES.light;
+    const newTheme = getThemeFromMode(newMode);
+
+    // trigger event instead of setTheme(newTheme), for Links page
+    const payload = { detail: { theme: newTheme } };
+    const themeChangeEvent = new CustomEvent(CHANGE_EVENT, payload);
+
+    document.dispatchEvent(themeChangeEvent);
+  });
+})();</script><meta name="astro-view-transitions-enabled" content="true"><meta name="astro-view-transitions-fallback" content="none"><!-- 
+    <style>
+      @view-transition {
+        navigation: auto; /* enabled! */
+      }
+    </style> 
+  --><link rel="stylesheet" href="/_astro/links.CFQDlW8x.css">
+<link rel="stylesheet" href="/_astro/_page_.D1gfCP9u.css">
+<link rel="stylesheet" href="/_astro/embeds.e56x12hk.css">
+<style>svg[data-astro-cid-6mwf65d6]:hover{fill:#ea4335}svg[data-astro-cid-nksckkzh]:hover{fill:#1877f2}svg[data-astro-cid-upxiorz7]:hover{fill:#f0652f}svg[data-astro-cid-lja7htzy]:hover{fill:#0a66c2}svg[data-astro-cid-qrrmiaqu]:hover{fill:#ff4500}svg[data-astro-cid-a232q27d]:hover{fill:#000}svg[data-astro-cid-pvkfizkd]:hover{fill:#25d366}.astro-social-share{margin:20px 0;height:24px;display:inline-flex}.astro-social-share a{text-decoration:none;margin-right:10px}.astro-social-share svg{height:24px}.astro-social-share{margin-top:0;margin-bottom:0}.social-share-btn{margin-right:1rem!important;display:inline-block;height:1.5rem;width:1.5rem}.social-share-btn svg{height:100%;width:100%;fill:var(--th-captions)}
+@keyframes astroFadeInOut{0%{opacity:1}to{opacity:0}}@keyframes astroFadeIn{0%{opacity:0;mix-blend-mode:plus-lighter}to{opacity:1;mix-blend-mode:plus-lighter}}@keyframes astroFadeOut{0%{opacity:1;mix-blend-mode:plus-lighter}to{opacity:0;mix-blend-mode:plus-lighter}}@keyframes astroSlideFromRight{0%{transform:translate(100%)}}@keyframes astroSlideFromLeft{0%{transform:translate(-100%)}}@keyframes astroSlideToRight{to{transform:translate(100%)}}@keyframes astroSlideToLeft{to{transform:translate(-100%)}}@media (prefers-reduced-motion){::view-transition-group(*),::view-transition-old(*),::view-transition-new(*){animation:none!important}[data-astro-transition-scope]{animation:none!important}}
+</style>
+<link rel="stylesheet" href="/_astro/Gallery.RGgs1fah.css"><script type="module" src="/_astro/hoisted.BK2qRWlT.js"></script>
+<script>!(function(w,p,f,c){if(!window.crossOriginIsolated && !navigator.serviceWorker) return;c=w[p]=Object.assign(w[p]||{},{"lib":"/~partytown/","debug":false});c[f]=(c[f]||[]).concat(["dataLayer.push"])})(window,'partytown','forward');/* Partytown 0.10.2 - MIT builder.io */
+const t={preserveBehavior:!1},e=e=>{if("string"==typeof e)return[e,t];const[n,r=t]=e;return[n,{...t,...r}]},n=Object.freeze((t=>{const e=new Set;let n=[];do{Object.getOwnPropertyNames(n).forEach((t=>{"function"==typeof n[t]&&e.add(t)}))}while((n=Object.getPrototypeOf(n))!==Object.prototype);return Array.from(e)})());!function(t,r,o,i,a,s,c,d,l,p,u=t,f){function h(){f||(f=1,"/"==(c=(s.lib||"/~partytown/")+(s.debug?"debug/":""))[0]&&(l=r.querySelectorAll('script[type="text/partytown"]'),i!=t?i.dispatchEvent(new CustomEvent("pt1",{detail:t})):(d=setTimeout(v,1e4),r.addEventListener("pt0",w),a?y(1):o.serviceWorker?o.serviceWorker.register(c+(s.swPath||"partytown-sw.js"),{scope:c}).then((function(t){t.active?y():t.installing&&t.installing.addEventListener("statechange",(function(t){"activated"==t.target.state&&y()}))}),console.error):v())))}function y(e){p=r.createElement(e?"script":"iframe"),t._pttab=Date.now(),e||(p.style.display="block",p.style.width="0",p.style.height="0",p.style.border="0",p.style.visibility="hidden",p.setAttribute("aria-hidden",!0)),p.src=c+"partytown-"+(e?"atomics.js?v=0.10.2":"sandbox-sw.html?"+t._pttab),r.querySelector(s.sandboxParent||"body").appendChild(p)}function v(n,o){for(w(),i==t&&(s.forward||[]).map((function(n){const[r]=e(n);delete t[r.split(".")[0]]})),n=0;n<l.length;n++)(o=r.createElement("script")).innerHTML=l[n].innerHTML,o.nonce=s.nonce,r.head.appendChild(o);p&&p.parentNode.removeChild(p)}function w(){clearTimeout(d)}s=t.partytown||{},i==t&&(s.forward||[]).map((function(r){const[o,{preserveBehavior:i}]=e(r);u=t,o.split(".").map((function(e,r,o){var a;u=u[o[r]]=r+1<o.length?u[o[r]]||(a=o[r+1],n.includes(a)?[]:{}):(()=>{let e=null;if(i){const{methodOrProperty:n,thisObject:r}=((t,e)=>{let n=t;for(let t=0;t<e.length-1;t+=1)n=n[e[t]];return{thisObject:n,methodOrProperty:e.length>0?n[e[e.length-1]]:void 0}})(t,o);"function"==typeof n&&(e=(...t)=>n.apply(r,...t))}return function(){let n;return e&&(n=e(arguments)),(t._ptf=t._ptf||[]).push(o,arguments),n}})()}))})),"complete"==r.readyState?h():(t.addEventListener("DOMContentLoaded",h),t.addEventListener("load",h))}(window,document,navigator,top,window.crossOriginIsolated);;(e=>{e.addEventListener("astro:before-swap",e=>{let r=document.body.querySelector("iframe[src*='/~partytown/']");if(r)e.newDocument.body.append(r)})})(document);</script></head><body class="relative flex flex-col min-h-screen bg-base-100 transition-colors duration-500"> <header id="main-header" class="group border-b border-base-300"> <div class="flex gap-2 group-[.menu-open]:flex-col md:!flex-row md:justify-between md:items-center max-w-6xl py-2 px-4 md:mx-auto">  <div class="w-full md:w-auto flex justify-between items-center"> <a class="link-default link-nav flex flex-row items-center gap-2 text-xl xs:text-2xl" href="/">   <img src="/_astro/avatar.BT0sAlIz_1Mv9n6.webp" loading="eager" class="shrink-0 select-none rounded-md border border-base-300" alt="Profile picture" width="48" height="48" decoding="async"> <span> Nemanja Mitic </span>   </a> <mobile-button class="md:hidden"> <button aria-expanded="false" aria-haspopup="menu" aria-label="Open main menu" type="button" class="group"> <svg width="1em" height="1em" viewBox="0 0 24 24" class="h-6 w-6 group-aria-expanded:hidden" data-icon="mdi:hamburger-menu">  <symbol id="ai:mdi:hamburger-menu"><path fill="currentColor" d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></symbol><use xlink:href="#ai:mdi:hamburger-menu"></use>  </svg> <svg width="1em" height="1em" viewBox="0 0 24 24" class="h-6 w-6 hidden group-aria-expanded:block" data-icon="mdi:close">  <symbol id="ai:mdi:close"><path fill="currentColor" d="M19 6.41L17.59 5L12 10.59L6.41 5L5 6.41L10.59 12L5 17.59L6.41 19L12 13.41L17.59 19L19 17.59L13.41 12z"/></symbol><use xlink:href="#ai:mdi:close"></use>  </svg> </button> </mobile-button> </div>  <nav class="select-none hidden md:block group-[.menu-open]:block mt-0 group-[.menu-open]:mt-2" aria-label="Site navigation"> <ul class="flex gap-4 group-[.menu-open]:flex-col md:!flex-row md:items-center"> <li> <a class="link-default link-nav" href="/blog/">  Blog  </a> </li><li> <a class="link-default link-nav" href="/blog/explore/">  Explore  </a> </li><li> <a class="link-default link-nav" href="/projects/">  Projects  </a> </li><li> <a class="link-default link-nav" href="/about/">  About  </a> </li><li> <a class="link-default link-nav" href="/gallery/">  Gallery  </a> </li><li> <a class="link-default link-nav underline text-links" href="/links/" data-astro-reload>  Links  </a> </li> <li class="shrink-0"> <theme-toggle> <button class="rounded-md p-2" type="button"> <svg width="1em" height="1em" viewBox="0 0 24 24" class="inline-block dark:hidden text-primary w-6 h-6" data-icon="mdi:white-balance-sunny">  <symbol id="ai:mdi:white-balance-sunny"><path fill="currentColor" d="m3.55 19.09l1.41 1.41l1.8-1.79l-1.42-1.42M12 6c-3.31 0-6 2.69-6 6s2.69 6 6 6s6-2.69 6-6c0-3.32-2.69-6-6-6m8 7h3v-2h-3m-2.76 7.71l1.8 1.79l1.41-1.41l-1.79-1.8M20.45 5l-1.41-1.4l-1.8 1.79l1.42 1.42M13 1h-2v3h2M6.76 5.39L4.96 3.6L3.55 5l1.79 1.81zM1 13h3v-2H1m12 9h-2v3h2"/></symbol><use xlink:href="#ai:mdi:white-balance-sunny"></use>  </svg> <svg width="1em" height="1em" viewBox="0 0 24 24" class="hidden dark:inline-block text-primary w-6 h-6" data-icon="mdi:moon-waning-crescent">  <symbol id="ai:mdi:moon-waning-crescent"><path fill="currentColor" d="M2 12a10 10 0 0 0 13 9.54a10 10 0 0 1 0-19.08A10 10 0 0 0 2 12"/></symbol><use xlink:href="#ai:mdi:moon-waning-crescent"></use>  </svg> </button> </theme-toggle>  </li> </ul> </nav> </div> </header>  <main id="main" class="flex-grow flex flex-col centered-px max-w-4xl py-4 lg:py-8"> <article class="flex flex-col">  <h1 class="b-h1">Links</h1>   <section class="flex-grow flex flex-col">  <div id="markdown-body-id" class="markdown-body"> <p>
+My personal bookmarks collection which is hosted in this repo: <a href="https://github.com/nemanjam/bookmarks" target="_blank">https://github.com/nemanjam/bookmarks</a> </p> <div class="flex gap-2 items-center group"> <a id="bookmarks" href="#bookmarks" class="flex target:!outline-none"> <svg width="1em" height="1em" viewBox="0 0 24 24" class="inline-block h-5 w-5 text-transparent group-hover:text-captions" data-icon="mdi:link-variant">  <symbol id="ai:mdi:link-variant"><path fill="currentColor" d="M10.59 13.41c.41.39.41 1.03 0 1.42c-.39.39-1.03.39-1.42 0a5.003 5.003 0 0 1 0-7.07l3.54-3.54a5.003 5.003 0 0 1 7.07 0a5.003 5.003 0 0 1 0 7.07l-1.49 1.49c.01-.82-.12-1.64-.4-2.42l.47-.48a2.98 2.98 0 0 0 0-4.24a2.98 2.98 0 0 0-4.24 0l-3.53 3.53a2.98 2.98 0 0 0 0 4.24m2.82-4.24c.39-.39 1.03-.39 1.42 0a5.003 5.003 0 0 1 0 7.07l-3.54 3.54a5.003 5.003 0 0 1-7.07 0a5.003 5.003 0 0 1 0-7.07l1.49-1.49c-.01.82.12 1.64.4 2.43l-.47.47a2.98 2.98 0 0 0 0 4.24a2.98 2.98 0 0 0 4.24 0l3.53-3.53a2.98 2.98 0 0 0 0-4.24a.973.973 0 0 1 0-1.42"/></symbol><use xlink:href="#ai:mdi:link-variant"></use>  </svg> </a> <h1> Bookmarks </h1> </div><div class="flex gap-2 items-center group"> <a id="table-of-contents" href="#table-of-contents" class="flex target:!outline-none"> <svg width="1em" height="1em" viewBox="0 0 24 24" class="inline-block h-5 w-5 text-transparent group-hover:text-captions" data-icon="mdi:link-variant">  <use xlink:href="#ai:mdi:link-variant"></use>  </svg> </a> <h3> Table of contents </h3> </div><ul>
+<li><a href="#general"> General </a><ul>
+<li><a href="#coding-news"> Coding news </a></li>
+<li><a href="#blogs"> Blogs </a></li>
+<li><a href="#cheatsheets"> Cheatsheets </a></li>
+<li><a href="#utils"> Utils </a></li>
+<li><a href="#llm"> LLM </a></li>
+<li><a href="#links"> Links </a></li>
+<li><a href="#showoff-projects"> Showoff projects </a></li>
+<li><a href="#trending-links"> Trending links </a></li>
+</ul>
+</li>
+<li><a href="#frontend"> Frontend </a><ul>
+<li><a href="#javascript"> JavaScript </a></li>
+<li><a href="#react"> React </a></li>
+<li><a href="#nextjs"> Next.js </a></li>
+<li><a href="#astro"> Astro </a></li>
+<li><a href="#turbo"> Turbo </a></li>
+<li><a href="#css"> CSS </a></li>
+<li><a href="#good-projects"> Good projects </a></li>
+<li><a href="#website-templates"> Website templates </a></li>
+<li><a href="#design"> Design </a></li>
+</ul>
+</li>
+<li><a href="#backend"> Backend </a><ul>
+<li><a href="#nodejs"> Node.js </a></li>
+<li><a href="#serverless"> Serverless </a></li>
+<li><a href="#python"> Python </a></li>
+<li><a href="#fastapi"> FastAPI </a></li>
+<li><a href="#c"> C# </a></li>
+<li><a href="#rust"> Rust </a></li>
+<li><a href="#golang"> Golang </a></li>
+<li><a href="#databases"> Databases </a></li>
+</ul>
+</li>
+<li><a href="#software-engineering"> Software engineering </a><ul>
+<li><a href="#architecture"> Architecture </a></li>
+<li><a href="#clean-code"> Clean code </a></li>
+<li><a href="#testing"> Testing </a></li>
+<li><a href="#ml-ai"> ML/AI </a></li>
+</ul>
+</li>
+<li><a href="#devops"> DevOps </a><ul>
+<li><a href="#devops"> DevOps </a></li>
+<li><a href="#docker"> Docker </a></li>
+<li><a href="#linux"> Linux </a></li>
+<li><a href="#networks"> Networks </a></li>
+<li><a href="#homelab"> Homelab </a></li>
+<li><a href="#git"> Git </a></li>
+</ul>
+</li>
+<li><a href="#career"> Career </a><ul>
+<li><a href="#career"> Career </a></li>
+<li><a href="#personal-branding"> Personal branding </a></li>
+<li><a href="#business"> Business </a></li>
+<li><a href="#interviews"> Interviews </a></li>
+<li><a href="#algorithms-and-data-structures"> Algorithms and Data structures </a></li>
+<li><a href="#people"> People </a></li>
+</ul>
+</li>
+</ul>
+<hr>
+<div class="flex gap-2 items-center group"> <a id="general" href="#general" class="flex target:!outline-none"> <svg width="1em" height="1em" viewBox="0 0 24 24" class="inline-block h-5 w-5 text-transparent group-hover:text-captions" data-icon="mdi:link-variant">  <use xlink:href="#ai:mdi:link-variant"></use>  </svg> </a> <h3> General </h3> </div><div class="flex gap-2 items-center group"> <a id="coding-news" href="#coding-news" class="flex target:!outline-none"> <svg width="1em" height="1em" viewBox="0 0 24 24" class="inline-block h-5 w-5 text-transparent group-hover:text-captions" data-icon="mdi:link-variant">  <use xlink:href="#ai:mdi:link-variant"></use>  </svg> </a> <h4> Coding news </h4> </div><ul>
+<li><a href="https://hashnode.com/featured" target="_blank"> https://hashnode.com/featured </a></li>
+<li><a href="https://dev.to/t/git/top/infinity" target="_blank"> https://dev.to/t/git/top/infinity </a></li>
+<li><a href="https://dev.to/t/react/top/week" target="_blank"> https://dev.to/t/react/top/week </a></li>
+<li><a href="https://evanli.github.io/Github-Ranking/" target="_blank"> https://evanli.github.io/Github-Ranking/ </a></li>
+<li><a href="https://javascript.plainenglish.io/" target="_blank"> https://javascript.plainenglish.io/ </a></li>
+<li><a href="https://hashnode.com/n/reactjs" target="_blank"> https://hashnode.com/n/reactjs </a></li>
+<li>Github trendovi, odlican <a href="https://star-history.com" target="_blank"> https://star-history.com </a></li>
+<li>extension aggregator <a href="https://daily.dev/" target="_blank"> https://daily.dev/ </a></li>
+<li><a href="https://news.ycombinator.com/best" target="_blank"> https://news.ycombinator.com/best </a></li>
+<li>dead link <a href="https://stargazing.dev/" target="_blank"> https://stargazing.dev/ </a>, <a href="https://x.com/stargazing_dev" target="_blank"> https://x.com/stargazing_dev </a></li>
+<li>LLM Hackernews <a href="https://hn-discussions.top/" target="_blank"> https://hn-discussions.top/ </a></li>
+</ul>
+<div class="flex gap-2 items-center group"> <a id="blogs" href="#blogs" class="flex target:!outline-none"> <svg width="1em" height="1em" viewBox="0 0 24 24" class="inline-block h-5 w-5 text-transparent group-hover:text-captions" data-icon="mdi:link-variant">  <use xlink:href="#ai:mdi:link-variant"></use>  </svg> </a> <h4> Blogs </h4> </div><ul>
+<li><a href="https://indepth.dev/react" target="_blank"> https://indepth.dev/react </a></li>
+<li><a href="https://blog.bytebytego.com/" target="_blank"> https://blog.bytebytego.com/ </a></li>
+<li><a href="https://buildui.com/" target="_blank"> https://buildui.com/ </a></li>
+<li><a href="https://www.alexhyett.com/" target="_blank"> https://www.alexhyett.com/ </a></li>
+<li><a href="https://blog.pragmaticengineer.com/" target="_blank"> https://blog.pragmaticengineer.com/ </a></li>
+<li><a href="https://www.propelauth.com/blog" target="_blank"> https://www.propelauth.com/blog </a></li>
+<li><a href="https://www.builder.io/blog" target="_blank"> https://www.builder.io/blog </a></li>
+<li>Lydia Hallie <a href="https://www.instagram.com/theavocoder/" target="_blank"> https://www.instagram.com/theavocoder/ </a></li>
+<li>Lydia Hallie <a href="https://www.lydiahallie.io/" target="_blank"> https://www.lydiahallie.io/ </a></li>
+<li>JavaScript Visualized <a href="https://dev.to/lydiahallie" target="_blank"> https://dev.to/lydiahallie </a></li>
+<li>free medium cached <a href="https://freedium.cfd/" target="_blank"> https://freedium.cfd/ </a></li>
+<li>Astro, Youtube channel <a href="https://codinginpublic.dev/" target="_blank"> https://codinginpublic.dev/ </a></li>
+<li><a href="https://oliverjumpertz.com/" target="_blank"> https://oliverjumpertz.com/ </a></li>
+<li><a href="https://dev.to/jurajmalenica" target="_blank"> https://dev.to/jurajmalenica </a></li>
+<li>JavaScript and React, good blog <a href="https://dmitripavlutin.com/all-posts/" target="_blank"> https://dmitripavlutin.com/all-posts/ </a></li>
+<li><a href="https://addyosmani.com/blog/" target="_blank"> https://addyosmani.com/blog/ </a></li>
+<li><a href="https://architecturenotes.co/" target="_blank"> https://architecturenotes.co/ </a></li>
+<li>list of blogs <a href="https://blogs.hn/" target="_blank"> https://blogs.hn/ </a></li>
+<li>excellent React, Vue, Svelte, frontend theory <a href="https://dev.to/itswillt" target="_blank"> https://dev.to/itswillt </a> , <a href="https://github.com/itshugota" target="_blank"> https://github.com/itshugota </a></li>
+<li>Docker, Kubernetes <a href="https://iximiuz.com/en/" target="_blank"> https://iximiuz.com/en/ </a> , <a href="https://github.com/iximiuz" target="_blank"> https://github.com/iximiuz </a></li>
+<li>Astro articles <a href="https://zellwk.com/blog/1/" target="_blank"> https://zellwk.com/blog/1/ </a></li>
+<li>Linuxserver docker images blog <a href="https://www.linuxserver.io/blog" target="_blank"> https://www.linuxserver.io/blog </a></li>
+<li>excellent React, Kent Dodds <a href="https://www.epicreact.dev/articles" target="_blank"> https://www.epicreact.dev/articles </a></li>
+<li>Scaleway (French cloud) founder <a href="https://manfred.life/blog/" target="_blank"> https://manfred.life/blog/ </a></li>
+<li>Lot of articles <a href="https://haidarali.net/#/articles" target="_blank"> https://haidarali.net/#/articles </a></li>
+<li>Few hundreds blogs list <a href="https://github.com/kilimchoi/engineering-blogs" target="_blank"> https://github.com/kilimchoi/engineering-blogs </a></li>
+<li>234 random blogs list <a href="https://webring.xxiivv.com/#random" target="_blank"> https://webring.xxiivv.com/#random </a></li>
+<li>React and Rails tutorials <a href="https://blog.rstankov.com/" target="_blank"> https://blog.rstankov.com/ </a></li>
+<li>Infrastructure <a href="https://punits.dev/" target="_blank"> https://punits.dev/ </a></li>
+<li>Vercel community <a href="https://www.pawlean.com/vault" target="_blank"> https://www.pawlean.com/vault </a></li>
+<li>React articles <a href="https://meetantonija.com/posts?page=1" target="_blank"> https://meetantonija.com/posts?page=1 </a></li>
+<li>Roadmap gy blog <a href="https://kamran.fyi/posts" target="_blank"> https://kamran.fyi/posts </a></li>
+</ul>
+<div class="flex gap-2 items-center group"> <a id="cheatsheets" href="#cheatsheets" class="flex target:!outline-none"> <svg width="1em" height="1em" viewBox="0 0 24 24" class="inline-block h-5 w-5 text-transparent group-hover:text-captions" data-icon="mdi:link-variant">  <use xlink:href="#ai:mdi:link-variant"></use>  </svg> </a> <h4> Cheatsheets </h4> </div><ul>
+<li><a href="https://hackingcpp.com/cpp/cheat_sheets.html" target="_blank"> https://hackingcpp.com/cpp/cheat_sheets.html </a></li>
+<li><a href="https://taplink.cc/javascriptmastery/p/7fb4d6/" target="_blank"> https://taplink.cc/javascriptmastery/p/7fb4d6/ </a></li>
+<li>Languages cheatsheets as comments, all languages <a href="https://learnxinyminutes.com/" target="_blank"> https://learnxinyminutes.com/ </a> , <a href="https://github.com/adambard/learnxinyminutes-docs" target="_blank"> https://github.com/adambard/learnxinyminutes-docs </a></li>
+<li>Roadmaps, updates OFTEN, page HAS linked articles and explanations, index <a href="https://roadmap.sh/dashboard" target="_blank"> https://roadmap.sh/dashboard </a>, page: <a href="https://roadmap.sh/XXX" target="_blank"> https://roadmap.sh/XXX </a>, pdf: <a href="https://roadmap.sh/pdfs/roadmaps/XXX.pdf" target="_blank"> https://roadmap.sh/pdfs/roadmaps/XXX.pdf </a></li>
+<li><a href="https://cheat.readthedocs.io/en/latest/index.html" target="_blank"> https://cheat.readthedocs.io/en/latest/index.html </a></li>
+<li><a href="https://oscarchou.com/posts/handbook/dokku-command-cheatsheet/" target="_blank"> https://oscarchou.com/posts/handbook/dokku-command-cheatsheet/ </a></li>
+<li>nije free <a href="https://georgemoller.gumroad.com/" target="_blank"> https://georgemoller.gumroad.com/ </a></li>
+<li>email subscription <a href="https://www.webdevvisuals.com/visuals" target="_blank"> https://www.webdevvisuals.com/visuals </a></li>
+<li><a href="https://gto76.github.io/python-cheatsheet/" target="_blank"> https://gto76.github.io/python-cheatsheet/ </a> , <a href="https://gto76.github.io/linux-cheatsheet/" target="_blank"> https://gto76.github.io/linux-cheatsheet/ </a></li>
+<li>grid <a href="https://grid.malven.co/" target="_blank"> https://grid.malven.co/ </a></li>
+<li>from Linkedin<ul>
+<li><a href="https://github.com/brillout/awesome-react-components" target="_blank"> https://github.com/brillout/awesome-react-components </a></li>
+<li><a href="https://github.com/streamich/react-use" target="_blank"> https://github.com/streamich/react-use </a></li>
+<li>React apps, good and outdated <a href="https://github.com/jeromedalbert/real-world-react-apps" target="_blank"> https://github.com/jeromedalbert/real-world-react-apps </a></li>
+<li>React tricks, excellent <a href="https://github.com/vasanthk/react-bits" target="_blank"> https://github.com/vasanthk/react-bits </a></li>
+</ul>
+</li>
+<li>latencies <a href="https://vercel.com/blog/latency-numbers-every-web-developer-should-know" target="_blank"> https://vercel.com/blog/latency-numbers-every-web-developer-should-know </a></li>
+<li>Google styleguide, Python, Typescript, Shell&#8230; <a href="https://github.com/google/styleguide" target="_blank"> https://github.com/google/styleguide </a></li>
+<li>Linux infographic cheatsheets <a href="https://x.com/sysxplore/media" target="_blank"> https://x.com/sysxplore/media </a></li>
+<li>React 19 <a href="https://www.epicreact.dev/react-19-cheatsheet" target="_blank"> https://www.epicreact.dev/react-19-cheatsheet </a></li>
+<li>Http in detail <a href="https://http.dev" target="_blank"> https://http.dev </a></li>
+<li>Phone app cheatsheet for all languages <a href="https://github.com/ivansaul/cheat-sheets" target="_blank"> https://github.com/ivansaul/cheat-sheets </a></li>
+<li>Laws of software engineering <a href="https://lawsofsoftwareengineering.com/" target="_blank"> https://lawsofsoftwareengineering.com/ </a></li>
+<li>Roadmap guy quick video lessons <a href="https://www.instagram.com/nilbuild" target="_blank"> https://www.instagram.com/nilbuild </a></li>
+<li>50 cheatsheets <a href="https://devsheets.io/" target="_blank"> https://devsheets.io/ </a></li>
+</ul>
+<div class="flex gap-2 items-center group"> <a id="utils" href="#utils" class="flex target:!outline-none"> <svg width="1em" height="1em" viewBox="0 0 24 24" class="inline-block h-5 w-5 text-transparent group-hover:text-captions" data-icon="mdi:link-variant">  <use xlink:href="#ai:mdi:link-variant"></use>  </svg> </a> <h4> Utils </h4> </div><ul>
+<li><a href="https://www.photopea.com/" target="_blank"> https://www.photopea.com/ </a></li>
+<li>placeholder images <a href="https://picsum.photos/" target="_blank"> https://picsum.photos/ </a></li>
+<li><a href="https://veed.io" target="_blank"> https://veed.io </a></li>
+<li><a href="https://www.cellmapper.net/" target="_blank"> https://www.cellmapper.net/ </a></li>
+<li><a href="https://texteditor.com/bold-text/" target="_blank"> https://texteditor.com/bold-text/ </a></li>
+<li><a href="https://github.com/sherlock-project/sherlock" target="_blank"> https://github.com/sherlock-project/sherlock </a></li>
+<li><a href="https://github.com/Z4nzu/hackingtool" target="_blank"> https://github.com/Z4nzu/hackingtool </a></li>
+<li><a href="https://raindrop.io/" target="_blank"> https://raindrop.io/ </a></li>
+<li><a href="https://github.com/whoiskatrin/sql-translator" target="_blank"> https://github.com/whoiskatrin/sql-translator </a></li>
+<li><a href="https://github.com/cogentapps/chat-with-gpt" target="_blank"> https://github.com/cogentapps/chat-with-gpt </a></li>
+<li><a href="https://app.wayscript.com" target="_blank"> https://app.wayscript.com </a></li>
+<li>Online compiler <a href="https://godbolt.org/" target="_blank"> https://godbolt.org/ </a></li>
+<li>free cloud plans <a href="https://free-for.dev/" target="_blank"> https://free-for.dev/ </a></li>
+<li>postman alternative <a href="https://github.com/usebruno/bruno" target="_blank"> https://github.com/usebruno/bruno </a></li>
+<li>copy files in LAN <a href="https://github.com/localsend/localsend" target="_blank"> https://github.com/localsend/localsend </a></li>
+<li>untested, chat with local documents <a href="https://github.com/imartinez/privateGPT" target="_blank"> https://github.com/imartinez/privateGPT </a></li>
+<li>remote debugging <a href="https://github.com/HuolalaTech/page-spy-web" target="_blank"> https://github.com/HuolalaTech/page-spy-web </a></li>
+<li>github unfollowers <a href="https://github.com/mehmetsagir/github-unfollowers" target="_blank"> https://github.com/mehmetsagir/github-unfollowers </a></li>
+<li>hydration errors in Next.js <a href="https://github.com/BuilderIO/hydration-overlay" target="_blank"> https://github.com/BuilderIO/hydration-overlay </a></li>
+<li>Open Graph tags and image preview <a href="https://www.opengraph.xyz/" target="_blank"> https://www.opengraph.xyz/ </a></li>
+<li>website performance, page load video <a href="https://www.webpagetest.org/" target="_blank"> https://www.webpagetest.org/ </a></li>
+<li>update VS Code Ubuntu <a href="https://github.com/moeenz/vscode-updater" target="_blank"> https://github.com/moeenz/vscode-updater </a></li>
+<li>game to learn CSS grid <a href="https://cssgridgarden.com/" target="_blank"> https://cssgridgarden.com/ </a></li>
+<li>screen recording and annotating Chrome extension <a href="https://github.com/alyssaxuu/screenity" target="_blank"> https://github.com/alyssaxuu/screenity </a></li>
+<li>React internals debugger <a href="https://jser.dev/2024-05-11-introducing-rie/" target="_blank"> https://jser.dev/2024-05-11-introducing-rie/ </a></li>
+<li>favicon and manifest generator <a href="https://realfavicongenerator.net/" target="_blank"> https://realfavicongenerator.net/ </a></li>
+<li>convert .webm to .mp4 quickly <a href="https://www.online-convert.com" target="_blank"> https://www.online-convert.com </a></li>
+<li>convert .svg to React component for fill color <a href="https://transform.tools/" target="_blank"> https://transform.tools/ </a></li>
+<li>nearest Tailwind palette color <a href="https://nearest-tailwind-color.netlify.app/" target="_blank"> https://nearest-tailwind-color.netlify.app/ </a></li>
+<li>interactive time zone map for calls <a href="https://www.timeanddate.com/time/map/" target="_blank"> https://www.timeanddate.com/time/map/ </a></li>
+<li>edit svg color <a href="https://svgcolor.com/" target="_blank"> https://svgcolor.com/ </a></li>
+<li>Open source video convertor <a href="https://github.com/HandBrake/HandBrake" target="_blank"> https://github.com/HandBrake/HandBrake </a></li>
+<li>Record and share browser console <a href="https://jam.dev/" target="_blank"> https://jam.dev/ </a></li>
+<li>Firefox text to speech, select Google Translate voice <a href="https://addons.mozilla.org/en-US/firefox/addon/read-aloud/" target="_blank"> https://addons.mozilla.org/en-US/firefox/addon/read-aloud/ </a></li>
+<li>Markdown preview <a href="https://markdownlivepreview.com/" target="_blank"> https://markdownlivepreview.com/ </a></li>
+<li>Serbian tax calculator <a href="https://github.com/turanjanin/kalkulator-poreza" target="_blank"> https://github.com/turanjanin/kalkulator-poreza </a></li>
+<li>Offline, BlueTooth chat <a href="https://play.google.com/store/apps/details?id=me.bridgefy.main" target="_blank"> https://play.google.com/store/apps/details?id=me.bridgefy.main </a></li>
+<li>p2p WiFi, Bluetooth, internet messenger, free, open source <a href="https://briarproject.org/" target="_blank"> https://briarproject.org/ </a>, <a href="https://github.com/briar/briar" target="_blank"> https://github.com/briar/briar </a></li>
+<li>Browser p2p file upload <a href="https://github.com/kern/filepizza" target="_blank"> https://github.com/kern/filepizza </a></li>
+<li>Minimalistic blogging platform <a href="https://github.com/HermanMartinus/bearblog" target="_blank"> https://github.com/HermanMartinus/bearblog </a></li>
+<li>CSS utils <a href="https://markodenic.com/css-generators/" target="_blank"> https://markodenic.com/css-generators/ </a></li>
+<li>Drawing diagrams <a href="https://draw.io" target="_blank"> https://draw.io </a>, <a href="https://excalidraw.com/" target="_blank"> https://excalidraw.com/ </a> (has VS Code extension)</li>
+<li>Badges for Readme with correct brand colors <a href="https://github.com/inttter/md-badges" target="_blank"> https://github.com/inttter/md-badges </a></li>
+<li>Original badges docs with params <a href="https://github.com/badges/shields" target="_blank"> https://github.com/badges/shields </a></li>
+<li>Social media influencers <a href="https://app.favikon.com/ranking/leaderboard/" target="_blank"> https://app.favikon.com/ranking/leaderboard/ </a></li>
+<li>Anonymous feedback <a href="https://admonymous.co/" target="_blank"> https://admonymous.co/ </a></li>
+<li>Blogging platform <a href="https://typlog.com/" target="_blank"> https://typlog.com/ </a></li>
+<li>Check not followers on Github <a href="https://git-hub-unfollower-tracker.vercel.app/" target="_blank"> https://git-hub-unfollower-tracker.vercel.app/ </a></li>
+<li>Backup Github repos locally <a href="https://github.com/AkashRajpurohit/git-sync" target="_blank"> https://github.com/AkashRajpurohit/git-sync </a></li>
+<li>Loom alternative (abandoned), must write Dockerfile yourself for Next.js app <a href="https://github.com/MarconLP/snapify" target="_blank"> https://github.com/MarconLP/snapify </a></li>
+<li>Better Loom alternative <a href="https://github.com/CapSoftware/Cap" target="_blank"> https://github.com/CapSoftware/Cap </a></li>
+<li>Yaml resume, not bad design <a href="https://github.com/yamlresume/yamlresume" target="_blank"> https://github.com/yamlresume/yamlresume </a></li>
+<li>Video downloader terminal <a href="https://github.com/yt-dlp/yt-dlp" target="_blank"> https://github.com/yt-dlp/yt-dlp </a>, desktop <a href="https://github.com/aandrew-me/ytDownloader" target="_blank"> https://github.com/aandrew-me/ytDownloader </a>, <a href="https://stacher.io/" target="_blank"> https://stacher.io/ </a>, <a href="https://github.com/mhogomchungu/media-downloader" target="_blank"> https://github.com/mhogomchungu/media-downloader </a></li>
+<li>Username, email search <a href="https://github.com/p1ngul1n0/blackbird" target="_blank"> https://github.com/p1ngul1n0/blackbird </a></li>
+<li>Desktop markdown editor <a href="https://typora.io/" target="_blank"> https://typora.io/ </a></li>
+<li>Screen annotation <a href="https://github.com/DmytroVasin/DrawPen" target="_blank"> https://github.com/DmytroVasin/DrawPen </a></li>
+<li>Decode JWT <a href="https://www.jwt.io/" target="_blank"> https://www.jwt.io/ </a></li>
+<li>Web send files (over internet, no LAN) <a href="https://github.com/schollz/e2ecp/" target="_blank"> https://github.com/schollz/e2ecp/ </a>, <a href="https://e2ecp.com/" target="_blank"> https://e2ecp.com/ </a></li>
+<li>Free image hosting and resizing API <a href="https://servimg.com/" target="_blank"> https://servimg.com/ </a></li>
+<li>Video and image files converter <a href="https://p2r3.github.io/convert/" target="_blank"> https://p2r3.github.io/convert/ </a></li>
+<li>Self-hosted video downloader <a href="https://github.com/averygan/reclip" target="_blank"> https://github.com/averygan/reclip </a></li>
+<li>Free, open source screen recorder <a href="https://github.com/siddharthvaddem/openscreen" target="_blank"> https://github.com/siddharthvaddem/openscreen </a></li>
+<li>Reverse Android apps skill <a href="https://github.com/SimoneAvogadro/android-reverse-engineering-skill" target="_blank"> https://github.com/SimoneAvogadro/android-reverse-engineering-skill </a></li>
+<li>Open source alternatives, excellent <a href="https://openalternative.co/" target="_blank"> https://openalternative.co/ </a></li>
+<li>Self-hosted file sharing <a href="https://github.com/Skyfay/SkySend" target="_blank"> https://github.com/Skyfay/SkySend </a></li>
+<li>Android remote control <a href="https://github.com/Genymobile/scrcpy" target="_blank"> https://github.com/Genymobile/scrcpy </a></li>
+<li>Google trends for a search term <a href="https://trends.google.com/explore" target="_blank"> https://trends.google.com/explore </a></li>
+<li>Free domains <a href="https://github.com/DigitalPlatDev/FreeDomain" target="_blank"> https://github.com/DigitalPlatDev/FreeDomain </a></li>
+<li>IPTV list 3800 channels <a href="https://github.com/Free-TV/IPTV" target="_blank"> https://github.com/Free-TV/IPTV </a></li>
+<li>Hackernews jobs trends <a href="https://hacker-job.com/trends" target="_blank"> https://hacker-job.com/trends </a></li>
+<li>Share files p2p, self-hosted <a href="https://github.com/polius/FileSync/" target="_blank"> https://github.com/polius/FileSync/ </a>, <a href="https://filesync.app/" target="_blank"> https://filesync.app/ </a></li>
+<li>Android microphone, Linux, Windows, Mac <a href="https://github.com/teamclouday/AndroidMic" target="_blank"> https://github.com/teamclouday/AndroidMic </a></li>
+<li>Android webcam, Windows only <a href="https://github.com/darusc/VCamdroid" target="_blank"> https://github.com/darusc/VCamdroid </a></li>
+<li>Compress video in browser, ffmpeg wasm, slower <a href="https://github.com/pranavp10/video-compress/" target="_blank"> https://github.com/pranavp10/video-compress/ </a></li>
+<li>Skill for drawing diagrams <a href="https://github.com/cathrynlavery/diagram-design" target="_blank"> https://github.com/cathrynlavery/diagram-design </a></li>
+<li>Google trends for Hackernews <a href="https://hackernewstrends.com/" target="_blank"> https://hackernewstrends.com/ </a></li>
+<li>Search locked accounts on Reddit <a href="https://search.pullpush.io/" target="_blank"> https://search.pullpush.io/ </a></li>
+<li>Compress video on Android <a href="https://github.com/JoshAtticus/Compressor" target="_blank"> https://github.com/JoshAtticus/Compressor </a></li>
+<li>Localsend alternative, no LAN <a href="https://github.com/denislupookov/altersend" target="_blank"> https://github.com/denislupookov/altersend </a></li>
+</ul>
+<div class="flex gap-2 items-center group"> <a id="llm" href="#llm" class="flex target:!outline-none"> <svg width="1em" height="1em" viewBox="0 0 24 24" class="inline-block h-5 w-5 text-transparent group-hover:text-captions" data-icon="mdi:link-variant">  <use xlink:href="#ai:mdi:link-variant"></use>  </svg> </a> <h4> LLM </h4> </div><ul>
+<li><a href="https://aistudio.google.com/prompts/new_chat" target="_blank"> https://aistudio.google.com/prompts/new_chat </a></li>
+<li><a href="https://code.visualstudio.com/docs/copilot/workspace-context" target="_blank"> https://code.visualstudio.com/docs/copilot/workspace-context </a></li>
+<li>Open source, Chinese <a href="https://chat.deepseek.com/" target="_blank"> https://chat.deepseek.com/ </a></li>
+<li>Prompts <a href="https://prompts.chat/" target="_blank"> https://prompts.chat/ </a></li>
+<li>Cursor presets <a href="https://cursor.directory/" target="_blank"> https://cursor.directory/ </a></li>
+<li>AI agents use cases <a href="https://github.com/ashishpatel26/500-AI-Agents-Projects" target="_blank"> https://github.com/ashishpatel26/500-AI-Agents-Projects </a></li>
+<li>Microsoft course <a href="https://github.com/microsoft/generative-ai-for-beginners" target="_blank"> https://github.com/microsoft/generative-ai-for-beginners </a></li>
+<li>Assistant on Raspberry Pi <a href="https://github.com/sipeed/picoclaw" target="_blank"> https://github.com/sipeed/picoclaw </a></li>
+<li>Claude Code, best resource <a href="https://github.com/FlorianBruniaux/claude-code-ultimate-guide" target="_blank"> https://github.com/FlorianBruniaux/claude-code-ultimate-guide </a></li>
+<li>Claude Code cheatsheet <a href="https://github.com/Njengah/claude-code-cheat-sheet" target="_blank"> https://github.com/Njengah/claude-code-cheat-sheet </a></li>
+<li>Claude Code cheatsheet <a href="https://cc.storyfox.cz/" target="_blank"> https://cc.storyfox.cz/ </a></li>
+<li>Anthropic skills <a href="https://github.com/anthropics/skills" target="_blank"> https://github.com/anthropics/skills </a></li>
+<li>Ts guy skills <a href="https://github.com/mattpocock/skills" target="_blank"> https://github.com/mattpocock/skills </a></li>
+<li>Test if website is agent-ready <a href="https://isitagentready.com" target="_blank"> https://isitagentready.com </a>, <a href="https://x.com/mgechev/status/2045189000550555705" target="_blank"> https://x.com/mgechev/status/2045189000550555705 </a></li>
+<li>Links collection <a href="https://github.com/shanraisshan/claude-code-best-practice" target="_blank"> https://github.com/shanraisshan/claude-code-best-practice </a></li>
+<li>Agents book <a href="https://github.com/evoiz/Agentic-Design-Patterns/" target="_blank"> https://github.com/evoiz/Agentic-Design-Patterns/ </a></li>
+<li>Claude design skills <a href="https://github.com/plugin87/ux-ui-agent-skills" target="_blank"> https://github.com/plugin87/ux-ui-agent-skills </a></li>
+</ul>
+<div class="flex gap-2 items-center group"> <a id="links" href="#links" class="flex target:!outline-none"> <svg width="1em" height="1em" viewBox="0 0 24 24" class="inline-block h-5 w-5 text-transparent group-hover:text-captions" data-icon="mdi:link-variant">  <use xlink:href="#ai:mdi:link-variant"></use>  </svg> </a> <h4> Links </h4> </div><ul>
+<li><a href="https://twitter.com/denicmarko/status/1528678833561509889" target="_blank"> https://twitter.com/denicmarko/status/1528678833561509889 </a></li>
+<li><a href="https://github.com/markodenic/web-development-resources" target="_blank"> https://github.com/markodenic/web-development-resources </a></li>
+<li><a href="https://github.com/markodenic/awesome-tech-blogs" target="_blank"> https://github.com/markodenic/awesome-tech-blogs </a></li>
+<li><a href="https://andreasbm.github.io/web-skills/?compact" target="_blank"> https://andreasbm.github.io/web-skills/?compact </a></li>
+<li><a href="https://www.reddit.com/r/reactjs/comments/vrhss4/what_are_some_midseniorlevel_blogs_subs_forums/" target="_blank"> https://www.reddit.com/r/reactjs/comments/vrhss4/what_are_some_midseniorlevel_blogs_subs_forums/ </a></li>
+<li><a href="https://github.com/sdmg15/Best-websites-a-programmer-should-visit" target="_blank"> https://github.com/sdmg15/Best-websites-a-programmer-should-visit </a></li>
+<li>excellent <a href="https://github.com/alan2207/awesome-codebases" target="_blank"> https://github.com/alan2207/awesome-codebases </a></li>
+<li>React libraries <a href="https://www.reddit.com/r/reactjs/comments/1447vs4/what_are_some_of_the_best_libraries_you_cannot/?sort=new" target="_blank"> https://www.reddit.com/r/reactjs/comments/1447vs4/what_are_some_of_the_best_libraries_you_cannot/?sort=new </a></li>
+<li><a href="https://github.com/practical-tutorials/project-based-learning" target="_blank"> https://github.com/practical-tutorials/project-based-learning </a></li>
+<li>free hosting <a href="https://github.com/ripienaar/free-for-dev" target="_blank"> https://github.com/ripienaar/free-for-dev </a></li>
+<li>blog links thread <a href="https://news.ycombinator.com/item?id=38542238" target="_blank"> https://news.ycombinator.com/item?id=38542238 </a></li>
+<li>lot of links <a href="https://github.com/sdmg15/Best-websites-a-programmer-should-visit" target="_blank"> https://github.com/sdmg15/Best-websites-a-programmer-should-visit </a></li>
+<li><a href="https://github.com/jordan-cutler/path-to-senior-engineer-handbook" target="_blank"> https://github.com/jordan-cutler/path-to-senior-engineer-handbook </a></li>
+<li>big list <a href="https://github.com/ripienaar/free-for-dev" target="_blank"> https://github.com/ripienaar/free-for-dev </a></li>
+<li>from Linkedin <a href="https://github.com/enaqx/awesome-react" target="_blank"> https://github.com/enaqx/awesome-react </a></li>
+<li>python projects links <a href="https://github.com/mahmoud/awesome-python-applications" target="_blank"> https://github.com/mahmoud/awesome-python-applications </a></li>
+<li>website pages explanations, has links to blogs <a href="https://slashpages.net/" target="_blank"> https://slashpages.net/ </a> , for example <a href="https://blogroll.org/" target="_blank"> https://blogroll.org/ </a></li>
+<li>lot of design tutorials links <a href="https://www.interaction-design.org/literature/topics" target="_blank"> https://www.interaction-design.org/literature/topics </a></li>
+<li>Excellent link, analytics for example <a href="https://github.com/awesome-selfhosted/awesome-selfhosted" target="_blank"> https://github.com/awesome-selfhosted/awesome-selfhosted </a></li>
+<li>random open source repos <a href="https://x.com/tom_doerr" target="_blank"> https://x.com/tom_doerr </a></li>
+<li>Open source code to learn from <a href="https://github.com/elie222/learn-from-open-source" target="_blank"> https://github.com/elie222/learn-from-open-source </a></li>
+<li>starred repos <a href="https://github.com/pontusab?tab=stars" target="_blank"> https://github.com/pontusab?tab=stars </a></li>
+<li>Github profiles Readmes examples <a href="https://github.com/abhisheknaiidu/awesome-github-profile-readme" target="_blank"> https://github.com/abhisheknaiidu/awesome-github-profile-readme </a></li>
+<li>SSH <a href="https://github.com/moul/awesome-ssh?tab=readme-ov-file" target="_blank"> https://github.com/moul/awesome-ssh?tab=readme-ov-file </a></li>
+<li>List of tech Youtube channels <a href="https://github.com/JoseDeFreitas/awesome-youtubers" target="_blank"> https://github.com/JoseDeFreitas/awesome-youtubers </a></li>
+</ul>
+<div class="flex gap-2 items-center group"> <a id="showoff-projects" href="#showoff-projects" class="flex target:!outline-none"> <svg width="1em" height="1em" viewBox="0 0 24 24" class="inline-block h-5 w-5 text-transparent group-hover:text-captions" data-icon="mdi:link-variant">  <use xlink:href="#ai:mdi:link-variant"></use>  </svg> </a> <h4> Showoff projects </h4> </div><ul>
+<li><a href="https://news.ycombinator.com/show" target="_blank"> https://news.ycombinator.com/show </a></li>
+<li><a href="https://www.reddit.com/r/SideProject/" target="_blank"> https://www.reddit.com/r/SideProject/ </a></li>
+<li><a href="https://www.reddit.com/r/webdev/?f=flair_name%3A%22Showoff%20Saturday%22" target="_blank"> https://www.reddit.com/r/webdev/?f=flair_name%3A%22Showoff%20Saturday%22 </a></li>
+<li><a href="https://github.com/trending" target="_blank"> https://github.com/trending </a></li>
+<li><a href="https://www.reddit.com/r/reactjs/?f=flair_name%3A%22Show%20%2Fr%2Freactjs%22" target="_blank"> https://www.reddit.com/r/reactjs/?f=flair_name%3A%22Show%20%2Fr%2Freactjs%22 </a></li>
+<li><a href="https://www.reddit.com/r/Python/?f=flair_name%3A%22Showcase%22" target="_blank"> https://www.reddit.com/r/Python/?f=flair_name%3A%22Showcase%22 </a></li>
+<li>Next.js projects <a href="https://vercel.community/c/showcase/41/l/latest" target="_blank"> https://vercel.community/c/showcase/41/l/latest </a></li>
+<li><a href="https://www.reddit.com/r/PythonProjects2/" target="_blank"> https://www.reddit.com/r/PythonProjects2/ </a>, <a href="https://www.reddit.com/r/madeinpython/" target="_blank"> https://www.reddit.com/r/madeinpython/ </a></li>
+</ul>
+<div class="flex gap-2 items-center group"> <a id="trending-links" href="#trending-links" class="flex target:!outline-none"> <svg width="1em" height="1em" viewBox="0 0 24 24" class="inline-block h-5 w-5 text-transparent group-hover:text-captions" data-icon="mdi:link-variant">  <use xlink:href="#ai:mdi:link-variant"></use>  </svg> </a> <h4> Trending links </h4> </div><ul>
+<li><a href="https://news.ycombinator.com/best" target="_blank"> https://news.ycombinator.com/best </a></li>
+<li><a href="https://hn.algolia.com/" target="_blank"> https://hn.algolia.com/ </a></li>
+<li><a href="https://github.com/trending" target="_blank"> https://github.com/trending </a></li>
+<li><a href="https://github.com/gayanvoice/top-github-users/blob/main/markdown/followers/serbia.md" target="_blank"> https://github.com/gayanvoice/top-github-users/blob/main/markdown/followers/serbia.md </a></li>
+<li><a href="https://www.reddit.com/r/reactjs/top/?t=week" target="_blank"> https://www.reddit.com/r/reactjs/top/?t=week </a></li>
+<li><a href="https://www.reddit.com/r/nextjs/top/?t=week" target="_blank"> https://www.reddit.com/r/nextjs/top/?t=week </a></li>
+<li><a href="https://www.reddit.com/r/astrojs/top/?t=month" target="_blank"> https://www.reddit.com/r/astrojs/top/?t=month </a></li>
+<li><a href="https://www.reddit.com/r/tailwindcss/top/?t=month" target="_blank"> https://www.reddit.com/r/tailwindcss/top/?t=month </a></li>
+<li><a href="https://www.reddit.com/r/Python/top/?t=week" target="_blank"> https://www.reddit.com/r/Python/top/?t=week </a></li>
+<li><a href="https://www.reddit.com/r/FastAPI/top/?t=month" target="_blank"> https://www.reddit.com/r/FastAPI/top/?t=month </a></li>
+<li><a href="https://www.reddit.com/r/ExperiencedDevs/top/?t=month" target="_blank"> https://www.reddit.com/r/ExperiencedDevs/top/?t=month </a></li>
+<li><a href="https://www.reddit.com/r/cscareerquestions/top/?t=week" target="_blank"> https://www.reddit.com/r/cscareerquestions/top/?t=week </a></li>
+<li><a href="https://www.producthunt.com/categories" target="_blank"> https://www.producthunt.com/categories </a></li>
+<li>Link aggregators from here <a href="https://github.com/anil-dewani" target="_blank"> https://github.com/anil-dewani </a><ul>
+<li><a href="https://devurls.com/" target="_blank"> https://devurls.com/ </a></li>
+<li><a href="https://techurls.com/" target="_blank"> https://techurls.com/ </a></li>
+<li><a href="https://lobste.rs/" target="_blank"> https://lobste.rs/ </a></li>
+<li><a href="https://jimmyr.com/" target="_blank"> https://jimmyr.com/ </a></li>
+</ul>
+</li>
+<li>AI powered, self-hosted aggregator with demo <a href="https://github.com/Thysrael/Horizon" target="_blank"> https://github.com/Thysrael/Horizon </a></li>
+<li>Most popular &#8220;Show HN:&#8221; threads <a href="https://hn.algolia.com/?dateRange=pastYear&page=0&prefix=true&query=show%20hn&sort=byPopularity&type=story" target="_blank"> https://hn.algolia.com/?dateRange=pastYear&amp;page=0&amp;prefix=true&amp;query=show%20hn&amp;sort=byPopularity&amp;type=story </a></li>
+</ul>
+<hr>
+<div class="flex gap-2 items-center group"> <a id="frontend" href="#frontend" class="flex target:!outline-none"> <svg width="1em" height="1em" viewBox="0 0 24 24" class="inline-block h-5 w-5 text-transparent group-hover:text-captions" data-icon="mdi:link-variant">  <use xlink:href="#ai:mdi:link-variant"></use>  </svg> </a> <h3> Frontend </h3> </div><div class="flex gap-2 items-center group"> <a id="javascript" href="#javascript" class="flex target:!outline-none"> <svg width="1em" height="1em" viewBox="0 0 24 24" class="inline-block h-5 w-5 text-transparent group-hover:text-captions" data-icon="mdi:link-variant">  <use xlink:href="#ai:mdi:link-variant"></use>  </svg> </a> <h4> JavaScript </h4> </div><ul>
+<li><a href="https://dev.to/lydiahallie/javascript-visualized-the-javascript-engine-4cdf" target="_blank"> https://dev.to/lydiahallie/javascript-visualized-the-javascript-engine-4cdf </a></li>
+<li><a href="https://www.lydiahallie.io/" target="_blank"> https://www.lydiahallie.io/ </a></li>
+<li><a href="https://www.instagram.com/theavocoder/" target="_blank"> https://www.instagram.com/theavocoder/ </a></li>
+<li><a href="https://github.com/leonardomso/33-js-concepts" target="_blank"> https://github.com/leonardomso/33-js-concepts </a></li>
+<li><a href="https://www.patterns.dev/" target="_blank"> https://www.patterns.dev/ </a></li>
+<li><a href="https://learnjavascript.online/?utm_source=jadjoubran.io" target="_blank"> https://learnjavascript.online/?utm_source=jadjoubran.io </a></li>
+<li><a href="https://github.com/sadanandpai/javascript-code-challenges" target="_blank"> https://github.com/sadanandpai/javascript-code-challenges </a></li>
+<li><a href="https://www.youtube.com/playlist?list=PLillGF-Rfqbars4vKNtpcWVDUpVOVTlgB" target="_blank"> https://www.youtube.com/playlist?list=PLillGF-Rfqbars4vKNtpcWVDUpVOVTlgB </a></li>
+<li>Typescript <a href="https://www.youtube.com/@andrew-burgess" target="_blank"> https://www.youtube.com/@andrew-burgess </a></li>
+<li><a href="https://www.totaltypescript.com/tsconfig-cheat-sheet" target="_blank"> https://www.totaltypescript.com/tsconfig-cheat-sheet </a></li>
+<li>closures, excellent <a href="https://dev.to/imranabdulmalik/mastering-closures-in-javascript-a-comprehensive-guide-4ja8" target="_blank"> https://dev.to/imranabdulmalik/mastering-closures-in-javascript-a-comprehensive-guide-4ja8 </a></li>
+<li>regex <a href="https://dev.to/volodyslav/regex-cheat-sheet-for-javascript-6np" target="_blank"> https://dev.to/volodyslav/regex-cheat-sheet-for-javascript-6np </a></li>
+<li><a href="https://dmitripavlutin.com/gentle-explanation-of-this-in-javascript/" target="_blank"> https://dmitripavlutin.com/gentle-explanation-of-this-in-javascript/ </a></li>
+<li>browser extension starter <a href="https://github.com/cezaraugusto/extension.js" target="_blank"> https://github.com/cezaraugusto/extension.js </a></li>
+<li>Typescript styleguide <a href="https://mkosir.github.io/typescript-style-guide/" target="_blank"> https://mkosir.github.io/typescript-style-guide/ </a></li>
+<li>Excellent Haskell tutorial <a href="https://learnyouahaskell.github.io/chapters.html" target="_blank"> https://learnyouahaskell.github.io/chapters.html </a></li>
+</ul>
+<div class="flex gap-2 items-center group"> <a id="react" href="#react" class="flex target:!outline-none"> <svg width="1em" height="1em" viewBox="0 0 24 24" class="inline-block h-5 w-5 text-transparent group-hover:text-captions" data-icon="mdi:link-variant">  <use xlink:href="#ai:mdi:link-variant"></use>  </svg> </a> <h4> React </h4> </div><ul>
+<li><a href="https://alexsidorenko.com/" target="_blank"> https://alexsidorenko.com/ </a></li>
+<li><a href="https://react.gg/" target="_blank"> https://react.gg/ </a> - React visualized</li>
+<li><a href="https://dev.to/fkkarakurt/planning-a-react-application-3pe4?utm_source=dormosheio&utm_campaign=dormosheio" target="_blank"> https://dev.to/fkkarakurt/planning-a-react-application-3pe4?utm_source=dormosheio&amp;utm_campaign=dormosheio </a></li>
+<li><a href="https://alexsidorenko.com/blog/react-performance-slow-renders/" target="_blank"> https://alexsidorenko.com/blog/react-performance-slow-renders/ </a></li>
+<li><a href="https://component-party.dev/" target="_blank"> https://component-party.dev/ </a></li>
+<li><a href="https://react-tutorial.app/" target="_blank"> https://react-tutorial.app/ </a></li>
+<li><a href="https://www.youtube.com/watch?v=XruemT74Nok&list=PLRvKvw42Rc7O0eWo2m_guXdZsGTEQM_jj" target="_blank"> https://www.youtube.com/watch?v=XruemT74Nok&amp;list=PLRvKvw42Rc7O0eWo2m_guXdZsGTEQM_jj </a></li>
+<li><a href="https://beta-reactjs-org-git-effects-fbopensource.vercel.app/learn/synchronizing-with-effects#how-to-handle-the-effect-firing-twice-in-development" target="_blank"> https://beta-reactjs-org-git-effects-fbopensource.vercel.app/learn/synchronizing-with-effects#how-to-handle-the-effect-firing-twice-in-development </a></li>
+<li><a href="https://www.developerway.com/" target="_blank"> https://www.developerway.com/ </a></li>
+<li><a href="https://www.developerway.com/posts/react-project-structure" target="_blank"> https://www.developerway.com/posts/react-project-structure </a></li>
+<li><a href="https://github.com/developerway/example-react-project" target="_blank"> https://github.com/developerway/example-react-project </a></li>
+<li><a href="https://www.youtube.com/watch?v=0awA5Uw6SJE&list=PLC3y8-rFHvwiaOAuTtVXittwybYIorRB3" target="_blank"> https://www.youtube.com/watch?v=0awA5Uw6SJE&amp;list=PLC3y8-rFHvwiaOAuTtVXittwybYIorRB3 </a></li>
+<li><a href="https://www.flavienbonvin.com/amazing-nextjs-libraries-that-makes-coding-easier/" target="_blank"> https://www.flavienbonvin.com/amazing-nextjs-libraries-that-makes-coding-easier/ </a></li>
+<li><a href="https://blog.isquaredsoftware.com/2020/05/blogged-answers-a-mostly-complete-guide-to-react-rendering-behavior/" target="_blank"> https://blog.isquaredsoftware.com/2020/05/blogged-answers-a-mostly-complete-guide-to-react-rendering-behavior/ </a></li>
+<li><a href="https://www.basedash.com/blog/why-we-had-to-move-away-from-react-query" target="_blank"> https://www.basedash.com/blog/why-we-had-to-move-away-from-react-query </a></li>
+<li><a href="https://www.developerway.com/posts/react-re-renders-guide" target="_blank"> https://www.developerway.com/posts/react-re-renders-guide </a></li>
+<li><a href="https://www.youtube.com/@hamedbahram/videos" target="_blank"> https://www.youtube.com/@hamedbahram/videos </a></li>
+<li><a href="https://dev.to/hixdev/software-project-checklist-4chb" target="_blank"> https://dev.to/hixdev/software-project-checklist-4chb </a></li>
+<li><a href="https://www.youtube.com/@DaveGrayTeachesCode/playlists" target="_blank"> https://www.youtube.com/@DaveGrayTeachesCode/playlists </a></li>
+<li><a href="https://github.com/gitdagray?tab=repositories&q=&type=&language=&sort=stargazers" target="_blank"> https://github.com/gitdagray?tab=repositories&amp;q=&amp;type=&amp;language=&amp;sort=stargazers </a></li>
+<li>Performance Fireship <a href="https://www.youtube.com/watch?v=0fONene3OIA" target="_blank"> https://www.youtube.com/watch?v=0fONene3OIA </a></li>
+<li>acemarke blog <a href="https://blog.isquaredsoftware.com/" target="_blank"> https://blog.isquaredsoftware.com/ </a></li>
+<li>odlicno <a href="https://www.builder.io/blog" target="_blank"> https://www.builder.io/blog </a></li>
+<li>Next.js projects <a href="https://www.youtube.com/@joshtriedcoding/videos" target="_blank"> https://www.youtube.com/@joshtriedcoding/videos </a></li>
+<li>render debugging, profiling <a href="https://github.com/welldone-software/why-did-you-render" target="_blank"> https://github.com/welldone-software/why-did-you-render </a></li>
+<li>stacking context, portals <a href="https://www.developerway.com/posts/positioning-and-portals-in-react" target="_blank"> https://www.developerway.com/posts/positioning-and-portals-in-react </a></li>
+<li>dobar <a href="https://www.propelauth.com/post/5-common-pitfalls-with-server-components-in-next13-with-examples" target="_blank"> https://www.propelauth.com/post/5-common-pitfalls-with-server-components-in-next13-with-examples </a></li>
+<li>dobar <a href="https://vercel.com/blog/how-react-18-improves-application-performance" target="_blank"> https://vercel.com/blog/how-react-18-improves-application-performance </a></li>
+<li>dobar React Server Components <a href="https://demystifying-rsc.vercel.app/" target="_blank"> https://demystifying-rsc.vercel.app/ </a></li>
+<li>profiling docs <a href="https://legacy.reactjs.org/blog/2018/09/10/introducing-the-react-profiler.html" target="_blank"> https://legacy.reactjs.org/blog/2018/09/10/introducing-the-react-profiler.html </a></li>
+<li>profiling docs video <a href="https://www.youtube.com/watch?v=nySib7ipZdk" target="_blank"> https://www.youtube.com/watch?v=nySib7ipZdk </a></li>
+<li>docs videos <a href="https://react.dev/community/videos" target="_blank"> https://react.dev/community/videos </a></li>
+<li>dobar redux primer na dnu <a href="https://www.developerway.com/posts/how-to-write-performant-react-apps-with-context" target="_blank"> https://www.developerway.com/posts/how-to-write-performant-react-apps-with-context </a></li>
+<li>hydration errors <a href="https://chirag-gupta.hashnode.dev/how-to-solve-hydration-error-in-nextjs" target="_blank"> https://chirag-gupta.hashnode.dev/how-to-solve-hydration-error-in-nextjs </a></li>
+<li>type component as props <a href="https://www.totaltypescript.com/pass-component-as-prop-react" target="_blank"> https://www.totaltypescript.com/pass-component-as-prop-react </a></li>
+<li>type props <a href="https://www.totaltypescript.com/react-props-typescript" target="_blank"> https://www.totaltypescript.com/react-props-typescript </a></li>
+<li><a href="https://www.jacobparis.com/content/react-headless-submenus" target="_blank"> https://www.jacobparis.com/content/react-headless-submenus </a></li>
+<li><a href="https://dev.to/shingaiz/optimizing-file-processing-in-react-with-multipart-uploads-and-downloads-2n8p" target="_blank"> https://dev.to/shingaiz/optimizing-file-processing-in-react-with-multipart-uploads-and-downloads-2n8p </a></li>
+<li><a href="https://github.com/brillout/awesome-react-components" target="_blank"> https://github.com/brillout/awesome-react-components </a></li>
+<li>Codevolution Next 14 <a href="https://www.youtube.com/watch?v=ZjAqacIC_3c&list=PLC3y8-rFHvwjOKd6gdf4QtV1uYNiQnruI" target="_blank"> https://www.youtube.com/watch?v=ZjAqacIC_3c&amp;list=PLC3y8-rFHvwjOKd6gdf4QtV1uYNiQnruI </a></li>
+<li>Codevolution Next.js 15 playlist <a href="https://www.youtube.com/watch?v=b4ba60j_4o8&list=PLC3y8-rFHvwhIEc4I4YsRz5C7GOBnxSJY" target="_blank"> https://www.youtube.com/watch?v=b4ba60j_4o8&amp;list=PLC3y8-rFHvwhIEc4I4YsRz5C7GOBnxSJY </a></li>
+<li>React folder structure <a href="https://dev.to/itswillt/folder-structures-in-react-projects-3dp8" target="_blank"> https://dev.to/itswillt/folder-structures-in-react-projects-3dp8 </a></li>
+<li>Next OOP articles <a href="https://www.ericburel.tech/" target="_blank"> https://www.ericburel.tech/ </a></li>
+<li>Debug rerenders, Million creator <a href="https://github.com/aidenybai/react-scan" target="_blank"> https://github.com/aidenybai/react-scan </a></li>
+<li>Common, stable hooks to avoid reinventing <a href="https://usehooks.com/" target="_blank"> https://usehooks.com/ </a>, <a href="https://github.com/uidotdev/usehooks" target="_blank"> https://github.com/uidotdev/usehooks </a></li>
+<li>Another <a href="https://github.com/streamich/react-use" target="_blank"> https://github.com/streamich/react-use </a></li>
+<li>ShadCN tutorial <a href="https://github.com/vercel/components.build" target="_blank"> https://github.com/vercel/components.build </a></li>
+<li>Embed video component <a href="https://github.com/sampotts/plyr" target="_blank"> https://github.com/sampotts/plyr </a></li>
+<li>Excellent design <a href="https://www.youtube.com/@codewithsadee/videos" target="_blank"> https://www.youtube.com/@codewithsadee/videos </a>, <a href="https://github.com/codewithsadee" target="_blank"> https://github.com/codewithsadee </a></li>
+</ul>
+<div class="flex gap-2 items-center group"> <a id="nextjs" href="#nextjs" class="flex target:!outline-none"> <svg width="1em" height="1em" viewBox="0 0 24 24" class="inline-block h-5 w-5 text-transparent group-hover:text-captions" data-icon="mdi:link-variant">  <use xlink:href="#ai:mdi:link-variant"></use>  </svg> </a> <h4> Next.js </h4> </div><ul>
+<li>Excellent, practical React, Next.js, React Query channel <a href="https://www.youtube.com/@cosdensolutions/videos" target="_blank"> https://www.youtube.com/@cosdensolutions/videos </a>, ALL code examples, perfect <a href="https://github.com/cosdensolutions/code/tree/master/videos/long" target="_blank"> https://github.com/cosdensolutions/code/tree/master/videos/long </a></li>
+<li>github.com/ethanniser from Vercel <a href="https://www.youtube.com/@ethanniser" target="_blank"> https://www.youtube.com/@ethanniser </a></li>
+<li>Blog about Next.js environment variables <a href="https://phase.dev/blog/" target="_blank"> https://phase.dev/blog/ </a></li>
+</ul>
+<div class="flex gap-2 items-center group"> <a id="astro" href="#astro" class="flex target:!outline-none"> <svg width="1em" height="1em" viewBox="0 0 24 24" class="inline-block h-5 w-5 text-transparent group-hover:text-captions" data-icon="mdi:link-variant">  <use xlink:href="#ai:mdi:link-variant"></use>  </svg> </a> <h4> Astro </h4> </div><ul>
+<li>MDX blog <a href="https://website-thomas-astro.vercel.app/blog" target="_blank"> https://website-thomas-astro.vercel.app/blog </a></li>
+<li>good turbo monorepo config, benchmark <a href="https://github.com/withastro/astro" target="_blank"> https://github.com/withastro/astro </a></li>
+<li>SSR example <a href="https://github.com/withastro/astro/tree/main/examples/ssr" target="_blank"> https://github.com/withastro/astro/tree/main/examples/ssr </a></li>
+<li>ALL examples are important, like Vercel <a href="https://github.dev/withastro/astro/tree/main/examples/" target="_blank"> https://github.dev/withastro/astro/tree/main/examples/ </a></li>
+<li>links <a href="https://github.com/one-aalam/awesome-astro" target="_blank"> https://github.com/one-aalam/awesome-astro </a></li>
+<li>messy Astro blog <a href="https://github.com/onwidget/astrowind" target="_blank"> https://github.com/onwidget/astrowind </a></li>
+<li>icons <a href="https://github.com/natemoo-re/astro-icon" target="_blank"> https://github.com/natemoo-re/astro-icon </a></li>
+<li>excellent Astro blogs <a href="https://github.com/billy-le/billyle.dev" target="_blank"> https://github.com/billy-le/billyle.dev </a> , <a href="https://github.com/rezahedi/rezahedi.dev" target="_blank"> https://github.com/rezahedi/rezahedi.dev </a></li>
+<li>Tailwind guy, Keystatic very simple <a href="https://github.com/simonswiss/simonswiss.com" target="_blank"> https://github.com/simonswiss/simonswiss.com </a></li>
+<li>integrations market <a href="https://astro.build/integrations/" target="_blank"> https://astro.build/integrations/ </a></li>
+<li>Flavio Copes Astro tutorial <a href="https://thevalleyofcode.com/astro" target="_blank"> https://thevalleyofcode.com/astro </a> , articles <a href="https://flaviocopes.com/tags/astro/" target="_blank"> https://flaviocopes.com/tags/astro/ </a></li>
+<li>nanostores with React Query <a href="https://hounie.me/writings/how-to-use-react-query-with-astro/" target="_blank"> https://hounie.me/writings/how-to-use-react-query-with-astro/ </a></li>
+<li>Remote markdown <a href="https://github.com/natemoo-re/astro-remote" target="_blank"> https://github.com/natemoo-re/astro-remote </a></li>
+<li>Big, excellent list of Astro blogs <a href="https://github.com/withastro/roadmap/discussions/521" target="_blank"> https://github.com/withastro/roadmap/discussions/521 </a></li>
+<li>Astro tutorials list <a href="https://astro-tips.dev/external-resources" target="_blank"> https://astro-tips.dev/external-resources </a>, <a href="https://github.com/astrolicious/astro-tips.dev" target="_blank"> https://github.com/astrolicious/astro-tips.dev </a></li>
+<li>Official, lot of Astro links <a href="https://docs.astro.build/en/community-resources/content/" target="_blank"> https://docs.astro.build/en/community-resources/content/ </a></li>
+<li>Astro articles <a href="https://webreaper.dev/posts/" target="_blank"> https://webreaper.dev/posts/ </a></li>
+<li>Lot of Astro articles <a href="https://www.emgoto.com/" target="_blank"> https://www.emgoto.com/ </a></li>
+<li>ShadCN for Astro <a href="https://starwind.dev/" target="_blank"> https://starwind.dev/ </a></li>
+<li>Grep replace environment variables in Dockerfile entrypoint on static site start <a href="https://phase.dev/blog/nextjs-public-runtime-variables/" target="_blank"> https://phase.dev/blog/nextjs-public-runtime-variables/ </a></li>
+<li>Astro components <a href="https://pro.starwind.dev/" target="_blank"> https://pro.starwind.dev/ </a></li>
+<li>Astro themes <a href="https://themefisher.com/astro-themes" target="_blank"> https://themefisher.com/astro-themes </a></li>
+</ul>
+<div class="flex gap-2 items-center group"> <a id="turbo" href="#turbo" class="flex target:!outline-none"> <svg width="1em" height="1em" viewBox="0 0 24 24" class="inline-block h-5 w-5 text-transparent group-hover:text-captions" data-icon="mdi:link-variant">  <use xlink:href="#ai:mdi:link-variant"></use>  </svg> </a> <h4> Turbo </h4> </div><ul>
+<li><a href="https://github.com/vercel/turbo/tree/main/examples" target="_blank"> https://github.com/vercel/turbo/tree/main/examples </a></li>
+<li>eslint, prettier, ts configs <a href="https://github.com/kyr0/turbo-hybrid-astro-on-vercel" target="_blank"> https://github.com/kyr0/turbo-hybrid-astro-on-vercel </a></li>
+<li>Jest, Storybook, Turborepo <a href="https://github.com/mkosir/frontend-monorepo-boilerplate" target="_blank"> https://github.com/mkosir/frontend-monorepo-boilerplate </a></li>
+<li><a href="https://github.com/belgattitude/nextjs-monorepo-example" target="_blank"> https://github.com/belgattitude/nextjs-monorepo-example </a></li>
+<li>cheatsheet <a href="https://www.shew.dev/monorepos" target="_blank"> https://www.shew.dev/monorepos </a> , <a href="https://github.com/anthonyshew/maestros" target="_blank"> https://github.com/anthonyshew/maestros </a></li>
+</ul>
+<div class="flex gap-2 items-center group"> <a id="css" href="#css" class="flex target:!outline-none"> <svg width="1em" height="1em" viewBox="0 0 24 24" class="inline-block h-5 w-5 text-transparent group-hover:text-captions" data-icon="mdi:link-variant">  <use xlink:href="#ai:mdi:link-variant"></use>  </svg> </a> <h4> CSS </h4> </div><ul>
+<li><a href="https://www.smashingmagazine.com/2021/03/css-generators/" target="_blank"> https://www.smashingmagazine.com/2021/03/css-generators/ </a></li>
+<li>SVG <a href="https://www.sarasoueidan.com/blog/" target="_blank"> https://www.sarasoueidan.com/blog/ </a></li>
+<li>SVG clip-path <a href="https://www.sarasoueidan.com/blog/css-svg-clipping/#reference-box" target="_blank"> https://www.sarasoueidan.com/blog/css-svg-clipping/#reference-box </a></li>
+<li><a href="https://www.designsystem.tools/" target="_blank"> https://www.designsystem.tools/ </a></li>
+<li><a href="https://components.ai/gradient/55aqKLrj9baxkeSeqsHQ" target="_blank"> https://components.ai/gradient/55aqKLrj9baxkeSeqsHQ </a></li>
+<li><a href="https://components.ai/" target="_blank"> https://components.ai/ </a></li>
+<li><a href="https://www.euismod.dev/#/learn/2" target="_blank"> https://www.euismod.dev/#/learn/2 </a></li>
+<li><a href="https://dev.to/srmagura/why-were-breaking-up-wiht-css-in-js-4g9b" target="_blank"> https://dev.to/srmagura/why-were-breaking-up-wiht-css-in-js-4g9b </a></li>
+<li>CSS examples <a href="https://github.com/atherosai/ui" target="_blank"> https://github.com/atherosai/ui </a> <a href="https://www.instagram.com/davidm_ai/" target="_blank"> https://www.instagram.com/davidm_ai/ </a></li>
+<li>CSS explanations <a href="https://github.com/narutosstudent/css-for-js-devs-notes" target="_blank"> https://github.com/narutosstudent/css-for-js-devs-notes </a></li>
+<li>1500 free common open source fonts as npm packages <a href="https://fontsource.org/" target="_blank"> https://fontsource.org/ </a></li>
+<li>Framer motion React components <a href="https://github.com/magicuidesign/magicui" target="_blank"> https://github.com/magicuidesign/magicui </a></li>
+<li>layout with Grid <a href="https://stephenstpierre.com/blog/building-a-super-powered-layout-with-css-grid" target="_blank"> https://stephenstpierre.com/blog/building-a-super-powered-layout-with-css-grid </a></li>
+<li>Visualize Tailwind config <a href="https://github.com/rogden/tailwind-config-viewer/" target="_blank"> https://github.com/rogden/tailwind-config-viewer/ </a></li>
+</ul>
+<div class="flex gap-2 items-center group"> <a id="good-projects" href="#good-projects" class="flex target:!outline-none"> <svg width="1em" height="1em" viewBox="0 0 24 24" class="inline-block h-5 w-5 text-transparent group-hover:text-captions" data-icon="mdi:link-variant">  <use xlink:href="#ai:mdi:link-variant"></use>  </svg> </a> <h4> Good projects </h4> </div><ul>
+<li>Next.js 13 app dir routing <a href="https://github.com/vercel/app-playground" target="_blank"> https://github.com/vercel/app-playground </a></li>
+<li><a href="https://github.com/eknoorpreet/dev.to-clone" target="_blank"> https://github.com/eknoorpreet/dev.to-clone </a></li>
+<li><a href="https://www.reddit.com/r/reactjs/comments/uvjm56/built_a_little_reddit_clone_with_the_mern_stack/" target="_blank"> https://www.reddit.com/r/reactjs/comments/uvjm56/built_a_little_reddit_clone_with_the_mern_stack/ </a></li>
+<li><a href="https://github.com/adrianhajdin/project_tiktik" target="_blank"> https://github.com/adrianhajdin/project_tiktik </a></li>
+<li><a href="https://github.com/belgattitude/nextjs-monorepo-example" target="_blank"> https://github.com/belgattitude/nextjs-monorepo-example </a></li>
+<li><a href="https://maxrozen.com/examples-of-large-production-grade-open-source-react-apps" target="_blank"> https://maxrozen.com/examples-of-large-production-grade-open-source-react-apps </a></li>
+<li><a href="https://github.com/fkling/astexplorer" target="_blank"> https://github.com/fkling/astexplorer </a></li>
+<li><a href="https://github.com/napthedev/toptop-clone" target="_blank"> https://github.com/napthedev/toptop-clone </a></li>
+<li><a href="https://github.com/vietnam-devs/coolstore-microservices" target="_blank"> https://github.com/vietnam-devs/coolstore-microservices </a></li>
+<li><a href="https://github.com/misskey-dev/misskey" target="_blank"> https://github.com/misskey-dev/misskey </a></li>
+<li><a href="https://github.com/epicweb-dev/epic-stack" target="_blank"> https://github.com/epicweb-dev/epic-stack </a></li>
+<li><a href="https://github.com/Blazity/next-enterprise" target="_blank"> https://github.com/Blazity/next-enterprise </a></li>
+<li><a href="https://github.com/strapi/nextjs-corporate-startery" target="_blank"> https://github.com/strapi/nextjs-corporate-startery </a></li>
+<li><a href="https://github.com/braydenwerner/t3-turbo-next-app-router" target="_blank"> https://github.com/braydenwerner/t3-turbo-next-app-router </a></li>
+<li>Project ideas <a href="https://github.com/practical-tutorials/project-based-learning" target="_blank"> https://github.com/practical-tutorials/project-based-learning </a></li>
+<li>Next.js starter <a href="https://github.com/BearStudio/start-ui-web" target="_blank"> https://github.com/BearStudio/start-ui-web </a></li>
+<li>Shadcn, TailwindCSS, good design <a href="https://github.com/ozgurrgul/linkedin-clone" target="_blank"> https://github.com/ozgurrgul/linkedin-clone </a></li>
+<li>nice demo, bare tailwind <a href="https://github.com/EphremDemlew/EChatter" target="_blank"> https://github.com/EphremDemlew/EChatter </a></li>
+<li>nx, config, storybook, vitest, playwright, trpc <a href="https://github.com/ixahmedxi/noodle" target="_blank"> https://github.com/ixahmedxi/noodle </a></li>
+<li>trpc, drizzle, next.js 13 <a href="https://github.com/sadmann7/skateshop" target="_blank"> https://github.com/sadmann7/skateshop </a></li>
+<li>twitter, firebase <a href="https://github.com/ccrsxx/twitter-clone" target="_blank"> https://github.com/ccrsxx/twitter-clone </a></li>
+<li>cron, shadcn, trpc, turborepo, blog, like Uptime Kuma <a href="https://github.com/openstatusHQ/openstatus" target="_blank"> https://github.com/openstatusHQ/openstatus </a></li>
+<li>video conferencing, nije nesto, 100ms, shadcn, prisma <a href="https://github.com/JaleelB/callsquare" target="_blank"> https://github.com/JaleelB/callsquare </a></li>
+<li>realworld stacks <a href="https://codebase.show/projects/realworld" target="_blank"> https://codebase.show/projects/realworld </a></li>
+<li>not bad, Next 13, Shopify, graphql <a href="https://github.com/vercel/commerce" target="_blank"> https://github.com/vercel/commerce </a></li>
+<li>lot of code, interesting folder structure, vercel/commerce <a href="https://github.dev/medusajs/nextjs-starter-medusa" target="_blank"> https://github.dev/medusajs/nextjs-starter-medusa </a></li>
+<li>pogledaj <a href="https://github.com/premieroctet/next-admin" target="_blank"> https://github.com/premieroctet/next-admin </a></li>
+<li>not bad, email, OpenApi call <a href="https://github.com/shinework/photoshot" target="_blank"> https://github.com/shinework/photoshot </a></li>
+<li>excellent fastapi <a href="https://github.com/kamranabdicse/fastapi-postgres-boilerplate" target="_blank"> https://github.com/kamranabdicse/fastapi-postgres-boilerplate </a></li>
+<li>another, better <a href="https://github.com/jonra1993/fastapi-alembic-sqlmodel-async" target="_blank"> https://github.com/jonra1993/fastapi-alembic-sqlmodel-async </a></li>
+<li>supabase, server actions <a href="https://github.com/vercel/nextjs-subscription-payments" target="_blank"> https://github.com/vercel/nextjs-subscription-payments </a></li>
+<li>simplified <a href="https://github.com/testdrivenio/fastapi-sqlmodel-alembic" target="_blank"> https://github.com/testdrivenio/fastapi-sqlmodel-alembic </a></li>
+<li>chatGpt with voice <a href="https://github.com/cogentapps/chat-with-gpt" target="_blank"> https://github.com/cogentapps/chat-with-gpt </a></li>
+<li>another linkedin <a href="https://github.com/igormagalhaesr/FastAPI-boilerplate" target="_blank"> https://github.com/igormagalhaesr/FastAPI-boilerplate </a>, renamed to <a href="https://github.com/benavlabs/FastAPI-boilerplate" target="_blank"> https://github.com/benavlabs/FastAPI-boilerplate </a></li>
+<li>another from him <a href="https://github.com/igorbenav/fastcrud" target="_blank"> https://github.com/igorbenav/fastcrud </a></li>
+<li>fastapi, kubernetes <a href="https://github.com/Kludex/fastapi-microservices" target="_blank"> https://github.com/Kludex/fastapi-microservices </a></li>
+<li>Next.js 12 <a href="https://github.com/boxyhq/saas-starter-kit" target="_blank"> https://github.com/boxyhq/saas-starter-kit </a></li>
+<li>excellent <a href="https://github.com/onwidget/tailnext" target="_blank"> https://github.com/onwidget/tailnext </a></li>
+<li>million dollars, excellent Next.js project <a href="https://github.com/maybe-finance/maybe" target="_blank"> https://github.com/maybe-finance/maybe </a></li>
+<li>huge MS Paint in React and Firebase, Github Actions <a href="https://github.com/excalidraw/excalidraw" target="_blank"> https://github.com/excalidraw/excalidraw </a></li>
+<li>validate process.env with Zod <a href="https://github.com/ploskovytskyy/next-app-router-trpc-drizzle-planetscale-edge" target="_blank"> https://github.com/ploskovytskyy/next-app-router-trpc-drizzle-planetscale-edge </a></li>
+<li>excellent AliExpress clone, Next.js 14, redux toolkit, js, mongo <a href="https://github.com/huanghanzhilian/c-shopping" target="_blank"> https://github.com/huanghanzhilian/c-shopping </a></li>
+<li>big Next.js 14 AI game <a href="https://github.com/steamship-core/ai-adventure" target="_blank"> https://github.com/steamship-core/ai-adventure </a></li>
+<li>mature Next.js with app folder and Turbo monorepo <a href="https://github.com/radix-ui/themes" target="_blank"> https://github.com/radix-ui/themes </a></li>
+<li>Vite CSR, MUI, Redux Toolkit, RTK Query blog <a href="https://github.com/VadimNeVlad/feedr" target="_blank"> https://github.com/VadimNeVlad/feedr </a> , Nest.js backend <a href="https://github.com/VadimNeVlad/feedr-server" target="_blank"> https://github.com/VadimNeVlad/feedr-server </a></li>
+<li>lot of HTML and component examples <a href="https://github.com/atherosai/ui" target="_blank"> https://github.com/atherosai/ui </a></li>
+<li>excellent Next.js templates <a href="https://github.com/NextJSTemplates" target="_blank"> https://github.com/NextJSTemplates </a> , <a href="https://github.com/NextJSTemplates/solid-nextjs" target="_blank"> https://github.com/NextJSTemplates/solid-nextjs </a> , <a href="https://github.com/NextJSTemplates/play-nextjs" target="_blank"> https://github.com/NextJSTemplates/play-nextjs </a> , <a href="https://github.com/NextJSTemplates/startup-nextjs" target="_blank"> https://github.com/NextJSTemplates/startup-nextjs </a> , <a href="https://nextjstemplates.com/blog/nextjs-boilerplates" target="_blank"> https://nextjstemplates.com/blog/nextjs-boilerplates </a> , <a href="https://github.com/Musharofchy" target="_blank"> https://github.com/Musharofchy </a></li>
+<li>same guy Astro two columns blog <a href="https://github.com/TailGrids/play-astro" target="_blank"> https://github.com/TailGrids/play-astro </a></li>
+<li>gravis-os lot of useful examples <a href="https://github.com/gravis-os/gravis-os" target="_blank"> https://github.com/gravis-os/gravis-os </a> , <a href="https://docs.gravis-os.com/docs/getting-started/introduction" target="_blank"> https://docs.gravis-os.com/docs/getting-started/introduction </a> , <a href="https://release--632588ca2d4a8d66280fd1c4.chromatic.com/" target="_blank"> https://release&#8211;632588ca2d4a8d66280fd1c4.chromatic.com/ </a></li>
+<li>blog, dev.to api, Chakra <a href="https://github.com/MA-Ahmad/myPortfolio" target="_blank"> https://github.com/MA-Ahmad/myPortfolio </a></li>
+<li>Slack clone <a href="https://github.com/RicardoGEsteves/Intertwine" target="_blank"> https://github.com/RicardoGEsteves/Intertwine </a> , other Next.js projects <a href="https://github.com/RicardoGEsteves/" target="_blank"> https://github.com/RicardoGEsteves/ </a></li>
+<li>have a look, maybe <a href="https://github.com/Skolaczk/next-starter" target="_blank"> https://github.com/Skolaczk/next-starter </a></li>
+<li>excellent p2p chat, video, file, audio <a href="https://github.com/positive-intentions/chat" target="_blank"> https://github.com/positive-intentions/chat </a></li>
+<li>Next.js, Prisma Github Gists, not so quality <a href="https://github.com/MaxLeiter/Drift" target="_blank"> https://github.com/MaxLeiter/Drift </a></li>
+<li>Twitter dogs clone, React, Firebase <a href="https://github.com/rezahedi/HighPaws-Buddies" target="_blank"> https://github.com/rezahedi/HighPaws-Buddies </a></li>
+<li>flat file cms, Next.js, shadcn <a href="https://github.com/avitorio/outstatic" target="_blank"> https://github.com/avitorio/outstatic </a> , demo <a href="https://www.andrevitorio.com/" target="_blank"> https://www.andrevitorio.com/ </a></li>
+<li>Next.js, tauri, rust loom clone <a href="https://github.com/CapSoftware/Cap" target="_blank"> https://github.com/CapSoftware/Cap </a></li>
+<li>excellent Next.js blog <a href="https://github.com/timlrx/tailwind-nextjs-starter-blog" target="_blank"> https://github.com/timlrx/tailwind-nextjs-starter-blog </a></li>
+<li>perfect Next.js blog <a href="https://github.com/theodorusclarence/theodorusclarence.com" target="_blank"> https://github.com/theodorusclarence/theodorusclarence.com </a> , excellent Next.js starter <a href="https://github.com/theodorusclarence/ts-nextjs-tailwind-starter" target="_blank"> https://github.com/theodorusclarence/ts-nextjs-tailwind-starter </a></li>
+<li>big Next.js project <a href="https://github.com/midday-ai/midday" target="_blank"> https://github.com/midday-ai/midday </a></li>
+<li>Next.js, p2p, Docker <a href="https://github.com/kern/filepizza" target="_blank"> https://github.com/kern/filepizza </a></li>
+<li>Excellent Astro landing page <a href="https://github.com/benavlabs/landstro" target="_blank"> https://github.com/benavlabs/landstro </a></li>
+<li>Static Astro, JavaScript, SCSS, aria attributes <a href="https://github.com/Chalarangelo/30-seconds-of-code" target="_blank"> https://github.com/Chalarangelo/30-seconds-of-code </a></li>
+<li>Perfect ShadCN, Framer portfolio <a href="https://github.com/Susmita-Dey/portfolio" target="_blank"> https://github.com/Susmita-Dey/portfolio </a>, <a href="https://susmitadey.vercel.app/" target="_blank"> https://susmitadey.vercel.app/ </a></li>
+<li>Next.js, Drizzle, big project, Claude code bloat <a href="https://github.com/UllrAI/SaaS-Starter" target="_blank"> https://github.com/UllrAI/SaaS-Starter </a></li>
+<li>Next.js 15, React 19, tailwind 4, next-safe-action, metadata, font, themes, <a href="https://github.com/shadcnblocks/mainline-nextjs-template" target="_blank"> https://github.com/shadcnblocks/mainline-nextjs-template </a></li>
+<li>Decent Astro, ShadCN example <a href="https://github.com/shadcnblocks/mainline-astro-template" target="_blank"> https://github.com/shadcnblocks/mainline-astro-template </a></li>
+<li>Astro Blog <a href="https://github.com/ethanniser/site" target="_blank"> https://github.com/ethanniser/site </a></li>
+<li>Next.js 16 ecommerce, 𝚌𝚊𝚌𝚑𝚎𝙲𝚘𝚖𝚙𝚘𝚗𝚎𝚗𝚝𝚜 <a href="https://github.com/ethanniser/NextFaster" target="_blank"> https://github.com/ethanniser/NextFaster </a></li>
+<li>Next.js showoff thread <a href="https://www.reddit.com/r/nextjs/comments/1i91mp7/weekly_showoff_thread_share_what_youve_created/?sort=new" target="_blank"> https://www.reddit.com/r/nextjs/comments/1i91mp7/weekly_showoff_thread_share_what_youve_created/?sort=new </a></li>
+<li>Obsidian clone, One of best Next.js projects available, big, comprehensive, Next 16, Tailwind 4, Zustand, Drizzle, SQLite, auth, LLM, Playwright <a href="https://github.com/xclusive36/MarkItUp/" target="_blank"> https://github.com/xclusive36/MarkItUp/ </a></li>
+<li>Single page, rich CSS portfolio <a href="https://github.com/bchiang7/v4" target="_blank"> https://github.com/bchiang7/v4 </a></li>
+<li>Portfolio, nice design, Next.js, ShadcnUI <a href="https://github.com/hiretimsf/Portfolio-Web-v4" target="_blank"> https://github.com/hiretimsf/Portfolio-Web-v4 </a>, <a href="https://github.com/ncdai/chanhdai.com" target="_blank"> https://github.com/ncdai/chanhdai.com </a></li>
+<li>React, Mongo, socket.io chat <a href="https://github.com/yinxin630/fiora/" target="_blank"> https://github.com/yinxin630/fiora/ </a></li>
+<li>Excellent self-hosted Instagram clone <a href="https://github.com/foldergram/foldergram" target="_blank"> https://github.com/foldergram/foldergram </a></li>
+<li>Full stack Next.js, Drizzle <a href="https://github.com/karakeep-app/karakeep" target="_blank"> https://github.com/karakeep-app/karakeep </a></li>
+<li>Excellent design <a href="https://github.com/codewithsadee/vcard-personal-portfolio" target="_blank"> https://github.com/codewithsadee/vcard-personal-portfolio </a>, <a href="https://github.com/codewithsadee/portfolio" target="_blank"> https://github.com/codewithsadee/portfolio </a>, <a href="https://github.com/codewithsadee/anon-ecommerce-website" target="_blank"> https://github.com/codewithsadee/anon-ecommerce-website </a></li>
+<li>Armin Ronacher Python static websites <a href="https://github.com/mitsuhiko/lucumr" target="_blank"> https://github.com/mitsuhiko/lucumr </a></li>
+</ul>
+<div class="flex gap-2 items-center group"> <a id="website-templates" href="#website-templates" class="flex target:!outline-none"> <svg width="1em" height="1em" viewBox="0 0 24 24" class="inline-block h-5 w-5 text-transparent group-hover:text-captions" data-icon="mdi:link-variant">  <use xlink:href="#ai:mdi:link-variant"></use>  </svg> </a> <h4> Website templates </h4> </div><ul>
+<li>excellent simple scss architecture <a href="https://github.com/alxshelepenok/gatsby-starter-lumen" target="_blank"> https://github.com/alxshelepenok/gatsby-starter-lumen </a></li>
+<li>StackExchange clone, excellent forum <a href="https://github.com/answerdev/answer" target="_blank"> https://github.com/answerdev/answer </a> , demo <a href="https://meta.answer.dev/" target="_blank"> https://meta.answer.dev/ </a></li>
+<li>github discussion comments <a href="https://github.com/giscus/giscus" target="_blank"> https://github.com/giscus/giscus </a></li>
+<li>SSG templates, Astro, Jekyll <a href="https://statichunt.com/" target="_blank"> https://statichunt.com/ </a></li>
+<li>official Github Jekyll themes <a href="https://pages.github.com/themes/" target="_blank"> https://pages.github.com/themes/ </a></li>
+<li>static CMS <a href="https://github.com/avitorio/outstatic" target="_blank"> https://github.com/avitorio/outstatic </a></li>
+<li>excellent 600 free components <a href="https://easyfrontend.com/" target="_blank"> https://easyfrontend.com/ </a></li>
+<li>Tailwind component kits <a href="https://tailscan.com/blog/tailwind-css-components" target="_blank"> https://tailscan.com/blog/tailwind-css-components </a></li>
+<li>Tailwind components <a href="https://flowbite.com/blocks/" target="_blank"> https://flowbite.com/blocks/ </a></li>
+<li>original html design <a href="https://github.dev/kisslinux/kisslinux.github.io" target="_blank"> https://github.dev/kisslinux/kisslinux.github.io </a></li>
+<li>Tailwind components <a href="https://tailwindflex.com/" target="_blank"> https://tailwindflex.com/ </a></li>
+<li>excellent Python SSG with plugins and themes <a href="https://github.com/getnikola/nikola" target="_blank"> https://github.com/getnikola/nikola </a>, <a href="https://getnikola.com/" target="_blank"> https://getnikola.com/ </a></li>
+<li>static site generators, complete list <a href="https://jamstack.org/generators/" target="_blank"> https://jamstack.org/generators/ </a></li>
+<li>Astro themes gallery <a href="https://getastrothemes.com/free-astro-themes-templates/" target="_blank"> https://getastrothemes.com/free-astro-themes-templates/ </a></li>
+<li>Astro Linktree alternative <a href="https://github.com/trevortylerlee/treelink" target="_blank"> https://github.com/trevortylerlee/treelink </a></li>
+<li>Astro minimal blog <a href="https://github.com/superwebthemes/barebones" target="_blank"> https://github.com/superwebthemes/barebones </a></li>
+<li>Good Shadcn Astro theme <a href="https://github.com/jktrn/astro-erudite" target="_blank"> https://github.com/jktrn/astro-erudite </a></li>
+<li>Excellent list of Astro, Next.js and ShadCN templates <a href="https://www.astrothemes.dev/" target="_blank"> https://www.astrothemes.dev/ </a>, <a href="https://nexttemplates.dev/" target="_blank"> https://nexttemplates.dev/ </a>, <a href="https://shadcntemplates.com/" target="_blank"> https://shadcntemplates.com/ </a></li>
+<li>Huge list of linked templates <a href="https://www.builtatlightspeed.com/" target="_blank"> https://www.builtatlightspeed.com/ </a></li>
+<li>Themes inspiration <a href="https://themefisher.com/" target="_blank"> https://themefisher.com/ </a></li>
+</ul>
+<div class="flex gap-2 items-center group"> <a id="design" href="#design" class="flex target:!outline-none"> <svg width="1em" height="1em" viewBox="0 0 24 24" class="inline-block h-5 w-5 text-transparent group-hover:text-captions" data-icon="mdi:link-variant">  <use xlink:href="#ai:mdi:link-variant"></use>  </svg> </a> <h4> Design </h4> </div><ul>
+<li>lot of free templates <a href="https://htmlrev.com/" target="_blank"> https://htmlrev.com/ </a></li>
+<li>components <a href="https://kitwind.io/products/kometa/components" target="_blank"> https://kitwind.io/products/kometa/components </a></li>
+<li><a href="https://free-for.dev/#/?id=design-and-ui" target="_blank"> https://free-for.dev/#/?id=design-and-ui </a></li>
+<li><a href="https://github.com/MohamedYoussouf/Design-Resources" target="_blank"> https://github.com/MohamedYoussouf/Design-Resources </a></li>
+<li><a href="https://github.com/shadeed" target="_blank"> https://github.com/shadeed </a> , good design blog <a href="https://ishadeed.com/" target="_blank"> https://ishadeed.com/ </a></li>
+<li>free course <a href="https://www.udemy.com/course/web-design-secrets/" target="_blank"> https://www.udemy.com/course/web-design-secrets/ </a></li>
+<li>Figma mockups <a href="https://figspark.co/" target="_blank"> https://figspark.co/ </a></li>
+<li><a href="https://github.com/selfishprimate/curated-design-resources" target="_blank"> https://github.com/selfishprimate/curated-design-resources </a></li>
+<li>a lot <a href="https://github.com/nilansaha?tab=repositories" target="_blank"> https://github.com/nilansaha?tab=repositories </a> , <a href="https://github.com/RitikPatni/Front-End-Web-Development-Resources" target="_blank"> https://github.com/RitikPatni/Front-End-Web-Development-Resources </a> , <a href="https://github.com/hendurhance/ui-ux" target="_blank"> https://github.com/hendurhance/ui-ux </a> , <a href="https://github.com/kudapara/curated-design-tools" target="_blank"> https://github.com/kudapara/curated-design-tools </a></li>
+<li>design ideas <a href="https://www.frontendmentor.io/challenges" target="_blank"> https://www.frontendmentor.io/challenges </a></li>
+<li><a href="https://github.com/bradfrost/style-guide-guide" target="_blank"> https://github.com/bradfrost/style-guide-guide </a></li>
+<li>Jonas Schmedtmann free course, Web Design for Web Developers <a href="https://www.udemy.com/course/web-design-secrets/" target="_blank"> https://www.udemy.com/course/web-design-secrets/ </a></li>
+<li>design inspiration:<ul>
+<li>static websites, outdated <a href="https://themeforest.net/" target="_blank"> https://themeforest.net/ </a></li>
+<li>UI components <a href="https://www.behance.net/" target="_blank"> https://www.behance.net/ </a> , <a href="https://dribbble.com/" target="_blank"> https://dribbble.com/ </a></li>
+<li><a href="https://www.awwwards.com/" target="_blank"> https://www.awwwards.com/ </a> , <a href="https://curated.design" target="_blank"> https://curated.design </a> , <a href="https://lapa.ninja" target="_blank"> https://lapa.ninja </a> , <a href="https://tympanus.net/codrops/demos/" target="_blank"> https://tympanus.net/codrops/demos/ </a></li>
+</ul>
+</li>
+<li>Brad Frost, design systems (Atomic design) <a href="https://bradfrost.com/" target="_blank"> https://bradfrost.com/ </a></li>
+<li>design systems list <a href="https://github.com/saadeghi/design-systems" target="_blank"> https://github.com/saadeghi/design-systems </a></li>
+<li>design books and tutorials list <a href="https://jakub.jankiewicz.org/blog/learn-design/" target="_blank"> https://jakub.jankiewicz.org/blog/learn-design/ </a></li>
+<li>Different website types examples <a href="https://websitevice.com" target="_blank"> https://websitevice.com </a></li>
+<li>Nice components (former NextUI) <a href="https://github.com/heroui-inc/heroui" target="_blank"> https://github.com/heroui-inc/heroui </a></li>
+<li>Open source design system <a href="https://github.com/Chainlift/liftkit" target="_blank"> https://github.com/Chainlift/liftkit </a></li>
+<li>Design systems list <a href="https://github.com/alexpate/awesome-design-systems/" target="_blank"> https://github.com/alexpate/awesome-design-systems/ </a></li>
+<li>Design system tutorial <a href="https://upskills.dev/tutorials/react-design-systems" target="_blank"> https://upskills.dev/tutorials/react-design-systems </a></li>
+</ul>
+<hr>
+<div class="flex gap-2 items-center group"> <a id="backend" href="#backend" class="flex target:!outline-none"> <svg width="1em" height="1em" viewBox="0 0 24 24" class="inline-block h-5 w-5 text-transparent group-hover:text-captions" data-icon="mdi:link-variant">  <use xlink:href="#ai:mdi:link-variant"></use>  </svg> </a> <h3> Backend </h3> </div><div class="flex gap-2 items-center group"> <a id="nodejs" href="#nodejs" class="flex target:!outline-none"> <svg width="1em" height="1em" viewBox="0 0 24 24" class="inline-block h-5 w-5 text-transparent group-hover:text-captions" data-icon="mdi:link-variant">  <use xlink:href="#ai:mdi:link-variant"></use>  </svg> </a> <h4> Node.js </h4> </div><ul>
+<li><a href="https://github.com/testjavascript/nodejs-integration-tests-best-practices" target="_blank"> https://github.com/testjavascript/nodejs-integration-tests-best-practices </a></li>
+<li><a href="https://github.com/typicode/lowdb" target="_blank"> https://github.com/typicode/lowdb </a></li>
+<li><a href="https://www.youtube.com/watch?v=Zgx0o8QjJk4" target="_blank"> https://www.youtube.com/watch?v=Zgx0o8QjJk4 </a></li>
+<li><a href="https://pmbanugo.me/" target="_blank"> https://pmbanugo.me/ </a></li>
+<li><a href="https://dev.to/dhruvjoshi9/top-10-backend-development-mistakes-to-avoid-4p86" target="_blank"> https://dev.to/dhruvjoshi9/top-10-backend-development-mistakes-to-avoid-4p86 </a></li>
+<li><a href="https://www.builder.io/blog/visual-guide-to-nodejs-event-loop" target="_blank"> https://www.builder.io/blog/visual-guide-to-nodejs-event-loop </a></li>
+<li><a href="https://github.com/santiq/bulletproof-nodejs" target="_blank"> https://github.com/santiq/bulletproof-nodejs </a></li>
+<li>excellent, for bulletproof-nodejs <a href="https://www.softwareontheroad.com/ideal-nodejs-project-structure" target="_blank"> https://www.softwareontheroad.com/ideal-nodejs-project-structure </a></li>
+<li><a href="https://dev.to/sarahokolo/understanding-the-event-loop-in-nodejs-easily-399m" target="_blank"> https://dev.to/sarahokolo/understanding-the-event-loop-in-nodejs-easily-399m </a></li>
+<li>codevolution entire Node.js, event loop <a href="https://www.youtube.com/playlist?list=PLC3y8-rFHvwh8shCMHFA5kWxD9PaPwxaY" target="_blank"> https://www.youtube.com/playlist?list=PLC3y8-rFHvwh8shCMHFA5kWxD9PaPwxaY </a></li>
+<li><a href="https://github.com/mohamedsamara/mern-ecommerce" target="_blank"> https://github.com/mohamedsamara/mern-ecommerce </a></li>
+<li>excellent Node.js articles <a href="https://dev.to/amplication" target="_blank"> https://dev.to/amplication </a></li>
+<li>merge .env vars and yaml <a href="https://dev.to/emekaofe/how-to-pass-environment-variables-to-a-yaml-file-in-a-nodejs-application-using-ejs-templating-engine-ib7" target="_blank"> https://dev.to/emekaofe/how-to-pass-environment-variables-to-a-yaml-file-in-a-nodejs-application-using-ejs-templating-engine-ib7 </a></li>
+<li>REST API <a href="https://github.com/stickfigure/blog/wiki/How-to-%28and-how-not-to%29-design-REST-APIs" target="_blank"> https://github.com/stickfigure/blog/wiki/How-to-%28and-how-not-to%29-design-REST-APIs </a></li>
+<li>REST API principles <a href="https://dev.to/michaelayomidejohnson/top-10-practices-for-designing-efficient-restful-apis-250e" target="_blank"> https://dev.to/michaelayomidejohnson/top-10-practices-for-designing-efficient-restful-apis-250e </a></li>
+<li>lot of Prisma examples <a href="https://github.com/prisma/prisma-examples" target="_blank"> https://github.com/prisma/prisma-examples </a></li>
+<li>Cron in Docker Node.js<ul>
+<li><a href="https://github.com/node-cron/node-cron" target="_blank"> https://github.com/node-cron/node-cron </a></li>
+<li><a href="https://github.com/node-schedule/node-schedule" target="_blank"> https://github.com/node-schedule/node-schedule </a></li>
+<li><a href="https://github.com/kelektiv/node-cron" target="_blank"> https://github.com/kelektiv/node-cron </a></li>
+<li>Alpine Docker root user <a href="https://github.com/gliderlabs/docker-alpine/issues/381#issuecomment-621946699" target="_blank"> https://github.com/gliderlabs/docker-alpine/issues/381#issuecomment-621946699 </a></li>
+<li>overview <a href="https://dev.to/ethanleetech/task-scheduling-in-nextjs-top-tools-and-best-practices-2024-3l77" target="_blank"> https://dev.to/ethanleetech/task-scheduling-in-nextjs-top-tools-and-best-practices-2024-3l77 </a></li>
+<li>Next.js instrumentation.ts <a href="https://github.com/vercel/next.js/discussions/15341#discussioncomment-7091594" target="_blank"> https://github.com/vercel/next.js/discussions/15341#discussioncomment-7091594 </a></li>
+<li>Go binary for Dockerfile <a href="https://github.com/aptible/supercronic" target="_blank"> https://github.com/aptible/supercronic </a></li>
+</ul>
+</li>
+<li>Publishing Npm packages <a href="https://dev.to/snyk/building-an-npm-package-compatible-with-esm-and-cjs-in-2024-88m" target="_blank"> https://dev.to/snyk/building-an-npm-package-compatible-with-esm-and-cjs-in-2024-88m </a></li>
+<li>Changesets <a href="https://lirantal.com/blog/introducing-changesets-simplify-project-versioning-with-semantic-releases" target="_blank"> https://lirantal.com/blog/introducing-changesets-simplify-project-versioning-with-semantic-releases </a></li>
+<li>Publishing Npm packages <a href="https://cheatsheetseries.owasp.org/cheatsheets/NPM_Security_Cheat_Sheet.html" target="_blank"> https://cheatsheetseries.owasp.org/cheatsheets/NPM_Security_Cheat_Sheet.html </a></li>
+<li>dotenv with validation <a href="https://github.com/dmno-dev/varlock" target="_blank"> https://github.com/dmno-dev/varlock </a></li>
+</ul>
+<div class="flex gap-2 items-center group"> <a id="serverless" href="#serverless" class="flex target:!outline-none"> <svg width="1em" height="1em" viewBox="0 0 24 24" class="inline-block h-5 w-5 text-transparent group-hover:text-captions" data-icon="mdi:link-variant">  <use xlink:href="#ai:mdi:link-variant"></use>  </svg> </a> <h4> Serverless </h4> </div><ul>
+<li><a href="https://github.com/serverless-nextjs/serverless-next.js" target="_blank"> https://github.com/serverless-nextjs/serverless-next.js </a></li>
+<li><a href="https://github.com/serverless-stack/sst" target="_blank"> https://github.com/serverless-stack/sst </a></li>
+<li>Cold starts <a href="https://punits.dev/blog/vercel-netlify-cloudflare-serverless-cold-starts/" target="_blank"> https://punits.dev/blog/vercel-netlify-cloudflare-serverless-cold-starts/ </a></li>
+</ul>
+<div class="flex gap-2 items-center group"> <a id="python" href="#python" class="flex target:!outline-none"> <svg width="1em" height="1em" viewBox="0 0 24 24" class="inline-block h-5 w-5 text-transparent group-hover:text-captions" data-icon="mdi:link-variant">  <use xlink:href="#ai:mdi:link-variant"></use>  </svg> </a> <h4> Python </h4> </div><ul>
+<li><a href="https://intellipaat.com/blog/interview-question/python-interview-questions/" target="_blank"> https://intellipaat.com/blog/interview-question/python-interview-questions/ </a></li>
+<li><a href="https://github.com/metafy-social/python-scripts/tree/master/scripts" target="_blank"> https://github.com/metafy-social/python-scripts/tree/master/scripts </a></li>
+<li><a href="https://realpython.com/learning-paths/perfect-your-python-development-setup/" target="_blank"> https://realpython.com/learning-paths/perfect-your-python-development-setup/ </a></li>
+<li>Roadmap <a href="https://github.com/hemansnation/Python-Roadmap" target="_blank"> https://github.com/hemansnation/Python-Roadmap </a></li>
+<li><a href="https://realpython.com/python-mutable-vs-immutable-types/" target="_blank"> https://realpython.com/python-mutable-vs-immutable-types/ </a></li>
+<li><a href="https://realpython.com/pointers-in-python/" target="_blank"> https://realpython.com/pointers-in-python/ </a></li>
+<li><a href="https://realpython.com/python-profiling/" target="_blank"> https://realpython.com/python-profiling/ </a></li>
+<li>vs code containers <a href="https://dev.to/tobias-piotr/debugging-python-apps-in-vscode-1anf" target="_blank"> https://dev.to/tobias-piotr/debugging-python-apps-in-vscode-1anf </a></li>
+<li><a href="https://dev.to/tobias-piotr/patterns-and-practices-for-using-sqlalchemy-20-with-fastapi-49n8" target="_blank"> https://dev.to/tobias-piotr/patterns-and-practices-for-using-sqlalchemy-20-with-fastapi-49n8 </a></li>
+<li><a href="https://github.com/satwikkansal/wtfpython" target="_blank"> https://github.com/satwikkansal/wtfpython </a></li>
+<li><a href="https://www.pythontutorial.net/" target="_blank"> https://www.pythontutorial.net/ </a></li>
+<li><a href="https://www.youtube.com/@mCoding" target="_blank"> https://www.youtube.com/@mCoding </a></li>
+<li><a href="https://dev.to/jelloeater/poetry-packaging-in-motion-185h" target="_blank"> https://dev.to/jelloeater/poetry-packaging-in-motion-185h </a></li>
+<li><a href="https://luis-sena.medium.com/creating-the-perfect-python-dockerfile-51bdec41f1c8" target="_blank"> https://luis-sena.medium.com/creating-the-perfect-python-dockerfile-51bdec41f1c8 </a></li>
+<li>python package <a href="https://dev.to/cwprogram/basic-python-project-layout-1pg2" target="_blank"> https://dev.to/cwprogram/basic-python-project-layout-1pg2 </a></li>
+<li><a href="https://www.reddit.com/r/Python/comments/18p5j92/debugging_dockerized_python_apps_in_vscode/" target="_blank"> https://www.reddit.com/r/Python/comments/18p5j92/debugging_dockerized_python_apps_in_vscode/ </a></li>
+<li>Arjan Codes Youtube code examples <a href="https://github.com/ArjanCodes/examples/" target="_blank"> https://github.com/ArjanCodes/examples/ </a></li>
+<li>Python basics cheatsheet <a href="https://github.com/trekhleb/learn-python" target="_blank"> https://github.com/trekhleb/learn-python </a></li>
+<li>Undetectable headless browser for scraping <a href="https://github.com/D4Vinci/Scrapling" target="_blank"> https://github.com/D4Vinci/Scrapling </a></li>
+<li><a href="https://ultimatepython.org/" target="_blank"> https://ultimatepython.org/ </a>, <a href="https://github.com/huangsam/ultimate-python" target="_blank"> https://github.com/huangsam/ultimate-python </a></li>
+<li>As comments <a href="https://learnxinyminutes.com/python/" target="_blank"> https://learnxinyminutes.com/python/ </a></li>
+<li>Roadmap <a href="https://roadmap.sh/python" target="_blank"> https://roadmap.sh/python </a>, <a href="https://roadmap.sh/pdfs/roadmaps/python.pdf" target="_blank"> https://roadmap.sh/pdfs/roadmaps/python.pdf </a></li>
+<li>Python cheatsheet <a href="https://coding-overhead.ru/posts/python-cheat-sheet/" target="_blank"> https://coding-overhead.ru/posts/python-cheat-sheet/ </a></li>
+</ul>
+<div class="flex gap-2 items-center group"> <a id="fastapi" href="#fastapi" class="flex target:!outline-none"> <svg width="1em" height="1em" viewBox="0 0 24 24" class="inline-block h-5 w-5 text-transparent group-hover:text-captions" data-icon="mdi:link-variant">  <use xlink:href="#ai:mdi:link-variant"></use>  </svg> </a> <h4> FastAPI </h4> </div><ul>
+<li>readme <a href="https://github.com/zhanymkanov/fastapi-best-practices" target="_blank"> https://github.com/zhanymkanov/fastapi-best-practices </a>, additional thread <a href="https://github.com/zhanymkanov/fastapi-best-practices/issues/4" target="_blank"> https://github.com/zhanymkanov/fastapi-best-practices/issues/4 </a></li>
+<li>reddit <a href="https://www.reddit.com/r/Python/comments/1047tdb/the_way_i_build_new_fastapi_projects/" target="_blank"> https://www.reddit.com/r/Python/comments/1047tdb/the_way_i_build_new_fastapi_projects/ </a></li>
+<li>tutorials <a href="https://www.jeffastor.com/blog/serving-a-paginated-activity-feed-from-fastapi/" target="_blank"> https://www.jeffastor.com/blog/serving-a-paginated-activity-feed-from-fastapi/ </a></li>
+<li>repo <a href="https://github.com/Jastor11/phresh-tutorial" target="_blank"> https://github.com/Jastor11/phresh-tutorial </a></li>
+<li>Next.js redirect api <a href="https://vercel.com/templates/next.js/nextjs-fastapi-starter" target="_blank"> https://vercel.com/templates/next.js/nextjs-fastapi-starter </a></li>
+<li>links <a href="https://fastapi.tiangolo.com/external-links/#english" target="_blank"> https://fastapi.tiangolo.com/external-links/#english </a></li>
+<li>udemy <a href="https://github.com/CatalinStefan/instagram-clone-api" target="_blank"> https://github.com/CatalinStefan/instagram-clone-api </a></li>
+<li>event loop <a href="https://luis-sena.medium.com/how-to-optimize-fastapi-for-ml-model-serving-6f75fb9e040d" target="_blank"> https://luis-sena.medium.com/how-to-optimize-fastapi-for-ml-model-serving-6f75fb9e040d </a></li>
+<li><a href="https://dev.to/mbuthi/devops-with-fast-api-postgresql-how-to-containerize-fast-api-application-with-docker-1jdb" target="_blank"> https://dev.to/mbuthi/devops-with-fast-api-postgresql-how-to-containerize-fast-api-application-with-docker-1jdb </a></li>
+<li>from Linkedin, MongoDB team <a href="https://github.com/mongodb-labs/full-stack-fastapi-mongodb" target="_blank"> https://github.com/mongodb-labs/full-stack-fastapi-mongodb </a></li>
+<li>bad quality, backend only <a href="https://github.com/payamt007/FastAPI-Toolkit" target="_blank"> https://github.com/payamt007/FastAPI-Toolkit </a></li>
+<li>cheatsheet <a href="https://github.com/kludex/fastapi-tips" target="_blank"> https://github.com/kludex/fastapi-tips </a></li>
+<li>boilerplate projects:<ul>
+<li>official updated 2024 <a href="https://github.com/fastapi/full-stack-fastapi-template" target="_blank"> https://github.com/fastapi/full-stack-fastapi-template </a></li>
+<li>Kubernetes <a href="https://github.com/Kludex/fastapi-microservices" target="_blank"> https://github.com/Kludex/fastapi-microservices </a></li>
+<li>Redis, without Rabbitmq and Celery <a href="https://github.com/zhanymkanov/fastapi_production_template" target="_blank"> https://github.com/zhanymkanov/fastapi_production_template </a></li>
+<li>only with Rabbitmq <a href="https://github.com/asacristani/fastapi-rocket-boilerplate" target="_blank"> https://github.com/asacristani/fastapi-rocket-boilerplate </a></li>
+<li>Redis broker, Terraform <a href="https://github.com/jonra1993/fastapi-alembic-sqlmodel-async" target="_blank"> https://github.com/jonra1993/fastapi-alembic-sqlmodel-async </a></li>
+<li>SQLModel <a href="https://github.com/benavlabs/SQLModel-boilerplate" target="_blank"> https://github.com/benavlabs/SQLModel-boilerplate </a>, other good <a href="https://github.com/igorbenav/FastAPI-boilerplate" target="_blank"> https://github.com/igorbenav/FastAPI-boilerplate </a>, <a href="https://github.com/igorbenav/fastcrud" target="_blank"> https://github.com/igorbenav/fastcrud </a></li>
+<li>generator, Redis, Rabbitmq, logging <a href="https://github.com/s3rius/FastAPI-template" target="_blank"> https://github.com/s3rius/FastAPI-template </a></li>
+<li><a href="https://github.com/kamranabdicse/fastapi-postgres-boilerplate" target="_blank"> https://github.com/kamranabdicse/fastapi-postgres-boilerplate </a></li>
+<li>simple, minimal, Sqlmodel orm <a href="https://github.com/testdrivenio/fastapi-sqlmodel-alembic" target="_blank"> https://github.com/testdrivenio/fastapi-sqlmodel-alembic </a></li>
+<li>small, hackernews <a href="https://github.com/innovatorved/whisper.api" target="_blank"> https://github.com/innovatorved/whisper.api </a></li>
+<li>check again from linkedin <a href="https://www.linkedin.com/feed/update/urn:li:activity:7133510378793144320" target="_blank"> https://www.linkedin.com/feed/update/urn:li:activity:7133510378793144320 </a> <a href="https://github.com/hamedasgari20/fastapi-tutorial" target="_blank"> https://github.com/hamedasgari20/fastapi-tutorial </a> <a href="https://github.com/hamedasgari20/Python-Django-FastAPI-advanced-topics#fastapi-related-topics" target="_blank"> https://github.com/hamedasgari20/Python-Django-FastAPI-advanced-topics#fastapi-related-topics </a> <a href="https://github.com/hamedasgari20/todoapp-with-FastAPI" target="_blank"> https://github.com/hamedasgari20/todoapp-with-FastAPI </a></li>
+<li>Corey Schafer blog app, SqlAlchemy, Jinja JS frontend, primitive <a href="https://github.com/CoreyMSchafer/FastAPI-Full-Course" target="_blank"> https://github.com/CoreyMSchafer/FastAPI-Full-Course </a>, <a href="https://www.youtube.com/playlist?list=PL-osiE80TeTsak-c-QsVeg0YYG_0TeyXI" target="_blank"> https://www.youtube.com/playlist?list=PL-osiE80TeTsak-c-QsVeg0YYG_0TeyXI </a></li>
+</ul>
+</li>
+<li>FastApi, Astro blog <a href="https://fastro.ai/blog" target="_blank"> https://fastro.ai/blog </a></li>
+<li>Exceptions handling package <a href="https://github.com/akutayural/APIException/" target="_blank"> https://github.com/akutayural/APIException/ </a></li>
+<li>FastAPI architecture docs <a href="https://fastkit.org/docs/fastkit-core/" target="_blank"> https://fastkit.org/docs/fastkit-core/ </a>, <a href="https://fastkit.org/docs/fastkit-cli/" target="_blank"> https://fastkit.org/docs/fastkit-cli/ </a>, <a href="https://github.com/fastkit-org/fastkit-core" target="_blank"> https://github.com/fastkit-org/fastkit-core </a>, <a href="https://github.com/fastkit-org/fastkit-cli" target="_blank"> https://github.com/fastkit-org/fastkit-cli </a></li>
+<li>FastApi playlist, Corey Schafer <a href="https://www.youtube.com/playlist?list=PL-osiE80TeTsak-c-QsVeg0YYG_0TeyXI" target="_blank"> https://www.youtube.com/playlist?list=PL-osiE80TeTsak-c-QsVeg0YYG_0TeyXI </a>, <a href="https://github.com/CoreyMSchafer/FastAPI-01-Getting-Started" target="_blank"> https://github.com/CoreyMSchafer/FastAPI-01-Getting-Started </a>, <a href="https://github.com/CoreyMSchafer/FastAPI-Full-Course" target="_blank"> https://github.com/CoreyMSchafer/FastAPI-Full-Course </a></li>
+</ul>
+<div class="flex gap-2 items-center group"> <a id="c" href="#c" class="flex target:!outline-none"> <svg width="1em" height="1em" viewBox="0 0 24 24" class="inline-block h-5 w-5 text-transparent group-hover:text-captions" data-icon="mdi:link-variant">  <use xlink:href="#ai:mdi:link-variant"></use>  </svg> </a> <h4> C# </h4> </div><ul>
+<li>Excellent cheatsheet <a href="https://github.com/milanm/csharp-cheatsheet" target="_blank"> https://github.com/milanm/csharp-cheatsheet </a>, <a href="https://github.com/milanm/DotNet-Developer-Roadmap" target="_blank"> https://github.com/milanm/DotNet-Developer-Roadmap </a></li>
+<li><a href="https://www.youtube.com/@zoran-horvat/playlists" target="_blank"> https://www.youtube.com/@zoran-horvat/playlists </a></li>
+<li>Overview article <a href="https://newsletter.techworld-with-milan.com/p/why-csharp" target="_blank"> https://newsletter.techworld-with-milan.com/p/why-csharp </a></li>
+</ul>
+<div class="flex gap-2 items-center group"> <a id="rust" href="#rust" class="flex target:!outline-none"> <svg width="1em" height="1em" viewBox="0 0 24 24" class="inline-block h-5 w-5 text-transparent group-hover:text-captions" data-icon="mdi:link-variant">  <use xlink:href="#ai:mdi:link-variant"></use>  </svg> </a> <h4> Rust </h4> </div><ul>
+<li>main link <a href="https://www.reddit.com/r/programiranje/comments/1b2vw05/comment/ksojwnb/" target="_blank"> https://www.reddit.com/r/programiranje/comments/1b2vw05/comment/ksojwnb/ </a></li>
+<li><a href="https://lucumr.pocoo.org/2015/5/27/rust-for-pythonistas/" target="_blank"> https://lucumr.pocoo.org/2015/5/27/rust-for-pythonistas/ </a></li>
+<li>Rust in 30 min <a href="https://fasterthanli.me/articles/a-half-hour-to-learn-rust" target="_blank"> https://fasterthanli.me/articles/a-half-hour-to-learn-rust </a></li>
+<li>Rust in 10 min <a href="https://www.youtube.com/watch?v=br3GIIQeefY" target="_blank"> https://www.youtube.com/watch?v=br3GIIQeefY </a></li>
+<li><a href="https://doc.rust-lang.org/book/" target="_blank"> https://doc.rust-lang.org/book/ </a></li>
+<li>quiz <a href="https://rust-book.cs.brown.edu/" target="_blank"> https://rust-book.cs.brown.edu/ </a></li>
+<li>exercise <a href="https://rustlings.cool/" target="_blank"> https://rustlings.cool/ </a> , <a href="https://github.com/rust-lang/rustlings/" target="_blank"> https://github.com/rust-lang/rustlings/ </a></li>
+<li><a href="https://adventofcode.com/2022" target="_blank"> https://adventofcode.com/2022 </a></li>
+<li>without macros <a href="https://cheats.rs/" target="_blank"> https://cheats.rs/ </a></li>
+<li>iterator cheatsheet <a href="https://danielkeep.github.io/itercheat_baked.html" target="_blank"> https://danielkeep.github.io/itercheat_baked.html </a></li>
+<li>docs <a href="https://doc.rust-lang.org/nightly/reference/index.html" target="_blank"> https://doc.rust-lang.org/nightly/reference/index.html </a></li>
+<li>links <a href="https://github.com/ctjhoa/rust-learning" target="_blank"> https://github.com/ctjhoa/rust-learning </a></li>
+<li><a href="https://google.github.io/comprehensive-rust/" target="_blank"> https://google.github.io/comprehensive-rust/ </a></li>
+<li>Rust Youtube channel <a href="https://www.youtube.com/@letsgetrusty" target="_blank"> https://www.youtube.com/@letsgetrusty </a>, playlist <a href="https://www.youtube.com/watch?v=OX9HJsJUDxA&list=PLai5B987bZ9CoVR-QEIN9foz4QCJ0H2Y8" target="_blank"> https://www.youtube.com/watch?v=OX9HJsJUDxA&amp;list=PLai5B987bZ9CoVR-QEIN9foz4QCJ0H2Y8 </a></li>
+<li>Other Rust Youtube channels:<ul>
+<li>Main one <a href="https://www.youtube.com/@jonhoo" target="_blank"> https://www.youtube.com/@jonhoo </a></li>
+<li><a href="https://www.youtube.com/@chrisbiscardi" target="_blank"> https://www.youtube.com/@chrisbiscardi </a></li>
+<li><a href="https://www.youtube.com/@TensorProgramming" target="_blank"> https://www.youtube.com/@TensorProgramming </a></li>
+<li><a href="https://www.youtube.com/@noboilerplate" target="_blank"> https://www.youtube.com/@noboilerplate </a></li>
+<li><a href="https://www.youtube.com/@fasterthanlime" target="_blank"> https://www.youtube.com/@fasterthanlime </a></li>
+<li><a href="https://www.youtube.com/@JeremyChone/videos" target="_blank"> https://www.youtube.com/@JeremyChone/videos </a></li>
+</ul>
+</li>
+<li>Roadmap <a href="https://roadmap.sh/rust" target="_blank"> https://roadmap.sh/rust </a>, <a href="https://roadmap.sh/pdfs/roadmaps/rust.pdf" target="_blank"> https://roadmap.sh/pdfs/roadmaps/rust.pdf </a></li>
+<li>Rust blog and resources <a href="https://corrode.dev/" target="_blank"> https://corrode.dev/ </a>, <a href="https://github.com/mre" target="_blank"> https://github.com/mre </a></li>
+<li>Exercises <a href="https://github.com/mainmatter/100-exercises-to-learn-rust" target="_blank"> https://github.com/mainmatter/100-exercises-to-learn-rust </a>, <a href="https://rust-exercises.com/100-exercises/" target="_blank"> https://rust-exercises.com/100-exercises/ </a></li>
+<li>Lets get Rusty cheatsheet <a href="https://github.com/rustaccato/road-to-being-master-rustacean/blob/main/Lets%20Get%20Rusty%20Cheat%20Sheet.pdf" target="_blank"> https://github.com/rustaccato/road-to-being-master-rustacean/blob/main/Lets%20Get%20Rusty%20Cheat%20Sheet.pdf </a></li>
+<li>Rust books<ul>
+<li>List <a href="https://github.com/sger/RustBooks" target="_blank"> https://github.com/sger/RustBooks </a></li>
+<li>The Rust book (docs) <a href="https://doc.rust-lang.org/book/" target="_blank"> https://doc.rust-lang.org/book/ </a></li>
+<li>Rust by example <a href="https://doc.rust-lang.org/rust-by-example/" target="_blank"> https://doc.rust-lang.org/rust-by-example/ </a></li>
+</ul>
+</li>
+<li>Excellent basic syntax cheatsheet article <a href="https://fasterthanli.me/articles/a-half-hour-to-learn-rust" target="_blank"> https://fasterthanli.me/articles/a-half-hour-to-learn-rust </a></li>
+<li>Excellent <a href="https://github.com/microsoft/RustTraining/" target="_blank"> https://github.com/microsoft/RustTraining/ </a>, <a href="https://microsoft.github.io/RustTraining/" target="_blank"> https://microsoft.github.io/RustTraining/ </a></li>
+</ul>
+<div class="flex gap-2 items-center group"> <a id="golang" href="#golang" class="flex target:!outline-none"> <svg width="1em" height="1em" viewBox="0 0 24 24" class="inline-block h-5 w-5 text-transparent group-hover:text-captions" data-icon="mdi:link-variant">  <use xlink:href="#ai:mdi:link-variant"></use>  </svg> </a> <h4> Golang </h4> </div><ul>
+<li>Golang Youtube channels:<ul>
+<li><a href="https://www.youtube.com/@justforfunc" target="_blank"> https://www.youtube.com/@justforfunc </a></li>
+<li><a href="https://www.youtube.com/@GopherAcademy" target="_blank"> https://www.youtube.com/@GopherAcademy </a></li>
+<li><a href="https://www.youtube.com/@changelog" target="_blank"> https://www.youtube.com/@changelog </a></li>
+<li><a href="https://www.youtube.com/@TutorialEdge" target="_blank"> https://www.youtube.com/@TutorialEdge </a></li>
+<li><a href="https://www.youtube.com/@golangcafe" target="_blank"> https://www.youtube.com/@golangcafe </a></li>
+<li><a href="https://www.youtube.com/@mattkdvb5154" target="_blank"> https://www.youtube.com/@mattkdvb5154 </a></li>
+<li><a href="https://www.youtube.com/@anthonygg" target="_blank"> https://www.youtube.com/@anthonygg </a>_</li>
+</ul>
+</li>
+<li>Excellent roadmap <a href="https://stream-wiki.notion.site/Stream-Go-10-Week-Backend-Eng-Onboarding-625363c8c3684753b7f2b7d829bcd67a" target="_blank"> https://stream-wiki.notion.site/Stream-Go-10-Week-Backend-Eng-Onboarding-625363c8c3684753b7f2b7d829bcd67a </a></li>
+<li>Biggest list of libraries <a href="https://github.com/avelino/awesome-go" target="_blank"> https://github.com/avelino/awesome-go </a></li>
+<li>Cheatsheet <a href="https://github.com/a8m/golang-cheat-sheet" target="_blank"> https://github.com/a8m/golang-cheat-sheet </a></li>
+<li>As comments <a href="https://learnxinyminutes.com/go/" target="_blank"> https://learnxinyminutes.com/go/ </a></li>
+<li>Tricks <a href="https://divan.dev/posts/avoid_gotchas/" target="_blank"> https://divan.dev/posts/avoid_gotchas/ </a></li>
+<li>Roadmap <a href="https://roadmap.sh/golang" target="_blank"> https://roadmap.sh/golang </a>, <a href="https://roadmap.sh/pdfs/roadmaps/golang.pdf" target="_blank"> https://roadmap.sh/pdfs/roadmaps/golang.pdf </a></li>
+<li>Book <a href="https://github.com/teivah/100-go-mistakes/" target="_blank"> https://github.com/teivah/100-go-mistakes/ </a>, <a href="https://100go.co/" target="_blank"> https://100go.co/ </a></li>
+<li>Crash course playlist <a href="https://www.youtube.com/playlist?list=PLoILbKo9rG3skRCj37Kn5Zj803hhiuRK6" target="_blank"> https://www.youtube.com/playlist?list=PLoILbKo9rG3skRCj37Kn5Zj803hhiuRK6 </a></li>
+<li>Go skills <a href="https://github.com/JetBrains/go-modern-guidelines" target="_blank"> https://github.com/JetBrains/go-modern-guidelines </a></li>
+</ul>
+<div class="flex gap-2 items-center group"> <a id="databases" href="#databases" class="flex target:!outline-none"> <svg width="1em" height="1em" viewBox="0 0 24 24" class="inline-block h-5 w-5 text-transparent group-hover:text-captions" data-icon="mdi:link-variant">  <use xlink:href="#ai:mdi:link-variant"></use>  </svg> </a> <h4> Databases </h4> </div><ul>
+<li><a href="https://sqlflow.gudusoft.com/#/" target="_blank"> https://sqlflow.gudusoft.com/#/ </a></li>
+<li><a href="https://www.garrickadenbuie.com/project/tidyexplain" target="_blank"> https://www.garrickadenbuie.com/project/tidyexplain </a></li>
+<li><a href="https://dev.to/rsaz/simple-api-done-with-expressots-and-postgres-348l" target="_blank"> https://dev.to/rsaz/simple-api-done-with-expressots-and-postgres-348l </a></li>
+<li>SQL diagrams <a href="https://github.com/drawdb-io/drawdb" target="_blank"> https://github.com/drawdb-io/drawdb </a></li>
+<li>Diagram and more from database connection, CLI app <a href="https://github.com/schemaspy/schemaspy" target="_blank"> https://github.com/schemaspy/schemaspy </a></li>
+</ul>
+<hr>
+<div class="flex gap-2 items-center group"> <a id="software-engineering" href="#software-engineering" class="flex target:!outline-none"> <svg width="1em" height="1em" viewBox="0 0 24 24" class="inline-block h-5 w-5 text-transparent group-hover:text-captions" data-icon="mdi:link-variant">  <use xlink:href="#ai:mdi:link-variant"></use>  </svg> </a> <h3> Software engineering </h3> </div><div class="flex gap-2 items-center group"> <a id="architecture" href="#architecture" class="flex target:!outline-none"> <svg width="1em" height="1em" viewBox="0 0 24 24" class="inline-block h-5 w-5 text-transparent group-hover:text-captions" data-icon="mdi:link-variant">  <use xlink:href="#ai:mdi:link-variant"></use>  </svg> </a> <h4> Architecture </h4> </div><ul>
+<li><a href="https://group.miletic.net/hr/arhiva/web-sjedista/12factor-net/toc" target="_blank"> https://group.miletic.net/hr/arhiva/web-sjedista/12factor-net/toc </a></li>
+<li><a href="https://12factor.net/" target="_blank"> https://12factor.net/ </a></li>
+<li><a href="https://www.patterns.dev/" target="_blank"> https://www.patterns.dev/ </a></li>
+<li><a href="https://rti.etf.bg.ac.rs/" target="_blank"> https://rti.etf.bg.ac.rs/ </a></li>
+<li><a href="https://github.com/NikAshanin/Solution-Architect-Road-Map" target="_blank"> https://github.com/NikAshanin/Solution-Architect-Road-Map </a></li>
+<li><a href="https://milan.milanovic.org/post/the-greatest-software-development-books-of-all-time/" target="_blank"> https://milan.milanovic.org/post/the-greatest-software-development-books-of-all-time/ </a></li>
+<li><a href="https://github.com/thangchung/clean-architecture-dotnet" target="_blank"> https://github.com/thangchung/clean-architecture-dotnet </a></li>
+<li><a href="https://github.com/kamranahmedse/design-patterns-for-humans" target="_blank"> https://github.com/kamranahmedse/design-patterns-for-humans </a></li>
+<li><a href="https://www.youtube.com/@MarcoLenzo/playlists" target="_blank"> https://www.youtube.com/@MarcoLenzo/playlists </a>, architecture playlist <a href="https://www.youtube.com/watch?v=kbGYy49fCz4&list=PLG6ksn9JUACbdAexMOxfAM_WVYvADWx6t" target="_blank"> https://www.youtube.com/watch?v=kbGYy49fCz4&amp;list=PLG6ksn9JUACbdAexMOxfAM_WVYvADWx6t </a></li>
+<li><a href="https://medium.com/@techworldwithmilan" target="_blank"> https://medium.com/@techworldwithmilan </a></li>
+<li>Software architecture books (no download links) <a href="https://github.com/mhadidg/software-architecture-books" target="_blank"> https://github.com/mhadidg/software-architecture-books </a></li>
+<li>API design <a href="https://www.seangoedecke.com/good-api-design/" target="_blank"> https://www.seangoedecke.com/good-api-design/ </a></li>
+<li>Generate architecture diagrams with prompts <a href="https://github.com/tt-a1i/archify" target="_blank"> https://github.com/tt-a1i/archify </a></li>
+</ul>
+<div class="flex gap-2 items-center group"> <a id="clean-code" href="#clean-code" class="flex target:!outline-none"> <svg width="1em" height="1em" viewBox="0 0 24 24" class="inline-block h-5 w-5 text-transparent group-hover:text-captions" data-icon="mdi:link-variant">  <use xlink:href="#ai:mdi:link-variant"></use>  </svg> </a> <h4> Clean code </h4> </div><ul>
+<li><a href="https://github.com/kettanaito/naming-cheatsheet" target="_blank"> https://github.com/kettanaito/naming-cheatsheet </a></li>
+<li><a href="https://github.com/ryanmcdermott/clean-code-javascript" target="_blank"> https://github.com/ryanmcdermott/clean-code-javascript </a></li>
+<li>debugging playlist <a href="https://www.youtube.com/watch?v=A919j_5qE0k&list=PL8GhfcywW9YM3OsfxnaxAci6dJgkuOQWn" target="_blank"> https://www.youtube.com/watch?v=A919j_5qE0k&amp;list=PL8GhfcywW9YM3OsfxnaxAci6dJgkuOQWn </a></li>
+<li>debugging articles <a href="https://dev.to/codenameone/series/20817" target="_blank"> https://dev.to/codenameone/series/20817 </a></li>
+<li>Refactoring, EXCELLENT <a href="https://refactoring.guru/refactoring/techniques" target="_blank"> https://refactoring.guru/refactoring/techniques </a></li>
+</ul>
+<div class="flex gap-2 items-center group"> <a id="testing" href="#testing" class="flex target:!outline-none"> <svg width="1em" height="1em" viewBox="0 0 24 24" class="inline-block h-5 w-5 text-transparent group-hover:text-captions" data-icon="mdi:link-variant">  <use xlink:href="#ai:mdi:link-variant"></use>  </svg> </a> <h4> Testing </h4> </div><ul>
+<li><a href="https://glebbahmutov.com/blog/cypress-skills-ladder/" target="_blank"> https://glebbahmutov.com/blog/cypress-skills-ladder/ </a></li>
+<li>frontend testing list <a href="https://www.linkedin.com/posts/arunm-engineer_20-articles-i-do-strongly-recommend-to-read-activity-7152152594394566656-oOuA" target="_blank"> https://www.linkedin.com/posts/arunm-engineer_20-articles-i-do-strongly-recommend-to-read-activity-7152152594394566656-oOuA </a></li>
+<li>Load testing for webserver, Orange Pi <a href="https://github.com/JoeDog/siege" target="_blank"> https://github.com/JoeDog/siege </a>, <a href="https://github.com/hatoo/oha" target="_blank"> https://github.com/hatoo/oha </a>, <a href="https://github.com/yandex/yandex-tank" target="_blank"> https://github.com/yandex/yandex-tank </a></li>
+</ul>
+<div class="flex gap-2 items-center group"> <a id="mlai" href="#mlai" class="flex target:!outline-none"> <svg width="1em" height="1em" viewBox="0 0 24 24" class="inline-block h-5 w-5 text-transparent group-hover:text-captions" data-icon="mdi:link-variant">  <use xlink:href="#ai:mdi:link-variant"></use>  </svg> </a> <h4> ML/AI </h4> </div><ul>
+<li><a href="https://karpathy.ai/zero-to-hero.html" target="_blank"> https://karpathy.ai/zero-to-hero.html </a></li>
+<li><a href="https://www.youtube.com/watch?v=7q_OJvQQ7vY" target="_blank"> https://www.youtube.com/watch?v=7q_OJvQQ7vY </a></li>
+<li><a href="https://realpython.com/learning-paths/machine-learning-python/" target="_blank"> https://realpython.com/learning-paths/machine-learning-python/ </a></li>
+<li><a href="https://github.com/SkalskiP/courses" target="_blank"> https://github.com/SkalskiP/courses </a></li>
+<li><a href="https://github.com/hemansnation/God-Level-Data-Science-ML-Full-Stack" target="_blank"> https://github.com/hemansnation/God-Level-Data-Science-ML-Full-Stack </a></li>
+<li><a href="https://github.com/Avik-Jain/100-Days-Of-ML-Code" target="_blank"> https://github.com/Avik-Jain/100-Days-Of-ML-Code </a></li>
+<li>local GPT? <a href="https://github.com/nomic-ai/gpt4all" target="_blank"> https://github.com/nomic-ai/gpt4all </a></li>
+<li>chat with repo <a href="https://github.com/AI-Citizen/SolidGPT" target="_blank"> https://github.com/AI-Citizen/SolidGPT </a></li>
+<li><a href="https://www.youtube.com/@YannicKilcher/playlists" target="_blank"> https://www.youtube.com/@YannicKilcher/playlists </a></li>
+<li>LLM bots hosting <a href="https://github.com/langchain-ai/langserve" target="_blank"> https://github.com/langchain-ai/langserve </a> <a href="https://github.com/langchain-ai" target="_blank"> https://github.com/langchain-ai </a></li>
+<li><a href="https://microsoft.github.io/AI-For-Beginners/?id=content" target="_blank"> https://microsoft.github.io/AI-For-Beginners/?id=content </a></li>
+<li>Stanford AI course <a href="https://www.youtube.com/watch?v=J8Eh7RqggsU&list=PLoROMvodv4rO1NB9TD4iUZ3qghGEGtqNX" target="_blank"> https://www.youtube.com/watch?v=J8Eh7RqggsU&amp;list=PLoROMvodv4rO1NB9TD4iUZ3qghGEGtqNX </a></li>
+<li>MIT AI course <a href="https://www.youtube.com/watch?v=QDX-1M5Nj7s&list=PLtBw6njQRU-rwp5__7C0oIVt26ZgjG9NI" target="_blank"> https://www.youtube.com/watch?v=QDX-1M5Nj7s&amp;list=PLtBw6njQRU-rwp5__7C0oIVt26ZgjG9NI </a></li>
+<li>Harvard CS50 AI course <a href="https://www.youtube.com/watch?v=gR8QvFmNuLE&list=PLhQjrBD2T381PopUTYtMSstgk-hsTGkVm" target="_blank"> https://www.youtube.com/watch?v=gR8QvFmNuLE&amp;list=PLhQjrBD2T381PopUTYtMSstgk-hsTGkVm </a></li>
+<li>neural networks <a href="https://www.youtube.com/@Dataquestio/playlists" target="_blank"> https://www.youtube.com/@Dataquestio/playlists </a></li>
+<li>books, blog <a href="https://magazine.sebastianraschka.com/" target="_blank"> https://magazine.sebastianraschka.com/ </a></li>
+<li>AI Youtube channels <a href="https://www.youtube.com/@Deeplearningai" target="_blank"> https://www.youtube.com/@Deeplearningai </a> , <a href="https://www.youtube.com/@mreflow" target="_blank"> https://www.youtube.com/@mreflow </a> , <a href="https://www.youtube.com/@aiexplained-official/playlists" target="_blank"> https://www.youtube.com/@aiexplained-official/playlists </a> , <a href="https://www.youtube.com/@TwoMinutePapers" target="_blank"> https://www.youtube.com/@TwoMinutePapers </a> , <a href="https://www.youtube.com/@RobertMilesAI" target="_blank"> https://www.youtube.com/@RobertMilesAI </a> , <a href="https://www.youtube.com/@MattVidPro" target="_blank"> https://www.youtube.com/@MattVidPro </a> , <a href="https://www.youtube.com/@aiadvantage" target="_blank"> https://www.youtube.com/@aiadvantage </a> , <a href="https://www.youtube.com/@SirajRaval" target="_blank"> https://www.youtube.com/@SirajRaval </a></li>
+<li>Excellent AI cheatsheets <a href="https://github.com/analyticalrohit/AI-ML-Cheatsheets/" target="_blank"> https://github.com/analyticalrohit/AI-ML-Cheatsheets/ </a></li>
+<li>Excellent Claude Code single .md file tutorial <a href="https://github.com/wesammustafa/Claude-Code-Everything-You-Need-to-Know" target="_blank"> https://github.com/wesammustafa/Claude-Code-Everything-You-Need-to-Know </a></li>
+<li>List of tools, frameworks, and resources for AI <a href="https://github.com/dontriskit/awesome-ai-software-engineering" target="_blank"> https://github.com/dontriskit/awesome-ai-software-engineering </a></li>
+<li>AI/ML rodamap <a href="https://github.com/PrinceSinghhub/Ultimate-AI-Engineer-Roadmap-2026" target="_blank"> https://github.com/PrinceSinghhub/Ultimate-AI-Engineer-Roadmap-2026 </a></li>
+<li>Claude resources list <a href="https://github.com/JSONbored/awesome-claude" target="_blank"> https://github.com/JSONbored/awesome-claude </a></li>
+<li>AI projects list <a href="https://github.com/Sumanth077/Hands-On-AI-Engineering" target="_blank"> https://github.com/Sumanth077/Hands-On-AI-Engineering </a></li>
+<li>ML projects list <a href="https://github.com/lukasmasuch/best-of-ml-python" target="_blank"> https://github.com/lukasmasuch/best-of-ml-python </a></li>
+<li>Google, enforce up to date web dev skills <a href="https://github.com/GoogleChrome/modern-web-guidance-src" target="_blank"> https://github.com/GoogleChrome/modern-web-guidance-src </a></li>
+<li>AI lessons <a href="https://github.com/rohitg00/ai-engineering-from-scratch" target="_blank"> https://github.com/rohitg00/ai-engineering-from-scratch </a></li>
+<li>Excellent 3 months AI fundamentals course <a href="https://github.com/microsoft/AI-For-Beginners" target="_blank"> https://github.com/microsoft/AI-For-Beginners </a></li>
+<li>AI agents design pdf book <a href="https://github.com/bojieli/ai-agent-book/blob/main/docs/en/README.md" target="_blank"> https://github.com/bojieli/ai-agent-book/blob/main/docs/en/README.md </a></li>
+</ul>
+<hr>
+<div class="flex gap-2 items-center group"> <a id="devops" href="#devops" class="flex target:!outline-none"> <svg width="1em" height="1em" viewBox="0 0 24 24" class="inline-block h-5 w-5 text-transparent group-hover:text-captions" data-icon="mdi:link-variant">  <use xlink:href="#ai:mdi:link-variant"></use>  </svg> </a> <h3> DevOps </h3> </div><div class="flex gap-2 items-center group"> <a id="devops" href="#devops" class="flex target:!outline-none"> <svg width="1em" height="1em" viewBox="0 0 24 24" class="inline-block h-5 w-5 text-transparent group-hover:text-captions" data-icon="mdi:link-variant">  <use xlink:href="#ai:mdi:link-variant"></use>  </svg> </a> <h4> DevOps </h4> </div><ul>
+<li><a href="https://www.reddit.com/r/linux/comments/s4yngh/i_am_trying_to_make_a_list_of_good_opensource/" target="_blank"> https://www.reddit.com/r/linux/comments/s4yngh/i_am_trying_to_make_a_list_of_good_opensource/ </a></li>
+<li><a href="https://github.com/localstack/localstack" target="_blank"> https://github.com/localstack/localstack </a></li>
+<li>Go <a href="https://gobyexample.com/" target="_blank"> https://gobyexample.com/ </a></li>
+<li>digital life, snippets <a href="https://github.com/christianlempa/cheat-sheets" target="_blank"> https://github.com/christianlempa/cheat-sheets </a></li>
+<li>lot of things <a href="https://github.com/christianlempa/boilerplates" target="_blank"> https://github.com/christianlempa/boilerplates </a></li>
+<li><a href="https://www.reddit.com/r/Python/comments/xobba8/how_i_deploy_my_bootstrapped_python_webapp_with/" target="_blank"> https://www.reddit.com/r/Python/comments/xobba8/how_i_deploy_my_bootstrapped_python_webapp_with/ </a></li>
+<li>self hosted Paas, in Next.js <a href="https://github.com/dokploy/dokploy" target="_blank"> https://github.com/dokploy/dokploy </a></li>
+<li>SSH tunnels <a href="https://iximiuz.com/en/posts/ssh-tunnels/" target="_blank"> https://iximiuz.com/en/posts/ssh-tunnels/ </a></li>
+<li>lot of devops info here <a href="https://iximiuz.com/" target="_blank"> https://iximiuz.com/ </a></li>
+<li>Dokku alternative <a href="https://github.com/zane-ops/zane-ops" target="_blank"> https://github.com/zane-ops/zane-ops </a></li>
+<li>Dokku alternative with UI <a href="https://github.com/rodyherrera/Quantum" target="_blank"> https://github.com/rodyherrera/Quantum </a></li>
+<li>Nginx config web generator <a href="https://github.com/digitalocean/nginxconfig.io" target="_blank"> https://github.com/digitalocean/nginxconfig.io </a></li>
+<li>Build iOS apps in Github Actions <a href="https://github.com/MobAI-App/ios-builder" target="_blank"> https://github.com/MobAI-App/ios-builder </a></li>
+</ul>
+<div class="flex gap-2 items-center group"> <a id="docker" href="#docker" class="flex target:!outline-none"> <svg width="1em" height="1em" viewBox="0 0 24 24" class="inline-block h-5 w-5 text-transparent group-hover:text-captions" data-icon="mdi:link-variant">  <use xlink:href="#ai:mdi:link-variant"></use>  </svg> </a> <h4> Docker </h4> </div><ul>
+<li><a href="https://github.com/wsargent/docker-cheat-sheet" target="_blank"> https://github.com/wsargent/docker-cheat-sheet </a></li>
+<li><a href="https://dev.to/rimelek/docker-network-and-network-namespaces-in-practice-5h9" target="_blank"> https://dev.to/rimelek/docker-network-and-network-namespaces-in-practice-5h9 </a></li>
+<li>docker dive <a href="https://dev.to/klip_klop/dive-into-docker-part-4-inspecting-docker-image-568o" target="_blank"> https://dev.to/klip_klop/dive-into-docker-part-4-inspecting-docker-image-568o </a></li>
+<li>cron <a href="https://github.com/alseambusher/crontab-ui" target="_blank"> https://github.com/alseambusher/crontab-ui </a> , <a href="https://github.com/willfarrell/docker-crontab" target="_blank"> https://github.com/willfarrell/docker-crontab </a></li>
+<li>reminder <a href="https://dev.to/hazarnenni/docker-best-practices-55j0" target="_blank"> https://dev.to/hazarnenni/docker-best-practices-55j0 </a></li>
+<li>Windows in Docker container <a href="https://github.com/dockur/windows" target="_blank"> https://github.com/dockur/windows </a></li>
+</ul>
+<div class="flex gap-2 items-center group"> <a id="linux" href="#linux" class="flex target:!outline-none"> <svg width="1em" height="1em" viewBox="0 0 24 24" class="inline-block h-5 w-5 text-transparent group-hover:text-captions" data-icon="mdi:link-variant">  <use xlink:href="#ai:mdi:link-variant"></use>  </svg> </a> <h4> Linux </h4> </div><ul>
+<li><a href="https://github.com/trinib/Linux-Bash-Commands" target="_blank"> https://github.com/trinib/Linux-Bash-Commands </a></li>
+<li>Linux file system <a href="https://www.youtube.com/watch?v=42iQKuQodW4" target="_blank"> https://www.youtube.com/watch?v=42iQKuQodW4 </a></li>
+<li><a href="https://dev.to/scorcism/file-permission-2d8" target="_blank"> https://dev.to/scorcism/file-permission-2d8 </a></li>
+<li>try Linux in browser, excellent <a href="https://distrosea.com/" target="_blank"> https://distrosea.com/ </a></li>
+<li>Sysexplore <a href="https://sysxplore.com/tag/bash/" target="_blank"> https://sysxplore.com/tag/bash/ </a>, <a href="https://www.instagram.com/sysxplore" target="_blank"> https://www.instagram.com/sysxplore </a></li>
+<li>Microsoft Surface drivers support <a href="https://github.com/linux-surface/linux-surface/wiki/Supported-Devices-and-Features" target="_blank"> https://github.com/linux-surface/linux-surface/wiki/Supported-Devices-and-Features </a></li>
+<li>OS backup <a href="https://github.com/bareos/bareos" target="_blank"> https://github.com/bareos/bareos </a></li>
+<li>Screenshots with annotations <a href="https://github.com/AlexanderVanhee/Gradia" target="_blank"> https://github.com/AlexanderVanhee/Gradia </a></li>
+<li>Linux clipboard manager <a href="https://github.com/hluk/CopyQ" target="_blank"> https://github.com/hluk/CopyQ </a>, <a href="https://github.com/murat-cileli/clyp" target="_blank"> https://github.com/murat-cileli/clyp </a></li>
+<li>Single Windows app in a window <a href="https://github.com/winapps-org/winapps" target="_blank"> https://github.com/winapps-org/winapps </a></li>
+<li>Roadmap <a href="https://roadmap.sh/shell-bash" target="_blank"> https://roadmap.sh/shell-bash </a>, <a href="https://roadmap.sh/pdfs/roadmaps/shell-bash.pdf" target="_blank"> https://roadmap.sh/pdfs/roadmaps/shell-bash.pdf </a></li>
+<li>Milan Tair Linux playlist <a href="https://www.youtube.com/watch?v=EeLx1pm24wM&list=PL-UTrxF0y8kJBE7TnTBVNz1eW1IyP4840" target="_blank"> https://www.youtube.com/watch?v=EeLx1pm24wM&amp;list=PL-UTrxF0y8kJBE7TnTBVNz1eW1IyP4840 </a></li>
+<li>Introduction to Bash Scripting - excellent book and video tutorial <a href="https://github.com/bobbyiliev/introduction-to-bash-scripting" target="_blank"> https://github.com/bobbyiliev/introduction-to-bash-scripting </a>, <a href="https://www.youtube.com/playlist?list=PLY7SzAmnEqp78tsHh1kK0gOx_f-uwQZAT" target="_blank"> https://www.youtube.com/playlist?list=PLY7SzAmnEqp78tsHh1kK0gOx_f-uwQZAT </a></li>
+<li>DevOps blog <a href="https://bobbyiliev.com/posts/" target="_blank"> https://bobbyiliev.com/posts/ </a></li>
+<li>Windows in Docker <a href="https://github.com/scottyhardy/docker-wine" target="_blank"> https://github.com/scottyhardy/docker-wine </a></li>
+<li>Windows in containers <a href="https://github.com/kernalix7/winpodx" target="_blank"> https://github.com/kernalix7/winpodx </a></li>
+<li>Run MacOS x86 apps on Linux <a href="https://github.com/darlinghq/darling" target="_blank"> https://github.com/darlinghq/darling </a></li>
+</ul>
+<div class="flex gap-2 items-center group"> <a id="networks" href="#networks" class="flex target:!outline-none"> <svg width="1em" height="1em" viewBox="0 0 24 24" class="inline-block h-5 w-5 text-transparent group-hover:text-captions" data-icon="mdi:link-variant">  <use xlink:href="#ai:mdi:link-variant"></use>  </svg> </a> <h4> Networks </h4> </div><ul>
+<li>Iptables and more <a href="https://iximiuz.com/en/series/computer-networking-fundamentals/" target="_blank"> https://iximiuz.com/en/series/computer-networking-fundamentals/ </a></li>
+<li>Proxy lists by country <a href="https://github.com/proxifly/free-proxy-list" target="_blank"> https://github.com/proxifly/free-proxy-list </a></li>
+<li>Open source Tailscale <a href="https://github.com/netbirdio/netbird" target="_blank"> https://github.com/netbirdio/netbird </a>, <a href="https://github.com/juanfont/headscale" target="_blank"> https://github.com/juanfont/headscale </a></li>
+<li>WIreguard UI <a href="https://github.com/gravitl/netmaker" target="_blank"> https://github.com/gravitl/netmaker </a></li>
+</ul>
+<div class="flex gap-2 items-center group"> <a id="homelab" href="#homelab" class="flex target:!outline-none"> <svg width="1em" height="1em" viewBox="0 0 24 24" class="inline-block h-5 w-5 text-transparent group-hover:text-captions" data-icon="mdi:link-variant">  <use xlink:href="#ai:mdi:link-variant"></use>  </svg> </a> <h4> Homelab </h4> </div><ul>
+<li>Excellent link <a href="https://github.com/awesome-selfhosted/awesome-selfhosted" target="_blank"> https://github.com/awesome-selfhosted/awesome-selfhosted </a></li>
+<li>Excellent, Proxmox, Packer&#8230; <a href="https://github.com/christianlempa/boilerplates" target="_blank"> https://github.com/christianlempa/boilerplates </a> , <a href="https://github.com/christianlempa/homelab" target="_blank"> https://github.com/christianlempa/homelab </a></li>
+<li>Proxmox <a href="https://www.youtube.com/watch?v=GYOlulPwxlE&list=PLk3oVaFzBUufFbrE4Y0gnQcjzfmEmT93o" target="_blank"> https://www.youtube.com/watch?v=GYOlulPwxlE&amp;list=PLk3oVaFzBUufFbrE4Y0gnQcjzfmEmT93o </a></li>
+<li>Proxmox configurations <a href="https://github.com/tteck/Proxmox" target="_blank"> https://github.com/tteck/Proxmox </a> , <a href="https://tteck.github.io/Proxmox/" target="_blank"> https://tteck.github.io/Proxmox/ </a></li>
+<li>self-hosted Github Gists <a href="https://github.com/thomiceli/opengist" target="_blank"> https://github.com/thomiceli/opengist </a> , Next.js, Prisma <a href="https://github.com/MaxLeiter/drift" target="_blank"> https://github.com/MaxLeiter/drift </a></li>
+<li>self hosted Docker <a href="https://github.com/hotheadhacker/awesome-selfhost-docker" target="_blank"> https://github.com/hotheadhacker/awesome-selfhost-docker </a></li>
+<li>bypass CGNAT:<ul>
+<li>Oracle <a href="https://github.com/mochman/Bypass_CGNAT" target="_blank"> https://github.com/mochman/Bypass_CGNAT </a></li>
+<li><a href="https://www.reddit.com/r/unRAID/comments/10vx69b/ultimate_noob_guide_how_to_bypass_cgnat_using/" target="_blank"> https://www.reddit.com/r/unRAID/comments/10vx69b/ultimate_noob_guide_how_to_bypass_cgnat_using/ </a></li>
+<li>complete list <a href="https://github.com/anderspitman/awesome-tunneling" target="_blank"> https://github.com/anderspitman/awesome-tunneling </a></li>
+<li><a href="https://github.com/DigitallyRefined/docker-wireguard-tunnel" target="_blank"> https://github.com/DigitallyRefined/docker-wireguard-tunnel </a></li>
+<li>good <a href="https://github.com/sandialabs/wiretap" target="_blank"> https://github.com/sandialabs/wiretap </a></li>
+<li><a href="https://github.com/ntnj/tunwg" target="_blank"> https://github.com/ntnj/tunwg </a></li>
+<li>maybe best <a href="https://nitinja.in/tech/" target="_blank"> https://nitinja.in/tech/ </a> , <a href="https://github.com/rapiz1/rathole" target="_blank"> https://github.com/rapiz1/rathole </a></li>
+<li>BEST library, not well documented <a href="https://github.com/fatedier/frp" target="_blank"> https://github.com/fatedier/frp </a></li>
+<li>free ngrok based on Cloudflare <a href="https://github.com/MuhammadHananAsghar/wormhole" target="_blank"> https://github.com/MuhammadHananAsghar/wormhole </a></li>
+</ul>
+</li>
+<li>Proxmox helper scripts for installations <a href="https://helper-scripts.com/scripts" target="_blank"> https://helper-scripts.com/scripts </a></li>
+<li>self-hosted speed test in php <a href="https://github.com/librespeed/speedtest" target="_blank"> https://github.com/librespeed/speedtest </a> , <a href="https://librespeed.org/" target="_blank"> https://librespeed.org/ </a></li>
+<li>lot of excellent Docker images <a href="https://github.com/linuxserver" target="_blank"> https://github.com/linuxserver </a></li>
+<li>web self hosted VS Code <a href="https://github.com/linuxserver/docker-code-server" target="_blank"> https://github.com/linuxserver/docker-code-server </a></li>
+<li>Ansible homelab <a href="https://git.comprofix.com/mmckinnon/homelab" target="_blank"> https://git.comprofix.com/mmckinnon/homelab </a> , <a href="https://akashrajpurohit.com/blog/ansible-infrastructure-as-a-code-for-building-up-my-homelab/" target="_blank"> https://akashrajpurohit.com/blog/ansible-infrastructure-as-a-code-for-building-up-my-homelab/ </a> , <a href="https://www.reddit.com/r/selfhosted/comments/1g3rwmn/are_you_using_ansible_in_your_homelab/" target="_blank"> https://www.reddit.com/r/selfhosted/comments/1g3rwmn/are_you_using_ansible_in_your_homelab/ </a></li>
+<li>Pi dashboard <a href="https://github.com/XavierBerger/RPi-Monitor" target="_blank"> https://github.com/XavierBerger/RPi-Monitor </a></li>
+<li>MacOS Proxmox <a href="https://github.com/luchina-gabriel/OSX-PROXMOX" target="_blank"> https://github.com/luchina-gabriel/OSX-PROXMOX </a></li>
+<li>Windows and MacOS in Docker container <a href="https://github.com/dockur/windows" target="_blank"> https://github.com/dockur/windows </a>, <a href="https://github.com/dockur/macos" target="_blank"> https://github.com/dockur/macos </a></li>
+<li>Linux in Docker container <a href="https://github.com/qemus/qemu" target="_blank"> https://github.com/qemus/qemu </a></li>
+<li>Lot of other excellent Docker containers <a href="https://github.com/dockur" target="_blank"> https://github.com/dockur </a>:<ul>
+<li>This one should be best for Samba <a href="https://github.com/dockur/samba" target="_blank"> https://github.com/dockur/samba </a></li>
+<li>Windows ARM <a href="https://github.com/dockur/windows-arm" target="_blank"> https://github.com/dockur/windows-arm </a></li>
+<li><a href="https://github.com/dockur/dnsmasq" target="_blank"> https://github.com/dockur/dnsmasq </a></li>
+<li><a href="https://github.com/dockur/tor" target="_blank"> https://github.com/dockur/tor </a></li>
+<li>Reddit clone <a href="https://github.com/LemmyNet/lemmy-ui" target="_blank"> https://github.com/LemmyNet/lemmy-ui </a></li>
+</ul>
+</li>
+<li>Homelab subreddits:<ul>
+<li><a href="https://www.reddit.com/r/selfhosted" target="_blank"> https://www.reddit.com/r/selfhosted </a></li>
+<li><a href="https://www.reddit.com/r/HomeServer" target="_blank"> https://www.reddit.com/r/HomeServer </a></li>
+<li><a href="https://www.reddit.com/r/homelab" target="_blank"> https://www.reddit.com/r/homelab </a></li>
+<li><a href="https://www.reddit.com/r/HomeNetworking" target="_blank"> https://www.reddit.com/r/HomeNetworking </a></li>
+<li><a href="https://www.reddit.com/r/Proxmox" target="_blank"> https://www.reddit.com/r/Proxmox </a></li>
+<li><a href="https://www.reddit.com/r/linuxquestions" target="_blank"> https://www.reddit.com/r/linuxquestions </a></li>
+<li><a href="https://www.reddit.com/r/devops" target="_blank"> https://www.reddit.com/r/devops </a></li>
+<li><a href="https://www.reddit.com/r/docker" target="_blank"> https://www.reddit.com/r/docker </a></li>
+<li><a href="https://www.reddit.com/r/linuxadmin" target="_blank"> https://www.reddit.com/r/linuxadmin </a></li>
+<li><a href="https://www.reddit.com/r/sysadmin" target="_blank"> https://www.reddit.com/r/sysadmin </a></li>
+<li><a href="https://www.reddit.com/r/HomeDataCenter" target="_blank"> https://www.reddit.com/r/HomeDataCenter </a></li>
+<li><a href="https://www.reddit.com/r/linux_devices" target="_blank"> https://www.reddit.com/r/linux_devices </a></li>
+<li><a href="https://www.reddit.com/r/DataHoarder" target="_blank"> https://www.reddit.com/r/DataHoarder </a></li>
+<li><a href="https://www.reddit.com/r/HomeLabPorn" target="_blank"> https://www.reddit.com/r/HomeLabPorn </a></li>
+<li><a href="https://www.reddit.com/r/homelabmasterrace" target="_blank"> https://www.reddit.com/r/homelabmasterrace </a></li>
+<li><a href="https://www.reddit.com/r/homelabsales" target="_blank"> https://www.reddit.com/r/homelabsales </a></li>
+<li><a href="https://www.reddit.com/r/hardwareswap" target="_blank"> https://www.reddit.com/r/hardwareswap </a></li>
+<li><a href="https://www.reddit.com/r/minilab" target="_blank"> https://www.reddit.com/r/minilab </a></li>
+<li><a href="https://www.reddit.com/r/MiniPCs" target="_blank"> https://www.reddit.com/r/MiniPCs </a></li>
+<li><a href="https://www.reddit.com/r/silentpc" target="_blank"> https://www.reddit.com/r/silentpc </a></li>
+<li><a href="https://www.reddit.com/r/budgethomelab" target="_blank"> https://www.reddit.com/r/budgethomelab </a></li>
+<li><a href="https://www.reddit.com/r/PFSENSE" target="_blank"> https://www.reddit.com/r/PFSENSE </a></li>
+<li><a href="https://www.reddit.com/r/opnsense" target="_blank"> https://www.reddit.com/r/opnsense </a></li>
+</ul>
+</li>
+<li>Dokku alternative <a href="https://github.com/coollabsio/coolify" target="_blank"> https://github.com/coollabsio/coolify </a></li>
+<li>Tunneling urls and share folders <a href="https://github.com/openziti/zrok" target="_blank"> https://github.com/openziti/zrok </a></li>
+<li>Pangolin, the best high level tunneling tool <a href="https://github.com/fosrl/pangolin" target="_blank"> https://github.com/fosrl/pangolin </a></li>
+<li>Excellent tunnel <a href="https://github.com/Gouryella/drip" target="_blank"> https://github.com/Gouryella/drip </a>, excellent docs <a href="https://driptunnel.app/" target="_blank"> https://driptunnel.app/ </a></li>
+<li>Self hosted tunnels <a href="https://github.com/amalshaji/portr" target="_blank"> https://github.com/amalshaji/portr </a></li>
+<li>Another tunnel <a href="https://github.com/tun2proxy/tun2proxy" target="_blank"> https://github.com/tun2proxy/tun2proxy </a></li>
+<li>Websockets tunnel, based on HTTP <a href="https://github.com/erebe/wstunnel" target="_blank"> https://github.com/erebe/wstunnel </a></li>
+<li><a href="https://github.com/cbirkenbeul/docker-homelab" target="_blank"> https://github.com/cbirkenbeul/docker-homelab </a></li>
+<li>Blogs in German <a href="https://teqqy.de" target="_blank"> https://teqqy.de </a>, <a href="https://2tap2.be" target="_blank"> https://2tap2.be </a></li>
+<li>Change detection <a href="https://github.com/dgtlmoon/changedetection.io" target="_blank"> https://github.com/dgtlmoon/changedetection.io </a></li>
+<li>Wireguard UI <a href="https://github.com/wg-easy/wg-easy" target="_blank"> https://github.com/wg-easy/wg-easy </a></li>
+<li>SSH like Tailscale <a href="https://github.com/shellhub-io/shellhub" target="_blank"> https://github.com/shellhub-io/shellhub </a></li>
+<li>Wetransfer p2p self-hosted <a href="https://github.com/robinkarlberg/transfer.zip-web" target="_blank"> https://github.com/robinkarlberg/transfer.zip-web </a></li>
+<li>Wetransfer self-hosted <a href="https://github.com/ErugoOSS/Erugo" target="_blank"> https://github.com/ErugoOSS/Erugo </a></li>
+<li>Raspberry router <a href="https://github.com/RaspAP/raspap-webgui" target="_blank"> https://github.com/RaspAP/raspap-webgui </a></li>
+<li>Self-hosted disposable email <a href="https://github.com/haileyydev/maildrop/" target="_blank"> https://github.com/haileyydev/maildrop/ </a></li>
+<li>Run VMs in Docker container <a href="https://github.com/qemus/qemu" target="_blank"> https://github.com/qemus/qemu </a></li>
+<li>Nginx UI <a href="https://github.com/Adewagold/nginx-server-manager" target="_blank"> https://github.com/Adewagold/nginx-server-manager </a></li>
+<li>Homelab Infrastructure as Code <a href="https://github.com/Mafyuh/iac/" target="_blank"> https://github.com/Mafyuh/iac/ </a></li>
+<li>Self-hosted IPTV player, very interesting <a href="https://github.com/ardoviniandrea/ViniPlay/" target="_blank"> https://github.com/ardoviniandrea/ViniPlay/ </a></li>
+<li>https tunnels <a href="https://github.com/unblocked/chissl/" target="_blank"> https://github.com/unblocked/chissl/ </a></li>
+<li>Dokku-like PaaS list: <a href="https://github.com/Dokploy/dokploy" target="_blank"> https://github.com/Dokploy/dokploy </a>, <a href="https://github.com/coollabsio/coolify" target="_blank"> https://github.com/coollabsio/coolify </a>, <a href="https://github.com/basecamp/kamal" target="_blank"> https://github.com/basecamp/kamal </a>, <a href="https://github.com/caprover/caprover" target="_blank"> https://github.com/caprover/caprover </a>, <a href="https://github.com/biersoeckli/QuickStack/" target="_blank"> https://github.com/biersoeckli/QuickStack/ </a>, <a href="https://github.com/hmontazeri/mushak" target="_blank"> https://github.com/hmontazeri/mushak </a></li>
+<li>IaC defined homelab <a href="https://github.com/Mafyuh/iac/" target="_blank"> https://github.com/Mafyuh/iac/ </a></li>
+<li>Ansible defined homelab <a href="https://github.com/mother-of-all-self-hosting/mash-playbook/" target="_blank"> https://github.com/mother-of-all-self-hosting/mash-playbook/ </a></li>
+<li>Self hosted Google Drive <a href="https://github.com/frappe/drive" target="_blank"> https://github.com/frappe/drive </a></li>
+<li>Backups for self-hosting and rclone <a href="https://github.com/nicotsx/zerobyte" target="_blank"> https://github.com/nicotsx/zerobyte </a></li>
+<li>Backups <a href="https://github.com/PlakarKorp/plakar" target="_blank"> https://github.com/PlakarKorp/plakar </a></li>
+<li>rsync for cloud <a href="https://github.com/rclone/rclone" target="_blank"> https://github.com/rclone/rclone </a></li>
+<li>sync remote folders <a href="https://github.com/syncthing/syncthing" target="_blank"> https://github.com/syncthing/syncthing </a></li>
+<li>Monitoring prices <a href="https://github.com/clucraft/PriceGhost" target="_blank"> https://github.com/clucraft/PriceGhost </a></li>
+<li>Tailscale Docker tunnel <a href="https://github.com/marvinvr/docktail" target="_blank"> https://github.com/marvinvr/docktail </a></li>
+<li>Backup software for websites:<ul>
+<li>Borg CLI <a href="https://github.com/borgbackup/borg" target="_blank"> https://github.com/borgbackup/borg </a></li>
+<li>Borgmatic yaml <a href="https://github.com/borgmatic-collective/borgmatic" target="_blank"> https://github.com/borgmatic-collective/borgmatic </a>, <a href="https://github.com/borgmatic-collective/docker-borgmatic" target="_blank"> https://github.com/borgmatic-collective/docker-borgmatic </a></li>
+</ul>
+</li>
+<li>Proot Linux on Android phone <a href="https://github.com/mayukh4/linux-android" target="_blank"> https://github.com/mayukh4/linux-android </a></li>
+<li>Database backup <a href="https://github.com/Skyfay/DBackup" target="_blank"> https://github.com/Skyfay/DBackup </a></li>
+<li>Audio streaming in LAN <a href="https://github.com/marcomorosi06/WiFiAudioStreaming-Desktop" target="_blank"> https://github.com/marcomorosi06/WiFiAudioStreaming-Desktop </a></li>
+<li>Self-hosted watch prices <a href="https://github.com/jez500/pricebuddy" target="_blank"> https://github.com/jez500/pricebuddy </a></li>
+<li>Linux on Android phone <a href="https://github.com/orailnoor/DroidDesk" target="_blank"> https://github.com/orailnoor/DroidDesk </a></li>
+<li>Self hosted Youtube <a href="https://github.com/Chocobozzz/PeerTube" target="_blank"> https://github.com/Chocobozzz/PeerTube </a></li>
+<li>Self hosted Twitch streaming <a href="https://github.com/owncast/owncast" target="_blank"> https://github.com/owncast/owncast </a></li>
+<li>Excellent list of self-hosted apps <a href="https://github.com/Buage/SelfHostList" target="_blank"> https://github.com/Buage/SelfHostList </a></li>
+<li>SSL dashboard <a href="https://github.com/7ritn/VaulTLS" target="_blank"> https://github.com/7ritn/VaulTLS </a></li>
+<li>Ready to use Traefik VPS <a href="https://github.com/MightyMoud/sidekick" target="_blank"> https://github.com/MightyMoud/sidekick </a></li>
+<li>Remote and local https url for dev server <a href="https://github.com/nilbuild/slim" target="_blank"> https://github.com/nilbuild/slim </a></li>
+<li>Turn Android phone into Linux server <a href="https://news.ycombinator.com/item?id=49226636" target="_blank"> https://news.ycombinator.com/item?id=49226636 </a>, <a href="https://seg6.space/posts/phone-server/" target="_blank"> https://seg6.space/posts/phone-server/ </a></li>
+<li>Instagram from folder, very cool <a href="https://github.com/foldergram/foldergram" target="_blank"> https://github.com/foldergram/foldergram </a></li>
+<li>Self-host images <a href="https://github.com/immich-app/immich/" target="_blank"> https://github.com/immich-app/immich/ </a></li>
+<li>Publish stream to Youtube <a href="https://github.com/AlexxIT/go2rtc" target="_blank"> https://github.com/AlexxIT/go2rtc </a></li>
+<li>IPTV player Linux Mint <a href="https://github.com/linuxmint/hypnotix" target="_blank"> https://github.com/linuxmint/hypnotix </a></li>
+<li>Remove duplicate files <a href="https://github.com/zen-logic/file-hunter" target="_blank"> https://github.com/zen-logic/file-hunter </a></li>
+<li>Linux on rooted Android <a href="https://github.com/ravindu644/Droidspaces-OSS" target="_blank"> https://github.com/ravindu644/Droidspaces-OSS </a></li>
+</ul>
+<div class="flex gap-2 items-center group"> <a id="git" href="#git" class="flex target:!outline-none"> <svg width="1em" height="1em" viewBox="0 0 24 24" class="inline-block h-5 w-5 text-transparent group-hover:text-captions" data-icon="mdi:link-variant">  <use xlink:href="#ai:mdi:link-variant"></use>  </svg> </a> <h4> Git </h4> </div><ul>
+<li><a href="https://gitexplorer.com/" target="_blank"> https://gitexplorer.com/ </a></li>
+<li><a href="https://www.conventionalcommits.org/en/v1.0.0/" target="_blank"> https://www.conventionalcommits.org/en/v1.0.0/ </a></li>
+<li><a href="https://jigarius.com/blog/multiple-git-remote-repositories" target="_blank"> https://jigarius.com/blog/multiple-git-remote-repositories </a></li>
+<li><a href="https://github.com/sadanandpai/git-guide" target="_blank"> https://github.com/sadanandpai/git-guide </a></li>
+<li>rebase <a href="https://www.freecodecamp.org/news/git-rebase-handbook/" target="_blank"> https://www.freecodecamp.org/news/git-rebase-handbook/ </a></li>
+<li>merge <a href="https://www.freecodecamp.org/news/the-definitive-guide-to-git-merge/" target="_blank"> https://www.freecodecamp.org/news/the-definitive-guide-to-git-merge/ </a></li>
+<li>rebase, merge <a href="https://www.youtube.com/watch?v=eG9oAroMcPk&list=PL9lx0DXCC4BNashNittu7oU8n1CDtvDnu" target="_blank"> https://www.youtube.com/watch?v=eG9oAroMcPk&amp;list=PL9lx0DXCC4BNashNittu7oU8n1CDtvDnu </a></li>
+<li>undo <a href="https://www.youtube.com/watch?v=fWMKue-WBok&list=PL9lx0DXCC4BNUby5H58y6s2TQVLadV8v7" target="_blank"> https://www.youtube.com/watch?v=fWMKue-WBok&amp;list=PL9lx0DXCC4BNUby5H58y6s2TQVLadV8v7 </a></li>
+<li><a href="https://www.freecodecamp.org/news/how-to-fix-merge-conflicts-in-git/" target="_blank"> https://www.freecodecamp.org/news/how-to-fix-merge-conflicts-in-git/ </a></li>
+<li><a href="https://dev.to/jodaut/beyond-the-basics-guide-to-deeply-understand-merge-rebase-squash-and-cherry-pick-when-to-use-them-with-real-world-examples-3f2m" target="_blank"> https://dev.to/jodaut/beyond-the-basics-guide-to-deeply-understand-merge-rebase-squash-and-cherry-pick-when-to-use-them-with-real-world-examples-3f2m </a></li>
+<li><a href="https://dev.to/opensauced/keeping-your-branch-up-to-date-and-handling-merge-conflicts-while-waiting-for-pr-reviews-3b3h" target="_blank"> https://dev.to/opensauced/keeping-your-branch-up-to-date-and-handling-merge-conflicts-while-waiting-for-pr-reviews-3b3h </a></li>
+<li><a href="https://dev.to/arthvhanesa/how-to-remove-secrets-from-a-git-repository-36e4" target="_blank"> https://dev.to/arthvhanesa/how-to-remove-secrets-from-a-git-repository-36e4 </a></li>
+<li>excellent <a href="https://ohshitgit.com/" target="_blank"> https://ohshitgit.com/ </a> , <a href="https://github.com/ksylor/ohshitgit" target="_blank"> https://github.com/ksylor/ohshitgit </a></li>
+<li>semantic versioning from Github <a href="https://semver.org/" target="_blank"> https://semver.org/ </a></li>
+<li>Flavio Copes comprehensive cheatsheet <a href="https://www.freecodecamp.org/news/git-cheat-sheet-helpful-git-commands-with-examples/" target="_blank"> https://www.freecodecamp.org/news/git-cheat-sheet-helpful-git-commands-with-examples/ </a></li>
+<li>Git branching strategies <a href="https://newsletter.techworld-with-milan.com/p/git-branching-strategies" target="_blank"> https://newsletter.techworld-with-milan.com/p/git-branching-strategies </a></li>
+<li>Quick insights into repo <a href="https://piechowski.io/post/git-commands-before-reading-code/" target="_blank"> https://piechowski.io/post/git-commands-before-reading-code/ </a></li>
+</ul>
+<hr>
+<div class="flex gap-2 items-center group"> <a id="career" href="#career" class="flex target:!outline-none"> <svg width="1em" height="1em" viewBox="0 0 24 24" class="inline-block h-5 w-5 text-transparent group-hover:text-captions" data-icon="mdi:link-variant">  <use xlink:href="#ai:mdi:link-variant"></use>  </svg> </a> <h3> Career </h3> </div><div class="flex gap-2 items-center group"> <a id="career" href="#career" class="flex target:!outline-none"> <svg width="1em" height="1em" viewBox="0 0 24 24" class="inline-block h-5 w-5 text-transparent group-hover:text-captions" data-icon="mdi:link-variant">  <use xlink:href="#ai:mdi:link-variant"></use>  </svg> </a> <h4> Career </h4> </div><ul>
+<li><a href="https://thehiveindex.com/topics/software-development/" target="_blank"> https://thehiveindex.com/topics/software-development/ </a></li>
+<li><a href="https://github.com/AmruthPillai/Reactive-Resume" target="_blank"> https://github.com/AmruthPillai/Reactive-Resume </a></li>
+<li><a href="https://www.youtube.com/@alexhyettdev/playlists" target="_blank"> https://www.youtube.com/@alexhyettdev/playlists </a></li>
+<li><a href="https://www.youtube.com/@digitalgarage7542/playlists" target="_blank"> https://www.youtube.com/@digitalgarage7542/playlists </a></li>
+<li><a href="https://realpython.com/how-to-make-programming-videos/" target="_blank"> https://realpython.com/how-to-make-programming-videos/ </a></li>
+<li><a href="https://www.trueup.io/job-trend" target="_blank"> https://www.trueup.io/job-trend </a></li>
+<li>From mid to senior articles <a href="https://dev.to/inovak/series/23737" target="_blank"> https://dev.to/inovak/series/23737 </a></li>
+<li><a href="https://realpython.com/how-to-make-programming-videos/" target="_blank"> https://realpython.com/how-to-make-programming-videos/ </a></li>
+<li><a href="https://dev.to/eleftheriabatsou" target="_blank"> https://dev.to/eleftheriabatsou </a> , <a href="https://blog.eleftheriabatsou.com/" target="_blank"> https://blog.eleftheriabatsou.com/ </a></li>
+<li><a href="https://github.com/remoteintech/remote-jobs" target="_blank"> https://github.com/remoteintech/remote-jobs </a></li>
+<li><a href="https://www.youtube.com/@HealthyDev/playlists" target="_blank"> https://www.youtube.com/@HealthyDev/playlists </a></li>
+<li><a href="https://github.com/hugo53/awesome-RemoteWork" target="_blank"> https://github.com/hugo53/awesome-RemoteWork </a></li>
+<li><a href="https://hnhiring.com/trends" target="_blank"> https://hnhiring.com/trends </a></li>
+<li><a href="https://github.com/kuchin/awesome-cto" target="_blank"> https://github.com/kuchin/awesome-cto </a></li>
+<li>CV template <a href="https://github.com/BartoszJarocki/cv" target="_blank"> https://github.com/BartoszJarocki/cv </a></li>
+<li>Hackernews hiring trends graph <a href="https://hnhiring.com/trends" target="_blank"> https://hnhiring.com/trends </a> , repo <a href="https://github.com/jordinl/hnhiring" target="_blank"> https://github.com/jordinl/hnhiring </a></li>
+<li>Excellent tech documentaries <a href="https://www.youtube.com/@Honeypotio/videos" target="_blank"> https://www.youtube.com/@Honeypotio/videos </a></li>
+<li>Excellent markdown CV builder <a href="https://github.com/BingyanStudio/LapisCV" target="_blank"> https://github.com/BingyanStudio/LapisCV </a></li>
+<li>Jobs with relocation <a href="https://github.com/AndrewStetsenko/tech-jobs-with-relocation" target="_blank"> https://github.com/AndrewStetsenko/tech-jobs-with-relocation </a></li>
+<li>Remote companies lists:<ul>
+<li>Outdated website with 882 companies list <a href="https://remoteintech.company/companies/" target="_blank"> https://remoteintech.company/companies/ </a>, <a href="https://github.com/remoteintech/remote-jobs" target="_blank"> https://github.com/remoteintech/remote-jobs </a></li>
+<li>60 companies, good, relevant list <a href="https://github.com/yanirs/established-remote" target="_blank"> https://github.com/yanirs/established-remote </a></li>
+<li>230 companies <a href="https://github.com/lukasz-madon/awesome-remote-job#companies-with-remote-dna" target="_blank"> https://github.com/lukasz-madon/awesome-remote-job#companies-with-remote-dna </a></li>
+<li>250 european companies <a href="https://github.com/EuropeanRemote/european-remote-software-companies" target="_blank"> https://github.com/EuropeanRemote/european-remote-software-companies </a></li>
+<li>3 years old list of 1000 companies <a href="https://github.com/ineelhere/remote-jobs-resources" target="_blank"> https://github.com/ineelhere/remote-jobs-resources </a></li>
+<li>150 open source companies <a href="https://github.com/timqian/open-source-jobs" target="_blank"> https://github.com/timqian/open-source-jobs </a></li>
+</ul>
+</li>
+</ul>
+<div class="flex gap-2 items-center group"> <a id="personal-branding" href="#personal-branding" class="flex target:!outline-none"> <svg width="1em" height="1em" viewBox="0 0 24 24" class="inline-block h-5 w-5 text-transparent group-hover:text-captions" data-icon="mdi:link-variant">  <use xlink:href="#ai:mdi:link-variant"></use>  </svg> </a> <h4> Personal branding </h4> </div><ul>
+<li>good personal website example <a href="https://jarocki.me/" target="_blank"> https://jarocki.me/ </a></li>
+<li>excellent personal website <a href="https://github.com/Sayan-Maity/Portfolio-V2" target="_blank"> https://github.com/Sayan-Maity/Portfolio-V2 </a></li>
+<li>SSG for Obsidian notes <a href="https://github.com/jackyzha0/quartz" target="_blank"> https://github.com/jackyzha0/quartz </a></li>
+<li>SSG blogs thread <a href="https://twitter.com/karpathy/status/1751350002281300461" target="_blank"> https://twitter.com/karpathy/status/1751350002281300461 </a></li>
+<li>excellent blog, projects and design <a href="https://github.com/trekhleb/trekhleb.github.io" target="_blank"> https://github.com/trekhleb/trekhleb.github.io </a> , <a href="https://trekhleb.dev/" target="_blank"> https://trekhleb.dev/ </a></li>
+<li>Huge list of portfolio websites <a href="https://github.com/emmabostian/developer-portfolios" target="_blank"> https://github.com/emmabostian/developer-portfolios </a></li>
+<li>People promoting their blog posts <a href="https://www.reddit.com/r/coding/" target="_blank"> https://www.reddit.com/r/coding/ </a></li>
+<li>Portfolio links <a href="https://x.com/marcelkargul/status/1977015846729138291" target="_blank"> https://x.com/marcelkargul/status/1977015846729138291 </a>, <a href="https://x.com/denicmarko/status/1976946830710833226" target="_blank"> https://x.com/denicmarko/status/1976946830710833226 </a></li>
+</ul>
+<div class="flex gap-2 items-center group"> <a id="business" href="#business" class="flex target:!outline-none"> <svg width="1em" height="1em" viewBox="0 0 24 24" class="inline-block h-5 w-5 text-transparent group-hover:text-captions" data-icon="mdi:link-variant">  <use xlink:href="#ai:mdi:link-variant"></use>  </svg> </a> <h4> Business </h4> </div><ul>
+<li><a href="https://tinyacquisitions.com/home" target="_blank"> https://tinyacquisitions.com/home </a></li>
+<li>website monitor docker container <a href="https://github.com/dgtlmoon/changedetection.io" target="_blank"> https://github.com/dgtlmoon/changedetection.io </a></li>
+<li>maybe <a href="https://github.com/awesome-selfhosted/awesome-selfhosted" target="_blank"> https://github.com/awesome-selfhosted/awesome-selfhosted </a></li>
+<li>licenses <a href="https://www.tldrlegal.com/" target="_blank"> https://www.tldrlegal.com/ </a></li>
+<li>one man businesses list <a href="https://www.indie-wiki.com/" target="_blank"> https://www.indie-wiki.com/ </a></li>
+<li>excellent self hosted Docker backend <a href="https://github.com/pocketbase/pocketbase/" target="_blank"> https://github.com/pocketbase/pocketbase/ </a></li>
+<li>promotion channels <a href="https://github.com/trekhleb/promote-your-next-startup" target="_blank"> https://github.com/trekhleb/promote-your-next-startup </a></li>
+<li>free domains on my-website.eu.org <a href="https://nic.eu.org/" target="_blank"> https://nic.eu.org/ </a></li>
+<li>Marketeer with websites <a href="https://kaplich.me/projects" target="_blank"> https://kaplich.me/projects </a>, <a href="https://github.com/sergeykaplich" target="_blank"> https://github.com/sergeykaplich </a></li>
+<li>Scrape Facebook pages <a href="https://github.com/kevinzg/facebook-scraper" target="_blank"> https://github.com/kevinzg/facebook-scraper </a></li>
+<li>Web entrepreneur <a href="https://stevehanov.ca/blog" target="_blank"> https://stevehanov.ca/blog </a></li>
+<li>Romanian Saas builder <a href="https://www.youtube.com/@bitheap-tech" target="_blank"> https://www.youtube.com/@bitheap-tech </a>, <a href="https://x.com/Bitheap_tech" target="_blank"> https://x.com/Bitheap_tech </a></li>
+<li>Sideproject guide <a href="https://github.com/timqian/sideproject.guide" target="_blank"> https://github.com/timqian/sideproject.guide </a></li>
+</ul>
+<div class="flex gap-2 items-center group"> <a id="interviews" href="#interviews" class="flex target:!outline-none"> <svg width="1em" height="1em" viewBox="0 0 24 24" class="inline-block h-5 w-5 text-transparent group-hover:text-captions" data-icon="mdi:link-variant">  <use xlink:href="#ai:mdi:link-variant"></use>  </svg> </a> <h4> Interviews </h4> </div><ul>
+<li><a href="https://github.com/mtdvio/every-programmer-should-know" target="_blank"> https://github.com/mtdvio/every-programmer-should-know </a></li>
+<li>5 technical interview types <a href="https://www.youtube.com/watch?v=BPYK4jD7koQ" target="_blank"> https://www.youtube.com/watch?v=BPYK4jD7koQ </a></li>
+<li>playlist <a href="https://www.youtube.com/playlist?list=PLD7ZaVjV4w05WHTDooFprJzUJ8BBvoRaZ" target="_blank"> https://www.youtube.com/playlist?list=PLD7ZaVjV4w05WHTDooFprJzUJ8BBvoRaZ </a></li>
+<li><a href="https://github.com/karanpratapsingh/system-design" target="_blank"> https://github.com/karanpratapsingh/system-design </a></li>
+<li><a href="https://github.com/ByteByteGoHq/system-design-101" target="_blank"> https://github.com/ByteByteGoHq/system-design-101 </a></li>
+<li>concise System Design cheatsheet <a href="https://gist.github.com/vasanthk/485d1c25737e8e72759f" target="_blank"> https://gist.github.com/vasanthk/485d1c25737e8e72759f </a></li>
+<li>React <a href="https://github.com/sudheerj/reactjs-interview-questions" target="_blank"> https://github.com/sudheerj/reactjs-interview-questions </a></li>
+<li>Full stack <a href="https://github.com/indy256/Full-stack-Developer-Interview-Questions-and-Answers" target="_blank"> https://github.com/indy256/Full-stack-Developer-Interview-Questions-and-Answers </a></li>
+<li>Frontend gist <a href="https://gist.github.com/augbog/ed3502543169b6ce844313c69e4e1b2d" target="_blank"> https://gist.github.com/augbog/ed3502543169b6ce844313c69e4e1b2d </a></li>
+<li>Big O cheatsheet <a href="https://www.bigocheatsheet.com/" target="_blank"> https://www.bigocheatsheet.com/ </a></li>
+<li>System design <a href="https://github.com/ashishps1/awesome-system-design-resources" target="_blank"> https://github.com/ashishps1/awesome-system-design-resources </a>, behavioral <a href="https://github.com/ashishps1/awesome-behavioral-interviews" target="_blank"> https://github.com/ashishps1/awesome-behavioral-interviews </a>, interview preparation <a href="https://blog.algomaster.io/" target="_blank"> https://blog.algomaster.io/ </a></li>
+</ul>
+<div class="flex gap-2 items-center group"> <a id="algorithms-and-data-structures" href="#algorithms-and-data-structures" class="flex target:!outline-none"> <svg width="1em" height="1em" viewBox="0 0 24 24" class="inline-block h-5 w-5 text-transparent group-hover:text-captions" data-icon="mdi:link-variant">  <use xlink:href="#ai:mdi:link-variant"></use>  </svg> </a> <h4> Algorithms and Data structures </h4> </div><ul>
+<li><a href="https://algorithm-visualizer.org/" target="_blank"> https://algorithm-visualizer.org/ </a></li>
+<li><a href="https://www.youtube.com/watch?v=9rhT3P1MDHk&list=PLkZYeFmDuaN2-KUIv-mvbjfKszIGJ4FaY" target="_blank"> https://www.youtube.com/watch?v=9rhT3P1MDHk&amp;list=PLkZYeFmDuaN2-KUIv-mvbjfKszIGJ4FaY </a></li>
+<li><a href="https://www.bigocheatsheet.com" target="_blank"> https://www.bigocheatsheet.com </a></li>
+<li><a href="https://newsletter.francofernando.com/" target="_blank"> https://newsletter.francofernando.com/ </a></li>
+<li>Readmes + code <a href="https://github.com/trekhleb/javascript-algorithms" target="_blank"> https://github.com/trekhleb/javascript-algorithms </a></li>
+<li>Complete computer science studies <a href="https://github.com/ossu/computer-science" target="_blank"> https://github.com/ossu/computer-science </a> , <a href="https://ossu.firebaseapp.com/#/curriculum" target="_blank"> https://ossu.firebaseapp.com/#/curriculum </a> , mathematics <a href="https://github.com/ossu/math" target="_blank"> https://github.com/ossu/math </a></li>
+</ul>
+<div class="flex gap-2 items-center group"> <a id="people" href="#people" class="flex target:!outline-none"> <svg width="1em" height="1em" viewBox="0 0 24 24" class="inline-block h-5 w-5 text-transparent group-hover:text-captions" data-icon="mdi:link-variant">  <use xlink:href="#ai:mdi:link-variant"></use>  </svg> </a> <h4> People </h4> </div><ul>
+<li><a href="https://www.taniarascia.com/" target="_blank"> https://www.taniarascia.com/ </a></li>
+<li>most followed Github users per country <a href="https://github.com/gayanvoice/top-github-users/blob/main/markdown/public_contributions/serbia.md" target="_blank"> https://github.com/gayanvoice/top-github-users/blob/main/markdown/public_contributions/serbia.md </a></li>
+<li><a href="https://developers.google.com/community/experts" target="_blank"> https://developers.google.com/community/experts </a></li>
+<li><a href="https://vadimkravcenko.com/" target="_blank"> https://vadimkravcenko.com/ </a></li>
+<li>Bulgaria <a href="https://github.com/krasimir" target="_blank"> https://github.com/krasimir </a> , <a href="https://krasimirtsonev.com/" target="_blank"> https://krasimirtsonev.com/ </a></li>
+<li>cva author <a href="https://github.com/joe-bell/" target="_blank"> https://github.com/joe-bell/ </a> , <a href="https://joebell.studio/blog" target="_blank"> https://joebell.studio/blog </a></li>
+<li>Inter font creator <a href="https://github.com/rsms" target="_blank"> https://github.com/rsms </a> , <a href="https://rsms.me/about/" target="_blank"> https://rsms.me/about/ </a></li>
+<li>many apps <a href="https://github.com/alyssaxuu" target="_blank"> https://github.com/alyssaxuu </a></li>
+<li>excellent CSS blog <a href="https://lea.verou.me" target="_blank"> https://lea.verou.me </a> , <a href="https://github.com/leaverou/lea.verou.me" target="_blank"> https://github.com/leaverou/lea.verou.me </a></li>
+<li>Kazakhstan <a href="https://x.com/zhanymkanov" target="_blank"> https://x.com/zhanymkanov </a></li>
+<li>FastApi Russian <a href="https://github.com/s3rius?tab=repositories" target="_blank"> https://github.com/s3rius?tab=repositories </a>, <a href="https://s3rius.blog" target="_blank"> https://s3rius.blog </a></li>
+<li>FastApi Italian <a href="https://github.com/Kludex" target="_blank"> https://github.com/Kludex </a></li>
+<li>Gitpod, Vercel community <a href="https://github.com/pawlean" target="_blank"> https://github.com/pawlean </a></li>
+<li>perfect Next.js blog <a href="https://github.com/theodorusclarence" target="_blank"> https://github.com/theodorusclarence </a></li>
+<li>Node.js security, Israel <a href="https://github.com/lirantal" target="_blank"> https://github.com/lirantal </a>, <a href="https://lirantal.com/blog" target="_blank"> https://lirantal.com/blog </a></li>
+<li>LLM prompts, Turkish <a href="https://github.com/f" target="_blank"> https://github.com/f </a></li>
+<li>Sharp image library <a href="https://github.com/lovell" target="_blank"> https://github.com/lovell </a>, <a href="https://cv.lovell.info/" target="_blank"> https://cv.lovell.info/ </a></li>
+<li>LLMs famous Bulgarian <a href="https://github.com/ggerganov" target="_blank"> https://github.com/ggerganov </a>, <a href="https://ggerganov.com/" target="_blank"> https://ggerganov.com/ </a>, <a href="https://www.youtube.com/@ggerganov/videos" target="_blank"> https://www.youtube.com/@ggerganov/videos </a></li>
+<li>Python Authlib and <a href="https://typlog.com" target="_blank"> https://typlog.com </a> blogging platform creator <a href="https://github.com/lepture" target="_blank"> https://github.com/lepture </a></li>
+<li>FastApi, Astro starters <a href="https://github.com/igorbenav" target="_blank"> https://github.com/igorbenav </a></li>
+<li>Midday-ai, Cursor <a href="https://github.com/pontusab" target="_blank"> https://github.com/pontusab </a></li>
+<li>Golang, p2p, <a href="https://github.com/schollz" target="_blank"> https://github.com/schollz </a>, excellent blog <a href="https://schollz.com/posts/" target="_blank"> https://schollz.com/posts/ </a></li>
+<li>Tech tweets, Indian <a href="https://x.com/ujjwalscript/articles" target="_blank"> https://x.com/ujjwalscript/articles </a></li>
+<li>Swiss, DockTail <a href="https://github.com/marvinvr" target="_blank"> https://github.com/marvinvr </a></li>
+<li>Chinese, Vercel, Next.js, SWR, Satori <a href="https://github.com/shuding" target="_blank"> https://github.com/shuding </a>, <a href="https://shud.in/" target="_blank"> https://shud.in/ </a></li>
+<li>Roadmap guy <a href="https://github.com/nilbuild" target="_blank"> https://github.com/nilbuild </a>, <a href="https://kamran.fyi/posts" target="_blank"> https://kamran.fyi/posts </a>, <a href="https://youtube.com/@nilbuild" target="_blank"> https://youtube.com/@nilbuild </a></li>
+<li>HN trends author, Chinese charts websites <a href="https://github.com/timqian" target="_blank"> https://github.com/timqian </a></li>
+</ul>
+ </div>  <div class="mt-auto">  </div> </section> </article> </main> <footer class="border-t border-base-300 py-8 px-4"> <div class="max-w-6xl md:mx-auto flex justify-center md:justify-start"> <div class="flex justify-between gap-4 flex-col-reverse md:flex-row md:w-full"> <!-- left column --> <div class="flex items-center gap-2 flex-wrap text-sm text-content whitespace-nowrap"> <div class="flex items-center gap-2"> <label class="font-bold">Latest commit:</label> <a class="link-default link" href="https://github.com/nemanjam/nemanjam.github.io/commit/7fed9b43b84980be517d2a59290ef5eb4d195992" title="23rd October, 10pm" target="_blank"> remove url from desc... </a> </div> <div class="flex items-center gap-2"> <label class="font-bold">Design system:</label> <a class="link-default link" href="/design/" title="Design system"> link </a> </div> </div> <!-- right column --> <ul class="flex gap-2 flex-wrap xs:flex-nowrap lg:items-center"> <li> <a class="link-default link-nav flex items-center gap-2 text-base xs:text-lg" href="https://github.com/nemanjam" target="_blank" rel="me noreferrer noopener" title="@nemanjam on Github">  <svg width="1em" height="1em" viewBox="0 0 24 24" class="h-6 w-6 fill-current" data-icon="mdi:github">  <symbol id="ai:mdi:github"><path fill="currentColor" d="M12 2A10 10 0 0 0 2 12c0 4.42 2.87 8.17 6.84 9.5c.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34c-.46-1.16-1.11-1.47-1.11-1.47c-.91-.62.07-.6.07-.6c1 .07 1.53 1.03 1.53 1.03c.87 1.52 2.34 1.07 2.91.83c.09-.65.35-1.09.63-1.34c-2.22-.25-4.55-1.11-4.55-4.92c0-1.11.38-2 1.03-2.71c-.1-.25-.45-1.29.1-2.64c0 0 .84-.27 2.75 1.02c.79-.22 1.65-.33 2.5-.33s1.71.11 2.5.33c1.91-1.29 2.75-1.02 2.75-1.02c.55 1.35.2 2.39.1 2.64c.65.71 1.03 1.6 1.03 2.71c0 3.82-2.34 4.66-4.57 4.91c.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0 0 12 2"/></symbol><use xlink:href="#ai:mdi:github"></use>  </svg> <span>Github</span>  </a> </li> <li> <a class="link-default link-nav flex items-center gap-2 text-base xs:text-lg" href="https://www.linkedin.com/in/nemanja-mitic" target="_blank" rel="me noreferrer noopener" title="Nemanja on LinkedIn">  <svg width="1em" height="1em" viewBox="0 0 24 24" class="h-6 w-6 fill-current" data-icon="mdi:linkedin">  <symbol id="ai:mdi:linkedin"><path fill="currentColor" d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2zm-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.32 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93zM6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37z"/></symbol><use xlink:href="#ai:mdi:linkedin"></use>  </svg> <span>LinkedIn</span>  </a> </li> <li> <a class="link-default link-nav flex items-center gap-2 text-base xs:text-lg" href="/api/feed.xml" title="RSS feed for nemanjam.github.io">  <svg width="1em" height="1em" viewBox="0 0 24 24" class="h-6 w-6 fill-current" data-icon="mdi:rss">  <symbol id="ai:mdi:rss"><path fill="currentColor" d="M6.18 15.64a2.18 2.18 0 0 1 2.18 2.18C8.36 19 7.38 20 6.18 20C5 20 4 19 4 17.82a2.18 2.18 0 0 1 2.18-2.18M4 4.44A15.56 15.56 0 0 1 19.56 20h-2.83A12.73 12.73 0 0 0 4 7.27zm0 5.66a9.9 9.9 0 0 1 9.9 9.9h-2.83A7.07 7.07 0 0 0 4 12.93z"/></symbol><use xlink:href="#ai:mdi:rss"></use>  </svg> <span>RSS Feed</span>  </a> </li> </ul> </div> </div> </footer> <style>astro-island,astro-slot,astro-static-slot{display:contents}</style><script>(()=>{var e=async t=>{await(await t())()};(self.Astro||(self.Astro={})).only=e;window.dispatchEvent(new Event("astro:only"));})();;(()=>{var A=Object.defineProperty;var g=(i,o,a)=>o in i?A(i,o,{enumerable:!0,configurable:!0,writable:!0,value:a}):i[o]=a;var d=(i,o,a)=>g(i,typeof o!="symbol"?o+"":o,a);{let i={0:t=>m(t),1:t=>a(t),2:t=>new RegExp(t),3:t=>new Date(t),4:t=>new Map(a(t)),5:t=>new Set(a(t)),6:t=>BigInt(t),7:t=>new URL(t),8:t=>new Uint8Array(t),9:t=>new Uint16Array(t),10:t=>new Uint32Array(t),11:t=>1/0*t},o=t=>{let[l,e]=t;return l in i?i[l](e):void 0},a=t=>t.map(o),m=t=>typeof t!="object"||t===null?t:Object.fromEntries(Object.entries(t).map(([l,e])=>[l,o(e)]));class y extends HTMLElement{constructor(){super(...arguments);d(this,"Component");d(this,"hydrator");d(this,"hydrate",async()=>{var b;if(!this.hydrator||!this.isConnected)return;let e=(b=this.parentElement)==null?void 0:b.closest("astro-island[ssr]");if(e){e.addEventListener("astro:hydrate",this.hydrate,{once:!0});return}let c=this.querySelectorAll("astro-slot"),n={},h=this.querySelectorAll("template[data-astro-template]");for(let r of h){let s=r.closest(this.tagName);s!=null&&s.isSameNode(this)&&(n[r.getAttribute("data-astro-template")||"default"]=r.innerHTML,r.remove())}for(let r of c){let s=r.closest(this.tagName);s!=null&&s.isSameNode(this)&&(n[r.getAttribute("name")||"default"]=r.innerHTML)}let p;try{p=this.hasAttribute("props")?m(JSON.parse(this.getAttribute("props"))):{}}catch(r){let s=this.getAttribute("component-url")||"<unknown>",v=this.getAttribute("component-export");throw v&&(s+=` (export ${v})`),console.error(`[hydrate] Error parsing props for component ${s}`,this.getAttribute("props"),r),r}let u;await this.hydrator(this)(this.Component,p,n,{client:this.getAttribute("client")}),this.removeAttribute("ssr"),this.dispatchEvent(new CustomEvent("astro:hydrate"))});d(this,"unmount",()=>{this.isConnected||this.dispatchEvent(new CustomEvent("astro:unmount"))})}disconnectedCallback(){document.removeEventListener("astro:after-swap",this.unmount),document.addEventListener("astro:after-swap",this.unmount,{once:!0})}connectedCallback(){if(!this.hasAttribute("await-children")||document.readyState==="interactive"||document.readyState==="complete")this.childrenConnectedCallback();else{let e=()=>{document.removeEventListener("DOMContentLoaded",e),c.disconnect(),this.childrenConnectedCallback()},c=new MutationObserver(()=>{var n;((n=this.lastChild)==null?void 0:n.nodeType)===Node.COMMENT_NODE&&this.lastChild.nodeValue==="astro:end"&&(this.lastChild.remove(),e())});c.observe(this,{childList:!0}),document.addEventListener("DOMContentLoaded",e)}}async childrenConnectedCallback(){let e=this.getAttribute("before-hydration-url");e&&await import(e),this.start()}async start(){let e=JSON.parse(this.getAttribute("opts")),c=this.getAttribute("client");if(Astro[c]===void 0){window.addEventListener(`astro:${c}`,()=>this.start(),{once:!0});return}try{await Astro[c](async()=>{let n=this.getAttribute("renderer-url"),[h,{default:p}]=await Promise.all([import(this.getAttribute("component-url")),n?import(n):()=>()=>{}]),u=this.getAttribute("component-export")||"default";if(!u.includes("."))this.Component=h[u];else{this.Component=h;for(let f of u.split("."))this.Component=this.Component[f]}return this.hydrator=p,this.hydrate},e,this)}catch(n){console.error(`[astro-island] Error hydrating ${this.getAttribute("component-url")}`,n)}}attributeChangedCallback(){this.hydrate()}}d(y,"observedAttributes",["props"]),customElements.get("astro-island")||customElements.define("astro-island",y)}})();</script><astro-island uid="Z5NTfB" component-url="/_astro/ScrollToTop.DEzDiD-j.js" component-export="default" renderer-url="/_astro/client.WI9wUHpr.js" props="{}" ssr="" client="only" opts="{&quot;name&quot;:&quot;ScrollToTop&quot;,&quot;value&quot;:&quot;react&quot;}" await-children=""><template data-astro-template> <svg width="1em" height="1em" viewBox="0 0 24 24" class="h-10 w-10 text-content hover:text-links-hover" data-icon="mdi:arrow-up-thin">  <symbol id="ai:mdi:arrow-up-thin"><path fill="currentColor" d="M7.03 9.97h4v8.92l2.01.03V9.97h3.99l-5-5Z"/></symbol><use xlink:href="#ai:mdi:arrow-up-thin"></use>  </svg> </template><!--astro:end--></astro-island>  </body></html>  

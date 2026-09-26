@@ -9,6 +9,67 @@
  "diff_after": 18,
  "became_identical": 0,
  "flagged_pages": [],
- "signal_lost": false,
- "analysis": "18/18 pages differ before and after; 0 became identical."
+ "signal_lost": true,
+ "analysis": "18/18 pages differ before and after; 0 became identical.",
+ "region_analysis": {
+  "shiki-unwrap": {
+   "matcher": "dom: lxml.html parse; selector \"pre.astro-code span, pre[data-theme] span\" translated to XPath [\"//pre[contains(concat(' ',normalize-space(@class),' '),' astro-code ')]//span\", '//pre[@data-theme]//span']; each selected element serialized via lxml.html.tostring(unicode); elements paired by document order per page; region normalization = element text content (both dom rules unwrap tags but keep text)",
+   "files_compared": 18,
+   "regions_matched": 4746,
+   "regions_differing_raw": 4744,
+   "regions_differing_across_commits": 254,
+   "regions_preserved_but_differing": 4490,
+   "unpaired_before": 1250,
+   "unpaired_after": 0,
+   "examples": [
+    {
+     "file": "id/notes/how-to-setup-husky-nextjs/index.html",
+     "before": "<span class=\"line\"><span style=\"color:#6F42C1;--shiki-dark:#80A665\">$</span><span style=\"color:#032F62;--shiki-dark:#C98A7D\"> git</span><span style=\"color:#032F62;--shiki-dark:#C98A7D\"> commit</span></span>\n",
+     "after": "<span class=\"line\"><span style=\"color:#953800;--shiki-dark:#FFA657\">$</span><span style=\"color:#0A3069;--shiki-dark:#A5D6FF\"> git</span><span style=\"color:#0A3069;--shiki-dark:#A5D6FF\"> commit</span></span>\n",
+     "shared_text": "$ git commit"
+    },
+    {
+     "file": "id/notes/how-to-setup-husky-nextjs/index.html",
+     "before": "<span style=\"color:#6F42C1;--shiki-dark:#80A665\">$</span>",
+     "after": "<span style=\"color:#953800;--shiki-dark:#FFA657\">$</span>",
+     "shared_text": "$"
+    },
+    {
+     "file": "id/notes/how-to-setup-husky-nextjs/index.html",
+     "before": "<span style=\"color:#032F62;--shiki-dark:#C98A7D\"> git</span>",
+     "after": "<span style=\"color:#0A3069;--shiki-dark:#A5D6FF\"> git</span>",
+     "shared_text": " git"
+    },
+    {
+     "file": "id/notes/how-to-setup-husky-nextjs/index.html",
+     "before": "<span style=\"color:#032F62;--shiki-dark:#C98A7D\"> commit</span>",
+     "after": "<span style=\"color:#0A3069;--shiki-dark:#A5D6FF\"> commit</span>",
+     "shared_text": " commit"
+    },
+    {
+     "file": "id/notes/how-to-setup-husky-nextjs/index.html",
+     "before": "<span class=\"line\"><span style=\"color:#6F42C1;--shiki-dark:#80A665\">✔</span><span style=\"color:#032F62;--shiki-dark:#C98A7D\"> Preparing</span><span style=\"color:#032F62;--shiki-dark:#C98A7D\"> lint-staged...</span></span>\n",
+     "after": "<span class=\"line\"><span style=\"color:#953800;--shiki-dark:#FFA657\">✔</span><span style=\"color:#0A3069;--shiki-dark:#A5D6FF\"> Preparing</span><span style=\"color:#0A3069;--shiki-dark:#A5D6FF\"> lint-staged...</span></span>\n",
+     "shared_text": "✔ Preparing lint-staged..."
+    }
+   ],
+   "signal_lost": true
+  },
+  "sitemap-lastmod": {
+   "matcher": "regex: rule pattern applied to raw file text; match spans paired by document order per page; region normalization = match.expand(replacement)",
+   "files_compared": 0,
+   "regions_matched": 0,
+   "regions_differing_raw": 0,
+   "regions_differing_across_commits": 0,
+   "regions_preserved_but_differing": 0,
+   "unpaired_before": 0,
+   "unpaired_after": 0,
+   "examples": [],
+   "signal_lost": false,
+   "measurability": "not_measurable: no .xml/.opml files are present in either signal-pair build dir on disk (only HTML was retained for the signal builds); the rule could not be exercised"
+  }
+ },
+ "signal_lost_rules": [
+  "shiki-unwrap"
+ ]
 }

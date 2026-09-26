@@ -1,0 +1,103 @@
+{
+ "b3_locale": {
+  "LANG": "de_DE.UTF-8",
+  "LC_ALL": "de_DE.UTF-8",
+  "LOCPATH": "/home/hatch/.locales",
+  "TZ": "Pacific/Auckland",
+  "probe": "every locale category resolved to de_DE.UTF-8 (see b3_locale_probe.txt in scratch dir)"
+ },
+ "b4_cache_clearing": {
+  "7090d6acbb75": [
+   "/home/hatch/.cache/hugo_cache (removed)",
+   "/tmp/hugo_cache (absent)",
+   "hugo --gc timed out after 120s (killed; file caches already deleted)",
+   "worktree resources/_gen (removed)"
+  ],
+  "e302344a57a8": "same actions as fed853722c17 (see manifest)",
+  "fed853722c17": [
+   "/home/hatch/.cache/hugo_cache (removed)",
+   "/tmp/hugo_cache (absent)",
+   "hugo --gc rc=0",
+   "worktree resources/_gen (removed)"
+  ]
+ },
+ "build_command": "hugo --minify",
+ "command_changes": [
+  {
+   "build_command_unchanged": "hugo --minify",
+   "change": "worktree-only config.yml override: timeout 180s -> 600s",
+   "commits": [
+    "7090d6acbb75"
+   ],
+   "reason": "site's heaviest page (content/zh/growth/posts/2026-03-27-lhasa-slow-and-heavy.md) exceeded the 180s per-page render timeout under this machine's CPU contention (2 cores, load ~20); first attempt failed after 2574.6s with 'timed out rendering the page content ... timeout after 3m0s'. The override only extends Hugo's wait; rendered bytes are unaffected. Recorded per-build in manifest config_override."
+  }
+ ],
+ "environment_notes": [
+  "7090d6acbb75 builds required same-worktree retries (resources/_gen image cache warms progressively; 274 images vs 120 at e302344a57a8); source inputs identical across attempts; recorded in manifest retry_note where applicable.",
+  "~/bin/hugo (v0.152.2) was deleted twice by a sibling worker managing ~/bin; restored exact binary from GitHub releases and moved to private path ~/workspace/13-scratch/cubxxw__blog/bin/hugo. Manifests record hugo_version string, unaffected by path.",
+  "b4 hugo --gc hung >17 min at 7090d6acbb75 (killed); file caches were already deleted so semantics preserved; recorded in manifest."
+ ],
+ "hugo_version": "hugo v0.152.2-6abdacad3f3fe944ea42177844469139e81feda6+extended linux/amd64 BuildDate=2025-10-24T15:31:49Z VendorInfo=gohugoio",
+ "incomplete": [],
+ "install": "none (hugo static binary)",
+ "repo": "cubxxw/blog",
+ "signal_pair": {
+  "changed_content_files_en_zh": 49,
+  "changed_files": [
+   "content/en/about.md",
+   "content/en/ai-technology/posts/agent-engineering-the-98-percent-harness.md",
+   "content/en/ai-technology/posts/context-engineering-the-new-foundation.md",
+   "content/en/ai-technology/posts/deep-dive-into-the-components-of-kubernetes-kube-apiserver.md",
+   "content/en/ai-technology/posts/dissecting-open-lovable.md",
+   "content/en/ai-technology/posts/exploring-sora-technology-for-enthusiasts-and-developers.md",
+   "content/en/ai-technology/posts/my-hugo.md",
+   "content/en/ai-technology/posts/open-source-contribution-guidelines.md",
+   "content/en/ai-technology/posts/participating-in-this-project.md",
+   "content/en/ai-technology/posts/relay-agent-architecture-design.md",
+   "content/en/ai-technology/posts/sora-ease-guide-mastering-sora-ai-for-developers.md",
+   "content/en/columns/ignite-and-settle/_index.md",
+   "content/en/growth/posts/2023-annual-summary-reflections-and-aspirations.md",
+   "content/en/growth/posts/2026-02-thought-notes.md",
+   "content/en/growth/posts/2026-05-thought-notes.md",
+   "content/en/growth/posts/2026-06-28-ignite-and-settle-1-quality-and-time.md",
+   "content/en/growth/posts/2026-06-28-ignite-and-settle-2-avoidant.md",
+   "content/en/growth/posts/2026-06-28-ignite-and-settle-3-anxious.md",
+   "content/en/growth/posts/2026-06-thought-notes.md",
+   "content/en/growth/posts/super-individual-ai-product-and-solo-builder-stack.md",
+   "content/en/projects/langchain.md",
+   "content/en/start-here.md",
+   "content/zh/about.md",
+   "content/zh/ai-technology/posts/agent-engineering-the-98-percent-harness.md",
+   "content/zh/ai-technology/posts/context-engineering-the-new-foundation.md",
+   "content/zh/ai-technology/posts/deep-dive-into-the-components-of-kubernetes-kube-apiserver.md",
+   "content/zh/ai-technology/posts/deployment-and-design-of-management-backend-and-monitoring.md",
+   "content/zh/ai-technology/posts/dissecting-open-lovable.md",
+   "content/zh/ai-technology/posts/exploring-sora-technology-for-enthusiasts-and-developers.md",
+   "content/zh/ai-technology/posts/my-hugo.md",
+   "content/zh/ai-technology/posts/open-source-contribution-guidelines.md",
+   "content/zh/ai-technology/posts/participating-in-this-project.md",
+   "content/zh/ai-technology/posts/relay-agent-architecture-design.md",
+   "content/zh/ai-technology/posts/sora-ease-guide-mastering-sora-ai-for-developers.md",
+   "content/zh/columns/ignite-and-settle/_index.md",
+   "content/zh/growth/posts/2023-annual-summary-reflections-and-aspirations.md",
+   "content/zh/growth/posts/2026-02-thought-notes.md",
+   "content/zh/growth/posts/2026-03-thought-notes.md",
+   "content/zh/growth/posts/2026-05-thought-notes.md",
+   "content/zh/growth/posts/2026-06-28-ignite-and-settle-1-quality-and-time.md",
+   "content/zh/growth/posts/2026-06-28-ignite-and-settle-2-avoidant.md",
+   "content/zh/growth/posts/2026-06-28-ignite-and-settle-3-anxious.md",
+   "content/zh/growth/posts/2026-06-thought-notes.md",
+   "content/zh/growth/posts/super-individual-ai-product-and-solo-builder-stack.md",
+   "content/zh/projects/_index.md",
+   "content/zh/projects/langchain.md",
+   "content/zh/projects/langgraph.md",
+   "content/zh/projects/notebooklm.md",
+   "content/zh/start-here.md"
+  ],
+  "commits": [
+   "52710aa61c60be7b10ce30af54653420a1f5aad7",
+   "e302344a57a83e737d417e3820ff3eb3bb367514"
+  ]
+ },
+ "slug": "cubxxw__blog"
+}

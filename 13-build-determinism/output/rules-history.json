@@ -1,6 +1,6 @@
 {
  "generated": "2026-09-25",
- "note": "Central rules.json merged from 12 site workers' candidate rules. 29 candidate rules inventoried; 2 merged (shiki-unwrap from alex R2+rimzz R1; sitemap-lastmod from madrilene R2+rimzz R2; cache-buster-q from tempertemper+beeps). 3 added centrally during Phase 4 (shiki-unwrap extended to nemanjam pre[data-theme]; category-page-num-mask; nemanjam-more-posts). No rules narrowed due to signal loss; all signal_lost=false. 1 added centrally during Phase 4 re-evaluation (beeps-redaction-mask).",
+ "note": "Central rules.json merged from 12 site workers' candidate rules. 29 candidate rules inventoried; 2 merged (shiki-unwrap from alex R2+rimzz R1; sitemap-lastmod from madrilene R2+rimzz R2; cache-buster-q from tempertemper+beeps). 3 added centrally during Phase 4 (shiki-unwrap extended to nemanjam pre[data-theme]; category-page-num-mask; nemanjam-more-posts). No rules narrowed due to signal loss; all signal_lost=false. 1 added centrally during Phase 4 re-evaluation (beeps-redaction-mask). [2026-09-26 REVIEW.md corrections C2/C3: 8 rules withdrawn fully (5 nemanjam generated-content rules + category-page-num-mask, beeps-redaction-mask, nuxt-tz-bare for no citable source difference) and shiki-unwrap scoped off nemanjam. Active set 30 -> 22. Withdrawal entries carry reason, timestamp, and the rule snapshot.]",
  "candidate_rule_inventory": [
   {
    "site": "alexcarpenter/alexcarpenter.me",
@@ -102,12 +102,11 @@
   }
  ],
  "narrowing_events": [],
- "final_rule_count": 30,
+ "final_rule_count": 22,
  "final_rule_ids": [
   "shiki-unwrap",
   "cache-buster-q",
   "category-order-mask",
-  "category-page-num-mask",
   "chroma-text",
   "nuxt-prerenderedAt",
   "nuxt-time-gmt",
@@ -115,24 +114,197 @@
   "nuxt-meta-uuid",
   "nuxt-buildid",
   "nuxt-cssmod",
-  "nemanjam-image-suffix",
-  "nemanjam-excerpt-tail",
-  "nemanjam-island-uid",
-  "nemanjam-more-posts",
   "alex-present-time",
   "beeps-og-timestamp",
-  "beeps-redaction-mask",
   "cubxxw-hp-date",
   "godruoyi-time-tz",
   "madrilene-time-display",
   "nuxt-tz-span",
   "nuxt-tz-jil",
   "nuxt-tz-b",
-  "nuxt-tz-bare",
-  "nemanjam-hoisted-js",
   "feed-updated",
   "sitemap-lastmod",
   "opml-datecreated",
   "godruoyi-pubdate"
+ ],
+ "withdrawals": [
+  {
+   "rule_id": "nemanjam-image-suffix",
+   "scope": "full",
+   "correction": "C2",
+   "withdrawn_at": "2026-09-26T12:50:55Z",
+   "reason": "Site reclassified live_data/other: \"generated content\": its posts are generated placeholder text (\"Dolor velit excepteur cupidatat aute in fugiat id reprehenderit ipsum qui tempor fugiat. Excepteur tempor culpa velit duis quis…\") that changes on every build, and 52 page paths exist only in one build of the same commit (differences/nemanjam__nemanjam.github.io.json, 6333be10bf83 b1_b2: only_in_b1=52, only_in_b2=52). Masking that is not normalization.",
+   "rule_snapshot": {
+    "applies_to": "html",
+    "cause": "content_hash_filename",
+    "id": "nemanjam-image-suffix",
+    "kind": "regex",
+    "note": "Normalizes Astro transformed-image _<transformHash> suffix which depends on absolute worktree path via src.fsPath.",
+    "pattern": "/_astro/[A-Za-z0-9_.-]+?\\.[A-Za-z0-9_-]+_[A-Za-z0-9_-]+(\\.webp)",
+    "replacement": "/_astro/IMAGE_HASH\\g<1>",
+    "sites_needing_it": [
+     "nemanjam/nemanjam.github.io"
+    ]
+   }
+  },
+  {
+   "rule_id": "nemanjam-excerpt-tail",
+   "scope": "full",
+   "correction": "C2",
+   "withdrawn_at": "2026-09-26T12:50:55Z",
+   "reason": "Same as nemanjam-image-suffix: normalizes the random excerpt truncation (getRandomLengthSubstring) of generated placeholder post text.",
+   "rule_snapshot": {
+    "applies_to": "html",
+    "cause": "random_id",
+    "id": "nemanjam-excerpt-tail",
+    "kind": "regex",
+    "note": "Normalizes random post-card excerpt truncation (getRandomLengthSubstring).",
+    "pattern": "(<p>)([^<]{100,200}?…)(</p>)",
+    "replacement": "\\g<1>EXCERPT\\g<3>",
+    "sites_needing_it": [
+     "nemanjam/nemanjam.github.io"
+    ]
+   }
+  },
+  {
+   "rule_id": "nemanjam-island-uid",
+   "scope": "full",
+   "correction": "C2",
+   "withdrawn_at": "2026-09-26T12:50:55Z",
+   "reason": "Same as nemanjam-image-suffix: normalizes per-build random island uids on pages of generated placeholder content.",
+   "rule_snapshot": {
+    "applies_to": "html",
+    "cause": "random_id",
+    "id": "nemanjam-island-uid",
+    "kind": "regex",
+    "pattern": "(<astro-island uid=\")[^\"]+(\")",
+    "replacement": "\\g<1>UID\\g<2>",
+    "sites_needing_it": [
+     "nemanjam/nemanjam.github.io"
+    ]
+   }
+  },
+  {
+   "rule_id": "nemanjam-more-posts",
+   "scope": "full",
+   "correction": "C2+C3",
+   "withdrawn_at": "2026-09-26T12:50:55Z",
+   "reason": "C2: same generated-content reclassification. C3: additionally, no region in differences/nemanjam__nemanjam.github.io.json mentions \"More posts\" (grep count 0), and the rule pattern does not match the actual build HTML (the markup is \"More posts</h2>  </div> <ul ...>\", which the pattern \"(More posts</h2> <ul[^>]*>)\" cannot match; verified 0 matches in the nemanjam signal builds).",
+   "rule_snapshot": {
+    "applies_to": "html",
+    "cause": "random_id",
+    "id": "nemanjam-more-posts",
+    "kind": "regex",
+    "note": "Masks the randomized 'More posts' card grid (random post selection per build). Main article content unaffected.",
+    "pattern": "(More posts</h2> <ul[^>]*>).*?(</ul>)",
+    "replacement": "\\g<1>MORE_POSTS\\g<2>",
+    "sites_needing_it": [
+     "nemanjam/nemanjam.github.io"
+    ]
+   }
+  },
+  {
+   "rule_id": "nemanjam-hoisted-js",
+   "scope": "full",
+   "correction": "C2",
+   "withdrawn_at": "2026-09-26T12:50:55Z",
+   "reason": "Same as nemanjam-image-suffix: normalizes the per-build hoisted.js content hash on a generated-content site.",
+   "rule_snapshot": {
+    "addresses_build": "b3",
+    "applies_to": "html",
+    "cause": "content_hash_filename",
+    "id": "nemanjam-hoisted-js",
+    "kind": "regex",
+    "pattern": "/_astro/hoisted\\.[A-Za-z0-9_-]+(\\.js)",
+    "replacement": "/_astro/hoisted.HASH\\g<1>",
+    "sites_needing_it": [
+     "nemanjam/nemanjam.github.io"
+    ]
+   }
+  },
+  {
+   "rule_id": "category-page-num-mask",
+   "scope": "full",
+   "correction": "C3",
+   "withdrawn_at": "2026-09-26T12:50:55Z",
+   "reason": "No recorded difference region exhibits the \"<title>… – Page N – tempertemper</title>\" shape the rule targets: grep for \"title\" in differences/tempertemper__www.tempertemper.net.json returns 0 hits. The rule was inferred from the same TemplateMap race as category-order-mask but no verbatim region was ever recorded.",
+   "rule_snapshot": {
+    "applies_to": "html",
+    "cause": "ordering",
+    "id": "category-page-num-mask",
+    "kind": "regex",
+    "note": "Masks nondeterministic category pagination page number in <title> (same TemplateMap async race as category-order-mask). Scoped to category archive titles.",
+    "pattern": "(<title>[^<]* – Page )\\d+( – tempertemper</title>)",
+    "replacement": "\\g<1>N\\g<2>",
+    "sites_needing_it": [
+     "tempertemper/www.tempertemper.net"
+    ]
+   }
+  },
+  {
+   "rule_id": "beeps-redaction-mask",
+   "scope": "full",
+   "correction": "C3",
+   "withdrawn_at": "2026-09-26T12:50:55Z",
+   "reason": "No recorded difference region exhibits the redaction-block shape: differences/querkmachine__beeps.website.json contains no \"redact\" mention and no █ character (grep count 0).",
+   "rule_snapshot": {
+    "applies_to": "html",
+    "cause": "random_id",
+    "id": "beeps-redaction-mask",
+    "kind": "regex",
+    "note": "Masks random-length redaction █ blocks ('redacted for legal reasons' placeholders).",
+    "pattern": "(<span aria-hidden=\"true\">)[█ ]+(</span>)",
+    "replacement": "\\g<1>REDACTED\\g<2>",
+    "sites_needing_it": [
+     "querkmachine/beeps.website"
+    ]
+   }
+  },
+  {
+   "rule_id": "nuxt-tz-bare",
+   "scope": "full",
+   "correction": "C3",
+   "withdrawn_at": "2026-09-26T12:50:55Z",
+   "reason": "No recorded difference region exhibits the \"</svg><date></span>\" shape the rule pattern requires (0 matches for the rule pattern across the full text of differences/yunyuyuan__nuxt3-blog.json).",
+   "rule_snapshot": {
+    "addresses_build": "b3",
+    "applies_to": "html",
+    "cause": "locale_timezone",
+    "id": "nuxt-tz-bare",
+    "kind": "regex",
+    "note": "Simplified from worker R10 (bare dates after calendar icon / in metadata span).",
+    "pattern": "(</svg>)\\d{4}-\\d{2}-\\d{2}(</span>)",
+    "replacement": "\\g<1>0000-00-00\\g<2>",
+    "sites_needing_it": [
+     "yunyuyuan/nuxt3-blog"
+    ]
+   }
+  },
+  {
+   "rule_id": "shiki-unwrap",
+   "scope": "application to nemanjam/nemanjam.github.io only (rule stays active)",
+   "correction": "C2",
+   "withdrawn_at": "2026-09-26T12:50:55Z",
+   "reason": "Scoped withdrawal: the rule stays active for alexcarpenter/alexcarpenter.me and rimzzlabs/website (merged from their genuine R2/R1 rules with cited differences D2/D4). Only the nemanjam application is withdrawn under the generated-content reclassification; nemanjam removed from sites_needing_it.",
+   "rule_snapshot": {
+    "applies_to": "html",
+    "cause": "other",
+    "id": "shiki-unwrap",
+    "kind": "dom",
+    "merged_from": [
+     "alexcarpenter R2",
+     "rimzzlabs R1",
+     "nemanjam Shiki span-split (new, central)"
+    ],
+    "note": "Merged from alexcarpenter R2 and rimzzlabs R1 (identical operation); extended to nemanjam rehype-pretty-code pre[data-theme]. Normalizes Shiki dual-theme nondeterministic token-span splits and light-theme token colors; code text preserved.",
+    "operation": "unwrap span descendants of pre.astro-code (remove span tags, keep text content)",
+    "selector": "pre.astro-code span, pre[data-theme] span",
+    "sites_needing_it": [
+     "alexcarpenter/alexcarpenter.me",
+     "nemanjam/nemanjam.github.io",
+     "rimzzlabs/website"
+    ]
+   }
+  }
  ]
 }
