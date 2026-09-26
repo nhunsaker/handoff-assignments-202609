@@ -1,7 +1,7 @@
 {
  "sha12": "69bb20a57844",
  "sha": "69bb20a5784498e31d5ee17b69d078d21b319db0",
- "build_status": null,
+ "build_status": "ok",
  "prev_built_sha12": "bb11de8260a3",
  "page_count": 549,
  "pages": {

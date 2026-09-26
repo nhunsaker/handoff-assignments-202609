@@ -1,8 +1,8 @@
 {
  "sha12": "4936acab102f",
  "sha": "4936acab102fd9dab51dad0e0a9a1364c49eb28b",
- "build_status": null,
- "prev_built_sha12": "bb11de8260a3",
+ "build_status": "ok",
+ "prev_built_sha12": "80ff38bb470c",
  "page_count": 588,
  "pages": {
   "404.html": "body_changed",
