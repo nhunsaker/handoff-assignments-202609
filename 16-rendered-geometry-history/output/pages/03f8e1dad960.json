@@ -1,633 +1,165 @@
 {
- "sha": "03f8e1dad960569fd684ef7ef9c4639d5a2998ee",
  "sha12": "03f8e1dad960",
- "commit_index": 7,
- "previous_built_sha": "e1007c0b1cb169983ed50f89cee273523d29e7fd",
- "note": "page set decided from 11-manifests-normalized body hashes; actual render uses this repo build output",
- "pages": [
-  {
-   "page": "about.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/index.html",
-   "reason": "list_page_always_rendered"
-  },
-  {
-   "page": "blog/year/2011.html",
-   "reason": "list_page_always_rendered"
-  },
-  {
-   "page": "blog/year/2012.html",
-   "reason": "list_page_always_rendered"
-  },
-  {
-   "page": "blog/year/2013.html",
-   "reason": "list_page_always_rendered"
-  },
-  {
-   "page": "blog/year/2014.html",
-   "reason": "list_page_always_rendered"
-  },
-  {
-   "page": "blog/year/2015.html",
-   "reason": "list_page_always_rendered"
-  },
-  {
-   "page": "blog/year/2016.html",
-   "reason": "list_page_always_rendered"
-  },
-  {
-   "page": "blog/year/2017.html",
-   "reason": "list_page_always_rendered"
-  },
-  {
-   "page": "blog/year/2018.html",
-   "reason": "list_page_always_rendered"
-  },
-  {
-   "page": "blog/year/2019.html",
-   "reason": "list_page_always_rendered"
-  },
-  {
-   "page": "blog/year/2020.html",
-   "reason": "list_page_always_rendered"
-  },
-  {
-   "page": "blog/year/2021.html",
-   "reason": "list_page_always_rendered"
-  },
-  {
-   "page": "blog/year/2022.html",
-   "reason": "list_page_always_rendered"
-  },
-  {
-   "page": "blog/year/2023.html",
-   "reason": "list_page_always_rendered"
-  },
-  {
-   "page": "blog/year/2024.html",
-   "reason": "list_page_always_rendered"
-  },
-  {
-   "page": "blog/year/2025.html",
-   "reason": "list_page_always_rendered"
-  },
-  {
-   "page": "blog/year/2026.html",
-   "reason": "list_page_always_rendered"
-  },
-  {
-   "page": "category/accessibility.html",
-   "reason": "list_page_always_rendered"
-  },
-  {
-   "page": "category/apple.html",
-   "reason": "list_page_always_rendered"
-  },
-  {
-   "page": "category/brand.html",
-   "reason": "list_page_always_rendered"
-  },
-  {
-   "page": "category/business.html",
-   "reason": "list_page_always_rendered"
-  },
-  {
-   "page": "category/case-study.html",
-   "reason": "list_page_always_rendered"
-  },
-  {
-   "page": "category/content.html",
-   "reason": "list_page_always_rendered"
-  },
-  {
-   "page": "category/css.html",
-   "reason": "list_page_always_rendered"
-  },
-  {
-   "page": "category/design.html",
-   "reason": "list_page_always_rendered"
-  },
-  {
-   "page": "category/development.html",
-   "reason": "list_page_always_rendered"
-  },
-  {
-   "page": "category/email.html",
-   "reason": "list_page_always_rendered"
-  },
-  {
-   "page": "category/git.html",
-   "reason": "list_page_always_rendered"
-  },
-  {
-   "page": "category/html.html",
-   "reason": "list_page_always_rendered"
-  },
-  {
-   "page": "category/javascript.html",
-   "reason": "list_page_always_rendered"
-  },
-  {
-   "page": "category/markdown.html",
-   "reason": "list_page_always_rendered"
-  },
-  {
-   "page": "category/marketing.html",
-   "reason": "list_page_always_rendered"
-  },
-  {
-   "page": "category/meta-data.html",
-   "reason": "list_page_always_rendered"
-  },
-  {
-   "page": "category/performance.html",
-   "reason": "list_page_always_rendered"
-  },
-  {
-   "page": "category/search.html",
-   "reason": "list_page_always_rendered"
-  },
-  {
-   "page": "category/security.html",
-   "reason": "list_page_always_rendered"
-  },
-  {
-   "page": "category/serverless.html",
-   "reason": "list_page_always_rendered"
-  },
-  {
-   "page": "category/skills.html",
-   "reason": "list_page_always_rendered"
-  },
-  {
-   "page": "category/tools.html",
-   "reason": "list_page_always_rendered"
-  },
-  {
-   "page": "category/website-admin.html",
-   "reason": "list_page_always_rendered"
-  },
-  {
-   "page": "category/workflows.html",
-   "reason": "list_page_always_rendered"
-  },
-  {
-   "page": "colophon.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "consultancy.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "index.html",
-   "reason": "list_page_always_rendered"
-  },
-  {
-   "page": "portfolio/a-minimal-task-list-pattern-for-govuk.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "portfolio/designing-a-cohesive-suite-of-applications.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "portfolio/efficient-simple-and-usable-govuk-dashboard-pages.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "portfolio/making-a-government-service-accessible.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "portfolio/scaling-accessibility-awareness-at-sage-five-years-of-gaad.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "resources/android-email-set-up.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "resources/are-you-living-in-the-past.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "resources/bookmark-icons.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "resources/branded-email.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "resources/calls-to-action.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "resources/cms-updates.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "resources/contact-forms.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "resources/design-and-build-for-the-worst-case-scenario.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "resources/disability-on-the-web.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "resources/displaying-an-email-address-on-your-website.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "resources/do-i-need-a-cms.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "resources/do-i-need-a-mobile-website.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "resources/domain-name-renewals.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "resources/domain-names.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "resources/edit-your-blog-posts-off-line.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "resources/facebook-business-pages.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "resources/giving-social-media-the-right-information.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "resources/google-analytics.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "resources/google-gets-serious-about-ssl.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "resources/google-history-and-your-ranking.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "resources/google-places.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "resources/google-plus-whats-the-fuss.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "resources/hero-images-pros-and-cons.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "resources/how-can-twitter-help-my-business.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "resources/how-headings-work.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "resources/how-the-web-works.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "resources/how-to-write-a-link-using-markdown.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "resources/how-to-write-a-link.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "resources/image-alt-text.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "resources/image-cropping.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "resources/ios-email-set-up.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "resources/keywords.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "resources/like-follow-no-thanks.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "resources/links-make-the-web-go-round.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "resources/little-by-little.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "resources/look-after-your-domain-name.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "resources/making-the-most-of-your-blog-posts.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "resources/markdown-cheatsheet.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "resources/mobile-friendly-markers.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "resources/older-browsers.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "resources/page-descriptions.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "resources/page-titles.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "resources/password-security.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "resources/qr-readers.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "resources/reduce-spam.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "resources/regular-backups-are-important.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "resources/regular-website-maintenance.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "resources/should-you-go-responsive.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "resources/ssl-for-everyone.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "resources/taking-a-break-without-neglecting-your-business.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "resources/the-great-unknown.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "resources/the-three-golden-rules-of-sending-marketing-emails.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "resources/the-types-of-email.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "resources/tidy-up-your-sites-addresses-for-search.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "resources/types-of-email-and-when-to-use-each.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "resources/webfonts.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "resources/website-updates-and-avoiding-content-loss.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "resources/website-video.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "resources/what-is-markdown.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "resources/what-is-meta-data.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "resources/what-is-ssl-and-is-it-worth-the-bother.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "resources/what-search-engines-want.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "resources/what-you-see-isnt-what-you-get.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "resources/whats-in-a-browser.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "resources/why-do-i-need-a-website.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "resources/why-i-changed-my-baseline.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "resources/why-should-i-blog.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "resources/why-you-need-a-privacy-policy.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "resources/writing-your-website.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "skills/accessibility.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "skills/frontend-development.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "skills/user-experience-design.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "testimonials/ally-patton.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "testimonials/amy-collier.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "testimonials/andrew-dennis.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "testimonials/ant-barker.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "testimonials/cat-johnson.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "testimonials/charlotte-black.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "testimonials/damien-flannagan.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "testimonials/duncan-edwards.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "testimonials/graeme-andrew.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "testimonials/ian-blackburn.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "testimonials/ian-rowlands.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "testimonials/james-mann.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "testimonials/jenny-pattison.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "testimonials/jo-darby.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "testimonials/john-ruiz.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "testimonials/jonny-penzes-underhill.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "testimonials/jory-adamson.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "testimonials/karl-reid.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "testimonials/kathryn-taylor.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "testimonials/kevin-dawson.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "testimonials/lamara-mckinney.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "testimonials/leanne-clegg.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "testimonials/lesley-fenton.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "testimonials/liz-turnbull.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "testimonials/malin-bond.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "testimonials/martin-deane.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "testimonials/monika-papaj.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "testimonials/pete-wilkinson.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "testimonials/peter-opie.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "testimonials/phil-wilsdon.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "testimonials/ryan-davies.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "testimonials/steph-black.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "testimonials/tammy-sanders.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "testimonials/tessa-gayne.html",
-   "reason": "body_hash_changed"
-  }
- ]
+ "sha": "03f8e1dad960569fd684ef7ef9c4639d5a2998ee",
+ "build_status": "ok",
+ "prev_built_sha12": "e1007c0b1cb1",
+ "page_count": 156,
+ "pages": {
+  "about.html": "body_changed",
+  "blog/index.html": "list_page",
+  "blog/year/2011.html": "list_page",
+  "blog/year/2012.html": "list_page",
+  "blog/year/2013.html": "list_page",
+  "blog/year/2014.html": "list_page",
+  "blog/year/2015.html": "list_page",
+  "blog/year/2016.html": "list_page",
+  "blog/year/2017.html": "list_page",
+  "blog/year/2018.html": "list_page",
+  "blog/year/2019.html": "list_page",
+  "blog/year/2020.html": "list_page",
+  "blog/year/2021.html": "list_page",
+  "blog/year/2022.html": "list_page",
+  "blog/year/2023.html": "list_page",
+  "blog/year/2024.html": "list_page",
+  "blog/year/2025.html": "list_page",
+  "blog/year/2026.html": "list_page",
+  "category/accessibility.html": "list_page",
+  "category/apple.html": "list_page",
+  "category/brand.html": "list_page",
+  "category/business.html": "list_page",
+  "category/case-study.html": "list_page",
+  "category/content.html": "list_page",
+  "category/css.html": "list_page",
+  "category/design.html": "list_page",
+  "category/development.html": "list_page",
+  "category/email.html": "list_page",
+  "category/git.html": "list_page",
+  "category/html.html": "list_page",
+  "category/javascript.html": "list_page",
+  "category/markdown.html": "list_page",
+  "category/marketing.html": "list_page",
+  "category/meta-data.html": "list_page",
+  "category/performance.html": "list_page",
+  "category/search.html": "list_page",
+  "category/security.html": "list_page",
+  "category/serverless.html": "list_page",
+  "category/skills.html": "list_page",
+  "category/tools.html": "list_page",
+  "category/website-admin.html": "list_page",
+  "category/workflows.html": "list_page",
+  "colophon.html": "body_changed",
+  "consultancy.html": "body_changed",
+  "index.html": "list_page",
+  "portfolio/a-minimal-task-list-pattern-for-govuk.html": "body_changed",
+  "portfolio/designing-a-cohesive-suite-of-applications.html": "body_changed",
+  "portfolio/efficient-simple-and-usable-govuk-dashboard-pages.html": "body_changed",
+  "portfolio/making-a-government-service-accessible.html": "body_changed",
+  "portfolio/scaling-accessibility-awareness-at-sage-five-years-of-gaad.html": "body_changed",
+  "resources/android-email-set-up.html": "body_changed",
+  "resources/are-you-living-in-the-past.html": "body_changed",
+  "resources/bookmark-icons.html": "body_changed",
+  "resources/branded-email.html": "body_changed",
+  "resources/calls-to-action.html": "body_changed",
+  "resources/cms-updates.html": "body_changed",
+  "resources/contact-forms.html": "body_changed",
+  "resources/design-and-build-for-the-worst-case-scenario.html": "body_changed",
+  "resources/disability-on-the-web.html": "body_changed",
+  "resources/displaying-an-email-address-on-your-website.html": "body_changed",
+  "resources/do-i-need-a-cms.html": "body_changed",
+  "resources/do-i-need-a-mobile-website.html": "body_changed",
+  "resources/domain-name-renewals.html": "body_changed",
+  "resources/domain-names.html": "body_changed",
+  "resources/edit-your-blog-posts-off-line.html": "body_changed",
+  "resources/facebook-business-pages.html": "body_changed",
+  "resources/giving-social-media-the-right-information.html": "body_changed",
+  "resources/google-analytics.html": "body_changed",
+  "resources/google-gets-serious-about-ssl.html": "body_changed",
+  "resources/google-history-and-your-ranking.html": "body_changed",
+  "resources/google-places.html": "body_changed",
+  "resources/google-plus-whats-the-fuss.html": "body_changed",
+  "resources/hero-images-pros-and-cons.html": "body_changed",
+  "resources/how-can-twitter-help-my-business.html": "body_changed",
+  "resources/how-headings-work.html": "body_changed",
+  "resources/how-the-web-works.html": "body_changed",
+  "resources/how-to-write-a-link-using-markdown.html": "body_changed",
+  "resources/how-to-write-a-link.html": "body_changed",
+  "resources/image-alt-text.html": "body_changed",
+  "resources/image-cropping.html": "body_changed",
+  "resources/ios-email-set-up.html": "body_changed",
+  "resources/keywords.html": "body_changed",
+  "resources/like-follow-no-thanks.html": "body_changed",
+  "resources/links-make-the-web-go-round.html": "body_changed",
+  "resources/little-by-little.html": "body_changed",
+  "resources/look-after-your-domain-name.html": "body_changed",
+  "resources/making-the-most-of-your-blog-posts.html": "body_changed",
+  "resources/markdown-cheatsheet.html": "body_changed",
+  "resources/mobile-friendly-markers.html": "body_changed",
+  "resources/older-browsers.html": "body_changed",
+  "resources/page-descriptions.html": "body_changed",
+  "resources/page-titles.html": "body_changed",
+  "resources/password-security.html": "body_changed",
+  "resources/qr-readers.html": "body_changed",
+  "resources/reduce-spam.html": "body_changed",
+  "resources/regular-backups-are-important.html": "body_changed",
+  "resources/regular-website-maintenance.html": "body_changed",
+  "resources/should-you-go-responsive.html": "body_changed",
+  "resources/ssl-for-everyone.html": "body_changed",
+  "resources/taking-a-break-without-neglecting-your-business.html": "body_changed",
+  "resources/the-great-unknown.html": "body_changed",
+  "resources/the-three-golden-rules-of-sending-marketing-emails.html": "body_changed",
+  "resources/the-types-of-email.html": "body_changed",
+  "resources/tidy-up-your-sites-addresses-for-search.html": "body_changed",
+  "resources/types-of-email-and-when-to-use-each.html": "body_changed",
+  "resources/webfonts.html": "body_changed",
+  "resources/website-updates-and-avoiding-content-loss.html": "body_changed",
+  "resources/website-video.html": "body_changed",
+  "resources/what-is-markdown.html": "body_changed",
+  "resources/what-is-meta-data.html": "body_changed",
+  "resources/what-is-ssl-and-is-it-worth-the-bother.html": "body_changed",
+  "resources/what-search-engines-want.html": "body_changed",
+  "resources/what-you-see-isnt-what-you-get.html": "body_changed",
+  "resources/whats-in-a-browser.html": "body_changed",
+  "resources/why-do-i-need-a-website.html": "body_changed",
+  "resources/why-i-changed-my-baseline.html": "body_changed",
+  "resources/why-should-i-blog.html": "body_changed",
+  "resources/why-you-need-a-privacy-policy.html": "body_changed",
+  "resources/writing-your-website.html": "body_changed",
+  "skills/accessibility.html": "body_changed",
+  "skills/frontend-development.html": "body_changed",
+  "skills/user-experience-design.html": "body_changed",
+  "testimonials/ally-patton.html": "body_changed",
+  "testimonials/amy-collier.html": "body_changed",
+  "testimonials/andrew-dennis.html": "body_changed",
+  "testimonials/ant-barker.html": "body_changed",
+  "testimonials/cat-johnson.html": "body_changed",
+  "testimonials/charlotte-black.html": "body_changed",
+  "testimonials/damien-flannagan.html": "body_changed",
+  "testimonials/duncan-edwards.html": "body_changed",
+  "testimonials/graeme-andrew.html": "body_changed",
+  "testimonials/ian-blackburn.html": "body_changed",
+  "testimonials/ian-rowlands.html": "body_changed",
+  "testimonials/james-mann.html": "body_changed",
+  "testimonials/jenny-pattison.html": "body_changed",
+  "testimonials/jo-darby.html": "body_changed",
+  "testimonials/john-ruiz.html": "body_changed",
+  "testimonials/jonny-penzes-underhill.html": "body_changed",
+  "testimonials/jory-adamson.html": "body_changed",
+  "testimonials/karl-reid.html": "body_changed",
+  "testimonials/kathryn-taylor.html": "body_changed",
+  "testimonials/kevin-dawson.html": "body_changed",
+  "testimonials/lamara-mckinney.html": "body_changed",
+  "testimonials/leanne-clegg.html": "body_changed",
+  "testimonials/lesley-fenton.html": "body_changed",
+  "testimonials/liz-turnbull.html": "body_changed",
+  "testimonials/malin-bond.html": "body_changed",
+  "testimonials/martin-deane.html": "body_changed",
+  "testimonials/monika-papaj.html": "body_changed",
+  "testimonials/pete-wilkinson.html": "body_changed",
+  "testimonials/peter-opie.html": "body_changed",
+  "testimonials/phil-wilsdon.html": "body_changed",
+  "testimonials/ryan-davies.html": "body_changed",
+  "testimonials/steph-black.html": "body_changed",
+  "testimonials/tammy-sanders.html": "body_changed",
+  "testimonials/tessa-gayne.html": "body_changed"
+ }
 }

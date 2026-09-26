@@ -1,1321 +1,337 @@
 {
- "sha": "4c45055f56c7721786a200ae9dbc77e1ecabc926",
  "sha12": "4c45055f56c7",
- "commit_index": 54,
- "previous_built_sha": "6841f460da1d2f97816f071387a2c09c28cff3c3",
- "note": "page set decided from 11-manifests-normalized body hashes; actual render uses this repo build output",
- "pages": [
-  {
-   "page": "blog/3d-touch-is-gone-on-apple-watch.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/a-big-thank-you-for-an-incredible-leaving-present.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/a-handy-git-shortcut-to-fetch-and-prune.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/a-new-macbook-for-a-new-chapter.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/a-new-years-resolution-for-2019.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/a-shift-in-focus.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/a-week-with-ios-15.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/abbreviations-can-be-problematic.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/accessibility-beyond-the-obvious.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/accessibility-by-degrees.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/accessibility-doesnt-stop-at-wcag-compliance.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/accessibility-issues-when-removing-list-markers.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/accessibility-overlays-are-not-for-disabled-people.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/accessibility-represents-maturity.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/accessible-animated-content-without-the-compromise.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/accessible-animated-gifs-are-pointless.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/accessible-responsive-tables.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/adding-files-for-a-commit-with-asterisks.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/all-i-want-from-wwdc-2024.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/alt-text-for-css-generated-content.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/always-style-links-with-a-pseudo-class.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/an-enhancement-to-accessible-responsive-tables.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/an-introduction-to-html-attributes.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/an-unexpected-accessibility-benefit-of-video-calls.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/an-update-on-google-and-the-open-web.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/apple-dials-back-the-safari-15-for-macos-redesign.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/apple-watchs-default-app-view-is-bad.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/apple-youre-doing-the-dynamic-island-wrong.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/apples-keyboards-revisited.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/applying-a-git-stash-non-destructively.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/are-you-sure-that-table-isnt-a-list.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/avatars-and-alt-text.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/avif-and-webp-are-not-always-better-than-png-and-jpg.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/avif-image-compression-is-incredible.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/be-careful-with-strikethrough.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/blue-beanie-day.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/bold-and-italics-arent-read-by-screen-readers.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/booleans-in-aria.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/buttons-links-and-focus.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/buttons-with-icons-and-text.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/caching-fonts-on-netlify.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/chaining-git-commands.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/changing-editor-for-git-on-the-command-line.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/changing-the-way-i-start-a-project.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/changing-your-git-history.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/choosing-a-stash-from-the-list.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/choosing-dark-mode-on-macos.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/cleaner-focus-outlines-with-box-decoration-break.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/colour-alone-can-be-used-to-convey-meaning-and-i-dont-like-it.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/colour-contrast-on-tempertempernet.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/complexity-and-caution.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/controlling-email.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/converting-images-to-avif-in-2021.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/craig-federighi-on-essentially-mobile-first.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/critical-css-what-it-is-why-its-useful-and-how-it-works.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/css-naked-day.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/custom-numeric-passcodes-on-iphone.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/custom-unordered-list-markers-done-right.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/dark-mode-websites-on-macos-mojave.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/dashes-asterisks-and-plus-signs.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/de-prioritising-design.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/deleting-a-stash-in-git.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/design-and-dev-should-be-more-joined-up.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/design-for-everyone.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/ditching-google-analytics-in-favour-of-netlify-analytics.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/dont-meddle-with-user-input.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/downloading-a-website-as-html-files.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/dropbox-my-most-useful-app.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/empathy-and-renaming-my-master-branch-to-main.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/ensure-your-project-works-in-every-browser-and-for-every-user.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/erring-on-the-side-of-caution.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/even-the-finest-of-details-can-be-important.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/evernote.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/everything-has-its-time.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/face-id-and-masks.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/face-id-and-sunglasses.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/face-id-on-the-mac-wont-happen.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/first-impressions-of-ios-14.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/fixing-safaris-html-only-dark-mode-bug.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/fixing-your-last-git-commit.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/focus-appearance-explained.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/focus-on-the-people-that-make-things-happen.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/focus-priming.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/folder-sharing-and-the-new-apple-oss.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/form-styling-limitations-are-an-accessibility-issue.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/freeagent.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/front-of-the-frontend.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/frontend-front-end-or-front-end.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/frontend-ne-draws-to-a-close.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/getting-started-with-git-stash.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/getting-started-with-nvda.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/getting-started-with-voiceover-on-macos.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/getting-to-grips-with-git.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/getting-voiceover-to-shut-up.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/git-rebase-versus-merge.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/git-restore-to-discard-changes.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/giving-your-git-stash-a-name.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/going-all-in-on-icloud-passwords.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/google-are-spoiling-my-blue-beanie-day.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/headers-headings-and-titles.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/here-here-and-here.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/hierarchy-in-tables.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/how-i-approach-css-my-abc-system.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/how-my-websites-design-has-evolved.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/how-to-avoid-disabled-buttons.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/how-to-browse-the-web-with-the-keyboard-alone.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/how-to-change-the-first-number-of-an-ordered-list-in-html.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/how-to-diff-branches-in-git.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/how-to-rename-a-remote-repo-in-git.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/how-to-rename-the-master-branch-on-github.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/how-to-use-the-keyboard-to-navigate-on-safari.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/html-is-more-complicated-than-you-think.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/html-isnt-quite-accessible-out-of-the-box.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/html-only-dark-mode.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/i-cant-wait-for-dark-mode-on-ios.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/i-deleted-1password.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/icon-only-links-fail-wcag.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/id-forgotten-how-much-i-like-keynote.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/if-html-and-aria-dont-allow-it-its-probably-a-bad-idea.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/if-its-not-progressively-enhanced-its-not-accessible.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/if-one-person-is-remote-everyone-should-be-remote.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/if-only-apples-voice-memos-did-transcription.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/if-you-need-a-link-dont-use-a-button.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/if-youre-going-to-do-a-job-do-it-properly.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/images-as-the-first-thing-in-a-button-or-link.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/images-illustrations-and-contrast.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/implicit-aria-landmark-roles.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/in-search-of-the-best-writing-app.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/include-a-date-on-your-blog-posts.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/index.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/ios-14s-back-tap-a-better-way-to-access-control-centre.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/ios-15-face-id-sunglasses-and-apple-watch.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/iphone-event-2019.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/is-a11y-exclusive.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/its-good-to-make-mistakes.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/keep-on-learning.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/keeping-git-status-short.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/lazy-loading-images-without-javascript.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/leaving-the-frontend-ne-meet-up.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/lets-make-webmasters-a-thing-again.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/ligatures-in-coding-fonts.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/links-missing-href-attributes-and-over-engineered-code.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/list-style-articles.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/looks-like-3d-touch-is-going-away.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/mac-event-2021.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/making-sense-of-accessibility-and-the-law.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/mastodon-and-me.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/minimalism-and-progressive-enhancement.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/moving-to-apple-one-with-existing-apple-subscriptions.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/moving-to-netlify.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/my-favourite-rss-app.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/my-introduction-to-co-working.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/my-user-manual.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/netlify-deploy-previews.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/not-all-screen-reader-users-are-blind.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/on-not-setting-an-upstream-for-short-lived-branches.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/opening-links-in-a-new-tab-or-window-is-better-avoided.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/operator-mono-and-why-i-want-italics-in-my-code-editor.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/optional-closing-tags-in-html.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/overlapping-interactive-areas.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/own-your-own-content.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/page-headings-dont-belong-in-the-header.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/pixels-constraints-minimalism-and-tempertemper.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/practice-makes-perfect.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/progressively-enhanced-animated-content.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/pushing-to-a-differently-named-branch-on-your-remote.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/putting-the-time-in-up-front.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/reading-at-night-with-a-neat-iphone-hack.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/redirect-a-filename-in-netlify-without-specifying-the-path.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/reducing-motion.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/refining-focus-styles-with-focus-visible.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/refining-my-writing-process.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/reset-to-a-previous-commit.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/respecting-peoples-privacy.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/reversing-an-ordered-list-in-html.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/right-here-right-now.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/routine-and-flexibility.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/safari-15-4.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/safari-15s-tab-groups.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/safari-focus-visible-and-accessibility.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/safari-tab-icons.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/sass-mixins-for-increased-contrast-mode-and-dark-mode.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/saying-goodbye-to-uk-government.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/screen-reader-users-and-the-tab-key.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/scroll-bounce-page-background-colour.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/scrollbar-marker-colours-on-macos.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/searching-for-a-git-commit-by-name-with-grep.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/self-closing-elements-in-html.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/sentence-case-versus-title-case.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/setting-an-upstream-git-branch.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/setting-up-a-staging-site-with-netlify.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/settling-for-less.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/share-anyway.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/simplifying-branching-and-deployment-with-github-flow.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/skip-links-what-why-and-how.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/sleep-on-watchos-7.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/some-brief-thoughts-on-watchos-6.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/sometimes-when-its-false-its-true.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/splitting-a-hunk-in-gits-patch-mode.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/staging-different-parts-of-the-same-file-with-git.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/still-a-sucker-for-sublime.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/stop-search-indexing-for-netlify-deploy-previews-and-branch-deploys.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/stop-the-ride-i-want-to-get-off.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/styling-code-snippets-in-keynote.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/styling-list-markers-the-right-way.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/styling-underlines-with-css.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/swiftui-is-more-than-just-a-developer-convenience.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/switching-to-gmail.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/tempertempers-typefaces.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/text-snippets-on-apple-devices.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/text-underline-thickness-on-chrome.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/the-accessibility-conversations-you-want-to-be-having.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/the-benefits-of-co-working.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/the-best-sublime-text-theme.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/the-briefest-of-histories-of-responsive-images.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/the-curse-of-knowledge.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/the-difference-between-elements-and-tags-in-html.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/the-difference-between-increased-contrast-mode-and-windows-high-contrast-mode.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/the-difference-between-strikethrough-and-del.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/the-new-macbook-keyboard.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/the-return-of-the-heading-group.html",
-   "reason": "page_new"
-  },
-  {
-   "page": "blog/the-right-way-to-use-break-tags-in-html.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/the-simplest-solutions-are-usually-the-best.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/the-tempertemper-newsletter.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/the-trouble-with-back-links.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/theres-no-such-thing-as-menubar-navigation.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/theyre-my-rules-to-break.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/third-party-platforms-and-owning-your-own-content.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/thoughts-on-3d-touch.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/undelete-a-file-with-git.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/updating-netlify-deployments-when-renaming-your-main-git-branch.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/upgrading-from-a-home-button-to-a-face-id-iphone.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/upgrading-from-iphone-13-mini-to-16-pro.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/upgrading-from-iphone-xs-to-13-mini.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/user-wants-versus-accessibility.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/using-address-in-html-wont-be-problematic-for-much-longer.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/using-git-restore-to-discard-changes-within-a-file.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/using-git-switch-to-change-branches.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/using-horizontal-rules-in-html.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/using-iframes-to-embed-arbitrary-content-is-probably-a-bad-idea.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/using-image-aspect-ratios-to-avoiding-janky-page-loading.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/using-nvm-on-macos.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/using-pandoc-to-convert-markdown-to-jiras-textile-in-sublime-text.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/using-the-html-document-outline.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/using-the-increased-contrast-mode-css-media-query.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/using-the-keyboard-to-navigate-on-macos.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/using-voiceovers-rotor-on-macos.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/using-webp-images.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/version-control-for-articles-and-blog-posts.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/version-tagging-with-releases-in-github-flow.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/viewing-the-changes-in-a-git-stash.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/voice-control-for-macos-commands-cheatsheet.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/voiceovers-trackpad-commander-on-mac.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/webkit-has-fixed-the-implicit-role-on-footers.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/website-version-5.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/website-version-6.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/what-do-we-do-with-a-link-or-button-matters.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/what-has-happened-twitter.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/what-i-wish-was-in-wcag-prohibit-icon-only-buttons.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/what-if-no-ones-listening.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/what-watchos-7-might-have-in-store.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/whats-emphasis-and-whats-not.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/whats-rss-all-about.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/when-and-how-to-use-the-section-element.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/when-design-breaks-semantics.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/which-images-need-descriptive-text.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/which-way-is-that-arrow-pointing.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/why-i-always-raise-a-pull-request-on-solo-projects.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/why-i-havent-redesigned-my-portfolio-since-2014.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/why-i-prefer-not-to-use-css-shorthand.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/why-i-still-use-rss.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/why-i-stopped-using-ascii-art.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/why-im-not-using-git-aliases.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/why-is-accessibility-so-often-seen-as-a-low-priority.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/why-tempertemper.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/why-you-should-almost-always-underline-your-links.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/windows-high-contrast-mode-and-focus-outlines.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/wwdc-2019-roundup.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/wwdc-2020-roundup.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/wwdc-2021-roundup.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/wwdc-2022-roundup.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/wwdc-2023-roundup.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/wwdc-2025-roundup.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/xhtml-syntax-is-still-worth-using.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/year/2011.html",
-   "reason": "list_page_always_rendered"
-  },
-  {
-   "page": "blog/year/2012.html",
-   "reason": "list_page_always_rendered"
-  },
-  {
-   "page": "blog/year/2013.html",
-   "reason": "list_page_always_rendered"
-  },
-  {
-   "page": "blog/year/2014.html",
-   "reason": "list_page_always_rendered"
-  },
-  {
-   "page": "blog/year/2015.html",
-   "reason": "list_page_always_rendered"
-  },
-  {
-   "page": "blog/year/2016.html",
-   "reason": "list_page_always_rendered"
-  },
-  {
-   "page": "blog/year/2017.html",
-   "reason": "list_page_always_rendered"
-  },
-  {
-   "page": "blog/year/2018.html",
-   "reason": "list_page_always_rendered"
-  },
-  {
-   "page": "blog/year/2019.html",
-   "reason": "list_page_always_rendered"
-  },
-  {
-   "page": "blog/year/2020.html",
-   "reason": "list_page_always_rendered"
-  },
-  {
-   "page": "blog/year/2021.html",
-   "reason": "list_page_always_rendered"
-  },
-  {
-   "page": "blog/year/2022.html",
-   "reason": "list_page_always_rendered"
-  },
-  {
-   "page": "blog/year/2023.html",
-   "reason": "list_page_always_rendered"
-  },
-  {
-   "page": "blog/year/2024.html",
-   "reason": "list_page_always_rendered"
-  },
-  {
-   "page": "blog/year/2025.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "blog/year/2026.html",
-   "reason": "list_page_always_rendered"
-  },
-  {
-   "page": "blog/years-in-the-accessibility-learning-curve-continues.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "category/accessibility.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "category/apple.html",
-   "reason": "list_page_always_rendered"
-  },
-  {
-   "page": "category/approach.html",
-   "reason": "list_page_always_rendered"
-  },
-  {
-   "page": "category/brand.html",
-   "reason": "list_page_always_rendered"
-  },
-  {
-   "page": "category/business.html",
-   "reason": "list_page_always_rendered"
-  },
-  {
-   "page": "category/case-study.html",
-   "reason": "list_page_always_rendered"
-  },
-  {
-   "page": "category/content.html",
-   "reason": "list_page_always_rendered"
-  },
-  {
-   "page": "category/css.html",
-   "reason": "list_page_always_rendered"
-  },
-  {
-   "page": "category/design.html",
-   "reason": "list_page_always_rendered"
-  },
-  {
-   "page": "category/development.html",
-   "reason": "list_page_always_rendered"
-  },
-  {
-   "page": "category/email.html",
-   "reason": "list_page_always_rendered"
-  },
-  {
-   "page": "category/git.html",
-   "reason": "list_page_always_rendered"
-  },
-  {
-   "page": "category/html.html",
-   "reason": "body_hash_changed"
-  },
-  {
-   "page": "category/javascript.html",
-   "reason": "list_page_always_rendered"
-  },
-  {
-   "page": "category/markdown.html",
-   "reason": "list_page_always_rendered"
-  },
-  {
-   "page": "category/marketing.html",
-   "reason": "list_page_always_rendered"
-  },
-  {
-   "page": "category/meta-data.html",
-   "reason": "list_page_always_rendered"
-  },
-  {
-   "page": "category/performance.html",
-   "reason": "list_page_always_rendered"
-  },
-  {
-   "page": "category/search.html",
-   "reason": "list_page_always_rendered"
-  },
-  {
-   "page": "category/security.html",
-   "reason": "list_page_always_rendered"
-  },
-  {
-   "page": "category/serverless.html",
-   "reason": "list_page_always_rendered"
-  },
-  {
-   "page": "category/service.html",
-   "reason": "list_page_always_rendered"
-  },
-  {
-   "page": "category/skill.html",
-   "reason": "list_page_always_rendered"
-  },
-  {
-   "page": "category/tools.html",
-   "reason": "list_page_always_rendered"
-  },
-  {
-   "page": "category/website-admin.html",
-   "reason": "list_page_always_rendered"
-  },
-  {
-   "page": "category/workflows.html",
-   "reason": "list_page_always_rendered"
-  },
-  {
-   "page": "index.html",
-   "reason": "list_page_always_rendered"
-  }
- ]
+ "sha": "4c45055f56c7721786a200ae9dbc77e1ecabc926",
+ "build_status": "ok",
+ "prev_built_sha12": "6841f460da1d",
+ "page_count": 328,
+ "pages": {
+  "blog/3d-touch-is-gone-on-apple-watch.html": "body_changed",
+  "blog/a-big-thank-you-for-an-incredible-leaving-present.html": "body_changed",
+  "blog/a-handy-git-shortcut-to-fetch-and-prune.html": "body_changed",
+  "blog/a-new-macbook-for-a-new-chapter.html": "body_changed",
+  "blog/a-new-years-resolution-for-2019.html": "body_changed",
+  "blog/a-shift-in-focus.html": "body_changed",
+  "blog/a-week-with-ios-15.html": "body_changed",
+  "blog/abbreviations-can-be-problematic.html": "body_changed",
+  "blog/accessibility-beyond-the-obvious.html": "body_changed",
+  "blog/accessibility-by-degrees.html": "body_changed",
+  "blog/accessibility-doesnt-stop-at-wcag-compliance.html": "body_changed",
+  "blog/accessibility-issues-when-removing-list-markers.html": "body_changed",
+  "blog/accessibility-overlays-are-not-for-disabled-people.html": "body_changed",
+  "blog/accessibility-represents-maturity.html": "body_changed",
+  "blog/accessible-animated-content-without-the-compromise.html": "body_changed",
+  "blog/accessible-animated-gifs-are-pointless.html": "body_changed",
+  "blog/accessible-responsive-tables.html": "body_changed",
+  "blog/adding-files-for-a-commit-with-asterisks.html": "body_changed",
+  "blog/all-i-want-from-wwdc-2024.html": "body_changed",
+  "blog/alt-text-for-css-generated-content.html": "body_changed",
+  "blog/always-style-links-with-a-pseudo-class.html": "body_changed",
+  "blog/an-enhancement-to-accessible-responsive-tables.html": "body_changed",
+  "blog/an-introduction-to-html-attributes.html": "body_changed",
+  "blog/an-unexpected-accessibility-benefit-of-video-calls.html": "body_changed",
+  "blog/an-update-on-google-and-the-open-web.html": "body_changed",
+  "blog/apple-dials-back-the-safari-15-for-macos-redesign.html": "body_changed",
+  "blog/apple-watchs-default-app-view-is-bad.html": "body_changed",
+  "blog/apple-youre-doing-the-dynamic-island-wrong.html": "body_changed",
+  "blog/apples-keyboards-revisited.html": "body_changed",
+  "blog/applying-a-git-stash-non-destructively.html": "body_changed",
+  "blog/are-you-sure-that-table-isnt-a-list.html": "body_changed",
+  "blog/avatars-and-alt-text.html": "body_changed",
+  "blog/avif-and-webp-are-not-always-better-than-png-and-jpg.html": "body_changed",
+  "blog/avif-image-compression-is-incredible.html": "body_changed",
+  "blog/be-careful-with-strikethrough.html": "body_changed",
+  "blog/blue-beanie-day.html": "body_changed",
+  "blog/bold-and-italics-arent-read-by-screen-readers.html": "body_changed",
+  "blog/booleans-in-aria.html": "body_changed",
+  "blog/buttons-links-and-focus.html": "body_changed",
+  "blog/buttons-with-icons-and-text.html": "body_changed",
+  "blog/caching-fonts-on-netlify.html": "body_changed",
+  "blog/chaining-git-commands.html": "body_changed",
+  "blog/changing-editor-for-git-on-the-command-line.html": "body_changed",
+  "blog/changing-the-way-i-start-a-project.html": "body_changed",
+  "blog/changing-your-git-history.html": "body_changed",
+  "blog/choosing-a-stash-from-the-list.html": "body_changed",
+  "blog/choosing-dark-mode-on-macos.html": "body_changed",
+  "blog/cleaner-focus-outlines-with-box-decoration-break.html": "body_changed",
+  "blog/colour-alone-can-be-used-to-convey-meaning-and-i-dont-like-it.html": "body_changed",
+  "blog/colour-contrast-on-tempertempernet.html": "body_changed",
+  "blog/complexity-and-caution.html": "body_changed",
+  "blog/controlling-email.html": "body_changed",
+  "blog/converting-images-to-avif-in-2021.html": "body_changed",
+  "blog/craig-federighi-on-essentially-mobile-first.html": "body_changed",
+  "blog/critical-css-what-it-is-why-its-useful-and-how-it-works.html": "body_changed",
+  "blog/css-naked-day.html": "body_changed",
+  "blog/custom-numeric-passcodes-on-iphone.html": "body_changed",
+  "blog/custom-unordered-list-markers-done-right.html": "body_changed",
+  "blog/dark-mode-websites-on-macos-mojave.html": "body_changed",
+  "blog/dashes-asterisks-and-plus-signs.html": "body_changed",
+  "blog/de-prioritising-design.html": "body_changed",
+  "blog/deleting-a-stash-in-git.html": "body_changed",
+  "blog/design-and-dev-should-be-more-joined-up.html": "body_changed",
+  "blog/design-for-everyone.html": "body_changed",
+  "blog/ditching-google-analytics-in-favour-of-netlify-analytics.html": "body_changed",
+  "blog/dont-meddle-with-user-input.html": "body_changed",
+  "blog/downloading-a-website-as-html-files.html": "body_changed",
+  "blog/dropbox-my-most-useful-app.html": "body_changed",
+  "blog/empathy-and-renaming-my-master-branch-to-main.html": "body_changed",
+  "blog/ensure-your-project-works-in-every-browser-and-for-every-user.html": "body_changed",
+  "blog/erring-on-the-side-of-caution.html": "body_changed",
+  "blog/even-the-finest-of-details-can-be-important.html": "body_changed",
+  "blog/evernote.html": "body_changed",
+  "blog/everything-has-its-time.html": "body_changed",
+  "blog/face-id-and-masks.html": "body_changed",
+  "blog/face-id-and-sunglasses.html": "body_changed",
+  "blog/face-id-on-the-mac-wont-happen.html": "body_changed",
+  "blog/first-impressions-of-ios-14.html": "body_changed",
+  "blog/fixing-safaris-html-only-dark-mode-bug.html": "body_changed",
+  "blog/fixing-your-last-git-commit.html": "body_changed",
+  "blog/focus-appearance-explained.html": "body_changed",
+  "blog/focus-on-the-people-that-make-things-happen.html": "body_changed",
+  "blog/focus-priming.html": "body_changed",
+  "blog/folder-sharing-and-the-new-apple-oss.html": "body_changed",
+  "blog/form-styling-limitations-are-an-accessibility-issue.html": "body_changed",
+  "blog/freeagent.html": "body_changed",
+  "blog/front-of-the-frontend.html": "body_changed",
+  "blog/frontend-front-end-or-front-end.html": "body_changed",
+  "blog/frontend-ne-draws-to-a-close.html": "body_changed",
+  "blog/getting-started-with-git-stash.html": "body_changed",
+  "blog/getting-started-with-nvda.html": "body_changed",
+  "blog/getting-started-with-voiceover-on-macos.html": "body_changed",
+  "blog/getting-to-grips-with-git.html": "body_changed",
+  "blog/getting-voiceover-to-shut-up.html": "body_changed",
+  "blog/git-rebase-versus-merge.html": "body_changed",
+  "blog/git-restore-to-discard-changes.html": "body_changed",
+  "blog/giving-your-git-stash-a-name.html": "body_changed",
+  "blog/going-all-in-on-icloud-passwords.html": "body_changed",
+  "blog/google-are-spoiling-my-blue-beanie-day.html": "body_changed",
+  "blog/headers-headings-and-titles.html": "body_changed",
+  "blog/here-here-and-here.html": "body_changed",
+  "blog/hierarchy-in-tables.html": "body_changed",
+  "blog/how-i-approach-css-my-abc-system.html": "body_changed",
+  "blog/how-my-websites-design-has-evolved.html": "body_changed",
+  "blog/how-to-avoid-disabled-buttons.html": "body_changed",
+  "blog/how-to-browse-the-web-with-the-keyboard-alone.html": "body_changed",
+  "blog/how-to-change-the-first-number-of-an-ordered-list-in-html.html": "body_changed",
+  "blog/how-to-diff-branches-in-git.html": "body_changed",
+  "blog/how-to-rename-a-remote-repo-in-git.html": "body_changed",
+  "blog/how-to-rename-the-master-branch-on-github.html": "body_changed",
+  "blog/how-to-use-the-keyboard-to-navigate-on-safari.html": "body_changed",
+  "blog/html-is-more-complicated-than-you-think.html": "body_changed",
+  "blog/html-isnt-quite-accessible-out-of-the-box.html": "body_changed",
+  "blog/html-only-dark-mode.html": "body_changed",
+  "blog/i-cant-wait-for-dark-mode-on-ios.html": "body_changed",
+  "blog/i-deleted-1password.html": "body_changed",
+  "blog/icon-only-links-fail-wcag.html": "body_changed",
+  "blog/id-forgotten-how-much-i-like-keynote.html": "body_changed",
+  "blog/if-html-and-aria-dont-allow-it-its-probably-a-bad-idea.html": "body_changed",
+  "blog/if-its-not-progressively-enhanced-its-not-accessible.html": "body_changed",
+  "blog/if-one-person-is-remote-everyone-should-be-remote.html": "body_changed",
+  "blog/if-only-apples-voice-memos-did-transcription.html": "body_changed",
+  "blog/if-you-need-a-link-dont-use-a-button.html": "body_changed",
+  "blog/if-youre-going-to-do-a-job-do-it-properly.html": "body_changed",
+  "blog/images-as-the-first-thing-in-a-button-or-link.html": "body_changed",
+  "blog/images-illustrations-and-contrast.html": "body_changed",
+  "blog/implicit-aria-landmark-roles.html": "body_changed",
+  "blog/in-search-of-the-best-writing-app.html": "body_changed",
+  "blog/include-a-date-on-your-blog-posts.html": "body_changed",
+  "blog/index.html": "list_page_and_body_changed",
+  "blog/ios-14s-back-tap-a-better-way-to-access-control-centre.html": "body_changed",
+  "blog/ios-15-face-id-sunglasses-and-apple-watch.html": "body_changed",
+  "blog/iphone-event-2019.html": "body_changed",
+  "blog/is-a11y-exclusive.html": "body_changed",
+  "blog/its-good-to-make-mistakes.html": "body_changed",
+  "blog/keep-on-learning.html": "body_changed",
+  "blog/keeping-git-status-short.html": "body_changed",
+  "blog/lazy-loading-images-without-javascript.html": "body_changed",
+  "blog/leaving-the-frontend-ne-meet-up.html": "body_changed",
+  "blog/lets-make-webmasters-a-thing-again.html": "body_changed",
+  "blog/ligatures-in-coding-fonts.html": "body_changed",
+  "blog/links-missing-href-attributes-and-over-engineered-code.html": "body_changed",
+  "blog/list-style-articles.html": "body_changed",
+  "blog/looks-like-3d-touch-is-going-away.html": "body_changed",
+  "blog/mac-event-2021.html": "body_changed",
+  "blog/making-sense-of-accessibility-and-the-law.html": "body_changed",
+  "blog/mastodon-and-me.html": "body_changed",
+  "blog/minimalism-and-progressive-enhancement.html": "body_changed",
+  "blog/moving-to-apple-one-with-existing-apple-subscriptions.html": "body_changed",
+  "blog/moving-to-netlify.html": "body_changed",
+  "blog/my-favourite-rss-app.html": "body_changed",
+  "blog/my-introduction-to-co-working.html": "body_changed",
+  "blog/my-user-manual.html": "body_changed",
+  "blog/netlify-deploy-previews.html": "body_changed",
+  "blog/not-all-screen-reader-users-are-blind.html": "body_changed",
+  "blog/on-not-setting-an-upstream-for-short-lived-branches.html": "body_changed",
+  "blog/opening-links-in-a-new-tab-or-window-is-better-avoided.html": "body_changed",
+  "blog/operator-mono-and-why-i-want-italics-in-my-code-editor.html": "body_changed",
+  "blog/optional-closing-tags-in-html.html": "body_changed",
+  "blog/overlapping-interactive-areas.html": "body_changed",
+  "blog/own-your-own-content.html": "body_changed",
+  "blog/page-headings-dont-belong-in-the-header.html": "body_changed",
+  "blog/pixels-constraints-minimalism-and-tempertemper.html": "body_changed",
+  "blog/practice-makes-perfect.html": "body_changed",
+  "blog/progressively-enhanced-animated-content.html": "body_changed",
+  "blog/pushing-to-a-differently-named-branch-on-your-remote.html": "body_changed",
+  "blog/putting-the-time-in-up-front.html": "body_changed",
+  "blog/reading-at-night-with-a-neat-iphone-hack.html": "body_changed",
+  "blog/redirect-a-filename-in-netlify-without-specifying-the-path.html": "body_changed",
+  "blog/reducing-motion.html": "body_changed",
+  "blog/refining-focus-styles-with-focus-visible.html": "body_changed",
+  "blog/refining-my-writing-process.html": "body_changed",
+  "blog/reset-to-a-previous-commit.html": "body_changed",
+  "blog/respecting-peoples-privacy.html": "body_changed",
+  "blog/reversing-an-ordered-list-in-html.html": "body_changed",
+  "blog/right-here-right-now.html": "body_changed",
+  "blog/routine-and-flexibility.html": "body_changed",
+  "blog/safari-15-4.html": "body_changed",
+  "blog/safari-15s-tab-groups.html": "body_changed",
+  "blog/safari-focus-visible-and-accessibility.html": "body_changed",
+  "blog/safari-tab-icons.html": "body_changed",
+  "blog/sass-mixins-for-increased-contrast-mode-and-dark-mode.html": "body_changed",
+  "blog/saying-goodbye-to-uk-government.html": "body_changed",
+  "blog/screen-reader-users-and-the-tab-key.html": "body_changed",
+  "blog/scroll-bounce-page-background-colour.html": "body_changed",
+  "blog/scrollbar-marker-colours-on-macos.html": "body_changed",
+  "blog/searching-for-a-git-commit-by-name-with-grep.html": "body_changed",
+  "blog/self-closing-elements-in-html.html": "body_changed",
+  "blog/sentence-case-versus-title-case.html": "body_changed",
+  "blog/setting-an-upstream-git-branch.html": "body_changed",
+  "blog/setting-up-a-staging-site-with-netlify.html": "body_changed",
+  "blog/settling-for-less.html": "body_changed",
+  "blog/share-anyway.html": "body_changed",
+  "blog/simplifying-branching-and-deployment-with-github-flow.html": "body_changed",
+  "blog/skip-links-what-why-and-how.html": "body_changed",
+  "blog/sleep-on-watchos-7.html": "body_changed",
+  "blog/some-brief-thoughts-on-watchos-6.html": "body_changed",
+  "blog/sometimes-when-its-false-its-true.html": "body_changed",
+  "blog/splitting-a-hunk-in-gits-patch-mode.html": "body_changed",
+  "blog/staging-different-parts-of-the-same-file-with-git.html": "body_changed",
+  "blog/still-a-sucker-for-sublime.html": "body_changed",
+  "blog/stop-search-indexing-for-netlify-deploy-previews-and-branch-deploys.html": "body_changed",
+  "blog/stop-the-ride-i-want-to-get-off.html": "body_changed",
+  "blog/styling-code-snippets-in-keynote.html": "body_changed",
+  "blog/styling-list-markers-the-right-way.html": "body_changed",
+  "blog/styling-underlines-with-css.html": "body_changed",
+  "blog/swiftui-is-more-than-just-a-developer-convenience.html": "body_changed",
+  "blog/switching-to-gmail.html": "body_changed",
+  "blog/tempertempers-typefaces.html": "body_changed",
+  "blog/text-snippets-on-apple-devices.html": "body_changed",
+  "blog/text-underline-thickness-on-chrome.html": "body_changed",
+  "blog/the-accessibility-conversations-you-want-to-be-having.html": "body_changed",
+  "blog/the-benefits-of-co-working.html": "body_changed",
+  "blog/the-best-sublime-text-theme.html": "body_changed",
+  "blog/the-briefest-of-histories-of-responsive-images.html": "body_changed",
+  "blog/the-curse-of-knowledge.html": "body_changed",
+  "blog/the-difference-between-elements-and-tags-in-html.html": "body_changed",
+  "blog/the-difference-between-increased-contrast-mode-and-windows-high-contrast-mode.html": "body_changed",
+  "blog/the-difference-between-strikethrough-and-del.html": "body_changed",
+  "blog/the-new-macbook-keyboard.html": "body_changed",
+  "blog/the-return-of-the-heading-group.html": "body_changed",
+  "blog/the-right-way-to-use-break-tags-in-html.html": "body_changed",
+  "blog/the-simplest-solutions-are-usually-the-best.html": "body_changed",
+  "blog/the-tempertemper-newsletter.html": "body_changed",
+  "blog/the-trouble-with-back-links.html": "body_changed",
+  "blog/theres-no-such-thing-as-menubar-navigation.html": "body_changed",
+  "blog/theyre-my-rules-to-break.html": "body_changed",
+  "blog/third-party-platforms-and-owning-your-own-content.html": "body_changed",
+  "blog/thoughts-on-3d-touch.html": "body_changed",
+  "blog/undelete-a-file-with-git.html": "body_changed",
+  "blog/updating-netlify-deployments-when-renaming-your-main-git-branch.html": "body_changed",
+  "blog/upgrading-from-a-home-button-to-a-face-id-iphone.html": "body_changed",
+  "blog/upgrading-from-iphone-13-mini-to-16-pro.html": "body_changed",
+  "blog/upgrading-from-iphone-xs-to-13-mini.html": "body_changed",
+  "blog/user-wants-versus-accessibility.html": "body_changed",
+  "blog/using-address-in-html-wont-be-problematic-for-much-longer.html": "body_changed",
+  "blog/using-git-restore-to-discard-changes-within-a-file.html": "body_changed",
+  "blog/using-git-switch-to-change-branches.html": "body_changed",
+  "blog/using-horizontal-rules-in-html.html": "body_changed",
+  "blog/using-iframes-to-embed-arbitrary-content-is-probably-a-bad-idea.html": "body_changed",
+  "blog/using-image-aspect-ratios-to-avoiding-janky-page-loading.html": "body_changed",
+  "blog/using-nvm-on-macos.html": "body_changed",
+  "blog/using-pandoc-to-convert-markdown-to-jiras-textile-in-sublime-text.html": "body_changed",
+  "blog/using-the-html-document-outline.html": "body_changed",
+  "blog/using-the-increased-contrast-mode-css-media-query.html": "body_changed",
+  "blog/using-the-keyboard-to-navigate-on-macos.html": "body_changed",
+  "blog/using-voiceovers-rotor-on-macos.html": "body_changed",
+  "blog/using-webp-images.html": "body_changed",
+  "blog/version-control-for-articles-and-blog-posts.html": "body_changed",
+  "blog/version-tagging-with-releases-in-github-flow.html": "body_changed",
+  "blog/viewing-the-changes-in-a-git-stash.html": "body_changed",
+  "blog/voice-control-for-macos-commands-cheatsheet.html": "body_changed",
+  "blog/voiceovers-trackpad-commander-on-mac.html": "body_changed",
+  "blog/webkit-has-fixed-the-implicit-role-on-footers.html": "body_changed",
+  "blog/website-version-5.html": "body_changed",
+  "blog/website-version-6.html": "body_changed",
+  "blog/what-do-we-do-with-a-link-or-button-matters.html": "body_changed",
+  "blog/what-has-happened-twitter.html": "body_changed",
+  "blog/what-i-wish-was-in-wcag-prohibit-icon-only-buttons.html": "body_changed",
+  "blog/what-if-no-ones-listening.html": "body_changed",
+  "blog/what-watchos-7-might-have-in-store.html": "body_changed",
+  "blog/whats-emphasis-and-whats-not.html": "body_changed",
+  "blog/whats-rss-all-about.html": "body_changed",
+  "blog/when-and-how-to-use-the-section-element.html": "body_changed",
+  "blog/when-design-breaks-semantics.html": "body_changed",
+  "blog/which-images-need-descriptive-text.html": "body_changed",
+  "blog/which-way-is-that-arrow-pointing.html": "body_changed",
+  "blog/why-i-always-raise-a-pull-request-on-solo-projects.html": "body_changed",
+  "blog/why-i-havent-redesigned-my-portfolio-since-2014.html": "body_changed",
+  "blog/why-i-prefer-not-to-use-css-shorthand.html": "body_changed",
+  "blog/why-i-still-use-rss.html": "body_changed",
+  "blog/why-i-stopped-using-ascii-art.html": "body_changed",
+  "blog/why-im-not-using-git-aliases.html": "body_changed",
+  "blog/why-is-accessibility-so-often-seen-as-a-low-priority.html": "body_changed",
+  "blog/why-tempertemper.html": "body_changed",
+  "blog/why-you-should-almost-always-underline-your-links.html": "body_changed",
+  "blog/windows-high-contrast-mode-and-focus-outlines.html": "body_changed",
+  "blog/wwdc-2019-roundup.html": "body_changed",
+  "blog/wwdc-2020-roundup.html": "body_changed",
+  "blog/wwdc-2021-roundup.html": "body_changed",
+  "blog/wwdc-2022-roundup.html": "body_changed",
+  "blog/wwdc-2023-roundup.html": "body_changed",
+  "blog/wwdc-2025-roundup.html": "body_changed",
+  "blog/xhtml-syntax-is-still-worth-using.html": "body_changed",
+  "blog/year/2011.html": "list_page",
+  "blog/year/2012.html": "list_page",
+  "blog/year/2013.html": "list_page",
+  "blog/year/2014.html": "list_page",
+  "blog/year/2015.html": "list_page",
+  "blog/year/2016.html": "list_page",
+  "blog/year/2017.html": "list_page",
+  "blog/year/2018.html": "list_page",
+  "blog/year/2019.html": "list_page",
+  "blog/year/2020.html": "list_page",
+  "blog/year/2021.html": "list_page",
+  "blog/year/2022.html": "list_page",
+  "blog/year/2023.html": "list_page",
+  "blog/year/2024.html": "list_page",
+  "blog/year/2025.html": "list_page_and_body_changed",
+  "blog/year/2026.html": "list_page",
+  "blog/years-in-the-accessibility-learning-curve-continues.html": "body_changed",
+  "category/accessibility.html": "list_page_and_body_changed",
+  "category/apple.html": "list_page",
+  "category/approach.html": "list_page",
+  "category/brand.html": "list_page",
+  "category/business.html": "list_page",
+  "category/case-study.html": "list_page",
+  "category/content.html": "list_page",
+  "category/css.html": "list_page",
+  "category/design.html": "list_page",
+  "category/development.html": "list_page",
+  "category/email.html": "list_page",
+  "category/git.html": "list_page",
+  "category/html.html": "list_page_and_body_changed",
+  "category/javascript.html": "list_page",
+  "category/markdown.html": "list_page",
+  "category/marketing.html": "list_page",
+  "category/meta-data.html": "list_page",
+  "category/performance.html": "list_page",
+  "category/search.html": "list_page",
+  "category/security.html": "list_page",
+  "category/serverless.html": "list_page",
+  "category/service.html": "list_page",
+  "category/skill.html": "list_page",
+  "category/tools.html": "list_page",
+  "category/website-admin.html": "list_page",
+  "category/workflows.html": "list_page",
+  "index.html": "list_page"
+ }
 }

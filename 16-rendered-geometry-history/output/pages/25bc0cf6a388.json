@@ -1,177 +1,51 @@
 {
- "sha": "25bc0cf6a3887a728ad5de5640687fcbeec6d94c",
  "sha12": "25bc0cf6a388",
- "commit_index": 14,
- "previous_built_sha": "aeae41bf8d04daf3c95fa328cd7b240f8770f647",
- "note": "page set decided from 11-manifests-normalized body hashes; actual render uses this repo build output",
- "pages": [
-  {
-   "page": "blog/index.html",
-   "reason": "list_page_always_rendered"
-  },
-  {
-   "page": "blog/year/2011.html",
-   "reason": "list_page_always_rendered"
-  },
-  {
-   "page": "blog/year/2012.html",
-   "reason": "list_page_always_rendered"
-  },
-  {
-   "page": "blog/year/2013.html",
-   "reason": "list_page_always_rendered"
-  },
-  {
-   "page": "blog/year/2014.html",
-   "reason": "list_page_always_rendered"
-  },
-  {
-   "page": "blog/year/2015.html",
-   "reason": "list_page_always_rendered"
-  },
-  {
-   "page": "blog/year/2016.html",
-   "reason": "list_page_always_rendered"
-  },
-  {
-   "page": "blog/year/2017.html",
-   "reason": "list_page_always_rendered"
-  },
-  {
-   "page": "blog/year/2018.html",
-   "reason": "list_page_always_rendered"
-  },
-  {
-   "page": "blog/year/2019.html",
-   "reason": "list_page_always_rendered"
-  },
-  {
-   "page": "blog/year/2020.html",
-   "reason": "list_page_always_rendered"
-  },
-  {
-   "page": "blog/year/2021.html",
-   "reason": "list_page_always_rendered"
-  },
-  {
-   "page": "blog/year/2022.html",
-   "reason": "list_page_always_rendered"
-  },
-  {
-   "page": "blog/year/2023.html",
-   "reason": "list_page_always_rendered"
-  },
-  {
-   "page": "blog/year/2024.html",
-   "reason": "list_page_always_rendered"
-  },
-  {
-   "page": "blog/year/2025.html",
-   "reason": "list_page_always_rendered"
-  },
-  {
-   "page": "blog/year/2026.html",
-   "reason": "list_page_always_rendered"
-  },
-  {
-   "page": "category/accessibility.html",
-   "reason": "list_page_always_rendered"
-  },
-  {
-   "page": "category/apple.html",
-   "reason": "list_page_always_rendered"
-  },
-  {
-   "page": "category/brand.html",
-   "reason": "list_page_always_rendered"
-  },
-  {
-   "page": "category/business.html",
-   "reason": "list_page_always_rendered"
-  },
-  {
-   "page": "category/case-study.html",
-   "reason": "list_page_always_rendered"
-  },
-  {
-   "page": "category/content.html",
-   "reason": "list_page_always_rendered"
-  },
-  {
-   "page": "category/css.html",
-   "reason": "list_page_always_rendered"
-  },
-  {
-   "page": "category/design.html",
-   "reason": "list_page_always_rendered"
-  },
-  {
-   "page": "category/development.html",
-   "reason": "list_page_always_rendered"
-  },
-  {
-   "page": "category/email.html",
-   "reason": "list_page_always_rendered"
-  },
-  {
-   "page": "category/git.html",
-   "reason": "list_page_always_rendered"
-  },
-  {
-   "page": "category/html.html",
-   "reason": "list_page_always_rendered"
-  },
-  {
-   "page": "category/javascript.html",
-   "reason": "list_page_always_rendered"
-  },
-  {
-   "page": "category/markdown.html",
-   "reason": "list_page_always_rendered"
-  },
-  {
-   "page": "category/marketing.html",
-   "reason": "list_page_always_rendered"
-  },
-  {
-   "page": "category/meta-data.html",
-   "reason": "list_page_always_rendered"
-  },
-  {
-   "page": "category/performance.html",
-   "reason": "list_page_always_rendered"
-  },
-  {
-   "page": "category/search.html",
-   "reason": "list_page_always_rendered"
-  },
-  {
-   "page": "category/security.html",
-   "reason": "list_page_always_rendered"
-  },
-  {
-   "page": "category/serverless.html",
-   "reason": "list_page_always_rendered"
-  },
-  {
-   "page": "category/skills.html",
-   "reason": "list_page_always_rendered"
-  },
-  {
-   "page": "category/tools.html",
-   "reason": "list_page_always_rendered"
-  },
-  {
-   "page": "category/website-admin.html",
-   "reason": "list_page_always_rendered"
-  },
-  {
-   "page": "category/workflows.html",
-   "reason": "list_page_always_rendered"
-  },
-  {
-   "page": "index.html",
-   "reason": "list_page_always_rendered"
-  }
- ]
+ "sha": "25bc0cf6a3887a728ad5de5640687fcbeec6d94c",
+ "build_status": "ok",
+ "prev_built_sha12": "aeae41bf8d04",
+ "page_count": 42,
+ "pages": {
+  "blog/index.html": "list_page",
+  "blog/year/2011.html": "list_page",
+  "blog/year/2012.html": "list_page",
+  "blog/year/2013.html": "list_page",
+  "blog/year/2014.html": "list_page",
+  "blog/year/2015.html": "list_page",
+  "blog/year/2016.html": "list_page",
+  "blog/year/2017.html": "list_page",
+  "blog/year/2018.html": "list_page",
+  "blog/year/2019.html": "list_page",
+  "blog/year/2020.html": "list_page",
+  "blog/year/2021.html": "list_page",
+  "blog/year/2022.html": "list_page",
+  "blog/year/2023.html": "list_page",
+  "blog/year/2024.html": "list_page",
+  "blog/year/2025.html": "list_page",
+  "blog/year/2026.html": "list_page",
+  "category/accessibility.html": "list_page",
+  "category/apple.html": "list_page",
+  "category/brand.html": "list_page",
+  "category/business.html": "list_page",
+  "category/case-study.html": "list_page",
+  "category/content.html": "list_page",
+  "category/css.html": "list_page",
+  "category/design.html": "list_page",
+  "category/development.html": "list_page",
+  "category/email.html": "list_page",
+  "category/git.html": "list_page",
+  "category/html.html": "list_page",
+  "category/javascript.html": "list_page",
+  "category/markdown.html": "list_page",
+  "category/marketing.html": "list_page",
+  "category/meta-data.html": "list_page",
+  "category/performance.html": "list_page",
+  "category/search.html": "list_page",
+  "category/security.html": "list_page",
+  "category/serverless.html": "list_page",
+  "category/skills.html": "list_page",
+  "category/tools.html": "list_page",
+  "category/website-admin.html": "list_page",
+  "category/workflows.html": "list_page",
+  "index.html": "list_page"
+ }
 }
