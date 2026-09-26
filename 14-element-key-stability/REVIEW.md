@@ -1,0 +1,9 @@
+status: corrections_requested
+round: 1
+verified: rebuilt event tempertemper/0006 independently (03f8e1dad960 → cdaba985e927, blog/index.html, 284 → 285 li at position 0) in node:22.13.1 and recomputed the ground truth and K1/K5/K8 from keys.json's definitions: same-element pairs 1797 (identical), undetermined-before 494 vs 495, and all 18 stability/false-match values for K1, K5 and K8 across the three relations identical to results/tempertemper/03f8e1dad960__cdaba985e927__blog__index.html__0006.json (e.g. K1 container false-match 0.9882, K5 elsewhere 0.2639, K8 elsewhere 0.1111). The measurements are reproducible. Self-corrections in the log (K1 definition, relation buckets) were exactly right.
+corrections:
+  - C1: `pages/<site>/<from12>__<to12>/<page>.before.html` and `.after.html` (the brief's required output) are absent — 0 HTML files in the return, while every result records `pages_present: {before: true, after: true}`. Push the before/after HTML for all 300 events.
+  - C2: PROGRESS.md is stale (`status: in_progress`, last check-in 13:00Z, before the 4 result batches and the summary were pushed). Finalize it: status, return manifest, and the recompute statement for summary.json.
+  - C3: summary.json reports medians only. Add, per site and relation, the count of same-element pairs and of undetermined elements, so the denominators are visible (alexcarpenter excludes 17,077 before-elements as undetermined), and report each K5/K8 rate with and without the 9 events on the nondeterministic gear pages.
+notes:
+  - The ground truth (identical, unique normalized outerHTML) excludes elements with repeated markup and elements whose markup changed, so false-match rates are lower bounds and key behaviour under text edits is not measured. That is the brief's design, not a defect in the work.
