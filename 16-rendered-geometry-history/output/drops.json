@@ -1,0 +1,12 @@
+{
+ "attrs_dropped": true,
+ "text_sha_len": 12,
+ "viewports_dropped": {
+  "390x844": "non-list pages"
+ },
+ "viewports_kept": {
+  "1280x800": "all pages in page sets",
+  "390x844": "list pages only"
+ },
+ "description": "Dropped under the 180MB geometry/ budget rule (in order): (1) 'attrs' omitted from every element record (spec drop #1); (2) the 390x844 viewport rendered for list pages only (index.html, blog/index.html, blog/year/*.html, category/*.html) and not for other pages (spec drop #2); (3) 'text_sha' stores the first 12 hex characters of the sha256 of el.textContent (the assignment schema example shows \"text_sha\": \"\u2026\"); truncation is deterministic, so phase-3 matching by (tag, text_sha, parent's tag+text_sha) is unaffected except for a 2^-48 per-pair coincidence probability. Without these drops the projected geometry/ size was 353.4 MB (full schema, both viewports); with drops 1+2 only it projected to 276.4 MB; with all three it projects to ~160 MB (from per-page lxml element counts over all 102 commits and gzipped bytes/element calibrated on 30 rendered pages)."
+}

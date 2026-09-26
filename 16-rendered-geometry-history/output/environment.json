@@ -163,10 +163,12 @@
    "chromium",
    "rendered_at_utc"
   ],
-  "scope": "every element under document.body, in document order (document.body itself excluded)"
+  "scope": "every element under document.body, in document order (document.body itself excluded)",
+  "text_sha": "first 12 hex chars of sha256(el.textContent) (raw, no normalization); see drops.json",
+  "attrs": "OMITTED under the 180MB budget rule (see drops.json)"
  },
  "delta_match_rule": "list pages only, consecutive commit pairs, 1280x800: elements matched by (tag, text_sha, parent tag + parent text_sha); direct children of <body> use parent key ('body',''). Per matched element dx,dy,dw,dh (to minus from); unmatched elements listed per side.",
  "page_set_rule": "commit 1: every page. Later commits: pages whose <body> hash differs from the previous built commit, using 11-manifests-normalized/output/manifests/ body hashes (verified byte-identical to a local rebuild of commit 4f1deb1e25dc index.html), plus index.html, blog/index.html, blog/year/*.html, category/*.html at every commit.",
  "attr_note": "attrs (href/src/etc.) record the URLs as served: root-relative URLs were rewritten to absolute file:// URLs rooted at the built site directory (see rendering.serving), so a link that was '/about' appears as 'file://<site_dir>/about'. This is the value the renderer saw.",
- "phase": "0 (environment + test render)"
+ "phase": "1 (rendering)"
 }
