@@ -1,0 +1,419 @@
+{
+ "event_id": "alexcarpenter/0049",
+ "site": "alexcarpenter",
+ "pair": [
+  "b08b6f17470cac56a011e6f394b7c24fc5748057",
+  "2af7054cfbb0912e1d790929e5b794aea7cbaebd"
+ ],
+ "page": "notes/index.html",
+ "event": {
+  "page": "notes/index.html",
+  "container": "html > body:nth-of-type(1) > a:nth-of-type(1)",
+  "child_tag": "code",
+  "before_count": 2,
+  "after_count": 0,
+  "kind": "remove",
+  "positions": [
+   0,
+   1
+  ],
+  "matched": 0,
+  "unmatched_before": 2,
+  "unmatched_after": 0
+ },
+ "pages_present": {
+  "before": true,
+  "after": true
+ },
+ "container": {
+  "path": "html > body:nth-of-type(1) > a:nth-of-type(1)",
+  "child_tag": "code",
+  "resolved_before": true,
+  "resolved_after": true,
+  "before_count_expected": 2,
+  "before_count_found": 2,
+  "after_count_expected": 0,
+  "after_count_found": 0
+ },
+ "elements": {
+  "before": 5,
+  "after": 544
+ },
+ "same_element_pairs": 0,
+ "undetermined": {
+  "before": 5,
+  "after": 544
+ },
+ "event_recomputed": {
+  "kind": "remove",
+  "positions": [
+   0,
+   1
+  ],
+  "before_count": 2,
+  "after_count": 0,
+  "matched": 0
+ },
+ "event_reproduced_in_rebuild": true,
+ "relation_counts": {
+  "inside_group_before_position": 0,
+  "inside_group_after_position": 2,
+  "outside_group_descendant_of_container": 0,
+  "outside_group_elsewhere": 3
+ },
+ "keys": {
+  "K1": {
+   "uniqueness": {
+    "inside_group_before_position": null,
+    "inside_group_after_position": 1.0,
+    "outside_group_descendant_of_container": null,
+    "outside_group_elsewhere": 1.0
+   },
+   "stability": {
+    "inside_group_before_position": null,
+    "inside_group_after_position": null,
+    "outside_group_descendant_of_container": null,
+    "outside_group_elsewhere": null
+   },
+   "false_match": {
+    "inside_group_before_position": null,
+    "inside_group_after_position": null,
+    "outside_group_descendant_of_container": null,
+    "outside_group_elsewhere": null
+   },
+   "coverage": {
+    "inside_group_before_position": null,
+    "inside_group_after_position": 1.0,
+    "outside_group_descendant_of_container": null,
+    "outside_group_elsewhere": 1.0
+   },
+   "n_elements": {
+    "inside_group_before_position": 0,
+    "inside_group_after_position": 2,
+    "outside_group_descendant_of_container": 0,
+    "outside_group_elsewhere": 3
+   },
+   "n_pairs": {
+    "inside_group_before_position": 0,
+    "inside_group_after_position": 0,
+    "outside_group_descendant_of_container": 0,
+    "outside_group_elsewhere": 0
+   }
+  },
+  "K2": {
+   "uniqueness": {
+    "inside_group_before_position": null,
+    "inside_group_after_position": 0.0,
+    "outside_group_descendant_of_container": null,
+    "outside_group_elsewhere": 0.0
+   },
+   "stability": {
+    "inside_group_before_position": null,
+    "inside_group_after_position": null,
+    "outside_group_descendant_of_container": null,
+    "outside_group_elsewhere": null
+   },
+   "false_match": {
+    "inside_group_before_position": null,
+    "inside_group_after_position": null,
+    "outside_group_descendant_of_container": null,
+    "outside_group_elsewhere": null
+   },
+   "coverage": {
+    "inside_group_before_position": null,
+    "inside_group_after_position": 0.0,
+    "outside_group_descendant_of_container": null,
+    "outside_group_elsewhere": 0.0
+   },
+   "n_elements": {
+    "inside_group_before_position": 0,
+    "inside_group_after_position": 2,
+    "outside_group_descendant_of_container": 0,
+    "outside_group_elsewhere": 3
+   },
+   "n_pairs": {
+    "inside_group_before_position": 0,
+    "inside_group_after_position": 0,
+    "outside_group_descendant_of_container": 0,
+    "outside_group_elsewhere": 0
+   }
+  },
+  "K3": {
+   "uniqueness": {
+    "inside_group_before_position": null,
+    "inside_group_after_position": 0.0,
+    "outside_group_descendant_of_container": null,
+    "outside_group_elsewhere": 1.0
+   },
+   "stability": {
+    "inside_group_before_position": null,
+    "inside_group_after_position": null,
+    "outside_group_descendant_of_container": null,
+    "outside_group_elsewhere": null
+   },
+   "false_match": {
+    "inside_group_before_position": null,
+    "inside_group_after_position": null,
+    "outside_group_descendant_of_container": null,
+    "outside_group_elsewhere": null
+   },
+   "coverage": {
+    "inside_group_before_position": null,
+    "inside_group_after_position": 1.0,
+    "outside_group_descendant_of_container": null,
+    "outside_group_elsewhere": 1.0
+   },
+   "n_elements": {
+    "inside_group_before_position": 0,
+    "inside_group_after_position": 2,
+    "outside_group_descendant_of_container": 0,
+    "outside_group_elsewhere": 3
+   },
+   "n_pairs": {
+    "inside_group_before_position": 0,
+    "inside_group_after_position": 0,
+    "outside_group_descendant_of_container": 0,
+    "outside_group_elsewhere": 0
+   },
+   "false_matches": [],
+   "n_false_matches": 0
+  },
+  "K4": {
+   "uniqueness": {
+    "inside_group_before_position": null,
+    "inside_group_after_position": 1.0,
+    "outside_group_descendant_of_container": null,
+    "outside_group_elsewhere": 1.0
+   },
+   "stability": {
+    "inside_group_before_position": null,
+    "inside_group_after_position": null,
+    "outside_group_descendant_of_container": null,
+    "outside_group_elsewhere": null
+   },
+   "false_match": {
+    "inside_group_before_position": null,
+    "inside_group_after_position": null,
+    "outside_group_descendant_of_container": null,
+    "outside_group_elsewhere": null
+   },
+   "coverage": {
+    "inside_group_before_position": null,
+    "inside_group_after_position": 1.0,
+    "outside_group_descendant_of_container": null,
+    "outside_group_elsewhere": 1.0
+   },
+   "n_elements": {
+    "inside_group_before_position": 0,
+    "inside_group_after_position": 2,
+    "outside_group_descendant_of_container": 0,
+    "outside_group_elsewhere": 3
+   },
+   "n_pairs": {
+    "inside_group_before_position": 0,
+    "inside_group_after_position": 0,
+    "outside_group_descendant_of_container": 0,
+    "outside_group_elsewhere": 0
+   },
+   "false_matches": [],
+   "n_false_matches": 0
+  },
+  "K5": {
+   "uniqueness": {
+    "inside_group_before_position": null,
+    "inside_group_after_position": 1.0,
+    "outside_group_descendant_of_container": null,
+    "outside_group_elsewhere": 1.0
+   },
+   "stability": {
+    "inside_group_before_position": null,
+    "inside_group_after_position": null,
+    "outside_group_descendant_of_container": null,
+    "outside_group_elsewhere": null
+   },
+   "false_match": {
+    "inside_group_before_position": null,
+    "inside_group_after_position": null,
+    "outside_group_descendant_of_container": null,
+    "outside_group_elsewhere": null
+   },
+   "coverage": {
+    "inside_group_before_position": null,
+    "inside_group_after_position": 1.0,
+    "outside_group_descendant_of_container": null,
+    "outside_group_elsewhere": 1.0
+   },
+   "n_elements": {
+    "inside_group_before_position": 0,
+    "inside_group_after_position": 2,
+    "outside_group_descendant_of_container": 0,
+    "outside_group_elsewhere": 3
+   },
+   "n_pairs": {
+    "inside_group_before_position": 0,
+    "inside_group_after_position": 0,
+    "outside_group_descendant_of_container": 0,
+    "outside_group_elsewhere": 0
+   },
+   "false_matches": [],
+   "n_false_matches": 0
+  },
+  "K6": {
+   "uniqueness": {
+    "inside_group_before_position": null,
+    "inside_group_after_position": 1.0,
+    "outside_group_descendant_of_container": null,
+    "outside_group_elsewhere": 1.0
+   },
+   "stability": {
+    "inside_group_before_position": null,
+    "inside_group_after_position": null,
+    "outside_group_descendant_of_container": null,
+    "outside_group_elsewhere": null
+   },
+   "false_match": {
+    "inside_group_before_position": null,
+    "inside_group_after_position": null,
+    "outside_group_descendant_of_container": null,
+    "outside_group_elsewhere": null
+   },
+   "coverage": {
+    "inside_group_before_position": null,
+    "inside_group_after_position": 1.0,
+    "outside_group_descendant_of_container": null,
+    "outside_group_elsewhere": 1.0
+   },
+   "n_elements": {
+    "inside_group_before_position": 0,
+    "inside_group_after_position": 2,
+    "outside_group_descendant_of_container": 0,
+    "outside_group_elsewhere": 3
+   },
+   "n_pairs": {
+    "inside_group_before_position": 0,
+    "inside_group_after_position": 0,
+    "outside_group_descendant_of_container": 0,
+    "outside_group_elsewhere": 0
+   }
+  },
+  "K7": {
+   "uniqueness": {
+    "inside_group_before_position": null,
+    "inside_group_after_position": 0.0,
+    "outside_group_descendant_of_container": null,
+    "outside_group_elsewhere": 1.0
+   },
+   "stability": {
+    "inside_group_before_position": null,
+    "inside_group_after_position": null,
+    "outside_group_descendant_of_container": null,
+    "outside_group_elsewhere": null
+   },
+   "false_match": {
+    "inside_group_before_position": null,
+    "inside_group_after_position": null,
+    "outside_group_descendant_of_container": null,
+    "outside_group_elsewhere": null
+   },
+   "coverage": {
+    "inside_group_before_position": null,
+    "inside_group_after_position": 1.0,
+    "outside_group_descendant_of_container": null,
+    "outside_group_elsewhere": 1.0
+   },
+   "n_elements": {
+    "inside_group_before_position": 0,
+    "inside_group_after_position": 2,
+    "outside_group_descendant_of_container": 0,
+    "outside_group_elsewhere": 3
+   },
+   "n_pairs": {
+    "inside_group_before_position": 0,
+    "inside_group_after_position": 0,
+    "outside_group_descendant_of_container": 0,
+    "outside_group_elsewhere": 0
+   },
+   "false_matches": [],
+   "n_false_matches": 0
+  },
+  "K8": {
+   "uniqueness": {
+    "inside_group_before_position": null,
+    "inside_group_after_position": 1.0,
+    "outside_group_descendant_of_container": null,
+    "outside_group_elsewhere": 1.0
+   },
+   "stability": {
+    "inside_group_before_position": null,
+    "inside_group_after_position": null,
+    "outside_group_descendant_of_container": null,
+    "outside_group_elsewhere": null
+   },
+   "false_match": {
+    "inside_group_before_position": null,
+    "inside_group_after_position": null,
+    "outside_group_descendant_of_container": null,
+    "outside_group_elsewhere": null
+   },
+   "coverage": {
+    "inside_group_before_position": null,
+    "inside_group_after_position": 1.0,
+    "outside_group_descendant_of_container": null,
+    "outside_group_elsewhere": 1.0
+   },
+   "n_elements": {
+    "inside_group_before_position": 0,
+    "inside_group_after_position": 2,
+    "outside_group_descendant_of_container": 0,
+    "outside_group_elsewhere": 3
+   },
+   "n_pairs": {
+    "inside_group_before_position": 0,
+    "inside_group_after_position": 0,
+    "outside_group_descendant_of_container": 0,
+    "outside_group_elsewhere": 0
+   },
+   "false_matches": [],
+   "n_false_matches": 0
+  },
+  "K9": {
+   "uniqueness": {
+    "inside_group_before_position": null,
+    "inside_group_after_position": 0.0,
+    "outside_group_descendant_of_container": null,
+    "outside_group_elsewhere": 1.0
+   },
+   "stability": {
+    "inside_group_before_position": null,
+    "inside_group_after_position": null,
+    "outside_group_descendant_of_container": null,
+    "outside_group_elsewhere": null
+   },
+   "false_match": {
+    "inside_group_before_position": null,
+    "inside_group_after_position": null,
+    "outside_group_descendant_of_container": null,
+    "outside_group_elsewhere": null
+   },
+   "coverage": {
+    "inside_group_before_position": null,
+    "inside_group_after_position": 1.0,
+    "outside_group_descendant_of_container": null,
+    "outside_group_elsewhere": 1.0
+   },
+   "n_elements": {
+    "inside_group_before_position": 0,
+    "inside_group_after_position": 2,
+    "outside_group_descendant_of_container": 0,
+    "outside_group_elsewhere": 3
+   },
+   "n_pairs": {
+    "inside_group_before_position": 0,
+    "inside_group_after_position": 0,
+    "outside_group_descendant_of_container": 0,
+    "outside_group_elsewhere": 0
+   }
+  }
+ },
+ "status": "measured"
+}
