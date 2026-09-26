@@ -1,10 +1,10 @@
 # Assignment 14 — PROGRESS
 
 - status: in_progress
-- phase: 0 (rebuilds running)
-- elapsed_hours: 1.0
-- files_written: 4
-- last_check_in: 2026-09-26T12:27:00Z
+- phase: 1 (rebuilds + measurements running in parallel)
+- elapsed_hours: 1.5
+- files_written: 8
+- last_check_in: 2026-09-26T13:00:00Z
 - blockers: none
 
 ## Log
@@ -26,5 +26,16 @@
   with 2 shards.
 - 2026-09-26T12:27:00Z: rebuilds running (2 shards, 184 commits). keys.py
   (Phases 1-3), keys.json, recompute_summary.py, environment.json, push14.py
-  written. First push (meta: environment.json, events.json, keys.json,
-  PROGRESS.md) going out now.
+  written. First push (meta) at 757761c5 (verified via ls-remote).
+- 2026-09-26T13:00:00Z: rebuilds 16/184 commits, all build_ok. keys.py bugs
+  fixed: (1) K8 sibling lookup included <head> (not under body) — now
+  restricted to elements under body; (2) K1 value was css_path not outerHTML
+  — now Kb[K1]=normalized outerHTML; (3) relation buckets renamed to spec
+  names (in/above/below/outside_group); 'in' implemented literally (provably
+  empty for K1-matched pairs). Added event recomputation QA (10's exact
+  group_events logic) -> event_reproduced_in_rebuild flag. Measurement
+  workers (4 shards, polling) started. 2/300 results written.
+  FINDING: alexcarpenter gear pages have nondeterministic item order across
+  builds (same commit, same toolchain, different order). 9/300 events are on
+  gear pages. Events kept with QA flags; stability/false-match remain valid
+  (ground truth from rebuilt pages).
