@@ -1,0 +1,2097 @@
+{
+ "sha": "c12d97cdbd8e4fcac10c964a7eb06f45e18c68fb",
+ "sha12": "c12d97cdbd8e",
+ "commit_index": 0,
+ "previous_built_sha": null,
+ "note": "page set decided from 11-manifests-normalized body hashes; actual render uses this repo build output",
+ "pages": [
+  {
+   "page": "404.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "about.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "accessibility-statement.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/3d-touch-is-gone-on-apple-watch.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/a-handy-git-shortcut-to-fetch-and-prune.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/a-new-years-resolution-for-2019.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/a-shift-in-focus.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/a-week-with-ios-15.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/abbreviations-can-be-problematic.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/accessibility-beyond-the-obvious.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/accessibility-by-degrees.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/accessibility-doesnt-stop-at-wcag-compliance.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/accessibility-issues-when-removing-list-markers.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/accessibility-overlays-are-not-for-disabled-people.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/accessibility-represents-maturity.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/accessible-animated-content-without-the-compromise.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/accessible-animated-gifs-are-pointless.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/accessible-responsive-tables.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/adding-files-for-a-commit-with-asterisks.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/all-i-want-from-wwdc-2024.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/alt-text-for-css-generated-content.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/always-style-links-with-a-pseudo-class.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/an-enhancement-to-accessible-responsive-tables.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/an-introduction-to-html-attributes.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/an-unexpected-accessibility-benefit-of-video-calls.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/an-update-on-google-and-the-open-web.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/apple-dials-back-the-safari-15-for-macos-redesign.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/apple-watchs-default-app-view-is-bad.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/apple-youre-doing-the-dynamic-island-wrong.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/apples-keyboards-revisited.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/applying-a-git-stash-non-destructively.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/are-you-sure-that-table-isnt-a-list.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/avatars-and-alt-text.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/avif-and-webp-are-not-always-better-than-png-and-jpg.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/avif-image-compression-is-incredible.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/bag-some-aaa-wins-where-you-can.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/be-careful-with-strikethrough.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/blue-beanie-day.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/bold-and-italics-arent-read-by-screen-readers.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/booleans-in-aria.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/buttons-links-and-focus.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/buttons-with-icons-and-text.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/caching-fonts-on-netlify.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/chaining-git-commands.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/changing-editor-for-git-on-the-command-line.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/changing-the-way-i-start-a-project.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/changing-your-git-history.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/choosing-a-stash-from-the-list.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/choosing-dark-mode-on-macos.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/cleaner-focus-outlines-with-box-decoration-break.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/colour-alone-can-be-used-to-convey-meaning-and-i-dont-like-it.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/colour-contrast-on-tempertempernet.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/complexity-and-caution.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/controlling-email.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/converting-images-to-avif-in-2021.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/craig-federighi-on-essentially-mobile-first.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/critical-css-what-it-is-why-its-useful-and-how-it-works.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/css-naked-day.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/custom-numeric-passcodes-on-iphone.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/custom-unordered-list-markers-done-right.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/dark-mode-websites-on-macos-mojave.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/dashes-asterisks-and-plus-signs.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/de-prioritising-design.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/deleting-a-stash-in-git.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/design-and-dev-should-be-more-joined-up.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/design-for-everyone.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/ditching-google-analytics-in-favour-of-netlify-analytics.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/dont-meddle-with-user-input.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/downloading-a-website-as-html-files.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/dropbox-my-most-useful-app.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/empathy-and-renaming-my-master-branch-to-main.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/ensure-your-project-works-in-every-browser-and-for-every-user.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/erring-on-the-side-of-caution.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/even-the-finest-of-details-can-be-important.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/evernote.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/everything-has-its-time.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/face-id-and-masks.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/face-id-and-sunglasses.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/face-id-on-the-mac-wont-happen.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/first-impressions-of-ios-14.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/fixing-safaris-html-only-dark-mode-bug.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/fixing-your-last-git-commit.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/focus-appearance-explained.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/focus-priming.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/folder-sharing-and-the-new-apple-oss.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/form-styling-limitations-are-an-accessibility-issue.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/freeagent.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/front-of-the-frontend.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/frontend-front-end-or-front-end.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/frontend-ne-draws-to-a-close.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/getting-started-with-git-stash.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/getting-started-with-nvda.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/getting-started-with-voiceover-on-macos.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/getting-to-grips-with-git.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/getting-voiceover-to-shut-up.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/git-rebase-versus-merge.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/git-restore-to-discard-changes.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/giving-your-git-stash-a-name.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/going-all-in-on-icloud-passwords.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/google-are-spoiling-my-blue-beanie-day.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/here-here-and-here.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/how-button-groups-should-work-for-keyboard-users.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/how-i-approach-css-my-abc-system.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/how-my-websites-design-has-evolved.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/how-navigation-should-work-for-keyboard-users.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/how-to-avoid-disabled-buttons.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/how-to-browse-the-web-with-the-keyboard-alone.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/how-to-change-the-first-number-of-an-ordered-list-in-html.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/how-to-diff-branches-in-git.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/how-to-rename-a-remote-repo-in-git.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/how-to-rename-the-master-branch-on-github.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/how-to-use-the-keyboard-to-navigate-on-safari.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/html-is-more-complicated-than-you-think.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/html-isnt-quite-accessible-out-of-the-box.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/html-only-dark-mode.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/i-cant-wait-for-dark-mode-on-ios.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/i-deleted-1password.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/icon-only-links-fail-wcag.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/id-forgotten-how-much-i-like-keynote.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/if-html-and-aria-dont-allow-it-its-probably-a-bad-idea.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/if-its-not-progressively-enhanced-its-not-accessible.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/if-one-person-is-remote-everyone-should-be-remote.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/if-only-apples-voice-memos-did-transcription.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/if-you-need-a-link-dont-use-a-button.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/if-youre-going-to-do-a-job-do-it-properly.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/images-as-the-first-thing-in-a-button-or-link.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/images-illustrations-and-contrast.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/implicit-aria-landmark-roles.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/in-search-of-the-best-writing-app.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/include-a-date-on-your-blog-posts.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/index.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/ios-14s-back-tap-a-better-way-to-access-control-centre.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/ios-15-face-id-sunglasses-and-apple-watch.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/iphone-event-2019.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/is-a11y-exclusive.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/its-good-to-make-mistakes.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/keep-on-learning.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/keeping-git-status-short.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/lazy-loading-images-without-javascript.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/leaving-the-frontend-ne-meet-up.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/lets-make-webmasters-a-thing-again.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/ligatures-in-coding-fonts.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/links-missing-href-attributes-and-over-engineered-code.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/list-style-articles.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/looks-like-3d-touch-is-going-away.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/mac-event-2021.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/mastodon-and-me.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/minimalism-and-progressive-enhancement.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/moving-to-apple-one-with-existing-apple-subscriptions.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/moving-to-netlify.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/my-favourite-rss-app.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/my-introduction-to-co-working.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/my-user-manual.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/netlify-deploy-previews.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/not-all-screen-reader-users-are-blind.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/on-not-setting-an-upstream-for-short-lived-branches.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/opening-links-in-a-new-tab-or-window-is-better-avoided.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/operator-mono-and-why-i-want-italics-in-my-code-editor.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/optional-closing-tags-in-html.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/overlapping-interactive-areas.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/own-your-own-content.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/pixels-constraints-minimalism-and-tempertemper.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/practice-makes-perfect.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/progressively-enhanced-animated-content.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/pushing-to-a-differently-named-branch-on-your-remote.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/putting-the-time-in-up-front.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/reading-at-night-with-a-neat-iphone-hack.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/redirect-a-filename-in-netlify-without-specifying-the-path.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/reducing-motion.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/refining-focus-styles-with-focus-visible.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/refining-my-writing-process.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/reset-to-a-previous-commit.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/respecting-peoples-privacy.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/reversing-an-ordered-list-in-html.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/right-here-right-now.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/routine-and-flexibility.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/safari-15-4.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/safari-15s-tab-groups.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/safari-focus-visible-and-accessibility.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/safari-tab-icons.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/sass-mixins-for-increased-contrast-mode-and-dark-mode.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/saying-goodbye-to-uk-government.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/screen-reader-users-and-the-tab-key.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/scroll-bounce-page-background-colour.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/scrollbar-marker-colours-on-macos.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/searching-for-a-git-commit-by-name-with-grep.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/self-closing-elements-in-html.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/sentence-case-versus-title-case.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/setting-an-upstream-git-branch.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/setting-up-a-staging-site-with-netlify.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/settling-for-less.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/share-anyway.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/simplifying-branching-and-deployment-with-github-flow.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/skip-links-what-why-and-how.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/sleep-on-watchos-7.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/some-brief-thoughts-on-watchos-6.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/sometimes-when-its-false-its-true.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/splitting-a-hunk-in-gits-patch-mode.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/staging-different-parts-of-the-same-file-with-git.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/still-a-sucker-for-sublime.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/stop-search-indexing-for-netlify-deploy-previews-and-branch-deploys.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/stop-the-ride-i-want-to-get-off.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/styling-code-snippets-in-keynote.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/styling-list-markers-the-right-way.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/styling-underlines-with-css.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/swiftui-is-more-than-just-a-developer-convenience.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/switching-to-gmail.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/tempertempers-typefaces.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/text-snippets-on-apple-devices.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/text-underline-thickness-on-chrome.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/the-accessibility-conversations-you-want-to-be-having.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/the-benefits-of-co-working.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/the-best-sublime-text-theme.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/the-briefest-of-histories-of-responsive-images.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/the-curse-of-knowledge.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/the-difference-between-elements-and-tags-in-html.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/the-difference-between-increased-contrast-mode-and-windows-high-contrast-mode.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/the-difference-between-strikethrough-and-del.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/the-new-macbook-keyboard.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/the-right-way-to-use-break-tags-in-html.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/the-simplest-solutions-are-usually-the-best.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/the-tempertemper-newsletter.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/the-trouble-with-back-links.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/theres-no-such-thing-as-menubar-navigation.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/theyre-my-rules-to-break.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/third-party-platforms-and-owning-your-own-content.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/thoughts-on-3d-touch.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/undelete-a-file-with-git.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/updating-netlify-deployments-when-renaming-your-main-git-branch.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/upgrading-from-a-home-button-to-a-face-id-iphone.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/upgrading-from-iphone-13-mini-to-16-pro.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/upgrading-from-iphone-xs-to-13-mini.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/user-wants-versus-accessibility.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/using-address-in-html-wont-be-problematic-for-much-longer.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/using-git-restore-to-discard-changes-within-a-file.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/using-git-switch-to-change-branches.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/using-horizontal-rules-in-html.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/using-iframes-to-embed-arbitrary-content-is-probably-a-bad-idea.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/using-image-aspect-ratios-to-avoiding-janky-page-loading.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/using-nvm-on-macos.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/using-pandoc-to-convert-markdown-to-jiras-textile-in-sublime-text.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/using-the-html-document-outline.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/using-the-increased-contrast-mode-css-media-query.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/using-the-keyboard-to-navigate-on-macos.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/using-voiceovers-rotor-on-macos.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/using-webp-images.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/version-control-for-articles-and-blog-posts.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/version-tagging-with-releases-in-github-flow.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/viewing-the-changes-in-a-git-stash.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/voice-control-for-macos-commands-cheatsheet.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/voiceovers-trackpad-commander-on-mac.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/wcag-2-2-in-language-i-can-understand.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/wcag-aaa-in-language-i-can-understand.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/wcag-but-in-language-i-can-understand.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/webkit-has-fixed-the-implicit-role-on-footers.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/website-version-5.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/website-version-6.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/what-do-we-do-with-a-link-or-button-matters.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/what-has-happened-twitter.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/what-i-wish-was-in-wcag-prohibit-icon-only-buttons.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/what-if-no-ones-listening.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/what-watchos-7-might-have-in-store.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/whats-emphasis-and-whats-not.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/whats-rss-all-about.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/when-and-how-to-use-the-section-element.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/when-design-breaks-semantics.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/which-images-need-descriptive-text.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/which-way-is-that-arrow-pointing.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/why-i-always-raise-a-pull-request-on-solo-projects.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/why-i-havent-redesigned-my-portfolio-since-2014.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/why-i-prefer-not-to-use-css-shorthand.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/why-i-still-use-rss.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/why-i-stopped-using-ascii-art.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/why-im-not-using-git-aliases.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/why-is-accessibility-so-often-seen-as-a-low-priority.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/why-tempertemper.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/why-you-should-almost-always-underline-your-links.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/windows-high-contrast-mode-and-focus-outlines.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/wwdc-2019-roundup.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/wwdc-2020-roundup.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/wwdc-2021-roundup.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/wwdc-2022-roundup.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/wwdc-2023-roundup.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/wwdc-2024-roundup.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/wwdc-2025-roundup.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/xhtml-syntax-is-still-worth-using.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/year/2011.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/year/2012.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/year/2013.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/year/2014.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/year/2015.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/year/2016.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/year/2017.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/year/2018.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/year/2019.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/year/2020.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/year/2021.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/year/2022.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/year/2023.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/year/2024.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/year/2025.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/year/2026.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/years-in-the-accessibility-learning-curve-continues.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "blog/years.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "categories.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "category/accessibility.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "category/apple.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "category/brand.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "category/business.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "category/case-study.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "category/content.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "category/css.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "category/design.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "category/development.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "category/email.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "category/git.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "category/html.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "category/javascript.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "category/markdown.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "category/marketing.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "category/meta-data.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "category/performance.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "category/search.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "category/security.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "category/serverless.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "category/skills.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "category/tools.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "category/website-admin.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "category/workflows.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "colophon.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "consultancy.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "contact.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "cv.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "index.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "keep-in-touch.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "newsletter/2020-08-06.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "newsletter/2020-09-01.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "newsletter/2020-09-30.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "newsletter/2020-10-31.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "newsletter/2020-11-30.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "newsletter/2020-12-31.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "newsletter/2021-01-31.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "newsletter/2021-02-28.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "newsletter/2021-03-31.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "newsletter/2021-04-30.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "newsletter/2021-05-31.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "newsletter/2021-06-30.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "newsletter/2021-07-31.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "newsletter/2021-08-31.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "newsletter/2021-09-30.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "newsletter/2021-10-31.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "newsletter/2021-11-30.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "newsletter/2021-12-31.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "newsletter/2022-01-31.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "newsletter/2022-02-28.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "newsletter/2022-03-31.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "newsletter/2022-04-30.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "newsletter/2022-05-31.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "newsletter/2022-06-30.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "newsletter/2022-07-31.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "newsletter/2022-08-31.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "newsletter/2022-09-30.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "newsletter/2022-10-31.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "newsletter/2022-11-30.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "newsletter/2022-12-31.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "newsletter/2023-01-31.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "newsletter/2023-02-28.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "newsletter/2023-03-31.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "newsletter/2023-04-30.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "newsletter/2023-05-31.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "newsletter/2023-06-30.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "newsletter/2023-07-31.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "newsletter/2023-08-31.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "newsletter/2023-09-30.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "newsletter/2023-10-31.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "newsletter/2023-11-30.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "newsletter/2023-12-31.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "newsletter/2024-01-31.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "newsletter/2024-02-29.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "newsletter/2024-03-31.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "newsletter/2024-04-30.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "newsletter/2024-05-31.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "newsletter/2024-06-30.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "newsletter/2024-07-31.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "newsletter/2024-08-31.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "newsletter/2024-10-01.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "newsletter/2024-10-31.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "newsletter/2024-12-01.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "newsletter/2024-12-31.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "newsletter/2025-01-31.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "newsletter/2025-02-28.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "newsletter/2025-03-31.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "newsletter/2025-04-30.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "newsletter/2025-05-31.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "newsletter/2025-06-30.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "newsletter/archive.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "newsletter/confirm-email.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "newsletter/index.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "newsletter/subscribed.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "newsletter/unsubscribe.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "now.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "portfolio/a-minimal-task-list-pattern-for-govuk.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "portfolio/designing-a-cohesive-suite-of-applications.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "portfolio/efficient-simple-and-usable-govuk-dashboard-pages.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "portfolio/index.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "portfolio/making-a-government-service-accessible.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "portfolio/scaling-accessibility-awareness-at-sage-five-years-of-gaad.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "privacy-policy.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "resources/android-email-set-up.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "resources/are-you-living-in-the-past.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "resources/bookmark-icons.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "resources/branded-email.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "resources/calls-to-action.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "resources/cms-updates.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "resources/contact-forms.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "resources/design-and-build-for-the-worst-case-scenario.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "resources/disability-on-the-web.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "resources/displaying-an-email-address-on-your-website.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "resources/do-i-need-a-cms.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "resources/do-i-need-a-mobile-website.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "resources/domain-name-renewals.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "resources/domain-names.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "resources/edit-your-blog-posts-off-line.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "resources/facebook-business-pages.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "resources/giving-social-media-the-right-information.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "resources/google-analytics.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "resources/google-gets-serious-about-ssl.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "resources/google-history-and-your-ranking.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "resources/google-places.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "resources/google-plus-whats-the-fuss.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "resources/hero-images-pros-and-cons.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "resources/how-can-twitter-help-my-business.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "resources/how-headings-work.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "resources/how-the-web-works.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "resources/how-to-write-a-link-using-markdown.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "resources/how-to-write-a-link.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "resources/image-alt-text.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "resources/image-cropping.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "resources/index.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "resources/ios-email-set-up.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "resources/keywords.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "resources/like-follow-no-thanks.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "resources/links-make-the-web-go-round.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "resources/little-by-little.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "resources/look-after-your-domain-name.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "resources/making-the-most-of-your-blog-posts.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "resources/markdown-cheatsheet.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "resources/mobile-friendly-markers.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "resources/older-browsers.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "resources/page-descriptions.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "resources/page-titles.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "resources/password-security.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "resources/qr-readers.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "resources/reduce-spam.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "resources/regular-backups-are-important.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "resources/regular-website-maintenance.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "resources/should-you-go-responsive.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "resources/ssl-for-everyone.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "resources/taking-a-break-without-neglecting-your-business.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "resources/the-great-unknown.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "resources/the-three-golden-rules-of-sending-marketing-emails.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "resources/the-types-of-email.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "resources/tidy-up-your-sites-addresses-for-search.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "resources/types-of-email-and-when-to-use-each.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "resources/webfonts.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "resources/website-updates-and-avoiding-content-loss.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "resources/website-video.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "resources/what-is-markdown.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "resources/what-is-meta-data.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "resources/what-is-ssl-and-is-it-worth-the-bother.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "resources/what-search-engines-want.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "resources/what-you-see-isnt-what-you-get.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "resources/whats-in-a-browser.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "resources/why-do-i-need-a-website.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "resources/why-i-changed-my-baseline.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "resources/why-should-i-blog.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "resources/why-you-need-a-privacy-policy.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "resources/writing-your-website.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "skills/accessibility.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "skills/frontend-development.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "skills/html-email.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "skills/index.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "skills/perch-cms.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "skills/user-experience-design.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "skills/user-interface-design.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "terms.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "testimonials/ally-patton.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "testimonials/amy-collier.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "testimonials/andrew-dennis.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "testimonials/ant-barker.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "testimonials/cat-johnson.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "testimonials/charlotte-black.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "testimonials/damien-flannagan.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "testimonials/duncan-edwards.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "testimonials/graeme-andrew.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "testimonials/ian-blackburn.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "testimonials/ian-rowlands.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "testimonials/index.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "testimonials/james-mann.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "testimonials/jenny-pattison.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "testimonials/jo-darby.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "testimonials/john-ruiz.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "testimonials/jonny-penzes-underhill.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "testimonials/jory-adamson.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "testimonials/karl-reid.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "testimonials/kathryn-taylor.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "testimonials/kevin-dawson.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "testimonials/lamara-mckinney.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "testimonials/leanne-clegg.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "testimonials/lesley-fenton.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "testimonials/liz-turnbull.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "testimonials/malin-bond.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "testimonials/martin-deane.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "testimonials/monika-papaj.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "testimonials/pete-wilkinson.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "testimonials/peter-opie.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "testimonials/phil-wilsdon.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "testimonials/ryan-davies.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "testimonials/steph-black.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "testimonials/tammy-sanders.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "testimonials/tessa-gayne.html",
+   "reason": "commit_1_all_pages"
+  },
+  {
+   "page": "user-manual.html",
+   "reason": "commit_1_all_pages"
+  }
+ ]
+}

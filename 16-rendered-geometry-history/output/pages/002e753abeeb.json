@@ -1,0 +1,181 @@
+{
+ "sha": "002e753abeebb1fd6c8e2190227fef7d28242d8c",
+ "sha12": "002e753abeeb",
+ "commit_index": 15,
+ "previous_built_sha": "25bc0cf6a3887a728ad5de5640687fcbeec6d94c",
+ "note": "page set decided from 11-manifests-normalized body hashes; actual render uses this repo build output",
+ "pages": [
+  {
+   "page": "blog/index.html",
+   "reason": "list_page_always_rendered"
+  },
+  {
+   "page": "blog/year/2011.html",
+   "reason": "list_page_always_rendered"
+  },
+  {
+   "page": "blog/year/2012.html",
+   "reason": "list_page_always_rendered"
+  },
+  {
+   "page": "blog/year/2013.html",
+   "reason": "list_page_always_rendered"
+  },
+  {
+   "page": "blog/year/2014.html",
+   "reason": "list_page_always_rendered"
+  },
+  {
+   "page": "blog/year/2015.html",
+   "reason": "list_page_always_rendered"
+  },
+  {
+   "page": "blog/year/2016.html",
+   "reason": "list_page_always_rendered"
+  },
+  {
+   "page": "blog/year/2017.html",
+   "reason": "list_page_always_rendered"
+  },
+  {
+   "page": "blog/year/2018.html",
+   "reason": "list_page_always_rendered"
+  },
+  {
+   "page": "blog/year/2019.html",
+   "reason": "list_page_always_rendered"
+  },
+  {
+   "page": "blog/year/2020.html",
+   "reason": "list_page_always_rendered"
+  },
+  {
+   "page": "blog/year/2021.html",
+   "reason": "list_page_always_rendered"
+  },
+  {
+   "page": "blog/year/2022.html",
+   "reason": "list_page_always_rendered"
+  },
+  {
+   "page": "blog/year/2023.html",
+   "reason": "list_page_always_rendered"
+  },
+  {
+   "page": "blog/year/2024.html",
+   "reason": "list_page_always_rendered"
+  },
+  {
+   "page": "blog/year/2025.html",
+   "reason": "list_page_always_rendered"
+  },
+  {
+   "page": "blog/year/2026.html",
+   "reason": "list_page_always_rendered"
+  },
+  {
+   "page": "category/accessibility.html",
+   "reason": "list_page_always_rendered"
+  },
+  {
+   "page": "category/apple.html",
+   "reason": "list_page_always_rendered"
+  },
+  {
+   "page": "category/brand.html",
+   "reason": "list_page_always_rendered"
+  },
+  {
+   "page": "category/business.html",
+   "reason": "list_page_always_rendered"
+  },
+  {
+   "page": "category/case-study.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "category/content.html",
+   "reason": "list_page_always_rendered"
+  },
+  {
+   "page": "category/css.html",
+   "reason": "list_page_always_rendered"
+  },
+  {
+   "page": "category/design.html",
+   "reason": "list_page_always_rendered"
+  },
+  {
+   "page": "category/development.html",
+   "reason": "list_page_always_rendered"
+  },
+  {
+   "page": "category/email.html",
+   "reason": "list_page_always_rendered"
+  },
+  {
+   "page": "category/git.html",
+   "reason": "list_page_always_rendered"
+  },
+  {
+   "page": "category/html.html",
+   "reason": "list_page_always_rendered"
+  },
+  {
+   "page": "category/javascript.html",
+   "reason": "list_page_always_rendered"
+  },
+  {
+   "page": "category/markdown.html",
+   "reason": "list_page_always_rendered"
+  },
+  {
+   "page": "category/marketing.html",
+   "reason": "list_page_always_rendered"
+  },
+  {
+   "page": "category/meta-data.html",
+   "reason": "list_page_always_rendered"
+  },
+  {
+   "page": "category/performance.html",
+   "reason": "list_page_always_rendered"
+  },
+  {
+   "page": "category/search.html",
+   "reason": "list_page_always_rendered"
+  },
+  {
+   "page": "category/security.html",
+   "reason": "list_page_always_rendered"
+  },
+  {
+   "page": "category/serverless.html",
+   "reason": "list_page_always_rendered"
+  },
+  {
+   "page": "category/skills.html",
+   "reason": "list_page_always_rendered"
+  },
+  {
+   "page": "category/tools.html",
+   "reason": "list_page_always_rendered"
+  },
+  {
+   "page": "category/website-admin.html",
+   "reason": "list_page_always_rendered"
+  },
+  {
+   "page": "category/workflows.html",
+   "reason": "list_page_always_rendered"
+  },
+  {
+   "page": "index.html",
+   "reason": "list_page_always_rendered"
+  },
+  {
+   "page": "portfolio/index.html",
+   "reason": "body_hash_changed"
+  }
+ ]
+}

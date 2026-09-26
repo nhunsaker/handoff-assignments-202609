@@ -1,0 +1,593 @@
+{
+ "sha": "18c250eda58c7fffd8e02f641ceaae8d5d6d4106",
+ "sha12": "18c250eda58c",
+ "commit_index": 89,
+ "previous_built_sha": "d2491c85f0a37c4a56e3bebc5bc2f11e336560ee",
+ "note": "page set decided from 11-manifests-normalized body hashes; actual render uses this repo build output",
+ "pages": [
+  {
+   "page": "blog/index.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "blog/page/10.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "blog/page/11.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "blog/page/12.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "blog/page/13.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "blog/page/14.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "blog/page/15.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "blog/page/16.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "blog/page/17.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "blog/page/18.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "blog/page/19.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "blog/page/2.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "blog/page/20.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "blog/page/21.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "blog/page/22.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "blog/page/23.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "blog/page/24.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "blog/page/25.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "blog/page/26.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "blog/page/27.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "blog/page/28.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "blog/page/29.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "blog/page/3.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "blog/page/30.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "blog/page/4.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "blog/page/5.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "blog/page/6.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "blog/page/7.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "blog/page/8.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "blog/page/9.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "blog/year/2011.html",
+   "reason": "list_page_always_rendered"
+  },
+  {
+   "page": "blog/year/2012.html",
+   "reason": "list_page_always_rendered"
+  },
+  {
+   "page": "blog/year/2013.html",
+   "reason": "list_page_always_rendered"
+  },
+  {
+   "page": "blog/year/2014.html",
+   "reason": "list_page_always_rendered"
+  },
+  {
+   "page": "blog/year/2015.html",
+   "reason": "list_page_always_rendered"
+  },
+  {
+   "page": "blog/year/2016.html",
+   "reason": "list_page_always_rendered"
+  },
+  {
+   "page": "blog/year/2017.html",
+   "reason": "list_page_always_rendered"
+  },
+  {
+   "page": "blog/year/2018.html",
+   "reason": "list_page_always_rendered"
+  },
+  {
+   "page": "blog/year/2019.html",
+   "reason": "list_page_always_rendered"
+  },
+  {
+   "page": "blog/year/2020.html",
+   "reason": "list_page_always_rendered"
+  },
+  {
+   "page": "blog/year/2021.html",
+   "reason": "list_page_always_rendered"
+  },
+  {
+   "page": "blog/year/2022.html",
+   "reason": "list_page_always_rendered"
+  },
+  {
+   "page": "blog/year/2023.html",
+   "reason": "list_page_always_rendered"
+  },
+  {
+   "page": "blog/year/2024.html",
+   "reason": "list_page_always_rendered"
+  },
+  {
+   "page": "blog/year/2025.html",
+   "reason": "list_page_always_rendered"
+  },
+  {
+   "page": "blog/year/2026.html",
+   "reason": "list_page_always_rendered"
+  },
+  {
+   "page": "blog/year/2035.html",
+   "reason": "list_page_always_rendered"
+  },
+  {
+   "page": "category/accessibility.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "category/apple.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "category/approach.html",
+   "reason": "list_page_always_rendered"
+  },
+  {
+   "page": "category/brand.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "category/business.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "category/case-study.html",
+   "reason": "list_page_always_rendered"
+  },
+  {
+   "page": "category/content.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "category/css.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "category/design.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "category/development.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "category/email.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "category/git.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "category/html.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "category/javascript.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "category/markdown.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "category/marketing.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "category/meta-data.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "category/performance.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "category/search.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "category/security.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "category/serverless.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "category/service.html",
+   "reason": "list_page_always_rendered"
+  },
+  {
+   "page": "category/skill.html",
+   "reason": "list_page_always_rendered"
+  },
+  {
+   "page": "category/tools.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "category/website-admin.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "category/workflows.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "index.html",
+   "reason": "list_page_always_rendered"
+  },
+  {
+   "page": "newsletter/2020-08-06.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "newsletter/2020-09-01.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "newsletter/2020-09-30.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "newsletter/2020-10-31.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "newsletter/2020-11-30.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "newsletter/2020-12-31.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "newsletter/2021-01-31.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "newsletter/2021-02-28.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "newsletter/2021-03-31.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "newsletter/2021-04-30.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "newsletter/2021-05-31.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "newsletter/2021-06-30.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "newsletter/2021-07-31.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "newsletter/2021-08-31.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "newsletter/2021-09-30.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "newsletter/2021-10-31.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "newsletter/2021-11-30.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "newsletter/2021-12-31.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "newsletter/2022-01-31.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "newsletter/2022-02-28.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "newsletter/2022-03-31.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "newsletter/2022-04-30.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "newsletter/2022-05-31.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "newsletter/2022-06-30.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "newsletter/2022-07-31.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "newsletter/2022-08-31.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "newsletter/2022-09-30.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "newsletter/2022-10-31.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "newsletter/2022-11-30.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "newsletter/2022-12-31.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "newsletter/2023-01-31.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "newsletter/2023-02-28.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "newsletter/2023-03-31.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "newsletter/2023-04-30.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "newsletter/2023-05-31.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "newsletter/2023-06-30.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "newsletter/2023-07-31.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "newsletter/2023-08-31.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "newsletter/2023-09-30.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "newsletter/2023-10-31.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "newsletter/2023-11-30.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "newsletter/2023-12-31.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "newsletter/2024-01-31.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "newsletter/2024-02-29.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "newsletter/2024-03-31.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "newsletter/2024-04-30.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "newsletter/2024-05-31.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "newsletter/2024-06-30.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "newsletter/2024-07-31.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "newsletter/2024-08-31.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "newsletter/2024-10-01.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "newsletter/2024-10-31.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "newsletter/2024-12-01.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "newsletter/2024-12-31.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "newsletter/2025-01-31.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "newsletter/2025-02-28.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "newsletter/2025-03-31.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "newsletter/2025-04-30.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "newsletter/2025-05-31.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "newsletter/2025-06-30.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "newsletter/2025-07-31.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "newsletter/2025-08-31.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "newsletter/2025-09-30.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "newsletter/2025-10-31.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "newsletter/2035-11-30.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "resources/index.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "resources/page/2.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "resources/page/3.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "resources/page/4.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "resources/page/5.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "resources/page/6.html",
+   "reason": "body_hash_changed"
+  },
+  {
+   "page": "resources/page/7.html",
+   "reason": "body_hash_changed"
+  }
+ ]
+}
