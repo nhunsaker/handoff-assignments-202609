@@ -1,0 +1,253 @@
+{
+ "repo": "j-magnolia/maggiegilligan.hugo",
+ "bucket": "H",
+ "window": {
+  "start": "2026-03-26",
+  "end": "2026-09-25",
+  "page_touching_commits": 25,
+  "new_content_commits": 5
+ },
+ "selection": [
+  {
+   "sha": "5601e3dfe3d78b4590f4ecf9b13ca3a92f6cfb3d",
+   "date": "2026-03-26",
+   "adds_new_content": true
+  },
+  {
+   "sha": "c21d9e3e4a6c2855525f4a387ac977376a9412f4",
+   "date": "2026-04-20",
+   "adds_new_content": true
+  },
+  {
+   "sha": "04f30275c8837f30b11842fad233f33797f1f1af",
+   "date": "2026-05-14",
+   "adds_new_content": false
+  },
+  {
+   "sha": "df31e462fd042f5991b6edd56bf46cd759aacfa9",
+   "date": "2026-05-28",
+   "adds_new_content": false
+  },
+  {
+   "sha": "95909b683c137de30fcaff5760247dc6df20da33",
+   "date": "2026-06-10",
+   "adds_new_content": false
+  },
+  {
+   "sha": "b3f848da92b2158551f034dc94cb6cf4f9db3151",
+   "date": "2026-06-10",
+   "adds_new_content": false
+  },
+  {
+   "sha": "009ab6d44bd9b70802adce2b33c9e262d1afb270",
+   "date": "2026-07-10",
+   "adds_new_content": false
+  },
+  {
+   "sha": "c580823b9bfd6842eec5d9acd48ebab3403cac0e",
+   "date": "2026-08-19",
+   "adds_new_content": true
+  }
+ ],
+ "commits": [
+  {
+   "sha": "5601e3dfe3d78b4590f4ecf9b13ca3a92f6cfb3d",
+   "date": "2026-03-26",
+   "adds_new_content": true,
+   "worktree_method": "sequential detached checkout + git clean -fdx in single clone (git worktree add fails on these partial clones: \"Could not reset index file to revision HEAD\"); theme submodule themes/hugo-finisterre updated to the gitlink commit recorded at each probed commit (git submodule update --init; pinned submodule commits pre-fetched)",
+   "hugo_version": "0.150.0 pinned in netlify.toml at this commit (local extended binary hugo_0.150.0)",
+   "build_ok": true,
+   "build_seconds": 8.19,
+   "error_excerpt": [],
+   "page_count": 414,
+   "output_dir_config_line": "config.yaml: publishdir: \"public\"",
+   "list_pages": [
+    {
+     "path": "publications/index.html",
+     "main_list_selector": "main ul.compact li",
+     "selector_reason": "themes/hugo-finisterre/layouts/publications/publications.html ranges .Pages.ByDate.Reverse rendering each publication as an <li> under ul.compact in <main>; the inline pub-summary contains no internal content-page links",
+     "list_items": 120,
+     "link_count": 0
+    }
+   ]
+  },
+  {
+   "sha": "c21d9e3e4a6c2855525f4a387ac977376a9412f4",
+   "date": "2026-04-20",
+   "adds_new_content": true,
+   "worktree_method": "sequential detached checkout + git clean -fdx in single clone (git worktree add fails on these partial clones: \"Could not reset index file to revision HEAD\"); theme submodule themes/hugo-finisterre updated to the gitlink commit recorded at each probed commit (git submodule update --init; pinned submodule commits pre-fetched)",
+   "hugo_version": "0.150.0 pinned in netlify.toml at this commit (local extended binary hugo_0.150.0)",
+   "build_ok": true,
+   "build_seconds": 6.97,
+   "error_excerpt": [],
+   "page_count": 416,
+   "output_dir_config_line": "config.yaml: publishdir: \"public\"",
+   "list_pages": [
+    {
+     "path": "publications/index.html",
+     "main_list_selector": "main ul.compact li",
+     "selector_reason": "themes/hugo-finisterre/layouts/publications/publications.html ranges .Pages.ByDate.Reverse rendering each publication as an <li> under ul.compact in <main>; the inline pub-summary contains no internal content-page links",
+     "list_items": 122,
+     "link_count": 0
+    }
+   ]
+  },
+  {
+   "sha": "04f30275c8837f30b11842fad233f33797f1f1af",
+   "date": "2026-05-14",
+   "adds_new_content": false,
+   "worktree_method": "sequential detached checkout + git clean -fdx in single clone (git worktree add fails on these partial clones: \"Could not reset index file to revision HEAD\"); theme submodule themes/hugo-finisterre updated to the gitlink commit recorded at each probed commit (git submodule update --init; pinned submodule commits pre-fetched)",
+   "hugo_version": "0.150.0 pinned in netlify.toml at this commit (local extended binary hugo_0.150.0)",
+   "build_ok": true,
+   "build_seconds": 5.15,
+   "error_excerpt": [],
+   "page_count": 416,
+   "output_dir_config_line": "config.yaml: publishdir: \"public\"",
+   "list_pages": [
+    {
+     "path": "publications/index.html",
+     "main_list_selector": "main ul.compact li",
+     "selector_reason": "themes/hugo-finisterre/layouts/publications/publications.html ranges .Pages.ByDate.Reverse rendering each publication as an <li> under ul.compact in <main>; the inline pub-summary contains no internal content-page links",
+     "list_items": 122,
+     "link_count": 0
+    }
+   ]
+  },
+  {
+   "sha": "df31e462fd042f5991b6edd56bf46cd759aacfa9",
+   "date": "2026-05-28",
+   "adds_new_content": false,
+   "worktree_method": "sequential detached checkout + git clean -fdx in single clone (git worktree add fails on these partial clones: \"Could not reset index file to revision HEAD\"); theme submodule themes/hugo-finisterre updated to the gitlink commit recorded at each probed commit (git submodule update --init; pinned submodule commits pre-fetched)",
+   "hugo_version": "0.150.0 pinned in netlify.toml at this commit (local extended binary hugo_0.150.0)",
+   "build_ok": true,
+   "build_seconds": 5.97,
+   "error_excerpt": [],
+   "page_count": 416,
+   "output_dir_config_line": "config.yaml: publishdir: \"public\"",
+   "list_pages": [
+    {
+     "path": "publications/index.html",
+     "main_list_selector": "main ul.compact li",
+     "selector_reason": "themes/hugo-finisterre/layouts/publications/publications.html ranges .Pages.ByDate.Reverse rendering each publication as an <li> under ul.compact in <main>; the inline pub-summary contains no internal content-page links",
+     "list_items": 122,
+     "link_count": 0
+    }
+   ]
+  },
+  {
+   "sha": "95909b683c137de30fcaff5760247dc6df20da33",
+   "date": "2026-06-10",
+   "adds_new_content": false,
+   "worktree_method": "sequential detached checkout + git clean -fdx in single clone (git worktree add fails on these partial clones: \"Could not reset index file to revision HEAD\"); theme submodule themes/hugo-finisterre updated to the gitlink commit recorded at each probed commit (git submodule update --init; pinned submodule commits pre-fetched)",
+   "hugo_version": "0.162.1 pinned in netlify.toml at this commit (local extended binary hugo_0.162.1)",
+   "build_ok": true,
+   "build_seconds": 6.16,
+   "error_excerpt": [
+    "WARN  deprecated: .Site.LanguageCode was deprecated in Hugo v0.158.0 and will be removed in a future release. Use .Site.Language.Locale instead."
+   ],
+   "page_count": 416,
+   "output_dir_config_line": "config.yaml: publishdir: \"public\"",
+   "list_pages": [
+    {
+     "path": "publications/index.html",
+     "main_list_selector": "main ul.compact li",
+     "selector_reason": "themes/hugo-finisterre/layouts/publications/publications.html ranges .Pages.ByDate.Reverse rendering each publication as an <li> under ul.compact in <main>; the inline pub-summary contains no internal content-page links",
+     "list_items": 122,
+     "link_count": 0
+    }
+   ]
+  },
+  {
+   "sha": "b3f848da92b2158551f034dc94cb6cf4f9db3151",
+   "date": "2026-06-10",
+   "adds_new_content": false,
+   "worktree_method": "sequential detached checkout + git clean -fdx in single clone (git worktree add fails on these partial clones: \"Could not reset index file to revision HEAD\"); theme submodule themes/hugo-finisterre updated to the gitlink commit recorded at each probed commit (git submodule update --init; pinned submodule commits pre-fetched)",
+   "hugo_version": "0.162.1 pinned in netlify.toml at this commit (local extended binary hugo_0.162.1)",
+   "build_ok": true,
+   "build_seconds": 6.18,
+   "error_excerpt": [
+    "WARN  deprecated: .Site.LanguageCode was deprecated in Hugo v0.158.0 and will be removed in a future release. Use .Site.Language.Locale instead."
+   ],
+   "page_count": 416,
+   "output_dir_config_line": "config.yaml: publishdir: \"public\"",
+   "list_pages": [
+    {
+     "path": "publications/index.html",
+     "main_list_selector": "main ul.compact li",
+     "selector_reason": "themes/hugo-finisterre/layouts/publications/publications.html ranges .Pages.ByDate.Reverse rendering each publication as an <li> under ul.compact in <main>; the inline pub-summary contains no internal content-page links",
+     "list_items": 122,
+     "link_count": 0
+    }
+   ]
+  },
+  {
+   "sha": "009ab6d44bd9b70802adce2b33c9e262d1afb270",
+   "date": "2026-07-10",
+   "adds_new_content": false,
+   "worktree_method": "sequential detached checkout + git clean -fdx in single clone (git worktree add fails on these partial clones: \"Could not reset index file to revision HEAD\"); theme submodule themes/hugo-finisterre updated to the gitlink commit recorded at each probed commit (git submodule update --init; pinned submodule commits pre-fetched)",
+   "hugo_version": "0.162.1 pinned in netlify.toml at this commit (local extended binary hugo_0.162.1)",
+   "build_ok": true,
+   "build_seconds": 6.79,
+   "error_excerpt": [],
+   "page_count": 416,
+   "output_dir_config_line": "config.yaml: publishdir: \"public\"",
+   "list_pages": [
+    {
+     "path": "publications/index.html",
+     "main_list_selector": "main ul.compact li",
+     "selector_reason": "themes/hugo-finisterre/layouts/publications/publications.html ranges .Pages.ByDate.Reverse rendering each publication as an <li> under ul.compact in <main>; the inline pub-summary contains no internal content-page links",
+     "list_items": 122,
+     "link_count": 0
+    }
+   ]
+  },
+  {
+   "sha": "c580823b9bfd6842eec5d9acd48ebab3403cac0e",
+   "date": "2026-08-19",
+   "adds_new_content": true,
+   "worktree_method": "sequential detached checkout + git clean -fdx in single clone (git worktree add fails on these partial clones: \"Could not reset index file to revision HEAD\"); theme submodule themes/hugo-finisterre updated to the gitlink commit recorded at each probed commit (git submodule update --init; pinned submodule commits pre-fetched)",
+   "hugo_version": "0.162.1 pinned in netlify.toml at this commit (local extended binary hugo_0.162.1)",
+   "build_ok": true,
+   "build_seconds": 9.64,
+   "error_excerpt": [],
+   "page_count": 419,
+   "output_dir_config_line": "config.yaml: publishdir: \"public\"",
+   "list_pages": [
+    {
+     "path": "publications/index.html",
+     "main_list_selector": "main ul.compact li",
+     "selector_reason": "themes/hugo-finisterre/layouts/publications/publications.html ranges .Pages.ByDate.Reverse rendering each publication as an <li> under ul.compact in <main>; the inline pub-summary contains no internal content-page links",
+     "list_items": 123,
+     "link_count": 0
+    }
+   ]
+  }
+ ],
+ "median_page_count": 416.0,
+ "median_build_seconds": 6.484999999999999,
+ "phase7": {
+  "rebuilt_commits": [
+   {
+    "sha": "5601e3dfe3d78b4590f4ecf9b13ca3a92f6cfb3d",
+    "pages_compared": 414,
+    "all_body_identical": true,
+    "all_raw_identical": true,
+    "differing_pages": [],
+    "only_in_one": []
+   },
+   {
+    "sha": "c580823b9bfd6842eec5d9acd48ebab3403cac0e",
+    "pages_compared": 419,
+    "all_body_identical": true,
+    "all_raw_identical": true,
+    "differing_pages": [],
+    "only_in_one": []
+   }
+  ],
+  "pages_compared": 833,
+  "all_body_identical": true,
+  "differing_pages": []
+ },
+ "verdict": "corpus_ready",
+ "verdict_reason": "8/8 builds OK with per-commit pinned Hugo (0.150.0 for first four, 0.162.1 for last four, via netlify.toml HUGO_VERSION; theme submodule at recorded gitlink each commit), median 416 static pages (>= 20), publications list page present at every commit with main-list count changing 120 -> 122 -> 123 as new publication content is added (selector main ul.compact li, grounded in themes/hugo-finisterre/layouts/publications/publications.html ranging .Pages.ByDate.Reverse), and Phase 7 rebuilds of 2 commits fully reproducible (414/414 and 419/419 pages identical raw and body sha256). List items contain no internal content-page links (link_count 0; items link to external PDFs/DOIs)."
+}

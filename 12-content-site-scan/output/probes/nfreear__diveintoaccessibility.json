@@ -1,0 +1,250 @@
+{
+ "repo": "nfreear/diveintoaccessibility",
+ "bucket": "E",
+ "window": {
+  "start": "2025-08-10",
+  "end": "2026-02-09",
+  "page_touching_commits": 65,
+  "new_content_commits": 10,
+  "new_content_commit_shas": [
+   "10baad5fe015ffd1668c29a54c75d7f4dc1704d2",
+   "98d1bb3275cb77c15c8c91f65abf3a42e14e68c0",
+   "6f62bcc4ee43e1ba481cdbc32d7f1ba8a3c94daf",
+   "15b3f9936799561f6f6096926667fcb8deba8821",
+   "816aa0abeb12c7a677cf458f886bf9b58142a07a",
+   "db11b7923d043ce09059b42e29f3b95d4823f6eb",
+   "1c239d83c405ae868f6b583e5dec46123fd18315",
+   "24bb9fdc580d2eb4b8ee0e92ded930c33d3e26e7",
+   "fa9125803e52ef037dfb7a037eb383060998ff98",
+   "011d967aad30cef0a8a233757ebc370460124d77"
+  ]
+ },
+ "selection": [
+  {
+   "sha": "10baad5fe015ffd1668c29a54c75d7f4dc1704d2",
+   "date": "2025-12-21",
+   "adds_new_content": true
+  },
+  {
+   "sha": "98d1bb3275cb77c15c8c91f65abf3a42e14e68c0",
+   "date": "2025-12-24",
+   "adds_new_content": true
+  },
+  {
+   "sha": "fc8a0c261e24898405ca602c05ef71192324a093",
+   "date": "2025-12-24",
+   "adds_new_content": false
+  },
+  {
+   "sha": "c19e04043987d997fba5ed9fa4b20b2ec09a7c34",
+   "date": "2025-12-25",
+   "adds_new_content": false
+  },
+  {
+   "sha": "6f62bcc4ee43e1ba481cdbc32d7f1ba8a3c94daf",
+   "date": "2025-12-27",
+   "adds_new_content": true
+  },
+  {
+   "sha": "10e82bbe0ba78d3b2c4bc8efb6a281fc31943368",
+   "date": "2025-12-27",
+   "adds_new_content": false
+  },
+  {
+   "sha": "b43fd4cf1dcd292eb1b71f9654c76544fa9c62d5",
+   "date": "2026-01-13",
+   "adds_new_content": false
+  },
+  {
+   "sha": "bd4061de3d7d51d625fcdbeb705c626592bbb0a1",
+   "date": "2026-02-09",
+   "adds_new_content": false
+  }
+ ],
+ "commits": [
+  {
+   "sha": "10baad5fe015ffd1668c29a54c75d7f4dc1704d2",
+   "date": "2025-12-21",
+   "adds_new_content": true,
+   "worktree_method": "git worktree add --detach on blobless clone",
+   "output_dir_config_line": "_site (Eleventy default; no dir.output line in config)",
+   "build_command": "(none \u2014 no build script and no Eleventy dependency at this commit; site is committed static HTML, counted .html files at repo root excluding node_modules/.git)",
+   "toolchain": {
+    "node_declared": null,
+    "node_rung": "v24.12.0",
+    "node_rule": "declared engines range -> newest installed fnm release satisfying it on-or-before commit date; else newest installed release on-or-before commit date (never lowest)",
+    "package_manager": "npm (NO package-lock.json at this commit; npm install fallback)",
+    "install_command": "npm install --no-audit --no-fund",
+    "build_command": [
+     "node_modules/.bin/eleventy",
+     false
+    ]
+   },
+   "install_seconds": 3.1,
+   "install_ok": true,
+   "build_seconds": 0.0,
+   "build_ok": true,
+   "page_count": 51,
+   "list_pages": []
+  },
+  {
+   "sha": "98d1bb3275cb77c15c8c91f65abf3a42e14e68c0",
+   "date": "2025-12-24",
+   "adds_new_content": true,
+   "worktree_method": "git worktree add --detach on blobless clone",
+   "output_dir_config_line": "_site (Eleventy default; no dir.output line in config)",
+   "build_command": "npm run build",
+   "toolchain": {
+    "node_declared": null,
+    "node_rung": "v24.12.0",
+    "node_rule": "declared engines range -> newest installed fnm release satisfying it on-or-before commit date; else newest installed release on-or-before commit date (never lowest)",
+    "package_manager": "npm (package-lock.json at commit)",
+    "install_command": "npm ci --no-audit --no-fund",
+    "build_command": "npm run build"
+   },
+   "install_seconds": 21.6,
+   "install_ok": true,
+   "build_seconds": 10.4,
+   "build_ok": true,
+   "page_count": 31,
+   "list_pages": []
+  },
+  {
+   "sha": "fc8a0c261e24898405ca602c05ef71192324a093",
+   "date": "2025-12-24",
+   "adds_new_content": false,
+   "worktree_method": "git worktree add --detach on blobless clone",
+   "output_dir_config_line": "_site (Eleventy default; no dir.output line in config)",
+   "build_command": "npm run build",
+   "toolchain": {
+    "node_declared": null,
+    "node_rung": "v24.12.0",
+    "node_rule": "declared engines range -> newest installed fnm release satisfying it on-or-before commit date; else newest installed release on-or-before commit date (never lowest)",
+    "package_manager": "npm (package-lock.json at commit)",
+    "install_command": "npm ci --no-audit --no-fund",
+    "build_command": "npm run build"
+   },
+   "install_seconds": 29.4,
+   "install_ok": true,
+   "build_seconds": 11.0,
+   "build_ok": true,
+   "page_count": 27,
+   "list_pages": []
+  },
+  {
+   "sha": "c19e04043987d997fba5ed9fa4b20b2ec09a7c34",
+   "date": "2025-12-25",
+   "adds_new_content": false,
+   "worktree_method": "git worktree add --detach on blobless clone",
+   "output_dir_config_line": "_site (Eleventy default; no dir.output line in config)",
+   "build_command": "node_modules/.bin/eleventy",
+   "toolchain": {
+    "node_declared": null,
+    "node_rung": "v24.12.0",
+    "node_rule": "declared engines range -> newest installed fnm release satisfying it on-or-before commit date; else newest installed release on-or-before commit date (never lowest)",
+    "package_manager": "npm (package-lock.json at commit)",
+    "install_command": "npm ci --no-audit --no-fund",
+    "build_command": "node_modules/.bin/eleventy"
+   },
+   "install_seconds": 29.9,
+   "install_ok": true,
+   "build_seconds": 4.7,
+   "build_ok": false,
+   "page_count": 0,
+   "error_excerpt": "BUILD FAILED (or zero pages) \u2014 last 5 of 16 lines:\n[11ty]     at nextResolve (node:internal/modules/esm/hooks:785:28)\n[11ty]     at AsyncLoaderHooksOnLoaderHookWorker.resolve (node:internal/modules/esm/hooks:269:30)\n[11ty]     at handleMessage (node:internal/modules/esm/worker:251:24)\n[11ty]     at Immediate.checkForMessages (node:internal/modules/esm/worker:193:28)\n[11ty]     at process.processImmediate (node:internal/timers:504:21)"
+  },
+  {
+   "sha": "6f62bcc4ee43e1ba481cdbc32d7f1ba8a3c94daf",
+   "date": "2025-12-27",
+   "adds_new_content": true,
+   "worktree_method": "git worktree add --detach on blobless clone",
+   "output_dir_config_line": "_site (Eleventy default; no dir.output line in config)",
+   "build_command": "node_modules/.bin/eleventy",
+   "toolchain": {
+    "node_declared": null,
+    "node_rung": "v24.12.0",
+    "node_rule": "declared engines range -> newest installed fnm release satisfying it on-or-before commit date; else newest installed release on-or-before commit date (never lowest)",
+    "package_manager": "npm (package-lock.json at commit)",
+    "install_command": "npm ci --no-audit --no-fund",
+    "build_command": "node_modules/.bin/eleventy"
+   },
+   "install_seconds": 28.7,
+   "install_ok": true,
+   "build_seconds": 2.8,
+   "build_ok": false,
+   "page_count": 0,
+   "error_excerpt": "BUILD FAILED (or zero pages) \u2014 last 5 of 16 lines:\n[11ty]     at nextResolve (node:internal/modules/esm/hooks:785:28)\n[11ty]     at AsyncLoaderHooksOnLoaderHookWorker.resolve (node:internal/modules/esm/hooks:269:30)\n[11ty]     at handleMessage (node:internal/modules/esm/worker:251:24)\n[11ty]     at Immediate.checkForMessages (node:internal/modules/esm/worker:193:28)\n[11ty]     at process.processImmediate (node:internal/timers:504:21)"
+  },
+  {
+   "sha": "10e82bbe0ba78d3b2c4bc8efb6a281fc31943368",
+   "date": "2025-12-27",
+   "adds_new_content": false,
+   "worktree_method": "git worktree add --detach on blobless clone",
+   "output_dir_config_line": "_site (Eleventy default; no dir.output line in config)",
+   "build_command": "node_modules/.bin/eleventy",
+   "toolchain": {
+    "node_declared": null,
+    "node_rung": "v24.12.0",
+    "node_rule": "declared engines range -> newest installed fnm release satisfying it on-or-before commit date; else newest installed release on-or-before commit date (never lowest)",
+    "package_manager": "npm (package-lock.json at commit)",
+    "install_command": "npm ci --no-audit --no-fund",
+    "build_command": "node_modules/.bin/eleventy"
+   },
+   "install_seconds": 13.0,
+   "install_ok": true,
+   "build_seconds": 1.5,
+   "build_ok": false,
+   "page_count": 0,
+   "error_excerpt": "BUILD FAILED (or zero pages) \u2014 last 5 of 16 lines:\n[11ty]     at nextResolve (node:internal/modules/esm/hooks:785:28)\n[11ty]     at AsyncLoaderHooksOnLoaderHookWorker.resolve (node:internal/modules/esm/hooks:269:30)\n[11ty]     at handleMessage (node:internal/modules/esm/worker:251:24)\n[11ty]     at Immediate.checkForMessages (node:internal/modules/esm/worker:193:28)\n[11ty]     at process.processImmediate (node:internal/timers:504:21)"
+  },
+  {
+   "sha": "b43fd4cf1dcd292eb1b71f9654c76544fa9c62d5",
+   "date": "2026-01-13",
+   "adds_new_content": false,
+   "worktree_method": "git worktree add --detach on blobless clone",
+   "output_dir_config_line": "_site (Eleventy default; no dir.output line in config)",
+   "build_command": "npm run build",
+   "toolchain": {
+    "node_declared": null,
+    "node_rung": "v24.13.0",
+    "node_rule": "declared engines range -> newest installed fnm release satisfying it on-or-before commit date; else newest installed release on-or-before commit date (never lowest)",
+    "package_manager": "npm (package-lock.json at commit)",
+    "install_command": "npm ci --no-audit --no-fund",
+    "build_command": "npm run build"
+   },
+   "install_seconds": 20.3,
+   "install_ok": true,
+   "build_seconds": 5.0,
+   "build_ok": true,
+   "page_count": 61,
+   "list_pages": []
+  },
+  {
+   "sha": "bd4061de3d7d51d625fcdbeb705c626592bbb0a1",
+   "date": "2026-02-09",
+   "adds_new_content": false,
+   "worktree_method": "git worktree add --detach on blobless clone",
+   "output_dir_config_line": "_site (Eleventy default; no dir.output line in config)",
+   "build_command": "npm run build",
+   "toolchain": {
+    "node_declared": null,
+    "node_rung": "v24.13.0",
+    "node_rule": "declared engines range -> newest installed fnm release satisfying it on-or-before commit date; else newest installed release on-or-before commit date (never lowest)",
+    "package_manager": "npm (package-lock.json at commit)",
+    "install_command": "npm ci --no-audit --no-fund",
+    "build_command": "npm run build"
+   },
+   "install_seconds": 13.3,
+   "install_ok": true,
+   "build_seconds": 4.7,
+   "build_ok": true,
+   "page_count": 62,
+   "list_pages": []
+  }
+ ],
+ "median_page_count": 51,
+ "median_build_seconds": 5.0,
+ "phase7": null,
+ "verdict": "broken",
+ "verdict_reason": "3 of 8 selected commits fail to build: c19e040 2025-12-25: BUILD FAILED (or zero pages) \u2014 last 5 of 16 lines:\n[11ty]     at nextResolve (node:internal/modules/; 6f62bcc 2025-12-27: BUILD FAILED (or zero pages) \u2014 last 5 of 16 lines:\n[11ty]     at nextResolve (node:internal/modules/; 10e82bb 2025-12-27: BUILD FAILED (or zero pages) \u2014 last 5 of 16 lines:\n[11ty]     at nextResolve (node:internal/modules/"
+}

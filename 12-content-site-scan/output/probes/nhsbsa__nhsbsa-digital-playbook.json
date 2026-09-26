@@ -1,0 +1,279 @@
+{
+ "repo": "nhsbsa/nhsbsa-digital-playbook",
+ "bucket": "E",
+ "window": {
+  "start": "2024-11-10",
+  "end": "2025-05-12",
+  "page_touching_commits": 56,
+  "new_content_commits": 16,
+  "new_content_commit_shas": [
+   "0d5cce86c7d1314b72304bfbab660d7865da354a",
+   "bc4a67c88d703fbb7ced19a9994cb959cdda1073",
+   "6281ac1ca5640d26e0795badced62e7676c6b079",
+   "bb7d7e6e84827f9d1ddd3017a2a81eb5ef691cd4",
+   "f2daaf959de8306f35468b273eb1fd7769cd66ae",
+   "159bf393d501d2287ca45233ab3939d9fdff3b0a",
+   "4b86350b643718c64131b4c9bd3b666cfe4ebdbd",
+   "b6c656c3d857040508f21242da61eba4a0a20eab",
+   "a205b2dbf1026d85d0f66e06187848648568574f",
+   "18f629b1631aa08812d829c74e2a7cab6ffd44b4",
+   "8acf7af0e5b5ddd9da50a4732ba955708a07348c",
+   "242f9d7b67ede6db344f1dc781deb8ffeda68e2a",
+   "a7ee6055a4461eaac87d1183504978e8deae9197",
+   "c2e7db19ed6daae2a67fff2ee5e682d35c2d9537",
+   "9b479decd4fe3c4d1d29690271057af5790b0fef",
+   "45747c1e13cf2956cafbece8c00da50d569d9e8b"
+  ]
+ },
+ "selection": [
+  {
+   "sha": "0d5cce86c7d1314b72304bfbab660d7865da354a",
+   "date": "2024-11-18",
+   "adds_new_content": true
+  },
+  {
+   "sha": "bc4a67c88d703fbb7ced19a9994cb959cdda1073",
+   "date": "2024-12-10",
+   "adds_new_content": true
+  },
+  {
+   "sha": "699d8f080698a7a6c2aee4f2f653ab67af6a78fc",
+   "date": "2025-01-16",
+   "adds_new_content": false
+  },
+  {
+   "sha": "b6c656c3d857040508f21242da61eba4a0a20eab",
+   "date": "2025-01-23",
+   "adds_new_content": true
+  },
+  {
+   "sha": "37a4191fcea3d809d2baf7b0fa69dcae22b8e34b",
+   "date": "2025-02-25",
+   "adds_new_content": false
+  },
+  {
+   "sha": "35e4e834ead53419f3118ae427a40752ff992103",
+   "date": "2025-03-20",
+   "adds_new_content": false
+  },
+  {
+   "sha": "b323b30e5877d37fefa4bd6fc8b95cec3dd3eb72",
+   "date": "2025-04-15",
+   "adds_new_content": false
+  },
+  {
+   "sha": "e6310a66036c736de94a6f194d230f66cf335fbb",
+   "date": "2025-05-12",
+   "adds_new_content": false
+  }
+ ],
+ "commits": [
+  {
+   "sha": "0d5cce86c7d1314b72304bfbab660d7865da354a",
+   "date": "2024-11-18",
+   "adds_new_content": true,
+   "worktree_method": "git worktree add --detach on blobless clone",
+   "output_dir_config_line": "output: '_site/nhsbsa-digital-playbook',",
+   "build_command": "npm run build",
+   "toolchain": {
+    "node_declared": ">=20.0.0",
+    "node_rung": "v22.11.0",
+    "node_rule": "declared engines range -> newest installed fnm release satisfying it on-or-before commit date; else newest installed release on-or-before commit date (never lowest)",
+    "package_manager": "npm (package-lock.json at commit)",
+    "install_command": "npm ci --no-audit --no-fund",
+    "build_command": "npm run build"
+   },
+   "install_seconds": 40.6,
+   "install_ok": true,
+   "build_seconds": 31.8,
+   "build_ok": true,
+   "page_count": 115,
+   "list_pages": []
+  },
+  {
+   "sha": "bc4a67c88d703fbb7ced19a9994cb959cdda1073",
+   "date": "2024-12-10",
+   "adds_new_content": true,
+   "worktree_method": "git worktree add --detach on blobless clone",
+   "output_dir_config_line": "output: '_site/nhsbsa-digital-playbook',",
+   "build_command": "npm run build",
+   "toolchain": {
+    "node_declared": ">=20.0.0",
+    "node_rung": "v22.12.0",
+    "node_rule": "declared engines range -> newest installed fnm release satisfying it on-or-before commit date; else newest installed release on-or-before commit date (never lowest)",
+    "package_manager": "npm (package-lock.json at commit)",
+    "install_command": "npm ci --no-audit --no-fund",
+    "build_command": "npm run build"
+   },
+   "install_seconds": 40.7,
+   "install_ok": true,
+   "build_seconds": 41.1,
+   "build_ok": true,
+   "page_count": 114,
+   "list_pages": []
+  },
+  {
+   "sha": "699d8f080698a7a6c2aee4f2f653ab67af6a78fc",
+   "date": "2025-01-16",
+   "adds_new_content": false,
+   "worktree_method": "git worktree add --detach on blobless clone",
+   "output_dir_config_line": "output: '_site/nhsbsa-digital-playbook',",
+   "build_command": "npm run build",
+   "toolchain": {
+    "node_declared": ">=20.0.0",
+    "node_rung": "v22.13.0",
+    "node_rule": "declared engines range -> newest installed fnm release satisfying it on-or-before commit date; else newest installed release on-or-before commit date (never lowest)",
+    "package_manager": "npm (package-lock.json at commit)",
+    "install_command": "npm ci --no-audit --no-fund",
+    "build_command": "npm run build"
+   },
+   "install_seconds": 20.6,
+   "install_ok": true,
+   "build_seconds": 26.3,
+   "build_ok": true,
+   "page_count": 135,
+   "list_pages": []
+  },
+  {
+   "sha": "b6c656c3d857040508f21242da61eba4a0a20eab",
+   "date": "2025-01-23",
+   "adds_new_content": true,
+   "worktree_method": "git worktree add --detach on blobless clone",
+   "output_dir_config_line": "output: '_site/nhsbsa-digital-playbook',",
+   "build_command": "npm run build",
+   "toolchain": {
+    "node_declared": ">=20.0.0",
+    "node_rung": "v22.13.1",
+    "node_rule": "declared engines range -> newest installed fnm release satisfying it on-or-before commit date; else newest installed release on-or-before commit date (never lowest)",
+    "package_manager": "npm (package-lock.json at commit)",
+    "install_command": "npm ci --no-audit --no-fund",
+    "build_command": "npm run build"
+   },
+   "install_seconds": 24.1,
+   "install_ok": true,
+   "build_seconds": 25.8,
+   "build_ok": true,
+   "page_count": 142,
+   "list_pages": []
+  },
+  {
+   "sha": "37a4191fcea3d809d2baf7b0fa69dcae22b8e34b",
+   "date": "2025-02-25",
+   "adds_new_content": false,
+   "worktree_method": "git worktree add --detach on blobless clone",
+   "output_dir_config_line": "output: '_site/nhsbsa-digital-playbook',",
+   "build_command": "npm run build",
+   "toolchain": {
+    "node_declared": ">=20.0.0",
+    "node_rung": "v22.14.0",
+    "node_rule": "declared engines range -> newest installed fnm release satisfying it on-or-before commit date; else newest installed release on-or-before commit date (never lowest)",
+    "package_manager": "npm (package-lock.json at commit)",
+    "install_command": "npm ci --no-audit --no-fund",
+    "build_command": "npm run build"
+   },
+   "install_seconds": 24.5,
+   "install_ok": true,
+   "build_seconds": 26.8,
+   "build_ok": true,
+   "page_count": 136,
+   "list_pages": []
+  },
+  {
+   "sha": "35e4e834ead53419f3118ae427a40752ff992103",
+   "date": "2025-03-20",
+   "adds_new_content": false,
+   "worktree_method": "git worktree add --detach on blobless clone",
+   "output_dir_config_line": "output: '_site/nhsbsa-digital-playbook',",
+   "build_command": "npm run build",
+   "toolchain": {
+    "node_declared": ">=20.0.0",
+    "node_rung": "v20.19.0",
+    "node_rule": "declared engines range -> newest installed fnm release satisfying it on-or-before commit date; else newest installed release on-or-before commit date (never lowest)",
+    "package_manager": "npm (package-lock.json at commit)",
+    "install_command": "npm ci --no-audit --no-fund",
+    "build_command": "npm run build"
+   },
+   "install_seconds": 27.2,
+   "install_ok": true,
+   "build_seconds": 34.9,
+   "build_ok": true,
+   "page_count": 149,
+   "list_pages": []
+  },
+  {
+   "sha": "b323b30e5877d37fefa4bd6fc8b95cec3dd3eb72",
+   "date": "2025-04-15",
+   "adds_new_content": false,
+   "worktree_method": "git worktree add --detach on blobless clone",
+   "output_dir_config_line": "output: '_site/nhsbsa-digital-playbook',",
+   "build_command": "npm run build",
+   "toolchain": {
+    "node_declared": ">=20.0.0",
+    "node_rung": "v20.19.0",
+    "node_rule": "declared engines range -> newest installed fnm release satisfying it on-or-before commit date; else newest installed release on-or-before commit date (never lowest)",
+    "package_manager": "npm (package-lock.json at commit)",
+    "install_command": "npm ci --no-audit --no-fund",
+    "build_command": "npm run build"
+   },
+   "install_seconds": 470.7,
+   "install_ok": true,
+   "build_seconds": 35.2,
+   "build_ok": true,
+   "page_count": 152,
+   "list_pages": []
+  },
+  {
+   "sha": "e6310a66036c736de94a6f194d230f66cf335fbb",
+   "date": "2025-05-12",
+   "adds_new_content": false,
+   "worktree_method": "git worktree add --detach on blobless clone",
+   "output_dir_config_line": "output: '_site/nhsbsa-digital-playbook',",
+   "build_command": "npm run build",
+   "toolchain": {
+    "node_declared": ">=20.0.0",
+    "node_rung": "v22.15.0",
+    "node_rule": "declared engines range -> newest installed fnm release satisfying it on-or-before commit date; else newest installed release on-or-before commit date (never lowest)",
+    "package_manager": "npm (package-lock.json at commit)",
+    "install_command": "npm ci --no-audit --no-fund",
+    "build_command": "npm run build"
+   },
+   "install_seconds": 35.7,
+   "install_ok": true,
+   "build_seconds": 25.2,
+   "build_ok": true,
+   "page_count": 154,
+   "list_pages": []
+  }
+ ],
+ "median_page_count": 139.0,
+ "median_build_seconds": 29.3,
+ "phase7": {
+  "rebuilt_commits": [
+   "0d5cce86c7d1314b72304bfbab660d7865da354a",
+   "e6310a66036c736de94a6f194d230f66cf335fbb"
+  ],
+  "pages_compared": 269,
+  "all_body_identical": false,
+  "differing_pages": [
+   {
+    "path": "review/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ... nhsuk-tag--yellow\">\\n  REVIEW\\n</strong>\\n\\n\\n\t\t\t\t\t</div>\\n\t\t\t\t\t<p class=\"nhsuk-card__description\">Avoid committing \u2018secrets\u2019 such as API keys into source control... || B: ...  <strong class=\"nhsuk-tag nhsuk-tag--yellow\">\\n  REVIEW\\n</strong>\\n\\n\\n\t\t\t\t\t</div>\\n\t\t\t\t\t<p class=\"nhsuk-card__description\">Use HTTP headers to protect our users..."
+   },
+   {
+    "path": "review/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...\t  <strong class=\"nhsuk-tag nhsuk-tag--yellow\">\\n  REVIEW\\n</strong>\\n\\n\\n\t\t\t\t\t</div>\\n\t\t\t\t\t<p class=\"nhsuk-card__description\">Use HTTP headers to protect our user... || B: ...g nhsuk-tag--yellow\">\\n  REVIEW\\n</strong>\\n\\n\\n\t\t\t\t\t</div>\\n\t\t\t\t\t<p class=\"nhsuk-card__description\">Use CSP as the modern approach to securing our web application..."
+   }
+  ],
+  "distinct_causes": {
+   "other": "A: ... nhsuk-tag--yellow\">\\n  REVIEW\\n</strong>\\n\\n\\n\t\t\t\t\t</div>\\n\t\t\t\t\t<p class=\"nhsuk-card__description\">Avoid committing \u2018secrets\u2019 such as API keys into source control... || B: ...  <strong class=\"nhsuk-tag nhsuk-tag--yellow\">\\n  REVIEW\\n</strong>\\n\\n\\n\t\t\t\t\t</div>\\n\t\t\t\t\t<p class=\"nhsuk-card__description\">Use HTTP headers to protect our users..."
+  }
+ },
+ "verdict": "nondeterministic",
+ "verdict_reason": "8/8 commits build; median 139.0 static pages; phase-7 rebuilds differ in <body> on 2 page(s): other: A: ... nhsuk-tag--yellow\">\\n  REVIEW\\n</strong>\\n\\n\\n\t\t\t\t\t</div>\\n\t\t\t\t\t<p class=\"nhsuk-card__description\">Avoid committing \u2018secrets\u2019 such as API keys into sourc"
+}

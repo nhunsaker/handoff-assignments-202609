@@ -1,0 +1,2788 @@
+{
+ "repo": "inclusive-design/wecount.inclusivedesign.ca",
+ "bucket": "E",
+ "window": {
+  "start": "2025-02-11",
+  "end": "2025-08-13",
+  "page_touching_commits": 198,
+  "new_content_commits": 79,
+  "new_content_commit_shas": [
+   "c563667ebcaf33de791f64116b5bb7025e253501",
+   "6996fb4c94544ed43983537afa6cb3551d754e8e",
+   "51753acd10bc0e8d0a89459bc6c19c46ab62540d",
+   "19ce90e00668bffa5e911a3d7c86ebbd7b6815cb",
+   "42aa6b1c793e597de2efedfd41facf046802ef44",
+   "6af82f1c41976fb387d6d5e8b4d97f5b22428a1c",
+   "b766db9e1f1aefb34b790faaa64d9d1bc15b184d",
+   "ba017f42e120fc510b4b5f29b1f15b990ed7de75",
+   "fcae5066129588d14a6c82a8087ea0d70ca2a032",
+   "072e526226d6a5d707c16532b1ca28c88e63a29d",
+   "0c00a8bfa2f2bc3f6612a87f9cca6281b20d3265",
+   "11e7d303c40116a0da4634e4f7ad063eaeec910b",
+   "2b1122e13f74a4ce5e2e7fc16ee9983165ec46a3",
+   "2c0b47011ef2c351d119747614c63a17e4fd2734",
+   "4094231cd713171a1b636bd3c643f1b566498bd5",
+   "5b1ac4d889edad4c7901b727460fc9865888c1d2",
+   "8f69e7d39c4c34e49a9e540e12906e21be4bcdf7",
+   "aed9ed47c648221907512b940a7da0ece859af15",
+   "b6e910a7c619b9dcb4ab16966be16bc2498a58d9",
+   "e4d3082cf088d8f5ec03ae8bebc6dad0e369fe99",
+   "f418ef70aee525acab98477517477fe08466c583",
+   "029429caaf6a3054f8cd3ac56f75bc636c8e213c",
+   "096420ecad68d988a18fcd480d75b943a5e21c8c",
+   "1f537f3fe48ba79dce6c290bc6d66f85e50ea47a",
+   "29ba4bba0a127f81dd70b7cdf67245bab4aa8a21",
+   "37c28092c6ab07804cc36994fdce5f8523fbcad3",
+   "7c5ac5f305a3a4eb94bf33ad923169ba3c541cd0",
+   "7f7394d9eab70d788d2523d21b179e8fea1f89b3",
+   "85693ab0be84d45e5f541e96fcb2c4a145b3ae33",
+   "8d8c502b8ce4aaa0c09804b1a7b16a40dd5d3ce5",
+   "91ac7fb5ed69d1fa5d0cf13b0f6b848ae9b9fe8a",
+   "9e3bba4b8aa2e05a1a6f1918944eafda4118a6e7",
+   "a6d62230bc8217b20a531a010b35e5f685f2decf",
+   "b220050e31f3aa668aa07e6aa3a4d88c51a4b83c",
+   "bd15160c23275241ee8234b69b76ed28835b49fd",
+   "bf9e2b80846cc35fc2e834b327da3c60990bd0f0",
+   "cf138f1e42e8146cb3aaba303f18c7fe675e76a3",
+   "dfb9456127ef970fee58a42052c879f6319ff2e9",
+   "e1189c2d0f162302503c517d0a33f53d2fd59cc1",
+   "e545b47beeaa652788d4e59d35b35beff8726843",
+   "eb1e010e19219b52cbf770b60cb71ec19dca3636",
+   "0f22d405f45b40f4824395a564f50ce530cbcd7f",
+   "1938f350c6ce350f3130281a70f3867a7f39042f",
+   "1a2384d773063ac814a6ebafeeafa0804eb2c599",
+   "1d2baf588859addcd5b879566425627e2ad7c788",
+   "21c457c92c11aa50493c8412b371ab989df54c2c",
+   "24762f267e8034ecdbd154d668dafef795465783",
+   "3a1a3672cdabe3f5263fdc770c832d2651668c76",
+   "40290676cccac1227011b11773fafce5ed55b847",
+   "420abd706705cf51171dd45d01384b53f88b5ede",
+   "443296c7e8ba970493d63320b7538bdec5d535f6",
+   "6577cf3fc1ff1930059e6d230949d6eebeb6b801",
+   "75d2c0e1f1e3717af0e8dfac1683e1fbcee8538a",
+   "9cfe22d46cd758a24776a75d87e208f826e348b7",
+   "a359f887f5c924598946b1068de5821d9271d07a",
+   "a7c0dd794bb903d57e7940f3564e3053b7c55db7",
+   "b3533aee813f02354cc58c778786e4f9e05683dd",
+   "b5eef236a93be6f1c02869ff5ab6f2fb2bfe0b16",
+   "bf0136f736f1c1a0bb614218d3df36ea9d042a7d",
+   "c03b12d817e6072490fc29c620f0a00a54917b1c",
+   "c96d18e839178e08341203268618613874df767b",
+   "ddeca5a1184b685c197c07ed03ba8dd6bfb31134",
+   "e3a672b4da2c84cded8b343bb06f12989e9de39c",
+   "eda3b5f74bf21eef22f9b002c82cdfa701d82775",
+   "efbff13b33599b7b9eecb00f0814808549548f45",
+   "f22a8246bad98a57cc739bd00dacabbf6919e84b",
+   "c0ae0758d22c2d71a3775608cb4a4b25b418ce23",
+   "12e9da9343beeee811d2c26c5bb243c256afe055",
+   "59f4c3e9074cabc5b8d83c20106c34e312197aae",
+   "8e1fd45cbeb8423cfe9d6d59c85f7ef39ee29d7a",
+   "cb22b0a933c34c183e8f122d9c06ba2242775673",
+   "f9bc9042a90c89d4c3f0b71dbf2a22fdcdc3947c",
+   "8e0918b2457085f2c1669c73566d4997da568283",
+   "e32416349faff7720f79af9e4c4be1afc81037ca",
+   "c5e5b2d53eb76056ae5d4da8bcd992f54cc71a25",
+   "1c2da9ac3095f4a347d48261a6e7cd4eb90365a8",
+   "531659831f75ca57757d8fd665350cd1b19c6e59",
+   "6c5f0a5fc5546de25deb57b27a34f4b6c18982bb",
+   "b4b3a110cb87475021b9a20cdfd93c96409b9849"
+  ]
+ },
+ "selection": [
+  {
+   "sha": "c563667ebcaf33de791f64116b5bb7025e253501",
+   "date": "2025-03-12",
+   "adds_new_content": true
+  },
+  {
+   "sha": "b4fe1366f80da578ce6c9332fd9c9f23393e5b6e",
+   "date": "2025-04-03",
+   "adds_new_content": false
+  },
+  {
+   "sha": "6996fb4c94544ed43983537afa6cb3551d754e8e",
+   "date": "2025-04-08",
+   "adds_new_content": true
+  },
+  {
+   "sha": "793b24c2c6030d85dabdc16efa34364093232436",
+   "date": "2025-04-16",
+   "adds_new_content": false
+  },
+  {
+   "sha": "14e1f8f53b59d1fb4497707cbe020f4d77b45b30",
+   "date": "2025-05-29",
+   "adds_new_content": false
+  },
+  {
+   "sha": "01afc55d12bae60ac779792dd3ab3abb779f3110",
+   "date": "2025-06-25",
+   "adds_new_content": false
+  },
+  {
+   "sha": "02d7ca4076a7995f9c5acc796bb1b7d1400f652a",
+   "date": "2025-07-16",
+   "adds_new_content": false
+  },
+  {
+   "sha": "1c2da9ac3095f4a347d48261a6e7cd4eb90365a8",
+   "date": "2025-08-13",
+   "adds_new_content": true
+  }
+ ],
+ "commits": [
+  {
+   "sha": "c563667ebcaf33de791f64116b5bb7025e253501",
+   "date": "2025-03-12",
+   "adds_new_content": true,
+   "worktree_method": "git worktree add --detach on blobless clone",
+   "output_dir_config_line": "_site (Eleventy default; no dir.output line in config)",
+   "build_command": "npm run build",
+   "toolchain": {
+    "node_declared": null,
+    "node_rung": "v22.14.0",
+    "node_rule": "declared engines range -> newest installed fnm release satisfying it on-or-before commit date; else newest installed release on-or-before commit date (never lowest)",
+    "package_manager": "npm (package-lock.json at commit)",
+    "install_command": "npm ci --no-audit --no-fund",
+    "build_command": "npm run build"
+   },
+   "install_seconds": 133.4,
+   "install_ok": true,
+   "build_seconds": 208.7,
+   "build_ok": true,
+   "page_count": 24,
+   "list_pages": []
+  },
+  {
+   "sha": "b4fe1366f80da578ce6c9332fd9c9f23393e5b6e",
+   "date": "2025-04-03",
+   "adds_new_content": false,
+   "worktree_method": "git worktree add --detach on blobless clone",
+   "output_dir_config_line": "_site (Eleventy default; no dir.output line in config)",
+   "build_command": "npm run build",
+   "toolchain": {
+    "node_declared": null,
+    "node_rung": "v18.20.8",
+    "node_rule": "declared engines range -> newest installed fnm release satisfying it on-or-before commit date; else newest installed release on-or-before commit date (never lowest)",
+    "package_manager": "npm (package-lock.json at commit)",
+    "install_command": "npm ci --no-audit --no-fund",
+    "build_command": "npm run build"
+   },
+   "install_seconds": 116.4,
+   "install_ok": true,
+   "build_seconds": 249.6,
+   "build_ok": true,
+   "page_count": 1701,
+   "list_pages": [
+    {
+     "path": "events/index.html",
+     "main_list_selector": "div.api-content > div.events",
+     "selector_reason": "inside <div> the element with the most links to content pages (20 distinct content-page targets; deepest on ties); tag=\"div\" id=\"None\" class=\"events\"; 0 descendant <article> items",
+     "link_count": 20
+    },
+    {
+     "path": "initiatives/index.html",
+     "main_list_selector": "article.initiatives.static-view > div.api-content",
+     "selector_reason": "inside <div> the element with the most links to content pages (10 distinct content-page targets; deepest on ties); tag=\"div\" id=\"None\" class=\"api-content\"; 0 descendant <article> items",
+     "link_count": 10
+    },
+    {
+     "path": "resources/index.html",
+     "main_list_selector": "article.resources.static-view > div.api-content",
+     "selector_reason": "inside <div> the element with the most links to content pages (10 distinct content-page targets; deepest on ties); tag=\"div\" id=\"None\" class=\"api-content\"; 0 descendant <article> items",
+     "link_count": 10
+    }
+   ]
+  },
+  {
+   "sha": "6996fb4c94544ed43983537afa6cb3551d754e8e",
+   "date": "2025-04-08",
+   "adds_new_content": true,
+   "worktree_method": "git worktree add --detach on blobless clone",
+   "output_dir_config_line": "_site (Eleventy default; no dir.output line in config)",
+   "build_command": "npm run build",
+   "toolchain": {
+    "node_declared": null,
+    "node_rung": "v18.20.8",
+    "node_rule": "declared engines range -> newest installed fnm release satisfying it on-or-before commit date; else newest installed release on-or-before commit date (never lowest)",
+    "package_manager": "npm (package-lock.json at commit)",
+    "install_command": "npm ci --no-audit --no-fund",
+    "build_command": "npm run build"
+   },
+   "install_seconds": 191.8,
+   "install_ok": true,
+   "build_seconds": 177.6,
+   "build_ok": true,
+   "page_count": 1702,
+   "list_pages": [
+    {
+     "path": "events/index.html",
+     "main_list_selector": "div.api-content > div.events",
+     "selector_reason": "inside <div> the element with the most links to content pages (20 distinct content-page targets; deepest on ties); tag=\"div\" id=\"None\" class=\"events\"; 0 descendant <article> items",
+     "link_count": 20
+    },
+    {
+     "path": "initiatives/index.html",
+     "main_list_selector": "article.initiatives.static-view > div.api-content",
+     "selector_reason": "inside <div> the element with the most links to content pages (10 distinct content-page targets; deepest on ties); tag=\"div\" id=\"None\" class=\"api-content\"; 0 descendant <article> items",
+     "link_count": 10
+    },
+    {
+     "path": "resources/index.html",
+     "main_list_selector": "article.resources.static-view > div.api-content",
+     "selector_reason": "inside <div> the element with the most links to content pages (10 distinct content-page targets; deepest on ties); tag=\"div\" id=\"None\" class=\"api-content\"; 0 descendant <article> items",
+     "link_count": 10
+    }
+   ]
+  },
+  {
+   "sha": "793b24c2c6030d85dabdc16efa34364093232436",
+   "date": "2025-04-16",
+   "adds_new_content": false,
+   "worktree_method": "git worktree add --detach on blobless clone",
+   "output_dir_config_line": "_site (Eleventy default; no dir.output line in config)",
+   "build_command": "npm run build",
+   "toolchain": {
+    "node_declared": null,
+    "node_rung": "v18.20.8",
+    "node_rule": "declared engines range -> newest installed fnm release satisfying it on-or-before commit date; else newest installed release on-or-before commit date (never lowest)",
+    "package_manager": "npm (package-lock.json at commit)",
+    "install_command": "npm ci --no-audit --no-fund",
+    "build_command": "npm run build"
+   },
+   "install_seconds": 185.7,
+   "install_ok": true,
+   "build_seconds": 368.0,
+   "build_ok": true,
+   "page_count": 1705,
+   "list_pages": [
+    {
+     "path": "events/index.html",
+     "main_list_selector": "div.api-content > div.events",
+     "selector_reason": "inside <div> the element with the most links to content pages (20 distinct content-page targets; deepest on ties); tag=\"div\" id=\"None\" class=\"events\"; 0 descendant <article> items",
+     "link_count": 20
+    },
+    {
+     "path": "initiatives/index.html",
+     "main_list_selector": "article.initiatives.static-view > div.api-content",
+     "selector_reason": "inside <div> the element with the most links to content pages (10 distinct content-page targets; deepest on ties); tag=\"div\" id=\"None\" class=\"api-content\"; 0 descendant <article> items",
+     "link_count": 10
+    },
+    {
+     "path": "resources/index.html",
+     "main_list_selector": "article.resources.static-view > div.api-content",
+     "selector_reason": "inside <div> the element with the most links to content pages (10 distinct content-page targets; deepest on ties); tag=\"div\" id=\"None\" class=\"api-content\"; 0 descendant <article> items",
+     "link_count": 10
+    }
+   ]
+  },
+  {
+   "sha": "14e1f8f53b59d1fb4497707cbe020f4d77b45b30",
+   "date": "2025-05-29",
+   "adds_new_content": false,
+   "worktree_method": "git worktree add --detach on blobless clone",
+   "output_dir_config_line": "_site (Eleventy default; no dir.output line in config)",
+   "build_command": "npm run build",
+   "toolchain": {
+    "node_declared": null,
+    "node_rung": "v22.16.0",
+    "node_rule": "declared engines range -> newest installed fnm release satisfying it on-or-before commit date; else newest installed release on-or-before commit date (never lowest)",
+    "package_manager": "npm (package-lock.json at commit)",
+    "install_command": "npm ci --no-audit --no-fund",
+    "build_command": "npm run build"
+   },
+   "install_seconds": 91.5,
+   "install_ok": true,
+   "build_seconds": 234.4,
+   "build_ok": true,
+   "page_count": 1706,
+   "list_pages": [
+    {
+     "path": "events/index.html",
+     "main_list_selector": "div.api-content > div.events",
+     "selector_reason": "inside <div> the element with the most links to content pages (20 distinct content-page targets; deepest on ties); tag=\"div\" id=\"None\" class=\"events\"; 0 descendant <article> items",
+     "link_count": 20
+    },
+    {
+     "path": "initiatives/index.html",
+     "main_list_selector": "article.initiatives.static-view > div.api-content",
+     "selector_reason": "inside <div> the element with the most links to content pages (10 distinct content-page targets; deepest on ties); tag=\"div\" id=\"None\" class=\"api-content\"; 0 descendant <article> items",
+     "link_count": 10
+    },
+    {
+     "path": "resources/index.html",
+     "main_list_selector": "article.resources.static-view > div.api-content",
+     "selector_reason": "inside <div> the element with the most links to content pages (10 distinct content-page targets; deepest on ties); tag=\"div\" id=\"None\" class=\"api-content\"; 0 descendant <article> items",
+     "link_count": 10
+    }
+   ]
+  },
+  {
+   "sha": "01afc55d12bae60ac779792dd3ab3abb779f3110",
+   "date": "2025-06-25",
+   "adds_new_content": false,
+   "worktree_method": "git worktree add --detach on blobless clone",
+   "output_dir_config_line": "_site (Eleventy default; no dir.output line in config)",
+   "build_command": "npm run build",
+   "toolchain": {
+    "node_declared": null,
+    "node_rung": "v22.17.0",
+    "node_rule": "declared engines range -> newest installed fnm release satisfying it on-or-before commit date; else newest installed release on-or-before commit date (never lowest)",
+    "package_manager": "npm (package-lock.json at commit)",
+    "install_command": "npm ci --no-audit --no-fund",
+    "build_command": "npm run build"
+   },
+   "install_seconds": 118.6,
+   "install_ok": true,
+   "build_seconds": 268.8,
+   "build_ok": true,
+   "page_count": 24,
+   "list_pages": []
+  },
+  {
+   "sha": "02d7ca4076a7995f9c5acc796bb1b7d1400f652a",
+   "date": "2025-07-16",
+   "adds_new_content": false,
+   "worktree_method": "git worktree add --detach on blobless clone",
+   "output_dir_config_line": "_site (Eleventy default; no dir.output line in config)",
+   "build_command": "npm run build",
+   "toolchain": {
+    "node_declared": null,
+    "node_rung": "v20.19.4",
+    "node_rule": "declared engines range -> newest installed fnm release satisfying it on-or-before commit date; else newest installed release on-or-before commit date (never lowest)",
+    "package_manager": "npm (package-lock.json at commit)",
+    "install_command": "npm ci --no-audit --no-fund",
+    "build_command": "npm run build"
+   },
+   "install_seconds": 363.0,
+   "install_ok": true,
+   "build_seconds": 127.2,
+   "build_ok": true,
+   "page_count": 1800,
+   "list_pages": [
+    {
+     "path": "events/index.html",
+     "main_list_selector": "div.api-content > div.events",
+     "selector_reason": "inside <div> the element with the most links to content pages (20 distinct content-page targets; deepest on ties); tag=\"div\" id=\"None\" class=\"events\"; 0 descendant <article> items",
+     "link_count": 20
+    },
+    {
+     "path": "initiatives/index.html",
+     "main_list_selector": "article.initiatives.static-view > div.api-content",
+     "selector_reason": "inside <div> the element with the most links to content pages (10 distinct content-page targets; deepest on ties); tag=\"div\" id=\"None\" class=\"api-content\"; 0 descendant <article> items",
+     "link_count": 10
+    },
+    {
+     "path": "resources/index.html",
+     "main_list_selector": "article.resources.static-view > div.api-content",
+     "selector_reason": "inside <div> the element with the most links to content pages (10 distinct content-page targets; deepest on ties); tag=\"div\" id=\"None\" class=\"api-content\"; 0 descendant <article> items",
+     "link_count": 10
+    }
+   ]
+  },
+  {
+   "sha": "1c2da9ac3095f4a347d48261a6e7cd4eb90365a8",
+   "date": "2025-08-13",
+   "adds_new_content": true,
+   "worktree_method": "git worktree add --detach on blobless clone",
+   "output_dir_config_line": "_site (Eleventy default; no dir.output line in config)",
+   "build_command": "npm run build",
+   "toolchain": {
+    "node_declared": null,
+    "node_rung": "v20.19.4",
+    "node_rule": "declared engines range -> newest installed fnm release satisfying it on-or-before commit date; else newest installed release on-or-before commit date (never lowest)",
+    "package_manager": "npm (package-lock.json at commit)",
+    "install_command": "npm ci --no-audit --no-fund",
+    "build_command": "npm run build"
+   },
+   "install_seconds": 51.0,
+   "install_ok": true,
+   "build_seconds": 123.9,
+   "build_ok": true,
+   "page_count": 1808,
+   "list_pages": [
+    {
+     "path": "events/index.html",
+     "main_list_selector": "div.api-content > div.events",
+     "selector_reason": "inside <div> the element with the most links to content pages (20 distinct content-page targets; deepest on ties); tag=\"div\" id=\"None\" class=\"events\"; 0 descendant <article> items",
+     "link_count": 20
+    },
+    {
+     "path": "initiatives/index.html",
+     "main_list_selector": "article.initiatives.static-view > div.api-content",
+     "selector_reason": "inside <div> the element with the most links to content pages (10 distinct content-page targets; deepest on ties); tag=\"div\" id=\"None\" class=\"api-content\"; 0 descendant <article> items",
+     "link_count": 10
+    },
+    {
+     "path": "resources/index.html",
+     "main_list_selector": "article.resources.static-view > div.api-content",
+     "selector_reason": "inside <div> the element with the most links to content pages (10 distinct content-page targets; deepest on ties); tag=\"div\" id=\"None\" class=\"api-content\"; 0 descendant <article> items",
+     "link_count": 10
+    }
+   ]
+  }
+ ],
+ "median_page_count": 1703.5,
+ "median_build_seconds": 221.55,
+ "phase7": {
+  "rebuilt_commits": [
+   "c563667ebcaf33de791f64116b5bb7025e253501",
+   "1c2da9ac3095f4a347d48261a6e7cd4eb90365a8"
+  ],
+  "pages_compared": 3509,
+  "all_body_identical": false,
+  "differing_pages": [
+   {
+    "path": "initiatives/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...ass=\"filter-checkbox\" type=\"checkbox\" id=\"we-count-639f5f8b-0f99-4d60-b161-71ff538be3aa\" name=\"we-count\"> <label for=\"we-count-639f5f8b-0f99-4d60-b161-71ff538be3aa... || B: ...ass=\"filter-checkbox\" type=\"checkbox\" id=\"we-count-5454ff6a-32a3-4c79-a642-89b83b473740\" name=\"we-count\"> <label for=\"we-count-5454ff6a-32a3-4c79-a642-89b83b473740..."
+   },
+   {
+    "path": "initiatives/page/2/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...ass=\"filter-checkbox\" type=\"checkbox\" id=\"we-count-8781d5c2-f1f4-4e7b-98ca-bad707db9b04\" name=\"we-count\"> <label for=\"we-count-8781d5c2-f1f4-4e7b-98ca-bad707db9b04... || B: ...ass=\"filter-checkbox\" type=\"checkbox\" id=\"we-count-ac180b9d-637b-4818-92d4-43014cef2b38\" name=\"we-count\"> <label for=\"we-count-ac180b9d-637b-4818-92d4-43014cef2b38..."
+   },
+   {
+    "path": "initiatives/page/3/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...ass=\"filter-checkbox\" type=\"checkbox\" id=\"we-count-26f9915a-df5d-4daf-9465-75ba4ded9203\" name=\"we-count\"> <label for=\"we-count-26f9915a-df5d-4daf-9465-75ba4ded9203... || B: ...ass=\"filter-checkbox\" type=\"checkbox\" id=\"we-count-33993104-a096-4417-8743-697fd28ae0d9\" name=\"we-count\"> <label for=\"we-count-33993104-a096-4417-8743-697fd28ae0d9..."
+   },
+   {
+    "path": "initiatives/page/4/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...ass=\"filter-checkbox\" type=\"checkbox\" id=\"we-count-7da8dc68-5ed4-4511-9af6-ff933ea51625\" name=\"we-count\"> <label for=\"we-count-7da8dc68-5ed4-4511-9af6-ff933ea51625... || B: ...ass=\"filter-checkbox\" type=\"checkbox\" id=\"we-count-15220d01-05aa-4243-9a82-d551c52573bc\" name=\"we-count\"> <label for=\"we-count-15220d01-05aa-4243-9a82-d551c52573bc..."
+   },
+   {
+    "path": "resources/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-cef1fdf3-9f3f-4328-9527-b031b0d303f0\" name=\"m_Website with Video\"> <label for=\"Website with Video-cef1fdf3-9f3f-4328-9527-b031b0d303f0... || B: ...kbox\" id=\"Website with Video-bc7bdaae-61c8-4fb4-ba47-1ab26c638af3\" name=\"m_Website with Video\"> <label for=\"Website with Video-bc7bdaae-61c8-4fb4-ba47-1ab26c638af3..."
+   },
+   {
+    "path": "resources/page/10/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-330b9431-730a-4fc0-9a02-688237f441ec\" name=\"m_Website with Video\"> <label for=\"Website with Video-330b9431-730a-4fc0-9a02-688237f441ec... || B: ...kbox\" id=\"Website with Video-77dcc7dc-e3d9-4e52-b39e-99d90b9fd541\" name=\"m_Website with Video\"> <label for=\"Website with Video-77dcc7dc-e3d9-4e52-b39e-99d90b9fd541..."
+   },
+   {
+    "path": "resources/page/100/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-6086a68a-13d2-4fb7-8b7e-e87a7c9653ca\" name=\"m_Website with Video\"> <label for=\"Website with Video-6086a68a-13d2-4fb7-8b7e-e87a7c9653ca... || B: ...kbox\" id=\"Website with Video-9d0907ec-b609-48f6-96ab-695c92507c39\" name=\"m_Website with Video\"> <label for=\"Website with Video-9d0907ec-b609-48f6-96ab-695c92507c39..."
+   },
+   {
+    "path": "resources/page/101/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-10e96190-70a0-4c13-acc4-95e51543cc92\" name=\"m_Website with Video\"> <label for=\"Website with Video-10e96190-70a0-4c13-acc4-95e51543cc92... || B: ...kbox\" id=\"Website with Video-cfd0dfdc-b401-4cd2-be33-9a8eb7acc024\" name=\"m_Website with Video\"> <label for=\"Website with Video-cfd0dfdc-b401-4cd2-be33-9a8eb7acc024..."
+   },
+   {
+    "path": "resources/page/102/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-e5f8e1bc-4225-434b-b5f7-6cb6f30f18d5\" name=\"m_Website with Video\"> <label for=\"Website with Video-e5f8e1bc-4225-434b-b5f7-6cb6f30f18d5... || B: ...kbox\" id=\"Website with Video-d147a36c-bab9-45eb-950b-b531d8d44ab8\" name=\"m_Website with Video\"> <label for=\"Website with Video-d147a36c-bab9-45eb-950b-b531d8d44ab8..."
+   },
+   {
+    "path": "resources/page/103/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-1976d0e8-ac18-4e5e-a90e-05f82bceb4e7\" name=\"m_Website with Video\"> <label for=\"Website with Video-1976d0e8-ac18-4e5e-a90e-05f82bceb4e7... || B: ...kbox\" id=\"Website with Video-ea8784be-cbbf-4aa9-b4dc-254242fcab05\" name=\"m_Website with Video\"> <label for=\"Website with Video-ea8784be-cbbf-4aa9-b4dc-254242fcab05..."
+   },
+   {
+    "path": "resources/page/104/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...ckbox\" id=\"Website with Video-f9154074-8c0f-4bb7-8f85-860c9714e3fd\" name=\"m_Website with Video\"> <label for=\"Website with Video-f9154074-8c0f-4bb7-8f85-860c9714e3f... || B: ...ckbox\" id=\"Website with Video-bee586fa-7531-4704-97fb-8cae6c6a326d\" name=\"m_Website with Video\"> <label for=\"Website with Video-bee586fa-7531-4704-97fb-8cae6c6a326..."
+   },
+   {
+    "path": "resources/page/105/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-d365034c-e32d-4b07-b18f-ee5d582118e2\" name=\"m_Website with Video\"> <label for=\"Website with Video-d365034c-e32d-4b07-b18f-ee5d582118e2... || B: ...kbox\" id=\"Website with Video-4ea37d6d-3420-4649-b759-60177cadfdab\" name=\"m_Website with Video\"> <label for=\"Website with Video-4ea37d6d-3420-4649-b759-60177cadfdab..."
+   },
+   {
+    "path": "resources/page/106/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-c6bf896c-a47e-4a4d-9095-2348fc93d4d6\" name=\"m_Website with Video\"> <label for=\"Website with Video-c6bf896c-a47e-4a4d-9095-2348fc93d4d6... || B: ...kbox\" id=\"Website with Video-faea843f-9803-457c-afca-6855a3e00132\" name=\"m_Website with Video\"> <label for=\"Website with Video-faea843f-9803-457c-afca-6855a3e00132..."
+   },
+   {
+    "path": "resources/page/107/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-bd3d8ee8-8aef-4fb6-a523-611fd93be343\" name=\"m_Website with Video\"> <label for=\"Website with Video-bd3d8ee8-8aef-4fb6-a523-611fd93be343... || B: ...kbox\" id=\"Website with Video-a50ab9a9-49d2-4a16-90b7-6662c69d1b50\" name=\"m_Website with Video\"> <label for=\"Website with Video-a50ab9a9-49d2-4a16-90b7-6662c69d1b50..."
+   },
+   {
+    "path": "resources/page/108/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-5b4ccb37-9e6c-4308-ac34-b31e8e6f04dd\" name=\"m_Website with Video\"> <label for=\"Website with Video-5b4ccb37-9e6c-4308-ac34-b31e8e6f04dd... || B: ...kbox\" id=\"Website with Video-4f90f9d1-f528-4d57-a08d-b395b1d077bf\" name=\"m_Website with Video\"> <label for=\"Website with Video-4f90f9d1-f528-4d57-a08d-b395b1d077bf..."
+   },
+   {
+    "path": "resources/page/109/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-13c217a0-9036-4c23-92b4-f6e9e0c2c4bd\" name=\"m_Website with Video\"> <label for=\"Website with Video-13c217a0-9036-4c23-92b4-f6e9e0c2c4bd... || B: ...kbox\" id=\"Website with Video-de6e214b-6635-4499-a1f1-0105be00fe52\" name=\"m_Website with Video\"> <label for=\"Website with Video-de6e214b-6635-4499-a1f1-0105be00fe52..."
+   },
+   {
+    "path": "resources/page/11/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-eb9e1888-e2a5-4190-bde4-218364b45d46\" name=\"m_Website with Video\"> <label for=\"Website with Video-eb9e1888-e2a5-4190-bde4-218364b45d46... || B: ...kbox\" id=\"Website with Video-0b89b983-dd31-4d28-825d-b6539cc8f561\" name=\"m_Website with Video\"> <label for=\"Website with Video-0b89b983-dd31-4d28-825d-b6539cc8f561..."
+   },
+   {
+    "path": "resources/page/110/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-478362f4-c50d-4716-a292-3f4402bc7a67\" name=\"m_Website with Video\"> <label for=\"Website with Video-478362f4-c50d-4716-a292-3f4402bc7a67... || B: ...kbox\" id=\"Website with Video-53c47d3d-cf3e-45a9-bf2d-cdcebf0d3648\" name=\"m_Website with Video\"> <label for=\"Website with Video-53c47d3d-cf3e-45a9-bf2d-cdcebf0d3648..."
+   },
+   {
+    "path": "resources/page/111/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-95a54fca-ec0a-4914-bafe-f1ec46226af4\" name=\"m_Website with Video\"> <label for=\"Website with Video-95a54fca-ec0a-4914-bafe-f1ec46226af4... || B: ...kbox\" id=\"Website with Video-9b773f45-6eed-4599-8748-9abe77564d12\" name=\"m_Website with Video\"> <label for=\"Website with Video-9b773f45-6eed-4599-8748-9abe77564d12..."
+   },
+   {
+    "path": "resources/page/112/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-e03e9484-d258-4e00-8122-7f84166ee72a\" name=\"m_Website with Video\"> <label for=\"Website with Video-e03e9484-d258-4e00-8122-7f84166ee72a... || B: ...kbox\" id=\"Website with Video-73331725-3b5a-459f-aa2f-971c0e8c9048\" name=\"m_Website with Video\"> <label for=\"Website with Video-73331725-3b5a-459f-aa2f-971c0e8c9048..."
+   },
+   {
+    "path": "resources/page/113/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-a6ee990c-53f4-47f0-a588-356b61f8b220\" name=\"m_Website with Video\"> <label for=\"Website with Video-a6ee990c-53f4-47f0-a588-356b61f8b220... || B: ...kbox\" id=\"Website with Video-6968c9b9-484b-4b3c-8ac1-c8e2459ce08f\" name=\"m_Website with Video\"> <label for=\"Website with Video-6968c9b9-484b-4b3c-8ac1-c8e2459ce08f..."
+   },
+   {
+    "path": "resources/page/114/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-59f06532-03a0-4932-9408-918072b2c9d2\" name=\"m_Website with Video\"> <label for=\"Website with Video-59f06532-03a0-4932-9408-918072b2c9d2... || B: ...kbox\" id=\"Website with Video-134f83d8-86b8-47be-84be-adf3ee0e0a8b\" name=\"m_Website with Video\"> <label for=\"Website with Video-134f83d8-86b8-47be-84be-adf3ee0e0a8b..."
+   },
+   {
+    "path": "resources/page/115/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-6446e663-a12d-41fe-b53d-831083f74e0d\" name=\"m_Website with Video\"> <label for=\"Website with Video-6446e663-a12d-41fe-b53d-831083f74e0d... || B: ...kbox\" id=\"Website with Video-9f22867f-4c46-4772-8822-73233d00d2f9\" name=\"m_Website with Video\"> <label for=\"Website with Video-9f22867f-4c46-4772-8822-73233d00d2f9..."
+   },
+   {
+    "path": "resources/page/116/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-3ba7db52-8136-496e-91a9-49cd900ed4e9\" name=\"m_Website with Video\"> <label for=\"Website with Video-3ba7db52-8136-496e-91a9-49cd900ed4e9... || B: ...kbox\" id=\"Website with Video-7e327c4e-2063-41ff-b28e-5b20c4391d6a\" name=\"m_Website with Video\"> <label for=\"Website with Video-7e327c4e-2063-41ff-b28e-5b20c4391d6a..."
+   },
+   {
+    "path": "resources/page/117/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-319b0688-ca1a-4c38-b963-2dec7fcd11d5\" name=\"m_Website with Video\"> <label for=\"Website with Video-319b0688-ca1a-4c38-b963-2dec7fcd11d5... || B: ...kbox\" id=\"Website with Video-98616599-ca35-47ce-80ce-9036de5dd2b0\" name=\"m_Website with Video\"> <label for=\"Website with Video-98616599-ca35-47ce-80ce-9036de5dd2b0..."
+   },
+   {
+    "path": "resources/page/118/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-2409d630-807c-4b06-99a9-fe0361e450c0\" name=\"m_Website with Video\"> <label for=\"Website with Video-2409d630-807c-4b06-99a9-fe0361e450c0... || B: ...kbox\" id=\"Website with Video-a6a446ae-17b2-445a-a9c9-451350f4b63e\" name=\"m_Website with Video\"> <label for=\"Website with Video-a6a446ae-17b2-445a-a9c9-451350f4b63e..."
+   },
+   {
+    "path": "resources/page/119/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-d6c23fc6-1938-4708-a8cd-e200773a8ae9\" name=\"m_Website with Video\"> <label for=\"Website with Video-d6c23fc6-1938-4708-a8cd-e200773a8ae9... || B: ...kbox\" id=\"Website with Video-95af4b7a-cd4f-4da9-bdb4-853536159933\" name=\"m_Website with Video\"> <label for=\"Website with Video-95af4b7a-cd4f-4da9-bdb4-853536159933..."
+   },
+   {
+    "path": "resources/page/12/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-95c9c0b1-ffeb-47a2-bb2e-b62f2c8d031f\" name=\"m_Website with Video\"> <label for=\"Website with Video-95c9c0b1-ffeb-47a2-bb2e-b62f2c8d031f... || B: ...kbox\" id=\"Website with Video-d3221fa7-0e16-48c8-acb1-263522e9e433\" name=\"m_Website with Video\"> <label for=\"Website with Video-d3221fa7-0e16-48c8-acb1-263522e9e433..."
+   },
+   {
+    "path": "resources/page/120/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-67e92d59-e4dd-4461-8dae-3c1bb7f9a687\" name=\"m_Website with Video\"> <label for=\"Website with Video-67e92d59-e4dd-4461-8dae-3c1bb7f9a687... || B: ...kbox\" id=\"Website with Video-10dcd8f1-879b-474d-b3fe-ed94be309d83\" name=\"m_Website with Video\"> <label for=\"Website with Video-10dcd8f1-879b-474d-b3fe-ed94be309d83..."
+   },
+   {
+    "path": "resources/page/121/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...ckbox\" id=\"Website with Video-f48ddabd-930b-493b-bc54-7e47eb7a6866\" name=\"m_Website with Video\"> <label for=\"Website with Video-f48ddabd-930b-493b-bc54-7e47eb7a686... || B: ...ckbox\" id=\"Website with Video-baaef2e9-66ff-437a-bf61-5275556913f6\" name=\"m_Website with Video\"> <label for=\"Website with Video-baaef2e9-66ff-437a-bf61-5275556913f..."
+   },
+   {
+    "path": "resources/page/122/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-f19427f7-a831-4cc4-9dfe-fdc4cc0112e8\" name=\"m_Website with Video\"> <label for=\"Website with Video-f19427f7-a831-4cc4-9dfe-fdc4cc0112e8... || B: ...kbox\" id=\"Website with Video-7d2a8031-0cc8-4464-8790-ec21eab2f814\" name=\"m_Website with Video\"> <label for=\"Website with Video-7d2a8031-0cc8-4464-8790-ec21eab2f814..."
+   },
+   {
+    "path": "resources/page/123/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-cde81fea-73b7-4cd0-b290-512f864a8a28\" name=\"m_Website with Video\"> <label for=\"Website with Video-cde81fea-73b7-4cd0-b290-512f864a8a28... || B: ...kbox\" id=\"Website with Video-621a723b-24a4-49de-b893-09d8283dae4a\" name=\"m_Website with Video\"> <label for=\"Website with Video-621a723b-24a4-49de-b893-09d8283dae4a..."
+   },
+   {
+    "path": "resources/page/124/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-afa68301-56a8-4456-884b-daab059135ac\" name=\"m_Website with Video\"> <label for=\"Website with Video-afa68301-56a8-4456-884b-daab059135ac... || B: ...kbox\" id=\"Website with Video-e1e5fe23-7928-4b18-bbe9-d91d29fae290\" name=\"m_Website with Video\"> <label for=\"Website with Video-e1e5fe23-7928-4b18-bbe9-d91d29fae290..."
+   },
+   {
+    "path": "resources/page/125/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-81aaa576-98e8-4969-941c-a1917ef1a427\" name=\"m_Website with Video\"> <label for=\"Website with Video-81aaa576-98e8-4969-941c-a1917ef1a427... || B: ...kbox\" id=\"Website with Video-81ab130a-ff1d-4f22-a9d1-f8ee8b748fea\" name=\"m_Website with Video\"> <label for=\"Website with Video-81ab130a-ff1d-4f22-a9d1-f8ee8b748fea..."
+   },
+   {
+    "path": "resources/page/126/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-de4465b1-36c7-4040-a1c3-92e909cc2b9e\" name=\"m_Website with Video\"> <label for=\"Website with Video-de4465b1-36c7-4040-a1c3-92e909cc2b9e... || B: ...kbox\" id=\"Website with Video-7186f24f-18a6-48d0-a133-94b26b10117c\" name=\"m_Website with Video\"> <label for=\"Website with Video-7186f24f-18a6-48d0-a133-94b26b10117c..."
+   },
+   {
+    "path": "resources/page/127/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-081c8b1d-7432-4ea7-b593-e18a86ffdf59\" name=\"m_Website with Video\"> <label for=\"Website with Video-081c8b1d-7432-4ea7-b593-e18a86ffdf59... || B: ...kbox\" id=\"Website with Video-bf70b35a-6ad3-49c4-bba2-f7d73118c2cb\" name=\"m_Website with Video\"> <label for=\"Website with Video-bf70b35a-6ad3-49c4-bba2-f7d73118c2cb..."
+   },
+   {
+    "path": "resources/page/128/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-10b2e7f8-d678-480a-9360-eba8b6cdd927\" name=\"m_Website with Video\"> <label for=\"Website with Video-10b2e7f8-d678-480a-9360-eba8b6cdd927... || B: ...kbox\" id=\"Website with Video-0305fa9b-8f11-4251-bb4e-eb9e462dbbae\" name=\"m_Website with Video\"> <label for=\"Website with Video-0305fa9b-8f11-4251-bb4e-eb9e462dbbae..."
+   },
+   {
+    "path": "resources/page/129/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-44ca167a-c538-4f9b-9a23-f539c3b4e908\" name=\"m_Website with Video\"> <label for=\"Website with Video-44ca167a-c538-4f9b-9a23-f539c3b4e908... || B: ...kbox\" id=\"Website with Video-30b7bbf0-7f3a-4aba-ac78-95f545de0ee3\" name=\"m_Website with Video\"> <label for=\"Website with Video-30b7bbf0-7f3a-4aba-ac78-95f545de0ee3..."
+   },
+   {
+    "path": "resources/page/13/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-282d4fb9-f8b3-4ff5-8275-83e7389af03f\" name=\"m_Website with Video\"> <label for=\"Website with Video-282d4fb9-f8b3-4ff5-8275-83e7389af03f... || B: ...kbox\" id=\"Website with Video-e331dc0e-e917-49eb-963a-a3b6210265c1\" name=\"m_Website with Video\"> <label for=\"Website with Video-e331dc0e-e917-49eb-963a-a3b6210265c1..."
+   },
+   {
+    "path": "resources/page/130/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-8dc1d68d-e69e-46f8-8438-4a068b3fc801\" name=\"m_Website with Video\"> <label for=\"Website with Video-8dc1d68d-e69e-46f8-8438-4a068b3fc801... || B: ...kbox\" id=\"Website with Video-cd16d524-aa13-42fd-9d9b-589af707f5de\" name=\"m_Website with Video\"> <label for=\"Website with Video-cd16d524-aa13-42fd-9d9b-589af707f5de..."
+   },
+   {
+    "path": "resources/page/131/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-0b9329a3-120d-4a98-a8db-b8fc03cbe544\" name=\"m_Website with Video\"> <label for=\"Website with Video-0b9329a3-120d-4a98-a8db-b8fc03cbe544... || B: ...kbox\" id=\"Website with Video-9d86ea54-71d2-4b1d-93f4-236b7e9f55fb\" name=\"m_Website with Video\"> <label for=\"Website with Video-9d86ea54-71d2-4b1d-93f4-236b7e9f55fb..."
+   },
+   {
+    "path": "resources/page/132/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-da12182b-5e48-4cd7-9b2a-9f2b96059104\" name=\"m_Website with Video\"> <label for=\"Website with Video-da12182b-5e48-4cd7-9b2a-9f2b96059104... || B: ...kbox\" id=\"Website with Video-72f86e1e-d1cc-4056-98c7-e10577808576\" name=\"m_Website with Video\"> <label for=\"Website with Video-72f86e1e-d1cc-4056-98c7-e10577808576..."
+   },
+   {
+    "path": "resources/page/133/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...ckbox\" id=\"Website with Video-bb9b5dc9-26fc-4d5d-a5d0-aa03eab8dccd\" name=\"m_Website with Video\"> <label for=\"Website with Video-bb9b5dc9-26fc-4d5d-a5d0-aa03eab8dcc... || B: ...ckbox\" id=\"Website with Video-6a7a107b-f44c-4a69-b4ad-9c990d6cbe7d\" name=\"m_Website with Video\"> <label for=\"Website with Video-6a7a107b-f44c-4a69-b4ad-9c990d6cbe7..."
+   },
+   {
+    "path": "resources/page/134/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-ca3adbc9-a485-42f6-8649-bc5f398b60d4\" name=\"m_Website with Video\"> <label for=\"Website with Video-ca3adbc9-a485-42f6-8649-bc5f398b60d4... || B: ...kbox\" id=\"Website with Video-3a9959e2-8e02-44ac-b9c8-b8d63334a85a\" name=\"m_Website with Video\"> <label for=\"Website with Video-3a9959e2-8e02-44ac-b9c8-b8d63334a85a..."
+   },
+   {
+    "path": "resources/page/135/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-e372fd48-c3cc-461f-b910-d10b02e451d0\" name=\"m_Website with Video\"> <label for=\"Website with Video-e372fd48-c3cc-461f-b910-d10b02e451d0... || B: ...kbox\" id=\"Website with Video-095f4c86-c228-4858-9d13-db0fe391ee77\" name=\"m_Website with Video\"> <label for=\"Website with Video-095f4c86-c228-4858-9d13-db0fe391ee77..."
+   },
+   {
+    "path": "resources/page/136/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-b940fa2e-cb3f-435e-a791-128738d77ae1\" name=\"m_Website with Video\"> <label for=\"Website with Video-b940fa2e-cb3f-435e-a791-128738d77ae1... || B: ...kbox\" id=\"Website with Video-42fe424e-2e7a-4f4b-bb38-52861e85ea88\" name=\"m_Website with Video\"> <label for=\"Website with Video-42fe424e-2e7a-4f4b-bb38-52861e85ea88..."
+   },
+   {
+    "path": "resources/page/137/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-67523879-90a4-45e4-8808-65b1bb6a51eb\" name=\"m_Website with Video\"> <label for=\"Website with Video-67523879-90a4-45e4-8808-65b1bb6a51eb... || B: ...kbox\" id=\"Website with Video-d8156f8c-fd4e-44af-bc2d-6d1d46871e7d\" name=\"m_Website with Video\"> <label for=\"Website with Video-d8156f8c-fd4e-44af-bc2d-6d1d46871e7d..."
+   },
+   {
+    "path": "resources/page/138/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-d0f09504-2c95-496f-a3ce-b1141b82646f\" name=\"m_Website with Video\"> <label for=\"Website with Video-d0f09504-2c95-496f-a3ce-b1141b82646f... || B: ...kbox\" id=\"Website with Video-9161e6a2-5dc5-4dae-9d9d-bbc0c4b76a23\" name=\"m_Website with Video\"> <label for=\"Website with Video-9161e6a2-5dc5-4dae-9d9d-bbc0c4b76a23..."
+   },
+   {
+    "path": "resources/page/139/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-4360ba64-d6da-4501-a2bb-a51d71442551\" name=\"m_Website with Video\"> <label for=\"Website with Video-4360ba64-d6da-4501-a2bb-a51d71442551... || B: ...kbox\" id=\"Website with Video-6fecf624-bb02-44c3-9ea9-0563d4a7bd29\" name=\"m_Website with Video\"> <label for=\"Website with Video-6fecf624-bb02-44c3-9ea9-0563d4a7bd29..."
+   },
+   {
+    "path": "resources/page/14/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-21e9d8a7-66ea-4c83-914b-61187fec5f07\" name=\"m_Website with Video\"> <label for=\"Website with Video-21e9d8a7-66ea-4c83-914b-61187fec5f07... || B: ...kbox\" id=\"Website with Video-699198ce-622f-4af7-b4cf-0c1a33fdad60\" name=\"m_Website with Video\"> <label for=\"Website with Video-699198ce-622f-4af7-b4cf-0c1a33fdad60..."
+   },
+   {
+    "path": "resources/page/140/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-59ee2b81-359a-4cc8-b57f-2a222554f9da\" name=\"m_Website with Video\"> <label for=\"Website with Video-59ee2b81-359a-4cc8-b57f-2a222554f9da... || B: ...kbox\" id=\"Website with Video-5c2dd8f3-5ae7-493b-ae50-827b9501181d\" name=\"m_Website with Video\"> <label for=\"Website with Video-5c2dd8f3-5ae7-493b-ae50-827b9501181d..."
+   },
+   {
+    "path": "resources/page/141/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-14f282ba-b752-429f-95eb-7e683919f703\" name=\"m_Website with Video\"> <label for=\"Website with Video-14f282ba-b752-429f-95eb-7e683919f703... || B: ...kbox\" id=\"Website with Video-0cd36cb7-936b-4436-8165-c06a3c696c80\" name=\"m_Website with Video\"> <label for=\"Website with Video-0cd36cb7-936b-4436-8165-c06a3c696c80..."
+   },
+   {
+    "path": "resources/page/142/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-1a47051b-f016-482c-a435-7706c33e6300\" name=\"m_Website with Video\"> <label for=\"Website with Video-1a47051b-f016-482c-a435-7706c33e6300... || B: ...kbox\" id=\"Website with Video-68b76df7-7204-47f7-acf4-d8e5aa2b0a13\" name=\"m_Website with Video\"> <label for=\"Website with Video-68b76df7-7204-47f7-acf4-d8e5aa2b0a13..."
+   },
+   {
+    "path": "resources/page/143/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...ckbox\" id=\"Website with Video-afa78170-7795-49c0-a4a9-ea60a7b2b198\" name=\"m_Website with Video\"> <label for=\"Website with Video-afa78170-7795-49c0-a4a9-ea60a7b2b19... || B: ...ckbox\" id=\"Website with Video-c82c14d2-e50b-49ea-b0f8-6f9766c98ae8\" name=\"m_Website with Video\"> <label for=\"Website with Video-c82c14d2-e50b-49ea-b0f8-6f9766c98ae..."
+   },
+   {
+    "path": "resources/page/15/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-9ad21a8f-c257-4524-8c11-2ed7eeae96e4\" name=\"m_Website with Video\"> <label for=\"Website with Video-9ad21a8f-c257-4524-8c11-2ed7eeae96e4... || B: ...kbox\" id=\"Website with Video-e016476a-ef03-4530-a6e2-f16580f9eb47\" name=\"m_Website with Video\"> <label for=\"Website with Video-e016476a-ef03-4530-a6e2-f16580f9eb47..."
+   },
+   {
+    "path": "resources/page/16/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-d19c30fb-5319-4e35-b8b8-4adbbd6ac7b8\" name=\"m_Website with Video\"> <label for=\"Website with Video-d19c30fb-5319-4e35-b8b8-4adbbd6ac7b8... || B: ...kbox\" id=\"Website with Video-423b18e6-b793-4978-9108-c81b7cb7cfc0\" name=\"m_Website with Video\"> <label for=\"Website with Video-423b18e6-b793-4978-9108-c81b7cb7cfc0..."
+   },
+   {
+    "path": "resources/page/17/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-d1890eb5-c7ab-4c12-aa53-ef04d7753916\" name=\"m_Website with Video\"> <label for=\"Website with Video-d1890eb5-c7ab-4c12-aa53-ef04d7753916... || B: ...kbox\" id=\"Website with Video-df62d388-26f8-4059-87ba-05774be1167a\" name=\"m_Website with Video\"> <label for=\"Website with Video-df62d388-26f8-4059-87ba-05774be1167a..."
+   },
+   {
+    "path": "resources/page/18/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-14d186b5-1c8d-47c5-8fbd-51ba010c3e5b\" name=\"m_Website with Video\"> <label for=\"Website with Video-14d186b5-1c8d-47c5-8fbd-51ba010c3e5b... || B: ...kbox\" id=\"Website with Video-6dac5969-9878-4cc0-9056-9483b7ae6a04\" name=\"m_Website with Video\"> <label for=\"Website with Video-6dac5969-9878-4cc0-9056-9483b7ae6a04..."
+   },
+   {
+    "path": "resources/page/19/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-e52e1c68-f5d5-4210-8a56-f498380802c3\" name=\"m_Website with Video\"> <label for=\"Website with Video-e52e1c68-f5d5-4210-8a56-f498380802c3... || B: ...kbox\" id=\"Website with Video-33937eeb-0f82-4511-897b-9b9f16857f5c\" name=\"m_Website with Video\"> <label for=\"Website with Video-33937eeb-0f82-4511-897b-9b9f16857f5c..."
+   },
+   {
+    "path": "resources/page/2/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-ff5d1ace-b07f-4a6e-91a7-3508a84af765\" name=\"m_Website with Video\"> <label for=\"Website with Video-ff5d1ace-b07f-4a6e-91a7-3508a84af765... || B: ...kbox\" id=\"Website with Video-608ed3db-095b-4e78-808c-3ae86c46ddfc\" name=\"m_Website with Video\"> <label for=\"Website with Video-608ed3db-095b-4e78-808c-3ae86c46ddfc..."
+   },
+   {
+    "path": "resources/page/20/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-e67d5c8e-8a1a-4c83-b258-d8bbc504523b\" name=\"m_Website with Video\"> <label for=\"Website with Video-e67d5c8e-8a1a-4c83-b258-d8bbc504523b... || B: ...kbox\" id=\"Website with Video-a4949cbe-678d-4c1d-be91-bfcbf6bc25b4\" name=\"m_Website with Video\"> <label for=\"Website with Video-a4949cbe-678d-4c1d-be91-bfcbf6bc25b4..."
+   },
+   {
+    "path": "resources/page/21/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-3bdcabc4-d71d-4188-a98e-b894e22149dd\" name=\"m_Website with Video\"> <label for=\"Website with Video-3bdcabc4-d71d-4188-a98e-b894e22149dd... || B: ...kbox\" id=\"Website with Video-5e996699-2360-4d24-9db7-9db3fd41754b\" name=\"m_Website with Video\"> <label for=\"Website with Video-5e996699-2360-4d24-9db7-9db3fd41754b..."
+   },
+   {
+    "path": "resources/page/22/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-5f8c4c48-d1ed-46c6-b144-1b61f8a843c7\" name=\"m_Website with Video\"> <label for=\"Website with Video-5f8c4c48-d1ed-46c6-b144-1b61f8a843c7... || B: ...kbox\" id=\"Website with Video-571b9b78-b7fe-4208-9e5c-1870dbf8ace3\" name=\"m_Website with Video\"> <label for=\"Website with Video-571b9b78-b7fe-4208-9e5c-1870dbf8ace3..."
+   },
+   {
+    "path": "resources/page/23/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-fe106852-b997-4a4d-8950-f6f500d44937\" name=\"m_Website with Video\"> <label for=\"Website with Video-fe106852-b997-4a4d-8950-f6f500d44937... || B: ...kbox\" id=\"Website with Video-b040b481-e2c6-45e8-93a8-c664ac68c88f\" name=\"m_Website with Video\"> <label for=\"Website with Video-b040b481-e2c6-45e8-93a8-c664ac68c88f..."
+   },
+   {
+    "path": "resources/page/24/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-deaa61e6-9f5e-4e06-8e01-316cc8efaa1b\" name=\"m_Website with Video\"> <label for=\"Website with Video-deaa61e6-9f5e-4e06-8e01-316cc8efaa1b... || B: ...kbox\" id=\"Website with Video-ee02fc54-9e26-40d0-af37-65f20ad508c0\" name=\"m_Website with Video\"> <label for=\"Website with Video-ee02fc54-9e26-40d0-af37-65f20ad508c0..."
+   },
+   {
+    "path": "resources/page/25/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-73bad0e5-88a4-4df5-917e-7cdddc1bb0f1\" name=\"m_Website with Video\"> <label for=\"Website with Video-73bad0e5-88a4-4df5-917e-7cdddc1bb0f1... || B: ...kbox\" id=\"Website with Video-93af5715-af63-47bf-a6ae-e42aacce03e5\" name=\"m_Website with Video\"> <label for=\"Website with Video-93af5715-af63-47bf-a6ae-e42aacce03e5..."
+   },
+   {
+    "path": "resources/page/26/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-1855c1d9-eefa-438c-aef5-c5bddefa2b13\" name=\"m_Website with Video\"> <label for=\"Website with Video-1855c1d9-eefa-438c-aef5-c5bddefa2b13... || B: ...kbox\" id=\"Website with Video-748ce163-dc4e-4d38-9190-ce1bc3dcf50e\" name=\"m_Website with Video\"> <label for=\"Website with Video-748ce163-dc4e-4d38-9190-ce1bc3dcf50e..."
+   },
+   {
+    "path": "resources/page/27/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-9e46f3af-4199-4561-8634-03830dc55fc1\" name=\"m_Website with Video\"> <label for=\"Website with Video-9e46f3af-4199-4561-8634-03830dc55fc1... || B: ...kbox\" id=\"Website with Video-b96c3f8d-05e9-4d5f-ad33-b0d6188d0d3d\" name=\"m_Website with Video\"> <label for=\"Website with Video-b96c3f8d-05e9-4d5f-ad33-b0d6188d0d3d..."
+   },
+   {
+    "path": "resources/page/28/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...ckbox\" id=\"Website with Video-6b7b2aea-a74b-4d91-9288-1afd1900026f\" name=\"m_Website with Video\"> <label for=\"Website with Video-6b7b2aea-a74b-4d91-9288-1afd1900026... || B: ...ckbox\" id=\"Website with Video-508c6fad-f506-48fe-aeb0-700659346a9f\" name=\"m_Website with Video\"> <label for=\"Website with Video-508c6fad-f506-48fe-aeb0-700659346a9..."
+   },
+   {
+    "path": "resources/page/29/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-7cc772b1-b152-47e8-89be-4d435ccec645\" name=\"m_Website with Video\"> <label for=\"Website with Video-7cc772b1-b152-47e8-89be-4d435ccec645... || B: ...kbox\" id=\"Website with Video-e83c465e-65c0-457c-8f28-29bf394dfd4b\" name=\"m_Website with Video\"> <label for=\"Website with Video-e83c465e-65c0-457c-8f28-29bf394dfd4b..."
+   },
+   {
+    "path": "resources/page/3/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-864ae623-914f-4b8b-b11c-1130d99e35ff\" name=\"m_Website with Video\"> <label for=\"Website with Video-864ae623-914f-4b8b-b11c-1130d99e35ff... || B: ...kbox\" id=\"Website with Video-5975af88-7368-4f15-ab31-17f8858a4e80\" name=\"m_Website with Video\"> <label for=\"Website with Video-5975af88-7368-4f15-ab31-17f8858a4e80..."
+   },
+   {
+    "path": "resources/page/30/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-ace5d666-1596-497c-b6e2-49ae95ec517a\" name=\"m_Website with Video\"> <label for=\"Website with Video-ace5d666-1596-497c-b6e2-49ae95ec517a... || B: ...kbox\" id=\"Website with Video-8a7dff56-67ef-4cbb-b3a8-6de01303a8fe\" name=\"m_Website with Video\"> <label for=\"Website with Video-8a7dff56-67ef-4cbb-b3a8-6de01303a8fe..."
+   },
+   {
+    "path": "resources/page/31/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-4536a3ad-e906-4ddf-8d61-e6c416a8fb4d\" name=\"m_Website with Video\"> <label for=\"Website with Video-4536a3ad-e906-4ddf-8d61-e6c416a8fb4d... || B: ...kbox\" id=\"Website with Video-afca707b-4ef4-4d3f-8929-c8546fb8e728\" name=\"m_Website with Video\"> <label for=\"Website with Video-afca707b-4ef4-4d3f-8929-c8546fb8e728..."
+   },
+   {
+    "path": "resources/page/32/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-87341c5b-6deb-431e-8551-663f728bb014\" name=\"m_Website with Video\"> <label for=\"Website with Video-87341c5b-6deb-431e-8551-663f728bb014... || B: ...kbox\" id=\"Website with Video-24703eca-2b22-40be-a6cb-ccbde22cf6f3\" name=\"m_Website with Video\"> <label for=\"Website with Video-24703eca-2b22-40be-a6cb-ccbde22cf6f3..."
+   },
+   {
+    "path": "resources/page/33/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-d8bb8053-31aa-499e-95e8-b95770fa0173\" name=\"m_Website with Video\"> <label for=\"Website with Video-d8bb8053-31aa-499e-95e8-b95770fa0173... || B: ...kbox\" id=\"Website with Video-c02b7a08-7426-44ef-98eb-691a2f98fb50\" name=\"m_Website with Video\"> <label for=\"Website with Video-c02b7a08-7426-44ef-98eb-691a2f98fb50..."
+   },
+   {
+    "path": "resources/page/34/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-0e7c1611-682f-4ae8-9c4f-2df84d9ef5d7\" name=\"m_Website with Video\"> <label for=\"Website with Video-0e7c1611-682f-4ae8-9c4f-2df84d9ef5d7... || B: ...kbox\" id=\"Website with Video-70b388f8-09b3-4651-b8ee-866108261d74\" name=\"m_Website with Video\"> <label for=\"Website with Video-70b388f8-09b3-4651-b8ee-866108261d74..."
+   },
+   {
+    "path": "resources/page/35/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-5e28b628-3d36-4e09-8f81-f60258e9f897\" name=\"m_Website with Video\"> <label for=\"Website with Video-5e28b628-3d36-4e09-8f81-f60258e9f897... || B: ...kbox\" id=\"Website with Video-c51974f2-202b-473a-8906-e5252bf2c93e\" name=\"m_Website with Video\"> <label for=\"Website with Video-c51974f2-202b-473a-8906-e5252bf2c93e..."
+   },
+   {
+    "path": "resources/page/36/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-88a17d95-83c4-452f-b86b-68e2c61a4162\" name=\"m_Website with Video\"> <label for=\"Website with Video-88a17d95-83c4-452f-b86b-68e2c61a4162... || B: ...kbox\" id=\"Website with Video-c11095ba-3e2e-4703-a338-7ba2b452f4de\" name=\"m_Website with Video\"> <label for=\"Website with Video-c11095ba-3e2e-4703-a338-7ba2b452f4de..."
+   },
+   {
+    "path": "resources/page/37/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...ckbox\" id=\"Website with Video-c72771ae-f519-45e4-b9da-504870791b38\" name=\"m_Website with Video\"> <label for=\"Website with Video-c72771ae-f519-45e4-b9da-504870791b3... || B: ...ckbox\" id=\"Website with Video-3b72796b-bc58-41d5-aba6-065305de5328\" name=\"m_Website with Video\"> <label for=\"Website with Video-3b72796b-bc58-41d5-aba6-065305de532..."
+   },
+   {
+    "path": "resources/page/38/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-f65338e3-e8f0-4966-a055-6425543dee92\" name=\"m_Website with Video\"> <label for=\"Website with Video-f65338e3-e8f0-4966-a055-6425543dee92... || B: ...kbox\" id=\"Website with Video-ec694c14-2544-4f7a-9691-2c09f190672a\" name=\"m_Website with Video\"> <label for=\"Website with Video-ec694c14-2544-4f7a-9691-2c09f190672a..."
+   },
+   {
+    "path": "resources/page/39/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-7475c69f-4dff-433e-8e40-d1816436510c\" name=\"m_Website with Video\"> <label for=\"Website with Video-7475c69f-4dff-433e-8e40-d1816436510c... || B: ...kbox\" id=\"Website with Video-b54d9208-2c3f-4753-b0c4-21e02607154a\" name=\"m_Website with Video\"> <label for=\"Website with Video-b54d9208-2c3f-4753-b0c4-21e02607154a..."
+   },
+   {
+    "path": "resources/page/4/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...ckbox\" id=\"Website with Video-214305f0-2ff7-470d-8843-36e59c808e43\" name=\"m_Website with Video\"> <label for=\"Website with Video-214305f0-2ff7-470d-8843-36e59c808e4... || B: ...ckbox\" id=\"Website with Video-b735ed16-56f2-495f-990b-4c1dd2c4d9e3\" name=\"m_Website with Video\"> <label for=\"Website with Video-b735ed16-56f2-495f-990b-4c1dd2c4d9e..."
+   },
+   {
+    "path": "resources/page/40/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-53bd0816-59ec-4f5a-999a-3dfa697d2dc5\" name=\"m_Website with Video\"> <label for=\"Website with Video-53bd0816-59ec-4f5a-999a-3dfa697d2dc5... || B: ...kbox\" id=\"Website with Video-6f024324-c72c-4246-ba92-544eca6bf20f\" name=\"m_Website with Video\"> <label for=\"Website with Video-6f024324-c72c-4246-ba92-544eca6bf20f..."
+   },
+   {
+    "path": "resources/page/41/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-9d62fc6d-1251-4854-aff9-9b8163f333f6\" name=\"m_Website with Video\"> <label for=\"Website with Video-9d62fc6d-1251-4854-aff9-9b8163f333f6... || B: ...kbox\" id=\"Website with Video-8bd359d6-b7e3-420b-87e9-8d5e731b54b9\" name=\"m_Website with Video\"> <label for=\"Website with Video-8bd359d6-b7e3-420b-87e9-8d5e731b54b9..."
+   },
+   {
+    "path": "resources/page/42/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-217abccc-3863-4bfc-82dd-3adcf96efbfd\" name=\"m_Website with Video\"> <label for=\"Website with Video-217abccc-3863-4bfc-82dd-3adcf96efbfd... || B: ...kbox\" id=\"Website with Video-e014cbcf-a01c-4998-b231-d34368aa3e72\" name=\"m_Website with Video\"> <label for=\"Website with Video-e014cbcf-a01c-4998-b231-d34368aa3e72..."
+   },
+   {
+    "path": "resources/page/43/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-9aadba0c-4535-4f69-8fc6-fb6d5741b0b6\" name=\"m_Website with Video\"> <label for=\"Website with Video-9aadba0c-4535-4f69-8fc6-fb6d5741b0b6... || B: ...kbox\" id=\"Website with Video-2e774588-e3ff-48cf-b214-27021582255e\" name=\"m_Website with Video\"> <label for=\"Website with Video-2e774588-e3ff-48cf-b214-27021582255e..."
+   },
+   {
+    "path": "resources/page/44/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-10c47ac8-40c8-421e-925b-6b46df2fddcc\" name=\"m_Website with Video\"> <label for=\"Website with Video-10c47ac8-40c8-421e-925b-6b46df2fddcc... || B: ...kbox\" id=\"Website with Video-d774584d-18a9-4769-9623-338061e4ae1e\" name=\"m_Website with Video\"> <label for=\"Website with Video-d774584d-18a9-4769-9623-338061e4ae1e..."
+   },
+   {
+    "path": "resources/page/45/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-48f329fc-0ff6-4da2-a02f-7b26d9a81f85\" name=\"m_Website with Video\"> <label for=\"Website with Video-48f329fc-0ff6-4da2-a02f-7b26d9a81f85... || B: ...kbox\" id=\"Website with Video-2c22bc0f-f50f-4996-b0a7-f8d742d8ddda\" name=\"m_Website with Video\"> <label for=\"Website with Video-2c22bc0f-f50f-4996-b0a7-f8d742d8ddda..."
+   },
+   {
+    "path": "resources/page/46/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...ckbox\" id=\"Website with Video-95b7b9f5-c432-49da-90d8-af12820d13a1\" name=\"m_Website with Video\"> <label for=\"Website with Video-95b7b9f5-c432-49da-90d8-af12820d13a... || B: ...ckbox\" id=\"Website with Video-8b90b668-8b10-4924-a0ca-06910faaaf71\" name=\"m_Website with Video\"> <label for=\"Website with Video-8b90b668-8b10-4924-a0ca-06910faaaf7..."
+   },
+   {
+    "path": "resources/page/47/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-e4a4c0c6-8e84-491c-a263-20ef69c5367f\" name=\"m_Website with Video\"> <label for=\"Website with Video-e4a4c0c6-8e84-491c-a263-20ef69c5367f... || B: ...kbox\" id=\"Website with Video-6180f708-8d04-4cff-9971-84cf56d8a63c\" name=\"m_Website with Video\"> <label for=\"Website with Video-6180f708-8d04-4cff-9971-84cf56d8a63c..."
+   },
+   {
+    "path": "resources/page/48/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-5f417be5-3be7-4f18-b744-1e47ab5fe39d\" name=\"m_Website with Video\"> <label for=\"Website with Video-5f417be5-3be7-4f18-b744-1e47ab5fe39d... || B: ...kbox\" id=\"Website with Video-95203754-fbb5-4127-b858-1ed0ec3f1a42\" name=\"m_Website with Video\"> <label for=\"Website with Video-95203754-fbb5-4127-b858-1ed0ec3f1a42..."
+   },
+   {
+    "path": "resources/page/49/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-92d19ac4-0a4d-4120-87b6-34106abb1e8f\" name=\"m_Website with Video\"> <label for=\"Website with Video-92d19ac4-0a4d-4120-87b6-34106abb1e8f... || B: ...kbox\" id=\"Website with Video-d23393c2-7ac3-4c70-8166-90290b4e7c7e\" name=\"m_Website with Video\"> <label for=\"Website with Video-d23393c2-7ac3-4c70-8166-90290b4e7c7e..."
+   },
+   {
+    "path": "resources/page/5/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-474911af-f6d1-490f-b75f-e155eb7d36ae\" name=\"m_Website with Video\"> <label for=\"Website with Video-474911af-f6d1-490f-b75f-e155eb7d36ae... || B: ...kbox\" id=\"Website with Video-f748f22d-d78b-4247-bed2-3f35de9d8150\" name=\"m_Website with Video\"> <label for=\"Website with Video-f748f22d-d78b-4247-bed2-3f35de9d8150..."
+   },
+   {
+    "path": "resources/page/50/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-555e8964-3267-4c3a-8cd4-d1878b77f668\" name=\"m_Website with Video\"> <label for=\"Website with Video-555e8964-3267-4c3a-8cd4-d1878b77f668... || B: ...kbox\" id=\"Website with Video-5cedcadd-a659-4035-9335-1dd38fa84a55\" name=\"m_Website with Video\"> <label for=\"Website with Video-5cedcadd-a659-4035-9335-1dd38fa84a55..."
+   },
+   {
+    "path": "resources/page/51/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-4e9a14b8-f5a6-4c10-a1d0-0c7e8054abb9\" name=\"m_Website with Video\"> <label for=\"Website with Video-4e9a14b8-f5a6-4c10-a1d0-0c7e8054abb9... || B: ...kbox\" id=\"Website with Video-4ba1c676-2e81-49d7-8c0d-bf23324fe80b\" name=\"m_Website with Video\"> <label for=\"Website with Video-4ba1c676-2e81-49d7-8c0d-bf23324fe80b..."
+   },
+   {
+    "path": "resources/page/52/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-0a162351-3b42-4ad8-840b-d2d29eb992b9\" name=\"m_Website with Video\"> <label for=\"Website with Video-0a162351-3b42-4ad8-840b-d2d29eb992b9... || B: ...kbox\" id=\"Website with Video-4d5e3c0e-b260-44bc-982d-d35f68ce89d2\" name=\"m_Website with Video\"> <label for=\"Website with Video-4d5e3c0e-b260-44bc-982d-d35f68ce89d2..."
+   },
+   {
+    "path": "resources/page/53/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-62b4ac51-6805-4422-bc42-854edd157139\" name=\"m_Website with Video\"> <label for=\"Website with Video-62b4ac51-6805-4422-bc42-854edd157139... || B: ...kbox\" id=\"Website with Video-5c7cf9f3-7645-4fd4-a7dd-39ab4285aef5\" name=\"m_Website with Video\"> <label for=\"Website with Video-5c7cf9f3-7645-4fd4-a7dd-39ab4285aef5..."
+   },
+   {
+    "path": "resources/page/54/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...ckbox\" id=\"Website with Video-52c7ba82-1b67-42d4-8786-8aa05723ea0f\" name=\"m_Website with Video\"> <label for=\"Website with Video-52c7ba82-1b67-42d4-8786-8aa05723ea0... || B: ...ckbox\" id=\"Website with Video-d350c32e-6694-4c5b-9046-39d666dbe01f\" name=\"m_Website with Video\"> <label for=\"Website with Video-d350c32e-6694-4c5b-9046-39d666dbe01..."
+   },
+   {
+    "path": "resources/page/55/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-c9cc5e7b-47cd-462a-b75f-66666e06f53b\" name=\"m_Website with Video\"> <label for=\"Website with Video-c9cc5e7b-47cd-462a-b75f-66666e06f53b... || B: ...kbox\" id=\"Website with Video-88250cfc-5a3f-4fc5-a264-c279e583b033\" name=\"m_Website with Video\"> <label for=\"Website with Video-88250cfc-5a3f-4fc5-a264-c279e583b033..."
+   },
+   {
+    "path": "resources/page/56/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-c74b50cd-15ed-4acf-bb5f-a64536f58ad9\" name=\"m_Website with Video\"> <label for=\"Website with Video-c74b50cd-15ed-4acf-bb5f-a64536f58ad9... || B: ...kbox\" id=\"Website with Video-b435b99c-008a-4a70-a95d-bef550311c81\" name=\"m_Website with Video\"> <label for=\"Website with Video-b435b99c-008a-4a70-a95d-bef550311c81..."
+   },
+   {
+    "path": "resources/page/57/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-5e8c02aa-f96c-4d9b-abd7-ea36559ebb4e\" name=\"m_Website with Video\"> <label for=\"Website with Video-5e8c02aa-f96c-4d9b-abd7-ea36559ebb4e... || B: ...kbox\" id=\"Website with Video-c379d685-6008-4174-8330-818dcbf753e5\" name=\"m_Website with Video\"> <label for=\"Website with Video-c379d685-6008-4174-8330-818dcbf753e5..."
+   },
+   {
+    "path": "resources/page/58/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-151ad591-6552-4368-a98e-c49ce8170e69\" name=\"m_Website with Video\"> <label for=\"Website with Video-151ad591-6552-4368-a98e-c49ce8170e69... || B: ...kbox\" id=\"Website with Video-f2135b90-47ee-487c-953d-b29cef33f894\" name=\"m_Website with Video\"> <label for=\"Website with Video-f2135b90-47ee-487c-953d-b29cef33f894..."
+   },
+   {
+    "path": "resources/page/59/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-dbbf0782-6215-45ed-a5a2-756325f54749\" name=\"m_Website with Video\"> <label for=\"Website with Video-dbbf0782-6215-45ed-a5a2-756325f54749... || B: ...kbox\" id=\"Website with Video-d65e53ad-6458-4491-8727-5aedc008f9b8\" name=\"m_Website with Video\"> <label for=\"Website with Video-d65e53ad-6458-4491-8727-5aedc008f9b8..."
+   },
+   {
+    "path": "resources/page/6/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-4055a246-c271-4414-ad73-ba6c5ec3cb52\" name=\"m_Website with Video\"> <label for=\"Website with Video-4055a246-c271-4414-ad73-ba6c5ec3cb52... || B: ...kbox\" id=\"Website with Video-17b9da91-9c08-4e78-94a9-2a3d57091915\" name=\"m_Website with Video\"> <label for=\"Website with Video-17b9da91-9c08-4e78-94a9-2a3d57091915..."
+   },
+   {
+    "path": "resources/page/60/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-d51c24c5-d2a9-459a-b1f6-c951d2a1c3ee\" name=\"m_Website with Video\"> <label for=\"Website with Video-d51c24c5-d2a9-459a-b1f6-c951d2a1c3ee... || B: ...kbox\" id=\"Website with Video-1a80b4bd-e3df-4327-9a56-475f70e13c64\" name=\"m_Website with Video\"> <label for=\"Website with Video-1a80b4bd-e3df-4327-9a56-475f70e13c64..."
+   },
+   {
+    "path": "resources/page/61/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-4a006661-15f0-41c9-be2a-4d051b48abef\" name=\"m_Website with Video\"> <label for=\"Website with Video-4a006661-15f0-41c9-be2a-4d051b48abef... || B: ...kbox\" id=\"Website with Video-6e36751f-e1d7-4e63-aab7-6f23abdca417\" name=\"m_Website with Video\"> <label for=\"Website with Video-6e36751f-e1d7-4e63-aab7-6f23abdca417..."
+   },
+   {
+    "path": "resources/page/62/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-7bf472c7-cdfd-45da-9244-9dea80e3f455\" name=\"m_Website with Video\"> <label for=\"Website with Video-7bf472c7-cdfd-45da-9244-9dea80e3f455... || B: ...kbox\" id=\"Website with Video-934231c5-e115-499b-a47f-117483590b40\" name=\"m_Website with Video\"> <label for=\"Website with Video-934231c5-e115-499b-a47f-117483590b40..."
+   },
+   {
+    "path": "resources/page/63/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-92552161-be62-4ff6-8463-bf299f531fe2\" name=\"m_Website with Video\"> <label for=\"Website with Video-92552161-be62-4ff6-8463-bf299f531fe2... || B: ...kbox\" id=\"Website with Video-0757d88f-4ed5-48a4-806c-f31f8f2a13b0\" name=\"m_Website with Video\"> <label for=\"Website with Video-0757d88f-4ed5-48a4-806c-f31f8f2a13b0..."
+   },
+   {
+    "path": "resources/page/64/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-9cd8eacd-20df-46c3-b1f8-8af6ecce85ef\" name=\"m_Website with Video\"> <label for=\"Website with Video-9cd8eacd-20df-46c3-b1f8-8af6ecce85ef... || B: ...kbox\" id=\"Website with Video-1045c2aa-66bf-4df5-8fbc-750164b41030\" name=\"m_Website with Video\"> <label for=\"Website with Video-1045c2aa-66bf-4df5-8fbc-750164b41030..."
+   },
+   {
+    "path": "resources/page/65/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-f6adc9db-be92-401d-ba1c-506b9528ac97\" name=\"m_Website with Video\"> <label for=\"Website with Video-f6adc9db-be92-401d-ba1c-506b9528ac97... || B: ...kbox\" id=\"Website with Video-5887d2d8-b6b4-4f0d-8805-f0d02abc1dca\" name=\"m_Website with Video\"> <label for=\"Website with Video-5887d2d8-b6b4-4f0d-8805-f0d02abc1dca..."
+   },
+   {
+    "path": "resources/page/66/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-fa88c4a4-4ba5-41bc-927c-821b19b689d1\" name=\"m_Website with Video\"> <label for=\"Website with Video-fa88c4a4-4ba5-41bc-927c-821b19b689d1... || B: ...kbox\" id=\"Website with Video-1bcda101-0766-45ca-bd70-cd1ed10470c7\" name=\"m_Website with Video\"> <label for=\"Website with Video-1bcda101-0766-45ca-bd70-cd1ed10470c7..."
+   },
+   {
+    "path": "resources/page/67/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-2ba76f27-879a-44ea-a0b0-781461f3a880\" name=\"m_Website with Video\"> <label for=\"Website with Video-2ba76f27-879a-44ea-a0b0-781461f3a880... || B: ...kbox\" id=\"Website with Video-8a2ccd1c-4765-49d1-b938-0a98496e8dc1\" name=\"m_Website with Video\"> <label for=\"Website with Video-8a2ccd1c-4765-49d1-b938-0a98496e8dc1..."
+   },
+   {
+    "path": "resources/page/68/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-793521c8-32aa-46fd-b419-f1a0f7890799\" name=\"m_Website with Video\"> <label for=\"Website with Video-793521c8-32aa-46fd-b419-f1a0f7890799... || B: ...kbox\" id=\"Website with Video-747ab3ed-e9b0-4211-9e63-5b34edb696bf\" name=\"m_Website with Video\"> <label for=\"Website with Video-747ab3ed-e9b0-4211-9e63-5b34edb696bf..."
+   },
+   {
+    "path": "resources/page/69/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-dfd4461f-80b4-4f40-83d0-b233b2e5aa81\" name=\"m_Website with Video\"> <label for=\"Website with Video-dfd4461f-80b4-4f40-83d0-b233b2e5aa81... || B: ...kbox\" id=\"Website with Video-8e259396-6837-42bc-9f15-84899bbfd24d\" name=\"m_Website with Video\"> <label for=\"Website with Video-8e259396-6837-42bc-9f15-84899bbfd24d..."
+   },
+   {
+    "path": "resources/page/7/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-eb985bf0-1dfb-4c8c-ac8e-9fbf1fe55480\" name=\"m_Website with Video\"> <label for=\"Website with Video-eb985bf0-1dfb-4c8c-ac8e-9fbf1fe55480... || B: ...kbox\" id=\"Website with Video-d6c5b3be-380f-4623-be9b-c29d9502074f\" name=\"m_Website with Video\"> <label for=\"Website with Video-d6c5b3be-380f-4623-be9b-c29d9502074f..."
+   },
+   {
+    "path": "resources/page/70/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-af431ed2-d7cd-41eb-876f-d2f6c24046ee\" name=\"m_Website with Video\"> <label for=\"Website with Video-af431ed2-d7cd-41eb-876f-d2f6c24046ee... || B: ...kbox\" id=\"Website with Video-390f0f31-918c-4d5b-ac7f-2fd8aed03be9\" name=\"m_Website with Video\"> <label for=\"Website with Video-390f0f31-918c-4d5b-ac7f-2fd8aed03be9..."
+   },
+   {
+    "path": "resources/page/71/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-46b919c7-b024-4c4d-a970-c7988c0c47cf\" name=\"m_Website with Video\"> <label for=\"Website with Video-46b919c7-b024-4c4d-a970-c7988c0c47cf... || B: ...kbox\" id=\"Website with Video-f6f9aeda-2149-4fca-bd26-46ed223c2694\" name=\"m_Website with Video\"> <label for=\"Website with Video-f6f9aeda-2149-4fca-bd26-46ed223c2694..."
+   },
+   {
+    "path": "resources/page/72/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-7ce6ea2e-be35-487c-bc70-a551b4baf1cc\" name=\"m_Website with Video\"> <label for=\"Website with Video-7ce6ea2e-be35-487c-bc70-a551b4baf1cc... || B: ...kbox\" id=\"Website with Video-8745a8d9-3177-4ebd-8554-b5aa47a962b7\" name=\"m_Website with Video\"> <label for=\"Website with Video-8745a8d9-3177-4ebd-8554-b5aa47a962b7..."
+   },
+   {
+    "path": "resources/page/73/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-4ee75dec-6e3c-48b8-8451-6fdcd1e19032\" name=\"m_Website with Video\"> <label for=\"Website with Video-4ee75dec-6e3c-48b8-8451-6fdcd1e19032... || B: ...kbox\" id=\"Website with Video-fc05698f-ca96-443d-91aa-898cf9e560f4\" name=\"m_Website with Video\"> <label for=\"Website with Video-fc05698f-ca96-443d-91aa-898cf9e560f4..."
+   },
+   {
+    "path": "resources/page/74/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-69f80038-70e9-446a-9c87-a30b50b0dbad\" name=\"m_Website with Video\"> <label for=\"Website with Video-69f80038-70e9-446a-9c87-a30b50b0dbad... || B: ...kbox\" id=\"Website with Video-618b2cbb-4c2b-427e-a3d5-a711ba87b4ec\" name=\"m_Website with Video\"> <label for=\"Website with Video-618b2cbb-4c2b-427e-a3d5-a711ba87b4ec..."
+   },
+   {
+    "path": "resources/page/75/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-b476ca7f-4192-472f-87ab-bf90b2aaace7\" name=\"m_Website with Video\"> <label for=\"Website with Video-b476ca7f-4192-472f-87ab-bf90b2aaace7... || B: ...kbox\" id=\"Website with Video-bba7d0e7-30bb-438d-8eb4-32496ec1333b\" name=\"m_Website with Video\"> <label for=\"Website with Video-bba7d0e7-30bb-438d-8eb4-32496ec1333b..."
+   },
+   {
+    "path": "resources/page/76/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-40cb03d0-67ad-40c2-b4a6-55b83b8dd880\" name=\"m_Website with Video\"> <label for=\"Website with Video-40cb03d0-67ad-40c2-b4a6-55b83b8dd880... || B: ...kbox\" id=\"Website with Video-828f79c9-155e-4bcd-8af7-81dbbbf49ae2\" name=\"m_Website with Video\"> <label for=\"Website with Video-828f79c9-155e-4bcd-8af7-81dbbbf49ae2..."
+   },
+   {
+    "path": "resources/page/77/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...ckbox\" id=\"Website with Video-85aff0c3-9e35-4836-82c2-c47eda586531\" name=\"m_Website with Video\"> <label for=\"Website with Video-85aff0c3-9e35-4836-82c2-c47eda58653... || B: ...ckbox\" id=\"Website with Video-42be04eb-8571-4cff-96bc-179f0e9a1a11\" name=\"m_Website with Video\"> <label for=\"Website with Video-42be04eb-8571-4cff-96bc-179f0e9a1a1..."
+   },
+   {
+    "path": "resources/page/78/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-576c82a4-b6a7-4a36-95a2-03446d4c27bc\" name=\"m_Website with Video\"> <label for=\"Website with Video-576c82a4-b6a7-4a36-95a2-03446d4c27bc... || B: ...kbox\" id=\"Website with Video-4c519fa5-7b61-498d-a348-8c49b4868eb2\" name=\"m_Website with Video\"> <label for=\"Website with Video-4c519fa5-7b61-498d-a348-8c49b4868eb2..."
+   },
+   {
+    "path": "resources/page/79/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-ffd47bba-a28e-43a1-a3fa-3d74d2871555\" name=\"m_Website with Video\"> <label for=\"Website with Video-ffd47bba-a28e-43a1-a3fa-3d74d2871555... || B: ...kbox\" id=\"Website with Video-648389ab-55d5-47a9-a0c6-8b741b640093\" name=\"m_Website with Video\"> <label for=\"Website with Video-648389ab-55d5-47a9-a0c6-8b741b640093..."
+   },
+   {
+    "path": "resources/page/8/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-11092fd0-a569-470f-908f-15ca9d1b87fb\" name=\"m_Website with Video\"> <label for=\"Website with Video-11092fd0-a569-470f-908f-15ca9d1b87fb... || B: ...kbox\" id=\"Website with Video-481f6c39-bf8e-45ca-a4a4-943711d2994f\" name=\"m_Website with Video\"> <label for=\"Website with Video-481f6c39-bf8e-45ca-a4a4-943711d2994f..."
+   },
+   {
+    "path": "resources/page/80/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-34f46b05-8170-4378-807a-c1886889e855\" name=\"m_Website with Video\"> <label for=\"Website with Video-34f46b05-8170-4378-807a-c1886889e855... || B: ...kbox\" id=\"Website with Video-d66683e0-3e7c-4d75-85c0-1d95e207326b\" name=\"m_Website with Video\"> <label for=\"Website with Video-d66683e0-3e7c-4d75-85c0-1d95e207326b..."
+   },
+   {
+    "path": "resources/page/81/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-5259bef9-1d7f-4b9d-a464-dd0d67125cc8\" name=\"m_Website with Video\"> <label for=\"Website with Video-5259bef9-1d7f-4b9d-a464-dd0d67125cc8... || B: ...kbox\" id=\"Website with Video-1045eb4a-3a07-4b9d-ae66-c0acce925e74\" name=\"m_Website with Video\"> <label for=\"Website with Video-1045eb4a-3a07-4b9d-ae66-c0acce925e74..."
+   },
+   {
+    "path": "resources/page/82/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-af59a0ff-a9d2-41bd-b02c-8fa88915285c\" name=\"m_Website with Video\"> <label for=\"Website with Video-af59a0ff-a9d2-41bd-b02c-8fa88915285c... || B: ...kbox\" id=\"Website with Video-bf22fbf1-fb2c-4f2b-91cf-bd15cc2e87fe\" name=\"m_Website with Video\"> <label for=\"Website with Video-bf22fbf1-fb2c-4f2b-91cf-bd15cc2e87fe..."
+   },
+   {
+    "path": "resources/page/83/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-cb1f3c8e-9409-406f-9d76-23d595706921\" name=\"m_Website with Video\"> <label for=\"Website with Video-cb1f3c8e-9409-406f-9d76-23d595706921... || B: ...kbox\" id=\"Website with Video-c914d7d9-a309-405e-a49c-3514c642d2c2\" name=\"m_Website with Video\"> <label for=\"Website with Video-c914d7d9-a309-405e-a49c-3514c642d2c2..."
+   },
+   {
+    "path": "resources/page/84/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-b4a22e69-fad1-434e-9f56-99874a930209\" name=\"m_Website with Video\"> <label for=\"Website with Video-b4a22e69-fad1-434e-9f56-99874a930209... || B: ...kbox\" id=\"Website with Video-c65c3b16-ad2a-40f7-a166-f070e7240711\" name=\"m_Website with Video\"> <label for=\"Website with Video-c65c3b16-ad2a-40f7-a166-f070e7240711..."
+   },
+   {
+    "path": "resources/page/85/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-2a67407b-8de5-4d15-b432-4c81b8c3c95c\" name=\"m_Website with Video\"> <label for=\"Website with Video-2a67407b-8de5-4d15-b432-4c81b8c3c95c... || B: ...kbox\" id=\"Website with Video-e29d9dd0-1af2-4a7e-9bb2-544cc0ca8da6\" name=\"m_Website with Video\"> <label for=\"Website with Video-e29d9dd0-1af2-4a7e-9bb2-544cc0ca8da6..."
+   },
+   {
+    "path": "resources/page/86/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-ab214308-9bad-4df1-b799-93e5b4ea98b8\" name=\"m_Website with Video\"> <label for=\"Website with Video-ab214308-9bad-4df1-b799-93e5b4ea98b8... || B: ...kbox\" id=\"Website with Video-9f113151-dfa0-477c-8880-a63e4b8cc7d2\" name=\"m_Website with Video\"> <label for=\"Website with Video-9f113151-dfa0-477c-8880-a63e4b8cc7d2..."
+   },
+   {
+    "path": "resources/page/87/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-444facde-9316-4e48-a7c1-ebbfcdbf38a7\" name=\"m_Website with Video\"> <label for=\"Website with Video-444facde-9316-4e48-a7c1-ebbfcdbf38a7... || B: ...kbox\" id=\"Website with Video-67554f28-2405-42a8-b00e-6729ca128702\" name=\"m_Website with Video\"> <label for=\"Website with Video-67554f28-2405-42a8-b00e-6729ca128702..."
+   },
+   {
+    "path": "resources/page/88/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-73006564-ba14-481a-b826-65eaf326d852\" name=\"m_Website with Video\"> <label for=\"Website with Video-73006564-ba14-481a-b826-65eaf326d852... || B: ...kbox\" id=\"Website with Video-028488d3-ba27-48fa-97a4-03f474f1a136\" name=\"m_Website with Video\"> <label for=\"Website with Video-028488d3-ba27-48fa-97a4-03f474f1a136..."
+   },
+   {
+    "path": "resources/page/89/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-a0906c04-4ea0-44b7-9b34-59b781bd2156\" name=\"m_Website with Video\"> <label for=\"Website with Video-a0906c04-4ea0-44b7-9b34-59b781bd2156... || B: ...kbox\" id=\"Website with Video-805feebe-a7f7-40d5-aefa-8369b88539cd\" name=\"m_Website with Video\"> <label for=\"Website with Video-805feebe-a7f7-40d5-aefa-8369b88539cd..."
+   },
+   {
+    "path": "resources/page/9/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-d8b60522-cef5-4a94-a084-995c16293bb4\" name=\"m_Website with Video\"> <label for=\"Website with Video-d8b60522-cef5-4a94-a084-995c16293bb4... || B: ...kbox\" id=\"Website with Video-bd6551f2-9bf2-40af-a0a4-0e4acfa675d9\" name=\"m_Website with Video\"> <label for=\"Website with Video-bd6551f2-9bf2-40af-a0a4-0e4acfa675d9..."
+   },
+   {
+    "path": "resources/page/90/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-02aa0746-5afb-4af6-9887-9e86c3e7a6c9\" name=\"m_Website with Video\"> <label for=\"Website with Video-02aa0746-5afb-4af6-9887-9e86c3e7a6c9... || B: ...kbox\" id=\"Website with Video-10ed4f17-3c3c-4cee-aa36-c640500b52ea\" name=\"m_Website with Video\"> <label for=\"Website with Video-10ed4f17-3c3c-4cee-aa36-c640500b52ea..."
+   },
+   {
+    "path": "resources/page/91/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-494e178a-5c5d-4937-86bd-e1a9df961a8c\" name=\"m_Website with Video\"> <label for=\"Website with Video-494e178a-5c5d-4937-86bd-e1a9df961a8c... || B: ...kbox\" id=\"Website with Video-dab761bf-5b88-426e-b9d2-59decfda2fa3\" name=\"m_Website with Video\"> <label for=\"Website with Video-dab761bf-5b88-426e-b9d2-59decfda2fa3..."
+   },
+   {
+    "path": "resources/page/92/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-b72a47dc-74e6-4efc-aaf0-47df599c5431\" name=\"m_Website with Video\"> <label for=\"Website with Video-b72a47dc-74e6-4efc-aaf0-47df599c5431... || B: ...kbox\" id=\"Website with Video-2aeddddd-a2ca-4649-a095-f2183c189f39\" name=\"m_Website with Video\"> <label for=\"Website with Video-2aeddddd-a2ca-4649-a095-f2183c189f39..."
+   },
+   {
+    "path": "resources/page/93/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-b071fe09-4bb2-4c7e-b861-06aba40fb58a\" name=\"m_Website with Video\"> <label for=\"Website with Video-b071fe09-4bb2-4c7e-b861-06aba40fb58a... || B: ...kbox\" id=\"Website with Video-b0864801-8917-4fc4-8e05-fa9e1dd60cb2\" name=\"m_Website with Video\"> <label for=\"Website with Video-b0864801-8917-4fc4-8e05-fa9e1dd60cb2..."
+   },
+   {
+    "path": "resources/page/94/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-35f4df51-c85c-4ae1-a3f4-1aeec4258574\" name=\"m_Website with Video\"> <label for=\"Website with Video-35f4df51-c85c-4ae1-a3f4-1aeec4258574... || B: ...kbox\" id=\"Website with Video-0001f68e-c231-4cb1-870f-ff46354c534e\" name=\"m_Website with Video\"> <label for=\"Website with Video-0001f68e-c231-4cb1-870f-ff46354c534e..."
+   },
+   {
+    "path": "resources/page/95/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-723a99e8-6b17-438c-8308-b9c940c3c282\" name=\"m_Website with Video\"> <label for=\"Website with Video-723a99e8-6b17-438c-8308-b9c940c3c282... || B: ...kbox\" id=\"Website with Video-9e322f20-73b0-431a-827f-f01bca0822ec\" name=\"m_Website with Video\"> <label for=\"Website with Video-9e322f20-73b0-431a-827f-f01bca0822ec..."
+   },
+   {
+    "path": "resources/page/96/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-044e8d79-2cf6-4afc-a304-bfbce35a5025\" name=\"m_Website with Video\"> <label for=\"Website with Video-044e8d79-2cf6-4afc-a304-bfbce35a5025... || B: ...kbox\" id=\"Website with Video-c1c96269-6f65-4342-8f7c-c5d39153475b\" name=\"m_Website with Video\"> <label for=\"Website with Video-c1c96269-6f65-4342-8f7c-c5d39153475b..."
+   },
+   {
+    "path": "resources/page/97/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-0e306b12-4e6a-4b4d-8af0-5710b79780d5\" name=\"m_Website with Video\"> <label for=\"Website with Video-0e306b12-4e6a-4b4d-8af0-5710b79780d5... || B: ...kbox\" id=\"Website with Video-d95b6e30-e19c-4e94-a4c4-a4edce836d5a\" name=\"m_Website with Video\"> <label for=\"Website with Video-d95b6e30-e19c-4e94-a4c4-a4edce836d5a..."
+   },
+   {
+    "path": "resources/page/98/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-48ccc1aa-3a63-4c9d-8ce9-ac21d0d2dacf\" name=\"m_Website with Video\"> <label for=\"Website with Video-48ccc1aa-3a63-4c9d-8ce9-ac21d0d2dacf... || B: ...kbox\" id=\"Website with Video-621df868-3ab1-4e58-b669-d119e4809683\" name=\"m_Website with Video\"> <label for=\"Website with Video-621df868-3ab1-4e58-b669-d119e4809683..."
+   },
+   {
+    "path": "resources/page/99/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-b2c9c5a5-0696-4630-922f-b58e8c530525\" name=\"m_Website with Video\"> <label for=\"Website with Video-b2c9c5a5-0696-4630-922f-b58e8c530525... || B: ...kbox\" id=\"Website with Video-7e31f24b-a7a1-4ce5-ab5a-025ad7a42d76\" name=\"m_Website with Video\"> <label for=\"Website with Video-7e31f24b-a7a1-4ce5-ab5a-025ad7a42d76..."
+   },
+   {
+    "path": "tags/accessibility/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...lass=\"preview-content\">IDRC partnered with Carleton University's Accessibility Institute on the Informing Standards for Acoustics and the Built Environment project... || B: ...sible tutorials, resources and tools create barriers. To support a more inclusive environment in the field of data science, We Count has created a resource library..."
+   },
+   {
+    "path": "tags/accessibility/page/1/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...lass=\"preview-content\">IDRC partnered with Carleton University's Accessibility Institute on the Informing Standards for Acoustics and the Built Environment project... || B: ...sible tutorials, resources and tools create barriers. To support a more inclusive environment in the field of data science, We Count has created a resource library..."
+   },
+   {
+    "path": "tags/ai/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...v class=\"preview-content\">An overview of key findings from the Postsecondary Education portion of the environmental scan conducted by the We Count team in May 2020... || B: ...of automated processes, that use machine learning/AI algorithms, and support the infrastructure of society. These systems inevitably result in inequitable outcomes..."
+   },
+   {
+    "path": "tags/ai/page/1/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...v class=\"preview-content\">An overview of key findings from the Postsecondary Education portion of the environmental scan conducted by the We Count team in May 2020... || B: ...of automated processes, that use machine learning/AI algorithms, and support the infrastructure of society. These systems inevitably result in inequitable outcomes..."
+   },
+   {
+    "path": "tags/ai/page/2/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ... to address bias, discrimination and barriers to participation and employment for persons with disabilities within the field of data science and data-driven system... || B: ...y project formed a study group to understand and examine intersecting topics of AI, automation, standards and employment as they relate to persons with disabilitie..."
+   },
+   {
+    "path": "tags/disability/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...e Equitable Digital Systems (EDS) project. EDS is a project that explores how to make digital systems more inclusive for persons with disabilities in the workplace... || B: ...ssibilit\u00e9 soit guid\u00e9 par les personnes en situation d\u2019handicap\u00e9es. Ensemble, nous pouvons rendre le Canada et le monde plus accessibles et plus inclusifs pour tous..."
+   },
+   {
+    "path": "tags/disability/page/1/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...e Equitable Digital Systems (EDS) project. EDS is a project that explores how to make digital systems more inclusive for persons with disabilities in the workplace... || B: ...ssibilit\u00e9 soit guid\u00e9 par les personnes en situation d\u2019handicap\u00e9es. Ensemble, nous pouvons rendre le Canada et le monde plus accessibles et plus inclusifs pour tous..."
+   },
+   {
+    "path": "tags/disability/page/2/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...lass=\"preview-content\">IDRC partnered with Carleton University's Accessibility Institute on the Informing Standards for Acoustics and the Built Environment project... || B: ...e></div><div class=\"preview-content\">Dr. Jutta Treviranus collaborated in the District 3 panel \u201cHow Virtual Care Is Revolutionizing Digital Health\u201d in October 2020..."
+   },
+   {
+    "path": "tags/disability/page/3/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ... to address bias, discrimination and barriers to participation and employment for persons with disabilities within the field of data science and data-driven system... || B: ...y project formed a study group to understand and examine intersecting topics of AI, automation, standards and employment as they relate to persons with disabilitie..."
+   },
+   {
+    "path": "tags/employment/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "timestamp",
+    "quote": "A: ...020-12-17T18:33:18.000Z\" class=\"dt-published\">December 17, 2020</time></div><div class=\"preview-content\">An overview of key findings from the Data Service Provider... || B: ...me datetime=\"2020-12-17T18:33:24.000Z\" class=\"dt-published\">December 17, 2020</time></div><div class=\"preview-content\">An overview of key findings from the AI Firm..."
+   },
+   {
+    "path": "tags/employment/page/1/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "timestamp",
+    "quote": "A: ...020-12-17T18:33:18.000Z\" class=\"dt-published\">December 17, 2020</time></div><div class=\"preview-content\">An overview of key findings from the Data Service Provider... || B: ...me datetime=\"2020-12-17T18:33:24.000Z\" class=\"dt-published\">December 17, 2020</time></div><div class=\"preview-content\">An overview of key findings from the AI Firm..."
+   },
+   {
+    "path": "tags/rtdd/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...tify areas and ways to improve inclusion of people with disabilities to integrate the insights of Canadians with disabilities into the standards development proces... || B: ... co-researchers with lived experience of disability to address all six project challenges. The research approach used online synchronous and asynchronous activitie..."
+   },
+   {
+    "path": "tags/rtdd/page/1/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...tify areas and ways to improve inclusion of people with disabilities to integrate the insights of Canadians with disabilities into the standards development proces... || B: ... co-researchers with lived experience of disability to address all six project challenges. The research approach used online synchronous and asynchronous activitie..."
+   },
+   {
+    "path": "tags/we-count/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...v class=\"preview-content\">An overview of key findings from the Postsecondary Education portion of the environmental scan conducted by the We Count team in May 2020... || B: ...lass=\"preview-content\">Our development team has been hard at work creating a word cloud tool that will allow users to highlight either minority or majority answers..."
+   },
+   {
+    "path": "tags/we-count/page/1/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...v class=\"preview-content\">An overview of key findings from the Postsecondary Education portion of the environmental scan conducted by the We Count team in May 2020... || B: ...lass=\"preview-content\">Our development team has been hard at work creating a word cloud tool that will allow users to highlight either minority or majority answers..."
+   },
+   {
+    "path": "initiatives/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...ass=\"filter-checkbox\" type=\"checkbox\" id=\"we-count-43d1efc6-92e2-4b64-8921-3cac484ce174\" name=\"we-count\"> <label for=\"we-count-43d1efc6-92e2-4b64-8921-3cac484ce174... || B: ...ass=\"filter-checkbox\" type=\"checkbox\" id=\"we-count-3bdc9fc5-4850-4622-8831-cf205de3a4a5\" name=\"we-count\"> <label for=\"we-count-3bdc9fc5-4850-4622-8831-cf205de3a4a5..."
+   },
+   {
+    "path": "initiatives/page/2/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...ass=\"filter-checkbox\" type=\"checkbox\" id=\"we-count-84712984-6504-41a6-aa4e-4524ae778a63\" name=\"we-count\"> <label for=\"we-count-84712984-6504-41a6-aa4e-4524ae778a63... || B: ...ass=\"filter-checkbox\" type=\"checkbox\" id=\"we-count-dd661d3c-a24a-41cd-b883-208bd0b47b4c\" name=\"we-count\"> <label for=\"we-count-dd661d3c-a24a-41cd-b883-208bd0b47b4c..."
+   },
+   {
+    "path": "initiatives/page/3/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...ass=\"filter-checkbox\" type=\"checkbox\" id=\"we-count-eb8717ff-4966-4675-9a2b-70109fad517c\" name=\"we-count\"> <label for=\"we-count-eb8717ff-4966-4675-9a2b-70109fad517c... || B: ...ass=\"filter-checkbox\" type=\"checkbox\" id=\"we-count-359908a8-faba-4cc1-9594-7c8e5f974dae\" name=\"we-count\"> <label for=\"we-count-359908a8-faba-4cc1-9594-7c8e5f974dae..."
+   },
+   {
+    "path": "initiatives/page/4/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...ass=\"filter-checkbox\" type=\"checkbox\" id=\"we-count-21c75a59-c08a-45ce-9a9c-8a9a8f47369d\" name=\"we-count\"> <label for=\"we-count-21c75a59-c08a-45ce-9a9c-8a9a8f47369d... || B: ...ass=\"filter-checkbox\" type=\"checkbox\" id=\"we-count-c2ebc403-8c64-41f0-8ebc-c83801da76a9\" name=\"we-count\"> <label for=\"we-count-c2ebc403-8c64-41f0-8ebc-c83801da76a9..."
+   },
+   {
+    "path": "resources/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-ab2953e5-e45d-4c65-b7bd-8b75ae44ad5c\" name=\"m_Website with Video\"> <label for=\"Website with Video-ab2953e5-e45d-4c65-b7bd-8b75ae44ad5c... || B: ...kbox\" id=\"Website with Video-eacfae86-e09a-4672-b33e-94a42d887145\" name=\"m_Website with Video\"> <label for=\"Website with Video-eacfae86-e09a-4672-b33e-94a42d887145..."
+   },
+   {
+    "path": "resources/page/10/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-27583b5a-0d27-44c5-ba5a-dcd706c57962\" name=\"m_Website with Video\"> <label for=\"Website with Video-27583b5a-0d27-44c5-ba5a-dcd706c57962... || B: ...kbox\" id=\"Website with Video-78c91c0e-ce89-4bd9-b993-df6c47c8cad9\" name=\"m_Website with Video\"> <label for=\"Website with Video-78c91c0e-ce89-4bd9-b993-df6c47c8cad9..."
+   },
+   {
+    "path": "resources/page/100/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-a8b73098-8794-46b9-bfc9-94fc1eff4917\" name=\"m_Website with Video\"> <label for=\"Website with Video-a8b73098-8794-46b9-bfc9-94fc1eff4917... || B: ...kbox\" id=\"Website with Video-0f3b4d91-b7b4-4e40-b2ff-dca3f590b30d\" name=\"m_Website with Video\"> <label for=\"Website with Video-0f3b4d91-b7b4-4e40-b2ff-dca3f590b30d..."
+   },
+   {
+    "path": "resources/page/101/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-f21b520f-b2f4-428c-a950-4979b6a5149d\" name=\"m_Website with Video\"> <label for=\"Website with Video-f21b520f-b2f4-428c-a950-4979b6a5149d... || B: ...kbox\" id=\"Website with Video-b458f979-e394-4b11-88a0-7d9f2147c9c4\" name=\"m_Website with Video\"> <label for=\"Website with Video-b458f979-e394-4b11-88a0-7d9f2147c9c4..."
+   },
+   {
+    "path": "resources/page/102/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-77d2d563-a0de-4f6e-887b-fc91411c5fb7\" name=\"m_Website with Video\"> <label for=\"Website with Video-77d2d563-a0de-4f6e-887b-fc91411c5fb7... || B: ...kbox\" id=\"Website with Video-92440206-6ea1-4e00-a5ab-de5f39c405f4\" name=\"m_Website with Video\"> <label for=\"Website with Video-92440206-6ea1-4e00-a5ab-de5f39c405f4..."
+   },
+   {
+    "path": "resources/page/103/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-7b57c553-cf50-411c-86b0-0e5c1def6447\" name=\"m_Website with Video\"> <label for=\"Website with Video-7b57c553-cf50-411c-86b0-0e5c1def6447... || B: ...kbox\" id=\"Website with Video-d5bf6af1-f88d-4246-9877-cf5d8a7c18c5\" name=\"m_Website with Video\"> <label for=\"Website with Video-d5bf6af1-f88d-4246-9877-cf5d8a7c18c5..."
+   },
+   {
+    "path": "resources/page/104/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-c79f52e8-2253-4c2c-bae4-1a53f86f7dce\" name=\"m_Website with Video\"> <label for=\"Website with Video-c79f52e8-2253-4c2c-bae4-1a53f86f7dce... || B: ...kbox\" id=\"Website with Video-0c2a9e5a-a701-4a82-8b41-dee98ffe5016\" name=\"m_Website with Video\"> <label for=\"Website with Video-0c2a9e5a-a701-4a82-8b41-dee98ffe5016..."
+   },
+   {
+    "path": "resources/page/105/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-01f86e46-5584-4a62-bd99-62aa90b9c662\" name=\"m_Website with Video\"> <label for=\"Website with Video-01f86e46-5584-4a62-bd99-62aa90b9c662... || B: ...kbox\" id=\"Website with Video-379cc06e-5c4b-40d0-be78-23c51ae0964e\" name=\"m_Website with Video\"> <label for=\"Website with Video-379cc06e-5c4b-40d0-be78-23c51ae0964e..."
+   },
+   {
+    "path": "resources/page/106/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-b5b726be-dacc-4480-b48f-1ba84eff8dab\" name=\"m_Website with Video\"> <label for=\"Website with Video-b5b726be-dacc-4480-b48f-1ba84eff8dab... || B: ...kbox\" id=\"Website with Video-aee2baea-6eb3-4a2b-bee2-d8ec114978e4\" name=\"m_Website with Video\"> <label for=\"Website with Video-aee2baea-6eb3-4a2b-bee2-d8ec114978e4..."
+   },
+   {
+    "path": "resources/page/107/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-f1de974d-af52-4954-8bec-b42655c3967d\" name=\"m_Website with Video\"> <label for=\"Website with Video-f1de974d-af52-4954-8bec-b42655c3967d... || B: ...kbox\" id=\"Website with Video-5f375bc2-70a9-4eec-8e33-b0382e204c7e\" name=\"m_Website with Video\"> <label for=\"Website with Video-5f375bc2-70a9-4eec-8e33-b0382e204c7e..."
+   },
+   {
+    "path": "resources/page/108/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-db2d7b17-d66f-4a87-9318-82d9367c6895\" name=\"m_Website with Video\"> <label for=\"Website with Video-db2d7b17-d66f-4a87-9318-82d9367c6895... || B: ...kbox\" id=\"Website with Video-f5c69290-6922-4689-9e00-87c82424c6b0\" name=\"m_Website with Video\"> <label for=\"Website with Video-f5c69290-6922-4689-9e00-87c82424c6b0..."
+   },
+   {
+    "path": "resources/page/109/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-0d8afb95-95d0-429f-b264-e2f26b176ddd\" name=\"m_Website with Video\"> <label for=\"Website with Video-0d8afb95-95d0-429f-b264-e2f26b176ddd... || B: ...kbox\" id=\"Website with Video-dabcbf23-0213-41c5-bf3d-536f6f4f4c4a\" name=\"m_Website with Video\"> <label for=\"Website with Video-dabcbf23-0213-41c5-bf3d-536f6f4f4c4a..."
+   },
+   {
+    "path": "resources/page/11/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...ckbox\" id=\"Website with Video-4a56933a-5a80-4896-bdb4-7798c3f2d512\" name=\"m_Website with Video\"> <label for=\"Website with Video-4a56933a-5a80-4896-bdb4-7798c3f2d51... || B: ...ckbox\" id=\"Website with Video-c2967ce5-2485-4884-994d-6025f47fa362\" name=\"m_Website with Video\"> <label for=\"Website with Video-c2967ce5-2485-4884-994d-6025f47fa36..."
+   },
+   {
+    "path": "resources/page/110/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...ckbox\" id=\"Website with Video-29c7f2e8-0e6a-471a-bf81-ca309af7a545\" name=\"m_Website with Video\"> <label for=\"Website with Video-29c7f2e8-0e6a-471a-bf81-ca309af7a54... || B: ...ckbox\" id=\"Website with Video-293e0c0a-e562-4fae-9183-941d45523ad5\" name=\"m_Website with Video\"> <label for=\"Website with Video-293e0c0a-e562-4fae-9183-941d45523ad..."
+   },
+   {
+    "path": "resources/page/111/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...ckbox\" id=\"Website with Video-570b41a6-5416-4635-85ef-460f2e374a07\" name=\"m_Website with Video\"> <label for=\"Website with Video-570b41a6-5416-4635-85ef-460f2e374a0... || B: ...ckbox\" id=\"Website with Video-f45f99b3-28b0-4390-81aa-f1dcaf3778d7\" name=\"m_Website with Video\"> <label for=\"Website with Video-f45f99b3-28b0-4390-81aa-f1dcaf3778d..."
+   },
+   {
+    "path": "resources/page/112/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-b53ac656-382f-4e33-a85c-e3483e6cef4f\" name=\"m_Website with Video\"> <label for=\"Website with Video-b53ac656-382f-4e33-a85c-e3483e6cef4f... || B: ...kbox\" id=\"Website with Video-b2efdd1b-dc30-423d-bce7-7bb96b6df740\" name=\"m_Website with Video\"> <label for=\"Website with Video-b2efdd1b-dc30-423d-bce7-7bb96b6df740..."
+   },
+   {
+    "path": "resources/page/113/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-61fce44e-972b-43d9-94f2-5728781bbe95\" name=\"m_Website with Video\"> <label for=\"Website with Video-61fce44e-972b-43d9-94f2-5728781bbe95... || B: ...kbox\" id=\"Website with Video-11b64c30-e35f-4474-b305-a403952774f1\" name=\"m_Website with Video\"> <label for=\"Website with Video-11b64c30-e35f-4474-b305-a403952774f1..."
+   },
+   {
+    "path": "resources/page/114/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-6839722a-dc93-40ad-b5bf-41646d195df7\" name=\"m_Website with Video\"> <label for=\"Website with Video-6839722a-dc93-40ad-b5bf-41646d195df7... || B: ...kbox\" id=\"Website with Video-b84ed0d8-7a92-4d5c-a9e2-f9e9cd3de26d\" name=\"m_Website with Video\"> <label for=\"Website with Video-b84ed0d8-7a92-4d5c-a9e2-f9e9cd3de26d..."
+   },
+   {
+    "path": "resources/page/115/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-699a3782-f91d-4231-b449-6ddf86df41f2\" name=\"m_Website with Video\"> <label for=\"Website with Video-699a3782-f91d-4231-b449-6ddf86df41f2... || B: ...kbox\" id=\"Website with Video-ec4801e9-520f-4b52-9163-ca17a8f8f0fe\" name=\"m_Website with Video\"> <label for=\"Website with Video-ec4801e9-520f-4b52-9163-ca17a8f8f0fe..."
+   },
+   {
+    "path": "resources/page/116/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-e361fd00-575e-451c-9a5e-c063806f3c92\" name=\"m_Website with Video\"> <label for=\"Website with Video-e361fd00-575e-451c-9a5e-c063806f3c92... || B: ...kbox\" id=\"Website with Video-41266b8f-5056-47b3-882c-efb3f445b966\" name=\"m_Website with Video\"> <label for=\"Website with Video-41266b8f-5056-47b3-882c-efb3f445b966..."
+   },
+   {
+    "path": "resources/page/117/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-d5f34d85-3639-440f-a086-46d3a87a7b66\" name=\"m_Website with Video\"> <label for=\"Website with Video-d5f34d85-3639-440f-a086-46d3a87a7b66... || B: ...kbox\" id=\"Website with Video-02ece56e-ef11-4d87-add3-37ec1967a401\" name=\"m_Website with Video\"> <label for=\"Website with Video-02ece56e-ef11-4d87-add3-37ec1967a401..."
+   },
+   {
+    "path": "resources/page/118/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-537fc64a-9fc0-4d2b-b2eb-837519eaa23c\" name=\"m_Website with Video\"> <label for=\"Website with Video-537fc64a-9fc0-4d2b-b2eb-837519eaa23c... || B: ...kbox\" id=\"Website with Video-3aba7529-fbfc-4194-b4c2-df7253af4dd9\" name=\"m_Website with Video\"> <label for=\"Website with Video-3aba7529-fbfc-4194-b4c2-df7253af4dd9..."
+   },
+   {
+    "path": "resources/page/119/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-3d72c5df-6812-4b75-bde5-a789d662e6a2\" name=\"m_Website with Video\"> <label for=\"Website with Video-3d72c5df-6812-4b75-bde5-a789d662e6a2... || B: ...kbox\" id=\"Website with Video-b18e12dc-95b9-4876-8c3a-438ae0e22e80\" name=\"m_Website with Video\"> <label for=\"Website with Video-b18e12dc-95b9-4876-8c3a-438ae0e22e80..."
+   },
+   {
+    "path": "resources/page/12/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-e144cca5-5de2-4103-bd2f-981751b2d36a\" name=\"m_Website with Video\"> <label for=\"Website with Video-e144cca5-5de2-4103-bd2f-981751b2d36a... || B: ...kbox\" id=\"Website with Video-85432fa4-e178-4247-9155-72e73aeff719\" name=\"m_Website with Video\"> <label for=\"Website with Video-85432fa4-e178-4247-9155-72e73aeff719..."
+   },
+   {
+    "path": "resources/page/120/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-8410417f-0f77-412d-9270-dbf29aa03f38\" name=\"m_Website with Video\"> <label for=\"Website with Video-8410417f-0f77-412d-9270-dbf29aa03f38... || B: ...kbox\" id=\"Website with Video-63ab0035-1279-44fc-b9f6-f11850bb45ba\" name=\"m_Website with Video\"> <label for=\"Website with Video-63ab0035-1279-44fc-b9f6-f11850bb45ba..."
+   },
+   {
+    "path": "resources/page/121/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-22796b8e-8fca-4654-b691-c94f42d5c088\" name=\"m_Website with Video\"> <label for=\"Website with Video-22796b8e-8fca-4654-b691-c94f42d5c088... || B: ...kbox\" id=\"Website with Video-e18a13bb-d767-4060-8052-c6c96e078c06\" name=\"m_Website with Video\"> <label for=\"Website with Video-e18a13bb-d767-4060-8052-c6c96e078c06..."
+   },
+   {
+    "path": "resources/page/122/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...ckbox\" id=\"Website with Video-210cceff-3f24-4776-bcfe-c0a65b3a4e5f\" name=\"m_Website with Video\"> <label for=\"Website with Video-210cceff-3f24-4776-bcfe-c0a65b3a4e5... || B: ...ckbox\" id=\"Website with Video-37c6e3f3-b9cf-4dd2-aa59-c3d6c66eb13f\" name=\"m_Website with Video\"> <label for=\"Website with Video-37c6e3f3-b9cf-4dd2-aa59-c3d6c66eb13..."
+   },
+   {
+    "path": "resources/page/123/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-477ddee1-158d-408c-9120-e6507a182ab1\" name=\"m_Website with Video\"> <label for=\"Website with Video-477ddee1-158d-408c-9120-e6507a182ab1... || B: ...kbox\" id=\"Website with Video-79c01f63-37fc-4ddd-86cd-0554dbc430ff\" name=\"m_Website with Video\"> <label for=\"Website with Video-79c01f63-37fc-4ddd-86cd-0554dbc430ff..."
+   },
+   {
+    "path": "resources/page/124/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-7485f905-95b0-4415-93f6-349b3691af89\" name=\"m_Website with Video\"> <label for=\"Website with Video-7485f905-95b0-4415-93f6-349b3691af89... || B: ...kbox\" id=\"Website with Video-59ed9a4d-e4b0-4d9a-84f2-0d899976191a\" name=\"m_Website with Video\"> <label for=\"Website with Video-59ed9a4d-e4b0-4d9a-84f2-0d899976191a..."
+   },
+   {
+    "path": "resources/page/125/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-8149ab16-899f-44ad-ac6d-fd3da4f3b2b3\" name=\"m_Website with Video\"> <label for=\"Website with Video-8149ab16-899f-44ad-ac6d-fd3da4f3b2b3... || B: ...kbox\" id=\"Website with Video-ac37757b-a3bf-468a-a17f-5bdcc8c90105\" name=\"m_Website with Video\"> <label for=\"Website with Video-ac37757b-a3bf-468a-a17f-5bdcc8c90105..."
+   },
+   {
+    "path": "resources/page/126/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-1c6b8ca1-ffea-4b80-a4f5-6b03ecb84ded\" name=\"m_Website with Video\"> <label for=\"Website with Video-1c6b8ca1-ffea-4b80-a4f5-6b03ecb84ded... || B: ...kbox\" id=\"Website with Video-bf2a9360-fadd-4ce9-b558-7e0036c1089c\" name=\"m_Website with Video\"> <label for=\"Website with Video-bf2a9360-fadd-4ce9-b558-7e0036c1089c..."
+   },
+   {
+    "path": "resources/page/127/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-164d7c40-7e18-4ff4-91f8-1f3b50bb6306\" name=\"m_Website with Video\"> <label for=\"Website with Video-164d7c40-7e18-4ff4-91f8-1f3b50bb6306... || B: ...kbox\" id=\"Website with Video-f6450f72-738f-4321-b098-2690b0c2abc3\" name=\"m_Website with Video\"> <label for=\"Website with Video-f6450f72-738f-4321-b098-2690b0c2abc3..."
+   },
+   {
+    "path": "resources/page/128/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-b4686da5-20bb-411d-8049-9454f8adfc48\" name=\"m_Website with Video\"> <label for=\"Website with Video-b4686da5-20bb-411d-8049-9454f8adfc48... || B: ...kbox\" id=\"Website with Video-4dbda54b-ccd2-4f95-88a9-cbd1040ec8dd\" name=\"m_Website with Video\"> <label for=\"Website with Video-4dbda54b-ccd2-4f95-88a9-cbd1040ec8dd..."
+   },
+   {
+    "path": "resources/page/129/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-1a932266-1fc1-4702-b847-50e4b030f074\" name=\"m_Website with Video\"> <label for=\"Website with Video-1a932266-1fc1-4702-b847-50e4b030f074... || B: ...kbox\" id=\"Website with Video-a2834a5f-bec3-4098-9616-17bba0d9840a\" name=\"m_Website with Video\"> <label for=\"Website with Video-a2834a5f-bec3-4098-9616-17bba0d9840a..."
+   },
+   {
+    "path": "resources/page/13/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-72856774-fafa-4df7-a259-f23e26ba9278\" name=\"m_Website with Video\"> <label for=\"Website with Video-72856774-fafa-4df7-a259-f23e26ba9278... || B: ...kbox\" id=\"Website with Video-f6972f9a-d389-4849-8727-2716a75384b1\" name=\"m_Website with Video\"> <label for=\"Website with Video-f6972f9a-d389-4849-8727-2716a75384b1..."
+   },
+   {
+    "path": "resources/page/130/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-1026643b-2563-4ef8-a750-dc26e7d0b34d\" name=\"m_Website with Video\"> <label for=\"Website with Video-1026643b-2563-4ef8-a750-dc26e7d0b34d... || B: ...kbox\" id=\"Website with Video-b4e9bdcc-d3ad-4bcb-8693-f779895b88b1\" name=\"m_Website with Video\"> <label for=\"Website with Video-b4e9bdcc-d3ad-4bcb-8693-f779895b88b1..."
+   },
+   {
+    "path": "resources/page/131/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...ckbox\" id=\"Website with Video-3453edad-70df-4318-bb4e-03f241d194a8\" name=\"m_Website with Video\"> <label for=\"Website with Video-3453edad-70df-4318-bb4e-03f241d194a... || B: ...ckbox\" id=\"Website with Video-148d8f19-1731-4037-80d7-e1f6573304f8\" name=\"m_Website with Video\"> <label for=\"Website with Video-148d8f19-1731-4037-80d7-e1f6573304f..."
+   },
+   {
+    "path": "resources/page/132/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-f1a98d2e-c84b-46ce-9bf8-5a5fdb3ebb20\" name=\"m_Website with Video\"> <label for=\"Website with Video-f1a98d2e-c84b-46ce-9bf8-5a5fdb3ebb20... || B: ...kbox\" id=\"Website with Video-fc3795a2-358d-485b-88ba-8a9a69589393\" name=\"m_Website with Video\"> <label for=\"Website with Video-fc3795a2-358d-485b-88ba-8a9a69589393..."
+   },
+   {
+    "path": "resources/page/133/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-3a3e15f3-69bb-491c-b72f-7476f94027df\" name=\"m_Website with Video\"> <label for=\"Website with Video-3a3e15f3-69bb-491c-b72f-7476f94027df... || B: ...kbox\" id=\"Website with Video-3562a755-34b3-40d1-9aeb-2fc00999e3b5\" name=\"m_Website with Video\"> <label for=\"Website with Video-3562a755-34b3-40d1-9aeb-2fc00999e3b5..."
+   },
+   {
+    "path": "resources/page/134/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-6dbbcf7e-2525-4aef-aec8-3532c70cb728\" name=\"m_Website with Video\"> <label for=\"Website with Video-6dbbcf7e-2525-4aef-aec8-3532c70cb728... || B: ...kbox\" id=\"Website with Video-f395090d-75f0-42bc-9911-1869177b4617\" name=\"m_Website with Video\"> <label for=\"Website with Video-f395090d-75f0-42bc-9911-1869177b4617..."
+   },
+   {
+    "path": "resources/page/135/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-9e4bbed9-7450-41d3-9860-e4ec1232f7e0\" name=\"m_Website with Video\"> <label for=\"Website with Video-9e4bbed9-7450-41d3-9860-e4ec1232f7e0... || B: ...kbox\" id=\"Website with Video-ce653c53-3cc8-4fa3-b681-f95fd8648dd2\" name=\"m_Website with Video\"> <label for=\"Website with Video-ce653c53-3cc8-4fa3-b681-f95fd8648dd2..."
+   },
+   {
+    "path": "resources/page/136/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-a10db291-e8ba-4e40-87fe-d99354395593\" name=\"m_Website with Video\"> <label for=\"Website with Video-a10db291-e8ba-4e40-87fe-d99354395593... || B: ...kbox\" id=\"Website with Video-b99728a2-161a-48b2-b340-f48071397518\" name=\"m_Website with Video\"> <label for=\"Website with Video-b99728a2-161a-48b2-b340-f48071397518..."
+   },
+   {
+    "path": "resources/page/137/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-dfc0795e-80cb-4a11-9d1c-9d668a67a9ff\" name=\"m_Website with Video\"> <label for=\"Website with Video-dfc0795e-80cb-4a11-9d1c-9d668a67a9ff... || B: ...kbox\" id=\"Website with Video-549619a1-34b0-4a19-a8a2-53b46e3a1e32\" name=\"m_Website with Video\"> <label for=\"Website with Video-549619a1-34b0-4a19-a8a2-53b46e3a1e32..."
+   },
+   {
+    "path": "resources/page/138/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-a637a3ec-4e99-4a6e-b4f4-03396de8f488\" name=\"m_Website with Video\"> <label for=\"Website with Video-a637a3ec-4e99-4a6e-b4f4-03396de8f488... || B: ...kbox\" id=\"Website with Video-c9afa2cf-04d2-41a8-99f0-6a98357df0ba\" name=\"m_Website with Video\"> <label for=\"Website with Video-c9afa2cf-04d2-41a8-99f0-6a98357df0ba..."
+   },
+   {
+    "path": "resources/page/139/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-32d12ec7-91bd-4cac-baed-33ed90e1090d\" name=\"m_Website with Video\"> <label for=\"Website with Video-32d12ec7-91bd-4cac-baed-33ed90e1090d... || B: ...kbox\" id=\"Website with Video-73349aba-7559-4d28-a846-d7fe6be23ec0\" name=\"m_Website with Video\"> <label for=\"Website with Video-73349aba-7559-4d28-a846-d7fe6be23ec0..."
+   },
+   {
+    "path": "resources/page/14/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-755249e2-e3ba-4272-a769-1ae791e717af\" name=\"m_Website with Video\"> <label for=\"Website with Video-755249e2-e3ba-4272-a769-1ae791e717af... || B: ...kbox\" id=\"Website with Video-4f47d12b-1a66-43ee-bc04-8a75d0fec650\" name=\"m_Website with Video\"> <label for=\"Website with Video-4f47d12b-1a66-43ee-bc04-8a75d0fec650..."
+   },
+   {
+    "path": "resources/page/140/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-c71f003b-9f34-4665-ba5c-80d40b376663\" name=\"m_Website with Video\"> <label for=\"Website with Video-c71f003b-9f34-4665-ba5c-80d40b376663... || B: ...kbox\" id=\"Website with Video-7f279b4e-e2b5-4640-b4e8-ae81a812a06f\" name=\"m_Website with Video\"> <label for=\"Website with Video-7f279b4e-e2b5-4640-b4e8-ae81a812a06f..."
+   },
+   {
+    "path": "resources/page/141/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-91c07006-facc-43d5-b742-11ccea6685b8\" name=\"m_Website with Video\"> <label for=\"Website with Video-91c07006-facc-43d5-b742-11ccea6685b8... || B: ...kbox\" id=\"Website with Video-831e85d3-dc6c-4d60-a22f-ff50f335ae17\" name=\"m_Website with Video\"> <label for=\"Website with Video-831e85d3-dc6c-4d60-a22f-ff50f335ae17..."
+   },
+   {
+    "path": "resources/page/142/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-e733cafa-1576-4b67-b51f-205939b82e02\" name=\"m_Website with Video\"> <label for=\"Website with Video-e733cafa-1576-4b67-b51f-205939b82e02... || B: ...kbox\" id=\"Website with Video-113db5c0-6277-445e-ae2b-ad7d5f429286\" name=\"m_Website with Video\"> <label for=\"Website with Video-113db5c0-6277-445e-ae2b-ad7d5f429286..."
+   },
+   {
+    "path": "resources/page/143/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-5269d773-893b-4729-89dc-9a560d9cfd98\" name=\"m_Website with Video\"> <label for=\"Website with Video-5269d773-893b-4729-89dc-9a560d9cfd98... || B: ...kbox\" id=\"Website with Video-90739117-a0f4-417f-b460-856ae49aeb5a\" name=\"m_Website with Video\"> <label for=\"Website with Video-90739117-a0f4-417f-b460-856ae49aeb5a..."
+   },
+   {
+    "path": "resources/page/144/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-6a4b3589-83b1-4bfa-bca0-4aa7c9512bcf\" name=\"m_Website with Video\"> <label for=\"Website with Video-6a4b3589-83b1-4bfa-bca0-4aa7c9512bcf... || B: ...kbox\" id=\"Website with Video-7de095da-158b-408d-8de9-8a5c20d2ac28\" name=\"m_Website with Video\"> <label for=\"Website with Video-7de095da-158b-408d-8de9-8a5c20d2ac28..."
+   },
+   {
+    "path": "resources/page/145/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-2b26e6ff-4f56-4a2a-8dfe-1a43c2cbad85\" name=\"m_Website with Video\"> <label for=\"Website with Video-2b26e6ff-4f56-4a2a-8dfe-1a43c2cbad85... || B: ...kbox\" id=\"Website with Video-9d277ea8-0519-46bb-89ba-7ad37b135253\" name=\"m_Website with Video\"> <label for=\"Website with Video-9d277ea8-0519-46bb-89ba-7ad37b135253..."
+   },
+   {
+    "path": "resources/page/146/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-106b0983-04fe-4fda-ab43-16222e7fc441\" name=\"m_Website with Video\"> <label for=\"Website with Video-106b0983-04fe-4fda-ab43-16222e7fc441... || B: ...kbox\" id=\"Website with Video-19289f2f-935c-4a86-951d-f364fb890259\" name=\"m_Website with Video\"> <label for=\"Website with Video-19289f2f-935c-4a86-951d-f364fb890259..."
+   },
+   {
+    "path": "resources/page/147/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-b81a639b-7c20-4bb8-acd9-4fa0e1294d6b\" name=\"m_Website with Video\"> <label for=\"Website with Video-b81a639b-7c20-4bb8-acd9-4fa0e1294d6b... || B: ...kbox\" id=\"Website with Video-bbc6d01b-bbad-4325-8e9a-5d1198dafc0d\" name=\"m_Website with Video\"> <label for=\"Website with Video-bbc6d01b-bbad-4325-8e9a-5d1198dafc0d..."
+   },
+   {
+    "path": "resources/page/148/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-f6ba75ca-ef24-49e3-af53-131f72f72b75\" name=\"m_Website with Video\"> <label for=\"Website with Video-f6ba75ca-ef24-49e3-af53-131f72f72b75... || B: ...kbox\" id=\"Website with Video-9d74e0fc-ac97-4389-a410-514caf58f223\" name=\"m_Website with Video\"> <label for=\"Website with Video-9d74e0fc-ac97-4389-a410-514caf58f223..."
+   },
+   {
+    "path": "resources/page/149/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-53d78df0-499c-4791-b296-177d361007fe\" name=\"m_Website with Video\"> <label for=\"Website with Video-53d78df0-499c-4791-b296-177d361007fe... || B: ...kbox\" id=\"Website with Video-cc4f76ef-1630-4b75-9da3-cfa9e63ddf03\" name=\"m_Website with Video\"> <label for=\"Website with Video-cc4f76ef-1630-4b75-9da3-cfa9e63ddf03..."
+   },
+   {
+    "path": "resources/page/15/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-494f6d89-cb19-4f3d-b906-156097f579a8\" name=\"m_Website with Video\"> <label for=\"Website with Video-494f6d89-cb19-4f3d-b906-156097f579a8... || B: ...kbox\" id=\"Website with Video-aec18b06-6601-42ba-a509-3b91c63d3456\" name=\"m_Website with Video\"> <label for=\"Website with Video-aec18b06-6601-42ba-a509-3b91c63d3456..."
+   },
+   {
+    "path": "resources/page/150/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-a5a8ec04-d96b-4bd9-b1a4-525df55e257a\" name=\"m_Website with Video\"> <label for=\"Website with Video-a5a8ec04-d96b-4bd9-b1a4-525df55e257a... || B: ...kbox\" id=\"Website with Video-ac5ed665-a59e-4d57-a1fa-494a2c9dbb41\" name=\"m_Website with Video\"> <label for=\"Website with Video-ac5ed665-a59e-4d57-a1fa-494a2c9dbb41..."
+   },
+   {
+    "path": "resources/page/151/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-160d9474-1595-455b-82e6-60d49b63dbeb\" name=\"m_Website with Video\"> <label for=\"Website with Video-160d9474-1595-455b-82e6-60d49b63dbeb... || B: ...kbox\" id=\"Website with Video-ea95488d-7db8-434d-9ef4-5928a8baf2a6\" name=\"m_Website with Video\"> <label for=\"Website with Video-ea95488d-7db8-434d-9ef4-5928a8baf2a6..."
+   },
+   {
+    "path": "resources/page/152/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-5b492c1f-5e36-4ff0-b45a-af898d44b22c\" name=\"m_Website with Video\"> <label for=\"Website with Video-5b492c1f-5e36-4ff0-b45a-af898d44b22c... || B: ...kbox\" id=\"Website with Video-9f6090f1-2cb8-4b95-9198-dbfaddf09c52\" name=\"m_Website with Video\"> <label for=\"Website with Video-9f6090f1-2cb8-4b95-9198-dbfaddf09c52..."
+   },
+   {
+    "path": "resources/page/16/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-c6616c27-fee9-49fe-be42-974ed304918c\" name=\"m_Website with Video\"> <label for=\"Website with Video-c6616c27-fee9-49fe-be42-974ed304918c... || B: ...kbox\" id=\"Website with Video-ab737509-e32f-439e-90ef-678790a41162\" name=\"m_Website with Video\"> <label for=\"Website with Video-ab737509-e32f-439e-90ef-678790a41162..."
+   },
+   {
+    "path": "resources/page/17/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-a9c79126-ad3c-471e-82a4-39787afc4b7b\" name=\"m_Website with Video\"> <label for=\"Website with Video-a9c79126-ad3c-471e-82a4-39787afc4b7b... || B: ...kbox\" id=\"Website with Video-04efe6de-b1d9-4fa5-af6f-b57f8d26bec2\" name=\"m_Website with Video\"> <label for=\"Website with Video-04efe6de-b1d9-4fa5-af6f-b57f8d26bec2..."
+   },
+   {
+    "path": "resources/page/18/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-7a5b9f21-fcd2-4019-88f8-ac2bd9c33a73\" name=\"m_Website with Video\"> <label for=\"Website with Video-7a5b9f21-fcd2-4019-88f8-ac2bd9c33a73... || B: ...kbox\" id=\"Website with Video-acff7036-6e25-401f-b743-65550f408390\" name=\"m_Website with Video\"> <label for=\"Website with Video-acff7036-6e25-401f-b743-65550f408390..."
+   },
+   {
+    "path": "resources/page/19/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-6e7eb007-2684-44af-8ba4-0f02a8ce8c73\" name=\"m_Website with Video\"> <label for=\"Website with Video-6e7eb007-2684-44af-8ba4-0f02a8ce8c73... || B: ...kbox\" id=\"Website with Video-dfc00450-8f88-41a9-be5e-58e6fb678071\" name=\"m_Website with Video\"> <label for=\"Website with Video-dfc00450-8f88-41a9-be5e-58e6fb678071..."
+   },
+   {
+    "path": "resources/page/2/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-06713e9a-f905-4f36-bd17-42123b886e3e\" name=\"m_Website with Video\"> <label for=\"Website with Video-06713e9a-f905-4f36-bd17-42123b886e3e... || B: ...kbox\" id=\"Website with Video-006cb06c-a054-4eb2-b333-b172a75e6927\" name=\"m_Website with Video\"> <label for=\"Website with Video-006cb06c-a054-4eb2-b333-b172a75e6927..."
+   },
+   {
+    "path": "resources/page/20/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...ckbox\" id=\"Website with Video-14495ea4-ec31-4cf2-a96d-93b4212c5aba\" name=\"m_Website with Video\"> <label for=\"Website with Video-14495ea4-ec31-4cf2-a96d-93b4212c5ab... || B: ...ckbox\" id=\"Website with Video-2636a2ae-17b5-432f-b9f2-02fdeaa38f2a\" name=\"m_Website with Video\"> <label for=\"Website with Video-2636a2ae-17b5-432f-b9f2-02fdeaa38f2..."
+   },
+   {
+    "path": "resources/page/21/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-349669e2-e5a4-454e-aed6-be9b6aec25a0\" name=\"m_Website with Video\"> <label for=\"Website with Video-349669e2-e5a4-454e-aed6-be9b6aec25a0... || B: ...kbox\" id=\"Website with Video-bffde1f5-9f8f-4aff-892a-ea68a964b06e\" name=\"m_Website with Video\"> <label for=\"Website with Video-bffde1f5-9f8f-4aff-892a-ea68a964b06e..."
+   },
+   {
+    "path": "resources/page/22/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-ea63abba-ee7a-4dc0-87c3-6bdecaa5de13\" name=\"m_Website with Video\"> <label for=\"Website with Video-ea63abba-ee7a-4dc0-87c3-6bdecaa5de13... || B: ...kbox\" id=\"Website with Video-76c0448b-4a27-4419-8624-7601a25287da\" name=\"m_Website with Video\"> <label for=\"Website with Video-76c0448b-4a27-4419-8624-7601a25287da..."
+   },
+   {
+    "path": "resources/page/23/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-d37cf4f9-39e9-4025-a946-3d71cd835d31\" name=\"m_Website with Video\"> <label for=\"Website with Video-d37cf4f9-39e9-4025-a946-3d71cd835d31... || B: ...kbox\" id=\"Website with Video-6c097268-f7ed-4ddf-b0ca-c9a5b174876e\" name=\"m_Website with Video\"> <label for=\"Website with Video-6c097268-f7ed-4ddf-b0ca-c9a5b174876e..."
+   },
+   {
+    "path": "resources/page/24/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-ea0b0fbd-6843-476b-a085-7fe245c0f126\" name=\"m_Website with Video\"> <label for=\"Website with Video-ea0b0fbd-6843-476b-a085-7fe245c0f126... || B: ...kbox\" id=\"Website with Video-317bece2-4b3a-4f68-8224-52a6f72b3d2c\" name=\"m_Website with Video\"> <label for=\"Website with Video-317bece2-4b3a-4f68-8224-52a6f72b3d2c..."
+   },
+   {
+    "path": "resources/page/25/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-db7660b5-1705-46c6-bad2-38dc45162598\" name=\"m_Website with Video\"> <label for=\"Website with Video-db7660b5-1705-46c6-bad2-38dc45162598... || B: ...kbox\" id=\"Website with Video-0ec2ca4c-9518-476b-993a-d369236f0c51\" name=\"m_Website with Video\"> <label for=\"Website with Video-0ec2ca4c-9518-476b-993a-d369236f0c51..."
+   },
+   {
+    "path": "resources/page/26/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...ckbox\" id=\"Website with Video-5d18d51f-fd51-4aae-9fa6-ced93b21df14\" name=\"m_Website with Video\"> <label for=\"Website with Video-5d18d51f-fd51-4aae-9fa6-ced93b21df1... || B: ...ckbox\" id=\"Website with Video-69377cd4-5021-4e32-a58d-e0e7216d94f4\" name=\"m_Website with Video\"> <label for=\"Website with Video-69377cd4-5021-4e32-a58d-e0e7216d94f..."
+   },
+   {
+    "path": "resources/page/27/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-d3e468a3-4668-4c34-afdf-b5dfc9f9f245\" name=\"m_Website with Video\"> <label for=\"Website with Video-d3e468a3-4668-4c34-afdf-b5dfc9f9f245... || B: ...kbox\" id=\"Website with Video-1a5e92c4-9a77-4ab0-8ff3-c3215a217a28\" name=\"m_Website with Video\"> <label for=\"Website with Video-1a5e92c4-9a77-4ab0-8ff3-c3215a217a28..."
+   },
+   {
+    "path": "resources/page/28/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-dc7a48b7-365c-417a-8653-81ea940854ba\" name=\"m_Website with Video\"> <label for=\"Website with Video-dc7a48b7-365c-417a-8653-81ea940854ba... || B: ...kbox\" id=\"Website with Video-8c722781-ea06-46d4-817e-dcadba563f98\" name=\"m_Website with Video\"> <label for=\"Website with Video-8c722781-ea06-46d4-817e-dcadba563f98..."
+   },
+   {
+    "path": "resources/page/29/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-ea30a587-997c-40b4-a15f-384016d69a16\" name=\"m_Website with Video\"> <label for=\"Website with Video-ea30a587-997c-40b4-a15f-384016d69a16... || B: ...kbox\" id=\"Website with Video-7e5fb351-7b77-4298-b5cc-fe4b130af2bd\" name=\"m_Website with Video\"> <label for=\"Website with Video-7e5fb351-7b77-4298-b5cc-fe4b130af2bd..."
+   },
+   {
+    "path": "resources/page/3/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-c5e02b6a-7ea4-4385-b96f-b5626c377637\" name=\"m_Website with Video\"> <label for=\"Website with Video-c5e02b6a-7ea4-4385-b96f-b5626c377637... || B: ...kbox\" id=\"Website with Video-c0427a94-664d-43c0-b32e-c649761affba\" name=\"m_Website with Video\"> <label for=\"Website with Video-c0427a94-664d-43c0-b32e-c649761affba..."
+   },
+   {
+    "path": "resources/page/30/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-ea46e69c-ee44-4902-8cb1-12c7c3468739\" name=\"m_Website with Video\"> <label for=\"Website with Video-ea46e69c-ee44-4902-8cb1-12c7c3468739... || B: ...kbox\" id=\"Website with Video-cf2e5942-8d82-48f9-8e10-c291c8b58718\" name=\"m_Website with Video\"> <label for=\"Website with Video-cf2e5942-8d82-48f9-8e10-c291c8b58718..."
+   },
+   {
+    "path": "resources/page/31/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-3ec1e274-0d9a-483f-8963-b87bf3278165\" name=\"m_Website with Video\"> <label for=\"Website with Video-3ec1e274-0d9a-483f-8963-b87bf3278165... || B: ...kbox\" id=\"Website with Video-ce404f9e-a5d9-4102-b193-260f7ae4ff24\" name=\"m_Website with Video\"> <label for=\"Website with Video-ce404f9e-a5d9-4102-b193-260f7ae4ff24..."
+   },
+   {
+    "path": "resources/page/32/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-d999ef00-f4f8-4bde-9c52-7a8de8f7d72e\" name=\"m_Website with Video\"> <label for=\"Website with Video-d999ef00-f4f8-4bde-9c52-7a8de8f7d72e... || B: ...kbox\" id=\"Website with Video-6b4f9878-2833-4d4b-968c-5a97718bb0df\" name=\"m_Website with Video\"> <label for=\"Website with Video-6b4f9878-2833-4d4b-968c-5a97718bb0df..."
+   },
+   {
+    "path": "resources/page/33/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-7a381f49-5d4c-49e4-b529-859ae2ab7e67\" name=\"m_Website with Video\"> <label for=\"Website with Video-7a381f49-5d4c-49e4-b529-859ae2ab7e67... || B: ...kbox\" id=\"Website with Video-01900404-55f6-4802-86f7-21f1b89a076e\" name=\"m_Website with Video\"> <label for=\"Website with Video-01900404-55f6-4802-86f7-21f1b89a076e..."
+   },
+   {
+    "path": "resources/page/34/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-33631468-c300-49dd-b707-0391e9050a29\" name=\"m_Website with Video\"> <label for=\"Website with Video-33631468-c300-49dd-b707-0391e9050a29... || B: ...kbox\" id=\"Website with Video-39c72a5b-d014-4a70-b934-28f139034115\" name=\"m_Website with Video\"> <label for=\"Website with Video-39c72a5b-d014-4a70-b934-28f139034115..."
+   },
+   {
+    "path": "resources/page/35/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-1283c5f1-8775-4e20-ac07-0e5f48b78aee\" name=\"m_Website with Video\"> <label for=\"Website with Video-1283c5f1-8775-4e20-ac07-0e5f48b78aee... || B: ...kbox\" id=\"Website with Video-d98fc72e-151f-4ba1-95f9-f86088afdb22\" name=\"m_Website with Video\"> <label for=\"Website with Video-d98fc72e-151f-4ba1-95f9-f86088afdb22..."
+   },
+   {
+    "path": "resources/page/36/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-aac7e7d2-de9a-44f3-a4a7-2fe47f4961db\" name=\"m_Website with Video\"> <label for=\"Website with Video-aac7e7d2-de9a-44f3-a4a7-2fe47f4961db... || B: ...kbox\" id=\"Website with Video-2b0f56ed-2a5d-457a-a3f4-aeed14c2f9f4\" name=\"m_Website with Video\"> <label for=\"Website with Video-2b0f56ed-2a5d-457a-a3f4-aeed14c2f9f4..."
+   },
+   {
+    "path": "resources/page/37/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-5105f8c8-79d1-475b-b059-9cdd7c689ff1\" name=\"m_Website with Video\"> <label for=\"Website with Video-5105f8c8-79d1-475b-b059-9cdd7c689ff1... || B: ...kbox\" id=\"Website with Video-359960cd-ae62-4c28-bb25-77057c065ad2\" name=\"m_Website with Video\"> <label for=\"Website with Video-359960cd-ae62-4c28-bb25-77057c065ad2..."
+   },
+   {
+    "path": "resources/page/38/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-221c70fa-3959-4eb6-b830-9d2bf4893513\" name=\"m_Website with Video\"> <label for=\"Website with Video-221c70fa-3959-4eb6-b830-9d2bf4893513... || B: ...kbox\" id=\"Website with Video-10f1d817-0acc-4f3b-ae2c-0ee656e99c46\" name=\"m_Website with Video\"> <label for=\"Website with Video-10f1d817-0acc-4f3b-ae2c-0ee656e99c46..."
+   },
+   {
+    "path": "resources/page/39/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-c8d45849-01a9-42ef-8ba6-67bcc5210d45\" name=\"m_Website with Video\"> <label for=\"Website with Video-c8d45849-01a9-42ef-8ba6-67bcc5210d45... || B: ...kbox\" id=\"Website with Video-01f0787a-cf07-48bf-bfed-f3ae77a515d0\" name=\"m_Website with Video\"> <label for=\"Website with Video-01f0787a-cf07-48bf-bfed-f3ae77a515d0..."
+   },
+   {
+    "path": "resources/page/4/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-3c0d8b4d-11e5-41a1-8959-5901384b95b0\" name=\"m_Website with Video\"> <label for=\"Website with Video-3c0d8b4d-11e5-41a1-8959-5901384b95b0... || B: ...kbox\" id=\"Website with Video-a62effb0-3817-4515-a00f-c2491bc82361\" name=\"m_Website with Video\"> <label for=\"Website with Video-a62effb0-3817-4515-a00f-c2491bc82361..."
+   },
+   {
+    "path": "resources/page/40/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-ec86e9ed-2b78-4695-8d77-0d2935a0d874\" name=\"m_Website with Video\"> <label for=\"Website with Video-ec86e9ed-2b78-4695-8d77-0d2935a0d874... || B: ...kbox\" id=\"Website with Video-3363980a-4c00-421f-96fb-7f342a5abf2a\" name=\"m_Website with Video\"> <label for=\"Website with Video-3363980a-4c00-421f-96fb-7f342a5abf2a..."
+   },
+   {
+    "path": "resources/page/41/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-a00ed94d-a440-4294-afbb-bebfe40edba2\" name=\"m_Website with Video\"> <label for=\"Website with Video-a00ed94d-a440-4294-afbb-bebfe40edba2... || B: ...kbox\" id=\"Website with Video-6b209a79-aaef-4471-bc39-90346b8c566a\" name=\"m_Website with Video\"> <label for=\"Website with Video-6b209a79-aaef-4471-bc39-90346b8c566a..."
+   },
+   {
+    "path": "resources/page/42/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-d1efd1a0-18be-4ebc-b7eb-a147a0235674\" name=\"m_Website with Video\"> <label for=\"Website with Video-d1efd1a0-18be-4ebc-b7eb-a147a0235674... || B: ...kbox\" id=\"Website with Video-a8c80121-1624-493c-ace4-ee09f4ae3b33\" name=\"m_Website with Video\"> <label for=\"Website with Video-a8c80121-1624-493c-ace4-ee09f4ae3b33..."
+   },
+   {
+    "path": "resources/page/43/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-9e18f97c-e03d-4ddf-8b50-2bde2a5117e5\" name=\"m_Website with Video\"> <label for=\"Website with Video-9e18f97c-e03d-4ddf-8b50-2bde2a5117e5... || B: ...kbox\" id=\"Website with Video-cd87fd7d-3d97-4fb7-8a13-2a46185db5b2\" name=\"m_Website with Video\"> <label for=\"Website with Video-cd87fd7d-3d97-4fb7-8a13-2a46185db5b2..."
+   },
+   {
+    "path": "resources/page/44/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-889aa072-b1cd-448f-99f4-49cd6994573c\" name=\"m_Website with Video\"> <label for=\"Website with Video-889aa072-b1cd-448f-99f4-49cd6994573c... || B: ...kbox\" id=\"Website with Video-50daf19e-95f8-4e34-aaa0-f45aad7ca7e0\" name=\"m_Website with Video\"> <label for=\"Website with Video-50daf19e-95f8-4e34-aaa0-f45aad7ca7e0..."
+   },
+   {
+    "path": "resources/page/45/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-524d2022-6579-4be6-a7c6-19cfb9e70db9\" name=\"m_Website with Video\"> <label for=\"Website with Video-524d2022-6579-4be6-a7c6-19cfb9e70db9... || B: ...kbox\" id=\"Website with Video-4ef8a34a-d9c6-4713-90ae-b94d04b66717\" name=\"m_Website with Video\"> <label for=\"Website with Video-4ef8a34a-d9c6-4713-90ae-b94d04b66717..."
+   },
+   {
+    "path": "resources/page/46/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-bf82213c-fa84-4988-9e56-9788adfb8958\" name=\"m_Website with Video\"> <label for=\"Website with Video-bf82213c-fa84-4988-9e56-9788adfb8958... || B: ...kbox\" id=\"Website with Video-949e7599-7015-4803-8768-671b6857760f\" name=\"m_Website with Video\"> <label for=\"Website with Video-949e7599-7015-4803-8768-671b6857760f..."
+   },
+   {
+    "path": "resources/page/47/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-86978dab-9a63-4148-846f-cd948a50eedf\" name=\"m_Website with Video\"> <label for=\"Website with Video-86978dab-9a63-4148-846f-cd948a50eedf... || B: ...kbox\" id=\"Website with Video-14716cb0-60fe-4109-a5db-1b8c74cf7da6\" name=\"m_Website with Video\"> <label for=\"Website with Video-14716cb0-60fe-4109-a5db-1b8c74cf7da6..."
+   },
+   {
+    "path": "resources/page/48/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-faf16ba7-0a5a-471f-b593-9b77b09bd888\" name=\"m_Website with Video\"> <label for=\"Website with Video-faf16ba7-0a5a-471f-b593-9b77b09bd888... || B: ...kbox\" id=\"Website with Video-a70c453c-6f1c-4181-965f-6efd3a5cd13a\" name=\"m_Website with Video\"> <label for=\"Website with Video-a70c453c-6f1c-4181-965f-6efd3a5cd13a..."
+   },
+   {
+    "path": "resources/page/49/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-850af89c-0e2b-4a2d-8016-45cd379e8b39\" name=\"m_Website with Video\"> <label for=\"Website with Video-850af89c-0e2b-4a2d-8016-45cd379e8b39... || B: ...kbox\" id=\"Website with Video-9d426cb2-41ae-4b85-b719-403a806b4687\" name=\"m_Website with Video\"> <label for=\"Website with Video-9d426cb2-41ae-4b85-b719-403a806b4687..."
+   },
+   {
+    "path": "resources/page/5/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-2a851748-78f2-4d55-873f-48e806d91e90\" name=\"m_Website with Video\"> <label for=\"Website with Video-2a851748-78f2-4d55-873f-48e806d91e90... || B: ...kbox\" id=\"Website with Video-d58a079d-310c-4cbd-a6f3-1b05e25b4ff9\" name=\"m_Website with Video\"> <label for=\"Website with Video-d58a079d-310c-4cbd-a6f3-1b05e25b4ff9..."
+   },
+   {
+    "path": "resources/page/50/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-9b7ab17f-eee5-469c-8c6e-f62ec0d6937d\" name=\"m_Website with Video\"> <label for=\"Website with Video-9b7ab17f-eee5-469c-8c6e-f62ec0d6937d... || B: ...kbox\" id=\"Website with Video-31afe0a0-326e-47cb-a497-275145383a0b\" name=\"m_Website with Video\"> <label for=\"Website with Video-31afe0a0-326e-47cb-a497-275145383a0b..."
+   },
+   {
+    "path": "resources/page/51/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-684c2696-2fec-4332-a9a5-d71ff156b78d\" name=\"m_Website with Video\"> <label for=\"Website with Video-684c2696-2fec-4332-a9a5-d71ff156b78d... || B: ...kbox\" id=\"Website with Video-7ba5aab5-8c67-4495-a524-db6aac75aea5\" name=\"m_Website with Video\"> <label for=\"Website with Video-7ba5aab5-8c67-4495-a524-db6aac75aea5..."
+   },
+   {
+    "path": "resources/page/52/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-e4580d5a-9259-4b39-b605-e5c1877eee58\" name=\"m_Website with Video\"> <label for=\"Website with Video-e4580d5a-9259-4b39-b605-e5c1877eee58... || B: ...kbox\" id=\"Website with Video-c98fb352-5672-40d7-baf1-96b916302106\" name=\"m_Website with Video\"> <label for=\"Website with Video-c98fb352-5672-40d7-baf1-96b916302106..."
+   },
+   {
+    "path": "resources/page/53/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-8f224eea-f3fc-49f3-800d-0b801e8be17e\" name=\"m_Website with Video\"> <label for=\"Website with Video-8f224eea-f3fc-49f3-800d-0b801e8be17e... || B: ...kbox\" id=\"Website with Video-2549887c-e3bf-4d3f-b199-9bd3667771db\" name=\"m_Website with Video\"> <label for=\"Website with Video-2549887c-e3bf-4d3f-b199-9bd3667771db..."
+   },
+   {
+    "path": "resources/page/54/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-f4932878-4413-463c-bf7b-2cf7464d4d7e\" name=\"m_Website with Video\"> <label for=\"Website with Video-f4932878-4413-463c-bf7b-2cf7464d4d7e... || B: ...kbox\" id=\"Website with Video-ab0ec66f-635d-4880-996f-51e2ce09eca8\" name=\"m_Website with Video\"> <label for=\"Website with Video-ab0ec66f-635d-4880-996f-51e2ce09eca8..."
+   },
+   {
+    "path": "resources/page/55/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-05d57686-6424-4b12-8276-5433bad7e37a\" name=\"m_Website with Video\"> <label for=\"Website with Video-05d57686-6424-4b12-8276-5433bad7e37a... || B: ...kbox\" id=\"Website with Video-c8a943b7-af48-4d34-a889-0bfeee19917f\" name=\"m_Website with Video\"> <label for=\"Website with Video-c8a943b7-af48-4d34-a889-0bfeee19917f..."
+   },
+   {
+    "path": "resources/page/56/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-2f6e5a2b-59c7-420e-8a7c-93fd4bb568f2\" name=\"m_Website with Video\"> <label for=\"Website with Video-2f6e5a2b-59c7-420e-8a7c-93fd4bb568f2... || B: ...kbox\" id=\"Website with Video-87834579-8b4b-49a7-b2c0-bd352736d059\" name=\"m_Website with Video\"> <label for=\"Website with Video-87834579-8b4b-49a7-b2c0-bd352736d059..."
+   },
+   {
+    "path": "resources/page/57/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-f3495e8f-22c1-48d1-ad7e-5ca2deed1e64\" name=\"m_Website with Video\"> <label for=\"Website with Video-f3495e8f-22c1-48d1-ad7e-5ca2deed1e64... || B: ...kbox\" id=\"Website with Video-fb242f37-2324-4d40-a06f-8b16c5ec6c6b\" name=\"m_Website with Video\"> <label for=\"Website with Video-fb242f37-2324-4d40-a06f-8b16c5ec6c6b..."
+   },
+   {
+    "path": "resources/page/58/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-641478dd-bef1-4bcc-a7ea-56768b922967\" name=\"m_Website with Video\"> <label for=\"Website with Video-641478dd-bef1-4bcc-a7ea-56768b922967... || B: ...kbox\" id=\"Website with Video-ee85fe13-ab90-4fd4-af57-98f41c5ec37a\" name=\"m_Website with Video\"> <label for=\"Website with Video-ee85fe13-ab90-4fd4-af57-98f41c5ec37a..."
+   },
+   {
+    "path": "resources/page/59/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-c7deea75-01ee-4c08-b42e-7d05bd43103a\" name=\"m_Website with Video\"> <label for=\"Website with Video-c7deea75-01ee-4c08-b42e-7d05bd43103a... || B: ...kbox\" id=\"Website with Video-180565b5-8db8-4ab4-89b7-1ed6f9543692\" name=\"m_Website with Video\"> <label for=\"Website with Video-180565b5-8db8-4ab4-89b7-1ed6f9543692..."
+   },
+   {
+    "path": "resources/page/6/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-6690e6a0-d469-4c4f-a06c-cc3f7e9aacb1\" name=\"m_Website with Video\"> <label for=\"Website with Video-6690e6a0-d469-4c4f-a06c-cc3f7e9aacb1... || B: ...kbox\" id=\"Website with Video-18270a35-bc42-47f6-9204-227238b3bc83\" name=\"m_Website with Video\"> <label for=\"Website with Video-18270a35-bc42-47f6-9204-227238b3bc83..."
+   },
+   {
+    "path": "resources/page/60/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-e7e62da9-316a-42fa-b364-f9275ca5f0a6\" name=\"m_Website with Video\"> <label for=\"Website with Video-e7e62da9-316a-42fa-b364-f9275ca5f0a6... || B: ...kbox\" id=\"Website with Video-a4b36054-8a4a-466f-ac01-6c4ca360f7da\" name=\"m_Website with Video\"> <label for=\"Website with Video-a4b36054-8a4a-466f-ac01-6c4ca360f7da..."
+   },
+   {
+    "path": "resources/page/61/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-f646d8a7-489f-4b18-8562-052725f01d07\" name=\"m_Website with Video\"> <label for=\"Website with Video-f646d8a7-489f-4b18-8562-052725f01d07... || B: ...kbox\" id=\"Website with Video-e294f39a-66f1-46b8-b2dd-d37fd2345682\" name=\"m_Website with Video\"> <label for=\"Website with Video-e294f39a-66f1-46b8-b2dd-d37fd2345682..."
+   },
+   {
+    "path": "resources/page/62/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-74453c03-cf7f-44f7-9765-b37f0f6c233c\" name=\"m_Website with Video\"> <label for=\"Website with Video-74453c03-cf7f-44f7-9765-b37f0f6c233c... || B: ...kbox\" id=\"Website with Video-3223561b-7dfc-4658-ae6e-1336cf13b65e\" name=\"m_Website with Video\"> <label for=\"Website with Video-3223561b-7dfc-4658-ae6e-1336cf13b65e..."
+   },
+   {
+    "path": "resources/page/63/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-56f43a8a-4d33-4a35-b1ae-defd5ef099e6\" name=\"m_Website with Video\"> <label for=\"Website with Video-56f43a8a-4d33-4a35-b1ae-defd5ef099e6... || B: ...kbox\" id=\"Website with Video-c9851489-6b4d-478f-89d1-18745f402ec3\" name=\"m_Website with Video\"> <label for=\"Website with Video-c9851489-6b4d-478f-89d1-18745f402ec3..."
+   },
+   {
+    "path": "resources/page/64/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-a4b2a2c6-dee9-4acb-a3b4-cb72e39fb8f5\" name=\"m_Website with Video\"> <label for=\"Website with Video-a4b2a2c6-dee9-4acb-a3b4-cb72e39fb8f5... || B: ...kbox\" id=\"Website with Video-de031574-3d00-43e1-8c90-7915413100ff\" name=\"m_Website with Video\"> <label for=\"Website with Video-de031574-3d00-43e1-8c90-7915413100ff..."
+   },
+   {
+    "path": "resources/page/65/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-fa789586-2370-4a56-95fe-81bdb5ca66e3\" name=\"m_Website with Video\"> <label for=\"Website with Video-fa789586-2370-4a56-95fe-81bdb5ca66e3... || B: ...kbox\" id=\"Website with Video-c1a02e8a-3384-4858-9ee0-351455e8d680\" name=\"m_Website with Video\"> <label for=\"Website with Video-c1a02e8a-3384-4858-9ee0-351455e8d680..."
+   },
+   {
+    "path": "resources/page/66/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...ckbox\" id=\"Website with Video-26319856-fc3c-45dd-b6b4-8728402918c7\" name=\"m_Website with Video\"> <label for=\"Website with Video-26319856-fc3c-45dd-b6b4-8728402918c... || B: ...ckbox\" id=\"Website with Video-16b699cd-6bb4-4da0-9aa9-e234e15a3917\" name=\"m_Website with Video\"> <label for=\"Website with Video-16b699cd-6bb4-4da0-9aa9-e234e15a391..."
+   },
+   {
+    "path": "resources/page/67/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-c44fa353-c745-4080-8e40-42531e11eff0\" name=\"m_Website with Video\"> <label for=\"Website with Video-c44fa353-c745-4080-8e40-42531e11eff0... || B: ...kbox\" id=\"Website with Video-1a96cc8c-fdf9-4b0b-a053-607f529bc8f8\" name=\"m_Website with Video\"> <label for=\"Website with Video-1a96cc8c-fdf9-4b0b-a053-607f529bc8f8..."
+   },
+   {
+    "path": "resources/page/68/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-8f5ce122-1d6f-47b6-b289-683bff1c6dcc\" name=\"m_Website with Video\"> <label for=\"Website with Video-8f5ce122-1d6f-47b6-b289-683bff1c6dcc... || B: ...kbox\" id=\"Website with Video-e1aadda2-c47d-43f1-8811-71b80a0a9c1d\" name=\"m_Website with Video\"> <label for=\"Website with Video-e1aadda2-c47d-43f1-8811-71b80a0a9c1d..."
+   },
+   {
+    "path": "resources/page/69/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-7110ef4b-77ef-4661-840f-0ac26d6b0371\" name=\"m_Website with Video\"> <label for=\"Website with Video-7110ef4b-77ef-4661-840f-0ac26d6b0371... || B: ...kbox\" id=\"Website with Video-e380e7ff-5f58-4b99-8277-b0c47897e338\" name=\"m_Website with Video\"> <label for=\"Website with Video-e380e7ff-5f58-4b99-8277-b0c47897e338..."
+   },
+   {
+    "path": "resources/page/7/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-63e2d86f-154f-4b6d-ac01-a6aab67443e7\" name=\"m_Website with Video\"> <label for=\"Website with Video-63e2d86f-154f-4b6d-ac01-a6aab67443e7... || B: ...kbox\" id=\"Website with Video-bc5bb265-267a-4be0-b216-005c07d396dc\" name=\"m_Website with Video\"> <label for=\"Website with Video-bc5bb265-267a-4be0-b216-005c07d396dc..."
+   },
+   {
+    "path": "resources/page/70/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-ef59e671-6f00-4f29-9390-d9af882b0590\" name=\"m_Website with Video\"> <label for=\"Website with Video-ef59e671-6f00-4f29-9390-d9af882b0590... || B: ...kbox\" id=\"Website with Video-f515d79e-ea4c-4d05-ab29-e71988eddcb1\" name=\"m_Website with Video\"> <label for=\"Website with Video-f515d79e-ea4c-4d05-ab29-e71988eddcb1..."
+   },
+   {
+    "path": "resources/page/71/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-8251b5af-80bd-4d53-888a-ff7d89d5a861\" name=\"m_Website with Video\"> <label for=\"Website with Video-8251b5af-80bd-4d53-888a-ff7d89d5a861... || B: ...kbox\" id=\"Website with Video-ce6d07b6-0129-4097-ae90-f002f2b07b8b\" name=\"m_Website with Video\"> <label for=\"Website with Video-ce6d07b6-0129-4097-ae90-f002f2b07b8b..."
+   },
+   {
+    "path": "resources/page/72/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-45a0b0ff-7a73-4c23-b94c-cf9e058bee89\" name=\"m_Website with Video\"> <label for=\"Website with Video-45a0b0ff-7a73-4c23-b94c-cf9e058bee89... || B: ...kbox\" id=\"Website with Video-66d9df90-ea88-4143-9678-96227a0306e3\" name=\"m_Website with Video\"> <label for=\"Website with Video-66d9df90-ea88-4143-9678-96227a0306e3..."
+   },
+   {
+    "path": "resources/page/73/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-cf54fb08-90ab-4a34-8da8-dabe3e1b7a88\" name=\"m_Website with Video\"> <label for=\"Website with Video-cf54fb08-90ab-4a34-8da8-dabe3e1b7a88... || B: ...kbox\" id=\"Website with Video-6f33753e-3c6d-4ed4-965e-1c9c053b5bad\" name=\"m_Website with Video\"> <label for=\"Website with Video-6f33753e-3c6d-4ed4-965e-1c9c053b5bad..."
+   },
+   {
+    "path": "resources/page/74/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-5fd8b51a-4c78-4bcc-903c-65d6eebd68e6\" name=\"m_Website with Video\"> <label for=\"Website with Video-5fd8b51a-4c78-4bcc-903c-65d6eebd68e6... || B: ...kbox\" id=\"Website with Video-e26bb714-c511-45dc-9484-a383efabc174\" name=\"m_Website with Video\"> <label for=\"Website with Video-e26bb714-c511-45dc-9484-a383efabc174..."
+   },
+   {
+    "path": "resources/page/75/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-de73ec30-3cf3-47ff-8336-81a7e4b9951d\" name=\"m_Website with Video\"> <label for=\"Website with Video-de73ec30-3cf3-47ff-8336-81a7e4b9951d... || B: ...kbox\" id=\"Website with Video-66ffacf2-c924-496e-87a2-6504d840c014\" name=\"m_Website with Video\"> <label for=\"Website with Video-66ffacf2-c924-496e-87a2-6504d840c014..."
+   },
+   {
+    "path": "resources/page/76/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-f4a08b8e-cddb-4e39-aa2e-2012c4d53064\" name=\"m_Website with Video\"> <label for=\"Website with Video-f4a08b8e-cddb-4e39-aa2e-2012c4d53064... || B: ...kbox\" id=\"Website with Video-46fb878a-995c-42bd-9a56-14890733c863\" name=\"m_Website with Video\"> <label for=\"Website with Video-46fb878a-995c-42bd-9a56-14890733c863..."
+   },
+   {
+    "path": "resources/page/77/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-ecbd2797-1434-4a06-87cb-0dd687caa1a2\" name=\"m_Website with Video\"> <label for=\"Website with Video-ecbd2797-1434-4a06-87cb-0dd687caa1a2... || B: ...kbox\" id=\"Website with Video-28cdf8df-5461-401e-8310-cbf9c467cf4e\" name=\"m_Website with Video\"> <label for=\"Website with Video-28cdf8df-5461-401e-8310-cbf9c467cf4e..."
+   },
+   {
+    "path": "resources/page/78/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-6b7489a7-da02-4829-82de-5553a84d8908\" name=\"m_Website with Video\"> <label for=\"Website with Video-6b7489a7-da02-4829-82de-5553a84d8908... || B: ...kbox\" id=\"Website with Video-01d1e08d-dec0-4f55-8469-f49abf31064a\" name=\"m_Website with Video\"> <label for=\"Website with Video-01d1e08d-dec0-4f55-8469-f49abf31064a..."
+   },
+   {
+    "path": "resources/page/79/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...ckbox\" id=\"Website with Video-0d6cb725-6223-4cc1-93e8-0aaa6bdc0470\" name=\"m_Website with Video\"> <label for=\"Website with Video-0d6cb725-6223-4cc1-93e8-0aaa6bdc047... || B: ...ckbox\" id=\"Website with Video-979dafae-1cc0-4cca-90ad-b585830f7920\" name=\"m_Website with Video\"> <label for=\"Website with Video-979dafae-1cc0-4cca-90ad-b585830f792..."
+   },
+   {
+    "path": "resources/page/8/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-3daf18bd-5feb-49b8-a8f2-c2101b33cc71\" name=\"m_Website with Video\"> <label for=\"Website with Video-3daf18bd-5feb-49b8-a8f2-c2101b33cc71... || B: ...kbox\" id=\"Website with Video-deb796e1-f81d-4099-a802-97f2feab0b56\" name=\"m_Website with Video\"> <label for=\"Website with Video-deb796e1-f81d-4099-a802-97f2feab0b56..."
+   },
+   {
+    "path": "resources/page/80/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-904f972c-4eff-45c1-95ad-b235ff13b1c8\" name=\"m_Website with Video\"> <label for=\"Website with Video-904f972c-4eff-45c1-95ad-b235ff13b1c8... || B: ...kbox\" id=\"Website with Video-f5acec9c-e621-4360-bd38-59d8c1d5b33a\" name=\"m_Website with Video\"> <label for=\"Website with Video-f5acec9c-e621-4360-bd38-59d8c1d5b33a..."
+   },
+   {
+    "path": "resources/page/81/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...ckbox\" id=\"Website with Video-d9a12bde-cbdf-457b-a53c-5b720aad7562\" name=\"m_Website with Video\"> <label for=\"Website with Video-d9a12bde-cbdf-457b-a53c-5b720aad756... || B: ...ckbox\" id=\"Website with Video-2e0f4dcc-ccf8-41aa-b07f-9a199ad4d3b2\" name=\"m_Website with Video\"> <label for=\"Website with Video-2e0f4dcc-ccf8-41aa-b07f-9a199ad4d3b..."
+   },
+   {
+    "path": "resources/page/82/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-8c1a96fd-42b8-40de-bb23-d7b2e516e09e\" name=\"m_Website with Video\"> <label for=\"Website with Video-8c1a96fd-42b8-40de-bb23-d7b2e516e09e... || B: ...kbox\" id=\"Website with Video-3eb8bc0c-5dda-4125-98a4-fff9038caba4\" name=\"m_Website with Video\"> <label for=\"Website with Video-3eb8bc0c-5dda-4125-98a4-fff9038caba4..."
+   },
+   {
+    "path": "resources/page/83/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-df02403d-3bac-453b-8512-2cfb88fe8546\" name=\"m_Website with Video\"> <label for=\"Website with Video-df02403d-3bac-453b-8512-2cfb88fe8546... || B: ...kbox\" id=\"Website with Video-e126add6-4e74-414d-a9ef-e431bb012ccb\" name=\"m_Website with Video\"> <label for=\"Website with Video-e126add6-4e74-414d-a9ef-e431bb012ccb..."
+   },
+   {
+    "path": "resources/page/84/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-35df4db9-98ae-45a1-a41d-0af0b77fffa1\" name=\"m_Website with Video\"> <label for=\"Website with Video-35df4db9-98ae-45a1-a41d-0af0b77fffa1... || B: ...kbox\" id=\"Website with Video-0d5af2f4-1894-4049-a2b2-987fde18a5ec\" name=\"m_Website with Video\"> <label for=\"Website with Video-0d5af2f4-1894-4049-a2b2-987fde18a5ec..."
+   },
+   {
+    "path": "resources/page/85/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-8ca98cef-887d-47bc-a9e9-eaa9c7555d2d\" name=\"m_Website with Video\"> <label for=\"Website with Video-8ca98cef-887d-47bc-a9e9-eaa9c7555d2d... || B: ...kbox\" id=\"Website with Video-218a7c3a-4dcc-4079-986e-9a718abb9ddb\" name=\"m_Website with Video\"> <label for=\"Website with Video-218a7c3a-4dcc-4079-986e-9a718abb9ddb..."
+   },
+   {
+    "path": "resources/page/86/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-c76c6140-d5f2-449f-9b8e-f633ec90a5fc\" name=\"m_Website with Video\"> <label for=\"Website with Video-c76c6140-d5f2-449f-9b8e-f633ec90a5fc... || B: ...kbox\" id=\"Website with Video-14d667d1-91d3-4f4c-8b07-047ddf6a4b50\" name=\"m_Website with Video\"> <label for=\"Website with Video-14d667d1-91d3-4f4c-8b07-047ddf6a4b50..."
+   },
+   {
+    "path": "resources/page/87/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-990b8081-af3f-4956-a06c-766d992e7c90\" name=\"m_Website with Video\"> <label for=\"Website with Video-990b8081-af3f-4956-a06c-766d992e7c90... || B: ...kbox\" id=\"Website with Video-f25c2981-c694-41a4-a8a3-70dc8e7e59eb\" name=\"m_Website with Video\"> <label for=\"Website with Video-f25c2981-c694-41a4-a8a3-70dc8e7e59eb..."
+   },
+   {
+    "path": "resources/page/88/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-e9f9a2e1-e232-4dfb-bf38-b64e95dc4dd9\" name=\"m_Website with Video\"> <label for=\"Website with Video-e9f9a2e1-e232-4dfb-bf38-b64e95dc4dd9... || B: ...kbox\" id=\"Website with Video-ffbce463-98d0-4a2c-9197-7d69303f3d68\" name=\"m_Website with Video\"> <label for=\"Website with Video-ffbce463-98d0-4a2c-9197-7d69303f3d68..."
+   },
+   {
+    "path": "resources/page/89/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-401f9132-a1de-4afb-b12e-96e51c6c2182\" name=\"m_Website with Video\"> <label for=\"Website with Video-401f9132-a1de-4afb-b12e-96e51c6c2182... || B: ...kbox\" id=\"Website with Video-91187849-b969-4a7b-9953-15af1707d420\" name=\"m_Website with Video\"> <label for=\"Website with Video-91187849-b969-4a7b-9953-15af1707d420..."
+   },
+   {
+    "path": "resources/page/9/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-e872684d-c027-4c44-9ed2-c20ad557721f\" name=\"m_Website with Video\"> <label for=\"Website with Video-e872684d-c027-4c44-9ed2-c20ad557721f... || B: ...kbox\" id=\"Website with Video-736e6382-3f50-4cbb-bb9d-2bfbabcbe675\" name=\"m_Website with Video\"> <label for=\"Website with Video-736e6382-3f50-4cbb-bb9d-2bfbabcbe675..."
+   },
+   {
+    "path": "resources/page/90/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-82c0a8ce-cd8c-4a85-8cf1-9001093fc4c3\" name=\"m_Website with Video\"> <label for=\"Website with Video-82c0a8ce-cd8c-4a85-8cf1-9001093fc4c3... || B: ...kbox\" id=\"Website with Video-6355c061-0c92-4fa9-99d2-2e35973a993e\" name=\"m_Website with Video\"> <label for=\"Website with Video-6355c061-0c92-4fa9-99d2-2e35973a993e..."
+   },
+   {
+    "path": "resources/page/91/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-a0e1aa0d-a242-4119-8aa0-a69de0fbcf02\" name=\"m_Website with Video\"> <label for=\"Website with Video-a0e1aa0d-a242-4119-8aa0-a69de0fbcf02... || B: ...kbox\" id=\"Website with Video-2c70900b-82fc-4249-9efb-df1173b88f7b\" name=\"m_Website with Video\"> <label for=\"Website with Video-2c70900b-82fc-4249-9efb-df1173b88f7b..."
+   },
+   {
+    "path": "resources/page/92/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-b7c0ddd9-58ff-43e8-a7c0-e3cbdb39500d\" name=\"m_Website with Video\"> <label for=\"Website with Video-b7c0ddd9-58ff-43e8-a7c0-e3cbdb39500d... || B: ...kbox\" id=\"Website with Video-0d9c0771-b710-4a9b-8a29-8eb9cd1b2f61\" name=\"m_Website with Video\"> <label for=\"Website with Video-0d9c0771-b710-4a9b-8a29-8eb9cd1b2f61..."
+   },
+   {
+    "path": "resources/page/93/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-2a4c1501-b6ee-4888-ab98-faf1f38e44cb\" name=\"m_Website with Video\"> <label for=\"Website with Video-2a4c1501-b6ee-4888-ab98-faf1f38e44cb... || B: ...kbox\" id=\"Website with Video-3a1552bf-d3e5-4908-a721-df40ae03687a\" name=\"m_Website with Video\"> <label for=\"Website with Video-3a1552bf-d3e5-4908-a721-df40ae03687a..."
+   },
+   {
+    "path": "resources/page/94/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-b6b2d9fd-f986-428d-9fc2-c4e919f44b00\" name=\"m_Website with Video\"> <label for=\"Website with Video-b6b2d9fd-f986-428d-9fc2-c4e919f44b00... || B: ...kbox\" id=\"Website with Video-e385ff5a-b4cf-4753-9c2c-49ff6cc42685\" name=\"m_Website with Video\"> <label for=\"Website with Video-e385ff5a-b4cf-4753-9c2c-49ff6cc42685..."
+   },
+   {
+    "path": "resources/page/95/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-d2cde8e9-8e01-4e1e-a6c3-86395246bfe3\" name=\"m_Website with Video\"> <label for=\"Website with Video-d2cde8e9-8e01-4e1e-a6c3-86395246bfe3... || B: ...kbox\" id=\"Website with Video-4ab8d17c-db2d-4f8d-ba5c-d8b779a05228\" name=\"m_Website with Video\"> <label for=\"Website with Video-4ab8d17c-db2d-4f8d-ba5c-d8b779a05228..."
+   },
+   {
+    "path": "resources/page/96/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-2da2f180-ea62-45d6-bf13-08693b5e44d6\" name=\"m_Website with Video\"> <label for=\"Website with Video-2da2f180-ea62-45d6-bf13-08693b5e44d6... || B: ...kbox\" id=\"Website with Video-dcdb2761-611f-47d0-8df9-8dc81c78aaf0\" name=\"m_Website with Video\"> <label for=\"Website with Video-dcdb2761-611f-47d0-8df9-8dc81c78aaf0..."
+   },
+   {
+    "path": "resources/page/97/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-9feb16b7-7e14-434b-9c8f-1e2e4d5b3014\" name=\"m_Website with Video\"> <label for=\"Website with Video-9feb16b7-7e14-434b-9c8f-1e2e4d5b3014... || B: ...kbox\" id=\"Website with Video-c711da8f-fcb0-4e78-aa8e-36a6776fc80b\" name=\"m_Website with Video\"> <label for=\"Website with Video-c711da8f-fcb0-4e78-aa8e-36a6776fc80b..."
+   },
+   {
+    "path": "resources/page/98/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-e99d0a97-bda8-4609-ac2f-0228ae2060d3\" name=\"m_Website with Video\"> <label for=\"Website with Video-e99d0a97-bda8-4609-ac2f-0228ae2060d3... || B: ...kbox\" id=\"Website with Video-0be59320-7227-411a-85e6-6857fe4e7705\" name=\"m_Website with Video\"> <label for=\"Website with Video-0be59320-7227-411a-85e6-6857fe4e7705..."
+   },
+   {
+    "path": "resources/page/99/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...kbox\" id=\"Website with Video-9f55fc4b-4fdf-4e10-99ae-b11d05ebe008\" name=\"m_Website with Video\"> <label for=\"Website with Video-9f55fc4b-4fdf-4e10-99ae-b11d05ebe008... || B: ...kbox\" id=\"Website with Video-fe6ac873-737e-4d85-bbe3-1506810c6749\" name=\"m_Website with Video\"> <label for=\"Website with Video-fe6ac873-737e-4d85-bbe3-1506810c6749..."
+   },
+   {
+    "path": "tags/accessibility/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...Systems project is an initiative at the Inclusive Design Research Centre, OCAD U examining the accessibility of the digital tools and systems we rely upon for work... || B: ...ines how AI technology is utilized in recruitment and selection, its implications for candidates with disabilities, and the question of accessibility and diversity..."
+   },
+   {
+    "path": "tags/accessibility/page/1/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...Systems project is an initiative at the Inclusive Design Research Centre, OCAD U examining the accessibility of the digital tools and systems we rely upon for work... || B: ...ines how AI technology is utilized in recruitment and selection, its implications for candidates with disabilities, and the question of accessibility and diversity..."
+   },
+   {
+    "path": "tags/ai/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...v class=\"preview-content\">An overview of key findings from the Postsecondary Education portion of the environmental scan conducted by the We Count team in May 2020... || B: ...ct We Count evaluated the MIDP for Toronto\u2019s Quayside from the perspective of persons in Toronto who have difficulty with or are excluded by the current urban plan..."
+   },
+   {
+    "path": "tags/ai/page/1/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...v class=\"preview-content\">An overview of key findings from the Postsecondary Education portion of the environmental scan conducted by the We Count team in May 2020... || B: ...ct We Count evaluated the MIDP for Toronto\u2019s Quayside from the perspective of persons in Toronto who have difficulty with or are excluded by the current urban plan..."
+   },
+   {
+    "path": "tags/ai/page/2/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...y project formed a study group to understand and examine intersecting topics of AI, automation, standards and employment as they relate to persons with disabilitie... || B: ... to address bias, discrimination and barriers to participation and employment for persons with disabilities within the field of data science and data-driven system..."
+   },
+   {
+    "path": "tags/disability/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...e that the global accessibility agenda is guided by people with disabilities. Together, we can make Canada and the world more accessible and inclusive for everyone... || B: ...ontent\">We Count badges enabled people to showcase their proficiency in the growing fields of AI, data systems and inclusive data practices as well as other skills..."
+   },
+   {
+    "path": "tags/disability/page/1/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...e that the global accessibility agenda is guided by people with disabilities. Together, we can make Canada and the world more accessible and inclusive for everyone... || B: ...ontent\">We Count badges enabled people to showcase their proficiency in the growing fields of AI, data systems and inclusive data practices as well as other skills..."
+   },
+   {
+    "path": "tags/disability/page/2/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...Systems project is an initiative at the Inclusive Design Research Centre, OCAD U examining the accessibility of the digital tools and systems we rely upon for work... || B: ...ines how AI technology is utilized in recruitment and selection, its implications for candidates with disabilities, and the question of accessibility and diversity..."
+   },
+   {
+    "path": "tags/disability/page/3/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...y project formed a study group to understand and examine intersecting topics of AI, automation, standards and employment as they relate to persons with disabilitie... || B: ..., and a thriving industry checking and repairing inaccessible websites, people who require alternative ways to access digital systems face ever-multiplying barrier..."
+   },
+   {
+    "path": "tags/employment/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "timestamp",
+    "quote": "A: ...me datetime=\"2020-12-17T18:33:24.000Z\" class=\"dt-published\">December 17, 2020</time></div><div class=\"preview-content\">An overview of key findings from the AI Firm... || B: ...020-12-17T18:33:18.000Z\" class=\"dt-published\">December 17, 2020</time></div><div class=\"preview-content\">An overview of key findings from the Data Service Provider..."
+   },
+   {
+    "path": "tags/employment/page/1/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "timestamp",
+    "quote": "A: ...me datetime=\"2020-12-17T18:33:24.000Z\" class=\"dt-published\">December 17, 2020</time></div><div class=\"preview-content\">An overview of key findings from the AI Firm... || B: ...020-12-17T18:33:18.000Z\" class=\"dt-published\">December 17, 2020</time></div><div class=\"preview-content\">An overview of key findings from the Data Service Provider..."
+   },
+   {
+    "path": "tags/rldn/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...bre 2024, l'\u00e9quipe charg\u00e9e de la R\u00e9guler le domaine num\u00e9rique (RlDN) a travaill\u00e9 avec le comit\u00e9 consultatif en s'appuyant sur deux recherches en co-conception pour... || B: ...24, l'\u00e9quipe de la R\u00e9guler le domaine num\u00e9rique (RlDN) a poursuivi son travail avec des co-chercheurs communautaires ayant une exp\u00e9rience v\u00e9cue du handicap afin de..."
+   },
+   {
+    "path": "tags/rldn/page/1/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...bre 2024, l'\u00e9quipe charg\u00e9e de la R\u00e9guler le domaine num\u00e9rique (RlDN) a travaill\u00e9 avec le comit\u00e9 consultatif en s'appuyant sur deux recherches en co-conception pour... || B: ...24, l'\u00e9quipe de la R\u00e9guler le domaine num\u00e9rique (RlDN) a poursuivi son travail avec des co-chercheurs communautaires ayant une exp\u00e9rience v\u00e9cue du handicap afin de..."
+   },
+   {
+    "path": "tags/rtdd/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...\">In November 2024, the Regulating the Digital Domain (RtDD) team worked with the Advisory Panel building on co-design research two to address the project challeng... || B: ...y co-researchers with lived experience of disability to address all six project challenges. The research approach used online synchronous and asynchronous activiti..."
+   },
+   {
+    "path": "tags/rtdd/page/1/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...\">In November 2024, the Regulating the Digital Domain (RtDD) team worked with the Advisory Panel building on co-design research two to address the project challeng... || B: ...y co-researchers with lived experience of disability to address all six project challenges. The research approach used online synchronous and asynchronous activiti..."
+   },
+   {
+    "path": "tags/we-count/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...v class=\"preview-content\">An overview of key findings from the Postsecondary Education portion of the environmental scan conducted by the We Count team in May 2020... || B: ...ct We Count evaluated the MIDP for Toronto\u2019s Quayside from the perspective of persons in Toronto who have difficulty with or are excluded by the current urban plan..."
+   },
+   {
+    "path": "tags/we-count/page/1/index.html",
+    "raw_differs": true,
+    "body_differs": true,
+    "cause": "other",
+    "quote": "A: ...v class=\"preview-content\">An overview of key findings from the Postsecondary Education portion of the environmental scan conducted by the We Count team in May 2020... || B: ...ct We Count evaluated the MIDP for Toronto\u2019s Quayside from the perspective of persons in Toronto who have difficulty with or are excluded by the current urban plan..."
+   }
+  ],
+  "distinct_causes": {
+   "other": "A: ...ass=\"filter-checkbox\" type=\"checkbox\" id=\"we-count-639f5f8b-0f99-4d60-b161-71ff538be3aa\" name=\"we-count\"> <label for=\"we-count-639f5f8b-0f99-4d60-b161-71ff538be3aa... || B: ...ass=\"filter-checkbox\" type=\"checkbox\" id=\"we-count-5454ff6a-32a3-4c79-a642-89b83b473740\" name=\"we-count\"> <label for=\"we-count-5454ff6a-32a3-4c79-a642-89b83b473740...",
+   "timestamp": "A: ...020-12-17T18:33:18.000Z\" class=\"dt-published\">December 17, 2020</time></div><div class=\"preview-content\">An overview of key findings from the Data Service Provider... || B: ...me datetime=\"2020-12-17T18:33:24.000Z\" class=\"dt-published\">December 17, 2020</time></div><div class=\"preview-content\">An overview of key findings from the AI Firm..."
+  }
+ },
+ "verdict": "nondeterministic",
+ "verdict_reason": "8/8 commits build; median 1703.5 static pages; phase-7 rebuilds differ in <body> on 335 page(s): other: A: ...ass=\"filter-checkbox\" type=\"checkbox\" id=\"we-count-639f5f8b-0f99-4d60-b161-71ff538be3aa\" name=\"we-count\"> <label for=\"we-count-639f5f8b-0f99-4d60-b161-71f; timestamp: A: ...020-12-17T18:33:18.000Z\" class=\"dt-published\">December 17, 2020</time></div><div class=\"preview-content\">An overview of key findings from the Data Service"
+}

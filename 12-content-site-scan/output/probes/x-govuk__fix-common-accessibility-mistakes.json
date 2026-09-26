@@ -1,0 +1,433 @@
+{
+ "repo": "x-govuk/fix-common-accessibility-mistakes",
+ "bucket": "E",
+ "window": {
+  "start": "2024-05-15",
+  "end": "2024-11-14",
+  "page_touching_commits": 67,
+  "new_content_commits": 10,
+  "new_content_commit_shas": [
+   {
+    "sha": "3a917e7f285468c2ff4bf9beca22c1a182ca9e51",
+    "date": "2024-07-28",
+    "files_added": [
+     "app/examples/accordions/index.md",
+     "app/examples/complex-question/index.md",
+     "app/examples/list/index.md",
+     "app/examples/tabs/index.md",
+     "app/index.md"
+    ]
+   },
+   {
+    "sha": "45fb98eac0e4e1bb8138faa2dee6d8f7658dae25",
+    "date": "2024-07-29",
+    "files_added": [
+     "app/examples/information-pages/index.md"
+    ]
+   },
+   {
+    "sha": "7e6f1034b02f4badc151db9d0ec2515bb3440632",
+    "date": "2024-07-29",
+    "files_added": [
+     "app/examples/form-fields-hints-links/index.md"
+    ]
+   },
+   {
+    "sha": "5619b84ec86abb847924aa8f454b0944a4000dce",
+    "date": "2024-08-03",
+    "files_added": [
+     "app/sitemap.md"
+    ]
+   },
+   {
+    "sha": "20d17442c0da64b9e5be6a64500c68d00a1f22b3",
+    "date": "2024-08-10",
+    "files_added": [
+     "app/accessibility-statement.md",
+     "app/cookies.md",
+     "app/project-history.md"
+    ]
+   },
+   {
+    "sha": "9769958ec8d395ecb570549fe9c20c061d8f728c",
+    "date": "2024-08-15",
+    "files_added": [
+     "app/examples/link-focus/index.md"
+    ]
+   },
+   {
+    "sha": "d7f31e386487642eaf52c98e4ea2786165eadf18",
+    "date": "2024-08-15",
+    "files_added": [
+     "app/examples/input-labels/index.md"
+    ]
+   },
+   {
+    "sha": "e87ec99aa6b3a22e6864feb3053ed19b8cc978a6",
+    "date": "2024-09-02",
+    "files_added": [
+     "app/contribute.md",
+     "app/examples/unique-text-repeated-actions/index.md",
+     "app/examples/work-accordions/index.md"
+    ]
+   },
+   {
+    "sha": "14ac66a0157ad099b338a34a4d3abc7c7b814b3c",
+    "date": "2024-09-09",
+    "files_added": [
+     "app/examples/break-form-groups/index.md"
+    ]
+   },
+   {
+    "sha": "b50e1fe7681abb39b5502f353785048b03fe8ca2",
+    "date": "2024-10-11",
+    "files_added": [
+     "app/code.md",
+     "app/code/form-fields-hints-links.md",
+     "app/code/input-labels.md",
+     "app/code/link-focus.md",
+     "app/code/list.md",
+     "app/design.md",
+     "app/design/break-form-groups.md",
+     "app/design/complex-question.md",
+     "app/design/information-pages.md",
+     "app/design/tabs.md",
+     "app/design/unique-text-repeated-actions.md",
+     "app/design/work-accordions.md"
+    ]
+   }
+  ]
+ },
+ "selection": [
+  {
+   "sha": "3a917e7f285468c2ff4bf9beca22c1a182ca9e51",
+   "date": "2024-07-28",
+   "adds_new_content": true
+  },
+  {
+   "sha": "5619b84ec86abb847924aa8f454b0944a4000dce",
+   "date": "2024-08-03",
+   "adds_new_content": true
+  },
+  {
+   "sha": "0c032de1dda3606a9ab361eb7d78fc66c5a13000",
+   "date": "2024-09-03",
+   "adds_new_content": false
+  },
+  {
+   "sha": "4d8d85da32eabb33448fce5d81c8844da23805c7",
+   "date": "2024-09-04",
+   "adds_new_content": false
+  },
+  {
+   "sha": "14ac66a0157ad099b338a34a4d3abc7c7b814b3c",
+   "date": "2024-09-09",
+   "adds_new_content": true
+  },
+  {
+   "sha": "9613619f98943fb1a1ee8c605e7f29213742fcef",
+   "date": "2024-10-11",
+   "adds_new_content": false
+  },
+  {
+   "sha": "4bcfdf33ee02ab31c886d92551f9e71bff066a06",
+   "date": "2024-10-12",
+   "adds_new_content": false
+  },
+  {
+   "sha": "0cb650a10e885bebed3a8126c23a7c71f249821d",
+   "date": "2024-11-14",
+   "adds_new_content": false
+  }
+ ],
+ "commits": [
+  {
+   "sha": "3a917e7f285468c2ff4bf9beca22c1a182ca9e51",
+   "date": "2024-07-28",
+   "adds_new_content": true,
+   "worktree_method": "git worktree add --detach on blobless clone",
+   "output_dir_config_line": "_site (Eleventy default; eleventy.config.js sets dir.input='app' but no dir.output key at any of the 8 commits)",
+   "toolchain": {
+    "node_declared": null,
+    "node_lockfile_hint": null,
+    "node_rung": "v22.0.0",
+    "node_rule": "declared engines range -> newest installed fnm release satisfying it on-or-before commit date; else newest installed release on-or-before commit date (never lowest)",
+    "package_manager": "npm (package-lock.json at commit)",
+    "install_command": "npm ci --no-audit --no-fund",
+    "build_command": "node_modules/.bin/eleventy (eleventy step only)"
+   },
+   "install_seconds": 46.7,
+   "install_ok": true,
+   "build_seconds": 40.2,
+   "build_ok": true,
+   "page_count": 13,
+   "list_pages": [
+    {
+     "path": "index.html",
+     "main_list_selector": "div.govuk-width-container > div.govuk-grid-row",
+     "selector_reason": "inside <div> the element with the most links to content pages (4 distinct content-page targets; deepest on ties); tag=\"div\" id=\"None\" class=\"govuk-grid-row\"; 0 descendant <article> items",
+     "link_count": 4
+    }
+   ]
+  },
+  {
+   "sha": "5619b84ec86abb847924aa8f454b0944a4000dce",
+   "date": "2024-08-03",
+   "adds_new_content": true,
+   "worktree_method": "git worktree add --detach on blobless clone",
+   "output_dir_config_line": "_site (Eleventy default; eleventy.config.js sets dir.input='app' but no dir.output key at any of the 8 commits)",
+   "toolchain": {
+    "node_declared": "^20",
+    "node_lockfile_hint": null,
+    "node_rung": "v20.0.0",
+    "node_rule": "declared engines range -> newest installed fnm release satisfying it on-or-before commit date; else newest installed release on-or-before commit date (never lowest)",
+    "package_manager": "npm (package-lock.json at commit)",
+    "install_command": "npm ci --no-audit --no-fund",
+    "build_command": "node_modules/.bin/eleventy (eleventy step only)"
+   },
+   "install_seconds": 211.0,
+   "install_ok": true,
+   "build_seconds": 56.3,
+   "build_ok": true,
+   "page_count": 23,
+   "list_pages": [
+    {
+     "path": "1/index.html",
+     "main_list_selector": "div.govuk-width-container > div.govuk-grid-row",
+     "selector_reason": "inside <div> the element with the most links to content pages (6 distinct content-page targets; deepest on ties); tag=\"div\" id=\"None\" class=\"govuk-grid-row\"; 0 descendant <article> items",
+     "link_count": 6
+    },
+    {
+     "path": "index.html",
+     "main_list_selector": "div.govuk-width-container > div.govuk-grid-row",
+     "selector_reason": "inside <div> the element with the most links to content pages (6 distinct content-page targets; deepest on ties); tag=\"div\" id=\"None\" class=\"govuk-grid-row\"; 0 descendant <article> items",
+     "link_count": 6
+    }
+   ]
+  },
+  {
+   "sha": "0c032de1dda3606a9ab361eb7d78fc66c5a13000",
+   "date": "2024-09-03",
+   "adds_new_content": false,
+   "worktree_method": "git worktree add --detach on blobless clone",
+   "output_dir_config_line": "_site (Eleventy default; eleventy.config.js sets dir.input='app' but no dir.output key at any of the 8 commits)",
+   "toolchain": {
+    "node_declared": "^20",
+    "node_lockfile_hint": null,
+    "node_rung": "v20.0.0",
+    "node_rule": "declared engines range -> newest installed fnm release satisfying it on-or-before commit date; else newest installed release on-or-before commit date (never lowest)",
+    "package_manager": "npm (package-lock.json at commit)",
+    "install_command": "npm ci --no-audit --no-fund",
+    "build_command": "node_modules/.bin/eleventy (eleventy step only)"
+   },
+   "install_seconds": 176.6,
+   "install_ok": true,
+   "build_seconds": 52.3,
+   "build_ok": true,
+   "page_count": 39,
+   "list_pages": [
+    {
+     "path": "1/index.html",
+     "main_list_selector": "div.govuk-width-container > div.govuk-grid-row.govuk-!-margin-top-6",
+     "selector_reason": "inside <div> the element with the most links to content pages (9 distinct content-page targets; deepest on ties); tag=\"div\" id=\"None\" class=\"govuk-grid-row govuk-!-margin-top-6\"; 0 descendant <article> items",
+     "link_count": 9
+    },
+    {
+     "path": "index.html",
+     "main_list_selector": "div.govuk-width-container > div.govuk-grid-row.govuk-!-margin-top-6",
+     "selector_reason": "inside <div> the element with the most links to content pages (9 distinct content-page targets; deepest on ties); tag=\"div\" id=\"None\" class=\"govuk-grid-row govuk-!-margin-top-6\"; 0 descendant <article> items",
+     "link_count": 9
+    }
+   ]
+  },
+  {
+   "sha": "4d8d85da32eabb33448fce5d81c8844da23805c7",
+   "date": "2024-09-04",
+   "adds_new_content": false,
+   "worktree_method": "git worktree add --detach on blobless clone",
+   "output_dir_config_line": "_site (Eleventy default; eleventy.config.js sets dir.input='app' but no dir.output key at any of the 8 commits)",
+   "toolchain": {
+    "node_declared": "^20",
+    "node_lockfile_hint": null,
+    "node_rung": "v20.0.0",
+    "node_rule": "declared engines range -> newest installed fnm release satisfying it on-or-before commit date; else newest installed release on-or-before commit date (never lowest)",
+    "package_manager": "npm (package-lock.json at commit)",
+    "install_command": "npm ci --no-audit --no-fund",
+    "build_command": "node_modules/.bin/eleventy (eleventy step only)"
+   },
+   "install_seconds": 235.7,
+   "install_ok": true,
+   "build_seconds": 60.8,
+   "build_ok": true,
+   "page_count": 38,
+   "list_pages": [
+    {
+     "path": "index.html",
+     "main_list_selector": "div.govuk-width-container > div.govuk-grid-row.govuk-!-margin-top-6",
+     "selector_reason": "inside <div> the element with the most links to content pages (9 distinct content-page targets; deepest on ties); tag=\"div\" id=\"None\" class=\"govuk-grid-row govuk-!-margin-top-6\"; 0 descendant <article> items",
+     "link_count": 9
+    }
+   ]
+  },
+  {
+   "sha": "14ac66a0157ad099b338a34a4d3abc7c7b814b3c",
+   "date": "2024-09-09",
+   "adds_new_content": true,
+   "worktree_method": "git worktree add --detach on blobless clone",
+   "output_dir_config_line": "_site (Eleventy default; eleventy.config.js sets dir.input='app' but no dir.output key at any of the 8 commits)",
+   "toolchain": {
+    "node_declared": "^20",
+    "node_lockfile_hint": null,
+    "node_rung": "v20.0.0",
+    "node_rule": "declared engines range -> newest installed fnm release satisfying it on-or-before commit date; else newest installed release on-or-before commit date (never lowest)",
+    "package_manager": "npm (package-lock.json at commit)",
+    "install_command": "npm ci --no-audit --no-fund",
+    "build_command": "node_modules/.bin/eleventy (eleventy step only)"
+   },
+   "install_seconds": 192.8,
+   "install_ok": true,
+   "build_seconds": 67.1,
+   "build_ok": true,
+   "page_count": 41,
+   "list_pages": [
+    {
+     "path": "index.html",
+     "main_list_selector": "div.govuk-width-container > div.govuk-grid-row.govuk-!-margin-top-6",
+     "selector_reason": "inside <div> the element with the most links to content pages (10 distinct content-page targets; deepest on ties); tag=\"div\" id=\"None\" class=\"govuk-grid-row govuk-!-margin-top-6\"; 0 descendant <article> items",
+     "link_count": 10
+    }
+   ]
+  },
+  {
+   "sha": "9613619f98943fb1a1ee8c605e7f29213742fcef",
+   "date": "2024-10-11",
+   "adds_new_content": false,
+   "worktree_method": "git worktree add --detach on blobless clone",
+   "output_dir_config_line": "_site (Eleventy default; eleventy.config.js sets dir.input='app' but no dir.output key at any of the 8 commits)",
+   "toolchain": {
+    "node_declared": "^20",
+    "node_lockfile_hint": null,
+    "node_rung": "v20.0.0",
+    "node_rule": "declared engines range -> newest installed fnm release satisfying it on-or-before commit date; else newest installed release on-or-before commit date (never lowest)",
+    "package_manager": "npm (package-lock.json at commit)",
+    "install_command": "npm ci --no-audit --no-fund",
+    "build_command": "node_modules/.bin/eleventy (eleventy step only)"
+   },
+   "install_seconds": 151.6,
+   "install_ok": true,
+   "build_seconds": 79.9,
+   "build_ok": true,
+   "page_count": 41,
+   "list_pages": [
+    {
+     "path": "index.html",
+     "main_list_selector": "div.govuk-width-container > div.govuk-grid-row.govuk-!-margin-top-6",
+     "selector_reason": "inside <div> the element with the most links to content pages (10 distinct content-page targets; deepest on ties); tag=\"div\" id=\"None\" class=\"govuk-grid-row govuk-!-margin-top-6\"; 0 descendant <article> items",
+     "link_count": 10
+    }
+   ]
+  },
+  {
+   "sha": "4bcfdf33ee02ab31c886d92551f9e71bff066a06",
+   "date": "2024-10-12",
+   "adds_new_content": false,
+   "worktree_method": "git worktree add --detach on blobless clone",
+   "output_dir_config_line": "_site (Eleventy default; eleventy.config.js sets dir.input='app' but no dir.output key at any of the 8 commits)",
+   "toolchain": {
+    "node_declared": "^20",
+    "node_lockfile_hint": null,
+    "node_rung": "v20.0.0",
+    "node_rule": "declared engines range -> newest installed fnm release satisfying it on-or-before commit date; else newest installed release on-or-before commit date (never lowest)",
+    "package_manager": "npm (package-lock.json at commit)",
+    "install_command": "npm ci --no-audit --no-fund",
+    "build_command": "node_modules/.bin/eleventy (eleventy step only)"
+   },
+   "install_seconds": 165.3,
+   "install_ok": true,
+   "build_seconds": 88.8,
+   "build_ok": true,
+   "page_count": 43,
+   "list_pages": [
+    {
+     "path": "code/index.html",
+     "main_list_selector": "section.govuk-grid-column-two-thirds-from-desktop > ol.app-document-list.app-document-list--large",
+     "selector_reason": "inside <ol> the element with the most links to content pages (4 distinct content-page targets; deepest on ties); tag=\"ol\" id=\"None\" class=\"app-document-list app-document-list--large\"; 0 descendant <article> items",
+     "link_count": 4
+    },
+    {
+     "path": "design/index.html",
+     "main_list_selector": "section.govuk-grid-column-two-thirds-from-desktop > ol.app-document-list.app-document-list--large",
+     "selector_reason": "inside <ol> the element with the most links to content pages (6 distinct content-page targets; deepest on ties); tag=\"ol\" id=\"None\" class=\"app-document-list app-document-list--large\"; 0 descendant <article> items",
+     "link_count": 6
+    },
+    {
+     "path": "index.html",
+     "main_list_selector": "div.app-prose-scope > div.govuk-grid-row",
+     "selector_reason": "inside <div> the element with the most links to content pages (10 distinct content-page targets; deepest on ties); tag=\"div\" id=\"None\" class=\"govuk-grid-row\"; 0 descendant <article> items",
+     "link_count": 10
+    }
+   ]
+  },
+  {
+   "sha": "0cb650a10e885bebed3a8126c23a7c71f249821d",
+   "date": "2024-11-14",
+   "adds_new_content": false,
+   "worktree_method": "git worktree add --detach on blobless clone",
+   "output_dir_config_line": "_site (Eleventy default; eleventy.config.js sets dir.input='app' but no dir.output key at any of the 8 commits)",
+   "toolchain": {
+    "node_declared": "^20",
+    "node_lockfile_hint": null,
+    "node_rung": "v20.0.0",
+    "node_rule": "declared engines range -> newest installed fnm release satisfying it on-or-before commit date; else newest installed release on-or-before commit date (never lowest)",
+    "package_manager": "npm (package-lock.json at commit)",
+    "install_command": "npm ci --no-audit --no-fund",
+    "build_command": "node_modules/.bin/eleventy (eleventy step only)"
+   },
+   "install_seconds": 157.9,
+   "install_ok": true,
+   "build_seconds": 209.6,
+   "build_ok": true,
+   "page_count": 44,
+   "list_pages": [
+    {
+     "path": "code/index.html",
+     "main_list_selector": "section.govuk-grid-column-two-thirds-from-desktop > ol.app-document-list.app-document-list--large",
+     "selector_reason": "inside <ol> the element with the most links to content pages (4 distinct content-page targets; deepest on ties); tag=\"ol\" id=\"None\" class=\"app-document-list app-document-list--large\"; 0 descendant <article> items",
+     "link_count": 4
+    },
+    {
+     "path": "design/index.html",
+     "main_list_selector": "section.govuk-grid-column-two-thirds-from-desktop > ol.app-document-list.app-document-list--large",
+     "selector_reason": "inside <ol> the element with the most links to content pages (6 distinct content-page targets; deepest on ties); tag=\"ol\" id=\"None\" class=\"app-document-list app-document-list--large\"; 0 descendant <article> items",
+     "link_count": 6
+    },
+    {
+     "path": "index.html",
+     "main_list_selector": "div.app-prose-scope > div.govuk-grid-row",
+     "selector_reason": "inside <div> the element with the most links to content pages (10 distinct content-page targets; deepest on ties); tag=\"div\" id=\"None\" class=\"govuk-grid-row\"; 0 descendant <article> items",
+     "link_count": 10
+    },
+    {
+     "path": "sitemap/index.html",
+     "main_list_selector": "div.govuk-grid-row > div.govuk-grid-column-two-thirds",
+     "selector_reason": "inside <div> the element with the most links to content pages (10 distinct content-page targets; deepest on ties); tag=\"div\" id=\"None\" class=\"govuk-grid-column-two-thirds\"; 0 descendant <article> items",
+     "link_count": 10
+    }
+   ]
+  }
+ ],
+ "median_page_count": 40.0,
+ "median_build_seconds": 63.949999999999996,
+ "phase7": {
+  "rebuilt_commits": [
+   "3a917e7f285468c2ff4bf9beca22c1a182ca9e51",
+   "0cb650a10e885bebed3a8126c23a7c71f249821d"
+  ],
+  "pages_compared": 57,
+  "all_body_identical": true,
+  "differing_pages": [],
+  "distinct_causes": {}
+ },
+ "verdict": "corpus_ready",
+ "verdict_reason": "8/8 built; median pages 40.0; list pages present at every commit with changing main-list link counts; both reproducibility rebuilds byte-identical on every page body"
+}

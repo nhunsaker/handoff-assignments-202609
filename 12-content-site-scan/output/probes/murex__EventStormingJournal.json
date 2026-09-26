@@ -1,0 +1,525 @@
+{
+ "repo": "murex/EventStormingJournal",
+ "bucket": "J",
+ "window": {
+  "start": "2024-07-27",
+  "end": "2025-01-26",
+  "page_touching_commits": 73,
+  "new_content_commits": 7,
+  "new_content_commit_shas": [
+   {
+    "sha": "0b3a2f9cd52b6edf6327cbd36b83b4d2926b8c3b",
+    "date": "2024-08-04",
+    "files_added": [
+     "_posts/2024-08-03-popular-event-storming-facilitation-tips-you-need-to-know.markdown"
+    ]
+   },
+   {
+    "sha": "3d7acae6e66b5b9d123309ef997e08457827f278",
+    "date": "2024-08-22",
+    "files_added": [
+     "_posts/2024-08-19-how-to-make-your-event-storming-time-efficient-and-sustainable.markdown"
+    ]
+   },
+   {
+    "sha": "35821374bace999ca037ce1e819db23f569ea8a7",
+    "date": "2024-09-06",
+    "files_added": [
+     "_posts/2024-09-04-5-reliable-tricks-to-maximize-shared-knowledge-in-event-storming.markdown"
+    ]
+   },
+   {
+    "sha": "34580b09f6aa129b38fe6fc52f19bb5c9f826694",
+    "date": "2024-10-06",
+    "files_added": [
+     "_posts/2024-10-02-need-help-with-event-storming-the-community-has-your-back.markdown"
+    ]
+   },
+   {
+    "sha": "48c7a5747b11b9c363580d687526596c4aa1c545",
+    "date": "2024-10-23",
+    "files_added": [
+     "_posts/2024-10-23-identify-where-to-act-to-unlock-your-workflow.markdown"
+    ]
+   },
+   {
+    "sha": "f7258d413657ed44b6ac25bede997b96de4e78e9",
+    "date": "2024-11-21",
+    "files_added": [
+     "_posts/2024-11-21-define-actions-that-unlock-lasting-workflow-improvements.markdown"
+    ]
+   },
+   {
+    "sha": "5e06c424e4aac98fbb49269b6495cbc88d3a0647",
+    "date": "2024-11-25",
+    "files_added": [
+     "_posts/2024-11-23-why-go-remote-with-event-storming-the-surprising-benefits.markdown"
+    ]
+   }
+  ]
+ },
+ "selection": [
+  {
+   "sha": "0b3a2f9cd52b6edf6327cbd36b83b4d2926b8c3b",
+   "date": "2024-08-04",
+   "adds_new_content": true
+  },
+  {
+   "sha": "3d7acae6e66b5b9d123309ef997e08457827f278",
+   "date": "2024-08-22",
+   "adds_new_content": true
+  },
+  {
+   "sha": "35821374bace999ca037ce1e819db23f569ea8a7",
+   "date": "2024-09-06",
+   "adds_new_content": true
+  },
+  {
+   "sha": "91cc9749676c4d719c6a5b52b2bcf933fba19701",
+   "date": "2024-10-11",
+   "adds_new_content": false
+  },
+  {
+   "sha": "12bc5e7a35580d1cae79b8b789842911cff99bfa",
+   "date": "2024-10-28",
+   "adds_new_content": false
+  },
+  {
+   "sha": "e7bd032984554f943aa1224fa3f0888ffa8fa7f9",
+   "date": "2024-11-23",
+   "adds_new_content": false
+  },
+  {
+   "sha": "48592357dc6480affb91362caf0cac12228ea3e5",
+   "date": "2024-12-12",
+   "adds_new_content": false
+  },
+  {
+   "sha": "9ef13be7edaf495c386b4506efea56d28ef87362",
+   "date": "2025-01-26",
+   "adds_new_content": false
+  }
+ ],
+ "commits": [
+  {
+   "sha": "0b3a2f9cd52b6edf6327cbd36b83b4d2926b8c3b",
+   "date": "2024-08-04",
+   "adds_new_content": true,
+   "worktree_method": "git worktree add --detach on blobless clone",
+   "output_dir_config_line": "_site (Jekyll default; no destination: line in _config.yml at any of the 8 commits)",
+   "toolchain": {
+    "ruby_declared": "3.2.3",
+    "ruby_used": "3.2.2 via rbenv (only Ruby installed locally; .ruby-version names 3.2.3)",
+    "ruby_rule": "from .ruby-version; 3.2.3 not installed locally, used installed 3.2.2",
+    "bundler_declared": "2.5.6",
+    "bundler_used": "2.5.6",
+    "install_command": "bundle _2.5.6_ install (BUNDLE_PATH=tmp_probe_e3/murex_gems)",
+    "build_command": "bundle _2.5.6_ exec jekyll build --trace"
+   },
+   "install_seconds": 493.3,
+   "install_ok": true,
+   "build_seconds": 20.8,
+   "build_ok": true,
+   "page_count": 39,
+   "list_pages": [
+    {
+     "path": "archives/index.html",
+     "main_list_selector": "div#main > div.archive",
+     "selector_reason": "inside <div> the element with the most links to content pages (7 distinct content-page targets; deepest on ties); tag=\"div\" id=\"None\" class=\"archive\"; 24 descendant <article> items",
+     "link_count": 7
+    },
+    {
+     "path": "categories/index.html",
+     "main_list_selector": "section#foundations.taxonomy__section > div.entries-list",
+     "selector_reason": "inside <div> the element with the most links to content pages (7 distinct content-page targets; deepest on ties); tag=\"div\" id=\"None\" class=\"entries-list\"; 7 descendant <article> items",
+     "link_count": 7
+    },
+    {
+     "path": "page3/index.html",
+     "main_list_selector": "div.archive > div.entries-grid",
+     "selector_reason": "inside <div> the element with the most links to content pages (3 distinct content-page targets; deepest on ties); tag=\"div\" id=\"None\" class=\"entries-grid\"; 8 descendant <article> items",
+     "link_count": 3
+    },
+    {
+     "path": "tags/index.html",
+     "main_list_selector": "div#main > div.archive",
+     "selector_reason": "inside <div> the element with the most links to content pages (7 distinct content-page targets; deepest on ties); tag=\"div\" id=\"None\" class=\"archive\"; 105 descendant <article> items",
+     "link_count": 7
+    }
+   ]
+  },
+  {
+   "sha": "3d7acae6e66b5b9d123309ef997e08457827f278",
+   "date": "2024-08-22",
+   "adds_new_content": true,
+   "worktree_method": "git worktree add --detach on blobless clone",
+   "output_dir_config_line": "_site (Jekyll default; no destination: line in _config.yml at any of the 8 commits)",
+   "toolchain": {
+    "ruby_declared": "3.2.3",
+    "ruby_used": "3.2.2 via rbenv (only Ruby installed locally; .ruby-version names 3.2.3)",
+    "ruby_rule": "from .ruby-version; 3.2.3 not installed locally, used installed 3.2.2",
+    "bundler_declared": "2.5.6",
+    "bundler_used": "2.5.6",
+    "install_command": "bundle _2.5.6_ install (BUNDLE_PATH=tmp_probe_e3/murex_gems)",
+    "build_command": "bundle _2.5.6_ exec jekyll build --trace"
+   },
+   "install_seconds": 3.9,
+   "install_ok": true,
+   "build_seconds": 11.1,
+   "build_ok": true,
+   "page_count": 41,
+   "list_pages": [
+    {
+     "path": "archives/index.html",
+     "main_list_selector": "div#main > div.archive",
+     "selector_reason": "inside <div> the element with the most links to content pages (8 distinct content-page targets; deepest on ties); tag=\"div\" id=\"None\" class=\"archive\"; 25 descendant <article> items",
+     "link_count": 8
+    },
+    {
+     "path": "categories/index.html",
+     "main_list_selector": "section#foundations.taxonomy__section > div.entries-list",
+     "selector_reason": "inside <div> the element with the most links to content pages (8 distinct content-page targets; deepest on ties); tag=\"div\" id=\"None\" class=\"entries-list\"; 8 descendant <article> items",
+     "link_count": 8
+    },
+    {
+     "path": "index.html",
+     "main_list_selector": "div.archive > div.entries-grid",
+     "selector_reason": "inside <div> the element with the most links to content pages (3 distinct content-page targets; deepest on ties); tag=\"div\" id=\"None\" class=\"entries-grid\"; 8 descendant <article> items",
+     "link_count": 3
+    },
+    {
+     "path": "tags/index.html",
+     "main_list_selector": "div#main > div.archive",
+     "selector_reason": "inside <div> the element with the most links to content pages (8 distinct content-page targets; deepest on ties); tag=\"div\" id=\"None\" class=\"archive\"; 109 descendant <article> items",
+     "link_count": 8
+    }
+   ]
+  },
+  {
+   "sha": "35821374bace999ca037ce1e819db23f569ea8a7",
+   "date": "2024-09-06",
+   "adds_new_content": true,
+   "worktree_method": "git worktree add --detach on blobless clone",
+   "output_dir_config_line": "_site (Jekyll default; no destination: line in _config.yml at any of the 8 commits)",
+   "toolchain": {
+    "ruby_declared": "3.2.3",
+    "ruby_used": "3.2.2 via rbenv (only Ruby installed locally; .ruby-version names 3.2.3)",
+    "ruby_rule": "from .ruby-version; 3.2.3 not installed locally, used installed 3.2.2",
+    "bundler_declared": "2.5.6",
+    "bundler_used": "2.5.6",
+    "install_command": "bundle _2.5.6_ install (BUNDLE_PATH=tmp_probe_e3/murex_gems)",
+    "build_command": "bundle _2.5.6_ exec jekyll build --trace"
+   },
+   "install_seconds": 1.2,
+   "install_ok": true,
+   "build_seconds": 9.9,
+   "build_ok": true,
+   "page_count": 42,
+   "list_pages": [
+    {
+     "path": "archives/index.html",
+     "main_list_selector": "div#main > div.archive",
+     "selector_reason": "inside <div> the element with the most links to content pages (9 distinct content-page targets; deepest on ties); tag=\"div\" id=\"None\" class=\"archive\"; 26 descendant <article> items",
+     "link_count": 9
+    },
+    {
+     "path": "categories/index.html",
+     "main_list_selector": "section#foundations.taxonomy__section > div.entries-list",
+     "selector_reason": "inside <div> the element with the most links to content pages (9 distinct content-page targets; deepest on ties); tag=\"div\" id=\"None\" class=\"entries-list\"; 9 descendant <article> items",
+     "link_count": 9
+    },
+    {
+     "path": "index.html",
+     "main_list_selector": "div.archive > div.entries-grid",
+     "selector_reason": "inside <div> the element with the most links to content pages (4 distinct content-page targets; deepest on ties); tag=\"div\" id=\"None\" class=\"entries-grid\"; 8 descendant <article> items",
+     "link_count": 4
+    },
+    {
+     "path": "tags/index.html",
+     "main_list_selector": "div#main > div.archive",
+     "selector_reason": "inside <div> the element with the most links to content pages (9 distinct content-page targets; deepest on ties); tag=\"div\" id=\"None\" class=\"archive\"; 114 descendant <article> items",
+     "link_count": 9
+    }
+   ]
+  },
+  {
+   "sha": "91cc9749676c4d719c6a5b52b2bcf933fba19701",
+   "date": "2024-10-11",
+   "adds_new_content": false,
+   "worktree_method": "git worktree add --detach on blobless clone",
+   "output_dir_config_line": "_site (Jekyll default; no destination: line in _config.yml at any of the 8 commits)",
+   "toolchain": {
+    "ruby_declared": "3.2.3",
+    "ruby_used": "3.2.2 via rbenv (only Ruby installed locally; .ruby-version names 3.2.3)",
+    "ruby_rule": "from .ruby-version; 3.2.3 not installed locally, used installed 3.2.2",
+    "bundler_declared": "2.5.6",
+    "bundler_used": "2.5.6",
+    "install_command": "bundle _2.5.6_ install (BUNDLE_PATH=tmp_probe_e3/murex_gems)",
+    "build_command": "bundle _2.5.6_ exec jekyll build --trace"
+   },
+   "install_seconds": 1.4,
+   "install_ok": true,
+   "build_seconds": 11.2,
+   "build_ok": true,
+   "page_count": 43,
+   "list_pages": [
+    {
+     "path": "archives/index.html",
+     "main_list_selector": "div#main > div.archive",
+     "selector_reason": "inside <div> the element with the most links to content pages (10 distinct content-page targets; deepest on ties); tag=\"div\" id=\"None\" class=\"archive\"; 27 descendant <article> items",
+     "link_count": 10
+    },
+    {
+     "path": "categories/index.html",
+     "main_list_selector": "section#foundations.taxonomy__section > div.entries-list",
+     "selector_reason": "inside <div> the element with the most links to content pages (10 distinct content-page targets; deepest on ties); tag=\"div\" id=\"None\" class=\"entries-list\"; 10 descendant <article> items",
+     "link_count": 10
+    },
+    {
+     "path": "index.html",
+     "main_list_selector": "div.archive > div.entries-grid",
+     "selector_reason": "inside <div> the element with the most links to content pages (5 distinct content-page targets; deepest on ties); tag=\"div\" id=\"None\" class=\"entries-grid\"; 8 descendant <article> items",
+     "link_count": 5
+    },
+    {
+     "path": "page4/index.html",
+     "main_list_selector": "div.archive > div.entries-grid",
+     "selector_reason": "inside <div> the element with the most links to content pages (3 distinct content-page targets; deepest on ties); tag=\"div\" id=\"None\" class=\"entries-grid\"; 3 descendant <article> items",
+     "link_count": 3
+    },
+    {
+     "path": "tags/index.html",
+     "main_list_selector": "div#main > div.archive",
+     "selector_reason": "inside <div> the element with the most links to content pages (10 distinct content-page targets; deepest on ties); tag=\"div\" id=\"None\" class=\"archive\"; 120 descendant <article> items",
+     "link_count": 10
+    }
+   ]
+  },
+  {
+   "sha": "12bc5e7a35580d1cae79b8b789842911cff99bfa",
+   "date": "2024-10-28",
+   "adds_new_content": false,
+   "worktree_method": "git worktree add --detach on blobless clone",
+   "output_dir_config_line": "_site (Jekyll default; no destination: line in _config.yml at any of the 8 commits)",
+   "toolchain": {
+    "ruby_declared": "3.2.3",
+    "ruby_used": "3.2.2 via rbenv (only Ruby installed locally; .ruby-version names 3.2.3)",
+    "ruby_rule": "from .ruby-version; 3.2.3 not installed locally, used installed 3.2.2",
+    "bundler_declared": "2.5.6",
+    "bundler_used": "2.5.6",
+    "install_command": "bundle _2.5.6_ install (BUNDLE_PATH=tmp_probe_e3/murex_gems)",
+    "build_command": "bundle _2.5.6_ exec jekyll build --trace"
+   },
+   "install_seconds": 2.4,
+   "install_ok": true,
+   "build_seconds": 23.1,
+   "build_ok": true,
+   "page_count": 44,
+   "list_pages": [
+    {
+     "path": "archives/index.html",
+     "main_list_selector": "div#main > div.archive",
+     "selector_reason": "inside <div> the element with the most links to content pages (10 distinct content-page targets; deepest on ties); tag=\"div\" id=\"None\" class=\"archive\"; 28 descendant <article> items",
+     "link_count": 10
+    },
+    {
+     "path": "categories/index.html",
+     "main_list_selector": "section#foundations.taxonomy__section > div.entries-list",
+     "selector_reason": "inside <div> the element with the most links to content pages (10 distinct content-page targets; deepest on ties); tag=\"div\" id=\"None\" class=\"entries-list\"; 10 descendant <article> items",
+     "link_count": 10
+    },
+    {
+     "path": "index.html",
+     "main_list_selector": "div.archive > div.entries-grid",
+     "selector_reason": "inside <div> the element with the most links to content pages (5 distinct content-page targets; deepest on ties); tag=\"div\" id=\"None\" class=\"entries-grid\"; 8 descendant <article> items",
+     "link_count": 5
+    },
+    {
+     "path": "page4/index.html",
+     "main_list_selector": "div.archive > div.entries-grid",
+     "selector_reason": "inside <div> the element with the most links to content pages (3 distinct content-page targets; deepest on ties); tag=\"div\" id=\"None\" class=\"entries-grid\"; 4 descendant <article> items",
+     "link_count": 3
+    },
+    {
+     "path": "tags/index.html",
+     "main_list_selector": "div#main > div.archive",
+     "selector_reason": "inside <div> the element with the most links to content pages (10 distinct content-page targets; deepest on ties); tag=\"div\" id=\"None\" class=\"archive\"; 124 descendant <article> items",
+     "link_count": 10
+    }
+   ]
+  },
+  {
+   "sha": "e7bd032984554f943aa1224fa3f0888ffa8fa7f9",
+   "date": "2024-11-23",
+   "adds_new_content": false,
+   "worktree_method": "git worktree add --detach on blobless clone",
+   "output_dir_config_line": "_site (Jekyll default; no destination: line in _config.yml at any of the 8 commits)",
+   "toolchain": {
+    "ruby_declared": "3.2.3",
+    "ruby_used": "3.2.2 via rbenv (only Ruby installed locally; .ruby-version names 3.2.3)",
+    "ruby_rule": "from .ruby-version; 3.2.3 not installed locally, used installed 3.2.2",
+    "bundler_declared": "2.5.6",
+    "bundler_used": "2.5.6",
+    "install_command": "bundle _2.5.6_ install (BUNDLE_PATH=tmp_probe_e3/murex_gems)",
+    "build_command": "bundle _2.5.6_ exec jekyll build --trace"
+   },
+   "install_seconds": 2.7,
+   "install_ok": true,
+   "build_seconds": 12.0,
+   "build_ok": true,
+   "page_count": 45,
+   "list_pages": [
+    {
+     "path": "archives/index.html",
+     "main_list_selector": "div#main > div.archive",
+     "selector_reason": "inside <div> the element with the most links to content pages (10 distinct content-page targets; deepest on ties); tag=\"div\" id=\"None\" class=\"archive\"; 29 descendant <article> items",
+     "link_count": 10
+    },
+    {
+     "path": "categories/index.html",
+     "main_list_selector": "section#foundations.taxonomy__section > div.entries-list",
+     "selector_reason": "inside <div> the element with the most links to content pages (10 distinct content-page targets; deepest on ties); tag=\"div\" id=\"None\" class=\"entries-list\"; 10 descendant <article> items",
+     "link_count": 10
+    },
+    {
+     "path": "index.html",
+     "main_list_selector": "div.archive > div.entries-grid",
+     "selector_reason": "inside <div> the element with the most links to content pages (5 distinct content-page targets; deepest on ties); tag=\"div\" id=\"None\" class=\"entries-grid\"; 8 descendant <article> items",
+     "link_count": 5
+    },
+    {
+     "path": "page4/index.html",
+     "main_list_selector": "div.archive > div.entries-grid",
+     "selector_reason": "inside <div> the element with the most links to content pages (3 distinct content-page targets; deepest on ties); tag=\"div\" id=\"None\" class=\"entries-grid\"; 5 descendant <article> items",
+     "link_count": 3
+    },
+    {
+     "path": "tags/index.html",
+     "main_list_selector": "div#main > div.archive",
+     "selector_reason": "inside <div> the element with the most links to content pages (10 distinct content-page targets; deepest on ties); tag=\"div\" id=\"None\" class=\"archive\"; 125 descendant <article> items",
+     "link_count": 10
+    }
+   ]
+  },
+  {
+   "sha": "48592357dc6480affb91362caf0cac12228ea3e5",
+   "date": "2024-12-12",
+   "adds_new_content": false,
+   "worktree_method": "git worktree add --detach on blobless clone",
+   "output_dir_config_line": "_site (Jekyll default; no destination: line in _config.yml at any of the 8 commits)",
+   "toolchain": {
+    "ruby_declared": "3.2.3",
+    "ruby_used": "3.2.2 via rbenv (only Ruby installed locally; .ruby-version names 3.2.3)",
+    "ruby_rule": "from .ruby-version; 3.2.3 not installed locally, used installed 3.2.2",
+    "bundler_declared": "2.5.6",
+    "bundler_used": "2.5.6",
+    "install_command": "bundle _2.5.6_ install (BUNDLE_PATH=tmp_probe_e3/murex_gems)",
+    "build_command": "bundle _2.5.6_ exec jekyll build --trace"
+   },
+   "install_seconds": 1.7,
+   "install_ok": true,
+   "build_seconds": 16.7,
+   "build_ok": true,
+   "page_count": 46,
+   "list_pages": [
+    {
+     "path": "archives/index.html",
+     "main_list_selector": "div#main > div.archive",
+     "selector_reason": "inside <div> the element with the most links to content pages (10 distinct content-page targets; deepest on ties); tag=\"div\" id=\"None\" class=\"archive\"; 30 descendant <article> items",
+     "link_count": 10
+    },
+    {
+     "path": "categories/index.html",
+     "main_list_selector": "section#foundations.taxonomy__section > div.entries-list",
+     "selector_reason": "inside <div> the element with the most links to content pages (10 distinct content-page targets; deepest on ties); tag=\"div\" id=\"None\" class=\"entries-list\"; 10 descendant <article> items",
+     "link_count": 10
+    },
+    {
+     "path": "index.html",
+     "main_list_selector": "div.archive > div.entries-grid",
+     "selector_reason": "inside <div> the element with the most links to content pages (5 distinct content-page targets; deepest on ties); tag=\"div\" id=\"None\" class=\"entries-grid\"; 8 descendant <article> items",
+     "link_count": 5
+    },
+    {
+     "path": "page4/index.html",
+     "main_list_selector": "div.archive > div.entries-grid",
+     "selector_reason": "inside <div> the element with the most links to content pages (3 distinct content-page targets; deepest on ties); tag=\"div\" id=\"None\" class=\"entries-grid\"; 6 descendant <article> items",
+     "link_count": 3
+    },
+    {
+     "path": "tags/index.html",
+     "main_list_selector": "div#main > div.archive",
+     "selector_reason": "inside <div> the element with the most links to content pages (10 distinct content-page targets; deepest on ties); tag=\"div\" id=\"None\" class=\"archive\"; 132 descendant <article> items",
+     "link_count": 10
+    }
+   ]
+  },
+  {
+   "sha": "9ef13be7edaf495c386b4506efea56d28ef87362",
+   "date": "2025-01-26",
+   "adds_new_content": false,
+   "worktree_method": "git worktree add --detach on blobless clone",
+   "output_dir_config_line": "_site (Jekyll default; no destination: line in _config.yml at any of the 8 commits)",
+   "toolchain": {
+    "ruby_declared": "3.2.3",
+    "ruby_used": "3.2.2 via rbenv (only Ruby installed locally; .ruby-version names 3.2.3)",
+    "ruby_rule": "from .ruby-version; 3.2.3 not installed locally, used installed 3.2.2",
+    "bundler_declared": "2.5.6",
+    "bundler_used": "2.5.6",
+    "install_command": "bundle _2.5.6_ install (BUNDLE_PATH=tmp_probe_e3/murex_gems)",
+    "build_command": "bundle _2.5.6_ exec jekyll build --trace"
+   },
+   "install_seconds": 3.6,
+   "install_ok": true,
+   "build_seconds": 18.4,
+   "build_ok": true,
+   "page_count": 46,
+   "list_pages": [
+    {
+     "path": "archives/index.html",
+     "main_list_selector": "div#main > div.archive",
+     "selector_reason": "inside <div> the element with the most links to content pages (10 distinct content-page targets; deepest on ties); tag=\"div\" id=\"None\" class=\"archive\"; 30 descendant <article> items",
+     "link_count": 10
+    },
+    {
+     "path": "categories/index.html",
+     "main_list_selector": "section#foundations.taxonomy__section > div.entries-list",
+     "selector_reason": "inside <div> the element with the most links to content pages (10 distinct content-page targets; deepest on ties); tag=\"div\" id=\"None\" class=\"entries-list\"; 10 descendant <article> items",
+     "link_count": 10
+    },
+    {
+     "path": "index.html",
+     "main_list_selector": "div.archive > div.entries-grid",
+     "selector_reason": "inside <div> the element with the most links to content pages (5 distinct content-page targets; deepest on ties); tag=\"div\" id=\"None\" class=\"entries-grid\"; 8 descendant <article> items",
+     "link_count": 5
+    },
+    {
+     "path": "page4/index.html",
+     "main_list_selector": "div.archive > div.entries-grid",
+     "selector_reason": "inside <div> the element with the most links to content pages (3 distinct content-page targets; deepest on ties); tag=\"div\" id=\"None\" class=\"entries-grid\"; 6 descendant <article> items",
+     "link_count": 3
+    },
+    {
+     "path": "tags/index.html",
+     "main_list_selector": "div#main > div.archive",
+     "selector_reason": "inside <div> the element with the most links to content pages (10 distinct content-page targets; deepest on ties); tag=\"div\" id=\"None\" class=\"archive\"; 132 descendant <article> items",
+     "link_count": 10
+    }
+   ]
+  }
+ ],
+ "median_page_count": 43.5,
+ "median_build_seconds": 14.35,
+ "phase7": {
+  "rebuilt_commits": [
+   "0b3a2f9cd52b6edf6327cbd36b83b4d2926b8c3b",
+   "9ef13be7edaf495c386b4506efea56d28ef87362"
+  ],
+  "pages_compared": 85,
+  "all_body_identical": true,
+  "differing_pages": [],
+  "distinct_causes": {}
+ },
+ "verdict": "corpus_ready",
+ "verdict_reason": "8/8 built; median pages 43.5; list pages present at every commit with changing main-list link counts; both reproducibility rebuilds byte-identical on every page body"
+}

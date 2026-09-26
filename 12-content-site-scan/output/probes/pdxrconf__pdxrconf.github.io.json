@@ -1,0 +1,371 @@
+{
+ "repo": "pdxrconf/pdxrconf.github.io",
+ "bucket": "H",
+ "window": {
+  "start": "2025-01-04",
+  "end": "2025-07-06",
+  "page_touching_commits": 38,
+  "new_content_commits": 7
+ },
+ "selection": [
+  {
+   "sha": "30718509deee85107b2ced1b536b7d02b1b6c578",
+   "date": "2025-01-04",
+   "adds_new_content": false
+  },
+  {
+   "sha": "8688c23399ebdf77dbf9330bf4494ff22dd161a5",
+   "date": "2025-02-18",
+   "adds_new_content": false
+  },
+  {
+   "sha": "72dfd121632f8596a96b6c56c9e19799b94d85fd",
+   "date": "2025-04-08",
+   "adds_new_content": true
+  },
+  {
+   "sha": "5547ac91df4c08b44ad84f34dd52388f967c0d49",
+   "date": "2025-04-29",
+   "adds_new_content": true
+  },
+  {
+   "sha": "66da793a525bf16973990bc50effb9f7ccebe71b",
+   "date": "2025-05-01",
+   "adds_new_content": true
+  },
+  {
+   "sha": "c4bbe4880c5bafff6949048b1a9b8dbac7ea87f0",
+   "date": "2025-05-01",
+   "adds_new_content": false
+  },
+  {
+   "sha": "169559bfb613fc859177c2651d366705e4dc8d3b",
+   "date": "2025-06-16",
+   "adds_new_content": false
+  },
+  {
+   "sha": "15209ae09468fa1d9c6c1e9a654d1ef86d86b260",
+   "date": "2025-06-30",
+   "adds_new_content": false
+  }
+ ],
+ "commits": [
+  {
+   "sha": "30718509deee85107b2ced1b536b7d02b1b6c578",
+   "date": "2025-01-04",
+   "adds_new_content": false,
+   "hugo_version": "0.62.2 (pinned in netlify.toml at every probed commit: HUGO_VERSION = \"0.62.2\")",
+   "build_ok": true,
+   "build_seconds": 8.69,
+   "error_excerpt": null,
+   "page_count": 191,
+   "output_dir_config_line": "netlify.toml [build]: publish = \"public\"",
+   "list_pages": [
+    {
+     "path": "archive/index.html",
+     "main_list_selector": "#blog-listing-medium section.post",
+     "selector_reason": "Both list templates (layouts/_default/list.html: \"{{ $paginator := .Paginate (where .Data.Pages \\\"Type\\\" \\\"blog\\\") }} ... {{ range $paginator.Pages }} <section class=\\\"post\\\">\"; layouts/speakers/list.html: \"{{ range (.Pages.ByParam \\\"categories\\\") }} <section class=\\\"post\\\">\" ) render one <section class=\"post\"> per listed item inside <div id=\"blog-listing-medium\">; this is the main list container. [post index (section list; layouts/_default/list.html); 0 list items]",
+     "link_count": 0
+    },
+    {
+     "path": "speakers/index.html",
+     "main_list_selector": "#blog-listing-medium section.post",
+     "selector_reason": "Both list templates (layouts/_default/list.html: \"{{ $paginator := .Paginate (where .Data.Pages \\\"Type\\\" \\\"blog\\\") }} ... {{ range $paginator.Pages }} <section class=\\\"post\\\">\"; layouts/speakers/list.html: \"{{ range (.Pages.ByParam \\\"categories\\\") }} <section class=\\\"post\\\">\" ) render one <section class=\"post\"> per listed item inside <div id=\"blog-listing-medium\">; this is the main list container. [speakers list (layouts/speakers/list.html); 63 list items]",
+     "link_count": 0
+    },
+    {
+     "path": "categories/index.html",
+     "main_list_selector": "#blog-listing-medium section.post",
+     "selector_reason": "Both list templates (layouts/_default/list.html: \"{{ $paginator := .Paginate (where .Data.Pages \\\"Type\\\" \\\"blog\\\") }} ... {{ range $paginator.Pages }} <section class=\\\"post\\\">\"; layouts/speakers/list.html: \"{{ range (.Pages.ByParam \\\"categories\\\") }} <section class=\\\"post\\\">\" ) render one <section class=\"post\"> per listed item inside <div id=\"blog-listing-medium\">; this is the main list container. [taxonomy list (categories); 0 list items]",
+     "link_count": 0
+    },
+    {
+     "path": "tags/index.html",
+     "main_list_selector": "#blog-listing-medium section.post",
+     "selector_reason": "Both list templates (layouts/_default/list.html: \"{{ $paginator := .Paginate (where .Data.Pages \\\"Type\\\" \\\"blog\\\") }} ... {{ range $paginator.Pages }} <section class=\\\"post\\\">\"; layouts/speakers/list.html: \"{{ range (.Pages.ByParam \\\"categories\\\") }} <section class=\\\"post\\\">\" ) render one <section class=\"post\"> per listed item inside <div id=\"blog-listing-medium\">; this is the main list container. [taxonomy list (tags); 0 list items]",
+     "link_count": 0
+    }
+   ],
+   "worktree_method": "sequential detached checkout + git clean -fdx in single clone (git worktree add fails on these partial clones: \"Could not reset index file to revision HEAD\")"
+  },
+  {
+   "sha": "8688c23399ebdf77dbf9330bf4494ff22dd161a5",
+   "date": "2025-02-18",
+   "adds_new_content": false,
+   "hugo_version": "0.62.2 (pinned in netlify.toml at every probed commit: HUGO_VERSION = \"0.62.2\")",
+   "build_ok": true,
+   "build_seconds": 3.56,
+   "error_excerpt": null,
+   "page_count": 191,
+   "output_dir_config_line": "netlify.toml [build]: publish = \"public\"",
+   "list_pages": [
+    {
+     "path": "archive/index.html",
+     "main_list_selector": "#blog-listing-medium section.post",
+     "selector_reason": "Both list templates (layouts/_default/list.html: \"{{ $paginator := .Paginate (where .Data.Pages \\\"Type\\\" \\\"blog\\\") }} ... {{ range $paginator.Pages }} <section class=\\\"post\\\">\"; layouts/speakers/list.html: \"{{ range (.Pages.ByParam \\\"categories\\\") }} <section class=\\\"post\\\">\" ) render one <section class=\"post\"> per listed item inside <div id=\"blog-listing-medium\">; this is the main list container. [post index (section list; layouts/_default/list.html); 0 list items]",
+     "link_count": 0
+    },
+    {
+     "path": "speakers/index.html",
+     "main_list_selector": "#blog-listing-medium section.post",
+     "selector_reason": "Both list templates (layouts/_default/list.html: \"{{ $paginator := .Paginate (where .Data.Pages \\\"Type\\\" \\\"blog\\\") }} ... {{ range $paginator.Pages }} <section class=\\\"post\\\">\"; layouts/speakers/list.html: \"{{ range (.Pages.ByParam \\\"categories\\\") }} <section class=\\\"post\\\">\" ) render one <section class=\"post\"> per listed item inside <div id=\"blog-listing-medium\">; this is the main list container. [speakers list (layouts/speakers/list.html); 63 list items]",
+     "link_count": 0
+    },
+    {
+     "path": "categories/index.html",
+     "main_list_selector": "#blog-listing-medium section.post",
+     "selector_reason": "Both list templates (layouts/_default/list.html: \"{{ $paginator := .Paginate (where .Data.Pages \\\"Type\\\" \\\"blog\\\") }} ... {{ range $paginator.Pages }} <section class=\\\"post\\\">\"; layouts/speakers/list.html: \"{{ range (.Pages.ByParam \\\"categories\\\") }} <section class=\\\"post\\\">\" ) render one <section class=\"post\"> per listed item inside <div id=\"blog-listing-medium\">; this is the main list container. [taxonomy list (categories); 0 list items]",
+     "link_count": 0
+    },
+    {
+     "path": "tags/index.html",
+     "main_list_selector": "#blog-listing-medium section.post",
+     "selector_reason": "Both list templates (layouts/_default/list.html: \"{{ $paginator := .Paginate (where .Data.Pages \\\"Type\\\" \\\"blog\\\") }} ... {{ range $paginator.Pages }} <section class=\\\"post\\\">\"; layouts/speakers/list.html: \"{{ range (.Pages.ByParam \\\"categories\\\") }} <section class=\\\"post\\\">\" ) render one <section class=\"post\"> per listed item inside <div id=\"blog-listing-medium\">; this is the main list container. [taxonomy list (tags); 0 list items]",
+     "link_count": 0
+    }
+   ],
+   "worktree_method": "sequential detached checkout + git clean -fdx in single clone (git worktree add fails on these partial clones: \"Could not reset index file to revision HEAD\")"
+  },
+  {
+   "sha": "72dfd121632f8596a96b6c56c9e19799b94d85fd",
+   "date": "2025-04-08",
+   "adds_new_content": true,
+   "hugo_version": "0.62.2 (pinned in netlify.toml at every probed commit: HUGO_VERSION = \"0.62.2\")",
+   "build_ok": true,
+   "build_seconds": 4.21,
+   "error_excerpt": null,
+   "page_count": 200,
+   "output_dir_config_line": "netlify.toml [build]: publish = \"public\"",
+   "list_pages": [
+    {
+     "path": "archive/index.html",
+     "main_list_selector": "#blog-listing-medium section.post",
+     "selector_reason": "Both list templates (layouts/_default/list.html: \"{{ $paginator := .Paginate (where .Data.Pages \\\"Type\\\" \\\"blog\\\") }} ... {{ range $paginator.Pages }} <section class=\\\"post\\\">\"; layouts/speakers/list.html: \"{{ range (.Pages.ByParam \\\"categories\\\") }} <section class=\\\"post\\\">\" ) render one <section class=\"post\"> per listed item inside <div id=\"blog-listing-medium\">; this is the main list container. [post index (section list; layouts/_default/list.html); 0 list items]",
+     "link_count": 0
+    },
+    {
+     "path": "speakers/index.html",
+     "main_list_selector": "#blog-listing-medium section.post",
+     "selector_reason": "Both list templates (layouts/_default/list.html: \"{{ $paginator := .Paginate (where .Data.Pages \\\"Type\\\" \\\"blog\\\") }} ... {{ range $paginator.Pages }} <section class=\\\"post\\\">\"; layouts/speakers/list.html: \"{{ range (.Pages.ByParam \\\"categories\\\") }} <section class=\\\"post\\\">\" ) render one <section class=\"post\"> per listed item inside <div id=\"blog-listing-medium\">; this is the main list container. [speakers list (layouts/speakers/list.html); 70 list items]",
+     "link_count": 0
+    },
+    {
+     "path": "categories/index.html",
+     "main_list_selector": "#blog-listing-medium section.post",
+     "selector_reason": "Both list templates (layouts/_default/list.html: \"{{ $paginator := .Paginate (where .Data.Pages \\\"Type\\\" \\\"blog\\\") }} ... {{ range $paginator.Pages }} <section class=\\\"post\\\">\"; layouts/speakers/list.html: \"{{ range (.Pages.ByParam \\\"categories\\\") }} <section class=\\\"post\\\">\" ) render one <section class=\"post\"> per listed item inside <div id=\"blog-listing-medium\">; this is the main list container. [taxonomy list (categories); 0 list items]",
+     "link_count": 0
+    },
+    {
+     "path": "tags/index.html",
+     "main_list_selector": "#blog-listing-medium section.post",
+     "selector_reason": "Both list templates (layouts/_default/list.html: \"{{ $paginator := .Paginate (where .Data.Pages \\\"Type\\\" \\\"blog\\\") }} ... {{ range $paginator.Pages }} <section class=\\\"post\\\">\"; layouts/speakers/list.html: \"{{ range (.Pages.ByParam \\\"categories\\\") }} <section class=\\\"post\\\">\" ) render one <section class=\"post\"> per listed item inside <div id=\"blog-listing-medium\">; this is the main list container. [taxonomy list (tags); 0 list items]",
+     "link_count": 0
+    }
+   ],
+   "worktree_method": "sequential detached checkout + git clean -fdx in single clone (git worktree add fails on these partial clones: \"Could not reset index file to revision HEAD\")"
+  },
+  {
+   "sha": "5547ac91df4c08b44ad84f34dd52388f967c0d49",
+   "date": "2025-04-29",
+   "adds_new_content": true,
+   "hugo_version": "0.62.2 (pinned in netlify.toml at every probed commit: HUGO_VERSION = \"0.62.2\")",
+   "build_ok": true,
+   "build_seconds": 3.44,
+   "error_excerpt": null,
+   "page_count": 201,
+   "output_dir_config_line": "netlify.toml [build]: publish = \"public\"",
+   "list_pages": [
+    {
+     "path": "archive/index.html",
+     "main_list_selector": "#blog-listing-medium section.post",
+     "selector_reason": "Both list templates (layouts/_default/list.html: \"{{ $paginator := .Paginate (where .Data.Pages \\\"Type\\\" \\\"blog\\\") }} ... {{ range $paginator.Pages }} <section class=\\\"post\\\">\"; layouts/speakers/list.html: \"{{ range (.Pages.ByParam \\\"categories\\\") }} <section class=\\\"post\\\">\" ) render one <section class=\"post\"> per listed item inside <div id=\"blog-listing-medium\">; this is the main list container. [post index (section list; layouts/_default/list.html); 0 list items]",
+     "link_count": 0
+    },
+    {
+     "path": "speakers/index.html",
+     "main_list_selector": "#blog-listing-medium section.post",
+     "selector_reason": "Both list templates (layouts/_default/list.html: \"{{ $paginator := .Paginate (where .Data.Pages \\\"Type\\\" \\\"blog\\\") }} ... {{ range $paginator.Pages }} <section class=\\\"post\\\">\"; layouts/speakers/list.html: \"{{ range (.Pages.ByParam \\\"categories\\\") }} <section class=\\\"post\\\">\" ) render one <section class=\"post\"> per listed item inside <div id=\"blog-listing-medium\">; this is the main list container. [speakers list (layouts/speakers/list.html); 71 list items]",
+     "link_count": 0
+    },
+    {
+     "path": "categories/index.html",
+     "main_list_selector": "#blog-listing-medium section.post",
+     "selector_reason": "Both list templates (layouts/_default/list.html: \"{{ $paginator := .Paginate (where .Data.Pages \\\"Type\\\" \\\"blog\\\") }} ... {{ range $paginator.Pages }} <section class=\\\"post\\\">\"; layouts/speakers/list.html: \"{{ range (.Pages.ByParam \\\"categories\\\") }} <section class=\\\"post\\\">\" ) render one <section class=\"post\"> per listed item inside <div id=\"blog-listing-medium\">; this is the main list container. [taxonomy list (categories); 0 list items]",
+     "link_count": 0
+    },
+    {
+     "path": "tags/index.html",
+     "main_list_selector": "#blog-listing-medium section.post",
+     "selector_reason": "Both list templates (layouts/_default/list.html: \"{{ $paginator := .Paginate (where .Data.Pages \\\"Type\\\" \\\"blog\\\") }} ... {{ range $paginator.Pages }} <section class=\\\"post\\\">\"; layouts/speakers/list.html: \"{{ range (.Pages.ByParam \\\"categories\\\") }} <section class=\\\"post\\\">\" ) render one <section class=\"post\"> per listed item inside <div id=\"blog-listing-medium\">; this is the main list container. [taxonomy list (tags); 0 list items]",
+     "link_count": 0
+    }
+   ],
+   "worktree_method": "sequential detached checkout + git clean -fdx in single clone (git worktree add fails on these partial clones: \"Could not reset index file to revision HEAD\")"
+  },
+  {
+   "sha": "66da793a525bf16973990bc50effb9f7ccebe71b",
+   "date": "2025-05-01",
+   "adds_new_content": true,
+   "hugo_version": "0.62.2 (pinned in netlify.toml at every probed commit: HUGO_VERSION = \"0.62.2\")",
+   "build_ok": true,
+   "build_seconds": 7.44,
+   "error_excerpt": null,
+   "page_count": 219,
+   "output_dir_config_line": "netlify.toml [build]: publish = \"public\"",
+   "list_pages": [
+    {
+     "path": "archive/index.html",
+     "main_list_selector": "#blog-listing-medium section.post",
+     "selector_reason": "Both list templates (layouts/_default/list.html: \"{{ $paginator := .Paginate (where .Data.Pages \\\"Type\\\" \\\"blog\\\") }} ... {{ range $paginator.Pages }} <section class=\\\"post\\\">\"; layouts/speakers/list.html: \"{{ range (.Pages.ByParam \\\"categories\\\") }} <section class=\\\"post\\\">\" ) render one <section class=\"post\"> per listed item inside <div id=\"blog-listing-medium\">; this is the main list container. [post index (section list; layouts/_default/list.html); 0 list items]",
+     "link_count": 0
+    },
+    {
+     "path": "speakers/index.html",
+     "main_list_selector": "#blog-listing-medium section.post",
+     "selector_reason": "Both list templates (layouts/_default/list.html: \"{{ $paginator := .Paginate (where .Data.Pages \\\"Type\\\" \\\"blog\\\") }} ... {{ range $paginator.Pages }} <section class=\\\"post\\\">\"; layouts/speakers/list.html: \"{{ range (.Pages.ByParam \\\"categories\\\") }} <section class=\\\"post\\\">\" ) render one <section class=\"post\"> per listed item inside <div id=\"blog-listing-medium\">; this is the main list container. [speakers list (layouts/speakers/list.html); 88 list items]",
+     "link_count": 0
+    },
+    {
+     "path": "categories/index.html",
+     "main_list_selector": "#blog-listing-medium section.post",
+     "selector_reason": "Both list templates (layouts/_default/list.html: \"{{ $paginator := .Paginate (where .Data.Pages \\\"Type\\\" \\\"blog\\\") }} ... {{ range $paginator.Pages }} <section class=\\\"post\\\">\"; layouts/speakers/list.html: \"{{ range (.Pages.ByParam \\\"categories\\\") }} <section class=\\\"post\\\">\" ) render one <section class=\"post\"> per listed item inside <div id=\"blog-listing-medium\">; this is the main list container. [taxonomy list (categories); 0 list items]",
+     "link_count": 0
+    },
+    {
+     "path": "tags/index.html",
+     "main_list_selector": "#blog-listing-medium section.post",
+     "selector_reason": "Both list templates (layouts/_default/list.html: \"{{ $paginator := .Paginate (where .Data.Pages \\\"Type\\\" \\\"blog\\\") }} ... {{ range $paginator.Pages }} <section class=\\\"post\\\">\"; layouts/speakers/list.html: \"{{ range (.Pages.ByParam \\\"categories\\\") }} <section class=\\\"post\\\">\" ) render one <section class=\"post\"> per listed item inside <div id=\"blog-listing-medium\">; this is the main list container. [taxonomy list (tags); 0 list items]",
+     "link_count": 0
+    }
+   ],
+   "worktree_method": "sequential detached checkout + git clean -fdx in single clone (git worktree add fails on these partial clones: \"Could not reset index file to revision HEAD\")"
+  },
+  {
+   "sha": "c4bbe4880c5bafff6949048b1a9b8dbac7ea87f0",
+   "date": "2025-05-01",
+   "adds_new_content": false,
+   "hugo_version": "0.62.2 (pinned in netlify.toml at every probed commit: HUGO_VERSION = \"0.62.2\")",
+   "build_ok": true,
+   "build_seconds": 5.88,
+   "error_excerpt": null,
+   "page_count": 219,
+   "output_dir_config_line": "netlify.toml [build]: publish = \"public\"",
+   "list_pages": [
+    {
+     "path": "archive/index.html",
+     "main_list_selector": "#blog-listing-medium section.post",
+     "selector_reason": "Both list templates (layouts/_default/list.html: \"{{ $paginator := .Paginate (where .Data.Pages \\\"Type\\\" \\\"blog\\\") }} ... {{ range $paginator.Pages }} <section class=\\\"post\\\">\"; layouts/speakers/list.html: \"{{ range (.Pages.ByParam \\\"categories\\\") }} <section class=\\\"post\\\">\" ) render one <section class=\"post\"> per listed item inside <div id=\"blog-listing-medium\">; this is the main list container. [post index (section list; layouts/_default/list.html); 0 list items]",
+     "link_count": 0
+    },
+    {
+     "path": "speakers/index.html",
+     "main_list_selector": "#blog-listing-medium section.post",
+     "selector_reason": "Both list templates (layouts/_default/list.html: \"{{ $paginator := .Paginate (where .Data.Pages \\\"Type\\\" \\\"blog\\\") }} ... {{ range $paginator.Pages }} <section class=\\\"post\\\">\"; layouts/speakers/list.html: \"{{ range (.Pages.ByParam \\\"categories\\\") }} <section class=\\\"post\\\">\" ) render one <section class=\"post\"> per listed item inside <div id=\"blog-listing-medium\">; this is the main list container. [speakers list (layouts/speakers/list.html); 88 list items]",
+     "link_count": 0
+    },
+    {
+     "path": "categories/index.html",
+     "main_list_selector": "#blog-listing-medium section.post",
+     "selector_reason": "Both list templates (layouts/_default/list.html: \"{{ $paginator := .Paginate (where .Data.Pages \\\"Type\\\" \\\"blog\\\") }} ... {{ range $paginator.Pages }} <section class=\\\"post\\\">\"; layouts/speakers/list.html: \"{{ range (.Pages.ByParam \\\"categories\\\") }} <section class=\\\"post\\\">\" ) render one <section class=\"post\"> per listed item inside <div id=\"blog-listing-medium\">; this is the main list container. [taxonomy list (categories); 0 list items]",
+     "link_count": 0
+    },
+    {
+     "path": "tags/index.html",
+     "main_list_selector": "#blog-listing-medium section.post",
+     "selector_reason": "Both list templates (layouts/_default/list.html: \"{{ $paginator := .Paginate (where .Data.Pages \\\"Type\\\" \\\"blog\\\") }} ... {{ range $paginator.Pages }} <section class=\\\"post\\\">\"; layouts/speakers/list.html: \"{{ range (.Pages.ByParam \\\"categories\\\") }} <section class=\\\"post\\\">\" ) render one <section class=\"post\"> per listed item inside <div id=\"blog-listing-medium\">; this is the main list container. [taxonomy list (tags); 0 list items]",
+     "link_count": 0
+    }
+   ],
+   "worktree_method": "sequential detached checkout + git clean -fdx in single clone (git worktree add fails on these partial clones: \"Could not reset index file to revision HEAD\")"
+  },
+  {
+   "sha": "169559bfb613fc859177c2651d366705e4dc8d3b",
+   "date": "2025-06-16",
+   "adds_new_content": false,
+   "hugo_version": "0.62.2 (pinned in netlify.toml at every probed commit: HUGO_VERSION = \"0.62.2\")",
+   "build_ok": true,
+   "build_seconds": 11.44,
+   "error_excerpt": null,
+   "page_count": 219,
+   "output_dir_config_line": "netlify.toml [build]: publish = \"public\"",
+   "list_pages": [
+    {
+     "path": "archive/index.html",
+     "main_list_selector": "#blog-listing-medium section.post",
+     "selector_reason": "Both list templates (layouts/_default/list.html: \"{{ $paginator := .Paginate (where .Data.Pages \\\"Type\\\" \\\"blog\\\") }} ... {{ range $paginator.Pages }} <section class=\\\"post\\\">\"; layouts/speakers/list.html: \"{{ range (.Pages.ByParam \\\"categories\\\") }} <section class=\\\"post\\\">\" ) render one <section class=\"post\"> per listed item inside <div id=\"blog-listing-medium\">; this is the main list container. [post index (section list; layouts/_default/list.html); 0 list items]",
+     "link_count": 0
+    },
+    {
+     "path": "speakers/index.html",
+     "main_list_selector": "#blog-listing-medium section.post",
+     "selector_reason": "Both list templates (layouts/_default/list.html: \"{{ $paginator := .Paginate (where .Data.Pages \\\"Type\\\" \\\"blog\\\") }} ... {{ range $paginator.Pages }} <section class=\\\"post\\\">\"; layouts/speakers/list.html: \"{{ range (.Pages.ByParam \\\"categories\\\") }} <section class=\\\"post\\\">\" ) render one <section class=\"post\"> per listed item inside <div id=\"blog-listing-medium\">; this is the main list container. [speakers list (layouts/speakers/list.html); 88 list items]",
+     "link_count": 0
+    },
+    {
+     "path": "categories/index.html",
+     "main_list_selector": "#blog-listing-medium section.post",
+     "selector_reason": "Both list templates (layouts/_default/list.html: \"{{ $paginator := .Paginate (where .Data.Pages \\\"Type\\\" \\\"blog\\\") }} ... {{ range $paginator.Pages }} <section class=\\\"post\\\">\"; layouts/speakers/list.html: \"{{ range (.Pages.ByParam \\\"categories\\\") }} <section class=\\\"post\\\">\" ) render one <section class=\"post\"> per listed item inside <div id=\"blog-listing-medium\">; this is the main list container. [taxonomy list (categories); 0 list items]",
+     "link_count": 0
+    },
+    {
+     "path": "tags/index.html",
+     "main_list_selector": "#blog-listing-medium section.post",
+     "selector_reason": "Both list templates (layouts/_default/list.html: \"{{ $paginator := .Paginate (where .Data.Pages \\\"Type\\\" \\\"blog\\\") }} ... {{ range $paginator.Pages }} <section class=\\\"post\\\">\"; layouts/speakers/list.html: \"{{ range (.Pages.ByParam \\\"categories\\\") }} <section class=\\\"post\\\">\" ) render one <section class=\"post\"> per listed item inside <div id=\"blog-listing-medium\">; this is the main list container. [taxonomy list (tags); 0 list items]",
+     "link_count": 0
+    }
+   ],
+   "worktree_method": "sequential detached checkout + git clean -fdx in single clone (git worktree add fails on these partial clones: \"Could not reset index file to revision HEAD\")"
+  },
+  {
+   "sha": "15209ae09468fa1d9c6c1e9a654d1ef86d86b260",
+   "date": "2025-06-30",
+   "adds_new_content": false,
+   "hugo_version": "0.62.2 (pinned in netlify.toml at every probed commit: HUGO_VERSION = \"0.62.2\")",
+   "build_ok": true,
+   "build_seconds": 7.02,
+   "error_excerpt": null,
+   "page_count": 219,
+   "output_dir_config_line": "netlify.toml [build]: publish = \"public\"",
+   "list_pages": [
+    {
+     "path": "archive/index.html",
+     "main_list_selector": "#blog-listing-medium section.post",
+     "selector_reason": "Both list templates (layouts/_default/list.html: \"{{ $paginator := .Paginate (where .Data.Pages \\\"Type\\\" \\\"blog\\\") }} ... {{ range $paginator.Pages }} <section class=\\\"post\\\">\"; layouts/speakers/list.html: \"{{ range (.Pages.ByParam \\\"categories\\\") }} <section class=\\\"post\\\">\" ) render one <section class=\"post\"> per listed item inside <div id=\"blog-listing-medium\">; this is the main list container. [post index (section list; layouts/_default/list.html); 0 list items]",
+     "link_count": 0
+    },
+    {
+     "path": "speakers/index.html",
+     "main_list_selector": "#blog-listing-medium section.post",
+     "selector_reason": "Both list templates (layouts/_default/list.html: \"{{ $paginator := .Paginate (where .Data.Pages \\\"Type\\\" \\\"blog\\\") }} ... {{ range $paginator.Pages }} <section class=\\\"post\\\">\"; layouts/speakers/list.html: \"{{ range (.Pages.ByParam \\\"categories\\\") }} <section class=\\\"post\\\">\" ) render one <section class=\"post\"> per listed item inside <div id=\"blog-listing-medium\">; this is the main list container. [speakers list (layouts/speakers/list.html); 88 list items]",
+     "link_count": 0
+    },
+    {
+     "path": "categories/index.html",
+     "main_list_selector": "#blog-listing-medium section.post",
+     "selector_reason": "Both list templates (layouts/_default/list.html: \"{{ $paginator := .Paginate (where .Data.Pages \\\"Type\\\" \\\"blog\\\") }} ... {{ range $paginator.Pages }} <section class=\\\"post\\\">\"; layouts/speakers/list.html: \"{{ range (.Pages.ByParam \\\"categories\\\") }} <section class=\\\"post\\\">\" ) render one <section class=\"post\"> per listed item inside <div id=\"blog-listing-medium\">; this is the main list container. [taxonomy list (categories); 0 list items]",
+     "link_count": 0
+    },
+    {
+     "path": "tags/index.html",
+     "main_list_selector": "#blog-listing-medium section.post",
+     "selector_reason": "Both list templates (layouts/_default/list.html: \"{{ $paginator := .Paginate (where .Data.Pages \\\"Type\\\" \\\"blog\\\") }} ... {{ range $paginator.Pages }} <section class=\\\"post\\\">\"; layouts/speakers/list.html: \"{{ range (.Pages.ByParam \\\"categories\\\") }} <section class=\\\"post\\\">\" ) render one <section class=\"post\"> per listed item inside <div id=\"blog-listing-medium\">; this is the main list container. [taxonomy list (tags); 0 list items]",
+     "link_count": 0
+    }
+   ],
+   "worktree_method": "sequential detached checkout + git clean -fdx in single clone (git worktree add fails on these partial clones: \"Could not reset index file to revision HEAD\")"
+  }
+ ],
+ "median_page_count": 210.0,
+ "median_build_seconds": 6.449999999999999,
+ "phase7": {
+  "rebuilt_commits": [
+   "30718509deee85107b2ced1b536b7d02b1b6c578",
+   "66da793a525bf16973990bc50effb9f7ccebe71b"
+  ],
+  "pages_compared": 410,
+  "all_body_identical": true,
+  "differing_pages": []
+ },
+ "verdict": "corpus_ready",
+ "verdict_reason": "8/8 builds OK (Hugo 0.62.2 pinned in netlify.toml at every probed commit), median 210 static pages (>= 20), list pages present at every commit, and Phase 7 rebuilds of 2 commits fully reproducible (410/410 pages identical body sha256). The speakers list main-list count changes across commits (63, 63, 70, 71, 88, 88, 88, 88 per layouts/speakers/list.html ranging .Pages.ByParam \"categories\") as new speaker content is added; archive/categories/tags lists record 0 items at these commits. Content-page link counts in list items are 0 throughout (items link externally, not to content pages)."
+}

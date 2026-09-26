@@ -1,0 +1,190 @@
+{
+ "repo": "o3de/o3de.org",
+ "bucket": "H",
+ "window": {
+  "window_start_date": "2025-05-01",
+  "window_end_date": "2025-10-31",
+  "page_touching_commits": 30,
+  "new_content_commits": 6
+ },
+ "selection": [
+  {
+   "sha": "0d71acceb0b08cc627fec76f557d7e12e7580165",
+   "date": "2025-05-01",
+   "adds_new_content": true
+  },
+  {
+   "sha": "01de77d238357e5cd88d7c9e1eb6de15189da678",
+   "date": "2025-05-29",
+   "adds_new_content": false
+  },
+  {
+   "sha": "bc1ad213ba69a17a30e2fb1f185c1b41eb31c976",
+   "date": "2025-06-19",
+   "adds_new_content": true
+  },
+  {
+   "sha": "2f054544388dda64ad02a010a7b95978638c3d55",
+   "date": "2025-08-12",
+   "adds_new_content": false
+  },
+  {
+   "sha": "0661843f5fafa53a7cfcdc5a9e3bd1371526880a",
+   "date": "2025-08-22",
+   "adds_new_content": true
+  },
+  {
+   "sha": "f0d198ceb30c8f6ce66fca80425a82d37ce877dc",
+   "date": "2025-10-01",
+   "adds_new_content": false
+  },
+  {
+   "sha": "aa1f69ba90c65a0b6785d90811542f1cec3c2ee1",
+   "date": "2025-10-09",
+   "adds_new_content": false
+  },
+  {
+   "sha": "c9981f90cc3859117446abcda23c52dd0e92257b",
+   "date": "2025-10-31",
+   "adds_new_content": false
+  }
+ ],
+ "commits": [
+  {
+   "sha": "0d71acceb0b08cc627fec76f557d7e12e7580165",
+   "date": "2025-05-01",
+   "adds_new_content": true,
+   "worktree_method": "minimal checkout: full blobless worktree checkout stalled (proxy disconnects during bulk blob fetch of this multi-GB docs repo); minimal checkout used instead: `git show 0d71acce:{go.mod,hugo.toml}` into scratch dir. Module download fails before any content is read, so the outcome is identical with a full tree.",
+   "hugo_version": "0.143.0 extended",
+   "hugo_pin_source": "netlify.toml `[build.environment] HUGO_VERSION = \"0.143.0\"` (window commits; HEAD pins 0.151.0)",
+   "output_dir_config_line": "netlify.toml `[build] publish = \"public\"`; Makefile production-build runs `hugo mod get` then `hugo --minify`",
+   "prebuild_command": "/home/hatch/workspace/handoff-assignments-202609/12-content-site-scan/worker_scratch/hugobins/hugo_0.143.0 mod get",
+   "prebuild_seconds": 0.87,
+   "failed_stage": "prebuild",
+   "environment_failure": true,
+   "build_ok": false,
+   "build_seconds": 0.0,
+   "error_excerpt": [
+    "Error: failed to load modules: failed to download modules: binary with name \"go\" not found in PATH"
+   ],
+   "error_excerpt_note": "prebuild emitted only 1 non-blank line; all are shown",
+   "page_count": null,
+   "list_pages": []
+  },
+  {
+   "sha": "01de77d238357e5cd88d7c9e1eb6de15189da678",
+   "date": "2025-05-29",
+   "adds_new_content": false,
+   "worktree_method": "not attempted",
+   "hugo_version": "0.143.0 extended",
+   "hugo_pin_source": "netlify.toml `[build.environment] HUGO_VERSION = \"0.143.0\"` (window commits; HEAD pins 0.151.0)",
+   "output_dir_config_line": "netlify.toml `[build] publish = \"public\"`; Makefile production-build runs `hugo mod get` then `hugo --minify`",
+   "build_ok": false,
+   "build_seconds": 0.0,
+   "error_excerpt": [],
+   "error_excerpt_note": "not attempted: repo-wide environment failure established on commit 0d71acce (Go not installed; Hugo module downloads impossible; theme github.com/o3de/hugo-odie and github.com/o3de/api.o3de.org are Hugo modules, not vendored, module cache empty)",
+   "page_count": null,
+   "list_pages": []
+  },
+  {
+   "sha": "bc1ad213ba69a17a30e2fb1f185c1b41eb31c976",
+   "date": "2025-06-19",
+   "adds_new_content": true,
+   "worktree_method": "not attempted",
+   "hugo_version": "0.143.0 extended",
+   "hugo_pin_source": "netlify.toml `[build.environment] HUGO_VERSION = \"0.143.0\"` (window commits; HEAD pins 0.151.0)",
+   "output_dir_config_line": "netlify.toml `[build] publish = \"public\"`; Makefile production-build runs `hugo mod get` then `hugo --minify`",
+   "build_ok": false,
+   "build_seconds": 0.0,
+   "error_excerpt": [],
+   "error_excerpt_note": "not attempted: repo-wide environment failure established on commit 0d71acce (Go not installed; Hugo module downloads impossible; theme github.com/o3de/hugo-odie and github.com/o3de/api.o3de.org are Hugo modules, not vendored, module cache empty)",
+   "page_count": null,
+   "list_pages": []
+  },
+  {
+   "sha": "2f054544388dda64ad02a010a7b95978638c3d55",
+   "date": "2025-08-12",
+   "adds_new_content": false,
+   "worktree_method": "not attempted",
+   "hugo_version": "0.143.0 extended",
+   "hugo_pin_source": "netlify.toml `[build.environment] HUGO_VERSION = \"0.143.0\"` (window commits; HEAD pins 0.151.0)",
+   "output_dir_config_line": "netlify.toml `[build] publish = \"public\"`; Makefile production-build runs `hugo mod get` then `hugo --minify`",
+   "build_ok": false,
+   "build_seconds": 0.0,
+   "error_excerpt": [],
+   "error_excerpt_note": "not attempted: repo-wide environment failure established on commit 0d71acce (Go not installed; Hugo module downloads impossible; theme github.com/o3de/hugo-odie and github.com/o3de/api.o3de.org are Hugo modules, not vendored, module cache empty)",
+   "page_count": null,
+   "list_pages": []
+  },
+  {
+   "sha": "0661843f5fafa53a7cfcdc5a9e3bd1371526880a",
+   "date": "2025-08-22",
+   "adds_new_content": true,
+   "worktree_method": "not attempted",
+   "hugo_version": "0.143.0 extended",
+   "hugo_pin_source": "netlify.toml `[build.environment] HUGO_VERSION = \"0.143.0\"` (window commits; HEAD pins 0.151.0)",
+   "output_dir_config_line": "netlify.toml `[build] publish = \"public\"`; Makefile production-build runs `hugo mod get` then `hugo --minify`",
+   "build_ok": false,
+   "build_seconds": 0.0,
+   "error_excerpt": [],
+   "error_excerpt_note": "not attempted: repo-wide environment failure established on commit 0d71acce (Go not installed; Hugo module downloads impossible; theme github.com/o3de/hugo-odie and github.com/o3de/api.o3de.org are Hugo modules, not vendored, module cache empty)",
+   "page_count": null,
+   "list_pages": []
+  },
+  {
+   "sha": "f0d198ceb30c8f6ce66fca80425a82d37ce877dc",
+   "date": "2025-10-01",
+   "adds_new_content": false,
+   "worktree_method": "not attempted",
+   "hugo_version": "0.143.0 extended",
+   "hugo_pin_source": "netlify.toml `[build.environment] HUGO_VERSION = \"0.143.0\"` (window commits; HEAD pins 0.151.0)",
+   "output_dir_config_line": "netlify.toml `[build] publish = \"public\"`; Makefile production-build runs `hugo mod get` then `hugo --minify`",
+   "build_ok": false,
+   "build_seconds": 0.0,
+   "error_excerpt": [],
+   "error_excerpt_note": "not attempted: repo-wide environment failure established on commit 0d71acce (Go not installed; Hugo module downloads impossible; theme github.com/o3de/hugo-odie and github.com/o3de/api.o3de.org are Hugo modules, not vendored, module cache empty)",
+   "page_count": null,
+   "list_pages": []
+  },
+  {
+   "sha": "aa1f69ba90c65a0b6785d90811542f1cec3c2ee1",
+   "date": "2025-10-09",
+   "adds_new_content": false,
+   "worktree_method": "not attempted",
+   "hugo_version": "0.143.0 extended",
+   "hugo_pin_source": "netlify.toml `[build.environment] HUGO_VERSION = \"0.143.0\"` (window commits; HEAD pins 0.151.0)",
+   "output_dir_config_line": "netlify.toml `[build] publish = \"public\"`; Makefile production-build runs `hugo mod get` then `hugo --minify`",
+   "build_ok": false,
+   "build_seconds": 0.0,
+   "error_excerpt": [],
+   "error_excerpt_note": "not attempted: repo-wide environment failure established on commit 0d71acce (Go not installed; Hugo module downloads impossible; theme github.com/o3de/hugo-odie and github.com/o3de/api.o3de.org are Hugo modules, not vendored, module cache empty)",
+   "page_count": null,
+   "list_pages": []
+  },
+  {
+   "sha": "c9981f90cc3859117446abcda23c52dd0e92257b",
+   "date": "2025-10-31",
+   "adds_new_content": false,
+   "worktree_method": "not attempted",
+   "hugo_version": "0.143.0 extended",
+   "hugo_pin_source": "netlify.toml `[build.environment] HUGO_VERSION = \"0.143.0\"` (window commits; HEAD pins 0.151.0)",
+   "output_dir_config_line": "netlify.toml `[build] publish = \"public\"`; Makefile production-build runs `hugo mod get` then `hugo --minify`",
+   "build_ok": false,
+   "build_seconds": 0.0,
+   "error_excerpt": [],
+   "error_excerpt_note": "not attempted: repo-wide environment failure established on commit 0d71acce (Go not installed; Hugo module downloads impossible; theme github.com/o3de/hugo-odie and github.com/o3de/api.o3de.org are Hugo modules, not vendored, module cache empty)",
+   "page_count": null,
+   "list_pages": []
+  }
+ ],
+ "median_page_count": null,
+ "median_build_seconds": null,
+ "phase7": {
+  "rebuilt_commits": [],
+  "pages_compared": 0,
+  "all_body_identical": null,
+  "differing_pages": []
+ },
+ "verdict": "environment_incomplete",
+ "verdict_reason": "Pinned build (Makefile production-build: `hugo mod get` then `hugo --minify`, HUGO_VERSION 0.143.0 per netlify.toml at window commits) cannot run: the theme (github.com/o3de/hugo-odie) and API docs (github.com/o3de/api.o3de.org) are Hugo modules, not vendored, and the module cache is empty. `hugo mod get` with the pinned Hugo 0.143.0 extended fails in 0.87s with: `Error: failed to load modules: failed to download modules: binary with name \"go\" not found in PATH`. Go is not installed on this machine, so module downloads are impossible. Per assignment rules this is environment_incomplete, never broken."
+}

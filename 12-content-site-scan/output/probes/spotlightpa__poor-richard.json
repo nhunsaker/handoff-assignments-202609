@@ -1,0 +1,235 @@
+{
+ "repo": "spotlightpa/poor-richard",
+ "bucket": "H",
+ "window": {
+  "window_start_date": "2026-03-26",
+  "window_end_date": "2026-09-25",
+  "page_touching_commits": 1253,
+  "new_content_commits": 738
+ },
+ "selection": [
+  {
+   "sha": "06e80dedb0484e29158e6babd44513910d4b50d7",
+   "date": "2026-03-26",
+   "adds_new_content": false
+  },
+  {
+   "sha": "4114c03019162f8982009fd24096ab1d8597cc23",
+   "date": "2026-04-23",
+   "adds_new_content": true
+  },
+  {
+   "sha": "4406b14682d6ffeae25c531e05e4167a55f503b9",
+   "date": "2026-06-19",
+   "adds_new_content": true
+  },
+  {
+   "sha": "c62423d075432191bf0212f0685188fbcd1515de",
+   "date": "2026-07-17",
+   "adds_new_content": true
+  },
+  {
+   "sha": "6bfb4a88f618b01627f369928d577f03afe2a569",
+   "date": "2026-08-25",
+   "adds_new_content": false
+  },
+  {
+   "sha": "d5b2cf7a3c5ef59ed31ef4220c8dac86808e8766",
+   "date": "2026-09-25",
+   "adds_new_content": false
+  },
+  {
+   "sha": "232ed2791575f7ec15d6072e99e97853e93d7959",
+   "date": "2026-05-22",
+   "adds_new_content": false
+  },
+  {
+   "sha": "2e4e4b9f10e47a8969d8184e4fcdec90d6ba1639",
+   "date": "2026-05-01",
+   "adds_new_content": true
+  }
+ ],
+ "commits": [
+  {
+   "sha": "06e80dedb0484e29158e6babd44513910d4b50d7",
+   "date": "2026-03-26",
+   "adds_new_content": false,
+   "worktree_method": "git worktree add <sha> (blobless clone)",
+   "hugo_version": "0.152.2 (pinned: netlify.toml HUGO_VERSION = \"0.152.2\")",
+   "build_ok": true,
+   "build_seconds": 379.23,
+   "error_excerpt": [],
+   "page_count": 5431,
+   "output_dir_config_line": "netlify.toml [build]: publish = \"public\"",
+   "list_pages": [
+    {
+     "path": "news/index.html",
+     "main_list_selector": "#archives div[data-ga-category^='story-']",
+     "selector_reason": "layouts/news/list.html renders the post index inside `<section class=\"bg-white px-4 pb-12 pt-6\" id=\"archives\">`, ranging `$p.PageGroups` (paginator partial; content/news/_index.md front matter sets `sort-by = \"all\"`, `paginate = 60`) and invoking partial `tw/list-3-col-story.html` per month group; that partial renders one `<div class=\"contents\" data-ga-category=\"story-{{ add 1 $i }}\">` per story inside the grid `<nav>`. The selector matches exactly those per-story divs, i.e. the main list of the index page.",
+     "link_count": 60
+    }
+   ]
+  },
+  {
+   "sha": "4114c03019162f8982009fd24096ab1d8597cc23",
+   "date": "2026-04-23",
+   "adds_new_content": true,
+   "worktree_method": "git worktree add <sha> (blobless clone)",
+   "hugo_version": "0.152.2 (pinned: netlify.toml HUGO_VERSION = \"0.152.2\")",
+   "build_ok": true,
+   "build_seconds": 261.55,
+   "error_excerpt": [],
+   "page_count": 5525,
+   "output_dir_config_line": "netlify.toml [build]: publish = \"public\"",
+   "list_pages": [
+    {
+     "path": "news/index.html",
+     "main_list_selector": "#archives div[data-ga-category^='story-']",
+     "selector_reason": "layouts/news/list.html renders the post index inside `<section class=\"bg-white px-4 pb-12 pt-6\" id=\"archives\">`, ranging `$p.PageGroups` (paginator partial; content/news/_index.md front matter sets `sort-by = \"all\"`, `paginate = 60`) and invoking partial `tw/list-3-col-story.html` per month group; that partial renders one `<div class=\"contents\" data-ga-category=\"story-{{ add 1 $i }}\">` per story inside the grid `<nav>`. The selector matches exactly those per-story divs, i.e. the main list of the index page.",
+     "link_count": 60
+    }
+   ]
+  },
+  {
+   "sha": "4406b14682d6ffeae25c531e05e4167a55f503b9",
+   "date": "2026-06-19",
+   "adds_new_content": true,
+   "worktree_method": "git worktree add <sha> (blobless clone)",
+   "hugo_version": "0.162.1 (pinned: netlify.toml HUGO_VERSION = \"0.162.1\")",
+   "build_ok": true,
+   "build_seconds": 228.81,
+   "error_excerpt": [],
+   "page_count": 5807,
+   "output_dir_config_line": "netlify.toml [build]: publish = \"public\"",
+   "list_pages": [
+    {
+     "path": "news/index.html",
+     "main_list_selector": "#archives div[data-ga-category^='story-']",
+     "selector_reason": "layouts/news/list.html renders the post index inside `<section class=\"bg-white px-4 pb-12 pt-6\" id=\"archives\">`, ranging `$p.PageGroups` (paginator partial; content/news/_index.md front matter sets `sort-by = \"all\"`, `paginate = 60`) and invoking partial `tw/list-3-col-story.html` per month group; that partial renders one `<div class=\"contents\" data-ga-category=\"story-{{ add 1 $i }}\">` per story inside the grid `<nav>`. The selector matches exactly those per-story divs, i.e. the main list of the index page.",
+     "link_count": 60
+    }
+   ]
+  },
+  {
+   "sha": "c62423d075432191bf0212f0685188fbcd1515de",
+   "date": "2026-07-17",
+   "adds_new_content": true,
+   "worktree_method": "git worktree add <sha> (blobless clone)",
+   "hugo_version": "0.162.1 (pinned: netlify.toml HUGO_VERSION = \"0.162.1\")",
+   "build_ok": true,
+   "build_seconds": 322.55,
+   "error_excerpt": [],
+   "page_count": 5908,
+   "output_dir_config_line": "netlify.toml [build]: publish = \"public\"",
+   "list_pages": [
+    {
+     "path": "news/index.html",
+     "main_list_selector": "#archives div[data-ga-category^='story-']",
+     "selector_reason": "layouts/news/list.html renders the post index inside `<section class=\"bg-white px-4 pb-12 pt-6\" id=\"archives\">`, ranging `$p.PageGroups` (paginator partial; content/news/_index.md front matter sets `sort-by = \"all\"`, `paginate = 60`) and invoking partial `tw/list-3-col-story.html` per month group; that partial renders one `<div class=\"contents\" data-ga-category=\"story-{{ add 1 $i }}\">` per story inside the grid `<nav>`. The selector matches exactly those per-story divs, i.e. the main list of the index page.",
+     "link_count": 60
+    }
+   ]
+  },
+  {
+   "sha": "6bfb4a88f618b01627f369928d577f03afe2a569",
+   "date": "2026-08-25",
+   "adds_new_content": false,
+   "worktree_method": "git worktree add <sha> (blobless clone)",
+   "hugo_version": "0.162.1 (pinned: netlify.toml HUGO_VERSION = \"0.162.1\")",
+   "build_ok": true,
+   "build_seconds": 304.26,
+   "error_excerpt": [],
+   "page_count": 6055,
+   "output_dir_config_line": "netlify.toml [build]: publish = \"public\"",
+   "list_pages": [
+    {
+     "path": "news/index.html",
+     "main_list_selector": "#archives div[data-ga-category^='story-']",
+     "selector_reason": "layouts/news/list.html renders the post index inside `<section class=\"bg-white px-4 pb-12 pt-6\" id=\"archives\">`, ranging `$p.PageGroups` (paginator partial; content/news/_index.md front matter sets `sort-by = \"all\"`, `paginate = 60`) and invoking partial `tw/list-3-col-story.html` per month group; that partial renders one `<div class=\"contents\" data-ga-category=\"story-{{ add 1 $i }}\">` per story inside the grid `<nav>`. The selector matches exactly those per-story divs, i.e. the main list of the index page.",
+     "link_count": 60
+    }
+   ]
+  },
+  {
+   "sha": "d5b2cf7a3c5ef59ed31ef4220c8dac86808e8766",
+   "date": "2026-09-25",
+   "adds_new_content": false,
+   "worktree_method": "git worktree add <sha> (blobless clone)",
+   "hugo_version": "0.165.0 (pinned: netlify.toml HUGO_VERSION = \"0.165.0\")",
+   "build_ok": true,
+   "build_seconds": 151.13,
+   "error_excerpt": [],
+   "page_count": 6192,
+   "output_dir_config_line": "netlify.toml [build]: publish = \"public\"",
+   "list_pages": [
+    {
+     "path": "news/index.html",
+     "main_list_selector": "#archives div[data-ga-category^='story-']",
+     "selector_reason": "layouts/news/list.html renders the post index inside `<section class=\"bg-white px-4 pb-12 pt-6\" id=\"archives\">`, ranging `$p.PageGroups` (paginator partial; content/news/_index.md front matter sets `sort-by = \"all\"`, `paginate = 60`) and invoking partial `tw/list-3-col-story.html` per month group; that partial renders one `<div class=\"contents\" data-ga-category=\"story-{{ add 1 $i }}\">` per story inside the grid `<nav>`. The selector matches exactly those per-story divs, i.e. the main list of the index page.",
+     "link_count": 60
+    }
+   ]
+  },
+  {
+   "sha": "232ed2791575f7ec15d6072e99e97853e93d7959",
+   "date": "2026-05-22",
+   "adds_new_content": false,
+   "worktree_method": "git worktree add <sha> (blobless clone)",
+   "hugo_version": "0.152.2 (pinned: netlify.toml HUGO_VERSION = \"0.152.2\")",
+   "build_ok": true,
+   "build_seconds": 112.57,
+   "error_excerpt": [],
+   "page_count": 5682,
+   "output_dir_config_line": "netlify.toml [build]: publish = \"public\"",
+   "list_pages": [
+    {
+     "path": "news/index.html",
+     "main_list_selector": "#archives div[data-ga-category^='story-']",
+     "selector_reason": "layouts/news/list.html renders the post index inside `<section class=\"bg-white px-4 pb-12 pt-6\" id=\"archives\">`, ranging `$p.PageGroups` (paginator partial; content/news/_index.md front matter sets `sort-by = \"all\"`, `paginate = 60`) and invoking partial `tw/list-3-col-story.html` per month group; that partial renders one `<div class=\"contents\" data-ga-category=\"story-{{ add 1 $i }}\">` per story inside the grid `<nav>`. The selector matches exactly those per-story divs, i.e. the main list of the index page.",
+     "link_count": 60
+    }
+   ]
+  },
+  {
+   "sha": "2e4e4b9f10e47a8969d8184e4fcdec90d6ba1639",
+   "date": "2026-05-01",
+   "adds_new_content": true,
+   "worktree_method": "git worktree add <sha> (blobless clone)",
+   "hugo_version": "0.152.2 (pinned: netlify.toml HUGO_VERSION = \"0.152.2\")",
+   "build_ok": true,
+   "build_seconds": 117.44,
+   "error_excerpt": [],
+   "page_count": 5557,
+   "output_dir_config_line": "netlify.toml [build]: publish = \"public\"",
+   "list_pages": [
+    {
+     "path": "news/index.html",
+     "main_list_selector": "#archives div[data-ga-category^='story-']",
+     "selector_reason": "layouts/news/list.html renders the post index inside `<section class=\"bg-white px-4 pb-12 pt-6\" id=\"archives\">`, ranging `$p.PageGroups` (paginator partial; content/news/_index.md front matter sets `sort-by = \"all\"`, `paginate = 60`) and invoking partial `tw/list-3-col-story.html` per month group; that partial renders one `<div class=\"contents\" data-ga-category=\"story-{{ add 1 $i }}\">` per story inside the grid `<nav>`. The selector matches exactly those per-story divs, i.e. the main list of the index page.",
+     "link_count": 60
+    }
+   ]
+  }
+ ],
+ "median_page_count": 5744.5,
+ "median_build_seconds": 245.18,
+ "phase7": {
+  "rebuilt_commits": [
+   {
+    "sha": "4114c03019162f8982009fd24096ab1d8597cc23",
+    "build_seconds": 329.03,
+    "pages_compared": 5525
+   },
+   {
+    "sha": "c62423d075432191bf0212f0685188fbcd1515de",
+    "build_seconds": 231.96,
+    "pages_compared": 5908
+   }
+  ],
+  "pages_compared": 11433,
+  "all_body_identical": true,
+  "differing_pages": []
+ },
+ "verdict": "no_list_insertions",
+ "verdict_reason": "8/8 builds with identical bodies, but news/index.html main-list link count does not change across commits (counts: [60, 60, 60, 60, 60, 60, 60, 60])."
+}

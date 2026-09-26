@@ -1,0 +1,657 @@
+{
+  "repo": "reillypascal/personalsite-ssg",
+  "framework": "Eleventy",
+  "verdict": "environment_incomplete",
+  "verdict_reason": "7/8 commits built; aa51c8954087 2025-02-03 failed for environment/network reasons, not source defects: network-environmental: build performs a live HTTPS fetch to webmention.io via node-fetch at build time; TLS cannot complete through this sandbox egress proxy (write EPROTO / ssl3_get_record:wrong version number). The plugin tolerates non-OK HTTP responses, so with working network the build would proceed. Not a source defect. (API token value redacted from excerpt.)",
+  "window": {
+    "start": "2024-11-23",
+    "end": "2025-05-25",
+    "commits_probed": 8,
+    "new_content_commits_probed": 4
+  },
+  "builds_succeeded": 7,
+  "median_build_seconds": 63.4,
+  "median_static_pages": 110,
+  "commits": [
+    {
+      "sha": "6e1f24be8bf991eef4d1ee7147b11438ea268a14",
+      "date": "2024-11-23",
+      "adds_new_content": true,
+      "worktree_method": "sequential detached checkout in blobless clone (git checkout -f <sha>), node_modules and _site removed before each commit build",
+      "node_used": "v22.11.0",
+      "node_rung": "v22.11.0",
+      "node_rung_rule": "assignment 10 rung: newest LTS release satisfying engines range with release date <= commit date (fallback latest-lts-at-commit-date); installed via fnm if missing",
+      "engines_node": null,
+      "ruby_used": null,
+      "ruby_rung_rule": null,
+      "bundler_used": null,
+      "gemfile_lock_bundler": null,
+      "pm_used": "npm (package-lock.json present)",
+      "install_ok": true,
+      "install_cache_hit": false,
+      "install_seconds": 45.0,
+      "install_error": null,
+      "build_command": "npx @11ty/eleventy",
+      "build_ok": true,
+      "build_seconds": 41.1,
+      "static_page_count": 20,
+      "count_method": "assignment 07 verified Eleventy rule: **/index.html + *.html under _site, minus 404.html; counted from files on disk after build",
+      "failure_stage": null,
+      "failure_cause": null,
+      "error_excerpt": null,
+      "list_pages": [
+        {
+          "path": "blog/index.html",
+          "main_list_selector": "div.blogPostLinks",
+          "selector_reason": "deepest non-chrome container holding all 11 content-pattern links on the page (tag=div class=blogPostLinks id=None); links match content path pattern ^/(posts|notes|interactions|digital-garden)/[^/]",
+          "link_count": 11
+        }
+      ]
+    },
+    {
+      "sha": "d3162ae0681e745d3502aee5f56e17cc1d4d8e93",
+      "date": "2024-12-08",
+      "adds_new_content": true,
+      "worktree_method": "sequential detached checkout in blobless clone (git checkout -f <sha>), node_modules and _site removed before each commit build",
+      "node_used": "v22.12.0",
+      "node_rung": "v22.12.0",
+      "node_rung_rule": "assignment 10 rung: newest LTS release satisfying engines range with release date <= commit date (fallback latest-lts-at-commit-date); installed via fnm if missing",
+      "engines_node": null,
+      "ruby_used": null,
+      "ruby_rung_rule": null,
+      "bundler_used": null,
+      "gemfile_lock_bundler": null,
+      "pm_used": "npm (package-lock.json present)",
+      "install_ok": true,
+      "install_cache_hit": false,
+      "install_seconds": 63.8,
+      "install_error": null,
+      "build_command": "npx @11ty/eleventy && npx pagefind --site _site",
+      "build_ok": true,
+      "build_seconds": 48.3,
+      "static_page_count": 53,
+      "count_method": "assignment 07 verified Eleventy rule: **/index.html + *.html under _site, minus 404.html; counted from files on disk after build",
+      "failure_stage": null,
+      "failure_cause": null,
+      "error_excerpt": null,
+      "list_pages": [
+        {
+          "path": "blog/1/index.html",
+          "main_list_selector": "div.blogPostLinks",
+          "selector_reason": "deepest non-chrome container holding all 7 content-pattern links on the page (tag=div class=blogPostLinks id=None); links match content path pattern ^/(posts|notes|interactions|digital-garden)/[^/]",
+          "link_count": 7
+        },
+        {
+          "path": "blog/index.html",
+          "main_list_selector": "div.blogPostLinks",
+          "selector_reason": "deepest non-chrome container holding all 8 content-pattern links on the page (tag=div class=blogPostLinks id=None); links match content path pattern ^/(posts|notes|interactions|digital-garden)/[^/]",
+          "link_count": 8
+        },
+        {
+          "path": "index.html",
+          "main_list_selector": "div#recentItems",
+          "selector_reason": "deepest non-chrome container holding all 3 content-pattern links on the page (tag=div class=None id=recentItems); links match content path pattern ^/(posts|notes|interactions|digital-garden)/[^/]",
+          "link_count": 3
+        },
+        {
+          "path": "likes/index.html",
+          "main_list_selector": "div.blogPostLinks",
+          "selector_reason": "deepest non-chrome container holding all 5 content-pattern links on the page (tag=div class=blogPostLinks id=None); links match content path pattern ^/(posts|notes|interactions|digital-garden)/[^/]",
+          "link_count": 5
+        }
+      ]
+    },
+    {
+      "sha": "5da05f92b3c9a7246184b8b02a9a64a74eb14000",
+      "date": "2025-01-05",
+      "adds_new_content": false,
+      "worktree_method": "sequential detached checkout in blobless clone (git checkout -f <sha>), node_modules and _site removed before each commit build",
+      "node_used": "v22.12.0",
+      "node_rung": "v22.12.0",
+      "node_rung_rule": "assignment 10 rung: newest LTS release satisfying engines range with release date <= commit date (fallback latest-lts-at-commit-date); installed via fnm if missing",
+      "engines_node": null,
+      "ruby_used": null,
+      "ruby_rung_rule": null,
+      "bundler_used": null,
+      "gemfile_lock_bundler": null,
+      "pm_used": "npm (package-lock.json present)",
+      "install_ok": true,
+      "install_cache_hit": false,
+      "install_seconds": 45.1,
+      "install_error": null,
+      "build_command": "npx @11ty/eleventy && npx pagefind --site _site",
+      "build_ok": true,
+      "build_seconds": 53.9,
+      "static_page_count": 62,
+      "count_method": "assignment 07 verified Eleventy rule: **/index.html + *.html under _site, minus 404.html; counted from files on disk after build",
+      "failure_stage": null,
+      "failure_cause": null,
+      "error_excerpt": null,
+      "list_pages": [
+        {
+          "path": "blog/1/index.html",
+          "main_list_selector": "main",
+          "selector_reason": "deepest non-chrome container holding all 8 content-pattern links on the page (tag=main class=None id=None); links match content path pattern ^/(posts|notes|interactions|digital-garden)/[^/]",
+          "link_count": 8
+        },
+        {
+          "path": "blog/index.html",
+          "main_list_selector": "main",
+          "selector_reason": "deepest non-chrome container holding all 8 content-pattern links on the page (tag=main class=None id=None); links match content path pattern ^/(posts|notes|interactions|digital-garden)/[^/]",
+          "link_count": 8
+        },
+        {
+          "path": "index.html",
+          "main_list_selector": "div#recentItems",
+          "selector_reason": "deepest non-chrome container holding all 3 content-pattern links on the page (tag=div class=None id=recentItems); links match content path pattern ^/(posts|notes|interactions|digital-garden)/[^/]",
+          "link_count": 3
+        }
+      ]
+    },
+    {
+      "sha": "aa51c8954087733de29955da2bcbe6c6de2abfa3",
+      "date": "2025-02-03",
+      "adds_new_content": false,
+      "worktree_method": "sequential detached checkout in blobless clone (git checkout -f <sha>), node_modules and _site removed before each commit build",
+      "node_used": "v22.13.1",
+      "node_rung": "v22.13.1",
+      "node_rung_rule": "assignment 10 rung: newest LTS release satisfying engines range with release date <= commit date (fallback latest-lts-at-commit-date); installed via fnm if missing",
+      "engines_node": null,
+      "ruby_used": null,
+      "ruby_rung_rule": null,
+      "bundler_used": null,
+      "gemfile_lock_bundler": null,
+      "pm_used": "npm (package-lock.json present)",
+      "install_ok": true,
+      "install_cache_hit": false,
+      "install_seconds": 42.1,
+      "install_error": null,
+      "build_command": "npx @11ty/eleventy && npx pagefind --site _site",
+      "build_ok": false,
+      "build_seconds": 29.3,
+      "static_page_count": null,
+      "count_method": "assignment 07 verified Eleventy rule: **/index.html + *.html under _site, minus 404.html; counted from files on disk after build",
+      "failure_stage": "build",
+      "failure_cause": "network-environmental: build performs a live HTTPS fetch to webmention.io via node-fetch at build time; TLS cannot complete through this sandbox egress proxy (write EPROTO / ssl3_get_record:wrong version number). The plugin tolerates non-OK HTTP responses, so with working network the build would proceed. Not a source defect. (API token value redacted from excerpt.)",
+      "error_excerpt": "[11ty] request to https://webmention.io/api/mentions.jf2?domain=reillyspitzfaden.com&token=[REDACTED]&per-page=1000&page=0&since=2025-02-03T17:31:34.946Z failed, reason: write EPROTO C02CA8B440720000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:../deps/openssl/openssl/ssl/record/ssl3_record.c:354: (via FetchError)\n[11ty] \n[11ty] Original error stack trace: FetchError: request to https://webmention.io/api/mentions.jf2?domain=reillyspitzfaden.com&token=[REDACTED]&per-page=1000&page=0&since=2025-02-03T17:31:34.946Z failed, reason: write EPROTO C02CA8B440720000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:../deps/openssl/openssl/ssl/record/ssl3_record.c:354:\n[11ty] \n[11ty]     at ClientRequest.<anonymous> (/home/hatch/workspace/handoff-assignments-202609/12-content-site-scan/output/work/w12e/reillypascal_personalsite-ssg/node_modules/node-fetch/lib/index.js:1501:11)",
+      "list_pages": []
+    },
+    {
+      "sha": "a0adb7dd651b02ca0d6058a26f8d00bc92e32005",
+      "date": "2025-04-02",
+      "adds_new_content": true,
+      "worktree_method": "sequential detached checkout in blobless clone (git checkout -f <sha>), node_modules and _site removed before each commit build",
+      "node_used": "v22.14.0",
+      "node_rung": "v22.14.0",
+      "node_rung_rule": "assignment 10 rung: newest LTS release satisfying engines range with release date <= commit date (fallback latest-lts-at-commit-date); installed via fnm if missing",
+      "engines_node": null,
+      "ruby_used": null,
+      "ruby_rung_rule": null,
+      "bundler_used": null,
+      "gemfile_lock_bundler": null,
+      "pm_used": "npm (package-lock.json present)",
+      "install_ok": true,
+      "install_cache_hit": false,
+      "install_seconds": 37.7,
+      "install_error": null,
+      "build_command": "npx @11ty/eleventy && npx pagefind --site _site",
+      "build_ok": true,
+      "build_seconds": 109.4,
+      "static_page_count": 110,
+      "count_method": "assignment 07 verified Eleventy rule: **/index.html + *.html under _site, minus 404.html; counted from files on disk after build",
+      "failure_stage": null,
+      "failure_cause": null,
+      "error_excerpt": null,
+      "list_pages": [
+        {
+          "path": "blog/1/index.html",
+          "main_list_selector": "main",
+          "selector_reason": "deepest non-chrome container holding all 10 content-pattern links on the page (tag=main class=None id=None); links match content path pattern ^/(posts|notes|interactions|digital-garden)/[^/]",
+          "link_count": 10
+        },
+        {
+          "path": "blog/index.html",
+          "main_list_selector": "main",
+          "selector_reason": "deepest non-chrome container holding all 10 content-pattern links on the page (tag=main class=None id=None); links match content path pattern ^/(posts|notes|interactions|digital-garden)/[^/]",
+          "link_count": 10
+        },
+        {
+          "path": "index.html",
+          "main_list_selector": "div#column-right",
+          "selector_reason": "deepest non-chrome container holding all 3 content-pattern links on the page (tag=div class=None id=column-right); links match content path pattern ^/(posts|notes|interactions|digital-garden)/[^/]",
+          "link_count": 3
+        },
+        {
+          "path": "interactions/index.html",
+          "main_list_selector": "main",
+          "selector_reason": "deepest non-chrome container holding all 10 content-pattern links on the page (tag=main class=None id=None); links match content path pattern ^/(posts|notes|interactions|digital-garden)/[^/]",
+          "link_count": 10
+        },
+        {
+          "path": "notes/1/index.html",
+          "main_list_selector": "main",
+          "selector_reason": "deepest non-chrome container holding all 3 content-pattern links on the page (tag=main class=None id=None); links match content path pattern ^/(posts|notes|interactions|digital-garden)/[^/]",
+          "link_count": 3
+        },
+        {
+          "path": "notes/index.html",
+          "main_list_selector": "main",
+          "selector_reason": "deepest non-chrome container holding all 7 content-pattern links on the page (tag=main class=None id=None); links match content path pattern ^/(posts|notes|interactions|digital-garden)/[^/]",
+          "link_count": 7
+        }
+      ]
+    },
+    {
+      "sha": "6c9ab014b140a4892951806730e9455d40ce236a",
+      "date": "2025-04-25",
+      "adds_new_content": false,
+      "worktree_method": "sequential detached checkout in blobless clone (git checkout -f <sha>), node_modules and _site removed before each commit build",
+      "node_used": "v22.15.0",
+      "node_rung": "v22.15.0",
+      "node_rung_rule": "assignment 10 rung: newest LTS release satisfying engines range with release date <= commit date (fallback latest-lts-at-commit-date); installed via fnm if missing",
+      "engines_node": null,
+      "ruby_used": null,
+      "ruby_rung_rule": null,
+      "bundler_used": null,
+      "gemfile_lock_bundler": null,
+      "pm_used": "npm (package-lock.json present)",
+      "install_ok": true,
+      "install_cache_hit": false,
+      "install_seconds": 81.3,
+      "install_error": null,
+      "build_command": "npx @11ty/eleventy && npx pagefind --site _site",
+      "build_ok": true,
+      "build_seconds": 85.4,
+      "static_page_count": 127,
+      "count_method": "assignment 07 verified Eleventy rule: **/index.html + *.html under _site, minus 404.html; counted from files on disk after build",
+      "failure_stage": null,
+      "failure_cause": null,
+      "error_excerpt": null,
+      "list_pages": [
+        {
+          "path": "blog/1/index.html",
+          "main_list_selector": "main#content",
+          "selector_reason": "deepest non-chrome container holding all 10 content-pattern links on the page (tag=main class=None id=content); links match content path pattern ^/(posts|notes|interactions|digital-garden)/[^/]",
+          "link_count": 10
+        },
+        {
+          "path": "blog/2/index.html",
+          "main_list_selector": "main#content",
+          "selector_reason": "deepest non-chrome container holding all 5 content-pattern links on the page (tag=main class=None id=content); links match content path pattern ^/(posts|notes|interactions|digital-garden)/[^/]",
+          "link_count": 5
+        },
+        {
+          "path": "blog/index.html",
+          "main_list_selector": "main#content",
+          "selector_reason": "deepest non-chrome container holding all 10 content-pattern links on the page (tag=main class=None id=content); links match content path pattern ^/(posts|notes|interactions|digital-garden)/[^/]",
+          "link_count": 10
+        },
+        {
+          "path": "index.html",
+          "main_list_selector": "main#content",
+          "selector_reason": "deepest non-chrome container holding all 6 content-pattern links on the page (tag=main class=None id=content); links match content path pattern ^/(posts|notes|interactions|digital-garden)/[^/]",
+          "link_count": 6
+        },
+        {
+          "path": "interactions/index.html",
+          "main_list_selector": "main#content",
+          "selector_reason": "deepest non-chrome container holding all 11 content-pattern links on the page (tag=main class=None id=content); links match content path pattern ^/(posts|notes|interactions|digital-garden)/[^/]",
+          "link_count": 11
+        },
+        {
+          "path": "notes/1/index.html",
+          "main_list_selector": "main#content",
+          "selector_reason": "deepest non-chrome container holding all 4 content-pattern links on the page (tag=main class=None id=content); links match content path pattern ^/(posts|notes|interactions|digital-garden)/[^/]",
+          "link_count": 4
+        },
+        {
+          "path": "notes/index.html",
+          "main_list_selector": "main#content",
+          "selector_reason": "deepest non-chrome container holding all 7 content-pattern links on the page (tag=main class=None id=content); links match content path pattern ^/(posts|notes|interactions|digital-garden)/[^/]",
+          "link_count": 7
+        }
+      ]
+    },
+    {
+      "sha": "6804527b31552026778e9f38d515815bc86239e1",
+      "date": "2025-05-12",
+      "adds_new_content": false,
+      "worktree_method": "sequential detached checkout in blobless clone (git checkout -f <sha>), node_modules and _site removed before each commit build",
+      "node_used": "v22.15.0",
+      "node_rung": "v22.15.0",
+      "node_rung_rule": "assignment 10 rung: newest LTS release satisfying engines range with release date <= commit date (fallback latest-lts-at-commit-date); installed via fnm if missing",
+      "engines_node": null,
+      "ruby_used": null,
+      "ruby_rung_rule": null,
+      "bundler_used": null,
+      "gemfile_lock_bundler": null,
+      "pm_used": "npm (package-lock.json present)",
+      "install_ok": true,
+      "install_cache_hit": false,
+      "install_seconds": 49.9,
+      "install_error": null,
+      "build_command": "npx @11ty/eleventy && npx pagefind --site _site",
+      "build_ok": true,
+      "build_seconds": 63.4,
+      "static_page_count": 138,
+      "count_method": "assignment 07 verified Eleventy rule: **/index.html + *.html under _site, minus 404.html; counted from files on disk after build",
+      "failure_stage": null,
+      "failure_cause": null,
+      "error_excerpt": null,
+      "list_pages": [
+        {
+          "path": "blog/1/index.html",
+          "main_list_selector": "main#content",
+          "selector_reason": "deepest non-chrome container holding all 10 content-pattern links on the page (tag=main class=None id=content); links match content path pattern ^/(posts|notes|interactions|digital-garden)/[^/]",
+          "link_count": 10
+        },
+        {
+          "path": "blog/2/index.html",
+          "main_list_selector": "main#content",
+          "selector_reason": "deepest non-chrome container holding all 7 content-pattern links on the page (tag=main class=None id=content); links match content path pattern ^/(posts|notes|interactions|digital-garden)/[^/]",
+          "link_count": 7
+        },
+        {
+          "path": "blog/index.html",
+          "main_list_selector": "main#content",
+          "selector_reason": "deepest non-chrome container holding all 10 content-pattern links on the page (tag=main class=None id=content); links match content path pattern ^/(posts|notes|interactions|digital-garden)/[^/]",
+          "link_count": 10
+        },
+        {
+          "path": "code/index.html",
+          "main_list_selector": "main#content",
+          "selector_reason": "deepest non-chrome container holding all 3 content-pattern links on the page (tag=main class=None id=content); links match content path pattern ^/(posts|notes|interactions|digital-garden)/[^/]",
+          "link_count": 3
+        },
+        {
+          "path": "index.html",
+          "main_list_selector": "main#content",
+          "selector_reason": "deepest non-chrome container holding all 6 content-pattern links on the page (tag=main class=None id=content); links match content path pattern ^/(posts|notes|interactions|digital-garden)/[^/]",
+          "link_count": 6
+        },
+        {
+          "path": "interactions/1/index.html",
+          "main_list_selector": "main#content",
+          "selector_reason": "deepest non-chrome container holding all 3 content-pattern links on the page (tag=main class=None id=content); links match content path pattern ^/(posts|notes|interactions|digital-garden)/[^/]",
+          "link_count": 3
+        },
+        {
+          "path": "interactions/index.html",
+          "main_list_selector": "main#content",
+          "selector_reason": "deepest non-chrome container holding all 11 content-pattern links on the page (tag=main class=None id=content); links match content path pattern ^/(posts|notes|interactions|digital-garden)/[^/]",
+          "link_count": 11
+        },
+        {
+          "path": "notes/1/index.html",
+          "main_list_selector": "main#content",
+          "selector_reason": "deepest non-chrome container holding all 5 content-pattern links on the page (tag=main class=None id=content); links match content path pattern ^/(posts|notes|interactions|digital-garden)/[^/]",
+          "link_count": 5
+        },
+        {
+          "path": "notes/index.html",
+          "main_list_selector": "main#content",
+          "selector_reason": "deepest non-chrome container holding all 7 content-pattern links on the page (tag=main class=None id=content); links match content path pattern ^/(posts|notes|interactions|digital-garden)/[^/]",
+          "link_count": 7
+        }
+      ]
+    },
+    {
+      "sha": "db39632834eca89de605cfcf45cdf4cd4dce1618",
+      "date": "2025-05-25",
+      "adds_new_content": true,
+      "worktree_method": "sequential detached checkout in blobless clone (git checkout -f <sha>), node_modules and _site removed before each commit build",
+      "node_used": "v22.16.0",
+      "node_rung": "v22.16.0",
+      "node_rung_rule": "assignment 10 rung: newest LTS release satisfying engines range with release date <= commit date (fallback latest-lts-at-commit-date); installed via fnm if missing",
+      "engines_node": null,
+      "ruby_used": null,
+      "ruby_rung_rule": null,
+      "bundler_used": null,
+      "gemfile_lock_bundler": null,
+      "pm_used": "npm (package-lock.json present)",
+      "install_ok": true,
+      "install_cache_hit": false,
+      "install_seconds": 69.0,
+      "install_error": null,
+      "build_command": "npx @11ty/eleventy && npx pagefind --site _site",
+      "build_ok": true,
+      "build_seconds": 83.7,
+      "static_page_count": 169,
+      "count_method": "assignment 07 verified Eleventy rule: **/index.html + *.html under _site, minus 404.html; counted from files on disk after build",
+      "failure_stage": null,
+      "failure_cause": null,
+      "error_excerpt": null,
+      "list_pages": [
+        {
+          "path": "blog/1/index.html",
+          "main_list_selector": "main#content",
+          "selector_reason": "deepest non-chrome container holding all 10 content-pattern links on the page (tag=main class=None id=content); links match content path pattern ^/(posts|notes|interactions|digital-garden)/[^/]",
+          "link_count": 10
+        },
+        {
+          "path": "blog/2/index.html",
+          "main_list_selector": "main#content",
+          "selector_reason": "deepest non-chrome container holding all 8 content-pattern links on the page (tag=main class=None id=content); links match content path pattern ^/(posts|notes|interactions|digital-garden)/[^/]",
+          "link_count": 8
+        },
+        {
+          "path": "blog/index.html",
+          "main_list_selector": "main#content",
+          "selector_reason": "deepest non-chrome container holding all 10 content-pattern links on the page (tag=main class=None id=content); links match content path pattern ^/(posts|notes|interactions|digital-garden)/[^/]",
+          "link_count": 10
+        },
+        {
+          "path": "code/index.html",
+          "main_list_selector": "main#content",
+          "selector_reason": "deepest non-chrome container holding all 3 content-pattern links on the page (tag=main class=None id=content); links match content path pattern ^/(posts|notes|interactions|digital-garden)/[^/]",
+          "link_count": 3
+        },
+        {
+          "path": "digital-garden/index.html",
+          "main_list_selector": "main#content",
+          "selector_reason": "deepest non-chrome container holding all 6 content-pattern links on the page (tag=main class=None id=content); links match content path pattern ^/(posts|notes|interactions|digital-garden)/[^/]",
+          "link_count": 6
+        },
+        {
+          "path": "index.html",
+          "main_list_selector": "main#content",
+          "selector_reason": "deepest non-chrome container holding all 6 content-pattern links on the page (tag=main class=None id=content); links match content path pattern ^/(posts|notes|interactions|digital-garden)/[^/]",
+          "link_count": 6
+        },
+        {
+          "path": "interactions/1/index.html",
+          "main_list_selector": "main#content",
+          "selector_reason": "deepest non-chrome container holding all 10 content-pattern links on the page (tag=main class=None id=content); links match content path pattern ^/(posts|notes|interactions|digital-garden)/[^/]",
+          "link_count": 10
+        },
+        {
+          "path": "interactions/index.html",
+          "main_list_selector": "main#content",
+          "selector_reason": "deepest non-chrome container holding all 11 content-pattern links on the page (tag=main class=None id=content); links match content path pattern ^/(posts|notes|interactions|digital-garden)/[^/]",
+          "link_count": 11
+        },
+        {
+          "path": "notes/1/index.html",
+          "main_list_selector": "main#content",
+          "selector_reason": "deepest non-chrome container holding all 7 content-pattern links on the page (tag=main class=None id=content); links match content path pattern ^/(posts|notes|interactions|digital-garden)/[^/]",
+          "link_count": 7
+        },
+        {
+          "path": "notes/index.html",
+          "main_list_selector": "main#content",
+          "selector_reason": "deepest non-chrome container holding all 9 content-pattern links on the page (tag=main class=None id=content); links match content path pattern ^/(posts|notes|interactions|digital-garden)/[^/]",
+          "link_count": 9
+        },
+        {
+          "path": "tags/11ty/index.html",
+          "main_list_selector": "article.tagList",
+          "selector_reason": "deepest non-chrome container holding all 4 content-pattern links on the page (tag=article class=tagList id=None); links match content path pattern ^/(posts|notes|interactions|digital-garden)/[^/]",
+          "link_count": 4
+        },
+        {
+          "path": "tags/adsb/index.html",
+          "main_list_selector": "article.tagList",
+          "selector_reason": "deepest non-chrome container holding all 3 content-pattern links on the page (tag=article class=tagList id=None); links match content path pattern ^/(posts|notes|interactions|digital-garden)/[^/]",
+          "link_count": 3
+        },
+        {
+          "path": "tags/all/index.html",
+          "main_list_selector": "article.tagList",
+          "selector_reason": "deepest non-chrome container holding all 67 content-pattern links on the page (tag=article class=tagList id=None); links match content path pattern ^/(posts|notes|interactions|digital-garden)/[^/]",
+          "link_count": 67
+        },
+        {
+          "path": "tags/composition/index.html",
+          "main_list_selector": "article.tagList",
+          "selector_reason": "deepest non-chrome container holding all 6 content-pattern links on the page (tag=article class=tagList id=None); links match content path pattern ^/(posts|notes|interactions|digital-garden)/[^/]",
+          "link_count": 6
+        },
+        {
+          "path": "tags/databending/index.html",
+          "main_list_selector": "article.tagList",
+          "selector_reason": "deepest non-chrome container holding all 5 content-pattern links on the page (tag=article class=tagList id=None); links match content path pattern ^/(posts|notes|interactions|digital-garden)/[^/]",
+          "link_count": 5
+        },
+        {
+          "path": "tags/date/index.html",
+          "main_list_selector": "article.tagList",
+          "selector_reason": "deepest non-chrome container holding all 3 content-pattern links on the page (tag=article class=tagList id=None); links match content path pattern ^/(posts|notes|interactions|digital-garden)/[^/]",
+          "link_count": 3
+        },
+        {
+          "path": "tags/digital-garden/index.html",
+          "main_list_selector": "article.tagList",
+          "selector_reason": "deepest non-chrome container holding all 6 content-pattern links on the page (tag=article class=tagList id=None); links match content path pattern ^/(posts|notes|interactions|digital-garden)/[^/]",
+          "link_count": 6
+        },
+        {
+          "path": "tags/fediverse/index.html",
+          "main_list_selector": "article.tagList",
+          "selector_reason": "deepest non-chrome container holding all 6 content-pattern links on the page (tag=article class=tagList id=None); links match content path pattern ^/(posts|notes|interactions|digital-garden)/[^/]",
+          "link_count": 6
+        },
+        {
+          "path": "tags/feedGlobal/index.html",
+          "main_list_selector": "article.tagList",
+          "selector_reason": "deepest non-chrome container holding all 61 content-pattern links on the page (tag=article class=tagList id=None); links match content path pattern ^/(posts|notes|interactions|digital-garden)/[^/]",
+          "link_count": 61
+        },
+        {
+          "path": "tags/gardenNotebook/index.html",
+          "main_list_selector": "article.tagList",
+          "selector_reason": "deepest non-chrome container holding all 5 content-pattern links on the page (tag=article class=tagList id=None); links match content path pattern ^/(posts|notes|interactions|digital-garden)/[^/]",
+          "link_count": 5
+        },
+        {
+          "path": "tags/hiking/index.html",
+          "main_list_selector": "article.tagList",
+          "selector_reason": "deepest non-chrome container holding all 3 content-pattern links on the page (tag=article class=tagList id=None); links match content path pattern ^/(posts|notes|interactions|digital-garden)/[^/]",
+          "link_count": 3
+        },
+        {
+          "path": "tags/hwc/index.html",
+          "main_list_selector": "article.tagList",
+          "selector_reason": "deepest non-chrome container holding all 3 content-pattern links on the page (tag=article class=tagList id=None); links match content path pattern ^/(posts|notes|interactions|digital-garden)/[^/]",
+          "link_count": 3
+        },
+        {
+          "path": "tags/indieweb/index.html",
+          "main_list_selector": "article.tagList",
+          "selector_reason": "deepest non-chrome container holding all 25 content-pattern links on the page (tag=article class=tagList id=None); links match content path pattern ^/(posts|notes|interactions|digital-garden)/[^/]",
+          "link_count": 25
+        },
+        {
+          "path": "tags/like/index.html",
+          "main_list_selector": "article.tagList",
+          "selector_reason": "deepest non-chrome container holding all 14 content-pattern links on the page (tag=article class=tagList id=None); links match content path pattern ^/(posts|notes|interactions|digital-garden)/[^/]",
+          "link_count": 14
+        },
+        {
+          "path": "tags/maxmsp/index.html",
+          "main_list_selector": "article.tagList",
+          "selector_reason": "deepest non-chrome container holding all 5 content-pattern links on the page (tag=article class=tagList id=None); links match content path pattern ^/(posts|notes|interactions|digital-garden)/[^/]",
+          "link_count": 5
+        },
+        {
+          "path": "tags/music/index.html",
+          "main_list_selector": "article.tagList",
+          "selector_reason": "deepest non-chrome container holding all 16 content-pattern links on the page (tag=article class=tagList id=None); links match content path pattern ^/(posts|notes|interactions|digital-garden)/[^/]",
+          "link_count": 16
+        },
+        {
+          "path": "tags/new-york/index.html",
+          "main_list_selector": "article.tagList",
+          "selector_reason": "deepest non-chrome container holding all 3 content-pattern links on the page (tag=article class=tagList id=None); links match content path pattern ^/(posts|notes|interactions|digital-garden)/[^/]",
+          "link_count": 3
+        },
+        {
+          "path": "tags/notebook/index.html",
+          "main_list_selector": "article.tagList",
+          "selector_reason": "deepest non-chrome container holding all 5 content-pattern links on the page (tag=article class=tagList id=None); links match content path pattern ^/(posts|notes|interactions|digital-garden)/[^/]",
+          "link_count": 5
+        },
+        {
+          "path": "tags/photoblog/index.html",
+          "main_list_selector": "article.tagList",
+          "selector_reason": "deepest non-chrome container holding all 4 content-pattern links on the page (tag=article class=tagList id=None); links match content path pattern ^/(posts|notes|interactions|digital-garden)/[^/]",
+          "link_count": 4
+        },
+        {
+          "path": "tags/programming/index.html",
+          "main_list_selector": "article.tagList",
+          "selector_reason": "deepest non-chrome container holding all 6 content-pattern links on the page (tag=article class=tagList id=None); links match content path pattern ^/(posts|notes|interactions|digital-garden)/[^/]",
+          "link_count": 6
+        },
+        {
+          "path": "tags/radio/index.html",
+          "main_list_selector": "article.tagList",
+          "selector_reason": "deepest non-chrome container holding all 5 content-pattern links on the page (tag=article class=tagList id=None); links match content path pattern ^/(posts|notes|interactions|digital-garden)/[^/]",
+          "link_count": 5
+        },
+        {
+          "path": "tags/raspberry-pi/index.html",
+          "main_list_selector": "article.tagList",
+          "selector_reason": "deepest non-chrome container holding all 5 content-pattern links on the page (tag=article class=tagList id=None); links match content path pattern ^/(posts|notes|interactions|digital-garden)/[^/]",
+          "link_count": 5
+        },
+        {
+          "path": "tags/reading/index.html",
+          "main_list_selector": "article.tagList",
+          "selector_reason": "deepest non-chrome container holding all 3 content-pattern links on the page (tag=article class=tagList id=None); links match content path pattern ^/(posts|notes|interactions|digital-garden)/[^/]",
+          "link_count": 3
+        },
+        {
+          "path": "tags/rsvp/index.html",
+          "main_list_selector": "article.tagList",
+          "selector_reason": "deepest non-chrome container holding all 5 content-pattern links on the page (tag=article class=tagList id=None); links match content path pattern ^/(posts|notes|interactions|digital-garden)/[^/]",
+          "link_count": 5
+        },
+        {
+          "path": "tags/sdr/index.html",
+          "main_list_selector": "article.tagList",
+          "selector_reason": "deepest non-chrome container holding all 3 content-pattern links on the page (tag=article class=tagList id=None); links match content path pattern ^/(posts|notes|interactions|digital-garden)/[^/]",
+          "link_count": 3
+        },
+        {
+          "path": "tags/sound-design/index.html",
+          "main_list_selector": "article.tagList",
+          "selector_reason": "deepest non-chrome container holding all 8 content-pattern links on the page (tag=article class=tagList id=None); links match content path pattern ^/(posts|notes|interactions|digital-garden)/[^/]",
+          "link_count": 8
+        },
+        {
+          "path": "tags/state-parks/index.html",
+          "main_list_selector": "article.tagList",
+          "selector_reason": "deepest non-chrome container holding all 3 content-pattern links on the page (tag=article class=tagList id=None); links match content path pattern ^/(posts|notes|interactions|digital-garden)/[^/]",
+          "link_count": 3
+        },
+        {
+          "path": "tags/webdev/index.html",
+          "main_list_selector": "article.tagList",
+          "selector_reason": "deepest non-chrome container holding all 19 content-pattern links on the page (tag=article class=tagList id=None); links match content path pattern ^/(posts|notes|interactions|digital-garden)/[^/]",
+          "link_count": 19
+        }
+      ]
+    }
+  ],
+  "phase7_rebuild_comparison": null
+}

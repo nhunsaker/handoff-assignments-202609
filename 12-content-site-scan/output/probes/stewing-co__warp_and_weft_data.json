@@ -1,0 +1,1724 @@
+{
+ "repo": "stewing-co/warp_and_weft_data",
+ "bucket": "H",
+ "window": {
+  "window_start_date": "2024-10-20",
+  "window_end_date": "2025-04-21"
+ },
+ "selection": [
+  {
+   "sha": "be190508f3370a7f6ced9b85bbb26c5dedcef88b",
+   "date": "2024-10-20",
+   "adds_new_content": true
+  },
+  {
+   "sha": "718c074abbba25982b02dcdcf7d1de352062661b",
+   "date": "2024-10-21",
+   "adds_new_content": false
+  },
+  {
+   "sha": "439b5b498dffd529d4d6e93192d1c195902a884e",
+   "date": "2024-10-30",
+   "adds_new_content": true
+  },
+  {
+   "sha": "5588de3ea7c9e55cc2e6c40f391f2bea527c9756",
+   "date": "2024-11-07",
+   "adds_new_content": true
+  },
+  {
+   "sha": "97223cd41923134a063a4ca2c281f3c6ec2ce2cf",
+   "date": "2024-11-13",
+   "adds_new_content": true
+  },
+  {
+   "sha": "c80f24f2ed39bbeff83345ede49f1d5e97d1b0bb",
+   "date": "2024-11-18",
+   "adds_new_content": false
+  },
+  {
+   "sha": "d66ee7fef902995cc76adf7fcbb85605d9271708",
+   "date": "2024-11-22",
+   "adds_new_content": true
+  },
+  {
+   "sha": "cd67f2832bdca7f6364c0987d2d84b1cdef05311",
+   "date": "2024-12-12",
+   "adds_new_content": false
+  }
+ ],
+ "toolchain": {
+  "hugo_pin_source": "netlify.toml line 6",
+  "hugo_pin_quote": "HUGO_VERSION = '0.136.2'",
+  "hugo_used": "hugo v0.136.2-ad985550a4faff6bc40ce4c88b11215a9330a74e+extended linux/amd64 (~/bin/hugo_0.136.2, downloaded from github.com/gohugoio/hugo/releases/download/v0.136.2/hugo_extended_0.136.2_linux-amd64.tar.gz)",
+  "node": "not needed (no postcss/tailwind config, no package.json; theme uses Hugo built-in js.Build/esbuild only)"
+ },
+ "commits": [
+  {
+   "sha": "be190508f3370a7f6ced9b85bbb26c5dedcef88b",
+   "date": "2024-10-20",
+   "adds_new_content": true,
+   "worktree_method": "git worktree add --detach /home/hatch/workspace/handoff-assignments-202609/12-content-site-scan/output/work/wt_be190508f337 be190508f337 (blobless clone, blobs fetched on demand)",
+   "hugo_version": "hugo v0.136.2-ad985550a4faff6bc40ce4c88b11215a9330a74e+extended linux/amd64 BuildDate=2024-10-17T14:30:05Z VendorInfo=gohugoio",
+   "build_ok": true,
+   "build_seconds": 5.7,
+   "error_excerpt": null,
+   "page_count": 66,
+   "output_dir_config_line": "netlify.toml: publish = 'public' (Hugo default output dir is public/; no publishDir line in config.toml). NOTE: repo commits a stale public/ dir; it was removed before each build so counts are fresh-output only.",
+   "list_pages": [
+    {
+     "path": "about/index.html",
+     "main_list_selector": "main section.blog-content article h1 a",
+     "selector_reason": "hugo-apero _default/list.html, taxonomy/taxonomy.html and taxonomy/term.html all range over pages rendering the shared/summary partial as <article> cards inside <main><section class='blog-content'>, each card's page title link in <h1><a>",
+     "link_count": 0
+    },
+    {
+     "path": "blog/index.html",
+     "main_list_selector": "main section.blog-content article h1 a",
+     "selector_reason": "hugo-apero _default/list.html, taxonomy/taxonomy.html and taxonomy/term.html all range over pages rendering the shared/summary partial as <article> cards inside <main><section class='blog-content'>, each card's page title link in <h1><a>",
+     "link_count": 5
+    },
+    {
+     "path": "blog/page/1/index.html",
+     "main_list_selector": "main section.blog-content article h1 a",
+     "selector_reason": "paginated continuation of the section list; same list.html partial and summary-card markup",
+     "link_count": 0
+    },
+    {
+     "path": "blog/page/2/index.html",
+     "main_list_selector": "main section.blog-content article h1 a",
+     "selector_reason": "paginated continuation of the section list; same list.html partial and summary-card markup",
+     "link_count": 5
+    },
+    {
+     "path": "blog/page/3/index.html",
+     "main_list_selector": "main section.blog-content article h1 a",
+     "selector_reason": "paginated continuation of the section list; same list.html partial and summary-card markup",
+     "link_count": 1
+    },
+    {
+     "path": "categories/evergreen/index.html",
+     "main_list_selector": "main section.blog-content article h1 a",
+     "selector_reason": "term pages use taxonomy/term.html which renders the same <article> summary cards inside <main><section class='blog-content'> with title links in <h1><a>",
+     "link_count": 1
+    },
+    {
+     "path": "categories/meetup/index.html",
+     "main_list_selector": "main section.blog-content article h1 a",
+     "selector_reason": "term pages use taxonomy/term.html which renders the same <article> summary cards inside <main><section class='blog-content'> with title links in <h1><a>",
+     "link_count": 2
+    },
+    {
+     "path": "categories/package/index.html",
+     "main_list_selector": "main section.blog-content article h1 a",
+     "selector_reason": "term pages use taxonomy/term.html which renders the same <article> summary cards inside <main><section class='blog-content'> with title links in <h1><a>",
+     "link_count": 3
+    },
+    {
+     "path": "categories/r/index.html",
+     "main_list_selector": "main section.blog-content article h1 a",
+     "selector_reason": "term pages use taxonomy/term.html which renders the same <article> summary cards inside <main><section class='blog-content'> with title links in <h1><a>",
+     "link_count": 9
+    },
+    {
+     "path": "categories/theme-features/index.html",
+     "main_list_selector": "main section.blog-content article h1 a",
+     "selector_reason": "term pages use taxonomy/term.html which renders the same <article> summary cards inside <main><section class='blog-content'> with title links in <h1><a>",
+     "link_count": 12
+    },
+    {
+     "path": "categories/workshop/index.html",
+     "main_list_selector": "main section.blog-content article h1 a",
+     "selector_reason": "term pages use taxonomy/term.html which renders the same <article> summary cards inside <main><section class='blog-content'> with title links in <h1><a>",
+     "link_count": 1
+    },
+    {
+     "path": "collection/index.html",
+     "main_list_selector": "main section.blog-content article h1 a",
+     "selector_reason": "hugo-apero _default/list.html, taxonomy/taxonomy.html and taxonomy/term.html all range over pages rendering the shared/summary partial as <article> cards inside <main><section class='blog-content'>, each card's page title link in <h1><a>",
+     "link_count": 3
+    },
+    {
+     "path": "collection/page/1/index.html",
+     "main_list_selector": "main section.blog-content article h1 a",
+     "selector_reason": "paginated continuation of the section list; same list.html partial and summary-card markup",
+     "link_count": 0
+    },
+    {
+     "path": "form/index.html",
+     "main_list_selector": "main section.blog-content article h1 a",
+     "selector_reason": "hugo-apero _default/list.html, taxonomy/taxonomy.html and taxonomy/term.html all range over pages rendering the shared/summary partial as <article> cards inside <main><section class='blog-content'>, each card's page title link in <h1><a>",
+     "link_count": 1
+    },
+    {
+     "path": "form/page/1/index.html",
+     "main_list_selector": "main section.blog-content article h1 a",
+     "selector_reason": "paginated continuation of the section list; same list.html partial and summary-card markup",
+     "link_count": 0
+    },
+    {
+     "path": "post/index.html",
+     "main_list_selector": "main section.blog-content article h1 a",
+     "selector_reason": "hugo-apero _default/list.html, taxonomy/taxonomy.html and taxonomy/term.html all range over pages rendering the shared/summary partial as <article> cards inside <main><section class='blog-content'>, each card's page title link in <h1><a>",
+     "link_count": 5
+    },
+    {
+     "path": "post/page/1/index.html",
+     "main_list_selector": "main section.blog-content article h1 a",
+     "selector_reason": "paginated continuation of the section list; same list.html partial and summary-card markup",
+     "link_count": 0
+    },
+    {
+     "path": "project/index.html",
+     "main_list_selector": "main section.blog-content article h1 a",
+     "selector_reason": "hugo-apero _default/list.html, taxonomy/taxonomy.html and taxonomy/term.html all range over pages rendering the shared/summary partial as <article> cards inside <main><section class='blog-content'>, each card's page title link in <h1><a>",
+     "link_count": 3
+    },
+    {
+     "path": "tags/hugo-site/index.html",
+     "main_list_selector": "main section.blog-content article h1 a",
+     "selector_reason": "term pages use taxonomy/term.html which renders the same <article> summary cards inside <main><section class='blog-content'> with title links in <h1><a>",
+     "link_count": 8
+    },
+    {
+     "path": "tags/plot/index.html",
+     "main_list_selector": "main section.blog-content article h1 a",
+     "selector_reason": "term pages use taxonomy/term.html which renders the same <article> summary cards inside <main><section class='blog-content'> with title links in <h1><a>",
+     "link_count": 3
+    },
+    {
+     "path": "tags/r-markdown/index.html",
+     "main_list_selector": "main section.blog-content article h1 a",
+     "selector_reason": "term pages use taxonomy/term.html which renders the same <article> summary cards inside <main><section class='blog-content'> with title links in <h1><a>",
+     "link_count": 3
+    },
+    {
+     "path": "tags/regression/index.html",
+     "main_list_selector": "main section.blog-content article h1 a",
+     "selector_reason": "term pages use taxonomy/term.html which renders the same <article> summary cards inside <main><section class='blog-content'> with title links in <h1><a>",
+     "link_count": 3
+    },
+    {
+     "path": "tags/style/index.html",
+     "main_list_selector": "main section.blog-content article h1 a",
+     "selector_reason": "term pages use taxonomy/term.html which renders the same <article> summary cards inside <main><section class='blog-content'> with title links in <h1><a>",
+     "link_count": 2
+    },
+    {
+     "path": "talk/index.html",
+     "main_list_selector": "main section.blog-content article h1 a",
+     "selector_reason": "hugo-apero _default/list.html, taxonomy/taxonomy.html and taxonomy/term.html all range over pages rendering the shared/summary partial as <article> cards inside <main><section class='blog-content'>, each card's page title link in <h1><a>",
+     "link_count": 3
+    },
+    {
+     "path": "talk/page/1/index.html",
+     "main_list_selector": "main section.blog-content article h1 a",
+     "selector_reason": "paginated continuation of the section list; same list.html partial and summary-card markup",
+     "link_count": 0
+    }
+   ],
+   "build_command": "/home/hatch/bin/hugo_0.136.2",
+   "stale_public_dir_removed": true
+  },
+  {
+   "sha": "718c074abbba25982b02dcdcf7d1de352062661b",
+   "date": "2024-10-21",
+   "adds_new_content": false,
+   "worktree_method": "git worktree add --detach /home/hatch/workspace/handoff-assignments-202609/12-content-site-scan/output/work/wt_718c074abbba 718c074abbba (blobless clone, blobs fetched on demand)",
+   "hugo_version": "hugo v0.136.2-ad985550a4faff6bc40ce4c88b11215a9330a74e+extended linux/amd64 BuildDate=2024-10-17T14:30:05Z VendorInfo=gohugoio",
+   "build_ok": true,
+   "build_seconds": 9.1,
+   "error_excerpt": null,
+   "page_count": 63,
+   "output_dir_config_line": "netlify.toml: publish = 'public' (Hugo default output dir is public/; no publishDir line in config.toml). NOTE: repo commits a stale public/ dir; it was removed before each build so counts are fresh-output only.",
+   "list_pages": [
+    {
+     "path": "about/index.html",
+     "main_list_selector": "main section.blog-content article h1 a",
+     "selector_reason": "hugo-apero _default/list.html, taxonomy/taxonomy.html and taxonomy/term.html all range over pages rendering the shared/summary partial as <article> cards inside <main><section class='blog-content'>, each card's page title link in <h1><a>",
+     "link_count": 0
+    },
+    {
+     "path": "blog/index.html",
+     "main_list_selector": "main section.blog-content article h1 a",
+     "selector_reason": "hugo-apero _default/list.html, taxonomy/taxonomy.html and taxonomy/term.html all range over pages rendering the shared/summary partial as <article> cards inside <main><section class='blog-content'>, each card's page title link in <h1><a>",
+     "link_count": 5
+    },
+    {
+     "path": "blog/page/1/index.html",
+     "main_list_selector": "main section.blog-content article h1 a",
+     "selector_reason": "paginated continuation of the section list; same list.html partial and summary-card markup",
+     "link_count": 0
+    },
+    {
+     "path": "blog/page/2/index.html",
+     "main_list_selector": "main section.blog-content article h1 a",
+     "selector_reason": "paginated continuation of the section list; same list.html partial and summary-card markup",
+     "link_count": 5
+    },
+    {
+     "path": "blog/page/3/index.html",
+     "main_list_selector": "main section.blog-content article h1 a",
+     "selector_reason": "paginated continuation of the section list; same list.html partial and summary-card markup",
+     "link_count": 1
+    },
+    {
+     "path": "categories/evergreen/index.html",
+     "main_list_selector": "main section.blog-content article h1 a",
+     "selector_reason": "term pages use taxonomy/term.html which renders the same <article> summary cards inside <main><section class='blog-content'> with title links in <h1><a>",
+     "link_count": 1
+    },
+    {
+     "path": "categories/meetup/index.html",
+     "main_list_selector": "main section.blog-content article h1 a",
+     "selector_reason": "term pages use taxonomy/term.html which renders the same <article> summary cards inside <main><section class='blog-content'> with title links in <h1><a>",
+     "link_count": 2
+    },
+    {
+     "path": "categories/package/index.html",
+     "main_list_selector": "main section.blog-content article h1 a",
+     "selector_reason": "term pages use taxonomy/term.html which renders the same <article> summary cards inside <main><section class='blog-content'> with title links in <h1><a>",
+     "link_count": 3
+    },
+    {
+     "path": "categories/r/index.html",
+     "main_list_selector": "main section.blog-content article h1 a",
+     "selector_reason": "term pages use taxonomy/term.html which renders the same <article> summary cards inside <main><section class='blog-content'> with title links in <h1><a>",
+     "link_count": 9
+    },
+    {
+     "path": "categories/theme-features/index.html",
+     "main_list_selector": "main section.blog-content article h1 a",
+     "selector_reason": "term pages use taxonomy/term.html which renders the same <article> summary cards inside <main><section class='blog-content'> with title links in <h1><a>",
+     "link_count": 12
+    },
+    {
+     "path": "categories/workshop/index.html",
+     "main_list_selector": "main section.blog-content article h1 a",
+     "selector_reason": "term pages use taxonomy/term.html which renders the same <article> summary cards inside <main><section class='blog-content'> with title links in <h1><a>",
+     "link_count": 1
+    },
+    {
+     "path": "collection/index.html",
+     "main_list_selector": "main section.blog-content article h1 a",
+     "selector_reason": "hugo-apero _default/list.html, taxonomy/taxonomy.html and taxonomy/term.html all range over pages rendering the shared/summary partial as <article> cards inside <main><section class='blog-content'>, each card's page title link in <h1><a>",
+     "link_count": 3
+    },
+    {
+     "path": "collection/page/1/index.html",
+     "main_list_selector": "main section.blog-content article h1 a",
+     "selector_reason": "paginated continuation of the section list; same list.html partial and summary-card markup",
+     "link_count": 0
+    },
+    {
+     "path": "form/index.html",
+     "main_list_selector": "main section.blog-content article h1 a",
+     "selector_reason": "hugo-apero _default/list.html, taxonomy/taxonomy.html and taxonomy/term.html all range over pages rendering the shared/summary partial as <article> cards inside <main><section class='blog-content'>, each card's page title link in <h1><a>",
+     "link_count": 1
+    },
+    {
+     "path": "form/page/1/index.html",
+     "main_list_selector": "main section.blog-content article h1 a",
+     "selector_reason": "paginated continuation of the section list; same list.html partial and summary-card markup",
+     "link_count": 0
+    },
+    {
+     "path": "post/index.html",
+     "main_list_selector": "main section.blog-content article h1 a",
+     "selector_reason": "hugo-apero _default/list.html, taxonomy/taxonomy.html and taxonomy/term.html all range over pages rendering the shared/summary partial as <article> cards inside <main><section class='blog-content'>, each card's page title link in <h1><a>",
+     "link_count": 5
+    },
+    {
+     "path": "post/page/1/index.html",
+     "main_list_selector": "main section.blog-content article h1 a",
+     "selector_reason": "paginated continuation of the section list; same list.html partial and summary-card markup",
+     "link_count": 0
+    },
+    {
+     "path": "project/index.html",
+     "main_list_selector": "main section.blog-content article h1 a",
+     "selector_reason": "hugo-apero _default/list.html, taxonomy/taxonomy.html and taxonomy/term.html all range over pages rendering the shared/summary partial as <article> cards inside <main><section class='blog-content'>, each card's page title link in <h1><a>",
+     "link_count": 3
+    },
+    {
+     "path": "tags/hugo-site/index.html",
+     "main_list_selector": "main section.blog-content article h1 a",
+     "selector_reason": "term pages use taxonomy/term.html which renders the same <article> summary cards inside <main><section class='blog-content'> with title links in <h1><a>",
+     "link_count": 8
+    },
+    {
+     "path": "tags/plot/index.html",
+     "main_list_selector": "main section.blog-content article h1 a",
+     "selector_reason": "term pages use taxonomy/term.html which renders the same <article> summary cards inside <main><section class='blog-content'> with title links in <h1><a>",
+     "link_count": 3
+    },
+    {
+     "path": "tags/r-markdown/index.html",
+     "main_list_selector": "main section.blog-content article h1 a",
+     "selector_reason": "term pages use taxonomy/term.html which renders the same <article> summary cards inside <main><section class='blog-content'> with title links in <h1><a>",
+     "link_count": 3
+    },
+    {
+     "path": "tags/regression/index.html",
+     "main_list_selector": "main section.blog-content article h1 a",
+     "selector_reason": "term pages use taxonomy/term.html which renders the same <article> summary cards inside <main><section class='blog-content'> with title links in <h1><a>",
+     "link_count": 3
+    },
+    {
+     "path": "tags/style/index.html",
+     "main_list_selector": "main section.blog-content article h1 a",
+     "selector_reason": "term pages use taxonomy/term.html which renders the same <article> summary cards inside <main><section class='blog-content'> with title links in <h1><a>",
+     "link_count": 2
+    },
+    {
+     "path": "talk/index.html",
+     "main_list_selector": "main section.blog-content article h1 a",
+     "selector_reason": "hugo-apero _default/list.html, taxonomy/taxonomy.html and taxonomy/term.html all range over pages rendering the shared/summary partial as <article> cards inside <main><section class='blog-content'>, each card's page title link in <h1><a>",
+     "link_count": 3
+    },
+    {
+     "path": "talk/page/1/index.html",
+     "main_list_selector": "main section.blog-content article h1 a",
+     "selector_reason": "paginated continuation of the section list; same list.html partial and summary-card markup",
+     "link_count": 0
+    }
+   ],
+   "build_command": "/home/hatch/bin/hugo_0.136.2",
+   "stale_public_dir_removed": true
+  },
+  {
+   "sha": "439b5b498dffd529d4d6e93192d1c195902a884e",
+   "date": "2024-10-30",
+   "adds_new_content": true,
+   "worktree_method": "git worktree add --detach /home/hatch/workspace/handoff-assignments-202609/12-content-site-scan/output/work/wt_439b5b498dff 439b5b498dff (blobless clone, blobs fetched on demand)",
+   "hugo_version": "hugo v0.136.2-ad985550a4faff6bc40ce4c88b11215a9330a74e+extended linux/amd64 BuildDate=2024-10-17T14:30:05Z VendorInfo=gohugoio",
+   "build_ok": true,
+   "build_seconds": 3.3,
+   "error_excerpt": null,
+   "page_count": 43,
+   "output_dir_config_line": "netlify.toml: publish = 'public' (Hugo default output dir is public/; no publishDir line in config.toml). NOTE: repo commits a stale public/ dir; it was removed before each build so counts are fresh-output only.",
+   "list_pages": [
+    {
+     "path": "about/index.html",
+     "main_list_selector": "main section.blog-content article h1 a",
+     "selector_reason": "hugo-apero _default/list.html, taxonomy/taxonomy.html and taxonomy/term.html all range over pages rendering the shared/summary partial as <article> cards inside <main><section class='blog-content'>, each card's page title link in <h1><a>",
+     "link_count": 0
+    },
+    {
+     "path": "blog/index.html",
+     "main_list_selector": "main section.blog-content article h1 a",
+     "selector_reason": "hugo-apero _default/list.html, taxonomy/taxonomy.html and taxonomy/term.html all range over pages rendering the shared/summary partial as <article> cards inside <main><section class='blog-content'>, each card's page title link in <h1><a>",
+     "link_count": 5
+    },
+    {
+     "path": "blog/page/1/index.html",
+     "main_list_selector": "main section.blog-content article h1 a",
+     "selector_reason": "paginated continuation of the section list; same list.html partial and summary-card markup",
+     "link_count": 0
+    },
+    {
+     "path": "blog/page/2/index.html",
+     "main_list_selector": "main section.blog-content article h1 a",
+     "selector_reason": "paginated continuation of the section list; same list.html partial and summary-card markup",
+     "link_count": 5
+    },
+    {
+     "path": "blog/page/3/index.html",
+     "main_list_selector": "main section.blog-content article h1 a",
+     "selector_reason": "paginated continuation of the section list; same list.html partial and summary-card markup",
+     "link_count": 1
+    },
+    {
+     "path": "categories/business/index.html",
+     "main_list_selector": "main section.blog-content article h1 a",
+     "selector_reason": "term pages use taxonomy/term.html which renders the same <article> summary cards inside <main><section class='blog-content'> with title links in <h1><a>",
+     "link_count": 1
+    },
+    {
+     "path": "categories/by-others/index.html",
+     "main_list_selector": "main section.blog-content article h1 a",
+     "selector_reason": "term pages use taxonomy/term.html which renders the same <article> summary cards inside <main><section class='blog-content'> with title links in <h1><a>",
+     "link_count": 1
+    },
+    {
+     "path": "categories/evergreen/index.html",
+     "main_list_selector": "main section.blog-content article h1 a",
+     "selector_reason": "term pages use taxonomy/term.html which renders the same <article> summary cards inside <main><section class='blog-content'> with title links in <h1><a>",
+     "link_count": 1
+    },
+    {
+     "path": "categories/r/index.html",
+     "main_list_selector": "main section.blog-content article h1 a",
+     "selector_reason": "term pages use taxonomy/term.html which renders the same <article> summary cards inside <main><section class='blog-content'> with title links in <h1><a>",
+     "link_count": 3
+    },
+    {
+     "path": "categories/resume/index.html",
+     "main_list_selector": "main section.blog-content article h1 a",
+     "selector_reason": "term pages use taxonomy/term.html which renders the same <article> summary cards inside <main><section class='blog-content'> with title links in <h1><a>",
+     "link_count": 1
+    },
+    {
+     "path": "categories/theme-features/index.html",
+     "main_list_selector": "main section.blog-content article h1 a",
+     "selector_reason": "term pages use taxonomy/term.html which renders the same <article> summary cards inside <main><section class='blog-content'> with title links in <h1><a>",
+     "link_count": 9
+    },
+    {
+     "path": "form/index.html",
+     "main_list_selector": "main section.blog-content article h1 a",
+     "selector_reason": "hugo-apero _default/list.html, taxonomy/taxonomy.html and taxonomy/term.html all range over pages rendering the shared/summary partial as <article> cards inside <main><section class='blog-content'>, each card's page title link in <h1><a>",
+     "link_count": 1
+    },
+    {
+     "path": "form/page/1/index.html",
+     "main_list_selector": "main section.blog-content article h1 a",
+     "selector_reason": "paginated continuation of the section list; same list.html partial and summary-card markup",
+     "link_count": 0
+    },
+    {
+     "path": "project/index.html",
+     "main_list_selector": "main section.blog-content article h1 a",
+     "selector_reason": "hugo-apero _default/list.html, taxonomy/taxonomy.html and taxonomy/term.html all range over pages rendering the shared/summary partial as <article> cards inside <main><section class='blog-content'>, each card's page title link in <h1><a>",
+     "link_count": 2
+    },
+    {
+     "path": "tags/hugo-site/index.html",
+     "main_list_selector": "main section.blog-content article h1 a",
+     "selector_reason": "term pages use taxonomy/term.html which renders the same <article> summary cards inside <main><section class='blog-content'> with title links in <h1><a>",
+     "link_count": 8
+    },
+    {
+     "path": "tags/style/index.html",
+     "main_list_selector": "main section.blog-content article h1 a",
+     "selector_reason": "term pages use taxonomy/term.html which renders the same <article> summary cards inside <main><section class='blog-content'> with title links in <h1><a>",
+     "link_count": 2
+    }
+   ],
+   "build_command": "/home/hatch/bin/hugo_0.136.2",
+   "stale_public_dir_removed": true
+  },
+  {
+   "sha": "5588de3ea7c9e55cc2e6c40f391f2bea527c9756",
+   "date": "2024-11-07",
+   "adds_new_content": true,
+   "worktree_method": "git worktree add --detach /home/hatch/workspace/handoff-assignments-202609/12-content-site-scan/output/work/wt_5588de3ea7c9 5588de3ea7c9 (blobless clone, blobs fetched on demand)",
+   "hugo_version": "hugo v0.136.2-ad985550a4faff6bc40ce4c88b11215a9330a74e+extended linux/amd64 BuildDate=2024-10-17T14:30:05Z VendorInfo=gohugoio",
+   "build_ok": true,
+   "build_seconds": 4.7,
+   "error_excerpt": null,
+   "page_count": 27,
+   "output_dir_config_line": "netlify.toml: publish = 'public' (Hugo default output dir is public/; no publishDir line in config.toml). NOTE: repo commits a stale public/ dir; it was removed before each build so counts are fresh-output only.",
+   "list_pages": [
+    {
+     "path": "about/index.html",
+     "main_list_selector": "main section.blog-content article h1 a",
+     "selector_reason": "hugo-apero _default/list.html, taxonomy/taxonomy.html and taxonomy/term.html all range over pages rendering the shared/summary partial as <article> cards inside <main><section class='blog-content'>, each card's page title link in <h1><a>",
+     "link_count": 0
+    },
+    {
+     "path": "blog/index.html",
+     "main_list_selector": "main section.blog-content article h1 a",
+     "selector_reason": "hugo-apero _default/list.html, taxonomy/taxonomy.html and taxonomy/term.html all range over pages rendering the shared/summary partial as <article> cards inside <main><section class='blog-content'>, each card's page title link in <h1><a>",
+     "link_count": 2
+    },
+    {
+     "path": "blog/page/1/index.html",
+     "main_list_selector": "main section.blog-content article h1 a",
+     "selector_reason": "paginated continuation of the section list; same list.html partial and summary-card markup",
+     "link_count": 0
+    },
+    {
+     "path": "categories/business/index.html",
+     "main_list_selector": "main section.blog-content article h1 a",
+     "selector_reason": "term pages use taxonomy/term.html which renders the same <article> summary cards inside <main><section class='blog-content'> with title links in <h1><a>",
+     "link_count": 1
+    },
+    {
+     "path": "categories/by-others/index.html",
+     "main_list_selector": "main section.blog-content article h1 a",
+     "selector_reason": "term pages use taxonomy/term.html which renders the same <article> summary cards inside <main><section class='blog-content'> with title links in <h1><a>",
+     "link_count": 1
+    },
+    {
+     "path": "categories/resume/index.html",
+     "main_list_selector": "main section.blog-content article h1 a",
+     "selector_reason": "term pages use taxonomy/term.html which renders the same <article> summary cards inside <main><section class='blog-content'> with title links in <h1><a>",
+     "link_count": 1
+    },
+    {
+     "path": "form/index.html",
+     "main_list_selector": "main section.blog-content article h1 a",
+     "selector_reason": "hugo-apero _default/list.html, taxonomy/taxonomy.html and taxonomy/term.html all range over pages rendering the shared/summary partial as <article> cards inside <main><section class='blog-content'>, each card's page title link in <h1><a>",
+     "link_count": 1
+    },
+    {
+     "path": "form/page/1/index.html",
+     "main_list_selector": "main section.blog-content article h1 a",
+     "selector_reason": "paginated continuation of the section list; same list.html partial and summary-card markup",
+     "link_count": 0
+    },
+    {
+     "path": "project/index.html",
+     "main_list_selector": "main section.blog-content article h1 a",
+     "selector_reason": "hugo-apero _default/list.html, taxonomy/taxonomy.html and taxonomy/term.html all range over pages rendering the shared/summary partial as <article> cards inside <main><section class='blog-content'>, each card's page title link in <h1><a>",
+     "link_count": 2
+    },
+    {
+     "path": "tags/fedex/index.html",
+     "main_list_selector": "main section.blog-content article h1 a",
+     "selector_reason": "term pages use taxonomy/term.html which renders the same <article> summary cards inside <main><section class='blog-content'> with title links in <h1><a>",
+     "link_count": 1
+    },
+    {
+     "path": "tags/hugo-site/index.html",
+     "main_list_selector": "main section.blog-content article h1 a",
+     "selector_reason": "term pages use taxonomy/term.html which renders the same <article> summary cards inside <main><section class='blog-content'> with title links in <h1><a>",
+     "link_count": 3
+    },
+    {
+     "path": "tags/r/index.html",
+     "main_list_selector": "main section.blog-content article h1 a",
+     "selector_reason": "term pages use taxonomy/term.html which renders the same <article> summary cards inside <main><section class='blog-content'> with title links in <h1><a>",
+     "link_count": 1
+    },
+    {
+     "path": "tags/rvest/index.html",
+     "main_list_selector": "main section.blog-content article h1 a",
+     "selector_reason": "term pages use taxonomy/term.html which renders the same <article> summary cards inside <main><section class='blog-content'> with title links in <h1><a>",
+     "link_count": 1
+    }
+   ],
+   "build_command": "/home/hatch/bin/hugo_0.136.2",
+   "stale_public_dir_removed": true
+  },
+  {
+   "sha": "97223cd41923134a063a4ca2c281f3c6ec2ce2cf",
+   "date": "2024-11-13",
+   "adds_new_content": true,
+   "worktree_method": "git worktree add --detach /home/hatch/workspace/handoff-assignments-202609/12-content-site-scan/output/work/wt_97223cd41923 97223cd41923 (blobless clone, blobs fetched on demand)",
+   "hugo_version": "hugo v0.136.2-ad985550a4faff6bc40ce4c88b11215a9330a74e+extended linux/amd64 BuildDate=2024-10-17T14:30:05Z VendorInfo=gohugoio",
+   "build_ok": true,
+   "build_seconds": 4.3,
+   "error_excerpt": null,
+   "page_count": 26,
+   "output_dir_config_line": "netlify.toml: publish = 'public' (Hugo default output dir is public/; no publishDir line in config.toml). NOTE: repo commits a stale public/ dir; it was removed before each build so counts are fresh-output only.",
+   "list_pages": [
+    {
+     "path": "about/index.html",
+     "main_list_selector": "main section.blog-content article h1 a",
+     "selector_reason": "hugo-apero _default/list.html, taxonomy/taxonomy.html and taxonomy/term.html all range over pages rendering the shared/summary partial as <article> cards inside <main><section class='blog-content'>, each card's page title link in <h1><a>",
+     "link_count": 0
+    },
+    {
+     "path": "blog/index.html",
+     "main_list_selector": "main section.blog-content article h1 a",
+     "selector_reason": "hugo-apero _default/list.html, taxonomy/taxonomy.html and taxonomy/term.html all range over pages rendering the shared/summary partial as <article> cards inside <main><section class='blog-content'>, each card's page title link in <h1><a>",
+     "link_count": 4
+    },
+    {
+     "path": "blog/page/1/index.html",
+     "main_list_selector": "main section.blog-content article h1 a",
+     "selector_reason": "paginated continuation of the section list; same list.html partial and summary-card markup",
+     "link_count": 0
+    },
+    {
+     "path": "form/index.html",
+     "main_list_selector": "main section.blog-content article h1 a",
+     "selector_reason": "hugo-apero _default/list.html, taxonomy/taxonomy.html and taxonomy/term.html all range over pages rendering the shared/summary partial as <article> cards inside <main><section class='blog-content'>, each card's page title link in <h1><a>",
+     "link_count": 1
+    },
+    {
+     "path": "form/page/1/index.html",
+     "main_list_selector": "main section.blog-content article h1 a",
+     "selector_reason": "paginated continuation of the section list; same list.html partial and summary-card markup",
+     "link_count": 0
+    },
+    {
+     "path": "tags/bluesky/index.html",
+     "main_list_selector": "main section.blog-content article h1 a",
+     "selector_reason": "term pages use taxonomy/term.html which renders the same <article> summary cards inside <main><section class='blog-content'> with title links in <h1><a>",
+     "link_count": 1
+    },
+    {
+     "path": "tags/fedex/index.html",
+     "main_list_selector": "main section.blog-content article h1 a",
+     "selector_reason": "term pages use taxonomy/term.html which renders the same <article> summary cards inside <main><section class='blog-content'> with title links in <h1><a>",
+     "link_count": 1
+    },
+    {
+     "path": "tags/hugo-site/index.html",
+     "main_list_selector": "main section.blog-content article h1 a",
+     "selector_reason": "term pages use taxonomy/term.html which renders the same <article> summary cards inside <main><section class='blog-content'> with title links in <h1><a>",
+     "link_count": 1
+    },
+    {
+     "path": "tags/maps/index.html",
+     "main_list_selector": "main section.blog-content article h1 a",
+     "selector_reason": "term pages use taxonomy/term.html which renders the same <article> summary cards inside <main><section class='blog-content'> with title links in <h1><a>",
+     "link_count": 1
+    },
+    {
+     "path": "tags/r/index.html",
+     "main_list_selector": "main section.blog-content article h1 a",
+     "selector_reason": "term pages use taxonomy/term.html which renders the same <article> summary cards inside <main><section class='blog-content'> with title links in <h1><a>",
+     "link_count": 3
+    },
+    {
+     "path": "tags/rvest/index.html",
+     "main_list_selector": "main section.blog-content article h1 a",
+     "selector_reason": "term pages use taxonomy/term.html which renders the same <article> summary cards inside <main><section class='blog-content'> with title links in <h1><a>",
+     "link_count": 1
+    },
+    {
+     "path": "tags/tidy-tuesday/index.html",
+     "main_list_selector": "main section.blog-content article h1 a",
+     "selector_reason": "term pages use taxonomy/term.html which renders the same <article> summary cards inside <main><section class='blog-content'> with title links in <h1><a>",
+     "link_count": 1
+    }
+   ],
+   "build_command": "/home/hatch/bin/hugo_0.136.2",
+   "stale_public_dir_removed": true
+  },
+  {
+   "sha": "c80f24f2ed39bbeff83345ede49f1d5e97d1b0bb",
+   "date": "2024-11-18",
+   "adds_new_content": false,
+   "worktree_method": "git worktree add --detach /home/hatch/workspace/handoff-assignments-202609/12-content-site-scan/output/work/wt_c80f24f2ed39 c80f24f2ed39 (blobless clone, blobs fetched on demand)",
+   "hugo_version": "hugo v0.136.2-ad985550a4faff6bc40ce4c88b11215a9330a74e+extended linux/amd64 BuildDate=2024-10-17T14:30:05Z VendorInfo=gohugoio",
+   "build_ok": true,
+   "build_seconds": 49.8,
+   "error_excerpt": null,
+   "page_count": 27,
+   "output_dir_config_line": "netlify.toml: publish = 'public' (Hugo default output dir is public/; no publishDir line in config.toml). NOTE: repo commits a stale public/ dir; it was removed before each build so counts are fresh-output only.",
+   "list_pages": [
+    {
+     "path": "about/index.html",
+     "main_list_selector": "main section.blog-content article h1 a",
+     "selector_reason": "hugo-apero _default/list.html, taxonomy/taxonomy.html and taxonomy/term.html all range over pages rendering the shared/summary partial as <article> cards inside <main><section class='blog-content'>, each card's page title link in <h1><a>",
+     "link_count": 0
+    },
+    {
+     "path": "blog/index.html",
+     "main_list_selector": "main section.blog-content article h1 a",
+     "selector_reason": "hugo-apero _default/list.html, taxonomy/taxonomy.html and taxonomy/term.html all range over pages rendering the shared/summary partial as <article> cards inside <main><section class='blog-content'>, each card's page title link in <h1><a>",
+     "link_count": 5
+    },
+    {
+     "path": "blog/page/1/index.html",
+     "main_list_selector": "main section.blog-content article h1 a",
+     "selector_reason": "paginated continuation of the section list; same list.html partial and summary-card markup",
+     "link_count": 0
+    },
+    {
+     "path": "form/index.html",
+     "main_list_selector": "main section.blog-content article h1 a",
+     "selector_reason": "hugo-apero _default/list.html, taxonomy/taxonomy.html and taxonomy/term.html all range over pages rendering the shared/summary partial as <article> cards inside <main><section class='blog-content'>, each card's page title link in <h1><a>",
+     "link_count": 1
+    },
+    {
+     "path": "form/page/1/index.html",
+     "main_list_selector": "main section.blog-content article h1 a",
+     "selector_reason": "paginated continuation of the section list; same list.html partial and summary-card markup",
+     "link_count": 0
+    },
+    {
+     "path": "tags/bluesky/index.html",
+     "main_list_selector": "main section.blog-content article h1 a",
+     "selector_reason": "term pages use taxonomy/term.html which renders the same <article> summary cards inside <main><section class='blog-content'> with title links in <h1><a>",
+     "link_count": 2
+    },
+    {
+     "path": "tags/fedex/index.html",
+     "main_list_selector": "main section.blog-content article h1 a",
+     "selector_reason": "term pages use taxonomy/term.html which renders the same <article> summary cards inside <main><section class='blog-content'> with title links in <h1><a>",
+     "link_count": 1
+    },
+    {
+     "path": "tags/hugo-site/index.html",
+     "main_list_selector": "main section.blog-content article h1 a",
+     "selector_reason": "term pages use taxonomy/term.html which renders the same <article> summary cards inside <main><section class='blog-content'> with title links in <h1><a>",
+     "link_count": 1
+    },
+    {
+     "path": "tags/maps/index.html",
+     "main_list_selector": "main section.blog-content article h1 a",
+     "selector_reason": "term pages use taxonomy/term.html which renders the same <article> summary cards inside <main><section class='blog-content'> with title links in <h1><a>",
+     "link_count": 1
+    },
+    {
+     "path": "tags/r/index.html",
+     "main_list_selector": "main section.blog-content article h1 a",
+     "selector_reason": "term pages use taxonomy/term.html which renders the same <article> summary cards inside <main><section class='blog-content'> with title links in <h1><a>",
+     "link_count": 4
+    },
+    {
+     "path": "tags/rvest/index.html",
+     "main_list_selector": "main section.blog-content article h1 a",
+     "selector_reason": "term pages use taxonomy/term.html which renders the same <article> summary cards inside <main><section class='blog-content'> with title links in <h1><a>",
+     "link_count": 1
+    },
+    {
+     "path": "tags/tidy-tuesday/index.html",
+     "main_list_selector": "main section.blog-content article h1 a",
+     "selector_reason": "term pages use taxonomy/term.html which renders the same <article> summary cards inside <main><section class='blog-content'> with title links in <h1><a>",
+     "link_count": 1
+    }
+   ],
+   "build_command": "/home/hatch/bin/hugo_0.136.2",
+   "stale_public_dir_removed": true
+  },
+  {
+   "sha": "d66ee7fef902995cc76adf7fcbb85605d9271708",
+   "date": "2024-11-22",
+   "adds_new_content": true,
+   "worktree_method": "git worktree add --detach /home/hatch/workspace/handoff-assignments-202609/12-content-site-scan/output/work/wt_d66ee7fef902 d66ee7fef902 (blobless clone, blobs fetched on demand)",
+   "hugo_version": "hugo v0.136.2-ad985550a4faff6bc40ce4c88b11215a9330a74e+extended linux/amd64 BuildDate=2024-10-17T14:30:05Z VendorInfo=gohugoio",
+   "build_ok": true,
+   "build_seconds": 45.6,
+   "error_excerpt": null,
+   "page_count": 37,
+   "output_dir_config_line": "netlify.toml: publish = 'public' (Hugo default output dir is public/; no publishDir line in config.toml). NOTE: repo commits a stale public/ dir; it was removed before each build so counts are fresh-output only.",
+   "list_pages": [
+    {
+     "path": "about/index.html",
+     "main_list_selector": "main section.blog-content article h1 a",
+     "selector_reason": "hugo-apero _default/list.html, taxonomy/taxonomy.html and taxonomy/term.html all range over pages rendering the shared/summary partial as <article> cards inside <main><section class='blog-content'>, each card's page title link in <h1><a>",
+     "link_count": 0
+    },
+    {
+     "path": "blog/index.html",
+     "main_list_selector": "main section.blog-content article h1 a",
+     "selector_reason": "hugo-apero _default/list.html, taxonomy/taxonomy.html and taxonomy/term.html all range over pages rendering the shared/summary partial as <article> cards inside <main><section class='blog-content'>, each card's page title link in <h1><a>",
+     "link_count": 5
+    },
+    {
+     "path": "blog/page/1/index.html",
+     "main_list_selector": "main section.blog-content article h1 a",
+     "selector_reason": "paginated continuation of the section list; same list.html partial and summary-card markup",
+     "link_count": 0
+    },
+    {
+     "path": "blog/page/2/index.html",
+     "main_list_selector": "main section.blog-content article h1 a",
+     "selector_reason": "paginated continuation of the section list; same list.html partial and summary-card markup",
+     "link_count": 4
+    },
+    {
+     "path": "categories/bluesky/index.html",
+     "main_list_selector": "main section.blog-content article h1 a",
+     "selector_reason": "term pages use taxonomy/term.html which renders the same <article> summary cards inside <main><section class='blog-content'> with title links in <h1><a>",
+     "link_count": 2
+    },
+    {
+     "path": "categories/tidy-tuesday/index.html",
+     "main_list_selector": "main section.blog-content article h1 a",
+     "selector_reason": "term pages use taxonomy/term.html which renders the same <article> summary cards inside <main><section class='blog-content'> with title links in <h1><a>",
+     "link_count": 1
+    },
+    {
+     "path": "form/index.html",
+     "main_list_selector": "main section.blog-content article h1 a",
+     "selector_reason": "hugo-apero _default/list.html, taxonomy/taxonomy.html and taxonomy/term.html all range over pages rendering the shared/summary partial as <article> cards inside <main><section class='blog-content'>, each card's page title link in <h1><a>",
+     "link_count": 1
+    },
+    {
+     "path": "form/page/1/index.html",
+     "main_list_selector": "main section.blog-content article h1 a",
+     "selector_reason": "paginated continuation of the section list; same list.html partial and summary-card markup",
+     "link_count": 0
+    },
+    {
+     "path": "tags/bluesky/index.html",
+     "main_list_selector": "main section.blog-content article h1 a",
+     "selector_reason": "term pages use taxonomy/term.html which renders the same <article> summary cards inside <main><section class='blog-content'> with title links in <h1><a>",
+     "link_count": 4
+    },
+    {
+     "path": "tags/duckdb/index.html",
+     "main_list_selector": "main section.blog-content article h1 a",
+     "selector_reason": "term pages use taxonomy/term.html which renders the same <article> summary cards inside <main><section class='blog-content'> with title links in <h1><a>",
+     "link_count": 2
+    },
+    {
+     "path": "tags/fedex/index.html",
+     "main_list_selector": "main section.blog-content article h1 a",
+     "selector_reason": "term pages use taxonomy/term.html which renders the same <article> summary cards inside <main><section class='blog-content'> with title links in <h1><a>",
+     "link_count": 1
+    },
+    {
+     "path": "tags/foursquare/index.html",
+     "main_list_selector": "main section.blog-content article h1 a",
+     "selector_reason": "term pages use taxonomy/term.html which renders the same <article> summary cards inside <main><section class='blog-content'> with title links in <h1><a>",
+     "link_count": 1
+    },
+    {
+     "path": "tags/hugo-site/index.html",
+     "main_list_selector": "main section.blog-content article h1 a",
+     "selector_reason": "term pages use taxonomy/term.html which renders the same <article> summary cards inside <main><section class='blog-content'> with title links in <h1><a>",
+     "link_count": 1
+    },
+    {
+     "path": "tags/maps/index.html",
+     "main_list_selector": "main section.blog-content article h1 a",
+     "selector_reason": "term pages use taxonomy/term.html which renders the same <article> summary cards inside <main><section class='blog-content'> with title links in <h1><a>",
+     "link_count": 1
+    },
+    {
+     "path": "tags/r/index.html",
+     "main_list_selector": "main section.blog-content article h1 a",
+     "selector_reason": "term pages use taxonomy/term.html which renders the same <article> summary cards inside <main><section class='blog-content'> with title links in <h1><a>",
+     "link_count": 8
+    },
+    {
+     "path": "tags/rvest/index.html",
+     "main_list_selector": "main section.blog-content article h1 a",
+     "selector_reason": "term pages use taxonomy/term.html which renders the same <article> summary cards inside <main><section class='blog-content'> with title links in <h1><a>",
+     "link_count": 1
+    },
+    {
+     "path": "tags/s3/index.html",
+     "main_list_selector": "main section.blog-content article h1 a",
+     "selector_reason": "term pages use taxonomy/term.html which renders the same <article> summary cards inside <main><section class='blog-content'> with title links in <h1><a>",
+     "link_count": 1
+    },
+    {
+     "path": "tags/tidy-tuesday/index.html",
+     "main_list_selector": "main section.blog-content article h1 a",
+     "selector_reason": "term pages use taxonomy/term.html which renders the same <article> summary cards inside <main><section class='blog-content'> with title links in <h1><a>",
+     "link_count": 1
+    }
+   ],
+   "build_command": "/home/hatch/bin/hugo_0.136.2",
+   "stale_public_dir_removed": true
+  },
+  {
+   "sha": "cd67f2832bdca7f6364c0987d2d84b1cdef05311",
+   "date": "2024-12-12",
+   "adds_new_content": false,
+   "worktree_method": "git worktree add --detach /home/hatch/workspace/handoff-assignments-202609/12-content-site-scan/output/work/wt_cd67f2832bdc cd67f2832bdc (blobless clone, blobs fetched on demand)",
+   "hugo_version": "hugo v0.136.2-ad985550a4faff6bc40ce4c88b11215a9330a74e+extended linux/amd64 BuildDate=2024-10-17T14:30:05Z VendorInfo=gohugoio",
+   "build_ok": true,
+   "build_seconds": 63.9,
+   "error_excerpt": null,
+   "page_count": 44,
+   "output_dir_config_line": "netlify.toml: publish = 'public' (Hugo default output dir is public/; no publishDir line in config.toml). NOTE: repo commits a stale public/ dir; it was removed before each build so counts are fresh-output only.",
+   "list_pages": [
+    {
+     "path": "about/index.html",
+     "main_list_selector": "main section.blog-content article h1 a",
+     "selector_reason": "hugo-apero _default/list.html, taxonomy/taxonomy.html and taxonomy/term.html all range over pages rendering the shared/summary partial as <article> cards inside <main><section class='blog-content'>, each card's page title link in <h1><a>",
+     "link_count": 0
+    },
+    {
+     "path": "blog/index.html",
+     "main_list_selector": "main section.blog-content article h1 a",
+     "selector_reason": "hugo-apero _default/list.html, taxonomy/taxonomy.html and taxonomy/term.html all range over pages rendering the shared/summary partial as <article> cards inside <main><section class='blog-content'>, each card's page title link in <h1><a>",
+     "link_count": 5
+    },
+    {
+     "path": "blog/page/1/index.html",
+     "main_list_selector": "main section.blog-content article h1 a",
+     "selector_reason": "paginated continuation of the section list; same list.html partial and summary-card markup",
+     "link_count": 0
+    },
+    {
+     "path": "blog/page/2/index.html",
+     "main_list_selector": "main section.blog-content article h1 a",
+     "selector_reason": "paginated continuation of the section list; same list.html partial and summary-card markup",
+     "link_count": 5
+    },
+    {
+     "path": "blog/page/3/index.html",
+     "main_list_selector": "main section.blog-content article h1 a",
+     "selector_reason": "paginated continuation of the section list; same list.html partial and summary-card markup",
+     "link_count": 4
+    },
+    {
+     "path": "categories/bluesky/index.html",
+     "main_list_selector": "main section.blog-content article h1 a",
+     "selector_reason": "term pages use taxonomy/term.html which renders the same <article> summary cards inside <main><section class='blog-content'> with title links in <h1><a>",
+     "link_count": 3
+    },
+    {
+     "path": "categories/tidy-tuesday/index.html",
+     "main_list_selector": "main section.blog-content article h1 a",
+     "selector_reason": "term pages use taxonomy/term.html which renders the same <article> summary cards inside <main><section class='blog-content'> with title links in <h1><a>",
+     "link_count": 2
+    },
+    {
+     "path": "form/index.html",
+     "main_list_selector": "main section.blog-content article h1 a",
+     "selector_reason": "hugo-apero _default/list.html, taxonomy/taxonomy.html and taxonomy/term.html all range over pages rendering the shared/summary partial as <article> cards inside <main><section class='blog-content'>, each card's page title link in <h1><a>",
+     "link_count": 1
+    },
+    {
+     "path": "form/page/1/index.html",
+     "main_list_selector": "main section.blog-content article h1 a",
+     "selector_reason": "paginated continuation of the section list; same list.html partial and summary-card markup",
+     "link_count": 0
+    },
+    {
+     "path": "tags/bluesky/index.html",
+     "main_list_selector": "main section.blog-content article h1 a",
+     "selector_reason": "term pages use taxonomy/term.html which renders the same <article> summary cards inside <main><section class='blog-content'> with title links in <h1><a>",
+     "link_count": 7
+    },
+    {
+     "path": "tags/duckdb/index.html",
+     "main_list_selector": "main section.blog-content article h1 a",
+     "selector_reason": "term pages use taxonomy/term.html which renders the same <article> summary cards inside <main><section class='blog-content'> with title links in <h1><a>",
+     "link_count": 3
+    },
+    {
+     "path": "tags/fedex/index.html",
+     "main_list_selector": "main section.blog-content article h1 a",
+     "selector_reason": "term pages use taxonomy/term.html which renders the same <article> summary cards inside <main><section class='blog-content'> with title links in <h1><a>",
+     "link_count": 1
+    },
+    {
+     "path": "tags/foursquare/index.html",
+     "main_list_selector": "main section.blog-content article h1 a",
+     "selector_reason": "term pages use taxonomy/term.html which renders the same <article> summary cards inside <main><section class='blog-content'> with title links in <h1><a>",
+     "link_count": 1
+    },
+    {
+     "path": "tags/ggplot2/index.html",
+     "main_list_selector": "main section.blog-content article h1 a",
+     "selector_reason": "term pages use taxonomy/term.html which renders the same <article> summary cards inside <main><section class='blog-content'> with title links in <h1><a>",
+     "link_count": 1
+    },
+    {
+     "path": "tags/hugo-site/index.html",
+     "main_list_selector": "main section.blog-content article h1 a",
+     "selector_reason": "term pages use taxonomy/term.html which renders the same <article> summary cards inside <main><section class='blog-content'> with title links in <h1><a>",
+     "link_count": 1
+    },
+    {
+     "path": "tags/maps/index.html",
+     "main_list_selector": "main section.blog-content article h1 a",
+     "selector_reason": "term pages use taxonomy/term.html which renders the same <article> summary cards inside <main><section class='blog-content'> with title links in <h1><a>",
+     "link_count": 4
+    },
+    {
+     "path": "tags/r/index.html",
+     "main_list_selector": "main section.blog-content article h1 a",
+     "selector_reason": "term pages use taxonomy/term.html which renders the same <article> summary cards inside <main><section class='blog-content'> with title links in <h1><a>",
+     "link_count": 13
+    },
+    {
+     "path": "tags/rvest/index.html",
+     "main_list_selector": "main section.blog-content article h1 a",
+     "selector_reason": "term pages use taxonomy/term.html which renders the same <article> summary cards inside <main><section class='blog-content'> with title links in <h1><a>",
+     "link_count": 1
+    },
+    {
+     "path": "tags/s3/index.html",
+     "main_list_selector": "main section.blog-content article h1 a",
+     "selector_reason": "term pages use taxonomy/term.html which renders the same <article> summary cards inside <main><section class='blog-content'> with title links in <h1><a>",
+     "link_count": 1
+    },
+    {
+     "path": "tags/tidy-tuesday/index.html",
+     "main_list_selector": "main section.blog-content article h1 a",
+     "selector_reason": "term pages use taxonomy/term.html which renders the same <article> summary cards inside <main><section class='blog-content'> with title links in <h1><a>",
+     "link_count": 2
+    }
+   ],
+   "build_command": "/home/hatch/bin/hugo_0.136.2",
+   "stale_public_dir_removed": true
+  }
+ ],
+ "median_page_count": 40.0,
+ "median_build_seconds": 7.4,
+ "phase7": {
+  "rebuilt_commits": [
+   "be190508f3370a7f6ced9b85bbb26c5dedcef88b",
+   "97223cd41923134a063a4ca2c281f3c6ec2ce2cf"
+  ],
+  "method": "each commit rebuilt twice in fresh worktrees (git worktree add --detach) with the tracked stale public/ dir removed before each build so the output dir started empty",
+  "rebuilds": [
+   {
+    "sha": "be190508f3370a7f6ced9b85bbb26c5dedcef88b",
+    "pages_compared": 66,
+    "all_body_identical": true
+   },
+   {
+    "sha": "97223cd41923134a063a4ca2c281f3c6ec2ce2cf",
+    "pages_compared": 26,
+    "all_body_identical": true
+   }
+  ],
+  "pages_compared": 92,
+  "all_body_identical": true,
+  "differing_pages": [
+   {
+    "commit": "be190508f337",
+    "path": "404.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "cache-bust fingerprint in <head> (fingerprinted js.Build asset URL differs between builds; <body> subtree identical)",
+    "quote": "build A <head> region: <script src=\"/main.min.0521e199425ae89a978131abb63a9574cc5a6df77f4e668c0dc55546d9e9b99a.js\" type=\"text/javascript\"></script> ||| build B <head> region: <script src=\"/main.min.ee994cbbb77292f996e4481122cafed63e9957a6c3a06d435048632d2484aebe.js\" type=\"text/javascript\"></script>"
+   },
+   {
+    "commit": "be190508f337",
+    "path": "about/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "cache-bust fingerprint in <head> (fingerprinted js.Build asset URL differs between builds; <body> subtree identical)",
+    "quote": "build A <head> region: <script src=\"/main.min.0521e199425ae89a978131abb63a9574cc5a6df77f4e668c0dc55546d9e9b99a.js\" type=\"text/javascript\"></script> ||| build B <head> region: <script src=\"/main.min.ee994cbbb77292f996e4481122cafed63e9957a6c3a06d435048632d2484aebe.js\" type=\"text/javascript\"></script>"
+   },
+   {
+    "commit": "be190508f337",
+    "path": "blog/built-in-contact-form/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "cache-bust fingerprint in <head> (fingerprinted js.Build asset URL differs between builds; <body> subtree identical)",
+    "quote": "build A <head> region: <script src=\"/main.min.0521e199425ae89a978131abb63a9574cc5a6df77f4e668c0dc55546d9e9b99a.js\" type=\"text/javascript\"></script> ||| build B <head> region: <script src=\"/main.min.ee994cbbb77292f996e4481122cafed63e9957a6c3a06d435048632d2484aebe.js\" type=\"text/javascript\"></script>"
+   },
+   {
+    "commit": "be190508f337",
+    "path": "blog/color-themes/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "cache-bust fingerprint in <head> (fingerprinted js.Build asset URL differs between builds; <body> subtree identical)",
+    "quote": "build A <head> region: <script src=\"/main.min.0521e199425ae89a978131abb63a9574cc5a6df77f4e668c0dc55546d9e9b99a.js\" type=\"text/javascript\"></script> ||| build B <head> region: <script src=\"/main.min.ee994cbbb77292f996e4481122cafed63e9957a6c3a06d435048632d2484aebe.js\" type=\"text/javascript\"></script>"
+   },
+   {
+    "commit": "be190508f337",
+    "path": "blog/css-grid-scaffold/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "cache-bust fingerprint in <head> (fingerprinted js.Build asset URL differs between builds; <body> subtree identical)",
+    "quote": "build A <head> region: <script src=\"/main.min.0521e199425ae89a978131abb63a9574cc5a6df77f4e668c0dc55546d9e9b99a.js\" type=\"text/javascript\"></script> ||| build B <head> region: <script src=\"/main.min.ee994cbbb77292f996e4481122cafed63e9957a6c3a06d435048632d2484aebe.js\" type=\"text/javascript\"></script>"
+   },
+   {
+    "commit": "be190508f337",
+    "path": "blog/evergreen/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "cache-bust fingerprint in <head> (fingerprinted js.Build asset URL differs between builds; <body> subtree identical)",
+    "quote": "build A <head> region: <script src=\"/main.min.0521e199425ae89a978131abb63a9574cc5a6df77f4e668c0dc55546d9e9b99a.js\" type=\"text/javascript\"></script> ||| build B <head> region: <script src=\"/main.min.ee994cbbb77292f996e4481122cafed63e9957a6c3a06d435048632d2484aebe.js\" type=\"text/javascript\"></script>"
+   },
+   {
+    "commit": "be190508f337",
+    "path": "blog/fonts/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "cache-bust fingerprint in <head> (fingerprinted js.Build asset URL differs between builds; <body> subtree identical)",
+    "quote": "build A <head> region: <script src=\"/main.min.0521e199425ae89a978131abb63a9574cc5a6df77f4e668c0dc55546d9e9b99a.js\" type=\"text/javascript\"></script> ||| build B <head> region: <script src=\"/main.min.ee994cbbb77292f996e4481122cafed63e9957a6c3a06d435048632d2484aebe.js\" type=\"text/javascript\"></script>"
+   },
+   {
+    "commit": "be190508f337",
+    "path": "blog/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "cache-bust fingerprint in <head> (fingerprinted js.Build asset URL differs between builds; <body> subtree identical)",
+    "quote": "build A <head> region: <script src=\"/main.min.0521e199425ae89a978131abb63a9574cc5a6df77f4e668c0dc55546d9e9b99a.js\" type=\"text/javascript\"></script> ||| build B <head> region: <script src=\"/main.min.ee994cbbb77292f996e4481122cafed63e9957a6c3a06d435048632d2484aebe.js\" type=\"text/javascript\"></script>"
+   },
+   {
+    "commit": "be190508f337",
+    "path": "blog/page/2/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "cache-bust fingerprint in <head> (fingerprinted js.Build asset URL differs between builds; <body> subtree identical)",
+    "quote": "build A <head> region: <script src=\"/main.min.0521e199425ae89a978131abb63a9574cc5a6df77f4e668c0dc55546d9e9b99a.js\" type=\"text/javascript\"></script> ||| build B <head> region: <script src=\"/main.min.ee994cbbb77292f996e4481122cafed63e9957a6c3a06d435048632d2484aebe.js\" type=\"text/javascript\"></script>"
+   },
+   {
+    "commit": "be190508f337",
+    "path": "blog/page/3/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "cache-bust fingerprint in <head> (fingerprinted js.Build asset URL differs between builds; <body> subtree identical)",
+    "quote": "build A <head> region: <script src=\"/main.min.0521e199425ae89a978131abb63a9574cc5a6df77f4e668c0dc55546d9e9b99a.js\" type=\"text/javascript\"></script> ||| build B <head> region: <script src=\"/main.min.ee994cbbb77292f996e4481122cafed63e9957a6c3a06d435048632d2484aebe.js\" type=\"text/javascript\"></script>"
+   },
+   {
+    "commit": "be190508f337",
+    "path": "blog/rmarkdown/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "cache-bust fingerprint in <head> (fingerprinted js.Build asset URL differs between builds; <body> subtree identical)",
+    "quote": "build A <head> region: <script src=\"/main.min.0521e199425ae89a978131abb63a9574cc5a6df77f4e668c0dc55546d9e9b99a.js\" type=\"text/javascript\"></script> ||| build B <head> region: <script src=\"/main.min.ee994cbbb77292f996e4481122cafed63e9957a6c3a06d435048632d2484aebe.js\" type=\"text/javascript\"></script>"
+   },
+   {
+    "commit": "be190508f337",
+    "path": "blog/seedling/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "cache-bust fingerprint in <head> (fingerprinted js.Build asset URL differs between builds; <body> subtree identical)",
+    "quote": "build A <head> region: <script src=\"/main.min.0521e199425ae89a978131abb63a9574cc5a6df77f4e668c0dc55546d9e9b99a.js\" type=\"text/javascript\"></script> ||| build B <head> region: <script src=\"/main.min.ee994cbbb77292f996e4481122cafed63e9957a6c3a06d435048632d2484aebe.js\" type=\"text/javascript\"></script>"
+   },
+   {
+    "commit": "be190508f337",
+    "path": "blog/social/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "cache-bust fingerprint in <head> (fingerprinted js.Build asset URL differs between builds; <body> subtree identical)",
+    "quote": "build A <head> region: <script src=\"/main.min.0521e199425ae89a978131abb63a9574cc5a6df77f4e668c0dc55546d9e9b99a.js\" type=\"text/javascript\"></script> ||| build B <head> region: <script src=\"/main.min.ee994cbbb77292f996e4481122cafed63e9957a6c3a06d435048632d2484aebe.js\" type=\"text/javascript\"></script>"
+   },
+   {
+    "commit": "be190508f337",
+    "path": "blog/spoonful-series/01-spoonful/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "cache-bust fingerprint in <head> (fingerprinted js.Build asset URL differs between builds; <body> subtree identical)",
+    "quote": "build A <head> region: <script src=\"/main.min.0521e199425ae89a978131abb63a9574cc5a6df77f4e668c0dc55546d9e9b99a.js\" type=\"text/javascript\"></script> ||| build B <head> region: <script src=\"/main.min.ee994cbbb77292f996e4481122cafed63e9957a6c3a06d435048632d2484aebe.js\" type=\"text/javascript\"></script>"
+   },
+   {
+    "commit": "be190508f337",
+    "path": "blog/spoonful-series/02-spoonful/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "cache-bust fingerprint in <head> (fingerprinted js.Build asset URL differs between builds; <body> subtree identical)",
+    "quote": "build A <head> region: <script src=\"/main.min.0521e199425ae89a978131abb63a9574cc5a6df77f4e668c0dc55546d9e9b99a.js\" type=\"text/javascript\"></script> ||| build B <head> region: <script src=\"/main.min.ee994cbbb77292f996e4481122cafed63e9957a6c3a06d435048632d2484aebe.js\" type=\"text/javascript\"></script>"
+   },
+   {
+    "commit": "be190508f337",
+    "path": "blog/spoonful-series/03-spoonful/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "cache-bust fingerprint in <head> (fingerprinted js.Build asset URL differs between builds; <body> subtree identical)",
+    "quote": "build A <head> region: <script src=\"/main.min.0521e199425ae89a978131abb63a9574cc5a6df77f4e668c0dc55546d9e9b99a.js\" type=\"text/javascript\"></script> ||| build B <head> region: <script src=\"/main.min.ee994cbbb77292f996e4481122cafed63e9957a6c3a06d435048632d2484aebe.js\" type=\"text/javascript\"></script>"
+   },
+   {
+    "commit": "be190508f337",
+    "path": "blog/spoonful-series/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "cache-bust fingerprint in <head> (fingerprinted js.Build asset URL differs between builds; <body> subtree identical)",
+    "quote": "build A <head> region: <script src=\"/main.min.0521e199425ae89a978131abb63a9574cc5a6df77f4e668c0dc55546d9e9b99a.js\" type=\"text/javascript\"></script> ||| build B <head> region: <script src=\"/main.min.ee994cbbb77292f996e4481122cafed63e9957a6c3a06d435048632d2484aebe.js\" type=\"text/javascript\"></script>"
+   },
+   {
+    "commit": "be190508f337",
+    "path": "categories/evergreen/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "cache-bust fingerprint in <head> (fingerprinted js.Build asset URL differs between builds; <body> subtree identical)",
+    "quote": "build A <head> region: <script src=\"/main.min.0521e199425ae89a978131abb63a9574cc5a6df77f4e668c0dc55546d9e9b99a.js\" type=\"text/javascript\"></script> ||| build B <head> region: <script src=\"/main.min.ee994cbbb77292f996e4481122cafed63e9957a6c3a06d435048632d2484aebe.js\" type=\"text/javascript\"></script>"
+   },
+   {
+    "commit": "be190508f337",
+    "path": "categories/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "cache-bust fingerprint in <head> (fingerprinted js.Build asset URL differs between builds; <body> subtree identical)",
+    "quote": "build A <head> region: <script src=\"/main.min.0521e199425ae89a978131abb63a9574cc5a6df77f4e668c0dc55546d9e9b99a.js\" type=\"text/javascript\"></script> ||| build B <head> region: <script src=\"/main.min.ee994cbbb77292f996e4481122cafed63e9957a6c3a06d435048632d2484aebe.js\" type=\"text/javascript\"></script>"
+   },
+   {
+    "commit": "be190508f337",
+    "path": "categories/meetup/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "cache-bust fingerprint in <head> (fingerprinted js.Build asset URL differs between builds; <body> subtree identical)",
+    "quote": "build A <head> region: <script src=\"/main.min.0521e199425ae89a978131abb63a9574cc5a6df77f4e668c0dc55546d9e9b99a.js\" type=\"text/javascript\"></script> ||| build B <head> region: <script src=\"/main.min.ee994cbbb77292f996e4481122cafed63e9957a6c3a06d435048632d2484aebe.js\" type=\"text/javascript\"></script>"
+   },
+   {
+    "commit": "be190508f337",
+    "path": "categories/package/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "cache-bust fingerprint in <head> (fingerprinted js.Build asset URL differs between builds; <body> subtree identical)",
+    "quote": "build A <head> region: <script src=\"/main.min.0521e199425ae89a978131abb63a9574cc5a6df77f4e668c0dc55546d9e9b99a.js\" type=\"text/javascript\"></script> ||| build B <head> region: <script src=\"/main.min.ee994cbbb77292f996e4481122cafed63e9957a6c3a06d435048632d2484aebe.js\" type=\"text/javascript\"></script>"
+   },
+   {
+    "commit": "be190508f337",
+    "path": "categories/r/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "cache-bust fingerprint in <head> (fingerprinted js.Build asset URL differs between builds; <body> subtree identical)",
+    "quote": "build A <head> region: <script src=\"/main.min.0521e199425ae89a978131abb63a9574cc5a6df77f4e668c0dc55546d9e9b99a.js\" type=\"text/javascript\"></script> ||| build B <head> region: <script src=\"/main.min.ee994cbbb77292f996e4481122cafed63e9957a6c3a06d435048632d2484aebe.js\" type=\"text/javascript\"></script>"
+   },
+   {
+    "commit": "be190508f337",
+    "path": "categories/theme-features/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "cache-bust fingerprint in <head> (fingerprinted js.Build asset URL differs between builds; <body> subtree identical)",
+    "quote": "build A <head> region: <script src=\"/main.min.0521e199425ae89a978131abb63a9574cc5a6df77f4e668c0dc55546d9e9b99a.js\" type=\"text/javascript\"></script> ||| build B <head> region: <script src=\"/main.min.ee994cbbb77292f996e4481122cafed63e9957a6c3a06d435048632d2484aebe.js\" type=\"text/javascript\"></script>"
+   },
+   {
+    "commit": "be190508f337",
+    "path": "categories/workshop/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "cache-bust fingerprint in <head> (fingerprinted js.Build asset URL differs between builds; <body> subtree identical)",
+    "quote": "build A <head> region: <script src=\"/main.min.0521e199425ae89a978131abb63a9574cc5a6df77f4e668c0dc55546d9e9b99a.js\" type=\"text/javascript\"></script> ||| build B <head> region: <script src=\"/main.min.ee994cbbb77292f996e4481122cafed63e9957a6c3a06d435048632d2484aebe.js\" type=\"text/javascript\"></script>"
+   },
+   {
+    "commit": "be190508f337",
+    "path": "collection/day01/01-github/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "cache-bust fingerprint in <head> (fingerprinted js.Build asset URL differs between builds; <body> subtree identical)",
+    "quote": "build A <head> region: <script src=\"/main.min.0521e199425ae89a978131abb63a9574cc5a6df77f4e668c0dc55546d9e9b99a.js\" type=\"text/javascript\"></script> ||| build B <head> region: <script src=\"/main.min.ee994cbbb77292f996e4481122cafed63e9957a6c3a06d435048632d2484aebe.js\" type=\"text/javascript\"></script>"
+   },
+   {
+    "commit": "be190508f337",
+    "path": "collection/day01/02-postcards/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "cache-bust fingerprint in <head> (fingerprinted js.Build asset URL differs between builds; <body> subtree identical)",
+    "quote": "build A <head> region: <script src=\"/main.min.0521e199425ae89a978131abb63a9574cc5a6df77f4e668c0dc55546d9e9b99a.js\" type=\"text/javascript\"></script> ||| build B <head> region: <script src=\"/main.min.ee994cbbb77292f996e4481122cafed63e9957a6c3a06d435048632d2484aebe.js\" type=\"text/javascript\"></script>"
+   },
+   {
+    "commit": "be190508f337",
+    "path": "collection/day01/03-distill/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "cache-bust fingerprint in <head> (fingerprinted js.Build asset URL differs between builds; <body> subtree identical)",
+    "quote": "build A <head> region: <script src=\"/main.min.0521e199425ae89a978131abb63a9574cc5a6df77f4e668c0dc55546d9e9b99a.js\" type=\"text/javascript\"></script> ||| build B <head> region: <script src=\"/main.min.ee994cbbb77292f996e4481122cafed63e9957a6c3a06d435048632d2484aebe.js\" type=\"text/javascript\"></script>"
+   },
+   {
+    "commit": "be190508f337",
+    "path": "collection/day01/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "cache-bust fingerprint in <head> (fingerprinted js.Build asset URL differs between builds; <body> subtree identical)",
+    "quote": "build A <head> region: <script src=\"/main.min.0521e199425ae89a978131abb63a9574cc5a6df77f4e668c0dc55546d9e9b99a.js\" type=\"text/javascript\"></script> ||| build B <head> region: <script src=\"/main.min.ee994cbbb77292f996e4481122cafed63e9957a6c3a06d435048632d2484aebe.js\" type=\"text/javascript\"></script>"
+   },
+   {
+    "commit": "be190508f337",
+    "path": "collection/day02/01-netlify/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "cache-bust fingerprint in <head> (fingerprinted js.Build asset URL differs between builds; <body> subtree identical)",
+    "quote": "build A <head> region: <script src=\"/main.min.0521e199425ae89a978131abb63a9574cc5a6df77f4e668c0dc55546d9e9b99a.js\" type=\"text/javascript\"></script> ||| build B <head> region: <script src=\"/main.min.ee994cbbb77292f996e4481122cafed63e9957a6c3a06d435048632d2484aebe.js\" type=\"text/javascript\"></script>"
+   },
+   {
+    "commit": "be190508f337",
+    "path": "collection/day02/02-blogdown/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "cache-bust fingerprint in <head> (fingerprinted js.Build asset URL differs between builds; <body> subtree identical)",
+    "quote": "build A <head> region: <script src=\"/main.min.0521e199425ae89a978131abb63a9574cc5a6df77f4e668c0dc55546d9e9b99a.js\" type=\"text/javascript\"></script> ||| build B <head> region: <script src=\"/main.min.ee994cbbb77292f996e4481122cafed63e9957a6c3a06d435048632d2484aebe.js\" type=\"text/javascript\"></script>"
+   },
+   {
+    "commit": "be190508f337",
+    "path": "collection/day02/03-blogdown/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "cache-bust fingerprint in <head> (fingerprinted js.Build asset URL differs between builds; <body> subtree identical)",
+    "quote": "build A <head> region: <script src=\"/main.min.0521e199425ae89a978131abb63a9574cc5a6df77f4e668c0dc55546d9e9b99a.js\" type=\"text/javascript\"></script> ||| build B <head> region: <script src=\"/main.min.ee994cbbb77292f996e4481122cafed63e9957a6c3a06d435048632d2484aebe.js\" type=\"text/javascript\"></script>"
+   },
+   {
+    "commit": "be190508f337",
+    "path": "collection/day02/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "cache-bust fingerprint in <head> (fingerprinted js.Build asset URL differs between builds; <body> subtree identical)",
+    "quote": "build A <head> region: <script src=\"/main.min.0521e199425ae89a978131abb63a9574cc5a6df77f4e668c0dc55546d9e9b99a.js\" type=\"text/javascript\"></script> ||| build B <head> region: <script src=\"/main.min.ee994cbbb77292f996e4481122cafed63e9957a6c3a06d435048632d2484aebe.js\" type=\"text/javascript\"></script>"
+   },
+   {
+    "commit": "be190508f337",
+    "path": "collection/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "cache-bust fingerprint in <head> (fingerprinted js.Build asset URL differs between builds; <body> subtree identical)",
+    "quote": "build A <head> region: <script src=\"/main.min.0521e199425ae89a978131abb63a9574cc5a6df77f4e668c0dc55546d9e9b99a.js\" type=\"text/javascript\"></script> ||| build B <head> region: <script src=\"/main.min.ee994cbbb77292f996e4481122cafed63e9957a6c3a06d435048632d2484aebe.js\" type=\"text/javascript\"></script>"
+   },
+   {
+    "commit": "be190508f337",
+    "path": "collection/prework/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "cache-bust fingerprint in <head> (fingerprinted js.Build asset URL differs between builds; <body> subtree identical)",
+    "quote": "build A <head> region: <script src=\"/main.min.0521e199425ae89a978131abb63a9574cc5a6df77f4e668c0dc55546d9e9b99a.js\" type=\"text/javascript\"></script> ||| build B <head> region: <script src=\"/main.min.ee994cbbb77292f996e4481122cafed63e9957a6c3a06d435048632d2484aebe.js\" type=\"text/javascript\"></script>"
+   },
+   {
+    "commit": "be190508f337",
+    "path": "contact/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "cache-bust fingerprint in <head> (fingerprinted js.Build asset URL differs between builds; <body> subtree identical)",
+    "quote": "build A <head> region: <script src=\"/main.min.0521e199425ae89a978131abb63a9574cc5a6df77f4e668c0dc55546d9e9b99a.js\" type=\"text/javascript\"></script> ||| build B <head> region: <script src=\"/main.min.ee994cbbb77292f996e4481122cafed63e9957a6c3a06d435048632d2484aebe.js\" type=\"text/javascript\"></script>"
+   },
+   {
+    "commit": "be190508f337",
+    "path": "contributors/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "cache-bust fingerprint in <head> (fingerprinted js.Build asset URL differs between builds; <body> subtree identical)",
+    "quote": "build A <head> region: <script src=\"/main.min.0521e199425ae89a978131abb63a9574cc5a6df77f4e668c0dc55546d9e9b99a.js\" type=\"text/javascript\"></script> ||| build B <head> region: <script src=\"/main.min.ee994cbbb77292f996e4481122cafed63e9957a6c3a06d435048632d2484aebe.js\" type=\"text/javascript\"></script>"
+   },
+   {
+    "commit": "be190508f337",
+    "path": "elements/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "cache-bust fingerprint in <head> (fingerprinted js.Build asset URL differs between builds; <body> subtree identical)",
+    "quote": "build A <head> region: <script src=\"/main.min.0521e199425ae89a978131abb63a9574cc5a6df77f4e668c0dc55546d9e9b99a.js\" type=\"text/javascript\"></script> ||| build B <head> region: <script src=\"/main.min.ee994cbbb77292f996e4481122cafed63e9957a6c3a06d435048632d2484aebe.js\" type=\"text/javascript\"></script>"
+   },
+   {
+    "commit": "be190508f337",
+    "path": "form/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "cache-bust fingerprint in <head> (fingerprinted js.Build asset URL differs between builds; <body> subtree identical)",
+    "quote": "build A <head> region: <script src=\"/main.min.0521e199425ae89a978131abb63a9574cc5a6df77f4e668c0dc55546d9e9b99a.js\" type=\"text/javascript\"></script> ||| build B <head> region: <script src=\"/main.min.ee994cbbb77292f996e4481122cafed63e9957a6c3a06d435048632d2484aebe.js\" type=\"text/javascript\"></script>"
+   },
+   {
+    "commit": "be190508f337",
+    "path": "index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "cache-bust fingerprint in <head> (fingerprinted js.Build asset URL differs between builds; <body> subtree identical)",
+    "quote": "build A <head> region: <script src=\"/main.min.0521e199425ae89a978131abb63a9574cc5a6df77f4e668c0dc55546d9e9b99a.js\" type=\"text/javascript\"></script> ||| build B <head> region: <script src=\"/main.min.ee994cbbb77292f996e4481122cafed63e9957a6c3a06d435048632d2484aebe.js\" type=\"text/javascript\"></script>"
+   },
+   {
+    "commit": "be190508f337",
+    "path": "license/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "cache-bust fingerprint in <head> (fingerprinted js.Build asset URL differs between builds; <body> subtree identical)",
+    "quote": "build A <head> region: <script src=\"/main.min.0521e199425ae89a978131abb63a9574cc5a6df77f4e668c0dc55546d9e9b99a.js\" type=\"text/javascript\"></script> ||| build B <head> region: <script src=\"/main.min.ee994cbbb77292f996e4481122cafed63e9957a6c3a06d435048632d2484aebe.js\" type=\"text/javascript\"></script>"
+   },
+   {
+    "commit": "be190508f337",
+    "path": "post/2015-01-01-lorem-ipsum/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "cache-bust fingerprint in <head> (fingerprinted js.Build asset URL differs between builds; <body> subtree identical)",
+    "quote": "build A <head> region: <script src=\"/main.min.0521e199425ae89a978131abb63a9574cc5a6df77f4e668c0dc55546d9e9b99a.js\" type=\"text/javascript\"></script> ||| build B <head> region: <script src=\"/main.min.ee994cbbb77292f996e4481122cafed63e9957a6c3a06d435048632d2484aebe.js\" type=\"text/javascript\"></script>"
+   },
+   {
+    "commit": "be190508f337",
+    "path": "post/2016-12-30-hello-markdown/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "cache-bust fingerprint in <head> (fingerprinted js.Build asset URL differs between builds; <body> subtree identical)",
+    "quote": "build A <head> region: <script src=\"/main.min.0521e199425ae89a978131abb63a9574cc5a6df77f4e668c0dc55546d9e9b99a.js\" type=\"text/javascript\"></script> ||| build B <head> region: <script src=\"/main.min.ee994cbbb77292f996e4481122cafed63e9957a6c3a06d435048632d2484aebe.js\" type=\"text/javascript\"></script>"
+   },
+   {
+    "commit": "be190508f337",
+    "path": "post/2020-12-01-r-rmarkdown/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "cache-bust fingerprint in <head> (fingerprinted js.Build asset URL differs between builds; <body> subtree identical)",
+    "quote": "build A <head> region: <script src=\"/main.min.0521e199425ae89a978131abb63a9574cc5a6df77f4e668c0dc55546d9e9b99a.js\" type=\"text/javascript\"></script> ||| build B <head> region: <script src=\"/main.min.ee994cbbb77292f996e4481122cafed63e9957a6c3a06d435048632d2484aebe.js\" type=\"text/javascript\"></script>"
+   },
+   {
+    "commit": "be190508f337",
+    "path": "post/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "cache-bust fingerprint in <head> (fingerprinted js.Build asset URL differs between builds; <body> subtree identical)",
+    "quote": "build A <head> region: <script src=\"/main.min.0521e199425ae89a978131abb63a9574cc5a6df77f4e668c0dc55546d9e9b99a.js\" type=\"text/javascript\"></script> ||| build B <head> region: <script src=\"/main.min.ee994cbbb77292f996e4481122cafed63e9957a6c3a06d435048632d2484aebe.js\" type=\"text/javascript\"></script>"
+   },
+   {
+    "commit": "be190508f337",
+    "path": "project/bakeoff/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "cache-bust fingerprint in <head> (fingerprinted js.Build asset URL differs between builds; <body> subtree identical)",
+    "quote": "build A <head> region: <script src=\"/main.min.0521e199425ae89a978131abb63a9574cc5a6df77f4e668c0dc55546d9e9b99a.js\" type=\"text/javascript\"></script> ||| build B <head> region: <script src=\"/main.min.ee994cbbb77292f996e4481122cafed63e9957a6c3a06d435048632d2484aebe.js\" type=\"text/javascript\"></script>"
+   },
+   {
+    "commit": "be190508f337",
+    "path": "project/giraffes/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "cache-bust fingerprint in <head> (fingerprinted js.Build asset URL differs between builds; <body> subtree identical)",
+    "quote": "build A <head> region: <script src=\"/main.min.0521e199425ae89a978131abb63a9574cc5a6df77f4e668c0dc55546d9e9b99a.js\" type=\"text/javascript\"></script> ||| build B <head> region: <script src=\"/main.min.ee994cbbb77292f996e4481122cafed63e9957a6c3a06d435048632d2484aebe.js\" type=\"text/javascript\"></script>"
+   },
+   {
+    "commit": "be190508f337",
+    "path": "project/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "cache-bust fingerprint in <head> (fingerprinted js.Build asset URL differs between builds; <body> subtree identical)",
+    "quote": "build A <head> region: <script src=\"/main.min.0521e199425ae89a978131abb63a9574cc5a6df77f4e668c0dc55546d9e9b99a.js\" type=\"text/javascript\"></script> ||| build B <head> region: <script src=\"/main.min.ee994cbbb77292f996e4481122cafed63e9957a6c3a06d435048632d2484aebe.js\" type=\"text/javascript\"></script>"
+   },
+   {
+    "commit": "be190508f337",
+    "path": "project/penguins/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "cache-bust fingerprint in <head> (fingerprinted js.Build asset URL differs between builds; <body> subtree identical)",
+    "quote": "build A <head> region: <script src=\"/main.min.0521e199425ae89a978131abb63a9574cc5a6df77f4e668c0dc55546d9e9b99a.js\" type=\"text/javascript\"></script> ||| build B <head> region: <script src=\"/main.min.ee994cbbb77292f996e4481122cafed63e9957a6c3a06d435048632d2484aebe.js\" type=\"text/javascript\"></script>"
+   },
+   {
+    "commit": "be190508f337",
+    "path": "series/a-spoonful-of-hugo/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "cache-bust fingerprint in <head> (fingerprinted js.Build asset URL differs between builds; <body> subtree identical)",
+    "quote": "build A <head> region: <script src=\"/main.min.0521e199425ae89a978131abb63a9574cc5a6df77f4e668c0dc55546d9e9b99a.js\" type=\"text/javascript\"></script> ||| build B <head> region: <script src=\"/main.min.ee994cbbb77292f996e4481122cafed63e9957a6c3a06d435048632d2484aebe.js\" type=\"text/javascript\"></script>"
+   },
+   {
+    "commit": "be190508f337",
+    "path": "series/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "cache-bust fingerprint in <head> (fingerprinted js.Build asset URL differs between builds; <body> subtree identical)",
+    "quote": "build A <head> region: <script src=\"/main.min.0521e199425ae89a978131abb63a9574cc5a6df77f4e668c0dc55546d9e9b99a.js\" type=\"text/javascript\"></script> ||| build B <head> region: <script src=\"/main.min.ee994cbbb77292f996e4481122cafed63e9957a6c3a06d435048632d2484aebe.js\" type=\"text/javascript\"></script>"
+   },
+   {
+    "commit": "be190508f337",
+    "path": "tags/hugo-site/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "cache-bust fingerprint in <head> (fingerprinted js.Build asset URL differs between builds; <body> subtree identical)",
+    "quote": "build A <head> region: <script src=\"/main.min.0521e199425ae89a978131abb63a9574cc5a6df77f4e668c0dc55546d9e9b99a.js\" type=\"text/javascript\"></script> ||| build B <head> region: <script src=\"/main.min.ee994cbbb77292f996e4481122cafed63e9957a6c3a06d435048632d2484aebe.js\" type=\"text/javascript\"></script>"
+   },
+   {
+    "commit": "be190508f337",
+    "path": "tags/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "cache-bust fingerprint in <head> (fingerprinted js.Build asset URL differs between builds; <body> subtree identical)",
+    "quote": "build A <head> region: <script src=\"/main.min.0521e199425ae89a978131abb63a9574cc5a6df77f4e668c0dc55546d9e9b99a.js\" type=\"text/javascript\"></script> ||| build B <head> region: <script src=\"/main.min.ee994cbbb77292f996e4481122cafed63e9957a6c3a06d435048632d2484aebe.js\" type=\"text/javascript\"></script>"
+   },
+   {
+    "commit": "be190508f337",
+    "path": "tags/plot/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "cache-bust fingerprint in <head> (fingerprinted js.Build asset URL differs between builds; <body> subtree identical)",
+    "quote": "build A <head> region: <script src=\"/main.min.0521e199425ae89a978131abb63a9574cc5a6df77f4e668c0dc55546d9e9b99a.js\" type=\"text/javascript\"></script> ||| build B <head> region: <script src=\"/main.min.ee994cbbb77292f996e4481122cafed63e9957a6c3a06d435048632d2484aebe.js\" type=\"text/javascript\"></script>"
+   },
+   {
+    "commit": "be190508f337",
+    "path": "tags/r-markdown/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "cache-bust fingerprint in <head> (fingerprinted js.Build asset URL differs between builds; <body> subtree identical)",
+    "quote": "build A <head> region: <script src=\"/main.min.0521e199425ae89a978131abb63a9574cc5a6df77f4e668c0dc55546d9e9b99a.js\" type=\"text/javascript\"></script> ||| build B <head> region: <script src=\"/main.min.ee994cbbb77292f996e4481122cafed63e9957a6c3a06d435048632d2484aebe.js\" type=\"text/javascript\"></script>"
+   },
+   {
+    "commit": "be190508f337",
+    "path": "tags/regression/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "cache-bust fingerprint in <head> (fingerprinted js.Build asset URL differs between builds; <body> subtree identical)",
+    "quote": "build A <head> region: <script src=\"/main.min.0521e199425ae89a978131abb63a9574cc5a6df77f4e668c0dc55546d9e9b99a.js\" type=\"text/javascript\"></script> ||| build B <head> region: <script src=\"/main.min.ee994cbbb77292f996e4481122cafed63e9957a6c3a06d435048632d2484aebe.js\" type=\"text/javascript\"></script>"
+   },
+   {
+    "commit": "be190508f337",
+    "path": "tags/style/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "cache-bust fingerprint in <head> (fingerprinted js.Build asset URL differs between builds; <body> subtree identical)",
+    "quote": "build A <head> region: <script src=\"/main.min.0521e199425ae89a978131abb63a9574cc5a6df77f4e668c0dc55546d9e9b99a.js\" type=\"text/javascript\"></script> ||| build B <head> region: <script src=\"/main.min.ee994cbbb77292f996e4481122cafed63e9957a6c3a06d435048632d2484aebe.js\" type=\"text/javascript\"></script>"
+   },
+   {
+    "commit": "be190508f337",
+    "path": "talk/campfire/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "cache-bust fingerprint in <head> (fingerprinted js.Build asset URL differs between builds; <body> subtree identical)",
+    "quote": "build A <head> region: <script src=\"/main.min.0521e199425ae89a978131abb63a9574cc5a6df77f4e668c0dc55546d9e9b99a.js\" type=\"text/javascript\"></script> ||| build B <head> region: <script src=\"/main.min.ee994cbbb77292f996e4481122cafed63e9957a6c3a06d435048632d2484aebe.js\" type=\"text/javascript\"></script>"
+   },
+   {
+    "commit": "be190508f337",
+    "path": "talk/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "cache-bust fingerprint in <head> (fingerprinted js.Build asset URL differs between builds; <body> subtree identical)",
+    "quote": "build A <head> region: <script src=\"/main.min.0521e199425ae89a978131abb63a9574cc5a6df77f4e668c0dc55546d9e9b99a.js\" type=\"text/javascript\"></script> ||| build B <head> region: <script src=\"/main.min.ee994cbbb77292f996e4481122cafed63e9957a6c3a06d435048632d2484aebe.js\" type=\"text/javascript\"></script>"
+   },
+   {
+    "commit": "be190508f337",
+    "path": "talk/second-seedling/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "cache-bust fingerprint in <head> (fingerprinted js.Build asset URL differs between builds; <body> subtree identical)",
+    "quote": "build A <head> region: <script src=\"/main.min.0521e199425ae89a978131abb63a9574cc5a6df77f4e668c0dc55546d9e9b99a.js\" type=\"text/javascript\"></script> ||| build B <head> region: <script src=\"/main.min.ee994cbbb77292f996e4481122cafed63e9957a6c3a06d435048632d2484aebe.js\" type=\"text/javascript\"></script>"
+   },
+   {
+    "commit": "be190508f337",
+    "path": "talk/seedling/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "cache-bust fingerprint in <head> (fingerprinted js.Build asset URL differs between builds; <body> subtree identical)",
+    "quote": "build A <head> region: <script src=\"/main.min.0521e199425ae89a978131abb63a9574cc5a6df77f4e668c0dc55546d9e9b99a.js\" type=\"text/javascript\"></script> ||| build B <head> region: <script src=\"/main.min.ee994cbbb77292f996e4481122cafed63e9957a6c3a06d435048632d2484aebe.js\" type=\"text/javascript\"></script>"
+   },
+   {
+    "commit": "97223cd41923",
+    "path": "404.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "cache-bust fingerprint in <head> (fingerprinted js.Build asset URL differs between builds; <body> subtree identical)",
+    "quote": "build A <head> region: <script src=\"/main.min.0521e199425ae89a978131abb63a9574cc5a6df77f4e668c0dc55546d9e9b99a.js\" type=\"text/javascript\"></script> ||| build B <head> region: <script src=\"/main.min.ee994cbbb77292f996e4481122cafed63e9957a6c3a06d435048632d2484aebe.js\" type=\"text/javascript\"></script>"
+   },
+   {
+    "commit": "97223cd41923",
+    "path": "about/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "cache-bust fingerprint in <head> (fingerprinted js.Build asset URL differs between builds; <body> subtree identical)",
+    "quote": "build A <head> region: <script src=\"/main.min.0521e199425ae89a978131abb63a9574cc5a6df77f4e668c0dc55546d9e9b99a.js\" type=\"text/javascript\"></script> ||| build B <head> region: <script src=\"/main.min.ee994cbbb77292f996e4481122cafed63e9957a6c3a06d435048632d2484aebe.js\" type=\"text/javascript\"></script>"
+   },
+   {
+    "commit": "97223cd41923",
+    "path": "blog/bsky_r/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "cache-bust fingerprint in <head> (fingerprinted js.Build asset URL differs between builds; <body> subtree identical)",
+    "quote": "build A <head> region: <script src=\"/main.min.0521e199425ae89a978131abb63a9574cc5a6df77f4e668c0dc55546d9e9b99a.js\" type=\"text/javascript\"></script> ||| build B <head> region: <script src=\"/main.min.ee994cbbb77292f996e4481122cafed63e9957a6c3a06d435048632d2484aebe.js\" type=\"text/javascript\"></script>"
+   },
+   {
+    "commit": "97223cd41923",
+    "path": "blog/duckdb_intro/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "cache-bust fingerprint in <head> (fingerprinted js.Build asset URL differs between builds; <body> subtree identical)",
+    "quote": "build A <head> region: <script src=\"/main.min.0521e199425ae89a978131abb63a9574cc5a6df77f4e668c0dc55546d9e9b99a.js\" type=\"text/javascript\"></script> ||| build B <head> region: <script src=\"/main.min.ee994cbbb77292f996e4481122cafed63e9957a6c3a06d435048632d2484aebe.js\" type=\"text/javascript\"></script>"
+   },
+   {
+    "commit": "97223cd41923",
+    "path": "blog/fedex_fuel_surcharges/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "cache-bust fingerprint in <head> (fingerprinted js.Build asset URL differs between builds; <body> subtree identical)",
+    "quote": "build A <head> region: <script src=\"/main.min.0521e199425ae89a978131abb63a9574cc5a6df77f4e668c0dc55546d9e9b99a.js\" type=\"text/javascript\"></script> ||| build B <head> region: <script src=\"/main.min.ee994cbbb77292f996e4481122cafed63e9957a6c3a06d435048632d2484aebe.js\" type=\"text/javascript\"></script>"
+   },
+   {
+    "commit": "97223cd41923",
+    "path": "blog/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "cache-bust fingerprint in <head> (fingerprinted js.Build asset URL differs between builds; <body> subtree identical)",
+    "quote": "build A <head> region: <script src=\"/main.min.0521e199425ae89a978131abb63a9574cc5a6df77f4e668c0dc55546d9e9b99a.js\" type=\"text/javascript\"></script> ||| build B <head> region: <script src=\"/main.min.ee994cbbb77292f996e4481122cafed63e9957a6c3a06d435048632d2484aebe.js\" type=\"text/javascript\"></script>"
+   },
+   {
+    "commit": "97223cd41923",
+    "path": "blog/tt_11-11-24/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "cache-bust fingerprint in <head> (fingerprinted js.Build asset URL differs between builds; <body> subtree identical)",
+    "quote": "build A <head> region: <script src=\"/main.min.0521e199425ae89a978131abb63a9574cc5a6df77f4e668c0dc55546d9e9b99a.js\" type=\"text/javascript\"></script> ||| build B <head> region: <script src=\"/main.min.ee994cbbb77292f996e4481122cafed63e9957a6c3a06d435048632d2484aebe.js\" type=\"text/javascript\"></script>"
+   },
+   {
+    "commit": "97223cd41923",
+    "path": "categories/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "cache-bust fingerprint in <head> (fingerprinted js.Build asset URL differs between builds; <body> subtree identical)",
+    "quote": "build A <head> region: <script src=\"/main.min.0521e199425ae89a978131abb63a9574cc5a6df77f4e668c0dc55546d9e9b99a.js\" type=\"text/javascript\"></script> ||| build B <head> region: <script src=\"/main.min.ee994cbbb77292f996e4481122cafed63e9957a6c3a06d435048632d2484aebe.js\" type=\"text/javascript\"></script>"
+   },
+   {
+    "commit": "97223cd41923",
+    "path": "contact/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "cache-bust fingerprint in <head> (fingerprinted js.Build asset URL differs between builds; <body> subtree identical)",
+    "quote": "build A <head> region: <script src=\"/main.min.0521e199425ae89a978131abb63a9574cc5a6df77f4e668c0dc55546d9e9b99a.js\" type=\"text/javascript\"></script> ||| build B <head> region: <script src=\"/main.min.ee994cbbb77292f996e4481122cafed63e9957a6c3a06d435048632d2484aebe.js\" type=\"text/javascript\"></script>"
+   },
+   {
+    "commit": "97223cd41923",
+    "path": "cv/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "cache-bust fingerprint in <head> (fingerprinted js.Build asset URL differs between builds; <body> subtree identical)",
+    "quote": "build A <head> region: <script src=\"/main.min.0521e199425ae89a978131abb63a9574cc5a6df77f4e668c0dc55546d9e9b99a.js\" type=\"text/javascript\"></script> ||| build B <head> region: <script src=\"/main.min.ee994cbbb77292f996e4481122cafed63e9957a6c3a06d435048632d2484aebe.js\" type=\"text/javascript\"></script>"
+   },
+   {
+    "commit": "97223cd41923",
+    "path": "cv/resume/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "cache-bust fingerprint in <head> (fingerprinted js.Build asset URL differs between builds; <body> subtree identical)",
+    "quote": "build A <head> region: <script src=\"/main.min.0521e199425ae89a978131abb63a9574cc5a6df77f4e668c0dc55546d9e9b99a.js\" type=\"text/javascript\"></script> ||| build B <head> region: <script src=\"/main.min.ee994cbbb77292f996e4481122cafed63e9957a6c3a06d435048632d2484aebe.js\" type=\"text/javascript\"></script>"
+   },
+   {
+    "commit": "97223cd41923",
+    "path": "form/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "cache-bust fingerprint in <head> (fingerprinted js.Build asset URL differs between builds; <body> subtree identical)",
+    "quote": "build A <head> region: <script src=\"/main.min.0521e199425ae89a978131abb63a9574cc5a6df77f4e668c0dc55546d9e9b99a.js\" type=\"text/javascript\"></script> ||| build B <head> region: <script src=\"/main.min.ee994cbbb77292f996e4481122cafed63e9957a6c3a06d435048632d2484aebe.js\" type=\"text/javascript\"></script>"
+   },
+   {
+    "commit": "97223cd41923",
+    "path": "index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "cache-bust fingerprint in <head> (fingerprinted js.Build asset URL differs between builds; <body> subtree identical)",
+    "quote": "build A <head> region: <script src=\"/main.min.0521e199425ae89a978131abb63a9574cc5a6df77f4e668c0dc55546d9e9b99a.js\" type=\"text/javascript\"></script> ||| build B <head> region: <script src=\"/main.min.ee994cbbb77292f996e4481122cafed63e9957a6c3a06d435048632d2484aebe.js\" type=\"text/javascript\"></script>"
+   },
+   {
+    "commit": "97223cd41923",
+    "path": "license/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "cache-bust fingerprint in <head> (fingerprinted js.Build asset URL differs between builds; <body> subtree identical)",
+    "quote": "build A <head> region: <script src=\"/main.min.0521e199425ae89a978131abb63a9574cc5a6df77f4e668c0dc55546d9e9b99a.js\" type=\"text/javascript\"></script> ||| build B <head> region: <script src=\"/main.min.ee994cbbb77292f996e4481122cafed63e9957a6c3a06d435048632d2484aebe.js\" type=\"text/javascript\"></script>"
+   },
+   {
+    "commit": "97223cd41923",
+    "path": "series/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "cache-bust fingerprint in <head> (fingerprinted js.Build asset URL differs between builds; <body> subtree identical)",
+    "quote": "build A <head> region: <script src=\"/main.min.0521e199425ae89a978131abb63a9574cc5a6df77f4e668c0dc55546d9e9b99a.js\" type=\"text/javascript\"></script> ||| build B <head> region: <script src=\"/main.min.ee994cbbb77292f996e4481122cafed63e9957a6c3a06d435048632d2484aebe.js\" type=\"text/javascript\"></script>"
+   },
+   {
+    "commit": "97223cd41923",
+    "path": "tags/bluesky/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "cache-bust fingerprint in <head> (fingerprinted js.Build asset URL differs between builds; <body> subtree identical)",
+    "quote": "build A <head> region: <script src=\"/main.min.0521e199425ae89a978131abb63a9574cc5a6df77f4e668c0dc55546d9e9b99a.js\" type=\"text/javascript\"></script> ||| build B <head> region: <script src=\"/main.min.ee994cbbb77292f996e4481122cafed63e9957a6c3a06d435048632d2484aebe.js\" type=\"text/javascript\"></script>"
+   },
+   {
+    "commit": "97223cd41923",
+    "path": "tags/fedex/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "cache-bust fingerprint in <head> (fingerprinted js.Build asset URL differs between builds; <body> subtree identical)",
+    "quote": "build A <head> region: <script src=\"/main.min.0521e199425ae89a978131abb63a9574cc5a6df77f4e668c0dc55546d9e9b99a.js\" type=\"text/javascript\"></script> ||| build B <head> region: <script src=\"/main.min.ee994cbbb77292f996e4481122cafed63e9957a6c3a06d435048632d2484aebe.js\" type=\"text/javascript\"></script>"
+   },
+   {
+    "commit": "97223cd41923",
+    "path": "tags/hugo-site/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "cache-bust fingerprint in <head> (fingerprinted js.Build asset URL differs between builds; <body> subtree identical)",
+    "quote": "build A <head> region: <script src=\"/main.min.0521e199425ae89a978131abb63a9574cc5a6df77f4e668c0dc55546d9e9b99a.js\" type=\"text/javascript\"></script> ||| build B <head> region: <script src=\"/main.min.ee994cbbb77292f996e4481122cafed63e9957a6c3a06d435048632d2484aebe.js\" type=\"text/javascript\"></script>"
+   },
+   {
+    "commit": "97223cd41923",
+    "path": "tags/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "cache-bust fingerprint in <head> (fingerprinted js.Build asset URL differs between builds; <body> subtree identical)",
+    "quote": "build A <head> region: <script src=\"/main.min.0521e199425ae89a978131abb63a9574cc5a6df77f4e668c0dc55546d9e9b99a.js\" type=\"text/javascript\"></script> ||| build B <head> region: <script src=\"/main.min.ee994cbbb77292f996e4481122cafed63e9957a6c3a06d435048632d2484aebe.js\" type=\"text/javascript\"></script>"
+   },
+   {
+    "commit": "97223cd41923",
+    "path": "tags/maps/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "cache-bust fingerprint in <head> (fingerprinted js.Build asset URL differs between builds; <body> subtree identical)",
+    "quote": "build A <head> region: <script src=\"/main.min.0521e199425ae89a978131abb63a9574cc5a6df77f4e668c0dc55546d9e9b99a.js\" type=\"text/javascript\"></script> ||| build B <head> region: <script src=\"/main.min.ee994cbbb77292f996e4481122cafed63e9957a6c3a06d435048632d2484aebe.js\" type=\"text/javascript\"></script>"
+   },
+   {
+    "commit": "97223cd41923",
+    "path": "tags/r/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "cache-bust fingerprint in <head> (fingerprinted js.Build asset URL differs between builds; <body> subtree identical)",
+    "quote": "build A <head> region: <script src=\"/main.min.0521e199425ae89a978131abb63a9574cc5a6df77f4e668c0dc55546d9e9b99a.js\" type=\"text/javascript\"></script> ||| build B <head> region: <script src=\"/main.min.ee994cbbb77292f996e4481122cafed63e9957a6c3a06d435048632d2484aebe.js\" type=\"text/javascript\"></script>"
+   },
+   {
+    "commit": "97223cd41923",
+    "path": "tags/rvest/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "cache-bust fingerprint in <head> (fingerprinted js.Build asset URL differs between builds; <body> subtree identical)",
+    "quote": "build A <head> region: <script src=\"/main.min.0521e199425ae89a978131abb63a9574cc5a6df77f4e668c0dc55546d9e9b99a.js\" type=\"text/javascript\"></script> ||| build B <head> region: <script src=\"/main.min.ee994cbbb77292f996e4481122cafed63e9957a6c3a06d435048632d2484aebe.js\" type=\"text/javascript\"></script>"
+   },
+   {
+    "commit": "97223cd41923",
+    "path": "tags/tidy-tuesday/index.html",
+    "raw_differs": true,
+    "body_differs": false,
+    "cause": "cache-bust fingerprint in <head> (fingerprinted js.Build asset URL differs between builds; <body> subtree identical)",
+    "quote": "build A <head> region: <script src=\"/main.min.0521e199425ae89a978131abb63a9574cc5a6df77f4e668c0dc55546d9e9b99a.js\" type=\"text/javascript\"></script> ||| build B <head> region: <script src=\"/main.min.ee994cbbb77292f996e4481122cafed63e9957a6c3a06d435048632d2484aebe.js\" type=\"text/javascript\"></script>"
+   }
+  ]
+ },
+ "list_insertion_evidence": "blog/index.html main-list link counts across the 8 commits: 5, 5, 5, 2, 4, 5, 5, 5 (changes at multiple commits)",
+ "verdict": "corpus_ready",
+ "verdict_reason": "8/8 commits build with pinned Hugo 0.136.2 extended; median 40 static pages (>=20); list pages (blog/post/project/talk/collection indexes, tag and category term pages) present at every commit; both Phase 7 rebuild pairs have identical body sha256 on every page (66/66 and 26/26). Raw bytes differ only in the fingerprinted js.Build asset URL in <head>, a cache-busting value outside <body>."
+}
