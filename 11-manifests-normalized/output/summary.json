@@ -1,0 +1,8288 @@
+{
+ "commit_count": 102,
+ "manifests_written": 102,
+ "manifests_failed": 0,
+ "failed_shas": [],
+ "failures": [],
+ "consecutive_pairs": 101,
+ "pairs_both_built": 101,
+ "median_pages_modified_raw": 526,
+ "median_pages_modified_normalized": 523,
+ "median_pages_modified_body": 5,
+ "snapshot_pairs": 48,
+ "snapshot_files": 1971,
+ "snapshot_bytes": 100548651,
+ "snapshot_pairs_detail": [
+  {
+   "from": "c12d97cdbd8e4fcac10c964a7eb06f45e18c68fb",
+   "to": "4f1deb1e25dc89c070cdf0f5c23b96fe2b7b3f41",
+   "pages": [
+    {
+     "page": "category/skills.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    }
+   ]
+  },
+  {
+   "from": "74056980ec5faad98b72184b8ea5206d776a3179",
+   "to": "5e38769bf98b08d97d6b26cc5b93ada7172ff0f1",
+   "pages": [
+    {
+     "page": "blog/index.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2025.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/accessibility.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/development.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    }
+   ]
+  },
+  {
+   "from": "03f8e1dad960569fd684ef7ef9c4639d5a2998ee",
+   "to": "cdaba985e9277998674a36f3c84a33396dd34987",
+   "pages": [
+    {
+     "page": "blog/index.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2025.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/accessibility.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    }
+   ]
+  },
+  {
+   "from": "cdaba985e9277998674a36f3c84a33396dd34987",
+   "to": "85a954e5635c3200ec5d06c5f897aeaf4a6f0f68",
+   "pages": [
+    {
+     "page": "category/case-study.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    }
+   ]
+  },
+  {
+   "from": "ce56157ce1a6c17564c9a0d5afd93d1d24691318",
+   "to": "5047b58657c6ea2b9c6c84dd82fa724b243ce852",
+   "pages": [
+    {
+     "page": "category/case-study.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    }
+   ]
+  },
+  {
+   "from": "25bc0cf6a3887a728ad5de5640687fcbeec6d94c",
+   "to": "002e753abeebb1fd6c8e2190227fef7d28242d8c",
+   "pages": [
+    {
+     "page": "category/case-study.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    }
+   ]
+  },
+  {
+   "from": "c29a9e90e471b0b4c47df989dec71d2022f8b4ba",
+   "to": "abe26ca74d90b72a54d9d3b946d39ff9fe4eaeca",
+   "pages": [
+    {
+     "page": "blog/index.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2011.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2012.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2013.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2014.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2015.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2016.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2017.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2018.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2019.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2020.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2021.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2022.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2023.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2024.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2025.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2026.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/accessibility.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/apple.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/brand.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/business.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/case-study.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/content.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/css.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/design.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/development.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/email.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/git.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/html.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/javascript.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/markdown.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/marketing.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/meta-data.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/performance.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/search.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/security.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/serverless.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/skills.html",
+     "event": "removed",
+     "saved": [
+      "before"
+     ]
+    },
+    {
+     "page": "category/tools.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/website-admin.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/workflows.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    }
+   ]
+  },
+  {
+   "from": "e393ed971b584fef9c53637126dc2b30bc33f71c",
+   "to": "0b74e47a2bb06aaf9279e388cb24cfdb5c422ac6",
+   "pages": [
+    {
+     "page": "category/service.html",
+     "event": "added",
+     "saved": [
+      "after"
+     ]
+    },
+    {
+     "page": "category/skill.html",
+     "event": "added",
+     "saved": [
+      "after"
+     ]
+    }
+   ]
+  },
+  {
+   "from": "0b74e47a2bb06aaf9279e388cb24cfdb5c422ac6",
+   "to": "232977dd378f25006442bf72a1d17afb7685e62b",
+   "pages": [
+    {
+     "page": "blog/index.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    }
+   ]
+  },
+  {
+   "from": "32da83a1d49ff5d7e995aa7417cf71af98b0d1e7",
+   "to": "5a013356e8cc0eee05a06d93ae11306013545d99",
+   "pages": [
+    {
+     "page": "blog/index.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2025.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/accessibility.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    }
+   ]
+  },
+  {
+   "from": "5a013356e8cc0eee05a06d93ae11306013545d99",
+   "to": "bb3f025e84c28a71e95dce9e871421815fc82e28",
+   "pages": [
+    {
+     "page": "blog/index.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2011.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2012.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2013.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2014.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2015.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2016.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2017.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2018.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2019.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2020.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2021.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2022.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2023.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2024.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2025.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2026.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/accessibility.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/apple.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/brand.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/business.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/case-study.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/content.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/css.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/design.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/development.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/email.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/git.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/html.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/javascript.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/markdown.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/marketing.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/meta-data.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/performance.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/search.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/security.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/serverless.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/service.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/skill.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/tools.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/website-admin.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/workflows.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    }
+   ]
+  },
+  {
+   "from": "35e5b60d930fed66a5c049623d8710eafb8757b9",
+   "to": "5d63c24a5ccd96bad6df11c47a28f311c5fb96c2",
+   "pages": [
+    {
+     "page": "blog/index.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2011.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2012.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2013.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2014.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2015.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2016.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2017.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2018.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2019.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2020.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2021.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2022.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2023.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2024.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2025.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2026.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/accessibility.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/apple.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/approach.html",
+     "event": "added",
+     "saved": [
+      "after"
+     ]
+    },
+    {
+     "page": "category/brand.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/business.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/case-study.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/content.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/css.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/design.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/development.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/email.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/git.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/html.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/javascript.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/markdown.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/marketing.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/meta-data.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/performance.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/search.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/security.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/serverless.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/service.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/skill.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/tools.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/website-admin.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/workflows.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    }
+   ]
+  },
+  {
+   "from": "015406eb6e81c9469061732fe4198ced99fd8f8f",
+   "to": "b677825d635475a1738dad2ed3b16fc88c75ba15",
+   "pages": [
+    {
+     "page": "blog/index.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2011.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2012.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2014.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2015.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2016.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2017.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2018.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2019.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2020.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2021.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2022.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2023.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2024.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2025.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/accessibility.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/apple.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/approach.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/brand.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/business.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/case-study.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/content.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/css.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/design.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/development.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/email.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/git.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/html.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/javascript.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/markdown.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/marketing.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/meta-data.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/performance.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/search.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/security.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/serverless.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/service.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/skill.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/tools.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/website-admin.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/workflows.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    }
+   ]
+  },
+  {
+   "from": "b677825d635475a1738dad2ed3b16fc88c75ba15",
+   "to": "3c81fdf49a98d9efea0baa4299cbf5d4db369d98",
+   "pages": [
+    {
+     "page": "blog/index.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2011.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2012.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2013.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2014.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2015.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2016.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2017.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2018.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2019.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2020.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2021.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2022.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2023.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2024.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2025.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2026.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/accessibility.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/apple.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/approach.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/brand.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/business.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/case-study.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/content.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/css.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/design.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/development.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/email.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/git.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/html.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/javascript.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/markdown.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/marketing.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/meta-data.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/performance.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/search.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/security.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/serverless.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/service.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/skill.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/tools.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/website-admin.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/workflows.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    }
+   ]
+  },
+  {
+   "from": "3c81fdf49a98d9efea0baa4299cbf5d4db369d98",
+   "to": "a68d212d5f7408079e407c5943624301bfe68845",
+   "pages": [
+    {
+     "page": "blog/index.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2025.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/apple.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    }
+   ]
+  },
+  {
+   "from": "a68d212d5f7408079e407c5943624301bfe68845",
+   "to": "8ee7730075c15117629209f488151a2722ac3376",
+   "pages": [
+    {
+     "page": "category/service.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    }
+   ]
+  },
+  {
+   "from": "aa708ff80df7d829df108149ef0ded23317d4d4e",
+   "to": "9978788ab006e27f2a375d679bd401fce2b6ee14",
+   "pages": [
+    {
+     "page": "category/service.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    }
+   ]
+  },
+  {
+   "from": "9754f4f5216b48f602cf48bcc3cecfb9d10f9e46",
+   "to": "cc7509241605198f140f095af94869665674e0fe",
+   "pages": [
+    {
+     "page": "blog/index.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2025.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/accessibility.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/html.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    }
+   ]
+  },
+  {
+   "from": "cc7509241605198f140f095af94869665674e0fe",
+   "to": "515615f6d05a73a0523ac32ad1c65bc26134628e",
+   "pages": [
+    {
+     "page": "category/case-study.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    }
+   ]
+  },
+  {
+   "from": "515615f6d05a73a0523ac32ad1c65bc26134628e",
+   "to": "61129f1f958fe0f819a2ad3b97848a5d7c85dea8",
+   "pages": [
+    {
+     "page": "blog/index.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2025.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/html.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    }
+   ]
+  },
+  {
+   "from": "61129f1f958fe0f819a2ad3b97848a5d7c85dea8",
+   "to": "60cc70448ddbe4528755b3d4ae0b6920899c8a62",
+   "pages": [
+    {
+     "page": "blog/index.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2025.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    }
+   ]
+  },
+  {
+   "from": "60cc70448ddbe4528755b3d4ae0b6920899c8a62",
+   "to": "64ea01191b22fe730db8918c84641b6d5c7f9cb7",
+   "pages": [
+    {
+     "page": "blog/index.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2011.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2012.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2013.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2014.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2015.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2016.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2017.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2018.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2019.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2020.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2021.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2022.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2023.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2024.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2025.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2026.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/accessibility.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/apple.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/approach.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/brand.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/business.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/case-study.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/content.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/css.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/design.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/development.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/email.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/git.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/html.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/javascript.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/markdown.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/marketing.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/meta-data.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/performance.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/search.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/security.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/serverless.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/service.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/skill.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/tools.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/website-admin.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/workflows.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    }
+   ]
+  },
+  {
+   "from": "6841f460da1d2f97816f071387a2c09c28cff3c3",
+   "to": "4c45055f56c7721786a200ae9dbc77e1ecabc926",
+   "pages": [
+    {
+     "page": "blog/index.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2025.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/accessibility.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/html.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    }
+   ]
+  },
+  {
+   "from": "bb11de8260a328630657aa859fcd7e1f5c252403",
+   "to": "69bb20a5784498e31d5ee17b69d078d21b319db0",
+   "pages": [
+    {
+     "page": "blog/index.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2011.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2012.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2013.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2014.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2015.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2016.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2017.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2018.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2019.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2020.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2021.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2022.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2023.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2024.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2025.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2026.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/accessibility.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/apple.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/approach.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/brand.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/business.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/case-study.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/content.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/css.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/design.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/development.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/email.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/git.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/html.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/javascript.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/markdown.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/marketing.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/meta-data.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/performance.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/search.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/security.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/serverless.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/service.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/skill.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/tools.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/website-admin.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/workflows.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    }
+   ]
+  },
+  {
+   "from": "69bb20a5784498e31d5ee17b69d078d21b319db0",
+   "to": "1da27b88f2e5829aed29887a23b7e4dc61562d9e",
+   "pages": [
+    {
+     "page": "blog/index.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2011.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2012.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2013.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2014.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2015.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2016.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2017.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2018.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2019.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2020.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2021.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2022.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2023.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2024.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2025.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2026.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/accessibility.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/apple.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/approach.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/brand.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/business.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/case-study.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/content.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/css.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/design.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/development.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/email.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/git.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/html.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/javascript.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/markdown.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/marketing.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/meta-data.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/performance.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/search.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/security.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/serverless.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/service.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/skill.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/tools.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/website-admin.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/workflows.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    }
+   ]
+  },
+  {
+   "from": "f3cdee67ba7d65c64314d1d39f33155d2f18be8d",
+   "to": "6727b9b97ae121457ea351954ec48f8e6e5115ae",
+   "pages": [
+    {
+     "page": "blog/index.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    }
+   ]
+  },
+  {
+   "from": "dee25ee3d25021f6e696083f25c79f120679a998",
+   "to": "791e37c38e3ac6ce528e4dc71f54fb7c9b04b511",
+   "pages": [
+    {
+     "page": "blog/index.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    }
+   ]
+  },
+  {
+   "from": "8716401dc5cfcda8d5dfd73264070093398ad7a2",
+   "to": "d6f65bed37d9de5eacbfadd741c0f1bd5fb0a4ec",
+   "pages": [
+    {
+     "page": "blog/index.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2011.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2012.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2013.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2014.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2015.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2016.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2017.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2018.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2019.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2020.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2021.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2022.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2023.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2024.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2025.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2026.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/accessibility.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/apple.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/approach.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/brand.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/business.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/case-study.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/content.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/css.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/design.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/development.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/email.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/git.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/html.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/javascript.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/markdown.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/marketing.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/meta-data.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/performance.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/search.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/security.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/serverless.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/service.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/skill.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/tools.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/website-admin.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/workflows.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    }
+   ]
+  },
+  {
+   "from": "d6f65bed37d9de5eacbfadd741c0f1bd5fb0a4ec",
+   "to": "dde06cedc5e04e2b1a44e90784ee8b5d2f0b7439",
+   "pages": [
+    {
+     "page": "blog/index.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2025.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/accessibility.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/html.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    }
+   ]
+  },
+  {
+   "from": "dde06cedc5e04e2b1a44e90784ee8b5d2f0b7439",
+   "to": "b538aecd97261ec5c4c0ba00225db9c6de6cab12",
+   "pages": [
+    {
+     "page": "blog/index.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2025.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/accessibility.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/html.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    }
+   ]
+  },
+  {
+   "from": "cb354cbd2747f95061b789a5ab2a63c21f4f544b",
+   "to": "af03559ca99296683d5600fd96bf1e517c3f2513",
+   "pages": [
+    {
+     "page": "category/service.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    }
+   ]
+  },
+  {
+   "from": "e07b3c848536bb23cc45662a8f31bf4b0b7573b0",
+   "to": "9504b1fed85977f8122641dfad4786fbf4355bc8",
+   "pages": [
+    {
+     "page": "blog/year/2012.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2013.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2014.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2015.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2016.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2017.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2018.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2019.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2020.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2021.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2022.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2023.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2024.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2025.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2026.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2035.html",
+     "event": "added",
+     "saved": [
+      "after"
+     ]
+    }
+   ]
+  },
+  {
+   "from": "9504b1fed85977f8122641dfad4786fbf4355bc8",
+   "to": "80ff38bb470c7071ff9d05da01d27014b8b31b40",
+   "pages": [
+    {
+     "page": "blog/index.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2011.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2012.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2013.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2014.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2015.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2016.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2017.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2018.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2019.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2020.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2021.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2022.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2023.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2024.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2025.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2026.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2035.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/accessibility.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/apple.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/approach.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/brand.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/business.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/case-study.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/content.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/css.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/design.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/development.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/email.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/git.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/html.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/javascript.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/markdown.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/marketing.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/meta-data.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/performance.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/search.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/security.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/serverless.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/service.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/skill.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/tools.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/website-admin.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/workflows.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    }
+   ]
+  },
+  {
+   "from": "80ff38bb470c7071ff9d05da01d27014b8b31b40",
+   "to": "4936acab102fd9dab51dad0e0a9a1364c49eb28b",
+   "pages": [
+    {
+     "page": "blog/index.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2011.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2012.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2013.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2014.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2015.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2016.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2017.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2018.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2019.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2020.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2021.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2022.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2023.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2024.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2025.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2026.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2035.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/accessibility.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/apple.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/approach.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/brand.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/business.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/case-study.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/content.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/css.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/design.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/development.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/email.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/git.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/html.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/javascript.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/markdown.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/marketing.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/meta-data.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/performance.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/search.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/security.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/serverless.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/service.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/skill.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/tools.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/website-admin.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/workflows.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    }
+   ]
+  },
+  {
+   "from": "4936acab102fd9dab51dad0e0a9a1364c49eb28b",
+   "to": "084aa554f4e7d6b5be0b7715b64380db7bc002bc",
+   "pages": [
+    {
+     "page": "blog/index.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2011.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2012.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2013.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2014.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2015.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2016.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2017.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2018.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2019.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2020.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2021.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2022.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2023.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2024.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2025.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2026.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2035.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/accessibility.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/apple.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/approach.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/brand.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/business.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/case-study.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/content.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/css.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/design.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/development.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/email.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/git.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/html.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/javascript.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/markdown.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/marketing.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/meta-data.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/performance.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/search.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/security.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/serverless.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/service.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/skill.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/tools.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/website-admin.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/workflows.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    }
+   ]
+  },
+  {
+   "from": "084aa554f4e7d6b5be0b7715b64380db7bc002bc",
+   "to": "83e0c1c7b50032166c8394d2f15e5db4cec2fdb4",
+   "pages": [
+    {
+     "page": "blog/index.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2011.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2012.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2013.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2014.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2015.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2016.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2017.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2018.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2019.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2020.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2021.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2022.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2023.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2024.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2025.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2026.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2035.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/accessibility.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/apple.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/approach.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/brand.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/business.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/case-study.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/content.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/css.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/design.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/development.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/email.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/git.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/html.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/javascript.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/markdown.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/marketing.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/meta-data.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/performance.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/search.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/security.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/serverless.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/service.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/skill.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/tools.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/website-admin.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/workflows.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    }
+   ]
+  },
+  {
+   "from": "83e0c1c7b50032166c8394d2f15e5db4cec2fdb4",
+   "to": "f5c0d8b84b1c28cacbe3b3f72e9a18cd1b770bea",
+   "pages": [
+    {
+     "page": "category/accessibility.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/apple.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/brand.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/business.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/content.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/css.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/design.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/development.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/email.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/git.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/html.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/javascript.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/markdown.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/marketing.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/meta-data.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/performance.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/search.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/security.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/serverless.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/tools.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/website-admin.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/workflows.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    }
+   ]
+  },
+  {
+   "from": "f5c0d8b84b1c28cacbe3b3f72e9a18cd1b770bea",
+   "to": "d2491c85f0a37c4a56e3bebc5bc2f11e336560ee",
+   "pages": [
+    {
+     "page": "blog/index.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2025.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/accessibility.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/design.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/html.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    }
+   ]
+  },
+  {
+   "from": "d2491c85f0a37c4a56e3bebc5bc2f11e336560ee",
+   "to": "18c250eda58c7fffd8e02f641ceaae8d5d6d4106",
+   "pages": [
+    {
+     "page": "blog/index.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/accessibility.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/apple.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/brand.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/business.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/content.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/css.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/design.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/development.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/email.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/git.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/html.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/javascript.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/markdown.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/marketing.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/meta-data.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/performance.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/search.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/security.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/serverless.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/tools.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/website-admin.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/workflows.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    }
+   ]
+  },
+  {
+   "from": "18c250eda58c7fffd8e02f641ceaae8d5d6d4106",
+   "to": "f82e3d6c4c4861e108e8da4f8e23bafa4c2343a3",
+   "pages": [
+    {
+     "page": "blog/index.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2011.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2012.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2013.html",
+     "event": "removed",
+     "saved": [
+      "before"
+     ]
+    },
+    {
+     "page": "blog/year/2014.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2015.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2016.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2017.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2018.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2019.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2020.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2021.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2022.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2023.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2024.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2025.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2026.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2035.html",
+     "event": "removed",
+     "saved": [
+      "before"
+     ]
+    },
+    {
+     "page": "category/accessibility.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/apple.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/approach.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/brand.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/business.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/case-study.html",
+     "event": "removed",
+     "saved": [
+      "before"
+     ]
+    },
+    {
+     "page": "category/casestudy.html",
+     "event": "added",
+     "saved": [
+      "after"
+     ]
+    },
+    {
+     "page": "category/content.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/css.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/design.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/development.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/email.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/git.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/html.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/javascript.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/markdown.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/marketing.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/meta-data.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/performance.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/search.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/security.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/serverless.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/service.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/skill.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/tools.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/website-admin.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/workflows.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    }
+   ]
+  },
+  {
+   "from": "f82e3d6c4c4861e108e8da4f8e23bafa4c2343a3",
+   "to": "fc43ab1367bfb8b160426998b8de202be82aca90",
+   "pages": [
+    {
+     "page": "blog/index.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2011.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2012.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2014.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2015.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2016.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2017.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2018.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2019.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2020.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2021.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2022.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2023.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2024.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2025.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2026.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/accessibility.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/apple.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/approach.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/brand.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/business.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/casestudy.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/content.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/css.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/design.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/development.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/email.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/git.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/html.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/javascript.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/markdown.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/marketing.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/meta-data.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/performance.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/search.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/security.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/serverless.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/service.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/skill.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/tools.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/website-admin.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/workflows.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    }
+   ]
+  },
+  {
+   "from": "fc43ab1367bfb8b160426998b8de202be82aca90",
+   "to": "e3e88d52903b86cff20d1b2080f6cfc91e3259a3",
+   "pages": [
+    {
+     "page": "blog/index.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2011.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2012.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2014.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2015.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2016.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2017.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2018.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2019.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2020.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2021.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2022.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2023.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2024.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2025.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2026.html",
+     "event": "removed",
+     "saved": [
+      "before"
+     ]
+    }
+   ]
+  },
+  {
+   "from": "e3e88d52903b86cff20d1b2080f6cfc91e3259a3",
+   "to": "9e24d7794c507b4569f5f6c38dde8ea2a1ebce76",
+   "pages": [
+    {
+     "page": "blog/index.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2011.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2012.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2014.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2015.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2016.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2017.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2018.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2019.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2020.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2021.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2022.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2023.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2024.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2025.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/accessibility.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/apple.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/approach.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/brand.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/business.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/casestudy.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/content.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/css.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/design.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/development.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/email.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/git.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/html.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/javascript.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/markdown.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/marketing.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/meta-data.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/performance.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/search.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/security.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/serverless.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/service.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/skill.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/tools.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/website-admin.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/workflows.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    }
+   ]
+  },
+  {
+   "from": "9e24d7794c507b4569f5f6c38dde8ea2a1ebce76",
+   "to": "b5672e2aa78439625a451865bb4b7c7407aa9665",
+   "pages": [
+    {
+     "page": "blog/index.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2011.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2012.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2014.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2015.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2016.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2017.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2018.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2019.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2020.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2021.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2022.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2023.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2024.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2025.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/accessibility.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/apple.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/approach.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/brand.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/business.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/casestudy.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/content.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/css.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/design.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/development.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/email.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/git.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/html.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/javascript.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/markdown.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/marketing.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/meta-data.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/performance.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/search.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/security.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/serverless.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/service.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/skill.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/tools.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/website-admin.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/workflows.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    }
+   ]
+  },
+  {
+   "from": "4836984599da37a19fa6c5f7dad80b3f19c42e8d",
+   "to": "6be9f0eca82a9a42bb4f6805ba4e834ddde0d281",
+   "pages": [
+    {
+     "page": "blog/index.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2011.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2012.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2014.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2015.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2016.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2017.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2018.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2019.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2020.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2021.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2022.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2023.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2024.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2025.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/accessibility.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/apple.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/approach.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/brand.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/business.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/casestudy.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/content.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/css.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/design.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/development.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/email.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/git.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/html.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/javascript.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/markdown.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/marketing.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/meta-data.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/performance.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/search.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/security.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/serverless.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/service.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/skill.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/speaking.html",
+     "event": "added",
+     "saved": [
+      "after"
+     ]
+    },
+    {
+     "page": "category/tools.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/website-admin.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/workflows.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    }
+   ]
+  },
+  {
+   "from": "cb728ae4072dbde01b2b7a3d0136f93cb20e4d2e",
+   "to": "5acf2eca847bdab59b45b8002d3acf68e61e5306",
+   "pages": [
+    {
+     "page": "blog/index.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2011.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2012.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2014.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2015.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2016.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2017.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2018.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2019.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2020.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2021.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2022.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2023.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2024.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2025.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/accessibility.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/apple.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/approach.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/brand.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/business.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/casestudy.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/content.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/css.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/design.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/development.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/email.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/git.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/html.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/javascript.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/markdown.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/marketing.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/meta-data.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/performance.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/search.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/security.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/serverless.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/service.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/skill.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/speaking.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/tools.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/website-admin.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/workflows.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    }
+   ]
+  },
+  {
+   "from": "5acf2eca847bdab59b45b8002d3acf68e61e5306",
+   "to": "60daa0f6308837bc5f34d5e522354a5cb148f956",
+   "pages": [
+    {
+     "page": "blog/index.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "blog/year/2025.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/accessibility.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/apple.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/brand.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/business.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/content.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/css.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/design.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/development.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/email.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/git.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/html.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/javascript.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/markdown.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/marketing.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/meta-data.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/performance.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/search.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/security.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/serverless.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/tools.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/website-admin.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/workflows.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    }
+   ]
+  },
+  {
+   "from": "60daa0f6308837bc5f34d5e522354a5cb148f956",
+   "to": "0e0d679ee6a3d60d249f41d94e52c32af0305464",
+   "pages": [
+    {
+     "page": "blog/index.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/accessibility.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/apple.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/approach.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/brand.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/business.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/content.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/css.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/design.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/development.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/email.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/git.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/html.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/javascript.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/markdown.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/marketing.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/meta-data.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/performance.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/search.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/security.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/serverless.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/service.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/skill.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/speaking.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/tools.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/website-admin.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    },
+    {
+     "page": "category/workflows.html",
+     "event": "modified",
+     "saved": [
+      "before",
+      "after"
+     ]
+    }
+   ]
+  }
+ ],
+ "determinism": {
+  "controls": [
+   {
+    "sha": "c12d97cdbd8e4fcac10c964a7eb06f45e18c68fb",
+    "position": {
+     "first": true,
+     "middle": false,
+     "last": false
+    },
+    "pages_compared": 522,
+    "pages_differ_raw": 0,
+    "pages_differ_normalized": 0,
+    "pages_differ_body": 0,
+    "differing_pages_raw_sample": [],
+    "differing_pages_normalized": [],
+    "differing_pages_body": [],
+    "second_build_seconds": 6.0
+   },
+   {
+    "sha": "06f96f7861a6a49cfb372358894d7d448675b6d6",
+    "position": {
+     "first": false,
+     "middle": true,
+     "last": false
+    },
+    "pages_compared": 547,
+    "pages_differ_raw": 0,
+    "pages_differ_normalized": 0,
+    "pages_differ_body": 0,
+    "differing_pages_raw_sample": [],
+    "differing_pages_normalized": [],
+    "differing_pages_body": [],
+    "second_build_seconds": 10.3
+   },
+   {
+    "sha": "2cda2bdda6b7cca5c7d5c169eda1f7e867e0f236",
+    "position": {
+     "first": false,
+     "middle": false,
+     "last": true
+    },
+    "pages_compared": 592,
+    "pages_differ_raw": 592,
+    "pages_differ_normalized": 0,
+    "pages_differ_body": 0,
+    "differing_pages_raw_sample": [
+     "404.html",
+     "about.html",
+     "accessibility-statement.html",
+     "approaches/consultancy.html",
+     "approaches/contracting.html"
+    ],
+    "differing_pages_normalized": [],
+    "differing_pages_body": [],
+    "second_build_seconds": 8.6
+   }
+  ],
+  "generated_at": "2026-09-26T03:45:59Z"
+ },
+ "page_count_median": 547,
+ "unexpected": [
+  "determinism control: first commit c12d97cdbd8e (522 pages) and middle commit 06f96f7861a6 (547 pages): 0 pages differ in raw, normalized and body between two builds of the same commit (fully deterministic). Last commit 2cda2bdda6b7 (592 pages): raw differs on all 592 pages, normalized and body differ on 0.",
+  "cause recorded: eleventy/index.js sets buildTimestamp = Date.now() for ?v= cache-busting; that file does not exist at c12d97cdbd8e or 06f96f7861a6 (earlier commits render static ?v=). Mechanism introduced later in the 102-commit window.",
+  "pairs with head-only changes: e.g. pair 94 (b5672e2a -> 48369845): 587 pages differ in normalized, 0 in body; commit changed src/site/_data/site.js version 6.10.3 -> 6.10.4 and package.json, rendered into page <head>.",
+  "snapshots: 11 of 1971 page-sides are page additions/removals (only one side exists); recorded per page in snapshot_pairs_detail with event added|removed."
+ ]
+}

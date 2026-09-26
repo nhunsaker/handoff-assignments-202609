@@ -1,0 +1,3349 @@
+{
+ "sha": "5e38769bf98b08d97d6b26cc5b93ada7172ff0f1",
+ "output_root": "dist",
+ "page_count": 520,
+ "pages": {
+  "404.html": {
+   "raw": "d4f7d1a7f74d053a09349f6c20ecdc18e4fab768c11055547da26102edccdab2",
+   "normalized": "fa1b41dab54e8a311940dbd396fd0b9624a1123009905434df65286eca873e83",
+   "body": "fb32adf98ce629340e035c2bd204733764f1166bf524a81e71e19ec25344c1bd",
+   "normalized_params": []
+  },
+  "about.html": {
+   "raw": "1ea95bdb0ab5e005a0565a87a99a0ce472f24ea5e5f4a07f3b614b4f2277101a",
+   "normalized": "4c43107795f605fdbd478ab91f50fe6c3ee4002353c5e7913e4f7eeec5d4c572",
+   "body": "c9554e9c74b4b534c3975e79aa7cddfb30e6c87b6e602e26b81855c49bfd477e",
+   "normalized_params": []
+  },
+  "accessibility-statement.html": {
+   "raw": "cda230cbe74b79eeb38454857bf58e7e9ad56c55d0301f9f92894bbc242058b9",
+   "normalized": "65341a2005345efb26a84655f164c320bb287ebf53961d4592b8d23f29a70aac",
+   "body": "8055a256d0f3778e7f02c31632e9ed1b158c886d68b52fad479fdf5725e1704c",
+   "normalized_params": []
+  },
+  "blog/3d-touch-is-gone-on-apple-watch.html": {
+   "raw": "e38d3623ae2616a4581b06d7a7fa8f8f8fd0af0ccc438819df2792658948fe14",
+   "normalized": "955ce5ab3b3b3da3757d344a20565011f0b6105c60488fee415fd873cc718d2e",
+   "body": "673bdeab0aa7c46b2682361714fe686ac296a26a6f33c179375fc009ae52fa6f",
+   "normalized_params": []
+  },
+  "blog/a-handy-git-shortcut-to-fetch-and-prune.html": {
+   "raw": "04a2c0c6f5c38aab75989a0f5b06feefb4674925947b3673a7be1cd6f1493a88",
+   "normalized": "3403c2a7afba5e68bb8db21ac8d2580d2ac9cdbb010fb69d2f173a4fedcec2f8",
+   "body": "80c7df89aa5e57c4929c158a7c9aab67893cb8a3efd132bef34c080726679256",
+   "normalized_params": []
+  },
+  "blog/a-new-years-resolution-for-2019.html": {
+   "raw": "bccd1f7b56408f1e7b028e5433142eff1eea1291fa0653c20072aa5d4ea4a17f",
+   "normalized": "1b7bc751f02b96d190dc23c907a7399476cfb3be20f9fac8b4e3429687823392",
+   "body": "0b13484328e526f909a272a1aae2267c0d4fdcde028e53bd2ace8ed67c5f803e",
+   "normalized_params": []
+  },
+  "blog/a-shift-in-focus.html": {
+   "raw": "df36c475b568a97ec4f872de14cf5ba7cfd02cfc51e47cf842e5c1372cc9736b",
+   "normalized": "6bbc7983ef43f22b033be76c81d7c0bd28f0c2e362746db713b928a9d19b686a",
+   "body": "58a900919576288ff04c67eb12b40725fa48b91d732ef654eb5848305bff2ec9",
+   "normalized_params": []
+  },
+  "blog/a-week-with-ios-15.html": {
+   "raw": "b482b53e37dc34fd9bf6201e35a184420c5510c08115015f2ca9f365dd9c07a2",
+   "normalized": "604e70a362e2043aed0c1a7478f7d3803028618e4eb12fcbdb03f36ed5cae87c",
+   "body": "84bba965be729256cd1518e09f7259f47c11d5c75099b838958e740cb45c8d57",
+   "normalized_params": []
+  },
+  "blog/abbreviations-can-be-problematic.html": {
+   "raw": "a446b3cdd66283d76d6fe377c55922b23d8dba3db8b1b4abeee0e526b5746a3a",
+   "normalized": "8b8b6c19126b9ec4257b0cf9cd9966868ef7d429fff4f17ed9823e1fca46adfc",
+   "body": "0a4b48b4d9d24c66418ae582dd46947f452763e023ff9cba331fe9b5881995d8",
+   "normalized_params": []
+  },
+  "blog/accessibility-beyond-the-obvious.html": {
+   "raw": "6dc3b4ef5d34bd6b48fba1d05926237584585865a3b7e64acf43d8a0b68be77a",
+   "normalized": "f1ec6ba17d981292e1dd5c42f22f5c45992589d27b0b191d1f2c9d72395c3dda",
+   "body": "ede005ab8bf623ae201a5e5e568518fa79de7a4c6078518f3e1369a8433a07a9",
+   "normalized_params": []
+  },
+  "blog/accessibility-by-degrees.html": {
+   "raw": "ac2a6ff772ae177482c415679e8bc8c662588d904683ea6c247e47107b4510ee",
+   "normalized": "f08d8587fb565da096cb6e5d86bc0dc73adab10f2c70dab904610c9f49413bcd",
+   "body": "5738efc12f7e196629a2b1f4fb687cb5eb9070eabe4d9cbb30d44962b3101d25",
+   "normalized_params": []
+  },
+  "blog/accessibility-doesnt-stop-at-wcag-compliance.html": {
+   "raw": "ef0fd60b0309530fe7ea0e23c639abe279b233648f3869bb3a35f42a70deeba5",
+   "normalized": "2fdeafff594c17c3c1a66737b58e1b16c3719a5333353e2cb4b46fe901828430",
+   "body": "8efef031d30ceb50214d275eb37f9c2d95aa11e5490a8aeb2cec29aa95f2081f",
+   "normalized_params": []
+  },
+  "blog/accessibility-issues-when-removing-list-markers.html": {
+   "raw": "3a69fcd530355d780be65c55debeb8eafec32a9eef043e22c5957918e8737285",
+   "normalized": "b727985bfb49ee5e5f63efc0335e8a57cf5f50cd10897bbe99d9c8dea0874d44",
+   "body": "e0868cb36230ea13144f8d2a2e86c95ea3b210fb0ddbb1183510e413fdb518b6",
+   "normalized_params": []
+  },
+  "blog/accessibility-overlays-are-not-for-disabled-people.html": {
+   "raw": "c2a19f23ec08dc5cae2059c57aac78ab563f5efd6fee5b2d325f89d4f5093d5b",
+   "normalized": "bce221f48b388ccceeaf1873e4ec9ea5542dfcc5405b17f1f2a5a6c748362d81",
+   "body": "3954c7f9c06bdb5635a647eea9b29a8a8ab129b2cfb3666e4adffcc4e194b32f",
+   "normalized_params": []
+  },
+  "blog/accessibility-represents-maturity.html": {
+   "raw": "0b5202bb4c2a7c58b900c713d92d5a780f015ce098580c000ac16c98cdc8a4e9",
+   "normalized": "2da06f708d4bbfae8e1b0c2d25342efdd3a4190bba83320d34be79e7c496f7f1",
+   "body": "83f779382d30ca2b7574e6d2b7cabe4faf70cfa0c093e0b24d8988cbb7ef920e",
+   "normalized_params": []
+  },
+  "blog/accessible-animated-content-without-the-compromise.html": {
+   "raw": "278675ff94b986b79a22f467fe0f6c2738b882cd97544b5d43cbc8cee34de87d",
+   "normalized": "99db2647506d9bba88f72917b3956c1ccf9cf0dc866c1003709cb1cf829b8536",
+   "body": "4972de37d3c34da1fefbb981bac884971a1001d9160068f486b6f09429b61658",
+   "normalized_params": []
+  },
+  "blog/accessible-animated-gifs-are-pointless.html": {
+   "raw": "742dc42576ffff664b412eebb101a59f81775747013d38bdb36fb967571eedcf",
+   "normalized": "956e5539d0010b8bfee310007175e8420399f980841b40a9d0198295536e2d3f",
+   "body": "4f63ecf2e9d683eb8c944699ac32a3fa60236936f9991f9d9e5fd0ee03b5a409",
+   "normalized_params": []
+  },
+  "blog/accessible-responsive-tables.html": {
+   "raw": "bdd09b848be34d79b6c96087bace99814b494fe812cc6ebb90738fb706dfcf10",
+   "normalized": "01458cc91e8e151c91f5bfeea2142f39b2e83c1c7c82e597184575ce8cf00bf2",
+   "body": "7b60d2fd9722930c793c82225a13ac82623b56cb741a4b129fb31c0b406a9177",
+   "normalized_params": []
+  },
+  "blog/adding-files-for-a-commit-with-asterisks.html": {
+   "raw": "f1623ecc2655d0e33d2d58962ad0b5cf03c42416056a8947649b0dde92767c4c",
+   "normalized": "dd83a1d5672d3578d5c9c06cb439e1c7369036d9b305cde93d56fa4e460816b1",
+   "body": "af475f043cd137a5364bdd8150bc2d2bcce4c863709eb6fe1cf9f6025cfe519a",
+   "normalized_params": []
+  },
+  "blog/all-i-want-from-wwdc-2024.html": {
+   "raw": "b427a6f0e22766d3f9f3cb07b4be59040e6208924f7c4e929808bf6400b29558",
+   "normalized": "2383e979e8541170901fd64a5fb2fbe8918aff81da4a35ca646eba2dfafc6898",
+   "body": "b75ff1fe395a46b12a3b7bb67510268be1644185f8ede5f70725cc675a114f18",
+   "normalized_params": []
+  },
+  "blog/alt-text-for-css-generated-content.html": {
+   "raw": "048e8628dc4c5e82537b048d3d12f4c528ad604cb90856d6abc68538925f843b",
+   "normalized": "20209dc56895ce2c771eeed57d55c5d90446cc8a3b5073d6fc19229815bb513e",
+   "body": "d7393dd27965d909763fcf2e3e0eb5145ab2c455f68dd8998e8f19946288ea01",
+   "normalized_params": []
+  },
+  "blog/always-style-links-with-a-pseudo-class.html": {
+   "raw": "1f678c953db1457416fc19a3b8ac68f4cccf9d9473f6e88e6b15e695b11794eb",
+   "normalized": "a76793b540c12a0fb06c1a5721ce8d9ffe92a79ce3d23436c1a924ec009c7ebd",
+   "body": "b41b5a727fb81ca3df710d8c009cb04af4d211368983de69b214de460525cb4d",
+   "normalized_params": []
+  },
+  "blog/an-enhancement-to-accessible-responsive-tables.html": {
+   "raw": "74d9eab2f55cb7fa1a9862cd5ea4f7821069b566eaeb483b7e7ad22a5ecd419c",
+   "normalized": "8d05271959eceb4d682979e95e95cf0408b5a2ce4e054327c4a78b336d2103c8",
+   "body": "42c1c0dd8bb4c240e47d60025710839efa4750ebbb3f44d2a3b48b67020f778b",
+   "normalized_params": []
+  },
+  "blog/an-introduction-to-html-attributes.html": {
+   "raw": "a196b31800a92166db93ed8a7deb7c7b83fb230dc6d378ba0aa9e1ac82fe0339",
+   "normalized": "01efc12f88e807632af1ddd24a58f49d620d99338a7f6260d5ed2abb0ee59fc5",
+   "body": "58f7142c417f3f1b57cee0efaa16d6717de095d686f2d737dff6f4f21bf43881",
+   "normalized_params": []
+  },
+  "blog/an-unexpected-accessibility-benefit-of-video-calls.html": {
+   "raw": "bbcbcb496faf5181657802a23294a6e58863f8c5c2c96fcca0f9380f62ffe6c4",
+   "normalized": "b1e3bc87c72fdf0f57a5517bde2b424d64afa1a2ca12f7c3f15e3c583bc06d55",
+   "body": "aa971744f9c8efc29a62f8c85f095735666e84cc26981ea423b9bf6f640dd4ad",
+   "normalized_params": []
+  },
+  "blog/an-update-on-google-and-the-open-web.html": {
+   "raw": "f9c1eb34aeaf947e9df98412a7791248f24a44089b65be63b44d75d87039d1a2",
+   "normalized": "ad5e17c1e9e2ae00f8dfc1303d0149973e1bf47a6281a07507c622e767298479",
+   "body": "e71e22f517f02fe2ea3171b51eb0a2043f2502adbc3b799c4a2cd199f8dc6106",
+   "normalized_params": []
+  },
+  "blog/apple-dials-back-the-safari-15-for-macos-redesign.html": {
+   "raw": "e9b89c937a0854667fa90255f43760228b5fe35b9a8243419af25f023056a1c2",
+   "normalized": "0d281a47c5bfb55ed1d64bb177029dd29edbd7afbc58a01a1abcbdff2bfc0c41",
+   "body": "e8e6648db54b623b3e645501fc72cd669049112ef98238f252dd9ec1a83ecb14",
+   "normalized_params": []
+  },
+  "blog/apple-watchs-default-app-view-is-bad.html": {
+   "raw": "cbc089ab38e0fcd59085479141e8103e7fa99330da915933d1176fd678a5f844",
+   "normalized": "c5b8b51067bfdbe2aa0b95cbdad46c05d11940b072569c0f5383a2479407cc3c",
+   "body": "dad246c84a1f4d895e951ed0c690f3110f5181fb3d004556c1bfbdfaaa0160d8",
+   "normalized_params": []
+  },
+  "blog/apple-youre-doing-the-dynamic-island-wrong.html": {
+   "raw": "c46de3254926e49ebf5dbb50dae3854ea0cb0f8c761600b6b2425dcd41949eae",
+   "normalized": "007546e2800aaab46c7d410ad2ecc6c528438d02ef43ae9a96d1101fd8a39a73",
+   "body": "a090a4b75dbb2d2a1b73b4a556dff9ef6dcd0b13e98f9a46777123d029cd3f77",
+   "normalized_params": []
+  },
+  "blog/apples-keyboards-revisited.html": {
+   "raw": "49c38b37ba1fcec1749e22a696bfeaa9377caf9ea702dbf7da1d4982c12c59ff",
+   "normalized": "cbfe0ec2098a7c18564b38cd9c757a14cf6d4908e9e8385139ea594759b8d0e5",
+   "body": "76e8e1005e07fc0d8ce8aa895348433f85c645158b2d68130a4bc0f8cd7fd8c8",
+   "normalized_params": []
+  },
+  "blog/applying-a-git-stash-non-destructively.html": {
+   "raw": "b84a8b989aec18b057ab7b7ed178edf5cb49af579f7b7916483ee58a91647345",
+   "normalized": "952f7dba1e3fc5aee3e6855b35a4b1b69023919fb87f76faddb6cedd81202e3a",
+   "body": "70793e4987d38b990b043fddd0de9a84f085594a181b5c5b667092255e969095",
+   "normalized_params": []
+  },
+  "blog/are-you-sure-that-table-isnt-a-list.html": {
+   "raw": "3831ab3cd6af937c526bb7ba2cfbc79f410bb39f49616ce84377be2e978ce32a",
+   "normalized": "35c51724400c1d3041ed65d8ac9b04904c86032357ff198be3d8f82316c42ee8",
+   "body": "8127cf9566fce4291c4640793197fbe3f4390a9ad648173241a0b80cf350a3ef",
+   "normalized_params": []
+  },
+  "blog/avatars-and-alt-text.html": {
+   "raw": "765880c98f22ad10d25c43b4df05da4f65fc59daa58c59b922ed16a022a5de0f",
+   "normalized": "ce15c6fc115fab199436e690ef9b193e84bebe950b5b682a3aa40d93989d65e1",
+   "body": "eda70d267582e7e1a665418c7a098bf49b605f230562deba740b2d33cd785f6a",
+   "normalized_params": []
+  },
+  "blog/avif-and-webp-are-not-always-better-than-png-and-jpg.html": {
+   "raw": "a9888dad84062912b055d2a57c44e4c5960fb8da8b830a5d2ac8d74a23db907c",
+   "normalized": "de9788361f0b16253aff304627535a9d7c846a510ffc41d3573cb02372e5c14c",
+   "body": "85baf52e86011707306af9629cf6631868b64e915e556d596abbdf957bbf7281",
+   "normalized_params": []
+  },
+  "blog/avif-image-compression-is-incredible.html": {
+   "raw": "47dff95307afc6ff393140555d96ad3c17e2c2d486a1dc723837aadce791bb9b",
+   "normalized": "b1f6c8ef7d93f5401d018b1d7a68032d070ca42c7fbfadac6260de4455d90029",
+   "body": "e3091e03db28ae2b44cf757285b1472daa82b7c79b83cc88e929b778a90f1679",
+   "normalized_params": []
+  },
+  "blog/bag-some-aaa-wins-where-you-can.html": {
+   "raw": "a4d3044bccf792834aae9d7f60d355720710c55db794f1c02b8a20e7e3cabdb2",
+   "normalized": "c195bb803702c6206744969ba49c59ea31e70c3d9d2b71093c2b24cd32d78caa",
+   "body": "755e08baf64caea3292f50b47e7e291c7b0a43dbcd2170da52e09e5a8a5f6f01",
+   "normalized_params": []
+  },
+  "blog/be-careful-with-strikethrough.html": {
+   "raw": "f917b4cb51e93c694ff38bae0597b9def745c6a918e5be45edb90aefa10ce557",
+   "normalized": "818f67b14239f3d2208b4af785998cb22f5a736c4ff4e57351893a56c1b1dab6",
+   "body": "e811bd9b94dc38250b82111fb210e5ebf7516976503d43ad4a2455f9b06050b1",
+   "normalized_params": []
+  },
+  "blog/blue-beanie-day.html": {
+   "raw": "0e7b67e5e6beea74c41dfbbacd27dbc0afc12447081083aa66c74a46e89c0602",
+   "normalized": "50c70d3d23283c49c8f3fc1644009509480fe3a7df7e3373a2234df606b78625",
+   "body": "0579f6e0e9576a83792c41d041e41ccdf870e60694c76bb27596f051b0fb09b2",
+   "normalized_params": []
+  },
+  "blog/bold-and-italics-arent-read-by-screen-readers.html": {
+   "raw": "c8d7ee8af4521721fff59c1868b546bb65d3ca0c944070ec6ebbd41f2431545f",
+   "normalized": "22f8c4ccacf7beec298c3a9147096f32ecdc6ea8251718d9a8dbcf2e456542c2",
+   "body": "da1a9641b2d59239671e81f6aa7688ba873ff3b13861717aed62110175fe7b55",
+   "normalized_params": []
+  },
+  "blog/booleans-in-aria.html": {
+   "raw": "d1a3586390a6f7f73842c79f4f64b5a003eacd9b5fa7d53cecfe3bc6dca3bc94",
+   "normalized": "502350d9e6a9b7dfab4105a852b8e93bc63918cb53769dfc85a963b491bd94bc",
+   "body": "8da4e656971a7e5825ed8614c3957b0e592527be269aed7a8260f91e842d6730",
+   "normalized_params": []
+  },
+  "blog/buttons-links-and-focus.html": {
+   "raw": "2d6f985ca6d44991980f612f513170dc06c29ab10d3cd4fc2dd8c00718fafaac",
+   "normalized": "0499c3c9a1714e18bfcf8776d5a8f51a751cb8e470794192231bfa8865e6e718",
+   "body": "d8dd95c605afde094fd40b6a2589452e6bb1e8d1acda43e01611efae27d1d3d7",
+   "normalized_params": []
+  },
+  "blog/buttons-with-icons-and-text.html": {
+   "raw": "2082ae2b7596c95bfb9b37017e6041776df6a6f5effd85ba271770c14bc295da",
+   "normalized": "6cf8499368695d8cf1946d9d574606ea38cd7bd984d2933d1e65805adba5fe19",
+   "body": "d09b375436505755a8b2f8eff3d394b7125eaf58e3aa020689b45ad0dc661b79",
+   "normalized_params": []
+  },
+  "blog/caching-fonts-on-netlify.html": {
+   "raw": "5d3c315f23e68e546d9f526ecb84d3934d57207ba37a265773adc7ec84332110",
+   "normalized": "dc05b40fcef0db3a0dc67c4e52553dcc4169704d5e9dab5da9ed30070eeb6f1e",
+   "body": "38b20a671e3ae6430bf4ab6a180d46f1f2937114b195cebd68df40e078b4b835",
+   "normalized_params": []
+  },
+  "blog/chaining-git-commands.html": {
+   "raw": "7be364b7f9d265fd953b5e7ca645d60ea6938f5f1c106ee20a54d34e2c9b2e5b",
+   "normalized": "f643cc78dfd4f14691ac6fc5f1b9ff9a0b69bdd8ddff40dc0856fd601c7417a3",
+   "body": "f1b2cc12474e68cf54a0aacd02a5c2305914e690f694ee4919ba0dec54086f3e",
+   "normalized_params": []
+  },
+  "blog/changing-editor-for-git-on-the-command-line.html": {
+   "raw": "f58a5d613978584c1f7f41f936837961e8f5935fa735646ffe729e025dd2713a",
+   "normalized": "fb3c1a87da80e62fae15e5cecd33d584e53a39acce4a443df53666ab9ab473b1",
+   "body": "8f0440d46a86aad44562c884225360a440df2e58cd780c612ab69e71f942b85c",
+   "normalized_params": []
+  },
+  "blog/changing-the-way-i-start-a-project.html": {
+   "raw": "ce58946d7d5183793b0ad760eb9c7fa74170a4acd88582945a1df5e8073b597e",
+   "normalized": "c3aba1a3e6fbd3427b4b0e3f2e24a3cfffd4c338e1f8b20d95ed03e5df2aa3c6",
+   "body": "2da44c39443f2e11de8699f476944ec59fba95c26d3963e59dd6353ccdf4e5bf",
+   "normalized_params": []
+  },
+  "blog/changing-your-git-history.html": {
+   "raw": "389ba982f8ef983e4aa537898e3e2111b39c2d688dbd1670dab83a4c7ba507bc",
+   "normalized": "567ccfe1e1c1b41f8b07ca252c7c800363155b8a7dcfe938631562afcb658244",
+   "body": "aafb4b0f1ef43df339a477e1420f328b64d3d309106c7e463aaefd492a92c24b",
+   "normalized_params": []
+  },
+  "blog/choosing-a-stash-from-the-list.html": {
+   "raw": "f5b216378b1e7ba6b1ca67c84a9d7c34b0ed3c5582d61a0b225e2200c1cccee3",
+   "normalized": "2b038dde8323856cc0b73ef4134c4d8d542d7a3c1303d7bcdec1e3e074975083",
+   "body": "2ad4f29263ee7d2c189a567413707f914a0db7e74d83bf91af23a8c86734dd4b",
+   "normalized_params": []
+  },
+  "blog/choosing-dark-mode-on-macos.html": {
+   "raw": "2aea09726fb8577f532f2c7a2a5a83861fdecbafba2c4211788c51cb25c89a2a",
+   "normalized": "f49d41cb694029fade858411f61a1b1b2cf34ebae39d301986a694598ebfaef8",
+   "body": "5148c9d8a472d878d5c4b4c00217375fc8208187f07ea79386fd40b569b615ff",
+   "normalized_params": []
+  },
+  "blog/cleaner-focus-outlines-with-box-decoration-break.html": {
+   "raw": "5c6cdbc8abc78aa6b661f610bda349dfe278725e6c016dfebec712aa5424e3e4",
+   "normalized": "151340c4d6932de478fd1af3cec2a7c5f8d2972aedb2fbee4bc831784e25186b",
+   "body": "692d8fe8fc138079fd98a96df69177be7fd0da1137078c682a76d90b7a908d03",
+   "normalized_params": []
+  },
+  "blog/colour-alone-can-be-used-to-convey-meaning-and-i-dont-like-it.html": {
+   "raw": "4845c17daaf180cdbd3b27b1d6bfb4d61d679a2a1c26d9f8c09e78892cf3fe2e",
+   "normalized": "d7c3df251ef8f27661828b4c3611d92d83ef7c3b86a8237232c70c0ebe966bb3",
+   "body": "39cf7b8881f582bac156aec819185b9d88956d53a9a7b927acf3ddc92126d950",
+   "normalized_params": []
+  },
+  "blog/colour-contrast-on-tempertempernet.html": {
+   "raw": "5841d5c2bd4a66cddbf495ad744447d7caa2295c1cdc808b89c01315a73c1656",
+   "normalized": "61bea84a297dc256f97858eeadca42800d357bc41201c817af7984bb7a647053",
+   "body": "25cca83806656427bc79fa1625cff78da9ae071f7c775797c41040e5eb9be35d",
+   "normalized_params": []
+  },
+  "blog/complexity-and-caution.html": {
+   "raw": "a9a7a2b178e77d9aa14a06c66a448574ab637bef012617c314e65563ed2f60d5",
+   "normalized": "413af1a118fa0f78b886faeffd85f16685babbbfc1af203b833a838b1c2cf0c9",
+   "body": "07c271d651160bb79c1303a1cc54d49f56a48baeb6ed47f00e7a6ccec8c3968c",
+   "normalized_params": []
+  },
+  "blog/controlling-email.html": {
+   "raw": "550a11e218cf0a158ff0f45a90c9f1bec51c473097557fcc20461b2651816a64",
+   "normalized": "fc96ed282af9afd36550484e0821d3a8ad72f5dbaed51f03c273730291b87c33",
+   "body": "f55118a123134bba6c2cfac79c84d8c4d73f20e015e42a1c1d10d72e2c78a493",
+   "normalized_params": []
+  },
+  "blog/converting-images-to-avif-in-2021.html": {
+   "raw": "8666a77242098514c568d3c0afe99154fa0c963bb002e83390014ecf67d6f34f",
+   "normalized": "1eebc835e3170e334aae2b8486c197689b7134d6a7f601a33ea7e48896697c6a",
+   "body": "85d1eef147616b3c4c4f1f779bd7d3f8c03e79da6311ed2ce02567f1fb58576c",
+   "normalized_params": []
+  },
+  "blog/craig-federighi-on-essentially-mobile-first.html": {
+   "raw": "6129bdbfa5a296c3911d47f118122f6f5c7b20982642f4afe157db626bd4ec61",
+   "normalized": "881c7488eddc939d8038f2fdfb966afce8b8fbb5c241e5f2bb2154b0d451191a",
+   "body": "7900d296e353138a2d38f45f06c0004c9335bcfa22f9277fdf046efa1452c168",
+   "normalized_params": []
+  },
+  "blog/critical-css-what-it-is-why-its-useful-and-how-it-works.html": {
+   "raw": "a377d94324db7151aac8c401acf7d5acd2acfc3596ced824bbb5008109cf0d20",
+   "normalized": "2cc7baf3f6453486a0c4c838b0aac8fb03e6f5a67844023ed806affdd7aa219e",
+   "body": "c0546699ff183310a52987d23ff40b94e6c86a7bb0819585fe4ddcc2e5830fe1",
+   "normalized_params": []
+  },
+  "blog/css-naked-day.html": {
+   "raw": "8d2633ce61a12a1018db650124b8a5f211379405debd457dc86cfc835bceeddb",
+   "normalized": "43a29fa32c4ff32bec51e0763e2fefd83fe26b7433c7253c8be3d7ec9fa5c9fd",
+   "body": "dd7b768f28bfc26c6b1ce0a0d0fe027e6e190ea1680c24dc75fd04fdadfe7df6",
+   "normalized_params": []
+  },
+  "blog/custom-numeric-passcodes-on-iphone.html": {
+   "raw": "243144c0efb6078f161bc44fc935384c4410c2e053276f9d176877a7a303ef21",
+   "normalized": "bc5bb95f74a3ecc6b56faa7a0a5e15dd1486d86fc9c47d7ac2cfefb1aa5afc78",
+   "body": "b09797752738bb9385fd4e38b41c6a6a1d5dffb7ff8cc3961a3fb61bf68d661b",
+   "normalized_params": []
+  },
+  "blog/custom-unordered-list-markers-done-right.html": {
+   "raw": "e242541372f74a654bc1f6fe8b0565a7393ea3e3f6981686c076a97d1c339c06",
+   "normalized": "738db128034b34751f9d89ea9cf33bf6f19441a7973798f54fd3146363f609ad",
+   "body": "b6bdffcaf82221d0659b059c923cb6729ca351e1d46d1a4fd2f9a9c715323cd9",
+   "normalized_params": []
+  },
+  "blog/dark-mode-websites-on-macos-mojave.html": {
+   "raw": "1d9acc1b7956e05957fb85b1cac4da389e9911aa03673703a4551d91a8638acd",
+   "normalized": "f7b96eec02c2e7543b1023dc5e8aaa54fdc7723eb1ed73939136ae713af3893c",
+   "body": "3ecd0935477bf7c5ee083a0116dee4b9b8261db1cd49460110e8b134dce2c869",
+   "normalized_params": []
+  },
+  "blog/dashes-asterisks-and-plus-signs.html": {
+   "raw": "3d5affb5cad16bb51c95ebe5097fbb091eefe3baaa4a510773b26f214e6f8e26",
+   "normalized": "b6ace718d5413251e08a053c83c9bc671e1464af58d61a5c45fbbdd7b97cb0ec",
+   "body": "8ddb2e88d94de6e40e8639cd499a4dedc708dc0506252680c362d4ec068155fa",
+   "normalized_params": []
+  },
+  "blog/de-prioritising-design.html": {
+   "raw": "66a038fe3138d37f6498d2c47542532b91016547dd8210c03f52c3fb60ffa96a",
+   "normalized": "016e50035eea3028db84ab7bf2a65c78dd2ebf2db0a4cd75f36c5a639308dd52",
+   "body": "180bf607e00bdc742bf14c4c518a7c8fd09da6d975f399516e2a86f02c916f9d",
+   "normalized_params": []
+  },
+  "blog/deleting-a-stash-in-git.html": {
+   "raw": "ff07ca209d8094ee69e7e552deaa4fe3370c2e8764ee83e221fa1076780f98a5",
+   "normalized": "f8ddea5707f52f3dc3daa76ce62de39e6962e944a6dd0ac1332eacd0c06e2ba1",
+   "body": "0afbb03207155f1d15e41e0fbfcb158221b5c3756f44f32389d1dd5106e9c048",
+   "normalized_params": []
+  },
+  "blog/design-and-dev-should-be-more-joined-up.html": {
+   "raw": "033deaee7f1659587401627828db037d80bf5f1c1f50419489dc6c87b3b4a801",
+   "normalized": "9205a7974834974bab58c67fe0691874fce254d2cda3c7432672b78949f7aa46",
+   "body": "657b1cca2f5ce5168501695bcb5ee68713bbecb19664be882e39c995afc3aa03",
+   "normalized_params": []
+  },
+  "blog/design-for-everyone.html": {
+   "raw": "544296cfbd50bed4954a10b35bc09f0f9792759d590e78b0b3a552904dbe3a87",
+   "normalized": "e49eb926a68e91320d4cdcc3a96b16c22d2eafb0cc9b5d7942ce136a3fb10879",
+   "body": "56d153fde670b5cfb16423d8559f811d6363c2b48f835a242ae38c3fbf923b50",
+   "normalized_params": []
+  },
+  "blog/ditching-google-analytics-in-favour-of-netlify-analytics.html": {
+   "raw": "1c0b5aac8755d0a59537b402574e98d2b6711b089b8624d286118975a8358d38",
+   "normalized": "3c33e23fc222b33e5b9e601048daf4b709e96ba3eca08ec82d2d6c7296dfcb82",
+   "body": "92d1b93cc68bfe4e7cb317ec0bb818a089c68ab57aba8ea597ba9af50d0535d2",
+   "normalized_params": []
+  },
+  "blog/dont-meddle-with-user-input.html": {
+   "raw": "5abc305b5a7304e33b222037df70c95bd284ff77761077b2bfb52cb70537bd29",
+   "normalized": "d5572d4a243781ed64e856f8011b5f09e373f8a92259706cd301cf19b4d719dc",
+   "body": "08f55821f1b8b1dd8f898c7dff1f33a05a0adbbb2f1bfbb551a62fcda509762b",
+   "normalized_params": []
+  },
+  "blog/downloading-a-website-as-html-files.html": {
+   "raw": "4d9cb33774d18df09de4ebc38bc83c5ddade0e607bf10483fdd4f5e1c9ab95b6",
+   "normalized": "40ce0e7d348768012f417267f86c4533a06255fc5da20e37ea87e9ec0068094e",
+   "body": "519571b1deb8701a252ecadd09fe13ce3886a4aa1839ae2748abf0af3658677e",
+   "normalized_params": []
+  },
+  "blog/dropbox-my-most-useful-app.html": {
+   "raw": "4f20a397520784e2037d3da38e7c7c925a28a3c21b378bc0436db3e275a9f608",
+   "normalized": "67f793f3515a6afff0c402f00b77375614bd6d0c9ccf173d16a6c5da6b15d1c7",
+   "body": "6f80e4748201f2a6c17aadeeca32a4ec1c68d2aa385e08e02cad0f37b688761d",
+   "normalized_params": []
+  },
+  "blog/empathy-and-renaming-my-master-branch-to-main.html": {
+   "raw": "1e028e5e1c5e2f9c42007b97d6c812f0be69ca43a52615016749ab3a3d588876",
+   "normalized": "c820472fb5a35410b1a445f9575b5674d38fd64aa1654f92fcd83b0c04c6d123",
+   "body": "e17aeab860b52f85da79364373828e14f5f1c30b7f17b56628b212aa71c4994d",
+   "normalized_params": []
+  },
+  "blog/ensure-your-project-works-in-every-browser-and-for-every-user.html": {
+   "raw": "49cf1f024fe5c004a715ffa5800fb37f96d6f5a96a158781243bfd312a2144a3",
+   "normalized": "bf5df1538db64a74fd4fb9edc7e2fbd1b47a81a85e59d3922cd2f0cf4e202165",
+   "body": "593cb844bc6db1f5b54111acd901e704cacb4688ef4219045a669c1b3defaa1b",
+   "normalized_params": []
+  },
+  "blog/erring-on-the-side-of-caution.html": {
+   "raw": "883a5b38f387bd1e870dffe12ff7cc3a4e4148045f03c1fe53f89e73e0bea6b5",
+   "normalized": "d8f0dffc91c350d1234cf32641c36f9eaebc8d60c452576309062e6511c917aa",
+   "body": "56a3408bee83c46f1115359a154230a5e769d13ebadf4f1d5e895189201e9904",
+   "normalized_params": []
+  },
+  "blog/even-the-finest-of-details-can-be-important.html": {
+   "raw": "e64cce714fa122e149c4a3b599495a9ef90fce7081c815b31127fda3572c85dc",
+   "normalized": "5749267196a2fa4531466121840480b247e973d7ca0d351d3117861dc4e8a614",
+   "body": "96dfeb92806ed1f329b07be2c6e4add7754fdbb54bdf13b5e2c9ff1ad75a9818",
+   "normalized_params": []
+  },
+  "blog/evernote.html": {
+   "raw": "5c6d58ba66c0b6ccc48eea97a326426879be3b6cd4062d32aeb7198a8891024a",
+   "normalized": "693fdc5475ccf1a432761b23568ec3866cddf686d79e1f1cb5c33dc59ec2ae2e",
+   "body": "c7456710217a66210b8d0cb1fdbcd18165cfe1679c98a8dafcf7d8fc55650277",
+   "normalized_params": []
+  },
+  "blog/everything-has-its-time.html": {
+   "raw": "a230fd65a6d4e1874d2b992e1c78f8174cc52461f66c875776e2b205e239ba2c",
+   "normalized": "8396254fec78a93b5ec00ea0e11d368f6c534460f0c5c7f4d5abbcd5ac5d6991",
+   "body": "2d263ad4dbb2f8299f5720304c383693930a39f1ddef3038750430d69d3b6e96",
+   "normalized_params": []
+  },
+  "blog/face-id-and-masks.html": {
+   "raw": "61b0a2402850ccfba0ed8bf8627eb89bda625e88405a5640c2cf2a7044fb4956",
+   "normalized": "9081795f1b9905ad9ccc8f3f92f5db7185b450798d0f5675e7f1ea704e548676",
+   "body": "79af333899001a529eab405d55ecabccbe79cbc1a1dbbd378c77a0e453900b5e",
+   "normalized_params": []
+  },
+  "blog/face-id-and-sunglasses.html": {
+   "raw": "aa3f63ab4e09fa7803b2effbfda5c5f39a11d11c5bd282e9c87ffbd3b47a3d15",
+   "normalized": "f34a58c01ed337eeabcfa93ef01dc9bf32e98d09fc88fe52130cfae0000ac447",
+   "body": "b6edf6c5f6694a48a532f42d47f2d5f735aeff6c5499c64c16ac2694b635653e",
+   "normalized_params": []
+  },
+  "blog/face-id-on-the-mac-wont-happen.html": {
+   "raw": "0b3c22ae80357ab543e3094855adc61b440a400051d3c61b10cdf5a1ff2e446c",
+   "normalized": "5274e4511c7dbd2055eb62d4200027473da9c78d328b47740d6f16c4c46136cd",
+   "body": "b79fef5fe0bb32e7bfa738bf7f6724fd8f4fa4db6c1bf9ba7aa58efea342645b",
+   "normalized_params": []
+  },
+  "blog/first-impressions-of-ios-14.html": {
+   "raw": "8989ce0caebe7e0248858ca9dd67cbee788db12900d68841f1cbb293e7272d53",
+   "normalized": "b18cb71ce0ff6fbf8716472060fa1c4f91d9cdfd677df8fb80f83eec914dfe57",
+   "body": "ac4d97bb7dcb2194bc789a6f416554fd01e0951c23bbb4117560e51453e964a8",
+   "normalized_params": []
+  },
+  "blog/fixing-safaris-html-only-dark-mode-bug.html": {
+   "raw": "1ea75c98f1ad02171e365107235880b30ffb5bed795100967f04114585240760",
+   "normalized": "1427745f07110b51e4f90d3f3803245324404f81dfb49a44216f5288befc9f3f",
+   "body": "9ba2217fd69f90cd705c715fd4e7cd048a24e82aeb0a9be54699bae86f754e84",
+   "normalized_params": []
+  },
+  "blog/fixing-your-last-git-commit.html": {
+   "raw": "7865f188ca53f5865513101acf9c6f7777a8dfc5a303c88feef2daa64a4cbac0",
+   "normalized": "40e694f4e4c00ca800c82847426535b0d09ea7442052a7ed21ec4974530447ab",
+   "body": "214eb3201f6469b1074ae1d1b4e847ecad1b65e6d888b96f82bfdc85a62df253",
+   "normalized_params": []
+  },
+  "blog/focus-appearance-explained.html": {
+   "raw": "e8d11ef8b191a48cf76bec6f19cfd3df4d9d4f8c8feaef7235e37e03c45ce6fa",
+   "normalized": "dee64e6ee6f82f9b09d1aea45ef9adf90286c611980e8e1ce1949a884a174e76",
+   "body": "3b5ba91e70d4a2f666b7fa88f42ac2f525c2b4101a82bb109f9c244a50ffb512",
+   "normalized_params": []
+  },
+  "blog/focus-priming.html": {
+   "raw": "7952cf48ee56df90e3e82ed4d89caafc0b4a70dff58e9da9476bf62784ac75b1",
+   "normalized": "ade4633f31ba18acbebb84626fa05f502aee942b3158721fd01ba51bded62951",
+   "body": "ff73fab2f0680f83dff55bb988b419748b7bc194045f9f1d4749ada02d9a8779",
+   "normalized_params": []
+  },
+  "blog/folder-sharing-and-the-new-apple-oss.html": {
+   "raw": "193d6c90f800da12204482fc06e319cb9307c9ed47835614d3adf9ab85fff59b",
+   "normalized": "437baf97bf3fe817aaaae80ac790cdc78f0a65992cd8b2503239d647e0408f42",
+   "body": "4b61c5b4a62df27e4da37c962437556144d3a953316538285f31175e59b2085a",
+   "normalized_params": []
+  },
+  "blog/form-styling-limitations-are-an-accessibility-issue.html": {
+   "raw": "b7478f047cdbb20931dc126f7efdd9de07ca8d52c0bad0ec0778d7edb9d6543f",
+   "normalized": "5dcac8e561316d55213746952070847e08b8882d1f96e071952807006cc5b701",
+   "body": "078325efdf762b6b11c91a34678b467748b367465451c323bef1f93bb6f1dcae",
+   "normalized_params": []
+  },
+  "blog/freeagent.html": {
+   "raw": "24c7e83078928e5ec24a197d50d07dbc03b55e8ce98b58e3db6ab6361817d627",
+   "normalized": "8324b7dee04e3a60e594d249651b652c778f075edd1eabdcfcdd4d252f081825",
+   "body": "b40519360244c0820033a062e82a59eaaa99def34ef4fb8ecc6d4ace646c1755",
+   "normalized_params": []
+  },
+  "blog/front-of-the-frontend.html": {
+   "raw": "3584efe6e60be86b3145192b81565ed0b330a963b07d6f7bc27e06453c5d33d7",
+   "normalized": "f47fc13c0223b617cd349c7ec1ed4734361e1e8b733e323685b9d3f8b753042a",
+   "body": "2cc82cfc9b6b68b950bd8f19a5ac93ecef31277d58cb5409930bcf3097a089d3",
+   "normalized_params": []
+  },
+  "blog/frontend-front-end-or-front-end.html": {
+   "raw": "16a120b26d9fa6ef3bdb707a23ce5c9430c96a6b29a0cfd35f711201b272dc94",
+   "normalized": "d689f9e0926da1368267699269e06e40b55da5fe91f5b6a7a0415b284740b2ff",
+   "body": "471af8b8f586390ed615dd8d793c77400aae061b7b9600268c8c05482867fa71",
+   "normalized_params": []
+  },
+  "blog/frontend-ne-draws-to-a-close.html": {
+   "raw": "8e3f7d1501d88e34d30bcab3541aff8ec28cee02f09b1b8802a0dc417b89a8f8",
+   "normalized": "2388d8791c5c62e5faddd265913f2b006411128501b95b2a113de40eac56ab2f",
+   "body": "a5388cdccb1b87501cb6041d269c7d52a95e456c1a1138b35878b66b2526b7ac",
+   "normalized_params": []
+  },
+  "blog/getting-started-with-git-stash.html": {
+   "raw": "a8a1636fa55e03a0ad81a5db5ad64436a72ee11b9dfb92829e9e5543f6f0c361",
+   "normalized": "d72dcf2ead1b33a78f41fb8d0eed03ba55e777ba642a43e0919dbc25e1057849",
+   "body": "4da84da6cfcb75e1dd0a682cd5344fa625c1f7aa1dab423836eb415b347d823d",
+   "normalized_params": []
+  },
+  "blog/getting-started-with-nvda.html": {
+   "raw": "556b5977eca7b0cec212fe060d6df6912bd1bc9a5256d36be8964b1e70b50e3c",
+   "normalized": "0e42140aa5e6445ecf6ca7aa6f11aeb3115640b26d1bdc92869bde4043b566aa",
+   "body": "df625c3afa9ba3cac44a2c4cba7442d46f29efb088103ecee53de174157722b3",
+   "normalized_params": []
+  },
+  "blog/getting-started-with-voiceover-on-macos.html": {
+   "raw": "fb27a2028e255d7264330988b5216b00f852ab1438954854625a7278ae131106",
+   "normalized": "fd19e19df51e8fafd1ef5aff750ed8e6ab4533578dac1de3561f8efb65848770",
+   "body": "e3f0df27125f7c23c1084a8d883f1a99660619e17f0bc29376bde7793c41f90c",
+   "normalized_params": []
+  },
+  "blog/getting-to-grips-with-git.html": {
+   "raw": "cbddc9fe8e984f934721b13a6c74691cee190f787b53e7ab06886ae6a23b6075",
+   "normalized": "22e4340fd1cecbc337be28742ad9a716c67f9c8570909c4d33ddd61b0c77ab6c",
+   "body": "14e026e146d886949ac653d6c88492d4662e9103f906ed3043e5385cbb344caf",
+   "normalized_params": []
+  },
+  "blog/getting-voiceover-to-shut-up.html": {
+   "raw": "b0c128c8132c8a6ad59b50b03405862111b0482cccd5dd6e11184b19d75f3965",
+   "normalized": "1bf37b731a96e03e2abe40ebf136429da8f04d85bde220f5225b1fb9ec732780",
+   "body": "ad009677c8028675e0b5e3d38272a6c602487d56f41ea087e7d1300b14e33275",
+   "normalized_params": []
+  },
+  "blog/git-rebase-versus-merge.html": {
+   "raw": "3be150cdb56ea4cb2e85a2b39a4017529a65d24a63aa06be4ab6b39d41a71dd3",
+   "normalized": "6139854b80d2a2f143a8c2c7e18bc0a036b95116581be1301885719fbd61d8be",
+   "body": "70662454f5420b5885e2e9be780601b95d3ed1618bf4a322887ed7c984d71b51",
+   "normalized_params": []
+  },
+  "blog/git-restore-to-discard-changes.html": {
+   "raw": "8477c90daf40833994da355d5921af4230e9efb7b790f831ae90b26170ed6469",
+   "normalized": "8273d1fb0815e40476dacc5acc8c199dff3ac88709ce8dde0c54c0296534c11d",
+   "body": "b31adb4e35b79e1511d4e86906b251463bab4d41b377097eb436407c45e348a4",
+   "normalized_params": []
+  },
+  "blog/giving-your-git-stash-a-name.html": {
+   "raw": "7f0f811073293dd5ad29d8b1c3d93ffa06091f3bd2acf6e648896edbf38f7dad",
+   "normalized": "6fc7ddaf86e89820b3e14ecce703a43cef939fafe6aa939c28af4f4dcad2b128",
+   "body": "250354e5d10b75f5318b1a94c8990daf91055064b6707a45630c5c53dcd59058",
+   "normalized_params": []
+  },
+  "blog/going-all-in-on-icloud-passwords.html": {
+   "raw": "2c55c3fc21f2ee5301ae9e08a58a636645a86966a6b84376a3f856e6ac687581",
+   "normalized": "2f0945270db23c0982b5e485169b9bf2b6f5f4e0be6cf70e3fd717887a897ccd",
+   "body": "40cdf8d30cfa0202a1f3af07237b396ae2bbf993034b90a80bd08fff71f7002a",
+   "normalized_params": []
+  },
+  "blog/google-are-spoiling-my-blue-beanie-day.html": {
+   "raw": "fcc156c89417fdf3a9e4ee7161bf1ea738e3e324e20bb52f3c5f4a9f6b6531d8",
+   "normalized": "10340cba1cd92a99923c204c8a01322246b783d40d197a3b387d70f55cd91532",
+   "body": "86cf5d047c50e3e39512b0f018ca753941d9c96a854b30ad42dc4af9bd23ed0b",
+   "normalized_params": []
+  },
+  "blog/here-here-and-here.html": {
+   "raw": "53ae45ba20f804b302aba2ba5acb959a28dcedf4442ad4ba1d7889ec377bc090",
+   "normalized": "c33fad8f4918fcd1a95397715fd72ab158c73b56f1b748496cce85b2c10c0e29",
+   "body": "662e886215fed2bb235b2ea76d25275dde0045e12347f9ed7a79bed5e7e7dfc7",
+   "normalized_params": []
+  },
+  "blog/hierarchy-in-tables.html": {
+   "raw": "4612e829576b9c7e7401d5e960e5ad030b182833bee3da878cb2ce0fa8d63097",
+   "normalized": "84c1d42c0240ca267cea486b17bb880024af6470ece2aa50283a0e91cbf8f493",
+   "body": "7a9a3ad49a47cd1976e4bce7befeafd53fe9a6fba2377102f0cd46b35562d3ff",
+   "normalized_params": []
+  },
+  "blog/how-button-groups-should-work-for-keyboard-users.html": {
+   "raw": "046f865d3da811ab6a779c679503c9bf69286da75a2b76f61db8114796bdb3ee",
+   "normalized": "c47da43997e3c13c88d37a0dba437c03826ebc985ac2715ffdf57304697f6a61",
+   "body": "52b259c00efcd9d58f326dfdd4597dfae38a244c4490aeab4c516e884a816616",
+   "normalized_params": []
+  },
+  "blog/how-i-approach-css-my-abc-system.html": {
+   "raw": "30c7108e5638765ff515074db7177aab764f9e0572898da15b1b39f1f66155d8",
+   "normalized": "b0f483ebdf4a978e7016a6ceec938543c88e0ed41cbacd4fd4eaa3785f363686",
+   "body": "515ca45fb3218a0061f8cdacfe58646d0eb5132b92895101aaf8a966c3321ba3",
+   "normalized_params": []
+  },
+  "blog/how-my-websites-design-has-evolved.html": {
+   "raw": "6bd80d67c43a942384eb2331b203a4a049e141bd249df0da3aededc124062182",
+   "normalized": "8ec63c2bcdf99a7f2e3757432872e394256d677c0f43f8018b652ba5a196b144",
+   "body": "20a4602687108956e3b4d344eb2cc6d491130e7caca1af61ce231465289bc3f6",
+   "normalized_params": []
+  },
+  "blog/how-navigation-should-work-for-keyboard-users.html": {
+   "raw": "41ee0b035726370197808de32434c95282ef5a63d8ee3c74652893143c9627e9",
+   "normalized": "614d8d3eea7a32fe33767bb7a1cb2d1a46afe9f34b5a4c862f6d106ecf4ed872",
+   "body": "6f7fafb3d54a8a7e8a07e47162c1da9c1fa63dcb2a4e69ca70fdfaa86aae612d",
+   "normalized_params": []
+  },
+  "blog/how-to-avoid-disabled-buttons.html": {
+   "raw": "aea4908558c41a46e802aceef8b7436dc086059fb4b95c8f884a3dfac210f847",
+   "normalized": "057efb62e03241cfbf9d3ac56475f63589e66e5b0dd6d08b86d78f43b3a8247c",
+   "body": "1a4dfbb29829b513897862c102e3a2404980cf29ee3703b1238dc3c7af24f25e",
+   "normalized_params": []
+  },
+  "blog/how-to-browse-the-web-with-the-keyboard-alone.html": {
+   "raw": "6567abd607f0ca648a726b858503288679d509566128f30e479ec820f53c0827",
+   "normalized": "a595ab5ab3c497d88a0ebea8a28b88d6a06b22d96333713b7fd737b79d66aef4",
+   "body": "7192e9be7f87312e00151b64c2f6095623cc4acf85f1fba8179357d028321274",
+   "normalized_params": []
+  },
+  "blog/how-to-change-the-first-number-of-an-ordered-list-in-html.html": {
+   "raw": "00b200af1b5ba24a9c1945820c620cd9148ad5b39e72e022b7bba6d346d2f0e1",
+   "normalized": "d7ac4c5c86637e68eadbf1616e78bdfc0e29b194f00292a04deaa41139e63c4d",
+   "body": "490e8df6124fb0c2e08755db389e02a2f6ea7d729b65f170fd6101eafbe5ef19",
+   "normalized_params": []
+  },
+  "blog/how-to-diff-branches-in-git.html": {
+   "raw": "5eb82034cc5a297a5db04a834954cf2571cd035f02fe2f4d7d99759ee773c143",
+   "normalized": "c2ca23ded4b0e4a50ea91147f86e0f007cb45c35e39e8ee3468920eab4462126",
+   "body": "99712bade1239de6f8ed72c14e6b529c0c12ff3a8654312383d0ef5370976f9f",
+   "normalized_params": []
+  },
+  "blog/how-to-rename-a-remote-repo-in-git.html": {
+   "raw": "5c4c93d3b9b5fbff108e0c518c0a11891d492949183ce77e228cc082d1f405cf",
+   "normalized": "be9425bba3bd46336f02e93e83ea6f0adb28840f4bfbcc0e8c5859944e0932b7",
+   "body": "5224adcdb94a75fb350f04b0ff52dd33239c8198b7beb71b89578d7f5d282022",
+   "normalized_params": []
+  },
+  "blog/how-to-rename-the-master-branch-on-github.html": {
+   "raw": "0c03fb6b47888093df19e331624799e46ff1fa39433bde146ad53e29a7ab98a0",
+   "normalized": "361bf75adc30f143685fab98d4a890aff1a14be56e0f010ef7235d71c69cf0f6",
+   "body": "34e4b17d15fd5c13365a8689dffd53c4dfc54563ac0a231c5f153ca68aba11aa",
+   "normalized_params": []
+  },
+  "blog/how-to-use-the-keyboard-to-navigate-on-safari.html": {
+   "raw": "c3f2f2b003cb4bd63318a4458155eb5460051017d277cf120d425bbd037f2b59",
+   "normalized": "66c614aea7b7aa43f8fde06a01a163fd2af4a1c941a39f0d8a35e665b21ce8de",
+   "body": "ed5ac483af5342a2f65866276572c1252cceb16eb50e29a6d1742dbb53a95e3f",
+   "normalized_params": []
+  },
+  "blog/html-is-more-complicated-than-you-think.html": {
+   "raw": "b5cfbe61ccad6073cbc927a53d481418b6fa22d686a90b909f7e913d520fa692",
+   "normalized": "751590a8ece0d36a4bfbf26fe74b440feae7c43f26a7b3ecc67381dab839f92a",
+   "body": "99b30909d5ae900066b5c25cf1ebd1596aa1617ded2ff139d22f435d05aefd68",
+   "normalized_params": []
+  },
+  "blog/html-isnt-quite-accessible-out-of-the-box.html": {
+   "raw": "4a4acf2cb7e72ef2a958b800de362afe20b2bacf369cfb3ad93255c0bbc23fb8",
+   "normalized": "c242b6ed53c725640f4af6b7ae79e5e3ca7ef634a9297ee2325a9b7ff2179454",
+   "body": "54ae47877a56ec7f367f8b90d3d0a9e37115fb3534a100229a37611dc4e71767",
+   "normalized_params": []
+  },
+  "blog/html-only-dark-mode.html": {
+   "raw": "ca22b53d6e78bc33b1da3eca13e8afe5ea0bb048430d392177de03eb577a4db5",
+   "normalized": "47d9ddaa41273c94c0812946a2265de0c20cca7dc307b9d83b00e671faece339",
+   "body": "2147c31ce1d9a9dbb7efbced9a6b6978221da1bcc9e04c8f8d8fa872ebabb2cf",
+   "normalized_params": []
+  },
+  "blog/i-cant-wait-for-dark-mode-on-ios.html": {
+   "raw": "1ee1237bff5f49ed6c4e395ec01433627aaace14b0ad9662df01e01bf703d0bd",
+   "normalized": "a88968d8230d2f87f65246a2e23837efa7ef4ff1ff8c03daeae786b40819d745",
+   "body": "1227515296c2f3750698f0c05c86d90451002e83a8282c130f8c3f2f02d43621",
+   "normalized_params": []
+  },
+  "blog/i-deleted-1password.html": {
+   "raw": "47305421847e52ff2aab852d7636dc6721e9bf2440ebd01f40b35053d34408cb",
+   "normalized": "a18a4c26db8e5b7b1a9079a3bbc2f7f089a6063b057780f9c0ef68cf5edaa0e7",
+   "body": "9c2581f36519d4d7749417a9d8a0fc0668141d101c6932f70ad1d4bee3e82a66",
+   "normalized_params": []
+  },
+  "blog/icon-only-links-fail-wcag.html": {
+   "raw": "d11fd318e25fa6082c15f8003eaf35b25700ecaece08a9bf2cc245dd2b0728a6",
+   "normalized": "8ebdb8e692008b695430960c82b6c08f40f1f104ebd488401ec818fd78ac7653",
+   "body": "4fd5e2dc1695c9babaaefae258ce73b45e6776c9a7e49217482f9f191b3b1851",
+   "normalized_params": []
+  },
+  "blog/id-forgotten-how-much-i-like-keynote.html": {
+   "raw": "9971f8442ee9015085b93f6e3e2127c091ef5bf294d42c725f9ad7f8e5b20f1f",
+   "normalized": "a903e5bb87c91eafd69c016ecc8ace75e8244d9162c734e00d9233978f81c9e7",
+   "body": "aaefeca397b675c01fb57fdb0f2b1b364731e8ded9507a9af9c3245acbb0f359",
+   "normalized_params": []
+  },
+  "blog/if-html-and-aria-dont-allow-it-its-probably-a-bad-idea.html": {
+   "raw": "773dc944fe4cabf8d87533881486af936cb63f0ea22fb0cdaf81045df8c300e5",
+   "normalized": "1f42b1bc33c7dddeef8fc7ac7fd46ab62abd354efd5fe557e6d8a5cf181ccd91",
+   "body": "c305953c5fa42a16e58476093b77a6992008f65e1371f308a4ff666d1a36e78c",
+   "normalized_params": []
+  },
+  "blog/if-its-not-progressively-enhanced-its-not-accessible.html": {
+   "raw": "bdccc517cd70eeaa43a6c9f23047d2e0cd5e0d3cd33518f8d05e50e91fc6a47b",
+   "normalized": "43bcef555d68d964966d53aa92968a5c39268117be0ac95b0b4ca5396a252d42",
+   "body": "6493f20456f24ae128dddfcefe6602f7189249b4788ce6ec194ed019f1b6f5ab",
+   "normalized_params": []
+  },
+  "blog/if-one-person-is-remote-everyone-should-be-remote.html": {
+   "raw": "dd52c0c384e73848dce4d6f962bc8c28b083451fe968abdba7687de2d740a238",
+   "normalized": "0a85d8d09dbad91980188c96fc53b624d09ea823e8024bdcbbf2e21e7ddc8a4d",
+   "body": "b01050254f20dba4c11de3b6af2881c45b9aaee5e588ac2c7eb8bef5f140986a",
+   "normalized_params": []
+  },
+  "blog/if-only-apples-voice-memos-did-transcription.html": {
+   "raw": "84317b32d7b493c16e592f8b6921d946d883ef1c192ed9746acb3225781eb1b4",
+   "normalized": "b7c25d3d55c2a06f2b6e67f9b5daeaa81dc861c563405924256a21166427e367",
+   "body": "ccdacb0ec49af72a0e8cdc1de8d222d7fa57296a829752cad14bbf2bb7db02c4",
+   "normalized_params": []
+  },
+  "blog/if-you-need-a-link-dont-use-a-button.html": {
+   "raw": "996097f9177fbd7329612b5df0a764f49cd09642332b53c9e4a5726e9524da34",
+   "normalized": "8ecc3e1df942988aaf1c1a628b5083cb0ca9af15049baadc138ad253a791d158",
+   "body": "06aaf69d216d3f22a89f93c17dd49ada3337945bfaa5c9282616ee1e1cf1cc22",
+   "normalized_params": []
+  },
+  "blog/if-youre-going-to-do-a-job-do-it-properly.html": {
+   "raw": "65e0dbe678902a41eac2678d9bfefb3fd737ce41f29784c4283849de1ec6f769",
+   "normalized": "f4f86caa631fb3d25e640fb5e1a613e56f8c1dd6c112c409b785c6e829080272",
+   "body": "70704d057411ddc9c55125dc7d20b432ae482f123fca3fd3005812756bfd1099",
+   "normalized_params": []
+  },
+  "blog/images-as-the-first-thing-in-a-button-or-link.html": {
+   "raw": "d195a0fd2cc2204d7a64ad407e2b18161d818486ffd1db867b24f3502d76f504",
+   "normalized": "4f89ad401b6eb54d9d7a80cfbac89d72a2b058c89663b578eb5ceadff1f66959",
+   "body": "acae0d86b502d9194ec8e3cb17c82a72aab18c3b6b1234ed6d06ca2dd63f1637",
+   "normalized_params": []
+  },
+  "blog/images-illustrations-and-contrast.html": {
+   "raw": "38ea1cf7ee0a2589f0e50d09c4f6151f7a1737931f61ce64812aad185e883c82",
+   "normalized": "4baa68f2f684945d16ef5e94af2ec2c287bd5b8407c43587d6f666b7e4251539",
+   "body": "ed74ad1f42953a44068043fb85192d47594a2f7de8fcf540e3f4adaebd87d536",
+   "normalized_params": []
+  },
+  "blog/implicit-aria-landmark-roles.html": {
+   "raw": "f40f4e6850dabf0c223f777c4469384be7eb9a7b411f1477e861c4c7fc8e847a",
+   "normalized": "7617462ed395daa809f951da56d2dc8b30503a01068866d766d7d8be8af67499",
+   "body": "85628c48a85fc64d9fc04998f95c49c85ea1a15d49a23ba78bf52c2d257f34aa",
+   "normalized_params": []
+  },
+  "blog/in-search-of-the-best-writing-app.html": {
+   "raw": "ce3c441e9a6affaa1c80c8dbcdb1e8ae8e965622fe5c749115592e4f87dbb626",
+   "normalized": "ce073918f0c3a41c812b2468b5b1b86683a8a824e9b7365d689481182e91e6e1",
+   "body": "536f66272e56f1ce80b91e596d86f6bc87ed7de5f412a16283b481179459bf7c",
+   "normalized_params": []
+  },
+  "blog/include-a-date-on-your-blog-posts.html": {
+   "raw": "f4cb6ae2fe6a8d92db7c7e87aab8671b053bbb3dcb4b8341e5c604d9b6163595",
+   "normalized": "26d74e0899473389f9fbe8f4f01a7f887617497ef4e74fc64c1b82e2573cf5c5",
+   "body": "c2d17147d16057d5cc5f9ebdbe14909f9abfc448656c9aa48c295610c4a69426",
+   "normalized_params": []
+  },
+  "blog/index.html": {
+   "raw": "362434ff105e4f5a64ae9002048485e4e103c99007e2acef3983c8be610a2090",
+   "normalized": "627cf15b06ef88d6a8d00995ed376dd8ae8aa1bdfffb4c1bad3fbbac15ce8701",
+   "body": "2716b947270274f52218c57fc79532647323f2b98d9ebd1c17b856459e858deb",
+   "normalized_params": []
+  },
+  "blog/ios-14s-back-tap-a-better-way-to-access-control-centre.html": {
+   "raw": "55b93bef9ef3f10f94f2eebc4a4b94cab35c3897a696f533f29b1564dcd46772",
+   "normalized": "3482622700749c0e771ac5cb7b09a06f5c659599fb0dfa0121612cb9db3f7da5",
+   "body": "1fa3709cbe64bec33562ce8a591b2e7e6faf1a93e2e77f68bbccb4cf0e45f4f8",
+   "normalized_params": []
+  },
+  "blog/ios-15-face-id-sunglasses-and-apple-watch.html": {
+   "raw": "567b096bcf22676d91d2bd975d93dc506999cfe2ee875fe1853e93decc0744c4",
+   "normalized": "10dad39d4453aa3bdd69354d9a458481385d74557d4e34299106e4a9b487f276",
+   "body": "765819a1ac170b005e1162e33036a6665499f3bf1465d15bf5a04d9f99501bc7",
+   "normalized_params": []
+  },
+  "blog/iphone-event-2019.html": {
+   "raw": "9a363042b046a1088bad7d92f6479d614d95c5bd934076daf0913a8881428077",
+   "normalized": "89b11d8bb2a62657ffc44ab3391a81647c7ef807c73b61811cd528cb70156712",
+   "body": "24fbde88248e2732c5180914fcd371a8e1026267419eec193159e48e89d706ab",
+   "normalized_params": []
+  },
+  "blog/is-a11y-exclusive.html": {
+   "raw": "dbbb47cb30b131ee8ac4540f09e3f6d4beafc89b30b6ba76c23675267e583e28",
+   "normalized": "46e6a60e0a391e8377bbec8e56d9fceae0c1423e53629a4b7de7c570b13e26cb",
+   "body": "04cfb660085e2097e717aa91e5cd54984118667a46777ac81a621dccc6299bc2",
+   "normalized_params": []
+  },
+  "blog/its-good-to-make-mistakes.html": {
+   "raw": "789a3a2b63ed64498f2098ab984c36f49704751fd58561e664108dcaa8699e9a",
+   "normalized": "d4078efb16dc2af8ef1b6ce9b275834d5b552e06da83b1f481972cc680a13fd5",
+   "body": "3266078071c9ff4d343ad921d73b1e4fcd6adf2612b30ffd7b2e213dd2ccddf7",
+   "normalized_params": []
+  },
+  "blog/keep-on-learning.html": {
+   "raw": "9ccaf34eeb1b1e084574375c2ec19f0ee251f32519b4aae3be106ff5e42edcb8",
+   "normalized": "45b63f07e55dfcc5a3eccdef6eaa2099bf183a2e6f27102f9f8c9e59f7398be1",
+   "body": "01b6aacddc964769f4330d2b7f6bb7435b18d4e6a5856811f22ef7af7d39837c",
+   "normalized_params": []
+  },
+  "blog/keeping-git-status-short.html": {
+   "raw": "2b894617fe056f23a9d3977f70f2b8db3422914cd4244c900a8dac09bd507ea8",
+   "normalized": "f6375ce368540f9e586da9db93d6f47be658f9ed0bbd7eefe72b94e7a449e0a8",
+   "body": "8266482cc84655ba3e9cccc9e5f0e50b7c191fd5bf8b89f3b4310e0ce940dcd7",
+   "normalized_params": []
+  },
+  "blog/lazy-loading-images-without-javascript.html": {
+   "raw": "f609471ade37011b8a4bce1f8ed0e8492967f588d2fba6650b7ee11c8274faef",
+   "normalized": "af50c67e0f4eab26c47c7d1e4d64692682ed13f0e4234107abbfdbbd786240a9",
+   "body": "de63bb20a097fcdcf5f3e831e73ac366e2f6bcc53d420e501ba5be66a91dfc90",
+   "normalized_params": []
+  },
+  "blog/leaving-the-frontend-ne-meet-up.html": {
+   "raw": "79d420f11636116d6b48fe1feb96cf9ad75c0cdefdaa82f129b23673eee5c43b",
+   "normalized": "3b56dbde8c1022c872021a319432b3b74b11f6acbc3bad17a963f6e52b7bf62c",
+   "body": "30bc0a8df92437a8804c091024dd44f9aa6c5878df18f35f0d492887eed30292",
+   "normalized_params": []
+  },
+  "blog/lets-make-webmasters-a-thing-again.html": {
+   "raw": "dfb347f0fc42ce9c5b3ff73de3c28d4df992c0339ab5e229f33fbafd5c99827f",
+   "normalized": "0049a13e55c63246c547eb29ebd45e26198c0ff83994c95c41b27b8b4707d786",
+   "body": "14aaf6726a00845ddce3ad8a1132f9d4c45bffad42f3207d5cc87a4fc45f5c71",
+   "normalized_params": []
+  },
+  "blog/ligatures-in-coding-fonts.html": {
+   "raw": "b26adef846e4cf4e6712b843837c35a3ec9024f3fc2964c63b60330a21f7ed2d",
+   "normalized": "804d99bf277c72cc68ebf01e26e0a977f71b0eedc20e58967e3b542d78eb584f",
+   "body": "21f35edc7fcb3a639109e51befc43bbb614ee4ee439b2419e7a0dbfa0fcd448d",
+   "normalized_params": []
+  },
+  "blog/links-missing-href-attributes-and-over-engineered-code.html": {
+   "raw": "6012ffe920e8326739aeb42325608b4554aa18565e58480e7e7cfeb78300980e",
+   "normalized": "03ce1868fd0cf8069309b4e18555ee5edd5b1cb787e7eaea4bc79739c3050307",
+   "body": "4bb1dcbca8cfda06a797785b7f16c1c4c276f69eda7b2c372b9e4b2edaf67032",
+   "normalized_params": []
+  },
+  "blog/list-style-articles.html": {
+   "raw": "6db0875fa8b04f3cfa8a19064cc47d2602538cea77282d2bf7cdc7e2da756285",
+   "normalized": "9061ce1bcd61ad4e2708f5202f75fc4354e3e2cb864d68e5c0289ea16b9b4e98",
+   "body": "1707feb936bc0c8bc633d753a0d71702d8a918118e749349f576f0ebca8e9507",
+   "normalized_params": []
+  },
+  "blog/looks-like-3d-touch-is-going-away.html": {
+   "raw": "26efa4cd4458b10e688242dadd47b0cf2a2f199c1a5fff010e6369fabec55443",
+   "normalized": "2b488abc99519f2e2c9e896bacf3cda260147dfef81d07018d6cb389802237f7",
+   "body": "f6a69ef6faaca1b6e34f93cff9cd6988511fa999f254b369dafe3fb5f581912e",
+   "normalized_params": []
+  },
+  "blog/mac-event-2021.html": {
+   "raw": "be216ea0ce934681d09bed527e5cf5ae5fc6bf5e99f8e7a32824c033e9f94075",
+   "normalized": "635c69daf4b9ef6d376581e9b6ac8bcc60c467ce9e199924fe508ca4d5032ac1",
+   "body": "0a0357331b12c0ddd0a4a0989d98e1cba6e36e8ce846af90c2661c4e16b533d2",
+   "normalized_params": []
+  },
+  "blog/mastodon-and-me.html": {
+   "raw": "7a77d7948299ae0c0dcc9ee828e9694818950f91d225909cfa0d0ed86d4d36ed",
+   "normalized": "f31e2802ae0d05fccf3fd1aadfa6c6cdf00a9c91ba7e3e9110e87f2ce3981f92",
+   "body": "64d34b3c42a3a7c4fa00df5f5a61e290efa5d175a927380a97fd46f8ccfa9355",
+   "normalized_params": []
+  },
+  "blog/minimalism-and-progressive-enhancement.html": {
+   "raw": "13f15a88893456790187ea1855f73678e869d7f9683e52a777cb954174470368",
+   "normalized": "7aa23e466a4b42178a4ebc25559b37e079b337b3281c35185dcfb60e9015d110",
+   "body": "506c8b5ead5ca715b8e83f042d5cfe67c5bdedf2a0a327d716768e72720e60d6",
+   "normalized_params": []
+  },
+  "blog/moving-to-apple-one-with-existing-apple-subscriptions.html": {
+   "raw": "6ff8f51517ccdbb78ec8148d2658ced2f3efc23bb0c0af8121945ac4dd58958b",
+   "normalized": "30c3bb95ce428cf047cb51f60176dfca23abb0ac40e33e7455f5c0c545b6af1d",
+   "body": "585b2cb5d48a4591673f6722e4ae01cb831c83f0b5220b3f23c813ee9de1fe86",
+   "normalized_params": []
+  },
+  "blog/moving-to-netlify.html": {
+   "raw": "716433a3a0d3241dd2d9118de2118ae8b00a831287dd4249a6c022b69c06e793",
+   "normalized": "a4aea2c2a3495800a2e6df102db5f2327c553275200c2ecec058e6fbddf4bfe3",
+   "body": "8ab9829898548422a5e2a025dc3e70fcc2d8d1c60bbbef8e5da9d84c11ecfe07",
+   "normalized_params": []
+  },
+  "blog/my-favourite-rss-app.html": {
+   "raw": "9b4957ac7149a4bd18f266850c530e48ae8b50a9d17cec089ef68561e8f902ab",
+   "normalized": "ae9022e6789789309aa2c5c3df6aeeebd8990453d63cf2c822dda89c6d2d6b06",
+   "body": "50cda6bbfa95e1724e75219c43549e149307795bf4e20c8249287ef4ea9387bc",
+   "normalized_params": []
+  },
+  "blog/my-introduction-to-co-working.html": {
+   "raw": "2f218561f081707d91fd672dbe982ae61e7d6ed57049f22c38047d23384c1857",
+   "normalized": "c4ce3f463a15a46f5bd81b710089e7e2a7e4486ceb5d5f488597fe2fb66255f8",
+   "body": "28edf8d2ad46c30dec6086bf65a36030a0c606b75fdc2e8730e6109433bdef30",
+   "normalized_params": []
+  },
+  "blog/my-user-manual.html": {
+   "raw": "cd2a94aa0b7bcd1fa60923cbfbebfb12bca33ea6eb2298ee56b727833ef71377",
+   "normalized": "512aa6d07a8984048b382ad3e0e1ba5084e5974b06d229dc8beafa53dc74ab83",
+   "body": "d64dc40f6230836990eff36aef1db29ecd458dbdae6d5316d82268fd9e0247e9",
+   "normalized_params": []
+  },
+  "blog/netlify-deploy-previews.html": {
+   "raw": "26b3e3897f8c7003e14452c5f85353cffe58d7be40d412b0f0a763113e2bcbc4",
+   "normalized": "898f46a92abc91a1400516291571e7a6359f02fd7949be0558362b0ec9a00340",
+   "body": "b790babb462a3de825e5d2dee90c0e905d205fc7a61ab5531d001800b8ae216f",
+   "normalized_params": []
+  },
+  "blog/not-all-screen-reader-users-are-blind.html": {
+   "raw": "ada64eae1bcd18184165291ee4eff244e608c0de9f34fe1108ac473668ccd7d1",
+   "normalized": "df609b9fc51f2113087efe0dbfc921cd3178f40a6f6be621ef1cfd445286b19b",
+   "body": "5ba99f09cbb449f8e224e6a66b7ce821be79bb888c2d1564e2b44483f8027d05",
+   "normalized_params": []
+  },
+  "blog/on-not-setting-an-upstream-for-short-lived-branches.html": {
+   "raw": "dc08947483ea194c0e4fddd43432659892406c4fe2902cd011258df910692bac",
+   "normalized": "da9bd1435d7026a98ea347adab386fc0107ecbf12a10a12857c689f3e079d8cd",
+   "body": "71578e54100f8a4c06dfd934517e87da27c0a913486440f3fa91f3583506b759",
+   "normalized_params": []
+  },
+  "blog/opening-links-in-a-new-tab-or-window-is-better-avoided.html": {
+   "raw": "7ac2cd1067b4d2bb90126a9f73c17ad9d2bbb0227b45970a4cf10d9373e466c9",
+   "normalized": "c98689d1c7d2b520b0a50ead795da3f41dc5583c74c95b1e6152d997f8b66820",
+   "body": "b248aaca2cfd0a80938ea775c60277481ff8383f17c6d37b806ad3ef24df092a",
+   "normalized_params": []
+  },
+  "blog/operator-mono-and-why-i-want-italics-in-my-code-editor.html": {
+   "raw": "c0916608ca40df7ae405d4eb31b77d8671e7723825980b8ea175c10e68cc9bb5",
+   "normalized": "6d0cf57139263ac90fb396db2e78810aecce4f4d3ec3a8a5537e022242c988b8",
+   "body": "25ac8b883877fe9912dfb3244bf0870daf7cf57be51346c8b5854499b196f1af",
+   "normalized_params": []
+  },
+  "blog/optional-closing-tags-in-html.html": {
+   "raw": "41f7dd6127aa346ef824f90ffc7c27f46e28cc925fec84dfd25b678d7d5f1807",
+   "normalized": "815805bc0e242bb6dfb1a0596b43f1577f004e8977456c55c4b6b9821c91ea94",
+   "body": "72bc1b0333a44c3df7608ad068d3def6823522118b9aa87615ad35195c6fd8b0",
+   "normalized_params": []
+  },
+  "blog/overlapping-interactive-areas.html": {
+   "raw": "1d7dd974d8a684cb70518a41a5703f3b3f349a31ad7f79066d06f56f3b60a9fc",
+   "normalized": "7e1f542de2cd8c54057ad8f393f916345d57c335788d2c0b4271fbc5e263e00d",
+   "body": "f2a448b3b279b8a08eb099b35386724dac3a9f27a02510851c2cca0d60dbae52",
+   "normalized_params": []
+  },
+  "blog/own-your-own-content.html": {
+   "raw": "46f0657b07279147dfe8f4158faf9aeab5173faf03844de3795be1344ef1e72b",
+   "normalized": "a87d656cfdd8758148ccd81b8967906776254d8950f33aaafa51ed1f26ffab71",
+   "body": "7d2021ad2e093289a2b0a22846f7074b9c824996a658fdadb1b38ff6f9db0c85",
+   "normalized_params": []
+  },
+  "blog/pixels-constraints-minimalism-and-tempertemper.html": {
+   "raw": "66deabdbfaba46b552bc09fe57bf2439eccba874b75007c49b888613ffd60208",
+   "normalized": "41c83a65ad719f53f3ee6d085c7e9f902395d6fed3390074946e7492c74a85dc",
+   "body": "0e4fd7c553e445ac06c7dd195ad8992f544f0a934e2ad42576cf3f30a83c599f",
+   "normalized_params": []
+  },
+  "blog/practice-makes-perfect.html": {
+   "raw": "38c9a43364e9d88ed5cfcfe4e56a4f3c6d17a3f0fd529e9f858781b31856277e",
+   "normalized": "d5fbfce849a177186f8727eb4f92bd02824663b86bc1b2ae18d7278e2107d8f5",
+   "body": "c00db51c0558a9d9e4b91e397c5ebf12a1c1444986ab0a4fd18888931cbedd0b",
+   "normalized_params": []
+  },
+  "blog/progressively-enhanced-animated-content.html": {
+   "raw": "2510b7c9c961c2ba23e99a34ac794dc42e41b76bdedc0719a2bd61b460299b81",
+   "normalized": "d4817dedf4dee0d317859b04ba5fcd63d3d37e60a0063bf43daa778893f16b86",
+   "body": "d393496929c443b9dd777385ecb612041d1b262e4644a7f60ad948b7a30bbbac",
+   "normalized_params": []
+  },
+  "blog/pushing-to-a-differently-named-branch-on-your-remote.html": {
+   "raw": "94db0708f6e903ff0a2c867c7f0d1fd6d3a5d2751857105c639a2a40c774b75e",
+   "normalized": "aac8230ec64f193e7bbdef0f90a4587d9e4d1c38917c0c4d8dfe46c2830371d0",
+   "body": "05d803837df570ad4d0f21cf0422fa4f9d31fc1178d89c7d164a4526e0a6e12c",
+   "normalized_params": []
+  },
+  "blog/putting-the-time-in-up-front.html": {
+   "raw": "a808ecc9755c4bc2dee94cd990c2fe938f76a1efcc1aacaf0c393098b2dcf8d2",
+   "normalized": "b482058a26d3fe77fb7645d2ccacb51c43837d8c9bc4542a61b5e6a35baee6b1",
+   "body": "4ff1d305a5c9e202ebdc24c2fb88eaf952beb65065c2138916d68bbdbd8e92f1",
+   "normalized_params": []
+  },
+  "blog/reading-at-night-with-a-neat-iphone-hack.html": {
+   "raw": "a9203218ac397ba416d1f7b33b8dff3260e6008456f74882cc972588cce4fc51",
+   "normalized": "69c4568ba3493be40d39ea4b88d343f0a777a9bea7e6de3d5ca7a9a70f58c307",
+   "body": "46009faaf1bfe1a4c97a22bf3176939c3fa9bc34d3c81fd3f890b2d47bba4c4e",
+   "normalized_params": []
+  },
+  "blog/redirect-a-filename-in-netlify-without-specifying-the-path.html": {
+   "raw": "621f6f1c8373229ca80c50885ac59755f15da61c343a9fde369e5a675e667fc6",
+   "normalized": "e052d93afa40845085b5ac9312eb5bb0a134530af456c7bedc6f79bd31837e56",
+   "body": "0c458d17099055384526504bf79b09731377c1f463149a1a0808a49d9d8e51fb",
+   "normalized_params": []
+  },
+  "blog/reducing-motion.html": {
+   "raw": "57b33a47df2a5b43cd02c4643d19102b05a85af5815f9e1fabe8eea87002593e",
+   "normalized": "8517e4f30f688f4d51e22a0ebe7143394ef914ee7565c9ca04e63c2468222433",
+   "body": "6579cff476bfc6bbba3bb5f355704adf57bf2ccfc7eeb3e48c2631ce1028239d",
+   "normalized_params": []
+  },
+  "blog/refining-focus-styles-with-focus-visible.html": {
+   "raw": "cabfeaa55bc794573bbb67d3ab79c2b37c5a39ee58c082c0e6184147a660e794",
+   "normalized": "03dbcf2703f52aa314c3125d8b5cd28d04c7433655078913b350cabee625b11c",
+   "body": "417a8adf0721e4253e65813a5adbf6c062a81e01377b545a6170063d40b304e8",
+   "normalized_params": []
+  },
+  "blog/refining-my-writing-process.html": {
+   "raw": "05ed9b4d10cad98ca045cf72752648cd2c510865a2a4e92cabb24c66e5403287",
+   "normalized": "3dfa5f547e92d0d9f890d920307ae69e3a3e1bf7f1307bb0491f21ae1864b4fe",
+   "body": "306a12a6c59df0eac7997a0a2795c1df95c9b3b1d2480b338b96ea3198ababa9",
+   "normalized_params": []
+  },
+  "blog/reset-to-a-previous-commit.html": {
+   "raw": "03a05eb6e40f878ca609ef7cd78486a5fa4c98484b57201221c1e118d26eaba2",
+   "normalized": "150be0e0f40b5ab54373d29d7c67d40209d224b97e6608b2617ef663cf776b0e",
+   "body": "cabc80868cdd91e881d1797f6a9834a0de726ce4153978451de8d7956e4971b8",
+   "normalized_params": []
+  },
+  "blog/respecting-peoples-privacy.html": {
+   "raw": "fe5e2be7a5688e4dfc24535d1d727782384b74e22afa64393d0f1cd29c545c54",
+   "normalized": "f8d23ea47d8ecf73a73b22ce6ce84c706c6f3133376f9cd770648b9c96cd3015",
+   "body": "6726918ae19c90c9d117275d1a96cee7add9d2a292d4f87863ff04876055896e",
+   "normalized_params": []
+  },
+  "blog/reversing-an-ordered-list-in-html.html": {
+   "raw": "9a51c6f2c05af6fd55f872e3a8b0a8df64fceca2b3b9178b794ea0eb2a26b246",
+   "normalized": "fa50237270bef2790383db6492268e35ab9d029457e3468bb51b403bc235f069",
+   "body": "2fb3dc9a117d9c092c38522c26debefe4f4d6532ac49a76116a9194553c16c41",
+   "normalized_params": []
+  },
+  "blog/right-here-right-now.html": {
+   "raw": "55ee3d3a4677e96508d4126133409fbd9661cc48478c0e189c99a3860d5fc610",
+   "normalized": "7bbc97cc5af5858b17b331384582dae83b451326ef40b4368ee05a9b921aa637",
+   "body": "a131f33dea1ec59b6d71c83fa9e1810fd74ea085c732c137f8f927817f9b15be",
+   "normalized_params": []
+  },
+  "blog/routine-and-flexibility.html": {
+   "raw": "fbe2afdb828ab69c81c4432a59528f3e817d418452b2d51a4689fdc6a46bdf9b",
+   "normalized": "767922d99865a177c3cf091c6cb51d1d204aca7947fe4eeba400c23d79344796",
+   "body": "f7c38430ea5cf98b8661d19ab731f63772f6d0bea75342316fc9f83c9e762e92",
+   "normalized_params": []
+  },
+  "blog/safari-15-4.html": {
+   "raw": "3723d5ba7ba437d323ac557ff7dd07d65391dd776dbff912c92783e9de627728",
+   "normalized": "94b426acc02b610d36ffbc810c75e72bea99b699e3ee55001786771c5db5d6aa",
+   "body": "f77aa6398510ca35330c3dc93457e412a8d91c52ffdb7b27be3fc1270f648bcb",
+   "normalized_params": []
+  },
+  "blog/safari-15s-tab-groups.html": {
+   "raw": "b386fb4ffaef4d6160b2f3bc4866e2828be0b57b9daddd704ec008bba613283d",
+   "normalized": "1b6c126b963c11da4e8c2c7869196665222849389f8c9e9ed79ba9ff833f564d",
+   "body": "b2b85e0fb02799d359b46e015ec47e517fcde16224de2581f48dac9d5770e809",
+   "normalized_params": []
+  },
+  "blog/safari-focus-visible-and-accessibility.html": {
+   "raw": "8306af65bd7df66c6d1335c05c702af99d6e682f54470f8edac2ab9c00b64577",
+   "normalized": "6edd9de99331c9ea9aac7b6ca9da313e814db2dd2664e99a7ed1023862e7df63",
+   "body": "693fd127b96cba28a825d1ec9bbe3cf331fe4d9d878b62ead0891862d6a13169",
+   "normalized_params": []
+  },
+  "blog/safari-tab-icons.html": {
+   "raw": "f1d2f8fdfcf43159003f614bc3108f46878426acab99f1d7edfbabcd00285e99",
+   "normalized": "aac10a615ea32235c4e71748d94529aa0dc2292fe0fbdaae2701e10508077102",
+   "body": "88018a5c3edec90f803f06959975c13ad7a1f817f6d964f0b853ffbe4b073f2b",
+   "normalized_params": []
+  },
+  "blog/sass-mixins-for-increased-contrast-mode-and-dark-mode.html": {
+   "raw": "c6815856fdbe68bb82c9d402ccc3fa0941e3bd77794cd4c29f66d372bc61834a",
+   "normalized": "0d97de3bd2c9068aeba4fae505180fc9942c01f372b5de732d7f99198fb28d3b",
+   "body": "e58425efddd6a382718c875dd8318b7ad73f890f5c3df471798446c65459a064",
+   "normalized_params": []
+  },
+  "blog/saying-goodbye-to-uk-government.html": {
+   "raw": "75025f5e19f485ab317a0b4f38bb2968e8122ba96f011c5bceac500e1a5fd100",
+   "normalized": "f8151a50ed7e559af1e39c0ee6f90f0f90ef3d2afe07b9ff1fd8c6c66aa96324",
+   "body": "b2f8bd943202848090fd43ebaf6c600fecd1b2ca5770faf01974f227717c3dc6",
+   "normalized_params": []
+  },
+  "blog/screen-reader-users-and-the-tab-key.html": {
+   "raw": "706ffabeff2e06aff2b8a380df205ea17e61e8e3d3e0021e8fd4105c7d42dea2",
+   "normalized": "680e2210e6563c0c530369d4ad9af764d28607d2a9e4cba8a9ecda53bff63eb2",
+   "body": "ea13d6e5791ce6eafea7460555a268de7f38780a3d2a7581509a48803cfb1921",
+   "normalized_params": []
+  },
+  "blog/scroll-bounce-page-background-colour.html": {
+   "raw": "708cb22718dc54955051cec629541c0db2fa60533cbed5d61ff20ba7c79e5154",
+   "normalized": "fcdf22b9ec096a40e6f9fb50823301ca6cc4bbc24176c26454460614e58b8e0b",
+   "body": "3f09bf5689730fca6871d498d8e09a6eea5a72a5bc4a14273fc0cd5ec272281c",
+   "normalized_params": []
+  },
+  "blog/scrollbar-marker-colours-on-macos.html": {
+   "raw": "401da55bfbfe14619c92d879d992eabe8970f5b8c150065b2cc59786a8c6193f",
+   "normalized": "828c579a4a4b52a6c8e0215f77e2c399284d3ee7c8109cd94330e67ba839bc75",
+   "body": "0492cc2fd1e9da4a1f7de9b0f629c91ffd4a175c1822c7cba0f50506658f96dd",
+   "normalized_params": []
+  },
+  "blog/searching-for-a-git-commit-by-name-with-grep.html": {
+   "raw": "6017f0290f811ba15f5a931a0588e144cf9940517b4bd31413259ba25d6a1d63",
+   "normalized": "fa84011127806daf3da454cb22ff7ccee29a47ef7621f6c9d5bb96bb229ea184",
+   "body": "ca2547df6c81decfda0dd374534c759b0d108986b39b5fb02ce0064fc6c766ce",
+   "normalized_params": []
+  },
+  "blog/self-closing-elements-in-html.html": {
+   "raw": "04b3111a58ed4cc2eccf33e28992dae487b05f2092b4c555862a18c9d7e7ed14",
+   "normalized": "53cfe664e563c306ba763e520c7e5e659c5f6a2ec66224784da2b8896bf97caf",
+   "body": "01342def98ceb03689e51c6ef472a1500825115c4d26515ce259ab8ac1a381f8",
+   "normalized_params": []
+  },
+  "blog/sentence-case-versus-title-case.html": {
+   "raw": "471b73a82205d1c33547676c7bf13e01a3c859d0e9ca1201398101f771ed775c",
+   "normalized": "ad01690c12570a5d1137be7a06eab0edb4710a7c1c260ec0736d9aaef1b69c16",
+   "body": "20aac9a22519018850c4f269fc0b6792440e3cb922421f99a9b791c5b06bfd75",
+   "normalized_params": []
+  },
+  "blog/setting-an-upstream-git-branch.html": {
+   "raw": "ff3a2de3e5306e38e0a42cc62843def81bda973cc6b00a661e80c7fa97d9a68b",
+   "normalized": "51278bdb4604d3665f3d09c0b21d44aeedaae00216e881bf752a0cd62a600662",
+   "body": "cf6fc20a2d51c4654c36be612ccc4d3e5f52888660fdd1fab262a1ea8929c13e",
+   "normalized_params": []
+  },
+  "blog/setting-up-a-staging-site-with-netlify.html": {
+   "raw": "674b38e04800fd3e87d4bfa2ee2565ee72813a2871150481e4b66a60356d124e",
+   "normalized": "57e13f2afa28bb0c7862b04401c888fd5a63a13962d9e15270a682ba562603a6",
+   "body": "cae52051eaf6fb888dd3174c51e7bd8b411e0dc7419b704cb29fcc39f66a0102",
+   "normalized_params": []
+  },
+  "blog/settling-for-less.html": {
+   "raw": "b9453cc550735254458e1eff44d6231eaab544ad970440b4fb3b0b1865c06617",
+   "normalized": "2f556378b8a3dadc90ce6c0576c464a039ecca17a5ef9de54407bffa95a957c6",
+   "body": "0473812aa267f87bd9271f0b0d3edb353cf1fbe6b174a24c926aa3a912b0f99b",
+   "normalized_params": []
+  },
+  "blog/share-anyway.html": {
+   "raw": "adad4f0e2cadf2e12476654c79c8340f24d030a3d9c61b4b2ecc1f252cdd3e67",
+   "normalized": "b98474ae5b2e9d211402b2a5ee164ed6df87974031b9ee930669afdd0be45142",
+   "body": "0a16fbaaddd5550fe4a8023b6343df2dc3b9d2ce19bf99ff5c37cd949f6c9a01",
+   "normalized_params": []
+  },
+  "blog/simplifying-branching-and-deployment-with-github-flow.html": {
+   "raw": "87ca0756906967cd390e7c9a70e2a4366bef0a539508f358a9985737e171fabe",
+   "normalized": "fa62c1fda49958a86250abd9c3d9ef6a292b78b12d7f2db1b778e92e5fb269ba",
+   "body": "311bbc3ae242697d478f4e849b0523ef5d2f399b078d18c10bdedcf047e436f2",
+   "normalized_params": []
+  },
+  "blog/skip-links-what-why-and-how.html": {
+   "raw": "f5dac365da1ac055e1ad17de7b409b67de9e82c8b6adc5eff2c48c5504aacb6e",
+   "normalized": "8e4d60a3537af76f560e8a05d8364687575c2ced174105c1961348212fc32e8d",
+   "body": "d0dbd3df6d48c266be04449a9d2261f9151b0bfcffd50fada6ca7f5f4a5ba6a1",
+   "normalized_params": []
+  },
+  "blog/sleep-on-watchos-7.html": {
+   "raw": "98ed3df503e5c2bf34333bc0912df65bf2b2c6374450162856cc0741593ce00d",
+   "normalized": "275f32255589bd30b54f26f3370f93640bfe900259d6b82c3008be44c01f183e",
+   "body": "b932bea3cb14caaac626e39dddd0830fda836d4e020cf1820ef581d303847a51",
+   "normalized_params": []
+  },
+  "blog/some-brief-thoughts-on-watchos-6.html": {
+   "raw": "d8220ddf9350b05c242bf24c2d97b9efed634081421bde1715929fa892763534",
+   "normalized": "fb21075e9e0e3933886cf470ba3c52b85e33379f7f8a6e50e25532bdf1df3d79",
+   "body": "1c0a60fa11d609bb620f2830597bfb2c6fd4c8a27a60eafc4935cef1351c12e8",
+   "normalized_params": []
+  },
+  "blog/sometimes-when-its-false-its-true.html": {
+   "raw": "83123537effdb161a0bf7ffed6d7a9a0dc3abc6a0975538041fb5fa9bbb9ad57",
+   "normalized": "d0b71b41e344145180695d0e5755671c0da5cf8bd7546cc10c53b4a8b9892cc9",
+   "body": "e5f367975ce2c84f8e11ca2966e827356d0e854c0838a92f6601bbc0f1a2ff35",
+   "normalized_params": []
+  },
+  "blog/splitting-a-hunk-in-gits-patch-mode.html": {
+   "raw": "07ef4495ef4851497f92026c51505b07a2306f917cd304e687f196328217cd3b",
+   "normalized": "2285614cb17b130a0f1f7ac37ee3dc6f23569d81269d60c678ccc1a46402c949",
+   "body": "3057cc3e68169fcc836df9f2850a5c595ccd3fcac4808e7537a303972ecc297e",
+   "normalized_params": []
+  },
+  "blog/staging-different-parts-of-the-same-file-with-git.html": {
+   "raw": "6cc15797498f94e52b36c11bf06ef3501c4e0903afb538d1995071a620b09f21",
+   "normalized": "1be63d4bc46114098a360467876042e0f1f5cfbcc6bf06a636bcc147ceb77b3d",
+   "body": "9ef370fb08025bac54d5b9fac16c98a07a5fb82349af558b81699db2b9bcbec1",
+   "normalized_params": []
+  },
+  "blog/still-a-sucker-for-sublime.html": {
+   "raw": "9d8b5bc738093693b14f125be65d6ccb5a2405744a9b883fef78e8e329f5df44",
+   "normalized": "1ccd065123d3ae71381a607221af7a612882b7503010ab1067a111e832a83f8a",
+   "body": "a3b373e900cef2776d3646382381a26dafc7018afd442fb67ff18148c68127f9",
+   "normalized_params": []
+  },
+  "blog/stop-search-indexing-for-netlify-deploy-previews-and-branch-deploys.html": {
+   "raw": "d577da418378e296617c20a5787d47462a6ace5e9443bf5c8b0640c0194543bf",
+   "normalized": "e99e1d07467d862e42b7e30b0981780b1eb2a32e6c8b4f85051cd8058d5e17a2",
+   "body": "173d191571c5d7fd08be2a9a7826084917418c9e55c4afa0dcd8d22e44d71479",
+   "normalized_params": []
+  },
+  "blog/stop-the-ride-i-want-to-get-off.html": {
+   "raw": "2039fffca3461adf7ad54b34cca724bb81e48923c4fa06b4551cc183f3da3246",
+   "normalized": "65db8a2931bbbe6ad69469d4d2d1409d8dfb311c36e48dd82102613823d14749",
+   "body": "d9567089f5b67aa9d1c124dfdb9b6e13e22f9f4bb30c7cb6b18863b55c90a845",
+   "normalized_params": []
+  },
+  "blog/styling-code-snippets-in-keynote.html": {
+   "raw": "08c34e64b8f12b546b03973f94f899646a28553035c89cc8d150a8e80169b43e",
+   "normalized": "a42ea22bd0495274c41e9cd94ea8e7f20114eb58f5c94483266db07ef534fd39",
+   "body": "82d3932aa12e43b4150ac4a098636ced9f46d1a98219e6a8a4b7d96dd5f045da",
+   "normalized_params": []
+  },
+  "blog/styling-list-markers-the-right-way.html": {
+   "raw": "97e5556c707585b83a0c9d3c3c2379cf80f051c06d5bfdeacc0dffac79f4198f",
+   "normalized": "f9d7d720aaa7b434b4b6cb21f71efd7cd1eee92b417eb5505bba749c843c99f2",
+   "body": "b2b8b3648be54d9be930ae73956a58ca3ae9b5759d2630ceb3acbd7fdfeeef0a",
+   "normalized_params": []
+  },
+  "blog/styling-underlines-with-css.html": {
+   "raw": "9dd2e434714fe26d908eab8ff84045e072fac1d209f63a42eeb114d11baab30f",
+   "normalized": "69275c55a4ee48ce1627383913e2b0ac04a35daf7eb8253dbb641d63dd24269b",
+   "body": "915616c50bdd9103df72df9b2e0e0900a5c9990dc1d37b9365a5792ee9ba43e9",
+   "normalized_params": []
+  },
+  "blog/swiftui-is-more-than-just-a-developer-convenience.html": {
+   "raw": "1c9cad2bbc607ad73f115d8a550f7f41fb0e3c40aea5f65b01f36e653734da2c",
+   "normalized": "bc17aa0e7ea7acedd4b9f4ac80c5deeb39cb02b4b567388bd24ce69fa2a3a66a",
+   "body": "e6596fb79a6c57ecca2102d5c60736ab5fd612536877e9d1df7e1d1db5e9e7a6",
+   "normalized_params": []
+  },
+  "blog/switching-to-gmail.html": {
+   "raw": "44f6236d47fc475a72dafb741d434270112dd5d2c423a158f3e58a77031857b9",
+   "normalized": "2c50fe285262467c74d6e0ee95583f0527dd644adf11f073071d83da11545c77",
+   "body": "4666328af78d6e6616b7292d9a1fa2542830b2f9d04de326e2ae2e8ef56312e8",
+   "normalized_params": []
+  },
+  "blog/tempertempers-typefaces.html": {
+   "raw": "33197c20c31ef42a66bdf644fbbd4cc94d8895fd9c953ef1db6842d0e818a0ef",
+   "normalized": "603d09807573316bbd088a4c9e1584deae676b7ac05039d0e8b35cd41e8989eb",
+   "body": "7244e2e8e212eded813e01c6e37b16e4c8f7d94bfa1c903505f233e695c626c6",
+   "normalized_params": []
+  },
+  "blog/text-snippets-on-apple-devices.html": {
+   "raw": "fabfebc9f351dd650d4ffb548d4972524c5b663d0b998e647babe845b432ede4",
+   "normalized": "7b50c596b41d5f72026bd3750419d140a3f31ea0d071e9466baa6d7a0f5477ee",
+   "body": "60353516cde58aa57d3e363a444ab78020c1c7ddc0b3aabc999716a5e4db4546",
+   "normalized_params": [
+    "answerId"
+   ]
+  },
+  "blog/text-underline-thickness-on-chrome.html": {
+   "raw": "39abcb25dc45fac114f9f16a2397081fb566d25a3d62e2625d171b12250c4b38",
+   "normalized": "e35ab53cd4a7adc7f091a8c4b40dfebda0b36feb81306882fcd9fec1d4009d78",
+   "body": "846b395a424e7d140b654494011aefa944f3e1e44545a818960eeccf648d66fc",
+   "normalized_params": []
+  },
+  "blog/the-accessibility-conversations-you-want-to-be-having.html": {
+   "raw": "fd479617610af699ef1b6c17711ea5940f7c5be60cb6a670ca1ecd5727ae2e9e",
+   "normalized": "cb5cabe41166e52d282f9132183b40fc1e807a53de3b9aa93c5a0ba12c207c95",
+   "body": "8e56f5628b9c89b316c1afb41925466569280adf2a266a7f9e67b9435122fa03",
+   "normalized_params": []
+  },
+  "blog/the-benefits-of-co-working.html": {
+   "raw": "0fc3ce3fb28c9bd032c79f8a04d5877edad9ca7cc1f0cb2e31ad73efd6f04c0a",
+   "normalized": "0c85713850688232ca4b933a335e5f9a80b3fb629c9ab27b0aaf7d39e88e1755",
+   "body": "bc433f881409bc622e20785842bc7fa9bdf5b79d6dae75b25ba391dbb4c03191",
+   "normalized_params": []
+  },
+  "blog/the-best-sublime-text-theme.html": {
+   "raw": "ac41710551f8e5d4558f1255a30610f43e34781b9d118cde281ac8584b7b042a",
+   "normalized": "6a3e36a64a23c36d07285e2a50685c943925c899ad2a0e0a556b251b47335aff",
+   "body": "a30f93989a383f769adf496e1d25de61a3aa0b663b2492249919d18b52ede647",
+   "normalized_params": []
+  },
+  "blog/the-briefest-of-histories-of-responsive-images.html": {
+   "raw": "0c36660dae0ea9e2aadede26aa6bad0657d82adc74633a6004314c7a22db404c",
+   "normalized": "0a2f3c3561b14c4045bc49ad319667c8cc74da0eef897d99903dbabfe33e6b8a",
+   "body": "73d77fc7f23c0633760c443fb4799ccd1da0d61362be82c058afde9fb950e57c",
+   "normalized_params": []
+  },
+  "blog/the-curse-of-knowledge.html": {
+   "raw": "19c8a11689bbfd8925575ea64ab60fdb0a0b5c4404a7fda66cb9585f1950a86e",
+   "normalized": "ac172aba9373c87a2a8b998f42384d661484f288aa7dd86bbad1ec5d75474ab4",
+   "body": "63721aae90bb3c103074ec6facf7f6596d5376b9873d56883626af446a1c3457",
+   "normalized_params": []
+  },
+  "blog/the-difference-between-elements-and-tags-in-html.html": {
+   "raw": "8c3a78b2cdd39dc0b3ebbebe0c2efd2e4c947aef356adbf3808bbb5735714504",
+   "normalized": "a588fa7b70888e7f696586d0f8a0b7d159776cb47cf4cd26a5bd73a9bee378cc",
+   "body": "b4ff1623b7077152da0d8d202ebf747b56ccfb3cf238aa8448ed8ce392497e57",
+   "normalized_params": []
+  },
+  "blog/the-difference-between-increased-contrast-mode-and-windows-high-contrast-mode.html": {
+   "raw": "934c2c91bd5d4cc38980a65c4721758a52217c63a0227ce5548de27d78b8b5c9",
+   "normalized": "1a807c00aef10cdbcb503d06b9c2cf4ce190956330509ae5102762ab85900e24",
+   "body": "565829017cc25ad9cde1319054fe7662a3f4fa720856c7a6df4fca9f8bb52ffd",
+   "normalized_params": []
+  },
+  "blog/the-difference-between-strikethrough-and-del.html": {
+   "raw": "816d8eba5576c8e8039b869073c57771d14e98d1c4be3f3ce056e55287f4040f",
+   "normalized": "d0e229dc4dbd5a852bb23010fcc05fc21430da8190cac95295c2102f94b13d38",
+   "body": "83f73635e763a6d512f1ba46a06f33e88fe9f3b6cc509e5249a2fd7d3194badf",
+   "normalized_params": []
+  },
+  "blog/the-new-macbook-keyboard.html": {
+   "raw": "b9e3cb6baee55d4c16c967310bd83036550bcbc49dce9ed9541e2b58c0c04b66",
+   "normalized": "6323d69f6c1b48d6b51e6f8cedbc4d240112ea095185047bfe5d82ed6f37dc66",
+   "body": "07b8e39837edae2071ed766157f46baea70836611375f781b30577226c3303d6",
+   "normalized_params": []
+  },
+  "blog/the-right-way-to-use-break-tags-in-html.html": {
+   "raw": "c96a9ac3de98897ff4d3a09884cd0e8d7141553181f5d864f7e700057a9a8f95",
+   "normalized": "d427bc7e895bed47f291fe5d20ebbaa8523605865caea0f6e8cb78d0f216e5e9",
+   "body": "86730bdb1ea226c73736c3f37fbb64011392a2ab040c3b17b2a314e8272c01ba",
+   "normalized_params": []
+  },
+  "blog/the-simplest-solutions-are-usually-the-best.html": {
+   "raw": "b15f86cc47190bd75d9a89f537b66059925bd03bff7c4de14c350e436f06a0ae",
+   "normalized": "d5755d61a01000f8228b4872a79739566fcb89abcee6ce088b366bdcfe5e3c59",
+   "body": "c6dae519e8aaab7f4a946bc274746d3905e8019e91391ed94a88c12d9538d962",
+   "normalized_params": []
+  },
+  "blog/the-tempertemper-newsletter.html": {
+   "raw": "8b6639c35ee334e083254911ba260ac436e3fae43410e1bec81ffd1ef8a0663f",
+   "normalized": "8eaf3e9d66d1509603f57827aa297b7e044c38b241b2cb98f064a404f708eb35",
+   "body": "56f6ba11166da49e48e70c77048ec59192db8ae2e10a5812edffffd17359ef47",
+   "normalized_params": []
+  },
+  "blog/the-trouble-with-back-links.html": {
+   "raw": "04071137a34f1cea2ddfbcbc5bcb0610e188b45c5deb2babec2c6240ff59ea48",
+   "normalized": "4848124df985f92b7c7ad988eaa44fbc8151da3ee3e2b0865bef20f0d7c29787",
+   "body": "5eac8b10ce759ae26aca0c6eb78d21d84a6e62e5ffb4cc980c14a1d06a4899e4",
+   "normalized_params": []
+  },
+  "blog/theres-no-such-thing-as-menubar-navigation.html": {
+   "raw": "5acc2ef1b2fbf31f731355e83716aac14edb58ed6e6b6a2697b5f0db57582e18",
+   "normalized": "195443c1d3b19572326bfdc896106b30ae99254a63c3b8d7b71847ace8596f10",
+   "body": "085a722350af0f2271d65b3f891a790b0614e7fdcb5f0931f92e1b4b4ce8e254",
+   "normalized_params": []
+  },
+  "blog/theyre-my-rules-to-break.html": {
+   "raw": "a31053019e82988cd5e5485bcda87abc26274277aaef601c8dfeb45d9a6b4736",
+   "normalized": "af338e6c7dab762e4e76912494417c7410637efa34eb28dd1beeae38b34115bc",
+   "body": "402b6aa0934b9d39f6f2c69c2bf4098ead5d0ecd71f6b7ff90465f271f8d136f",
+   "normalized_params": []
+  },
+  "blog/third-party-platforms-and-owning-your-own-content.html": {
+   "raw": "aa26dd921e3cf5e93d70889a20cd27d1f641dcc7fb50fb17835041b697e97bbd",
+   "normalized": "70d36e19e1f1ba5d32bc989cc6b3e94d93f7317dfcc5dc60497eea351df67992",
+   "body": "3340212a17fdc5d4b9db6279bb4cde9156c97bc063efc7387eac879bf892036a",
+   "normalized_params": []
+  },
+  "blog/thoughts-on-3d-touch.html": {
+   "raw": "037cd4b712ea527a0f60f5f37f12267a2b46d716fc8d1166df0d82b912f6becd",
+   "normalized": "6d9d72d08ad53ef135398f97a36be210a2d11c5cba1ebbd8d5b7d549f192da85",
+   "body": "9a9f62690fa7e860bd4687a902d5856668186f29765a2155c06958e294d492d6",
+   "normalized_params": []
+  },
+  "blog/undelete-a-file-with-git.html": {
+   "raw": "bef5ee19d938afbde834e381f6d33d24992510a19b97e92372118531bebc17e8",
+   "normalized": "29f0f9b7bb6968600c403d55f42f8c620f1b1cc9bb0c12292b706d9bd72c71ed",
+   "body": "cb77217254b44dbdfe824b171c51729490698511bef53543f462b7bc8809528f",
+   "normalized_params": []
+  },
+  "blog/updating-netlify-deployments-when-renaming-your-main-git-branch.html": {
+   "raw": "ce1434b2c82de0778e00b170f20b423d9aac624e78d792ca5f7fe8f34f08dce2",
+   "normalized": "18d0548c2eb9037905dd775542a5e6b39278922e600392aecaa9de6417273b1f",
+   "body": "5a3491ade7c09decdd0cf8a32094bfdc548777221e1777c4b14e7735c2d5b893",
+   "normalized_params": []
+  },
+  "blog/upgrading-from-a-home-button-to-a-face-id-iphone.html": {
+   "raw": "ed7821c3fae8f9682112d1dddc65e72ee5e40952f91e9b7ee56f0a0363f02929",
+   "normalized": "abf8311b789ab0a949db288aedb42e05a9f15350c5b947ad497c7ec829de5fef",
+   "body": "19ff6faa0c86e399d8dfea647f903d854c330b21ad9b28a307e18a7c3e10e086",
+   "normalized_params": []
+  },
+  "blog/upgrading-from-iphone-13-mini-to-16-pro.html": {
+   "raw": "d22ff1fc942e774dbb31ec7e608b560d39187cdc7e959d4a5a53efc54024cc18",
+   "normalized": "d9375cb2394ebd76b3bca2ba7f75a8aa7ee50a4149bd69ba1d8ed2aee7cc4812",
+   "body": "d7c252b2afeb60714c12e68ec9d6607ba823107bd03f116d4f8fd249e8ed77a6",
+   "normalized_params": []
+  },
+  "blog/upgrading-from-iphone-xs-to-13-mini.html": {
+   "raw": "4a7043a48575ac052e5ea46eab3cbd4f1b9b33b5387f692c6b8cd2f78d4269c3",
+   "normalized": "3e3665c9aaa03861c688bf2478b423b4c8fc548e43170081caf41a7a7d4ca21e",
+   "body": "19c3084bf30a59a2aa05402a116ed06b01419a71180e06da1c9420644b7535d8",
+   "normalized_params": []
+  },
+  "blog/user-wants-versus-accessibility.html": {
+   "raw": "dafefffca44d0d163fd1de036f696d8360f758431a896b228c8655abddb722e1",
+   "normalized": "da99487a580338e56cf5fc6496f699377b1ceb33960ebb2eb5cdab7df69ccf7e",
+   "body": "7ffa6ec7900d4171ec9d0997a6ce0da17dffede9a236338df0e95be894621a90",
+   "normalized_params": []
+  },
+  "blog/using-address-in-html-wont-be-problematic-for-much-longer.html": {
+   "raw": "90edb37e4c47fd0159cfa64d68a5c2ff200b61b82573a1a25b0df21b6727ba26",
+   "normalized": "d87bad6334a2d5879542677ef846514a5c8ce0b95df176e890c9963b1a66038b",
+   "body": "2b0c02baac7ac1cfe8878359848b74466e9c07d845539ea359d3756687b93a44",
+   "normalized_params": []
+  },
+  "blog/using-git-restore-to-discard-changes-within-a-file.html": {
+   "raw": "a3f358b357ad47dde5dfb645e59718da0105c0dc2f779ece50b4034feb1189f5",
+   "normalized": "1cb9de9c7c9ebb08509cada2b550f9b6e3d0166591d42e0a583586dcf1d900ec",
+   "body": "674140df16d55c514eca86a22abb0cb1f24b71f9b28e02a489286ff608a66b24",
+   "normalized_params": []
+  },
+  "blog/using-git-switch-to-change-branches.html": {
+   "raw": "52f4b18c2f61efa2a1f5f91b3eaa65def5878bdb5ab30af69e132497a5c8c17e",
+   "normalized": "da15ba41f1b308c6bc7ad81e386efbcb7b70018a0bde98f3be338fa2a9641440",
+   "body": "8b23689c72c16ef237f40a54a399cc39720211078ee2d2ebd6c49a3d8c0f412f",
+   "normalized_params": []
+  },
+  "blog/using-horizontal-rules-in-html.html": {
+   "raw": "200093e23d793f0da2817ed01f591add6c0d50cb49f65e63035fd1ecc5382e8d",
+   "normalized": "7a82d6ac5039d5bb673978e19df73d2dfe786f6934a49c6cee3b3c26a0d2d99f",
+   "body": "50a8a306d0f48c5c03d6ed096cd0bdee7adc755ffca0e31b15081bb98faf4fb9",
+   "normalized_params": []
+  },
+  "blog/using-iframes-to-embed-arbitrary-content-is-probably-a-bad-idea.html": {
+   "raw": "911c109266c12ad6f75b7dafa69b8fa51568d0e5585f030a63b50b582e6dbb54",
+   "normalized": "6b2eb274a8c3672161bcf165446c989c1974a3c261ca88f1ee049f2d4bd34624",
+   "body": "ee51f7188f019beb6d3c09789a71e86aa5d4ba3a7fdbaf4fb679c54bcf8d8e94",
+   "normalized_params": []
+  },
+  "blog/using-image-aspect-ratios-to-avoiding-janky-page-loading.html": {
+   "raw": "ab7d9f9ab4c4ea7e2ac97d0a4e848d480c3164c7c17d794323f0540ea1418fae",
+   "normalized": "741eb1b374eef4a31c156bce808f7f5d961e4237db11295bc03f0f7c0f4088e6",
+   "body": "8417cbd084991f3004d49deee4fac6c4b1e7ee7d1159e9ee8bd67dc47363827f",
+   "normalized_params": []
+  },
+  "blog/using-nvm-on-macos.html": {
+   "raw": "28caa7af65f5cba852bde342b062ed8fe04cb25f9487846f66da558fb1995654",
+   "normalized": "dc3c887efa19033293573fe5cb2ef93b0dfda90dfc3e56932b45a312a95345ec",
+   "body": "259cab3835bc234b2226eecd6df8388e9a0989831a2c8df8347ad472b3234f97",
+   "normalized_params": []
+  },
+  "blog/using-pandoc-to-convert-markdown-to-jiras-textile-in-sublime-text.html": {
+   "raw": "97b8adb7a4cec559f079e53ade502c0b18b9ad74e0ba6ba34f022d2b7374c6d1",
+   "normalized": "699b148d2d6d70a0bff77765f70e13dce9e80fd083b0f953175359373791ffe2",
+   "body": "a20a8cfb0c315adcaa3f09aa26cd2cd4622dcd0a23a0b97e27ce8ff74c0b4c84",
+   "normalized_params": []
+  },
+  "blog/using-the-html-document-outline.html": {
+   "raw": "3acab0249dd926d59d0fc65149155453ec1c1d3a261b587fe5268341b52ddc04",
+   "normalized": "db8c4cfc5175a3c6ee91c78590d22b00b5549329983cf0cc9642edbf045992e0",
+   "body": "c5291ed3315870fcd3772f5b3695cab72ad40d8246967141d4d107e8f1eee072",
+   "normalized_params": []
+  },
+  "blog/using-the-increased-contrast-mode-css-media-query.html": {
+   "raw": "91c6388b5988dee881d112215122cf07c2330779a1ffffe1ac09cb2cc59187f0",
+   "normalized": "fc6c28a813680a15d9aca48c24b178789f231568cbdb8a0daaab33da3e15581f",
+   "body": "425613eedf0cb003139647fb07ba5ed291557fb86af3124a8492bd95c03c1be4",
+   "normalized_params": []
+  },
+  "blog/using-the-keyboard-to-navigate-on-macos.html": {
+   "raw": "ffd70970f5b8451fa3941153451772ad484c8e15989634901407791fdd0af84c",
+   "normalized": "67b3ef36b445e242d7eeeb9493edb772cae8919adb526dc677050af9d8b52fc7",
+   "body": "12e27998fc9e59eaee94b39e0958f8eb83053da81136c772feb6ee695de43c6d",
+   "normalized_params": []
+  },
+  "blog/using-voiceovers-rotor-on-macos.html": {
+   "raw": "b05797a318dd9974e64b5d1e6bd4668c53fbff099fbdd813e432bbab86809f3a",
+   "normalized": "6cc9f98df3bc530e4ae3c45d670494fcb6654814fdf59a7a5a0e9616c2bab705",
+   "body": "38690d1c865d53b7fa33da9cbdb2226f4c448b0ff38c3f411b723fa2940eec31",
+   "normalized_params": []
+  },
+  "blog/using-webp-images.html": {
+   "raw": "cc6e308e28500d4059bbb15529c695974491620d9bd8252f1c76c35bd8e505a1",
+   "normalized": "526b98317355f520763e8eb307075e304aea15ec525314d065b5e073874dd074",
+   "body": "9e42f6daef9ab2e9336b2b2f30ea9fee9663a2ee2e4922c1f52c353d8e90905f",
+   "normalized_params": []
+  },
+  "blog/version-control-for-articles-and-blog-posts.html": {
+   "raw": "2e468a650cde3c7c1ac47385de7df4ceea18c167447d885897858e2f583f425d",
+   "normalized": "7d19d85517896aa3e2c78902116b7843ce3fee79f3d97959d8f3171f1a4570dc",
+   "body": "ccd7170b8f5d9213955b166580b7ab93a181e309207d5988aac900f774a3d999",
+   "normalized_params": []
+  },
+  "blog/version-tagging-with-releases-in-github-flow.html": {
+   "raw": "30a55ad1d2ffc7d9e25378ade780a3da818df2f950d21807c1671eeeca844cc5",
+   "normalized": "5478e20449e601e6337a83560ac343d6fa503423c04fd39f3197bb1db7c5151f",
+   "body": "10b647de35223daa663b292b7d4daf07e5749da6696586f2437549fd823b82cd",
+   "normalized_params": []
+  },
+  "blog/viewing-the-changes-in-a-git-stash.html": {
+   "raw": "e73aeba1f95aebef1f7d07d93dc4502892ee1245ca355d0144f997f892bcde27",
+   "normalized": "680cf24721e487a778044996f53a0d3e47e33794f183ba3b37d258b9931d9503",
+   "body": "6732e32e582e0ff42ae862c1c7c29c81f9320b40335df6cff4b9a563887acdeb",
+   "normalized_params": []
+  },
+  "blog/voice-control-for-macos-commands-cheatsheet.html": {
+   "raw": "aba1d3bcc86cbafbbdcd8bf4775f4223de597a2afd6d4a12f755d4ebc1b4ee45",
+   "normalized": "0447e00943e72c890fa6d54e5739b6242fc824d32449aece98d4b7b9e1aa83f6",
+   "body": "af2cf1fc21ab2cfa421eb101fb42fe348f307792d01f2d42e752d9a82785e13c",
+   "normalized_params": []
+  },
+  "blog/voiceovers-trackpad-commander-on-mac.html": {
+   "raw": "36c5276a0daea2e5a61794dc5a138e621690185c7a03fd1174488695d8cb99ec",
+   "normalized": "a780af494442dc6e6abf33f19cfaa9880aa03f76b5a431c172227808a8295b18",
+   "body": "aa40059c795dd751f42383aa04ae2eb172ba3283a3244018f7a478652983029e",
+   "normalized_params": []
+  },
+  "blog/wcag-2-2-in-language-i-can-understand.html": {
+   "raw": "2d1c0c0848ae4499041d145d0534de3c7cbd4d1209aefaba9b617f3a02cc5cef",
+   "normalized": "a444fc24bf87c2538c6ae7f5af7e80f4391f5ddd81b4c2b511124aa6473bff58",
+   "body": "849836ec26bfeeb5e32ee146c1b9cf698aa1864867fc5359a2fd476d6ed74e5f",
+   "normalized_params": []
+  },
+  "blog/wcag-aaa-in-language-i-can-understand.html": {
+   "raw": "0dd8920a9f2ee09244a7e4c8f3805ab832c90a45f5254deb9d0cc4c77fd1535d",
+   "normalized": "8d9a89be8cb8e16e7eeea802b630f91eb915f1e7da364432a0f15efb1304b37c",
+   "body": "5e45398df8514f86b78758c12f4c584be41615ea284537d8da16aacdce1210ba",
+   "normalized_params": []
+  },
+  "blog/wcag-but-in-language-i-can-understand.html": {
+   "raw": "58a17dba8c131e0c3e1a8afa10df4e866e371252c48f3bd02effcb533d3f8a68",
+   "normalized": "cf84672b06e6be633b25699ab93e13c66ec8cf8331346b41b81bd94d35c3ef78",
+   "body": "c1840c99e5e159174bacb3a653dda1f019ee5d338b8a8606080003b02037ca05",
+   "normalized_params": []
+  },
+  "blog/webkit-has-fixed-the-implicit-role-on-footers.html": {
+   "raw": "a51521977255820eff927e30098ee8d4c1a4d49c7e20693d732fbcb0e5f22a0a",
+   "normalized": "1276cf7f394bfe9c074f7774a9dc7232779cb785f4fc7904e9edb2661b7d7ef3",
+   "body": "5e96e17807e9a6dd5ceef814dd11886561347bf262b92514b7c3398b8b05c7fc",
+   "normalized_params": []
+  },
+  "blog/website-version-5.html": {
+   "raw": "3c78beb34b18aac8d0ae9f4e7c3c63e4b467df3e0bfdae8a458bd540eaf8b7a3",
+   "normalized": "4ad2f185f35ca7e67e3fc8e5abec680c3e05697a3ceae4f69510f8469245924f",
+   "body": "acc54a9e06a20e5448688bc5c7657bc29ba5d23dfb60a60fe1fe8b1b4929ca44",
+   "normalized_params": []
+  },
+  "blog/website-version-6.html": {
+   "raw": "8112da9d659b7c9768799457d634341c8fb97c0d2577dd2fd6098b8592fe724d",
+   "normalized": "dc2912e4c2bca47e84f0d9ff3973b372dae46d319f4867976799790f1e261560",
+   "body": "df2203df01fa54e74307dcb73c60a6b01d7d5addee6d4c6c51cf169004e2cdc0",
+   "normalized_params": []
+  },
+  "blog/what-do-we-do-with-a-link-or-button-matters.html": {
+   "raw": "741d9c8b5056f51ea08422b9e5a2bf54677231e8832a145c118862a329bfbd62",
+   "normalized": "9d6d765cbac8106aec395d23e22392130f0e07e81385d027fca9612b13645674",
+   "body": "26b28feafe2128f16d4253f76d8e586f54386378910a74867da0b08fe62ae4a6",
+   "normalized_params": []
+  },
+  "blog/what-has-happened-twitter.html": {
+   "raw": "35aee068677efeba6f7f6800a623f6c52b14e1563e1226202e3371b02a8820db",
+   "normalized": "2be0265a354185c9f7109480b52cc3af60cf6b280f1154bb9462f5fe6b122d2e",
+   "body": "3e9e37c162287e39d4bf948649fa7088d8f0c3d514238879a468d6ffc0feefac",
+   "normalized_params": []
+  },
+  "blog/what-i-wish-was-in-wcag-prohibit-icon-only-buttons.html": {
+   "raw": "1983525e558a1d35a504141d168ba08fa54432f67ced7c1b02ef6e1c0552797a",
+   "normalized": "6acbf5c1c7dd70bc3bd7179e4f83e01587d2fed6d8d784febaadabf6b2265a6f",
+   "body": "68a3b4b00deb811db181f9406d172adb942aa6c7d554b977c6bf8539eb6c2c15",
+   "normalized_params": []
+  },
+  "blog/what-if-no-ones-listening.html": {
+   "raw": "e410ed066704c797d619c82463242a8a4676aacf6588b167e71b763c672a7efd",
+   "normalized": "9a80a8440af92c6a38769be237556e0af92a06f520fcc5a1f900c928b03f1524",
+   "body": "774bc5d63f4ce63039efa978b4287d4696ef8e2217688a41ec78e19823cb1d67",
+   "normalized_params": []
+  },
+  "blog/what-watchos-7-might-have-in-store.html": {
+   "raw": "fa3746e13dac135acfdecefc2e0f5c2fa12847e993d1af8d3bd41d4b24950c40",
+   "normalized": "54c3d574eefee638f7975833dbeca90c711c4816b8031078b155019ef8ef54aa",
+   "body": "fb4145719408e1ce538766f3c9eff42dccb45ba92d46009c6681a58e9d2c7a37",
+   "normalized_params": []
+  },
+  "blog/whats-emphasis-and-whats-not.html": {
+   "raw": "52222742f32db2f9f9640c5c438497b499c963f4a7a89150fbe7edba616c8688",
+   "normalized": "4a222d2416f28b2f73cca7a74f0048d32980d2d1c51f594456ac11a730fa65ab",
+   "body": "e0c2c0bda92ab8a22866f5777101c5403577059002c5bba7b5f7d05c984a0c2d",
+   "normalized_params": []
+  },
+  "blog/whats-rss-all-about.html": {
+   "raw": "a29a6b9bb8286c37429e6bc967eb8f3333cb702e596c4450bcacabed270a371b",
+   "normalized": "0d66ef701aab5b683d898dff87888529f259ff1885aa6621a8c005c82faf55b1",
+   "body": "1c84fabf145e6ce5b0a2d1e89544f4f87fc8bf19af7216842d635e7a28c45bb9",
+   "normalized_params": []
+  },
+  "blog/when-and-how-to-use-the-section-element.html": {
+   "raw": "f6cf59ae0b74254051f6c12d8411772aba464ac779b0239d11d973fa66929226",
+   "normalized": "da9b9933181a884ccdf9f3ed5940cb6f3881cd3343fb6d86f46c03076eb4d2ba",
+   "body": "0149089fe3e4e0d5783c33fd4347b2061af4a9242cc61bfab43451c4e669c784",
+   "normalized_params": []
+  },
+  "blog/when-design-breaks-semantics.html": {
+   "raw": "29216cb1a72dcd12f8255e9f695793facc751624bfa01c6703e24f0153e68ed9",
+   "normalized": "172f25ee604b9590371ada14307fc79a36646b9d4c87e2d908ce93f3af71c8fd",
+   "body": "4d1cae25b910ac499c32bd33108b2b73daa6b8e8e76ec002127864f92e768ff9",
+   "normalized_params": []
+  },
+  "blog/which-images-need-descriptive-text.html": {
+   "raw": "3a8f5cc2e49dda937763ec11b64cfdfc8c8cb1b94bafe5d5d1fc0576d67bc905",
+   "normalized": "947283ed1e41cd1b6b102d04faf695e19eb749c58e5e4c909b904a7d320863e2",
+   "body": "1ce74862f24518f8c7ff63e44491c5927cb2e0bdd9a9081ddf62849e8ab70f0b",
+   "normalized_params": []
+  },
+  "blog/which-way-is-that-arrow-pointing.html": {
+   "raw": "928610dff24d446529e9951a72db89223dcacc28a9fbdceea58cefa2ed05498c",
+   "normalized": "77df9d422c4d5416bffbe2992b776b497505ea0efb20b1ba0edbfa1ed930decd",
+   "body": "d6be910e595a063aaa309faa2a44dea21fb65e03f26d8e7a6dec5c76903fc6b8",
+   "normalized_params": []
+  },
+  "blog/why-i-always-raise-a-pull-request-on-solo-projects.html": {
+   "raw": "972580930ef9398326cef584c335e64e7f469a9bb8a7fd99d3dc5c1420d2ee6f",
+   "normalized": "3aba8c6d8d1bf6a376302dd5fb88d7b410dd9126a6bf6d786345b248ab628886",
+   "body": "57fdded50781d03efe443b2a652e151a235318697fc4c62f16bc4a1fe28b7624",
+   "normalized_params": []
+  },
+  "blog/why-i-havent-redesigned-my-portfolio-since-2014.html": {
+   "raw": "859bb4ec563589e7c04f1d6286aae531c384ff728fa38fd8c359c1a8fab5056f",
+   "normalized": "1d9eada817a485859170a10e1ddd3baf97c55434c9c6b9f313e10099895306c6",
+   "body": "3d25921a53c50d5ac24d1360e5fb40ec14924206fed2a209cc09c4c1ba192160",
+   "normalized_params": []
+  },
+  "blog/why-i-prefer-not-to-use-css-shorthand.html": {
+   "raw": "11fc45fbe909ffdc91fd4fe1eb03250352fb93d119a87fe60f1ab6aa10bffe9c",
+   "normalized": "b19eba45d30128871e7977a309585a867ffcff5d5ae55d9b43838778b156c82b",
+   "body": "37d0e05cbbc8262205738a8848397896508c414f9ff8edf1702fbb638dd317ec",
+   "normalized_params": []
+  },
+  "blog/why-i-still-use-rss.html": {
+   "raw": "4b36474ab35fdc2375ba8ff4e5fb706f122eb5c37f7f35bb83d82a59c076e0a6",
+   "normalized": "86faf9373e7ec9bd6570f28296132db6673029f1211545f45944de02999c1bc4",
+   "body": "8bf0b583766fd0162c79996f196bacf71f277b5929fb05a26314cfb738c31037",
+   "normalized_params": []
+  },
+  "blog/why-i-stopped-using-ascii-art.html": {
+   "raw": "faf9370ea7db4922f4c5d36e36ed587a8b401cdb9a4ceadad473037d4b268c10",
+   "normalized": "b0c1b197a7890c809a28c2097c5478eae5ca42c09678d5e04c1f6a8aa8cf0201",
+   "body": "badd7a8293ab662ff64719057e8a647ee087754d24dfd83ce41608b0d892f417",
+   "normalized_params": []
+  },
+  "blog/why-im-not-using-git-aliases.html": {
+   "raw": "459df72a07ead0ee6dd31b6997bfdb4bea374584131acaca07cfeb424196af9f",
+   "normalized": "25aec9816003a1e64e25488fdd0073b4afb8c8bc8dbfb1c961e4277e67a80ec8",
+   "body": "81353e2477d73483c86596464ffb9580dc71ee8fa3de8b3b9da7c709d259bfa9",
+   "normalized_params": []
+  },
+  "blog/why-is-accessibility-so-often-seen-as-a-low-priority.html": {
+   "raw": "470d0aad2c8841226ff73d950e4b0908a6b5fb488a058e4553b049c17a4e3b80",
+   "normalized": "148616104b08ce8900ea0f19a3895635120f8f49c129ae2c545fd81cceb79156",
+   "body": "a54ea8597bc74fddd1ec6e5b64a8254c54f2365cf84a5a2a9784114bead7fab6",
+   "normalized_params": []
+  },
+  "blog/why-tempertemper.html": {
+   "raw": "67154b5921897ec239d60bb3ca2b7d33351dcd2b462917ba877bf0c1b2fb2680",
+   "normalized": "24f07f6ad61421a8d80dceb1ebc34bed9852c0d1d6dd46e64470a5df0e7f4918",
+   "body": "6d4c81025bebda466d424b56de8ea43f8a26c1ff80c10fd6ce32f9e2980ec7c9",
+   "normalized_params": []
+  },
+  "blog/why-you-should-almost-always-underline-your-links.html": {
+   "raw": "e40771560f53036114afe9e1cf45a7941c8a4fc17e654f445bd6360522ba245b",
+   "normalized": "af4b95a03de248396cfeb3e31e559d226d5266d9365cef95bcde620b7fc8bece",
+   "body": "7e33d9a23b8b5f741be5a3cad80501f2d636362f71995e265624912ea3736e9b",
+   "normalized_params": []
+  },
+  "blog/windows-high-contrast-mode-and-focus-outlines.html": {
+   "raw": "b7ef843f1b791ce3433fe8ffdaa6b658afc360412ed25c6f00dde03829888add",
+   "normalized": "9df31ec8fedc9c44ac5cf1a6e3fa524d12bd0e4883a98cee34eedca34c241705",
+   "body": "35d0cc4b842c67c3612c924a4e5ebeafa47cdedd0c44e6678fa1749fa844ba2f",
+   "normalized_params": []
+  },
+  "blog/wwdc-2019-roundup.html": {
+   "raw": "802d759f97cee2bfbe1e46b35c87c6364649698ffc142b249b8f7d91ed439b26",
+   "normalized": "6735f317adb6f368642b26e7ce7e94341c76400cb90fd8c2b67db4f6fdf95de4",
+   "body": "665801c5aa2a07edae2775555c4404a25e04ae333a137472cc4de2fae15a0e91",
+   "normalized_params": []
+  },
+  "blog/wwdc-2020-roundup.html": {
+   "raw": "dc1c1908a97f1b41b8a5c5c5bc8ebafb46200da0ea6a3becdd0ed8fe3fa5fac9",
+   "normalized": "7021ff008449a49d0b90c31e6b578289d88eb66e053366846513801bf25bcdaa",
+   "body": "243c6fa2d42375c09f12c2935537c0b7a557a40301b0df93bf7a7194f657c76a",
+   "normalized_params": []
+  },
+  "blog/wwdc-2021-roundup.html": {
+   "raw": "8e86046f17722d55c6d1a5998fe31280fff4d42d9be5a61fa99e673188122f2a",
+   "normalized": "d47da191f7e6dfde8f1ea6baa43f63e0dd307a0ff2923e285b9ed95e0dfa5d7c",
+   "body": "9df4250a56c09cb528f592bc0fa9824e47000f16242adfd2e21808ad533aaa04",
+   "normalized_params": []
+  },
+  "blog/wwdc-2022-roundup.html": {
+   "raw": "983e7921249456442ddd880c70d23d31be86caa3b8649fac7ca779cd186f1898",
+   "normalized": "1e67af66ac78c53b47fae935385b36b04197a4310cabdc106481216166a9bd15",
+   "body": "85ab25733b9a29b8ecd41f7495fa15e23c33b0dff681a742c800bd7fa5f3811f",
+   "normalized_params": []
+  },
+  "blog/wwdc-2023-roundup.html": {
+   "raw": "4dbd6e8cdfea4eb73a7104c1fb4187ba1e31099ae50714c15a6cf17c868639d7",
+   "normalized": "0180688f29205d6409734549121f80f909bb3350876af76863e84e88cfe9f1fe",
+   "body": "ce62b900cb4399b5926938ba23ae4bbcb4d98926082e52d59b2f44ad27d2f42a",
+   "normalized_params": []
+  },
+  "blog/wwdc-2024-roundup.html": {
+   "raw": "d85698f25bb33778ae48358fd7905bec5ce6fa0434f11f827b34f67c5392f74f",
+   "normalized": "eb0471d005824640369cb19b4fcf1474ab88d64e6617fc917383d992d63915bb",
+   "body": "9918dda3ab2c9c62d15e1ccf00f91ae08ff11b70bc0f14595457e9d15c34701c",
+   "normalized_params": []
+  },
+  "blog/wwdc-2025-roundup.html": {
+   "raw": "293a06967723e81ea88e3b8f3dde068ddda2c1b48d9ff971ffeb11bd493c8766",
+   "normalized": "cc0517f0cf43f76d92e27f3f7c0b093f895fb7e8b46bfb9a445aeb8b40602df2",
+   "body": "74bba51c6b198a27221cfb6db6f679d4de7bcaa414394b595ab499fc648bea02",
+   "normalized_params": []
+  },
+  "blog/xhtml-syntax-is-still-worth-using.html": {
+   "raw": "f17a379f456e37d54cff39d7dee0e74189f870701e7bb3ebcd0477c494ebf160",
+   "normalized": "aae1256867c09ec324274345012f986b091053436d1f980e35bf2f113ea91807",
+   "body": "338b1c28a5c18c75e8525f144f137916738c8ee107ade3b8eecda6576126489e",
+   "normalized_params": []
+  },
+  "blog/year/2011.html": {
+   "raw": "386502d2a89ab78fa3603071686ee8ec165f7deb1647600ae1c055985d588887",
+   "normalized": "db128563ce29839e4e9ad49c119976a23bcccea1c8d1e215bddb4a0eabcee509",
+   "body": "988154901490439b56af9a77178b00b7580de4f34e0dd1354b3ba21507e6218c",
+   "normalized_params": []
+  },
+  "blog/year/2012.html": {
+   "raw": "b8568e4cb9818e55f33a6fbe57727171cf2fa01326c02e18224c5c759787eead",
+   "normalized": "177223cf280557138b85d20d03c50aa514fabcc2a3c7ded5ddb96ce186ba9c40",
+   "body": "0d4f77f03edbb38db363a3c5982b4b01bc867ecc3c7d12e986e07185c9a54175",
+   "normalized_params": []
+  },
+  "blog/year/2013.html": {
+   "raw": "79aff4b2cc259885be53a05dd2dbc56ac62c47945683443a6c0d5b2388280e51",
+   "normalized": "2cc38dfaee80e4222f5249a6a47d569b607cf9ca8bacbbed8e7b1a56ea054a12",
+   "body": "c6414e393745fb512e3fca68243c349db22566e1f969c74444d6de482e68f959",
+   "normalized_params": []
+  },
+  "blog/year/2014.html": {
+   "raw": "42bfdbc35a3cf6b2006285260b87a8aa04af84fa58daf1380dfe30e7c9b61510",
+   "normalized": "bacfeff9f58e8a43ad34c6018f15cc1715e919e2757f61c226c1e467282d4b4b",
+   "body": "08c588c6dca4d207c963d423eeb65afd94697f57c9528091c5c9a69c3e7457eb",
+   "normalized_params": []
+  },
+  "blog/year/2015.html": {
+   "raw": "dacc229bfb284d9f7342f6b0558cd03e833e27c5210a5f5665388f57ec1860df",
+   "normalized": "52029a606b21bce299c9a9b73c5c33dfa2ef24f3af8528cb25289db0d324de3a",
+   "body": "c1bc69bfdaae42dc77d4bbf2c6d4ee649ddfaf5c7335b071953d6af222695efc",
+   "normalized_params": []
+  },
+  "blog/year/2016.html": {
+   "raw": "aa9b2de67012332d0295881b23359fc95de5db34bab1d6041e3968b508b2840a",
+   "normalized": "5801f8610fa1b1babf26eab7853ba6bc176a0135e51627b4c1792ef33c0dca72",
+   "body": "f16e7751a08f02ffef094002e16887f1593bdfc3d0866d652b83cd882e02f6b2",
+   "normalized_params": []
+  },
+  "blog/year/2017.html": {
+   "raw": "1173069bae89f6f2b9175365bf75bd8ee3245dda25a5ae373440ac9779d5b6ee",
+   "normalized": "be5a8879daeaf8c747556aac2140041e46297c040bc750fcae17f11dda43e3fa",
+   "body": "54999db1d8bcf9a08fb7231b48753eba012524b0bddb6991c759f7a8fa515a64",
+   "normalized_params": []
+  },
+  "blog/year/2018.html": {
+   "raw": "f407bff2934f081bce4d133d6d9c1fb0a2142e962901be833fd08f3c1c6aadf8",
+   "normalized": "8804eff5c33bdd93ab2e069046dc0cb240be4ab6e9a01ac5bca5edc58203dd5b",
+   "body": "2bd7d260cd9f67f40879809f4ccfbf1485ffebfc49f647058994c15c98569a83",
+   "normalized_params": []
+  },
+  "blog/year/2019.html": {
+   "raw": "f76e8d128421eb9efe86c4792f6fa744a38f6466f590e906bc6c0a3760d248af",
+   "normalized": "559b069bc77d62c2f621fd24a4cdbac43c9190fba53be22c82a7c6967d220d10",
+   "body": "877d15ed76d0b1d2bb04b73376775010ee9c19b0b6b648baf85a8a894319b9e1",
+   "normalized_params": []
+  },
+  "blog/year/2020.html": {
+   "raw": "c1723a9a2a12813c4d1637f67b9ee8570491ed35ee28a3e31b5c6229b138c58c",
+   "normalized": "3fa2cd01c642e3c6cfc5471512b06dd9502953aa82f9a00afea725d2a1ad8197",
+   "body": "9ba22ad7fc75e7f0c82d491093d39fcc355319f62a06160ff7372fbfb9181bb1",
+   "normalized_params": []
+  },
+  "blog/year/2021.html": {
+   "raw": "4de4465a5609d4c55472fdc03d9e85fdac3c3d1b46a645d2b64c577bd0a75dea",
+   "normalized": "77c433055829367cf23a1542cdbf22340a03701849abdd8563461b6ce80a45be",
+   "body": "25fd901cb94a24a9b6b35a4931be69c8e0ceac9a870a2c6fd90a5d566b90d19d",
+   "normalized_params": []
+  },
+  "blog/year/2022.html": {
+   "raw": "745a7242a6067ffa63a1fcbddc0bf4bff6a6dabc4c3ddd6191131e6cf8538334",
+   "normalized": "48e910aad7e4b2fba0ea71c81df450f8382b2dd5ec808a42b6b678fb29099e02",
+   "body": "2d7de9d20138de9a278dd039cff2f9e09fbb786501cf07675ff7f13fe524d386",
+   "normalized_params": []
+  },
+  "blog/year/2023.html": {
+   "raw": "40ebe4f6791b86f232452dc3e64dcce48d6d4d648bb5e1ff348f5c5cd302b263",
+   "normalized": "5c9f48b073949b5c69c25cf3cf65853de2369255d64b590493b84d479a9c5ce5",
+   "body": "12bc8716b19242561ce474870dd183d21dbafb0b8764808d49dc89c615374498",
+   "normalized_params": []
+  },
+  "blog/year/2024.html": {
+   "raw": "8ebdb92e7be2e8256b1d70f615fdb6c31932c0ccd893a927b91e1f9e0c78f1f9",
+   "normalized": "c93e5858d21b064a590d52e335612a1b26cf01ed6377017b7106673335f1b100",
+   "body": "c71cc66a2b0ec2f8a4705bfdb06eb8add5fd6924511b35483b32019ae7141552",
+   "normalized_params": []
+  },
+  "blog/year/2025.html": {
+   "raw": "5aeeac039ab88b8b494ef8f42b42c7639a2e3869520293526505a6654584ff70",
+   "normalized": "99e86e6ad8172d044780b6295c57bc1408950ba31ebdc3628af4d8c0824b6cba",
+   "body": "1f761ab8dbc67b22b9e81786a4c0f0c0d99b8679f2042c84c650b76a7377c4a1",
+   "normalized_params": []
+  },
+  "blog/year/2026.html": {
+   "raw": "9871ab12ff97788aebb55ddbbe042031ad02ad9680042a2e6b8b40c0a14e87aa",
+   "normalized": "7a79e4fc39b5663e464a7bbf018153dda03053a24e7a75293702844f735e1480",
+   "body": "0fa83611e02d7857362d6ec5e02ee5987ada7132cd45025b3a510186bd2e8dd0",
+   "normalized_params": []
+  },
+  "blog/years-in-the-accessibility-learning-curve-continues.html": {
+   "raw": "a3e3eeccea66e452083f0c7a2303fe144ff4a9ef2e7aeb5af0504669826468ca",
+   "normalized": "3f7a8147f02e912e85d80d11a6896b93a20cce0e59c628b623c1a8ca013ab041",
+   "body": "07f70ac36da2a54f61821ae2dc35bf53120e803f7081fca4bb6296babc7768cf",
+   "normalized_params": []
+  },
+  "blog/years.html": {
+   "raw": "11f4f2ab997168cf69a5b714b9688caf8d822c1f277d653bca4d1a61b032ee69",
+   "normalized": "10ebfcc067ee7b7d27220fb480c354a13535da1e4295e9e7c2d5dc59d7dbda3e",
+   "body": "409710835f9337f5618db84b3a714a9ceb85bb5af0fe32c9aa5120de69cf28f6",
+   "normalized_params": []
+  },
+  "categories.html": {
+   "raw": "d010bb260e3789cfa1662956c817d52be6cef8b65ca6dbd0d5b242f395c01765",
+   "normalized": "8b0206395ea571228e259e56600206ad71298fa8dc3c5a8e90c9cbe14656a8aa",
+   "body": "e5d9360b3cb1964179a83a3c6ec78d4a4be08c1c48ee90ca6fa0149c28ba3486",
+   "normalized_params": []
+  },
+  "category/accessibility.html": {
+   "raw": "e90c7e8fbf86a588cf9fd550f7e55bf14072a571d601926e0ce143d324d8c619",
+   "normalized": "6dad5915c2e374ef4328aca558565eed72a400188be5ea6ddd61d7c6ebec5204",
+   "body": "984b13eafbabc01993ec86a985fa9d95646fc0b3630a3792234f8636b07a7c9b",
+   "normalized_params": []
+  },
+  "category/apple.html": {
+   "raw": "9f47aba7f1722fdfdad74ded111f34b42518725522a1b59b16e7701e9266efcb",
+   "normalized": "0f0e90f9e057e0a9ded9cffc30829a19dac09399e6c456d9ae37c9d03709aed6",
+   "body": "20173365e64ed83513e6289315357d1d3faaebfb531238f5ef89d85a30f90950",
+   "normalized_params": []
+  },
+  "category/brand.html": {
+   "raw": "db32b91ee48cf7ebeb0ef9f971787c06b2bab21bd20492b48d7552d6a1ade38b",
+   "normalized": "9a4ac5a30173f8ec251ae849f0a816d018241f273555f94297c81e90f470f2a0",
+   "body": "59963e098995e8448bb4e309768df1c12eda842e2316d9e40aba7982d8795d6c",
+   "normalized_params": []
+  },
+  "category/business.html": {
+   "raw": "857f829774d9e93ec6ae32b609c864355c342054407a4c5a29d3f45351732e7a",
+   "normalized": "bef3974473bc053cfa2a4b5fe3f51e1ea6e72f107b6e2d97aa12f35eb1badf65",
+   "body": "bf1c344ff41df3ee9d34376f6d7d790381c0f8c7bebe635eb9c8254894b03054",
+   "normalized_params": []
+  },
+  "category/case-study.html": {
+   "raw": "c4fc74f991dea0bd5ecd55a08ba607a6cf29016c13d77c1341397e30942368e0",
+   "normalized": "64feacebe38982b85848f9133a2f954e70305a45367bb5c28df04ae5831c8393",
+   "body": "06523d8e4a3c478ed30cf0e4c5d51e91aa0b43a94f79e4dc036d2f33a7cee6a9",
+   "normalized_params": []
+  },
+  "category/content.html": {
+   "raw": "568f992b91dd7bb42604eb315124d2aadf540bad89390eee4d9781107fec324a",
+   "normalized": "6e37a6e6f0a0abd31af947b093946bb1163cd97e17cdb11e5977bb06485d9ce3",
+   "body": "1803f3fc591324b9512759dea0ad1886b29fb2347e4b6de65d281ccef66e2ebc",
+   "normalized_params": []
+  },
+  "category/css.html": {
+   "raw": "5ae13ffeb879e36d8b14fe1ebbe889d9983981175ae02ae1b86ac0364eb002f2",
+   "normalized": "3b38c809a440c31147a6aa5fc166fcf7718290b26f1c61e04035ff40838c76fa",
+   "body": "dc3399323ca317cb090da6d4669d753a00c471e2827c9360cd3a70d58d901ec1",
+   "normalized_params": []
+  },
+  "category/design.html": {
+   "raw": "aa9f5e3c70e37affe920427c602cd8ee3c9bed36c4a6c7099601657bdf73659d",
+   "normalized": "07d1abd18497c4eafff98eb3616f704e6fcdc2a04f745d4fe355dc094d779d01",
+   "body": "adc6dec15ea5d88ca12ba04224e154bdf152eb0abc111b742c41e25235c74084",
+   "normalized_params": []
+  },
+  "category/development.html": {
+   "raw": "0f3fa6a6d152952f8b9d3113d3c2efdddd2082d97b110f6b7dd331b2078931d1",
+   "normalized": "2083585dceddcf32e997950228ba0468c8f8d54c9c096d7238feceb656791c0b",
+   "body": "5e4029bb6d4c0add863f77e80ec05a2fff59ae9ca20ea13d821c18794069bfbd",
+   "normalized_params": []
+  },
+  "category/email.html": {
+   "raw": "77e90f4d96b2cdaa06b094ae441f9fc68d11a2aef65dc6b4c460b8e61afe4728",
+   "normalized": "59a31cea677e96f72994ad6e29030dfdbeee0849ce978585f20abdb10b766c75",
+   "body": "c2ff1b2345e53e08c36d0f5fde702b65e60a6ec80ce45057f1293935e9c3ec1d",
+   "normalized_params": []
+  },
+  "category/git.html": {
+   "raw": "a0e07f4d4c16b7ebc8cd459bfb90c227a812efac3b5d896b272102717b66e3b7",
+   "normalized": "af3c48bfd6ef976860b095215b061b11f8938ca9d4d4d4d328a4482e14363c5c",
+   "body": "feb37df55247f1cc1a8d6e4e863293e5c4ecdf7de36e183c708675f4825c7e8b",
+   "normalized_params": []
+  },
+  "category/html.html": {
+   "raw": "1deafab981dc2d1685aae836c56d652d168586db86b9d89030ad6b016684cc1a",
+   "normalized": "52b61c6fdeab08edac0de34d870897deefceafd010d9e957ba05dc6230700c45",
+   "body": "7e97e7f8c8ecb2b054cabe6508d50f9f59839b91158a40727399e01cc10bdff3",
+   "normalized_params": []
+  },
+  "category/javascript.html": {
+   "raw": "fb9edd88304793aee3338d7427cce75a3ee26a504c07e2de090481822550fc34",
+   "normalized": "a5b2a07f0a9c8e542de044356f14d410aa8825a84504008b95a2c19488e88ac4",
+   "body": "e235937677a75edaaebe376493ef679917858da25574f47ca7a4a5499323c5b3",
+   "normalized_params": []
+  },
+  "category/markdown.html": {
+   "raw": "bd31963845ea3bbd6302230c9b3f96b4ada07677bf8a1132d123034bd1b4c43c",
+   "normalized": "fd30c455ed92284442e1e568dbde57847c3a48aa60f87eebbba25d39957adc74",
+   "body": "57b3e42f778a510117c67bcb11dfd0014a8bd39a818a01119895a066af47fe9a",
+   "normalized_params": []
+  },
+  "category/marketing.html": {
+   "raw": "c6cd3c33de83a8770f7d510ec4642fcb4f7b92e79cfd7d29e4c43b539429ea04",
+   "normalized": "53dd8eb15faeb66898b4f159b8a88162e2a661567f9c8832645079fd5380bc1c",
+   "body": "36c3641b91bc3d869970091453336659b42fbc1ee441b5d385db18690cfa407f",
+   "normalized_params": []
+  },
+  "category/meta-data.html": {
+   "raw": "36e940dc4fb0da469466c41c94942df21908d06cdf5ec0603f03c13c6c5ba12b",
+   "normalized": "5ab3f623503171980b7805ac1ef6dd67597968bdec20b5e979579cfe67a7e075",
+   "body": "f38c5751211b38a6bde6ec5573cc4dd769fe38907e23a4230ae0f7b61d04032e",
+   "normalized_params": []
+  },
+  "category/performance.html": {
+   "raw": "ea38006bf603ca2d71d500ffb66bb42c134d8e7f367d00538a1b9455c7f67c65",
+   "normalized": "c12c333a689cbfc0f83430c0e8c9fab584ea77a11748df77a2d29d0f15397654",
+   "body": "a105db9b84bc234a70f3e18f32743330d180576d228367c7d1ae975579a6346a",
+   "normalized_params": []
+  },
+  "category/search.html": {
+   "raw": "ccbf32d2434a41d90a6f0fb8e58b021192f7498c7f438a93048ba81d8e7fd669",
+   "normalized": "983420f3adb04e04f126678353104f190cc6c9888c72255756222b32780aaef5",
+   "body": "1552b891b416e863a739c6c8ba43f350fc4ce6468b22f294f37d58244e3b0e37",
+   "normalized_params": []
+  },
+  "category/security.html": {
+   "raw": "41f6a962f7870983f5c899214ff2073d25c08dc7ec8f5ec0c525dff0a75b25bd",
+   "normalized": "d67c37ad2a64fdc4441fd1d2e5486675fd92d7967363a5e5f316e3aad296db44",
+   "body": "9c863bf5edcc9a128523d5db0a9451bde22585d6a6c22320f45dc961a2cd65ab",
+   "normalized_params": []
+  },
+  "category/serverless.html": {
+   "raw": "e21c4cc1c5dde55554509777af13025cc5c0c1596d56b11739290f922286dbc0",
+   "normalized": "f1a29ad21cbcfaaca9e11cd6d8817ec47ac2779ee266bd50b592defafe06bb5a",
+   "body": "f72961ae0ec67a3d0698602fb7a65ab0cd9bb096fcedc337d6a1edd0192c9280",
+   "normalized_params": []
+  },
+  "category/skills.html": {
+   "raw": "6017d3c1d1cf60b3ab68756ce897f0d6d9dbfb9c7010589ee130a831dc2fb895",
+   "normalized": "b9aef6b9341f693280cd8b9155565fc73dcade99406c70b6b5ceaf1d7b3423de",
+   "body": "e819fc2456088d9dcd7353b45bdb2003a15d48136f8f1f32055f02c925996bd6",
+   "normalized_params": []
+  },
+  "category/tools.html": {
+   "raw": "e95371857934e27eef3c366503bdc9fe532e976a5e33e8735fd8526f30817312",
+   "normalized": "e65f6706972a25a30b1a5b5a553ab4fd0ad045d5e575b745d1371d3f4dd82713",
+   "body": "649dee599006223bea2fab80a9f8f54d70b9254efcad95cd4c209be318ca5e81",
+   "normalized_params": []
+  },
+  "category/website-admin.html": {
+   "raw": "8e8ce06408a60e33f93211dbf503fac10133d52be6c90e772bf39ea448dc1cc4",
+   "normalized": "e5bd250e86ebd0f7fcce22d54c68edee73dd8140fadebf508e581ccc02ca3969",
+   "body": "7fd4725976a9c3b0b23114391288560fad3e45c14159a71c35bd324514d2f3a7",
+   "normalized_params": []
+  },
+  "category/workflows.html": {
+   "raw": "217849bc94a3a071f2f35c150d1357d1c934adeea9ea4b6d4b3f4da903f1dda2",
+   "normalized": "09c18e621f311c85301b3a3ff7bf8bd35aad34ee0b2ddad9e70fabcb15408a83",
+   "body": "888245a8b25918f39e455462ad210bfd3b1f31f38761dc6bd47c0f246d100b92",
+   "normalized_params": []
+  },
+  "colophon.html": {
+   "raw": "6ac6971bc100a7d668929d21bcd1924f380236f226f81d3a2a594c55a75d024f",
+   "normalized": "7ec66b4d609fe48d5c06c844902aabc6754b4b6629cb45ea0870986206577b70",
+   "body": "bffbc1602b568f06b68dd536af762ccc14a543dfd63715a273778ee1bfda6586",
+   "normalized_params": []
+  },
+  "consultancy.html": {
+   "raw": "29cbb9c8a7b6e73143c981999929092861555b39af1c37fa335bb9b52de484e1",
+   "normalized": "440196f79abd85e7298e871c79ae2d6b222bb44d8c8fb337ccc98ed662cea6c9",
+   "body": "3258503f3e4b572ca233d710ba9e78be84eb28fee4b36d36a9c76086b76f470b",
+   "normalized_params": []
+  },
+  "contact.html": {
+   "raw": "e651f7471d2ec2e1bc5d5778c3eba28064ecdc468bf91e82f101c1e45950d28e",
+   "normalized": "9abf1a6a802e97ee118769c8ca750d361f137ed2f306f34bc9ebe3cb8b33f789",
+   "body": "f421e2a4813ed720d372f4d178c352ae5652086547c47b59502fb147a81c7256",
+   "normalized_params": []
+  },
+  "cv.html": {
+   "raw": "b7e3f61138c9d50afd674857decf689c5758f85d0f9d9a3f56af44f1c7da4d16",
+   "normalized": "42d6ad45e891b74785ff66fbf49f8b3fee15cde5084dd1d6f4f55311c0a1746f",
+   "body": "7e5c071a46d61cc8e2a20254a68a0f9bc76894683a2b25293b4c17c598d25b6c",
+   "normalized_params": []
+  },
+  "index.html": {
+   "raw": "cf2938e6dee03dc722dc4f7cc5f5e6176dd2f04d2acc4f790dd59fc7efde65df",
+   "normalized": "6c4bf783ea0866f3ac01f513dfb895c22dec1007e1064117db1bd8a6a9a3aac5",
+   "body": "752734da9c028bcfb3feaf57695b527a68f0793cadf65014bff40ce8fa87ee76",
+   "normalized_params": []
+  },
+  "keep-in-touch.html": {
+   "raw": "8f6153a6580ccd2716de2606339e8f2a7e87e2cf51f4a2535b9bc6c69b5f42e9",
+   "normalized": "1a7d93f5964d86e0eb231f35102bb162326eea81515f6fa7253034d253ce1c9c",
+   "body": "8748120bf6f0504e56076e88e63d7271b186fbfb7f1bb573226ac12fa9f1c866",
+   "normalized_params": []
+  },
+  "newsletter/2020-08-06.html": {
+   "raw": "129acc02b3ff2bb99877c3bdf3df3d1b8655f0534873104233a8299bf2ebab87",
+   "normalized": "68dba52d0b07214f93e9bc55a189365f8eb4a6077ce053eb7c0359eca74a683f",
+   "body": "2960c8be4258c5b6ddc0794e8a07b409b539f38dc32d45eb1af8aba003e39652",
+   "normalized_params": []
+  },
+  "newsletter/2020-09-01.html": {
+   "raw": "2dda3d22d30f5458559cc030509b35c60fdfcde5f8ad11e1d4d9f97f805fe251",
+   "normalized": "10abab77acd289edee9e9fb9ffe975e8f580abdc645d1284c40fd5ff489065a7",
+   "body": "6346705ecc98f6922229a63686b846d13f173c5f63414b4a6ecded542189d21d",
+   "normalized_params": []
+  },
+  "newsletter/2020-09-30.html": {
+   "raw": "9070892f01d79dabc3220c0ed9abdeb1211e5ad0d917cf693406ef6a395d513b",
+   "normalized": "ac619e7e0c1d9eed3403b772b3876c2482724dd13fa2e7215bd65b63385bafa8",
+   "body": "62f53292f853c03a3b1a0800bb34ca6a529e6322084c47602b6e859878199fd0",
+   "normalized_params": []
+  },
+  "newsletter/2020-10-31.html": {
+   "raw": "ecd58d42b9b09a638876c50b3c84edfe4e35dc833ff04d59cb80548f10dde111",
+   "normalized": "ef73e2c6281e547bb4e26d114faf6d4fa42dc3c12944426a655eb6bf9c09c2ad",
+   "body": "1a9e32bf3a80850404c565ad4384a5242fe85708f86ccf781ca82f8df7abda5d",
+   "normalized_params": []
+  },
+  "newsletter/2020-11-30.html": {
+   "raw": "1222a1acf71784344c8bcf13df53a8a0fef796c49857c62bc54bb79c06201e3b",
+   "normalized": "1ecf9e13d87fcdfe520bb354c3a587fecc65ed0676f742ee4ead0b8eabd9d646",
+   "body": "e05630456df54c9a01aab4f2844eea1bb4b1388cea12d5a154b54722524e670e",
+   "normalized_params": []
+  },
+  "newsletter/2020-12-31.html": {
+   "raw": "b06c0bfe3be265596ae87ea2909196df016432dfe61c3a94c0bdf8b1a6ecaf7d",
+   "normalized": "c6754cebd89d718dd2e115ac4456b4f2298356e92a43d9e2c8a007ecef637814",
+   "body": "db9283e1b4c02a014411b9c8f93f74ce57f6a04503705e1c47337491b70f6e5d",
+   "normalized_params": []
+  },
+  "newsletter/2021-01-31.html": {
+   "raw": "eb0afc43bcdadf93c22d05492ad7ce2dd5a719592e6cbb08a5c90d453f459d63",
+   "normalized": "13974d51296b232c96fe87aa74c03a1da66516af1450cfea2c3bc466d7c59a0e",
+   "body": "9bfa244987dff59a2712d5f93b39a9d4e9fc6318d845d5dbf5d1b1376a241c7b",
+   "normalized_params": []
+  },
+  "newsletter/2021-02-28.html": {
+   "raw": "99632fdc64e867eb9d77fec98e09597cbd4b9e81e425638247379514899e4ff3",
+   "normalized": "7bc3887cb511828d538925a2d1bdd23d92b3ad3556773fb83802620499cd8c06",
+   "body": "be34a4e4d7a3cd92ec38b2fa65a6415d7c12108aa443d803b7f1f4962a60e10d",
+   "normalized_params": []
+  },
+  "newsletter/2021-03-31.html": {
+   "raw": "5b1ffa55cbe5b954e13186d74958f86ba3a7da9e8b35514ac759f858720f6155",
+   "normalized": "76499a26066e01c19b10c387733eb3f084a072ba82316921f2b5786b753cafc5",
+   "body": "0305ff8fb1f2323480e73d6c52c033876ebbc4c6a7af3a7247700e535a79e5c4",
+   "normalized_params": []
+  },
+  "newsletter/2021-04-30.html": {
+   "raw": "14748f9f454e153d8bb17bff408597986ebb2164c9e266342cc6c39e84db8d80",
+   "normalized": "51b7895fc8dffe24c4fa9dc9ad2fdf041713df6c59e01fb8ca046f3018f6e7b0",
+   "body": "ad0f8f47170a29a6cf64d31ffc688c58f1ea0a5b48061edd641bb198678ef885",
+   "normalized_params": []
+  },
+  "newsletter/2021-05-31.html": {
+   "raw": "f66be29c5dc23dfdb98b2132d08386b29a8239629c4ba0db5c9cc928f8bf0f63",
+   "normalized": "74e14988347e555618368a496fcfeb2340a9800764851756877e22a1253068a4",
+   "body": "160a0d0575005123cff335e2b68e522aff31169cc5fd940cb9f483c992185c7d",
+   "normalized_params": []
+  },
+  "newsletter/2021-06-30.html": {
+   "raw": "ff796af11a09c44664e749e2a90bc4a7b4340e611b9724410f0973b895f6b5fb",
+   "normalized": "60eb060d0e4f969c215f0f6743f98c4a6dea15f4af10eb78d56c58b1f1f153a4",
+   "body": "9760add4eea248df6ec42c0908db3c67de29b32fe87fe9fa518db0b64bffba1e",
+   "normalized_params": []
+  },
+  "newsletter/2021-07-31.html": {
+   "raw": "e5a35a39b4d319dd3b857358a3a1787798d614a728f8ea0c9c58427319cc5ca9",
+   "normalized": "d200ac9f341d42120be87b9c8524711d6712d62ea71c9625899322715c8fb990",
+   "body": "f621f5e1ddb2a7841c24cd0465dd025956cbb21a29385cd38aee6505852c847c",
+   "normalized_params": []
+  },
+  "newsletter/2021-08-31.html": {
+   "raw": "87403bb66006bd9af53084c49d394937e2ac61e14c54b96ce335c6768b65a161",
+   "normalized": "25bfa8fb92b171a3e192635fdfef9564f02531d12a16c54e5e55cd618836cdf8",
+   "body": "74fdd11c2a9e2e2dfb46626d08b4c5d1cced50bcbd87222dd805ecec99201da5",
+   "normalized_params": []
+  },
+  "newsletter/2021-09-30.html": {
+   "raw": "ef423d83a14e28269ceb591f861cf89636dcc5182c8f74763aba88e04c615d85",
+   "normalized": "e41c2d364c2be2a69ffd060b0af8495842470f5cce8ff2d57a771f1ff7719fe7",
+   "body": "72938c9b50e5bb6566236c74f769c5ba902360b18dbcca598c7248403f767c6e",
+   "normalized_params": []
+  },
+  "newsletter/2021-10-31.html": {
+   "raw": "c9168954d12839e2fa298af88fbd02f8d421579e20b8a8a1baa51829c93b0778",
+   "normalized": "d10b9e32108f538263383afc80e37eb355261ea38c605c0837c8dd088464bb21",
+   "body": "652c24b6c82825aa8f7701f112598600fd52b1918350e5d38d7d90fcff1ade7a",
+   "normalized_params": []
+  },
+  "newsletter/2021-11-30.html": {
+   "raw": "532625fafbdbe11fb38fb480466d973899d0d7b9677c1bb2abdb47f8a856627c",
+   "normalized": "71614c8ad66ff466b7f486a9a844ed6fd2e5ee369a536b0b5aea044595e63013",
+   "body": "415c99cf62aa034a101bb2919a65afbb1cb7f68ec7bab0991853c2c4900ed601",
+   "normalized_params": []
+  },
+  "newsletter/2021-12-31.html": {
+   "raw": "8fcf569d52a77221e4d692bbc489e0412fd44fa11c20b03e38ded297f8694e21",
+   "normalized": "dc22536de6b9692e178edae07250c93ab7cc41cd21c21301e1e0e5c572521c91",
+   "body": "a8a3463ce41c79a1ccb68b0e4a4fc3d3f4ce531aaeba681a75b90f21561ad748",
+   "normalized_params": []
+  },
+  "newsletter/2022-01-31.html": {
+   "raw": "a3dd89166fbed5d22c4e9675e1da628bc9180e76068e3457e2796dc4a9eb988c",
+   "normalized": "8cd81ea4f511c3db05f5579b64625b3294336dfebfb40fe0355544df06b0bcf9",
+   "body": "fd882b8ea9d4ebbf5a63e1d27b1230bc9ea46b5e1e44c9968817a015d3652561",
+   "normalized_params": []
+  },
+  "newsletter/2022-02-28.html": {
+   "raw": "92d02d5f1ee7f4d466b0682edb0203a234e7d4fc63858deea3a8baf054afc6fc",
+   "normalized": "c98179a5581f7e4e7802507e19bfc5995e0d40f4e12fcd53679921bbc352b29d",
+   "body": "78ab9ccdf562e4fc906dbb43d0482b5765c9cb0ef3fe8f137cc8de2dbac559ff",
+   "normalized_params": []
+  },
+  "newsletter/2022-03-31.html": {
+   "raw": "b69488ef4252d345c7f34dcc5aa7fcc6e0a77438a850174bc6ab64f2ce02ba86",
+   "normalized": "8da1848b0e37ff3a6efbdc08c6c63e5ec1bfbb45b4269239bc0f48f0039f9aa2",
+   "body": "ae1050eaa2cfbd703663d63aa684cc5ed4be7cf20bc60eab346cc23ac0660d76",
+   "normalized_params": []
+  },
+  "newsletter/2022-04-30.html": {
+   "raw": "206f6395d80aaeee930d5f7512bfa33ca3883afdc87db1e8f4e46ffce755f53b",
+   "normalized": "10757631117303f13c6f731e0b0c82b54cffe8294059ab186929a55c7873e4e3",
+   "body": "b9f3203e0d75b732b120192b69b256aedc3920a59a7796bc1d2ad49c1acf21e7",
+   "normalized_params": []
+  },
+  "newsletter/2022-05-31.html": {
+   "raw": "cb2a004b3dfb700e3d62c95bca20e440f6f4c0d139128c3c19ce066a4e9a33a7",
+   "normalized": "c74fa93139f357b87fdced419a1bcdcc38a20e65781386d593a56692995a1dc6",
+   "body": "201b70c96de507f18231a87825c2b231f7287ff7e88d7fb0363df52481571e44",
+   "normalized_params": []
+  },
+  "newsletter/2022-06-30.html": {
+   "raw": "308a8dab7cc40b771b203b19980cf7a4e2ad124f8dbf824e4e1332a3f830d4eb",
+   "normalized": "5eabeff134ce89f9fc39f96be4cda53812b3326ef64ddc5f8d3b8168da0c4106",
+   "body": "e07fa9aca0a529dfd5218e154fdeb5704877c21e27d6e1c21efb7d019e32a0ef",
+   "normalized_params": []
+  },
+  "newsletter/2022-07-31.html": {
+   "raw": "a5a36a621006a877a50a765816e369a3a48a035076dd8f746ad7ed5baeb97d61",
+   "normalized": "d47809a326fc876e5fc44d13cb9712ca71e0ab9d18cd8a0224d46492cbcb3822",
+   "body": "1d9340f77fa14dfc2f21f8d4ed0755e7cb27ccdc94fe2dd1d86d79aa35693eb2",
+   "normalized_params": []
+  },
+  "newsletter/2022-08-31.html": {
+   "raw": "474bf643900edd68ac370f5ac01b30f7da2ddbfc392f77138d721dbcf12487c7",
+   "normalized": "98a472fd0ffe09479e75fd478ddf2126534a5a090e40af8367b34e70c9e0a9a8",
+   "body": "b0b1d8b310e5f65333e81b7fd9c6b00209cf96eb33d0083650e5a4ea8ba5b47c",
+   "normalized_params": []
+  },
+  "newsletter/2022-09-30.html": {
+   "raw": "a2efed7f61cb7c228a6d7f9f78b503b7bd898a16a1e9bb4d757f1a125acbf46e",
+   "normalized": "f11d59b499bb3452dea5fe49f8b1e67836ecb4588a3f96c2dd0014f62945ae6c",
+   "body": "009ce09607774547847dd9fd0e6be2b1e4b12957e940104ca3606edc0940d9e1",
+   "normalized_params": []
+  },
+  "newsletter/2022-10-31.html": {
+   "raw": "da0aeb1af6efb2946fe94616a2e5d8fc9c2f39cfbeb7a5c85efd744ea0a5c92e",
+   "normalized": "eab5e0e3b3639acd627ac0021205ea60355eecada34fc22732598133b1cc795f",
+   "body": "d2003d2ce38e4bfe054277079ad86e348786d3a5f3f9d16ffc4416111c478a32",
+   "normalized_params": []
+  },
+  "newsletter/2022-11-30.html": {
+   "raw": "69b3eea12c7e0350f9485a1e8f20ff3f423685782245073eef5e1a70870796c2",
+   "normalized": "6d36f2ab2cf44871a0c0bd0e4ba63ce01f3b1ff0731fd996c1f2f10b058f6984",
+   "body": "0bfe3c12a8462e0dbdf6d39d96a5a01729c123f94b2c95b3cddf3022a5fcd20a",
+   "normalized_params": []
+  },
+  "newsletter/2022-12-31.html": {
+   "raw": "14ef4f2e4163782db78c80941e11d3234a0f83ad595a66620fb01668f1803f29",
+   "normalized": "964b66206c58c47f283c9f9c80cb5723ed2e4ded467f6ab3e06f6bcbdfe44061",
+   "body": "69147e2197f503f38f8ad1174c59bfc6e28ddeddbef39a075132dda7b7305ee7",
+   "normalized_params": []
+  },
+  "newsletter/2023-01-31.html": {
+   "raw": "d5ad7a841f77b06f3c6cb9a0a2afa61b6d81b96fbe347cf56ed666ae32c637f1",
+   "normalized": "ae4fae9ad93baa56ebc90849554e2df00fd9dd404e7ac4997f00ee9ebb0a9b8c",
+   "body": "6abb41e3d224d82412e73317fd5bc8bf58b9ae36b1f58d2cb6842f03640982da",
+   "normalized_params": []
+  },
+  "newsletter/2023-02-28.html": {
+   "raw": "641eb2eba0aefe6b88b46e284cc01a70be1c15e7a9ae333d5a715f67f9723031",
+   "normalized": "c978f04efd7d1e0e1fbc94bcd158a36c8e42e0ba3dc016d6d22b80ec7c241b6d",
+   "body": "190bf1cd0eccba1c1c448f8722a83e99f1a33f608685d8dd86f9002deba5688f",
+   "normalized_params": []
+  },
+  "newsletter/2023-03-31.html": {
+   "raw": "4a2dff39217c003b5cfee2b45cfdc8942e69a1c8317af9a6bfd57dfe4fe7c03d",
+   "normalized": "c1ac23b8f8d8e903af81a9c9d1e4d4fe083b20356cd4083a0360ab20d208e042",
+   "body": "6afdd47a9cbdd40e26c025000f4d83c40f416f24a181074226c0767c1ed025c7",
+   "normalized_params": []
+  },
+  "newsletter/2023-04-30.html": {
+   "raw": "0f320c5c1bf65eaef3e8824968a7d1e7dd835cbf3ab5d33ef47a9cf28be8edb5",
+   "normalized": "4de59ad578bd8148bc81457fb902e01237bd8e6afd19f12faa99ff8e91f4405a",
+   "body": "de86e893d80447e5d5f5ddb6c3c1dc29b0551aaf12113422a3e5511d8c381560",
+   "normalized_params": []
+  },
+  "newsletter/2023-05-31.html": {
+   "raw": "942d461de5d6a66eb1f4439841be1081dd75609f8dcd21e5602761f003b22dbe",
+   "normalized": "c8f24bfd7c72012f64365c29cfa681e6c11478d507b05c0913f1b4b276b18a7c",
+   "body": "3b0ae7dcb152952cc55c7834b28381c270f061e73d0539937c38c75f549c5163",
+   "normalized_params": []
+  },
+  "newsletter/2023-06-30.html": {
+   "raw": "71908afe37505eed748074cd6c9a7d0b0d942a12d90ec5752b404cb4efb15de9",
+   "normalized": "aff904c9b95fd975edba201279d77694ba867fbc2741ae95f50520992a457506",
+   "body": "47c8269b38b97ea95631244966b6bed4c2378f370439cde3fa407672d4e290ac",
+   "normalized_params": []
+  },
+  "newsletter/2023-07-31.html": {
+   "raw": "6530b42bff45edddfa909fac85a4ba97b5b445f218a59ed5990f666cc6581fbb",
+   "normalized": "8cc643e67275aab3cfa4b4b95054556c73c5d4f08a64d87923de9ac1b500f673",
+   "body": "46dbfc00a404abc1dcb20c45d646e3d9192e6160d90ab01af0c6fd8b83fbe5e5",
+   "normalized_params": []
+  },
+  "newsletter/2023-08-31.html": {
+   "raw": "a39c7f189aca6211fcd9122b2726710221875b8e13da08721220780abde37587",
+   "normalized": "e7e788627c52ad8cc549becd00a5e3139ae62146aaa2714c74e3d7ab365d37e4",
+   "body": "01a9ee497ef4260f66b14f4367b52c318f86c3928f2f4ef23d49dc4770a20c90",
+   "normalized_params": []
+  },
+  "newsletter/2023-09-30.html": {
+   "raw": "583ba5e58bb7f81cf4cf08568f05b08c6bef12c80f1d5e0a86de2d8538de8d51",
+   "normalized": "6e8b63d5a83dda6b5b453bf4eccdb40271566292951198d08c1ca460042561e0",
+   "body": "ceac8aa84a054f61032f5ff6b9c342e5a631cbae3ff437fcae4c31fb3bc69662",
+   "normalized_params": []
+  },
+  "newsletter/2023-10-31.html": {
+   "raw": "788c7c34e4aecdc0fe14bc06b795e22fbf23b898fccf59b9b4bbe0d462465b66",
+   "normalized": "7a74991c05c1256d759c8259d7f8a202da630218cd1f634c066409fa560122ea",
+   "body": "398df9f1cae3a22ab252c332af96cb859d87e859a5620ae46b62517e3a4f6a98",
+   "normalized_params": []
+  },
+  "newsletter/2023-11-30.html": {
+   "raw": "b3a80d3de60979cc0311020e3f2d35ab381cabb02b5c99c1334b52960bf02316",
+   "normalized": "70a59e56b703166f91fb113de88b089a7d035bd57c4b6c78fd560889b9cf38af",
+   "body": "d363aecc641499604c198643a70cc5479c97e1d366ce16d1229344d92e8a1b9e",
+   "normalized_params": []
+  },
+  "newsletter/2023-12-31.html": {
+   "raw": "ecd22e457d69357b6c9aa3fdc2822eb19d8c68787ef5194e67868dcd2e81dad0",
+   "normalized": "32df5f0c0dab68f76b4807e7049a30110313bc197dee559f27ab1272004ca3ec",
+   "body": "94bef9dc4b44df8d7d8a420e31c5ec7b9411c329da31c5d646538f0d65041e2d",
+   "normalized_params": []
+  },
+  "newsletter/2024-01-31.html": {
+   "raw": "aec60e04e2aab506e5c2f6b0ff5736267dec71a8d082e1e2f7c1e9762734cbaf",
+   "normalized": "4752d67e2d57adab4095fb8c9c33618dbcd0490562cb9c6cd01ef60dfdbc927a",
+   "body": "010e5adf2ddf023831ce121c9cee9d4c9fb1d830281d906982b68a18a8ed83c5",
+   "normalized_params": []
+  },
+  "newsletter/2024-02-29.html": {
+   "raw": "b84e169a182d5260ca15cca2bffe3b13ebb5da3d18f130235ea31141763a251d",
+   "normalized": "74778fb0b32f485f289940dc427b1a85bbd8bf749e3fadae190dacadb6581b26",
+   "body": "e7af9b5a4a64b8b9ff29f846d725d172bb2f99f549460e762ee75614a33d7dad",
+   "normalized_params": []
+  },
+  "newsletter/2024-03-31.html": {
+   "raw": "f76aef878f340d021697ee536b139b7c21299a0e41dca209283e549085675692",
+   "normalized": "344b9554b75bc9e816207e1e42acbcdac55dc8bbd7db4348fabcf4b79ac42472",
+   "body": "bc052ad1631b6de06259f675aebf095d1518ee3773e612fbaac9cc167e6e4f6d",
+   "normalized_params": []
+  },
+  "newsletter/2024-04-30.html": {
+   "raw": "f395e21c7c1a5b096f8d6c82668a27d606c61014f7c53e55e55614601372fb3a",
+   "normalized": "c8d9c4e54eb86ad2e19e68d13fd116e7e9003f38c32b42ba45a53b51963fdbdd",
+   "body": "656aab3b39b24fb639d425242c7ba8cd718793c7ee8e43881adbad950131feb3",
+   "normalized_params": []
+  },
+  "newsletter/2024-05-31.html": {
+   "raw": "593a4a6b20f9db426c961819af2e688a47973ab7a53e01e4459fd23cdc86593a",
+   "normalized": "3c28d2fa58750d5b31a37a79e03055b0f5d51df5fef2eef46a29cdf8d723ecfb",
+   "body": "f502fa8e8414d89f2d55114d48773a79d4cea4c92102982ef648f28d90c5ee65",
+   "normalized_params": []
+  },
+  "newsletter/2024-06-30.html": {
+   "raw": "d5733479abe1335874f2ebc8f1d205a6da9a96223a243e6e8852149337006fe9",
+   "normalized": "1ce2a1017e7330695d365ab5baee314942aa748de852450f879290958d9f2f52",
+   "body": "7a18955a723b1211c6fa89c06bc235d52663137cf1c58f1634cbeb3a8d62f4df",
+   "normalized_params": []
+  },
+  "newsletter/2024-07-31.html": {
+   "raw": "e3e03934e117acfbcac5dfd3e02f82adcc2b7231d3fb053816067488620c787a",
+   "normalized": "cc9433d3a9e3dae993f40464d952fd03453277b968f90df40b28cf85953f24d8",
+   "body": "adcaf23d9bc2af6a41353b5345f066edd08b286a65ecf92eaa9150c0827d99a2",
+   "normalized_params": []
+  },
+  "newsletter/2024-08-31.html": {
+   "raw": "9ea3f28a37ea4e36b5938ecb32030437822040e8b857680e02d92ec07bcbf40b",
+   "normalized": "1afa412cdaaa03d0776d514657bee8521c142a927009eef7bfba3be82563c046",
+   "body": "5446ab12344d1c2f864156df725678e0c6203e791f604ba56330a5d0bcc7bbb5",
+   "normalized_params": []
+  },
+  "newsletter/2024-10-01.html": {
+   "raw": "4c7b0c552923ea79f282a84b1b18748f75d5368bc3dfd09f2595a0c14571eba7",
+   "normalized": "14fcb0398091c0135038c699e36747061baa08d2f38d609f7d0b6d80f16cbc82",
+   "body": "b8444cf8fb416e162a32783eff649f26368fae56a076218c93666039a7f0be94",
+   "normalized_params": []
+  },
+  "newsletter/2024-10-31.html": {
+   "raw": "4f2f9b81af8fc065f2e7048e8e796f73f704779f19c9d8ad4203e2eec9888fa5",
+   "normalized": "963ad6deeed4e84cc045e45c55a1ce4d23602c44a194ff53d565bfe26fe36bb3",
+   "body": "71b9db28703d37d226367bf953ab69a27bba053774b7c6b062c60cc6acf5ce04",
+   "normalized_params": []
+  },
+  "newsletter/2024-12-01.html": {
+   "raw": "7352ba9825e829ed88b970139e28a5791e5d8d6bee0624bf4bb19d09d04302b0",
+   "normalized": "a53714aa08871232779a69fcfbe92dfe5a009c60ac4ef09ff1725d212d0ce45c",
+   "body": "90412601294771b65874a4bd18475de586b01e45af44b67950efa9cbc17b7843",
+   "normalized_params": []
+  },
+  "newsletter/2024-12-31.html": {
+   "raw": "e5994b6bfb96b8b917a34bc160449a217905fb348f583da8bab8615e56f8ec03",
+   "normalized": "f4464af1c57016e5d2bd496d0d9afcbef89c33d23438a9d5ada306c6675f0b31",
+   "body": "a35efaac3275f514187e7346642e0652a34c3c55944368c80401639e553d6e64",
+   "normalized_params": []
+  },
+  "newsletter/2025-01-31.html": {
+   "raw": "e26f42e3ffddf22c800ea8d15b37ea11183aba9bfeb9128e38351aafd7f035ac",
+   "normalized": "c75bdd809ab26d4fe45c79c0b33d8a0195fdc576a40dcde4c7b3ca64e123df45",
+   "body": "9ce24e56f2e00884203a01be07bf6b1b9a3404529cb8e7122bea4da11ce3da31",
+   "normalized_params": []
+  },
+  "newsletter/2025-02-28.html": {
+   "raw": "5afed00dc820e449956ba3601cc636fa4e521535c66d6cf6b0735902d2352699",
+   "normalized": "07c36364cd1e596bd869d1eab295e1a836d61019e9b93ab0eaf3c27c673b3020",
+   "body": "dc35094ca75083ba9dbd44887ceae3d2d0aed51e7dffbb73604aafbe30b3937c",
+   "normalized_params": []
+  },
+  "newsletter/2025-03-31.html": {
+   "raw": "4e0937b966e3efac6b036f414d8b480340ef0ad9bab9079ce529e191907bc415",
+   "normalized": "b379d84799914bab7f03fed72e6af7b730821a896fad9163b8d79a17e9176d01",
+   "body": "f1b9d0821c1c35d7c5832fd603aef21393b0449ea685de244213cde99a28f105",
+   "normalized_params": []
+  },
+  "newsletter/2025-04-30.html": {
+   "raw": "9d4af4b155197fc1a7b8d170eb20b9b9a5415e9e3a8b805d7d60a84762ea87d9",
+   "normalized": "2bbc2a1934cb292b10471b962b43ede8e3560a736f946f970be54e2f442cd244",
+   "body": "c77ce03cc1305e6679b98c735cf92ba834ba804c4b1ca7e47ca79ab60cbe787a",
+   "normalized_params": []
+  },
+  "newsletter/2025-05-31.html": {
+   "raw": "71790830de9cb475c01cb478002ca1a6ce577c77d592659f5aebbafee1681082",
+   "normalized": "b4bf73de9ad3816c6faf8e0d553fdfb99e7914c30fcf2c3ec88678bea25eebd3",
+   "body": "ebc2ea9494e17b9606cbc48d49d73664739c6a538191a6599c8588cfb1d3fcbb",
+   "normalized_params": []
+  },
+  "newsletter/2025-06-30.html": {
+   "raw": "91150e9f3b467960a1c5d1b902dee2ff95552874011573029e7e76b65e7c4dad",
+   "normalized": "2de437496d03f972867d71d9eb32049a240e2956942364d7f38825c85afe96bb",
+   "body": "0c7ba80d75bfd959bb79caafbee09f05154d7043aeca650d90d7dfbfd0961aff",
+   "normalized_params": []
+  },
+  "newsletter/archive.html": {
+   "raw": "58f5e6d0b7fbc60ff318a60ac0ee86ce678343898e392509a77560b12aa1f860",
+   "normalized": "02328b3f449784eba7f0ee9e22fc3ea561a63a96a24fa599034b4404c762111e",
+   "body": "d43994d900f2aa6be014e825da3b80d03eb64fbb67f239fa74cde1d4145d9d6f",
+   "normalized_params": []
+  },
+  "newsletter/confirm-email.html": {
+   "raw": "376ee7acd7ca0d68d96e49a1ee8650523222b330b96b2f011a888e9de492c893",
+   "normalized": "3f5498fa0ee32f6b8a4454c658b9dcaf509714d0d8e119ebd80c4b13c0979dc1",
+   "body": "fb58aa61a2d4bd7238e950e052e153a2625de37802a96bd09a4e842144e25e42",
+   "normalized_params": []
+  },
+  "newsletter/index.html": {
+   "raw": "0e35ef08f33528f8f43c0942220a7fa01d0bfc59fbca1bd42288a4b266dd3142",
+   "normalized": "63f6a0136dfa822d32c223905f6fbb59e7e71f9018b7a98937aac05ebb304513",
+   "body": "41dbd09346bb47d84755cee2eb2d140b0bbc919734f91f0837cca4b3df7379a9",
+   "normalized_params": []
+  },
+  "newsletter/subscribed.html": {
+   "raw": "4088c1456c44712b8f457093c9624eb8a1598053fc318bf6e4302575ed8c9b07",
+   "normalized": "ac58aa2c4dda25dd8b1a7d62694def3ad99c922ac0cd9aa0d441d99767c6ebd6",
+   "body": "186636516c66af62866c99055d468670c7f13e6486e32ec1a127be30d0e3bfc2",
+   "normalized_params": []
+  },
+  "newsletter/unsubscribe.html": {
+   "raw": "08e1f8829e3458f31d2b6c2b42daf13eb56c876143ef109fb9d3a70251bf3e3c",
+   "normalized": "49dffb810e067f76552218d53675522d092f9f0576a89ea3465ffe35c7cce027",
+   "body": "8a847c4519fa9699bf243d9f5eb9beae479e2716c0cc2f58721f0bfb09db157a",
+   "normalized_params": []
+  },
+  "now.html": {
+   "raw": "7f7cd670ecf597f803383750a895c5052a2eae0b067abbb0e056616b28c245a2",
+   "normalized": "3743eb4194069a981ac0f864c8bb4646570a5ba2c49a5fc9642396e27cf2b0d9",
+   "body": "f71318667f7b89172419e9292b387396f885c4e63a549ed9a200e68cd83aff97",
+   "normalized_params": []
+  },
+  "portfolio/a-minimal-task-list-pattern-for-govuk.html": {
+   "raw": "b7a02b4f1625060123a28d7871f55e620cb0db9bd0a6d5ea58066e5819d1a852",
+   "normalized": "c22f1a51423faec5a133d4124223c437f0ba65db4bf5aae5c5b212d4353219e6",
+   "body": "9cae54976017fc26fcc4593a5f28facddb5f52f47345448b0837623cc1275edf",
+   "normalized_params": []
+  },
+  "portfolio/designing-a-cohesive-suite-of-applications.html": {
+   "raw": "e0029995fd9dab45206a0c8b6c6c7920376a01b030d010f7217f2882f8b869e3",
+   "normalized": "6006637eb8d897c0081eedd3dbd306889ade06bc8f72068ba1f69b52d961453f",
+   "body": "451e8d33d3c4f167bf5ffed406a0235e3cf999d820d1d26cc60023c363634aaa",
+   "normalized_params": []
+  },
+  "portfolio/efficient-simple-and-usable-govuk-dashboard-pages.html": {
+   "raw": "b69d25cc7ca29fdd4e08d6536587c698aae143465ff6aca5ded1932811a52ee4",
+   "normalized": "d8e403179762a3d6a299e65582bfd84610704d4c777c8b93b8d4bf2a0cd9c7ff",
+   "body": "049e76886d5b361dc8ca895d2951a7c734967fef7e6c10e7cdaee0a6789d4bcc",
+   "normalized_params": []
+  },
+  "portfolio/index.html": {
+   "raw": "1cc85f634c3ea0eb72ba3fb9981391c7ff522eb1ad5ff4d9d29043bd7d95653f",
+   "normalized": "73b0190cae5689e3e57e6694ecd97f49db839092ff9ff1c533f4097338fcc40d",
+   "body": "f190a4bd94d85d7447fd04317a06eb696bd4a5a0bbff271ad3a6372c3b01268f",
+   "normalized_params": []
+  },
+  "portfolio/making-a-government-service-accessible.html": {
+   "raw": "0cba9011b6050d9420e6db5be3352aa4ea17452477f0b044bfcf62cbe4825020",
+   "normalized": "cc76b25e50e0ad1db678c32de80dc36f52821e184f38818dd200f6c5bc974c97",
+   "body": "d54f3ee9c989161837a4690399e82312d3505f92bd614f77d4188435b3531175",
+   "normalized_params": []
+  },
+  "portfolio/scaling-accessibility-awareness-at-sage-five-years-of-gaad.html": {
+   "raw": "48f173c90203982502d7eecf94bb9b50d885b20fb8c867adebbb13d97174f3f2",
+   "normalized": "98fe65aaf97ca12cae4d1d4c4cded3e8737fa13737d2f4e28ca2e236cedb83b1",
+   "body": "638f4e15838e52c5bc070e9c56f21461431082de37a9574fc1d3c510f42d0f10",
+   "normalized_params": []
+  },
+  "privacy-policy.html": {
+   "raw": "0f7a06da8851f867d844bca5c9d4eb180d82f65a9b8d7b786b08b601fbfcb34d",
+   "normalized": "83313319f119b35992074e004d02860d2433ff62b8f667f72f917c194836a88e",
+   "body": "4dc67236daf1617307c6a1ea636a037d3e402be53d1fe21a28aeb76b2330671e",
+   "normalized_params": []
+  },
+  "resources/android-email-set-up.html": {
+   "raw": "13f9b735ef03369d6ea56322beb46aa2ca5af64c95ea40bfaa54265636f2b44f",
+   "normalized": "047bb82183bf48b7e59f02642b471675f2e15fa0858a36486703e37619c9a0c6",
+   "body": "5274dba3a2d93cf93ce8cf6b30531d0303f1aadf5db3ce56ad35fef3e08d323f",
+   "normalized_params": []
+  },
+  "resources/are-you-living-in-the-past.html": {
+   "raw": "78fb8dfea14844be929725c17f24315207b026ebf81982eb3a785067efe8a820",
+   "normalized": "ed4a78f6a8e6e8f1b45da64c0460dac3aa07a1b33ef99b111ab37a36863609a6",
+   "body": "c97c179de3edd393dd30c0a743399be56c520561c16d5d28331eba8ecc6c7664",
+   "normalized_params": []
+  },
+  "resources/bookmark-icons.html": {
+   "raw": "1ecf39439ea86f338bc866df4923d6d534d53ce8c69d6607d42cb208bd58bf29",
+   "normalized": "d20a2454c30d585b06c8d4526d16adb7a4414804afe39044cc3d365a85dfaf24",
+   "body": "3c0cd966fe718c6599648a844eecf24b060d27deee60f91293a944ba29357fdb",
+   "normalized_params": []
+  },
+  "resources/branded-email.html": {
+   "raw": "641184cda5729262e57bc3bf4a50069356eb1f6a189d9d57d35b3911a46be5cc",
+   "normalized": "c2b6a54f9ee2a9e13448701e1fe942e0b4598897385df342c089d4d2ef877e16",
+   "body": "7f17d2f42f2ce3a722cdab07cc8439a10568a27262c94ee49654c783777d3572",
+   "normalized_params": []
+  },
+  "resources/calls-to-action.html": {
+   "raw": "1440f161c7586a4fa03776e97cb4f3a60005e0e4b3c51a3f919095333ce7507a",
+   "normalized": "aeb616235b52c40e2c849e80a5d2c39ed6331ad939efee11054cfd141ff2eb1e",
+   "body": "986f4afb7299ddfd585059c1f02f1db69afa5756a5068c315018c3343d93d181",
+   "normalized_params": []
+  },
+  "resources/cms-updates.html": {
+   "raw": "18fe29e35e680fd8cef9999b6d4409455a2ad201f0823170be9b7b7f989ea411",
+   "normalized": "80b935deeb49f28238fb8757ea136aa68f1b7701c08a8d69205a6ba326e4e0a4",
+   "body": "caabe6475b0b262b1885b40d866741801f633394383e38ca22436aea0846f6ad",
+   "normalized_params": []
+  },
+  "resources/contact-forms.html": {
+   "raw": "0489f0aeeb2fb6f21ebf401e28505029f0a6b83c10aacfb14e50595dafd6876d",
+   "normalized": "62eb996b97fbca36b5f161b2fc2500455d0cbeacc33a58e477d836408cb516ab",
+   "body": "66718495ccc3e717089b85b732e3e2b002c656b63265d1e8a59d261687a9e5b3",
+   "normalized_params": []
+  },
+  "resources/design-and-build-for-the-worst-case-scenario.html": {
+   "raw": "56e0c1294f80ed05d547eb21599fe57ab713ffec32736d6651e38b3803965ca4",
+   "normalized": "3c881ea677f625d8e93d79cd954b2e5e468bcedaa33d9ffdeb76c2431fc50f89",
+   "body": "c79e681d64bea8c9f918f0cd455f1778911fba0d74756c090dfc027dadbf1d54",
+   "normalized_params": []
+  },
+  "resources/disability-on-the-web.html": {
+   "raw": "0c7b3919d6f51d4c95a78fb5c254319a51cbb03792843e13b41e01f989f43110",
+   "normalized": "70d921adc4b2323ce73ce7506e73ca15c2bbf245883858db23de4bb5a5babfc2",
+   "body": "ae49391dcc7c22abe42fa8ee65b7612f5f9e570a5102928ddedccfabdb0ef147",
+   "normalized_params": []
+  },
+  "resources/displaying-an-email-address-on-your-website.html": {
+   "raw": "878ac8d8246931333605e5c917e85ce0c3b89a64dadcd97ef34a1a46e46bc07d",
+   "normalized": "29b8d26742ffa0ce7473aca825954b248430e668ba5823f262b64ebcd3e87347",
+   "body": "51125d09e5c4bee9723201919f54e5f35147e170ff4cd985a65a311c3f7c2e93",
+   "normalized_params": []
+  },
+  "resources/do-i-need-a-cms.html": {
+   "raw": "5797268fbcc40665a348acb94553e392645a471fff5d0a8251220a774c6b000a",
+   "normalized": "1874d9b9040556d75871ea1b5a5ebb5c7ea7ac7ea057a529b9378af1d2cbf6f1",
+   "body": "65e0a32d5a41609ec975e512d7d411750bb5021d74fc21dce4866ffd54b960bb",
+   "normalized_params": []
+  },
+  "resources/do-i-need-a-mobile-website.html": {
+   "raw": "e12767a25fb34f5cb0b37f29f58932151adb4ab05b623ba55b8bd61ce3bb39da",
+   "normalized": "8997eb8b2ea73f27a6ff718e8b90af5bdd3623eeb09c51409e74a6c1ec588228",
+   "body": "8337e23effde4c8890bf522a7af5e4091e76ffa41f8381e6ba6ea3d02d4fd72b",
+   "normalized_params": []
+  },
+  "resources/domain-name-renewals.html": {
+   "raw": "136aa71432aab2f1510d90ff7533597c6275501832ad95f39195f82d8f632bdc",
+   "normalized": "4faed4ee678d9902617d3b34e2513ac61e74b5549061054ff2702d2a6315cdc3",
+   "body": "21e45464c6e09a05e53b7389c67a6dd9cc0797b51a58350ee604e197c7f55d15",
+   "normalized_params": []
+  },
+  "resources/domain-names.html": {
+   "raw": "11ac1c45983870b90c8d0fe776d7c6fa52e71cf8af11a2e2c1ea1494b6b5d336",
+   "normalized": "4d458b6a9ad66b8cac6d4a33e8c31a11e28f00b924bb467ff0cf611724d8a1f6",
+   "body": "0f588e2e6665dc01fa947c840eaf07bceb431c483a649b21cbb39503c46cc13a",
+   "normalized_params": []
+  },
+  "resources/edit-your-blog-posts-off-line.html": {
+   "raw": "6418c17263499f65894d23e30020c9621c592fb5e5734161ed240bef16c345e6",
+   "normalized": "a9745a6d37c4bdf9cc87583df3b7b86dfdb7b2f1d30c22ba07a37309cbd4997c",
+   "body": "aeb0ea71d3ad2ef2cac989b511c4f2be57b835764f457a2036526f7c1c74710e",
+   "normalized_params": []
+  },
+  "resources/facebook-business-pages.html": {
+   "raw": "395b705dc04c0143a912a4fe68c1ee48cdcc585cb6f4139f9a66159a6b9a9baf",
+   "normalized": "250dd5f44e039b044c2369d0b6fd1e608d22853bc5466e42c77fb73b8ef0bd10",
+   "body": "24c581b1f4849471b0946adfbaae0e4b21d6fb5dc6eb7a2ce2e3e2f6d2c42b34",
+   "normalized_params": []
+  },
+  "resources/giving-social-media-the-right-information.html": {
+   "raw": "5b186db354ea680c55459ff6823a68aa74d825ab62156f12290c8374ccd81188",
+   "normalized": "3543a3108301d650220cae0a36c208b6c5b70c517aef18d99fb0e703f8fcfd1e",
+   "body": "4923bfd8a6c03e3aba4626fb457eaa8a3a2491fe6e66bc1236d531b636fc7c41",
+   "normalized_params": []
+  },
+  "resources/google-analytics.html": {
+   "raw": "de23a40d46e3fec4a0d9e361d6be31482149261d5072b6d5402f11885d1c4f34",
+   "normalized": "8072e2fc08d20ee1bd7aa743abe4377f57ad9846cccd92c1fb9106963b3fbc8e",
+   "body": "2c772a514ee19efb7a88de8e4417e899ad6983a8172c58128f2135ba1cf1c1fb",
+   "normalized_params": []
+  },
+  "resources/google-gets-serious-about-ssl.html": {
+   "raw": "906171b27e5dcd5ae481e1940769e32b4cda8e36c47939b894e2255722bce5d2",
+   "normalized": "8d2da92aed71ebd0637f58747490b817d32cedba89e1fa9b9d1d6bad791dfc0e",
+   "body": "6e7c9a03a3d3e801ed93d13da21ab95f2f2df71b3797b5daa2d9a7f39205f113",
+   "normalized_params": []
+  },
+  "resources/google-history-and-your-ranking.html": {
+   "raw": "132f9bd826d1a662e5a563cb236553f647d4a0d9f17ed38a0db74840347b0cb8",
+   "normalized": "9f754ce56b8277a2a6dc169c2a7632f443ec2be9cdb2437c79bfc78f3e911eee",
+   "body": "35a1b4cac4f7de77e2788a594aff90a04e68279b9bdae56a6f045493d3851a44",
+   "normalized_params": []
+  },
+  "resources/google-places.html": {
+   "raw": "2ab757415a963cac6bf876a617c060d613a21b39be2e704d346da142e08ab671",
+   "normalized": "96eed03cc73cb8af7f925288cec75af79e7d42d7861a4946bd1cebdcbbbfd306",
+   "body": "c0038b9bc17c2c4bb9e451802ae294b49d0ada1e51579815cc6bc1e6b4d9f7cb",
+   "normalized_params": []
+  },
+  "resources/google-plus-whats-the-fuss.html": {
+   "raw": "979c4f25edd64da11f398b2c43ff5718893551dd8ac3b6e692c391ccb67b26a7",
+   "normalized": "4d2ed185e0c356d39746696284a643113f45665cbdd646a3b625067a668efb60",
+   "body": "f1876106ce9be1d7ac485e1813923697c55e1c3841f9932a443e9bcef3c4f39b",
+   "normalized_params": []
+  },
+  "resources/hero-images-pros-and-cons.html": {
+   "raw": "3077f528cc40ef08ce4fd6ccab8ecebf2d1143de30f79d32c3916d9f3567c109",
+   "normalized": "f32be923384e13f0108b44aa1b8e92bef61281d448558faf2728a43df43143cc",
+   "body": "5b97f34039849c7db63c4d90414ecef184689c195c3459ffe0541269c256fe8c",
+   "normalized_params": []
+  },
+  "resources/how-can-twitter-help-my-business.html": {
+   "raw": "c36efd715d6486a3f6ac52c17037d2a82c722e3f4f3029c244afca810175d459",
+   "normalized": "22481d3a39ca7450bdae2012b9b999e3107c5f7791a4c3bba45ea35ca4097fd1",
+   "body": "3ad5e35f8bf7d922c7447d1b802555a11edbf8f3690a1b2567ef5f07a56a5d86",
+   "normalized_params": []
+  },
+  "resources/how-headings-work.html": {
+   "raw": "7225be8d5ba8be159f7cc26bed5ee369608502b096ef30a4a45a56fe786b360a",
+   "normalized": "4b4d28d6330e9fd57e4eee01824a6006a492dcd94b9a5aaea54f82f29d67b4bc",
+   "body": "8b21646f99ac790d99e303805f940a8af31efbb71a01656023fd3217faf68031",
+   "normalized_params": []
+  },
+  "resources/how-the-web-works.html": {
+   "raw": "663685012a040f9a9e8c4f16b170df18643d16138dbcaf7d898751cac076dc2c",
+   "normalized": "8d701ef7778963f13a8cade41bca3b75671a9c6488e6429fe532ecec1cd58745",
+   "body": "a181b271c37043296c18b1ae4f03c862f680374da985a26e4a25c9007fc4b3ab",
+   "normalized_params": []
+  },
+  "resources/how-to-write-a-link-using-markdown.html": {
+   "raw": "b501e601ee40a4843108f4b174e318f9e3c3efec9420a153c4624ae4ee34377d",
+   "normalized": "0b68e9461fa5355c57a4a381dfef9c65016a8c585db4b17c0b1e52f113b0f2c3",
+   "body": "1c7302052bb93b40381cf5a89742be2369c1fdcc7068ef4d898b4e482a033664",
+   "normalized_params": []
+  },
+  "resources/how-to-write-a-link.html": {
+   "raw": "12b17219112ca8208b50cc7eb1554a5f52b26fc62b4cf577ea8307667647d986",
+   "normalized": "d94a02adb9543c5d9bfb190cc63ed180fb5f592893ce1ec5a403514360886958",
+   "body": "617ab0157238df3ba298aef4ab8c70b4ceaa0c19851aebde85d30f3d144c727d",
+   "normalized_params": []
+  },
+  "resources/image-alt-text.html": {
+   "raw": "82ab50db722d271353584b06b3c1b05c35eb2c698f103f598952a5e84743a60c",
+   "normalized": "60ee35f5d56add1a89f07ccc4f47e8fd4e8536076bdec4bd047e7f99c5856455",
+   "body": "348eb37e93c994f4f63cf9ae27de6f94e07bedaa045dd7a3858c7e6aee284929",
+   "normalized_params": []
+  },
+  "resources/image-cropping.html": {
+   "raw": "e727a91c4d2f20703def50f0cfd21385abbefd2a99cfade035e0eeacbc63afed",
+   "normalized": "37d635bd662344d02fca3bdc6100ae91ac0b56a75a93a40071d902e1c47d7d50",
+   "body": "0bde9621d78facdefd863c23df2e44fbed76ae5cd3e4d8a8ac267cd0946baf37",
+   "normalized_params": []
+  },
+  "resources/index.html": {
+   "raw": "c01860ecbb729cf23a797b70ae07bb91bd6813af4fd83a16070cd81d24f22ac6",
+   "normalized": "3bef506a781422bcdb74e781e4a5c5f2dac8709447156cb0a4d9cb29cac96e7c",
+   "body": "6907460320902289d0aaf66ca56ff007b2b4b2fe79e4963b0375902af8a93828",
+   "normalized_params": []
+  },
+  "resources/ios-email-set-up.html": {
+   "raw": "764c24ef2356ab26d54f523bc9078ae07424f782ee490c6067fb1c26bd82f536",
+   "normalized": "ef68b4a768180e252a8d33d2a510588e7713496e6eea2d6fdb20e5c219f88602",
+   "body": "3c599136e42ace65258ebc68a032124148a0f894289cb928e4c4fee6687733b9",
+   "normalized_params": []
+  },
+  "resources/keywords.html": {
+   "raw": "5ad464d1c56c5327151273b2edcfc0152b6585e05a7d2090b7d61b2652470e9f",
+   "normalized": "741016cf35533c1ebd77076c5f163fb2ee98abf1dfb5c369acca47b4a001caa7",
+   "body": "7d2b3fa34fc2cb78c4d97dbbe54bf64b25dc303ba76571bb9cd475e0a0d64057",
+   "normalized_params": []
+  },
+  "resources/like-follow-no-thanks.html": {
+   "raw": "3eb8fd3a66e3874e59a5628fbace2d9609f783ac29f06c60e821296bf94902ce",
+   "normalized": "117390ec3a8929a02fc9daae1a14e143e9294e272084e58fb6c506a38ff520e8",
+   "body": "84467d456d74999275aa760429a1baa3c0b7ca588f21dc4d67f52dcb977a31b8",
+   "normalized_params": []
+  },
+  "resources/links-make-the-web-go-round.html": {
+   "raw": "52b8016c8c8959e44766464d2f6e096ee65fe6233a1f48dc2de228e63fecd59d",
+   "normalized": "a21576858fa23e758fd152adef318bd58ec094ffc41113e147b2a8e58b6a8a38",
+   "body": "6c0ed852d9044535be090e983b01b07a826a965b3165e9d5e196b1dacf5c2263",
+   "normalized_params": []
+  },
+  "resources/little-by-little.html": {
+   "raw": "987673b40fcc488682bd0aafe775828c3b053a37c669946bf276c930a279a9e0",
+   "normalized": "c0a11ff9d0ce141437548030b4276d3851d1ae6e8570e48efad20eeee025fffe",
+   "body": "f038708ed0dc294f11a041f7f6d7f8d2d1b59f122dffbcbe298e820c3db67ce5",
+   "normalized_params": []
+  },
+  "resources/look-after-your-domain-name.html": {
+   "raw": "f385219390373fc09d3ea2dbdf6b9377c9f974b5b0488a53680e8b44a1030650",
+   "normalized": "efe2bfc5d6cf43b12b35855861c5f124f9e7a7e4ac0d06a113a13be9dc3b7843",
+   "body": "b44481bfdf77d7c5d3e63b3d0bcddb3efc2277a8ad17f692bc64c4567c4b5538",
+   "normalized_params": []
+  },
+  "resources/making-the-most-of-your-blog-posts.html": {
+   "raw": "906cde49815f582836681acf126c65f513a2a2e1d8a02d2f65884cff4f45311f",
+   "normalized": "c84a2448b9acb5551b989790885661a25138f000d8ca2c22b72f0ce2e29a9003",
+   "body": "6a82049c37ef6b2e93e986ee57ceab1fb3f1550e20ad3c636822b4b5c608d3a6",
+   "normalized_params": []
+  },
+  "resources/markdown-cheatsheet.html": {
+   "raw": "43bdc904bce64bf116aeb35193bfc3d049ec8a1b41762374e1e23e2b52c2d643",
+   "normalized": "2d9597baab7b8f1f8359345b1dff253e5b825cb50cfb9df5ab40adef9a69c278",
+   "body": "44437d2c097042dd6ba85361b1f59305b2321ca836a20b2ad15a74d9dee2bb67",
+   "normalized_params": []
+  },
+  "resources/mobile-friendly-markers.html": {
+   "raw": "3ffc41d188cb82f9380d64c2aa4ec748c4d46e89675b2d774d728b2677617cc5",
+   "normalized": "27f8a5f95e81cc4299ab844ecdf33b5b9b27dde02d5a5cee8e2dfabdd8c897f2",
+   "body": "b3f0ad882ce4711ac2a66e1f02aa672bf18aba3aef4d2874e2f240379e88bbc2",
+   "normalized_params": []
+  },
+  "resources/older-browsers.html": {
+   "raw": "7eb84ac9822d85fb44bb7a47f6801b664069942e92c379d74edd94e5bf248faf",
+   "normalized": "1a7765477d62d3f83956d9ea5458dd56309e21465ab23ebc5f67bcd0107d9ccf",
+   "body": "d05eaaf776c9174c2c956fbc4b679f741c27ad782acb15b4e266cb8139fa1430",
+   "normalized_params": []
+  },
+  "resources/page-descriptions.html": {
+   "raw": "6b3a28d367334bfc70aebc7d2faa4431f0041c48402da0ec83c746b2d5ce2d0f",
+   "normalized": "391eecfc161e67fe2f96653c9d1eeb6b4ac9c864d47b8d37ce4797eef5d35a63",
+   "body": "1d3199d18217e214094ed2e7a40be958b25440703579afafe92086b71e0a2e6e",
+   "normalized_params": []
+  },
+  "resources/page-titles.html": {
+   "raw": "2734ab5c09100b5b2469c3e56d5ee7ca0c15d6e6b4c2adbd8fa6ab8ee02ecbf3",
+   "normalized": "f82e05bb748bf8dca3b31eb54c6f58b9421b1db0dbe8672320f32ec8d128fce7",
+   "body": "9e9f088796e01a26f66134aaee71130044b0e7ffac7836e3010aa5e6a032c2e6",
+   "normalized_params": []
+  },
+  "resources/password-security.html": {
+   "raw": "edbbfa0f58f7b30029afbb34807caddbee5b945538214fd3db6c98ccf732e949",
+   "normalized": "722560bc7c24c784c9ec8596fe2fa25eaa5df2e1746bc6a722778f8b60f8ef0a",
+   "body": "3690ad8f29ff91fe5816cf9cba9f9a46cf93edc49e9ba7fc3d6c50a28ca784df",
+   "normalized_params": []
+  },
+  "resources/qr-readers.html": {
+   "raw": "dd92e20f543afba8fa8c3091b0825cdfeae4a076348ebdb4c589f584dc91f0d2",
+   "normalized": "808353b5b6e386ece57e714eec8a16ea9de50ba1bfc64805863d8d09f0022d2f",
+   "body": "c7da34a3c84a0823d7afa6c738f58d88b342920274a6bfb517fea09404c7c3a4",
+   "normalized_params": []
+  },
+  "resources/reduce-spam.html": {
+   "raw": "44a127e3e70b3ee76af1530832a6c439c6b928ba8955435c6044223d2cd99c54",
+   "normalized": "fc8c02ab14953fef3130e04b82023800738e95777e2302584f3c6eafd2065e96",
+   "body": "2f6ad01ee67f40d1b9b316e065c628d37a5c4025af09200eb2fb502a6952f6d7",
+   "normalized_params": []
+  },
+  "resources/regular-backups-are-important.html": {
+   "raw": "4ec05f561e3f502915535481ab51e6a1c7851deaf3f20a984bf62c9d82bc43a7",
+   "normalized": "3733c8b0ec0e968c6ee23daab16bf7e289479a565bc787c41ab466cb15365546",
+   "body": "8b6e890c6d0912ed71f452c99f747ac2b2845a7040f59a5f7e5d3ff5646067bb",
+   "normalized_params": []
+  },
+  "resources/regular-website-maintenance.html": {
+   "raw": "ea68ede3b554c1148ccccbbf956e75fe395798b43a5b1d47e1a3de4f8d12e0fd",
+   "normalized": "21cccec0ad2e97c42438e6dd7c16d6900f941a83e611418c50c3d90b8dbddb37",
+   "body": "a8692c293433ba12359b2de1de4b5e9c4b0ffd2778249dce870406ee79daab0f",
+   "normalized_params": []
+  },
+  "resources/should-you-go-responsive.html": {
+   "raw": "6d788a81462f683412955fa0ea67b2e02a433c2bcdc08ecdb30d64775d64b3e9",
+   "normalized": "68b9515296d4d2448edad08dff4b9110db13f7dfc5949d707587862eebd9c28f",
+   "body": "e1d0a0d63a44ca8ad288dca131f262904d9b6ffcb2e33a071d7eac5194b6ef5d",
+   "normalized_params": []
+  },
+  "resources/ssl-for-everyone.html": {
+   "raw": "49c4867ecd819ef35ced9043f16dd29d883ef81761b0e4ca22cc64fb609b96d9",
+   "normalized": "45a6739da6377decb1e306f7ca98da2f2bc668af64443ff11617cf6ec963eeb3",
+   "body": "71757ed9cefe5203fe4c3e2fc3e6bc68756187297d5b917cf3d9e9678737e3aa",
+   "normalized_params": []
+  },
+  "resources/taking-a-break-without-neglecting-your-business.html": {
+   "raw": "31f11cdb69ee4f3685cdc69d1b7ac5e25c3a41fc4439a075a69bedae7fa1ac6d",
+   "normalized": "85b0c065290a84cce57edb1b75c1269ba6b4cb704806559796e17b2cfeaff5a4",
+   "body": "26feb4571919c13801c9058eb0e7f1db93960b24cee8b32de5ac68bb96fac165",
+   "normalized_params": []
+  },
+  "resources/the-great-unknown.html": {
+   "raw": "07b6bba13b909993fd3600355bd936251ffa33d982a0853416312bbad0d7b262",
+   "normalized": "438cf79a56ebb2d022b418c016b7e1076a0c1428f0182f9a185248b8c804bbde",
+   "body": "b357613956931830503d6cc225cde27b5d87090e829cf9ffed5f6bbd443feae2",
+   "normalized_params": []
+  },
+  "resources/the-three-golden-rules-of-sending-marketing-emails.html": {
+   "raw": "22d29875524488a7e4645462a40d3bae8cda69dcbcb4bca8448470000ecf27c4",
+   "normalized": "6e6371e9bbf605011d2c1c5b8d464664f4a2b092088a227c263eb644cce487fb",
+   "body": "3adf5cd0b490b54c84fa81d5208267f7cab3cafe63929e78742ce2ca1d0f3c84",
+   "normalized_params": []
+  },
+  "resources/the-types-of-email.html": {
+   "raw": "475b0ce07e9774e3df9d11a9ef9f7cd176a4e7ed04cf230a20e32c5ad6d4c682",
+   "normalized": "0559613c01fd7a5d2925295f1e67bcfa5371a123b98de34966ed74cb0f3577ba",
+   "body": "f5f27cb333126356095c3f763df9433c04e0b2a04319f31fae1b6ecd647ffef9",
+   "normalized_params": []
+  },
+  "resources/tidy-up-your-sites-addresses-for-search.html": {
+   "raw": "457e61ed47733c61f87dc21e3d3c1740a12654c405f12bc4d5e5d4517b70fb3a",
+   "normalized": "b5974914536891a120990af070466ebb50f091541c4aa1385eaba7b246cbb6e3",
+   "body": "b2038dc9347ad90c01be70cd5ae669e230f13a8dba10909ebc4715bcffffb965",
+   "normalized_params": []
+  },
+  "resources/types-of-email-and-when-to-use-each.html": {
+   "raw": "9c5c9d921cd0537524ecca9706cad0da98e686ad049bfdae136c032660a1aee5",
+   "normalized": "8feb65c9ee1910cdbb59c9297dd2a43d2813ac1670ffd1526eaab06d66afe400",
+   "body": "84fb8f93223f468b1ff5cad7bf0b40310c1da9da5eaae41b6f4d90a953222772",
+   "normalized_params": []
+  },
+  "resources/webfonts.html": {
+   "raw": "f1b795e72ba7df674436bd7586950b7cab5c5e83334b6db65c978898a79ea105",
+   "normalized": "f5cd846e9d76af29c672cb55f67956b28a00bae51ae3720731e71b84d495d75d",
+   "body": "ff035d1a0dc36877e76046276c29b2fb6ea862b650d8bc0de8a777c1df01c737",
+   "normalized_params": []
+  },
+  "resources/website-updates-and-avoiding-content-loss.html": {
+   "raw": "b1592c55dd997ff6219a8aeafbe573917c60d3e6a8dc63405fa7e908e60f2288",
+   "normalized": "7e3dbcd9bbeda6804e0220ff11dc6908aafce053ed8b44d73be421b5ec494060",
+   "body": "d9832fedbbada8380a9b845989d56f1403d3eae0a1004b95f7dbfcdce1517109",
+   "normalized_params": []
+  },
+  "resources/website-video.html": {
+   "raw": "60d3d84db56daeee5bb06a06a1e9de81ee6de66298d893c0d605eec3c17b6100",
+   "normalized": "d4c56cbd8a325a5b5ab37c3d16d0ca625341603b10b1e9812347676c006af7d7",
+   "body": "9befe10db5f1dbd1e55bd53feba0f180899b71785ce9b2e1e7beb91c999973e6",
+   "normalized_params": []
+  },
+  "resources/what-is-markdown.html": {
+   "raw": "b629c0700c86649611d139e3235a3bff39fc319dc163fd7486c5b6283db22ae3",
+   "normalized": "fdb4242213b84bd79fdb1f5183027974b2d26d83b2c1de0d40c02ba708f75dcf",
+   "body": "12f64175b8766a9208aab7f879cd182782a5812f1604a4a62c3383e4940468a9",
+   "normalized_params": []
+  },
+  "resources/what-is-meta-data.html": {
+   "raw": "0d9c6cf31127a9e4499a63b5cf0d29f0f3b8a1f4f646d93b147e240f8179c4c8",
+   "normalized": "d81d0e350149d0e179cc7e5da0e479f5ef01a2447341c856fa2ef9c36bf81adf",
+   "body": "8eb8b352ebb8508502c0729a35719fb488957640a9fcfb85ccc0a70ffb6acdde",
+   "normalized_params": []
+  },
+  "resources/what-is-ssl-and-is-it-worth-the-bother.html": {
+   "raw": "1590ddaed872816d860d73faa833996de152dd1e6b2b1b66a88a6f5cb5a66c0b",
+   "normalized": "edcc76cc0b55e88354c7d5c15d195fafd700603191e83f21263bec0d89fd7f7c",
+   "body": "09ace1e5ef927a385812352c594b60f3fc8a3c628da04667b47ec2db334465af",
+   "normalized_params": []
+  },
+  "resources/what-search-engines-want.html": {
+   "raw": "d6e427d8f35173eac28caf32a578a7f0a8830af354f7e28268d2661c7a3bb63c",
+   "normalized": "2ac22d5a3f53e2206f0a7457641c7220f9bdaa117900ac5d3ee2604cbc5002ad",
+   "body": "d48041599f9065eb110032f866c8508b901870265241cf1e13c63cffd9318908",
+   "normalized_params": []
+  },
+  "resources/what-you-see-isnt-what-you-get.html": {
+   "raw": "dee7d82996741386b35c6873950e50f51fe2f47787aaded278f44c010884e02d",
+   "normalized": "8fa31d7ee64d0fc5a2f0fda7773d736d12117079047c8f953a55145b08ab5ad8",
+   "body": "92596433eb5c25694b3d212cad01bf2fbe0e2cd9599888b70dd503ffd44841c0",
+   "normalized_params": []
+  },
+  "resources/whats-in-a-browser.html": {
+   "raw": "719628e60abf03a60d22853452bad9fe3c3c51f62c7bb142c1546672ecc7a074",
+   "normalized": "40dc462c884195a04418ce6556376eafa253d41fcb8c24380ba49574c1f03df4",
+   "body": "8461d6eeacbf33d7a0aa2f4286e158061ebda985eabdc2096369f78412759301",
+   "normalized_params": []
+  },
+  "resources/why-do-i-need-a-website.html": {
+   "raw": "1f6944cacfd7772e5da3fe0f9e796a2fbff21e00c94346185b43b668f0477e8d",
+   "normalized": "90d7d75e76d6c329026225036e6f59ca8872e2eb0c98db2464853738c20d332d",
+   "body": "0f3e4366f30479da91f3a900a023ee0385bf6d24d84587cba39b8127be8da921",
+   "normalized_params": []
+  },
+  "resources/why-i-changed-my-baseline.html": {
+   "raw": "8858aa14b09f47da7cba1a41d5832804959297c070fe60c1e1db90b1ead42781",
+   "normalized": "a6e153f57424822f179a49d0d81b7aadc332b0e32fafd5fc00b10594ab2fe1a2",
+   "body": "6806a037b048610c51ecf3cfc7d343e76b45b1e39f29660f53f68b9f162f9596",
+   "normalized_params": []
+  },
+  "resources/why-should-i-blog.html": {
+   "raw": "54bc17ddeee85883c982af2b43fd3703963bb893f42ae28ab693623ee0a0efd4",
+   "normalized": "49acbfb22a1703697d9f41e3de0341eb8646960cdcb6515a20be2d94a31c1307",
+   "body": "fed8e8e397140d750cfcd918b54470009df434e701b58582ff888c8bf49639bc",
+   "normalized_params": []
+  },
+  "resources/why-you-need-a-privacy-policy.html": {
+   "raw": "cc840fc930f5ece650fab469fe953e61985375875278a47a65aa1dd1051da1ee",
+   "normalized": "6e06d3b22ef71ba56d19209f129727d6e71ab5cff618cf92b1a2309af8c589cf",
+   "body": "d84153a4425a0025b255bff1e858f956ce763a64ac4dc23dbec4ba132a781d0c",
+   "normalized_params": []
+  },
+  "resources/writing-your-website.html": {
+   "raw": "2ac739c24a1b8aa633ad0df929ebbc0cf6d3605991d437012eb56d34895bdfd6",
+   "normalized": "56d7d20f7b3555113ec0e2781db58e0f070d60dce702158bf774a2087bf3b473",
+   "body": "27b249e8abe34f38eee43b581bd75adc7453f4323233e198156036b620d5806c",
+   "normalized_params": []
+  },
+  "skills/accessibility.html": {
+   "raw": "a09374643b397981c07d92b498514b5527b6428d4ab9b830c77c0fe6859ac83c",
+   "normalized": "032dcfaca72285a324f2377708c338c726ae485f4fd66b761ef80173d24ccbc8",
+   "body": "40c4d0d6a4b90cc64018c3a9289f2962ac546ccb6aba2f393fb64c0e5ef60491",
+   "normalized_params": []
+  },
+  "skills/frontend-development.html": {
+   "raw": "269eb08ec0f87c82eed3ad329f1546601c0fe90e0bed39c0df2fe01b3cc87775",
+   "normalized": "f6ed96eee70324f62454995c89b3aa65b4ce16009acffe7cdcaca67d7270e171",
+   "body": "b01cc32276f34d057f677aad621a024f76243e1e381b663e862f8cde6a5ba546",
+   "normalized_params": []
+  },
+  "skills/index.html": {
+   "raw": "b747b1140f9956aa583f16a73b9fc6714b7d12d650bbaceef0d54f3df4284ae2",
+   "normalized": "ab028836b09f5eae40b56a0009f2c6200ebd595c77eda2810c1baea2584d4b56",
+   "body": "813876319f8a06cfaa1cf5318fd1e0ba4424aeb5ebb819205e28173bce348bda",
+   "normalized_params": []
+  },
+  "skills/user-experience-design.html": {
+   "raw": "604b1e20c7a44ac5b9861a3f180ea61deb1fb0d1a2c0df1a7e9925b2f22304fe",
+   "normalized": "e53a54271e31ba352cc32a6b91029ac91adf71b3d618a62bae0b339d89c58813",
+   "body": "d1e12764ea4cc9a4cb09af1939bfbf749bb492e6f00844482f63db384527de7b",
+   "normalized_params": []
+  },
+  "terms.html": {
+   "raw": "f3fe21026e7a77ce17420f20f2318aac9e824b53196225a9b0bb1f6be097e53b",
+   "normalized": "3363f5ac08541dad827828bcf5fe10d350651b56059d63487946c013be5e357c",
+   "body": "df1c8de7b6da946e70da3acd9265c9554d4ad48da9a1d7e94ca534202b636245",
+   "normalized_params": []
+  },
+  "testimonials/ally-patton.html": {
+   "raw": "4f7b8b0f1d2d5cb664ae895b04f6d431beb3ca0b212d28c07fb20b193e9ac19e",
+   "normalized": "c364399c3d021428d3c015f7b165c01c45a1fe651d48fa6d893d5e2c9c4879f6",
+   "body": "46feb148dc4e2222f9f5864d7db1cf513e6768d395721f13e0bb5fc1c0f6799a",
+   "normalized_params": []
+  },
+  "testimonials/amy-collier.html": {
+   "raw": "e80e2de94c817093db39da352f4e2eafdc985eaab2da3aad163b47b118dcffe7",
+   "normalized": "ba4a80dbc937a200eb59b5ef11c4a4bb3ec7f9538ca03aac4efb4d99626785cd",
+   "body": "5e165adc5fe1423fd9b91e369503bdddaa654dee34bb035b33c124a883daf994",
+   "normalized_params": []
+  },
+  "testimonials/andrew-dennis.html": {
+   "raw": "47a1d69f6108081b33c254fb6da24da848a1020b3f2ddb549639643068a5616c",
+   "normalized": "cdbd92af4fc128af8417e2cbb6222bb5ba2466e06f13231ed891edeba6af9a58",
+   "body": "f6b53638102007997317ef91bf20338d2b9e8bc25cf8d384839dcaf408ca7755",
+   "normalized_params": []
+  },
+  "testimonials/ant-barker.html": {
+   "raw": "cefed0f18d252a4fb0d52f91370655849f778da78a333eeea7b088ecc716ddd6",
+   "normalized": "9cd0fef2f3eda6a3b40d7da62da747b6467a272918c0567f39f580f5a869a486",
+   "body": "b6c1a2076712823d858b6b4b841e4282d134852cac9942247310ff96bf707aad",
+   "normalized_params": []
+  },
+  "testimonials/cat-johnson.html": {
+   "raw": "64a65bd449da832bdd459b5509d075f2dee04487dab3a701a025cc6f6e684e50",
+   "normalized": "829ddf17ae8748177baacd853a59919de54782963ae3aaf89f9fd2d205d3bce9",
+   "body": "cee858373e7aa9fec9fa0c91db9853f2bb152ab14929be9fa8b3849aaaf39d58",
+   "normalized_params": []
+  },
+  "testimonials/charlotte-black.html": {
+   "raw": "0d54f140c9d587dfcd4c558f30626aba09626cb53bde8ec7e2a1808e91b56690",
+   "normalized": "60f3884f2e0c6e5b0dc3299e96789e5d4478a100c65ca2d83523d3a3602a5344",
+   "body": "5cd6f4e02ede9d403d339a6f191b60eebb4595b31898ff005cdcd50e9aec67bd",
+   "normalized_params": []
+  },
+  "testimonials/damien-flannagan.html": {
+   "raw": "d5d548ef0278072eefe3295d03cf792ff57a8894d55d2d755e7dccc94d219f23",
+   "normalized": "56d4e9f6d2046d1a581b0bd43d59663aba653f0aa4a70d7d7f3bc4ad5023ff6e",
+   "body": "d89f2fd806f2b8ae0e4a218dbd99c2a5a8dd3f5ffe8047a0706a6784fb387716",
+   "normalized_params": []
+  },
+  "testimonials/duncan-edwards.html": {
+   "raw": "d89afefcebc8eb5bf38951fb755f6ff16ef4562d120b4fdbc6bb4da0c184947a",
+   "normalized": "440544e829dae371969bef703adc0a94fb983533394d6207be1fb963efc238c3",
+   "body": "6960b804c4c5f759042a8f112314bf781b5245ead0273a8cba58e4f2fe217084",
+   "normalized_params": []
+  },
+  "testimonials/graeme-andrew.html": {
+   "raw": "34fd0a92d1d3f556bbf6a35e2b2941d3c4245a2245754707b867ae9c6ab47e1f",
+   "normalized": "29bb4afad39dabd3c33320fd477f1e066d1cbd96f6ba578a62d21cde287ee22e",
+   "body": "fe67f083e0a3ad049a42432b0b926c24a13b2ead4b2612e007cf85e52f8a3e53",
+   "normalized_params": []
+  },
+  "testimonials/ian-blackburn.html": {
+   "raw": "e100950df60ff5b7f04695c6c9068e0e8291c85966852f2b7ca356abb46e1634",
+   "normalized": "1a40e211edd88169711f0c7ec338c698dda084813b35ee62a951a41efbe5b215",
+   "body": "9bfabdb2c8349b46ef4b3c6ae039d11ce17a3c38b0c88327fb8e0e49610e12cc",
+   "normalized_params": []
+  },
+  "testimonials/ian-rowlands.html": {
+   "raw": "3bf3897975a14ffb1e66071a46310be504bf8fc588210a371123ad2a97d3e6f2",
+   "normalized": "4bc17e56c24e516fae97310e7919524e65493be3eca1afb0d8408a6ceb22319e",
+   "body": "29a362cb1edb2217b67abb4e16742df6c06ecbf417dde8c6d9b5789d3f8e40b7",
+   "normalized_params": []
+  },
+  "testimonials/index.html": {
+   "raw": "5a115de0307d5e50c098b62039586b50be378907d489f45ffa11d43bd8c080e0",
+   "normalized": "2b1ba794b0ff4d41db18515c633a272bbb192274274523ce2cc643d3ce230e7d",
+   "body": "2b708fc9c304b2b92843d41bb5d40acbd6ef286866043bcd040a27be02872cf8",
+   "normalized_params": []
+  },
+  "testimonials/james-mann.html": {
+   "raw": "521030a28107d9d1e298ac4c99e3529f2441955451f0ecb8847d85429656d646",
+   "normalized": "fedc5e7235d52b1a84b7cb0bb543db1bd4e5b41674ccaedc4a940860c44c50e2",
+   "body": "701af40c207d000c4ce3f962afd662dbf2ae04477a38a0ae9dd44bc62cef351d",
+   "normalized_params": []
+  },
+  "testimonials/jenny-pattison.html": {
+   "raw": "3861f8aa079067625dbe2897ab24f6e1e9ddd62ed2f00b1ba446fcef5a29554a",
+   "normalized": "9d9ea437c734569c83b5650aa90e16711e8bc7b1dcb4ad9b3e30033cb8acbe5d",
+   "body": "9169829596590551425fa80f417576280e7c9ba1c252d81612c6c6ed6d25fb40",
+   "normalized_params": []
+  },
+  "testimonials/jo-darby.html": {
+   "raw": "0ffb81809c475452c22b1435a7a3b1adf914a5836444f7057a85b3c9e893e291",
+   "normalized": "6828b947dec23f7014b47d85d4b2851f7d56af9965fed208d4f3d935b0e91581",
+   "body": "f098542481023ed0162bb5ad97e7ed56c28616d22073f10816ffc7016f027383",
+   "normalized_params": []
+  },
+  "testimonials/john-ruiz.html": {
+   "raw": "dad836daa786507e2d52fe39631fe266276f957048995777bfcb77d50b062fd7",
+   "normalized": "2ed18e7d377337fe063bacb24fa3ddef8d99189f0612040177a36709dacb9b8b",
+   "body": "5ddc66e4a5de3a08a6d01c9d9c5452722deeb3f84e75286969da031ab2e6cd42",
+   "normalized_params": []
+  },
+  "testimonials/jonny-penzes-underhill.html": {
+   "raw": "036869d3208d0ea19204111c1d3c563486e8498f40056d93d7c975c807f910d6",
+   "normalized": "85ac071a7375fc50655807f9bc1cf615cc7438bd924e86843a799d794281e88f",
+   "body": "ebfa1500dc92740aef3bd14f7d9f61c0e53bd487abcb7e9a7581c27f8969c98e",
+   "normalized_params": []
+  },
+  "testimonials/jory-adamson.html": {
+   "raw": "7539fd62d8d8e84290521489ce0b4868c8c693ec0561ffd24ecfcb6f78919db9",
+   "normalized": "0f7ef1fcd4cf506b988edb4bd22bc27dd366a1b28e15b66ed5a78ec6953ebe04",
+   "body": "f4457b9827f7a81916d7015a5657a53b0fbb8f8d16f290b6c633ca8af6abf171",
+   "normalized_params": []
+  },
+  "testimonials/karl-reid.html": {
+   "raw": "6560a1e203c92bae52a3efb640b0cc784215ef4fd7e2d0bbcc67a179990c5ac0",
+   "normalized": "e644e4679f2c20ca29db16435d05ed71a6dcf39ddd00a85aed6e117dc0505220",
+   "body": "b3068915013197f98ecaba9cfa3a575763e0ef2ad3bc3001e6551d6c7737fbd3",
+   "normalized_params": []
+  },
+  "testimonials/kathryn-taylor.html": {
+   "raw": "1658ce4ad748cf6943ace0b6fa75ecf7544c90d8e29a1f8641304d93172af68f",
+   "normalized": "a94b5be104a8df236442ce9ea75a409a30179543f821d18bcffa1185b5e53e99",
+   "body": "7710e1503b4f3235f7659f0dd104e4b3699d4d61084b647adbb62b9132cab8a4",
+   "normalized_params": []
+  },
+  "testimonials/kevin-dawson.html": {
+   "raw": "683508241c68f09ad4fd56b1fe0c9e18a0dfdaedf89f18fe84280afbb6c74965",
+   "normalized": "39f2cedf0a01bde36f027b4a47c61d38c45756d2bf0a0043482abaecdeb92330",
+   "body": "41bed509eb7d0bd91d0724242b3345e819d756d7ddf103e8cb08c05fd0de6833",
+   "normalized_params": []
+  },
+  "testimonials/lamara-mckinney.html": {
+   "raw": "e3e08651a6654f60b4f46b6958e9c0cd56a32690f166ff046fe22b9e81d296ec",
+   "normalized": "a3f681d8b8f730f6f7c6cafea237b08ea6f62078215b1d6077c6e77e8fcf055c",
+   "body": "fdfbd7354b02a2ae54e9cc1e046edd92bd442ab8db7118a77236b54317170758",
+   "normalized_params": []
+  },
+  "testimonials/leanne-clegg.html": {
+   "raw": "1c8e66833e7dd26cea3bd771a466b907e2c39ac9493c0ba3c8a3c7b1c4ae12b4",
+   "normalized": "8f98f5798202887df55434c3efabbfc65437aa5b75cc95adab0d0853be8cc069",
+   "body": "768ec1ac33e037f32d9c74041bdbc29cf72d8f5c9976241a299c9bd6181ef158",
+   "normalized_params": []
+  },
+  "testimonials/lesley-fenton.html": {
+   "raw": "611d1f3097e1afeeadc66848915287a0780809b64ee47e5977bef3413238d84d",
+   "normalized": "fedf1a026ef342b8169d916d65bad51bc1e0df2b673f6af5b47e3be30761a417",
+   "body": "cf764a45a6e67d913e98cb690351dc8374c46c78010b9b34707f615e9a0e96f6",
+   "normalized_params": []
+  },
+  "testimonials/liz-turnbull.html": {
+   "raw": "d7e8ecec55709b2e7dca26a50e863ee2ac7dc03d7c4ae28495a6d494da69c83f",
+   "normalized": "2f30dc957f2e1492f84847ab2d6eb3d4ecdc0744796c5321e3ed57d00131eaff",
+   "body": "2ac761cacbe71780f9d01b2125209f4456eb9a0ebf152eafbaae3795aa2f6c02",
+   "normalized_params": []
+  },
+  "testimonials/malin-bond.html": {
+   "raw": "8a138e7c861b3ba062e7f82f8df720a6fb1c960042b69b1ccb976a945e7c745d",
+   "normalized": "a26e421e8340fe6e45a504964132983a7c39528af0f4d5822d462ecb66226a16",
+   "body": "73b3a371fcf22bf8696e8a83b1d55cd45e660453111918cafe8b1153ddd7aad9",
+   "normalized_params": []
+  },
+  "testimonials/martin-deane.html": {
+   "raw": "006e0903337910bad9cdd4b4444133e1178f26780a940679f6b5b7954a9f1821",
+   "normalized": "807c7071a0188d0af289f8b760b88dd0c655561da6f11789e82fdd3559e3a2b0",
+   "body": "332b1a8703534c891587abeefa1ef4a61055043b35a3afb756e4e339d1853cd1",
+   "normalized_params": []
+  },
+  "testimonials/monika-papaj.html": {
+   "raw": "710243a47abff62ee218a6e617cd571c324fd6b7e2d57bb90a7d017f08cf1857",
+   "normalized": "bcd2859c377e4fac9c1997d2b009a43cb7c485defd609de503e5d28b61567911",
+   "body": "90951ba956ffad80d269ae7215f9501c8521c3fc0121e51812732207ffce6d8e",
+   "normalized_params": []
+  },
+  "testimonials/pete-wilkinson.html": {
+   "raw": "5cc2bf803a293610071223c8181995e2112369c66d16478b33f170d8f11dc7aa",
+   "normalized": "c4b81812197f2ff189a614adc20d222280e1a812d7662e9a8cdfbf2ef2a9413f",
+   "body": "3b8878359504300678a4a56416a3b4e6a4f52f8b157309e657385b110eef89ca",
+   "normalized_params": []
+  },
+  "testimonials/peter-opie.html": {
+   "raw": "e526c58489010a562d61d1c3e6309937b165de35cc357e5959043c223db82305",
+   "normalized": "7bdf2da4878a51275a50140f474d4cf85e2080f8493cd0bf31c9d4be50c7eb0b",
+   "body": "0e99098f0aa2940ba9ddff37dddb36c102b14af50e87794adbfb584d25c7a1bc",
+   "normalized_params": []
+  },
+  "testimonials/phil-wilsdon.html": {
+   "raw": "a6e4c6d4de98789997216c6906fd8d931d39afff93c50cdc3e85fed16609e770",
+   "normalized": "e48eeecb964bc60c8b7bb6154936d97378d4f6b6cb92bf342f72e40caca7d1c0",
+   "body": "1ce3c2e114f2e0c4fd53d0cd9a6b37ce4561bf0a7c7eb5bb90795431fccc3a32",
+   "normalized_params": []
+  },
+  "testimonials/ryan-davies.html": {
+   "raw": "f4e95ff8b6a9e086895b048f36d6dfee934d2ecd8168d12d9507fe42cc5fa7ac",
+   "normalized": "0629a6479d28708572f7381315e344fef5851219bed6fd5467964bdd83ddbea1",
+   "body": "527745a66024d2662d93689a17a85821629af4ef3e3dd30afe5371d1a533129a",
+   "normalized_params": []
+  },
+  "testimonials/steph-black.html": {
+   "raw": "812d3fda23582ff12a37c47046b4121c89ee8ba20c26131908b70e6a294730b1",
+   "normalized": "e657082d980fb2b06a3635555da9f1290633da3965c423a8ae2f32cccfbaaa83",
+   "body": "5897f04debda07f74a416c53f1f232029afb231a9221c31501c4cdfacdde7c6d",
+   "normalized_params": []
+  },
+  "testimonials/tammy-sanders.html": {
+   "raw": "2a9f17a53ca0f16a9c620ac720ceb5e2053c4714c49a92ee782d709af0d81ef5",
+   "normalized": "8ebba810cb2793fddc2c03ac22da1ba5729c863ebaf630dd79e6777145167be0",
+   "body": "4fbc7569a87f65d665a2a4daee5fca82be7de588cb9600b49e0e8403c7e6f4d6",
+   "normalized_params": []
+  },
+  "testimonials/tessa-gayne.html": {
+   "raw": "31738b9e779cabcad30a666ae44380ef50ba58820dc84f7f69c3210bce050874",
+   "normalized": "309848685c388afeaca35549caacfd38b0ba2db592c48800438c977856350541",
+   "body": "34d816948b71f1bc9411e62270ec8e92a5d94cda57a20760b6aabcea8470fab3",
+   "normalized_params": []
+  },
+  "user-manual.html": {
+   "raw": "f527c27608d877f5ea29a394d94c87ae38aa237d1c830a42938aed4cb52ae97a",
+   "normalized": "965aa7b000ba80efdad6b9a33d4fcf881386a6b9923b3a7ce8d10922cc14b32c",
+   "body": "21fd699eb7e59c1b70b9aaaa0153c45c4e195cf786e76561c7897e5b531c1d3f",
+   "normalized_params": []
+  }
+ },
+ "assets": {
+  "assets/css/non-critical.css": "4b8af54f2fab97ca932290212074e0677e74f0dbd6ee67e2a226e2476cf020c7",
+  "assets/css/print.css": "26689d1eb17254672451e321b47e6fb02f928d8e1f548401ad16b34e6d5b0061",
+  "assets/fonts/FSMeWeb-Bold.woff": "2d31c99bcafb8320f37d3308cc3645189a4be0fd69aee00acd3862c26c6089f0",
+  "assets/fonts/FSMeWeb-Bold.woff2": "608798d0d06728380cea5c38657f2affbbd71cd2bd171fd35061bdda51512bfa",
+  "assets/fonts/FSMeWeb-Italic.woff": "bfb65dddb3519c09bacf2eb2098b7903dd0bb3b10e750d89b484562f5eaafa55",
+  "assets/fonts/FSMeWeb-Italic.woff2": "cbb1bff48d6dbef30fe9d83a349e407b66a3298663d2c6851cf005ce69023169",
+  "assets/fonts/FSMeWeb-Regular.woff": "9e9c8b32b57a7a2fdbeded54866c8d7039aa77f907e6bc41938afe18e2710b9e",
+  "assets/fonts/FSMeWeb-Regular.woff2": "2e1bab5030ce8d6e32b68a34c7cf56677efb50fb4d1b14abbd396200e3c2dccd",
+  "assets/img/blog/app-view.jpg": "2277bc454cb45c54827d552ac422c2338497fbb8ec204a3ff8a5ff233a1becd7",
+  "assets/img/blog/apple-watch-grid.avif": "1dec825f353d235c50676ff11265f396245072ecfce3bede9e981ccf5a027dfd",
+  "assets/img/blog/apple-watch-grid.png": "86f37c7a158f7dc12bd45970063255f11b7c2404b5f184bcceea0e239c8890cc",
+  "assets/img/blog/apple-watch-grid.webp": "caba06370386915b482905b6087829a1651ab2d5dd01a97888a4983cfa2c9dd2",
+  "assets/img/blog/apple-watch-list.avif": "969a38ff11b7750d5ea588dd296105293e4ef7ff4b1133ca7f55b7c0841e8a9e",
+  "assets/img/blog/apple-watch-list.png": "0e75cd1e669f40d65ae732fcf7c5311931d7abbed01b95122f5a86bb74f18a7e",
+  "assets/img/blog/apple-watch-list.webp": "5e14ca7f0fdcba7cf256fe380154fa7eb5eb75eb691dd8a77491b22980e34d41",
+  "assets/img/blog/apple-watch-settings.avif": "8161a8e9902e1a5f882742a7e7c6be4d8eadeb0daba7b825dc8e892a3706ec2b",
+  "assets/img/blog/apple-watch-settings.png": "aa3d965c9b82be16b90309b03ca3943654cfecca4d4aa729abf51a060bade104",
+  "assets/img/blog/apple-watch-settings.webp": "73a84b344f691f575d1e65c1fbfe7c492146d0014c2e31b0eeb1452e0dedf8c0",
+  "assets/img/blog/blackout.png": "b82f71b9e4a13e8237239f93fa229d2b7a98fdc14a8d514c59bf7b130af5acd3",
+  "assets/img/blog/bmo-animated.gif": "0dfd295beb6f6a6c0fb8a17d37b8e5664022cf06449d3896a45c81597378522b",
+  "assets/img/blog/bmo-animated.mp4": "c4212b5b213d85d1f0a2249c620606caff6809c3fcb9e5fae331c095846aea0f",
+  "assets/img/blog/bmo-static.avif": "ab54bf882cd7089938c379887199a296c27c7232dd40bdb667e8044ef7accbfd",
+  "assets/img/blog/bmo-static.jpg": "95be37efb3f0b1af7c120cc4b70af36b25b12befc426c1c0a593600caef8e617",
+  "assets/img/blog/bmo.jpg": "5ba11f236ec2f0fe8972e5be9aa7b2f900757f0436dd13427460b98ab3de792e",
+  "assets/img/blog/bmo.vtt": "8060d1e3ea0f2662dd933b0eac5f1fb8d84e92ca647a12815d61b3efb4a28543",
+  "assets/img/blog/box-decoration-break--newer.avif": "813bdfea73fce221f2fceeb98779b1fd4e4c2b7efb3f7a91e8b458dc778c4fbc",
+  "assets/img/blog/box-decoration-break--newer.png": "5623747c7c5b0179d7b1586a90b9e53988e4ed2c7c37ef0ca2ca9c2f9a61c9d6",
+  "assets/img/blog/box-decoration-break--newer.webp": "04dd5f274f45eb2c7c9111baee9183c18c6ede0c0f75ef629a85f6b13a7b8a35",
+  "assets/img/blog/box-decoration-break--newest.avif": "e835c8262940f74bcf8d8f192899e29bc296b4ae38fa425e5bb74e66249a10b5",
+  "assets/img/blog/box-decoration-break--newest.png": "c6ebb46c13ceca32f81b165d3a7075deaba5d459bff729e144145d4f48cafe8d",
+  "assets/img/blog/box-decoration-break--newest.webp": "50bb3053f0768a476c2b560d2b932ac7f4fdf8c08957a4714a8e088280cd5162",
+  "assets/img/blog/box-decoration-break--old.avif": "7d90795ba3daffd1031131ecce42218856d1757ce67daa6bb07b63ebc214ce71",
+  "assets/img/blog/box-decoration-break--old.png": "76922dff9ddbb598486afc05ec866b9a855dbf1f50a3efabe9eb2143cbeffb2a",
+  "assets/img/blog/box-decoration-break--old.webp": "e43413949784a45d0d2a71fa1c62e432d49efba2ed3caedb9720e9dc2eeb8c60",
+  "assets/img/blog/box-decoration-break--trial.avif": "93a7f950f07c257f8121c0f33142644f9c28c35fcf23c871d2dd236f728eb177",
+  "assets/img/blog/box-decoration-break--trial.png": "351b36b02e7608d36d10945137e051eca7982c7fb972c3efbff4a5015af16e01",
+  "assets/img/blog/box-decoration-break--trial.webp": "88d322e156b1076cb80b3307fdb88f4770fee2a14676c9d7523e2188bce20ddd",
+  "assets/img/blog/button.png": "58483a2eeeb9f17772475d045966756c43e890a0dd2c81f11bdd9e9ad83505cb",
+  "assets/img/blog/cowsay.png": "e10576a3e48c4e1ca72e615385471400f7a21148e9560d63435fb5e9c5a65bbf",
+  "assets/img/blog/css-naked-day.avif": "3dc2d929efe2a1b233f3035bc239d0def9d1347fc1a93bad4c6fb2e7474854fe",
+  "assets/img/blog/css-naked-day.png": "0e3e81bf1fda8e7f6ce2107f72cc2bbf09e9a77955afc51278c3dd41e8e888c3",
+  "assets/img/blog/css-naked-day.webp": "54971ac8edabd5a78f4bea98ff30a072b5e599a10959cdb01d65117dd39d39d1",
+  "assets/img/blog/frontend-ne-logo.png": "c062d6ab4aadc7b7d1552eff6cb23c7203c0c34e702a522905557613bf1ce0d0",
+  "assets/img/blog/fs-me.png": "9068e4a1823893070965c0e36d7a9c3e2ad02ee7bea8041ce8cc735ad60b049e",
+  "assets/img/blog/govuk.png": "cb165431b72dc8d683b72881023736d7a0f69b9d7a0a786eb41e79de049c868c",
+  "assets/img/blog/homepage-snapshot-2012-05.avif": "fb2d620d3d531a4698179585f972917d543e01e3d5b13c6c0eb625df605c16c1",
+  "assets/img/blog/homepage-snapshot-2012-05.jpg": "0e394797bbc54dc6c4c953a2a3ebc1c9f6737a8086905f14e19f18e95f2bf25a",
+  "assets/img/blog/homepage-snapshot-2012-05.webp": "ec4357314a1bbec8950ac077f03e4c698ccdd5ef1d99086ad87b58d11ebf02ee",
+  "assets/img/blog/homepage-snapshot-2014-01.avif": "a342a99384602346e4d1ce797f3f4bac0a14833442e3420ca52354b157b4f99d",
+  "assets/img/blog/homepage-snapshot-2014-01.png": "8e8dbe421861a5809a3b50aec21df94ba9907a54a2342d98ab0c5c5bdc6acb69",
+  "assets/img/blog/homepage-snapshot-2014-01.webp": "0e4793868d3c42014af25d6049cb607a8af4b9cb15254530ef09e0c5456a58d5",
+  "assets/img/blog/homepage-snapshot-2014-12.avif": "d2c74dbd2e5cf5b31e67796fbd9ba1cf15664dc8943f8198c8a52710176e7483",
+  "assets/img/blog/homepage-snapshot-2014-12.png": "7e70d9a33631307b2d4ee5f304380e0f8b0159d10b1b2d01ef2dfe585f441889",
+  "assets/img/blog/homepage-snapshot-2014-12.webp": "42c2728982426d829fb3c7f570a638fec63df28b12b10d6d632a2a855b3f763a",
+  "assets/img/blog/homepage-snapshot-2018-06.avif": "707f9fd696a2336cb832a2b62d5205263e8eabe1d1e5cf2211e4ee361d79debe",
+  "assets/img/blog/homepage-snapshot-2018-06.png": "cca2940248ac80e759f08176ac7b4c717c41418a6da66831ac79eab9012191f6",
+  "assets/img/blog/homepage-snapshot-2018-06.webp": "c55660a47470b4afcd4a2ae125e70dbe32f386dccd0172957b06a6656fd0f20c",
+  "assets/img/blog/homepage-snapshot-2020-06.avif": "64fde68dfd08ae79778819e32aad43f9df89cf8e1e2ac813b36a2e04563c6cb8",
+  "assets/img/blog/homepage-snapshot-2020-06.png": "1b627e4f3d74a19f132b99d2f4e83e3c69af16043d9f5904b034a200d742978c",
+  "assets/img/blog/homepage-snapshot-2020-06.webp": "43f0581d46927b0cebbf934c80608f3fb01ebd0982f6dafd18a5fdfe7e32001b",
+  "assets/img/blog/href.png": "e7cc91d21cd1cd708da6ccd4ee6bd1690b735e7f3ced47a860a4e843fab1c4b4",
+  "assets/img/blog/icon-only-button.png": "e9604a6bb580e3e9328bcae6c03b040ac29766752fc64660e3728cfdbc9f1442",
+  "assets/img/blog/icon-only-link.png": "74751eb177b6b71ba69810a394a32473d2f2cafdaffe7203d5ac1bf92ab88753",
+  "assets/img/blog/image-aspect-ratio.png": "1860190d14de15490785c343c6bbc727f5df95cb789b44fcc5deab370cae8af2",
+  "assets/img/blog/invalid-code.png": "f5caf642057c841717dd76306b1970764a6d852e93f2de279cd226e05dee63c0",
+  "assets/img/blog/ios-14.jpg": "fe635e4d9d3b08e68de5278176d46394a7d41054e9d128fc64a72589f75a125b",
+  "assets/img/blog/ios15.png": "db8e74caef5ca3a65a479cac119b4bd321459adb6aab2b0ef1dc8dc7c439a293",
+  "assets/img/blog/iphone-event-2019.jpg": "7306aa94927354c864cd070cdadb65acb70834136121aa0aec52e35a77eaaedc",
+  "assets/img/blog/jurassic-park.jpg": "bc49c58223754eec84fc890c8cffdcd8fc3f61481a4f4010b59695219e943ca2",
+  "assets/img/blog/keyboard.png": "6008cc08f551cab6f6795f5b9e3b51ddd053c2140c1d1e6518a6216ae73886fe",
+  "assets/img/blog/keynote.png": "769efd4e18f0abf8b6b2f9cde32a8ace855821f13f70b188aeb1d50cb1a75ca7",
+  "assets/img/blog/light-and-dark-blue.png": "f3355abf9ec2b2ed9f5210bc67269835c6609bc0ec4743ea698baf11c68a40f8",
+  "assets/img/blog/light-dark-contrast.avif": "14964c201c5e11f1e5ee31e58c0de9c5e1de62359ba6bdfce8f9bc02ddc42b31",
+  "assets/img/blog/light-dark-contrast.jpg": "40d22d8514435c11a750416ccff5dd07849f1f4d1482d988a81f5fe0652daed8",
+  "assets/img/blog/light-dark-contrast.webp": "24ce7953356c71981f7d7ffca73702d1ea9d59f42bb9523e551b1e6c03096151",
+  "assets/img/blog/mac-event-2021.jpg": "d0314eb0546e99cabd93c2d3dcd0166f12b0eaf4e05bd374d2980ddf68d8e2da",
+  "assets/img/blog/mastodon.png": "3a2fe4647ce467a3f2a8bf838bc2644c5918ffe01c6c16c25a864e6ad884914e",
+  "assets/img/blog/monokai-pro.jpg": "d781917d84372b275af8fee1347e96a3fcf8e4480cd3905e2efff547b885aaac",
+  "assets/img/blog/pandoc.png": "3424ec4f53c72a16d122eadcd8407e3b393009ee802efa71ecc83ccc071a5681",
+  "assets/img/blog/robson-square-steps-vancouver.avif": "fad7f80b5dd1bbaaba04eb5ea14581d73794243163631328d3a978355392a2ea",
+  "assets/img/blog/robson-square-steps-vancouver.jpg": "695281bc5e36f3dac3e65e468106c578449a14ea64cb7bcc59d4049ca9a166f2",
+  "assets/img/blog/robson-square-steps-vancouver.webp": "80d7e15673c995ecc66f906382c9c36a5518ff69f44338b3c7cf68cf25a48d4e",
+  "assets/img/blog/safari-outline-corners.avif": "29a5239f126134c6f02eec04941588cc6e4ae9ddf2d7d74e7d47b67fce2b955d",
+  "assets/img/blog/safari-outline-corners.png": "9a777297a57264e1db535bf9f3d03239902aee8ace1408340191d527fa8ebc28",
+  "assets/img/blog/safari-outline-corners.webp": "51fa51a81b32ea7782641559322d20fda02cc65f36db0725d0b144b624e9f7e7",
+  "assets/img/blog/safari-outline-wrap.avif": "a4eccfc57f2995d38270c51da37225a20820371d9ac4205fee3535064c9c6f53",
+  "assets/img/blog/safari-outline-wrap.png": "7d9c12142d51bdd19dd4ee8c193d3f68c5b1f544c12063227864e11b027fbac3",
+  "assets/img/blog/safari-outline-wrap.webp": "00188b31ab5e1f1fad6108986b87e158501263265a338b16fbfade0f581dc9f9",
+  "assets/img/blog/shhh-emoji.png": "5a19063aeb14d81f4878444f24fd99c9c35019471a4e38350371fbd70810832d",
+  "assets/img/blog/spider-man.jpg": "d26ebcfd9d6826afc4da0d1ef3cda3fb3704b7eda6b1832cddac23b027f2b430",
+  "assets/img/blog/sunglasses-emoji.png": "f5a0f5a96da8ad8bb77b0c5f3773f2e05b7353ed7c829cd8eba32b3e359d066d",
+  "assets/img/blog/tab-groups.jpg": "82ae63ac00f9820e91c048bf09e20b627c0cf8aaa46ef636021ce2d209694e8f",
+  "assets/img/blog/tempertemper-logo--pixel-avatars.avif": "0b73ee0039f19981797514f988d035d42d1d9597dc2333437d9eff31e45bee91",
+  "assets/img/blog/tempertemper-logo--pixel-avatars.png": "dd73d4ce75676224b878f1f20223b9793ca14e606bf9b011d4f820894ee5318f",
+  "assets/img/blog/tempertemper-logo--pixel-avatars.webp": "da49b6faea18b3a9bda9b2cdef0f3cbac74f9aa4d62b513380a57f79bcb40e69",
+  "assets/img/blog/tempertemper-logo--v1.0.avif": "235d3069856045ebdd8a5feaaa873d5646c793fb30ec41dbf80211b88bf178a3",
+  "assets/img/blog/tempertemper-logo--v1.0.png": "771d4b662447cd4072952cc0e7611d80c77404d535dd31598a1eee768cb2a38b",
+  "assets/img/blog/tempertemper-logo--v1.0.webp": "8e6241cae79812622c01f9554bbe68d0dbdf4fe714fab77c419a6eb7af7a4c90",
+  "assets/img/blog/tempertemper-logo--v2.0-alpha.avif": "d3a053278109e0270b9401011302405f27e9010fb34f701fc2fce660f40bc590",
+  "assets/img/blog/tempertemper-logo--v2.0-alpha.png": "30e16b5ca7088cef145668ac2a95b9ce22cc5012a53424f8ee495a423ec505cc",
+  "assets/img/blog/tempertemper-logo--v2.0-alpha.webp": "b72747108f464220f21859ae7aeddadd81e210e31d9fda4f676435d1ceb5585a",
+  "assets/img/blog/tempertemper-logo--v2.0.avif": "64197ec45329b468060ebbd631d0d180aafefa8045e1870818a47a37f749b18a",
+  "assets/img/blog/tempertemper-logo--v2.0.png": "1138f38cdbf2f711bca81771f8531dde24d52f0cc4872d6027811f9b93cbf90c",
+  "assets/img/blog/tempertemper-logo--v2.0.webp": "1723372e7a440c1969289674916bbcddac9413314135ac4532f9cca719dbee06",
+  "assets/img/blog/tempertemper-logo--v2.1--icon--round.avif": "85d172839eb2753972904634c1f2dab4da1b4e2e5c7e44acf38e167e53a023c7",
+  "assets/img/blog/tempertemper-logo--v2.1--icon--round.png": "99cd66ffcf4eec71cfa34b6a8aef7a4a5b7ea5c0928b87448963e9634720d249",
+  "assets/img/blog/tempertemper-logo--v2.1--icon--round.webp": "a96630005f1a0a6d828d1373eb2793938450c494c21d2bf3c78fca1573e9cb09",
+  "assets/img/blog/tempertemper-logo--v2.1--icon.avif": "04dba6094af22b4c4fdccf8cf2036f20e7c57c5191604935d47640a04880f78b",
+  "assets/img/blog/tempertemper-logo--v2.1--icon.png": "f4183a5dbc007474b4fb85485b812f0726ce4fe6a17837d5a4d0cfc35a666826",
+  "assets/img/blog/tempertemper-logo--v2.1--icon.webp": "5ca8418f237947ae5bea360278f21be3255637a10283b0231a14a1b51196773e",
+  "assets/img/blog/tempertemper-logo--v2.1--underscore.gif": "101c82628e76514bb606b7a552f0d48327a155c2581bb54d91a12066e8e8c315",
+  "assets/img/blog/tempertemper-logo--v2.1.avif": "499a24256798581b562143ecf7fdf5fe0f4aca21f544926e261936e8b63dcaab",
+  "assets/img/blog/tempertemper-logo--v2.1.png": "d6b4ec9b6e4e4ce9ff3c73c738093181643785078988be82ae7cef1c0ca7d484",
+  "assets/img/blog/tempertemper-logo--v2.1.webp": "6f70c76af49ae98a2ce80d5775ec538e0b548b683a7161c3579f517e0778c68f",
+  "assets/img/blog/twitter-divebomb.png": "f849f8d06606df71c9208caab0150636a849fb322d3325389b5df02cf72d5913",
+  "assets/img/blog/version-5.png": "5b6aa1bc90de3eb8f49f046e7d3d3ca6df598b6284f0cae59015382e93dda51b",
+  "assets/img/blog/version-6.png": "cf43462a8e6777dfe07932b68c649612c89eb47b7d60def2425e8850217a6b33",
+  "assets/img/blog/voiceover.png": "1803b08fc033c869cc3c044add866378413d5d958fb35c65f996158596a50803",
+  "assets/img/blog/wcag-2-2.png": "a6e840d99bb5a679724b28823954f3770946d8ab178b2a514ca4edb43ee2636f",
+  "assets/img/blog/wcag-aaa.png": "66174a31ee618cd5167f29231d7c9c960b092f99911a8001db4d625b32eff769",
+  "assets/img/blog/wcag.png": "a0ca5d21cde70869269926a62a4938a88642348d043888629c1cb188215e3786",
+  "assets/img/blog/webp--face.png": "ccd13ecea2511bf778cd5e6c37fa31c4305928c45b2f360cc4fb76c4fb2cb906",
+  "assets/img/blog/webp--gradient.png": "d07f8e4505039602ff70ae78ea0eefda8a6347c8b928dc7114d9d5264d2a1e94",
+  "assets/img/blog/webp--martin-underhill.jpg": "a19990494587712f75969a1b52e7b2246f1a26945b05b098a96a51ca165ee1f8",
+  "assets/img/blog/webp--martin-underhill.webp": "e2deddae5956ea434adf1b483ae62668b38bc7a49d67b0e0a4c293c163b9a079",
+  "assets/img/blog/wwdc-2019.jpg": "b57404d7e44fd91a77145cc032c4bb5ecea53242bd0a2b74544bc8d2035aec9d",
+  "assets/img/blog/wwdc-2020.jpg": "a91eba932a532dda74f31fb7b1208be5acc26b46ca938780765527467e457161",
+  "assets/img/blog/wwdc-2021.jpg": "dc219ec679560878113e7421367d1022e699d0d429910488e963cc27734aa83d",
+  "assets/img/blog/wwdc-2022.avif": "9c30b6fcd12b6b4dfb9af9a1fc57c912caf1f0e0d39d28272470a181857a89b6",
+  "assets/img/blog/wwdc-2022.jpg": "df6ce2d6a9227edda6a18d3ac3f8d546faaf77e0cddf1f346b3938166f1afddc",
+  "assets/img/blog/wwdc-2022.webp": "484e677774a6869b08aeeccdfbbd17d0f8f1dfa4cc1b84e94f331ab20b3385d3",
+  "assets/img/blog/wwdc-2023.jpg": "392e64d9726e548d168b5bfcac600bc4b8415d6ab7332f057490267c07366270",
+  "assets/img/blog/wwdc-2024.jpg": "b12a943c704fd9025237ecee8716f747da8bfeaf76a5397332088dfa52914f3e",
+  "assets/img/blog/wwdc-2025.jpg": "0f3a515cefe04d784f1d44402f90f6fbefa6c9c7d6fb664f944d8837b6736c5e",
+  "assets/img/case-studies/colour-contrast.avif": "47189fe8c5c05bde68a6d0c3bd5995b43b2d15cf5b501b94d53fcb3f44b6c002",
+  "assets/img/case-studies/colour-contrast.png": "9d24abec8cf48d1ae392c8fe1a12302ed31f10999a460bae05bb27939dffed53",
+  "assets/img/case-studies/colour-contrast.webp": "b1dda5c5e0817972f4592be03bca5e98a664d19ad4db24450a40f27228d62f80",
+  "assets/img/case-studies/dashboard--new--renewal-due.avif": "5621f9ba6ec888f086915a865cbf842ffe7ec63a885c924ab03a04881dc98e65",
+  "assets/img/case-studies/dashboard--new--renewal-due.png": "0b46e710fcef3f12b3bdeb90003fc28d01a4d4e535e8b59bb1ab95af2f025afc",
+  "assets/img/case-studies/dashboard--new--renewal-due.webp": "2d52f602ddb04194a21e2ce637bf1789ae01d9f1db8099581f5280809af9b994",
+  "assets/img/case-studies/dashboard--old--application-complete-but-not-submitted.avif": "47c8ba6817b2013c2ed4372628b893bcdbb1700b71c579aed7e194c34358af04",
+  "assets/img/case-studies/dashboard--old--application-complete-but-not-submitted.png": "39be842654114ed912c2c6474014e6b018efd2da76b7cdde8c913266ceda3a18",
+  "assets/img/case-studies/dashboard--old--application-complete-but-not-submitted.webp": "9fcfa8a053c5c79d7859b2893f79ad7965dfca634e8ec5f793521ff094a7c911",
+  "assets/img/case-studies/dashboard--old--renewal-due.avif": "c3ed48ecedb64c61839fce0b8284c1b590e2e2ffc8c6a3c340d410564a89be3f",
+  "assets/img/case-studies/dashboard--old--renewal-due.png": "33b6b1bd6bc461a0e9feb81a416380fe7897a1c72d0606d81a0b2533d9c7c7b8",
+  "assets/img/case-studies/dashboard--old--renewal-due.webp": "61a83fadbb9db7404d699945b667afe590dec1108b146a96a6cf3091362c9fe8",
+  "assets/img/case-studies/evaluagent--app-landing-page.avif": "f2b0be0416cbf47cdfaaffdb15adc0df1279ea1e3f0832f66d41d3b370ce0557",
+  "assets/img/case-studies/evaluagent--app-landing-page.png": "4b73f03f74e5b54cff9480a77fa63bc106597d40cf070015657ff4ac2b66cf63",
+  "assets/img/case-studies/evaluagent--app-landing-page.webp": "4ae37f36804d94d2ca15029b13ce114047a6c245f6cdd1cb018edb433050e08c",
+  "assets/img/case-studies/evaluagent--app-navigation.avif": "6247cbe3ad37767c29d520a0ed762547481faab7409898f72f494b3f651cb577",
+  "assets/img/case-studies/evaluagent--app-navigation.png": "1eccc2115f6ebe873e949776eb8e68d3e1bacbf0ebbebfd1a4f3f1aea4375f57",
+  "assets/img/case-studies/evaluagent--app-navigation.webp": "5ac11c235b06a94af4990a398f096cd61dc860fa9eb79c9bb692ddfbb38c72d8",
+  "assets/img/case-studies/evaluagent--app-switcher.avif": "35ed14b4af0f23062968abbbfb9c3b4fcdb252d4ea0c93fb0d384022be54b013",
+  "assets/img/case-studies/evaluagent--app-switcher.png": "e418490b1489b4a7dd3471f534de9b9bdbf53119b2f9ef54aa1ab07f8b878023",
+  "assets/img/case-studies/evaluagent--app-switcher.webp": "2dc222786c59e41285bf13a26939b215f601b737fe54d4465b6870abe79d33ef",
+  "assets/img/case-studies/evaluagent--breadcrumbs.avif": "1df12689c26e40206332fd5a25d498ae26b3f613e8972fe3017f1514ea099b03",
+  "assets/img/case-studies/evaluagent--breadcrumbs.png": "32505742acfac90d58eeab3edc2b64f543c0d3afab328da830a958362c39a3ec",
+  "assets/img/case-studies/evaluagent--breadcrumbs.webp": "efb783b3d513dec3b63367616b918fcd95603b60a764e427932d0821550442e7",
+  "assets/img/case-studies/evaluagent--colour-palette-examples.avif": "f264549cca3ee1fda01975b01ff5798815d13e56de98db75f3f110dd73560d1b",
+  "assets/img/case-studies/evaluagent--colour-palette-examples.png": "aa9d939f3dcdca17707f314b137714e3924812bf5123730cbd4721135378834c",
+  "assets/img/case-studies/evaluagent--dashboard.avif": "1a706800986eae97c3176e4da7e60afc30035374ca2cb7753b8a932f06593b5f",
+  "assets/img/case-studies/evaluagent--dashboard.png": "e1fe24551015c532a155ccb7522443716714b4156193f249663daa7df7082e71",
+  "assets/img/case-studies/evaluagent--dashboard.webp": "07a57c6dee6805a7dc701eb24dcee78e63e9411a8d1a7e7422f0e8ee2d7c152a",
+  "assets/img/case-studies/evaluagent--gamification.avif": "7b8a257c7183cf7975d32825628a8bd29b6f92253b34020877d5b3e0677bd5bf",
+  "assets/img/case-studies/evaluagent--gamification.png": "4c5a9aefbacca765fa1439376cf0dba77ccc795bd307193e7d95b0e994699a4a",
+  "assets/img/case-studies/evaluagent--gamification.webp": "446384c8255cc551dd92ae2a69a5b52c2b07c37c4efb71168e670ce134253f97",
+  "assets/img/case-studies/evaluagent--icons.avif": "3fe893d7b30aca28d85d61c019d61dced242fee4083b6a81cb073f019951f26e",
+  "assets/img/case-studies/evaluagent--icons.png": "6d5ab5dc9d66236032451107dcc5e3dfae797306146e3de49979c9deabb3b0a0",
+  "assets/img/case-studies/evaluagent--icons.webp": "445143bca91af89bbdf19d0e56421f07ff6bf1eab654fa16a6c96bbdc38510fb",
+  "assets/img/case-studies/evaluagent--login-journey.avif": "e505647f2d2aaf59c6751f89087b885e72fabc632f343d11b0618be4b69289e6",
+  "assets/img/case-studies/evaluagent--login-journey.png": "419805efdaa108e6e1ba77a0aafc897c5a2e495c89da2eca396b4aad47b6dc2b",
+  "assets/img/case-studies/evaluagent--login-journey.webp": "12ef5084210373f3002a4157667c8d5ae19afff29de8065281051edc743f23b6",
+  "assets/img/case-studies/evaluagent--pattern-library.avif": "c582c35660f6e28534e335fcefa9c36beedd84caa3e13715acc94cc11f13a2ed",
+  "assets/img/case-studies/evaluagent--pattern-library.png": "2d3ab65471e9dcb3982975a60be72438d4a68375f980ad14fba54645fe4bf99b",
+  "assets/img/case-studies/evaluagent--pattern-library.webp": "911f5d1f5eb8c05d6bfcc1707c297df0bf6711a7d745e2166db2f639ba7ed71e",
+  "assets/img/case-studies/evaluagent--quality.avif": "cbb1aadef6466fd8fc683390058a2344a05af24d399b705b21acd8cbb3989023",
+  "assets/img/case-studies/evaluagent--quality.png": "39909c494b00f93395cd25db43252ccdf7886da5b37debc5cc104b4ee3c6c4c1",
+  "assets/img/case-studies/evaluagent--quality.webp": "d459f3689c9b7a50a260d9a7969cf226fb07bb72d20cbbb5b33fe8269727bcf8",
+  "assets/img/case-studies/gaad.avif": "b608222cb28c370d2260a48e630013846e6c6bf0e1dcfbc3b39d5ff41ec65435",
+  "assets/img/case-studies/gaad.png": "2253039179c533a9e03ff0128904edcfb5aa1bdfd0d0a70759d52483c24eb2bf",
+  "assets/img/case-studies/gaad.webp": "e8419c3c54e36d0dcfe783169dfec3b53277c5806651fd4e4318a4d0085dc325",
+  "assets/img/case-studies/task-list--black-no-blanks.avif": "af1597fee82c68ead43e261ef045b3186c502d82132a24b85bd4cc7259e5cee0",
+  "assets/img/case-studies/task-list--black-no-blanks.png": "ba357f8f363205552cf64995bd70b7a84b4fb6fa44b4aeee62c2e45b86337c8e",
+  "assets/img/case-studies/task-list--black-no-blanks.webp": "bfe8a4ad612957a6bd6776c466594bd32dce78f2c0cf21d2af9999561902b8a4",
+  "assets/img/case-studies/task-list--incomplete-state.avif": "011762fdd05990d22f1ca52b9759d5db856dd9af3b3c5ab35e2315d5c8c81e2a",
+  "assets/img/case-studies/task-list--incomplete-state.png": "dc55dde1e4c10b6b6de399066c57a302e59bb973a4847d180429235a4201502b",
+  "assets/img/case-studies/task-list--incomplete-state.webp": "8464c4f25b493851a5a6ff4038caff5612f152b6b8daa94ffec96b6a2ff9e6ec",
+  "assets/img/case-studies/task-list--old.avif": "14ad2d59cc86222fd7e5a40dd62da2a3e70c226e165cea190346254ae9248629",
+  "assets/img/case-studies/task-list--old.png": "f16ccfb93ab0c62bcb03d1644a206727dbc9763059574c7574e3622de2239ce2",
+  "assets/img/case-studies/task-list--old.webp": "823785364e70e55603981593c77bbf36be27cafb222f80cec5d82375bc7aeeb8",
+  "assets/img/case-studies/task-list--plain-text.avif": "2a6eba1bc4b939b4c5c5a11996a50f18aba8a67d1aa854310cc97b2a700c712a",
+  "assets/img/case-studies/task-list--plain-text.png": "485fa6dbeadb4e2e74bfc672d262c7b519b876dca2507045e95c80a94698931f",
+  "assets/img/case-studies/task-list--plain-text.webp": "75e28f02d2df759281295627ef55e35c46adca1de9f107d7503178540d7db273",
+  "assets/img/icons/apple-touch-icon.png": "c46acc1365ec8903d4fd6d7dc850ab82d946f952f456b39d0ac3016fcc67d46a",
+  "assets/img/icons/favicon--dev.svg": "5b8ff14768cde325ba6db9c6589c00effb4965d64db748f88c7f764afeaa7220",
+  "assets/img/icons/favicon.svg": "3b057bb5178907531a4f66ed011f1cca21469a8c90b6e43849d5c46e472ee82c",
+  "assets/img/icons/icon-192.png": "f025e8b6685a719ad18de8dc349792d778082df7db84dd3ca257074a3530564c",
+  "assets/img/icons/icon-512.png": "f3ff30ef640026d36c2886173b75cd530892ba8ab17920d5b05bde665b385b05",
+  "assets/img/martin-underhill-tempertemper--square-512x512.jpg": "21de9ddcdcb0ab77878db26dbf1b92f7eee3a7b44ce799f4b68e37a2773bc104",
+  "assets/img/martin-underhill-tempertemper.avif": "529086f7f8066bc1464d3a890e060a77e6a33b7c275967ba63d4ce47f0455eb8",
+  "assets/img/martin-underhill-tempertemper.jpg": "a19990494587712f75969a1b52e7b2246f1a26945b05b098a96a51ca165ee1f8",
+  "assets/img/martin-underhill-tempertemper.webp": "69e805552f5c18088a64847f095c8d7a69f90eeb0c188e58fc5330fd7eb85002",
+  "assets/img/resources/newcastle-city-council-ssl.png": "e5a5883d5e9f2170600042d1f26b77cda8798de0c7e02ff8e6392244cfc73b6b",
+  "assets/img/resources/screenshot-mobile-friendly.png": "d3c296c67e02cd95e73e3cd7514fe1191e64ed53483c6468a89bd4886f4979c9",
+  "assets/img/resources/tempertemper-ssl.png": "90cddebd7dbd37be2c3f1eb5a6e5a6e4e6ec8bdae888736f8866c6e6173c14dc",
+  "assets/img/summary.png": "f07ff012dc26aff98832c6e79c4eae939830ebd756f2e25ed4590e5e9d8072b5",
+  "assets/img/summary_large_image.png": "9e6210d920609cf583c021c8eb6640f68b5c4314c7d83b3bb873fb91cf7581d3",
+  "assets/img/tempertemper-feed.png": "44130107dbafd6534ca0a22893bef4ce49b4ccbac5dfcd162d544c91a57b3d96",
+  "assets/img/tempertemper-web-design-abbreviated-logo.png": "aa0373365a75f79a6b15e03baa38675429ca57af4cdd43c0f25eda2c788183e0",
+  "assets/img/tempertemper-web-design-logo.png": "bb0ab9ee04dbf9a7a69367e26e66a9aaf44cb0c1dab3e4bc0f3e5fe5b67f1f52",
+  "favicon--dev.ico": "193cf375316692d41a0aa5b90ce78355e0b4835e0f603b6da2619a787a90594d",
+  "favicon.ico": "8a1161b41424a33b35a7e7c84ec3a0ace8f9a28b8cddfdafea26ce0ee3e7c5f0",
+  "feeds/main.json": "960560ab49c6f1593bcceda594bf09aae95244f85993c0fc32ed2dc19709d6d0",
+  "feeds/main.xml": "b3fb828de68deacde39d02ba870efc3d4edc42b00d4e913f851602fe19ce5e45",
+  "humans.txt": "d7bc369a04cccd0f59b071cae2fe83e66b8004cceda9c55b52cd569e0205b042",
+  "manifest.webmanifest": "2d34e2a8afb41f587112fbdd90533fabd71669f9bafcac2a2f118d0664e93175",
+  "robots.txt": "c8fe02588f8424d1610e973a829d81cbc270521f6a6448449c203c6adf139a8b",
+  "sitemap.xml": "133aa2160f18db9534a4a1a4d25c2c480c71628c14c38ff08c67a5a3866b89cf"
+ }
+}

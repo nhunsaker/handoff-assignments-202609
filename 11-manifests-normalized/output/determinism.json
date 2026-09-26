@@ -1,0 +1,59 @@
+{
+ "controls": [
+  {
+   "sha": "c12d97cdbd8e4fcac10c964a7eb06f45e18c68fb",
+   "position": {
+    "first": true,
+    "middle": false,
+    "last": false
+   },
+   "pages_compared": 522,
+   "pages_differ_raw": 0,
+   "pages_differ_normalized": 0,
+   "pages_differ_body": 0,
+   "differing_pages_raw_sample": [],
+   "differing_pages_normalized": [],
+   "differing_pages_body": [],
+   "second_build_seconds": 6.0
+  },
+  {
+   "sha": "06f96f7861a6a49cfb372358894d7d448675b6d6",
+   "position": {
+    "first": false,
+    "middle": true,
+    "last": false
+   },
+   "pages_compared": 547,
+   "pages_differ_raw": 0,
+   "pages_differ_normalized": 0,
+   "pages_differ_body": 0,
+   "differing_pages_raw_sample": [],
+   "differing_pages_normalized": [],
+   "differing_pages_body": [],
+   "second_build_seconds": 10.3
+  },
+  {
+   "sha": "2cda2bdda6b7cca5c7d5c169eda1f7e867e0f236",
+   "position": {
+    "first": false,
+    "middle": false,
+    "last": true
+   },
+   "pages_compared": 592,
+   "pages_differ_raw": 592,
+   "pages_differ_normalized": 0,
+   "pages_differ_body": 0,
+   "differing_pages_raw_sample": [
+    "404.html",
+    "about.html",
+    "accessibility-statement.html",
+    "approaches/consultancy.html",
+    "approaches/contracting.html"
+   ],
+   "differing_pages_normalized": [],
+   "differing_pages_body": [],
+   "second_build_seconds": 8.6
+  }
+ ],
+ "generated_at": "2026-09-26T03:45:59Z"
+}
